@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-05T22:45:58.746Z",
+ "updatedAt": "2026-08-05T23:44:22.621Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "熊本は危険な暑さ予想も 熱中症対策を 台風影響にも注意を",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197571000",
-     "pubDate": "Thu, 06 Aug 2026 05:46:46 +0900"
-    },
-    {
-     "title": "台風13号 沖縄・奄美接近へ 影響長引くおそれ 厳重警戒を",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197581000",
-     "pubDate": "Thu, 06 Aug 2026 06:23:15 +0900"
+     "title": "【地震速報】熊本 長崎 鹿児島で震度4 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015195511000",
+     "pubDate": "Thu, 06 Aug 2026 08:17:23 +0900"
     },
     {
      "title": "広島 原爆投下から81年 核兵器の廃絶を国内外に訴え",
@@ -28,19 +23,24 @@
      "pubDate": "Thu, 06 Aug 2026 06:27:15 +0900"
     },
     {
-     "title": "ドジャース 大谷 カブス戦で25号ソロ 26号ツーランホームラン",
+     "title": "熊本は危険な暑さ予想も 熱中症対策を 台風影響にも注意を",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197571000",
+     "pubDate": "Thu, 06 Aug 2026 05:46:46 +0900"
+    },
+    {
+     "title": "台風13号 沖縄・奄美接近へ 影響長引くおそれ 厳重警戒を",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197581000",
+     "pubDate": "Thu, 06 Aug 2026 06:23:15 +0900"
+    },
+    {
+     "title": "ドジャース 大谷 今季初1試合2本のホームラン チームは6連敗",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197681000",
-     "pubDate": "Thu, 06 Aug 2026 06:25:14 +0900"
+     "pubDate": "Thu, 06 Aug 2026 08:26:56 +0900"
     },
     {
      "title": "消費税減税の基本方針決定 秋に法案提出し成立目指す 政府与党",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197551000",
      "pubDate": "Thu, 06 Aug 2026 05:37:10 +0900"
-    },
-    {
-     "title": "ドイツ東部の空港 滑走路付近で爆発物搭載のドローン見つかる",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197711000",
-     "pubDate": "Thu, 06 Aug 2026 06:51:53 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【地震速報】熊本 長崎 鹿児島で震度4 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015195511000",
+     "pubDate": "Thu, 06 Aug 2026 08:17:23 +0900"
+    },
     {
      "title": "広島 原爆投下から81年 核兵器の廃絶を国内外に訴え",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197471000",
@@ -118,11 +123,6 @@
      "title": "日本被団協結成70年 活動の原点とも言える集会の音声記録",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197271000",
      "pubDate": "Wed, 05 Aug 2026 21:11:39 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（8月5日）",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015196101000",
-     "pubDate": "Wed, 05 Aug 2026 19:37:29 +0900"
     }
    ]
   },
@@ -271,19 +271,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "原爆投下81年 核リスク高まる現在",
-     "link": "https://news.yahoo.co.jp/pickup/6590674?source=rss",
-     "pubDate": "Wed, 05 Aug 2026 21:25:11 GMT"
+     "title": "中継 「原爆の日」広島で平和式典",
+     "link": "https://news.yahoo.co.jp/pickup/6590645?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 22:48:56 GMT"
     },
     {
-     "title": "台風13号あす沖縄に最接近 警戒を",
-     "link": "https://news.yahoo.co.jp/pickup/6590676?source=rss",
-     "pubDate": "Wed, 05 Aug 2026 21:49:18 GMT"
+     "title": "熊本県などで震度4 津波心配なし",
+     "link": "https://news.yahoo.co.jp/pickup/6590688?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 23:10:00 GMT"
     },
     {
-     "title": "消費減税1% 外食に「割高感」も",
-     "link": "https://news.yahoo.co.jp/pickup/6590677?source=rss",
-     "pubDate": "Wed, 05 Aug 2026 21:59:07 GMT"
+     "title": "イラン トランプ氏に攻撃自制促す",
+     "link": "https://news.yahoo.co.jp/pickup/6590683?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 23:19:37 GMT"
     },
     {
      "title": "SBI新生銀行 地銀20行超と連携へ",
@@ -291,19 +291,19 @@
      "pubDate": "Wed, 05 Aug 2026 22:28:00 GMT"
     },
     {
-     "title": "住宅全焼4人遺体 叫び声聞こえた",
-     "link": "https://news.yahoo.co.jp/pickup/6590669?source=rss",
-     "pubDate": "Wed, 05 Aug 2026 13:56:04 GMT"
-    },
-    {
-     "title": "スペースXロケット残骸 月衝突か",
-     "link": "https://news.yahoo.co.jp/pickup/6590670?source=rss",
-     "pubDate": "Wed, 05 Aug 2026 14:16:27 GMT"
+     "title": "株投資で若年男性が自信喪失か 米",
+     "link": "https://news.yahoo.co.jp/pickup/6590681?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 22:38:47 GMT"
     },
     {
      "title": "「パチンコ」法人数 10年間で半減",
      "link": "https://news.yahoo.co.jp/pickup/6590679?source=rss",
      "pubDate": "Wed, 05 Aug 2026 22:26:10 GMT"
+    },
+    {
+     "title": "今永8勝目 大谷から被弾後に粘投",
+     "link": "https://news.yahoo.co.jp/pickup/6590686?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 23:15:17 GMT"
     },
     {
      "title": "大谷が25号&26号も ド軍は6連敗",
