@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-05T20:23:10.234Z",
+ "updatedAt": "2026-08-05T21:39:45.385Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,34 +8,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "熊本は危険な暑さ予想も 熱中症対策を 台風影響にも注意を",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197571000",
+     "pubDate": "Thu, 06 Aug 2026 05:46:46 +0900"
+    },
+    {
+     "title": "台風13号 沖縄・奄美接近へ 影響長引くおそれ 厳重警戒を",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197581000",
+     "pubDate": "Thu, 06 Aug 2026 06:23:15 +0900"
+    },
+    {
      "title": "広島 原爆投下から81年 核兵器の廃絶を国内外に訴え",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197471000",
-     "pubDate": "Thu, 06 Aug 2026 04:52:24 +0900"
+     "pubDate": "Thu, 06 Aug 2026 06:36:02 +0900"
     },
     {
-     "title": "ドジャース 大谷翔平 カブス戦で今永昇太から25号先頭打者HR",
+     "title": "広島「原爆の日」の朝 被爆者や遺族が祈りささげる",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197691000",
+     "pubDate": "Thu, 06 Aug 2026 06:27:15 +0900"
+    },
+    {
+     "title": "ドジャース 大谷 カブス戦で25号ソロ 26号ツーランホームラン",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197681000",
-     "pubDate": "Thu, 06 Aug 2026 05:12:32 +0900"
+     "pubDate": "Thu, 06 Aug 2026 06:25:14 +0900"
     },
     {
-     "title": "大型の台風15号が発生 今後の情報に注意を",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197301000",
-     "pubDate": "Wed, 05 Aug 2026 17:44:28 +0900"
-    },
-    {
-     "title": "ホンダ 地震で生産に影響 部品メーカーの復旧状況見て再開判断",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197541000",
-     "pubDate": "Thu, 06 Aug 2026 05:17:29 +0900"
-    },
-    {
-     "title": "AI 実在の人標的にメッセージ“自律的に人だますリスク”",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197651000",
-     "pubDate": "Wed, 05 Aug 2026 23:33:07 +0900"
-    },
-    {
-     "title": "食料品消費税減税 政府が基本方針決定 来年4月から2年間1％に",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197191000",
-     "pubDate": "Wed, 05 Aug 2026 22:02:02 +0900"
+     "title": "消費税減税の基本方針決定 秋に法案提出し成立目指す 政府与党",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197551000",
+     "pubDate": "Thu, 06 Aug 2026 05:37:10 +0900"
     },
     {
      "title": "高校野球 夏の甲子園【大会2日目の見どころ】",
@@ -50,14 +50,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "広島 原爆投下から81年 核兵器の廃絶を国内外に訴え",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197471000",
+     "pubDate": "Thu, 06 Aug 2026 06:36:02 +0900"
+    },
+    {
+     "title": "広島「原爆の日」の朝 被爆者や遺族が祈りささげる",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197691000",
+     "pubDate": "Thu, 06 Aug 2026 06:27:15 +0900"
+    },
+    {
+     "title": "台風13号 沖縄・奄美接近へ 影響長引くおそれ 厳重警戒を",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197581000",
+     "pubDate": "Thu, 06 Aug 2026 06:23:15 +0900"
+    },
+    {
+     "title": "熊本地震 被災地での熱中症予防で対策アプリ開発 産業医科大学",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197561000",
+     "pubDate": "Thu, 06 Aug 2026 05:51:52 +0900"
+    },
+    {
+     "title": "熊本は危険な暑さ予想も 熱中症対策を 台風影響にも注意を",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197571000",
+     "pubDate": "Thu, 06 Aug 2026 05:46:46 +0900"
+    },
+    {
      "title": "ホンダ 地震で生産に影響 部品メーカーの復旧状況見て再開判断",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197541000",
      "pubDate": "Thu, 06 Aug 2026 05:17:29 +0900"
-    },
-    {
-     "title": "広島 原爆投下から81年 核兵器の廃絶を国内外に訴え",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197471000",
-     "pubDate": "Thu, 06 Aug 2026 04:52:24 +0900"
     },
     {
      "title": "沖縄 北大東村 全域に避難指示 台風13号の接近で",
@@ -103,26 +123,6 @@
      "title": "福岡 正副議長ポストめぐる問題 県議会が第三者委設置を決定",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197401000",
      "pubDate": "Wed, 05 Aug 2026 19:16:42 +0900"
-    },
-    {
-     "title": "熊本県内 給水所の設置状況【8月5日】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015196911000",
-     "pubDate": "Wed, 05 Aug 2026 19:15:22 +0900"
-    },
-    {
-     "title": "熊本 暑さ続く見込み 熱中症対策を あす以降台風影響にも注意",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015196771000",
-     "pubDate": "Wed, 05 Aug 2026 19:14:13 +0900"
-    },
-    {
-     "title": "「幸平一家」関わる特殊詐欺 別の暴力団と連携か 警視庁",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197371000",
-     "pubDate": "Wed, 05 Aug 2026 19:13:06 +0900"
-    },
-    {
-     "title": "大阪 警察官が威嚇射撃の約2秒後に発砲 60歳の容疑者死亡",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015196461000",
-     "pubDate": "Wed, 05 Aug 2026 19:11:42 +0900"
     }
    ]
   },
@@ -188,6 +188,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "NYダウ 3日連続最高値 ホルムズ海峡開放への期待感から",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197701000",
+     "pubDate": "Thu, 06 Aug 2026 06:32:07 +0900"
+    },
     {
      "title": "AI 実在の人標的にメッセージ“自律的に人だますリスク”",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197651000",
@@ -257,11 +262,6 @@
      "title": "ウクライナ ロシア物流倉庫へ攻撃 被害総額6600億円か",
      "link": "https://news.web.nhk/newsweb/na/na-k10015196701000",
      "pubDate": "Wed, 05 Aug 2026 10:26:14 +0900"
-    },
-    {
-     "title": "米 スペースX 上場後初の決算 AI開発投資が負担となり赤字に",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015196821000",
-     "pubDate": "Wed, 05 Aug 2026 10:25:09 +0900"
     }
    ]
   },
@@ -271,9 +271,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "被爆時は1歳 家族の証言継ぐ女性",
-     "link": "https://news.yahoo.co.jp/pickup/6590635?source=rss",
-     "pubDate": "Wed, 05 Aug 2026 09:15:08 GMT"
+     "title": "原爆投下81年 核リスク高まる現在",
+     "link": "https://news.yahoo.co.jp/pickup/6590674?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 21:25:11 GMT"
     },
     {
      "title": "かき氷の名店 熊本地震で涙の解体",
@@ -301,9 +301,9 @@
      "pubDate": "Wed, 05 Aug 2026 13:20:25 GMT"
     },
     {
-     "title": "第2の元年 秋春制のJリーグ開幕へ",
-     "link": "https://news.yahoo.co.jp/pickup/6590637?source=rss",
-     "pubDate": "Wed, 05 Aug 2026 12:08:24 GMT"
+     "title": "大谷が25号&26号も ド軍は6連敗",
+     "link": "https://news.yahoo.co.jp/pickup/6590675?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 21:35:28 GMT"
     },
     {
      "title": "甲子園出場の女性審判 試合後に涙",
