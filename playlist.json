@@ -1,0 +1,12 @@
+{
+  "topText": "営業中",
+  "mode": "dual",
+  "brightness": 96,
+  "speed": 45,
+  "colorTop": "FF9C00",
+  "colorScroll": "FF9C00",
+  "messages": [
+    "ようこそ「もしも」へ",
+    "まちと未来の実験室"
+  ]
+}

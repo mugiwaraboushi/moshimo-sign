@@ -1,0 +1,331 @@
+{
+ "updatedAt": "2026-08-05T13:11:59.217Z",
+ "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
+ "feeds": {
+  "nhk0": {
+   "label": "NHK 主要",
+   "src": "NHK",
+   "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
+   "items": [
+    {
+     "title": "大型の台風15号が発生 今後の情報に注意を",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197301000",
+     "pubDate": "Wed, 05 Aug 2026 17:44:28 +0900"
+    },
+    {
+     "title": "台風13号沖縄接近へ 影響長引くおそれ 熱中症対策も徹底を",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196631000",
+     "pubDate": "Wed, 05 Aug 2026 21:59:38 +0900"
+    },
+    {
+     "title": "食料品消費税減税 政府が基本方針決定 来年4月から2年間1％に",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197191000",
+     "pubDate": "Wed, 05 Aug 2026 22:02:02 +0900"
+    },
+    {
+     "title": "イオンモール熊本 “LPガス爆発の可能性高い”経産省など調査",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197391000",
+     "pubDate": "Wed, 05 Aug 2026 21:49:45 +0900"
+    },
+    {
+     "title": "熊本地震で9人死亡の日本製紙 初めて記者会見 社長が陳謝",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197011000",
+     "pubDate": "Wed, 05 Aug 2026 18:56:07 +0900"
+    },
+    {
+     "title": "高校野球 第1試合 仙台育英が札幌日大に勝利 2回戦へ",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197431000",
+     "pubDate": "Wed, 05 Aug 2026 21:55:08 +0900"
+    },
+    {
+     "title": "NHK 職員への人権侵害をめぐり不適切な対応を公表",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197311000",
+     "pubDate": "Wed, 05 Aug 2026 17:59:52 +0900"
+    }
+   ]
+  },
+  "nhk1": {
+   "label": "NHK 社会",
+   "src": "NHK",
+   "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
+   "items": [
+    {
+     "title": "熊本地震 災害関連死の疑い含め38人死亡 避難所に7122人が避難",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196991000",
+     "pubDate": "Wed, 05 Aug 2026 22:04:08 +0900"
+    },
+    {
+     "title": "食料品消費税減税 政府が基本方針決定 来年4月から2年間1％に",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197191000",
+     "pubDate": "Wed, 05 Aug 2026 22:02:02 +0900"
+    },
+    {
+     "title": "台風13号沖縄接近へ 影響長引くおそれ 熱中症対策も徹底を",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196631000",
+     "pubDate": "Wed, 05 Aug 2026 21:59:38 +0900"
+    },
+    {
+     "title": "イオンモール熊本 “LPガス爆発の可能性高い”経産省など調査",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197391000",
+     "pubDate": "Wed, 05 Aug 2026 21:49:45 +0900"
+    },
+    {
+     "title": "支援物資 目詰まり解消への取り組みも【5日 被災地の動き】",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196881000",
+     "pubDate": "Wed, 05 Aug 2026 21:28:17 +0900"
+    },
+    {
+     "title": "日本被団協結成70年 活動の原点とも言える集会の音声記録",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197271000",
+     "pubDate": "Wed, 05 Aug 2026 21:11:39 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（8月5日）",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196101000",
+     "pubDate": "Wed, 05 Aug 2026 19:37:29 +0900"
+    },
+    {
+     "title": "福岡 正副議長ポストめぐる問題 県議会が第三者委設置を決定",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197401000",
+     "pubDate": "Wed, 05 Aug 2026 19:16:42 +0900"
+    },
+    {
+     "title": "熊本県内 給水所の設置状況【8月5日】",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196911000",
+     "pubDate": "Wed, 05 Aug 2026 19:15:22 +0900"
+    },
+    {
+     "title": "熊本 暑さ続く見込み 熱中症対策を あす以降台風影響にも注意",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196771000",
+     "pubDate": "Wed, 05 Aug 2026 19:14:13 +0900"
+    },
+    {
+     "title": "「幸平一家」関わる特殊詐欺 別の暴力団と連携か 警視庁",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197371000",
+     "pubDate": "Wed, 05 Aug 2026 19:13:06 +0900"
+    },
+    {
+     "title": "大阪 警察官が威嚇射撃の約2秒後に発砲 60歳の容疑者死亡",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196461000",
+     "pubDate": "Wed, 05 Aug 2026 19:11:42 +0900"
+    },
+    {
+     "title": "東京都の最低賃金 10月から時給1280円に引き上げへ",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197351000",
+     "pubDate": "Wed, 05 Aug 2026 19:03:35 +0900"
+    },
+    {
+     "title": "【熊本地震 企業影響 5日】大手メーカーの工場など操業に影響",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196971000",
+     "pubDate": "Wed, 05 Aug 2026 18:58:15 +0900"
+    },
+    {
+     "title": "熊本地震で9人死亡の日本製紙 初めて記者会見 社長が陳謝",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197011000",
+     "pubDate": "Wed, 05 Aug 2026 18:56:07 +0900"
+    }
+   ]
+  },
+  "nhk3": {
+   "label": "NHK 科学・文化",
+   "src": "NHK",
+   "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
+   "items": [
+    {
+     "title": "将棋 女性初プロ棋士へ 西山朋佳女流三冠 「白玲戦」前に抱負",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197421000",
+     "pubDate": "Wed, 05 Aug 2026 19:16:04 +0900"
+    },
+    {
+     "title": "スペースXのロケット残骸 月面に衝突予定 NASAが観測へ",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196961000",
+     "pubDate": "Wed, 05 Aug 2026 12:08:24 +0900"
+    },
+    {
+     "title": "先月死去の東野圭吾さん 最新作発売 歴代編集者が魅力語る",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196601000",
+     "pubDate": "Wed, 05 Aug 2026 05:18:33 +0900"
+    },
+    {
+     "title": "豊臣秀吉の妻ゆかりの京都 高台寺の敷地内で火事 ほぼ消し止め",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015195201000",
+     "pubDate": "Mon, 03 Aug 2026 21:41:30 +0900"
+    },
+    {
+     "title": "小学館 漫画家起用問題で第三者委“人権侵害 助長または加担”",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015195291000",
+     "pubDate": "Mon, 03 Aug 2026 21:29:59 +0900"
+    },
+    {
+     "title": "「みちびき7号機」7日の打ち上げは延期 台風影響で JAXA",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015195091000",
+     "pubDate": "Mon, 03 Aug 2026 17:43:56 +0900"
+    },
+    {
+     "title": "ジャワ原人 赤ちゃんを未発達なまま出産し協力して子育てか",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015192831000",
+     "pubDate": "Sat, 01 Aug 2026 15:14:20 +0900"
+    },
+    {
+     "title": "松本清張デビュー前の作品発見 ミステリー仕立てなど2小説",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015191911000",
+     "pubDate": "Fri, 31 Jul 2026 13:57:53 +0900"
+    },
+    {
+     "title": "はやぶさ2は小惑星表面から約400メートルを通過 JAXA",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015191781000",
+     "pubDate": "Fri, 31 Jul 2026 12:19:35 +0900"
+    },
+    {
+     "title": "子どもSNS利用 一律の年齢制限必要か議論継続へ 国の作業部会",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015191101000",
+     "pubDate": "Thu, 30 Jul 2026 19:16:25 +0900"
+    },
+    {
+     "title": "中部電力 浜岡原発データ不正 現場は審査の早期終了を意図か",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015191061000",
+     "pubDate": "Thu, 30 Jul 2026 19:11:58 +0900"
+    },
+    {
+     "title": "熊本県内のモニタリングポストが復旧",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015190991000",
+     "pubDate": "Thu, 30 Jul 2026 17:58:38 +0900"
+    },
+    {
+     "title": "アメリカが人型ロボットの輸入禁止を発表 中国政府は非難",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015190561000",
+     "pubDate": "Thu, 30 Jul 2026 12:55:13 +0900"
+    }
+   ]
+  },
+  "nhk6": {
+   "label": "NHK 国際",
+   "src": "NHK",
+   "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
+   "items": [
+    {
+     "title": "米 ベッセント財務長官 “協調介入は象徴的な意味合い”",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196511000",
+     "pubDate": "Wed, 05 Aug 2026 22:05:21 +0900"
+    },
+    {
+     "title": "トランプ大統領“あすか あさって ホルムズ海峡開放の可能性”",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197411000",
+     "pubDate": "Wed, 05 Aug 2026 19:17:25 +0900"
+    },
+    {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月5日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015192451000",
+     "pubDate": "Wed, 05 Aug 2026 19:14:53 +0900"
+    },
+    {
+     "title": "ガザ地区 イスラエル軍の3年前の攻撃で112人の遺体 集団葬儀",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197361000",
+     "pubDate": "Wed, 05 Aug 2026 18:17:03 +0900"
+    },
+    {
+     "title": "異例の介入 米側の思惑は ベッセント財務長官単独インタビュー",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197021000",
+     "pubDate": "Wed, 05 Aug 2026 16:31:33 +0900"
+    },
+    {
+     "title": "米大統領訪問前のゴルフ場で男拘束 車から拳銃見つかる",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197171000",
+     "pubDate": "Wed, 05 Aug 2026 16:17:53 +0900"
+    },
+    {
+     "title": "韓国のスターバックスを警察捜索 光州事件やゆしたとして批判",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197261000",
+     "pubDate": "Wed, 05 Aug 2026 15:37:50 +0900"
+    },
+    {
+     "title": "米 国家情報長官にクレイトン氏就任 野党・民主党議員ら反対も",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197041000",
+     "pubDate": "Wed, 05 Aug 2026 12:21:49 +0900"
+    },
+    {
+     "title": "スペースXのロケット残骸 月面に衝突予定 NASAが観測へ",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196961000",
+     "pubDate": "Wed, 05 Aug 2026 12:08:24 +0900"
+    },
+    {
+     "title": "北朝鮮 キム・ヨジョン氏が護衛艦からのトマホークの実射非難",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196901000",
+     "pubDate": "Wed, 05 Aug 2026 11:41:28 +0900"
+    },
+    {
+     "title": "ルーマニア 水位低下により原発一部停止 車生産一時休止も",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196681000",
+     "pubDate": "Wed, 05 Aug 2026 10:37:26 +0900"
+    },
+    {
+     "title": "ウクライナ ロシア物流倉庫へ攻撃 被害総額6600億円か",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196701000",
+     "pubDate": "Wed, 05 Aug 2026 10:26:14 +0900"
+    },
+    {
+     "title": "米 スペースX 上場後初の決算 AI開発投資が負担となり赤字に",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196821000",
+     "pubDate": "Wed, 05 Aug 2026 10:25:09 +0900"
+    },
+    {
+     "title": "米軍 対イラン作戦で一部のミサイル“ほぼ使い果たした”報道",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196781000",
+     "pubDate": "Wed, 05 Aug 2026 09:58:14 +0900"
+    },
+    {
+     "title": "ホルムズ海峡めぐるイランとオマーンの協議 米が関与を主張",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196711000",
+     "pubDate": "Wed, 05 Aug 2026 09:51:24 +0900"
+    }
+   ]
+  },
+  "yahoo": {
+   "label": "Yahoo!トピックス",
+   "src": "Yahoo!",
+   "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
+   "items": [
+    {
+     "title": "被爆時は1歳 家族の証言継ぐ女性",
+     "link": "https://news.yahoo.co.jp/pickup/6590635?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 09:15:08 GMT"
+    },
+    {
+     "title": "政府AIを被災自治体に提供 利点は",
+     "link": "https://news.yahoo.co.jp/pickup/6590639?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 12:55:06 GMT"
+    },
+    {
+     "title": "8月も高温傾向続く 今後の見通し",
+     "link": "https://news.yahoo.co.jp/pickup/6590615?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 06:41:18 GMT"
+    },
+    {
+     "title": "消費減税巡り 野党が一斉に批判",
+     "link": "https://news.yahoo.co.jp/pickup/6590655?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 11:11:08 GMT"
+    },
+    {
+     "title": "職員の性被害巡り NHKが対応謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6590660?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 12:42:13 GMT"
+    },
+    {
+     "title": "日産の新型キックス 売れ行き好調",
+     "link": "https://news.yahoo.co.jp/pickup/6590659?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 12:16:14 GMT"
+    },
+    {
+     "title": "甲子園出場の女性審判 試合後に涙",
+     "link": "https://news.yahoo.co.jp/pickup/6590662?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 12:59:50 GMT"
+    },
+    {
+     "title": "みな実結婚&妊娠発表後初の公の場",
+     "link": "https://news.yahoo.co.jp/pickup/6590613?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 06:29:37 GMT"
+    }
+   ]
+  }
+ }
+}

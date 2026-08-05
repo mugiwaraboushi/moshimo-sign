@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>もしも電光掲示板 お絵かき</title>
+<style>
+  :root { --accent:#ff9c00; }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body { margin:0; background:#0d0f12; color:#e8e6e0; font-family:'Hiragino Sans','Noto Sans JP',sans-serif; }
+  .wrap { max-width:720px; margin:0 auto; padding:16px 14px 40px; }
+  h1 { font-size:16px; font-weight:600; letter-spacing:.12em; margin:4px 0 2px; }
+  .sub { font-size:11px; color:#8a8f98; margin-bottom:14px; line-height:1.7; }
+  .panel-frame { background:#000; border-radius:10px; padding:10px; box-shadow:0 0 0 3px #23262b, 0 10px 30px rgba(0,0,0,.6); }
+  canvas { display:block; width:100%; image-rendering:pixelated; touch-action:none; }
+  .meta { display:flex; justify-content:space-between; font-size:11px; color:#6b7280; margin:8px 2px 16px; }
+  fieldset { border:1px solid #22262c; border-radius:10px; margin:0 0 12px; padding:10px 12px 12px; }
+  legend { font-size:11px; color:#8a8f98; padding:0 6px; letter-spacing:.08em; }
+  .chips { display:flex; flex-wrap:wrap; gap:6px; }
+  .chip { background:#171a1f; border:1px solid #2c3138; color:#c9cdd3; border-radius:16px;
+    padding:8px 14px; font-size:12px; }
+  .chip.on { background:var(--accent); color:#000; border-color:var(--accent); font-weight:700; }
+  .chip.wide { flex:1; text-align:center; }
+  .swatch { width:34px; height:34px; border-radius:50%; border:2px solid #2c3138; }
+  .swatch.on { border-color:#fff; }
+  .out { width:100%; background:#171a1f; border:1px solid #2c3138; border-radius:8px; color:#8a8f98;
+    padding:10px; font-size:11px; font-family:ui-monospace,Menlo,Consolas,monospace; word-break:break-all;
+    line-height:1.6; min-height:64px; resize:vertical; }
+  .note { font-size:11px; color:#6b7280; margin:8px 2px 0; line-height:1.7; }
+  .foot { font-size:10px; color:#4b525b; line-height:1.7; margin-top:22px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>もしも 電光掲示板 お絵かき</h1>
+  <div class="sub">指でなぞるとドットが光ります。描いた絵はそのままURLになるので、Discordに貼れば誰でも同じ絵を開けます。</div>
+
+  <div class="panel-frame"><canvas id="led"></canvas></div>
+  <div class="meta"><span id="sizeLabel"></span><span id="physLabel"></span></div>
+
+  <fieldset><legend>道具</legend>
+    <div class="chips" id="tools"></div>
+  </fieldset>
+  <fieldset><legend>ペンの太さ</legend>
+    <div class="chips" id="pens"></div>
+  </fieldset>
+  <fieldset><legend>パネル構成</legend>
+    <div class="chips" id="sizes"></div>
+  </fieldset>
+  <fieldset><legend>LEDの色</legend>
+    <div class="chips" id="colors"></div>
+  </fieldset>
+  <fieldset><legend>操作</legend>
+    <div class="chips">
+      <button class="chip wide" id="undo">ひとつ戻す</button>
+      <button class="chip wide" id="clear">全部消す</button>
+      <button class="chip wide" id="invert">白黒反転</button>
+    </div>
+  </fieldset>
+  <fieldset><legend>この絵のURL</legend>
+    <textarea class="out" id="url" readonly rows="3"></textarea>
+    <div class="chips" style="margin-top:8px">
+      <button class="chip wide" id="copy">URLをコピー</button>
+      <button class="chip wide" id="png">PNGで保存</button>
+    </div>
+    <div class="note">このURLを開くと同じ絵が復元されます。実機に出したいときは、このURLをDiscordに貼って「実機に流して」と書いてください。</div>
+  </fieldset>
+
+  <div class="foot">
+    実機想定: P4ピッチ HUB75パネル（64×32 = 256mm×128mm）を ESP32-HUB75-MatrixPanel-DMA で駆動<br>
+    描画は1ドット=点灯/消灯のモノクロ。色はパネル全体の発光色として指定します。
+  </div>
+</div>
+
+<script>
+// ---- 定数 ----
+const SIZES = [
+  {w:64,  h:16, label:"64×16（1枚・小）",  phys:"実寸目安 256×64mm (P4)"},
+  {w:64,  h:32, label:"64×32（1枚）",      phys:"実寸目安 256×128mm (P4)"},
+  {w:128, h:32, label:"128×32（横2枚）",   phys:"実寸目安 512×128mm (P4)"},
+  {w:192, h:32, label:"192×32（横3枚）",   phys:"実寸目安 768×128mm (P4)"},
+];
+const COLORS = ["#ff9c00","#ff3b30","#2eff5e","#27e0ff","#ffffff","#3b7bff"];
+const TOOLS = [{id:"pen", label:"ペン"},{id:"eraser", label:"消しゴム"}];
+const PENS = [{n:1, label:"1ドット"},{n:2, label:"2ドット"},{n:3, label:"3ドット"}];
+
+let S = { size:1, color:0, tool:"pen", pen:2 };
+let W = 0, H = 0, fb = null;
+const undoStack = [];
+
+// ---- キャンバス ----
+const cv = document.getElementById("led"), ctx = cv.getContext("2d");
+const DOT = 10; // 論理ドット描画px
+
+function setSize(i, keep){
+  const old = fb, ow = W, oh = H;
+  S.size = i;
+  W = SIZES[i].w; H = SIZES[i].h;
+  fb = new Uint8Array(W*H);
+  if (keep && old){ // 左上を基準に描いた絵を引き継ぐ
+    for (let y=0;y<Math.min(oh,H);y++)
+      for (let x=0;x<Math.min(ow,W);x++) fb[y*W+x] = old[y*ow+x];
+  }
+  cv.width = W*DOT; cv.height = H*DOT;
+  document.getElementById("sizeLabel").textContent = `${W}×${H} dot`;
+  document.getElementById("physLabel").textContent = SIZES[i].phys;
+}
+
+function draw(){
+  ctx.fillStyle = "#000"; ctx.fillRect(0,0,cv.width,cv.height);
+  // 消灯ドット
+  ctx.fillStyle = "#15171a";
+  for (let y=0;y<H;y++) for (let x=0;x<W;x++){
+    if (!fb[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.32, 0, 7); ctx.fill(); }
+  }
+  // 点灯ドット（にじみ＋芯）
+  const col = COLORS[S.color];
+  ctx.fillStyle = col; ctx.globalAlpha = .25;
+  for (let y=0;y<H;y++) for (let x=0;x<W;x++){
+    if (fb[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.62, 0, 7); ctx.fill(); }
+  }
+  ctx.globalAlpha = 1;
+  for (let y=0;y<H;y++) for (let x=0;x<W;x++){
+    if (fb[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.38, 0, 7); ctx.fill(); }
+  }
+}
+
+// ---- 描画操作 ----
+function dot(x, y, on){
+  const r = S.pen - 1;
+  for (let dy=-r; dy<=r; dy++) for (let dx=-r; dx<=r; dx++){
+    if (r === 2 && Math.abs(dx) === 2 && Math.abs(dy) === 2) continue; // 3ドットは角を落として丸く
+    const px = x+dx, py = y+dy;
+    if (px<0||px>=W||py<0||py>=H) continue;
+    fb[py*W+px] = on;
+  }
+}
+function line(x0, y0, x1, y1, on){ // 速く動かしても途切れないように補間
+  let dx = Math.abs(x1-x0), dy = Math.abs(y1-y0);
+  const sx = x0<x1?1:-1, sy = y0<y1?1:-1;
+  let err = dx-dy;
+  for(;;){
+    dot(x0, y0, on);
+    if (x0===x1 && y0===y1) break;
+    const e2 = 2*err;
+    if (e2 > -dy){ err -= dy; x0 += sx; }
+    if (e2 < dx){ err += dx; y0 += sy; }
+  }
+}
+function pushUndo(){
+  undoStack.push(fb.slice());
+  if (undoStack.length > 30) undoStack.shift();
+}
+
+let drawing = false, lastX = 0, lastY = 0;
+function pos(e){
+  const r = cv.getBoundingClientRect();
+  return {
+    x: Math.floor((e.clientX - r.left) / r.width  * W),
+    y: Math.floor((e.clientY - r.top)  / r.height * H),
+  };
+}
+cv.addEventListener("pointerdown", e=>{
+  e.preventDefault();
+  cv.setPointerCapture(e.pointerId);
+  pushUndo();
+  drawing = true;
+  const p = pos(e); lastX = p.x; lastY = p.y;
+  dot(p.x, p.y, S.tool === "pen" ? 1 : 0);
+  draw(); syncUrl();
+});
+cv.addEventListener("pointermove", e=>{
+  if (!drawing) return;
+  e.preventDefault();
+  const p = pos(e);
+  if (p.x === lastX && p.y === lastY) return;
+  line(lastX, lastY, p.x, p.y, S.tool === "pen" ? 1 : 0);
+  lastX = p.x; lastY = p.y;
+  draw();
+});
+function endStroke(){ if (!drawing) return; drawing = false; syncUrl(); }
+cv.addEventListener("pointerup", endStroke);
+cv.addEventListener("pointercancel", endStroke);
+cv.addEventListener("pointerleave", endStroke);
+
+// ---- URLエンコード（1ドット1bitでパック → base64url）----
+function encode(){
+  const bytes = new Uint8Array(Math.ceil(W*H/8));
+  for (let i=0;i<W*H;i++) if (fb[i]) bytes[i>>3] |= 0x80 >> (i&7);
+  let s = "";
+  for (const b of bytes) s += String.fromCharCode(b);
+  return btoa(s).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");
+}
+function decode(str, w, h){
+  const b64 = str.replace(/-/g,"+").replace(/_/g,"/");
+  const bin = atob(b64);
+  const out = new Uint8Array(w*h);
+  for (let i=0;i<w*h;i++){
+    const byte = bin.charCodeAt(i>>3);
+    if (!isNaN(byte) && (byte & (0x80 >> (i&7)))) out[i] = 1;
+  }
+  return out;
+}
+function syncUrl(){
+  const hash = `#s=${S.size}&c=${S.color}&d=${encode()}`;
+  history.replaceState(null, "", hash);
+  document.getElementById("url").value = location.href;
+}
+function loadFromUrl(){
+  const m = location.hash.slice(1);
+  if (!m) return false;
+  const q = new URLSearchParams(m);
+  const si = parseInt(q.get("s"), 10), ci = parseInt(q.get("c"), 10), d = q.get("d");
+  if (!(si >= 0 && si < SIZES.length) || !d) return false;
+  setSize(si, false);
+  if (ci >= 0 && ci < COLORS.length) S.color = ci;
+  try { fb = decode(d, W, H); } catch(err){ return false; }
+  return true;
+}
+
+// ---- UI ----
+function chips(elId, items, get, set){
+  const el = document.getElementById(elId);
+  el.innerHTML = "";
+  items.forEach((it, i)=>{
+    const b = document.createElement("button");
+    if (elId === "colors"){ b.className = "swatch"+(get()===i?" on":""); b.style.background = it; }
+    else { b.className = "chip"+(get()===i||get()===it.id||get()===it.n?" on":""); b.textContent = it.label; }
+    b.onclick = ()=>{ set(it, i); render(); };
+    el.appendChild(b);
+  });
+}
+function render(){
+  chips("tools", TOOLS, ()=>S.tool, it=>{ S.tool = it.id; });
+  chips("pens",  PENS,  ()=>S.pen,  it=>{ S.pen = it.n; });
+  chips("sizes", SIZES, ()=>S.size, (_,i)=>{ setSize(i, true); });
+  chips("colors", COLORS, ()=>S.color, (_,i)=>{
+    S.color = i;
+    document.documentElement.style.setProperty("--accent", COLORS[i]);
+  });
+  document.documentElement.style.setProperty("--accent", COLORS[S.color]);
+  draw(); syncUrl();
+}
+
+document.getElementById("undo").onclick = ()=>{
+  const prev = undoStack.pop();
+  if (prev && prev.length === fb.length) fb = prev;
+  draw(); syncUrl();
+};
+document.getElementById("clear").onclick = ()=>{
+  pushUndo(); fb.fill(0); draw(); syncUrl();
+};
+document.getElementById("invert").onclick = ()=>{
+  pushUndo();
+  for (let i=0;i<fb.length;i++) fb[i] = fb[i] ? 0 : 1;
+  draw(); syncUrl();
+};
+document.getElementById("copy").onclick = async ()=>{
+  const btn = document.getElementById("copy");
+  try {
+    await navigator.clipboard.writeText(location.href);
+    btn.textContent = "コピーしました";
+  } catch(e){
+    const t = document.getElementById("url");
+    t.select(); t.setSelectionRange(0, 99999);
+    btn.textContent = "長押しでコピーしてください";
+  }
+  setTimeout(()=>{ btn.textContent = "URLをコピー"; }, 1800);
+};
+document.getElementById("png").onclick = ()=>{
+  const a = document.createElement("a");
+  a.href = cv.toDataURL("image/png");
+  a.download = "moshimo-sign.png";
+  a.click();
+};
+
+// ---- 起動 ----
+if (!loadFromUrl()) setSize(1, false);
+render();
+</script>
+</body>
+</html>

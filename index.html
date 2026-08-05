@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>もしも電光掲示板ラボ</title>
+<style>
+  body { margin:0; background:#0d0f12; color:#e8e6e0; font-family:'Hiragino Sans','Noto Sans JP',sans-serif; }
+  .wrap { max-width:680px; margin:0 auto; padding:28px 18px 60px; }
+  h1 { font-size:18px; letter-spacing:.14em; margin:0 0 4px; }
+  .sub { font-size:12px; color:#8a8f98; margin-bottom:28px; line-height:1.8; }
+  a.card { display:block; background:#14171b; border:1px solid #22262c; border-radius:12px;
+    padding:16px 18px; margin-bottom:12px; text-decoration:none; color:inherit; }
+  a.card:active { background:#1a1e24; }
+  .name { font-size:15px; font-weight:600; color:#ffb84d; margin-bottom:4px; }
+  .desc { font-size:12px; color:#9aa0a8; line-height:1.7; }
+  .foot { font-size:10px; color:#4b525b; margin-top:36px; line-height:1.8; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>もしも 電光掲示板ラボ</h1>
+  <div class="sub">
+    「もしも まちと未来の実験室」の電光掲示板プロジェクトのプロトタイプ置き場。<br>
+    Discordに投げられたアイデアがここに形になっていきます。
+  </div>
+
+  <!-- プロトタイプ一覧: 新しいものを上に追加 -->
+  <a class="card" href="prototypes/news/">
+    <div class="name">今日のニュース</div>
+    <div class="desc">NHK・Yahoo!の公開RSSから見出しを取ってきて掲示板に流す。GitHub Actionsが30分ごとに更新。見出しはタップで流す/流さないを選べる。</div>
+  </a>
+
+  <a class="card" href="prototypes/radio-live/">
+    <div class="name">ラジオ実況（音声→文字起こし）</div>
+    <div class="desc">しゃべった言葉をブラウザでリアルタイムに文字起こしして、そのまま掲示板に流す。確認してから流すモード・書き起こしログの保存つき。収録現場での実験用。</div>
+  </a>
+
+  <a class="card" href="prototypes/draw/">
+    <div class="name">電光掲示板お絵かき</div>
+    <div class="desc">指でなぞって64×32のドット絵を描ける。描いた絵はそのままURLに入るので、Discordに貼れば他の人も同じ絵を開ける。PNG保存も可。</div>
+  </a>
+
+  <a class="card" href="prototypes/sim-blue/">
+    <div class="name">掲示板シミュレータ（青）</div>
+    <div class="desc">シミュレータの色違い版。LEDのデフォルト色を青系にして、パレットもブルー中心に差し替えたバージョン。</div>
+  </a>
+
+  <a class="card" href="prototypes/sim/">
+    <div class="name">掲示板シミュレータ</div>
+    <div class="desc">コメントを投稿すると64×32のLEDパネルに流れる。実機と同じビットマップフォント(かな漢字7,444字)で、文字サイズ・速度・色を検証できる。</div>
+  </a>
+
+  <div class="foot">
+    もしも まちと未来の実験室 (東京科学大学 IFs)<br>
+    フォント: efont Biwidth 16px © /efont/
+  </div>
+</div>
+</body>
+</html>

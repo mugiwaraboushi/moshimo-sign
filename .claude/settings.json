@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(ls:*)",
+      "Bash(cd:*)",
+      "Bash(cat:*)",
+      "Read",
+      "Edit",
+      "Write",
+      "mcp__plugin_discord_discord__reply"
+    ],
+    "deny": [
+      "Bash(git push --force:*)",
+      "Read(./firmware/moshimo_sign/config.h)"
+    ]
+  }
+}
