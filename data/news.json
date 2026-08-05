@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-05T21:39:45.385Z",
+ "updatedAt": "2026-08-05T22:45:58.746Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -20,7 +20,7 @@
     {
      "title": "広島 原爆投下から81年 核兵器の廃絶を国内外に訴え",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197471000",
-     "pubDate": "Thu, 06 Aug 2026 06:36:02 +0900"
+     "pubDate": "Thu, 06 Aug 2026 07:30:11 +0900"
     },
     {
      "title": "広島「原爆の日」の朝 被爆者や遺族が祈りささげる",
@@ -38,9 +38,9 @@
      "pubDate": "Thu, 06 Aug 2026 05:37:10 +0900"
     },
     {
-     "title": "高校野球 夏の甲子園【大会2日目の見どころ】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015196501000",
-     "pubDate": "Thu, 06 Aug 2026 05:07:38 +0900"
+     "title": "ドイツ東部の空港 滑走路付近で爆発物搭載のドローン見つかる",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197711000",
+     "pubDate": "Thu, 06 Aug 2026 06:51:53 +0900"
     }
    ]
   },
@@ -52,7 +52,12 @@
     {
      "title": "広島 原爆投下から81年 核兵器の廃絶を国内外に訴え",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197471000",
-     "pubDate": "Thu, 06 Aug 2026 06:36:02 +0900"
+     "pubDate": "Thu, 06 Aug 2026 07:30:11 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（8月6日）",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197441000",
+     "pubDate": "Thu, 06 Aug 2026 06:45:57 +0900"
     },
     {
      "title": "広島「原爆の日」の朝 被爆者や遺族が祈りささげる",
@@ -118,11 +123,6 @@
      "title": "【動画】Pickup NEWS（8月5日）",
      "link": "https://news.web.nhk/newsweb/na/na-k10015196101000",
      "pubDate": "Wed, 05 Aug 2026 19:37:29 +0900"
-    },
-    {
-     "title": "福岡 正副議長ポストめぐる問題 県議会が第三者委設置を決定",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197401000",
-     "pubDate": "Wed, 05 Aug 2026 19:16:42 +0900"
     }
    ]
   },
@@ -189,6 +189,31 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "イラン外務省 海峡めぐるオマーンとの共同声明 調整の最終段階",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197611000",
+     "pubDate": "Thu, 06 Aug 2026 07:42:02 +0900"
+    },
+    {
+     "title": "中国 米に対抗措置 アメリカ向けドローンの輸出規制を強化",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197591000",
+     "pubDate": "Thu, 06 Aug 2026 07:34:40 +0900"
+    },
+    {
+     "title": "イスラエル ネタニヤフ首相 ハマス武装解除まで軍は撤退しない",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197631000",
+     "pubDate": "Thu, 06 Aug 2026 07:09:46 +0900"
+    },
+    {
+     "title": "“迎撃ミサイル供給3分の1” ゼレンスキー大統領 供与呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197601000",
+     "pubDate": "Thu, 06 Aug 2026 07:04:01 +0900"
+    },
+    {
+     "title": "ドイツ東部の空港 滑走路付近で爆発物搭載のドローン見つかる",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197711000",
+     "pubDate": "Thu, 06 Aug 2026 06:51:53 +0900"
+    },
+    {
      "title": "NYダウ 3日連続最高値 ホルムズ海峡開放への期待感から",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197701000",
      "pubDate": "Thu, 06 Aug 2026 06:32:07 +0900"
@@ -237,31 +262,6 @@
      "title": "韓国のスターバックスを警察捜索 光州事件やゆしたとして批判",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197261000",
      "pubDate": "Wed, 05 Aug 2026 15:37:50 +0900"
-    },
-    {
-     "title": "米 国家情報長官にクレイトン氏就任 野党・民主党議員ら反対も",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197041000",
-     "pubDate": "Wed, 05 Aug 2026 12:21:49 +0900"
-    },
-    {
-     "title": "スペースXのロケット残骸 月面に衝突予定 NASAが観測へ",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015196961000",
-     "pubDate": "Wed, 05 Aug 2026 12:08:24 +0900"
-    },
-    {
-     "title": "北朝鮮 キム・ヨジョン氏が護衛艦からのトマホークの実射非難",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015196901000",
-     "pubDate": "Wed, 05 Aug 2026 11:41:28 +0900"
-    },
-    {
-     "title": "ルーマニア 水位低下により原発一部停止 車生産一時休止も",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015196681000",
-     "pubDate": "Wed, 05 Aug 2026 10:37:26 +0900"
-    },
-    {
-     "title": "ウクライナ ロシア物流倉庫へ攻撃 被害総額6600億円か",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015196701000",
-     "pubDate": "Wed, 05 Aug 2026 10:26:14 +0900"
     }
    ]
   },
@@ -276,9 +276,19 @@
      "pubDate": "Wed, 05 Aug 2026 21:25:11 GMT"
     },
     {
-     "title": "かき氷の名店 熊本地震で涙の解体",
-     "link": "https://news.yahoo.co.jp/pickup/6590665?source=rss",
-     "pubDate": "Wed, 05 Aug 2026 13:30:54 GMT"
+     "title": "台風13号あす沖縄に最接近 警戒を",
+     "link": "https://news.yahoo.co.jp/pickup/6590676?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 21:49:18 GMT"
+    },
+    {
+     "title": "消費減税1% 外食に「割高感」も",
+     "link": "https://news.yahoo.co.jp/pickup/6590677?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 21:59:07 GMT"
+    },
+    {
+     "title": "SBI新生銀行 地銀20行超と連携へ",
+     "link": "https://news.yahoo.co.jp/pickup/6590680?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 22:28:00 GMT"
     },
     {
      "title": "住宅全焼4人遺体 叫び声聞こえた",
@@ -286,29 +296,19 @@
      "pubDate": "Wed, 05 Aug 2026 13:56:04 GMT"
     },
     {
-     "title": "立体駐車場から車が転落 77歳重体",
-     "link": "https://news.yahoo.co.jp/pickup/6590671?source=rss",
-     "pubDate": "Wed, 05 Aug 2026 14:20:20 GMT"
-    },
-    {
      "title": "スペースXロケット残骸 月衝突か",
      "link": "https://news.yahoo.co.jp/pickup/6590670?source=rss",
      "pubDate": "Wed, 05 Aug 2026 14:16:27 GMT"
     },
     {
-     "title": "飲酒後「締めラーメン欲」原因は",
-     "link": "https://news.yahoo.co.jp/pickup/6590664?source=rss",
-     "pubDate": "Wed, 05 Aug 2026 13:20:25 GMT"
+     "title": "「パチンコ」法人数 10年間で半減",
+     "link": "https://news.yahoo.co.jp/pickup/6590679?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 22:26:10 GMT"
     },
     {
      "title": "大谷が25号&26号も ド軍は6連敗",
      "link": "https://news.yahoo.co.jp/pickup/6590675?source=rss",
      "pubDate": "Wed, 05 Aug 2026 21:35:28 GMT"
-    },
-    {
-     "title": "甲子園出場の女性審判 試合後に涙",
-     "link": "https://news.yahoo.co.jp/pickup/6590662?source=rss",
-     "pubDate": "Wed, 05 Aug 2026 12:59:50 GMT"
     }
    ]
   }
