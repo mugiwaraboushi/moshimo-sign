@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-05T15:34:17.714Z",
+ "updatedAt": "2026-08-05T17:15:38.972Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風13号沖縄接近へ 影響長引くおそれ 熱中症対策も徹底を",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015196631000",
-     "pubDate": "Wed, 05 Aug 2026 21:59:38 +0900"
-    },
-    {
      "title": "大型の台風15号が発生 今後の情報に注意を",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197301000",
      "pubDate": "Wed, 05 Aug 2026 17:44:28 +0900"
+    },
+    {
+     "title": "台風13号沖縄接近へ 影響長引くおそれ 熱中症対策も徹底を",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196631000",
+     "pubDate": "Wed, 05 Aug 2026 21:59:38 +0900"
     },
     {
      "title": "イオンモール熊本 “LPガス爆発の可能性高い”経産省など調査",
@@ -23,14 +23,14 @@
      "pubDate": "Wed, 05 Aug 2026 21:49:45 +0900"
     },
     {
-     "title": "熊本地震で9人死亡の日本製紙 初めて記者会見 社長が陳謝",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197011000",
-     "pubDate": "Wed, 05 Aug 2026 18:56:07 +0900"
-    },
-    {
      "title": "高校野球 第1試合 仙台育英が札幌日大に勝利 2回戦へ",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197431000",
      "pubDate": "Wed, 05 Aug 2026 22:53:01 +0900"
+    },
+    {
+     "title": "AI 実在の人標的にメッセージ“自律的に人だますリスク”",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197651000",
+     "pubDate": "Wed, 05 Aug 2026 23:33:07 +0900"
     },
     {
      "title": "食料品消費税減税 政府が基本方針決定 来年4月から2年間1％に",
@@ -175,26 +175,6 @@
      "title": "はやぶさ2は小惑星表面から約400メートルを通過 JAXA",
      "link": "https://news.web.nhk/newsweb/na/na-k10015191781000",
      "pubDate": "Fri, 31 Jul 2026 12:19:35 +0900"
-    },
-    {
-     "title": "子どもSNS利用 一律の年齢制限必要か議論継続へ 国の作業部会",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015191101000",
-     "pubDate": "Thu, 30 Jul 2026 19:16:25 +0900"
-    },
-    {
-     "title": "中部電力 浜岡原発データ不正 現場は審査の早期終了を意図か",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015191061000",
-     "pubDate": "Thu, 30 Jul 2026 19:11:58 +0900"
-    },
-    {
-     "title": "熊本県内のモニタリングポストが復旧",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015190991000",
-     "pubDate": "Thu, 30 Jul 2026 17:58:38 +0900"
-    },
-    {
-     "title": "アメリカが人型ロボットの輸入禁止を発表 中国政府は非難",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015190561000",
-     "pubDate": "Thu, 30 Jul 2026 12:55:13 +0900"
     }
    ]
   },
