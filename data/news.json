@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-05T13:11:59.217Z",
+ "updatedAt": "2026-08-05T15:34:17.714Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "大型の台風15号が発生 今後の情報に注意を",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197301000",
-     "pubDate": "Wed, 05 Aug 2026 17:44:28 +0900"
-    },
-    {
      "title": "台風13号沖縄接近へ 影響長引くおそれ 熱中症対策も徹底を",
      "link": "https://news.web.nhk/newsweb/na/na-k10015196631000",
      "pubDate": "Wed, 05 Aug 2026 21:59:38 +0900"
     },
     {
-     "title": "食料品消費税減税 政府が基本方針決定 来年4月から2年間1％に",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197191000",
-     "pubDate": "Wed, 05 Aug 2026 22:02:02 +0900"
+     "title": "大型の台風15号が発生 今後の情報に注意を",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197301000",
+     "pubDate": "Wed, 05 Aug 2026 17:44:28 +0900"
     },
     {
      "title": "イオンモール熊本 “LPガス爆発の可能性高い”経産省など調査",
@@ -35,12 +30,17 @@
     {
      "title": "高校野球 第1試合 仙台育英が札幌日大に勝利 2回戦へ",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197431000",
-     "pubDate": "Wed, 05 Aug 2026 21:55:08 +0900"
+     "pubDate": "Wed, 05 Aug 2026 22:53:01 +0900"
     },
     {
-     "title": "NHK 職員への人権侵害をめぐり不適切な対応を公表",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197311000",
-     "pubDate": "Wed, 05 Aug 2026 17:59:52 +0900"
+     "title": "食料品消費税減税 政府が基本方針決定 来年4月から2年間1％に",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197191000",
+     "pubDate": "Wed, 05 Aug 2026 22:02:02 +0900"
+    },
+    {
+     "title": "米 ベッセント財務長官 “協調介入は象徴的な意味合い”",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015196511000",
+     "pubDate": "Wed, 05 Aug 2026 22:05:21 +0900"
     }
    ]
   },
@@ -204,6 +204,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "AI 実在の人標的にメッセージ“自律的に人だますリスク”",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197651000",
+     "pubDate": "Wed, 05 Aug 2026 23:33:07 +0900"
+    },
+    {
+     "title": "韓国 プロ野球 記録的な暑さで5日と6日の全10試合中止に",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197511000",
+     "pubDate": "Wed, 05 Aug 2026 22:16:31 +0900"
+    },
+    {
      "title": "米 ベッセント財務長官 “協調介入は象徴的な意味合い”",
      "link": "https://news.web.nhk/newsweb/na/na-k10015196511000",
      "pubDate": "Wed, 05 Aug 2026 22:05:21 +0900"
@@ -267,16 +277,6 @@
      "title": "米 スペースX 上場後初の決算 AI開発投資が負担となり赤字に",
      "link": "https://news.web.nhk/newsweb/na/na-k10015196821000",
      "pubDate": "Wed, 05 Aug 2026 10:25:09 +0900"
-    },
-    {
-     "title": "米軍 対イラン作戦で一部のミサイル“ほぼ使い果たした”報道",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015196781000",
-     "pubDate": "Wed, 05 Aug 2026 09:58:14 +0900"
-    },
-    {
-     "title": "ホルムズ海峡めぐるイランとオマーンの協議 米が関与を主張",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015196711000",
-     "pubDate": "Wed, 05 Aug 2026 09:51:24 +0900"
     }
    ]
   },
@@ -291,39 +291,39 @@
      "pubDate": "Wed, 05 Aug 2026 09:15:08 GMT"
     },
     {
-     "title": "政府AIを被災自治体に提供 利点は",
-     "link": "https://news.yahoo.co.jp/pickup/6590639?source=rss",
-     "pubDate": "Wed, 05 Aug 2026 12:55:06 GMT"
+     "title": "かき氷の名店 熊本地震で涙の解体",
+     "link": "https://news.yahoo.co.jp/pickup/6590665?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 13:30:54 GMT"
     },
     {
-     "title": "8月も高温傾向続く 今後の見通し",
-     "link": "https://news.yahoo.co.jp/pickup/6590615?source=rss",
-     "pubDate": "Wed, 05 Aug 2026 06:41:18 GMT"
+     "title": "住宅全焼4人遺体 叫び声聞こえた",
+     "link": "https://news.yahoo.co.jp/pickup/6590669?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 13:56:04 GMT"
     },
     {
-     "title": "消費減税巡り 野党が一斉に批判",
-     "link": "https://news.yahoo.co.jp/pickup/6590655?source=rss",
-     "pubDate": "Wed, 05 Aug 2026 11:11:08 GMT"
+     "title": "立体駐車場から車が転落 77歳重体",
+     "link": "https://news.yahoo.co.jp/pickup/6590671?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 14:20:20 GMT"
     },
     {
-     "title": "職員の性被害巡り NHKが対応謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6590660?source=rss",
-     "pubDate": "Wed, 05 Aug 2026 12:42:13 GMT"
+     "title": "スペースXロケット残骸 月衝突か",
+     "link": "https://news.yahoo.co.jp/pickup/6590670?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 14:16:27 GMT"
     },
     {
-     "title": "日産の新型キックス 売れ行き好調",
-     "link": "https://news.yahoo.co.jp/pickup/6590659?source=rss",
-     "pubDate": "Wed, 05 Aug 2026 12:16:14 GMT"
+     "title": "飲酒後「締めラーメン欲」原因は",
+     "link": "https://news.yahoo.co.jp/pickup/6590664?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 13:20:25 GMT"
+    },
+    {
+     "title": "第2の元年 秋春制のJリーグ開幕へ",
+     "link": "https://news.yahoo.co.jp/pickup/6590637?source=rss",
+     "pubDate": "Wed, 05 Aug 2026 12:08:24 GMT"
     },
     {
      "title": "甲子園出場の女性審判 試合後に涙",
      "link": "https://news.yahoo.co.jp/pickup/6590662?source=rss",
      "pubDate": "Wed, 05 Aug 2026 12:59:50 GMT"
-    },
-    {
-     "title": "みな実結婚&妊娠発表後初の公の場",
-     "link": "https://news.yahoo.co.jp/pickup/6590613?source=rss",
-     "pubDate": "Wed, 05 Aug 2026 06:29:37 GMT"
     }
    ]
   }
