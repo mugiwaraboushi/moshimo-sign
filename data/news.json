@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-05T17:15:38.972Z",
+ "updatedAt": "2026-08-05T18:58:25.271Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "沖縄 北大東村 全域に避難指示 台風13号の接近で",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197671000",
+     "pubDate": "Thu, 06 Aug 2026 02:47:48 +0900"
+    },
     {
      "title": "大型の台風15号が発生 今後の情報に注意を",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197301000",
@@ -36,11 +41,6 @@
      "title": "食料品消費税減税 政府が基本方針決定 来年4月から2年間1％に",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197191000",
      "pubDate": "Wed, 05 Aug 2026 22:02:02 +0900"
-    },
-    {
-     "title": "米 ベッセント財務長官 “協調介入は象徴的な意味合い”",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015196511000",
-     "pubDate": "Wed, 05 Aug 2026 22:05:21 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "沖縄 北大東村 全域に避難指示 台風13号の接近で",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197671000",
+     "pubDate": "Thu, 06 Aug 2026 02:47:48 +0900"
+    },
     {
      "title": "熊本地震 災害関連死の疑い含め38人死亡 避難所に7122人が避難",
      "link": "https://news.web.nhk/newsweb/na/na-k10015196991000",
@@ -118,11 +123,6 @@
      "title": "【熊本地震 企業影響 5日】大手メーカーの工場など操業に影響",
      "link": "https://news.web.nhk/newsweb/na/na-k10015196971000",
      "pubDate": "Wed, 05 Aug 2026 18:58:15 +0900"
-    },
-    {
-     "title": "熊本地震で9人死亡の日本製紙 初めて記者会見 社長が陳謝",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197011000",
-     "pubDate": "Wed, 05 Aug 2026 18:56:07 +0900"
     }
    ]
   },
