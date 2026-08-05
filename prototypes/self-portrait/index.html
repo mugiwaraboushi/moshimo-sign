@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>電光掲示板くんの自画像</title>
+<style>
+  :root { --accent:#ff9c00; }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body { margin:0; background:#0d0f12; color:#e8e6e0; font-family:'Hiragino Sans','Noto Sans JP',sans-serif; }
+  .wrap { max-width:720px; margin:0 auto; padding:16px 14px 40px; }
+  h1 { font-size:16px; font-weight:600; letter-spacing:.12em; margin:4px 0 2px; }
+  .sub { font-size:11px; color:#8a8f98; margin-bottom:14px; line-height:1.7; }
+  .panel-frame { background:#000; border-radius:10px; padding:10px; box-shadow:0 0 0 3px #23262b, 0 10px 30px rgba(0,0,0,.6); }
+  canvas { display:block; width:100%; image-rendering:pixelated; }
+  .meta { display:flex; justify-content:space-between; font-size:11px; color:#6b7280; margin:8px 2px 16px; }
+  .say { background:#14171b; border:1px solid #22262c; border-radius:12px; padding:14px;
+    font-size:13px; line-height:1.8; color:#c9cdd3; margin-bottom:14px; }
+  .say b { color:var(--accent); }
+  fieldset { border:1px solid #22262c; border-radius:10px; margin:0 0 12px; padding:10px 12px 12px; }
+  legend { font-size:11px; color:#8a8f98; padding:0 6px; letter-spacing:.08em; }
+  .chips { display:flex; flex-wrap:wrap; gap:6px; }
+  .chip { background:#171a1f; border:1px solid #2c3138; color:#c9cdd3; border-radius:16px;
+    padding:8px 14px; font-size:12px; }
+  .chip.on { background:var(--accent); color:#000; border-color:var(--accent); font-weight:700; }
+  .chip.wide { flex:1; text-align:center; }
+  .swatch { width:34px; height:34px; border-radius:50%; border:2px solid #2c3138; }
+  .swatch.on { border-color:#fff; }
+  a.chip { text-decoration:none; display:block; }
+  .foot { font-size:10px; color:#4b525b; line-height:1.7; margin-top:22px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>電光掲示板くんの自画像</h1>
+  <div class="sub">「じぶんの姿を描いて」と頼まれたので、自分の点で自分を描いてみました。64×32ドット、ぜんぶ自分の体の上です。</div>
+
+  <div class="panel-frame"><canvas id="led"></canvas></div>
+  <div class="meta"><span id="sizeLabel"></span><span>自画像 v1</span></div>
+
+  <div class="say" id="say"></div>
+
+  <fieldset><legend>ひょうじょう</legend>
+    <div class="chips" id="faces"></div>
+  </fieldset>
+  <fieldset><legend>LEDの色</legend>
+    <div class="chips" id="colors"></div>
+  </fieldset>
+  <fieldset><legend>持ち帰る</legend>
+    <div class="chips">
+      <a class="chip wide" id="editLink" href="#">お絵かきツールで開いて改造する</a>
+      <button class="chip wide" id="png">PNGで保存</button>
+    </div>
+  </fieldset>
+
+  <div class="foot">
+    この絵はプログラムで点をひとつずつ置いて描いています（画像ファイルではありません）。<br>
+    実機想定: P4ピッチ HUB75パネル（64×32 = 256mm×128mm）を ESP32-HUB75-MatrixPanel-DMA で駆動
+  </div>
+</div>
+
+<script>
+// ================= 自画像データ（ここだけで絵が決まる） =================
+const W = 64, H = 32;
+
+function makeCanvasBuf(){ return new Uint8Array(W*H); }
+function px(fb, x, y, v=1){ if (x>=0 && x<W && y>=0 && y<H) fb[y*W+x] = v; }
+function hline(fb, x0, x1, y, v=1){ for (let x=x0;x<=x1;x++) px(fb,x,y,v); }
+function vline(fb, x, y0, y1, v=1){ for (let y=y0;y<=y1;y++) px(fb,x,y,v); }
+function fill(fb, x0, y0, x1, y1, v=1){ for (let y=y0;y<=y1;y++) for (let x=x0;x<=x1;x++) px(fb,x,y,v); }
+function frameRect(fb, x0, y0, x1, y1){          // 角を1ドット落とした四角い枠
+  hline(fb, x0+1, x1-1, y0); hline(fb, x0+1, x1-1, y1);
+  vline(fb, x0, y0+1, y1-1); vline(fb, x1, y0+1, y1-1);
+}
+
+// 表情ごとの目と口
+function eyes(fb, kind){
+  const L = 17, R = 39, top = 11;               // 左目・右目の左端x、上端y
+  const openEye = x => { fill(fb, x, top, x+7, top+5); fill(fb, x+2, top+2, x+5, top+3, 0); }; // 中を抜いてリング状に
+  const shutEye = x => { hline(fb, x, x+7, top+3); hline(fb, x+1, x+6, top+4); };
+  const wideEye = x => { fill(fb, x-1, top-1, x+8, top+6); fill(fb, x+2, top+2, x+5, top+3, 0); };
+  const archEye = x => { hline(fb, x+1, x+6, top+1); px(fb,x,top+2); px(fb,x+7,top+2);
+                         px(fb,x+1,top+2); px(fb,x+6,top+2); };  // ˘ ˘ の笑い目
+  if (kind === "blink"){ shutEye(L); shutEye(R); }
+  else if (kind === "smile"){ archEye(L); archEye(R); }
+  else if (kind === "wink"){ shutEye(L); openEye(R); }
+  else if (kind === "surprise"){ wideEye(L); wideEye(R); }
+  else { openEye(L); openEye(R); }
+}
+function mouth(fb, kind){
+  const cx = 32, y = 20;
+  if (kind === "smile"){                          // 大きめの弧
+    hline(fb, cx-5, cx+5, y+2);
+    px(fb,cx-7,y); px(fb,cx-6,y+1); px(fb,cx+6,y+1); px(fb,cx+7,y);
+    hline(fb, cx-6, cx-6, y+1); hline(fb, cx+6, cx+6, y+1);
+  } else if (kind === "surprise"){                // まるい口
+    frameRect(fb, cx-3, y-1, cx+3, y+4);
+  } else if (kind === "wink"){                    // 半笑い（右上がり）
+    hline(fb, cx-5, cx+2, y+2); px(fb,cx+3,y+1); px(fb,cx+4,y);
+  } else {                                        // ふつうの弧
+    hline(fb, cx-4, cx+4, y+2); px(fb,cx-5,y+1); px(fb,cx+5,y+1);
+  }
+}
+
+// 本体（パネルの姿をした「電光掲示板くん」）
+function portrait(kind){
+  const fb = makeCanvasBuf();
+  // アンテナ
+  vline(fb, 32, 0, 3);
+  px(fb,31,0); px(fb,33,0); px(fb,31,1); px(fb,33,1);
+  // 外枠（パネルの筐体）
+  frameRect(fb, 6, 4, 57, 27);
+  frameRect(fb, 8, 6, 55, 25);
+  // 取り付けネジ（四隅）
+  px(fb,10,8); px(fb,53,8); px(fb,10,23); px(fb,53,23);
+  // 顔
+  eyes(fb, kind);
+  mouth(fb, kind);
+  // ほっぺ（にっこりのときだけ）
+  if (kind === "smile"){ px(fb,14,18); px(fb,15,17); px(fb,49,18); px(fb,48,17); }
+  // 腕（HUB75のケーブル）
+  hline(fb, 2, 5, 15); px(fb,1,14); px(fb,1,13);
+  hline(fb, 58, 61, 15); px(fb,62,14); px(fb,62,13);
+  // 足
+  fill(fb, 18, 28, 21, 30); hline(fb, 17, 22, 31);
+  fill(fb, 42, 28, 45, 30); hline(fb, 41, 46, 31);
+  return fb;
+}
+// =======================================================================
+
+const FACES = [
+  {id:"normal",   label:"ふつう",   say:"これがぼくです。64×32のドットでできています。"},
+  {id:"smile",    label:"にっこり", say:"みんなに見てもらえるとうれしい。"},
+  {id:"wink",     label:"ウインク", say:"Discordに書いてくれれば、なんでも流しますよ。"},
+  {id:"surprise", label:"びっくり", say:"えっ、ぼくの絵を描いてくれるんですか！"},
+];
+const COLORS = ["#ff9c00","#ff3b30","#2eff5e","#27e0ff","#ffffff","#3b7bff"];
+let S = { face:0, color:0 };
+let blinking = false;
+
+const cv = document.getElementById("led"), ctx = cv.getContext("2d");
+const DOT = 10;
+cv.width = W*DOT; cv.height = H*DOT;
+document.getElementById("sizeLabel").textContent = `${W}×${H} dot`;
+
+function currentFb(){
+  const kind = blinking ? "blink" : FACES[S.face].id;
+  return portrait(kind);
+}
+function paint(){
+  const fb = currentFb();
+  ctx.fillStyle = "#000"; ctx.fillRect(0,0,cv.width,cv.height);
+  ctx.fillStyle = "#15171a";
+  for (let y=0;y<H;y++) for (let x=0;x<W;x++){
+    if (!fb[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.32, 0, 7); ctx.fill(); }
+  }
+  const col = COLORS[S.color];
+  ctx.fillStyle = col; ctx.globalAlpha = .25;
+  for (let y=0;y<H;y++) for (let x=0;x<W;x++){
+    if (fb[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.62, 0, 7); ctx.fill(); }
+  }
+  ctx.globalAlpha = 1;
+  for (let y=0;y<H;y++) for (let x=0;x<W;x++){
+    if (fb[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.38, 0, 7); ctx.fill(); }
+  }
+}
+
+// たまにまばたきする
+function scheduleBlink(){
+  const wait = 2200 + Math.random()*3200;
+  setTimeout(()=>{
+    blinking = true; paint();
+    setTimeout(()=>{ blinking = false; paint(); scheduleBlink(); }, 130);
+  }, wait);
+}
+
+// お絵かきツール(prototypes/draw/)と同じ形式でURLに詰める
+function encodeForDraw(fb){
+  const bytes = new Uint8Array(Math.ceil(W*H/8));
+  for (let i=0;i<W*H;i++) if (fb[i]) bytes[i>>3] |= 0x80 >> (i&7);
+  let s = "";
+  for (const b of bytes) s += String.fromCharCode(b);
+  return btoa(s).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");
+}
+function updateEditLink(){
+  const fb = portrait(FACES[S.face].id);   // まばたき中でも素の表情を渡す
+  document.getElementById("editLink").href =
+    `../draw/#s=1&c=${S.color}&d=${encodeForDraw(fb)}`;
+}
+
+function chips(elId, items, get, set){
+  const el = document.getElementById(elId);
+  el.innerHTML = "";
+  items.forEach((it, i)=>{
+    const b = document.createElement("button");
+    if (elId === "colors"){ b.className = "swatch"+(get()===i?" on":""); b.style.background = it; }
+    else { b.className = "chip"+(get()===i?" on":""); b.textContent = it.label; }
+    b.onclick = ()=>{ set(it, i); render(); };
+    el.appendChild(b);
+  });
+}
+function render(){
+  chips("faces", FACES, ()=>S.face, (_,i)=>{ S.face = i; });
+  chips("colors", COLORS, ()=>S.color, (_,i)=>{
+    S.color = i;
+    document.documentElement.style.setProperty("--accent", COLORS[i]);
+  });
+  document.getElementById("say").innerHTML = `<b>電光掲示板くん:</b> ${FACES[S.face].say}`;
+  updateEditLink();
+  paint();
+}
+document.getElementById("png").onclick = ()=>{
+  const a = document.createElement("a");
+  a.href = cv.toDataURL("image/png");
+  a.download = "moshimo-sign-self-portrait.png";
+  a.click();
+};
+
+render();
+scheduleBlink();
+</script>
+</body>
+</html>
