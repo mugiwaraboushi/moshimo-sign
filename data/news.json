@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-06T12:23:32.549Z",
+ "updatedAt": "2026-08-06T14:42:07.000Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "大型で強い台風13号 沖縄・奄美接近へ 厳重警戒を",
+     "title": "大型で強い台風13号 沖縄・奄美に接近へ 厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197581000",
-     "pubDate": "Thu, 06 Aug 2026 21:04:08 +0900"
+     "pubDate": "Thu, 06 Aug 2026 22:58:13 +0900"
+    },
+    {
+     "title": "熊本 八代 地震の瞬間 手術室は緊迫した状況に…【動画】",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198461000",
+     "pubDate": "Thu, 06 Aug 2026 19:21:59 +0900"
+    },
+    {
+     "title": "7日も広い範囲で危険な暑さに 40度に迫る予想も 熱中症対策を",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197901000",
+     "pubDate": "Thu, 06 Aug 2026 22:03:40 +0900"
     },
     {
      "title": "地震被害の八代で39度 あすも猛暑の予想 台風影響にも注意を",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197571000",
      "pubDate": "Thu, 06 Aug 2026 19:39:37 +0900"
-    },
-    {
-     "title": "広島原爆の日 被爆から81年 核兵器廃絶の訴え続く",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197811000",
-     "pubDate": "Thu, 06 Aug 2026 19:40:49 +0900"
     },
     {
      "title": "写真加工アプリ「SNOW」 ステマで消費者庁が措置命令",
@@ -33,14 +38,9 @@
      "pubDate": "Thu, 06 Aug 2026 20:45:26 +0900"
     },
     {
-     "title": "【地震情報】熊本県で震度4 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198481000",
-     "pubDate": "Thu, 06 Aug 2026 20:07:40 +0900"
-    },
-    {
-     "title": "北朝鮮が弾道ミサイル発射 日本のEEZ外に落下か 小泉防衛相",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198261000",
-     "pubDate": "Thu, 06 Aug 2026 19:23:00 +0900"
+     "title": "広島原爆の日 被爆から81年 核兵器廃絶の訴え続く",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197811000",
+     "pubDate": "Thu, 06 Aug 2026 19:40:49 +0900"
     }
    ]
   },
@@ -50,19 +50,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "熊本地震 災害関連死の疑い含め38人死亡 避難所に6737人避難",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197971000",
-     "pubDate": "Thu, 06 Aug 2026 21:13:59 +0900"
+     "title": "大型で強い台風13号 沖縄・奄美に接近へ 厳重警戒を",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197581000",
+     "pubDate": "Thu, 06 Aug 2026 22:58:13 +0900"
     },
     {
      "title": "“現場職への転職”に20代の約半数が関心 背景にAIへの危機感",
      "link": "https://news.web.nhk/newsweb/na/na-k10015198141000",
-     "pubDate": "Thu, 06 Aug 2026 21:04:54 +0900"
+     "pubDate": "Thu, 06 Aug 2026 22:34:18 +0900"
     },
     {
-     "title": "大型で強い台風13号 沖縄・奄美接近へ 厳重警戒を",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197581000",
-     "pubDate": "Thu, 06 Aug 2026 21:04:08 +0900"
+     "title": "広島原爆の日 被爆地の思いは NW9広内キャスター 現地から報告",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198471000",
+     "pubDate": "Thu, 06 Aug 2026 22:04:57 +0900"
+    },
+    {
+     "title": "7日も広い範囲で危険な暑さに 40度に迫る予想も 熱中症対策を",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197901000",
+     "pubDate": "Thu, 06 Aug 2026 22:03:40 +0900"
+    },
+    {
+     "title": "熊本地震 災害関連死の疑い含め38人死亡 避難所に6737人避難",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197971000",
+     "pubDate": "Thu, 06 Aug 2026 21:13:59 +0900"
     },
     {
      "title": "写真加工アプリ「SNOW」 ステマで消費者庁が措置命令",
@@ -105,11 +115,6 @@
      "pubDate": "Thu, 06 Aug 2026 19:16:59 +0900"
     },
     {
-     "title": "7日も広い範囲で危険な暑さに 40度に迫る予想も 熱中症対策を",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197901000",
-     "pubDate": "Thu, 06 Aug 2026 19:15:17 +0900"
-    },
-    {
      "title": "九州新幹線 新水俣駅～鹿児島中央駅 本数減らして7日再開へ",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197721000",
      "pubDate": "Thu, 06 Aug 2026 19:12:39 +0900"
@@ -118,11 +123,6 @@
      "title": "熊本地震 生活情報（コンビニ スーパー ガスなど）【8月6日】",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197851000",
      "pubDate": "Thu, 06 Aug 2026 19:03:39 +0900"
-    },
-    {
-     "title": "ボランティアによる健康確認の支援など【6日 被災地の動き】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198031000",
-     "pubDate": "Thu, 06 Aug 2026 19:00:58 +0900"
     }
    ]
   },
@@ -204,6 +204,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ミャンマー 軍の影響力が強い政権トップがタイ訪問",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198601000",
+     "pubDate": "Thu, 06 Aug 2026 21:49:28 +0900"
+    },
+    {
      "title": "ホルムズ海峡の新航路 イラン「調整の最終段階」",
      "link": "https://news.web.nhk/newsweb/na/na-k10015198411000",
      "pubDate": "Thu, 06 Aug 2026 20:45:26 +0900"
@@ -272,11 +277,6 @@
      "title": "独の空港で爆発物搭載したドローン ロシア関与か 独政府が示唆",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197711000",
      "pubDate": "Thu, 06 Aug 2026 08:43:58 +0900"
-    },
-    {
-     "title": "イラン外務省 海峡めぐるオマーンとの共同声明 調整の最終段階",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197611000",
-     "pubDate": "Thu, 06 Aug 2026 07:42:02 +0900"
     }
    ]
   },
@@ -286,14 +286,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風13号は沖縄・奄美に接近 警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6590782?source=rss",
-     "pubDate": "Thu, 06 Aug 2026 11:22:02 GMT"
+     "title": "北発射は短距離弾道ミサイル 韓国",
+     "link": "https://news.yahoo.co.jp/pickup/6590794?source=rss",
+     "pubDate": "Thu, 06 Aug 2026 12:51:47 GMT"
     },
     {
-     "title": "被爆した姉の遺体 1人で焼いた弟",
-     "link": "https://news.yahoo.co.jp/pickup/6590760?source=rss",
-     "pubDate": "Thu, 06 Aug 2026 08:43:02 GMT"
+     "title": "きのこ雲目撃 復興語る元広島捕手",
+     "link": "https://news.yahoo.co.jp/pickup/6590802?source=rss",
+     "pubDate": "Thu, 06 Aug 2026 13:51:29 GMT"
     },
     {
      "title": "イオン爆発 ガス供給会社コメント",
@@ -301,29 +301,29 @@
      "pubDate": "Thu, 06 Aug 2026 11:29:28 GMT"
     },
     {
-     "title": "3年で2.6億円 福岡県議会海外視察",
-     "link": "https://news.yahoo.co.jp/pickup/6590788?source=rss",
-     "pubDate": "Thu, 06 Aug 2026 11:52:25 GMT"
+     "title": "みんなで大家さん債務超過額 判明",
+     "link": "https://news.yahoo.co.jp/pickup/6590792?source=rss",
+     "pubDate": "Thu, 06 Aug 2026 12:23:51 GMT"
     },
     {
-     "title": "エース級の財務官僚人事が波紋",
-     "link": "https://news.yahoo.co.jp/pickup/6590778?source=rss",
-     "pubDate": "Thu, 06 Aug 2026 09:53:40 GMT"
+     "title": "太陽表面 過去最高の解像度で観測",
+     "link": "https://news.yahoo.co.jp/pickup/6590795?source=rss",
+     "pubDate": "Thu, 06 Aug 2026 13:03:06 GMT"
     },
     {
-     "title": "茨城「パスポート」群馬側は快諾",
-     "link": "https://news.yahoo.co.jp/pickup/6590790?source=rss",
-     "pubDate": "Thu, 06 Aug 2026 12:07:08 GMT"
+     "title": "名古屋城のお堀のシカ 残り1頭に",
+     "link": "https://news.yahoo.co.jp/pickup/6590797?source=rss",
+     "pubDate": "Thu, 06 Aug 2026 13:34:51 GMT"
     },
     {
-     "title": "張本美和 中国選手に大逆転で8強",
-     "link": "https://news.yahoo.co.jp/pickup/6590789?source=rss",
-     "pubDate": "Thu, 06 Aug 2026 12:04:01 GMT"
+     "title": "都立病院に「生殖医療外来」開設",
+     "link": "https://news.yahoo.co.jp/pickup/6590801?source=rss",
+     "pubDate": "Thu, 06 Aug 2026 13:53:24 GMT"
     },
     {
-     "title": "山本里菜アナが離婚 前向きな決断",
-     "link": "https://news.yahoo.co.jp/pickup/6590779?source=rss",
-     "pubDate": "Thu, 06 Aug 2026 10:16:10 GMT"
+     "title": "長州小力 8月にリング復帰",
+     "link": "https://news.yahoo.co.jp/pickup/6590803?source=rss",
+     "pubDate": "Thu, 06 Aug 2026 14:16:07 GMT"
     }
    ]
   }
