@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-06T04:35:17.658Z",
+ "updatedAt": "2026-08-06T07:29:37.678Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "被爆から81年 広島 平和記念式典",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197811000",
-     "pubDate": "Thu, 06 Aug 2026 12:36:04 +0900"
+     "title": "広島原爆の日 被爆者や遺族などが祈りささげる",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197691000",
+     "pubDate": "Thu, 06 Aug 2026 16:06:26 +0900"
     },
     {
-     "title": "被爆者団体と面会 “原爆症認定審査の迅速化図る” 高市首相",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198041000",
-     "pubDate": "Thu, 06 Aug 2026 13:17:17 +0900"
+     "title": "【ライブ】熊本地震 災害関連死の疑い含め38人死亡",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197971000",
+     "pubDate": "Thu, 06 Aug 2026 15:57:31 +0900"
     },
     {
-     "title": "広島被爆者の絵をキーウで描く “核兵器使われるのが怖い”",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197881000",
-     "pubDate": "Thu, 06 Aug 2026 11:58:21 +0900"
+     "title": "【地震速報】熊本 八代市で震度３ 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197731000",
+     "pubDate": "Thu, 06 Aug 2026 16:26:36 +0900"
     },
     {
-     "title": "台風13号 猛烈な風が予想 沖縄は線状降水帯のおそれ 厳重警戒",
+     "title": "台風13号 沖縄・奄美で風が強まる 沖縄は線状降水帯のおそれ",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197581000",
-     "pubDate": "Thu, 06 Aug 2026 12:54:17 +0900"
+     "pubDate": "Thu, 06 Aug 2026 16:04:55 +0900"
     },
     {
-     "title": "熊本はきょうも危険な暑さ予想 熱中症対策を 台風影響にも注意",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197571000",
-     "pubDate": "Thu, 06 Aug 2026 13:28:47 +0900"
+     "title": "俳優 寿美花代さん死去 宝塚歌劇団で男役トップスター 94歳",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198081000",
+     "pubDate": "Thu, 06 Aug 2026 14:25:31 +0900"
     },
     {
-     "title": "熊本地震 私たちにできる支援は？",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197831000",
-     "pubDate": "Thu, 06 Aug 2026 12:42:20 +0900"
+     "title": "韓国警察 サッカーW杯監督選考めぐりサッカー協会を捜索",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198191000",
+     "pubDate": "Thu, 06 Aug 2026 15:39:36 +0900"
     },
     {
      "title": "人気雑誌グッズを大量注文しキャンセル疑い 32歳を逮捕 警視庁",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197981000",
-     "pubDate": "Thu, 06 Aug 2026 12:11:18 +0900"
+     "pubDate": "Thu, 06 Aug 2026 15:28:33 +0900"
     }
    ]
   },
@@ -50,79 +50,79 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "熊本はきょうも危険な暑さ予想 熱中症対策を 台風影響にも注意",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197571000",
-     "pubDate": "Thu, 06 Aug 2026 13:28:47 +0900"
+     "title": "【地震速報】熊本 八代市で震度３ 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197731000",
+     "pubDate": "Thu, 06 Aug 2026 16:26:36 +0900"
     },
     {
-     "title": "被爆者団体と面会 “原爆症認定審査の迅速化図る” 高市首相",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198041000",
-     "pubDate": "Thu, 06 Aug 2026 13:17:17 +0900"
+     "title": "広島の原爆養護ホーム訪問 被爆体験伝承活動に謝意 高市首相",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198221000",
+     "pubDate": "Thu, 06 Aug 2026 16:17:26 +0900"
     },
     {
-     "title": "台風13号 猛烈な風が予想 沖縄は線状降水帯のおそれ 厳重警戒",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197581000",
-     "pubDate": "Thu, 06 Aug 2026 12:54:17 +0900"
-    },
-    {
-     "title": "熊本県内 避難情報 130か所 6899人が避難【8月6日】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197871000",
-     "pubDate": "Thu, 06 Aug 2026 12:51:58 +0900"
-    },
-    {
-     "title": "広島「原爆の日」「二重被爆者」の女性が犠牲者を悼む 長崎",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198011000",
-     "pubDate": "Thu, 06 Aug 2026 12:50:24 +0900"
-    },
-    {
-     "title": "鹿児島 沖永良部島 和泊町 町内全域に「高齢者等避難」の情報",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198051000",
-     "pubDate": "Thu, 06 Aug 2026 12:43:39 +0900"
-    },
-    {
-     "title": "熊本地震 私たちにできる支援は？",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197831000",
-     "pubDate": "Thu, 06 Aug 2026 12:42:20 +0900"
-    },
-    {
-     "title": "被爆から81年 広島 平和記念式典",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197811000",
-     "pubDate": "Thu, 06 Aug 2026 12:36:04 +0900"
-    },
-    {
-     "title": "熊本地震 給水に関する情報【8月6日】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197861000",
-     "pubDate": "Thu, 06 Aug 2026 12:35:25 +0900"
-    },
-    {
-     "title": "熊本地震 生活情報（コンビニ スーパーなど）【8月6日】",
+     "title": "熊本地震 生活情報（コンビニ スーパー ガスなど）【8月6日】",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197851000",
-     "pubDate": "Thu, 06 Aug 2026 12:24:52 +0900"
+     "pubDate": "Thu, 06 Aug 2026 16:16:10 +0900"
     },
     {
-     "title": "秘匿性高い通信アプリを遠隔解析 トクリュウ対策で検討へ",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197961000",
-     "pubDate": "Thu, 06 Aug 2026 12:19:03 +0900"
+     "title": "広島原爆の日 被爆者や遺族などが祈りささげる",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197691000",
+     "pubDate": "Thu, 06 Aug 2026 16:06:26 +0900"
     },
     {
-     "title": "九州新幹線 新水俣駅～鹿児島中央駅 本数減らして7日再開へ",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197721000",
-     "pubDate": "Thu, 06 Aug 2026 12:11:45 +0900"
+     "title": "台風13号 沖縄・奄美で風が強まる 沖縄は線状降水帯のおそれ",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197581000",
+     "pubDate": "Thu, 06 Aug 2026 16:04:55 +0900"
+    },
+    {
+     "title": "【ライブ】熊本地震 災害関連死の疑い含め38人死亡",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197971000",
+     "pubDate": "Thu, 06 Aug 2026 15:57:31 +0900"
+    },
+    {
+     "title": "「イオンモール熊本」爆発 LPガス供給会社 調査に全面協力",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198211000",
+     "pubDate": "Thu, 06 Aug 2026 15:54:19 +0900"
+    },
+    {
+     "title": "熊本地震で政府対応など聴取 衆院災害対策特別委が理事懇談会",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198181000",
+     "pubDate": "Thu, 06 Aug 2026 15:44:46 +0900"
+    },
+    {
+     "title": "地震で不安に 子どもの心のケアのポイントまとめた文書公開",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198161000",
+     "pubDate": "Thu, 06 Aug 2026 15:42:01 +0900"
+    },
+    {
+     "title": "九州新幹線“全線再開見通し 8月中に示す”JR九州社長",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198111000",
+     "pubDate": "Thu, 06 Aug 2026 15:36:38 +0900"
     },
     {
      "title": "人気雑誌グッズを大量注文しキャンセル疑い 32歳を逮捕 警視庁",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197981000",
-     "pubDate": "Thu, 06 Aug 2026 12:11:18 +0900"
+     "pubDate": "Thu, 06 Aug 2026 15:28:33 +0900"
     },
     {
-     "title": "熊本地震 災害関連死の疑い含め38人死亡 避難所に6899人が避難",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197971000",
-     "pubDate": "Thu, 06 Aug 2026 11:59:22 +0900"
+     "title": "被爆者団体と面会 “原爆症認定審査の迅速化図る” 高市首相",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198041000",
+     "pubDate": "Thu, 06 Aug 2026 15:00:08 +0900"
     },
     {
-     "title": "広島被爆者の絵をキーウで描く “核兵器使われるのが怖い”",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197881000",
-     "pubDate": "Thu, 06 Aug 2026 11:58:21 +0900"
+     "title": "ボランティアによる健康確認の支援など【6日 被災地の動き】",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198031000",
+     "pubDate": "Thu, 06 Aug 2026 14:07:07 +0900"
+    },
+    {
+     "title": "前日治療せず事故か 睡眠時無呼吸症候群のドライバー書類送検",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197951000",
+     "pubDate": "Thu, 06 Aug 2026 14:06:39 +0900"
+    },
+    {
+     "title": "被爆から81年 広島 平和記念式典",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197811000",
+     "pubDate": "Thu, 06 Aug 2026 13:49:45 +0900"
     }
    ]
   },
@@ -132,14 +132,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
-     "title": "秘匿性高い通信アプリを遠隔解析 トクリュウ対策で検討へ",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197961000",
-     "pubDate": "Thu, 06 Aug 2026 12:19:03 +0900"
-    },
-    {
      "title": "人気雑誌グッズを大量注文しキャンセル疑い 32歳を逮捕 警視庁",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197981000",
-     "pubDate": "Thu, 06 Aug 2026 12:11:18 +0900"
+     "pubDate": "Thu, 06 Aug 2026 15:28:33 +0900"
+    },
+    {
+     "title": "俳優 寿美花代さん死去 宝塚歌劇団で男役トップスター 94歳",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198081000",
+     "pubDate": "Thu, 06 Aug 2026 14:25:31 +0900"
+    },
+    {
+     "title": "秘匿性高い通信アプリを遠隔解析 トクリュウ対策で検討へ",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015197961000",
+     "pubDate": "Thu, 06 Aug 2026 13:46:01 +0900"
     },
     {
      "title": "OTC類似薬の追加負担 がん患者ら対象外に 中間とりまとめ",
@@ -199,6 +204,41 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "韓国警察 サッカーW杯監督選考めぐりサッカー協会を捜索",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198191000",
+     "pubDate": "Thu, 06 Aug 2026 15:39:36 +0900"
+    },
+    {
+     "title": "ワクチン政策めぐり混乱の米CDC 1年空席の所長決まる",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198151000",
+     "pubDate": "Thu, 06 Aug 2026 15:38:06 +0900"
+    },
+    {
+     "title": "日本・エクアドル EPA締結も視野に議論継続 年内めどに報告へ",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198171000",
+     "pubDate": "Thu, 06 Aug 2026 14:55:32 +0900"
+    },
+    {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月6日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015192471000",
+     "pubDate": "Thu, 06 Aug 2026 14:49:31 +0900"
+    },
+    {
+     "title": "パナマと海洋含めた国際秩序を守る重要性を確認 茂木外相",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198121000",
+     "pubDate": "Thu, 06 Aug 2026 14:41:15 +0900"
+    },
+    {
+     "title": "米中間選挙候補者選び 民主党は激戦州でも左派選出",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198131000",
+     "pubDate": "Thu, 06 Aug 2026 14:39:45 +0900"
+    },
+    {
+     "title": "米税関当局 徴収した相互関税など返還手続き 日本円で約16兆円",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198071000",
+     "pubDate": "Thu, 06 Aug 2026 13:51:40 +0900"
+    },
+    {
      "title": "広島被爆者の絵をキーウで描く “核兵器使われるのが怖い”",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197881000",
      "pubDate": "Thu, 06 Aug 2026 11:58:21 +0900"
@@ -237,41 +277,6 @@
      "title": "AI 実在の人標的にメッセージ“自律的に人だますリスク”",
      "link": "https://news.web.nhk/newsweb/na/na-k10015197651000",
      "pubDate": "Wed, 05 Aug 2026 23:33:07 +0900"
-    },
-    {
-     "title": "韓国 プロ野球 記録的な暑さで5日と6日の全10試合中止に",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197511000",
-     "pubDate": "Wed, 05 Aug 2026 22:16:31 +0900"
-    },
-    {
-     "title": "米 ベッセント財務長官 “協調介入は象徴的な意味合い”",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015196511000",
-     "pubDate": "Wed, 05 Aug 2026 22:05:21 +0900"
-    },
-    {
-     "title": "トランプ大統領“あすか あさって ホルムズ海峡開放の可能性”",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197411000",
-     "pubDate": "Wed, 05 Aug 2026 19:17:25 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月5日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015192451000",
-     "pubDate": "Wed, 05 Aug 2026 19:14:53 +0900"
-    },
-    {
-     "title": "ガザ地区 イスラエル軍の3年前の攻撃で112人の遺体 集団葬儀",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197361000",
-     "pubDate": "Wed, 05 Aug 2026 18:17:03 +0900"
-    },
-    {
-     "title": "異例の介入 米側の思惑は ベッセント財務長官単独インタビュー",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197021000",
-     "pubDate": "Wed, 05 Aug 2026 16:31:33 +0900"
-    },
-    {
-     "title": "米大統領訪問前のゴルフ場で男拘束 車から拳銃見つかる",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197171000",
-     "pubDate": "Wed, 05 Aug 2026 16:17:53 +0900"
     }
    ]
   },
@@ -281,44 +286,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風13号 あす沖縄本島に最接近へ",
-     "link": "https://news.yahoo.co.jp/pickup/6590724?source=rss",
-     "pubDate": "Thu, 06 Aug 2026 03:45:43 GMT"
+     "title": "安保3文書改定 予断控えると首相",
+     "link": "https://news.yahoo.co.jp/pickup/6590737?source=rss",
+     "pubDate": "Thu, 06 Aug 2026 05:21:04 GMT"
     },
     {
-     "title": "皮ズルズルに剥けた人も 原爆光景",
-     "link": "https://news.yahoo.co.jp/pickup/6590712?source=rss",
-     "pubDate": "Thu, 06 Aug 2026 02:52:21 GMT"
+     "title": "国連事務総長 核兵器減の潮流逆行",
+     "link": "https://news.yahoo.co.jp/pickup/6590728?source=rss",
+     "pubDate": "Thu, 06 Aug 2026 04:33:22 GMT"
     },
     {
-     "title": "中国 なぜ領有権争いを続けるのか",
-     "link": "https://news.yahoo.co.jp/pickup/6590721?source=rss",
-     "pubDate": "Thu, 06 Aug 2026 03:34:29 GMT"
+     "title": "九州新幹線復旧 8月中に時期示す",
+     "link": "https://news.yahoo.co.jp/pickup/6590736?source=rss",
+     "pubDate": "Thu, 06 Aug 2026 05:14:40 GMT"
     },
     {
-     "title": "睡眠障害自覚し事故 危険運転疑い",
-     "link": "https://news.yahoo.co.jp/pickup/6590714?source=rss",
-     "pubDate": "Thu, 06 Aug 2026 03:15:11 GMT"
+     "title": "水難事故か 川底で16歳の遺体発見",
+     "link": "https://news.yahoo.co.jp/pickup/6590739?source=rss",
+     "pubDate": "Thu, 06 Aug 2026 06:34:07 GMT"
     },
     {
-     "title": "集英社通販サイトで妨害疑い 逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6590725?source=rss",
-     "pubDate": "Thu, 06 Aug 2026 03:40:45 GMT"
+     "title": "ディズニーとTikTok 提携を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6590738?source=rss",
+     "pubDate": "Thu, 06 Aug 2026 05:28:42 GMT"
     },
     {
-     "title": "活気づく栄 名駅前から覇権奪還?",
-     "link": "https://news.yahoo.co.jp/pickup/6590727?source=rss",
-     "pubDate": "Thu, 06 Aug 2026 03:37:53 GMT"
+     "title": "速報甲子園 神村学園vs.東筑",
+     "link": "https://news.yahoo.co.jp/pickup/6590742?source=rss",
+     "pubDate": "Thu, 06 Aug 2026 06:58:45 GMT"
     },
     {
-     "title": "上原浩治さん 7回制に反対の理由",
-     "link": "https://news.yahoo.co.jp/pickup/6590719?source=rss",
-     "pubDate": "Thu, 06 Aug 2026 03:47:49 GMT"
+     "title": "元TBS山本里菜アナ 離婚を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6590744?source=rss",
+     "pubDate": "Thu, 06 Aug 2026 07:12:38 GMT"
     },
     {
-     "title": "俳優の寿美花代さん死去 94歳",
-     "link": "https://news.yahoo.co.jp/pickup/6590718?source=rss",
-     "pubDate": "Thu, 06 Aug 2026 03:17:11 GMT"
+     "title": "藤嶌果歩の写真集巡り集英社声明",
+     "link": "https://news.yahoo.co.jp/pickup/6590740?source=rss",
+     "pubDate": "Thu, 06 Aug 2026 06:44:44 GMT"
     }
    ]
   }
