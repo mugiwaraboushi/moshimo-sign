@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>イベントコメント（投稿・選別・実機出力）</title>
+<style>
+  :root { --accent:#ff9c00; --bg:#0d0f12; --card:#14171b; --line:#22262c; --dim:#8a8f98; }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body { margin:0; background:var(--bg); color:#e8e6e0;
+    font-family:'Hiragino Sans','Noto Sans JP',sans-serif; font-size:14px; line-height:1.7; }
+  .wrap { max-width:760px; margin:0 auto; padding:16px 14px 60px; }
+  h1 { font-size:16px; font-weight:600; letter-spacing:.1em; margin:4px 0 2px; }
+  h2 { font-size:12px; font-weight:600; color:var(--dim); letter-spacing:.1em;
+    margin:22px 0 8px; padding-bottom:6px; border-bottom:1px solid var(--line); }
+  .sub { font-size:11px; color:var(--dim); margin-bottom:14px; }
+  .roles { display:flex; gap:6px; margin-bottom:16px; }
+  .roles a { flex:1; text-align:center; text-decoration:none; font-size:12px; padding:8px 4px;
+    border:1px solid var(--line); border-radius:9px; color:#c9cdd3; background:#171a1f; }
+  .roles a.on { background:var(--accent); color:#000; border-color:var(--accent); font-weight:700; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px; margin-bottom:12px; }
+  textarea, input[type=text] { width:100%; background:#0f1216; color:#e8e6e0; border:1px solid #2c3138;
+    border-radius:9px; padding:11px; font:inherit; font-size:16px; resize:vertical; }
+  textarea { min-height:88px; }
+  button { font:inherit; font-size:13px; border-radius:9px; padding:10px 14px; border:1px solid #2c3138;
+    background:#171a1f; color:#c9cdd3; }
+  button.primary { background:var(--accent); color:#000; border-color:var(--accent); font-weight:700; width:100%; padding:13px; }
+  button.tiny { font-size:11px; padding:5px 10px; border-radius:14px; }
+  button:disabled { opacity:.4; }
+  .row { display:flex; gap:6px; flex-wrap:wrap; }
+  .counter { font-size:11px; color:var(--dim); text-align:right; margin-top:5px; }
+  .msg { font-size:12px; margin-top:10px; padding:9px 11px; border-radius:8px; }
+  .msg.ok { background:#132a19; color:#8fe0a6; }
+  .msg.hold { background:#2a2413; color:#e0cc8f; }
+  .tabs { display:flex; gap:6px; margin-bottom:10px; }
+  .tabs button.on { background:var(--accent); color:#000; border-color:var(--accent); font-weight:700; }
+  .item { border:1px solid var(--line); border-radius:10px; padding:11px 12px; margin-bottom:8px; background:#111418; }
+  .item .meta { font-size:10px; color:#6b7280; display:flex; gap:8px; margin-bottom:5px; align-items:center; flex-wrap:wrap; }
+  .item .body { font-size:14px; word-break:break-word; margin-bottom:9px; }
+  .tag { font-size:10px; padding:2px 7px; border-radius:10px; border:1px solid; }
+  .tag.pending  { color:#e0cc8f; border-color:#5c4f22; }
+  .tag.approved { color:#8fe0a6; border-color:#245c34; }
+  .tag.rejected { color:#8a8f98; border-color:#3a3f47; }
+  .tag.flag { color:#ff9a8f; border-color:#6b2f2a; }
+  .empty { color:#4b525b; font-size:12px; text-align:center; padding:26px 0; }
+  pre { background:#0f1216; border:1px solid #2c3138; border-radius:9px; padding:11px;
+    font-size:12px; overflow-x:auto; white-space:pre-wrap; word-break:break-all; color:#c9cdd3; }
+  code { font-size:11px; color:#c9a227; background:#1c2026; padding:1px 4px; border-radius:4px; }
+  .note { border-left:3px solid #c9a227; padding:11px 13px; font-size:12px; color:#b6bcc4;
+    background:var(--card); border-radius:8px; margin-bottom:12px; }
+  .note b { color:var(--accent); }
+  details { font-size:12px; color:#b6bcc4; }
+  summary { cursor:pointer; color:var(--dim); font-size:12px; padding:4px 0; }
+  .foot { font-size:10px; color:#4b525b; margin-top:26px; line-height:1.8; }
+  .foot a { color:#8a6a2f; }
+  .stat { display:flex; gap:14px; font-size:11px; color:var(--dim); margin-bottom:10px; }
+  .stat b { color:var(--accent); font-size:15px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1 id="title">イベントコメント</h1>
+  <div class="sub" id="lead"></div>
+
+  <div class="roles">
+    <a href="?role=post"  id="r-post">参加者（投稿）</a>
+    <a href="?role=admin" id="r-admin">管理（選別）</a>
+  </div>
+
+  <div id="view"></div>
+
+  <div class="foot">
+    もしも まちと未来の実験室 ／ <a href="../../">プロトタイプ一覧</a><br>
+    実機の受け口: <code>COMMENTS_URL</code>（1行1コメントのプレーンテキスト・15秒ごと取得・最大20件）
+  </div>
+</div>
+
+<script>
+// =====================================================================
+// 参加者がスマホから投稿 → 自動で「明らかにダメなもの」を保留 → 管理者が選別
+// → 承認したものだけを実機用テキストにする。ログはCSV/JSONで保存できる。
+//
+// 保存先は差し替えられるようにしてある(STORE)。既定は demo = このブラウザの中だけ。
+// 別タブの管理画面とはリアルタイムに同期するので、PC1台で通しの動作確認ができる。
+// 本番(参加者のスマホ→管理PC)は共有サーバが要る。契約は下の ENDPOINT_SPEC のとおり。
+// =====================================================================
+
+const KEY = "moshimo-event-comments";
+const MAX_LEN = 60;          // 実機は64dot幅。長い文は流れきるまで時間がかかるので上限を置く
+const MAX_TO_DEVICE = 20;    // firmware の MAX_COMMENTS
+
+const q = new URLSearchParams(location.search);
+const role = q.get("role") === "admin" ? "admin" : "post";
+
+// ---------------- 自動フィルタ ----------------
+// 方針: 自動では**捨てない**。「保留」にして理由を付けるだけ。最後は必ず人が決める。
+// 語彙はここに全部書かず、管理画面から足せるようにしてある(この端末に保存される)。
+const SEED_NG = ["死ね", "殺す", "きもい", "ブス", "バカ", "アホ", "クズ"];
+function ngWords(){
+  try { return JSON.parse(localStorage.getItem(KEY+":ng")) || SEED_NG; }
+  catch { return SEED_NG; }
+}
+function setNgWords(list){ localStorage.setItem(KEY+":ng", JSON.stringify(list)); }
+
+function screen(text){
+  const flags = [];
+  const t = text.trim();
+  const hit = ngWords().filter(w => w && t.includes(w));
+  if (hit.length) flags.push({ code:"ng", label:"NGワード（" + hit.join("・") + "）" });
+  if (/https?:\/\/|www\./i.test(t))            flags.push({ code:"url",   label:"URLが入っている" });
+  if (/0\d{1,4}-?\d{2,4}-?\d{3,4}/.test(t))    flags.push({ code:"tel",   label:"電話番号らしき数字" });
+  if (/[\w.+-]+@[\w-]+\.[\w.]+/.test(t))       flags.push({ code:"mail",  label:"メールアドレスらしき文字列" });
+  if (t.length > MAX_LEN)                      flags.push({ code:"long",  label:"長すぎる（" + t.length + "文字）" });
+  if (/(.)\1{9,}/.test(t))                     flags.push({ code:"rep",   label:"同じ文字の連打" });
+  if (!t.length)                               flags.push({ code:"empty", label:"空" });
+  return flags;
+}
+
+// ---------------- 保存先 ----------------
+// demo: このブラウザの中だけ。BroadcastChannelで別タブの管理画面と即同期する
+const bc = ("BroadcastChannel" in window) ? new BroadcastChannel(KEY) : null;
+const STORE = {
+  all(){ try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch { return []; } },
+  write(list){ localStorage.setItem(KEY, JSON.stringify(list)); bc && bc.postMessage("changed"); },
+  add(text){
+    const list = this.all();
+    const item = {
+      id: (list.length ? Math.max(...list.map(c=>c.id)) : 0) + 1,
+      ts: new Date().toISOString(),
+      text: text.trim(),
+      flags: screen(text),
+      state: "pending",
+    };
+    // 自動で通すのはフラグゼロのものだけ。それでも state は pending のまま(人が見る)
+    list.push(item);
+    this.write(list);
+    return item;
+  },
+  setState(id, state){
+    const list = this.all();
+    const c = list.find(x => x.id === id);
+    if (c) { c.state = state; this.write(list); }
+  },
+  clear(){ this.write([]); },
+};
+bc && (bc.onmessage = () => render());
+addEventListener("storage", e => { if (e.key === KEY) render(); });
+
+const esc = s => s.replace(/[&<>"]/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+const hhmm = iso => { const d = new Date(iso);
+  return String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0"); };
+const $ = id => document.getElementById(id);
+const view = $("view");
+
+// ---------------- 参加者（投稿）----------------
+function renderPost(){
+  const mine = STORE.all().slice(-5).reverse();
+  view.innerHTML = `
+    <div class="card">
+      <textarea id="text" maxlength="${MAX_LEN + 40}" placeholder="質問・コメント・つぶやき、なんでも"></textarea>
+      <div class="counter"><span id="count">0</span> / ${MAX_LEN}文字</div>
+      <div style="margin-top:8px"><button class="primary" id="send">送る</button></div>
+      <div id="result"></div>
+    </div>
+    <div class="note">
+      送られたコメントは<b>すぐには出ません</b>。運営が目を通してから電光掲示板に流れます。<br>
+      名前は送られません。書いた内容だけが表示されます。
+    </div>
+    <h2>さっき送られたもの</h2>
+    <div id="recent">${mine.length ? mine.map(c => `
+      <div class="item">
+        <div class="meta"><span>${hhmm(c.ts)}</span><span class="tag ${c.state}">${
+          {pending:"確認待ち", approved:"掲示板に表示中", rejected:"見送り"}[c.state]}</span></div>
+        <div class="body">${esc(c.text)}</div>
+      </div>`).join("") : `<div class="empty">まだありません</div>`}</div>`;
+
+  const ta = $("text");
+  ta.oninput = () => {
+    $("count").textContent = [...ta.value.trim()].length;
+    $("count").style.color = [...ta.value.trim()].length > MAX_LEN ? "#ff9a8f" : "";
+  };
+  $("send").onclick = () => {
+    const t = ta.value.trim();
+    if (!t) return;
+    const item = STORE.add(t);
+    ta.value = ""; $("count").textContent = "0";
+    const held = item.flags.length;
+    $("result").innerHTML = `<div class="msg ${held ? "hold" : "ok"}">${
+      held ? "送りました。運営が確認します。" : "送りました。ありがとうございます。"}</div>`;
+    setTimeout(render, 1200);
+  };
+}
+
+// ---------------- 管理（選別）----------------
+let tab = "pending";
+function renderAdmin(){
+  const all = STORE.all();
+  const n = s => all.filter(c => c.state === s).length;
+  const shown = tab === "all" ? all : all.filter(c => c.state === tab);
+  const approved = all.filter(c => c.state === "approved");
+  const deviceText = approved.slice(-MAX_TO_DEVICE).map(c => c.text).join("\n");
+
+  view.innerHTML = `
+    <div class="card">
+      <div class="stat">
+        <span><b>${n("pending")}</b> 未確認</span>
+        <span><b>${n("approved")}</b> 表示中</span>
+        <span><b>${n("rejected")}</b> 見送り</span>
+        <span><b>${all.length}</b> 合計</span>
+      </div>
+      <div class="tabs">
+        ${[["pending","未確認"],["approved","表示中"],["rejected","見送り"],["all","全部"]]
+          .map(([k,l]) => `<button class="tiny ${tab===k?"on":""}" data-tab="${k}">${l}</button>`).join("")}
+      </div>
+      <div id="list">${shown.length ? shown.slice().reverse().map(c => `
+        <div class="item">
+          <div class="meta">
+            <span>${hhmm(c.ts)}</span>
+            <span class="tag ${c.state}">${{pending:"未確認",approved:"表示中",rejected:"見送り"}[c.state]}</span>
+            ${c.flags.map(f => `<span class="tag flag">${esc(f.label)}</span>`).join("")}
+          </div>
+          <div class="body">${esc(c.text)}</div>
+          <div class="row">
+            ${c.state !== "approved" ? `<button class="tiny" data-ok="${c.id}">掲示板に出す</button>` : ""}
+            ${c.state !== "rejected" ? `<button class="tiny" data-ng="${c.id}">見送る</button>` : ""}
+            ${c.state !== "pending"  ? `<button class="tiny" data-un="${c.id}">未確認に戻す</button>` : ""}
+          </div>
+        </div>`).join("") : `<div class="empty">ありません</div>`}</div>
+    </div>
+
+    <h2>実機に送るテキスト（${approved.length > MAX_TO_DEVICE
+      ? "新しい" + MAX_TO_DEVICE + "件" : approved.length + "件"}）</h2>
+    <div class="card">
+      <pre id="devtext">${deviceText ? esc(deviceText) : "（まだ承認されたコメントがありません）"}</pre>
+      <div class="row">
+        <button class="tiny" id="copy">コピー</button>
+        <button class="tiny" id="dl-txt">comments.txt</button>
+        <button class="tiny" id="preview" ${deviceText ? "" : "disabled"}>掲示板で見る</button>
+      </div>
+      <div style="font-size:11px;color:var(--dim);margin-top:9px">
+        これをそのまま <code>COMMENTS_URL</code> に置けば実機が15秒以内に拾います。
+      </div>
+    </div>
+
+    <h2>ログの保存</h2>
+    <div class="card">
+      <div class="row">
+        <button class="tiny" id="dl-csv">CSVで保存</button>
+        <button class="tiny" id="dl-json">JSONで保存</button>
+        <button class="tiny" id="wipe">全部消す</button>
+      </div>
+      <div style="font-size:11px;color:var(--dim);margin-top:9px">
+        時刻・本文・状態・自動判定の理由まで残ります。イベント後の振り返り用。
+      </div>
+    </div>
+
+    <h2>自動判定のことば</h2>
+    <div class="card">
+      <input type="text" id="ngbox" value="${esc(ngWords().join("、"))}">
+      <div class="row" style="margin-top:8px">
+        <button class="tiny" id="ngsave">保存</button>
+        <button class="tiny" id="ngreset">初期値に戻す</button>
+      </div>
+      <div style="font-size:11px;color:var(--dim);margin-top:9px">
+        「、」区切り。この端末にだけ保存されます（リポジトリには載りません）。<br>
+        引っかかっても<b>自動では捨てません</b>。理由が付いて未確認に積まれるだけです。
+      </div>
+    </div>
+
+    <details style="margin-top:14px">
+      <summary>参加者のスマホから届くようにするには（本番の構成）</summary>
+      <div class="card" style="margin-top:8px">
+        いまのこの画面は<b>このPCの中だけ</b>で動いています。別タブで
+        <a href="?role=post" style="color:var(--accent)">参加者画面</a> を開けば通しで試せますが、
+        参加者のスマホからは届きません。共有サーバが1枚要ります。<br><br>
+        ホワイトボードの構想どおり <b>GAS + スプレッドシート</b> が一番近道です。作るのは3つの口だけ:
+        <pre>GET  ?action=list            → コメント全部をJSONで返す
+POST {action:"add", text}   → 1件足す
+POST {action:"state", id, state}  → 状態を変える(pending/approved/rejected)
+GET  ?action=text           → 承認済みだけを1行1件のテキストで返す
+                              ← これを COMMENTS_URL にする</pre>
+        スプレッドシートがそのままログになるので、保存もそこで済みます。
+        口ができたらこの画面をつなぎ込みます（<code>STORE</code> を差し替えるだけ）。
+      </div>
+    </details>`;
+
+  view.querySelectorAll("[data-tab]").forEach(b => b.onclick = () => { tab = b.dataset.tab; render(); });
+  view.querySelectorAll("[data-ok]").forEach(b => b.onclick = () => STORE.setState(+b.dataset.ok, "approved"));
+  view.querySelectorAll("[data-ng]").forEach(b => b.onclick = () => STORE.setState(+b.dataset.ng, "rejected"));
+  view.querySelectorAll("[data-un]").forEach(b => b.onclick = () => STORE.setState(+b.dataset.un, "pending"));
+
+  $("copy").onclick = () => navigator.clipboard?.writeText(deviceText)
+    .then(() => { $("copy").textContent = "コピーしました"; setTimeout(()=>$("copy").textContent="コピー", 1400); });
+  $("dl-txt").onclick  = () => download("comments.txt", deviceText, "text/plain");
+  $("dl-json").onclick = () => download("comments-log.json", JSON.stringify(all, null, 2), "application/json");
+  $("dl-csv").onclick  = () => download("comments-log.csv", toCsv(all), "text/csv");
+  $("preview").onclick = () => {
+    const t = approved.slice(-MAX_TO_DEVICE).map(c => c.text).join("◆");
+    open("../board/?speed=45&text=" + encodeURIComponent(t), "_blank");
+  };
+  $("wipe").onclick = () => { if (confirm("ログを全部消します。よろしいですか?")) { STORE.clear(); render(); } };
+  $("ngsave").onclick = () => {
+    setNgWords($("ngbox").value.split(/[、,]/).map(s=>s.trim()).filter(Boolean));
+    render();
+  };
+  $("ngreset").onclick = () => { setNgWords(SEED_NG); render(); };
+}
+
+// ---------------- 保存まわり ----------------
+function toCsv(list){
+  const cell = v => `"${String(v).replace(/"/g,'""')}"`;
+  const head = ["時刻","本文","状態","自動判定"].map(cell).join(",");
+  const rows = list.map(c => [
+    new Date(c.ts).toLocaleString("ja-JP"),
+    c.text,
+    {pending:"未確認",approved:"表示中",rejected:"見送り"}[c.state],
+    c.flags.map(f=>f.label).join(" / "),
+  ].map(cell).join(","));
+  return "﻿" + [head, ...rows].join("\r\n");   // BOM付き(Excelで文字化けしない)
+}
+function download(name, text, mime){
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([text], {type: mime + ";charset=utf-8"}));
+  a.download = name; a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+
+// ---------------- 画面切替 ----------------
+function render(){
+  $("r-" + role).classList.add("on");
+  $("title").textContent = role === "admin" ? "コメント選別（管理）" : "コメントを送る";
+  $("lead").textContent = role === "admin"
+    ? "届いたコメントを見て、掲示板に出すものを決めます。自動判定は理由を付けるだけで、捨てはしません。"
+    : "いま思ったことを送ってください。運営が確認したものが電光掲示板に流れます。";
+  role === "admin" ? renderAdmin() : renderPost();
+}
+render();
+</script>
+</body>
+</html>
