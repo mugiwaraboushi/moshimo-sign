@@ -140,6 +140,34 @@ static float plSpeed = SCROLL_SPEED;
 static uint16_t plColorTop = COLOR_TOP;
 static uint16_t plColorScroll = COLOR_BOTTOM;
 static bool plDualMode = true;
+static bool plRainbow = false;   // colorScroll:"rainbow" で虹色スクロール (v0.4)
+
+// HSV(h:0-359) → RGB565。虹色スクロール用
+static uint16_t hsvToColor565(int h) {
+  h %= 360; if (h < 0) h += 360;
+  int region = h / 60, rem = (h % 60) * 255 / 60;
+  int p = 0, q = 255 - rem, t = rem;
+  int r, g, b;
+  switch (region) {
+    case 0: r = 255; g = t;   b = p;   break;
+    case 1: r = q;   g = 255; b = p;   break;
+    case 2: r = p;   g = 255; b = t;   break;
+    case 3: r = p;   g = q;   b = 255; break;
+    case 4: r = t;   g = p;   b = 255; break;
+    default: r = 255; g = p;  b = q;   break;
+  }
+  return ((r >> 3) << 11) | ((g >> 2) << 5) | (b >> 3);
+}
+
+// 1文字ごとに色相を24°ずつ進めた虹色で描画。基準色相は millis()/20 で回る
+// (約7.2秒で一周)。v0.4では周期・回転速度のパラメータ化はしない(将来拡張)
+static void drawTextRainbow(const uint16_t *cps, int n, int x, int y) {
+  int hueBase = (int)((millis() / 20) % 360);
+  for (int i = 0; i < n; i++) {
+    uint16_t col = hsvToColor565(hueBase + i * 24);
+    x += drawGlyph(cps[i], x, y, col);
+  }
+}
 
 static void rebuildMarquee() {
   String t;
@@ -215,7 +243,11 @@ static void fetchPlaylist() {
   if (doc["speed"].is<float>())          plSpeed = constrain((float)doc["speed"], 5.0f, 200.0f);
   if (doc["brightness"].is<int>())       display->setBrightness8(constrain((int)doc["brightness"], 8, 255));
   if (doc["colorTop"].is<const char*>())    plColorTop = hexToColor565(doc["colorTop"]);
-  if (doc["colorScroll"].is<const char*>()) plColorScroll = hexToColor565(doc["colorScroll"]);
+  if (doc["colorScroll"].is<const char*>()) {
+    const char *cs = doc["colorScroll"];
+    plRainbow = (strcmp(cs, "rainbow") == 0);
+    if (!plRainbow) plColorScroll = hexToColor565(cs);
+  }
   if (doc["messages"].is<JsonArray>()) {
     plMsgCount = 0;
     for (JsonVariant v : doc["messages"].as<JsonArray>()) {
@@ -330,8 +362,11 @@ void loop() {
   display->clearScreen();
   if (plDualMode && PANEL_H >= 32) {
     drawTopLine();
-    drawText(marqueeCps, marqueeLen, (int)scrollX, 16, plColorScroll);
+    if (plRainbow) drawTextRainbow(marqueeCps, marqueeLen, (int)scrollX, 16);
+    else           drawText(marqueeCps, marqueeLen, (int)scrollX, 16, plColorScroll);
   } else {
-    drawText(marqueeCps, marqueeLen, (int)scrollX, (PANEL_H - 16) / 2, plColorScroll);
+    const int y = (PANEL_H - 16) / 2;
+    if (plRainbow) drawTextRainbow(marqueeCps, marqueeLen, (int)scrollX, y);
+    else           drawText(marqueeCps, marqueeLen, (int)scrollX, y, plColorScroll);
   }
 }

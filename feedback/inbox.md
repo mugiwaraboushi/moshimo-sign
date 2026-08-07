@@ -14,22 +14,6 @@
 - 表示名はDiscordの表示名かイニシャル。本名は書かない。
 -->
 
-## 2026-08-07 / mugi21 / 虹スクロール(1文字ずつ色が変わる)を実機で流したい
-- 状態: 未処理（Web版は実装済み・実機側が未対応）
-- 原文:
-  > ↑実機で流してほしいです （`prototypes/rainbow/` を指して）
-- 文脈: Discordでの依頼。Webプロトタイプ `prototypes/rainbow/` は実装済み
-  （mode=char / flow / wave の3種）。
-- 実機に足りないもの:
-  - ファームウェアは `drawText(marqueeCps, marqueeLen, x, y, plColorScroll)` で
-    スクロール全体を1色で描いている。1文字ごと・1列ごとに色を変えるには
-    `drawGlyph` 呼び出し側で色を切り替える改修が必要。
-  - `playlist.json` 側にも指定の口が要る。案: `colorMode: "rainbow"` +
-    `rainbowCycle` / `rainbowSpin`。既存の `colorScroll` は colorMode 未指定時の既定として残す。
-  - パネルはフルカラーなので**ハードの制約ではない**。ソフトだけで実現できる。
-- 暫定対応: 2026-08-07 に `colorTop`/`colorScroll` を別々の色にして2色化（黄×水）。
-  1文字ずつの虹は firmware 対応待ち。
-
 ## 2026-08-07 / mugi21 / 日没時刻になったら日没アニメーションを自動再生したい
 - 状態: 未処理（Web版は実装済み・実機側が未対応）
 - 原文:
