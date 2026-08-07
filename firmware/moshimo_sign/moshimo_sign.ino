@@ -16,6 +16,7 @@
  */
 
 #include <WiFi.h>
+#include <WiFiMulti.h>
 #include <HTTPClient.h>
 #include <NetworkClientSecure.h>
 #include <ArduinoOTA.h>
@@ -25,8 +26,27 @@
 #include "config.h"
 #include "font16.h"
 
+// 2つ目のWiFiは任意。古い config.h でもビルドが通るように既定値を用意する。
+#ifndef WIFI_SSID2
+#define WIFI_SSID2 ""
+#endif
+#ifndef WIFI_PASS2
+#define WIFI_PASS2 ""
+#endif
+
 // ---------------- パネル ----------------
 MatrixPanel_I2S_DMA *display = nullptr;
+
+// ---------------- WiFi ----------------
+// 登録したAPのうち電波の届く方に自動接続する
+static WiFiMulti wifiMulti;
+
+static void wifiSetup() {
+  WiFi.mode(WIFI_STA);
+  wifiMulti.addAP(WIFI_SSID, WIFI_PASS);
+  if (strlen(WIFI_SSID2)) wifiMulti.addAP(WIFI_SSID2, WIFI_PASS2);
+  wifiMulti.run(10000);  // 最大10秒待つ
+}
 
 // ---------------- フォント ----------------
 // FONT16_CPS を二分探索して FONT16_DATA (stride 33) を引く
@@ -264,9 +284,7 @@ void setup() {
   display->setBrightness8(BRIGHTNESS);
   display->clearScreen();
 
-  WiFi.mode(WIFI_STA);
-  WiFi.begin(WIFI_SSID, WIFI_PASS);
-  for (int i = 0; i < 40 && WiFi.status() != WL_CONNECTED; i++) delay(250);
+  wifiSetup();
 
   configTime(9 * 3600, 0, "ntp.nict.jp", "pool.ntp.org");  // JST
 
@@ -281,6 +299,15 @@ void loop() {
   ArduinoOTA.handle();
 
   unsigned long ms = millis();
+
+  // 切断時のみ再接続を試みる。もう一方のAPが届いていればそちらへ切り替わる。
+  // run() はスキャンのため数秒ブロックするので、繋がっている間は呼ばない。
+  static unsigned long lastWifiRetry = 0;
+  if (WiFi.status() != WL_CONNECTED && ms - lastWifiRetry > 30000) {
+    lastWifiRetry = ms;
+    wifiMulti.run(5000);
+  }
+
   if (ms - lastFetch > FETCH_INTERVAL_MS) {
     lastFetch = ms;
     fetchComments();

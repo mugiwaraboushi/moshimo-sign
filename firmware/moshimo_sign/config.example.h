@@ -6,8 +6,12 @@
 #define BRIGHTNESS 96          // 0-255 (室内なら96程度で十分明るい)
 
 // ---- WiFi ----
+// 2つまで登録でき、電波の届く方に自動で繋がる (WiFiMulti)。
+// 2つ目は任意。使わないなら SSID2 を空文字のままにしておく。
 #define WIFI_SSID "YOUR_WIFI_SSID"
 #define WIFI_PASS "YOUR_WIFI_PASSWORD"
+#define WIFI_SSID2 ""          // 例: もしもの会場WiFi (空なら登録しない)
+#define WIFI_PASS2 ""
 
 // ---- OTA (WiFi経由アップデート) ----
 #define OTA_HOSTNAME "moshimo-sign"
