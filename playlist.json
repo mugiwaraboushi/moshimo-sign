@@ -3,12 +3,13 @@
   "mode": "dual",
   "brightness": 96,
   "speed": 45,
-  "colorTop": "FF9C00",
-  "colorScroll": "FF9C00",
+  "colorTop": "FFD400",
+  "colorScroll": "27E0FF",
   "messages": [
     "こんにちは",
     "Hello World!",
     "ようこそ「もしも」へ",
-    "まちと未来の実験室"
+    "まちと未来の実験室",
+    "もしもレインボーお祭り FOOOOOOO！！！！"
   ]
 }
