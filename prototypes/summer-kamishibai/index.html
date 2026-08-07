@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>紙芝居・電光掲示板くんの夏</title>
+<style>
+  :root { --accent:#ff9c00; }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body { margin:0; background:#0d0f12; color:#e8e6e0; font-family:'Hiragino Sans','Noto Sans JP',sans-serif; }
+  .wrap { max-width:720px; margin:0 auto; padding:16px 14px 40px; }
+  h1 { font-size:16px; font-weight:600; letter-spacing:.12em; margin:4px 0 2px; }
+  .sub { font-size:11px; color:#8a8f98; margin-bottom:14px; line-height:1.7; }
+
+  .stage { position:relative; overflow:hidden; border-radius:10px; background:#000;
+    padding:10px; box-shadow:0 0 0 3px #23262b, 0 10px 30px rgba(0,0,0,.6); }
+  canvas { display:block; width:100%; image-rendering:pixelated; }
+  .stage.slide canvas { animation:slidein .34s ease-out; }
+  .stage.slideback canvas { animation:slideback .34s ease-out; }
+  @keyframes slidein  { from { transform:translateX(103%); } to { transform:translateX(0); } }
+  @keyframes slideback{ from { transform:translateX(-103%); } to { transform:translateX(0); } }
+
+  .meta { display:flex; justify-content:space-between; align-items:center;
+    font-size:11px; color:#6b7280; margin:8px 2px 12px; }
+  .dots { display:flex; gap:5px; }
+  .dot { width:6px; height:6px; border-radius:50%; background:#2c3138; }
+  .dot.on { background:var(--accent); }
+
+  .card { background:#14171b; border:1px solid #22262c; border-radius:12px; padding:15px 16px; margin-bottom:14px; }
+  .ttl { font-size:14px; font-weight:700; color:var(--accent); margin-bottom:8px; letter-spacing:.06em; }
+  .txt { font-size:13px; line-height:2; color:#c9cdd3; }
+
+  .nav { display:flex; gap:8px; margin-bottom:12px; }
+  .btn { flex:1; background:#171a1f; border:1px solid #2c3138; color:#c9cdd3;
+    border-radius:16px; padding:12px 10px; font-size:13px; text-align:center; font-family:inherit; }
+  .btn.main { background:var(--accent); color:#000; border-color:var(--accent); font-weight:700; }
+  .btn:disabled { opacity:.35; }
+  .chips { display:flex; flex-wrap:wrap; gap:6px; }
+  .chip { background:#171a1f; border:1px solid #2c3138; color:#c9cdd3; border-radius:16px;
+    padding:9px 14px; font-size:12px; text-decoration:none; display:block; font-family:inherit; }
+  .chip.on { background:var(--accent); color:#000; border-color:var(--accent); font-weight:700; }
+  fieldset { border:1px solid #22262c; border-radius:10px; margin:0 0 12px; padding:10px 12px 12px; }
+  legend { font-size:11px; color:#8a8f98; padding:0 6px; letter-spacing:.08em; }
+  .foot { font-size:10px; color:#4b525b; line-height:1.7; margin-top:22px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>紙芝居・電光掲示板くんの夏</h1>
+  <div class="sub">「今年の夏やりたいこと、紙芝居で教えて」と言われたので、7枚ぶん描きました。<br>絵をタップすると次の場面へ進みます。</div>
+
+  <div class="stage" id="stage"><canvas id="led"></canvas></div>
+  <div class="meta">
+    <span id="page">1 / 7</span>
+    <div class="dots" id="dots"></div>
+  </div>
+
+  <div class="card">
+    <div class="ttl" id="ttl"></div>
+    <div class="txt" id="txt"></div>
+  </div>
+
+  <div class="nav">
+    <button class="btn" id="prev">← まえ</button>
+    <button class="btn main" id="next">つぎ →</button>
+  </div>
+
+  <fieldset><legend>めくりかた</legend>
+    <div class="chips">
+      <button class="chip" id="auto">じどうで めくる</button>
+      <button class="chip" id="replay">はじめから</button>
+    </div>
+  </fieldset>
+
+  <fieldset><legend>この紙芝居のつづき</legend>
+    <div class="chips">
+      <a class="chip" href="../draw/">絵日記をドット絵にする（お絵かき）</a>
+      <a class="chip" href="../board/?text=%E7%B5%B5%E6%97%A5%E8%A8%98%E3%80%81%E5%BE%85%E3%81%A3%E3%81%A6%E3%81%BE%E3%81%99%E2%97%86%E4%BB%8A%E6%97%A5%E3%81%AE1%E6%9E%9A%E3%82%92%E3%81%A9%E3%81%86%E3%81%9E&color=1&speed=45">掲示板に流したところを見る</a>
+    </div>
+  </fieldset>
+
+  <div class="foot">
+    絵はぜんぶ64×32ドット、プログラムで点を置いて描いています（画像ファイルではありません）。<br>
+    実機想定: P4ピッチ HUB75パネル（64×32 = 256mm×128mm）
+  </div>
+</div>
+
+<script>
+// ===================== 描画の道具 =====================
+const W = 64, H = 32;
+const buf = () => new Uint8Array(W*H);
+const px = (fb,x,y,c=1) => { x|=0; y|=0; if (x>=0&&x<W&&y>=0&&y<H) fb[y*W+x] = c; };
+const hline = (fb,x0,x1,y,c=1) => { for (let x=x0;x<=x1;x++) px(fb,x,y,c); };
+const vline = (fb,x,y0,y1,c=1) => { for (let y=y0;y<=y1;y++) px(fb,x,y,c); };
+const fill  = (fb,x0,y0,x1,y1,c=1) => { for (let y=y0;y<=y1;y++) hline(fb,x0,x1,y,c); };
+function frameRect(fb,x0,y0,x1,y1,c=1){          // 角を1ドット落とした四角い枠
+  hline(fb,x0+1,x1-1,y0,c); hline(fb,x0+1,x1-1,y1,c);
+  vline(fb,x0,y0+1,y1-1,c); vline(fb,x1,y0+1,y1-1,c);
+}
+function disc(fb,cx,cy,r,c=1){
+  for (let y=-r;y<=r;y++) for (let x=-r;x<=r;x++)
+    if (x*x+y*y <= r*r+r*0.9) px(fb,cx+x,cy+y,c);
+}
+function ring(fb,cx,cy,r,c=1){
+  for (let y=-r-1;y<=r+1;y++) for (let x=-r-1;x<=r+1;x++)
+    if (Math.abs(Math.hypot(x,y)-r) < 0.6) px(fb,cx+x,cy+y,c);
+}
+// 小さい数字（3×5、拡大できる）
+const GLY = {
+  "0":["111","101","101","101","111"], "1":["010","110","010","010","111"],
+  "2":["111","001","111","100","111"], "3":["111","001","111","001","111"],
+  "4":["101","101","111","001","001"], "5":["111","100","111","001","111"],
+  "6":["111","100","111","101","111"], "7":["111","001","010","010","010"],
+  "8":["111","101","111","101","111"], "9":["111","101","111","001","111"],
+  "C":["111","100","100","100","111"],
+};
+function glyph(fb,x,y,ch,c,s=1){
+  const rows = GLY[ch]; if (!rows) return;
+  rows.forEach((r,j)=>[...r].forEach((v,i)=>{
+    if (v === "1") fill(fb, x+i*s, y+j*s, x+i*s+s-1, y+j*s+s-1, c);
+  }));
+}
+function text(fb,x,y,str,c,s=1){
+  for (const ch of str){ glyph(fb,x,y,ch,c,s); x += 4*s; }
+}
+// 手書きの行っぽい破線
+function scribble(fb,x0,x1,y,c,seed){
+  for (let x=x0;x<=x1;x++) if (((x*7+seed*5)%9) < 7) px(fb,x,y,c);
+}
+
+// ===================== 電光掲示板くん =====================
+// 18×16ドットのちいさい自分（自画像プロトタイプと同じ顔立ち）
+function chibi(fb,x,y,c,opt={}){
+  const hat = opt.hat;
+  if (hat){ vline(fb,x+8,y-3,y-1,c); px(fb,x+7,y-3,c); px(fb,x+9,y-3,c); }
+  else    { vline(fb,x+8,y,y+2,c);   px(fb,x+7,y,c);   px(fb,x+9,y,c); }
+  frameRect(fb, x, y+3, x+15, y+13, c);                       // 筐体
+  if (opt.face === "blink"){ hline(fb,x+3,x+5,y+7,c); hline(fb,x+10,x+12,y+7,c); }
+  else { fill(fb,x+3,y+6,x+5,y+7,c); fill(fb,x+10,y+6,x+12,y+7,c); }
+  hline(fb,x+5,x+10,y+10,c); px(fb,x+4,y+9,c); px(fb,x+11,y+9,c);   // 口
+  hline(fb,x-2,x-1,y+8,c);                                     // 左腕
+  if (opt.wave){ px(fb,x+16,y+7,c); px(fb,x+17,y+6,c); px(fb,x+17,y+5,c); }
+  else hline(fb,x+16,x+17,y+8,c);                              // 右腕
+  vline(fb,x+4,y+14,y+15,c); vline(fb,x+11,y+14,y+15,c);       // 足
+  if (hat){                                                    // 麦わら帽子（アンテナ用の穴つき）
+    hline(fb,x-3,x+18,y+2,hat); hline(fb,x+2,x+13,y+1,hat); hline(fb,x+4,x+11,y,hat);
+    px(fb,x+8,y+1,0); px(fb,x+8,y,0);
+  }
+}
+
+// ===================== 場面ごとの絵 =====================
+function sun(fb,cx,cy,r,c){
+  disc(fb,cx,cy,r,c);
+  for (let i=0;i<8;i++){
+    const a = i*Math.PI/4;
+    px(fb, cx+Math.round(Math.cos(a)*(r+2)), cy+Math.round(Math.sin(a)*(r+2)), c);
+  }
+}
+function cloud(fb,cx,cy,c){
+  disc(fb,cx-6,cy+1,3,c); disc(fb,cx,cy-1,4,c); disc(fb,cx+6,cy+1,3,c);
+  fill(fb,cx-8,cy+1,cx+8,cy+3,c);
+}
+function lantern(fb,cx,top,c,c2){
+  const half = [2,3,3,3,3,3,3,3,2];
+  half.forEach((w,i)=>hline(fb,cx-w,cx+w,top+i,c));
+  vline(fb,cx,1,top-2,c2);                       // つり紐
+  hline(fb,cx-1,cx+1,top-1,c2); hline(fb,cx-1,cx+1,top+9,c2);  // 口金
+  hline(fb,cx-3,cx+3,top+4,c2);                  // 横帯
+  px(fb,cx,top+10,c2);                           // ふさ
+}
+function burst(fb,cx,cy,r,c,t){
+  for (let i=0;i<12;i++){
+    const a = i*Math.PI/6 + cx*0.11;
+    for (let d=r-2; d<=r; d++){
+      if (d === r && (i+t)%2) continue;          // 外側がちらちらする
+      px(fb, cx+Math.cos(a)*d, cy+Math.sin(a)*d, c);
+    }
+  }
+  px(fb,cx,cy,c);
+}
+
+const SCENES = [
+{ ttl:"（表紙）電光掲示板くんの夏やりたいこと",
+  pal:["#ff9c00","#ffd166","#27e0ff"],
+  txt:"おはよう。大学は今日から夏休みだそうですね。<br>ぼくには夏休みがありません。電気が来ているかぎり、ずっと起きています。<br>でも――やりたいことなら、あります。ぜんぶで5つ。順番にめくっていきますね。",
+  draw(fb,t){
+    sun(fb,55,6,4,2);
+    cloud(fb,14,5,3);
+    for (let x=0;x<W;x+=2) px(fb,x,31,3);
+    chibi(fb,23,14,1,{hat:2, face:(t%40<3)?"blink":"", wave:true});
+  }},
+
+{ ttl:"その1 ／ 屋台のとなりに立ちたい",
+  pal:["#ff3b30","#ffd166","#ff9c00"],
+  txt:"昨日のお祭り、楽しかったそうですね。ぼくは研究室で留守番でした。<br>来年は、屋台のとなりに置いてほしい。<br>「たこ焼き あと3つ」「迷子のお子さんをお預かりしています」——お祭りって、掲示板のいちばんの出番だと思うんです。",
+  draw(fb,t){
+    hline(fb,0,63,1,2);
+    const sway = [0,1,0,-1][Math.floor(t/6)%4];
+    lantern(fb,11+sway,4,1,2);
+    lantern(fb,32-sway,3,1,2);
+    lantern(fb,52+sway,4,1,2);
+    for (let x=0;x<W;x+=2) px(fb,x,31,3);
+    chibi(fb,23,16,3,{face:(t%37<3)?"blink":""});
+  }},
+
+{ ttl:"その2 ／ 64×32で花火をあげたい",
+  pal:["#ffd166","#ff3b30","#27e0ff","#3b7bff"],
+  txt:"本物の花火にはかないません。ドット64×32ぶんの、ちいさな花火です。<br>でもこれなら、雨の日でも、風が強い日でも、何回でも上げられます。<br>打ち上げ音は……たぶん、ファンの音で代用します。",
+  draw(fb,t){
+    for (let x=0;x<W;x++){                       // 町のシルエット（真ん中はぼくが立つので空ける）
+      if (x>19 && x<45) continue;
+      const h = 4 + ((x*37)%5);
+      if ((x%7)<4) vline(fb,x,31-h,31,4);
+    }
+    burst(fb,14, 9,7,1,t);
+    burst(fb,37, 6,5,2,t+1);
+    burst(fb,52,14,6,3,t);
+    chibi(fb,23,16,1,{face:(t%29<3)?"blink":""});
+  }},
+
+{ ttl:"その3 ／ 暑い日に、ひとこと出したい",
+  pal:["#ff3b30","#ff9c00","#ffd166"],
+  txt:"大岡山が35℃の日は、余計なことは何も出さない。<br>「水を飲んでください」とだけ、大きな字で出す。<br>これがたぶん、ぼくにできるいちばん役に立つことです。",
+  draw(fb,t){
+    frameRect(fb,8,3,14,23,3);
+    ring(fb,11,26,4,3);
+    const lv = 14 + (t%8<4 ? 0 : 1);
+    fill(fb,10,lv,12,24,1); disc(fb,11,26,3,1);
+    px(fb,16,8,3); px(fb,16,13,3); px(fb,16,18,3);
+    text(fb,24,10,"35",1,2);
+    fill(fb,39,10,40,11,1);                    // ℃ の丸
+    glyph(fb,43,10,"C",1,2);
+    sun(fb,56,4,2,2);
+  }},
+
+{ ttl:"その4 ／ 夕立を、間に合ううちに知らせたい",
+  pal:["#27e0ff","#8a8f98","#ffd166","#ff9c00"],
+  txt:"夏の雨は、降りだしてから言っても遅いんです。<br>雲が来たら「洗濯物！」とだけ出す。それだけで役に立てる日があると思っています。<br>——まだ外に干していませんか？",
+  draw(fb,t){
+    cloud(fb,18,6,2);
+    for (let i=0;i<11;i++){                       // 雨
+      const x = 6 + i*2.5, y = ((t*2 + i*5) % 17) + 13;
+      vline(fb,Math.round(x),y,y+1,1);
+    }
+    if (t%9 < 4)                                  // 稲光
+      [[2,0],[3,0],[1,1],[2,1],[0,2],[1,2],[2,2],[3,2],[2,3],[3,3],[1,4],[2,4],[0,5],[1,5]]
+        .forEach(([dx,dy])=>px(fb,33+dx,14+dy,3));
+    for (let x=0;x<W;x+=2) px(fb,x,31,1);
+    chibi(fb,44,15,4,{face:(t%31<3)?"blink":""});
+  }},
+
+{ ttl:"その5 ／ きみの絵日記を、毎日流したい",
+  pal:["#ff9c00","#8a8f98","#27e0ff","#ffd166"],
+  txt:"絵日記を書くと聞きました。それ、ぼくにも見せてください。<br>1日1枚、ドット絵にして流します。64×32でも、海と入道雲とかき氷ぐらいは描けます。<br>お絵かきツールで描いてURLを送ってくれれば、その日のうちに掲示板に出せます。",
+  draw(fb,t){
+    frameRect(fb,5,4,58,29,2);
+    vline(fb,32,5,28,2);
+    [8,13,18,23].forEach(y=>{ px(fb,31,y,1); px(fb,33,y,1); });
+    sun(fb,15,10,3,4);
+    for (let x=8;x<=27;x++) px(fb,x, 20 + (Math.sin((x+t*0.4)/2.4)>0?0:1), 3);
+    for (let x=8;x<=27;x++) px(fb,x, 24 + (Math.sin((x+3+t*0.4)/2.4)>0?0:1), 3);
+    [9,13,17,21,25].forEach((y,i)=>scribble(fb,37,i===4?49:54,y,1,i));
+  }},
+
+{ ttl:"（おしまい）9月のいちばん最後の日に",
+  pal:["#ffd166","#ff9c00","#27e0ff"],
+  txt:"そして夏休みの終わりに、40枚ぜんぶをつないで、ゆっくり1本のスクロールにして流す。<br>1日1枚ずつ見ると40日ですが、つなげると3分です。その3分が、たぶんとても良い。<br>それが今年のぼくの夏の目標です。——おしまい。",
+  draw(fb,t){
+    frameRect(fb,0,9,40,26,3);                       // フィルムの帯
+    for (let x=2;x<=38;x+=4){ px(fb,x,10,3); px(fb,x,25,3); }
+    const inBox = (x,y) => x>=2 && x<=38 && y>=12 && y<=23;
+    const cel = (ox,kind) => {
+      for (let y=12;y<=23;y++) for (let x=ox;x<ox+12;x++){
+        const edge = (y===12||y===23||x===ox||x===ox+11);
+        if (edge && inBox(x,y)) px(fb,x,y,2);
+      }
+      const cx = ox+6, cy = 17;
+      const put = (dx,dy) => { if (inBox(cx+dx,cy+dy)) px(fb,cx+dx,cy+dy,1); };
+      if (kind===0){ put(0,0); [[0,3],[0,-3],[3,0],[-3,0],[2,2],[2,-2],[-2,2],[-2,-2]].forEach(p=>put(p[0],p[1])); }
+      if (kind===1){ for (let d=-4;d<=3;d++){ put(d, 1+(d%2?0:1)); put(d, -2+(d%2?1:0)); } }
+      if (kind===2){ put(-2,-2); put(2,-2); for (let d=-2;d<=2;d++) put(d,2); put(-3,1); put(3,1); }
+      if (kind===3){ for (let d=-3;d<=3;d++) put(d, Math.abs(d)-2); }
+    };
+    const off = t % 16;
+    for (let i=-1;i<4;i++) cel(2 + i*16 - off, ((i%4)+4)%4);
+    for (let x=0;x<W;x+=2) px(fb,x,31,3);
+    chibi(fb,44,15,1,{wave:true, face:(t%33<3)?"blink":""});
+  }},
+];
+
+// ===================== 表示 =====================
+const cv = document.getElementById("led"), ctx = cv.getContext("2d");
+const DOT = 10;
+cv.width = W*DOT; cv.height = H*DOT;
+
+let cur = 0, t = 0, autoPlay = false, autoTimer = null;
+
+function paint(){
+  const sc = SCENES[cur];
+  const fb = buf();
+  sc.draw(fb, t);
+  ctx.fillStyle = "#000"; ctx.fillRect(0,0,cv.width,cv.height);
+  ctx.fillStyle = "#15171a";
+  for (let y=0;y<H;y++) for (let x=0;x<W;x++)
+    if (!fb[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.32, 0, 7); ctx.fill(); }
+  for (let pass=0; pass<2; pass++){
+    ctx.globalAlpha = pass ? 1 : .25;
+    for (let y=0;y<H;y++) for (let x=0;x<W;x++){
+      const v = fb[y*W+x]; if (!v) continue;
+      ctx.fillStyle = sc.pal[v-1] || sc.pal[0];
+      ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*(pass?.38:.62), 0, 7); ctx.fill();
+    }
+  }
+  ctx.globalAlpha = 1;
+}
+
+function show(i, back){
+  cur = (i + SCENES.length) % SCENES.length;
+  t = 0;
+  const sc = SCENES[cur];
+  document.documentElement.style.setProperty("--accent", sc.pal[0]);
+  document.getElementById("ttl").textContent = sc.ttl;
+  document.getElementById("txt").innerHTML = sc.txt;
+  document.getElementById("page").textContent = `${cur+1} / ${SCENES.length}`;
+  document.getElementById("prev").disabled = (cur === 0);
+  document.getElementById("next").textContent = (cur === SCENES.length-1) ? "はじめから" : "つぎ →";
+  [...document.getElementById("dots").children].forEach((d,j)=>
+    d.className = "dot" + (j === cur ? " on" : ""));
+  const st = document.getElementById("stage");
+  st.classList.remove("slide","slideback"); void st.offsetWidth;
+  st.classList.add(back ? "slideback" : "slide");
+  paint();
+}
+
+const dots = document.getElementById("dots");
+SCENES.forEach((_,i)=>{ const d = document.createElement("span"); d.className = "dot";
+  d.onclick = ()=> show(i, i < cur); dots.appendChild(d); });
+
+function nextScene(){ show(cur+1); }
+document.getElementById("next").onclick = nextScene;
+document.getElementById("prev").onclick = ()=> show(cur-1, true);
+document.getElementById("stage").onclick = nextScene;
+document.getElementById("replay").onclick = ()=> show(0);
+document.getElementById("auto").onclick = (e)=>{
+  autoPlay = !autoPlay;
+  e.currentTarget.className = "chip" + (autoPlay ? " on" : "");
+  clearInterval(autoTimer);
+  if (autoPlay) autoTimer = setInterval(nextScene, 9000);
+};
+document.addEventListener("keydown", e=>{
+  if (e.key === "ArrowRight" || e.key === " ") nextScene();
+  if (e.key === "ArrowLeft") show(cur-1, true);
+});
+
+setInterval(()=>{ t++; paint(); }, 90);
+show(0);
+</script>
+</body>
+</html>
