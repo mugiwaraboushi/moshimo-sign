@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-07T21:05:56.502Z",
+ "updatedAt": "2026-08-07T22:01:40.253Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,12 +10,12 @@
     {
      "title": "大型で非常に強い台風13号 暴風などに厳重警戒",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 05:47:31 +0900"
+     "pubDate": "Sat, 08 Aug 2026 06:07:26 +0900"
     },
     {
-     "title": "【台風影響】7日は約470便が欠航 8日も320便余が欠航に",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199401000",
-     "pubDate": "Fri, 07 Aug 2026 17:41:43 +0900"
+     "title": "熊本 8日も猛烈な暑さ 熱中症対策を 台風13号で強風にも注意",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199781000",
+     "pubDate": "Sat, 08 Aug 2026 06:24:12 +0900"
     },
     {
      "title": "イオンモール熊本 妹亡くした男性“当時の対応 丁寧に調査を”",
@@ -50,9 +50,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "熊本 8日も猛烈な暑さ 熱中症対策を 台風13号で強風にも注意",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199781000",
+     "pubDate": "Sat, 08 Aug 2026 06:24:12 +0900"
+    },
+    {
+     "title": "熊本地震 災害ボランティアの活動が本格化 8日から氷川町でも",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199741000",
+     "pubDate": "Sat, 08 Aug 2026 06:19:38 +0900"
+    },
+    {
      "title": "大型で非常に強い台風13号 暴風などに厳重警戒",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 05:47:31 +0900"
+     "pubDate": "Sat, 08 Aug 2026 06:07:26 +0900"
     },
     {
      "title": "長崎市「平和宣言」起草委員会の会議録 永久保存する方針決定",
@@ -113,16 +123,6 @@
      "title": "悠仁さま ボーイスカウトの大会で初めてのおことば 広島",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199651000",
      "pubDate": "Fri, 07 Aug 2026 21:52:02 +0900"
-    },
-    {
-     "title": "税務職員が高齢女性から約1億5000万円受け取り競艇 懲戒免職に",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199381000",
-     "pubDate": "Fri, 07 Aug 2026 21:49:47 +0900"
-    },
-    {
-     "title": "東広島の事件 元社員の殺人容疑などは不起訴 放火罪などで起訴",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199601000",
-     "pubDate": "Fri, 07 Aug 2026 21:47:42 +0900"
     }
    ]
   },
