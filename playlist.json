@@ -3,8 +3,8 @@
   "mode": "dual",
   "brightness": 96,
   "speed": 45,
-  "colorTop": "FFD400",
-  "colorScroll": "27E0FF",
+  "colorTop": "FF9C00",
+  "colorScroll": "rainbow",
   "messages": [
     "こんにちは",
     "Hello World!",
