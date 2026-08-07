@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-07T09:28:36.177Z",
+ "updatedAt": "2026-08-07T10:24:48.076Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風13号 沖縄本島北部に「線状降水帯直前予測」【中継も】",
+     "title": "大型で非常に強い台風13号 大雨や暴風など厳重警戒【中継も】",
      "link": "https://news.web.nhk/newsweb/na/na-k10015198521000",
-     "pubDate": "Fri, 07 Aug 2026 18:11:48 +0900"
+     "pubDate": "Fri, 07 Aug 2026 18:58:33 +0900"
+    },
+    {
+     "title": "長野県で「記録的短時間大雨」の気象防災速報を発表",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199511000",
+     "pubDate": "Fri, 07 Aug 2026 18:41:03 +0900"
+    },
+    {
+     "title": "地震被害の熊本 夜も気温下がらず 熱中症対策 揺れにも備えを",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198731000",
+     "pubDate": "Fri, 07 Aug 2026 18:41:47 +0900"
+    },
+    {
+     "title": "熊本地震 災害関連死の疑い含め38人死亡 避難所に6651人避難",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198921000",
+     "pubDate": "Fri, 07 Aug 2026 18:47:34 +0900"
+    },
+    {
+     "title": "熊本地震 亡くなった3人の氏名や年齢などを県が新たに公表",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199411000",
+     "pubDate": "Fri, 07 Aug 2026 19:11:35 +0900"
+    },
+    {
+     "title": "北海道 江別 強盗致死事件裁判 当時18歳被告に無期懲役の判決",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199131000",
+     "pubDate": "Fri, 07 Aug 2026 19:17:10 +0900"
     },
     {
      "title": "【台風影響】7日は約470便が欠航 8日も320便余が欠航に",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199401000",
      "pubDate": "Fri, 07 Aug 2026 17:41:43 +0900"
-    },
-    {
-     "title": "熊本地震 災害関連死の疑い含め38人死亡 避難所に6794人避難",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198921000",
-     "pubDate": "Fri, 07 Aug 2026 15:57:27 +0900"
-    },
-    {
-     "title": "SNSの安全対策めぐり米メタに約900億円支払い命令 米裁判所",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199281000",
-     "pubDate": "Fri, 07 Aug 2026 17:44:22 +0900"
-    },
-    {
-     "title": "タイの学校で銃撃 14歳の容疑者含む6人死亡20人余けが",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199241000",
-     "pubDate": "Fri, 07 Aug 2026 17:34:59 +0900"
-    },
-    {
-     "title": "公的年金積立金 過去最高302兆円余 令和7年度決算",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199231000",
-     "pubDate": "Fri, 07 Aug 2026 17:14:28 +0900"
-    },
-    {
-     "title": "スーパーのコメ平均価格 5キロ3198円 6週連続で値下がり",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199341000",
-     "pubDate": "Fri, 07 Aug 2026 18:05:46 +0900"
     }
    ]
   },
@@ -50,14 +50,59 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "北海道 江別 強盗致死事件裁判 当時18歳被告に無期懲役の判決",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199131000",
+     "pubDate": "Fri, 07 Aug 2026 19:17:10 +0900"
+    },
+    {
+     "title": "熊本地震 給水に関する情報【8月7日】",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199141000",
+     "pubDate": "Fri, 07 Aug 2026 19:14:32 +0900"
+    },
+    {
+     "title": "熊本地震 亡くなった3人の氏名や年齢などを県が新たに公表",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199411000",
+     "pubDate": "Fri, 07 Aug 2026 19:11:35 +0900"
+    },
+    {
+     "title": "大型で非常に強い台風13号 大雨や暴風など厳重警戒【中継も】",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198521000",
+     "pubDate": "Fri, 07 Aug 2026 18:58:33 +0900"
+    },
+    {
+     "title": "在宅避難の高齢者を保健師たちが見回り【7日 被災地の動き】",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198911000",
+     "pubDate": "Fri, 07 Aug 2026 18:56:46 +0900"
+    },
+    {
+     "title": "熊本地震 災害関連死の疑い含め38人死亡 避難所に6651人避難",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198921000",
+     "pubDate": "Fri, 07 Aug 2026 18:47:34 +0900"
+    },
+    {
+     "title": "将来的な外国人受け入れあり方を議論 政府の有識者会議初会合",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199421000",
+     "pubDate": "Fri, 07 Aug 2026 18:45:25 +0900"
+    },
+    {
+     "title": "地震被害の熊本 夜も気温下がらず 熱中症対策 揺れにも備えを",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015198731000",
+     "pubDate": "Fri, 07 Aug 2026 18:41:47 +0900"
+    },
+    {
+     "title": "長野県で「記録的短時間大雨」の気象防災速報を発表",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199511000",
+     "pubDate": "Fri, 07 Aug 2026 18:41:03 +0900"
+    },
+    {
+     "title": "熊本県内 避難情報 125か所 6651人が避難【8月7日】",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199121000",
+     "pubDate": "Fri, 07 Aug 2026 18:40:17 +0900"
+    },
+    {
      "title": "九州新幹線 新水俣～鹿児島中央 運行再開【交通影響 8月7日】",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199001000",
      "pubDate": "Fri, 07 Aug 2026 18:25:37 +0900"
-    },
-    {
-     "title": "台風13号 沖縄本島北部に「線状降水帯直前予測」【中継も】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198521000",
-     "pubDate": "Fri, 07 Aug 2026 18:11:48 +0900"
     },
     {
      "title": "SNSの安全対策めぐり米メタに約900億円支払い命令 米裁判所",
@@ -68,11 +113,6 @@
      "title": "【台風影響】7日は約470便が欠航 8日も320便余が欠航に",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199401000",
      "pubDate": "Fri, 07 Aug 2026 17:41:43 +0900"
-    },
-    {
-     "title": "在宅避難の高齢者を保健師たちが見回り【7日 被災地の動き】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198911000",
-     "pubDate": "Fri, 07 Aug 2026 17:39:59 +0900"
     },
     {
      "title": "台風で打ち上げ延期「みちびき7号機」 8月10日打ち上げ JAXA",
@@ -83,46 +123,6 @@
      "title": "中道・立民・公明 防災相と面会 熊本復興支援で緊急の申し入れ",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199291000",
      "pubDate": "Fri, 07 Aug 2026 17:17:00 +0900"
-    },
-    {
-     "title": "【熊本局】18:10～地域ニュース番組を「同時配信」します",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015194961000",
-     "pubDate": "Fri, 07 Aug 2026 16:51:54 +0900"
-    },
-    {
-     "title": "土地取得ルール「届け出必要な対象拡大を」国交省の有識者会議",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199271000",
-     "pubDate": "Fri, 07 Aug 2026 16:31:38 +0900"
-    },
-    {
-     "title": "東京五輪 競泳銀メダルの本多灯選手 危険運転傷害の罪で起訴",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199211000",
-     "pubDate": "Fri, 07 Aug 2026 16:29:49 +0900"
-    },
-    {
-     "title": "福岡県議 現職アンケート 金銭授受「うわさ聞いた」半数近く",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198861000",
-     "pubDate": "Fri, 07 Aug 2026 15:59:47 +0900"
-    },
-    {
-     "title": "熊本地震 災害関連死の疑い含め38人死亡 避難所に6794人避難",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198921000",
-     "pubDate": "Fri, 07 Aug 2026 15:57:27 +0900"
-    },
-    {
-     "title": "悠仁さま 広島で原爆の犠牲者を慰霊",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199221000",
-     "pubDate": "Fri, 07 Aug 2026 15:53:46 +0900"
-    },
-    {
-     "title": "沖縄本島北部 線状降水帯発生のおそれ 直前予測を発表",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198671000",
-     "pubDate": "Fri, 07 Aug 2026 15:29:00 +0900"
-    },
-    {
-     "title": "熊本地震 給水に関する情報【8月7日】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199141000",
-     "pubDate": "Fri, 07 Aug 2026 15:22:35 +0900"
     }
    ]
   },
@@ -291,16 +291,6 @@
      "pubDate": "Fri, 07 Aug 2026 08:56:36 GMT"
     },
     {
-     "title": "タイの学校で銃撃 教職員5人死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6590881?source=rss",
-     "pubDate": "Fri, 07 Aug 2026 08:30:32 GMT"
-    },
-    {
-     "title": "脳腫瘍手術で誤摘出 京大病院謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6590868?source=rss",
-     "pubDate": "Fri, 07 Aug 2026 06:58:03 GMT"
-    },
-    {
      "title": "鉄塔の保守作業員が死亡 熱中症か",
      "link": "https://news.yahoo.co.jp/pickup/6590877?source=rss",
      "pubDate": "Fri, 07 Aug 2026 08:30:01 GMT"
@@ -316,9 +306,19 @@
      "pubDate": "Fri, 07 Aug 2026 07:43:58 GMT"
     },
     {
-     "title": "速報 有明が立命館宇治に逆転",
-     "link": "https://news.yahoo.co.jp/pickup/6590890?source=rss",
-     "pubDate": "Fri, 07 Aug 2026 09:25:32 GMT"
+     "title": "有明 被災地熊本に届ける劇的勝利",
+     "link": "https://news.yahoo.co.jp/pickup/6590891?source=rss",
+     "pubDate": "Fri, 07 Aug 2026 09:34:39 GMT"
+    },
+    {
+     "title": "持田香織 歌手活動より子育て優先",
+     "link": "https://news.yahoo.co.jp/pickup/6590889?source=rss",
+     "pubDate": "Fri, 07 Aug 2026 09:47:50 GMT"
+    },
+    {
+     "title": "くりぃむ所属事務所 熊本に寄付",
+     "link": "https://news.yahoo.co.jp/pickup/6590892?source=rss",
+     "pubDate": "Fri, 07 Aug 2026 10:09:51 GMT"
     }
    ]
   }
