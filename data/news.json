@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-07T16:38:24.403Z",
+ "updatedAt": "2026-08-07T17:37:44.547Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "大型で非常に強い台風13号 大雨や暴風など厳重警戒【中継も】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198521000",
-     "pubDate": "Sat, 08 Aug 2026 00:08:42 +0900"
+     "title": "大型で非常に強い台風13号 暴風や土砂災害など厳重警戒",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
+     "pubDate": "Sat, 08 Aug 2026 01:40:17 +0900"
     },
     {
      "title": "【台風影響】7日は約470便が欠航 8日も320便余が欠航に",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "大型で非常に強い台風13号 暴風や土砂災害など厳重警戒",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
+     "pubDate": "Sat, 08 Aug 2026 01:40:17 +0900"
+    },
     {
      "title": "大型で非常に強い台風13号 大雨や暴風など厳重警戒【中継も】",
      "link": "https://news.web.nhk/newsweb/na/na-k10015198521000",
@@ -118,11 +123,6 @@
      "title": "悠仁さま ボーイスカウト大会でテントを設営",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199491000",
      "pubDate": "Fri, 07 Aug 2026 20:11:41 +0900"
-    },
-    {
-     "title": "声も権利保護の対象に 法務省の有識者検討会の報告書まとまる",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199061000",
-     "pubDate": "Fri, 07 Aug 2026 20:06:35 +0900"
     }
    ]
   },
