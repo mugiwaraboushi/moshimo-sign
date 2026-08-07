@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>日没アニメーション</title>
+<style>
+  :root { --accent:#ff9c00; }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body { margin:0; background:#0d0f12; color:#e8e6e0; font-family:'Hiragino Sans','Noto Sans JP',sans-serif; }
+  .wrap { max-width:720px; margin:0 auto; padding:16px 14px 40px; }
+  h1 { font-size:16px; font-weight:600; letter-spacing:.12em; margin:4px 0 2px; }
+  .sub { font-size:11px; color:#8a8f98; margin-bottom:14px; line-height:1.7; }
+  .panel-frame { background:#000; border-radius:10px; padding:10px; box-shadow:0 0 0 3px #23262b, 0 10px 30px rgba(0,0,0,.6); }
+  canvas { display:block; width:100%; image-rendering:pixelated; }
+  .meta { display:flex; justify-content:space-between; font-size:11px; color:#6b7280; margin:8px 2px 16px; }
+  .clockbox { background:#14171b; border:1px solid #22262c; border-radius:12px; padding:14px; margin-bottom:14px; }
+  .clockbox .row { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:6px; }
+  .clockbox .row:last-child { margin-bottom:0; }
+  .lbl { font-size:11px; color:#8a8f98; letter-spacing:.06em; }
+  .val { font-size:20px; font-weight:700; color:var(--accent); font-variant-numeric:tabular-nums; }
+  .val.small { font-size:14px; color:#c9cdd3; font-weight:600; }
+  fieldset { border:1px solid #22262c; border-radius:10px; margin:0 0 12px; padding:10px 12px 12px; }
+  legend { font-size:11px; color:#8a8f98; padding:0 6px; letter-spacing:.08em; }
+  .chips { display:flex; flex-wrap:wrap; gap:6px; }
+  .chip { background:#171a1f; border:1px solid #2c3138; color:#c9cdd3; border-radius:16px;
+    padding:8px 14px; font-size:12px; font-family:inherit; }
+  .chip.on { background:var(--accent); color:#000; border-color:var(--accent); font-weight:700; }
+  .chip.wide { flex:1; text-align:center; }
+  .note { background:#14171b; border:1px solid #22262c; border-left:3px solid #c9a227; border-radius:8px;
+    padding:12px 14px; font-size:12px; line-height:1.8; color:#b6bcc4; margin-bottom:12px; }
+  .note b { color:var(--accent); }
+  .foot { font-size:10px; color:#4b525b; line-height:1.7; margin-top:22px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>日没アニメーション</h1>
+  <div class="sub">
+    大岡山の今日の日の入り時刻を計算して、その時刻になったら日が沈むアニメーションを流します。<br>
+    待たなくても下の「いま流す」で見られます。
+  </div>
+
+  <div class="panel-frame"><canvas id="led"></canvas></div>
+  <div class="meta"><span id="sizeLabel"></span><span id="stateLabel">待機中</span></div>
+
+  <div class="clockbox">
+    <div class="row"><span class="lbl">今日の日の入り（大岡山）</span><span class="val" id="sunsetAt">--:--</span></div>
+    <div class="row"><span class="lbl">再生まで</span><span class="val small" id="countdown">--</span></div>
+    <div class="row"><span class="lbl">現在時刻</span><span class="val small" id="now">--:--:--</span></div>
+  </div>
+
+  <fieldset><legend>再生</legend>
+    <div class="chips">
+      <button class="chip wide" id="play">いま流す</button>
+      <button class="chip wide" id="loop">くりかえし</button>
+    </div>
+  </fieldset>
+
+  <fieldset><legend>長さ（実機で流す想定）</legend>
+    <div class="chips" id="durs"></div>
+  </fieldset>
+
+  <div class="note">
+    <b>実機について。</b>いまの実機は文字を流すことしかできません（<code>playlist.json</code> は文言・色・速度だけ）。
+    この絵のように1ドットずつ絵を動かすには、ファームウェア側にアニメーション再生の仕組み（playlist v2 の <code>frames</code>）と、
+    時刻で表示を切り替える仕組み（<code>schedule</code>）を足す必要があります。
+    ここはその「完成形の見本」で、日の入り時刻の計算はもう実機に載せられる形になっています。
+  </div>
+
+  <div class="foot">
+    日の入り時刻は端末の時計と大岡山の緯度経度（35.607°N, 139.683°E）から計算しています（通信なし・太陽高度 -0.833°）。<br>
+    64×32ドット / 実機想定: P4ピッチ HUB75パネル（256mm×128mm）
+  </div>
+</div>
+
+<script>
+// ===================== パネル =====================
+const W = 64, H = 32;
+const HZ = 23;                       // 地平線（ここから下は街）
+const fb = new Uint8Array(W*H*3);    // RGB フレームバッファ
+
+function clr(){ fb.fill(0); }
+function put(x, y, r, g, b, a = 1){
+  x |= 0; y |= 0;
+  if (x < 0 || x >= W || y < 0 || y >= H) return;
+  const i = (y*W + x)*3;
+  if (a >= 1){ fb[i] = r; fb[i+1] = g; fb[i+2] = b; return; }
+  fb[i]   = fb[i]   + (r - fb[i])   * a;
+  fb[i+1] = fb[i+1] + (g - fb[i+1]) * a;
+  fb[i+2] = fb[i+2] + (b - fb[i+2]) * a;
+}
+function add(x, y, r, g, b, a){       // 光を足す（グロー用）
+  x |= 0; y |= 0;
+  if (x < 0 || x >= W || y < 0 || y >= H) return;
+  const i = (y*W + x)*3;
+  fb[i]   = Math.min(255, fb[i]   + r*a);
+  fb[i+1] = Math.min(255, fb[i+1] + g*a);
+  fb[i+2] = Math.min(255, fb[i+2] + b*a);
+}
+const lerp = (a, b, t) => a + (b - a) * t;
+const mix  = (c1, c2, t) => [lerp(c1[0],c2[0],t), lerp(c1[1],c2[1],t), lerp(c1[2],c2[2],t)];
+const clamp01 = v => v < 0 ? 0 : v > 1 ? 1 : v;
+// 0→1 の t のうち [a,b] の区間だけを 0→1 に伸ばす
+const seg = (t, a, b) => clamp01((t - a) / (b - a));
+
+// ===================== 空の色 =====================
+// t=0 夕方の青 → t=1 夜。上・中・地平線ぎわの3色を持って縦にグラデーションする
+const SKY = [
+  { t:0.00, top:[ 26, 58,110], mid:[ 92,110,150], hor:[255,178, 77] },
+  { t:0.45, top:[ 40, 44, 92], mid:[140, 80, 90], hor:[255,120, 40] },
+  { t:0.75, top:[ 18, 20, 52], mid:[ 70, 38, 70], hor:[255, 70, 30] },
+  { t:1.00, top:[  5,  8, 22], mid:[ 22, 16, 42], hor:[ 70, 30, 55] },
+];
+function skyKey(t){
+  let i = 0;
+  while (i < SKY.length - 2 && t > SKY[i+1].t) i++;
+  const a = SKY[i], b = SKY[i+1];
+  const u = clamp01((t - a.t) / (b.t - a.t));
+  return { top: mix(a.top,b.top,u), mid: mix(a.mid,b.mid,u), hor: mix(a.hor,b.hor,u) };
+}
+function drawSky(t){
+  const k = skyKey(t);
+  for (let y = 0; y < HZ; y++){
+    const u = y / (HZ - 1);
+    const c = u < 0.5 ? mix(k.top, k.mid, u*2) : mix(k.mid, k.hor, (u-0.5)*2);
+    for (let x = 0; x < W; x++) put(x, y, c[0], c[1], c[2]);
+  }
+}
+
+// ===================== 星 =====================
+// 位置は固定（毎回同じ夜空になるように手で決めた種から作る）
+const STARS = (() => {
+  const out = [];
+  let s = 20260807;                                   // 疑似乱数の種
+  const rnd = () => (s = (s * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff;
+  for (let i = 0; i < 26; i++){
+    out.push({ x: (rnd()*W)|0, y: (rnd()*(HZ-4))|0, ph: rnd()*6.28, br: 0.5 + rnd()*0.5 });
+  }
+  return out;
+})();
+function drawStars(t, time){
+  const f = seg(t, 0.55, 1);                          // 暗くなってから浮かび上がる
+  if (f <= 0) return;
+  for (const st of STARS){
+    const tw = 0.75 + 0.25*Math.sin(time*2.2 + st.ph); // まばたき
+    const a = f * st.br * tw * (1 - st.y/HZ*0.35);     // 地平線に近い星は淡く
+    add(st.x, st.y, 255, 250, 230, a*0.9);
+  }
+}
+
+// ===================== 太陽 =====================
+function drawSun(t){
+  const cx = lerp(15, 47, t);            // 右へ
+  const cy = lerp(5.5, 29, t*t*0.9 + t*0.1); // 下へ（終盤ほど速く沈む）
+  const rad = 4.2;
+  const core = mix([255,228,150], [255, 86, 20], seg(t, 0.15, 0.9));
+  const glow = mix([255,190,110], [255, 60, 15], seg(t, 0.15, 0.9));
+
+  // グロー（大きめの円をやわらかく足す）
+  for (let y = Math.floor(cy-9); y <= Math.ceil(cy+9); y++){
+    for (let x = Math.floor(cx-11); x <= Math.ceil(cx+11); x++){
+      const d = Math.hypot((x-cx)*0.8, y-cy);
+      if (d <= rad || d > 10) continue;
+      const a = Math.pow(1 - (d - rad)/(10 - rad), 2.4) * 0.5;
+      add(x, y, glow[0], glow[1], glow[2], a);
+    }
+  }
+  // 本体
+  for (let y = Math.floor(cy-rad); y <= Math.ceil(cy+rad); y++){
+    for (let x = Math.floor(cx-rad); x <= Math.ceil(cx+rad); x++){
+      const d = Math.hypot(x-cx, y-cy);
+      if (d > rad + 0.35) continue;
+      const a = d > rad - 0.5 ? 0.55 : 1;              // ふちを少しなじませる
+      put(x, y, core[0], core[1], core[2], a);
+    }
+  }
+  return { cx, cy };
+}
+
+// ===================== 雲 =====================
+const CLOUDS = [
+  { y: 7,  x0: 6,  len: 13, sp: 1.7 },
+  { y: 11, x0: 34, len: 9,  sp: 1.1 },
+  { y: 15, x0: 20, len: 16, sp: 0.7 },
+];
+function drawClouds(t, time){
+  for (const c of CLOUDS){
+    // 太陽が沈むほど雲は赤く焼けて、最後は暗く沈む
+    const lit  = mix([255,214,160], [255,104, 48], seg(t, 0.1, 0.7));
+    const cCol = mix(lit, [46, 30, 52], seg(t, 0.7, 1));
+    const a = 0.55 + 0.35*(1 - seg(t, 0.6, 1));
+    const x0 = c.x0 + time * c.sp;
+    for (let i = 0; i < c.len; i++){
+      const x = ((x0 + i + 10) % (W + 20)) - 10;   // 画面外10ドットぶんを回り込みに使う
+      const thin = (i < 2 || i > c.len - 3) ? 0.45 : 1;  // 端を薄く
+      put(x, c.y, cCol[0], cCol[1], cCol[2], a*thin);
+      if (i > 2 && i < c.len - 3) put(x, c.y+1, cCol[0], cCol[1], cCol[2], a*0.45);
+    }
+  }
+}
+
+// ===================== 街（シルエット）=====================
+// [x開始, 幅, 屋根のy]
+const BUILDINGS = [
+  [ 0, 7, 26], [ 7, 5, 22], [12, 4, 27], [16, 8, 24], [24, 3, 20],
+  [27, 6, 25], [33, 5, 21], [38, 7, 26], [45, 4, 23], [49, 6, 27], [55, 9, 24],
+];
+function drawCity(t, time){
+  const body = mix([20, 18, 34], [6, 6, 14], seg(t, 0.3, 1));
+  for (const [bx, bw, by] of BUILDINGS){
+    for (let y = by; y < H; y++)
+      for (let x = bx; x < bx + bw; x++) put(x, y, body[0], body[1], body[2]);
+  }
+  // 地平線のふち（沈む前は太陽の色でうっすら光る）
+  const edge = mix([255,150, 70], [40, 26, 48], seg(t, 0.45, 1));
+  const ea = 0.8 * (1 - seg(t, 0.5, 1)*0.75);
+  for (const [bx, bw, by] of BUILDINGS)
+    for (let x = bx; x < bx + bw; x++) put(x, by, edge[0], edge[1], edge[2], ea);
+
+  // 窓の明かり（暗くなるにつれて点いていく）
+  const f = seg(t, 0.4, 1);
+  if (f <= 0) return;
+  let n = 0;
+  for (const [bx, bw, by] of BUILDINGS){
+    for (let y = by + 2; y < H - 1; y += 3){
+      for (let x = bx + 1; x < bx + bw - 1; x += 2){
+        n++;
+        const on = ((n * 37) % 100) / 100;             // 建物ごとにばらけさせる
+        if (on > f) continue;
+        const flick = ((n * 13) % 7 === 0) ? 0.6 + 0.4*Math.sin(time*3 + n) : 1;
+        add(x, y, 255, 186, 92, 0.75 * flick);
+      }
+    }
+  }
+}
+
+// ===================== 数字（3×5）=====================
+const D3x5 = {
+  "0":["111","101","101","101","111"], "1":["010","110","010","010","111"],
+  "2":["111","001","111","100","111"], "3":["111","001","111","001","111"],
+  "4":["101","101","111","001","001"], "5":["111","100","111","001","111"],
+  "6":["111","100","111","101","111"], "7":["111","001","001","010","010"],
+  "8":["111","101","111","101","111"], "9":["111","101","111","001","111"],
+  ":":["0","1","0","1","0"],
+};
+function drawText(str, x, y, col, a){
+  let cx = x;
+  for (const ch of str){
+    const g = D3x5[ch];
+    if (!g) { cx += 4; continue; }
+    for (let r = 0; r < 5; r++)
+      for (let c = 0; c < g[r].length; c++)
+        if (g[r][c] === "1") put(cx + c, y + r, col[0], col[1], col[2], a);
+    cx += g[0].length + 1;
+  }
+}
+function textWidth(str){
+  let w = 0;
+  for (const ch of str) w += (D3x5[ch] ? D3x5[ch][0].length : 3) + 1;
+  return w - 1;
+}
+
+// ===================== 1コマ描く =====================
+function renderFrame(t, time, label){
+  clr();
+  drawSky(t);
+  drawStars(t, time);
+  drawSun(t);
+  drawClouds(t, time);
+  drawCity(t, time);
+  // 沈みきったあと、日の入り時刻を空に出す
+  const f = seg(t, 0.78, 0.95);
+  if (f > 0){
+    const w = textWidth(label);
+    drawText(label, ((W - w)/2)|0, 3, [255, 196, 120], f * 0.9);
+  }
+}
+
+// ===================== 画面に出す =====================
+const cv = document.getElementById("led"), ctx = cv.getContext("2d");
+const DOT = 10;
+cv.width = W*DOT; cv.height = H*DOT;
+document.getElementById("sizeLabel").textContent = `${W}×${H} dot`;
+
+function paint(){
+  ctx.fillStyle = "#000"; ctx.fillRect(0, 0, cv.width, cv.height);
+  for (let y = 0; y < H; y++){
+    for (let x = 0; x < W; x++){
+      const i = (y*W + x)*3;
+      const r = fb[i], g = fb[i+1], b = fb[i+2];
+      const cx = x*DOT + DOT/2, cy = y*DOT + DOT/2;
+      if (r + g + b < 12){                               // 消えているLEDの粒
+        ctx.fillStyle = "#15171a";
+        ctx.beginPath(); ctx.arc(cx, cy, DOT*.32, 0, 7); ctx.fill();
+        continue;
+      }
+      ctx.fillStyle = `rgb(${r|0},${g|0},${b|0})`;
+      ctx.globalAlpha = .25;
+      ctx.beginPath(); ctx.arc(cx, cy, DOT*.62, 0, 7); ctx.fill();
+      ctx.globalAlpha = 1;
+      ctx.beginPath(); ctx.arc(cx, cy, DOT*.38, 0, 7); ctx.fill();
+    }
+  }
+}
+
+// ===================== 日の入り時刻 =====================
+// 大岡山（もしも：まちと未来の実験室）
+const LAT = 35.6074, LON = 139.6828;
+const RAD = Math.PI/180, J2000 = 2451545;
+const toJulian   = d => d.valueOf()/86400000 - 0.5 + 2440588;
+const fromJulian = j => new Date((j + 0.5 - 2440588) * 86400000);
+
+function sunsetOn(date){
+  const lw = -LON * RAD;
+  const n = Math.round(toJulian(date) - J2000 - 0.0009 - lw/(2*Math.PI));
+  const Japprox = J2000 + 0.0009 + lw/(2*Math.PI) + n;
+  const M = (357.5291 + 0.98560028 * (Japprox - J2000)) * RAD;
+  const C = (1.9148*Math.sin(M) + 0.02*Math.sin(2*M) + 0.0003*Math.sin(3*M)) * RAD;
+  const L = M + C + 102.9372*RAD + Math.PI;
+  const dec = Math.asin(Math.sin(L) * Math.sin(23.4397*RAD));
+  const cosW = (Math.sin(-0.833*RAD) - Math.sin(LAT*RAD)*Math.sin(dec)) / (Math.cos(LAT*RAD)*Math.cos(dec));
+  if (cosW > 1 || cosW < -1) return null;                // 白夜・極夜（東京では起きない）
+  const w = Math.acos(cosW);
+  return fromJulian(J2000 + 0.0009 + (w + lw)/(2*Math.PI) + n
+                    + 0.0053*Math.sin(M) - 0.0069*Math.sin(2*L));
+}
+const hhmm = d => `${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
+
+// 今日の日の入りが過ぎていたら明日の日の入りを返す
+function nextSunset(){
+  const now = new Date();
+  let s = sunsetOn(now);
+  if (!s || s <= now){
+    const tomorrow = new Date(now.getTime() + 86400000);
+    s = sunsetOn(tomorrow);
+  }
+  return s;
+}
+
+// ===================== 再生 =====================
+const DURS = [
+  { label:"20秒", ms: 20000 },
+  { label:"40秒", ms: 40000 },
+  { label:"2分",  ms: 120000 },
+];
+let durIdx = 1, looping = false;
+let anim = null;                 // {start, label} 再生中だけ入る
+let firedFor = "";               // 自動再生済みの日付（1日1回）
+
+const $ = id => document.getElementById(id);
+
+function startPlay(label){
+  anim = { start: performance.now(), label };
+  $("stateLabel").textContent = "再生中";
+}
+function stopPlay(){
+  anim = null;
+  $("stateLabel").textContent = looping ? "くりかえし待機" : "待機中";
+}
+
+let lastLabel = "--:--";
+function tick(nowMs){
+  const time = nowMs / 1000;
+  if (anim){
+    const t = (nowMs - anim.start) / DURS[durIdx].ms;
+    if (t >= 1){
+      renderFrame(1, time, anim.label);
+      if (looping) anim.start = nowMs; else stopPlay();
+    } else {
+      renderFrame(t, time, anim.label);
+    }
+  } else {
+    renderFrame(0, time, lastLabel);       // 待機中は日没前の空を映しておく
+  }
+  paint();
+  requestAnimationFrame(tick);
+}
+
+// 時計まわり（毎秒）
+function clockTick(){
+  const now = new Date();
+  const s = nextSunset();
+  lastLabel = s ? hhmm(s) : "--:--";
+  $("now").textContent = now.toLocaleTimeString("ja-JP", { hour12:false });
+  $("sunsetAt").textContent = lastLabel;
+
+  if (!s) return;
+  const left = s - now;
+  const hh = Math.floor(left/3600000), mm = Math.floor(left/60000) % 60, ss = Math.floor(left/1000) % 60;
+  const sameDay = s.toDateString() === now.toDateString();
+  $("countdown").textContent =
+    (hh > 0 ? `${hh}時間${mm}分` : mm > 0 ? `${mm}分${ss}秒` : `${ss}秒`) + (sameDay ? "" : "（明日）");
+
+  // 日の入り時刻になったら自動で流す（同じ日に二度は流さない）
+  const key = s.toDateString();
+  if (sameDay && left <= 0 && firedFor !== key){
+    firedFor = key;
+    startPlay(hhmm(s));
+  }
+}
+
+// ---- 操作 ----
+$("play").onclick = () => startPlay(lastLabel);
+$("loop").onclick = () => {
+  looping = !looping;
+  $("loop").classList.toggle("on", looping);
+  if (looping && !anim) startPlay(lastLabel);
+  if (!looping && anim) $("stateLabel").textContent = "再生中";
+};
+function renderDurs(){
+  const el = $("durs"); el.innerHTML = "";
+  DURS.forEach((d, i) => {
+    const b = document.createElement("button");
+    b.className = "chip" + (i === durIdx ? " on" : "");
+    b.textContent = d.label;
+    b.onclick = () => { durIdx = i; renderDurs(); };
+    el.appendChild(b);
+  });
+}
+
+renderDurs();
+clockTick();
+setInterval(clockTick, 1000);
+requestAnimationFrame(tick);
+</script>
+</body>
+</html>
