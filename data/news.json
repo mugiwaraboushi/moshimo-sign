@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-07T15:40:52.702Z",
+ "updatedAt": "2026-08-07T16:38:24.403Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -185,11 +185,6 @@
      "title": "「みちびき7号機」7日の打ち上げは延期 台風影響で JAXA",
      "link": "https://news.web.nhk/newsweb/na/na-k10015195091000",
      "pubDate": "Mon, 03 Aug 2026 17:43:56 +0900"
-    },
-    {
-     "title": "ジャワ原人 赤ちゃんを未発達なまま出産し協力して子育てか",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015192831000",
-     "pubDate": "Sat, 01 Aug 2026 15:14:20 +0900"
     }
    ]
   },
@@ -198,6 +193,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "台湾軍 中国による侵攻を想定した大規模演習を公開",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199791000",
+     "pubDate": "Sat, 08 Aug 2026 01:02:44 +0900"
+    },
     {
      "title": "米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199701000",
@@ -267,11 +267,6 @@
      "title": "黒海で小麦運搬船がロシア軍に攻撃され1人死亡",
      "link": "https://news.web.nhk/newsweb/na/na-k10015198561000",
      "pubDate": "Fri, 07 Aug 2026 07:44:01 +0900"
-    },
-    {
-     "title": "ミャンマー 軍の影響力が強い政権トップがタイ訪問",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198601000",
-     "pubDate": "Thu, 06 Aug 2026 21:49:28 +0900"
     }
    ]
   },
