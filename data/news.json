@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-07T23:00:49.495Z",
+ "updatedAt": "2026-08-07T23:53:48.730Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -281,9 +281,9 @@
      "pubDate": "Fri, 07 Aug 2026 22:34:39 GMT"
     },
     {
-     "title": "国税不祥事 前例ない事態に危機感",
-     "link": "https://news.yahoo.co.jp/pickup/6590905?source=rss",
-     "pubDate": "Fri, 07 Aug 2026 12:34:50 GMT"
+     "title": "日本郵便で障害 一部で受け取れず",
+     "link": "https://news.yahoo.co.jp/pickup/6590928?source=rss",
+     "pubDate": "Fri, 07 Aug 2026 23:00:09 GMT"
     },
     {
      "title": "イオンの従業員誘導 規定に抵触か",
@@ -294,6 +294,11 @@
      "title": "過剰な餌「ウサギの島」に異変",
      "link": "https://news.yahoo.co.jp/pickup/6590912?source=rss",
      "pubDate": "Fri, 07 Aug 2026 13:28:24 GMT"
+    },
+    {
+     "title": "オープンAI 対話スピーカー発売か",
+     "link": "https://news.yahoo.co.jp/pickup/6590926?source=rss",
+     "pubDate": "Fri, 07 Aug 2026 22:49:12 GMT"
     },
     {
      "title": "「サ終」続くスマホゲーム 倒産増",
@@ -309,11 +314,6 @@
      "title": "長友佑都39歳 現役続行を決断",
      "link": "https://news.yahoo.co.jp/pickup/6590924?source=rss",
      "pubDate": "Fri, 07 Aug 2026 22:29:28 GMT"
-    },
-    {
-     "title": "池田と結婚 佐藤アナ退社理由語る",
-     "link": "https://news.yahoo.co.jp/pickup/6590907?source=rss",
-     "pubDate": "Fri, 07 Aug 2026 12:50:50 GMT"
     }
    ]
   }
