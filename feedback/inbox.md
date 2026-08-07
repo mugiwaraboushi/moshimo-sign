@@ -28,11 +28,14 @@
   - 参加者画面（投稿）／管理画面（選別・ログ保存）の2画面
   - 自動判定は**捨てずに理由を付けて未確認に積む**だけ。最終判断は必ず人
   - 承認済みを `COMMENTS_URL` 形式（1行1コメント）で出力。ログはCSV/JSON保存
-- 残っていること（要判断）:
-  - 参加者のスマホと管理PCをつなぐ共有サーバ。今は同一ブラウザ内のみ（demo動作）。
-  - 構想図どおり GAS + スプレッドシートなら、必要な口は4つだけ（list / add / state / text）。
-    画面側は `STORE` を差し替えるだけでつながるように書いてある。
-  - `text` の口をそのまま `COMMENTS_URL` にすれば実機まで通る（firmware改修は不要）。
+- サーバ側も実装した（2026-08-07）: `tools/event-comments-gas/Code.gs` + `docs/event-comments.md`
+  - スプレッドシートを保存先にした GAS Webアプリ。口は list / add / state / text の4つ
+  - 承認・見送りはスクリプトプロパティの `ADMIN_KEY` を知っている人だけ
+  - 管理画面にURLと鍵を入れると切り替わる。参加者用URLとQRもそこに出る
+- 残っていること:
+  - **デプロイは未実施**（Googleアカウントでの操作が必要なため管理者が行う）。
+    手順は `docs/event-comments.md` の1〜6。
+  - `COMMENTS_URL` への設定はファームウェア担当（`config.h` は git管理外）。
 - 補足: 実機側は既に対応済み。`fetchComments()` が15秒ごとにプレーンテキストを取得し、
   `messages` の後ろに連結する（最大20件 = `MAX_COMMENTS`）。
 

@@ -32,6 +32,7 @@
   .msg { font-size:12px; margin-top:10px; padding:9px 11px; border-radius:8px; }
   .msg.ok { background:#132a19; color:#8fe0a6; }
   .msg.hold { background:#2a2413; color:#e0cc8f; }
+  .msg.err { background:#2a1616; color:#ff9a8f; }
   .tabs { display:flex; gap:6px; margin-bottom:10px; }
   .tabs button.on { background:var(--accent); color:#000; border-color:var(--accent); font-weight:700; }
   .item { border:1px solid var(--line); border-radius:10px; padding:11px 12px; margin-bottom:8px; background:#111418; }
@@ -55,6 +56,13 @@
   .foot a { color:#8a6a2f; }
   .stat { display:flex; gap:14px; font-size:11px; color:var(--dim); margin-bottom:10px; }
   .stat b { color:var(--accent); font-size:15px; }
+  .conn { font-size:11px; padding:7px 11px; border-radius:8px; margin-bottom:12px; }
+  .conn.live  { background:#132a19; color:#8fe0a6; }
+  .conn.local { background:#1c2026; color:#8a8f98; }
+  .conn.err   { background:#2a1616; color:#ff9a8f; }
+  #qr { background:#fff; padding:10px; border-radius:9px; display:inline-block; margin-top:10px; }
+  #qr img, #qr canvas { display:block; }
+  .link { font-size:11px; color:#8a6a2f; word-break:break-all; }
 </style>
 </head>
 <body>
@@ -67,94 +75,137 @@
     <a href="?role=admin" id="r-admin">管理（選別）</a>
   </div>
 
+  <div class="conn" id="conn"></div>
   <div id="view"></div>
 
   <div class="foot">
     もしも まちと未来の実験室 ／ <a href="../../">プロトタイプ一覧</a><br>
-    実機の受け口: <code>COMMENTS_URL</code>（1行1コメントのプレーンテキスト・15秒ごと取得・最大20件）
+    実機の受け口: <code>COMMENTS_URL</code>（1行1コメントのプレーンテキスト・15秒ごと取得・最大20件）<br>
+    サーバ側: <code>tools/event-comments-gas/Code.gs</code> ／ 手順: <code>docs/event-comments.md</code>
   </div>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 <script>
 // =====================================================================
-// 参加者がスマホから投稿 → 自動で「明らかにダメなもの」を保留 → 管理者が選別
-// → 承認したものだけを実機用テキストにする。ログはCSV/JSONで保存できる。
+// 参加者がスマホから投稿 → 自動で理由を付けて保留 → 管理者が選別
+// → 承認したものだけが実機に流れる。ログはCSV/JSONで保存できる。
 //
-// 保存先は差し替えられるようにしてある(STORE)。既定は demo = このブラウザの中だけ。
-// 別タブの管理画面とはリアルタイムに同期するので、PC1台で通しの動作確認ができる。
-// 本番(参加者のスマホ→管理PC)は共有サーバが要る。契約は下の ENDPOINT_SPEC のとおり。
+// 置き場は2つある:
+//   ローカル … このブラウザの中だけ。別タブとは即同期する（1台で通し確認する用）
+//   GAS      … 管理画面でURLを入れると、そちらに切り替わる（本番）
+// GAS側の実装は tools/event-comments-gas/Code.gs
 // =====================================================================
 
 const KEY = "moshimo-event-comments";
-const MAX_LEN = 60;          // 実機は64dot幅。長い文は流れきるまで時間がかかるので上限を置く
+const MAX_LEN = 60;          // 実機は64dot幅。長い文は流れきるまで時間がかかる
 const MAX_TO_DEVICE = 20;    // firmware の MAX_COMMENTS
 
 const q = new URLSearchParams(location.search);
 const role = q.get("role") === "admin" ? "admin" : "post";
 
+// ---------------- 接続先の設定 ----------------
+// 参加者はURLの ?api= で受け取る。管理者は画面で入れて端末に保存する。
+const CONF = {
+  get api(){ return q.get("api") || localStorage.getItem(KEY+":api") || ""; },
+  set api(v){ v ? localStorage.setItem(KEY+":api", v) : localStorage.removeItem(KEY+":api"); },
+  get key(){ return localStorage.getItem(KEY+":key") || ""; },
+  set key(v){ v ? localStorage.setItem(KEY+":key", v) : localStorage.removeItem(KEY+":key"); },
+};
+const online = () => !!CONF.api;
+
 // ---------------- 自動フィルタ ----------------
-// 方針: 自動では**捨てない**。「保留」にして理由を付けるだけ。最後は必ず人が決める。
-// 語彙はここに全部書かず、管理画面から足せるようにしてある(この端末に保存される)。
+// 方針: 自動では**捨てない**。理由を付けて未確認に積むだけ。最後は必ず人が決める。
+// 表示のたびに計算しているので、ことばを足すと過去の分にも遡って効く。
 const SEED_NG = ["死ね", "殺す", "きもい", "ブス", "バカ", "アホ", "クズ"];
 function ngWords(){
-  try { return JSON.parse(localStorage.getItem(KEY+":ng")) || SEED_NG; }
-  catch { return SEED_NG; }
+  try { return JSON.parse(localStorage.getItem(KEY+":ng")) || SEED_NG; } catch { return SEED_NG; }
 }
 function setNgWords(list){ localStorage.setItem(KEY+":ng", JSON.stringify(list)); }
 
 function screen(text){
-  const flags = [];
-  const t = text.trim();
+  const flags = [], t = String(text).trim();
   const hit = ngWords().filter(w => w && t.includes(w));
   if (hit.length) flags.push({ code:"ng", label:"NGワード（" + hit.join("・") + "）" });
-  if (/https?:\/\/|www\./i.test(t))            flags.push({ code:"url",   label:"URLが入っている" });
-  if (/0\d{1,4}-?\d{2,4}-?\d{3,4}/.test(t))    flags.push({ code:"tel",   label:"電話番号らしき数字" });
-  if (/[\w.+-]+@[\w-]+\.[\w.]+/.test(t))       flags.push({ code:"mail",  label:"メールアドレスらしき文字列" });
-  if (t.length > MAX_LEN)                      flags.push({ code:"long",  label:"長すぎる（" + t.length + "文字）" });
-  if (/(.)\1{9,}/.test(t))                     flags.push({ code:"rep",   label:"同じ文字の連打" });
-  if (!t.length)                               flags.push({ code:"empty", label:"空" });
+  if (/https?:\/\/|www\./i.test(t))         flags.push({ code:"url",  label:"URLが入っている" });
+  if (/0\d{1,4}-?\d{2,4}-?\d{3,4}/.test(t)) flags.push({ code:"tel",  label:"電話番号らしき数字" });
+  if (/[\w.+-]+@[\w-]+\.[\w.]+/.test(t))    flags.push({ code:"mail", label:"メールアドレスらしき文字列" });
+  if ([...t].length > MAX_LEN)              flags.push({ code:"long", label:"長すぎる（" + [...t].length + "文字）" });
+  if (/(.)\1{9,}/.test(t))                  flags.push({ code:"rep",  label:"同じ文字の連打" });
+  if (!t.length)                            flags.push({ code:"empty",label:"空" });
   return flags;
 }
 
-// ---------------- 保存先 ----------------
-// demo: このブラウザの中だけ。BroadcastChannelで別タブの管理画面と即同期する
-const bc = ("BroadcastChannel" in window) ? new BroadcastChannel(KEY) : null;
-const STORE = {
-  all(){ try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch { return []; } },
-  write(list){ localStorage.setItem(KEY, JSON.stringify(list)); bc && bc.postMessage("changed"); },
-  add(text){
-    const list = this.all();
-    const item = {
-      id: (list.length ? Math.max(...list.map(c=>c.id)) : 0) + 1,
-      ts: new Date().toISOString(),
-      text: text.trim(),
-      flags: screen(text),
-      state: "pending",
-    };
-    // 自動で通すのはフラグゼロのものだけ。それでも state は pending のまま(人が見る)
-    list.push(item);
-    this.write(list);
-    return item;
-  },
-  setState(id, state){
-    const list = this.all();
-    const c = list.find(x => x.id === id);
-    if (c) { c.state = state; this.write(list); }
-  },
-  clear(){ this.write([]); },
-};
-bc && (bc.onmessage = () => render());
-addEventListener("storage", e => { if (e.key === KEY) render(); });
+// ---------------- 置き場 ----------------
+let CACHE = [];       // 画面はここだけを見る。中身は {id, ts, text, state}
+let CONN = "local";   // local | live | err
 
-const esc = s => s.replace(/[&<>"]/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+const bc = ("BroadcastChannel" in self) ? new BroadcastChannel(KEY) : null;
+
+const LOCAL = {
+  load(){ try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch { return []; } },
+  save(list){ localStorage.setItem(KEY, JSON.stringify(list)); bc && bc.postMessage("changed"); },
+  async list(){ return this.load(); },
+  async add(text){
+    const list = this.load();
+    const id = list.length ? Math.max(...list.map(c=>c.id)) + 1 : 1;
+    list.push({ id, ts:new Date().toISOString(), text:String(text).trim(), state:"pending" });
+    this.save(list);
+  },
+  async setState(id, state){
+    const list = this.load();
+    const c = list.find(x => x.id === id);
+    if (c) { c.state = state; this.save(list); }
+  },
+};
+
+const REMOTE = {
+  async get(action){
+    const r = await fetch(CONF.api + (CONF.api.includes("?") ? "&" : "?") + "action=" + action);
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return r.json();
+  },
+  async post(obj){
+    // GASは text/plain にしておくとプリフライト(OPTIONS)が飛ばずに済む
+    const r = await fetch(CONF.api, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify(obj),
+    });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error || "エラー");
+    return j;
+  },
+  async list(){ const j = await this.get("list"); return j.comments || []; },
+  async add(text){ await this.post({ action:"add", text }); },
+  async setState(id, state){ await this.post({ action:"state", id, state, key: CONF.key }); },
+};
+
+const store = () => online() ? REMOTE : LOCAL;
+
+async function refresh(){
+  try {
+    CACHE = await store().list();
+    CONN = online() ? "live" : "local";
+  } catch (e) {
+    CONN = "err"; CACHE = CACHE || [];
+    console.warn("[event-comments]", e.message);
+  }
+  render();
+}
+bc && (bc.onmessage = () => { if (!online()) refresh(); });
+addEventListener("storage", e => { if (e.key === KEY && !online()) refresh(); });
+
+const esc = s => String(s).replace(/[&<>"]/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
 const hhmm = iso => { const d = new Date(iso);
-  return String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0"); };
+  return isNaN(d) ? "--:--" : String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0"); };
 const $ = id => document.getElementById(id);
 const view = $("view");
 
 // ---------------- 参加者（投稿）----------------
 function renderPost(){
-  const mine = STORE.all().slice(-5).reverse();
+  const mine = CACHE.slice(-5).reverse();
   view.innerHTML = `
     <div class="card">
       <textarea id="text" maxlength="${MAX_LEN + 40}" placeholder="質問・コメント・つぶやき、なんでも"></textarea>
@@ -167,38 +218,45 @@ function renderPost(){
       名前は送られません。書いた内容だけが表示されます。
     </div>
     <h2>さっき送られたもの</h2>
-    <div id="recent">${mine.length ? mine.map(c => `
+    <div>${mine.length ? mine.map(c => `
       <div class="item">
         <div class="meta"><span>${hhmm(c.ts)}</span><span class="tag ${c.state}">${
-          {pending:"確認待ち", approved:"掲示板に表示中", rejected:"見送り"}[c.state]}</span></div>
+          {pending:"確認待ち", approved:"掲示板に表示中", rejected:"見送り"}[c.state] || c.state}</span></div>
         <div class="body">${esc(c.text)}</div>
       </div>`).join("") : `<div class="empty">まだありません</div>`}</div>`;
 
   const ta = $("text");
   ta.oninput = () => {
-    $("count").textContent = [...ta.value.trim()].length;
-    $("count").style.color = [...ta.value.trim()].length > MAX_LEN ? "#ff9a8f" : "";
+    const n = [...ta.value.trim()].length;
+    $("count").textContent = n;
+    $("count").style.color = n > MAX_LEN ? "#ff9a8f" : "";
   };
-  $("send").onclick = () => {
+  $("send").onclick = async () => {
     const t = ta.value.trim();
     if (!t) return;
-    const item = STORE.add(t);
-    ta.value = ""; $("count").textContent = "0";
-    const held = item.flags.length;
-    $("result").innerHTML = `<div class="msg ${held ? "hold" : "ok"}">${
-      held ? "送りました。運営が確認します。" : "送りました。ありがとうございます。"}</div>`;
-    setTimeout(render, 1200);
+    $("send").disabled = true;
+    try {
+      await store().add(t);
+      ta.value = ""; $("count").textContent = "0";
+      $("result").innerHTML = `<div class="msg ${screen(t).length ? "hold" : "ok"}">送りました。運営が確認します。</div>`;
+      await refresh();
+    } catch (e) {
+      $("result").innerHTML = `<div class="msg err">送れませんでした（${esc(e.message)}）。もう一度お試しください。</div>`;
+      $("send").disabled = false;
+    }
   };
 }
 
 // ---------------- 管理（選別）----------------
 let tab = "pending";
 function renderAdmin(){
-  const all = STORE.all();
+  const all = CACHE.map(c => ({ ...c, flags: screen(c.text) }));   // 判定は毎回やり直す
   const n = s => all.filter(c => c.state === s).length;
   const shown = tab === "all" ? all : all.filter(c => c.state === tab);
   const approved = all.filter(c => c.state === "approved");
   const deviceText = approved.slice(-MAX_TO_DEVICE).map(c => c.text).join("\n");
+  const postUrl = location.origin + location.pathname + "?role=post"
+    + (CONF.api ? "&api=" + encodeURIComponent(CONF.api) : "");
 
   view.innerHTML = `
     <div class="card">
@@ -212,11 +270,11 @@ function renderAdmin(){
         ${[["pending","未確認"],["approved","表示中"],["rejected","見送り"],["all","全部"]]
           .map(([k,l]) => `<button class="tiny ${tab===k?"on":""}" data-tab="${k}">${l}</button>`).join("")}
       </div>
-      <div id="list">${shown.length ? shown.slice().reverse().map(c => `
+      <div>${shown.length ? shown.slice().reverse().map(c => `
         <div class="item">
           <div class="meta">
             <span>${hhmm(c.ts)}</span>
-            <span class="tag ${c.state}">${{pending:"未確認",approved:"表示中",rejected:"見送り"}[c.state]}</span>
+            <span class="tag ${c.state}">${{pending:"未確認",approved:"表示中",rejected:"見送り"}[c.state] || c.state}</span>
             ${c.flags.map(f => `<span class="tag flag">${esc(f.label)}</span>`).join("")}
           </div>
           <div class="body">${esc(c.text)}</div>
@@ -231,15 +289,40 @@ function renderAdmin(){
     <h2>実機に送るテキスト（${approved.length > MAX_TO_DEVICE
       ? "新しい" + MAX_TO_DEVICE + "件" : approved.length + "件"}）</h2>
     <div class="card">
-      <pre id="devtext">${deviceText ? esc(deviceText) : "（まだ承認されたコメントがありません）"}</pre>
+      <pre>${deviceText ? esc(deviceText) : "（まだ承認されたコメントがありません）"}</pre>
       <div class="row">
         <button class="tiny" id="copy">コピー</button>
         <button class="tiny" id="dl-txt">comments.txt</button>
         <button class="tiny" id="preview" ${deviceText ? "" : "disabled"}>掲示板で見る</button>
       </div>
       <div style="font-size:11px;color:var(--dim);margin-top:9px">
-        これをそのまま <code>COMMENTS_URL</code> に置けば実機が15秒以内に拾います。
+        ${online()
+          ? `GASにつながっているので、<b>承認した時点で実機に届きます</b>（15秒以内）。手で置く必要はありません。`
+          : `これをそのまま <code>COMMENTS_URL</code> に置けば実機が15秒以内に拾います。`}
       </div>
+    </div>
+
+    <h2>つなぎ先（GAS）</h2>
+    <div class="card">
+      <input type="text" id="apibox" placeholder="https://script.google.com/macros/s/.../exec" value="${esc(CONF.api)}">
+      <div style="margin-top:6px">
+        <input type="text" id="keybox" placeholder="管理キー（スクリプトプロパティの ADMIN_KEY）" value="${esc(CONF.key)}">
+      </div>
+      <div class="row" style="margin-top:8px">
+        <button class="tiny" id="apisave">保存してつなぐ</button>
+        <button class="tiny" id="apiclear">切ってローカルに戻す</button>
+      </div>
+      <div style="font-size:11px;color:var(--dim);margin-top:9px">
+        入れるとこの端末に保存されます。空ならこのブラウザの中だけで動きます。<br>
+        作り方は <code>docs/event-comments.md</code>、コードは <code>tools/event-comments-gas/Code.gs</code>。
+      </div>
+      ${online() ? `
+        <div style="margin-top:14px">
+          <div style="font-size:11px;color:var(--dim)">参加者に見せるURL（この画面のQRを撮ってもらう）</div>
+          <div class="link">${esc(postUrl)}</div>
+          <div id="qr"></div>
+          <div class="row" style="margin-top:8px"><button class="tiny" id="copylink">URLをコピー</button></div>
+        </div>` : ``}
     </div>
 
     <h2>ログの保存</h2>
@@ -247,10 +330,12 @@ function renderAdmin(){
       <div class="row">
         <button class="tiny" id="dl-csv">CSVで保存</button>
         <button class="tiny" id="dl-json">JSONで保存</button>
-        <button class="tiny" id="wipe">全部消す</button>
+        ${online() ? `` : `<button class="tiny" id="wipe">全部消す</button>`}
       </div>
       <div style="font-size:11px;color:var(--dim);margin-top:9px">
-        時刻・本文・状態・自動判定の理由まで残ります。イベント後の振り返り用。
+        時刻・本文・状態・自動判定の理由まで残ります。${online()
+          ? `GAS接続中は元のログがスプレッドシートにも残ります。`
+          : `イベント後の振り返り用。`}
       </div>
     </div>
 
@@ -265,44 +350,34 @@ function renderAdmin(){
         「、」区切り。この端末にだけ保存されます（リポジトリには載りません）。<br>
         引っかかっても<b>自動では捨てません</b>。理由が付いて未確認に積まれるだけです。
       </div>
-    </div>
-
-    <details style="margin-top:14px">
-      <summary>参加者のスマホから届くようにするには（本番の構成）</summary>
-      <div class="card" style="margin-top:8px">
-        いまのこの画面は<b>このPCの中だけ</b>で動いています。別タブで
-        <a href="?role=post" style="color:var(--accent)">参加者画面</a> を開けば通しで試せますが、
-        参加者のスマホからは届きません。共有サーバが1枚要ります。<br><br>
-        ホワイトボードの構想どおり <b>GAS + スプレッドシート</b> が一番近道です。作るのは3つの口だけ:
-        <pre>GET  ?action=list            → コメント全部をJSONで返す
-POST {action:"add", text}   → 1件足す
-POST {action:"state", id, state}  → 状態を変える(pending/approved/rejected)
-GET  ?action=text           → 承認済みだけを1行1件のテキストで返す
-                              ← これを COMMENTS_URL にする</pre>
-        スプレッドシートがそのままログになるので、保存もそこで済みます。
-        口ができたらこの画面をつなぎ込みます（<code>STORE</code> を差し替えるだけ）。
-      </div>
-    </details>`;
+    </div>`;
 
   view.querySelectorAll("[data-tab]").forEach(b => b.onclick = () => { tab = b.dataset.tab; render(); });
-  view.querySelectorAll("[data-ok]").forEach(b => b.onclick = () => STORE.setState(+b.dataset.ok, "approved"));
-  view.querySelectorAll("[data-ng]").forEach(b => b.onclick = () => STORE.setState(+b.dataset.ng, "rejected"));
-  view.querySelectorAll("[data-un]").forEach(b => b.onclick = () => STORE.setState(+b.dataset.un, "pending"));
+  const act = (attr, state) => view.querySelectorAll(`[data-${attr}]`).forEach(b => b.onclick = async () => {
+    b.disabled = true;
+    try { await store().setState(+b.dataset[attr], state); }
+    catch (e) { alert("変更できませんでした: " + e.message); }
+    refresh();
+  });
+  act("ok", "approved"); act("ng", "rejected"); act("un", "pending");
 
   $("copy").onclick = () => navigator.clipboard?.writeText(deviceText)
     .then(() => { $("copy").textContent = "コピーしました"; setTimeout(()=>$("copy").textContent="コピー", 1400); });
   $("dl-txt").onclick  = () => download("comments.txt", deviceText, "text/plain");
   $("dl-json").onclick = () => download("comments-log.json", JSON.stringify(all, null, 2), "application/json");
   $("dl-csv").onclick  = () => download("comments-log.csv", toCsv(all), "text/csv");
-  $("preview").onclick = () => {
-    const t = approved.slice(-MAX_TO_DEVICE).map(c => c.text).join("◆");
-    open("../board/?speed=45&text=" + encodeURIComponent(t), "_blank");
-  };
-  $("wipe").onclick = () => { if (confirm("ログを全部消します。よろしいですか?")) { STORE.clear(); render(); } };
-  $("ngsave").onclick = () => {
-    setNgWords($("ngbox").value.split(/[、,]/).map(s=>s.trim()).filter(Boolean));
-    render();
-  };
+  $("preview").onclick = () => open("../board/?speed=45&text="
+    + encodeURIComponent(approved.slice(-MAX_TO_DEVICE).map(c=>c.text).join("◆")), "_blank");
+  if ($("wipe")) $("wipe").onclick = () => {
+    if (confirm("ログを全部消します。よろしいですか?")) { LOCAL.save([]); refresh(); } };
+
+  $("apisave").onclick = () => { CONF.api = $("apibox").value.trim(); CONF.key = $("keybox").value.trim(); refresh(); };
+  $("apiclear").onclick = () => { CONF.api = ""; refresh(); };
+  if ($("copylink")) $("copylink").onclick = () => navigator.clipboard?.writeText(postUrl)
+    .then(() => { $("copylink").textContent = "コピーしました"; setTimeout(()=>$("copylink").textContent="URLをコピー", 1400); });
+  if ($("qr") && self.QRCode) new QRCode($("qr"), { text: postUrl, width: 168, height: 168 });
+
+  $("ngsave").onclick = () => { setNgWords($("ngbox").value.split(/[、,]/).map(s=>s.trim()).filter(Boolean)); render(); };
   $("ngreset").onclick = () => { setNgWords(SEED_NG); render(); };
 }
 
@@ -313,8 +388,8 @@ function toCsv(list){
   const rows = list.map(c => [
     new Date(c.ts).toLocaleString("ja-JP"),
     c.text,
-    {pending:"未確認",approved:"表示中",rejected:"見送り"}[c.state],
-    c.flags.map(f=>f.label).join(" / "),
+    {pending:"未確認",approved:"表示中",rejected:"見送り"}[c.state] || c.state,
+    (c.flags || screen(c.text)).map(f=>f.label).join(" / "),
   ].map(cell).join(","));
   return "﻿" + [head, ...rows].join("\r\n");   // BOM付き(Excelで文字化けしない)
 }
@@ -332,9 +407,16 @@ function render(){
   $("lead").textContent = role === "admin"
     ? "届いたコメントを見て、掲示板に出すものを決めます。自動判定は理由を付けるだけで、捨てはしません。"
     : "いま思ったことを送ってください。運営が確認したものが電光掲示板に流れます。";
+  const conn = $("conn");
+  conn.className = "conn " + CONN;
+  conn.textContent = CONN === "live" ? "GASにつながっています（参加者のスマホからも届きます）"
+    : CONN === "err" ? "つなぎ先に届きません。URLと公開設定を確認してください。"
+    : "このブラウザの中だけで動いています（別タブとは同期します）";
   role === "admin" ? renderAdmin() : renderPost();
 }
-render();
+
+refresh();
+setInterval(() => { if (online()) refresh(); }, 5000);   // GAS接続中は5秒ごとに取り直す
 </script>
 </body>
 </html>
