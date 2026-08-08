@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T07:25:54.068Z",
+ "updatedAt": "2026-08-08T08:04:57.119Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,12 +10,12 @@
     {
      "title": "台風13号 暴風など長時間続く 厳重警戒を【中継映像も】",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 15:13:51 +0900"
+     "pubDate": "Sat, 08 Aug 2026 16:48:38 +0900"
     },
     {
-     "title": "新潟で「記録的短時間大雨」の気象防災速報を発表",
+     "title": "青森 岩手 新潟に記録的短時間大雨 浸水などに厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200211000",
-     "pubDate": "Sat, 08 Aug 2026 15:54:49 +0900"
+     "pubDate": "Sat, 08 Aug 2026 16:59:32 +0900"
     },
     {
      "title": "オープンAI 開発一時中断 AIみずからサイバー攻撃実行のおそれ",
@@ -40,7 +40,7 @@
     {
      "title": "高校野球 初出場の東日大昌平が白樺学園に競り勝ち2回戦へ",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200171000",
-     "pubDate": "Sat, 08 Aug 2026 16:12:21 +0900"
+     "pubDate": "Sat, 08 Aug 2026 16:26:38 +0900"
     }
    ]
   },
@@ -50,9 +50,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "新潟で「記録的短時間大雨」の気象防災速報を発表",
+     "title": "青森 岩手 新潟に記録的短時間大雨 浸水などに厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200211000",
-     "pubDate": "Sat, 08 Aug 2026 15:54:49 +0900"
+     "pubDate": "Sat, 08 Aug 2026 16:59:32 +0900"
+    },
+    {
+     "title": "熊本 氷川町でボランティアが活動開始【8日 被災地の動き】",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200101000",
+     "pubDate": "Sat, 08 Aug 2026 16:54:15 +0900"
+    },
+    {
+     "title": "台風13号 暴風など長時間続く 厳重警戒を【中継映像も】",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
+     "pubDate": "Sat, 08 Aug 2026 16:48:38 +0900"
+    },
+    {
+     "title": "きょうも猛暑日 熱中症対策徹底を 局地的に大雨のおそれも",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200031000",
+     "pubDate": "Sat, 08 Aug 2026 16:39:12 +0900"
     },
     {
      "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
@@ -65,24 +80,9 @@
      "pubDate": "Sat, 08 Aug 2026 15:47:00 +0900"
     },
     {
-     "title": "きょうも猛暑日 熱中症対策徹底を 局地的に大雨のおそれも",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200031000",
-     "pubDate": "Sat, 08 Aug 2026 15:36:55 +0900"
-    },
-    {
-     "title": "熊本 氷川町でボランティアが活動開始【8日 被災地の動き】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200101000",
-     "pubDate": "Sat, 08 Aug 2026 15:21:43 +0900"
-    },
-    {
      "title": "新潟 中越で線状降水帯発生のおそれ 直前予測を発表",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200201000",
      "pubDate": "Sat, 08 Aug 2026 15:16:55 +0900"
-    },
-    {
-     "title": "台風13号 暴風など長時間続く 厳重警戒を【中継映像も】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 15:13:51 +0900"
     },
     {
      "title": "千葉 南房総 海水浴場で男性2人が溺れる このうち1人意識なし",
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "「みちびき」打ち上げは11日に再延期 気象条件が整わず JAXA",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200241000",
+     "pubDate": "Sat, 08 Aug 2026 16:37:08 +0900"
+    },
     {
      "title": "台風で打ち上げ延期「みちびき7号機」 8月10日打ち上げ JAXA",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199251000",
@@ -193,6 +198,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月8日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015192491000",
+     "pubDate": "Sat, 08 Aug 2026 16:25:42 +0900"
+    },
     {
      "title": "ロシアの攻撃でキーウ州3人死亡 ウクライナは物流インフラ攻撃",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200231000",
@@ -262,11 +272,6 @@
      "title": "“米国防総省高官が中国訪問調整も難航”米メディア",
      "link": "https://news.web.nhk/newsweb/na/na-k10015198951000",
      "pubDate": "Fri, 07 Aug 2026 22:48:35 +0900"
-    },
-    {
-     "title": "川底からマンモスとみられる骨や沈没船 欧州で熱波続き干ばつ",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199481000",
-     "pubDate": "Fri, 07 Aug 2026 21:51:15 +0900"
     }
    ]
   },
@@ -276,29 +281,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "被爆81年 語り部再開を目指す99歳",
+     "link": "https://news.yahoo.co.jp/pickup/6590978?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 05:48:57 GMT"
+    },
+    {
      "title": "台風13号 沖縄で転倒など5人けが",
      "link": "https://news.yahoo.co.jp/pickup/6590977?source=rss",
      "pubDate": "Sat, 08 Aug 2026 05:39:06 GMT"
     },
     {
-     "title": "新潟県中越 線状降水帯発生の恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6590987?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 06:48:49 GMT"
-    },
-    {
-     "title": "自民党「萩生田幹事長」案が浮上",
-     "link": "https://news.yahoo.co.jp/pickup/6590982?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 06:01:53 GMT"
-    },
-    {
-     "title": "男性2人溺れ1人心肺停止 海水浴場",
-     "link": "https://news.yahoo.co.jp/pickup/6590979?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 05:43:16 GMT"
-    },
-    {
-     "title": "高速道で何度も追突され 一部始終",
-     "link": "https://news.yahoo.co.jp/pickup/6590948?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 01:59:41 GMT"
+     "title": "タイの学校銃撃疑い14歳 計画的か",
+     "link": "https://news.yahoo.co.jp/pickup/6590992?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 07:25:18 GMT"
     },
     {
      "title": "琵琶湖「花火大会」3市が関与否定",
@@ -306,14 +301,24 @@
      "pubDate": "Sat, 08 Aug 2026 05:08:12 GMT"
     },
     {
-     "title": "認知症の林家パー子 支える夫ペー",
-     "link": "https://news.yahoo.co.jp/pickup/6590989?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 07:07:10 GMT"
+     "title": "テーマパーク値上げ 30施設超に",
+     "link": "https://news.yahoo.co.jp/pickup/6590991?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 07:27:43 GMT"
     },
     {
-     "title": "音楽P・蔦谷好位置氏 離婚を公表",
-     "link": "https://news.yahoo.co.jp/pickup/6590984?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 06:27:58 GMT"
+     "title": "不祥事受け 大韓サッカー協会謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6590997?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 08:02:02 GMT"
+    },
+    {
+     "title": "今村聖奈が入場後に落馬 両足負傷",
+     "link": "https://news.yahoo.co.jp/pickup/6590995?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 07:51:28 GMT"
+    },
+    {
+     "title": "吉木りさ いじめ被害を今明かす訳",
+     "link": "https://news.yahoo.co.jp/pickup/6590994?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 07:38:41 GMT"
     }
    ]
   }
