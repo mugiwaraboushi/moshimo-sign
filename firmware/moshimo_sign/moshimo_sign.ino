@@ -1,5 +1,5 @@
 /*
- * もしも電光掲示板 ファームウェア v0.2
+ * もしも電光掲示板 ファームウェア v0.5
  * ESP32 (WROOM-32) + HUB75 RGBマトリクスパネル 64x32 (P4)
  *
  * 機能:
@@ -7,6 +7,9 @@
  *  - 2段表示: 上段「営業中」/時計(NTP)交互、下段コメントスクロール
  *  - playlist.json 定期取得: 表示文言・色・速度・輝度・モードをリモート更新 (v0.2)
  *    → GitHub Pages上のplaylist.jsonをClaude/メンバーが更新すると実機に反映される
+ *  - 虹色スクロール: colorScroll:"rainbow" (v0.4)
+ *  - ドット絵の静止画表示: mode:"frames" + frames[] (v0.5)
+ *    → prototypes/draw/ で描いた絵のURL (d=...) をそのまま playlist に載せる
  *  - WiFi接続、HTTPポーリングによるコメント取得(15秒毎、URLはconfig.hで設定)
  *  - ArduinoOTA: 初回USB書き込み後はWiFi経由で更新可能 (同一LAN内)
  *
@@ -33,6 +36,16 @@
 #ifndef WIFI_PASS2
 #define WIFI_PASS2 ""
 #endif
+
+// frames (v0.5) も同様に、古い config.h でビルドが通るように既定値を用意する。
+#ifndef MAX_FRAMES
+#define MAX_FRAMES 8
+#endif
+
+// ドット絵は 64x32 固定 (prototypes/draw/ の s=1)。仕様は docs/playlist-spec.md を参照。
+#define FRAME_W 64
+#define FRAME_H 32
+#define FRAME_BYTES ((FRAME_W * FRAME_H) / 8)  // 256バイト = base64url 342文字
 
 // ---------------- パネル ----------------
 MatrixPanel_I2S_DMA *display = nullptr;
@@ -124,6 +137,53 @@ static void drawText(const uint16_t *cps, int n, int x, int y, uint16_t color) {
   for (int i = 0; i < n; i++) x += drawGlyph(cps[i], x, y, color);
 }
 
+// ---------------- ビットマップ描画 (v0.5) ----------------
+// 1ドット1bitのモノクロ画像を描く。文字描画と並ぶもう一つの「描画の口」。
+// ビット順は prototypes/draw/ と同一: 左上から行優先、1バイト8ドット、MSBが左。
+// (x,y=左上)。パネル外はクリッピングする。
+static void drawBitmap(const uint8_t *bits, int w, int h, int x, int y, uint16_t color) {
+  for (int r = 0; r < h; r++) {
+    int py = y + r;
+    if (py < 0 || py >= PANEL_H) continue;
+    for (int c = 0; c < w; c++) {
+      int px = x + c;
+      if (px < 0 || px >= PANEL_W) continue;
+      int i = r * w + c;
+      if ((bits[i >> 3] >> (7 - (i & 7))) & 1) display->drawPixel(px, py, color);
+    }
+  }
+}
+
+// base64url (パディング無し) をデコードする。戻り値=バイト数、不正なら -1。
+// 不正なフレームは表示せず捨てるため、例外扱いを呼び出し側に返す。
+static int b64Value(char c) {
+  if (c >= 'A' && c <= 'Z') return c - 'A';
+  if (c >= 'a' && c <= 'z') return c - 'a' + 26;
+  if (c >= '0' && c <= '9') return c - '0' + 52;
+  if (c == '-' || c == '+') return 62;
+  if (c == '_' || c == '/') return 63;
+  return -1;
+}
+
+static int b64urlDecode(const char *s, uint8_t *out, int outCap) {
+  uint32_t acc = 0;
+  int bits = 0, n = 0;
+  for (; *s; s++) {
+    if (*s == '=') break;  // パディング付きで渡されても受け付ける
+    int v = b64Value(*s);
+    if (v < 0) return -1;
+    acc = (acc << 6) | (uint32_t)v;
+    bits += 6;
+    if (bits >= 8) {
+      bits -= 8;
+      if (n >= outCap) return -1;  // 想定より長い = サイズ違いなので捨てる
+      out[n++] = (uint8_t)(acc >> bits);
+      acc &= (1UL << bits) - 1;
+    }
+  }
+  return n;
+}
+
 // ---------------- 表示状態 ----------------
 static uint16_t marqueeCps[1024];
 static int marqueeLen = 0;
@@ -139,8 +199,20 @@ static int plMsgCount = 0;
 static float plSpeed = SCROLL_SPEED;
 static uint16_t plColorTop = COLOR_TOP;
 static uint16_t plColorScroll = COLOR_BOTTOM;
-static bool plDualMode = true;
 static bool plRainbow = false;   // colorScroll:"rainbow" で虹色スクロール (v0.4)
+
+// mode: "dual" / "scroll" / "frames" (v0.5)
+enum DisplayMode { MODE_DUAL, MODE_SCROLL, MODE_FRAMES };
+static DisplayMode plMode = MODE_DUAL;
+
+// frames: ドット絵の静止画 (v0.5)。hold秒ごとに次の絵へ切り替えて先頭に戻る
+static uint8_t plFrameData[MAX_FRAMES][FRAME_BYTES];
+static uint16_t plFrameColor[MAX_FRAMES];
+static uint8_t plFrameHold[MAX_FRAMES];   // 秒 (1-60)
+static int plFrameCount = 0;
+static int frameIdx = 0;
+static unsigned long frameSince = 0;      // 0 = 未開始 (次の描画で現在時刻を入れる)
+static int drawnFrame = -1;               // 今パネルに描いてある絵 (-1 = 要再描画)
 
 // HSV(h:0-359) → RGB565。虹色スクロール用
 static uint16_t hsvToColor565(int h) {
@@ -239,7 +311,12 @@ static void fetchPlaylist() {
     return;
   }
   if (doc["topText"].is<const char*>())  plTopText = String((const char*)doc["topText"]);
-  if (doc["mode"].is<const char*>())     plDualMode = strcmp(doc["mode"], "scroll") != 0;
+  if (doc["mode"].is<const char*>()) {
+    const char *m = doc["mode"];
+    plMode = (strcmp(m, "scroll") == 0) ? MODE_SCROLL
+           : (strcmp(m, "frames") == 0) ? MODE_FRAMES
+                                        : MODE_DUAL;
+  }
   if (doc["speed"].is<float>())          plSpeed = constrain((float)doc["speed"], 5.0f, 200.0f);
   if (doc["brightness"].is<int>())       display->setBrightness8(constrain((int)doc["brightness"], 8, 255));
   if (doc["colorTop"].is<const char*>())    plColorTop = hexToColor565(doc["colorTop"]);
@@ -254,6 +331,25 @@ static void fetchPlaylist() {
       if (plMsgCount >= MAX_PLAYLIST_MSGS) break;
       if (v.is<const char*>()) plMessages[plMsgCount++] = String((const char*)v);
     }
+  }
+  // frames: 64x32のドット絵 (v0.5)。壊れたフレームはそれだけ捨て、残りは表示する
+  if (doc["frames"].is<JsonArray>()) {
+    int n = 0;
+    for (JsonVariant v : doc["frames"].as<JsonArray>()) {
+      if (n >= MAX_FRAMES) break;
+      if (!v["d"].is<const char*>()) continue;
+      if (b64urlDecode(v["d"], plFrameData[n], FRAME_BYTES) != FRAME_BYTES) {
+        Serial.println("[playlist] frame skipped (data size mismatch)");
+        continue;
+      }
+      plFrameColor[n] = v["color"].is<const char*>() ? hexToColor565(v["color"]) : plColorTop;
+      plFrameHold[n]  = v["hold"].is<float>() ? constrain((int)(float)v["hold"], 1, 60) : 8;
+      n++;
+    }
+    plFrameCount = n;
+    if (frameIdx >= plFrameCount) frameIdx = 0;
+    frameSince = 0;   // 差し替え直後は先頭からhold秒数え直す
+    drawnFrame = -1;  // 絵や色が変わっているので描き直す
   }
   rebuildMarquee();
   Serial.println("[playlist] applied");
@@ -356,11 +452,32 @@ void loop() {
   if (dt > 0.1f) dt = 0.1f;
   lastFrame = ms;
 
+  // ドット絵モード (v0.5)。文字は出さず、画をパネル中央に置く。
+  // frames が0枚のときは黒画面にせず下の2段表示にフォールバックする。
+  if (plMode == MODE_FRAMES && plFrameCount > 0) {
+    if (frameSince == 0) frameSince = ms;
+    if (ms - frameSince >= (unsigned long)plFrameHold[frameIdx] * 1000UL) {
+      frameSince = ms;
+      frameIdx = (frameIdx + 1) % plFrameCount;
+    }
+    // 静止画なので絵が変わったときだけ描く。毎フレーム消して描き直すと
+    // DMAがスキャン中のバッファを触り続けることになり、ちらつきの原因になる。
+    if (drawnFrame != frameIdx) {
+      drawnFrame = frameIdx;
+      display->clearScreen();
+      drawBitmap(plFrameData[frameIdx], FRAME_W, FRAME_H,
+                 (PANEL_W - FRAME_W) / 2, (PANEL_H - FRAME_H) / 2,
+                 plFrameColor[frameIdx]);
+    }
+    return;
+  }
+  drawnFrame = -1;  // 文字表示に戻った = パネルの内容が流れるので、次回frames時は描き直す
+
   scrollX -= plSpeed * dt;
   if (scrollX < -marqueeW) scrollX = PANEL_W;
 
   display->clearScreen();
-  if (plDualMode && PANEL_H >= 32) {
+  if (plMode != MODE_SCROLL && PANEL_H >= 32) {
     drawTopLine();
     if (plRainbow) drawTextRainbow(marqueeCps, marqueeLen, (int)scrollX, 16);
     else           drawText(marqueeCps, marqueeLen, (int)scrollX, 16, plColorScroll);
