@@ -87,17 +87,20 @@ const CHARS = {
   // prof = 太さの変化（頭はぷっくり、しっぽへ細く）
   mo: {                                    // も = し の主画に横棒2本
     strokes: [
-      { p:[[0.47,0.17],[0.38,0.58],[0.44,0.92],[0.86,0.70]], r:1.00, prof:[1.70,1.10,0.95,0.88] },
-      { p:[[0.06,0.41],[0.30,0.38],[0.58,0.38],[0.84,0.33]], r:0.62, prof:[0.80,1.05,1.05,0.80] },
-      { p:[[0.02,0.71],[0.28,0.68],[0.58,0.68],[0.90,0.62]], r:0.62, prof:[0.80,1.05,1.05,0.80] },
+      { p:[[0.47,0.12],[0.38,0.56],[0.44,0.92],[0.86,0.70]], r:1.00, prof:[1.55,1.15,0.98,0.90] },
+      { p:[[0.17,0.28],[0.33,0.26],[0.55,0.26],[0.71,0.23]], r:0.80, prof:[0.85,1.10,1.10,0.85] },
+      { p:[[0.13,0.53],[0.31,0.51],[0.57,0.51],[0.75,0.47]], r:0.80, prof:[0.85,1.10,1.10,0.85] },
     ],
-    eye: [0.45, 0.17],                     // 頭のところ＝顔
+    eye: [0.45, 0.24],                     // 顔
+    eyeSpread: 3,                          // 目と目の離れぐあい
   },
   shi: {                                   // し
     strokes: [
       { p:[[0.37,0.17],[0.25,0.60],[0.40,0.94],[0.84,0.70]], r:1.00, prof:[1.85,1.20,1.00,0.92] },
     ],
-    eye: [0.36, 0.18],
+    eye: [0.32, 0.21],
+    eyeSpread: 2,                        // 体が小さいぶん、目も寄せる
+    scale: 0.88,                           // 「し」は少しだけ小さい
   },
 };
 const bez = (P,s) => {
@@ -115,8 +118,12 @@ function tubeDist(x, y, a, b){
   return Math.sqrt(dx*dx + dy*dy) - (a[2] + (b[2]-a[2])*s);
 }
 // box = {x,y,w,h}   fade: 0=全部いる 1=ほどけて消えた
-function drawChar(fb, ch, box, t, seed, opt={}){
-  const C = CHARS[ch], base = box.h * 0.092 * (opt.bold || 1);
+function drawChar(fb, ch, box0, t, seed, opt={}){
+  const C = CHARS[ch];
+  const sc = C.scale || 1;                                 // 字ごとの大きさ（足元をそろえる）
+  const box = sc === 1 ? box0 : { x: box0.x + box0.w*(1-sc)/2, y: box0.y + box0.h*(1-sc),
+                                  w: box0.w*sc, h: box0.h*sc };
+  const base = box.h * 0.092 * (opt.bold || 1);
   const tubes = [];                                        // [ax,ay,ar]→[bx,by,br]
   let x0 = W, x1 = 0, y0 = H, y1 = 0;
   for (const st of C.strokes){
@@ -151,14 +158,22 @@ function drawChar(fb, ch, box, t, seed, opt={}){
       px(fb,x,y,1);
     }
   }
-  return { ex: box.x + C.eye[0]*box.w, ey: box.y + C.eye[1]*box.h };
+  return { ex: box.x + C.eye[0]*box.w, ey: box.y + C.eye[1]*box.h, sp: C.eyeSpread || 3 };
 }
 // 目は白い点2つ。まばたきで1ドットの線になる。
 function eyes(fb, a, opt={}){
   const x = Math.round(a.ex + (opt.gazeX||0)), y = Math.round(a.ey + (opt.gazeY||0));
-  const put = (px_, py) => { if (!opt.free && get(fb,px_,py) !== 1) return; px(fb,px_,py,2); };
-  if (opt.blink){ put(x-3,y); put(x-2,y); put(x+1,y); put(x+2,y); }
-  else for (const dy of [0,1]) for (const dx of [-3,-2,1,2]) put(x+dx, y-1+dy);
+  const ink = (X,Y) => get(fb,X,Y) === 1;
+  const put = (X, Y) => {                                // 体からはみ出さない（縁の1ドットは許す）
+    if (!opt.free && !ink(X,Y)){
+      const n = ink(X-1,Y)+ink(X+1,Y)+ink(X,Y-1)+ink(X,Y+1);
+      if (n < 2) return;
+    }
+    px(fb,X,Y,2);
+  };
+  const s = a.sp || 3, cols = [-s-1, -s, s, s+1];
+  if (opt.blink){ for (const dx of cols) put(x+dx, y); }
+  else for (const dy of [0,1]) for (const dx of cols) put(x+dx, y-1+dy);
 }
 const blinking = (t, seed) => ((t*0.9 + seed*3.3) % 4.1) < 0.14;
 const ease = p => p<0 ? 0 : p>1 ? 1 : p*p*(3-2*p);
