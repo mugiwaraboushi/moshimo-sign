@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T17:53:40.915Z",
+ "updatedAt": "2026-08-08T18:18:13.370Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風13号 影響は長時間続く 警戒を 台風15号の動きは?",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 21:54:30 +0900"
+     "title": "【地震速報】岩手 普代村で震度4 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42879",
+     "pubDate": "Sun, 09 Aug 2026 03:11:25 +0900"
+    },
+    {
+     "title": "台風13号 影響は長時間続く 警戒を 台風15号の動きは",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42871",
+     "pubDate": "Sun, 09 Aug 2026 01:50:00 +0900"
     },
     {
      "title": "北日本と東日本中心 9日も大気の状態が非常に不安定の見込み",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200211000",
-     "pubDate": "Sat, 08 Aug 2026 23:17:32 +0900"
-    },
-    {
-     "title": "愛知県内で水難事故相次ぐ 2人死亡",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200261000",
-     "pubDate": "Sat, 08 Aug 2026 23:06:51 +0900"
+     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42872",
+     "pubDate": "Sun, 09 Aug 2026 01:51:00 +0900"
     },
     {
      "title": "熊本地震 10年前の地震と隣り合う領域で発生か 専門家分析",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200121000",
-     "pubDate": "Sat, 08 Aug 2026 20:53:49 +0900"
+     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42867",
+     "pubDate": "Sun, 09 Aug 2026 01:53:00 +0900"
     },
     {
      "title": "ラグビーリーグワン フィジー出身選手が死亡 熱中症疑いで搬送",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200291000",
-     "pubDate": "Sat, 08 Aug 2026 20:29:37 +0900"
-    },
-    {
-     "title": "「韓国サッカー協会が外国人審判員に性的接待」韓国メディア",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200271000",
-     "pubDate": "Sat, 08 Aug 2026 18:38:23 +0900"
+     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42866",
+     "pubDate": "Sun, 09 Aug 2026 01:54:00 +0900"
     },
     {
      "title": "イチローさん マリナーズOBのホームラン競争でファンわかせる",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200331000",
-     "pubDate": "Sat, 08 Aug 2026 20:55:50 +0900"
+     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42862",
+     "pubDate": "Sun, 09 Aug 2026 01:56:00 +0900"
+    },
+    {
+     "title": "「韓国サッカー協会が外国人審判員に性的接待」韓国メディア",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42863",
+     "pubDate": "Sun, 09 Aug 2026 01:55:00 +0900"
     }
    ]
   },
@@ -141,14 +141,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "岩手県で震度4 津波の心配なし",
+     "link": "https://news.yahoo.co.jp/pickup/6591037?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 18:13:01 GMT"
+    },
+    {
      "title": "戦時中 複数大学で輸血の人体実験",
      "link": "https://news.yahoo.co.jp/pickup/6591027?source=rss",
      "pubDate": "Sat, 08 Aug 2026 13:19:53 GMT"
-    },
-    {
-     "title": "沖縄で語り部 被爆体験訴える理由",
-     "link": "https://news.yahoo.co.jp/pickup/6591018?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 11:29:35 GMT"
     },
     {
      "title": "イラン革命防衛隊 米国をけん制",
