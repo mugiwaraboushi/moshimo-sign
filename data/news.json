@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T09:59:48.215Z",
+ "updatedAt": "2026-08-08T10:32:32.316Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風13号 暴風など長時間続く 厳重警戒を【中継映像も】",
+     "title": "台風13号 影響は長時間続く 警戒を【中継も】台風15号の動きは",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 18:11:19 +0900"
+     "pubDate": "Sat, 08 Aug 2026 19:15:58 +0900"
     },
     {
      "title": "【ライブ映像】お盆休みで下りの混雑ピーク 高速道路や新幹線",
@@ -18,19 +18,19 @@
      "pubDate": "Sat, 08 Aug 2026 18:42:53 +0900"
     },
     {
+     "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
+     "pubDate": "Sat, 08 Aug 2026 19:08:46 +0900"
+    },
+    {
      "title": "「韓国サッカー協会が外国人審判員に性的接待」韓国メディア",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200271000",
      "pubDate": "Sat, 08 Aug 2026 18:38:23 +0900"
     },
     {
-     "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
-     "pubDate": "Sat, 08 Aug 2026 18:22:56 +0900"
-    },
-    {
-     "title": "大気不安定 新潟 岩手 青森に記録的短時間大雨 厳重警戒を",
+     "title": "大気不安定 新潟 岩手 青森 富山に記録的短時間大雨 厳重警戒",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200211000",
-     "pubDate": "Sat, 08 Aug 2026 18:19:23 +0900"
+     "pubDate": "Sat, 08 Aug 2026 19:05:42 +0900"
     },
     {
      "title": "オープンAI 開発一時中断 AIみずからサイバー攻撃実行のおそれ",
@@ -50,6 +50,26 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "台風13号 影響は長時間続く 警戒を【中継も】台風15号の動きは",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
+     "pubDate": "Sat, 08 Aug 2026 19:15:58 +0900"
+    },
+    {
+     "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
+     "pubDate": "Sat, 08 Aug 2026 19:08:46 +0900"
+    },
+    {
+     "title": "熊本 各地であすも厳しい暑さに 局地的な雨も土砂災害注意",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199781000",
+     "pubDate": "Sat, 08 Aug 2026 19:07:13 +0900"
+    },
+    {
+     "title": "大気不安定 新潟 岩手 青森 富山に記録的短時間大雨 厳重警戒",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200211000",
+     "pubDate": "Sat, 08 Aug 2026 19:05:42 +0900"
+    },
+    {
      "title": "【ライブ映像】お盆休みで下りの混雑ピーク 高速道路や新幹線",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199951000",
      "pubDate": "Sat, 08 Aug 2026 18:42:53 +0900"
@@ -58,21 +78,6 @@
      "title": "【交通影響 8月8日】九州新幹線の現在の状況をまとめました",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200051000",
      "pubDate": "Sat, 08 Aug 2026 18:37:29 +0900"
-    },
-    {
-     "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
-     "pubDate": "Sat, 08 Aug 2026 18:22:56 +0900"
-    },
-    {
-     "title": "大気不安定 新潟 岩手 青森に記録的短時間大雨 厳重警戒を",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200211000",
-     "pubDate": "Sat, 08 Aug 2026 18:19:23 +0900"
-    },
-    {
-     "title": "台風13号 暴風など長時間続く 厳重警戒を【中継映像も】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 18:11:19 +0900"
     },
     {
      "title": "愛知県内で水難事故相次ぐ 1人死亡 1人意識不明",
@@ -118,11 +123,6 @@
      "title": "鹿児島 和泊町の避難指示解除",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200091000",
      "pubDate": "Sat, 08 Aug 2026 12:58:57 +0900"
-    },
-    {
-     "title": "熊本 各地で厳しい暑さ熱中症対策徹底 揺れにも備えを",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199781000",
-     "pubDate": "Sat, 08 Aug 2026 12:17:29 +0900"
     }
    ]
   },
@@ -286,9 +286,9 @@
      "pubDate": "Sat, 08 Aug 2026 06:13:32 GMT"
     },
     {
-     "title": "子を産む不安 「家族留学」で変化",
-     "link": "https://news.yahoo.co.jp/pickup/6591007?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 09:03:54 GMT"
+     "title": "台風15号 11-12日に東北上陸恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6591011?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 10:16:08 GMT"
     },
     {
      "title": "2歳がん診断 希望の薬は5500万円",
@@ -311,14 +311,14 @@
      "pubDate": "Sat, 08 Aug 2026 09:10:32 GMT"
     },
     {
-     "title": "速報甲子園 関東第一vs.英明",
-     "link": "https://news.yahoo.co.jp/pickup/6591008?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 09:48:02 GMT"
+     "title": "長友の現役続行 妻・愛梨が後押し",
+     "link": "https://news.yahoo.co.jp/pickup/6591012?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 10:17:08 GMT"
     },
     {
-     "title": "俳優・戸塚純貴が結婚を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6591004?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 08:47:02 GMT"
+     "title": "令和8年8月8日 芸能界で吉報続々",
+     "link": "https://news.yahoo.co.jp/pickup/6591009?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 09:47:55 GMT"
     }
    ]
   }
