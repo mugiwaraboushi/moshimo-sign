@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T11:17:29.602Z",
+ "updatedAt": "2026-08-08T11:49:42.182Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,6 +23,11 @@
      "pubDate": "Sat, 08 Aug 2026 18:38:23 +0900"
     },
     {
+     "title": "ラグビーリーグワン フィジー出身選手が死亡 熱中症疑いで搬送",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200291000",
+     "pubDate": "Sat, 08 Aug 2026 20:29:37 +0900"
+    },
+    {
      "title": "お盆休みで下りの混雑ピーク 高速道路や新幹線は",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199951000",
      "pubDate": "Sat, 08 Aug 2026 19:49:38 +0900"
@@ -36,11 +41,6 @@
      "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
      "pubDate": "Sat, 08 Aug 2026 19:08:46 +0900"
-    },
-    {
-     "title": "高校野球 夏の甲子園 大分商が日本文理に逆転勝ち 2回戦へ",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200251000",
-     "pubDate": "Sat, 08 Aug 2026 18:53:31 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "ラグビーリーグワン フィジー出身選手が死亡 熱中症疑いで搬送",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200291000",
+     "pubDate": "Sat, 08 Aug 2026 20:29:37 +0900"
+    },
     {
      "title": "台風13号 影響は長時間続く 警戒を 台風15号の動きは?",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
@@ -118,11 +123,6 @@
      "title": "千葉 南房総 海水浴場で男性2人が溺れる このうち1人意識なし",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200141000",
      "pubDate": "Sat, 08 Aug 2026 13:56:52 +0900"
-    },
-    {
-     "title": "鹿児島 和泊町の避難指示解除",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200091000",
-     "pubDate": "Sat, 08 Aug 2026 12:58:57 +0900"
     }
    ]
   },
@@ -199,6 +199,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【動画】中国 北京で人気のレトロ写真館",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199681000",
+     "pubDate": "Sat, 08 Aug 2026 20:25:15 +0900"
+    },
+    {
      "title": "「韓国サッカー協会が外国人審判員に性的接待」韓国メディア",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200271000",
      "pubDate": "Sat, 08 Aug 2026 18:38:23 +0900"
@@ -267,11 +272,6 @@
      "title": "台湾軍 中国による侵攻を想定した大規模演習を公開",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199791000",
      "pubDate": "Sat, 08 Aug 2026 01:02:44 +0900"
-    },
-    {
-     "title": "米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199701000",
-     "pubDate": "Fri, 07 Aug 2026 23:53:24 +0900"
     }
    ]
   },
@@ -281,19 +281,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "前回地震の教訓 生きた熊本赤十字",
-     "link": "https://news.yahoo.co.jp/pickup/6590983?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 06:13:32 GMT"
-    },
-    {
      "title": "台風15号 11-12日に東北上陸恐れ",
      "link": "https://news.yahoo.co.jp/pickup/6591011?source=rss",
      "pubDate": "Sat, 08 Aug 2026 10:16:08 GMT"
     },
     {
-     "title": "2歳がん診断 希望の薬は5500万円",
-     "link": "https://news.yahoo.co.jp/pickup/6591002?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 09:14:55 GMT"
+     "title": "露軍がウ首都や周辺攻撃 4人死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6591019?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 11:25:38 GMT"
     },
     {
      "title": "避難で留守の家から窃盗疑い 逮捕",
@@ -301,19 +296,24 @@
      "pubDate": "Sat, 08 Aug 2026 10:51:16 GMT"
     },
     {
+     "title": "2歳がん診断 希望の薬は5500万円",
+     "link": "https://news.yahoo.co.jp/pickup/6591002?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 09:14:55 GMT"
+    },
+    {
      "title": "サーフィン中に溺れ 46歳男性死亡",
      "link": "https://news.yahoo.co.jp/pickup/6591010?source=rss",
      "pubDate": "Sat, 08 Aug 2026 09:53:53 GMT"
     },
     {
-     "title": "ハム郡司 ぶっつけ本番今季初捕手",
-     "link": "https://news.yahoo.co.jp/pickup/6591016?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 10:52:30 GMT"
-    },
-    {
      "title": "ラグビー九電選手急死 熱中症搬送",
      "link": "https://news.yahoo.co.jp/pickup/6591006?source=rss",
      "pubDate": "Sat, 08 Aug 2026 09:10:32 GMT"
+    },
+    {
+     "title": "英明が初戦突破 関東第一に勝利",
+     "link": "https://news.yahoo.co.jp/pickup/6591020?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 11:42:17 GMT"
     },
     {
      "title": "令和8年8月8日 芸能界で吉報続々",
