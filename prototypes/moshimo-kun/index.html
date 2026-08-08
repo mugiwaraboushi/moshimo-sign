@@ -26,13 +26,19 @@
   .chip.wide { flex:1; text-align:center; }
   .swatch { width:34px; height:34px; border-radius:50%; border:2px solid #2c3138; }
   .swatch.on { border-color:#fff; }
+  .row { display:flex; align-items:center; gap:10px; margin:10px 2px 2px; }
+  .row .nm { font-size:12px; color:#c9cdd3; width:6em; flex:none; }
+  .row .vl { font-size:11px; color:#8a8f98; width:3.2em; text-align:right; flex:none; }
+  .row input[type=range] { flex:1; min-width:0; accent-color:var(--accent); height:26px; }
+  .hint { font-size:10px; color:#5b626b; margin:0 2px 6px; padding-left:calc(6em + 10px); }
+  .note { font-size:10px; color:#5b626b; line-height:1.7; margin-top:8px; }
   .foot { font-size:10px; color:#4b525b; line-height:1.7; margin-top:22px; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <h1>もしもくん・アニメーション</h1>
-  <div class="sub">もしもくんを64×32ドットにしました。ひらがなの「も」「し」に肉をつけた軟体です。骨格はないので、輪郭はいつもゆるく揺れています。<br>口がないので、まばたきと間で話します。</div>
+  <div class="sub">もしもくんを64×32ドットにしました。ひらがなの「も」「し」に肉をつけた軟体です。骨格はないので、輪郭はいつもゆるく揺れています。<br>下の「ステータス」で体つきをいじれます。口がないので、まばたきと間で話します。</div>
 
   <div class="panel-frame"><canvas id="led"></canvas></div>
   <div class="meta"><span>64×32 dot</span><span>もしもくん v3</span></div>
@@ -47,6 +53,14 @@
   </fieldset>
   <fieldset><legend>はやさ</legend>
     <div class="chips" id="speeds"></div>
+  </fieldset>
+  <fieldset><legend>ステータス</legend>
+    <div id="status"></div>
+    <div class="chips" style="margin-top:4px">
+      <button class="chip wide" id="copy">この設定のURLをコピー</button>
+      <button class="chip wide" id="reset">はじめの体つきに戻す</button>
+    </div>
+    <div class="note">いじった値はURLに入ります。気に入った体つきができたら、そのURLをDiscordに貼ってください。</div>
   </fieldset>
   <fieldset><legend>持ち帰る</legend>
     <div class="chips">
@@ -124,16 +138,18 @@ function drawChar(fb, ch, box0, t, seed, opt={}){
   const sc = C.scale || 1;                                 // 字ごとの大きさ（足元をそろえる）
   const box = sc === 1 ? box0 : { x: box0.x + box0.w*(1-sc)/2, y: box0.y + box0.h*(1-sc),
                                   w: box0.w*sc, h: box0.h*sc };
-  const base = box.h * 0.092 * (C.fat || 1) * (opt.bold || 1);
+  const base = box.h * 0.092 * (C.fat || 1) * ST.fat * (opt.bold || 1);
   const tubes = [];                                        // [ax,ay,ar]→[bx,by,br]
   let x0 = W, x1 = 0, y0 = H, y1 = 0;
-  for (const st of C.strokes){
+  for (let si=0; si<C.strokes.length; si++){
+    const st = C.strokes[si];
     const N = 10, pr = st.prof || [1,1,1,1];
     let prev = null;
     for (let i=0;i<=N;i++){
       const s = i/N, q = bez(st.p, s);
       const f = s*3, k = Math.min(2, Math.floor(f));
-      const taper = pr[k] + (pr[k+1]-pr[k])*(f-k);
+      let taper = pr[k] + (pr[k+1]-pr[k])*(f-k);
+      if (si === 0) taper *= 1 + (ST.belly - 1) * s;        // 下に行くほど太らせる（したぶくれ）
       const pt = [box.x + q[0]*box.w, box.y + q[1]*box.h, Math.max(1.1, base*st.r*taper)];
       if (prev) tubes.push([prev, pt]);
       prev = pt;
@@ -141,16 +157,16 @@ function drawChar(fb, ch, box0, t, seed, opt={}){
       y0 = Math.min(y0, pt[1]-pt[2]-2); y1 = Math.max(y1, pt[1]+pt[2]+2);
     }
   }
-  const K = 1.15;                                          // 小さいほど、つなぎ目の肉が厚い
+  const K = ST.joint;                                      // 小さいほど、つなぎ目の肉が厚い
   const fade = opt.fade || 0;
   for (let y=Math.max(0,Math.floor(y0)); y<=Math.min(H-1,Math.ceil(y1)); y++){
     for (let x=Math.max(0,Math.floor(x0)); x<=Math.min(W-1,Math.ceil(x1)); x++){
       let acc = 0;
       for (const tb of tubes) acc += Math.exp(-K * tubeDist(x, y, tb[0], tb[1]));
       const d = -Math.log(acc) / K;                         // やわらかい合成距離
-      const wob = 0.62*Math.sin(x*0.50 + t*1.00 + seed)     // 輪郭のうねり
+      const wob = ST.wob * (0.62*Math.sin(x*0.50 + t*1.00 + seed)     // 輪郭のうねり
                 + 0.46*Math.sin(y*0.58 - t*0.80 + seed*2.1)
-                + 0.34*Math.sin((x+y)*0.33 + t*1.30 + seed*0.6);
+                + 0.34*Math.sin((x+y)*0.33 + t*1.30 + seed*0.6));
       if (d > wob) continue;
       if (fade > 0){
         const k = rnd(x,y);
@@ -159,7 +175,8 @@ function drawChar(fb, ch, box0, t, seed, opt={}){
       px(fb,x,y,1);
     }
   }
-  return { ex: box.x + C.eye[0]*box.w, ey: box.y + C.eye[1]*box.h, sp: C.eyeSpread || 3 };
+  return { ex: box.x + C.eye[0]*box.w, ey: box.y + C.eye[1]*box.h + ST.eyeY,
+           sp: Math.max(0, (C.eyeSpread || 3) + ST.eyeSp) };
 }
 // 目は白い点2つ。まばたきで1ドットの線になる。
 function eyes(fb, a, opt={}){
@@ -329,6 +346,21 @@ let S = {
 };
 let autoPlay = q.get("auto") === "1";
 
+// ステータス（この6つでもしもくんの体つきが決まる。URLに入るので、いじった形はそのまま共有できる）
+const STATUS = [
+  { key:"fat",   label:"たいじゅう",   min:0.75, max:1.60, step:0.05, def:1,    hint:"体ぜんぶの太さ" },
+  { key:"belly", label:"したぶくれ",   min:0.70, max:1.60, step:0.05, def:1,    hint:"下に行くほどの太り方" },
+  { key:"joint", label:"つなぎめ",     min:0.60, max:2.00, step:0.05, def:1.15, hint:"小さいほど、ぷにっと繋がる" },
+  { key:"wob",   label:"ゆらぎ",       min:0,    max:2.00, step:0.10, def:1,    hint:"輪郭のうねりの大きさ" },
+  { key:"eyeSp", label:"目のかんかく", min:-1,   max:3,    step:1,    def:0,    hint:"＋で離れる（ドット）" },
+  { key:"eyeY",  label:"目のたかさ",   min:-3,   max:3,    step:1,    def:0,    hint:"＋で下がる（ドット）" },
+];
+const ST = {};
+for (const s of STATUS){
+  const v = parseFloat(q.get(s.key));
+  ST[s.key] = isFinite(v) ? Math.min(Math.max(v, s.min), s.max) : s.def;
+}
+
 const cv = document.getElementById("led"), ctx = cv.getContext("2d");
 const DOT = 10;
 cv.width = W*DOT; cv.height = H*DOT;
@@ -374,6 +406,29 @@ function chips(elId, items, getIdx, set){
     el.appendChild(b);
   });
 }
+const fmtVal = (s,v) => s.step >= 1 ? (v > 0 ? "+" + v : String(v)) : v.toFixed(2);
+function buildStatus(){
+  const el = document.getElementById("status");
+  el.innerHTML = "";
+  for (const s of STATUS){
+    const row = document.createElement("div"); row.className = "row";
+    const nm = document.createElement("span"); nm.className = "nm"; nm.textContent = s.label;
+    const inp = document.createElement("input");
+    inp.type = "range"; inp.min = s.min; inp.max = s.max; inp.step = s.step; inp.value = ST[s.key];
+    const vl = document.createElement("span"); vl.className = "vl"; vl.textContent = fmtVal(s, ST[s.key]);
+    inp.oninput = ()=>{ ST[s.key] = parseFloat(inp.value); vl.textContent = fmtVal(s, ST[s.key]); syncURL(); };
+    row.appendChild(nm); row.appendChild(inp); row.appendChild(vl);
+    el.appendChild(row);
+    const h = document.createElement("div"); h.className = "hint"; h.textContent = s.hint;
+    el.appendChild(h);
+  }
+}
+function syncURL(){
+  const p = new URLSearchParams({ anim:ANIMS[S.anim].id, color:S.color, speed:SPEEDS[S.speed].label });
+  if (autoPlay) p.set("auto","1");
+  for (const s of STATUS) if (ST[s.key] !== s.def) p.set(s.key, String(ST[s.key]));
+  history.replaceState(null, "", "?" + p.toString());
+}
 function render(){
   const C = COLORS[S.color];
   document.documentElement.style.setProperty("--accent", C.ui);
@@ -383,11 +438,17 @@ function render(){
   document.getElementById("auto").className = "chip wide" + (autoPlay ? " on" : "");
   document.getElementById("say").innerHTML = `<b>${ANIMS[S.anim].label}</b>${ANIMS[S.anim].say}`;
   document.getElementById("editLink").href = `../draw/#s=1&c=5&d=${encodeForDraw(lastFb)}`;
-  const p = new URLSearchParams({ anim:ANIMS[S.anim].id, color:S.color, speed:SPEEDS[S.speed].label });
-  if (autoPlay) p.set("auto","1");
-  history.replaceState(null, "", "?" + p.toString());
+  syncURL();
 }
 document.getElementById("auto").onclick = ()=>{ autoPlay = !autoPlay; render(); };
+document.getElementById("reset").onclick = ()=>{ for (const s of STATUS) ST[s.key] = s.def; buildStatus(); syncURL(); };
+document.getElementById("copy").onclick = function(){
+  const btn = this;
+  const done = ok => { btn.textContent = ok ? "コピーしました" : "コピーできませんでした";
+                       setTimeout(()=>{ btn.textContent = "この設定のURLをコピー"; }, 1800); };
+  if (navigator.clipboard) navigator.clipboard.writeText(location.href).then(()=>done(true), ()=>done(false));
+  else done(false);
+};
 
 let clock = 0, last = null, switchAt = 0;
 function frame(ts){
@@ -402,6 +463,7 @@ function frame(ts){
   }
   paint(clock);
 }
+buildStatus();
 render();
 requestAnimationFrame(frame);
 </script>
