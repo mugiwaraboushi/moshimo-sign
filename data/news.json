@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T19:49:13.741Z",
+ "updatedAt": "2026-08-08T20:14:25.231Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,9 @@
      "pubDate": "Sun, 09 Aug 2026 04:42:43 +0900"
     },
     {
-     "title": "台風13号 影響は長時間続く 警戒を 台風15号の動きは",
+     "title": "台風13号 次第に離れるも高波に厳重警戒 台風15号 進路に注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260808de42871",
-     "pubDate": "Sun, 09 Aug 2026 01:50:00 +0900"
+     "pubDate": "Sun, 09 Aug 2026 05:04:45 +0900"
     },
     {
      "title": "北日本と東日本中心 9日も大気の状態が非常に不安定の見込み",
@@ -50,6 +50,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "原爆投下から81年 “長崎を最後の被爆地に”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42887",
+     "pubDate": "Sun, 09 Aug 2026 05:13:06 +0900"
+    },
+    {
+     "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42912",
+     "pubDate": "Sun, 09 Aug 2026 05:10:43 +0900"
+    },
+    {
      "title": "愛知県内で水難事故相次ぐ 2人死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260808de42868",
      "pubDate": "Sun, 09 Aug 2026 01:52:00 +0900"
@@ -62,64 +72,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
-     "title": "「みちびき」打ち上げは11日に再延期 気象条件が整わず JAXA",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200241000",
-     "pubDate": "Sat, 08 Aug 2026 16:37:08 +0900"
-    },
-    {
-     "title": "台風で打ち上げ延期「みちびき7号機」 8月10日打ち上げ JAXA",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199251000",
-     "pubDate": "Fri, 07 Aug 2026 17:23:49 +0900"
-    },
-    {
-     "title": "人気雑誌グッズを大量注文しキャンセル疑い 32歳を逮捕 警視庁",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197981000",
-     "pubDate": "Thu, 06 Aug 2026 18:30:20 +0900"
-    },
-    {
-     "title": "俳優 寿美花代さん死去 宝塚歌劇団で男役トップスター 94歳",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198081000",
-     "pubDate": "Thu, 06 Aug 2026 14:25:31 +0900"
-    },
-    {
-     "title": "秘匿性高い通信アプリを遠隔解析 トクリュウ対策で検討へ",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197961000",
-     "pubDate": "Thu, 06 Aug 2026 13:46:01 +0900"
-    },
-    {
-     "title": "OTC類似薬の追加負担 がん患者ら対象外に 中間とりまとめ",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197641000",
-     "pubDate": "Thu, 06 Aug 2026 05:21:43 +0900"
-    },
-    {
-     "title": "将棋 女性初プロ棋士へ 西山朋佳女流三冠 「白玲戦」前に抱負",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015197421000",
-     "pubDate": "Wed, 05 Aug 2026 19:16:04 +0900"
-    },
-    {
-     "title": "スペースXのロケット残骸 月面に衝突予定 NASAが観測へ",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015196961000",
-     "pubDate": "Wed, 05 Aug 2026 12:08:24 +0900"
-    },
-    {
-     "title": "先月死去の東野圭吾さん 最新作発売 歴代編集者が魅力語る",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015196601000",
-     "pubDate": "Wed, 05 Aug 2026 05:18:33 +0900"
-    },
-    {
-     "title": "豊臣秀吉の妻ゆかりの京都 高台寺の敷地内で火事 ほぼ消し止め",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015195201000",
-     "pubDate": "Mon, 03 Aug 2026 21:41:30 +0900"
-    },
-    {
-     "title": "小学館 漫画家起用問題で第三者委“人権侵害 助長または加担”",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015195291000",
-     "pubDate": "Mon, 03 Aug 2026 21:29:59 +0900"
-    },
-    {
-     "title": "「みちびき7号機」7日の打ち上げは延期 台風影響で JAXA",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015195091000",
-     "pubDate": "Mon, 03 Aug 2026 17:43:56 +0900"
+     "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42912",
+     "pubDate": "Sun, 09 Aug 2026 05:10:43 +0900"
     }
    ]
   },
