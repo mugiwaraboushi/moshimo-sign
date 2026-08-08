@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T23:15:22.246Z",
+ "updatedAt": "2026-08-08T23:50:04.584Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【地震速報】熊本 上天草市で震度4 津波の心配なし",
+     "title": "【地震情報】熊本 上天草市で震度4 津波の心配なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42935",
-     "pubDate": "Sun, 09 Aug 2026 08:09:34 +0900"
-    },
-    {
-     "title": "台風13号 高波強風影響続く 台風15号の進路にも注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42871",
-     "pubDate": "Sun, 09 Aug 2026 07:58:45 +0900"
-    },
-    {
-     "title": "熊本 きょうも各地で厳しい暑さ 復旧作業では熱中症に注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42886",
-     "pubDate": "Sun, 09 Aug 2026 05:59:00 +0900"
+     "pubDate": "Sun, 09 Aug 2026 08:34:33 +0900"
     },
     {
      "title": "原爆投下から81年 “長崎を最後の被爆地に”",
@@ -28,19 +18,29 @@
      "pubDate": "Sun, 09 Aug 2026 05:13:00 +0900"
     },
     {
-     "title": "ゼレンスキー大統領がセルビア初訪問 ロシアけん制のねらいも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42889",
-     "pubDate": "Sun, 09 Aug 2026 07:03:00 +0900"
+     "title": "長崎原爆の日 被爆者や遺族などが各地で祈りささげる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42929",
+     "pubDate": "Sun, 09 Aug 2026 08:22:51 +0900"
     },
     {
-     "title": "イラン“通航再開は米の補償も条件” “交渉は停滞”報道も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42920",
-     "pubDate": "Sun, 09 Aug 2026 05:55:46 +0900"
+     "title": "熊本 きょうも各地で厳しい暑さ 復旧作業では熱中症に注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42886",
+     "pubDate": "Sun, 09 Aug 2026 05:59:00 +0900"
+    },
+    {
+     "title": "台風13号 高波強風影響続く 台風15号の進路にも注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42871",
+     "pubDate": "Sun, 09 Aug 2026 07:58:45 +0900"
     },
     {
      "title": "「韓国サッカー協会が外国人審判員に性的接待」韓国メディア",
      "link": "https://news.web.nhk/newsweb/na/nd-20260808de42863",
      "pubDate": "Sun, 09 Aug 2026 01:55:00 +0900"
+    },
+    {
+     "title": "イラン“通航再開は米の補償も条件” “交渉は停滞”報道も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42920",
+     "pubDate": "Sun, 09 Aug 2026 05:55:46 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "長崎原爆の日 被爆者や遺族などが各地で祈りささげる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42929",
+     "pubDate": "Sun, 09 Aug 2026 08:22:51 +0900"
+    },
     {
      "title": "【熊本地震 交通影響】8月9日 午前6時時点",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42931",
@@ -126,11 +131,6 @@
      "pubDate": "Sat, 08 Aug 2026 23:08:40 GMT"
     },
     {
-     "title": "イオン爆発巡り 遺族装う投稿拡散",
-     "link": "https://news.yahoo.co.jp/pickup/6591038?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 22:20:10 GMT"
-    },
-    {
      "title": "大飯原発3号機自動停止 警報発信",
      "link": "https://news.yahoo.co.jp/pickup/6591044?source=rss",
      "pubDate": "Sat, 08 Aug 2026 22:47:35 GMT"
@@ -141,14 +141,19 @@
      "pubDate": "Sat, 08 Aug 2026 14:28:15 GMT"
     },
     {
+     "title": "男性はねられ死亡 ひき逃げで捜査",
+     "link": "https://news.yahoo.co.jp/pickup/6591045?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 22:51:41 GMT"
+    },
+    {
      "title": "ソニーがタムロンに買収提案 なぜ",
      "link": "https://news.yahoo.co.jp/pickup/6591046?source=rss",
      "pubDate": "Sat, 08 Aug 2026 22:54:18 GMT"
     },
     {
-     "title": "ラグビー九電選手死亡 練習中35℃",
-     "link": "https://news.yahoo.co.jp/pickup/6591031?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 13:31:15 GMT"
+     "title": "W杯で負傷の久保建英 実戦復帰",
+     "link": "https://news.yahoo.co.jp/pickup/6591047?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 23:14:45 GMT"
     },
     {
      "title": "オリ平野佳寿 今季限りで引退へ",
