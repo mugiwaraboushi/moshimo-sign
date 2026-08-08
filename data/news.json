@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T11:49:42.182Z",
+ "updatedAt": "2026-08-08T12:19:49.134Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -15,7 +15,7 @@
     {
      "title": "大気不安定 新潟 岩手 青森 富山に記録的短時間大雨 厳重警戒",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200211000",
-     "pubDate": "Sat, 08 Aug 2026 19:05:42 +0900"
+     "pubDate": "Sat, 08 Aug 2026 21:12:41 +0900"
     },
     {
      "title": "「韓国サッカー協会が外国人審判員に性的接待」韓国メディア",
@@ -38,9 +38,9 @@
      "pubDate": "Sat, 08 Aug 2026 15:10:11 +0900"
     },
     {
-     "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
+     "title": "熊本地震 死者1人増える 災害関連死の疑い1人含め 死者39人に",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
-     "pubDate": "Sat, 08 Aug 2026 19:08:46 +0900"
+     "pubDate": "Sat, 08 Aug 2026 20:57:06 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "大気不安定 新潟 岩手 青森 富山に記録的短時間大雨 厳重警戒",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200211000",
+     "pubDate": "Sat, 08 Aug 2026 21:12:41 +0900"
+    },
+    {
+     "title": "熊本地震 死者1人増える 災害関連死の疑い1人含め 死者39人に",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
+     "pubDate": "Sat, 08 Aug 2026 20:57:06 +0900"
+    },
+    {
+     "title": "熊本地震 10年前の地震と隣り合う領域で発生か 専門家分析",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200121000",
+     "pubDate": "Sat, 08 Aug 2026 20:53:49 +0900"
+    },
     {
      "title": "ラグビーリーグワン フィジー出身選手が死亡 熱中症疑いで搬送",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200291000",
@@ -70,19 +85,9 @@
      "pubDate": "Sat, 08 Aug 2026 19:46:17 +0900"
     },
     {
-     "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
-     "pubDate": "Sat, 08 Aug 2026 19:08:46 +0900"
-    },
-    {
      "title": "熊本 各地であすも厳しい暑さに 局地的な雨も土砂災害注意",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199781000",
      "pubDate": "Sat, 08 Aug 2026 19:07:13 +0900"
-    },
-    {
-     "title": "大気不安定 新潟 岩手 青森 富山に記録的短時間大雨 厳重警戒",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200211000",
-     "pubDate": "Sat, 08 Aug 2026 19:05:42 +0900"
     },
     {
      "title": "【交通影響 8月8日】九州新幹線の現在の状況をまとめました",
@@ -118,11 +123,6 @@
      "title": "新潟 中越で線状降水帯発生のおそれ 直前予測を発表",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200201000",
      "pubDate": "Sat, 08 Aug 2026 15:16:55 +0900"
-    },
-    {
-     "title": "千葉 南房総 海水浴場で男性2人が溺れる このうち1人意識なし",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200141000",
-     "pubDate": "Sat, 08 Aug 2026 13:56:52 +0900"
     }
    ]
   },
@@ -199,6 +199,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "イチローさん マリナーズOBのホームラン競争でファンわかせる",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200331000",
+     "pubDate": "Sat, 08 Aug 2026 20:55:50 +0900"
+    },
+    {
      "title": "【動画】中国 北京で人気のレトロ写真館",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199681000",
      "pubDate": "Sat, 08 Aug 2026 20:25:15 +0900"
@@ -267,11 +272,6 @@
      "title": "ミャンマー アウン・サン・スー・チー氏の写真公開 政権の思惑",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199901000",
      "pubDate": "Sat, 08 Aug 2026 07:40:36 +0900"
-    },
-    {
-     "title": "台湾軍 中国による侵攻を想定した大規模演習を公開",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199791000",
-     "pubDate": "Sat, 08 Aug 2026 01:02:44 +0900"
     }
    ]
   },
@@ -280,6 +280,16 @@
    "src": "Yahoo!",
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
+    {
+     "title": "夏休みに被災 ストレス感じる子も",
+     "link": "https://news.yahoo.co.jp/pickup/6591001?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 08:34:27 GMT"
+    },
+    {
+     "title": "避難で留守の家から窃盗疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6591015?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 10:51:16 GMT"
+    },
     {
      "title": "台風15号 11-12日に東北上陸恐れ",
      "link": "https://news.yahoo.co.jp/pickup/6591011?source=rss",
@@ -291,29 +301,19 @@
      "pubDate": "Sat, 08 Aug 2026 11:25:38 GMT"
     },
     {
-     "title": "避難で留守の家から窃盗疑い 逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6591015?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 10:51:16 GMT"
+     "title": "男性死亡 ひき逃げ疑いで女を逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6591021?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 11:56:19 GMT"
     },
     {
-     "title": "2歳がん診断 希望の薬は5500万円",
-     "link": "https://news.yahoo.co.jp/pickup/6591002?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 09:14:55 GMT"
+     "title": "ラグビー選手急死 九電に今季入団",
+     "link": "https://news.yahoo.co.jp/pickup/6591017?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 11:04:14 GMT"
     },
     {
-     "title": "サーフィン中に溺れ 46歳男性死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6591010?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 09:53:53 GMT"
-    },
-    {
-     "title": "ラグビー九電選手急死 熱中症搬送",
-     "link": "https://news.yahoo.co.jp/pickup/6591006?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 09:10:32 GMT"
-    },
-    {
-     "title": "英明が初戦突破 関東第一に勝利",
-     "link": "https://news.yahoo.co.jp/pickup/6591020?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 11:42:17 GMT"
+     "title": "長友 去就発表前の報道に苦笑い",
+     "link": "https://news.yahoo.co.jp/pickup/6591023?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 12:13:57 GMT"
     },
     {
      "title": "令和8年8月8日 芸能界で吉報続々",
