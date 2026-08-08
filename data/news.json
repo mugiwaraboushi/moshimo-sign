@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T16:58:05.998Z",
+ "updatedAt": "2026-08-08T17:24:23.732Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -52,7 +52,7 @@
     {
      "title": "愛知県内で水難事故相次ぐ 2人死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260808de42868",
-     "pubDate": "Sun, 09 Aug 2026 01:52:39 +0900"
+     "pubDate": "Sun, 09 Aug 2026 01:52:00 +0900"
     }
    ]
   },
@@ -131,7 +131,7 @@
     {
      "title": "「韓国サッカー協会が外国人審判員に性的接待」韓国メディア",
      "link": "https://news.web.nhk/newsweb/na/nd-20260808de42863",
-     "pubDate": "Sun, 09 Aug 2026 01:55:21 +0900"
+     "pubDate": "Sun, 09 Aug 2026 01:55:00 +0900"
     }
    ]
   },
