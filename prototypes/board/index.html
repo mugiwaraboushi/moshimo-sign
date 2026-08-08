@@ -63,9 +63,15 @@ function renderText(text){
 // &top=上段の固定文言(指定すると2段表示) &clock=1(上段を時計と交互に)
 // &color=FF9C00 &topcolor=FF9C00 &speed=45 &w=64 &h=32
 const q = new URLSearchParams(location.search);
+// アプリ間でURLを受け渡すとエンコードが二重になることがある。
+// そのままだと "%20" などが文字として流れてしまうので、残っていたらもう一度だけ戻す。
+function dec(s){
+  if (!s || !/%[0-9A-Fa-f]{2}/.test(s)) return s;
+  try { return decodeURIComponent(s); } catch (e){ return s; }
+}
 const P = {
-  text:  q.get("text") || "もしも電光掲示板　◆　?text= に文言を入れてください",
-  top:   q.get("top") || "",
+  text:  dec(q.get("text")) || "もしも電光掲示板　◆　?text= に文言を入れてください",
+  top:   dec(q.get("top")) || "",
   clock: q.get("clock") === "1",
   color: "#" + (q.get("color") || "FF9C00").replace("#",""),
   topcolor: "#" + (q.get("topcolor") || q.get("color") || "FF9C00").replace("#",""),

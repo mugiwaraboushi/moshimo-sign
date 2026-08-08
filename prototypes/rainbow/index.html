@@ -81,9 +81,14 @@ const MODES = [
   { id:"flow", label:"横に流れる" },
   { id:"wave", label:"ななめ" },
 ];
+// アプリ間でURLを受け渡すとエンコードが二重になることがある（"%20"がそのまま流れる）
+function dec(s){
+  if (!s || !/%[0-9A-Fa-f]{2}/.test(s)) return s;
+  try { return decodeURIComponent(s); } catch (e){ return s; }
+}
 const P = {
-  text:  q.get("text") || "もしも電光掲示板　◆　レインボースクロール　◆　?text= に文言を入れてください",
-  top:   q.get("top") || "",
+  text:  dec(q.get("text")) || "もしも電光掲示板　◆　レインボースクロール　◆　?text= に文言を入れてください",
+  top:   dec(q.get("top")) || "",
   clock: q.get("clock") === "1",
   mode:  MODES.some(m=>m.id===q.get("mode")) ? q.get("mode") : "char",
   cycle: num("cycle", 7, 1, 200),
