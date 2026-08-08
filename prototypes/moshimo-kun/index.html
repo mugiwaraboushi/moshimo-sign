@@ -91,8 +91,9 @@ const CHARS = {
       { p:[[0.17,0.28],[0.33,0.26],[0.55,0.26],[0.71,0.23]], r:0.80, prof:[0.85,1.10,1.10,0.85] },
       { p:[[0.13,0.53],[0.31,0.51],[0.57,0.51],[0.75,0.47]], r:0.80, prof:[0.85,1.10,1.10,0.85] },
     ],
-    eye: [0.45, 0.24],                     // 顔
+    eye: [0.45, 0.26],                     // 顔
     eyeSpread: 2,                          // 目と目の離れぐあい
+    fat: 1.20,                             // 太っちょ具合
   },
   shi: {                                   // し
     strokes: [
@@ -123,7 +124,7 @@ function drawChar(fb, ch, box0, t, seed, opt={}){
   const sc = C.scale || 1;                                 // 字ごとの大きさ（足元をそろえる）
   const box = sc === 1 ? box0 : { x: box0.x + box0.w*(1-sc)/2, y: box0.y + box0.h*(1-sc),
                                   w: box0.w*sc, h: box0.h*sc };
-  const base = box.h * 0.092 * (opt.bold || 1);
+  const base = box.h * 0.092 * (C.fat || 1) * (opt.bold || 1);
   const tubes = [];                                        // [ax,ay,ar]→[bx,by,br]
   let x0 = W, x1 = 0, y0 = H, y1 = 0;
   for (const st of C.strokes){
@@ -248,9 +249,9 @@ const ANIMS = [
 
 { id:"trio", label:"みつご", say:"ロゴの3人です。「も」「し」「も」。ひとりだと思っていましたか。",
   draw(fb,t){
-    [["mo",1,0],["shi",23,1],["mo",43,2]].forEach(([ch,x,i])=>{
+    [["mo",1,0],["shi",23,1],["mo",42,2]].forEach(([ch,x,i])=>{
       const hop = Math.max(0, Math.sin(t*1.7 - i*0.95));
-      const box = BOX(x, 6 - 4.4*hop, 20, 24);
+      const box = BOX(x, 8 - 4.0*hop, 18, 22);
       const a = drawChar(fb, ch, box, t, i*2.1);
       eyes(fb, a, { blink:blinking(t, i*2.1) });
     });
