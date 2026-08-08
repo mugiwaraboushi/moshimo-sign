@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T00:39:25.472Z",
+ "updatedAt": "2026-08-08T02:47:22.986Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,27 +10,27 @@
     {
      "title": "大型で非常に強い台風13号 暴風などに厳重警戒【中継映像も】",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 09:34:46 +0900"
+     "pubDate": "Sat, 08 Aug 2026 11:06:23 +0900"
     },
     {
-     "title": "熊本 8日も猛烈な暑さ 熱中症対策を 台風13号で強風にも注意",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199781000",
-     "pubDate": "Sat, 08 Aug 2026 06:24:12 +0900"
+     "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
+     "pubDate": "Sat, 08 Aug 2026 11:44:54 +0900"
     },
     {
-     "title": "熊本地震 災害ボランティアの活動が本格化 8日から氷川町でも",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199741000",
-     "pubDate": "Sat, 08 Aug 2026 06:19:38 +0900"
+     "title": "【ライブ映像】高速道路などの混雑状況 お盆休み 帰省や旅行で",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199951000",
+     "pubDate": "Sat, 08 Aug 2026 10:59:06 +0900"
     },
     {
-     "title": "千葉 銚子 輸入サバ高騰で加工業者の約2割が倒産や廃業状態に",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199891000",
-     "pubDate": "Sat, 08 Aug 2026 07:28:58 +0900"
+     "title": "「ロシアがNATO限定侵攻の可能性も」 米情報機関が分析か",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199861000",
+     "pubDate": "Sat, 08 Aug 2026 10:19:45 +0900"
     },
     {
-     "title": "長崎市「平和宣言」起草委員会の会議録 永久保存する方針決定",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199261000",
-     "pubDate": "Sat, 08 Aug 2026 05:39:47 +0900"
+     "title": "悠仁さま ボーイスカウトのキャンプで豚汁作りや木工体験",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199941000",
+     "pubDate": "Sat, 08 Aug 2026 11:21:35 +0900"
     },
     {
      "title": "トランプ大統領 FRBクック理事に“解任検討”を再び通知 報道",
@@ -38,9 +38,9 @@
      "pubDate": "Sat, 08 Aug 2026 09:14:33 +0900"
     },
     {
-     "title": "環境省 公費解体円滑化に向け自治体をサポートするチーム発足",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199731000",
-     "pubDate": "Sat, 08 Aug 2026 07:57:26 +0900"
+     "title": "高校野球 青森山田が遊学館に競り勝つ",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199911000",
+     "pubDate": "Sat, 08 Aug 2026 10:29:49 +0900"
     }
    ]
   },
@@ -50,9 +50,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
+     "pubDate": "Sat, 08 Aug 2026 11:44:54 +0900"
+    },
+    {
+     "title": "悠仁さま ボーイスカウトのキャンプで豚汁作りや木工体験",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199941000",
+     "pubDate": "Sat, 08 Aug 2026 11:21:35 +0900"
+    },
+    {
      "title": "大型で非常に強い台風13号 暴風などに厳重警戒【中継映像も】",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 09:34:46 +0900"
+     "pubDate": "Sat, 08 Aug 2026 11:06:23 +0900"
+    },
+    {
+     "title": "【ライブ映像】高速道路などの混雑状況 お盆休み 帰省や旅行で",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199951000",
+     "pubDate": "Sat, 08 Aug 2026 10:59:06 +0900"
     },
     {
      "title": "環境省 公費解体円滑化に向け自治体をサポートするチーム発足",
@@ -65,7 +80,7 @@
      "pubDate": "Sat, 08 Aug 2026 07:13:39 +0900"
     },
     {
-     "title": "熊本 8日も猛烈な暑さ 熱中症対策を 台風13号で強風にも注意",
+     "title": "地震被害の熊本 8日も猛烈な暑さ 熱中症対策を 強風にも注意",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199781000",
      "pubDate": "Sat, 08 Aug 2026 06:24:12 +0900"
     },
@@ -108,21 +123,6 @@
      "title": "南海トラフ“熊本地震は巨大地震に影響与えるものでない”",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199691000",
      "pubDate": "Fri, 07 Aug 2026 22:29:54 +0900"
-    },
-    {
-     "title": "日本学術会議が法人移行前に総会 新会員候補125人を承認",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199661000",
-     "pubDate": "Fri, 07 Aug 2026 22:24:59 +0900"
-    },
-    {
-     "title": "京大病院で医療事故 脳腫瘍の手術で誤って正常な脳の一部摘出",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199631000",
-     "pubDate": "Fri, 07 Aug 2026 22:19:51 +0900"
-    },
-    {
-     "title": "相模原殺傷事件 植松聖死刑囚 2回目の再審請求 高裁も認めず",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199581000",
-     "pubDate": "Fri, 07 Aug 2026 22:16:46 +0900"
     }
    ]
   },
@@ -194,6 +194,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "「ロシアがNATO限定侵攻の可能性も」 米情報機関が分析か",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199861000",
+     "pubDate": "Sat, 08 Aug 2026 10:19:45 +0900"
+    },
+    {
+     "title": "米当局者 “航行妨げない合意なら海上封鎖を解除” 報道",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199871000",
+     "pubDate": "Sat, 08 Aug 2026 10:09:20 +0900"
+    },
+    {
+     "title": "ドイツで沖縄の伝統文化や歴史を紹介するイベント開催",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199931000",
+     "pubDate": "Sat, 08 Aug 2026 10:05:56 +0900"
+    },
+    {
      "title": "トランプ大統領 FRBクック理事に“解任検討”を再び通知 報道",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199921000",
      "pubDate": "Sat, 08 Aug 2026 09:14:33 +0900"
@@ -252,21 +267,6 @@
      "title": "中国 7月の輸出額23％余増加 半導体やEVがけん引",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199321000",
      "pubDate": "Fri, 07 Aug 2026 17:31:41 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月7日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015192481000",
-     "pubDate": "Fri, 07 Aug 2026 15:41:34 +0900"
-    },
-    {
-     "title": "イラン“船舶から料金徴収” 海運業界団体は反対",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198781000",
-     "pubDate": "Fri, 07 Aug 2026 12:54:06 +0900"
-    },
-    {
-     "title": "米 半導体や太陽光パネルの材料に追加関税 中国を念頭か",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198941000",
-     "pubDate": "Fri, 07 Aug 2026 11:53:02 +0900"
     }
    ]
   },
@@ -276,39 +276,39 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "政権の積極財政「日本売り」危機",
-     "link": "https://news.yahoo.co.jp/pickup/6590927?source=rss",
-     "pubDate": "Fri, 07 Aug 2026 23:12:07 GMT"
+     "title": "熊本地震の死者39人に 県発表",
+     "link": "https://news.yahoo.co.jp/pickup/6590952?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 02:21:27 GMT"
     },
     {
-     "title": "避難生活続く 被災地の緊急課題は",
-     "link": "https://news.yahoo.co.jp/pickup/6590935?source=rss",
-     "pubDate": "Fri, 07 Aug 2026 23:49:06 GMT"
+     "title": "被爆した兄らの碑 妹の最後の掃除",
+     "link": "https://news.yahoo.co.jp/pickup/6590955?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 02:38:59 GMT"
     },
     {
-     "title": "53歳男性が死亡 ひき逃げの疑い",
-     "link": "https://news.yahoo.co.jp/pickup/6590934?source=rss",
-     "pubDate": "Fri, 07 Aug 2026 23:39:21 GMT"
+     "title": "野球部員死亡 別CT画像で診察か",
+     "link": "https://news.yahoo.co.jp/pickup/6590937?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 00:13:58 GMT"
     },
     {
-     "title": "イオンの従業員誘導 規定に抵触か",
-     "link": "https://news.yahoo.co.jp/pickup/6590922?source=rss",
-     "pubDate": "Fri, 07 Aug 2026 22:26:44 GMT"
+     "title": "年収600万円 高速バスWILLER狙い",
+     "link": "https://news.yahoo.co.jp/pickup/6590936?source=rss",
+     "pubDate": "Fri, 07 Aug 2026 23:54:29 GMT"
     },
     {
-     "title": "「サ終」続くスマホゲーム 倒産増",
-     "link": "https://news.yahoo.co.jp/pickup/6590925?source=rss",
-     "pubDate": "Fri, 07 Aug 2026 22:47:08 GMT"
+     "title": "名前ドラえもん16人 インドネシア",
+     "link": "https://news.yahoo.co.jp/pickup/6590941?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 00:40:29 GMT"
     },
     {
-     "title": "圧巻パフォの16歳 森保監督が絶賛",
-     "link": "https://news.yahoo.co.jp/pickup/6590933?source=rss",
-     "pubDate": "Fri, 07 Aug 2026 23:42:17 GMT"
+     "title": "速報ドジャース 佐々木朗希が先発",
+     "link": "https://news.yahoo.co.jp/pickup/6590947?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 01:32:02 GMT"
     },
     {
-     "title": "韓国サッカー 海外審判に性接待か",
-     "link": "https://news.yahoo.co.jp/pickup/6590919?source=rss",
-     "pubDate": "Fri, 07 Aug 2026 22:25:39 GMT"
+     "title": "村上宗隆6試合ぶり25号 特大ソロ",
+     "link": "https://news.yahoo.co.jp/pickup/6590953?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 02:07:45 GMT"
     },
     {
      "title": "岸田タツヤ&高木由梨奈 妊娠発表",
