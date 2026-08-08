@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T10:32:32.316Z",
+ "updatedAt": "2026-08-08T11:17:29.602Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風13号 影響は長時間続く 警戒を【中継も】台風15号の動きは",
+     "title": "台風13号 影響は長時間続く 警戒を 台風15号の動きは?",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 19:15:58 +0900"
-    },
-    {
-     "title": "【ライブ映像】お盆休みで下りの混雑ピーク 高速道路や新幹線",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199951000",
-     "pubDate": "Sat, 08 Aug 2026 18:42:53 +0900"
-    },
-    {
-     "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
-     "pubDate": "Sat, 08 Aug 2026 19:08:46 +0900"
-    },
-    {
-     "title": "「韓国サッカー協会が外国人審判員に性的接待」韓国メディア",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200271000",
-     "pubDate": "Sat, 08 Aug 2026 18:38:23 +0900"
+     "pubDate": "Sat, 08 Aug 2026 20:11:52 +0900"
     },
     {
      "title": "大気不安定 新潟 岩手 青森 富山に記録的短時間大雨 厳重警戒",
@@ -33,9 +18,24 @@
      "pubDate": "Sat, 08 Aug 2026 19:05:42 +0900"
     },
     {
+     "title": "「韓国サッカー協会が外国人審判員に性的接待」韓国メディア",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200271000",
+     "pubDate": "Sat, 08 Aug 2026 18:38:23 +0900"
+    },
+    {
+     "title": "お盆休みで下りの混雑ピーク 高速道路や新幹線は",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199951000",
+     "pubDate": "Sat, 08 Aug 2026 19:49:38 +0900"
+    },
+    {
      "title": "オープンAI 開発一時中断 AIみずからサイバー攻撃実行のおそれ",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200151000",
      "pubDate": "Sat, 08 Aug 2026 15:10:11 +0900"
+    },
+    {
+     "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
+     "pubDate": "Sat, 08 Aug 2026 19:08:46 +0900"
     },
     {
      "title": "高校野球 夏の甲子園 大分商が日本文理に逆転勝ち 2回戦へ",
@@ -50,9 +50,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "台風13号 影響は長時間続く 警戒を【中継も】台風15号の動きは",
+     "title": "台風13号 影響は長時間続く 警戒を 台風15号の動きは?",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 19:15:58 +0900"
+     "pubDate": "Sat, 08 Aug 2026 20:11:52 +0900"
+    },
+    {
+     "title": "お盆休みで下りの混雑ピーク 高速道路や新幹線は",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199951000",
+     "pubDate": "Sat, 08 Aug 2026 19:49:38 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（8月8日）",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199551000",
+     "pubDate": "Sat, 08 Aug 2026 19:46:17 +0900"
     },
     {
      "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
@@ -68,11 +78,6 @@
      "title": "大気不安定 新潟 岩手 青森 富山に記録的短時間大雨 厳重警戒",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200211000",
      "pubDate": "Sat, 08 Aug 2026 19:05:42 +0900"
-    },
-    {
-     "title": "【ライブ映像】お盆休みで下りの混雑ピーク 高速道路や新幹線",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199951000",
-     "pubDate": "Sat, 08 Aug 2026 18:42:53 +0900"
     },
     {
      "title": "【交通影響 8月8日】九州新幹線の現在の状況をまとめました",
@@ -113,11 +118,6 @@
      "title": "千葉 南房総 海水浴場で男性2人が溺れる このうち1人意識なし",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200141000",
      "pubDate": "Sat, 08 Aug 2026 13:56:52 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（8月8日）",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199551000",
-     "pubDate": "Sat, 08 Aug 2026 13:53:31 +0900"
     },
     {
      "title": "鹿児島 和泊町の避難指示解除",
@@ -296,24 +296,24 @@
      "pubDate": "Sat, 08 Aug 2026 09:14:55 GMT"
     },
     {
+     "title": "避難で留守の家から窃盗疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6591015?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 10:51:16 GMT"
+    },
+    {
      "title": "サーフィン中に溺れ 46歳男性死亡",
      "link": "https://news.yahoo.co.jp/pickup/6591010?source=rss",
      "pubDate": "Sat, 08 Aug 2026 09:53:53 GMT"
     },
     {
-     "title": "工事中転落か 建築会社社長が死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6590998?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 08:04:45 GMT"
+     "title": "ハム郡司 ぶっつけ本番今季初捕手",
+     "link": "https://news.yahoo.co.jp/pickup/6591016?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 10:52:30 GMT"
     },
     {
      "title": "ラグビー九電選手急死 熱中症搬送",
      "link": "https://news.yahoo.co.jp/pickup/6591006?source=rss",
      "pubDate": "Sat, 08 Aug 2026 09:10:32 GMT"
-    },
-    {
-     "title": "長友の現役続行 妻・愛梨が後押し",
-     "link": "https://news.yahoo.co.jp/pickup/6591012?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 10:17:08 GMT"
     },
     {
      "title": "令和8年8月8日 芸能界で吉報続々",
