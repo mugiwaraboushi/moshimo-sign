@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>もしもくん・アニメーション</title>
+<style>
+  :root { --accent:#4a7bd8; }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body { margin:0; background:#0d0f12; color:#e8e6e0; font-family:'Hiragino Sans','Noto Sans JP',sans-serif; }
+  .wrap { max-width:720px; margin:0 auto; padding:16px 14px 40px; }
+  h1 { font-size:16px; font-weight:600; letter-spacing:.12em; margin:4px 0 2px; }
+  .sub { font-size:11px; color:#8a8f98; margin-bottom:14px; line-height:1.7; }
+  .panel-frame { background:#000; border-radius:10px; padding:10px; box-shadow:0 0 0 3px #23262b, 0 10px 30px rgba(0,0,0,.6); }
+  canvas { display:block; width:100%; image-rendering:pixelated; }
+  .meta { display:flex; justify-content:space-between; font-size:11px; color:#6b7280; margin:8px 2px 12px; }
+  .say { background:#14171b; border:1px solid #22262c; border-radius:12px; padding:14px;
+    font-size:13px; line-height:1.9; color:#c9cdd3; margin-bottom:14px; }
+  .say b { color:var(--accent); display:block; font-size:12px; letter-spacing:.08em; margin-bottom:4px; }
+  fieldset { border:1px solid #22262c; border-radius:10px; margin:0 0 12px; padding:10px 12px 12px; }
+  legend { font-size:11px; color:#8a8f98; padding:0 6px; letter-spacing:.08em; }
+  .chips { display:flex; flex-wrap:wrap; gap:6px; }
+  .chip { background:#171a1f; border:1px solid #2c3138; color:#c9cdd3; border-radius:16px;
+    padding:9px 14px; font-size:12px; font-family:inherit; text-decoration:none; display:block; }
+  .chip.on { background:var(--accent); color:#fff; border-color:var(--accent); font-weight:700; }
+  .chip.wide { flex:1; text-align:center; }
+  .swatch { width:34px; height:34px; border-radius:50%; border:2px solid #2c3138; }
+  .swatch.on { border-color:#fff; }
+  .foot { font-size:10px; color:#4b525b; line-height:1.7; margin-top:22px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>もしもくん・アニメーション</h1>
+  <div class="sub">もしもくんを64×32ドットにしました。口がないので、動きとまばたきだけで話します。<br>5つの動きを切り替えられます。</div>
+
+  <div class="panel-frame"><canvas id="led"></canvas></div>
+  <div class="meta"><span>64×32 dot</span><span id="fpsLabel">もしもくん v1</span></div>
+
+  <div class="say" id="say"></div>
+
+  <fieldset><legend>うごき</legend>
+    <div class="chips" id="anims"></div>
+  </fieldset>
+  <fieldset><legend>いろ</legend>
+    <div class="chips" id="colors"></div>
+  </fieldset>
+  <fieldset><legend>はやさ</legend>
+    <div class="chips" id="speeds"></div>
+  </fieldset>
+  <fieldset><legend>持ち帰る</legend>
+    <div class="chips">
+      <button class="chip wide" id="auto">じどうで切り替え</button>
+      <a class="chip wide" id="editLink" href="#">いまの形をお絵かきツールで開く</a>
+    </div>
+  </fieldset>
+
+  <div class="foot">
+    もしもくんはプログラムで輪郭を計算して描いています（画像ファイルではありません）。ゆらぎは正弦波を3つ重ねたもので、同じ形は二度と出ません。<br>
+    ここで動いているのはシミュレータです。実機で動かすにはファームウェア側の対応が必要です。<br>
+    実機想定: P4ピッチ HUB75パネル（64×32 = 256mm×128mm）
+  </div>
+</div>
+
+<script>
+// ===================== パネル =====================
+const W = 64, H = 32;
+const buf = () => new Uint8Array(W*H);
+const px = (fb,x,y,c=1) => { x|=0; y|=0; if (x>=0&&x<W&&y>=0&&y<H) fb[y*W+x] = c; };
+const hline = (fb,x0,x1,y,c=1) => { for (let x=x0;x<=x1;x++) px(fb,x,y,c); };
+
+// 位置で決まる乱数（毎フレーム同じ値が出るので、ちらつかない）
+function rnd(x,y){ const s = Math.sin(x*127.1 + y*311.7) * 43758.5453; return s - Math.floor(s); }
+
+// ===================== もしもくん =====================
+// 輪郭は「半径 × ゆらぎ」で決める。正弦波を3つ重ねると、あのアメーバの形になる。
+function wobble(a, t, seed){
+  return 1
+    + 0.11*Math.sin(2*a + t*1.10 + seed)
+    + 0.075*Math.sin(3*a - t*0.80 + seed*1.7)
+    + 0.045*Math.sin(5*a + t*1.55 + seed*2.3);
+}
+function body(fb, cx, cy, r, t, seed, opt={}){
+  const rx = r*(opt.rx||1), ry = r*(opt.ry||1.24);   // ロゴのもしもくんは少し縦長
+  const fade = opt.fade || 0;                       // 0=全部見える 1=消えた
+  for (let y=Math.floor(cy-ry*1.6); y<=Math.ceil(cy+ry*1.6); y++){
+    for (let x=Math.floor(cx-rx*1.6); x<=Math.ceil(cx+rx*1.6); x++){
+      const dx = (x-cx)/rx, dy = (y-cy)/ry;
+      const d = Math.sqrt(dx*dx + dy*dy);
+      if (d > 1.7) continue;
+      if (d > wobble(Math.atan2(dy,dx), t, seed)) continue;
+      const k = rnd(x,y);
+      if (k < fade){                                // ほどけた粒がしばらく残る
+        if (k > fade-0.06) px(fb,x,y,3);
+        continue;
+      }
+      px(fb,x,y,1);
+    }
+  }
+}
+// 目は白い点2つ。まばたきは1ドットの線になる。
+function eyes(fb, cx, cy, r, opt={}){
+  const g = 1;                                       // 目と目のすきま（ロゴは近め）
+  const gz = opt.gaze || 0;
+  const y0 = Math.round(cy - r*0.22);
+  const put = (x,y) => {
+    if (opt.mask && fb[y*W+x] !== 1) return;         // 体からはみ出さない
+    px(fb,x,y,2);
+  };
+  for (const side of [-1, 1]){
+    const x0 = Math.round(cx + gz) + (side<0 ? -g-2 : g);
+    if (opt.blink){ put(x0,y0); put(x0+1,y0); }
+    else { put(x0,y0-1); put(x0+1,y0-1); put(x0,y0); put(x0+1,y0); }
+  }
+}
+// まばたきの時間割（個体ごとにずれる）
+const blinking = (t, seed) => ((t*0.9 + seed*3.3) % 4.1) < 0.14;
+
+const ease = p => p<0 ? 0 : p>1 ? 1 : p*p*(3-2*p);
+
+// ===================== うごき =====================
+const ANIMS = [
+{ id:"float", label:"ふわふわ", say:"たぶん、ここにいます。おそらく、さっきからずっと。",
+  draw(fb, t){
+    const cy = 16 + 2.2*Math.sin(t*0.8);
+    const r  = 9 + 0.4*Math.sin(t*1.3);
+    body(fb, 32, cy, r, t, 0);
+    eyes(fb, 32, cy, r, { mask:true, blink:blinking(t,0), gaze:Math.round(1.6*Math.sin(t*0.35)) });
+  }},
+
+{ id:"peek", label:"のぞく", say:"見ているほうが、見られています。",
+  draw(fb, t){
+    const T = 7, p = (t % T)/T, turn = Math.floor(t/T) % 2;
+    const from = turn ? W+11 : -11, to = turn ? W-9 : 9;   // 端にすこし隠れて覗く
+    let cx;
+    if (p < 0.22)      cx = from + (to-from)*ease(p/0.22);
+    else if (p < 0.70) cx = to + (turn?-1:1)*Math.sin((p-0.22)*9)*0.8;
+    else if (p < 0.86) cx = to + (from-to)*ease((p-0.70)/0.16);
+    else return;                                     // だれもいない時間
+    const cy = 17 + 1.2*Math.sin(t*1.1);
+    body(fb, cx, cy, 9.5, t, 1.4);
+    eyes(fb, cx, cy, 9.5, { mask:true, blink:blinking(t,1.4), gaze: turn ? -2 : 2 });
+  }},
+
+{ id:"trio", label:"みつご", say:"ひとりだと思っていましたか。ロゴの3人が順番に跳ねます。",
+  draw(fb, t){
+    const set = [{x:12,r:6.6,s:0},{x:32,r:5.2,s:1},{x:52,r:6.6,s:2}];
+    set.forEach((m,i)=>{
+      const hop = Math.max(0, Math.sin(t*1.7 - i*0.95));
+      const cy = 18 - 4.2*hop;
+      body(fb, m.x, cy, m.r, t, m.s*2.1, { ry: 1.24 - 0.20*hop });
+      eyes(fb, m.x, cy, m.r, { mask:true, blink:blinking(t, m.s*2.1) });
+    });
+  }},
+
+{ id:"vanish", label:"きえる", say:"いなくなったわけではありません。ほどけているだけです。",
+  draw(fb, t){
+    const T = 8, p = (t % T)/T, turn = Math.floor(t/T) % 2;
+    const cx = turn ? 44 : 20;
+    let fade = 0;
+    if (p < 0.34) fade = 0;
+    else if (p < 0.52) fade = ease((p-0.34)/0.18);
+    else if (p < 0.62) fade = 1;
+    else if (p < 0.80) fade = 1 - ease((p-0.62)/0.18);
+    const cy = 16 + 1.6*Math.sin(t*0.9);
+    body(fb, cx, cy, 9, t, 2.6, { fade });
+    if (fade < 0.5) eyes(fb, cx, cy, 9, { mask:true, blink:blinking(t,2.6) });
+  }},
+
+{ id:"dark", label:"やみのなか", say:"くらいところでは、目だけがのこります。",
+  draw(fb, t){
+    const T = 9, p = (t % T)/T;
+    const cx = 32 + 7*Math.sin(t*0.45), cy = 16 + 3.2*Math.sin(t*0.31);
+    let fade = 1;
+    if (p < 0.33) fade = 1;                          // 目だけ
+    else if (p < 0.47) fade = 1 - ease((p-0.33)/0.14);
+    else if (p < 0.80) fade = 0;                     // 全身
+    else fade = ease((p-0.80)/0.20);
+    if (fade < 1) body(fb, cx, cy, 9, t, 3.9, { fade });
+    eyes(fb, cx, cy, 9, { mask:false, blink:blinking(t,0.6) });
+  }},
+];
+
+const COLORS = [
+  { label:"ロゴの紺青", body:"#1d3c8c", eye:"#ffffff", dust:"#2a51b8", ui:"#4a7bd8" },
+  { label:"あかるい青", body:"#2f5fd0", eye:"#ffffff", dust:"#7aa6ff", ui:"#6f9bff" },
+  { label:"LEDブルー",  body:"#3b7bff", eye:"#ffffff", dust:"#9dc0ff", ui:"#7fa8ff" },
+  { label:"しろ",       body:"#dfe6f5", eye:"#5b7fd6", dust:"#8fa4cc", ui:"#c8d4ee" },
+];
+const SPEEDS = [{label:"ゆっくり",v:0.6},{label:"ふつう",v:1},{label:"はやい",v:1.6}];
+
+// ===================== 表示 =====================
+const q = new URLSearchParams(location.search);
+const findIdx = (arr, key, val, def) => { const i = arr.findIndex(o=>String(o[key])===val); return i<0 ? def : i; };
+let S = {
+  anim:  findIdx(ANIMS, "id", q.get("anim"), 0),
+  color: Math.min(Math.max(parseInt(q.get("color")) || 0, 0), COLORS.length-1),
+  speed: findIdx(SPEEDS, "label", q.get("speed"), 1),
+};
+let autoPlay = q.get("auto") === "1";
+
+const cv = document.getElementById("led"), ctx = cv.getContext("2d");
+const DOT = 10;
+cv.width = W*DOT; cv.height = H*DOT;
+
+let lastFb = buf();
+function paint(t){
+  const fb = buf();
+  ANIMS[S.anim].draw(fb, t);
+  lastFb = fb;
+  const C = COLORS[S.color];
+  ctx.fillStyle = "#000"; ctx.fillRect(0,0,cv.width,cv.height);
+  ctx.fillStyle = "#15171a";
+  for (let y=0;y<H;y++) for (let x=0;x<W;x++)
+    if (!fb[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.32, 0, 7); ctx.fill(); }
+  const col = v => v===2 ? C.eye : v===3 ? C.dust : C.body;
+  for (let pass=0; pass<2; pass++){
+    ctx.globalAlpha = pass ? 1 : .28;
+    for (let y=0;y<H;y++) for (let x=0;x<W;x++){
+      const v = fb[y*W+x]; if (!v) continue;
+      ctx.fillStyle = col(v);
+      ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*(pass?.38:.62), 0, 7); ctx.fill();
+    }
+  }
+  ctx.globalAlpha = 1;
+}
+
+// お絵かきツール(prototypes/draw/)に、いまの1コマを持っていく
+function encodeForDraw(fb){
+  const bytes = new Uint8Array(Math.ceil(W*H/8));
+  for (let i=0;i<W*H;i++) if (fb[i]) bytes[i>>3] |= 0x80 >> (i&7);
+  let s = ""; for (const b of bytes) s += String.fromCharCode(b);
+  return btoa(s).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");
+}
+
+function chips(elId, items, get, set){
+  const el = document.getElementById(elId);
+  el.innerHTML = "";
+  items.forEach((it,i)=>{
+    const b = document.createElement("button");
+    if (elId === "colors"){ b.className = "swatch"+(get()===i?" on":""); b.style.background = it.body; }
+    else { b.className = "chip"+(get()===i?" on":""); b.textContent = it.label; }
+    b.onclick = ()=>{ set(i); render(); };
+    el.appendChild(b);
+  });
+}
+function render(){
+  const C = COLORS[S.color];
+  document.documentElement.style.setProperty("--accent", C.ui);
+  chips("anims",  ANIMS,  ()=>S.anim,  i=>{ S.anim = i; autoPlay = false; });
+  chips("colors", COLORS, ()=>S.color, i=>{ S.color = i; });
+  chips("speeds", SPEEDS, ()=>S.speed, i=>{ S.speed = i; });
+  document.getElementById("auto").className = "chip wide" + (autoPlay ? " on" : "");
+  document.getElementById("say").innerHTML =
+    `<b>${ANIMS[S.anim].label}</b>${ANIMS[S.anim].say}`;
+  document.getElementById("editLink").href = `../draw/#s=1&c=5&d=${encodeForDraw(lastFb)}`;
+  const p = new URLSearchParams({ anim:ANIMS[S.anim].id, color:S.color, speed:SPEEDS[S.speed].label });
+  if (autoPlay) p.set("auto","1");
+  history.replaceState(null, "", "?" + p.toString());
+}
+document.getElementById("auto").onclick = ()=>{ autoPlay = !autoPlay; render(); };
+
+let clock = 0, last = null, switchAt = 0;
+function frame(ts){
+  requestAnimationFrame(frame);
+  if (last === null) last = ts;
+  const dt = Math.min((ts-last)/1000, 0.1); last = ts;
+  clock += dt * SPEEDS[S.speed].v;
+  if (autoPlay && clock - switchAt > 11){
+    switchAt = clock;
+    S.anim = (S.anim + 1) % ANIMS.length;
+    render();
+  }
+  paint(clock);
+}
+render();
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>
