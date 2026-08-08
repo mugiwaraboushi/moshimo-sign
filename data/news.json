@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T02:47:22.986Z",
+ "updatedAt": "2026-08-08T04:01:12.036Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "大型で非常に強い台風13号 暴風などに厳重警戒【中継映像も】",
+     "title": "台風13号 暴風など長時間続く 厳重警戒を【中継映像も】",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 11:06:23 +0900"
+     "pubDate": "Sat, 08 Aug 2026 12:14:34 +0900"
     },
     {
-     "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
-     "pubDate": "Sat, 08 Aug 2026 11:44:54 +0900"
-    },
-    {
-     "title": "【ライブ映像】高速道路などの混雑状況 お盆休み 帰省や旅行で",
+     "title": "【ライブ映像】お盆休みで下りの混雑ピーク 高速道路や新幹線",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199951000",
-     "pubDate": "Sat, 08 Aug 2026 10:59:06 +0900"
+     "pubDate": "Sat, 08 Aug 2026 11:55:53 +0900"
+    },
+    {
+     "title": "熊本 各地で厳しい暑さ熱中症対策徹底 揺れにも備えを",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199781000",
+     "pubDate": "Sat, 08 Aug 2026 12:17:29 +0900"
     },
     {
      "title": "「ロシアがNATO限定侵攻の可能性も」 米情報機関が分析か",
@@ -33,14 +33,14 @@
      "pubDate": "Sat, 08 Aug 2026 11:21:35 +0900"
     },
     {
-     "title": "トランプ大統領 FRBクック理事に“解任検討”を再び通知 報道",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199921000",
-     "pubDate": "Sat, 08 Aug 2026 09:14:33 +0900"
+     "title": "高校野球 青森山田が遊学館に競り勝ち2回戦へ",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199911000",
+     "pubDate": "Sat, 08 Aug 2026 11:49:52 +0900"
     },
     {
-     "title": "高校野球 青森山田が遊学館に競り勝つ",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199911000",
-     "pubDate": "Sat, 08 Aug 2026 10:29:49 +0900"
+     "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
+     "pubDate": "Sat, 08 Aug 2026 11:44:54 +0900"
     }
    ]
   },
@@ -49,6 +49,36 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "鹿児島 和泊町の避難指示解除",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200091000",
+     "pubDate": "Sat, 08 Aug 2026 12:58:57 +0900"
+    },
+    {
+     "title": "きょうも猛暑日に熱中症対策徹底を 午後は大気不安定に",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200031000",
+     "pubDate": "Sat, 08 Aug 2026 12:25:05 +0900"
+    },
+    {
+     "title": "熊本 各地で厳しい暑さ熱中症対策徹底 揺れにも備えを",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199781000",
+     "pubDate": "Sat, 08 Aug 2026 12:17:29 +0900"
+    },
+    {
+     "title": "台風13号 暴風など長時間続く 厳重警戒を【中継映像も】",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
+     "pubDate": "Sat, 08 Aug 2026 12:14:34 +0900"
+    },
+    {
+     "title": "熊本地震【専門家Q＆A】ボランティア参加するには？注意点は？",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199991000",
+     "pubDate": "Sat, 08 Aug 2026 12:09:12 +0900"
+    },
+    {
+     "title": "【ライブ映像】お盆休みで下りの混雑ピーク 高速道路や新幹線",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199951000",
+     "pubDate": "Sat, 08 Aug 2026 11:55:53 +0900"
+    },
     {
      "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
@@ -60,16 +90,6 @@
      "pubDate": "Sat, 08 Aug 2026 11:21:35 +0900"
     },
     {
-     "title": "大型で非常に強い台風13号 暴風などに厳重警戒【中継映像も】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 11:06:23 +0900"
-    },
-    {
-     "title": "【ライブ映像】高速道路などの混雑状況 お盆休み 帰省や旅行で",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199951000",
-     "pubDate": "Sat, 08 Aug 2026 10:59:06 +0900"
-    },
-    {
      "title": "環境省 公費解体円滑化に向け自治体をサポートするチーム発足",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199731000",
      "pubDate": "Sat, 08 Aug 2026 07:57:26 +0900"
@@ -78,11 +98,6 @@
      "title": "【動画】Pickup NEWS（8月8日）",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199551000",
      "pubDate": "Sat, 08 Aug 2026 07:13:39 +0900"
-    },
-    {
-     "title": "地震被害の熊本 8日も猛烈な暑さ 熱中症対策を 強風にも注意",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199781000",
-     "pubDate": "Sat, 08 Aug 2026 06:24:12 +0900"
     },
     {
      "title": "熊本地震 災害ボランティアの活動が本格化 8日から氷川町でも",
@@ -108,21 +123,6 @@
      "title": "大型で非常に強い台風13号 大雨や暴風など厳重警戒【中継も】",
      "link": "https://news.web.nhk/newsweb/na/na-k10015198521000",
      "pubDate": "Sat, 08 Aug 2026 00:08:42 +0900"
-    },
-    {
-     "title": "お盆のクマの注意点 街では 山のレジャーでは【専門家 Q＆A】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199171000",
-     "pubDate": "Fri, 07 Aug 2026 23:42:05 +0900"
-    },
-    {
-     "title": "子どもSNS利用規制 法案提出に向け年末めどに方針を 高市首相",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199571000",
-     "pubDate": "Fri, 07 Aug 2026 22:31:16 +0900"
-    },
-    {
-     "title": "南海トラフ“熊本地震は巨大地震に影響与えるものでない”",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199691000",
-     "pubDate": "Fri, 07 Aug 2026 22:29:54 +0900"
     }
    ]
   },
@@ -194,6 +194,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "コロンビアで親米大統領就任 米トランプ政権と連携強化図る",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200011000",
+     "pubDate": "Sat, 08 Aug 2026 11:51:35 +0900"
+    },
+    {
      "title": "「ロシアがNATO限定侵攻の可能性も」 米情報機関が分析か",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199861000",
      "pubDate": "Sat, 08 Aug 2026 10:19:45 +0900"
@@ -262,11 +267,6 @@
      "title": "タイの学校で銃撃 14歳の容疑者含む6人死亡20人余けが",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199241000",
      "pubDate": "Fri, 07 Aug 2026 17:34:59 +0900"
-    },
-    {
-     "title": "中国 7月の輸出額23％余増加 半導体やEVがけん引",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199321000",
-     "pubDate": "Fri, 07 Aug 2026 17:31:41 +0900"
     }
    ]
   },
@@ -276,14 +276,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "熊本地震の死者39人に 県発表",
-     "link": "https://news.yahoo.co.jp/pickup/6590952?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 02:21:27 GMT"
+     "title": "無理に学校行かせ被爆死 母は自責",
+     "link": "https://news.yahoo.co.jp/pickup/6590957?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 02:48:25 GMT"
     },
     {
-     "title": "被爆した兄らの碑 妹の最後の掃除",
-     "link": "https://news.yahoo.co.jp/pickup/6590955?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 02:38:59 GMT"
+     "title": "台風15号 11-12日接近・上陸恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6590959?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 03:02:04 GMT"
     },
     {
      "title": "野球部員死亡 別CT画像で診察か",
@@ -291,9 +291,9 @@
      "pubDate": "Sat, 08 Aug 2026 00:13:58 GMT"
     },
     {
-     "title": "年収600万円 高速バスWILLER狙い",
-     "link": "https://news.yahoo.co.jp/pickup/6590936?source=rss",
-     "pubDate": "Fri, 07 Aug 2026 23:54:29 GMT"
+     "title": "日本のマヨネーズ 世界でなぜ人気",
+     "link": "https://news.yahoo.co.jp/pickup/6590943?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 01:08:32 GMT"
     },
     {
      "title": "名前ドラえもん16人 インドネシア",
@@ -301,19 +301,19 @@
      "pubDate": "Sat, 08 Aug 2026 00:40:29 GMT"
     },
     {
-     "title": "速報ドジャース 佐々木朗希が先発",
-     "link": "https://news.yahoo.co.jp/pickup/6590947?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 01:32:02 GMT"
+     "title": "速報 Dバックスvs.ドジャース",
+     "link": "https://news.yahoo.co.jp/pickup/6590963?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 03:41:50 GMT"
     },
     {
-     "title": "村上宗隆6試合ぶり25号 特大ソロ",
-     "link": "https://news.yahoo.co.jp/pickup/6590953?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 02:07:45 GMT"
+     "title": "及川光博が再婚 お相手は妊娠",
+     "link": "https://news.yahoo.co.jp/pickup/6590956?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 02:50:36 GMT"
     },
     {
-     "title": "岸田タツヤ&高木由梨奈 妊娠発表",
-     "link": "https://news.yahoo.co.jp/pickup/6590940?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 00:24:29 GMT"
+     "title": "声優の衣川里佳 結婚を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6590961?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 03:23:21 GMT"
     }
    ]
   }
