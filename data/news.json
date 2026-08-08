@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T04:01:12.036Z",
+ "updatedAt": "2026-08-08T05:12:24.071Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "台風13号 暴風など長時間続く 厳重警戒を【中継映像も】",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 12:14:34 +0900"
+     "pubDate": "Sat, 08 Aug 2026 13:59:37 +0900"
     },
     {
      "title": "【ライブ映像】お盆休みで下りの混雑ピーク 高速道路や新幹線",
@@ -18,9 +18,14 @@
      "pubDate": "Sat, 08 Aug 2026 11:55:53 +0900"
     },
     {
-     "title": "熊本 各地で厳しい暑さ熱中症対策徹底 揺れにも備えを",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199781000",
-     "pubDate": "Sat, 08 Aug 2026 12:17:29 +0900"
+     "title": "千葉 南房総 海水浴場で男性2人が溺れる このうち1人意識なし",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200141000",
+     "pubDate": "Sat, 08 Aug 2026 13:56:52 +0900"
+    },
+    {
+     "title": "地震被害の熊本 氷川町でボランティアが活動開始",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200101000",
+     "pubDate": "Sat, 08 Aug 2026 13:15:31 +0900"
     },
     {
      "title": "「ロシアがNATO限定侵攻の可能性も」 米情報機関が分析か",
@@ -36,11 +41,6 @@
      "title": "高校野球 青森山田が遊学館に競り勝ち2回戦へ",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199911000",
      "pubDate": "Sat, 08 Aug 2026 11:49:52 +0900"
-    },
-    {
-     "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
-     "pubDate": "Sat, 08 Aug 2026 11:44:54 +0900"
     }
    ]
   },
@@ -49,6 +49,26 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "台風13号 暴風など長時間続く 厳重警戒を【中継映像も】",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
+     "pubDate": "Sat, 08 Aug 2026 13:59:37 +0900"
+    },
+    {
+     "title": "千葉 南房総 海水浴場で男性2人が溺れる このうち1人意識なし",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200141000",
+     "pubDate": "Sat, 08 Aug 2026 13:56:52 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（8月8日）",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199551000",
+     "pubDate": "Sat, 08 Aug 2026 13:53:31 +0900"
+    },
+    {
+     "title": "地震被害の熊本 氷川町でボランティアが活動開始",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200101000",
+     "pubDate": "Sat, 08 Aug 2026 13:15:31 +0900"
+    },
     {
      "title": "鹿児島 和泊町の避難指示解除",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200091000",
@@ -63,11 +83,6 @@
      "title": "熊本 各地で厳しい暑さ熱中症対策徹底 揺れにも備えを",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199781000",
      "pubDate": "Sat, 08 Aug 2026 12:17:29 +0900"
-    },
-    {
-     "title": "台風13号 暴風など長時間続く 厳重警戒を【中継映像も】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 12:14:34 +0900"
     },
     {
      "title": "熊本地震【専門家Q＆A】ボランティア参加するには？注意点は？",
@@ -95,11 +110,6 @@
      "pubDate": "Sat, 08 Aug 2026 07:57:26 +0900"
     },
     {
-     "title": "【動画】Pickup NEWS（8月8日）",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199551000",
-     "pubDate": "Sat, 08 Aug 2026 07:13:39 +0900"
-    },
-    {
      "title": "熊本地震 災害ボランティアの活動が本格化 8日から氷川町でも",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199741000",
      "pubDate": "Sat, 08 Aug 2026 06:19:38 +0900"
@@ -113,16 +123,6 @@
      "title": "熊本地震 中小企業の復旧補助など支援パッケージ急ぐ 政府",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199751000",
      "pubDate": "Sat, 08 Aug 2026 05:34:47 +0900"
-    },
-    {
-     "title": "【地震情報】茨城県北部で震度3 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198851000",
-     "pubDate": "Sat, 08 Aug 2026 04:06:03 +0900"
-    },
-    {
-     "title": "大型で非常に強い台風13号 大雨や暴風など厳重警戒【中継も】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198521000",
-     "pubDate": "Sat, 08 Aug 2026 00:08:42 +0900"
     }
    ]
   },
@@ -194,6 +194,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【動画】韓国 ソウルを流れる川が野外図書館に？",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015175391000",
+     "pubDate": "Sat, 08 Aug 2026 13:37:16 +0900"
+    },
+    {
      "title": "コロンビアで親米大統領就任 米トランプ政権と連携強化図る",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200011000",
      "pubDate": "Sat, 08 Aug 2026 11:51:35 +0900"
@@ -262,11 +267,6 @@
      "title": "SNSの安全対策めぐり米メタに約900億円支払い命令 米裁判所",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199281000",
      "pubDate": "Fri, 07 Aug 2026 17:44:22 +0900"
-    },
-    {
-     "title": "タイの学校で銃撃 14歳の容疑者含む6人死亡20人余けが",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199241000",
-     "pubDate": "Fri, 07 Aug 2026 17:34:59 +0900"
     }
    ]
   },
@@ -276,24 +276,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "高市首相 人事で旧安倍派重用か",
+     "link": "https://news.yahoo.co.jp/pickup/6590962?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 04:03:47 GMT"
+    },
+    {
      "title": "無理に学校行かせ被爆死 母は自責",
      "link": "https://news.yahoo.co.jp/pickup/6590957?source=rss",
      "pubDate": "Sat, 08 Aug 2026 02:48:25 GMT"
     },
     {
-     "title": "台風15号 11-12日接近・上陸恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6590959?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 03:02:04 GMT"
+     "title": "高速道で何度も追突され 一部始終",
+     "link": "https://news.yahoo.co.jp/pickup/6590948?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 01:59:41 GMT"
     },
     {
-     "title": "野球部員死亡 別CT画像で診察か",
-     "link": "https://news.yahoo.co.jp/pickup/6590937?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 00:13:58 GMT"
-    },
-    {
-     "title": "日本のマヨネーズ 世界でなぜ人気",
-     "link": "https://news.yahoo.co.jp/pickup/6590943?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 01:08:32 GMT"
+     "title": "令和8年8月8日 婚姻届窓口に行列",
+     "link": "https://news.yahoo.co.jp/pickup/6590958?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 03:18:53 GMT"
     },
     {
      "title": "名前ドラえもん16人 インドネシア",
@@ -301,19 +301,19 @@
      "pubDate": "Sat, 08 Aug 2026 00:40:29 GMT"
     },
     {
-     "title": "速報 Dバックスvs.ドジャース",
-     "link": "https://news.yahoo.co.jp/pickup/6590963?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 03:41:50 GMT"
+     "title": "韓国サッカー 性接待疑惑の今後は",
+     "link": "https://news.yahoo.co.jp/pickup/6590968?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 04:26:19 GMT"
     },
     {
-     "title": "及川光博が再婚 お相手は妊娠",
-     "link": "https://news.yahoo.co.jp/pickup/6590956?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 02:50:36 GMT"
+     "title": "スノボHP冨田せな 結婚を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6590970?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 04:42:34 GMT"
     },
     {
-     "title": "声優の衣川里佳 結婚を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6590961?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 03:23:21 GMT"
+     "title": "ミッチー再婚 芸能界50代パパ続々",
+     "link": "https://news.yahoo.co.jp/pickup/6590972?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 05:06:56 GMT"
     }
    ]
   }
