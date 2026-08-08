@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T16:16:38.603Z",
+ "updatedAt": "2026-08-08T16:58:05.998Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -50,79 +50,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "北日本と東日本中心 9日も大気の状態が非常に不安定の見込み",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200211000",
-     "pubDate": "Sat, 08 Aug 2026 23:17:32 +0900"
-    },
-    {
      "title": "愛知県内で水難事故相次ぐ 2人死亡",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200261000",
-     "pubDate": "Sat, 08 Aug 2026 23:06:51 +0900"
-    },
-    {
-     "title": "台風13号 影響は長時間続く 警戒を 台風15号の動きは?",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 21:54:30 +0900"
-    },
-    {
-     "title": "熊本地震 死者1人増える 災害関連死の疑い1人含め 死者39人に",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
-     "pubDate": "Sat, 08 Aug 2026 20:57:06 +0900"
-    },
-    {
-     "title": "熊本地震 10年前の地震と隣り合う領域で発生か 専門家分析",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200121000",
-     "pubDate": "Sat, 08 Aug 2026 20:53:49 +0900"
-    },
-    {
-     "title": "ラグビーリーグワン フィジー出身選手が死亡 熱中症疑いで搬送",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200291000",
-     "pubDate": "Sat, 08 Aug 2026 20:29:37 +0900"
-    },
-    {
-     "title": "お盆休みで下りの混雑ピーク 高速道路や新幹線は",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199951000",
-     "pubDate": "Sat, 08 Aug 2026 19:49:38 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（8月8日）",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199551000",
-     "pubDate": "Sat, 08 Aug 2026 19:46:17 +0900"
-    },
-    {
-     "title": "熊本 各地で9日も厳しい暑さに 局地的な雨も土砂災害注意",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199781000",
-     "pubDate": "Sat, 08 Aug 2026 19:07:13 +0900"
-    },
-    {
-     "title": "【交通影響 8月8日】九州新幹線の現在の状況をまとめました",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200051000",
-     "pubDate": "Sat, 08 Aug 2026 18:37:29 +0900"
-    },
-    {
-     "title": "熊本県内 避難情報 124か所 6591人が避難【8月8日】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200061000",
-     "pubDate": "Sat, 08 Aug 2026 17:52:08 +0900"
-    },
-    {
-     "title": "熊本 氷川町でボランティアが活動開始【8日 被災地の動き】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200101000",
-     "pubDate": "Sat, 08 Aug 2026 16:54:15 +0900"
-    },
-    {
-     "title": "8日も猛暑日 熱中症対策徹底を 局地的に大雨のおそれも",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200031000",
-     "pubDate": "Sat, 08 Aug 2026 16:39:12 +0900"
-    },
-    {
-     "title": "新潟 小千谷「記録的短時間大雨」の気象防災速報を発表",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200221000",
-     "pubDate": "Sat, 08 Aug 2026 15:47:00 +0900"
-    },
-    {
-     "title": "新潟 中越で線状降水帯発生のおそれ 直前予測を発表",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200201000",
-     "pubDate": "Sat, 08 Aug 2026 15:16:55 +0900"
+     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42868",
+     "pubDate": "Sun, 09 Aug 2026 01:52:39 +0900"
     }
    ]
   },
@@ -199,79 +129,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "イチローさん マリナーズOBのホームラン競争でファンわかせる",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200331000",
-     "pubDate": "Sat, 08 Aug 2026 20:55:50 +0900"
-    },
-    {
-     "title": "【動画】中国 北京で人気のレトロ写真館",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199681000",
-     "pubDate": "Sat, 08 Aug 2026 20:25:15 +0900"
-    },
-    {
      "title": "「韓国サッカー協会が外国人審判員に性的接待」韓国メディア",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200271000",
-     "pubDate": "Sat, 08 Aug 2026 18:38:23 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（8月8日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015192491000",
-     "pubDate": "Sat, 08 Aug 2026 16:25:42 +0900"
-    },
-    {
-     "title": "ロシアの攻撃でキーウ州3人死亡 ウクライナは物流インフラ攻撃",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200231000",
-     "pubDate": "Sat, 08 Aug 2026 16:10:48 +0900"
-    },
-    {
-     "title": "オープンAI 開発一時中断 AIみずからサイバー攻撃実行のおそれ",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200151000",
-     "pubDate": "Sat, 08 Aug 2026 15:10:11 +0900"
-    },
-    {
-     "title": "【動画】韓国 ソウルを流れる川が野外図書館に？",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015175391000",
-     "pubDate": "Sat, 08 Aug 2026 13:37:16 +0900"
-    },
-    {
-     "title": "コロンビアで親米大統領就任 米トランプ政権と連携強化図る",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200011000",
-     "pubDate": "Sat, 08 Aug 2026 11:51:35 +0900"
-    },
-    {
-     "title": "「ロシアがNATO限定侵攻の可能性も」 米情報機関が分析か",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199861000",
-     "pubDate": "Sat, 08 Aug 2026 10:19:45 +0900"
-    },
-    {
-     "title": "米当局者 “航行妨げない合意なら海上封鎖を解除” 報道",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199871000",
-     "pubDate": "Sat, 08 Aug 2026 10:09:20 +0900"
-    },
-    {
-     "title": "ドイツで沖縄の伝統文化や歴史を紹介するイベント開催",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199931000",
-     "pubDate": "Sat, 08 Aug 2026 10:05:56 +0900"
-    },
-    {
-     "title": "トランプ大統領 FRBクック理事に“解任検討”を再び通知 報道",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199921000",
-     "pubDate": "Sat, 08 Aug 2026 09:14:33 +0900"
-    },
-    {
-     "title": "ドイツで水不足 農業や河川の輸送に影響 政府は対策を検討",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199821000",
-     "pubDate": "Sat, 08 Aug 2026 07:55:18 +0900"
-    },
-    {
-     "title": "サウジアラビア トルコ パキスタンの3か国「防衛協定」署名",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199851000",
-     "pubDate": "Sat, 08 Aug 2026 07:54:01 +0900"
-    },
-    {
-     "title": "ミャンマー アウン・サン・スー・チー氏の写真公開 政権の思惑",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199901000",
-     "pubDate": "Sat, 08 Aug 2026 07:40:36 +0900"
+     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42863",
+     "pubDate": "Sun, 09 Aug 2026 01:55:21 +0900"
     }
    ]
   },
