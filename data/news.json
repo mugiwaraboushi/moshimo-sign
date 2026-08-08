@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T14:02:48.613Z",
+ "updatedAt": "2026-08-08T14:55:08.028Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,14 @@
      "pubDate": "Sat, 08 Aug 2026 21:54:30 +0900"
     },
     {
-     "title": "大気不安定 新潟 岩手 青森 富山に記録的短時間大雨 厳重警戒",
+     "title": "北日本と東日本中心 9日も大気の状態が非常に不安定の見込み",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200211000",
-     "pubDate": "Sat, 08 Aug 2026 21:12:41 +0900"
+     "pubDate": "Sat, 08 Aug 2026 23:17:32 +0900"
+    },
+    {
+     "title": "愛知県内で水難事故相次ぐ 2人死亡",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200261000",
+     "pubDate": "Sat, 08 Aug 2026 23:06:51 +0900"
     },
     {
      "title": "熊本地震 10年前の地震と隣り合う領域で発生か 専門家分析",
@@ -33,11 +38,6 @@
      "pubDate": "Sat, 08 Aug 2026 18:38:23 +0900"
     },
     {
-     "title": "ラグビー日本代表 3点及ばず テストマッチで豪州に競り負ける",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200361000",
-     "pubDate": "Sat, 08 Aug 2026 21:59:02 +0900"
-    },
-    {
      "title": "イチローさん マリナーズOBのホームラン競争でファンわかせる",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200331000",
      "pubDate": "Sat, 08 Aug 2026 20:55:50 +0900"
@@ -50,14 +50,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "北日本と東日本中心 9日も大気の状態が非常に不安定の見込み",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200211000",
+     "pubDate": "Sat, 08 Aug 2026 23:17:32 +0900"
+    },
+    {
+     "title": "愛知県内で水難事故相次ぐ 2人死亡",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200261000",
+     "pubDate": "Sat, 08 Aug 2026 23:06:51 +0900"
+    },
+    {
      "title": "台風13号 影響は長時間続く 警戒を 台風15号の動きは?",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
      "pubDate": "Sat, 08 Aug 2026 21:54:30 +0900"
-    },
-    {
-     "title": "大気不安定 新潟 岩手 青森 富山に記録的短時間大雨 厳重警戒",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200211000",
-     "pubDate": "Sat, 08 Aug 2026 21:12:41 +0900"
     },
     {
      "title": "熊本地震 死者1人増える 災害関連死の疑い1人含め 死者39人に",
@@ -93,11 +98,6 @@
      "title": "【交通影響 8月8日】九州新幹線の現在の状況をまとめました",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200051000",
      "pubDate": "Sat, 08 Aug 2026 18:37:29 +0900"
-    },
-    {
-     "title": "愛知県内で水難事故相次ぐ 1人死亡 1人意識不明",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200261000",
-     "pubDate": "Sat, 08 Aug 2026 17:56:28 +0900"
     },
     {
      "title": "熊本県内 避難情報 124か所 6591人が避難【8月8日】",
@@ -291,9 +291,9 @@
      "pubDate": "Sat, 08 Aug 2026 11:29:35 GMT"
     },
     {
-     "title": "日本郵便で一時システム障害",
-     "link": "https://news.yahoo.co.jp/pickup/6591030?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 13:34:41 GMT"
+     "title": "イラン革命防衛隊 米国をけん制",
+     "link": "https://news.yahoo.co.jp/pickup/6591033?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 13:55:05 GMT"
     },
     {
      "title": "19歳不明 単独1泊2日予定で入山",
@@ -301,14 +301,9 @@
      "pubDate": "Sat, 08 Aug 2026 13:13:16 GMT"
     },
     {
-     "title": "ブドウ200房窃盗疑い 販売目的か",
-     "link": "https://news.yahoo.co.jp/pickup/6591025?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 12:46:20 GMT"
-    },
-    {
-     "title": "志茂田景樹さん「要介護5」の今",
-     "link": "https://news.yahoo.co.jp/pickup/6591022?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 12:19:52 GMT"
+     "title": "息子助けようと川に 父親溺れ死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6591035?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 14:28:15 GMT"
     },
     {
      "title": "ラグビー九電選手死亡 練習中35℃",
@@ -319,6 +314,11 @@
      "title": "離婚から2年 金田朋子の家族の形",
      "link": "https://news.yahoo.co.jp/pickup/6591032?source=rss",
      "pubDate": "Sat, 08 Aug 2026 13:32:52 GMT"
+    },
+    {
+     "title": "令和8年8月8日 芸能界で吉報続々",
+     "link": "https://news.yahoo.co.jp/pickup/6591009?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 09:47:55 GMT"
     }
    ]
   }
