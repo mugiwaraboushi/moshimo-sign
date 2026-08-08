@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T20:53:43.162Z",
+ "updatedAt": "2026-08-08T21:17:10.279Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,6 +13,11 @@
      "pubDate": "Sun, 09 Aug 2026 05:13:00 +0900"
     },
     {
+     "title": "熊本 きょうも各地で厳しい暑さ 復旧作業では熱中症に注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42886",
+     "pubDate": "Sun, 09 Aug 2026 05:59:00 +0900"
+    },
+    {
      "title": "台風13号 次第に離れるも高波に厳重警戒 台風15号 進路に注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260808de42871",
      "pubDate": "Sun, 09 Aug 2026 05:16:54 +0900"
@@ -23,9 +28,9 @@
      "pubDate": "Sun, 09 Aug 2026 05:25:29 +0900"
     },
     {
-     "title": "北日本と東日本中心 9日も大気の状態が非常に不安定の見込み",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42872",
-     "pubDate": "Sun, 09 Aug 2026 01:51:00 +0900"
+     "title": "イラン“通航再開は米の補償も条件” “交渉は停滞”報道も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42920",
+     "pubDate": "Sun, 09 Aug 2026 05:55:46 +0900"
     },
     {
      "title": "米議会上院 新司法長官にトランプ大統領指名のブランチ氏承認",
@@ -33,14 +38,9 @@
      "pubDate": "Sun, 09 Aug 2026 05:17:27 +0900"
     },
     {
-     "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42912",
-     "pubDate": "Sun, 09 Aug 2026 05:10:43 +0900"
-    },
-    {
-     "title": "イチローさん マリナーズOBのホームラン競争でファンわかせる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42862",
-     "pubDate": "Sun, 09 Aug 2026 01:56:00 +0900"
+     "title": "「韓国サッカー協会が外国人審判員に性的接待」韓国メディア",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42863",
+     "pubDate": "Sun, 09 Aug 2026 01:55:00 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（8月9日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42858",
+     "pubDate": "Sun, 09 Aug 2026 06:00:56 +0900"
+    },
     {
      "title": "原爆投下から81年 “長崎を最後の被爆地に”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42887",
@@ -83,6 +88,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "イラン“通航再開は米の補償も条件” “交渉は停滞”報道も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42920",
+     "pubDate": "Sun, 09 Aug 2026 05:55:46 +0900"
+    },
     {
      "title": "米議会上院 新司法長官にトランプ大統領指名のブランチ氏承認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42888",
