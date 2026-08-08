@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T05:12:24.071Z",
+ "updatedAt": "2026-08-08T06:02:17.675Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -38,9 +38,9 @@
      "pubDate": "Sat, 08 Aug 2026 11:21:35 +0900"
     },
     {
-     "title": "高校野球 青森山田が遊学館に競り勝ち2回戦へ",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199911000",
-     "pubDate": "Sat, 08 Aug 2026 11:49:52 +0900"
+     "title": "高校野球 初出場の東日大昌平が白樺学園をリード（5回終了時）",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200171000",
+     "pubDate": "Sat, 08 Aug 2026 14:51:58 +0900"
     }
    ]
   },
@@ -281,9 +281,14 @@
      "pubDate": "Sat, 08 Aug 2026 04:03:47 GMT"
     },
     {
-     "title": "無理に学校行かせ被爆死 母は自責",
-     "link": "https://news.yahoo.co.jp/pickup/6590957?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 02:48:25 GMT"
+     "title": "トランプ氏「大統領ビジネス」増",
+     "link": "https://news.yahoo.co.jp/pickup/6590964?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 04:13:15 GMT"
+    },
+    {
+     "title": "男性2人溺れ1人心肺停止 海水浴場",
+     "link": "https://news.yahoo.co.jp/pickup/6590979?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 05:43:16 GMT"
     },
     {
      "title": "高速道で何度も追突され 一部始終",
@@ -291,19 +296,14 @@
      "pubDate": "Sat, 08 Aug 2026 01:59:41 GMT"
     },
     {
-     "title": "令和8年8月8日 婚姻届窓口に行列",
-     "link": "https://news.yahoo.co.jp/pickup/6590958?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 03:18:53 GMT"
+     "title": "琵琶湖「花火大会」3市が関与否定",
+     "link": "https://news.yahoo.co.jp/pickup/6590975?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 05:08:12 GMT"
     },
     {
-     "title": "名前ドラえもん16人 インドネシア",
-     "link": "https://news.yahoo.co.jp/pickup/6590941?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 00:40:29 GMT"
-    },
-    {
-     "title": "韓国サッカー 性接待疑惑の今後は",
-     "link": "https://news.yahoo.co.jp/pickup/6590968?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 04:26:19 GMT"
+     "title": "沖縄で子豚の落とし物 一時預かり",
+     "link": "https://news.yahoo.co.jp/pickup/6590974?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 05:29:02 GMT"
     },
     {
      "title": "スノボHP冨田せな 結婚を発表",
