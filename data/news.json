@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T21:17:10.279Z",
+ "updatedAt": "2026-08-08T21:51:50.243Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "原爆投下から81年 “長崎を最後の被爆地に”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42887",
-     "pubDate": "Sun, 09 Aug 2026 05:13:00 +0900"
+     "title": "台風13号 高波強風影響続く 台風15号の進路にも注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42871",
+     "pubDate": "Sun, 09 Aug 2026 06:48:22 +0900"
     },
     {
      "title": "熊本 きょうも各地で厳しい暑さ 復旧作業では熱中症に注意",
@@ -18,9 +18,9 @@
      "pubDate": "Sun, 09 Aug 2026 05:59:00 +0900"
     },
     {
-     "title": "台風13号 次第に離れるも高波に厳重警戒 台風15号 進路に注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42871",
-     "pubDate": "Sun, 09 Aug 2026 05:16:54 +0900"
+     "title": "原爆投下から81年 “長崎を最後の被爆地に”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42887",
+     "pubDate": "Sun, 09 Aug 2026 05:13:00 +0900"
     },
     {
      "title": "【地震情報】熊本 宇城で震度3 津波の心配なし",
