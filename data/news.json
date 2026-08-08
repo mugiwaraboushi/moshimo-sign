@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T08:04:57.119Z",
+ "updatedAt": "2026-08-08T09:06:30.327Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,12 +10,12 @@
     {
      "title": "台風13号 暴風など長時間続く 厳重警戒を【中継映像も】",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 16:48:38 +0900"
+     "pubDate": "Sat, 08 Aug 2026 17:53:41 +0900"
     },
     {
-     "title": "青森 岩手 新潟に記録的短時間大雨 浸水などに厳重警戒を",
+     "title": "大気不安定 新潟 岩手 青森に記録的短時間大雨 厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200211000",
-     "pubDate": "Sat, 08 Aug 2026 16:59:32 +0900"
+     "pubDate": "Sat, 08 Aug 2026 17:55:13 +0900"
     },
     {
      "title": "オープンAI 開発一時中断 AIみずからサイバー攻撃実行のおそれ",
@@ -25,7 +25,7 @@
     {
      "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
-     "pubDate": "Sat, 08 Aug 2026 15:49:30 +0900"
+     "pubDate": "Sat, 08 Aug 2026 17:54:21 +0900"
     },
     {
      "title": "【ライブ映像】お盆休みで下りの混雑ピーク 高速道路や新幹線",
@@ -38,9 +38,9 @@
      "pubDate": "Sat, 08 Aug 2026 10:19:45 +0900"
     },
     {
-     "title": "高校野球 初出場の東日大昌平が白樺学園に競り勝ち2回戦へ",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015200171000",
-     "pubDate": "Sat, 08 Aug 2026 16:26:38 +0900"
+     "title": "高校野球 夏の甲子園 日本文理と大分商 5回を終え同点",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200251000",
+     "pubDate": "Sat, 08 Aug 2026 17:41:51 +0900"
     }
    ]
   },
@@ -50,9 +50,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "青森 岩手 新潟に記録的短時間大雨 浸水などに厳重警戒を",
+     "title": "愛知県内で水難事故相次ぐ 1人死亡 1人意識不明",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200261000",
+     "pubDate": "Sat, 08 Aug 2026 17:56:28 +0900"
+    },
+    {
+     "title": "大気不安定 新潟 岩手 青森に記録的短時間大雨 厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200211000",
-     "pubDate": "Sat, 08 Aug 2026 16:59:32 +0900"
+     "pubDate": "Sat, 08 Aug 2026 17:55:13 +0900"
+    },
+    {
+     "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
+     "pubDate": "Sat, 08 Aug 2026 17:54:21 +0900"
+    },
+    {
+     "title": "台風13号 暴風など長時間続く 厳重警戒を【中継映像も】",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
+     "pubDate": "Sat, 08 Aug 2026 17:53:41 +0900"
+    },
+    {
+     "title": "熊本県内 避難情報 124か所 6591人が避難【8月8日】",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015200061000",
+     "pubDate": "Sat, 08 Aug 2026 17:52:08 +0900"
     },
     {
      "title": "熊本 氷川町でボランティアが活動開始【8日 被災地の動き】",
@@ -60,19 +80,9 @@
      "pubDate": "Sat, 08 Aug 2026 16:54:15 +0900"
     },
     {
-     "title": "台風13号 暴風など長時間続く 厳重警戒を【中継映像も】",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 16:48:38 +0900"
-    },
-    {
      "title": "きょうも猛暑日 熱中症対策徹底を 局地的に大雨のおそれも",
      "link": "https://news.web.nhk/newsweb/na/na-k10015200031000",
      "pubDate": "Sat, 08 Aug 2026 16:39:12 +0900"
-    },
-    {
-     "title": "熊本地震 死者1人増 災害関連死の疑い1人含め 死者39人に",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199981000",
-     "pubDate": "Sat, 08 Aug 2026 15:49:30 +0900"
     },
     {
      "title": "新潟 小千谷「記録的短時間大雨」の気象防災速報を発表",
@@ -113,16 +123,6 @@
      "title": "【ライブ映像】お盆休みで下りの混雑ピーク 高速道路や新幹線",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199951000",
      "pubDate": "Sat, 08 Aug 2026 11:55:53 +0900"
-    },
-    {
-     "title": "悠仁さま ボーイスカウトのキャンプで豚汁作りや木工体験",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199941000",
-     "pubDate": "Sat, 08 Aug 2026 11:21:35 +0900"
-    },
-    {
-     "title": "環境省 公費解体円滑化に向け自治体をサポートするチーム発足",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199731000",
-     "pubDate": "Sat, 08 Aug 2026 07:57:26 +0900"
     }
    ]
   },
@@ -286,9 +286,9 @@
      "pubDate": "Sat, 08 Aug 2026 05:48:57 GMT"
     },
     {
-     "title": "台風13号 沖縄で転倒など5人けが",
-     "link": "https://news.yahoo.co.jp/pickup/6590977?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 05:39:06 GMT"
+     "title": "子を産む不安 「家族留学」で変化",
+     "link": "https://news.yahoo.co.jp/pickup/6591007?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 09:03:54 GMT"
     },
     {
      "title": "タイの学校銃撃疑い14歳 計画的か",
@@ -296,19 +296,14 @@
      "pubDate": "Sat, 08 Aug 2026 07:25:18 GMT"
     },
     {
+     "title": "工事中転落か 建築会社社長が死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6590998?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 08:04:45 GMT"
+    },
+    {
      "title": "琵琶湖「花火大会」3市が関与否定",
      "link": "https://news.yahoo.co.jp/pickup/6590975?source=rss",
      "pubDate": "Sat, 08 Aug 2026 05:08:12 GMT"
-    },
-    {
-     "title": "テーマパーク値上げ 30施設超に",
-     "link": "https://news.yahoo.co.jp/pickup/6590991?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 07:27:43 GMT"
-    },
-    {
-     "title": "不祥事受け 大韓サッカー協会謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6590997?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 08:02:02 GMT"
     },
     {
      "title": "今村聖奈が入場後に落馬 両足負傷",
@@ -316,9 +311,14 @@
      "pubDate": "Sat, 08 Aug 2026 07:51:28 GMT"
     },
     {
-     "title": "吉木りさ いじめ被害を今明かす訳",
-     "link": "https://news.yahoo.co.jp/pickup/6590994?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 07:38:41 GMT"
+     "title": "俳優・戸塚純貴が結婚を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6591004?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 08:47:02 GMT"
+    },
+    {
+     "title": "馬場園 コンビ解散で直面した現実",
+     "link": "https://news.yahoo.co.jp/pickup/6591003?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 08:33:34 GMT"
     }
    ]
   }
