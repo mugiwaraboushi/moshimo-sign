@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T19:05:14.781Z",
+ "updatedAt": "2026-08-08T19:49:13.741Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【地震速報】岩手 普代村で震度4 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42879",
-     "pubDate": "Sun, 09 Aug 2026 03:11:25 +0900"
+     "title": "【地震速報】熊本 宇城で震度3 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42913",
+     "pubDate": "Sun, 09 Aug 2026 04:42:43 +0900"
     },
     {
      "title": "台風13号 影響は長時間続く 警戒を 台風15号の動きは",
@@ -28,9 +28,9 @@
      "pubDate": "Sun, 09 Aug 2026 01:53:00 +0900"
     },
     {
-     "title": "ラグビーリーグワン フィジー出身選手が死亡 熱中症疑いで搬送",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42866",
-     "pubDate": "Sun, 09 Aug 2026 01:54:00 +0900"
+     "title": "【地震情報】岩手 普代村で震度4 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42879",
+     "pubDate": "Sun, 09 Aug 2026 03:33:12 +0900"
     },
     {
      "title": "イチローさん マリナーズOBのホームラン競争でファンわかせる",
