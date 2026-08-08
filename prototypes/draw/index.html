@@ -64,6 +64,10 @@
       <button class="chip wide" id="png">PNGで保存</button>
     </div>
     <div class="note">このURLを開くと同じ絵が復元されます。実機に出したいときは、このURLをDiscordに貼って「実機に流して」と書いてください。</div>
+    <div class="chips" style="margin-top:10px">
+      <button class="chip wide" id="copyPl">playlist用をコピー</button>
+    </div>
+    <div class="note" id="plNote"></div>
   </fieldset>
 
   <div class="foot">
@@ -239,6 +243,7 @@ function render(){
     document.documentElement.style.setProperty("--accent", COLORS[i]);
   });
   document.documentElement.style.setProperty("--accent", COLORS[S.color]);
+  updatePlNote();
   draw(); syncUrl();
 }
 
@@ -267,6 +272,36 @@ document.getElementById("copy").onclick = async ()=>{
   }
   setTimeout(()=>{ btn.textContent = "URLをコピー"; }, 1800);
 };
+// ---- playlist.json の frames に貼る1枚分 (仕様: docs/playlist-spec.md) ----
+function playlistEntry(){
+  return JSON.stringify({
+    d: encode(),
+    color: COLORS[S.color].slice(1).toUpperCase(),
+    hold: 8
+  });
+}
+function updatePlNote(){
+  const ok = S.size === 1;                 // 実機のframesは64×32のみ対応
+  const btn = document.getElementById("copyPl");
+  btn.disabled = !ok;
+  btn.style.opacity = ok ? "" : ".45";
+  document.getElementById("plNote").textContent = ok
+    ? 'frames の1枚分をコピーします。playlist.json の frames に貼り、mode を "frames" にすると実機に出ます。'
+    : "実機のドット絵は「64×32（1枚）」のみ対応です。パネル構成を切り替えると使えます。";
+}
+document.getElementById("copyPl").onclick = async ()=>{
+  const btn = document.getElementById("copyPl");
+  const text = playlistEntry();
+  try {
+    await navigator.clipboard.writeText(text);
+    btn.textContent = "コピーしました";
+  } catch(e){
+    document.getElementById("url").value = text;   // クリップボードが使えないときは出力欄に出す
+    btn.textContent = "上の欄からコピーしてください";
+  }
+  setTimeout(()=>{ btn.textContent = "playlist用をコピー"; }, 1800);
+};
+
 document.getElementById("png").onclick = ()=>{
   const a = document.createElement("a");
   a.href = cv.toDataURL("image/png");

@@ -31,6 +31,10 @@
 #define PLAYLIST_INTERVAL_MS 60000
 #define MAX_PLAYLIST_MSGS 10
 
+// ---- ドット絵 frames (v0.5) ----
+// 1枚あたり256バイトをRAMに常駐させる (8枚で2KB)
+#define MAX_FRAMES 8
+
 // ---- 表示内容 ----
 #define TOP_MESSAGE "営業中"
 #define DEFAULT_MESSAGE "ようこそ「もしも」へ　◆　まちと未来の実験室"
