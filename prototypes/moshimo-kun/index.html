@@ -32,10 +32,10 @@
 <body>
 <div class="wrap">
   <h1>もしもくん・アニメーション</h1>
-  <div class="sub">もしもくんを64×32ドットにしました。ひらがなの「も」と「し」の形のまま、輪郭だけ呼吸しています。<br>口がないので、まばたきと間で話します。</div>
+  <div class="sub">もしもくんを64×32ドットにしました。ひらがなの「も」「し」に肉をつけた軟体です。骨格はないので、輪郭はいつもゆるく揺れています。<br>口がないので、まばたきと間で話します。</div>
 
   <div class="panel-frame"><canvas id="led"></canvas></div>
-  <div class="meta"><span>64×32 dot</span><span>もしもくん v2</span></div>
+  <div class="meta"><span>64×32 dot</span><span>もしもくん v3</span></div>
 
   <div class="say" id="say"></div>
 
@@ -56,7 +56,7 @@
   </fieldset>
 
   <div class="foot">
-    「も」「し」の骨（ベジェ曲線）に沿って、太さの変わる丸い筆を置いて描いています。太さは正弦波2つで揺れているので、輪郭はぼやけたまま、字は崩れません。<br>
+    「も」「し」の骨（ベジェ曲線）を、太さの変わるチューブの距離場にして、やわらかく合成しています。つなぎ目に肉がつくので骨が消え、輪郭はゆっくりしたうねりで常に揺れます。字の面影だけ残る太さに合わせてあります。<br>
     ここで動いているのはシミュレータです。実機で動かすにはファームウェア側の対応が必要です。<br>
     実機想定: P4ピッチ HUB75パネル（64×32 = 256mm×128mm）
   </div>
@@ -80,23 +80,24 @@ function disc(fb,cx,cy,r,c=1){
 function rnd(x,y){ const s = Math.sin(x*127.1 + y*311.7) * 43758.5453; return s - Math.floor(s); }
 
 // ===================== 「も」と「し」 =====================
-// 字の骨を3次ベジェで持ち、太さの揺れる丸筆でなぞる。
-// 骨は動かさないので字は読めるまま、縁だけがぼやけて呼吸する。
+// 骨は「も」「し」のまま。そこに肉をつける。
+// 各画を「太さの変わるチューブ」として距離場にして、やわらかく合成（soft-min）すると、
+// 画のつなぎ目に自然な肉がついて、骨のない軟体になる。輪郭はさらに低周波のうねりで揺らす。
 const CHARS = {
-  // prof = 筆の太さの変化（頭は太く、しっぽへ細く）。これで字は読めるまま頭に顔が乗る。
+  // prof = 太さの変化（頭はぷっくり、しっぽへ細く）
   mo: {                                    // も = し の主画に横棒2本
     strokes: [
-      { p:[[0.47,0.15],[0.38,0.58],[0.44,0.92],[0.86,0.70]], r:1.00, prof:[1.70,1.05,0.92,0.88] },
-      { p:[[0.16,0.45],[0.34,0.42],[0.56,0.42],[0.74,0.38]], r:0.56, prof:[0.95,1.05,1.05,0.90] },
-      { p:[[0.10,0.67],[0.30,0.64],[0.56,0.64],[0.80,0.59]], r:0.56, prof:[0.95,1.05,1.05,0.90] },
+      { p:[[0.47,0.17],[0.38,0.58],[0.44,0.92],[0.86,0.70]], r:1.00, prof:[1.70,1.10,0.95,0.88] },
+      { p:[[0.06,0.41],[0.30,0.38],[0.58,0.38],[0.84,0.33]], r:0.62, prof:[0.80,1.05,1.05,0.80] },
+      { p:[[0.02,0.71],[0.28,0.68],[0.58,0.68],[0.90,0.62]], r:0.62, prof:[0.80,1.05,1.05,0.80] },
     ],
-    eye: [0.45, 0.15],                     // 頭のところ＝顔
+    eye: [0.45, 0.17],                     // 頭のところ＝顔
   },
   shi: {                                   // し
     strokes: [
-      { p:[[0.37,0.15],[0.25,0.60],[0.40,0.94],[0.84,0.70]], r:1.00, prof:[1.70,1.05,0.92,0.88] },
+      { p:[[0.37,0.17],[0.25,0.60],[0.40,0.94],[0.84,0.70]], r:1.00, prof:[1.85,1.20,1.00,0.92] },
     ],
-    eye: [0.36, 0.16],
+    eye: [0.36, 0.18],
   },
 };
 const bez = (P,s) => {
@@ -104,29 +105,51 @@ const bez = (P,s) => {
   return [ a*P[0][0]+b*P[1][0]+c*P[2][0]+d*P[3][0],
            a*P[0][1]+b*P[1][1]+c*P[2][1]+d*P[3][1] ];
 };
+// 線分までの距離（太さは端点間で補間する＝チューブ）
+function tubeDist(x, y, a, b){
+  const vx = b[0]-a[0], vy = b[1]-a[1];
+  const L = vx*vx + vy*vy;
+  let s = L > 0 ? ((x-a[0])*vx + (y-a[1])*vy) / L : 0;
+  s = s < 0 ? 0 : s > 1 ? 1 : s;
+  const dx = x - (a[0]+vx*s), dy = y - (a[1]+vy*s);
+  return Math.sqrt(dx*dx + dy*dy) - (a[2] + (b[2]-a[2])*s);
+}
 // box = {x,y,w,h}   fade: 0=全部いる 1=ほどけて消えた
 function drawChar(fb, ch, box, t, seed, opt={}){
-  const C = CHARS[ch], base = box.h * 0.085 * (opt.bold || 1);
-  const ink = buf();
+  const C = CHARS[ch], base = box.h * 0.092 * (opt.bold || 1);
+  const tubes = [];                                        // [ax,ay,ar]→[bx,by,br]
+  let x0 = W, x1 = 0, y0 = H, y1 = 0;
   for (const st of C.strokes){
-    const N = 34, pr = st.prof || [1,1,1,1];
+    const N = 10, pr = st.prof || [1,1,1,1];
+    let prev = null;
     for (let i=0;i<=N;i++){
       const s = i/N, q = bez(st.p, s);
       const f = s*3, k = Math.min(2, Math.floor(f));
-      const taper = pr[k] + (pr[k+1]-pr[k])*(f-k);        // 筆圧
-      const wob = 1 + 0.12*Math.sin(s*6.5 + t*1.25 + seed)
-                    + 0.07*Math.sin(s*12.0 - t*0.85 + seed*2.1);
-      disc(ink, box.x + q[0]*box.w, box.y + q[1]*box.h, Math.max(1, base*st.r*taper*wob), 1);
+      const taper = pr[k] + (pr[k+1]-pr[k])*(f-k);
+      const pt = [box.x + q[0]*box.w, box.y + q[1]*box.h, Math.max(1.1, base*st.r*taper)];
+      if (prev) tubes.push([prev, pt]);
+      prev = pt;
+      x0 = Math.min(x0, pt[0]-pt[2]-2); x1 = Math.max(x1, pt[0]+pt[2]+2);
+      y0 = Math.min(y0, pt[1]-pt[2]-2); y1 = Math.max(y1, pt[1]+pt[2]+2);
     }
   }
+  const K = 1.15;                                          // 小さいほど、つなぎ目の肉が厚い
   const fade = opt.fade || 0;
-  for (let y=0;y<H;y++) for (let x=0;x<W;x++){
-    if (!ink[y*W+x]) continue;
-    if (fade > 0){
-      const k = rnd(x,y);
-      if (k < fade){ if (k > fade-0.07) px(fb,x,y,3); continue; }   // ほどけた粒
+  for (let y=Math.max(0,Math.floor(y0)); y<=Math.min(H-1,Math.ceil(y1)); y++){
+    for (let x=Math.max(0,Math.floor(x0)); x<=Math.min(W-1,Math.ceil(x1)); x++){
+      let acc = 0;
+      for (const tb of tubes) acc += Math.exp(-K * tubeDist(x, y, tb[0], tb[1]));
+      const d = -Math.log(acc) / K;                         // やわらかい合成距離
+      const wob = 0.62*Math.sin(x*0.50 + t*1.00 + seed)     // 輪郭のうねり
+                + 0.46*Math.sin(y*0.58 - t*0.80 + seed*2.1)
+                + 0.34*Math.sin((x+y)*0.33 + t*1.30 + seed*0.6);
+      if (d > wob) continue;
+      if (fade > 0){
+        const k = rnd(x,y);
+        if (k < fade){ if (k > fade-0.07) px(fb,x,y,3); continue; }  // ほどけた粒
+      }
+      px(fb,x,y,1);
     }
-    px(fb,x,y,1);
   }
   return { ex: box.x + C.eye[0]*box.w, ey: box.y + C.eye[1]*box.h };
 }
@@ -134,8 +157,8 @@ function drawChar(fb, ch, box, t, seed, opt={}){
 function eyes(fb, a, opt={}){
   const x = Math.round(a.ex + (opt.gazeX||0)), y = Math.round(a.ey + (opt.gazeY||0));
   const put = (px_, py) => { if (!opt.free && get(fb,px_,py) !== 1) return; px(fb,px_,py,2); };
-  if (opt.blink){ put(x-2,y); put(x+1,y); }
-  else for (const dy of [0,1]){ put(x-2,y-1+dy); put(x+1,y-1+dy); }
+  if (opt.blink){ put(x-3,y); put(x-2,y); put(x+1,y); put(x+2,y); }
+  else for (const dy of [0,1]) for (const dx of [-3,-2,1,2]) put(x+dx, y-1+dy);
 }
 const blinking = (t, seed) => ((t*0.9 + seed*3.3) % 4.1) < 0.14;
 const ease = p => p<0 ? 0 : p>1 ? 1 : p*p*(3-2*p);
