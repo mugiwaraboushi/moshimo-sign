@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-07T23:53:48.730Z",
+ "updatedAt": "2026-08-08T00:39:25.472Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "大型で非常に強い台風13号 暴風などに厳重警戒",
+     "title": "大型で非常に強い台風13号 暴風などに厳重警戒【中継映像も】",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 07:34:15 +0900"
+     "pubDate": "Sat, 08 Aug 2026 09:34:46 +0900"
     },
     {
      "title": "熊本 8日も猛烈な暑さ 熱中症対策を 台風13号で強風にも注意",
@@ -18,29 +18,29 @@
      "pubDate": "Sat, 08 Aug 2026 06:24:12 +0900"
     },
     {
-     "title": "イオンモール熊本 妹亡くした男性“当時の対応 丁寧に調査を”",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199501000",
-     "pubDate": "Fri, 07 Aug 2026 19:38:01 +0900"
+     "title": "熊本地震 災害ボランティアの活動が本格化 8日から氷川町でも",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199741000",
+     "pubDate": "Sat, 08 Aug 2026 06:19:38 +0900"
     },
     {
-     "title": "税務職員が高齢女性から約1億5000万円受け取り競艇 懲戒免職に",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199381000",
-     "pubDate": "Fri, 07 Aug 2026 21:49:47 +0900"
+     "title": "千葉 銚子 輸入サバ高騰で加工業者の約2割が倒産や廃業状態に",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199891000",
+     "pubDate": "Sat, 08 Aug 2026 07:28:58 +0900"
     },
     {
-     "title": "熊本地震 災害関連死の疑い含め38人死亡 避難所に6630人避難",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198921000",
-     "pubDate": "Fri, 07 Aug 2026 21:31:17 +0900"
+     "title": "長崎市「平和宣言」起草委員会の会議録 永久保存する方針決定",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199261000",
+     "pubDate": "Sat, 08 Aug 2026 05:39:47 +0900"
     },
     {
-     "title": "台湾軍 中国による侵攻を想定した大規模演習を公開",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199791000",
-     "pubDate": "Sat, 08 Aug 2026 01:02:44 +0900"
+     "title": "トランプ大統領 FRBクック理事に“解任検討”を再び通知 報道",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199921000",
+     "pubDate": "Sat, 08 Aug 2026 09:14:33 +0900"
     },
     {
-     "title": "韓国調査船が竹島周辺EEZ内で海洋調査か 日本政府が抗議",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199831000",
-     "pubDate": "Sat, 08 Aug 2026 01:43:08 +0900"
+     "title": "環境省 公費解体円滑化に向け自治体をサポートするチーム発足",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199731000",
+     "pubDate": "Sat, 08 Aug 2026 07:57:26 +0900"
     }
    ]
   },
@@ -50,14 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "大型で非常に強い台風13号 暴風などに厳重警戒【中継映像も】",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
+     "pubDate": "Sat, 08 Aug 2026 09:34:46 +0900"
+    },
+    {
      "title": "環境省 公費解体円滑化に向け自治体をサポートするチーム発足",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199731000",
      "pubDate": "Sat, 08 Aug 2026 07:57:26 +0900"
-    },
-    {
-     "title": "大型で非常に強い台風13号 暴風などに厳重警戒",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015199841000",
-     "pubDate": "Sat, 08 Aug 2026 07:34:15 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（8月8日）",
@@ -194,6 +194,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "トランプ大統領 FRBクック理事に“解任検討”を再び通知 報道",
+     "link": "https://news.web.nhk/newsweb/na/na-k10015199921000",
+     "pubDate": "Sat, 08 Aug 2026 09:14:33 +0900"
+    },
+    {
      "title": "ドイツで水不足 農業や河川の輸送に影響 政府は対策を検討",
      "link": "https://news.web.nhk/newsweb/na/na-k10015199821000",
      "pubDate": "Sat, 08 Aug 2026 07:55:18 +0900"
@@ -262,11 +267,6 @@
      "title": "米 半導体や太陽光パネルの材料に追加関税 中国を念頭か",
      "link": "https://news.web.nhk/newsweb/na/na-k10015198941000",
      "pubDate": "Fri, 07 Aug 2026 11:53:02 +0900"
-    },
-    {
-     "title": "トランプ大統領 新たな「出生地主義」制限の大統領令署名",
-     "link": "https://news.web.nhk/newsweb/na/na-k10015198881000",
-     "pubDate": "Fri, 07 Aug 2026 10:48:03 +0900"
     }
    ]
   },
@@ -276,14 +276,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風13号 沖縄など影響長引く恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6590923?source=rss",
-     "pubDate": "Fri, 07 Aug 2026 22:34:39 GMT"
+     "title": "政権の積極財政「日本売り」危機",
+     "link": "https://news.yahoo.co.jp/pickup/6590927?source=rss",
+     "pubDate": "Fri, 07 Aug 2026 23:12:07 GMT"
     },
     {
-     "title": "日本郵便で障害 一部で受け取れず",
-     "link": "https://news.yahoo.co.jp/pickup/6590928?source=rss",
-     "pubDate": "Fri, 07 Aug 2026 23:00:09 GMT"
+     "title": "避難生活続く 被災地の緊急課題は",
+     "link": "https://news.yahoo.co.jp/pickup/6590935?source=rss",
+     "pubDate": "Fri, 07 Aug 2026 23:49:06 GMT"
+    },
+    {
+     "title": "53歳男性が死亡 ひき逃げの疑い",
+     "link": "https://news.yahoo.co.jp/pickup/6590934?source=rss",
+     "pubDate": "Fri, 07 Aug 2026 23:39:21 GMT"
     },
     {
      "title": "イオンの従業員誘導 規定に抵触か",
@@ -291,19 +296,14 @@
      "pubDate": "Fri, 07 Aug 2026 22:26:44 GMT"
     },
     {
-     "title": "過剰な餌「ウサギの島」に異変",
-     "link": "https://news.yahoo.co.jp/pickup/6590912?source=rss",
-     "pubDate": "Fri, 07 Aug 2026 13:28:24 GMT"
-    },
-    {
-     "title": "オープンAI 対話スピーカー発売か",
-     "link": "https://news.yahoo.co.jp/pickup/6590926?source=rss",
-     "pubDate": "Fri, 07 Aug 2026 22:49:12 GMT"
-    },
-    {
      "title": "「サ終」続くスマホゲーム 倒産増",
      "link": "https://news.yahoo.co.jp/pickup/6590925?source=rss",
      "pubDate": "Fri, 07 Aug 2026 22:47:08 GMT"
+    },
+    {
+     "title": "圧巻パフォの16歳 森保監督が絶賛",
+     "link": "https://news.yahoo.co.jp/pickup/6590933?source=rss",
+     "pubDate": "Fri, 07 Aug 2026 23:42:17 GMT"
     },
     {
      "title": "韓国サッカー 海外審判に性接待か",
@@ -311,9 +311,9 @@
      "pubDate": "Fri, 07 Aug 2026 22:25:39 GMT"
     },
     {
-     "title": "長友佑都39歳 現役続行を決断",
-     "link": "https://news.yahoo.co.jp/pickup/6590924?source=rss",
-     "pubDate": "Fri, 07 Aug 2026 22:29:28 GMT"
+     "title": "岸田タツヤ&高木由梨奈 妊娠発表",
+     "link": "https://news.yahoo.co.jp/pickup/6590940?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 00:24:29 GMT"
     }
    ]
   }
