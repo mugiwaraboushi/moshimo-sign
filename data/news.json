@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T12:21:37.532Z",
+ "updatedAt": "2026-08-09T13:27:47.514Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "長野県知事選挙 現職の阿部守一氏の5回目の当選が確実",
+     "title": "長野県知事選挙 現職の阿部守一氏の5回目の当選",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42980",
-     "pubDate": "Sun, 09 Aug 2026 20:00:00 +0900"
+     "pubDate": "Sun, 09 Aug 2026 22:12:10 +0900"
     },
     {
      "title": "長野 安曇野で土石流が発生 一時約390人が取り残される",
@@ -18,29 +18,29 @@
      "pubDate": "Sun, 09 Aug 2026 19:18:01 +0900"
     },
     {
-     "title": "東日本や東北中心に大気不安定 土砂災害など警戒を",
+     "title": "大気不安定 関東で激しい雨 浸水や川の増水など警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42956",
-     "pubDate": "Sun, 09 Aug 2026 19:27:31 +0900"
+     "pubDate": "Sun, 09 Aug 2026 21:35:45 +0900"
     },
     {
-     "title": "原爆投下から81年 “長崎を最後の被爆地に”",
+     "title": "原爆投下から81年“核兵器は絶対悪 長崎を最後の被爆地に”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42887",
-     "pubDate": "Sun, 09 Aug 2026 19:03:00 +0900"
+     "pubDate": "Sun, 09 Aug 2026 21:31:33 +0900"
     },
     {
      "title": "長崎原爆の日 被爆者や遺族などが各地で祈りささげる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42929",
-     "pubDate": "Sun, 09 Aug 2026 12:59:00 +0900"
+     "pubDate": "Sun, 09 Aug 2026 21:32:39 +0900"
     },
     {
-     "title": "熊本地震 災害関連死の疑い含めて39人死亡 避難所に6332人避難",
+     "title": "熊本地震 災害関連死の疑い含めて39人死亡 避難所に6183人避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42950",
-     "pubDate": "Sun, 09 Aug 2026 16:46:38 +0900"
+     "pubDate": "Sun, 09 Aug 2026 21:45:04 +0900"
     },
     {
-     "title": "高校野球 岡山学芸館が鳥取城北に逆転勝ち 2回戦へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42975",
-     "pubDate": "Sun, 09 Aug 2026 20:11:35 +0900"
+     "title": "陸上 女子100メートルハードル 中島ひとみが日本新記録",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42954",
+     "pubDate": "Sun, 09 Aug 2026 21:29:22 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "長崎市長 平和宣言全文 長崎原爆の日",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42991",
+     "pubDate": "Sun, 09 Aug 2026 21:41:14 +0900"
+    },
     {
      "title": "高市首相 長崎市の原爆資料館と被爆者の養護ホームを訪問",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43001",
@@ -82,7 +87,7 @@
     {
      "title": "長崎原爆の日 被爆者や遺族などが各地で祈りささげる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42929",
-     "pubDate": "Sun, 09 Aug 2026 12:59:00 +0900"
+     "pubDate": "Sun, 09 Aug 2026 21:32:39 +0900"
     },
     {
      "title": "【熊本地震 交通影響】8月9日 午前6時時点",
@@ -95,9 +100,9 @@
      "pubDate": "Sun, 09 Aug 2026 19:53:01 +0900"
     },
     {
-     "title": "原爆投下から81年 “長崎を最後の被爆地に”",
+     "title": "原爆投下から81年“核兵器は絶対悪 長崎を最後の被爆地に”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42887",
-     "pubDate": "Sun, 09 Aug 2026 19:03:00 +0900"
+     "pubDate": "Sun, 09 Aug 2026 21:31:33 +0900"
     },
     {
      "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
@@ -171,29 +176,29 @@
      "pubDate": "Sun, 09 Aug 2026 11:54:27 GMT"
     },
     {
-     "title": "米軍 熊本に飲料水約16トン支援",
-     "link": "https://news.yahoo.co.jp/pickup/6591114?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 10:29:37 GMT"
-    },
-    {
      "title": "長崎市長 平和宣言1文読み飛ばし",
      "link": "https://news.yahoo.co.jp/pickup/6591118?source=rss",
      "pubDate": "Sun, 09 Aug 2026 11:03:34 GMT"
     },
     {
-     "title": "槍ヶ岳に遺体 不明の19歳と判明",
-     "link": "https://news.yahoo.co.jp/pickup/6591123?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 11:48:45 GMT"
+     "title": "イラン最高指導者 大統領と面会",
+     "link": "https://news.yahoo.co.jp/pickup/6591127?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 12:42:37 GMT"
     },
     {
-     "title": "阿波おどりで不適切な動画 憤り",
-     "link": "https://news.yahoo.co.jp/pickup/6591066?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 01:46:46 GMT"
+     "title": "台風15号 列島を横断する可能性",
+     "link": "https://news.yahoo.co.jp/pickup/6591129?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 12:53:29 GMT"
     },
     {
-     "title": "張本兄妹 チャンピオンズで同時V",
-     "link": "https://news.yahoo.co.jp/pickup/6591121?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 11:46:56 GMT"
+     "title": "孫運転の車にはねられ 女性死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6591131?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 13:17:11 GMT"
+    },
+    {
+     "title": "西武・渡部に打球直撃 眼窩底骨折",
+     "link": "https://news.yahoo.co.jp/pickup/6591130?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 13:05:58 GMT"
     },
     {
      "title": "小川真由美さん死去 悪女役を好演",
