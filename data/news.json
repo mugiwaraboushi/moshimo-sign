@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T16:18:22.065Z",
+ "updatedAt": "2026-08-09T17:01:32.512Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -20,7 +20,7 @@
     {
      "title": "【地震速報】岐阜県と滋賀県で震度3 津波の心配なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43027",
-     "pubDate": "Mon, 10 Aug 2026 00:56:55 +0900"
+     "pubDate": "Mon, 10 Aug 2026 00:56:00 +0900"
     },
     {
      "title": "大気不安定 関東で激しい雨 浸水や川の増水など警戒を",
