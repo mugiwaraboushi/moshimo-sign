@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T20:16:41.519Z",
+ "updatedAt": "2026-08-09T20:58:01.126Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,9 +18,14 @@
      "pubDate": "Sun, 09 Aug 2026 21:45:04 +0900"
     },
     {
-     "title": "イラン ホルムズ海峡開放で米に条件提示 双方で駆け引き続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43006",
-     "pubDate": "Sun, 09 Aug 2026 23:03:12 +0900"
+     "title": "土石流で橋が流される 仮設の橋で移動可能に 長野 安曇野",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43038",
+     "pubDate": "Mon, 10 Aug 2026 05:42:14 +0900"
+    },
+    {
+     "title": "イラン 米に補償求める 米は経済的圧力示唆で駆け引き続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43045",
+     "pubDate": "Mon, 10 Aug 2026 05:45:29 +0900"
     },
     {
      "title": "長野県知事選 現職 阿部守一氏が5回目の当選 投票率は過去最低",
@@ -36,11 +41,6 @@
      "title": "俳優 小川真由美さん死去 映画「復讐するは我にあり」など活躍",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43019",
      "pubDate": "Sun, 09 Aug 2026 22:32:26 +0900"
-    },
-    {
-     "title": "熊本地震 自宅全壊の被災者の偽画像拡散 報道写真をAIで加工か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42999",
-     "pubDate": "Mon, 10 Aug 2026 00:38:25 +0900"
     }
    ]
   },
@@ -143,6 +143,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "イスラエル首相 ガザ地区の和平に向けた工程表 拒否すると表明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43024",
+     "pubDate": "Mon, 10 Aug 2026 05:53:53 +0900"
+    },
+    {
+     "title": "イラン 米に補償求める 米は経済的圧力示唆で駆け引き続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43045",
+     "pubDate": "Mon, 10 Aug 2026 05:45:29 +0900"
+    },
+    {
+     "title": "黒海周辺 ロシアとウクライナ双方が攻撃 トルコ外相停止求める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43042",
+     "pubDate": "Mon, 10 Aug 2026 05:36:51 +0900"
+    },
     {
      "title": "イラン ホルムズ海峡開放で米に条件提示 双方で駆け引き続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43006",
