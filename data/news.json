@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T13:27:47.514Z",
+ "updatedAt": "2026-08-09T14:05:03.066Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "長野県知事選挙 現職の阿部守一氏の5回目の当選",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42980",
-     "pubDate": "Sun, 09 Aug 2026 22:12:10 +0900"
+     "title": "和歌山市長選挙 新人で元県議の尾崎太郎氏 初めての当選確実",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42978",
+     "pubDate": "Sun, 09 Aug 2026 22:48:00 +0900"
     },
     {
-     "title": "長野 安曇野で土石流が発生 一時約390人が取り残される",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42947",
-     "pubDate": "Sun, 09 Aug 2026 19:18:01 +0900"
+     "title": "長野県知事選挙 現職の阿部守一氏の5回目の当選",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42980",
+     "pubDate": "Sun, 09 Aug 2026 22:56:29 +0900"
     },
     {
      "title": "大気不安定 関東で激しい雨 浸水や川の増水など警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42956",
      "pubDate": "Sun, 09 Aug 2026 21:35:45 +0900"
+    },
+    {
+     "title": "長野 安曇野で土石流が発生 一時約390人が取り残される",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42947",
+     "pubDate": "Sun, 09 Aug 2026 19:18:01 +0900"
     },
     {
      "title": "原爆投下から81年“核兵器は絶対悪 長崎を最後の被爆地に”",
@@ -36,11 +41,6 @@
      "title": "熊本地震 災害関連死の疑い含めて39人死亡 避難所に6183人避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42950",
      "pubDate": "Sun, 09 Aug 2026 21:45:04 +0900"
-    },
-    {
-     "title": "陸上 女子100メートルハードル 中島ひとみが日本新記録",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42954",
-     "pubDate": "Sun, 09 Aug 2026 21:29:22 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "山形 鶴岡 70代男性が海で浮いているのが見つかる 死亡確認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43012",
+     "pubDate": "Sun, 09 Aug 2026 22:34:09 +0900"
+    },
+    {
+     "title": "俳優 小川真由美さん死去 映画「復讐するは我にあり」など活躍",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43019",
+     "pubDate": "Sun, 09 Aug 2026 22:32:26 +0900"
+    },
     {
      "title": "長崎市長 平和宣言全文 長崎原爆の日",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42991",
@@ -129,6 +139,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "イラン ホルムズ海峡開放で米に条件提示 双方で駆け引き続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43006",
+     "pubDate": "Sun, 09 Aug 2026 23:03:12 +0900"
+    },
+    {
      "title": "中国 7月の消費者物価指数 前年同月比0.5％↑もデフレ懸念続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42962",
      "pubDate": "Sun, 09 Aug 2026 14:41:22 +0900"
@@ -139,7 +154,7 @@
      "pubDate": "Sun, 09 Aug 2026 12:49:48 +0900"
     },
     {
-     "title": "ゼレンスキー大統領“北朝鮮が3～5万人をロシアに派兵決定”",
+     "title": "ゼレンスキー大統領“北朝鮮3万人から5万人ロシアに派兵決定”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42945",
      "pubDate": "Sun, 09 Aug 2026 11:17:00 +0900"
     },
@@ -171,19 +186,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "熊本地震 家屋被害2万棟超える",
+     "link": "https://news.yahoo.co.jp/pickup/6591128?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 12:51:54 GMT"
+    },
+    {
      "title": "血で染まった洗面器 8/9の記憶",
      "link": "https://news.yahoo.co.jp/pickup/6591122?source=rss",
      "pubDate": "Sun, 09 Aug 2026 11:54:27 GMT"
-    },
-    {
-     "title": "長崎市長 平和宣言1文読み飛ばし",
-     "link": "https://news.yahoo.co.jp/pickup/6591118?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 11:03:34 GMT"
-    },
-    {
-     "title": "イラン最高指導者 大統領と面会",
-     "link": "https://news.yahoo.co.jp/pickup/6591127?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 12:42:37 GMT"
     },
     {
      "title": "台風15号 列島を横断する可能性",
@@ -196,19 +206,24 @@
      "pubDate": "Sun, 09 Aug 2026 13:17:11 GMT"
     },
     {
+     "title": "JR東海「夜行」新幹線 客4割女性",
+     "link": "https://news.yahoo.co.jp/pickup/6591134?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 13:32:42 GMT"
+    },
+    {
      "title": "西武・渡部に打球直撃 眼窩底骨折",
      "link": "https://news.yahoo.co.jp/pickup/6591130?source=rss",
      "pubDate": "Sun, 09 Aug 2026 13:05:58 GMT"
     },
     {
+     "title": "W結婚発表 STARTOでは5年ぶり",
+     "link": "https://news.yahoo.co.jp/pickup/6591132?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 13:25:16 GMT"
+    },
+    {
      "title": "小川真由美さん死去 悪女役を好演",
      "link": "https://news.yahoo.co.jp/pickup/6591124?source=rss",
      "pubDate": "Sun, 09 Aug 2026 11:56:51 GMT"
-    },
-    {
-     "title": "重岡大毅結婚「新しい命迎えた」",
-     "link": "https://news.yahoo.co.jp/pickup/6591119?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 11:16:03 GMT"
     }
    ]
   }
