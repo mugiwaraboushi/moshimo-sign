@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T00:41:33.369Z",
+ "updatedAt": "2026-08-09T02:54:21.710Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "長野 安曇野で土砂崩れ 約390人が孤立状態に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42947",
+     "pubDate": "Sun, 09 Aug 2026 11:00:00 +0900"
+    },
+    {
      "title": "原爆投下から81年 “長崎を最後の被爆地に”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42887",
      "pubDate": "Sun, 09 Aug 2026 05:13:00 +0900"
-    },
-    {
-     "title": "【地震情報】熊本 上天草市で震度4 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42935",
-     "pubDate": "Sun, 09 Aug 2026 08:34:33 +0900"
-    },
-    {
-     "title": "長崎原爆の日 被爆者や遺族などが各地で祈りささげる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42929",
-     "pubDate": "Sun, 09 Aug 2026 09:34:56 +0900"
-    },
-    {
-     "title": "熊本 きょうも各地で厳しい暑さ 復旧作業では熱中症に注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42886",
-     "pubDate": "Sun, 09 Aug 2026 05:59:00 +0900"
     },
     {
      "title": "台風13号 高波強風影響続く 台風15号の進路にも注意を",
@@ -33,14 +23,24 @@
      "pubDate": "Sun, 09 Aug 2026 09:09:47 +0900"
     },
     {
-     "title": "「韓国サッカー協会が外国人審判員に性的接待」韓国メディア",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42863",
-     "pubDate": "Sun, 09 Aug 2026 01:55:00 +0900"
+     "title": "長崎原爆の日 被爆者や遺族などが各地で祈りささげる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42929",
+     "pubDate": "Sun, 09 Aug 2026 11:12:06 +0900"
     },
     {
-     "title": "イラン“通航再開は米の補償も条件” “交渉は停滞”報道も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42920",
-     "pubDate": "Sun, 09 Aug 2026 05:55:46 +0900"
+     "title": "熊本 きょうも各地で厳しい暑さ 復旧作業では熱中症に注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42886",
+     "pubDate": "Sun, 09 Aug 2026 05:59:00 +0900"
+    },
+    {
+     "title": "ゼレンスキー大統領“北朝鮮が3～5万人をロシアに派兵決定”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42945",
+     "pubDate": "Sun, 09 Aug 2026 11:17:35 +0900"
+    },
+    {
+     "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42912",
+     "pubDate": "Sun, 09 Aug 2026 11:41:09 +0900"
     }
    ]
   },
@@ -52,7 +52,7 @@
     {
      "title": "長崎原爆の日 被爆者や遺族などが各地で祈りささげる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42929",
-     "pubDate": "Sun, 09 Aug 2026 09:34:56 +0900"
+     "pubDate": "Sun, 09 Aug 2026 11:12:06 +0900"
     },
     {
      "title": "【熊本地震 交通影響】8月9日 午前6時時点",
@@ -72,7 +72,7 @@
     {
      "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42912",
-     "pubDate": "Sun, 09 Aug 2026 05:10:43 +0900"
+     "pubDate": "Sun, 09 Aug 2026 11:41:09 +0900"
     },
     {
      "title": "愛知県内で水難事故相次ぐ 2人死亡",
@@ -89,7 +89,7 @@
     {
      "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42912",
-     "pubDate": "Sun, 09 Aug 2026 05:10:43 +0900"
+     "pubDate": "Sun, 09 Aug 2026 11:41:09 +0900"
     }
    ]
   },
@@ -98,6 +98,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "ゼレンスキー大統領“北朝鮮が3～5万人をロシアに派兵決定”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42945",
+     "pubDate": "Sun, 09 Aug 2026 11:17:35 +0900"
+    },
     {
      "title": "ゼレンスキー大統領がセルビア初訪問 ロシアけん制のねらいも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42889",
@@ -126,44 +131,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "平和祈念像 彫刻家がこめた情熱",
-     "link": "https://news.yahoo.co.jp/pickup/6591055?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 23:46:58 GMT"
+     "title": "中継 長崎「原爆の日」の平和式典",
+     "link": "https://news.yahoo.co.jp/pickup/6591059?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 01:31:02 GMT"
     },
     {
-     "title": "米中間選挙 岩盤層「MAGA」健在",
-     "link": "https://news.yahoo.co.jp/pickup/6591048?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 23:28:01 GMT"
+     "title": "台風15号 東から西に本州横断か",
+     "link": "https://news.yahoo.co.jp/pickup/6591062?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 01:25:52 GMT"
     },
     {
-     "title": "長野で土砂崩落 400人近く孤立か",
-     "link": "https://news.yahoo.co.jp/pickup/6591053?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 23:48:20 GMT"
+     "title": "バイデン氏はがん転移し激痛 報道",
+     "link": "https://news.yahoo.co.jp/pickup/6591069?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 02:08:20 GMT"
     },
     {
-     "title": "男性はねられ死亡 ひき逃げで捜査",
-     "link": "https://news.yahoo.co.jp/pickup/6591045?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 22:51:41 GMT"
+     "title": "阿波おどりで不適切な動画 憤り",
+     "link": "https://news.yahoo.co.jp/pickup/6591066?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 01:46:46 GMT"
     },
     {
-     "title": "ソニーがタムロンに買収提案 なぜ",
-     "link": "https://news.yahoo.co.jp/pickup/6591046?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 22:54:18 GMT"
+     "title": "SNSで紹介した川で事故 責任は",
+     "link": "https://news.yahoo.co.jp/pickup/6591058?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 00:50:34 GMT"
     },
     {
-     "title": "W杯で負傷の久保建英 実戦復帰",
-     "link": "https://news.yahoo.co.jp/pickup/6591047?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 23:14:45 GMT"
+     "title": "速報 Dバックスvs.ドジャース",
+     "link": "https://news.yahoo.co.jp/pickup/6591073?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 02:42:51 GMT"
     },
     {
-     "title": "速報ドジャース 山本由伸が先発",
-     "link": "https://news.yahoo.co.jp/pickup/6591056?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 23:58:52 GMT"
+     "title": "甲子園 花巻東が2年連続初戦突破",
+     "link": "https://news.yahoo.co.jp/pickup/6591068?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 01:49:45 GMT"
     },
     {
-     "title": "HIKAKIN 第2子誕生を公表",
-     "link": "https://news.yahoo.co.jp/pickup/6591057?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 00:22:11 GMT"
+     "title": "覆面のホラー作家 雨穴さんの熱意",
+     "link": "https://news.yahoo.co.jp/pickup/6591071?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 02:22:55 GMT"
     }
    ]
   }
