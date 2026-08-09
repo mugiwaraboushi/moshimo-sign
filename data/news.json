@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T11:51:40.922Z",
+ "updatedAt": "2026-08-09T12:21:37.532Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -166,14 +166,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "血で染まった洗面器 8/9の記憶",
+     "link": "https://news.yahoo.co.jp/pickup/6591122?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 11:54:27 GMT"
+    },
+    {
      "title": "米軍 熊本に飲料水約16トン支援",
      "link": "https://news.yahoo.co.jp/pickup/6591114?source=rss",
      "pubDate": "Sun, 09 Aug 2026 10:29:37 GMT"
-    },
-    {
-     "title": "沖縄戦犠牲の祖母 戸籍再製できず",
-     "link": "https://news.yahoo.co.jp/pickup/6591106?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 08:49:19 GMT"
     },
     {
      "title": "長崎市長 平和宣言1文読み飛ばし",
@@ -181,9 +181,9 @@
      "pubDate": "Sun, 09 Aug 2026 11:03:34 GMT"
     },
     {
-     "title": "遊泳中に女性3人溺れる 1人死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6591112?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 09:50:54 GMT"
+     "title": "槍ヶ岳に遺体 不明の19歳と判明",
+     "link": "https://news.yahoo.co.jp/pickup/6591123?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 11:48:45 GMT"
     },
     {
      "title": "阿波おどりで不適切な動画 憤り",
@@ -191,14 +191,14 @@
      "pubDate": "Sun, 09 Aug 2026 01:46:46 GMT"
     },
     {
-     "title": "車内で運転手寝入り バス47分遅延",
-     "link": "https://news.yahoo.co.jp/pickup/6591116?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 10:46:52 GMT"
-    },
-    {
      "title": "張本兄妹 チャンピオンズで同時V",
      "link": "https://news.yahoo.co.jp/pickup/6591121?source=rss",
      "pubDate": "Sun, 09 Aug 2026 11:46:56 GMT"
+    },
+    {
+     "title": "小川真由美さん死去 悪女役を好演",
+     "link": "https://news.yahoo.co.jp/pickup/6591124?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 11:56:51 GMT"
     },
     {
      "title": "重岡大毅結婚「新しい命迎えた」",
