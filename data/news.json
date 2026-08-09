@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T10:58:24.110Z",
+ "updatedAt": "2026-08-09T11:24:28.117Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "長野県知事選挙 現職の阿部守一氏の5回目の当選が確実",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42980",
+     "pubDate": "Sun, 09 Aug 2026 20:00:10 +0900"
+    },
     {
      "title": "長野 安曇野で土石流が発生 一時約390人が取り残される",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42947",
@@ -33,14 +38,9 @@
      "pubDate": "Sun, 09 Aug 2026 16:46:38 +0900"
     },
     {
-     "title": "地震で被害の生花店 お盆に向け再開【9日 被災地の動き】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42973",
-     "pubDate": "Sun, 09 Aug 2026 16:41:00 +0900"
-    },
-    {
      "title": "高校野球 岡山学芸館が鳥取城北に逆転勝ち 2回戦へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42975",
-     "pubDate": "Sun, 09 Aug 2026 19:53:07 +0900"
+     "pubDate": "Sun, 09 Aug 2026 20:11:35 +0900"
     }
    ]
   },
@@ -166,9 +166,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "原爆の記憶忘れる前に 語る97歳",
-     "link": "https://news.yahoo.co.jp/pickup/6591104?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 08:23:19 GMT"
+     "title": "米軍 熊本に飲料水約16トン支援",
+     "link": "https://news.yahoo.co.jp/pickup/6591114?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 10:29:37 GMT"
     },
     {
      "title": "沖縄戦犠牲の祖母 戸籍再製できず",
@@ -176,9 +176,9 @@
      "pubDate": "Sun, 09 Aug 2026 08:49:19 GMT"
     },
     {
-     "title": "台湾 長崎式典の席巡り異例の抗議",
-     "link": "https://news.yahoo.co.jp/pickup/6591107?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 08:40:58 GMT"
+     "title": "長崎市長 平和宣言1文読み飛ばし",
+     "link": "https://news.yahoo.co.jp/pickup/6591118?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 11:03:34 GMT"
     },
     {
      "title": "遊泳中に女性3人溺れる 1人死亡",
@@ -191,19 +191,19 @@
      "pubDate": "Sun, 09 Aug 2026 09:18:46 GMT"
     },
     {
-     "title": "甲子園に「フラガール」OGも参戦",
-     "link": "https://news.yahoo.co.jp/pickup/6591115?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 10:30:11 GMT"
+     "title": "車内で運転手寝入り バス47分遅延",
+     "link": "https://news.yahoo.co.jp/pickup/6591116?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 10:46:52 GMT"
+    },
+    {
+     "title": "張本美和 前年覇者を破り初優勝",
+     "link": "https://news.yahoo.co.jp/pickup/6591117?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 10:57:52 GMT"
     },
     {
      "title": "重岡大毅と濵田崇裕 結婚をW発表",
      "link": "https://news.yahoo.co.jp/pickup/6591110?source=rss",
      "pubDate": "Sun, 09 Aug 2026 09:30:38 GMT"
-    },
-    {
-     "title": "元日解散した天竺鼠 KOCに参加",
-     "link": "https://news.yahoo.co.jp/pickup/6591103?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 08:23:33 GMT"
     }
    ]
   }
