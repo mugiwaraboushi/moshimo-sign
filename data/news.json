@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T14:05:03.066Z",
+ "updatedAt": "2026-08-09T14:57:57.431Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "和歌山市長選挙 新人で元県議の尾崎太郎氏 初めての当選確実",
+     "title": "和歌山市長選挙 新人で元県議の尾崎太郎氏 初当選",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42978",
-     "pubDate": "Sun, 09 Aug 2026 22:48:00 +0900"
+     "pubDate": "Sun, 09 Aug 2026 23:48:29 +0900"
     },
     {
      "title": "長野県知事選挙 現職の阿部守一氏の5回目の当選",
@@ -23,24 +23,24 @@
      "pubDate": "Sun, 09 Aug 2026 21:35:45 +0900"
     },
     {
-     "title": "長野 安曇野で土石流が発生 一時約390人が取り残される",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42947",
-     "pubDate": "Sun, 09 Aug 2026 19:18:01 +0900"
-    },
-    {
      "title": "原爆投下から81年“核兵器は絶対悪 長崎を最後の被爆地に”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42887",
      "pubDate": "Sun, 09 Aug 2026 21:31:33 +0900"
     },
     {
-     "title": "長崎原爆の日 被爆者や遺族などが各地で祈りささげる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42929",
-     "pubDate": "Sun, 09 Aug 2026 21:32:39 +0900"
-    },
-    {
      "title": "熊本地震 災害関連死の疑い含めて39人死亡 避難所に6183人避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42950",
      "pubDate": "Sun, 09 Aug 2026 21:45:04 +0900"
+    },
+    {
+     "title": "熊本地震 自宅全壊の被災者の偽画像拡散 報道写真をAIで加工か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42999",
+     "pubDate": "Sun, 09 Aug 2026 23:33:33 +0900"
+    },
+    {
+     "title": "長崎原爆の日 被爆者や遺族などが各地で祈りささげる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42929",
+     "pubDate": "Sun, 09 Aug 2026 21:32:39 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "熊本地震 自宅全壊の被災者の偽画像拡散 報道写真をAIで加工か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42999",
+     "pubDate": "Sun, 09 Aug 2026 23:33:33 +0900"
+    },
     {
      "title": "山形 鶴岡 70代男性が海で浮いているのが見つかる 死亡確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43012",
@@ -186,11 +191,6 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "熊本地震 家屋被害2万棟超える",
-     "link": "https://news.yahoo.co.jp/pickup/6591128?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 12:51:54 GMT"
-    },
-    {
      "title": "血で染まった洗面器 8/9の記憶",
      "link": "https://news.yahoo.co.jp/pickup/6591122?source=rss",
      "pubDate": "Sun, 09 Aug 2026 11:54:27 GMT"
@@ -199,6 +199,21 @@
      "title": "台風15号 列島を横断する可能性",
      "link": "https://news.yahoo.co.jp/pickup/6591129?source=rss",
      "pubDate": "Sun, 09 Aug 2026 12:53:29 GMT"
+    },
+    {
+     "title": "ガザ和平工程 ネタニヤフ氏が拒否",
+     "link": "https://news.yahoo.co.jp/pickup/6591133?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 13:35:29 GMT"
+    },
+    {
+     "title": "長野県知事選 現職の阿部氏が5選",
+     "link": "https://news.yahoo.co.jp/pickup/6591137?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 14:46:18 GMT"
+    },
+    {
+     "title": "イオン 自己判断で店内戻った人も",
+     "link": "https://news.yahoo.co.jp/pickup/6591135?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 14:12:52 GMT"
     },
     {
      "title": "孫運転の車にはねられ 女性死亡",
@@ -211,19 +226,9 @@
      "pubDate": "Sun, 09 Aug 2026 13:32:42 GMT"
     },
     {
-     "title": "西武・渡部に打球直撃 眼窩底骨折",
-     "link": "https://news.yahoo.co.jp/pickup/6591130?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 13:05:58 GMT"
-    },
-    {
      "title": "W結婚発表 STARTOでは5年ぶり",
      "link": "https://news.yahoo.co.jp/pickup/6591132?source=rss",
      "pubDate": "Sun, 09 Aug 2026 13:25:16 GMT"
-    },
-    {
-     "title": "小川真由美さん死去 悪女役を好演",
-     "link": "https://news.yahoo.co.jp/pickup/6591124?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 11:56:51 GMT"
     }
    ]
   }
