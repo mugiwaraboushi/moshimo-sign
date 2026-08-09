@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T04:07:04.101Z",
+ "updatedAt": "2026-08-09T05:27:33.208Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,6 +8,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "秋田 湯沢で記録的短時間大雨",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42968",
+     "pubDate": "Sun, 09 Aug 2026 14:01:24 +0900"
+    },
+    {
+     "title": "東北と東日本中心に大気不安定 土砂災害など十分注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42956",
+     "pubDate": "Sun, 09 Aug 2026 14:05:27 +0900"
+    },
+    {
      "title": "長野 安曇野で土石流が発生 約390人が取り残されたか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42947",
      "pubDate": "Sun, 09 Aug 2026 12:31:43 +0900"
@@ -15,7 +25,7 @@
     {
      "title": "原爆投下から81年 “長崎を最後の被爆地に”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42887",
-     "pubDate": "Sun, 09 Aug 2026 12:59:53 +0900"
+     "pubDate": "Sun, 09 Aug 2026 14:01:45 +0900"
     },
     {
      "title": "長崎原爆の日 被爆者や遺族などが各地で祈りささげる",
@@ -23,24 +33,14 @@
      "pubDate": "Sun, 09 Aug 2026 12:59:41 +0900"
     },
     {
-     "title": "台風13号 高波強風影響続く 台風15号の進路にも注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42871",
-     "pubDate": "Sun, 09 Aug 2026 12:55:35 +0900"
-    },
-    {
      "title": "熊本地震 被災地は厳しい暑さ できるかぎりの熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42886",
      "pubDate": "Sun, 09 Aug 2026 13:02:23 +0900"
     },
     {
-     "title": "ゼレンスキー大統領“北朝鮮が3～5万人をロシアに派兵決定”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42945",
-     "pubDate": "Sun, 09 Aug 2026 11:17:35 +0900"
-    },
-    {
-     "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42912",
-     "pubDate": "Sun, 09 Aug 2026 11:41:09 +0900"
+     "title": "高校野球 花巻東が小刻みに得点重ね新田に勝利 2回戦進出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42964",
+     "pubDate": "Sun, 09 Aug 2026 13:41:54 +0900"
     }
    ]
   },
@@ -62,12 +62,12 @@
     {
      "title": "【動画】Pickup NEWS（8月9日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260808de42858",
-     "pubDate": "Sun, 09 Aug 2026 06:00:56 +0900"
+     "pubDate": "Sun, 09 Aug 2026 14:07:48 +0900"
     },
     {
      "title": "原爆投下から81年 “長崎を最後の被爆地に”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42887",
-     "pubDate": "Sun, 09 Aug 2026 12:59:53 +0900"
+     "pubDate": "Sun, 09 Aug 2026 14:01:45 +0900"
     },
     {
      "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
@@ -106,7 +106,7 @@
     {
      "title": "ゼレンスキー大統領“北朝鮮が3～5万人をロシアに派兵決定”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42945",
-     "pubDate": "Sun, 09 Aug 2026 11:17:35 +0900"
+     "pubDate": "Sun, 09 Aug 2026 11:17:00 +0900"
     },
     {
      "title": "ゼレンスキー大統領がセルビア初訪問 ロシアけん制のねらいも",
@@ -141,19 +141,19 @@
      "pubDate": "Sun, 09 Aug 2026 03:24:05 GMT"
     },
     {
-     "title": "非核三原則 堅持求める地方議会増",
-     "link": "https://news.yahoo.co.jp/pickup/6591061?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 01:09:59 GMT"
-    },
-    {
-     "title": "バイデン氏はがん転移し激痛 報道",
-     "link": "https://news.yahoo.co.jp/pickup/6591069?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 02:08:20 GMT"
+     "title": "所得連動給付 政府が法整備検討",
+     "link": "https://news.yahoo.co.jp/pickup/6591067?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 02:18:16 GMT"
     },
     {
      "title": "80歳母を踏み死亡させた疑い 逮捕",
      "link": "https://news.yahoo.co.jp/pickup/6591076?source=rss",
      "pubDate": "Sun, 09 Aug 2026 03:39:42 GMT"
+    },
+    {
+     "title": "槍ヶ岳に遺体 付近では19歳が不明",
+     "link": "https://news.yahoo.co.jp/pickup/6591079?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 04:31:04 GMT"
     },
     {
      "title": "阿波おどりで不適切な動画 憤り",
@@ -171,9 +171,9 @@
      "pubDate": "Sun, 09 Aug 2026 03:53:33 GMT"
     },
     {
-     "title": "覆面のホラー作家 雨穴さんの熱意",
-     "link": "https://news.yahoo.co.jp/pickup/6591071?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 02:22:55 GMT"
+     "title": "山本由伸が好投 体調不良から回復",
+     "link": "https://news.yahoo.co.jp/pickup/6591083?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 05:08:20 GMT"
     }
    ]
   }
