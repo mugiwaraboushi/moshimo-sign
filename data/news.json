@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T10:01:29.512Z",
+ "updatedAt": "2026-08-09T10:58:24.110Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,17 +10,17 @@
     {
      "title": "長野 安曇野で土石流が発生 一時約390人が取り残される",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42947",
-     "pubDate": "Sun, 09 Aug 2026 18:46:54 +0900"
+     "pubDate": "Sun, 09 Aug 2026 19:18:01 +0900"
     },
     {
-     "title": "台風16号が発生 付近を通る船舶に注意呼びかけ 気象庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42994",
-     "pubDate": "Sun, 09 Aug 2026 17:35:30 +0900"
+     "title": "東日本や東北中心に大気不安定 土砂災害など警戒を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42956",
+     "pubDate": "Sun, 09 Aug 2026 19:27:31 +0900"
     },
     {
      "title": "原爆投下から81年 “長崎を最後の被爆地に”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42887",
-     "pubDate": "Sun, 09 Aug 2026 14:01:45 +0900"
+     "pubDate": "Sun, 09 Aug 2026 19:03:00 +0900"
     },
     {
      "title": "長崎原爆の日 被爆者や遺族などが各地で祈りささげる",
@@ -35,12 +35,12 @@
     {
      "title": "地震で被害の生花店 お盆に向け再開【9日 被災地の動き】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42973",
-     "pubDate": "Sun, 09 Aug 2026 16:41:19 +0900"
+     "pubDate": "Sun, 09 Aug 2026 16:41:00 +0900"
     },
     {
-     "title": "高校野球 岡山学芸館が鳥取城北に勝利 2回戦へ",
+     "title": "高校野球 岡山学芸館が鳥取城北に逆転勝ち 2回戦へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42975",
-     "pubDate": "Sun, 09 Aug 2026 18:31:43 +0900"
+     "pubDate": "Sun, 09 Aug 2026 19:53:07 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "高市首相 長崎市の原爆資料館と被爆者の養護ホームを訪問",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43001",
+     "pubDate": "Sun, 09 Aug 2026 19:38:22 +0900"
+    },
+    {
+     "title": "被爆体験を描いた紙芝居で小中学生と平和の尊さ学ぶ 水戸",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43002",
+     "pubDate": "Sun, 09 Aug 2026 19:20:17 +0900"
+    },
+    {
+     "title": "茨城 鉾田 2人が沖合に流され23歳女性が死亡 離岸流か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43003",
+     "pubDate": "Sun, 09 Aug 2026 19:15:51 +0900"
+    },
     {
      "title": "平和祈念式典 被爆者代表「平和への誓い」全文 長崎原爆の日",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42995",
@@ -77,12 +92,12 @@
     {
      "title": "【動画】Pickup NEWS（8月9日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260808de42858",
-     "pubDate": "Sun, 09 Aug 2026 14:07:48 +0900"
+     "pubDate": "Sun, 09 Aug 2026 19:53:01 +0900"
     },
     {
      "title": "原爆投下から81年 “長崎を最後の被爆地に”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42887",
-     "pubDate": "Sun, 09 Aug 2026 14:01:45 +0900"
+     "pubDate": "Sun, 09 Aug 2026 19:03:00 +0900"
     },
     {
      "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
@@ -156,9 +171,9 @@
      "pubDate": "Sun, 09 Aug 2026 08:23:19 GMT"
     },
     {
-     "title": "橋流され390人が孤立 下山始まる",
-     "link": "https://news.yahoo.co.jp/pickup/6591105?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 08:35:31 GMT"
+     "title": "沖縄戦犠牲の祖母 戸籍再製できず",
+     "link": "https://news.yahoo.co.jp/pickup/6591106?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 08:49:19 GMT"
     },
     {
      "title": "台湾 長崎式典の席巡り異例の抗議",
@@ -176,9 +191,9 @@
      "pubDate": "Sun, 09 Aug 2026 09:18:46 GMT"
     },
     {
-     "title": "がれきの下にチワワ 15h後に救出",
-     "link": "https://news.yahoo.co.jp/pickup/6591100?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 07:59:25 GMT"
+     "title": "甲子園に「フラガール」OGも参戦",
+     "link": "https://news.yahoo.co.jp/pickup/6591115?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 10:30:11 GMT"
     },
     {
      "title": "重岡大毅と濵田崇裕 結婚をW発表",
@@ -186,9 +201,9 @@
      "pubDate": "Sun, 09 Aug 2026 09:30:38 GMT"
     },
     {
-     "title": "俳優・小川真由美さん 3月に死去",
-     "link": "https://news.yahoo.co.jp/pickup/6591102?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 08:16:07 GMT"
+     "title": "元日解散した天竺鼠 KOCに参加",
+     "link": "https://news.yahoo.co.jp/pickup/6591103?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 08:23:33 GMT"
     }
    ]
   }
