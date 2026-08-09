@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T07:28:20.670Z",
+ "updatedAt": "2026-08-09T08:06:59.812Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "山形新幹線 大雨で大石田～新庄間の上下線で運転見合わせ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42997",
+     "pubDate": "Sun, 09 Aug 2026 17:00:24 +0900"
+    },
+    {
      "title": "熊本地震 災害関連死の疑い含めて39人死亡 避難所に6332人避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42950",
-     "pubDate": "Sun, 09 Aug 2026 15:51:27 +0900"
+     "pubDate": "Sun, 09 Aug 2026 16:46:38 +0900"
     },
     {
      "title": "長野 安曇野で土石流が発生 約390人が取り残されたか",
@@ -23,9 +28,9 @@
      "pubDate": "Sun, 09 Aug 2026 14:05:27 +0900"
     },
     {
-     "title": "秋田 湯沢市にレベル4土砂災害危険警報 厳重な警戒を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42972",
-     "pubDate": "Sun, 09 Aug 2026 14:49:54 +0900"
+     "title": "高市首相 内閣改造 党役員人事“現時点で申し上げることない”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42974",
+     "pubDate": "Sun, 09 Aug 2026 16:27:03 +0900"
     },
     {
      "title": "原爆投下から81年 “長崎を最後の被爆地に”",
@@ -36,11 +41,6 @@
      "title": "長崎原爆の日 被爆者や遺族などが各地で祈りささげる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42929",
      "pubDate": "Sun, 09 Aug 2026 12:59:00 +0900"
-    },
-    {
-     "title": "高校野球 花巻東が小刻みに得点重ね新田に勝利 2回戦進出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42964",
-     "pubDate": "Sun, 09 Aug 2026 16:00:25 +0900"
     }
    ]
   },
@@ -151,6 +151,11 @@
      "pubDate": "Sun, 09 Aug 2026 07:02:16 GMT"
     },
     {
+     "title": "がれきの下にチワワ 15h後に救出",
+     "link": "https://news.yahoo.co.jp/pickup/6591100?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 07:59:25 GMT"
+    },
+    {
      "title": "槍ヶ岳に遺体 付近では19歳が不明",
      "link": "https://news.yahoo.co.jp/pickup/6591079?source=rss",
      "pubDate": "Sun, 09 Aug 2026 04:31:04 GMT"
@@ -164,11 +169,6 @@
      "title": "強迫性障害 納得いくまで体洗う",
      "link": "https://news.yahoo.co.jp/pickup/6591095?source=rss",
      "pubDate": "Sun, 09 Aug 2026 06:45:24 GMT"
-    },
-    {
-     "title": "66歳で司法試験に合格 挑戦の理由",
-     "link": "https://news.yahoo.co.jp/pickup/6591088?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 06:00:50 GMT"
     },
     {
      "title": "俳優・黒田勇樹 お笑いコンビ加入",
