@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T11:24:28.117Z",
+ "updatedAt": "2026-08-09T11:51:40.922Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "長野県知事選挙 現職の阿部守一氏の5回目の当選が確実",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42980",
-     "pubDate": "Sun, 09 Aug 2026 20:00:10 +0900"
+     "pubDate": "Sun, 09 Aug 2026 20:00:00 +0900"
     },
     {
      "title": "長野 安曇野で土石流が発生 一時約390人が取り残される",
@@ -186,9 +186,9 @@
      "pubDate": "Sun, 09 Aug 2026 09:50:54 GMT"
     },
     {
-     "title": "波にさらわれ男性死亡 海岸散歩中",
-     "link": "https://news.yahoo.co.jp/pickup/6591108?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 09:18:46 GMT"
+     "title": "阿波おどりで不適切な動画 憤り",
+     "link": "https://news.yahoo.co.jp/pickup/6591066?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 01:46:46 GMT"
     },
     {
      "title": "車内で運転手寝入り バス47分遅延",
@@ -196,14 +196,14 @@
      "pubDate": "Sun, 09 Aug 2026 10:46:52 GMT"
     },
     {
-     "title": "張本美和 前年覇者を破り初優勝",
-     "link": "https://news.yahoo.co.jp/pickup/6591117?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 10:57:52 GMT"
+     "title": "張本兄妹 チャンピオンズで同時V",
+     "link": "https://news.yahoo.co.jp/pickup/6591121?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 11:46:56 GMT"
     },
     {
-     "title": "重岡大毅と濵田崇裕 結婚をW発表",
-     "link": "https://news.yahoo.co.jp/pickup/6591110?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 09:30:38 GMT"
+     "title": "重岡大毅結婚「新しい命迎えた」",
+     "link": "https://news.yahoo.co.jp/pickup/6591119?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 11:16:03 GMT"
     }
    ]
   }
