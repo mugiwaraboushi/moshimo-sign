@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T23:50:04.584Z",
+ "updatedAt": "2026-08-09T00:41:33.369Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【地震情報】熊本 上天草市で震度4 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42935",
-     "pubDate": "Sun, 09 Aug 2026 08:34:33 +0900"
-    },
-    {
      "title": "原爆投下から81年 “長崎を最後の被爆地に”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42887",
      "pubDate": "Sun, 09 Aug 2026 05:13:00 +0900"
     },
     {
+     "title": "【地震情報】熊本 上天草市で震度4 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42935",
+     "pubDate": "Sun, 09 Aug 2026 08:34:33 +0900"
+    },
+    {
      "title": "長崎原爆の日 被爆者や遺族などが各地で祈りささげる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42929",
-     "pubDate": "Sun, 09 Aug 2026 08:22:51 +0900"
+     "pubDate": "Sun, 09 Aug 2026 09:34:56 +0900"
     },
     {
      "title": "熊本 きょうも各地で厳しい暑さ 復旧作業では熱中症に注意",
@@ -30,7 +30,7 @@
     {
      "title": "台風13号 高波強風影響続く 台風15号の進路にも注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260808de42871",
-     "pubDate": "Sun, 09 Aug 2026 07:58:45 +0900"
+     "pubDate": "Sun, 09 Aug 2026 09:09:47 +0900"
     },
     {
      "title": "「韓国サッカー協会が外国人審判員に性的接待」韓国メディア",
@@ -52,7 +52,7 @@
     {
      "title": "長崎原爆の日 被爆者や遺族などが各地で祈りささげる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42929",
-     "pubDate": "Sun, 09 Aug 2026 08:22:51 +0900"
+     "pubDate": "Sun, 09 Aug 2026 09:34:56 +0900"
     },
     {
      "title": "【熊本地震 交通影響】8月9日 午前6時時点",
@@ -126,19 +126,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "熊本県で最大震度4 津波心配なし",
-     "link": "https://news.yahoo.co.jp/pickup/6591050?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 23:08:40 GMT"
+     "title": "平和祈念像 彫刻家がこめた情熱",
+     "link": "https://news.yahoo.co.jp/pickup/6591055?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 23:46:58 GMT"
     },
     {
-     "title": "大飯原発3号機自動停止 警報発信",
-     "link": "https://news.yahoo.co.jp/pickup/6591044?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 22:47:35 GMT"
+     "title": "米中間選挙 岩盤層「MAGA」健在",
+     "link": "https://news.yahoo.co.jp/pickup/6591048?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 23:28:01 GMT"
     },
     {
-     "title": "息子助けようと川に 父親溺れ死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6591035?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 14:28:15 GMT"
+     "title": "長野で土砂崩落 400人近く孤立か",
+     "link": "https://news.yahoo.co.jp/pickup/6591053?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 23:48:20 GMT"
     },
     {
      "title": "男性はねられ死亡 ひき逃げで捜査",
@@ -156,14 +156,14 @@
      "pubDate": "Sat, 08 Aug 2026 23:14:45 GMT"
     },
     {
-     "title": "オリ平野佳寿 今季限りで引退へ",
-     "link": "https://news.yahoo.co.jp/pickup/6591040?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 22:29:48 GMT"
+     "title": "速報ドジャース 山本由伸が先発",
+     "link": "https://news.yahoo.co.jp/pickup/6591056?source=rss",
+     "pubDate": "Sat, 08 Aug 2026 23:58:52 GMT"
     },
     {
-     "title": "速報甲子園 新田vs.花巻東",
-     "link": "https://news.yahoo.co.jp/pickup/6591042?source=rss",
-     "pubDate": "Sat, 08 Aug 2026 22:53:57 GMT"
+     "title": "HIKAKIN 第2子誕生を公表",
+     "link": "https://news.yahoo.co.jp/pickup/6591057?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 00:22:11 GMT"
     }
    ]
   }
