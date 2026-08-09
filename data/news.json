@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T06:06:15.127Z",
+ "updatedAt": "2026-08-09T07:28:20.670Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "秋田 湯沢市にレベル4土砂災害危険警報 厳重な警戒を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42972",
-     "pubDate": "Sun, 09 Aug 2026 14:49:54 +0900"
+     "title": "熊本地震 災害関連死の疑い含めて39人死亡 避難所に6332人避難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42950",
+     "pubDate": "Sun, 09 Aug 2026 15:51:27 +0900"
+    },
+    {
+     "title": "長野 安曇野で土石流が発生 約390人が取り残されたか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42947",
+     "pubDate": "Sun, 09 Aug 2026 16:14:47 +0900"
     },
     {
      "title": "東北と東日本中心に大気不安定 土砂災害など十分注意を",
@@ -18,9 +23,9 @@
      "pubDate": "Sun, 09 Aug 2026 14:05:27 +0900"
     },
     {
-     "title": "長野 安曇野で土石流が発生 約390人が取り残されたか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42947",
-     "pubDate": "Sun, 09 Aug 2026 12:31:43 +0900"
+     "title": "秋田 湯沢市にレベル4土砂災害危険警報 厳重な警戒を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42972",
+     "pubDate": "Sun, 09 Aug 2026 14:49:54 +0900"
     },
     {
      "title": "原爆投下から81年 “長崎を最後の被爆地に”",
@@ -33,14 +38,9 @@
      "pubDate": "Sun, 09 Aug 2026 12:59:00 +0900"
     },
     {
-     "title": "熊本地震 災害関連死の疑い含めて39人死亡 避難所に6332人避難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42950",
-     "pubDate": "Sun, 09 Aug 2026 14:34:09 +0900"
-    },
-    {
      "title": "高校野球 花巻東が小刻みに得点重ね新田に勝利 2回戦進出",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42964",
-     "pubDate": "Sun, 09 Aug 2026 14:51:15 +0900"
+     "pubDate": "Sun, 09 Aug 2026 16:00:25 +0900"
     }
    ]
   },
@@ -73,11 +73,6 @@
      "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42912",
      "pubDate": "Sun, 09 Aug 2026 11:41:09 +0900"
-    },
-    {
-     "title": "愛知県内で水難事故相次ぐ 2人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42868",
-     "pubDate": "Sun, 09 Aug 2026 01:52:00 +0900"
     }
    ]
   },
@@ -141,14 +136,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "台風15号 11日午後に東北上陸恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6591092?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 06:24:07 GMT"
+    },
+    {
      "title": "長崎原爆の日 被爆者代表の誓い",
      "link": "https://news.yahoo.co.jp/pickup/6591081?source=rss",
      "pubDate": "Sun, 09 Aug 2026 04:51:33 GMT"
     },
     {
-     "title": "イラン 海峡開放巡り米に補償要求",
-     "link": "https://news.yahoo.co.jp/pickup/6591084?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 05:16:54 GMT"
+     "title": "地震で煙突倒壊し息子犠牲 母は涙",
+     "link": "https://news.yahoo.co.jp/pickup/6591096?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 07:02:16 GMT"
     },
     {
      "title": "槍ヶ岳に遺体 付近では19歳が不明",
@@ -156,29 +156,24 @@
      "pubDate": "Sun, 09 Aug 2026 04:31:04 GMT"
     },
     {
-     "title": "市関与否定の琵琶湖花火大会 中止",
-     "link": "https://news.yahoo.co.jp/pickup/6591074?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 03:06:00 GMT"
-    },
-    {
      "title": "ポケモン空港 復興起爆剤となるか",
      "link": "https://news.yahoo.co.jp/pickup/6591085?source=rss",
      "pubDate": "Sun, 09 Aug 2026 05:23:14 GMT"
     },
     {
-     "title": "大谷が決勝適時打 ド軍連敗止める",
-     "link": "https://news.yahoo.co.jp/pickup/6591077?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 03:53:33 GMT"
+     "title": "強迫性障害 納得いくまで体洗う",
+     "link": "https://news.yahoo.co.jp/pickup/6591095?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 06:45:24 GMT"
     },
     {
-     "title": "山本由伸が好投 体調不良から回復",
-     "link": "https://news.yahoo.co.jp/pickup/6591083?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 05:08:20 GMT"
+     "title": "66歳で司法試験に合格 挑戦の理由",
+     "link": "https://news.yahoo.co.jp/pickup/6591088?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 06:00:50 GMT"
     },
     {
-     "title": "原爆ネタの漫才 命の意義を舞台で",
-     "link": "https://news.yahoo.co.jp/pickup/6591087?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 05:36:53 GMT"
+     "title": "俳優・黒田勇樹 お笑いコンビ加入",
+     "link": "https://news.yahoo.co.jp/pickup/6591097?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 07:22:16 GMT"
     }
    ]
   }
