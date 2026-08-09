@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T21:25:44.034Z",
+ "updatedAt": "2026-08-09T21:55:23.664Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,6 +23,11 @@
      "pubDate": "Mon, 10 Aug 2026 05:42:14 +0900"
     },
     {
+     "title": "熊本地震 被災地は10日も厳しい暑さ予想 熱中症対策を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43032",
+     "pubDate": "Mon, 10 Aug 2026 06:33:03 +0900"
+    },
+    {
      "title": "イスラエル首相 ガザ地区の和平に向けた工程表 拒否すると表明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43024",
      "pubDate": "Mon, 10 Aug 2026 05:53:53 +0900"
@@ -36,11 +41,6 @@
      "title": "和歌山市長選挙 新人で元県議の尾崎太郎氏 初当選",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42978",
      "pubDate": "Mon, 10 Aug 2026 00:36:30 +0900"
-    },
-    {
-     "title": "俳優 小川真由美さん死去 映画「復讐するは我にあり」など活躍",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43019",
-     "pubDate": "Sun, 09 Aug 2026 22:32:26 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（8月10日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43013",
+     "pubDate": "Mon, 10 Aug 2026 06:36:20 +0900"
+    },
     {
      "title": "熊本地震 自宅全壊の被災者の偽画像拡散 報道写真をAIで加工か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42999",
@@ -118,11 +123,6 @@
      "title": "原爆投下から81年“核兵器は絶対悪 長崎を最後の被爆地に”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42887",
      "pubDate": "Sun, 09 Aug 2026 21:31:33 +0900"
-    },
-    {
-     "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42912",
-     "pubDate": "Sun, 09 Aug 2026 11:41:09 +0900"
     }
    ]
   },
@@ -206,9 +206,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風15号 列島を横断する可能性",
-     "link": "https://news.yahoo.co.jp/pickup/6591129?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 12:53:29 GMT"
+     "title": "台風 11日に東北～関東に上陸恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6591141?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 21:41:02 GMT"
+    },
+    {
+     "title": "自衛隊の指揮統制に国産AI 検討",
+     "link": "https://news.yahoo.co.jp/pickup/6591140?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 21:29:55 GMT"
     },
     {
      "title": "ガザ和平工程 ネタニヤフ氏が拒否",
@@ -224,11 +229,6 @@
      "title": "孫運転の車にはねられ 女性死亡",
      "link": "https://news.yahoo.co.jp/pickup/6591131?source=rss",
      "pubDate": "Sun, 09 Aug 2026 13:17:11 GMT"
-    },
-    {
-     "title": "JR東海「夜行」新幹線 客4割女性",
-     "link": "https://news.yahoo.co.jp/pickup/6591134?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 13:32:42 GMT"
     },
     {
      "title": "元中日・SB又吉克樹が現役引退へ",
