@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T21:55:23.664Z",
+ "updatedAt": "2026-08-09T22:16:41.061Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -35,12 +35,12 @@
     {
      "title": "長野県知事選 現職 阿部守一氏が5回目の当選 投票率は過去最低",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42980",
-     "pubDate": "Mon, 10 Aug 2026 00:32:40 +0900"
+     "pubDate": "Mon, 10 Aug 2026 00:32:00 +0900"
     },
     {
      "title": "和歌山市長選挙 新人で元県議の尾崎太郎氏 初当選",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42978",
-     "pubDate": "Mon, 10 Aug 2026 00:36:30 +0900"
+     "pubDate": "Mon, 10 Aug 2026 00:36:00 +0900"
     }
    ]
   },
