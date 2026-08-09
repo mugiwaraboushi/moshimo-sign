@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T15:24:26.507Z",
+ "updatedAt": "2026-08-09T15:53:49.445Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "和歌山市長選挙 新人で元県議の尾崎太郎氏 初当選",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42978",
-     "pubDate": "Sun, 09 Aug 2026 23:48:29 +0900"
+     "title": "【地震速報】岐阜県と滋賀県で震度3",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43027",
+     "pubDate": "Mon, 10 Aug 2026 00:51:32 +0900"
     },
     {
-     "title": "長野県知事選挙 現職の阿部守一氏の5回目の当選",
+     "title": "和歌山市長選挙 新人で元県議の尾崎太郎氏 初当選",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42978",
+     "pubDate": "Mon, 10 Aug 2026 00:36:30 +0900"
+    },
+    {
+     "title": "長野県知事選 現職 阿部守一氏が5回目の当選 投票率は過去最低",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42980",
-     "pubDate": "Sun, 09 Aug 2026 22:56:29 +0900"
+     "pubDate": "Mon, 10 Aug 2026 00:32:40 +0900"
     },
     {
      "title": "大気不安定 関東で激しい雨 浸水や川の増水など警戒を",
@@ -35,12 +40,7 @@
     {
      "title": "熊本地震 自宅全壊の被災者の偽画像拡散 報道写真をAIで加工か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42999",
-     "pubDate": "Sun, 09 Aug 2026 23:33:33 +0900"
-    },
-    {
-     "title": "長崎原爆の日 被爆者や遺族などが各地で祈りささげる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42929",
-     "pubDate": "Sun, 09 Aug 2026 21:32:39 +0900"
+     "pubDate": "Mon, 10 Aug 2026 00:38:25 +0900"
     }
    ]
   },
@@ -52,7 +52,7 @@
     {
      "title": "熊本地震 自宅全壊の被災者の偽画像拡散 報道写真をAIで加工か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42999",
-     "pubDate": "Sun, 09 Aug 2026 23:33:33 +0900"
+     "pubDate": "Mon, 10 Aug 2026 00:38:25 +0900"
     },
     {
      "title": "山形 鶴岡 70代男性が海で浮いているのが見つかる 死亡確認",
@@ -191,11 +191,6 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "血で染まった洗面器 8/9の記憶",
-     "link": "https://news.yahoo.co.jp/pickup/6591122?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 11:54:27 GMT"
-    },
-    {
      "title": "台風15号 列島を横断する可能性",
      "link": "https://news.yahoo.co.jp/pickup/6591129?source=rss",
      "pubDate": "Sun, 09 Aug 2026 12:53:29 GMT"
@@ -224,6 +219,11 @@
      "title": "JR東海「夜行」新幹線 客4割女性",
      "link": "https://news.yahoo.co.jp/pickup/6591134?source=rss",
      "pubDate": "Sun, 09 Aug 2026 13:32:42 GMT"
+    },
+    {
+     "title": "西武・渡部に打球直撃 眼窩底骨折",
+     "link": "https://news.yahoo.co.jp/pickup/6591130?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 13:05:58 GMT"
     },
     {
      "title": "W結婚発表 STARTOでは5年ぶり",
