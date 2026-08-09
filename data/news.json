@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T20:58:01.126Z",
+ "updatedAt": "2026-08-09T21:25:44.034Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "大気不安定 関東で激しい雨 浸水や川の増水など警戒を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42956",
-     "pubDate": "Sun, 09 Aug 2026 21:35:45 +0900"
+     "title": "台風15号 11日には東北・関東甲信に接近へ 最新情報の確認を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43043",
+     "pubDate": "Mon, 10 Aug 2026 06:22:36 +0900"
     },
     {
-     "title": "熊本地震 災害関連死の疑い含めて39人死亡 避難所に6183人避難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42950",
-     "pubDate": "Sun, 09 Aug 2026 21:45:04 +0900"
+     "title": "東日本から西日本で猛暑続く 一層の熱中症対策を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43033",
+     "pubDate": "Mon, 10 Aug 2026 06:15:42 +0900"
     },
     {
      "title": "土石流で橋が流される 仮設の橋で移動可能に 長野 安曇野",
@@ -23,9 +23,9 @@
      "pubDate": "Mon, 10 Aug 2026 05:42:14 +0900"
     },
     {
-     "title": "イラン 米に補償求める 米は経済的圧力示唆で駆け引き続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43045",
-     "pubDate": "Mon, 10 Aug 2026 05:45:29 +0900"
+     "title": "イスラエル首相 ガザ地区の和平に向けた工程表 拒否すると表明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43024",
+     "pubDate": "Mon, 10 Aug 2026 05:53:53 +0900"
     },
     {
      "title": "長野県知事選 現職 阿部守一氏が5回目の当選 投票率は過去最低",
@@ -216,11 +216,6 @@
      "pubDate": "Sun, 09 Aug 2026 13:35:29 GMT"
     },
     {
-     "title": "長野県知事選 現職の阿部氏が5選",
-     "link": "https://news.yahoo.co.jp/pickup/6591137?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 14:46:18 GMT"
-    },
-    {
      "title": "イオン 自己判断で店内戻った人も",
      "link": "https://news.yahoo.co.jp/pickup/6591135?source=rss",
      "pubDate": "Sun, 09 Aug 2026 14:12:52 GMT"
@@ -236,9 +231,14 @@
      "pubDate": "Sun, 09 Aug 2026 13:32:42 GMT"
     },
     {
-     "title": "西武・渡部に打球直撃 眼窩底骨折",
-     "link": "https://news.yahoo.co.jp/pickup/6591130?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 13:05:58 GMT"
+     "title": "元中日・SB又吉克樹が現役引退へ",
+     "link": "https://news.yahoo.co.jp/pickup/6591139?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 21:14:24 GMT"
+    },
+    {
+     "title": "ゆずが楽曲配信 収益全額を熊本に",
+     "link": "https://news.yahoo.co.jp/pickup/6591138?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 21:04:08 GMT"
     },
     {
      "title": "W結婚発表 STARTOでは5年ぶり",
