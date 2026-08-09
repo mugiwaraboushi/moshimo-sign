@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T22:55:23.380Z",
+ "updatedAt": "2026-08-09T23:17:52.356Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -226,24 +226,24 @@
      "pubDate": "Sun, 09 Aug 2026 22:38:11 GMT"
     },
     {
+     "title": "身寄りのない死 膨らむ公費負担",
+     "link": "https://news.yahoo.co.jp/pickup/6591147?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 22:49:07 GMT"
+    },
+    {
      "title": "AI「暴走」自律的攻撃に米危機感",
      "link": "https://news.yahoo.co.jp/pickup/6591142?source=rss",
      "pubDate": "Sun, 09 Aug 2026 22:17:32 GMT"
     },
     {
-     "title": "イオン 自己判断で店内戻った人も",
-     "link": "https://news.yahoo.co.jp/pickup/6591135?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 14:12:52 GMT"
+     "title": "家電激戦池袋 ヨドバシが狙う商圏",
+     "link": "https://news.yahoo.co.jp/pickup/6591148?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 23:02:17 GMT"
     },
     {
-     "title": "孫運転の車にはねられ 女性死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6591131?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 13:17:11 GMT"
-    },
-    {
-     "title": "元中日・SB又吉克樹が現役引退へ",
-     "link": "https://news.yahoo.co.jp/pickup/6591139?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 21:14:24 GMT"
+     "title": "映画「踊る」豪華声優陣が集結",
+     "link": "https://news.yahoo.co.jp/pickup/6591150?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 23:13:35 GMT"
     },
     {
      "title": "佐藤佳奈アナ 古巣で結婚生報告",
