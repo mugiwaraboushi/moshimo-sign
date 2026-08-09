@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T08:06:59.812Z",
+ "updatedAt": "2026-08-09T09:07:47.596Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "山形新幹線 大雨で大石田～新庄間の上下線で運転見合わせ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42997",
-     "pubDate": "Sun, 09 Aug 2026 17:00:24 +0900"
+     "title": "台風16号が発生 付近を通る船舶に注意呼びかけ 気象庁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42994",
+     "pubDate": "Sun, 09 Aug 2026 17:35:30 +0900"
     },
     {
      "title": "熊本地震 災害関連死の疑い含めて39人死亡 避難所に6332人避難",
@@ -20,7 +20,7 @@
     {
      "title": "長野 安曇野で土石流が発生 約390人が取り残されたか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42947",
-     "pubDate": "Sun, 09 Aug 2026 16:14:47 +0900"
+     "pubDate": "Sun, 09 Aug 2026 17:18:03 +0900"
     },
     {
      "title": "東北と東日本中心に大気不安定 土砂災害など十分注意を",
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "高市首相 被爆者らと面会 核軍縮進展へ主導的役割果たす考え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42979",
+     "pubDate": "Sun, 09 Aug 2026 17:19:54 +0900"
+    },
+    {
+     "title": "高市首相 非核三原則記載“予断控える”3文書改定で重ねて説明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42988",
+     "pubDate": "Sun, 09 Aug 2026 17:07:43 +0900"
+    },
     {
      "title": "長崎原爆の日 被爆者や遺族などが各地で祈りささげる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42929",
@@ -136,19 +146,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "原爆の記憶忘れる前に 語る97歳",
+     "link": "https://news.yahoo.co.jp/pickup/6591104?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 08:23:19 GMT"
+    },
+    {
      "title": "台風15号 11日午後に東北上陸恐れ",
      "link": "https://news.yahoo.co.jp/pickup/6591092?source=rss",
      "pubDate": "Sun, 09 Aug 2026 06:24:07 GMT"
     },
     {
-     "title": "長崎原爆の日 被爆者代表の誓い",
-     "link": "https://news.yahoo.co.jp/pickup/6591081?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 04:51:33 GMT"
+     "title": "橋流され390人が孤立 下山始まる",
+     "link": "https://news.yahoo.co.jp/pickup/6591105?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 08:35:31 GMT"
     },
     {
-     "title": "地震で煙突倒壊し息子犠牲 母は涙",
-     "link": "https://news.yahoo.co.jp/pickup/6591096?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 07:02:16 GMT"
+     "title": "台湾 長崎式典の席巡り異例の抗議",
+     "link": "https://news.yahoo.co.jp/pickup/6591107?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 08:40:58 GMT"
     },
     {
      "title": "がれきの下にチワワ 15h後に救出",
@@ -156,19 +171,14 @@
      "pubDate": "Sun, 09 Aug 2026 07:59:25 GMT"
     },
     {
-     "title": "槍ヶ岳に遺体 付近では19歳が不明",
-     "link": "https://news.yahoo.co.jp/pickup/6591079?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 04:31:04 GMT"
+     "title": "米Z世代 高リスク投資に走る背景",
+     "link": "https://news.yahoo.co.jp/pickup/6591098?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 07:31:50 GMT"
     },
     {
-     "title": "ポケモン空港 復興起爆剤となるか",
-     "link": "https://news.yahoo.co.jp/pickup/6591085?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 05:23:14 GMT"
-    },
-    {
-     "title": "強迫性障害 納得いくまで体洗う",
-     "link": "https://news.yahoo.co.jp/pickup/6591095?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 06:45:24 GMT"
+     "title": "俳優・小川真由美さん 3月に死去",
+     "link": "https://news.yahoo.co.jp/pickup/6591102?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 08:16:07 GMT"
     },
     {
      "title": "俳優・黒田勇樹 お笑いコンビ加入",
