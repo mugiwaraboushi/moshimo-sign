@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T22:16:41.061Z",
+ "updatedAt": "2026-08-09T22:55:23.380Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,17 +10,12 @@
     {
      "title": "台風15号 11日には東北・関東甲信に接近へ 最新情報の確認を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43043",
-     "pubDate": "Mon, 10 Aug 2026 06:22:36 +0900"
+     "pubDate": "Mon, 10 Aug 2026 07:36:50 +0900"
     },
     {
      "title": "東日本から西日本で猛暑続く 一層の熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43033",
      "pubDate": "Mon, 10 Aug 2026 06:15:42 +0900"
-    },
-    {
-     "title": "土石流で橋が流される 仮設の橋で移動可能に 長野 安曇野",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43038",
-     "pubDate": "Mon, 10 Aug 2026 05:42:14 +0900"
     },
     {
      "title": "熊本地震 被災地は10日も厳しい暑さ予想 熱中症対策を",
@@ -31,6 +26,11 @@
      "title": "イスラエル首相 ガザ地区の和平に向けた工程表 拒否すると表明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43024",
      "pubDate": "Mon, 10 Aug 2026 05:53:53 +0900"
+    },
+    {
+     "title": "イオンモール 設備の緊急点検 各地でイベント中止・延期相次ぐ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43010",
+     "pubDate": "Mon, 10 Aug 2026 07:45:29 +0900"
     },
     {
      "title": "長野県知事選 現職 阿部守一氏が5回目の当選 投票率は過去最低",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "SNSで宣伝の「琵琶湖三市同時花火大会」 中止発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43037",
+     "pubDate": "Mon, 10 Aug 2026 07:35:19 +0900"
+    },
     {
      "title": "【動画】Pickup NEWS（8月10日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43013",
@@ -118,11 +123,6 @@
      "title": "【動画】Pickup NEWS（8月9日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260808de42858",
      "pubDate": "Sun, 09 Aug 2026 19:53:01 +0900"
-    },
-    {
-     "title": "原爆投下から81年“核兵器は絶対悪 長崎を最後の被爆地に”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42887",
-     "pubDate": "Sun, 09 Aug 2026 21:31:33 +0900"
     }
    ]
   },
@@ -143,6 +143,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "タングステン 中国の輸出規制影響 製品価格高騰や調達難に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43011",
+     "pubDate": "Mon, 10 Aug 2026 07:19:21 +0900"
+    },
     {
      "title": "イスラエル首相 ガザ地区の和平に向けた工程表 拒否すると表明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43024",
@@ -216,9 +221,14 @@
      "pubDate": "Sun, 09 Aug 2026 21:29:55 GMT"
     },
     {
-     "title": "ガザ和平工程 ネタニヤフ氏が拒否",
-     "link": "https://news.yahoo.co.jp/pickup/6591133?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 13:35:29 GMT"
+     "title": "不同意性交の認知件数 増加傾向",
+     "link": "https://news.yahoo.co.jp/pickup/6591146?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 22:38:11 GMT"
+    },
+    {
+     "title": "AI「暴走」自律的攻撃に米危機感",
+     "link": "https://news.yahoo.co.jp/pickup/6591142?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 22:17:32 GMT"
     },
     {
      "title": "イオン 自己判断で店内戻った人も",
@@ -236,14 +246,9 @@
      "pubDate": "Sun, 09 Aug 2026 21:14:24 GMT"
     },
     {
-     "title": "ゆずが楽曲配信 収益全額を熊本に",
-     "link": "https://news.yahoo.co.jp/pickup/6591138?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 21:04:08 GMT"
-    },
-    {
-     "title": "W結婚発表 STARTOでは5年ぶり",
-     "link": "https://news.yahoo.co.jp/pickup/6591132?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 13:25:16 GMT"
+     "title": "佐藤佳奈アナ 古巣で結婚生報告",
+     "link": "https://news.yahoo.co.jp/pickup/6591143?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 22:19:58 GMT"
     }
    ]
   }
