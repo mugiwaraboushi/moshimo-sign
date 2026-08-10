@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-10T18:09:31.818Z",
+ "updatedAt": "2026-08-10T19:26:36.795Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【地震速報】長崎・南島原 熊本・上天草で震度3 津波心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43214",
-     "pubDate": "Tue, 11 Aug 2026 02:56:23 +0900"
+     "title": "日本版GPS衛星「みちびき7号機」この後H3ロケットで打ち上げへ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
+     "pubDate": "Tue, 11 Aug 2026 00:07:00 +0900"
+    },
+    {
+     "title": "コロンビアでM7.4の地震“111人死亡 87人けが”と大統領",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43201",
+     "pubDate": "Tue, 11 Aug 2026 04:08:12 +0900"
     },
     {
      "title": "台風15号 きょう関東甲信に接近 夜にかけ上陸のおそれ",
@@ -23,14 +28,9 @@
      "pubDate": "Mon, 10 Aug 2026 18:38:00 +0900"
     },
     {
-     "title": "日本版GPS衛星「みちびき7号機」きょうH3ロケットで打ち上げへ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
-     "pubDate": "Tue, 11 Aug 2026 00:07:20 +0900"
-    },
-    {
-     "title": "コロンビアを震源 M7.4の地震 気象庁「津波心配なし」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43201",
-     "pubDate": "Mon, 10 Aug 2026 22:26:00 +0900"
+     "title": "【地震情報】熊本・上天草で震度3 津波の心配なし（3:12）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43215",
+     "pubDate": "Tue, 11 Aug 2026 03:17:00 +0900"
     },
     {
      "title": "高市内閣支持率53％ 不支持33％ NHK世論調査",
@@ -132,9 +132,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
-     "title": "日本版GPS衛星「みちびき7号機」きょうH3ロケットで打ち上げへ",
+     "title": "日本版GPS衛星「みちびき7号機」この後H3ロケットで打ち上げへ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
-     "pubDate": "Tue, 11 Aug 2026 00:07:20 +0900"
+     "pubDate": "Tue, 11 Aug 2026 00:07:00 +0900"
     },
     {
      "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
@@ -149,9 +149,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "コロンビアを震源 M7.4の地震 気象庁「津波心配なし」",
+     "title": "コロンビアでM7.4の地震“111人死亡 87人けが”と大統領",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43201",
-     "pubDate": "Mon, 10 Aug 2026 22:26:00 +0900"
+     "pubDate": "Tue, 11 Aug 2026 04:08:12 +0900"
     },
     {
      "title": "イラン大統領 モジタバ師と面会か 最高指導者の健在アピールも",
