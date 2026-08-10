@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-10T05:00:43.459Z",
+ "updatedAt": "2026-08-10T06:47:46.594Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風15号 東北・関東接近へ 土砂災害や暴風など警戒を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43043",
-     "pubDate": "Mon, 10 Aug 2026 12:34:53 +0900"
+     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に6165人避難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43067",
+     "pubDate": "Mon, 10 Aug 2026 15:44:17 +0900"
     },
     {
-     "title": "新潟市の海で3人流され救助も 2人意識不明 海上保安部・消防",
+     "title": "台風15号 東北・関東接近へ 土砂災害や暴風など警戒を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43043",
+     "pubDate": "Mon, 10 Aug 2026 14:18:30 +0900"
+    },
+    {
+     "title": "新潟市の海で3人流される 2人意識不明 海上保安部・消防",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43094",
      "pubDate": "Mon, 10 Aug 2026 13:48:00 +0900"
+    },
+    {
+     "title": "特捜検事の調べに賠償求める裁判 取り調べ映像を法廷で再生",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43095",
+     "pubDate": "Mon, 10 Aug 2026 14:24:00 +0900"
     },
     {
      "title": "長野 安曇野 土石流で橋が流される 仮設の橋使い移動呼びかけ",
@@ -28,19 +38,9 @@
      "pubDate": "Mon, 10 Aug 2026 11:50:00 +0900"
     },
     {
-     "title": "トランプ大統領 核開発合意なしでも幕引き模索か 米メディア",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43045",
-     "pubDate": "Mon, 10 Aug 2026 12:21:48 +0900"
-    },
-    {
      "title": "東日本から西日本で猛暑続く 一層の熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43033",
      "pubDate": "Mon, 10 Aug 2026 12:47:02 +0900"
-    },
-    {
-     "title": "日銀 7月の金融政策決定会合“利上げペース加速”意見相次ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43068",
-     "pubDate": "Mon, 10 Aug 2026 11:57:00 +0900"
     }
    ]
   },
@@ -50,7 +50,12 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "新潟市の海で3人流され救助も 2人意識不明 海上保安部・消防",
+     "title": "特捜検事の調べに賠償求める裁判 取り調べ映像を法廷で再生",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43095",
+     "pubDate": "Mon, 10 Aug 2026 14:24:00 +0900"
+    },
+    {
+     "title": "新潟市の海で3人流される 2人意識不明 海上保安部・消防",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43094",
      "pubDate": "Mon, 10 Aug 2026 13:48:00 +0900"
     },
@@ -118,11 +123,6 @@
      "title": "長崎原爆の日 被爆者や遺族などが各地で祈りささげる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42929",
      "pubDate": "Sun, 09 Aug 2026 21:32:39 +0900"
-    },
-    {
-     "title": "【熊本地震 交通影響】8月9日 午前6時時点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42931",
-     "pubDate": "Sun, 09 Aug 2026 07:58:09 +0900"
     }
    ]
   },
@@ -143,6 +143,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月10日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43106",
+     "pubDate": "Mon, 10 Aug 2026 15:38:26 +0900"
+    },
+    {
+     "title": "ニューヨーク自由の女神の島近く ボート転覆 乳児と母2人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43103",
+     "pubDate": "Mon, 10 Aug 2026 15:30:10 +0900"
+    },
     {
      "title": "タングステン 中国の輸出規制影響 製品価格高騰や調達難に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43011",
@@ -174,9 +184,9 @@
      "pubDate": "Sun, 09 Aug 2026 14:41:22 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月9日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（8月9日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42906",
-     "pubDate": "Sun, 09 Aug 2026 12:49:48 +0900"
+     "pubDate": "Sun, 09 Aug 2026 12:49:00 +0900"
     },
     {
      "title": "ゼレンスキー大統領“北朝鮮3万人から5万人ロシアに派兵決定”",
@@ -211,9 +221,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風 あす関東・東北に上陸の恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6591177?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 03:21:09 GMT"
+     "title": "熊本城13日に再開「復興の力に」",
+     "link": "https://news.yahoo.co.jp/pickup/6591191?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 05:33:58 GMT"
+    },
+    {
+     "title": "北朝鮮ハッカー AIツール開発か",
+     "link": "https://news.yahoo.co.jp/pickup/6591176?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 03:21:12 GMT"
     },
     {
      "title": "日銀委員 利上げペース加速の意見",
@@ -221,29 +236,24 @@
      "pubDate": "Mon, 10 Aug 2026 03:41:02 GMT"
     },
     {
-     "title": "愛媛県知事選 宮沢博行氏が出馬へ",
-     "link": "https://news.yahoo.co.jp/pickup/6591179?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 03:53:05 GMT"
+     "title": "2年前に89歳女性殺害疑い 娘逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6591184?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 04:36:43 GMT"
     },
     {
-     "title": "海難事故 女性と男児が心肺停止",
-     "link": "https://news.yahoo.co.jp/pickup/6591187?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 04:56:20 GMT"
+     "title": "海で3人救助 女性と男児心肺停止",
+     "link": "https://news.yahoo.co.jp/pickup/6591192?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 05:57:42 GMT"
     },
     {
-     "title": "世帯年収1000万円 理想とは遠い家",
-     "link": "https://news.yahoo.co.jp/pickup/6591171?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 02:38:20 GMT"
+     "title": "東北新幹線の車内にハト 臨時停車",
+     "link": "https://news.yahoo.co.jp/pickup/6591194?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 06:35:45 GMT"
     },
     {
-     "title": "速報甲子園 沖縄尚学vs.横浜",
-     "link": "https://news.yahoo.co.jp/pickup/6591183?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 04:27:44 GMT"
-    },
-    {
-     "title": "馬淵監督 もう何年もやる気はない",
-     "link": "https://news.yahoo.co.jp/pickup/6591170?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 02:29:03 GMT"
+     "title": "クマが牧場のヤギを襲撃 捕食確認",
+     "link": "https://news.yahoo.co.jp/pickup/6591190?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 05:24:33 GMT"
     },
     {
      "title": "「Nクールおじさん」結婚を発表",
