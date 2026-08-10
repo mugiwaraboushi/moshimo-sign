@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-10T06:47:46.594Z",
+ "updatedAt": "2026-08-10T08:19:08.784Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に6165人避難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43067",
-     "pubDate": "Mon, 10 Aug 2026 15:44:17 +0900"
-    },
-    {
      "title": "台風15号 東北・関東接近へ 土砂災害や暴風など警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43043",
-     "pubDate": "Mon, 10 Aug 2026 14:18:30 +0900"
+     "pubDate": "Mon, 10 Aug 2026 16:54:04 +0900"
     },
     {
-     "title": "新潟市の海で3人流される 2人意識不明 海上保安部・消防",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43094",
-     "pubDate": "Mon, 10 Aug 2026 13:48:00 +0900"
+     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に6165人避難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43067",
+     "pubDate": "Mon, 10 Aug 2026 16:39:57 +0900"
     },
     {
      "title": "特捜検事の調べに賠償求める裁判 取り調べ映像を法廷で再生",
@@ -28,9 +23,9 @@
      "pubDate": "Mon, 10 Aug 2026 14:24:00 +0900"
     },
     {
-     "title": "長野 安曇野 土石流で橋が流される 仮設の橋使い移動呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43038",
-     "pubDate": "Mon, 10 Aug 2026 12:28:11 +0900"
+     "title": "新潟市の海で3人流される 2人意識不明 海上保安部・消防",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43094",
+     "pubDate": "Mon, 10 Aug 2026 13:48:00 +0900"
     },
     {
      "title": "熊本地震 被災地は午前中から厳しい暑さ 熱中症対策を",
@@ -40,7 +35,12 @@
     {
      "title": "東日本から西日本で猛暑続く 一層の熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43033",
-     "pubDate": "Mon, 10 Aug 2026 12:47:02 +0900"
+     "pubDate": "Mon, 10 Aug 2026 17:09:39 +0900"
+    },
+    {
+     "title": "東京 中央区のビルで貸金庫こじあけられる 7月も同様の被害",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43132",
+     "pubDate": "Mon, 10 Aug 2026 16:49:41 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "東京 中央区のビルで貸金庫こじあけられる 7月も同様の被害",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43132",
+     "pubDate": "Mon, 10 Aug 2026 16:49:41 +0900"
+    },
     {
      "title": "特捜検事の調べに賠償求める裁判 取り調べ映像を法廷で再生",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43095",
@@ -118,11 +123,6 @@
      "title": "高市首相 非核三原則記載“予断控える”3文書改定で重ねて説明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42988",
      "pubDate": "Sun, 09 Aug 2026 17:07:00 +0900"
-    },
-    {
-     "title": "長崎原爆の日 被爆者や遺族などが各地で祈りささげる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42929",
-     "pubDate": "Sun, 09 Aug 2026 21:32:39 +0900"
     }
    ]
   },
@@ -143,6 +143,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "【詳細】トランプ氏「最後のチャンス」イラン大統領は米けん制",
+     "link": "https://news.web.nhk/newsweb/na/nd-20240101de00238",
+     "pubDate": "Tue, 04 Aug 2026 19:34:00 +0900"
+    },
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月10日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43106",
@@ -221,44 +226,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "熊本城13日に再開「復興の力に」",
-     "link": "https://news.yahoo.co.jp/pickup/6591191?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 05:33:58 GMT"
+     "title": "台風 11日午後に関東甲信接近恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6591208?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 07:49:19 GMT"
     },
     {
-     "title": "北朝鮮ハッカー AIツール開発か",
-     "link": "https://news.yahoo.co.jp/pickup/6591176?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 03:21:12 GMT"
+     "title": "防衛白書で焦点 新しい戦い方とは",
+     "link": "https://news.yahoo.co.jp/pickup/6591201?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 07:29:49 GMT"
     },
     {
-     "title": "日銀委員 利上げペース加速の意見",
-     "link": "https://news.yahoo.co.jp/pickup/6591178?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 03:41:02 GMT"
+     "title": "海で3人救助も2人死亡確認 新潟",
+     "link": "https://news.yahoo.co.jp/pickup/6591200?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 07:23:47 GMT"
     },
     {
-     "title": "2年前に89歳女性殺害疑い 娘逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6591184?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 04:36:43 GMT"
+     "title": "ニチレイ個人情報 ハッカー公開か",
+     "link": "https://news.yahoo.co.jp/pickup/6591196?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 07:03:35 GMT"
     },
     {
-     "title": "海で3人救助 女性と男児心肺停止",
-     "link": "https://news.yahoo.co.jp/pickup/6591192?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 05:57:42 GMT"
+     "title": "突如中止の花火大会 資料を入手",
+     "link": "https://news.yahoo.co.jp/pickup/6591210?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 08:01:25 GMT"
     },
     {
-     "title": "東北新幹線の車内にハト 臨時停車",
-     "link": "https://news.yahoo.co.jp/pickup/6591194?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 06:35:45 GMT"
+     "title": "横浜 連覇を狙う沖縄尚学に勝利",
+     "link": "https://news.yahoo.co.jp/pickup/6591197?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 06:52:43 GMT"
     },
     {
-     "title": "クマが牧場のヤギを襲撃 捕食確認",
-     "link": "https://news.yahoo.co.jp/pickup/6591190?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 05:24:33 GMT"
+     "title": "清水伸が結婚 ニトリCMに11年",
+     "link": "https://news.yahoo.co.jp/pickup/6591207?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 07:40:16 GMT"
     },
     {
-     "title": "「Nクールおじさん」結婚を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6591182?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 04:07:46 GMT"
+     "title": "VIVANT 視聴者を沸かせる仕掛け",
+     "link": "https://news.yahoo.co.jp/pickup/6591206?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 07:38:30 GMT"
     }
    ]
   }
