@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-10T10:54:01.694Z",
+ "updatedAt": "2026-08-10T11:39:00.041Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -20,7 +20,7 @@
     {
      "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に6108人避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43067",
-     "pubDate": "Mon, 10 Aug 2026 19:20:54 +0900"
+     "pubDate": "Mon, 10 Aug 2026 20:14:20 +0900"
     },
     {
      "title": "高市内閣支持率53％ 不支持33％ NHK世論調査",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "トクリュウのアプリ遠隔解析で警察庁の有識者会議が発足",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43146",
+     "pubDate": "Mon, 10 Aug 2026 20:16:36 +0900"
+    },
     {
      "title": "ニチレイのサイバー攻撃 ハッカー集団が個人情報など公開か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43141",
@@ -118,11 +123,6 @@
      "title": "茨城 鉾田 2人が沖合に流され23歳女性が死亡 離岸流か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43003",
      "pubDate": "Sun, 09 Aug 2026 19:15:51 +0900"
-    },
-    {
-     "title": "平和祈念式典 被爆者代表「平和への誓い」全文 長崎原爆の日",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42995",
-     "pubDate": "Sun, 09 Aug 2026 18:32:00 +0900"
     }
    ]
   },
@@ -143,6 +143,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "高市首相 オマーン国王と電話会談“国際社会とも協議を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43179",
+     "pubDate": "Mon, 10 Aug 2026 20:26:40 +0900"
+    },
     {
      "title": "カナダ西部で山火事 約2万人が避難 地元の州が非常事態宣言",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43134",
@@ -212,11 +217,6 @@
      "title": "イラン“通航再開は米の補償も条件” “交渉は停滞”報道も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42920",
      "pubDate": "Sun, 09 Aug 2026 05:55:46 +0900"
-    },
-    {
-     "title": "米議会上院 新司法長官にトランプ大統領指名のブランチ氏承認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42888",
-     "pubDate": "Sun, 09 Aug 2026 05:17:27 +0900"
     }
    ]
   },
@@ -236,9 +236,9 @@
      "pubDate": "Mon, 10 Aug 2026 08:30:12 GMT"
     },
     {
-     "title": "中1姉と小3弟死亡 海水浴場で事故",
-     "link": "https://news.yahoo.co.jp/pickup/6591216?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 08:27:54 GMT"
+     "title": "天皇皇后両陛下が熊本県に見舞金",
+     "link": "https://news.yahoo.co.jp/pickup/6591235?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 10:38:25 GMT"
     },
     {
      "title": "男児転び一時意識不明 1年非公表",
@@ -246,24 +246,24 @@
      "pubDate": "Mon, 10 Aug 2026 10:08:02 GMT"
     },
     {
-     "title": "突如中止の花火大会 資料を入手",
-     "link": "https://news.yahoo.co.jp/pickup/6591210?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 08:01:25 GMT"
+     "title": "アユ釣りで転倒し流され 70歳死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6591231?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 09:50:40 GMT"
     },
     {
-     "title": "合格者0人の年も 宮城ご当地検定",
-     "link": "https://news.yahoo.co.jp/pickup/6591214?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 08:33:19 GMT"
+     "title": "大腸がん 毒素作る腸内細菌が関与",
+     "link": "https://news.yahoo.co.jp/pickup/6591240?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 11:10:36 GMT"
     },
     {
-     "title": "ゆなすみが木下杯辞退 長岡が骨折",
-     "link": "https://news.yahoo.co.jp/pickup/6591229?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 09:42:43 GMT"
+     "title": "「第二の軍艦島」撮影動画に批判",
+     "link": "https://news.yahoo.co.jp/pickup/6591238?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 11:10:31 GMT"
     },
     {
-     "title": "LuckyFes 11日の開催中止を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6591234?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 10:06:01 GMT"
+     "title": "馬淵監督 中学生スカウト巡り苦言",
+     "link": "https://news.yahoo.co.jp/pickup/6591236?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 10:58:08 GMT"
     }
    ]
   }
