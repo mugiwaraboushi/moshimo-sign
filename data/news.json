@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-10T09:53:39.848Z",
+ "updatedAt": "2026-08-10T10:54:01.694Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風15号 東北・関東接近へ 土砂災害や暴風など警戒を",
+     "title": "台風15号 あす関東甲信に接近 夜にかけ上陸のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43043",
-     "pubDate": "Mon, 10 Aug 2026 16:54:04 +0900"
+     "pubDate": "Mon, 10 Aug 2026 19:12:24 +0900"
     },
     {
-     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に6165人避難",
+     "title": "台風15号 交通機関への影響は（鉄道 高速道路 空の便）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43124",
+     "pubDate": "Mon, 10 Aug 2026 18:38:34 +0900"
+    },
+    {
+     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に6108人避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43067",
-     "pubDate": "Mon, 10 Aug 2026 16:39:57 +0900"
+     "pubDate": "Mon, 10 Aug 2026 19:20:54 +0900"
     },
     {
-     "title": "熊本地震 気象庁「1か月ほど最大震度5弱程度以上の地震注意」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43032",
-     "pubDate": "Mon, 10 Aug 2026 18:47:24 +0900"
+     "title": "高市内閣支持率53％ 不支持33％ NHK世論調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43053",
+     "pubDate": "Mon, 10 Aug 2026 19:00:00 +0900"
+    },
+    {
+     "title": "各党支持率「自民党」35.0％ 「支持なし」39.0％ NHK世論調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43054",
+     "pubDate": "Mon, 10 Aug 2026 19:01:07 +0900"
     },
     {
      "title": "新潟市の海で親子3人流される 13歳と8歳のきょうだい死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43094",
-     "pubDate": "Mon, 10 Aug 2026 18:52:56 +0900"
+     "pubDate": "Mon, 10 Aug 2026 19:24:58 +0900"
     },
     {
-     "title": "東日本から西日本で猛暑続く 一層の熱中症対策を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43033",
-     "pubDate": "Mon, 10 Aug 2026 17:09:39 +0900"
-    },
-    {
-     "title": "日本版GPS衛星「みちびき7号機」 11日 H3ロケットで打ち上げへ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43138",
-     "pubDate": "Mon, 10 Aug 2026 17:37:54 +0900"
-    },
-    {
-     "title": "東京 中央区のビルで貸金庫こじあけられる 7月も同様の被害",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43132",
-     "pubDate": "Mon, 10 Aug 2026 16:49:00 +0900"
+     "title": "ニチレイのサイバー攻撃 ハッカー集団が個人情報など公開か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43141",
+     "pubDate": "Mon, 10 Aug 2026 19:22:00 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "ニチレイのサイバー攻撃 ハッカー集団が個人情報など公開か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43141",
+     "pubDate": "Mon, 10 Aug 2026 19:22:00 +0900"
+    },
     {
      "title": "日本版GPS衛星「みちびき7号機」 11日 H3ロケットで打ち上げへ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43138",
@@ -67,7 +72,7 @@
     {
      "title": "新潟市の海で親子3人流される 13歳と8歳のきょうだい死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43094",
-     "pubDate": "Mon, 10 Aug 2026 18:52:56 +0900"
+     "pubDate": "Mon, 10 Aug 2026 19:24:58 +0900"
     },
     {
      "title": "SNSで宣伝の「琵琶湖三市同時花火大会」 中止発表",
@@ -77,7 +82,7 @@
     {
      "title": "【動画】Pickup NEWS（8月10日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43013",
-     "pubDate": "Mon, 10 Aug 2026 13:59:55 +0900"
+     "pubDate": "Mon, 10 Aug 2026 19:44:45 +0900"
     },
     {
      "title": "熊本地震 自宅全壊の被災者の偽画像拡散 報道写真をAIで加工か",
@@ -118,11 +123,6 @@
      "title": "平和祈念式典 被爆者代表「平和への誓い」全文 長崎原爆の日",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42995",
      "pubDate": "Sun, 09 Aug 2026 18:32:00 +0900"
-    },
-    {
-     "title": "高市首相 被爆者らと面会 核軍縮進展へ主導的役割果たす考え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42979",
-     "pubDate": "Sun, 09 Aug 2026 17:19:54 +0900"
     }
    ]
   },
@@ -226,9 +226,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "熊本全域に被災者支援法を適用へ",
-     "link": "https://news.yahoo.co.jp/pickup/6591209?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 08:06:54 GMT"
+     "title": "長野の土石流 登山者は全員下山",
+     "link": "https://news.yahoo.co.jp/pickup/6591220?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 08:58:40 GMT"
     },
     {
      "title": "母は寝たきり娘は不登校 女性孤立",
@@ -241,29 +241,29 @@
      "pubDate": "Mon, 10 Aug 2026 08:27:54 GMT"
     },
     {
+     "title": "男児転び一時意識不明 1年非公表",
+     "link": "https://news.yahoo.co.jp/pickup/6591233?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 10:08:02 GMT"
+    },
+    {
      "title": "突如中止の花火大会 資料を入手",
      "link": "https://news.yahoo.co.jp/pickup/6591210?source=rss",
      "pubDate": "Mon, 10 Aug 2026 08:01:25 GMT"
     },
     {
-     "title": "議員秘書を経て屋台バー営業 なぜ",
-     "link": "https://news.yahoo.co.jp/pickup/6591230?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 09:44:08 GMT"
+     "title": "合格者0人の年も 宮城ご当地検定",
+     "link": "https://news.yahoo.co.jp/pickup/6591214?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 08:33:19 GMT"
     },
     {
-     "title": "速報甲子園 福山vs.天理",
-     "link": "https://news.yahoo.co.jp/pickup/6591225?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 09:42:10 GMT"
+     "title": "ゆなすみが木下杯辞退 長岡が骨折",
+     "link": "https://news.yahoo.co.jp/pickup/6591229?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 09:42:43 GMT"
     },
     {
-     "title": "なにわ男子に中傷 STARTOが対応",
-     "link": "https://news.yahoo.co.jp/pickup/6591223?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 09:05:12 GMT"
-    },
-    {
-     "title": "TWICE・ジョンヨン JYP退所報告",
-     "link": "https://news.yahoo.co.jp/pickup/6591219?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 08:44:28 GMT"
+     "title": "LuckyFes 11日の開催中止を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6591234?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 10:06:01 GMT"
     }
    ]
   }
