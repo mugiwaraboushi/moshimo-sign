@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-10T17:14:58.558Z",
+ "updatedAt": "2026-08-10T18:09:31.818Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風15号 あす関東甲信に接近 夜にかけ上陸のおそれ",
+     "title": "【地震速報】長崎・南島原 熊本・上天草で震度3 津波心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43214",
+     "pubDate": "Tue, 11 Aug 2026 02:56:23 +0900"
+    },
+    {
+     "title": "台風15号 きょう関東甲信に接近 夜にかけ上陸のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43043",
-     "pubDate": "Mon, 10 Aug 2026 22:40:12 +0900"
+     "pubDate": "Tue, 11 Aug 2026 02:43:26 +0900"
     },
     {
      "title": "台風15号 交通機関への影響は（鉄道 高速道路 空の便）",
@@ -26,11 +31,6 @@
      "title": "コロンビアを震源 M7.4の地震 気象庁「津波心配なし」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43201",
      "pubDate": "Mon, 10 Aug 2026 22:26:00 +0900"
-    },
-    {
-     "title": "FIFA子会社設立計画めぐり 3連盟が共同声明「根本的な裏切り」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43202",
-     "pubDate": "Tue, 11 Aug 2026 00:44:05 +0900"
     },
     {
      "title": "高市内閣支持率53％ 不支持33％ NHK世論調査",
