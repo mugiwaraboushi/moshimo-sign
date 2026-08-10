@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-10T03:03:39.183Z",
+ "updatedAt": "2026-08-10T05:00:43.459Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,12 +10,17 @@
     {
      "title": "台風15号 東北・関東接近へ 土砂災害や暴風など警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43043",
-     "pubDate": "Mon, 10 Aug 2026 11:58:26 +0900"
+     "pubDate": "Mon, 10 Aug 2026 12:34:53 +0900"
+    },
+    {
+     "title": "新潟市の海で3人流され救助も 2人意識不明 海上保安部・消防",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43094",
+     "pubDate": "Mon, 10 Aug 2026 13:48:00 +0900"
     },
     {
      "title": "長野 安曇野 土石流で橋が流される 仮設の橋使い移動呼びかけ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43038",
-     "pubDate": "Mon, 10 Aug 2026 11:56:54 +0900"
+     "pubDate": "Mon, 10 Aug 2026 12:28:11 +0900"
     },
     {
      "title": "熊本地震 被災地は午前中から厳しい暑さ 熱中症対策を",
@@ -23,24 +28,19 @@
      "pubDate": "Mon, 10 Aug 2026 11:50:00 +0900"
     },
     {
+     "title": "トランプ大統領 核開発合意なしでも幕引き模索か 米メディア",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43045",
+     "pubDate": "Mon, 10 Aug 2026 12:21:48 +0900"
+    },
+    {
      "title": "東日本から西日本で猛暑続く 一層の熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43033",
-     "pubDate": "Mon, 10 Aug 2026 06:15:42 +0900"
+     "pubDate": "Mon, 10 Aug 2026 12:47:02 +0900"
     },
     {
-     "title": "イオンモール 設備の緊急点検 各地でイベント中止・延期相次ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43010",
-     "pubDate": "Mon, 10 Aug 2026 07:45:00 +0900"
-    },
-    {
-     "title": "タングステン 中国の輸出規制影響 製品価格高騰や調達難に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43011",
-     "pubDate": "Mon, 10 Aug 2026 07:19:00 +0900"
-    },
-    {
-     "title": "1月から6月の国際収支 経常黒字過去最大 海外からの配当増える",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43048",
-     "pubDate": "Mon, 10 Aug 2026 11:43:51 +0900"
+     "title": "日銀 7月の金融政策決定会合“利上げペース加速”意見相次ぐ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43068",
+     "pubDate": "Mon, 10 Aug 2026 11:57:00 +0900"
     }
    ]
   },
@@ -50,6 +50,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "新潟市の海で3人流され救助も 2人意識不明 海上保安部・消防",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43094",
+     "pubDate": "Mon, 10 Aug 2026 13:48:00 +0900"
+    },
+    {
      "title": "SNSで宣伝の「琵琶湖三市同時花火大会」 中止発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43037",
      "pubDate": "Mon, 10 Aug 2026 07:35:00 +0900"
@@ -57,7 +62,7 @@
     {
      "title": "【動画】Pickup NEWS（8月10日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43013",
-     "pubDate": "Mon, 10 Aug 2026 11:13:57 +0900"
+     "pubDate": "Mon, 10 Aug 2026 13:59:55 +0900"
     },
     {
      "title": "熊本地震 自宅全壊の被災者の偽画像拡散 報道写真をAIで加工か",
@@ -118,11 +123,6 @@
      "title": "【熊本地震 交通影響】8月9日 午前6時時点",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42931",
      "pubDate": "Sun, 09 Aug 2026 07:58:09 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（8月9日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260808de42858",
-     "pubDate": "Sun, 09 Aug 2026 19:53:01 +0900"
     }
    ]
   },
@@ -154,14 +154,14 @@
      "pubDate": "Mon, 10 Aug 2026 05:53:00 +0900"
     },
     {
-     "title": "イラン 米に補償求める 米は経済的圧力示唆で駆け引き続く",
+     "title": "トランプ大統領 核開発合意なしでも幕引き模索か 米メディア",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43045",
-     "pubDate": "Mon, 10 Aug 2026 05:45:29 +0900"
+     "pubDate": "Mon, 10 Aug 2026 12:21:48 +0900"
     },
     {
      "title": "黒海周辺 ロシアとウクライナ双方が攻撃 トルコ外相停止求める",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43042",
-     "pubDate": "Mon, 10 Aug 2026 05:36:51 +0900"
+     "pubDate": "Mon, 10 Aug 2026 05:36:00 +0900"
     },
     {
      "title": "イラン ホルムズ海峡開放で米に条件提示 双方で駆け引き続く",
@@ -211,19 +211,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "便乗犯罪 熊本の被災者に追い打ち",
-     "link": "https://news.yahoo.co.jp/pickup/6591156?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 00:13:40 GMT"
+     "title": "台風 あす関東・東北に上陸の恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6591177?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 03:21:09 GMT"
     },
     {
-     "title": "検事から「反社」 法廷で映像再生",
-     "link": "https://news.yahoo.co.jp/pickup/6591168?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 02:18:04 GMT"
+     "title": "日銀委員 利上げペース加速の意見",
+     "link": "https://news.yahoo.co.jp/pickup/6591178?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 03:41:02 GMT"
     },
     {
-     "title": "沢登り中の女性 流され行方不明に",
-     "link": "https://news.yahoo.co.jp/pickup/6591172?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 02:42:17 GMT"
+     "title": "愛媛県知事選 宮沢博行氏が出馬へ",
+     "link": "https://news.yahoo.co.jp/pickup/6591179?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 03:53:05 GMT"
+    },
+    {
+     "title": "海難事故 女性と男児が心肺停止",
+     "link": "https://news.yahoo.co.jp/pickup/6591187?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 04:56:20 GMT"
     },
     {
      "title": "世帯年収1000万円 理想とは遠い家",
@@ -231,24 +236,19 @@
      "pubDate": "Mon, 10 Aug 2026 02:38:20 GMT"
     },
     {
+     "title": "速報甲子園 沖縄尚学vs.横浜",
+     "link": "https://news.yahoo.co.jp/pickup/6591183?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 04:27:44 GMT"
+    },
+    {
      "title": "馬淵監督 もう何年もやる気はない",
      "link": "https://news.yahoo.co.jp/pickup/6591170?source=rss",
      "pubDate": "Mon, 10 Aug 2026 02:29:03 GMT"
     },
     {
-     "title": "河村勇輝 NBAクリッパーズと契約",
-     "link": "https://news.yahoo.co.jp/pickup/6591166?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 02:19:02 GMT"
-    },
-    {
-     "title": "映画ちいかわ グッズ争奪戦が過熱",
-     "link": "https://news.yahoo.co.jp/pickup/6591173?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 02:53:23 GMT"
-    },
-    {
-     "title": "高速のバイク事故 時間や区間分析",
-     "link": "https://news.yahoo.co.jp/pickup/6591164?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 01:44:34 GMT"
+     "title": "「Nクールおじさん」結婚を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6591182?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 04:07:46 GMT"
     }
    ]
   }
