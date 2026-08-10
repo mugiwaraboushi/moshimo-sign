@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-10T20:06:29.602Z",
+ "updatedAt": "2026-08-10T21:08:02.385Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "台風15号 今夜にかけ関東上陸おそれ 土砂災害や暴風など警戒を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
+     "pubDate": "Tue, 11 Aug 2026 05:50:18 +0900"
+    },
+    {
      "title": "日本版GPS衛星「みちびき7号機」 H3ロケットで打ち上げ成功",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
-     "pubDate": "Tue, 11 Aug 2026 04:56:06 +0900"
+     "pubDate": "Tue, 11 Aug 2026 05:11:34 +0900"
     },
     {
-     "title": "コロンビアでM7.4の地震“111人死亡 87人けが”と大統領",
+     "title": "コロンビアでM7.4の地震 111人死亡 87人けが 各地で建物被害",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43201",
-     "pubDate": "Tue, 11 Aug 2026 04:08:12 +0900"
+     "pubDate": "Tue, 11 Aug 2026 05:16:57 +0900"
     },
     {
-     "title": "台風15号 きょう関東甲信に接近 夜にかけ上陸のおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43043",
-     "pubDate": "Tue, 11 Aug 2026 02:43:26 +0900"
+     "title": "東京メトロ半蔵門線 運転見合わせ 渋谷ー九段下",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43221",
+     "pubDate": "Tue, 11 Aug 2026 05:40:48 +0900"
     },
     {
      "title": "台風15号 交通機関への影響は（鉄道 高速道路 空の便）",
@@ -28,19 +33,14 @@
      "pubDate": "Mon, 10 Aug 2026 18:38:00 +0900"
     },
     {
+     "title": "熊本地震 震度7観測から2週間 災害関連死の防止が課題に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43203",
+     "pubDate": "Tue, 11 Aug 2026 05:06:00 +0900"
+    },
+    {
      "title": "非核三原則 「守るべき」59％「見直すべき」33％ NHK世論調査",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43055",
      "pubDate": "Tue, 11 Aug 2026 05:00:33 +0900"
-    },
-    {
-     "title": "【地震情報】熊本・上天草で震度3 津波の心配なし（3:12）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43215",
-     "pubDate": "Tue, 11 Aug 2026 03:17:00 +0900"
-    },
-    {
-     "title": "高校野球 夏の甲子園【大会7日目の見どころ】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43187",
-     "pubDate": "Tue, 11 Aug 2026 04:43:18 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "東京メトロ半蔵門線 運転見合わせ 渋谷ー九段下",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43221",
+     "pubDate": "Tue, 11 Aug 2026 05:40:48 +0900"
+    },
     {
      "title": "経産省 職員を停職3か月に 口座の通帳など他人に譲渡したか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43199",
@@ -118,11 +123,6 @@
      "title": "山形 鶴岡 70代男性が海で浮いているのが見つかる 死亡確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43012",
      "pubDate": "Sun, 09 Aug 2026 22:34:09 +0900"
-    },
-    {
-     "title": "俳優 小川真由美さん死去 映画「復讐するは我にあり」など活躍",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43019",
-     "pubDate": "Sun, 09 Aug 2026 22:32:26 +0900"
     }
    ]
   },
@@ -134,7 +134,7 @@
     {
      "title": "日本版GPS衛星「みちびき7号機」 H3ロケットで打ち上げ成功",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
-     "pubDate": "Tue, 11 Aug 2026 04:56:06 +0900"
+     "pubDate": "Tue, 11 Aug 2026 05:11:34 +0900"
     },
     {
      "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
@@ -149,9 +149,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "コロンビアでM7.4の地震“111人死亡 87人けが”と大統領",
+     "title": "コロンビアでM7.4の地震 111人死亡 87人けが 各地で建物被害",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43201",
-     "pubDate": "Tue, 11 Aug 2026 04:08:12 +0900"
+     "pubDate": "Tue, 11 Aug 2026 05:16:57 +0900"
     },
     {
      "title": "イラン大統領 モジタバ師と面会か 最高指導者の健在アピールも",
@@ -184,7 +184,7 @@
      "pubDate": "Mon, 10 Aug 2026 17:34:00 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月10日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（8月10日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43106",
      "pubDate": "Mon, 10 Aug 2026 15:38:00 +0900"
     },
