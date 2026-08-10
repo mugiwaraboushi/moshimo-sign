@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-10T21:08:02.385Z",
+ "updatedAt": "2026-08-10T22:03:28.333Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風15号 今夜にかけ関東上陸おそれ 土砂災害や暴風など警戒を",
+     "title": "台風15号関東上陸おそれ 東日本から東北で土砂災害や暴風警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
-     "pubDate": "Tue, 11 Aug 2026 05:50:18 +0900"
+     "pubDate": "Tue, 11 Aug 2026 05:50:00 +0900"
+    },
+    {
+     "title": "熊本地震から2週間 依然 活発な活動 最大震度5弱以上に注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43205",
+     "pubDate": "Tue, 11 Aug 2026 06:11:53 +0900"
     },
     {
      "title": "日本版GPS衛星「みちびき7号機」 H3ロケットで打ち上げ成功",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
-     "pubDate": "Tue, 11 Aug 2026 05:11:34 +0900"
-    },
-    {
-     "title": "コロンビアでM7.4の地震 111人死亡 87人けが 各地で建物被害",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43201",
-     "pubDate": "Tue, 11 Aug 2026 05:16:57 +0900"
-    },
-    {
-     "title": "東京メトロ半蔵門線 運転見合わせ 渋谷ー九段下",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43221",
-     "pubDate": "Tue, 11 Aug 2026 05:40:48 +0900"
+     "pubDate": "Tue, 11 Aug 2026 06:35:16 +0900"
     },
     {
      "title": "台風15号 交通機関への影響は（鉄道 高速道路 空の便）",
@@ -33,14 +28,19 @@
      "pubDate": "Mon, 10 Aug 2026 18:38:00 +0900"
     },
     {
-     "title": "熊本地震 震度7観測から2週間 災害関連死の防止が課題に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43203",
-     "pubDate": "Tue, 11 Aug 2026 05:06:00 +0900"
+     "title": "東京メトロ半蔵門線 運転見合わせ 渋谷ー九段下 再開は昼頃か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43221",
+     "pubDate": "Tue, 11 Aug 2026 06:40:52 +0900"
     },
     {
-     "title": "非核三原則 「守るべき」59％「見直すべき」33％ NHK世論調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43055",
-     "pubDate": "Tue, 11 Aug 2026 05:00:33 +0900"
+     "title": "アメリカ大統領「イランに補償求める」イランは重要ポスト交代",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43219",
+     "pubDate": "Tue, 11 Aug 2026 06:21:37 +0900"
+    },
+    {
+     "title": "西ヨーロッパやアメリカ本土 平均気温が統計開始以降 最高に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43212",
+     "pubDate": "Tue, 11 Aug 2026 06:22:46 +0900"
     }
    ]
   },
@@ -50,9 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "東京メトロ半蔵門線 運転見合わせ 渋谷ー九段下",
+     "title": "【動画】Pickup NEWS（8月11日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43181",
+     "pubDate": "Tue, 11 Aug 2026 07:01:10 +0900"
+    },
+    {
+     "title": "東京メトロ半蔵門線 運転見合わせ 渋谷ー九段下 再開は昼頃か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43221",
-     "pubDate": "Tue, 11 Aug 2026 05:40:48 +0900"
+     "pubDate": "Tue, 11 Aug 2026 06:40:52 +0900"
     },
     {
      "title": "経産省 職員を停職3か月に 口座の通帳など他人に譲渡したか",
@@ -118,11 +123,6 @@
      "title": "熊本地震 自宅全壊の被災者の偽画像拡散 報道写真をAIで加工か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42999",
      "pubDate": "Mon, 10 Aug 2026 00:38:00 +0900"
-    },
-    {
-     "title": "山形 鶴岡 70代男性が海で浮いているのが見つかる 死亡確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43012",
-     "pubDate": "Sun, 09 Aug 2026 22:34:09 +0900"
     }
    ]
   },
@@ -134,7 +134,7 @@
     {
      "title": "日本版GPS衛星「みちびき7号機」 H3ロケットで打ち上げ成功",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
-     "pubDate": "Tue, 11 Aug 2026 05:11:34 +0900"
+     "pubDate": "Tue, 11 Aug 2026 06:35:16 +0900"
     },
     {
      "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
@@ -148,6 +148,26 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "英仏結ぶ高速鉄道参入に向けイタリア鉄道会社が日立に車両発注",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43213",
+     "pubDate": "Tue, 11 Aug 2026 06:27:19 +0900"
+    },
+    {
+     "title": "西ヨーロッパやアメリカ本土 平均気温が統計開始以降 最高に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43212",
+     "pubDate": "Tue, 11 Aug 2026 06:22:46 +0900"
+    },
+    {
+     "title": "アメリカ大統領「イランに補償求める」イランは重要ポスト交代",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43219",
+     "pubDate": "Tue, 11 Aug 2026 06:21:37 +0900"
+    },
+    {
+     "title": "フィリピンで土砂崩れや浸水 8人死亡 2万人以上が避難所で生活",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43210",
+     "pubDate": "Tue, 11 Aug 2026 06:12:08 +0900"
+    },
     {
      "title": "コロンビアでM7.4の地震 111人死亡 87人けが 各地で建物被害",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43201",
@@ -202,26 +222,6 @@
      "title": "イスラエル首相 ガザ地区の和平に向けた工程表 拒否すると表明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43024",
      "pubDate": "Mon, 10 Aug 2026 05:53:00 +0900"
-    },
-    {
-     "title": "トランプ大統領 核開発合意なしでも幕引き模索か 米メディア",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43045",
-     "pubDate": "Mon, 10 Aug 2026 12:21:48 +0900"
-    },
-    {
-     "title": "黒海周辺 ロシアとウクライナ双方が攻撃 トルコ外相停止求める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43042",
-     "pubDate": "Mon, 10 Aug 2026 05:36:00 +0900"
-    },
-    {
-     "title": "イラン ホルムズ海峡開放で米に条件提示 双方で駆け引き続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43006",
-     "pubDate": "Sun, 09 Aug 2026 23:03:12 +0900"
-    },
-    {
-     "title": "中国 7月の消費者物価指数 前年同月比0.5％↑もデフレ懸念続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42962",
-     "pubDate": "Sun, 09 Aug 2026 14:41:22 +0900"
     }
    ]
   },
