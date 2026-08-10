@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-09T23:53:59.466Z",
+ "updatedAt": "2026-08-10T00:43:07.324Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -211,9 +211,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風 11日に東北～関東に上陸恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6591141?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 21:41:02 GMT"
+     "title": "便乗犯罪 熊本の被災者に追い打ち",
+     "link": "https://news.yahoo.co.jp/pickup/6591156?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 00:13:40 GMT"
     },
     {
      "title": "不同意性交の認知件数 増加傾向",
@@ -231,24 +231,24 @@
      "pubDate": "Sun, 09 Aug 2026 22:17:32 GMT"
     },
     {
-     "title": "家電激戦池袋 ヨドバシが狙う商圏",
-     "link": "https://news.yahoo.co.jp/pickup/6591148?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 23:02:17 GMT"
+     "title": "休暇中に会社の電話無視 法的には",
+     "link": "https://news.yahoo.co.jp/pickup/6591154?source=rss",
+     "pubDate": "Sun, 09 Aug 2026 23:57:49 GMT"
     },
     {
-     "title": "ヌートバー 朗希らに自分対策聞く",
-     "link": "https://news.yahoo.co.jp/pickup/6591152?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 23:32:37 GMT"
+     "title": "U20世陸 後藤大樹が400m障害で銀",
+     "link": "https://news.yahoo.co.jp/pickup/6591155?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 00:20:14 GMT"
+    },
+    {
+     "title": "ミセス きょうから約1カ月の休暇",
+     "link": "https://news.yahoo.co.jp/pickup/6591159?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 00:29:12 GMT"
     },
     {
      "title": "解散した天竺鼠 なぜKOC異例出場",
      "link": "https://news.yahoo.co.jp/pickup/6591153?source=rss",
      "pubDate": "Sun, 09 Aug 2026 23:48:08 GMT"
-    },
-    {
-     "title": "映画「踊る」豪華声優陣が集結",
-     "link": "https://news.yahoo.co.jp/pickup/6591150?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 23:13:35 GMT"
     }
    ]
   }
