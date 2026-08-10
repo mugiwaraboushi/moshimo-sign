@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-10T11:39:00.041Z",
+ "updatedAt": "2026-08-10T12:37:51.719Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "台風15号 あす関東甲信に接近 夜にかけ上陸のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43043",
-     "pubDate": "Mon, 10 Aug 2026 19:12:24 +0900"
+     "pubDate": "Mon, 10 Aug 2026 20:42:47 +0900"
     },
     {
      "title": "台風15号 交通機関への影響は（鉄道 高速道路 空の便）",
@@ -33,14 +33,14 @@
      "pubDate": "Mon, 10 Aug 2026 19:01:07 +0900"
     },
     {
+     "title": "高市首相 オマーン国王と電話会談“国際社会とも協議を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43179",
+     "pubDate": "Mon, 10 Aug 2026 20:26:40 +0900"
+    },
+    {
      "title": "新潟市の海で親子3人流される 13歳と8歳のきょうだい死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43094",
      "pubDate": "Mon, 10 Aug 2026 19:24:58 +0900"
-    },
-    {
-     "title": "ニチレイのサイバー攻撃 ハッカー集団が個人情報など公開か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43141",
-     "pubDate": "Mon, 10 Aug 2026 19:22:00 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "松橋事件の国賠訴訟 熊本県は上告せず 県に対する判決確定へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43177",
+     "pubDate": "Mon, 10 Aug 2026 21:05:36 +0900"
+    },
     {
      "title": "トクリュウのアプリ遠隔解析で警察庁の有識者会議が発足",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43146",
@@ -72,7 +77,7 @@
     {
      "title": "特捜検事の調べに賠償求める裁判 取り調べ映像を法廷で再生",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43095",
-     "pubDate": "Mon, 10 Aug 2026 14:24:00 +0900"
+     "pubDate": "Mon, 10 Aug 2026 21:06:16 +0900"
     },
     {
      "title": "新潟市の海で親子3人流される 13歳と8歳のきょうだい死亡",
@@ -118,11 +123,6 @@
      "title": "被爆体験を描いた紙芝居で小中学生と平和の尊さ学ぶ 水戸",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43002",
      "pubDate": "Sun, 09 Aug 2026 19:20:17 +0900"
-    },
-    {
-     "title": "茨城 鉾田 2人が沖合に流され23歳女性が死亡 離岸流か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43003",
-     "pubDate": "Sun, 09 Aug 2026 19:15:51 +0900"
     }
    ]
   },
@@ -143,6 +143,26 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "イラン大統領 モジタバ師と面会か 最高指導者の健在アピールも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43176",
+     "pubDate": "Mon, 10 Aug 2026 20:57:51 +0900"
+    },
+    {
+     "title": "【詳細】イラン“船舶から料金徴収” 海運業界団体は反対",
+     "link": "https://news.web.nhk/newsweb/na/nd-20240101de00453",
+     "pubDate": "Fri, 07 Aug 2026 12:54:00 +0900"
+    },
+    {
+     "title": "【詳細】イラン「オマーンとの協議 最終段階」 トランプ氏期待",
+     "link": "https://news.web.nhk/newsweb/na/nd-20240101de00427",
+     "pubDate": "Thu, 06 Aug 2026 20:45:00 +0900"
+    },
+    {
+     "title": "【詳細】トランプ大統領“あすか あさって 海峡開放の可能性”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20240101de00336",
+     "pubDate": "Wed, 05 Aug 2026 19:17:00 +0900"
+    },
     {
      "title": "高市首相 オマーン国王と電話会談“国際社会とも協議を”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43179",
@@ -166,7 +186,7 @@
     {
      "title": "ニューヨーク自由の女神の島近く ボート転覆 乳児と母2人死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43103",
-     "pubDate": "Mon, 10 Aug 2026 15:30:10 +0900"
+     "pubDate": "Mon, 10 Aug 2026 15:30:00 +0900"
     },
     {
      "title": "タングステン 中国の輸出規制影響 製品価格高騰や調達難に",
@@ -197,26 +217,6 @@
      "title": "中国 7月の消費者物価指数 前年同月比0.5％↑もデフレ懸念続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42962",
      "pubDate": "Sun, 09 Aug 2026 14:41:22 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（8月9日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42906",
-     "pubDate": "Sun, 09 Aug 2026 12:49:00 +0900"
-    },
-    {
-     "title": "ゼレンスキー大統領“北朝鮮3万人から5万人ロシアに派兵決定”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42945",
-     "pubDate": "Sun, 09 Aug 2026 11:17:00 +0900"
-    },
-    {
-     "title": "ゼレンスキー大統領がセルビア初訪問 ロシアけん制のねらいも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42889",
-     "pubDate": "Sun, 09 Aug 2026 07:03:00 +0900"
-    },
-    {
-     "title": "イラン“通航再開は米の補償も条件” “交渉は停滞”報道も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42920",
-     "pubDate": "Sun, 09 Aug 2026 05:55:46 +0900"
     }
    ]
   },
@@ -226,29 +226,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "長野の土石流 登山者は全員下山",
-     "link": "https://news.yahoo.co.jp/pickup/6591220?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 08:58:40 GMT"
+     "title": "台風 東北新幹線で遅れや運休恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6591237?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 10:48:30 GMT"
     },
     {
-     "title": "母は寝たきり娘は不登校 女性孤立",
-     "link": "https://news.yahoo.co.jp/pickup/6591215?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 08:30:12 GMT"
+     "title": "内閣支持率62.5%で横ばい FNN",
+     "link": "https://news.yahoo.co.jp/pickup/6591246?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 11:55:06 GMT"
     },
     {
-     "title": "天皇皇后両陛下が熊本県に見舞金",
-     "link": "https://news.yahoo.co.jp/pickup/6591235?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 10:38:25 GMT"
+     "title": "中1と小3死亡 遊具があおられ落水",
+     "link": "https://news.yahoo.co.jp/pickup/6591245?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 11:44:56 GMT"
     },
     {
-     "title": "男児転び一時意識不明 1年非公表",
-     "link": "https://news.yahoo.co.jp/pickup/6591233?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 10:08:02 GMT"
-    },
-    {
-     "title": "アユ釣りで転倒し流され 70歳死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6591231?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 09:50:40 GMT"
+     "title": "生徒送迎中バスが追突し逃走 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6591243?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 11:30:33 GMT"
     },
     {
      "title": "大腸がん 毒素作る腸内細菌が関与",
@@ -256,14 +251,19 @@
      "pubDate": "Mon, 10 Aug 2026 11:10:36 GMT"
     },
     {
-     "title": "「第二の軍艦島」撮影動画に批判",
-     "link": "https://news.yahoo.co.jp/pickup/6591238?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 11:10:31 GMT"
+     "title": "新幹線の車内でハト飛ぶ 乗客驚き",
+     "link": "https://news.yahoo.co.jp/pickup/6591249?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 12:14:49 GMT"
     },
     {
      "title": "馬淵監督 中学生スカウト巡り苦言",
      "link": "https://news.yahoo.co.jp/pickup/6591236?source=rss",
      "pubDate": "Mon, 10 Aug 2026 10:58:08 GMT"
+    },
+    {
+     "title": "「Nクールおじさん」結婚を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6591182?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 04:07:46 GMT"
     }
    ]
   }
