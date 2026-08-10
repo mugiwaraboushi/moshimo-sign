@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-10T00:43:07.324Z",
+ "updatedAt": "2026-08-10T03:03:39.183Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風15号 11日には東北・関東甲信に接近へ 最新情報の確認を",
+     "title": "台風15号 東北・関東接近へ 土砂災害や暴風など警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43043",
-     "pubDate": "Mon, 10 Aug 2026 07:36:50 +0900"
+     "pubDate": "Mon, 10 Aug 2026 11:58:26 +0900"
+    },
+    {
+     "title": "長野 安曇野 土石流で橋が流される 仮設の橋使い移動呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43038",
+     "pubDate": "Mon, 10 Aug 2026 11:56:54 +0900"
+    },
+    {
+     "title": "熊本地震 被災地は午前中から厳しい暑さ 熱中症対策を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43032",
+     "pubDate": "Mon, 10 Aug 2026 11:50:00 +0900"
     },
     {
      "title": "東日本から西日本で猛暑続く 一層の熱中症対策を",
@@ -18,29 +28,19 @@
      "pubDate": "Mon, 10 Aug 2026 06:15:42 +0900"
     },
     {
-     "title": "熊本地震 被災地は10日も厳しい暑さ予想 熱中症対策を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43032",
-     "pubDate": "Mon, 10 Aug 2026 06:33:03 +0900"
-    },
-    {
-     "title": "イスラエル首相 ガザ地区の和平に向けた工程表 拒否すると表明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43024",
-     "pubDate": "Mon, 10 Aug 2026 05:53:53 +0900"
-    },
-    {
      "title": "イオンモール 設備の緊急点検 各地でイベント中止・延期相次ぐ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43010",
-     "pubDate": "Mon, 10 Aug 2026 07:45:29 +0900"
+     "pubDate": "Mon, 10 Aug 2026 07:45:00 +0900"
     },
     {
-     "title": "長野県知事選 現職 阿部守一氏が5回目の当選 投票率は過去最低",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42980",
-     "pubDate": "Mon, 10 Aug 2026 00:32:00 +0900"
+     "title": "タングステン 中国の輸出規制影響 製品価格高騰や調達難に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43011",
+     "pubDate": "Mon, 10 Aug 2026 07:19:00 +0900"
     },
     {
-     "title": "和歌山市長選挙 新人で元県議の尾崎太郎氏 初当選",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42978",
-     "pubDate": "Mon, 10 Aug 2026 00:36:00 +0900"
+     "title": "1月から6月の国際収支 経常黒字過去最大 海外からの配当増える",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43048",
+     "pubDate": "Mon, 10 Aug 2026 11:43:51 +0900"
     }
    ]
   },
@@ -52,12 +52,12 @@
     {
      "title": "SNSで宣伝の「琵琶湖三市同時花火大会」 中止発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43037",
-     "pubDate": "Mon, 10 Aug 2026 07:35:19 +0900"
+     "pubDate": "Mon, 10 Aug 2026 07:35:00 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（8月10日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43013",
-     "pubDate": "Mon, 10 Aug 2026 06:36:20 +0900"
+     "pubDate": "Mon, 10 Aug 2026 11:13:57 +0900"
     },
     {
      "title": "熊本地震 自宅全壊の被災者の偽画像拡散 報道写真をAIで加工か",
@@ -146,12 +146,12 @@
     {
      "title": "タングステン 中国の輸出規制影響 製品価格高騰や調達難に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43011",
-     "pubDate": "Mon, 10 Aug 2026 07:19:21 +0900"
+     "pubDate": "Mon, 10 Aug 2026 07:19:00 +0900"
     },
     {
      "title": "イスラエル首相 ガザ地区の和平に向けた工程表 拒否すると表明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43024",
-     "pubDate": "Mon, 10 Aug 2026 05:53:53 +0900"
+     "pubDate": "Mon, 10 Aug 2026 05:53:00 +0900"
     },
     {
      "title": "イラン 米に補償求める 米は経済的圧力示唆で駆け引き続く",
@@ -216,39 +216,39 @@
      "pubDate": "Mon, 10 Aug 2026 00:13:40 GMT"
     },
     {
-     "title": "不同意性交の認知件数 増加傾向",
-     "link": "https://news.yahoo.co.jp/pickup/6591146?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 22:38:11 GMT"
+     "title": "検事から「反社」 法廷で映像再生",
+     "link": "https://news.yahoo.co.jp/pickup/6591168?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 02:18:04 GMT"
     },
     {
-     "title": "身寄りのない死 膨らむ公費負担",
-     "link": "https://news.yahoo.co.jp/pickup/6591147?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 22:49:07 GMT"
+     "title": "沢登り中の女性 流され行方不明に",
+     "link": "https://news.yahoo.co.jp/pickup/6591172?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 02:42:17 GMT"
     },
     {
-     "title": "AI「暴走」自律的攻撃に米危機感",
-     "link": "https://news.yahoo.co.jp/pickup/6591142?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 22:17:32 GMT"
+     "title": "世帯年収1000万円 理想とは遠い家",
+     "link": "https://news.yahoo.co.jp/pickup/6591171?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 02:38:20 GMT"
     },
     {
-     "title": "休暇中に会社の電話無視 法的には",
-     "link": "https://news.yahoo.co.jp/pickup/6591154?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 23:57:49 GMT"
+     "title": "馬淵監督 もう何年もやる気はない",
+     "link": "https://news.yahoo.co.jp/pickup/6591170?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 02:29:03 GMT"
     },
     {
-     "title": "U20世陸 後藤大樹が400m障害で銀",
-     "link": "https://news.yahoo.co.jp/pickup/6591155?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 00:20:14 GMT"
+     "title": "河村勇輝 NBAクリッパーズと契約",
+     "link": "https://news.yahoo.co.jp/pickup/6591166?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 02:19:02 GMT"
     },
     {
-     "title": "ミセス きょうから約1カ月の休暇",
-     "link": "https://news.yahoo.co.jp/pickup/6591159?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 00:29:12 GMT"
+     "title": "映画ちいかわ グッズ争奪戦が過熱",
+     "link": "https://news.yahoo.co.jp/pickup/6591173?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 02:53:23 GMT"
     },
     {
-     "title": "解散した天竺鼠 なぜKOC異例出場",
-     "link": "https://news.yahoo.co.jp/pickup/6591153?source=rss",
-     "pubDate": "Sun, 09 Aug 2026 23:48:08 GMT"
+     "title": "高速のバイク事故 時間や区間分析",
+     "link": "https://news.yahoo.co.jp/pickup/6591164?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 01:44:34 GMT"
     }
    ]
   }
