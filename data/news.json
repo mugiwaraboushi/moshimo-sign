@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-10T22:03:28.333Z",
+ "updatedAt": "2026-08-10T23:02:01.050Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,22 +10,22 @@
     {
      "title": "台風15号関東上陸おそれ 東日本から東北で土砂災害や暴風警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
-     "pubDate": "Tue, 11 Aug 2026 05:50:00 +0900"
-    },
-    {
-     "title": "熊本地震から2週間 依然 活発な活動 最大震度5弱以上に注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43205",
-     "pubDate": "Tue, 11 Aug 2026 06:11:53 +0900"
-    },
-    {
-     "title": "日本版GPS衛星「みちびき7号機」 H3ロケットで打ち上げ成功",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
-     "pubDate": "Tue, 11 Aug 2026 06:35:16 +0900"
+     "pubDate": "Tue, 11 Aug 2026 07:44:50 +0900"
     },
     {
      "title": "台風15号 交通機関への影響は（鉄道 高速道路 空の便）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43124",
      "pubDate": "Mon, 10 Aug 2026 18:38:00 +0900"
+    },
+    {
+     "title": "台風15号 宮城 栗原市が市内全域に高齢者等避難(午前6:00)",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43222",
+     "pubDate": "Tue, 11 Aug 2026 07:05:57 +0900"
+    },
+    {
+     "title": "日本版GPS衛星「みちびき7号機」 H3ロケットで打ち上げ成功",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
+     "pubDate": "Tue, 11 Aug 2026 07:52:04 +0900"
     },
     {
      "title": "東京メトロ半蔵門線 運転見合わせ 渋谷ー九段下 再開は昼頃か",
@@ -35,12 +35,12 @@
     {
      "title": "アメリカ大統領「イランに補償求める」イランは重要ポスト交代",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43219",
-     "pubDate": "Tue, 11 Aug 2026 06:21:37 +0900"
+     "pubDate": "Tue, 11 Aug 2026 06:21:00 +0900"
     },
     {
-     "title": "西ヨーロッパやアメリカ本土 平均気温が統計開始以降 最高に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43212",
-     "pubDate": "Tue, 11 Aug 2026 06:22:46 +0900"
+     "title": "熊本地震から2週間 依然 活発な活動 最大震度5弱以上に注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43205",
+     "pubDate": "Tue, 11 Aug 2026 06:11:53 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "新潟 蓮池薫さん 拉致された当時の心境など中学生に明かす",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43211",
+     "pubDate": "Tue, 11 Aug 2026 07:05:02 +0900"
+    },
     {
      "title": "【動画】Pickup NEWS（8月11日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43181",
@@ -67,7 +72,7 @@
     {
      "title": "日本被団協結成70年で声明「核兵器ない社会築くのは市民」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43197",
-     "pubDate": "Tue, 11 Aug 2026 22:48:00 +0900"
+     "pubDate": "Mon, 10 Aug 2026 22:48:00 +0900"
     },
     {
      "title": "神戸 冷凍庫遺体遺棄 男性を殺害した疑いで元妻を再逮捕",
@@ -118,11 +123,6 @@
      "title": "【動画】Pickup NEWS（8月10日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43013",
      "pubDate": "Mon, 10 Aug 2026 19:44:45 +0900"
-    },
-    {
-     "title": "熊本地震 自宅全壊の被災者の偽画像拡散 報道写真をAIで加工か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42999",
-     "pubDate": "Mon, 10 Aug 2026 00:38:00 +0900"
     }
    ]
   },
@@ -134,7 +134,7 @@
     {
      "title": "日本版GPS衛星「みちびき7号機」 H3ロケットで打ち上げ成功",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
-     "pubDate": "Tue, 11 Aug 2026 06:35:16 +0900"
+     "pubDate": "Tue, 11 Aug 2026 07:52:04 +0900"
     },
     {
      "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
@@ -149,6 +149,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ロシア中部にウクライナが無人機攻撃 13人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43216",
+     "pubDate": "Tue, 11 Aug 2026 07:50:36 +0900"
+    },
+    {
      "title": "英仏結ぶ高速鉄道参入に向けイタリア鉄道会社が日立に車両発注",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43213",
      "pubDate": "Tue, 11 Aug 2026 06:27:19 +0900"
@@ -161,7 +166,7 @@
     {
      "title": "アメリカ大統領「イランに補償求める」イランは重要ポスト交代",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43219",
-     "pubDate": "Tue, 11 Aug 2026 06:21:37 +0900"
+     "pubDate": "Tue, 11 Aug 2026 06:21:00 +0900"
     },
     {
      "title": "フィリピンで土砂崩れや浸水 8人死亡 2万人以上が避難所で生活",
@@ -217,11 +222,6 @@
      "title": "タングステン 中国の輸出規制影響 製品価格高騰や調達難に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de43011",
      "pubDate": "Mon, 10 Aug 2026 07:19:00 +0900"
-    },
-    {
-     "title": "イスラエル首相 ガザ地区の和平に向けた工程表 拒否すると表明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43024",
-     "pubDate": "Mon, 10 Aug 2026 05:53:00 +0900"
     }
    ]
   },
@@ -231,24 +231,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風 雨風による交通機関乱れ注意",
-     "link": "https://news.yahoo.co.jp/pickup/6591269?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 15:10:06 GMT"
+     "title": "熊本地震2週間 6千人なお避難生活",
+     "link": "https://news.yahoo.co.jp/pickup/6591276?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 22:50:20 GMT"
     },
     {
-     "title": "避難所に幼なじみ 70年ぶりの再会",
-     "link": "https://news.yahoo.co.jp/pickup/6591263?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 14:47:09 GMT"
+     "title": "コロンビアで地震 110人超死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6591270?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 22:19:52 GMT"
     },
     {
-     "title": "八代地域 大潮での浸水や冠水注意",
-     "link": "https://news.yahoo.co.jp/pickup/6591261?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 13:58:09 GMT"
+     "title": "台風が関東上陸へ 交通乱れに注意",
+     "link": "https://news.yahoo.co.jp/pickup/6591272?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 22:26:28 GMT"
     },
     {
-     "title": "南米コロンビアでM7.4の地震",
-     "link": "https://news.yahoo.co.jp/pickup/6591262?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 14:24:11 GMT"
+     "title": "H3ロケット9号機 打ち上げ成功",
+     "link": "https://news.yahoo.co.jp/pickup/6591271?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 22:22:08 GMT"
     },
     {
      "title": "中1と小3死亡 遊具があおられ落水",
@@ -256,19 +256,19 @@
      "pubDate": "Mon, 10 Aug 2026 11:44:56 GMT"
     },
     {
+     "title": "半蔵門線一部見合わせ 再開は昼か",
+     "link": "https://news.yahoo.co.jp/pickup/6591275?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 22:46:07 GMT"
+    },
+    {
+     "title": "シャインマスカット 盗難相次ぐ",
+     "link": "https://news.yahoo.co.jp/pickup/6591273?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 22:44:06 GMT"
+    },
+    {
      "title": "突如中止の花火大会 主催者が回答",
      "link": "https://news.yahoo.co.jp/pickup/6591256?source=rss",
      "pubDate": "Mon, 10 Aug 2026 13:04:32 GMT"
-    },
-    {
-     "title": "中日・嶋コーチが事故 相手軽傷",
-     "link": "https://news.yahoo.co.jp/pickup/6591267?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 14:43:59 GMT"
-    },
-    {
-     "title": "ミセス夏季休暇 ファンへ配慮求む",
-     "link": "https://news.yahoo.co.jp/pickup/6591268?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 14:55:52 GMT"
     }
    ]
   }
