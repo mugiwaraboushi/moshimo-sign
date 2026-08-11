@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-11T12:34:58.201Z",
+ "updatedAt": "2026-08-11T14:09:34.430Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,22 +10,22 @@
     {
      "title": "台風15号 茨城県南部に上陸 茨城上陸は統計開始から初 気象庁",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
-     "pubDate": "Tue, 11 Aug 2026 21:26:38 +0900"
+     "pubDate": "Tue, 11 Aug 2026 23:07:41 +0900"
     },
     {
-     "title": "台風15号 交通機関への影響は（鉄道 高速道路 空の便）11日",
+     "title": "【交通影響】東北道一部通行止め 常磐線見合わせも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43204",
-     "pubDate": "Tue, 11 Aug 2026 20:32:44 +0900"
+     "pubDate": "Tue, 11 Aug 2026 22:52:09 +0900"
     },
     {
      "title": "【気象予報士解説】台風15号 今後の見通しは",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43243",
-     "pubDate": "Tue, 11 Aug 2026 19:25:10 +0900"
+     "pubDate": "Tue, 11 Aug 2026 22:49:12 +0900"
     },
     {
-     "title": "台風15号 各地の被害 茨城で3人がけが 屋根吹き飛ぶ被害も",
+     "title": "台風15号 各地の被害 茨城で3人けが 関東で2万630戸停電",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43291",
-     "pubDate": "Tue, 11 Aug 2026 21:29:57 +0900"
+     "pubDate": "Tue, 11 Aug 2026 22:53:21 +0900"
     },
     {
      "title": "【動画】イオンモール熊本 爆発後の捜索活動の映像 被害克明に",
@@ -149,6 +149,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ゼレンスキー大統領「ロシアが北朝鮮のミサイルで攻撃」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43300",
+     "pubDate": "Tue, 11 Aug 2026 22:57:58 +0900"
+    },
+    {
      "title": "トランプ大統領 子ども向けワクチン接種の方針変更 批判も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43254",
      "pubDate": "Tue, 11 Aug 2026 15:13:07 +0900"
@@ -217,11 +222,6 @@
      "title": "カナダ西部で山火事 約2万人が避難 地元の州が非常事態宣言",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43134",
      "pubDate": "Mon, 10 Aug 2026 17:34:00 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（8月10日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43106",
-     "pubDate": "Mon, 10 Aug 2026 15:38:00 +0900"
     }
    ]
   },
@@ -231,19 +231,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風15号が茨城に上陸 災害に警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6591354?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 11:24:07 GMT"
+     "title": "台風上陸 12日も各地で大雨予想",
+     "link": "https://news.yahoo.co.jp/pickup/6591361?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 13:12:11 GMT"
     },
     {
-     "title": "仏全土の7割近くで水の使用制限",
-     "link": "https://news.yahoo.co.jp/pickup/6591325?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 06:51:32 GMT"
+     "title": "東北道下りで全車線塞ぐ倒木 栃木",
+     "link": "https://news.yahoo.co.jp/pickup/6591362?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 13:22:53 GMT"
     },
     {
-     "title": "茨城県に台風上陸 現地のSNS投稿",
-     "link": "https://news.yahoo.co.jp/pickup/6591349?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 12:15:18 GMT"
+     "title": "イオン 爆発事故で遺族に補償方針",
+     "link": "https://news.yahoo.co.jp/pickup/6591365?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 13:38:51 GMT"
     },
     {
      "title": "子供2人死亡 海の流れに識者驚き",
@@ -251,19 +251,19 @@
      "pubDate": "Tue, 11 Aug 2026 12:22:54 GMT"
     },
     {
-     "title": "アスベスト影響 半蔵門線運転再開",
-     "link": "https://news.yahoo.co.jp/pickup/6591350?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 10:39:32 GMT"
+     "title": "観覧エリアに花火落下 3人やけど",
+     "link": "https://news.yahoo.co.jp/pickup/6591366?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 13:34:28 GMT"
+    },
+    {
+     "title": "ソニーとTSMC 合弁会社を設立へ",
+     "link": "https://news.yahoo.co.jp/pickup/6591358?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 12:45:46 GMT"
     },
     {
      "title": "YouTube 収益化ハードル引き上げ",
      "link": "https://news.yahoo.co.jp/pickup/6591352?source=rss",
      "pubDate": "Tue, 11 Aug 2026 11:59:38 GMT"
-    },
-    {
-     "title": "第2の麻辣湯 ビャンビャン麺とは",
-     "link": "https://news.yahoo.co.jp/pickup/6591353?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 11:39:27 GMT"
     },
     {
      "title": "SB三塁打→HR 相手リクエストで",
