@@ -30,16 +30,38 @@ for (let i = 0; i < ol.fnArray.length; i++){
       pts.push(X, Y);
       if (X<x0) x0=X; if (X>x1) x1=X; if (Y<y0) y0=Y; if (Y>y1) y1=Y;
     }
-    pending = { x0,y0,x1,y1, pts, ops: args[0].join(",") };
+    // 座標配列に矩形(rectangle)が混ざっていると「幅・高さ」を点と誤読して枠が壊れる。
+    // その場合だけ pdf.js が持っている minMax を使う（数字は矩形を含まないので従来どおり）。
+    const mm = args[2];
+    let bx0, by0, bx1, by1;
+    if (args[0].includes(OPS.rectangle) && mm && mm.length === 4){
+      const c1 = apply(ctm, mm[0], mm[1]), c2 = apply(ctm, mm[2], mm[3]);
+      bx0 = Math.min(c1[0], c2[0]); bx1 = Math.max(c1[0], c2[0]);
+      by0 = Math.min(c1[1], c2[1]); by1 = Math.max(c1[1], c2[1]);
+    } else { bx0 = x0; by0 = y0; bx1 = x1; by1 = y1; }
+    pending = { x0, y0, bx0, by0, bx1, by1, pts, ops: args[0].join(",") };
   }
   else if ((fn === OPS.fill || fn === OPS.eoFill) && pending){
-    const { x0,y0,x1,y1,pts,ops } = pending;
+    const { x0,y0,bx0,by0,bx1,by1,pts,ops } = pending;
+    // 形のキーは今までどおり座標から作る（数字の対応表を作り直さなくて済むように）
     const key = ops + "|" + pts.map((v,idx) => (Math.round((v - (idx%2 ? y0 : x0))*2)/2).toFixed(1)).join(",");
-    shapes.push({ x:+x0.toFixed(1), y:+y0.toFixed(1), w:+(x1-x0).toFixed(1), h:+(y1-y0).toFixed(1), c:color, key });
+    // 記号（かな・漢字）は同じ字でも座標がわずかにずれるので、
+    // 枠で正規化して粗く量子化したキーも持つ（こちらは位置と大きさに依存しない）
+    const w = Math.max(bx1-bx0, 0.01), h = Math.max(by1-by0, 0.01);
+    // 8×8のマスに点を落とした密度。字の形をざっくり表す指紋で、多少座標がぶれても似た値になる。
+    const G = 8, grid = new Array(G*G).fill(0);
+    for (let k=0; k+1 < pts.length; k+=2){
+      const gx = Math.min(G-1, Math.max(0, Math.floor((pts[k]   - bx0) / w * G)));
+      const gy = Math.min(G-1, Math.max(0, Math.floor((pts[k+1] - by0) / h * G)));
+      grid[gy*G + gx]++;
+    }
+    const norm = Math.hypot(...grid) || 1;
+    shapes.push({ x:+bx0.toFixed(1), y:+by0.toFixed(1), w:+w.toFixed(1), h:+h.toFixed(1), c:color, key,
+                  g: grid.map(v => Math.round(v/norm*100)) });
     pending = null;
   }
 }
-const glyphs = shapes.filter(s => s.w < 30 && s.h < 30 && s.w > 1 && s.h > 3);
+const glyphs = shapes.filter(s => s.w < 40 && s.h < 40);
 const byKey = new Map();
 for (const g of glyphs) byKey.set(g.key, (byKey.get(g.key) || 0) + 1);
 console.log(file, "| 全fill:", shapes.length, "| 文字らしいもの:", glyphs.length, "| 形の種類:", byKey.size);

@@ -6,9 +6,28 @@ const shapes = JSON.parse(readFileSync(file.replace(/\.pdf$/, ".shapes.json")));
 const mapMin  = JSON.parse(readFileSync("tt/digits.json"));
 const mapHour = JSON.parse(readFileSync("tt/digits-hour.json"));
 
+// 行先の記号（時刻の上の小さな字）。marks.json のまとまりごとに行先を割り当ててある。
+const name = file.replace(/^.*[\\/]/, "").replace(/\.pdf$/, "");
+const destCfg = JSON.parse(readFileSync("tt/dests.json"))[name] || { default: "", clusters: {} };
+const markList = [];
+try {
+  for (const c of JSON.parse(readFileSync(file.replace(/\.pdf$/, ".marks.json")))){
+    const d = destCfg.clusters[String(c.i)];
+    if (!d) continue;
+    for (const m of c.items) markList.push({ x: m.x, y: m.y, dest: d });
+  }
+} catch (e) { /* 記号のない表（大井町方面）はここを通らない */ }
+// 数字のすぐ上・すこし左にある記号を、その列車の行先とする
+function destOf(n, rowY){
+  const cand = markList.filter(m => m.y > rowY - 15 && m.y < rowY - 1 && m.x >= n.x - 15 && m.x <= n.x + 8);
+  if (!cand.length) return destCfg.default;
+  cand.sort((a,b) => Math.abs(a.x - (n.x-8)) - Math.abs(b.x - (n.x-8)));
+  return cand[0].dest;
+}
+
 const isRed = c => { const [r,g,b] = c.split(",").map(Number); return r > 170 && g < 130 && b < 130; };
-const mins  = shapes.filter(s => mapMin[s.key] && s.h >= 14.5 && s.h <= 18.5).map(s => ({ ...s, d: mapMin[s.key] }));
-const hrs   = shapes.filter(s => mapHour[s.key] && s.h > 20 && s.h < 32).map(s => ({ ...s, d: mapHour[s.key] }));
+const mins  = shapes.filter(s => mapMin[s.key]).map(s => ({ ...s, d: mapMin[s.key] }));
+const hrs   = shapes.filter(s => mapHour[s.key]).map(s => ({ ...s, d: mapHour[s.key] }));
 
 // 左右の表に割る: x のまんなか付近でいちばん広い隙間を探す
 const xs = [...new Set(mins.map(d => Math.round(d.x)))].sort((a,b)=>a-b);
@@ -57,7 +76,9 @@ for (const side of [0, 1]){
   const hourRows = rowsOf(h, 14).map(r => ({ y: r.y, txt: numbersOf(r.items, 34)[0].txt }));
   const rows = rowsOf(m, 7).map(r => {
     const hr = hourRows.filter(hh => Math.abs(hh.y - r.y) < 22).sort((a,b)=>Math.abs(a.y-r.y)-Math.abs(b.y-r.y))[0];
-    return { y: r.y, hour: hr ? hr.txt : null, mins: numbersOf(r.items) };
+    const nums = numbersOf(r.items);
+    for (const n of nums) n.dest = destOf(n, r.y);
+    return { y: r.y, hour: hr ? hr.txt : null, mins: nums };
   });
   tables.push(rows);
 }
@@ -78,4 +99,4 @@ tables.forEach((rows, ti) => {
 });
 console.log(problems.length ? "⚠ 要確認:\n  " + problems.join("\n  ") : "✓ 時台の連番・分の昇順ともに矛盾なし");
 writeFileSync(file.replace(/\.pdf$/, ".rows.json"), JSON.stringify(tables.map(rows =>
-  rows.map(r => ({ hour: r.hour, mins: r.mins.map(n => ({ m: +n.txt, express: n.red })) })))));
+  rows.map(r => ({ hour: r.hour, mins: r.mins.map(n => ({ m: +n.txt, express: n.red, dest: n.dest })) })))));

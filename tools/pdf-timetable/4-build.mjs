@@ -10,7 +10,7 @@ const lines = new Map();
 for (const s of SRC){
   const [weekdayRows, holidayRows] = JSON.parse(readFileSync(s.file));
   const conv = rows => rows.flatMap(r => r.mins.map(m => ({
-    t: pad(+r.hour) + ":" + pad(m.m), type: m.express ? "急行" : "各停" })));
+    t: pad(+r.hour) + ":" + pad(m.m), type: m.express ? "急行" : "各停", dest: m.dest || "" })));
   if (!lines.has(s.line)) lines.set(s.line, { name: s.line, dirs: [] });
   lines.get(s.line).dirs.push({ to: s.to, weekday: conv(weekdayRows), holiday: conv(holidayRows) });
 }
@@ -18,7 +18,7 @@ const out = {
   updated: process.argv[2],
   station: "大岡山",
   source: "東急電鉄「標準時刻表」PDF（2026年3月14日改正）を読み取ったもの",
-  note: "種別は時刻の色で判定（赤=急行、黒=各停）。行き先は読み取っていないため、方面のみ表示する。" +
+  note: "種別は時刻の色で判定（赤=急行、それ以外=各停）。行先は時刻の上の記号を読み取ったもの。" +
         "遅延・運休は反映されない。正確な情報は東急の公式案内を確認すること。",
   lines: [...lines.values()],
 };
