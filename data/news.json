@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-11T05:32:38.064Z",
+ "updatedAt": "2026-08-11T06:41:53.045Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,14 +13,14 @@
      "pubDate": "Tue, 11 Aug 2026 12:50:00 +0900"
     },
     {
-     "title": "台風15号関東上陸おそれ 東日本から東北で土砂災害や暴風警戒",
+     "title": "台風15号 今夜にも関東上陸のおそれ 土砂災害や暴風など警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
-     "pubDate": "Tue, 11 Aug 2026 14:23:37 +0900"
+     "pubDate": "Tue, 11 Aug 2026 15:17:00 +0900"
     },
     {
      "title": "台風15号 交通機関への影響は（鉄道 高速道路 空の便）11日",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43204",
-     "pubDate": "Tue, 11 Aug 2026 14:27:43 +0900"
+     "pubDate": "Tue, 11 Aug 2026 14:48:50 +0900"
     },
     {
      "title": "熊本地震から2週間 今後1か月ほど震度5弱以上に注意 気象庁",
@@ -28,14 +28,14 @@
      "pubDate": "Tue, 11 Aug 2026 11:47:05 +0900"
     },
     {
-     "title": "ロシア中部にウクライナが無人機攻撃 13人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43216",
-     "pubDate": "Tue, 11 Aug 2026 07:50:36 +0900"
+     "title": "コロンビアでM7.4の地震 111人死亡 87人けが 各地で建物被害",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43201",
+     "pubDate": "Tue, 11 Aug 2026 13:33:20 +0900"
     },
     {
-     "title": "アメリカ大統領「イランに補償求める」イランは重要ポスト交代",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43219",
-     "pubDate": "Tue, 11 Aug 2026 06:21:00 +0900"
+     "title": "トランプ大統領 子ども向けワクチン接種の方針変更 批判も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43254",
+     "pubDate": "Tue, 11 Aug 2026 15:13:07 +0900"
     },
     {
      "title": "東京メトロ半蔵門線 運転見合わせ 駅構内でアスベスト見つかる",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "多摩川で釣りをしていた男性死亡 川で溺れたか 東京 昭島市",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43262",
+     "pubDate": "Tue, 11 Aug 2026 15:17:25 +0900"
+    },
     {
      "title": "イオンモール熊本 爆発事故 避難後一時入館認めたと会社が発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43246",
@@ -118,11 +123,6 @@
      "title": "新潟市の海で親子3人流される 13歳と8歳のきょうだい死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43094",
      "pubDate": "Mon, 10 Aug 2026 19:24:58 +0900"
-    },
-    {
-     "title": "SNSで宣伝の「琵琶湖三市同時花火大会」 中止発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43037",
-     "pubDate": "Mon, 10 Aug 2026 07:35:00 +0900"
     }
    ]
   },
@@ -148,6 +148,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "トランプ大統領 子ども向けワクチン接種の方針変更 批判も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43254",
+     "pubDate": "Tue, 11 Aug 2026 15:13:07 +0900"
+    },
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月11日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43140",
@@ -217,11 +222,6 @@
      "title": "【詳細】ロシア ウクライナに軍事侵攻（8月10日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43106",
      "pubDate": "Mon, 10 Aug 2026 15:38:00 +0900"
-    },
-    {
-     "title": "ニューヨーク自由の女神の島近く ボート転覆 乳児と母2人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43103",
-     "pubDate": "Mon, 10 Aug 2026 15:30:00 +0900"
     }
    ]
   },
@@ -236,14 +236,19 @@
      "pubDate": "Tue, 11 Aug 2026 05:10:03 GMT"
     },
     {
-     "title": "露最高裁 反戦政党の選挙排除決定",
-     "link": "https://news.yahoo.co.jp/pickup/6591294?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 01:13:53 GMT"
+     "title": "被災しても避難所に行けない なぜ",
+     "link": "https://news.yahoo.co.jp/pickup/6591315?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 05:14:19 GMT"
     },
     {
      "title": "イオン 避難後の一時入館認めた",
      "link": "https://news.yahoo.co.jp/pickup/6591305?source=rss",
      "pubDate": "Tue, 11 Aug 2026 03:27:37 GMT"
+    },
+    {
+     "title": "首相の人事 麻生氏の意向反映焦点",
+     "link": "https://news.yahoo.co.jp/pickup/6591319?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 05:56:21 GMT"
     },
     {
      "title": "家族らと遊泳中溺れ 35歳女性死亡",
@@ -256,19 +261,14 @@
      "pubDate": "Tue, 11 Aug 2026 04:42:37 GMT"
     },
     {
-     "title": "急遽中止の花火大会 会場確保せず",
-     "link": "https://news.yahoo.co.jp/pickup/6591298?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 02:11:17 GMT"
+     "title": "NAVERの牙城崩れる 韓国で変化",
+     "link": "https://news.yahoo.co.jp/pickup/6591320?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 05:57:05 GMT"
     },
     {
-     "title": "速報甲子園 社vs.智弁和歌山",
-     "link": "https://news.yahoo.co.jp/pickup/6591312?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 04:32:42 GMT"
-    },
-    {
-     "title": "B'z 被災地支援に3000万円寄付",
-     "link": "https://news.yahoo.co.jp/pickup/6591314?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 05:04:07 GMT"
+     "title": "甲子園初出場校の苦労 費用に不安",
+     "link": "https://news.yahoo.co.jp/pickup/6591318?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 05:49:18 GMT"
     }
    ]
   }
