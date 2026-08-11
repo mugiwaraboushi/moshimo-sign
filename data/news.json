@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-11T02:56:42.452Z",
+ "updatedAt": "2026-08-11T04:12:26.802Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "イオンモール熊本 爆発事故 避難後一時入館認めたと会社が発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43246",
+     "pubDate": "Tue, 11 Aug 2026 12:50:00 +0900"
+    },
+    {
      "title": "台風15号関東上陸おそれ 東日本から東北で土砂災害や暴風警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
-     "pubDate": "Tue, 11 Aug 2026 11:01:36 +0900"
+     "pubDate": "Tue, 11 Aug 2026 12:40:08 +0900"
     },
     {
      "title": "台風15号 交通機関への影響は（鉄道 高速道路 空の便）11日",
@@ -28,19 +33,14 @@
      "pubDate": "Tue, 11 Aug 2026 07:50:36 +0900"
     },
     {
-     "title": "日本版GPS衛星「みちびき7号機」 H3ロケットで打ち上げ成功",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
-     "pubDate": "Tue, 11 Aug 2026 07:52:04 +0900"
-    },
-    {
      "title": "アメリカ大統領「イランに補償求める」イランは重要ポスト交代",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43219",
      "pubDate": "Tue, 11 Aug 2026 06:21:00 +0900"
     },
     {
-     "title": "東京メトロ半蔵門線 運転見合わせ 渋谷ー九段下 再開は午後か",
+     "title": "東京メトロ半蔵門線 運転見合わせ 駅構内でアスベスト見つかる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43221",
-     "pubDate": "Tue, 11 Aug 2026 11:50:12 +0900"
+     "pubDate": "Tue, 11 Aug 2026 12:36:57 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "イオンモール熊本 爆発事故 避難後一時入館認めたと会社が発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43246",
+     "pubDate": "Tue, 11 Aug 2026 12:50:00 +0900"
+    },
     {
      "title": "新潟 蓮池薫さん 拉致された当時の心境など中学生に明かす",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43211",
@@ -60,9 +65,9 @@
      "pubDate": "Tue, 11 Aug 2026 07:01:10 +0900"
     },
     {
-     "title": "東京メトロ半蔵門線 運転見合わせ 渋谷ー九段下 再開は午後か",
+     "title": "東京メトロ半蔵門線 運転見合わせ 駅構内でアスベスト見つかる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43221",
-     "pubDate": "Tue, 11 Aug 2026 11:50:12 +0900"
+     "pubDate": "Tue, 11 Aug 2026 12:36:57 +0900"
     },
     {
      "title": "経産省 職員を停職3か月に 口座の通帳など他人に譲渡したか",
@@ -118,11 +123,6 @@
      "title": "SNSで宣伝の「琵琶湖三市同時花火大会」 中止発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43037",
      "pubDate": "Mon, 10 Aug 2026 07:35:00 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（8月10日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de43013",
-     "pubDate": "Mon, 10 Aug 2026 19:44:45 +0900"
     }
    ]
   },
@@ -134,7 +134,7 @@
     {
      "title": "日本版GPS衛星「みちびき7号機」 H3ロケットで打ち上げ成功",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
-     "pubDate": "Tue, 11 Aug 2026 07:52:04 +0900"
+     "pubDate": "Tue, 11 Aug 2026 12:38:25 +0900"
     },
     {
      "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
@@ -236,24 +236,24 @@
      "pubDate": "Tue, 11 Aug 2026 01:55:39 GMT"
     },
     {
-     "title": "ANAが計58便欠航 台風がお盆直撃",
-     "link": "https://news.yahoo.co.jp/pickup/6591289?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 01:06:28 GMT"
+     "title": "愛するから撃つ 27歳ハンター葛藤",
+     "link": "https://news.yahoo.co.jp/pickup/6591304?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 03:09:14 GMT"
     },
     {
-     "title": "お腹の中で被爆 周囲の心ない言葉",
-     "link": "https://news.yahoo.co.jp/pickup/6591297?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 01:50:28 GMT"
+     "title": "イオン 避難後の一時入館認めた",
+     "link": "https://news.yahoo.co.jp/pickup/6591305?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 03:27:37 GMT"
     },
     {
-     "title": "サーファーの聖地で18歳不明 高知",
-     "link": "https://news.yahoo.co.jp/pickup/6591300?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 02:28:48 GMT"
+     "title": "被災男性のAI加工画像が拡散 憤り",
+     "link": "https://news.yahoo.co.jp/pickup/6591286?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 00:37:19 GMT"
     },
     {
-     "title": "母殺害疑い娘が投げ銭1千万円以上",
-     "link": "https://news.yahoo.co.jp/pickup/6591280?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 23:26:37 GMT"
+     "title": "豪首相が番組で性的発言か 批判",
+     "link": "https://news.yahoo.co.jp/pickup/6591302?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 03:26:49 GMT"
     },
     {
      "title": "急遽中止の花火大会 会場確保せず",
@@ -266,9 +266,9 @@
      "pubDate": "Tue, 11 Aug 2026 01:10:44 GMT"
     },
     {
-     "title": "推し活でビッグカツ人気 社長驚く",
-     "link": "https://news.yahoo.co.jp/pickup/6591291?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 00:53:53 GMT"
+     "title": "千賀滉大 渡米後初セーブで笑顔",
+     "link": "https://news.yahoo.co.jp/pickup/6591301?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 02:55:51 GMT"
     }
    ]
   }
