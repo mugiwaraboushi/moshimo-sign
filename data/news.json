@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-11T10:39:08.769Z",
+ "updatedAt": "2026-08-11T11:34:43.736Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風15号 今夜 関東上陸へ 広い範囲で激しい雨の見込み",
+     "title": "台風15号 茨城県南部に上陸 茨城上陸は統計開始から初 気象庁",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
-     "pubDate": "Tue, 11 Aug 2026 19:20:49 +0900"
+     "pubDate": "Tue, 11 Aug 2026 20:24:23 +0900"
     },
     {
      "title": "台風15号 交通機関への影響は（鉄道 高速道路 空の便）11日",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43204",
-     "pubDate": "Tue, 11 Aug 2026 19:28:14 +0900"
+     "pubDate": "Tue, 11 Aug 2026 20:32:44 +0900"
     },
     {
      "title": "【気象予報士解説】台風15号 今後の見通しは",
@@ -87,12 +87,12 @@
     {
      "title": "【動画】Pickup NEWS（8月11日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43181",
-     "pubDate": "Tue, 11 Aug 2026 13:53:51 +0900"
+     "pubDate": "Tue, 11 Aug 2026 19:39:05 +0900"
     },
     {
-     "title": "東京メトロ半蔵門線 運転見合わせ 駅構内でアスベスト見つかる",
+     "title": "東京メトロ半蔵門線 11日夜に運転再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43221",
-     "pubDate": "Tue, 11 Aug 2026 12:36:57 +0900"
+     "pubDate": "Tue, 11 Aug 2026 20:28:05 +0900"
     },
     {
      "title": "経産省 職員を停職3か月に 口座の通帳など他人に譲渡したか",
@@ -231,14 +231,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風が関東上陸へ 大雨に厳重警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6591338?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 08:18:31 GMT"
+     "title": "台風15号が茨城に上陸 災害に警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6591354?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 11:24:07 GMT"
     },
     {
-     "title": "台風帰省ラッシュ直撃 混乱広がる",
-     "link": "https://news.yahoo.co.jp/pickup/6591346?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 09:50:47 GMT"
+     "title": "シリア裁判所 前大統領に死刑判決",
+     "link": "https://news.yahoo.co.jp/pickup/6591351?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 10:53:09 GMT"
     },
     {
      "title": "理想のママ像 追い詰められた女性",
@@ -246,14 +246,14 @@
      "pubDate": "Tue, 11 Aug 2026 09:29:35 GMT"
     },
     {
+     "title": "アスベスト影響 半蔵門線運転再開",
+     "link": "https://news.yahoo.co.jp/pickup/6591350?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 10:39:32 GMT"
+    },
+    {
      "title": "家族と体験ダイビング中溺れ 死亡",
      "link": "https://news.yahoo.co.jp/pickup/6591340?source=rss",
      "pubDate": "Tue, 11 Aug 2026 08:49:18 GMT"
-    },
-    {
-     "title": "小1で難病診断され 向き合う16歳",
-     "link": "https://news.yahoo.co.jp/pickup/6591345?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 09:41:25 GMT"
     },
     {
      "title": "佐藤輝の看板直撃弾に賞金 大歓声",
