@@ -45,6 +45,8 @@
     表示の作りと切り替わり方を見るためのダミーの列車が走っています。
   </div>
 
+  <div class="foot" id="source" style="display:none; margin:-6px 2px 12px"></div>
+
   <div class="next">
     <table>
       <tr><th>路線・方面</th><th>発車</th><th>種別</th><th>あと</th></tr>
@@ -122,8 +124,9 @@ const LINES = [
   { name:"目黒線",   color:"#5b8dff", dirs:[{to:"目黒"},{to:"日吉"}] },
   { name:"大井町線", color:"#ffa32e", dirs:[{to:"大井町"},{to:"溝の口"}] },
 ];
-const hhmm = m => String(Math.floor(m/60)%24).padStart(2,"0") + ":" + String(m%60).padStart(2,"0");
-const toMin = s => { const [h,m] = s.split(":").map(Number); return h*60+m; };
+const hhmm = m => String(Math.floor(m/60)%24).padStart(2,"0") + ":" + String(Math.round(m)%60).padStart(2,"0");
+// "24:05" のような25時間制も 0:05 に畳む（終電後の早朝便をその日の頭として扱う）
+const toMin = s => { const [h,m] = s.split(":").map(Number); return (h*60+m) % 1440; };
 
 // サンプル生成（実物ではない。朝夕は間隔をつめ、たまに急行を混ぜるだけのダミー）
 function sampleTrains(seed){
@@ -146,17 +149,25 @@ async function loadRealTimetable(){
     if (!res.ok) return;
     const j = await res.json();
     if (!j || !Array.isArray(j.lines)) return;
+    const holiday = [0,6].includes(new Date().getDay());   // 祝日は未対応（土日だけ土休日ダイヤ）
     j.lines.forEach((jl, li) => {
       const L = LINES[li]; if (!L) return;
       L.name = jl.name || L.name;
-      (jl.dirs || []).forEach((jd, di) => {
-        const d = L.dirs[di]; if (!d) return;
-        d.to = jd.to || d.to;
-        d.trains = (jd.trains || []).map(t => ({ m: toMin(t.t), type: t.type || "各停" }));
+      L.dirs = (jl.dirs || []).map(jd => {
+        const src = jd.trains || (holiday ? jd.holiday : jd.weekday) || [];
+        return {
+          to: jd.to || "",
+          trains: src.map(t => ({ m: toMin(t.t), type: t.type || "", dest: t.dest || "" }))
+                     .sort((a,b) => a.m - b.m),
+        };
       });
     });
     sampleMode = false;
     document.querySelector(".warn").style.display = "none";
+    const src = document.getElementById("source");
+    src.textContent = "出典: " + (j.source || "不明") +
+      "（" + (holiday ? "土休日" : "平日") + "ダイヤ／更新 " + (j.updated || "").slice(0,16).replace("T"," ") + "）";
+    src.style.display = "block";
     rebuild(true);
   } catch (e) { /* データが無ければサンプルのまま */ }
 }
@@ -168,9 +179,13 @@ function nowMin(){
   const d = new Date();
   return (d.getHours()*60 + d.getMinutes() + d.getSeconds()/60 + offsetMin) % 1440;
 }
+// 次発を返す。今日ぶんが尽きたら、日をまたいで先頭の列車に戻る。
 function nextOf(dir, m){
-  let nx = dir.trains.find(t => t.m >= m);
-  return nx || null;                                    // 終電後は null
+  if (!dir.trains.length) return null;
+  const nx = dir.trains.find(t => t.m >= m);
+  if (nx) return { m: nx.m, type: nx.type, dest: nx.dest, wait: nx.m - m };
+  const first = dir.trains[0];
+  return { m: first.m, type: first.type, dest: first.dest, wait: first.m + 1440 - m, tomorrow: true };
 }
 
 // ===================== パネル =====================
@@ -179,13 +194,17 @@ const cv = document.getElementById("led"), ctx = cv.getContext("2d");
 cv.width = W*DOT; cv.height = H*DOT;
 
 const rowState = LINES.map(() => ({ bm:null, key:"", x:2 }));   // 最初から見えている位置に置く
+const waitText = nx => {
+  const w = Math.max(0, Math.round(nx.wait));
+  return w === 0 ? "まもなく" : w >= 60 ? "あと" + Math.floor(w/60) + "時間" + (w%60) + "分" : "あと" + w + "分";
+};
 function lineText(L, m){
   const parts = [];
   for (const d of L.dirs){
     const nx = nextOf(d, m);
-    if (!nx){ parts.push(d.to + "ゆき　本日は終了"); continue; }
-    const wait = Math.max(0, Math.round(nx.m - m));
-    parts.push(d.to + "ゆき " + hhmm(nx.m) + " " + nx.type + (wait === 0 ? " まもなく" : " あと" + wait + "分"));
+    if (!nx){ parts.push((d.to || "") + "方面　時刻表なし"); continue; }
+    const dest = nx.dest && nx.dest !== d.to ? " " + nx.dest + "ゆき" : "";
+    parts.push((d.to || "") + "方面 " + hhmm(nx.m) + " " + (nx.type || "") + dest + " " + waitText(nx));
   }
   return "　" + L.name + "　" + parts.join("　／　") + "　";
 }
@@ -208,10 +227,11 @@ function rebuild(force){
   LINES.forEach((L, i) => L.dirs.forEach(d => {
     const nx = nextOf(d, m);
     const tr = document.createElement("tr");
-    const wait = nx ? Math.max(0, Math.round(nx.m - m)) : null;
-    tr.innerHTML = `<td class="${i ? "oi" : "mg"}">${L.name} ${d.to}ゆき</td>` +
-      `<td class="t">${nx ? hhmm(nx.m) : "—"}</td><td>${nx ? nx.type : "本日終了"}</td>` +
-      `<td>${nx ? (wait === 0 ? "まもなく" : wait + "分") : "—"}</td>`;
+    const dest = nx && nx.dest && nx.dest !== d.to ? `（${nx.dest}ゆき）` : "";
+    tr.innerHTML = `<td class="${i ? "oi" : "mg"}">${L.name} ${d.to || "?"}方面</td>` +
+      `<td class="t">${nx ? hhmm(nx.m) + (nx.tomorrow ? " 翌" : "") : "—"}</td>` +
+      `<td>${nx ? (nx.type || "") + dest : "時刻表なし"}</td>` +
+      `<td>${nx ? waitText(nx) : "—"}</td>`;
     tb.appendChild(tr);
   }));
 }

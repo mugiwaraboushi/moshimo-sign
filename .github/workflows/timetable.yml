@@ -1,0 +1,47 @@
+name: 大岡山の時刻表を取得（ODPT）
+
+# 公共交通オープンデータセンター(ODPT)から大岡山の駅時刻表を取ってきて
+# data/timetable-ookayama.json を更新する。発車標 (prototypes/train-board/) がこれを読む。
+#
+# 準備: ODPTの開発者登録でもらったキーを、リポジトリの
+#       Settings → Secrets and variables → Actions に ODPT_CONSUMER_KEY として登録する。
+#       キーが無いあいだ、このワークフローは何もせずに正常終了する。
+on:
+  schedule:
+    - cron: "10 19 * * *"     # 毎日 04:10 JST（ダイヤ改正の反映はこの1回で足りる）
+  workflow_dispatch:           # 手動実行もできる（最初の確認はこれで）
+
+permissions:
+  contents: write
+
+concurrency:
+  group: timetable-fetch
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: ODPTから取得して data/timetable-ookayama.json を更新
+        env:
+          ODPT_CONSUMER_KEY: ${{ secrets.ODPT_CONSUMER_KEY }}
+          ODPT_API_BASE: ${{ vars.ODPT_API_BASE }}   # 未設定なら本番API
+        run: node scripts/fetch-timetable.mjs
+
+      - name: 変更があればコミット
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/timetable-ookayama.json
+          if git diff --staged --quiet; then
+            echo "時刻表に変化なし。コミットしません。"
+          else
+            git commit -m "timetable: 大岡山の時刻表を更新 [skip ci]"
+            git push
+          fi
