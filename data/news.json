@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-11T11:34:43.736Z",
+ "updatedAt": "2026-08-11T12:34:58.201Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "台風15号 茨城県南部に上陸 茨城上陸は統計開始から初 気象庁",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
-     "pubDate": "Tue, 11 Aug 2026 20:24:23 +0900"
+     "pubDate": "Tue, 11 Aug 2026 21:26:38 +0900"
     },
     {
      "title": "台風15号 交通機関への影響は（鉄道 高速道路 空の便）11日",
@@ -23,9 +23,9 @@
      "pubDate": "Tue, 11 Aug 2026 19:25:10 +0900"
     },
     {
-     "title": "イオンモール熊本 爆発事故 避難後一時入館認めたと会社が発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43246",
-     "pubDate": "Tue, 11 Aug 2026 17:08:47 +0900"
+     "title": "台風15号 各地の被害 茨城で3人がけが 屋根吹き飛ぶ被害も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43291",
+     "pubDate": "Tue, 11 Aug 2026 21:29:57 +0900"
     },
     {
      "title": "【動画】イオンモール熊本 爆発後の捜索活動の映像 被害克明に",
@@ -236,14 +236,19 @@
      "pubDate": "Tue, 11 Aug 2026 11:24:07 GMT"
     },
     {
-     "title": "シリア裁判所 前大統領に死刑判決",
-     "link": "https://news.yahoo.co.jp/pickup/6591351?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 10:53:09 GMT"
+     "title": "仏全土の7割近くで水の使用制限",
+     "link": "https://news.yahoo.co.jp/pickup/6591325?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 06:51:32 GMT"
     },
     {
-     "title": "理想のママ像 追い詰められた女性",
-     "link": "https://news.yahoo.co.jp/pickup/6591344?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 09:29:35 GMT"
+     "title": "茨城県に台風上陸 現地のSNS投稿",
+     "link": "https://news.yahoo.co.jp/pickup/6591349?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 12:15:18 GMT"
+    },
+    {
+     "title": "子供2人死亡 海の流れに識者驚き",
+     "link": "https://news.yahoo.co.jp/pickup/6591355?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 12:22:54 GMT"
     },
     {
      "title": "アスベスト影響 半蔵門線運転再開",
@@ -251,24 +256,19 @@
      "pubDate": "Tue, 11 Aug 2026 10:39:32 GMT"
     },
     {
-     "title": "家族と体験ダイビング中溺れ 死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6591340?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 08:49:18 GMT"
+     "title": "YouTube 収益化ハードル引き上げ",
+     "link": "https://news.yahoo.co.jp/pickup/6591352?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 11:59:38 GMT"
     },
     {
-     "title": "佐藤輝の看板直撃弾に賞金 大歓声",
-     "link": "https://news.yahoo.co.jp/pickup/6591347?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 09:58:39 GMT"
+     "title": "第2の麻辣湯 ビャンビャン麺とは",
+     "link": "https://news.yahoo.co.jp/pickup/6591353?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 11:39:27 GMT"
     },
     {
-     "title": "根尾昂 2軍戦で1死も取れず7失点",
-     "link": "https://news.yahoo.co.jp/pickup/6591341?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 08:59:04 GMT"
-    },
-    {
-     "title": "山口一郎うつ病4年 進む新しい道",
-     "link": "https://news.yahoo.co.jp/pickup/6591331?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 08:42:06 GMT"
+     "title": "SB三塁打→HR 相手リクエストで",
+     "link": "https://news.yahoo.co.jp/pickup/6591356?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 12:20:35 GMT"
     }
    ]
   }
