@@ -1,0 +1,31 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>samples</title>
+<style>body{margin:0;background:#fff;font-family:monospace}</style></head><body>
+<canvas id="c"></canvas>
+<script type="module">
+import * as pdfjs from "./node_modules/pdfjs-dist/build/pdf.min.mjs";
+pdfjs.GlobalWorkerOptions.workerSrc = "./node_modules/pdfjs-dist/build/pdf.worker.min.mjs";
+const q = new URLSearchParams(location.search);
+const S = 6;                                   // 拡大率
+const doc = await pdfjs.getDocument({ url: q.get("f"), cMapUrl: "./node_modules/pdfjs-dist/cmaps/", cMapPacked: true }).promise;
+const page = await doc.getPage(1);
+const vp = page.getViewport({ scale: S });
+const full = document.createElement("canvas");
+full.width = Math.ceil(vp.width); full.height = Math.ceil(vp.height);
+const fx = full.getContext("2d");
+fx.fillStyle = "#fff"; fx.fillRect(0,0,full.width,full.height);
+await page.render({ canvasContext: fx, viewport: vp }).promise;
+const samples = await (await fetch(q.get("s"))).json();
+const CW = 110, CH = 150, COLS = 12;
+const c = document.getElementById("c"), ctx = c.getContext("2d");
+c.width = COLS*CW; c.height = Math.ceil(samples.length/COLS)*CH;
+ctx.fillStyle = "#fff"; ctx.fillRect(0,0,c.width,c.height);
+samples.forEach((s, idx) => {
+  const gx = (idx%COLS)*CW, gy = Math.floor(idx/COLS)*CH;
+  ctx.fillStyle = "#000"; ctx.font = "20px monospace";
+  ctx.fillText("#" + s.i + " (" + s.n + ")", gx+4, gy+22);
+  ctx.strokeStyle = "#ccc"; ctx.strokeRect(gx+2, gy+28, CW-8, CH-40);
+  const pad = 2;
+  ctx.drawImage(full, (s.x-pad)*S, (s.y-pad)*S, (s.w+pad*2)*S, (s.h+pad*2)*S, gx+8, gy+34, CW-20, CH-52);
+});
+document.title = "ready";
+</script></body></html>
