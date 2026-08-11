@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-11T19:31:14.227Z",
+ "updatedAt": "2026-08-11T20:31:14.888Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,34 +8,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "奥田碩氏が死去 93歳 トヨタ自動車社長や経団連会長など歴任",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43330",
-     "pubDate": "Wed, 12 Aug 2026 03:59:58 +0900"
-    },
-    {
      "title": "台風15号 関東で強風被害 台風から離れても大雨に警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
-     "pubDate": "Wed, 12 Aug 2026 04:01:05 +0900"
+     "pubDate": "Wed, 12 Aug 2026 05:09:26 +0900"
     },
     {
-     "title": "【交通影響】東北道一部通行止め 常磐線運転再開",
+     "title": "【交通影響】新幹線や首都圏の鉄道 空の便は平常通り",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43204",
-     "pubDate": "Wed, 12 Aug 2026 01:58:30 +0900"
+     "pubDate": "Wed, 12 Aug 2026 05:27:04 +0900"
     },
     {
-     "title": "台風15号 各地の被害 茨城で3人けが 茨城・栃木など8040戸停電",
+     "title": "台風15号 各地の被害 茨城で3人けが 茨城・栃木など7380戸停電",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43291",
-     "pubDate": "Wed, 12 Aug 2026 04:08:13 +0900"
+     "pubDate": "Wed, 12 Aug 2026 05:12:38 +0900"
     },
     {
-     "title": "半蔵門線 ホームにアスベスト含む糸くず 約14時間運転見合わせ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43221",
-     "pubDate": "Tue, 11 Aug 2026 23:17:18 +0900"
+     "title": "奥田碩氏が死去 93歳 トヨタ自動車社長や経団連会長など歴任",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43330",
+     "pubDate": "Wed, 12 Aug 2026 05:15:59 +0900"
     },
     {
-     "title": "【動画】イオンモール熊本 爆発後の捜索活動の映像 被害克明に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43268",
-     "pubDate": "Tue, 11 Aug 2026 18:35:00 +0900"
+     "title": "“トランプ大統領 7月 秘密裏に専用機から乗り換え”米有力紙",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43298",
+     "pubDate": "Wed, 12 Aug 2026 04:51:49 +0900"
+    },
+    {
+     "title": "ソニー・TSMC 次世代画像センサー 2029年から量産へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43301",
+     "pubDate": "Wed, 12 Aug 2026 05:17:00 +0900"
     },
     {
      "title": "ゼレンスキー大統領「ロシアが北朝鮮のミサイルで攻撃」",
@@ -149,6 +149,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "“トランプ大統領 7月 秘密裏に専用機から乗り換え”米有力紙",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43298",
+     "pubDate": "Wed, 12 Aug 2026 04:51:49 +0900"
+    },
+    {
      "title": "ゼレンスキー大統領「ロシアが北朝鮮のミサイルで攻撃」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43300",
      "pubDate": "Tue, 11 Aug 2026 22:57:58 +0900"
@@ -217,11 +222,6 @@
      "title": "カナダ西部で山火事 約2万人が避難 地元の州が非常事態宣言",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43134",
      "pubDate": "Mon, 10 Aug 2026 17:34:00 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（8月10日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43106",
-     "pubDate": "Mon, 10 Aug 2026 15:38:00 +0900"
     }
    ]
   },
@@ -236,9 +236,9 @@
      "pubDate": "Tue, 11 Aug 2026 13:12:11 GMT"
     },
     {
-     "title": "東北道下りで全車線塞ぐ倒木 栃木",
-     "link": "https://news.yahoo.co.jp/pickup/6591362?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 13:22:53 GMT"
+     "title": "ケーキや菓子店などの倒産 急増",
+     "link": "https://news.yahoo.co.jp/pickup/6591282?source=rss",
+     "pubDate": "Mon, 10 Aug 2026 23:46:53 GMT"
     },
     {
      "title": "イオン 爆発事故で遺族に補償方針",
