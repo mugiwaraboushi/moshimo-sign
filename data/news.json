@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-11T00:54:29.690Z",
+ "updatedAt": "2026-08-11T02:56:42.452Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【地震】熊本・八代市 芦北町で震度3 津波心配なし（7:59）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43235",
-     "pubDate": "Tue, 11 Aug 2026 08:41:43 +0900"
-    },
-    {
      "title": "台風15号関東上陸おそれ 東日本から東北で土砂災害や暴風警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
-     "pubDate": "Tue, 11 Aug 2026 07:44:50 +0900"
+     "pubDate": "Tue, 11 Aug 2026 11:01:36 +0900"
     },
     {
-     "title": "台風15号 交通機関への影響は（鉄道 高速道路 空の便）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43124",
-     "pubDate": "Mon, 10 Aug 2026 18:38:00 +0900"
+     "title": "台風15号 交通機関への影響は（鉄道 高速道路 空の便）11日",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43204",
+     "pubDate": "Tue, 11 Aug 2026 11:53:14 +0900"
+    },
+    {
+     "title": "熊本地震から2週間 今後1か月ほど震度5弱以上に注意 気象庁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43205",
+     "pubDate": "Tue, 11 Aug 2026 11:47:05 +0900"
+    },
+    {
+     "title": "ロシア中部にウクライナが無人機攻撃 13人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43216",
+     "pubDate": "Tue, 11 Aug 2026 07:50:36 +0900"
     },
     {
      "title": "日本版GPS衛星「みちびき7号機」 H3ロケットで打ち上げ成功",
@@ -28,19 +33,14 @@
      "pubDate": "Tue, 11 Aug 2026 07:52:04 +0900"
     },
     {
-     "title": "東京メトロ半蔵門線 運転見合わせ 渋谷ー九段下 再開は午後か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43221",
-     "pubDate": "Tue, 11 Aug 2026 08:52:54 +0900"
-    },
-    {
      "title": "アメリカ大統領「イランに補償求める」イランは重要ポスト交代",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43219",
      "pubDate": "Tue, 11 Aug 2026 06:21:00 +0900"
     },
     {
-     "title": "熊本地震から2週間 依然 活発な活動 最大震度5弱以上に注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43205",
-     "pubDate": "Tue, 11 Aug 2026 06:11:53 +0900"
+     "title": "東京メトロ半蔵門線 運転見合わせ 渋谷ー九段下 再開は午後か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43221",
+     "pubDate": "Tue, 11 Aug 2026 11:50:12 +0900"
     }
    ]
   },
@@ -62,7 +62,7 @@
     {
      "title": "東京メトロ半蔵門線 運転見合わせ 渋谷ー九段下 再開は午後か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43221",
-     "pubDate": "Tue, 11 Aug 2026 08:52:54 +0900"
+     "pubDate": "Tue, 11 Aug 2026 11:50:12 +0900"
     },
     {
      "title": "経産省 職員を停職3か月に 口座の通帳など他人に譲渡したか",
@@ -166,7 +166,7 @@
     {
      "title": "西ヨーロッパやアメリカ本土 平均気温が統計開始以降 最高に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43212",
-     "pubDate": "Tue, 11 Aug 2026 06:22:46 +0900"
+     "pubDate": "Tue, 11 Aug 2026 06:22:00 +0900"
     },
     {
      "title": "アメリカ大統領「イランに補償求める」イランは重要ポスト交代",
@@ -231,19 +231,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風が関東上陸へ 交通乱れに注意",
-     "link": "https://news.yahoo.co.jp/pickup/6591272?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 22:26:28 GMT"
+     "title": "台風上陸へ 午後から雨風強まるか",
+     "link": "https://news.yahoo.co.jp/pickup/6591296?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 01:55:39 GMT"
     },
     {
-     "title": "米大統領 イランの賠償要求に対抗",
-     "link": "https://news.yahoo.co.jp/pickup/6591284?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 00:06:04 GMT"
+     "title": "ANAが計58便欠航 台風がお盆直撃",
+     "link": "https://news.yahoo.co.jp/pickup/6591289?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 01:06:28 GMT"
     },
     {
-     "title": "中国で複数邦人の拘束が判明",
-     "link": "https://news.yahoo.co.jp/pickup/6591277?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 23:05:46 GMT"
+     "title": "お腹の中で被爆 周囲の心ない言葉",
+     "link": "https://news.yahoo.co.jp/pickup/6591297?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 01:50:28 GMT"
+    },
+    {
+     "title": "サーファーの聖地で18歳不明 高知",
+     "link": "https://news.yahoo.co.jp/pickup/6591300?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 02:28:48 GMT"
     },
     {
      "title": "母殺害疑い娘が投げ銭1千万円以上",
@@ -251,24 +256,19 @@
      "pubDate": "Mon, 10 Aug 2026 23:26:37 GMT"
     },
     {
-     "title": "半蔵門線の一部 午後再開を目指す",
-     "link": "https://news.yahoo.co.jp/pickup/6591283?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 23:56:40 GMT"
+     "title": "急遽中止の花火大会 会場確保せず",
+     "link": "https://news.yahoo.co.jp/pickup/6591298?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 02:11:17 GMT"
     },
     {
-     "title": "富士山で遭難死 なぜか男性ばかり",
-     "link": "https://news.yahoo.co.jp/pickup/6591281?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 23:30:11 GMT"
+     "title": "携帯キャリア悩ませるホッピング",
+     "link": "https://news.yahoo.co.jp/pickup/6591293?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 01:10:44 GMT"
     },
     {
-     "title": "ケーキや菓子店などの倒産 急増",
-     "link": "https://news.yahoo.co.jp/pickup/6591282?source=rss",
-     "pubDate": "Mon, 10 Aug 2026 23:46:53 GMT"
-    },
-    {
-     "title": "縁起いい 推し活でビッグカツ人気",
-     "link": "https://news.yahoo.co.jp/pickup/6591285?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 00:22:53 GMT"
+     "title": "推し活でビッグカツ人気 社長驚く",
+     "link": "https://news.yahoo.co.jp/pickup/6591291?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 00:53:53 GMT"
     }
    ]
   }
