@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-11T08:56:32.206Z",
+ "updatedAt": "2026-08-11T09:51:11.031Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風15号 今夜にも関東上陸のおそれ 土砂災害や暴風など警戒",
+     "title": "台風15号 今夜 関東上陸へ 広い範囲で激しい雨の見込み",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
-     "pubDate": "Tue, 11 Aug 2026 17:38:17 +0900"
+     "pubDate": "Tue, 11 Aug 2026 18:21:23 +0900"
     },
     {
      "title": "台風15号 交通機関への影響は（鉄道 高速道路 空の便）11日",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43204",
-     "pubDate": "Tue, 11 Aug 2026 16:25:20 +0900"
+     "pubDate": "Tue, 11 Aug 2026 18:44:57 +0900"
     },
     {
      "title": "【気象予報士解説】台風15号 今後の見通しは",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43243",
-     "pubDate": "Tue, 11 Aug 2026 13:07:14 +0900"
+     "pubDate": "Tue, 11 Aug 2026 18:30:17 +0900"
     },
     {
      "title": "イオンモール熊本 爆発事故 避難後一時入館認めたと会社が発表",
@@ -28,19 +28,19 @@
      "pubDate": "Tue, 11 Aug 2026 17:08:47 +0900"
     },
     {
+     "title": "「イオンモール熊本」爆発後の捜索活動の映像 被害克明に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43268",
+     "pubDate": "Tue, 11 Aug 2026 18:35:03 +0900"
+    },
+    {
      "title": "熊本地震 “たかおっちゃん”のスニーカー めいが思い語る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43276",
-     "pubDate": "Tue, 11 Aug 2026 17:51:33 +0900"
+     "pubDate": "Tue, 11 Aug 2026 17:51:00 +0900"
     },
     {
      "title": "熊本地震から2週間 仮設住宅の建設始まる【被災地の動き】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43234",
      "pubDate": "Tue, 11 Aug 2026 17:13:34 +0900"
-    },
-    {
-     "title": "熊本地震 物資配送の“目詰まり”解消へ 運送会社など取り組み",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43265",
-     "pubDate": "Tue, 11 Aug 2026 16:16:06 +0900"
     }
    ]
   },
@@ -50,9 +50,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "熊本地震2週間 熊本県のアンテナショップにぎわう 東京 銀座",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43263",
+     "pubDate": "Tue, 11 Aug 2026 18:37:56 +0900"
+    },
+    {
+     "title": "「イオンモール熊本」爆発後の捜索活動の映像 被害克明に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43268",
+     "pubDate": "Tue, 11 Aug 2026 18:35:03 +0900"
+    },
+    {
      "title": "熊本地震 “たかおっちゃん”のスニーカー めいが思い語る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43276",
-     "pubDate": "Tue, 11 Aug 2026 17:51:33 +0900"
+     "pubDate": "Tue, 11 Aug 2026 17:51:00 +0900"
     },
     {
      "title": "熊本地震 物資配送の“目詰まり”解消へ 運送会社など取り組み",
@@ -113,16 +123,6 @@
      "title": "ニチレイのサイバー攻撃 ハッカー集団が個人情報など公開か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43141",
      "pubDate": "Mon, 10 Aug 2026 19:22:00 +0900"
-    },
-    {
-     "title": "日本版GPS衛星「みちびき7号機」 11日 H3ロケットで打ち上げへ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43138",
-     "pubDate": "Mon, 10 Aug 2026 17:37:54 +0900"
-    },
-    {
-     "title": "東京 中央区のビルで貸金庫こじあけられる 7月も同様の被害",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43132",
-     "pubDate": "Mon, 10 Aug 2026 16:49:00 +0900"
     }
    ]
   },
@@ -241,9 +241,14 @@
      "pubDate": "Tue, 11 Aug 2026 07:45:24 GMT"
     },
     {
-     "title": "東京・多摩川で男性が溺れる 死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6591326?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 07:10:01 GMT"
+     "title": "理想のママ像 追い詰められた女性",
+     "link": "https://news.yahoo.co.jp/pickup/6591344?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 09:29:35 GMT"
+    },
+    {
+     "title": "家族と体験ダイビング中溺れ 死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6591340?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 08:49:18 GMT"
     },
     {
      "title": "半蔵門線の運転再開は「本日中」",
@@ -251,19 +256,14 @@
      "pubDate": "Tue, 11 Aug 2026 07:34:08 GMT"
     },
     {
-     "title": "H3ロケット成功 種子島で拍手",
-     "link": "https://news.yahoo.co.jp/pickup/6591333?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 07:55:19 GMT"
+     "title": "急遽中止の花火大会 会場確保せず",
+     "link": "https://news.yahoo.co.jp/pickup/6591298?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 02:11:17 GMT"
     },
     {
-     "title": "降板スクバル顔真っ赤 監督は諭す",
-     "link": "https://news.yahoo.co.jp/pickup/6591332?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 07:53:40 GMT"
-    },
-    {
-     "title": "速報甲子園 履正社が享栄に逆転",
-     "link": "https://news.yahoo.co.jp/pickup/6591335?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 07:51:29 GMT"
+     "title": "根尾昂 2軍戦で1死も取れず7失点",
+     "link": "https://news.yahoo.co.jp/pickup/6591341?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 08:59:04 GMT"
     },
     {
      "title": "山口一郎うつ病4年 進む新しい道",
