@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-11T08:00:06.113Z",
+ "updatedAt": "2026-08-11T08:56:32.206Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "イオンモール熊本 爆発事故 避難後一時入館認めたと会社が発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43246",
-     "pubDate": "Tue, 11 Aug 2026 12:50:00 +0900"
-    },
-    {
      "title": "台風15号 今夜にも関東上陸のおそれ 土砂災害や暴風など警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
-     "pubDate": "Tue, 11 Aug 2026 16:14:27 +0900"
+     "pubDate": "Tue, 11 Aug 2026 17:38:17 +0900"
     },
     {
      "title": "台風15号 交通機関への影響は（鉄道 高速道路 空の便）11日",
@@ -23,24 +18,29 @@
      "pubDate": "Tue, 11 Aug 2026 16:25:20 +0900"
     },
     {
-     "title": "熊本地震から2週間 今後1か月ほど震度5弱以上に注意 気象庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43205",
-     "pubDate": "Tue, 11 Aug 2026 11:47:05 +0900"
+     "title": "【気象予報士解説】台風15号 今後の見通しは",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43243",
+     "pubDate": "Tue, 11 Aug 2026 13:07:14 +0900"
     },
     {
-     "title": "熊本地震 震度7観測から2週間 災害関連死の防止が課題に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43203",
-     "pubDate": "Tue, 11 Aug 2026 05:06:00 +0900"
+     "title": "イオンモール熊本 爆発事故 避難後一時入館認めたと会社が発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43246",
+     "pubDate": "Tue, 11 Aug 2026 17:08:47 +0900"
     },
     {
-     "title": "トランプ大統領 子ども向けワクチン接種の方針変更 批判も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43254",
-     "pubDate": "Tue, 11 Aug 2026 15:13:07 +0900"
+     "title": "熊本地震 “たかおっちゃん”のスニーカー めいが思い語る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43276",
+     "pubDate": "Tue, 11 Aug 2026 17:51:33 +0900"
     },
     {
-     "title": "東京メトロ半蔵門線 運転見合わせ 駅構内でアスベスト見つかる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43221",
-     "pubDate": "Tue, 11 Aug 2026 12:36:57 +0900"
+     "title": "熊本地震から2週間 仮設住宅の建設始まる【被災地の動き】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43234",
+     "pubDate": "Tue, 11 Aug 2026 17:13:34 +0900"
+    },
+    {
+     "title": "熊本地震 物資配送の“目詰まり”解消へ 運送会社など取り組み",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43265",
+     "pubDate": "Tue, 11 Aug 2026 16:16:06 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "熊本地震 “たかおっちゃん”のスニーカー めいが思い語る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43276",
+     "pubDate": "Tue, 11 Aug 2026 17:51:33 +0900"
+    },
     {
      "title": "熊本地震 物資配送の“目詰まり”解消へ 運送会社など取り組み",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43265",
@@ -62,7 +67,7 @@
     {
      "title": "イオンモール熊本 爆発事故 避難後一時入館認めたと会社が発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43246",
-     "pubDate": "Tue, 11 Aug 2026 12:50:00 +0900"
+     "pubDate": "Tue, 11 Aug 2026 17:08:47 +0900"
     },
     {
      "title": "新潟 蓮池薫さん 拉致された当時の心境など中学生に明かす",
@@ -118,11 +123,6 @@
      "title": "東京 中央区のビルで貸金庫こじあけられる 7月も同様の被害",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43132",
      "pubDate": "Mon, 10 Aug 2026 16:49:00 +0900"
-    },
-    {
-     "title": "特捜検事の調べに賠償求める裁判 取り調べ映像を法廷で再生",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43095",
-     "pubDate": "Mon, 10 Aug 2026 21:06:16 +0900"
     }
    ]
   },
@@ -231,19 +231,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風は夜に関東上陸へ 異例コース",
-     "link": "https://news.yahoo.co.jp/pickup/6591316?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 05:10:03 GMT"
+     "title": "台風が関東上陸へ 大雨に厳重警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6591338?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 08:18:31 GMT"
     },
     {
-     "title": "首相の人事 麻生氏の意向反映焦点",
-     "link": "https://news.yahoo.co.jp/pickup/6591319?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 05:56:21 GMT"
-    },
-    {
-     "title": "米大統領専用機おとりに使用 報道",
-     "link": "https://news.yahoo.co.jp/pickup/6591323?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 06:42:59 GMT"
+     "title": "息子が戦死 5年葬式しなかった母",
+     "link": "https://news.yahoo.co.jp/pickup/6591329?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 07:45:24 GMT"
     },
     {
      "title": "東京・多摩川で男性が溺れる 死亡",
@@ -256,9 +251,14 @@
      "pubDate": "Tue, 11 Aug 2026 07:34:08 GMT"
     },
     {
-     "title": "「2度遭難」続発 野口健さん憤り",
-     "link": "https://news.yahoo.co.jp/pickup/6591311?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 04:42:37 GMT"
+     "title": "H3ロケット成功 種子島で拍手",
+     "link": "https://news.yahoo.co.jp/pickup/6591333?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 07:55:19 GMT"
+    },
+    {
+     "title": "降板スクバル顔真っ赤 監督は諭す",
+     "link": "https://news.yahoo.co.jp/pickup/6591332?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 07:53:40 GMT"
     },
     {
      "title": "速報甲子園 履正社が享栄に逆転",
@@ -266,9 +266,9 @@
      "pubDate": "Tue, 11 Aug 2026 07:51:29 GMT"
     },
     {
-     "title": "病気公表の我が家・杉山 復帰へ",
-     "link": "https://news.yahoo.co.jp/pickup/6591327?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 07:17:19 GMT"
+     "title": "山口一郎うつ病4年 進む新しい道",
+     "link": "https://news.yahoo.co.jp/pickup/6591331?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 08:42:06 GMT"
     }
    ]
   }
