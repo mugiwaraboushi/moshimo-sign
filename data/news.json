@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-12T21:13:06.256Z",
+ "updatedAt": "2026-08-12T22:07:26.160Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風17号 北寄りに進む見込み 進路予報に幅 今後の情報に注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43523",
-     "pubDate": "Thu, 13 Aug 2026 05:10:45 +0900"
-    },
-    {
-     "title": "【地震情報】熊本市で震度3 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43544",
-     "pubDate": "Thu, 13 Aug 2026 05:13:26 +0900"
+     "title": "熊本 地震活動が依然活発 きょうも厳しい暑さに 熱中症対策を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43525",
+     "pubDate": "Thu, 13 Aug 2026 06:13:21 +0900"
     },
     {
      "title": "国旗損壊処罰法 きょう施行",
@@ -23,9 +18,14 @@
      "pubDate": "Thu, 13 Aug 2026 05:12:33 +0900"
     },
     {
-     "title": "熊本地震 震源断層30キロから40キロ 政府・地震調査委員会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43532",
-     "pubDate": "Thu, 13 Aug 2026 05:16:06 +0900"
+     "title": "台風17号 北寄りに進む見込み 進路予報に幅 今後の情報に注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43523",
+     "pubDate": "Thu, 13 Aug 2026 05:10:45 +0900"
+    },
+    {
+     "title": "【地震情報】長崎県・熊本県・鹿児島県で震度3 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43548",
+     "pubDate": "Thu, 13 Aug 2026 07:01:45 +0900"
     },
     {
      "title": "検事の取り調べ映像 高等検察庁でチェックの取り組み開始",
@@ -33,14 +33,14 @@
      "pubDate": "Thu, 13 Aug 2026 05:36:35 +0900"
     },
     {
-     "title": "熊本 断水の復旧長期化 断層沿いの主要な水道管の被害が要因か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43486",
-     "pubDate": "Wed, 12 Aug 2026 19:52:10 +0900"
+     "title": "熊本地震 震源断層30キロから40キロ 政府・地震調査委員会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43532",
+     "pubDate": "Thu, 13 Aug 2026 05:16:06 +0900"
     },
     {
-     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3585人避難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43373",
-     "pubDate": "Wed, 12 Aug 2026 19:35:18 +0900"
+     "title": "ドイツ 情報機関の権限を大幅に強化する法案を閣議決定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43547",
+     "pubDate": "Thu, 13 Aug 2026 06:37:58 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（8月13日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43502",
+     "pubDate": "Thu, 13 Aug 2026 07:02:53 +0900"
+    },
+    {
+     "title": "熊本 地震活動が依然活発 きょうも厳しい暑さに 熱中症対策を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43525",
+     "pubDate": "Thu, 13 Aug 2026 06:13:21 +0900"
+    },
     {
      "title": "検事の取り調べ映像 高等検察庁でチェックの取り組み開始",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43524",
@@ -113,16 +123,6 @@
      "title": "日航ジャンボ機の墜落事故 きょうで41年 520人が犠牲",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43331",
      "pubDate": "Wed, 12 Aug 2026 11:34:06 +0900"
-    },
-    {
-     "title": "観覧エリアに打ち上げ花火の一部落下 3人やけど 静岡 伊東",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43321",
-     "pubDate": "Wed, 12 Aug 2026 06:22:00 +0900"
-    },
-    {
-     "title": "北朝鮮 弾道ミサイルの可能性あるもの EEZ外側に落下か 防衛省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43345",
-     "pubDate": "Wed, 12 Aug 2026 17:46:14 +0900"
     }
    ]
   },
@@ -148,6 +148,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "ドイツ 情報機関の権限を大幅に強化する法案を閣議決定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43547",
+     "pubDate": "Thu, 13 Aug 2026 06:37:58 +0900"
+    },
     {
      "title": "中国 国家プロジェクト開発 新型旅客機「C919」初の国際線就航",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43537",
@@ -217,11 +222,6 @@
      "title": "ホルムズ海峡めぐり 米とイランが互いに主張 こう着状態続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43385",
      "pubDate": "Wed, 12 Aug 2026 12:24:00 +0900"
-    },
-    {
-     "title": "ロシアが米の元海兵隊員を解放 トランプ大統領が謝意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43344",
-     "pubDate": "Wed, 12 Aug 2026 12:19:00 +0900"
     }
    ]
   },
@@ -231,44 +231,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "日航機墜落 遺体安置された体育館",
-     "link": "https://news.yahoo.co.jp/pickup/6591497?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 13:04:23 GMT"
+     "title": "東北から近畿 急な雨や落雷に注意",
+     "link": "https://news.yahoo.co.jp/pickup/6591511?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 21:34:15 GMT"
     },
     {
-     "title": "空襲で姉犠牲 地元高1がアニメに",
-     "link": "https://news.yahoo.co.jp/pickup/6591500?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 13:23:33 GMT"
+     "title": "日本国旗損壊罪法 きょう施行",
+     "link": "https://news.yahoo.co.jp/pickup/6591512?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 21:43:29 GMT"
     },
     {
-     "title": "露大統領 北方領土は「ロシア領」",
-     "link": "https://news.yahoo.co.jp/pickup/6591499?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 13:18:33 GMT"
+     "title": "公園に身元不明の遺体 名古屋市",
+     "link": "https://news.yahoo.co.jp/pickup/6591509?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 21:21:54 GMT"
     },
     {
-     "title": "「性的侮辱」問題 豪が日本に釈明",
-     "link": "https://news.yahoo.co.jp/pickup/6591502?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 13:43:57 GMT"
+     "title": "特急列車 車との衝突気付かず走行",
+     "link": "https://news.yahoo.co.jp/pickup/6591508?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 21:12:01 GMT"
     },
     {
-     "title": "奇跡に近い 900m流された親子救助",
-     "link": "https://news.yahoo.co.jp/pickup/6591504?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 13:53:15 GMT"
+     "title": "阿波おどり「性的」動画 不安の声",
+     "link": "https://news.yahoo.co.jp/pickup/6591513?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 21:54:02 GMT"
     },
     {
-     "title": "新幹線乗り遅れ緊急停止 動画拡散",
-     "link": "https://news.yahoo.co.jp/pickup/6591482?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 10:53:11 GMT"
+     "title": "第3次森保J 名波コーチら続投へ",
+     "link": "https://news.yahoo.co.jp/pickup/6591510?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 21:28:58 GMT"
+    },
+    {
+     "title": "出産の山本舞香 ドラマ続編を辞退",
+     "link": "https://news.yahoo.co.jp/pickup/6591514?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 22:03:19 GMT"
     },
     {
      "title": "Ado23歳 熊本支援で4000万円寄付",
      "link": "https://news.yahoo.co.jp/pickup/6591507?source=rss",
      "pubDate": "Wed, 12 Aug 2026 21:07:14 GMT"
-    },
-    {
-     "title": "橋本環奈が始球式 「河了貂」衣装",
-     "link": "https://news.yahoo.co.jp/pickup/6591503?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 13:38:13 GMT"
     }
    ]
   }
