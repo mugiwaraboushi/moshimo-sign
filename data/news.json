@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-12T10:47:22.350Z",
+ "updatedAt": "2026-08-12T11:36:29.906Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -25,7 +25,7 @@
     {
      "title": "熊本震度7の被災地 通所介護施設で再開できない所や一部制限も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43444",
-     "pubDate": "Wed, 12 Aug 2026 18:47:24 +0900"
+     "pubDate": "Wed, 12 Aug 2026 18:47:00 +0900"
     },
     {
      "title": "日航機墜落事故から41年 追悼慰霊式に遺族などが参列",
@@ -33,14 +33,14 @@
      "pubDate": "Wed, 12 Aug 2026 19:34:50 +0900"
     },
     {
-     "title": "辺野古沖転覆事故 海保 船長所属団体の共同代表らの自宅を捜索",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43467",
-     "pubDate": "Wed, 12 Aug 2026 18:24:59 +0900"
+     "title": "ロシア プーチン大統領 北方領土問題めぐり 日本を強くけん制",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43491",
+     "pubDate": "Wed, 12 Aug 2026 19:51:47 +0900"
     },
     {
-     "title": "中国 朱鎔基元首相が死去 97歳 「鉄腕宰相」とも呼ばれる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43497",
-     "pubDate": "Wed, 12 Aug 2026 19:32:00 +0900"
+     "title": "熊本 断水の復旧長期化 断層沿いの主要な水道管の被害が要因か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43486",
+     "pubDate": "Wed, 12 Aug 2026 19:52:10 +0900"
     }
    ]
   },
@@ -87,7 +87,7 @@
     {
      "title": "【動画】Pickup NEWS（8月12日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43281",
-     "pubDate": "Wed, 12 Aug 2026 14:16:39 +0900"
+     "pubDate": "Wed, 12 Aug 2026 19:59:50 +0900"
     },
     {
      "title": "日航ジャンボ機の墜落事故 きょうで41年 520人が犠牲",
@@ -148,6 +148,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "ロシア プーチン大統領 北方領土問題めぐり 日本を強くけん制",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43491",
+     "pubDate": "Wed, 12 Aug 2026 19:51:47 +0900"
+    },
     {
      "title": "高市首相 イラン大統領と電話会談“ホルムズ自由で安全 重要”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43492",
@@ -217,11 +222,6 @@
      "title": "シリアのアサド前大統領に死刑判決 殺人や人道に対する罪など",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43316",
      "pubDate": "Wed, 12 Aug 2026 06:49:20 +0900"
-    },
-    {
-     "title": "コロンビア地震 死者180人超 救助活動続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43334",
-     "pubDate": "Wed, 12 Aug 2026 15:57:28 +0900"
     }
    ]
   },
@@ -236,24 +236,24 @@
      "pubDate": "Wed, 12 Aug 2026 09:35:17 GMT"
     },
     {
-     "title": "米大統領 3期目出馬に否定的見解",
-     "link": "https://news.yahoo.co.jp/pickup/6591459?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 08:26:15 GMT"
+     "title": "朱鎔基・元中国首相が死去 97歳",
+     "link": "https://news.yahoo.co.jp/pickup/6591481?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 10:42:36 GMT"
     },
     {
-     "title": "露大統領 13年ぶりにサハリン入り",
-     "link": "https://news.yahoo.co.jp/pickup/6591476?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 09:41:49 GMT"
+     "title": "砂浜に遺体 不明の22歳男性と判明",
+     "link": "https://news.yahoo.co.jp/pickup/6591465?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 08:27:36 GMT"
     },
     {
-     "title": "移住先で夫不貞 離婚し生き方模索",
-     "link": "https://news.yahoo.co.jp/pickup/6591464?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 08:18:42 GMT"
+     "title": "新幹線乗り遅れ緊急停止 動画拡散",
+     "link": "https://news.yahoo.co.jp/pickup/6591482?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 10:53:11 GMT"
     },
     {
-     "title": "カモシカが住宅街を疾走 住民驚き",
-     "link": "https://news.yahoo.co.jp/pickup/6591478?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 10:03:45 GMT"
+     "title": "ハッピーターン50年 売れ続ける訳",
+     "link": "https://news.yahoo.co.jp/pickup/6591479?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 10:07:19 GMT"
     },
     {
      "title": "韓国の性接待疑惑 JFA会長が言及",
@@ -261,14 +261,14 @@
      "pubDate": "Wed, 12 Aug 2026 08:56:48 GMT"
     },
     {
-     "title": "松坂大輔氏が始球式 日ハムユニ",
-     "link": "https://news.yahoo.co.jp/pickup/6591480?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 10:29:55 GMT"
-    },
-    {
      "title": "梅津葉子さん死去 漫画連載は終了",
      "link": "https://news.yahoo.co.jp/pickup/6591467?source=rss",
      "pubDate": "Wed, 12 Aug 2026 08:35:47 GMT"
+    },
+    {
+     "title": "VIVANT視聴率なぜ下降続く 考察",
+     "link": "https://news.yahoo.co.jp/pickup/6591410?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 02:18:04 GMT"
     }
    ]
   }
