@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-11T23:11:21.277Z",
+ "updatedAt": "2026-08-12T00:04:21.015Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "北朝鮮の弾道ミサイルの可能性あるもの EEZへの飛来確認されず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43345",
-     "pubDate": "Wed, 12 Aug 2026 07:54:24 +0900"
-    },
-    {
      "title": "台風15号 関東で強風被害 台風から離れても大雨に警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
      "pubDate": "Wed, 12 Aug 2026 08:08:02 +0900"
+    },
+    {
+     "title": "台風15号 各地の被害 茨城と栃木で4人けが 茨城など4300戸停電",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43291",
+     "pubDate": "Wed, 12 Aug 2026 08:31:54 +0900"
+    },
+    {
+     "title": "北朝鮮の弾道ミサイルの可能性あるもの EEZへの飛来確認されず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43345",
+     "pubDate": "Wed, 12 Aug 2026 08:24:17 +0900"
     },
     {
      "title": "奥田碩氏が死去 93歳 トヨタ自動車社長や経団連会長など歴任",
@@ -23,24 +28,19 @@
      "pubDate": "Wed, 12 Aug 2026 05:15:59 +0900"
     },
     {
-     "title": "【交通影響】JR青梅線 久留里線運転見合わせ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43204",
-     "pubDate": "Wed, 12 Aug 2026 08:05:11 +0900"
-    },
-    {
      "title": "日航ジャンボ機の墜落事故 きょうで41年 520人が犠牲",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43331",
      "pubDate": "Wed, 12 Aug 2026 06:24:53 +0900"
     },
     {
-     "title": "“トランプ大統領 7月 秘密裏に専用機から乗り換え”米有力紙",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43298",
-     "pubDate": "Wed, 12 Aug 2026 04:51:00 +0900"
+     "title": "熊本地震 断層沿い30キロ余で地表のずれなど確認 専門家の調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43322",
+     "pubDate": "Wed, 12 Aug 2026 07:45:46 +0900"
     },
     {
-     "title": "“自治体職員 これから疲れがたまる時期”精神科医が注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43325",
-     "pubDate": "Wed, 12 Aug 2026 06:51:55 +0900"
+     "title": "シリアのアサド前大統領に死刑判決 殺人や人道に対する罪など",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43316",
+     "pubDate": "Wed, 12 Aug 2026 06:49:20 +0900"
     }
    ]
   },
@@ -67,7 +67,7 @@
     {
      "title": "北朝鮮の弾道ミサイルの可能性あるもの EEZへの飛来確認されず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43345",
-     "pubDate": "Wed, 12 Aug 2026 07:54:24 +0900"
+     "pubDate": "Wed, 12 Aug 2026 08:24:17 +0900"
     },
     {
      "title": "熊本地震2週間 熊本県のアンテナショップにぎわう 東京 銀座",
@@ -149,6 +149,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "韓国の米軍基地周辺で交信傍受疑いで逮捕 中国軍出身者か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43323",
+     "pubDate": "Wed, 12 Aug 2026 08:31:06 +0900"
+    },
+    {
      "title": "シリアのアサド前大統領に死刑判決 殺人や人道に対する罪など",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43316",
      "pubDate": "Wed, 12 Aug 2026 06:49:20 +0900"
@@ -166,7 +171,7 @@
     {
      "title": "北朝鮮の弾道ミサイルの可能性あるもの EEZへの飛来確認されず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43345",
-     "pubDate": "Wed, 12 Aug 2026 07:54:24 +0900"
+     "pubDate": "Wed, 12 Aug 2026 08:24:17 +0900"
     },
     {
      "title": "“トランプ大統領 7月 秘密裏に専用機から乗り換え”米有力紙",
@@ -217,11 +222,6 @@
      "title": "コロンビアでM7.4の地震 111人死亡 87人けが 各地で建物被害",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43201",
      "pubDate": "Tue, 11 Aug 2026 13:33:20 +0900"
-    },
-    {
-     "title": "イラン大統領 モジタバ師と面会か 最高指導者の健在アピールも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43176",
-     "pubDate": "Mon, 10 Aug 2026 20:57:51 +0900"
     }
    ]
   },
@@ -231,24 +231,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風15号は近畿地方から西へ 警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6591375?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 21:07:09 GMT"
+     "title": "台風は山陰沖へ 本州は大雨警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6591389?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 23:18:51 GMT"
     },
     {
-     "title": "元・経団連会長 奥田碩さん死去",
-     "link": "https://news.yahoo.co.jp/pickup/6591379?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 21:48:14 GMT"
+     "title": "日航機墜落事故41年 犠牲者を悼む",
+     "link": "https://news.yahoo.co.jp/pickup/6591387?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 22:51:30 GMT"
     },
     {
-     "title": "イオン 爆発事故で遺族に補償方針",
-     "link": "https://news.yahoo.co.jp/pickup/6591365?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 13:38:51 GMT"
+     "title": "オフロード走行中か 車滑落し死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6591390?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 23:19:27 GMT"
     },
     {
-     "title": "50年以上進展なし 四国新幹線の今",
-     "link": "https://news.yahoo.co.jp/pickup/6591388?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 23:03:40 GMT"
+     "title": "「四国新幹線」実現なるか 現状は",
+     "link": "https://news.yahoo.co.jp/pickup/6591392?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 23:17:08 GMT"
     },
     {
      "title": "美容医療の低年齢化 親の意向も",
@@ -256,14 +256,14 @@
      "pubDate": "Tue, 11 Aug 2026 22:30:27 GMT"
     },
     {
+     "title": "広島9度目雨天中止 9月過密日程に",
+     "link": "https://news.yahoo.co.jp/pickup/6591384?source=rss",
+     "pubDate": "Tue, 11 Aug 2026 22:32:45 GMT"
+    },
+    {
      "title": "C・ロナウド ポルトガルで民事婚",
      "link": "https://news.yahoo.co.jp/pickup/6591380?source=rss",
      "pubDate": "Tue, 11 Aug 2026 21:58:21 GMT"
-    },
-    {
-     "title": "広瀬アリス アクション映画初主演",
-     "link": "https://news.yahoo.co.jp/pickup/6591385?source=rss",
-     "pubDate": "Tue, 11 Aug 2026 22:48:25 GMT"
     },
     {
      "title": "大家志津香 父との最後の家族旅行",
