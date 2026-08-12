@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-12T08:07:37.508Z",
+ "updatedAt": "2026-08-12T09:35:31.523Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -15,32 +15,32 @@
     {
      "title": "台風17号が発生 “今後の情報に注意を” 気象庁",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43369",
-     "pubDate": "Wed, 12 Aug 2026 16:27:45 +0900"
+     "pubDate": "Wed, 12 Aug 2026 17:54:36 +0900"
     },
     {
-     "title": "日航機墜落事故から41年 遺族や関係者が雨のなか慰霊登山",
+     "title": "日航機墜落事故から41年 追悼慰霊式に遺族などが参列",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43375",
-     "pubDate": "Wed, 12 Aug 2026 15:59:17 +0900"
+     "pubDate": "Wed, 12 Aug 2026 18:23:37 +0900"
     },
     {
-     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3652人避難",
+     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3585人避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43373",
-     "pubDate": "Wed, 12 Aug 2026 15:33:55 +0900"
+     "pubDate": "Wed, 12 Aug 2026 17:25:44 +0900"
     },
     {
      "title": "イオンモール熊本爆発事故 遺族に補償する方向で調整 イオン",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43440",
-     "pubDate": "Wed, 12 Aug 2026 16:58:50 +0900"
-    },
-    {
-     "title": "熊本地震で八代港にも亀裂などの被害 物流機能ほぼ停止",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43442",
-     "pubDate": "Wed, 12 Aug 2026 16:49:49 +0900"
+     "pubDate": "Wed, 12 Aug 2026 18:12:54 +0900"
     },
     {
      "title": "坂口力元厚労相が老衰で死去 92歳 公明党元衆議院議員",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43439",
      "pubDate": "Wed, 12 Aug 2026 15:56:00 +0900"
+    },
+    {
+     "title": "全日空 国際線の燃油サーチャージ引き下げへ 9月発券分から",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43465",
+     "pubDate": "Wed, 12 Aug 2026 17:53:53 +0900"
     }
    ]
   },
@@ -50,14 +50,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "検察トップ 畝本検事総長が退任会見 相次ぐ不祥事を陳謝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43430",
-     "pubDate": "Wed, 12 Aug 2026 15:50:40 +0900"
+     "title": "北海道 江別 強盗致死事件 1審で無期懲役判決の被告が控訴",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43457",
+     "pubDate": "Wed, 12 Aug 2026 18:30:15 +0900"
     },
     {
-     "title": "日航機墜落事故から41年 遺族や関係者が雨のなか慰霊登山",
+     "title": "辺野古沖転覆事故 海保 船長所属団体の共同代表らの自宅を捜索",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43467",
+     "pubDate": "Wed, 12 Aug 2026 18:24:59 +0900"
+    },
+    {
+     "title": "希少トカゲ密輸疑いで逮捕 スーツケースにトカゲ200匹 警視庁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43383",
+     "pubDate": "Wed, 12 Aug 2026 17:13:49 +0900"
+    },
+    {
+     "title": "検察トップ 畝本検事総長が退任会見 相次ぐ不祥事を陳謝",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43430",
+     "pubDate": "Wed, 12 Aug 2026 15:50:00 +0900"
+    },
+    {
+     "title": "日航機墜落事故から41年 追悼慰霊式に遺族などが参列",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43375",
-     "pubDate": "Wed, 12 Aug 2026 15:59:17 +0900"
+     "pubDate": "Wed, 12 Aug 2026 18:23:37 +0900"
     },
     {
      "title": "JR山手線 外回りも全線で運転再開",
@@ -82,7 +97,7 @@
     {
      "title": "北朝鮮 弾道ミサイルの可能性あるもの EEZ外側に落下か 防衛省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43345",
-     "pubDate": "Wed, 12 Aug 2026 13:41:23 +0900"
+     "pubDate": "Wed, 12 Aug 2026 17:46:14 +0900"
     },
     {
      "title": "熊本地震2週間 熊本県のアンテナショップにぎわう 東京 銀座",
@@ -108,21 +123,6 @@
      "title": "多摩川で釣りをしていた男性死亡 川で溺れたか 東京 昭島市",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43262",
      "pubDate": "Tue, 11 Aug 2026 15:17:00 +0900"
-    },
-    {
-     "title": "イオンモール熊本 爆発事故 避難後一時入館認めたと会社が発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43246",
-     "pubDate": "Tue, 11 Aug 2026 17:08:47 +0900"
-    },
-    {
-     "title": "新潟 蓮池薫さん 拉致された当時の心境など中学生に明かす",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43211",
-     "pubDate": "Tue, 11 Aug 2026 07:05:02 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（8月11日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43181",
-     "pubDate": "Tue, 11 Aug 2026 19:39:05 +0900"
     }
    ]
   },
@@ -148,6 +148,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "円相場 値下がり 中東情勢の先行きへの不透明感から",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43477",
+     "pubDate": "Wed, 12 Aug 2026 18:26:01 +0900"
+    },
+    {
+     "title": "全日空 国際線の燃油サーチャージ引き下げへ 9月発券分から",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43465",
+     "pubDate": "Wed, 12 Aug 2026 17:53:53 +0900"
+    },
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月12日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43328",
@@ -196,7 +206,7 @@
     {
      "title": "北朝鮮 弾道ミサイルの可能性あるもの EEZ外側に落下か 防衛省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43345",
-     "pubDate": "Wed, 12 Aug 2026 13:41:23 +0900"
+     "pubDate": "Wed, 12 Aug 2026 17:46:14 +0900"
     },
     {
      "title": "“トランプ大統領 7月 秘密裏に専用機から乗り換え”米有力紙",
@@ -212,16 +222,6 @@
      "title": "トランプ大統領 子ども向けワクチン接種の方針変更 批判も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43254",
      "pubDate": "Tue, 11 Aug 2026 15:13:07 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（8月11日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43140",
-     "pubDate": "Tue, 11 Aug 2026 08:42:00 +0900"
-    },
-    {
-     "title": "ロシア中部にウクライナが無人機攻撃 13人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43216",
-     "pubDate": "Tue, 11 Aug 2026 07:50:36 +0900"
     }
    ]
   },
@@ -231,44 +231,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風17号 来週関東など近づく恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6591452?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 07:16:29 GMT"
-    },
-    {
-     "title": "米 イラン選択肢は経済破綻か攻撃",
-     "link": "https://news.yahoo.co.jp/pickup/6591435?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 04:33:55 GMT"
-    },
-    {
      "title": "ボーイングHP記述巡り日航に謝罪",
      "link": "https://news.yahoo.co.jp/pickup/6591457?source=rss",
      "pubDate": "Wed, 12 Aug 2026 07:54:38 GMT"
     },
     {
-     "title": "検事総長が退任 不祥事続発を陳謝",
-     "link": "https://news.yahoo.co.jp/pickup/6591449?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 07:02:50 GMT"
+     "title": "辺野古 運航団体関係先を家宅捜索",
+     "link": "https://news.yahoo.co.jp/pickup/6591461?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 08:12:53 GMT"
     },
     {
-     "title": "人が入る箱型冷房 建設業など注目",
-     "link": "https://news.yahoo.co.jp/pickup/6591455?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 07:30:39 GMT"
+     "title": "移住先で夫不貞 離婚し生き方模索",
+     "link": "https://news.yahoo.co.jp/pickup/6591464?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 08:18:42 GMT"
     },
     {
-     "title": "仙台育英 投手戦制し2年連続16強",
-     "link": "https://news.yahoo.co.jp/pickup/6591450?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 06:59:03 GMT"
+     "title": "印の旅客機急降下 機長は大麻陽性",
+     "link": "https://news.yahoo.co.jp/pickup/6591463?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 08:18:02 GMT"
     },
     {
-     "title": "大泉洋30周年 今のテレビを語る",
-     "link": "https://news.yahoo.co.jp/pickup/6591453?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 07:49:06 GMT"
+     "title": "ペルセウス座流星群 今夜から見頃",
+     "link": "https://news.yahoo.co.jp/pickup/6591458?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 07:37:06 GMT"
     },
     {
-     "title": "漫画家の梅津葉子さん死去",
-     "link": "https://news.yahoo.co.jp/pickup/6591438?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 05:02:14 GMT"
+     "title": "韓国の性接待疑惑 JFA会長が言及",
+     "link": "https://news.yahoo.co.jp/pickup/6591469?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 08:56:48 GMT"
+    },
+    {
+     "title": "DeNA松尾汐恩が抹消 感染症特例",
+     "link": "https://news.yahoo.co.jp/pickup/6591472?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 09:06:03 GMT"
+    },
+    {
+     "title": "梅津葉子さん死去 漫画連載は終了",
+     "link": "https://news.yahoo.co.jp/pickup/6591467?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 08:35:47 GMT"
     }
    ]
   }
