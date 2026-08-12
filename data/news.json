@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-12T14:10:29.125Z",
+ "updatedAt": "2026-08-12T15:25:50.020Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "熱中症搬送者数 8月9日までの1週間で7600人余 熊本も200人近く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43538",
+     "pubDate": "Thu, 13 Aug 2026 00:23:00 +0900"
+    },
     {
      "title": "検察トップ 検事総長に川原隆司氏が就任“国民の信頼が基盤”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43508",
@@ -118,11 +123,6 @@
      "title": "【動画】イオンモール熊本 爆発後の捜索活動の映像 被害克明に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43268",
      "pubDate": "Tue, 11 Aug 2026 18:35:00 +0900"
-    },
-    {
-     "title": "熊本地震 “たかおっちゃん”のスニーカー めいが思い語る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43276",
-     "pubDate": "Tue, 11 Aug 2026 17:51:00 +0900"
     }
    ]
   },
@@ -231,14 +231,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "地震で観光業約60億円被害 熊本県",
-     "link": "https://news.yahoo.co.jp/pickup/6591493?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 12:19:30 GMT"
-    },
-    {
      "title": "日航機墜落 遺体安置された体育館",
      "link": "https://news.yahoo.co.jp/pickup/6591497?source=rss",
      "pubDate": "Wed, 12 Aug 2026 13:04:23 GMT"
+    },
+    {
+     "title": "空襲で姉犠牲 地元高1がアニメに",
+     "link": "https://news.yahoo.co.jp/pickup/6591500?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 13:23:33 GMT"
     },
     {
      "title": "露大統領 北方領土は「ロシア領」",
@@ -246,9 +246,9 @@
      "pubDate": "Wed, 12 Aug 2026 13:18:33 GMT"
     },
     {
-     "title": "イオン爆発 ハビタが「補償模索」",
-     "link": "https://news.yahoo.co.jp/pickup/6591485?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 11:37:21 GMT"
+     "title": "「性的侮辱」問題 豪が日本に釈明",
+     "link": "https://news.yahoo.co.jp/pickup/6591502?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 13:43:57 GMT"
     },
     {
      "title": "奇跡に近い 900m流された親子救助",
@@ -256,19 +256,19 @@
      "pubDate": "Wed, 12 Aug 2026 13:53:15 GMT"
     },
     {
-     "title": "「性的侮辱」問題 豪が日本に釈明",
-     "link": "https://news.yahoo.co.jp/pickup/6591502?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 13:43:57 GMT"
+     "title": "コメ収穫始まる 倉庫は古米山積み",
+     "link": "https://news.yahoo.co.jp/pickup/6591486?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 11:35:17 GMT"
+    },
+    {
+     "title": "新幹線乗り遅れ緊急停止 動画拡散",
+     "link": "https://news.yahoo.co.jp/pickup/6591482?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 10:53:11 GMT"
     },
     {
      "title": "橋本環奈が始球式 「河了貂」衣装",
      "link": "https://news.yahoo.co.jp/pickup/6591503?source=rss",
      "pubDate": "Wed, 12 Aug 2026 13:38:13 GMT"
-    },
-    {
-     "title": "アミューズ 誹謗中傷巡り法的措置",
-     "link": "https://news.yahoo.co.jp/pickup/6591488?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 12:01:33 GMT"
     }
    ]
   }
