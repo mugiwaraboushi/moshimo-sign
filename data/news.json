@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-12T09:35:31.523Z",
+ "updatedAt": "2026-08-12T10:47:22.350Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風15号は熱帯低気圧に 東北から西日本は激しい雨のおそれ",
+     "title": "広い範囲で大気不安定 関東では危険警報も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
-     "pubDate": "Wed, 12 Aug 2026 14:20:56 +0900"
+     "pubDate": "Wed, 12 Aug 2026 19:31:12 +0900"
     },
     {
      "title": "台風17号が発生 “今後の情報に注意を” 気象庁",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43369",
-     "pubDate": "Wed, 12 Aug 2026 17:54:36 +0900"
-    },
-    {
-     "title": "日航機墜落事故から41年 追悼慰霊式に遺族などが参列",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43375",
-     "pubDate": "Wed, 12 Aug 2026 18:23:37 +0900"
+     "pubDate": "Wed, 12 Aug 2026 19:37:06 +0900"
     },
     {
      "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3585人避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43373",
-     "pubDate": "Wed, 12 Aug 2026 17:25:44 +0900"
+     "pubDate": "Wed, 12 Aug 2026 19:35:18 +0900"
     },
     {
-     "title": "イオンモール熊本爆発事故 遺族に補償する方向で調整 イオン",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43440",
-     "pubDate": "Wed, 12 Aug 2026 18:12:54 +0900"
+     "title": "熊本震度7の被災地 通所介護施設で再開できない所や一部制限も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43444",
+     "pubDate": "Wed, 12 Aug 2026 18:47:24 +0900"
     },
     {
-     "title": "坂口力元厚労相が老衰で死去 92歳 公明党元衆議院議員",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43439",
-     "pubDate": "Wed, 12 Aug 2026 15:56:00 +0900"
+     "title": "日航機墜落事故から41年 追悼慰霊式に遺族などが参列",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43375",
+     "pubDate": "Wed, 12 Aug 2026 19:34:50 +0900"
     },
     {
-     "title": "全日空 国際線の燃油サーチャージ引き下げへ 9月発券分から",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43465",
-     "pubDate": "Wed, 12 Aug 2026 17:53:53 +0900"
+     "title": "辺野古沖転覆事故 海保 船長所属団体の共同代表らの自宅を捜索",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43467",
+     "pubDate": "Wed, 12 Aug 2026 18:24:59 +0900"
+    },
+    {
+     "title": "中国 朱鎔基元首相が死去 97歳 「鉄腕宰相」とも呼ばれる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43497",
+     "pubDate": "Wed, 12 Aug 2026 19:32:00 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "違法スカウトG「ナチュラル」メンバー逮捕 スカウト中心人物か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43466",
+     "pubDate": "Wed, 12 Aug 2026 18:57:52 +0900"
+    },
     {
      "title": "北海道 江別 強盗致死事件 1審で無期懲役判決の被告が控訴",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43457",
@@ -72,7 +77,7 @@
     {
      "title": "日航機墜落事故から41年 追悼慰霊式に遺族などが参列",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43375",
-     "pubDate": "Wed, 12 Aug 2026 18:23:37 +0900"
+     "pubDate": "Wed, 12 Aug 2026 19:34:50 +0900"
     },
     {
      "title": "JR山手線 外回りも全線で運転再開",
@@ -118,11 +123,6 @@
      "title": "熊本地震 物資配送の“目詰まり”解消へ 運送会社など取り組み",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43265",
      "pubDate": "Tue, 11 Aug 2026 16:16:06 +0900"
-    },
-    {
-     "title": "多摩川で釣りをしていた男性死亡 川で溺れたか 東京 昭島市",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43262",
-     "pubDate": "Tue, 11 Aug 2026 15:17:00 +0900"
     }
    ]
   },
@@ -149,6 +149,31 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "高市首相 イラン大統領と電話会談“ホルムズ自由で安全 重要”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43492",
+     "pubDate": "Wed, 12 Aug 2026 19:43:43 +0900"
+    },
+    {
+     "title": "中国 重慶駐在の日本総領事が8か月空席も代行として着任",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43469",
+     "pubDate": "Wed, 12 Aug 2026 19:35:06 +0900"
+    },
+    {
+     "title": "中国 朱鎔基元首相が死去 97歳 「鉄腕宰相」とも呼ばれる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43497",
+     "pubDate": "Wed, 12 Aug 2026 19:32:00 +0900"
+    },
+    {
+     "title": "韓国 旧統一教会元幹部ら在宅起訴 政治家130人余に違法献金か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43478",
+     "pubDate": "Wed, 12 Aug 2026 19:08:00 +0900"
+    },
+    {
+     "title": "中国から輸出された新車 2か月連続で100万台超 EV需要高く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43473",
+     "pubDate": "Wed, 12 Aug 2026 18:55:32 +0900"
+    },
+    {
      "title": "円相場 値下がり 中東情勢の先行きへの不透明感から",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43477",
      "pubDate": "Wed, 12 Aug 2026 18:26:01 +0900"
@@ -161,7 +186,7 @@
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月12日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43328",
-     "pubDate": "Wed, 12 Aug 2026 16:06:28 +0900"
+     "pubDate": "Wed, 12 Aug 2026 19:00:12 +0900"
     },
     {
      "title": "“弾道ミサイルなどの発射実験は事前通知を”40余国が共同声明",
@@ -197,31 +222,6 @@
      "title": "コロンビア地震 死者180人超 救助活動続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43334",
      "pubDate": "Wed, 12 Aug 2026 15:57:28 +0900"
-    },
-    {
-     "title": "中国とインドネシアの海軍 台湾東の海域で訓練実施へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43333",
-     "pubDate": "Wed, 12 Aug 2026 06:21:46 +0900"
-    },
-    {
-     "title": "北朝鮮 弾道ミサイルの可能性あるもの EEZ外側に落下か 防衛省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43345",
-     "pubDate": "Wed, 12 Aug 2026 17:46:14 +0900"
-    },
-    {
-     "title": "“トランプ大統領 7月 秘密裏に専用機から乗り換え”米有力紙",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43298",
-     "pubDate": "Wed, 12 Aug 2026 12:55:25 +0900"
-    },
-    {
-     "title": "ゼレンスキー大統領「ロシアが北朝鮮のミサイルで攻撃」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43300",
-     "pubDate": "Tue, 11 Aug 2026 22:57:58 +0900"
-    },
-    {
-     "title": "トランプ大統領 子ども向けワクチン接種の方針変更 批判も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43254",
-     "pubDate": "Tue, 11 Aug 2026 15:13:07 +0900"
     }
    ]
   },
@@ -231,14 +231,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "ボーイングHP記述巡り日航に謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6591457?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 07:54:38 GMT"
+     "title": "墜落 520人の墓標に花生けた遺族",
+     "link": "https://news.yahoo.co.jp/pickup/6591473?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 09:35:17 GMT"
     },
     {
-     "title": "辺野古 運航団体関係先を家宅捜索",
-     "link": "https://news.yahoo.co.jp/pickup/6591461?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 08:12:53 GMT"
+     "title": "米大統領 3期目出馬に否定的見解",
+     "link": "https://news.yahoo.co.jp/pickup/6591459?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 08:26:15 GMT"
+    },
+    {
+     "title": "露大統領 13年ぶりにサハリン入り",
+     "link": "https://news.yahoo.co.jp/pickup/6591476?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 09:41:49 GMT"
     },
     {
      "title": "移住先で夫不貞 離婚し生き方模索",
@@ -246,14 +251,9 @@
      "pubDate": "Wed, 12 Aug 2026 08:18:42 GMT"
     },
     {
-     "title": "印の旅客機急降下 機長は大麻陽性",
-     "link": "https://news.yahoo.co.jp/pickup/6591463?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 08:18:02 GMT"
-    },
-    {
-     "title": "ペルセウス座流星群 今夜から見頃",
-     "link": "https://news.yahoo.co.jp/pickup/6591458?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 07:37:06 GMT"
+     "title": "カモシカが住宅街を疾走 住民驚き",
+     "link": "https://news.yahoo.co.jp/pickup/6591478?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 10:03:45 GMT"
     },
     {
      "title": "韓国の性接待疑惑 JFA会長が言及",
@@ -261,9 +261,9 @@
      "pubDate": "Wed, 12 Aug 2026 08:56:48 GMT"
     },
     {
-     "title": "DeNA松尾汐恩が抹消 感染症特例",
-     "link": "https://news.yahoo.co.jp/pickup/6591472?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 09:06:03 GMT"
+     "title": "松坂大輔氏が始球式 日ハムユニ",
+     "link": "https://news.yahoo.co.jp/pickup/6591480?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 10:29:55 GMT"
     },
     {
      "title": "梅津葉子さん死去 漫画連載は終了",
