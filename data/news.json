@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-12T11:36:29.906Z",
+ "updatedAt": "2026-08-12T12:37:53.586Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "広い範囲で大気不安定 関東では危険警報も",
+     "title": "熱帯低気圧 広い範囲で大気不安定 関東では危険警報も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
-     "pubDate": "Wed, 12 Aug 2026 19:31:12 +0900"
+     "pubDate": "Wed, 12 Aug 2026 21:03:55 +0900"
     },
     {
      "title": "台風17号が発生 “今後の情報に注意を” 気象庁",
@@ -30,17 +30,17 @@
     {
      "title": "日航機墜落事故から41年 追悼慰霊式に遺族などが参列",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43375",
-     "pubDate": "Wed, 12 Aug 2026 19:34:50 +0900"
-    },
-    {
-     "title": "ロシア プーチン大統領 北方領土問題めぐり 日本を強くけん制",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43491",
-     "pubDate": "Wed, 12 Aug 2026 19:51:47 +0900"
+     "pubDate": "Wed, 12 Aug 2026 20:56:46 +0900"
     },
     {
      "title": "熊本 断水の復旧長期化 断層沿いの主要な水道管の被害が要因か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43486",
      "pubDate": "Wed, 12 Aug 2026 19:52:10 +0900"
+    },
+    {
+     "title": "検察トップ 検事総長に川原隆司氏が就任“国民の信頼が基盤”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43508",
+     "pubDate": "Wed, 12 Aug 2026 21:29:08 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "検察トップ 検事総長に川原隆司氏が就任“国民の信頼が基盤”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43508",
+     "pubDate": "Wed, 12 Aug 2026 21:29:08 +0900"
+    },
     {
      "title": "違法スカウトG「ナチュラル」メンバー逮捕 スカウト中心人物か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43466",
@@ -77,7 +82,7 @@
     {
      "title": "日航機墜落事故から41年 追悼慰霊式に遺族などが参列",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43375",
-     "pubDate": "Wed, 12 Aug 2026 19:34:50 +0900"
+     "pubDate": "Wed, 12 Aug 2026 20:56:46 +0900"
     },
     {
      "title": "JR山手線 外回りも全線で運転再開",
@@ -118,11 +123,6 @@
      "title": "熊本地震 “たかおっちゃん”のスニーカー めいが思い語る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43276",
      "pubDate": "Tue, 11 Aug 2026 17:51:00 +0900"
-    },
-    {
-     "title": "熊本地震 物資配送の“目詰まり”解消へ 運送会社など取り組み",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43265",
-     "pubDate": "Tue, 11 Aug 2026 16:16:06 +0900"
     }
    ]
   },
@@ -191,12 +191,12 @@
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月12日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43328",
-     "pubDate": "Wed, 12 Aug 2026 19:00:12 +0900"
+     "pubDate": "Wed, 12 Aug 2026 21:17:26 +0900"
     },
     {
      "title": "“弾道ミサイルなどの発射実験は事前通知を”40余国が共同声明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43381",
-     "pubDate": "Wed, 12 Aug 2026 13:26:00 +0900"
+     "pubDate": "Wed, 12 Aug 2026 20:46:20 +0900"
     },
     {
      "title": "ホルムズ海峡めぐり 米とイランが互いに主張 こう着状態続く",
@@ -231,14 +231,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "墜落 520人の墓標に花生けた遺族",
-     "link": "https://news.yahoo.co.jp/pickup/6591473?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 09:35:17 GMT"
+     "title": "首相 15日の靖国参拝を見送る方向",
+     "link": "https://news.yahoo.co.jp/pickup/6591492?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 12:11:42 GMT"
     },
     {
-     "title": "朱鎔基・元中国首相が死去 97歳",
-     "link": "https://news.yahoo.co.jp/pickup/6591481?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 10:42:36 GMT"
+     "title": "中道の総支部解散が相次ぐ 30超",
+     "link": "https://news.yahoo.co.jp/pickup/6591468?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 08:43:36 GMT"
+    },
+    {
+     "title": "イオン爆発 ハビタが「補償模索」",
+     "link": "https://news.yahoo.co.jp/pickup/6591485?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 11:37:21 GMT"
     },
     {
      "title": "砂浜に遺体 不明の22歳男性と判明",
@@ -251,24 +256,19 @@
      "pubDate": "Wed, 12 Aug 2026 10:53:11 GMT"
     },
     {
-     "title": "ハッピーターン50年 売れ続ける訳",
-     "link": "https://news.yahoo.co.jp/pickup/6591479?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 10:07:19 GMT"
+     "title": "夜間の墓参りも 変化する供養の形",
+     "link": "https://news.yahoo.co.jp/pickup/6591491?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 12:22:38 GMT"
     },
     {
-     "title": "韓国の性接待疑惑 JFA会長が言及",
-     "link": "https://news.yahoo.co.jp/pickup/6591469?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 08:56:48 GMT"
+     "title": "佐野日大 97年以来29年ぶり夏2勝",
+     "link": "https://news.yahoo.co.jp/pickup/6591483?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 10:59:54 GMT"
     },
     {
-     "title": "梅津葉子さん死去 漫画連載は終了",
-     "link": "https://news.yahoo.co.jp/pickup/6591467?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 08:35:47 GMT"
-    },
-    {
-     "title": "VIVANT視聴率なぜ下降続く 考察",
-     "link": "https://news.yahoo.co.jp/pickup/6591410?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 02:18:04 GMT"
+     "title": "アミューズ 誹謗中傷巡り法的措置",
+     "link": "https://news.yahoo.co.jp/pickup/6591488?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 12:01:33 GMT"
     }
    ]
   }
