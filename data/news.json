@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-12T05:10:53.382Z",
+ "updatedAt": "2026-08-12T06:49:45.723Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【地震情報】熊本 長崎で震度4 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43409",
-     "pubDate": "Wed, 12 Aug 2026 13:31:09 +0900"
+     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3652人避難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43373",
+     "pubDate": "Wed, 12 Aug 2026 15:33:55 +0900"
     },
     {
      "title": "台風15号は熱帯低気圧に 東北から西日本は激しい雨のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
-     "pubDate": "Wed, 12 Aug 2026 12:35:01 +0900"
+     "pubDate": "Wed, 12 Aug 2026 14:20:56 +0900"
     },
     {
-     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3652人避難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43373",
-     "pubDate": "Wed, 12 Aug 2026 12:10:00 +0900"
+     "title": "【地震情報】熊本 長崎で震度4 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43409",
+     "pubDate": "Wed, 12 Aug 2026 15:35:19 +0900"
     },
     {
      "title": "“トランプ大統領 7月 秘密裏に専用機から乗り換え”米有力紙",
@@ -38,9 +38,9 @@
      "pubDate": "Wed, 12 Aug 2026 12:01:00 +0900"
     },
     {
-     "title": "台風17号が発生 “今後の情報に注意を” 気象庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43369",
-     "pubDate": "Wed, 12 Aug 2026 10:53:00 +0900"
+     "title": "高松 丸亀 高潮危険警報発表 沿岸部に避難指示",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43418",
+     "pubDate": "Wed, 12 Aug 2026 14:21:41 +0900"
     }
    ]
   },
@@ -62,7 +62,7 @@
     {
      "title": "【動画】Pickup NEWS（8月12日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43281",
-     "pubDate": "Wed, 12 Aug 2026 10:44:42 +0900"
+     "pubDate": "Wed, 12 Aug 2026 14:16:39 +0900"
     },
     {
      "title": "日航ジャンボ機の墜落事故 きょうで41年 520人が犠牲",
@@ -151,7 +151,7 @@
     {
      "title": "“弾道ミサイルなどの発射実験は事前通知を”40余国が共同声明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43381",
-     "pubDate": "Wed, 12 Aug 2026 13:26:23 +0900"
+     "pubDate": "Wed, 12 Aug 2026 13:26:00 +0900"
     },
     {
      "title": "ホルムズ海峡めぐり 米とイランが互いに主張 こう着状態続く",
@@ -179,9 +179,9 @@
      "pubDate": "Wed, 12 Aug 2026 06:49:20 +0900"
     },
     {
-     "title": "コロンビア地震 死者180人超 被害把握には時間も",
+     "title": "コロンビア地震 死者180人超 救助活動続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43334",
-     "pubDate": "Wed, 12 Aug 2026 06:30:06 +0900"
+     "pubDate": "Wed, 12 Aug 2026 14:23:27 +0900"
     },
     {
      "title": "中国とインドネシアの海軍 台湾東の海域で訓練実施へ",
@@ -236,19 +236,14 @@
      "pubDate": "Wed, 12 Aug 2026 04:28:32 GMT"
     },
     {
-     "title": "元厚労相・坂口力氏が死去 92歳",
-     "link": "https://news.yahoo.co.jp/pickup/6591437?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 04:57:56 GMT"
+     "title": "米 イラン選択肢は経済破綻か攻撃",
+     "link": "https://news.yahoo.co.jp/pickup/6591435?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 04:33:55 GMT"
     },
     {
-     "title": "日本兵と戦わされた 英植民地男性",
-     "link": "https://news.yahoo.co.jp/pickup/6591422?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 03:47:00 GMT"
-    },
-    {
-     "title": "クラゲ大量発生で原発停止 仏北部",
-     "link": "https://news.yahoo.co.jp/pickup/6591409?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 02:10:20 GMT"
+     "title": "江別暴行死 当時18歳の被告が控訴",
+     "link": "https://news.yahoo.co.jp/pickup/6591443?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 06:16:41 GMT"
     },
     {
      "title": "新幹線「独りぼっち席」が話題",
@@ -261,14 +256,19 @@
      "pubDate": "Wed, 12 Aug 2026 04:24:42 GMT"
     },
     {
-     "title": "C・ロナウドが結婚 3文字で報告",
-     "link": "https://news.yahoo.co.jp/pickup/6591418?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 02:57:00 GMT"
+     "title": "ドジャース劇的サヨナラ 接戦制す",
+     "link": "https://news.yahoo.co.jp/pickup/6591442?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 05:31:47 GMT"
     },
     {
      "title": "「踊る」スピンオフ中止報道 背景",
      "link": "https://news.yahoo.co.jp/pickup/6591428?source=rss",
      "pubDate": "Wed, 12 Aug 2026 04:38:57 GMT"
+    },
+    {
+     "title": "漫画家の梅津葉子さん死去",
+     "link": "https://news.yahoo.co.jp/pickup/6591438?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 05:02:14 GMT"
     }
    ]
   }
