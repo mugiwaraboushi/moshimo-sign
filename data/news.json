@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-12T15:25:50.020Z",
+ "updatedAt": "2026-08-12T16:15:15.698Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -28,9 +28,9 @@
      "pubDate": "Wed, 12 Aug 2026 18:47:00 +0900"
     },
     {
-     "title": "日航機墜落事故から41年 追悼慰霊式に遺族などが参列",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43375",
-     "pubDate": "Wed, 12 Aug 2026 20:56:46 +0900"
+     "title": "熱中症搬送者数 8月9日までの1週間で7600人余 熊本も200人近く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43538",
+     "pubDate": "Thu, 13 Aug 2026 00:23:00 +0900"
     },
     {
      "title": "熊本 断水の復旧長期化 断層沿いの主要な水道管の被害が要因か",
@@ -38,9 +38,9 @@
      "pubDate": "Wed, 12 Aug 2026 19:52:10 +0900"
     },
     {
-     "title": "米消費者物価上昇率3.4％ 伸び率縮小で早期利上げ観測が後退か",
+     "title": "米物価上昇率3.4％ 伸び率縮小 利上げ観測やや後退",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43517",
-     "pubDate": "Wed, 12 Aug 2026 21:54:00 +0900"
+     "pubDate": "Thu, 13 Aug 2026 00:26:19 +0900"
     }
    ]
   },
@@ -149,14 +149,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "中国 国家プロジェクト開発 新型旅客機「C919」初の国際線就航",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43537",
+     "pubDate": "Thu, 13 Aug 2026 01:01:42 +0900"
+    },
+    {
      "title": "北朝鮮 韓国の原子力潜水艦開発は“核ドミノ引き起こす”非難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43514",
      "pubDate": "Wed, 12 Aug 2026 21:55:35 +0900"
     },
     {
-     "title": "米消費者物価上昇率3.4％ 伸び率縮小で早期利上げ観測が後退か",
+     "title": "米物価上昇率3.4％ 伸び率縮小 利上げ観測やや後退",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43517",
-     "pubDate": "Wed, 12 Aug 2026 21:54:00 +0900"
+     "pubDate": "Thu, 13 Aug 2026 00:26:19 +0900"
     },
     {
      "title": "ロシア プーチン大統領 北方領土問題めぐり 日本を強くけん制",
@@ -217,11 +222,6 @@
      "title": "ロシアが米の元海兵隊員を解放 トランプ大統領が謝意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43344",
      "pubDate": "Wed, 12 Aug 2026 12:19:00 +0900"
-    },
-    {
-     "title": "ハンガリーで日本人女性を計画的に殺害 元夫を起訴",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43353",
-     "pubDate": "Wed, 12 Aug 2026 10:39:18 +0900"
     }
    ]
   },
