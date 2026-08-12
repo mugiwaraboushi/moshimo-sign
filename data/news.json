@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-12T12:37:53.586Z",
+ "updatedAt": "2026-08-12T14:10:29.125Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -15,7 +15,7 @@
     {
      "title": "台風17号が発生 “今後の情報に注意を” 気象庁",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43369",
-     "pubDate": "Wed, 12 Aug 2026 19:37:06 +0900"
+     "pubDate": "Wed, 12 Aug 2026 19:37:00 +0900"
     },
     {
      "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3585人避難",
@@ -38,9 +38,9 @@
      "pubDate": "Wed, 12 Aug 2026 19:52:10 +0900"
     },
     {
-     "title": "検察トップ 検事総長に川原隆司氏が就任“国民の信頼が基盤”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43508",
-     "pubDate": "Wed, 12 Aug 2026 21:29:08 +0900"
+     "title": "米消費者物価上昇率3.4％ 伸び率縮小で早期利上げ観測が後退か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43517",
+     "pubDate": "Wed, 12 Aug 2026 21:54:00 +0900"
     }
    ]
   },
@@ -149,6 +149,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "北朝鮮 韓国の原子力潜水艦開発は“核ドミノ引き起こす”非難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43514",
+     "pubDate": "Wed, 12 Aug 2026 21:55:35 +0900"
+    },
+    {
+     "title": "米消費者物価上昇率3.4％ 伸び率縮小で早期利上げ観測が後退か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43517",
+     "pubDate": "Wed, 12 Aug 2026 21:54:00 +0900"
+    },
+    {
      "title": "ロシア プーチン大統領 北方領土問題めぐり 日本を強くけん制",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43491",
      "pubDate": "Wed, 12 Aug 2026 19:51:47 +0900"
@@ -156,7 +166,7 @@
     {
      "title": "高市首相 イラン大統領と電話会談“ホルムズ自由で安全 重要”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43492",
-     "pubDate": "Wed, 12 Aug 2026 19:43:43 +0900"
+     "pubDate": "Wed, 12 Aug 2026 22:09:47 +0900"
     },
     {
      "title": "中国 重慶駐在の日本総領事が8か月空席も代行として着任",
@@ -166,7 +176,7 @@
     {
      "title": "中国 朱鎔基元首相が死去 97歳 「鉄腕宰相」とも呼ばれる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43497",
-     "pubDate": "Wed, 12 Aug 2026 19:32:00 +0900"
+     "pubDate": "Wed, 12 Aug 2026 22:31:33 +0900"
     },
     {
      "title": "韓国 旧統一教会元幹部ら在宅起訴 政治家130人余に違法献金か",
@@ -212,16 +222,6 @@
      "title": "ハンガリーで日本人女性を計画的に殺害 元夫を起訴",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43353",
      "pubDate": "Wed, 12 Aug 2026 10:39:18 +0900"
-    },
-    {
-     "title": "韓国の米軍基地周辺で交信傍受疑いで逮捕 中国軍出身者か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43323",
-     "pubDate": "Wed, 12 Aug 2026 08:31:06 +0900"
-    },
-    {
-     "title": "シリアのアサド前大統領に死刑判決 殺人や人道に対する罪など",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43316",
-     "pubDate": "Wed, 12 Aug 2026 06:49:20 +0900"
     }
    ]
   },
@@ -231,14 +231,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "首相 15日の靖国参拝を見送る方向",
-     "link": "https://news.yahoo.co.jp/pickup/6591492?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 12:11:42 GMT"
+     "title": "地震で観光業約60億円被害 熊本県",
+     "link": "https://news.yahoo.co.jp/pickup/6591493?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 12:19:30 GMT"
     },
     {
-     "title": "中道の総支部解散が相次ぐ 30超",
-     "link": "https://news.yahoo.co.jp/pickup/6591468?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 08:43:36 GMT"
+     "title": "日航機墜落 遺体安置された体育館",
+     "link": "https://news.yahoo.co.jp/pickup/6591497?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 13:04:23 GMT"
+    },
+    {
+     "title": "露大統領 北方領土は「ロシア領」",
+     "link": "https://news.yahoo.co.jp/pickup/6591499?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 13:18:33 GMT"
     },
     {
      "title": "イオン爆発 ハビタが「補償模索」",
@@ -246,24 +251,19 @@
      "pubDate": "Wed, 12 Aug 2026 11:37:21 GMT"
     },
     {
-     "title": "砂浜に遺体 不明の22歳男性と判明",
-     "link": "https://news.yahoo.co.jp/pickup/6591465?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 08:27:36 GMT"
+     "title": "奇跡に近い 900m流された親子救助",
+     "link": "https://news.yahoo.co.jp/pickup/6591504?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 13:53:15 GMT"
     },
     {
-     "title": "新幹線乗り遅れ緊急停止 動画拡散",
-     "link": "https://news.yahoo.co.jp/pickup/6591482?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 10:53:11 GMT"
+     "title": "「性的侮辱」問題 豪が日本に釈明",
+     "link": "https://news.yahoo.co.jp/pickup/6591502?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 13:43:57 GMT"
     },
     {
-     "title": "夜間の墓参りも 変化する供養の形",
-     "link": "https://news.yahoo.co.jp/pickup/6591491?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 12:22:38 GMT"
-    },
-    {
-     "title": "佐野日大 97年以来29年ぶり夏2勝",
-     "link": "https://news.yahoo.co.jp/pickup/6591483?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 10:59:54 GMT"
+     "title": "橋本環奈が始球式 「河了貂」衣装",
+     "link": "https://news.yahoo.co.jp/pickup/6591503?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 13:38:13 GMT"
     },
     {
      "title": "アミューズ 誹謗中傷巡り法的措置",
