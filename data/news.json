@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-12T20:28:46.214Z",
+ "updatedAt": "2026-08-12T21:13:06.256Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,29 +18,29 @@
      "pubDate": "Thu, 13 Aug 2026 05:13:26 +0900"
     },
     {
-     "title": "熊本地震 震源断層30キロから40キロ 政府・地震調査委員会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43532",
-     "pubDate": "Thu, 13 Aug 2026 05:16:06 +0900"
-    },
-    {
-     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3585人避難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43373",
-     "pubDate": "Wed, 12 Aug 2026 19:35:18 +0900"
-    },
-    {
      "title": "国旗損壊処罰法 きょう施行",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43520",
      "pubDate": "Thu, 13 Aug 2026 05:12:33 +0900"
     },
     {
-     "title": "熱帯低気圧 広い範囲で大気不安定 関東では危険警報も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
-     "pubDate": "Wed, 12 Aug 2026 21:03:55 +0900"
+     "title": "熊本地震 震源断層30キロから40キロ 政府・地震調査委員会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43532",
+     "pubDate": "Thu, 13 Aug 2026 05:16:06 +0900"
+    },
+    {
+     "title": "検事の取り調べ映像 高等検察庁でチェックの取り組み開始",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43524",
+     "pubDate": "Thu, 13 Aug 2026 05:36:35 +0900"
     },
     {
      "title": "熊本 断水の復旧長期化 断層沿いの主要な水道管の被害が要因か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43486",
      "pubDate": "Wed, 12 Aug 2026 19:52:10 +0900"
+    },
+    {
+     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3585人避難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43373",
+     "pubDate": "Wed, 12 Aug 2026 19:35:18 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "検事の取り調べ映像 高等検察庁でチェックの取り組み開始",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43524",
+     "pubDate": "Thu, 13 Aug 2026 05:36:35 +0900"
+    },
     {
      "title": "台風17号 北寄りに進む見込み 進路予報に幅 今後の情報に注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43523",
@@ -118,11 +123,6 @@
      "title": "北朝鮮 弾道ミサイルの可能性あるもの EEZ外側に落下か 防衛省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43345",
      "pubDate": "Wed, 12 Aug 2026 17:46:14 +0900"
-    },
-    {
-     "title": "熊本地震2週間 熊本県のアンテナショップにぎわう 東京 銀座",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43263",
-     "pubDate": "Tue, 11 Aug 2026 18:37:56 +0900"
     }
    ]
   },
@@ -256,14 +256,14 @@
      "pubDate": "Wed, 12 Aug 2026 13:53:15 GMT"
     },
     {
-     "title": "コメ収穫始まる 倉庫は古米山積み",
-     "link": "https://news.yahoo.co.jp/pickup/6591486?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 11:35:17 GMT"
-    },
-    {
      "title": "新幹線乗り遅れ緊急停止 動画拡散",
      "link": "https://news.yahoo.co.jp/pickup/6591482?source=rss",
      "pubDate": "Wed, 12 Aug 2026 10:53:11 GMT"
+    },
+    {
+     "title": "Ado23歳 熊本支援で4000万円寄付",
+     "link": "https://news.yahoo.co.jp/pickup/6591507?source=rss",
+     "pubDate": "Wed, 12 Aug 2026 21:07:14 GMT"
     },
     {
      "title": "橋本環奈が始球式 「河了貂」衣装",
