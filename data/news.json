@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-12T19:32:11.597Z",
+ "updatedAt": "2026-08-12T20:28:46.214Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【地震速報】熊本市で震度3 津波の心配なし",
+     "title": "台風17号 北寄りに進む見込み 進路予報に幅 今後の情報に注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43523",
+     "pubDate": "Thu, 13 Aug 2026 05:10:45 +0900"
+    },
+    {
+     "title": "【地震情報】熊本市で震度3 津波の心配なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43544",
-     "pubDate": "Thu, 13 Aug 2026 04:22:08 +0900"
+     "pubDate": "Thu, 13 Aug 2026 05:13:26 +0900"
     },
     {
-     "title": "熱帯低気圧 広い範囲で大気不安定 関東では危険警報も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
-     "pubDate": "Wed, 12 Aug 2026 21:03:55 +0900"
-    },
-    {
-     "title": "台風17号が発生 “今後の情報に注意を” 気象庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43369",
-     "pubDate": "Wed, 12 Aug 2026 19:37:00 +0900"
+     "title": "熊本地震 震源断層30キロから40キロ 政府・地震調査委員会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43532",
+     "pubDate": "Thu, 13 Aug 2026 05:16:06 +0900"
     },
     {
      "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3585人避難",
@@ -28,14 +28,14 @@
      "pubDate": "Wed, 12 Aug 2026 19:35:18 +0900"
     },
     {
-     "title": "熊本震度7の被災地 通所介護施設で再開できない所や一部制限も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43444",
-     "pubDate": "Wed, 12 Aug 2026 18:47:00 +0900"
+     "title": "国旗損壊処罰法 きょう施行",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43520",
+     "pubDate": "Thu, 13 Aug 2026 05:12:33 +0900"
     },
     {
-     "title": "熱中症搬送者数 8月9日までの1週間で7600人余 熊本も200人近く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43538",
-     "pubDate": "Thu, 13 Aug 2026 00:23:00 +0900"
+     "title": "熱帯低気圧 広い範囲で大気不安定 関東では危険警報も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43217",
+     "pubDate": "Wed, 12 Aug 2026 21:03:55 +0900"
     },
     {
      "title": "熊本 断水の復旧長期化 断層沿いの主要な水道管の被害が要因か",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "台風17号 北寄りに進む見込み 進路予報に幅 今後の情報に注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43523",
+     "pubDate": "Thu, 13 Aug 2026 05:10:45 +0900"
+    },
     {
      "title": "熱中症搬送者数 8月9日までの1週間で7600人余 熊本も200人近く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43538",
@@ -118,11 +123,6 @@
      "title": "熊本地震2週間 熊本県のアンテナショップにぎわう 東京 銀座",
      "link": "https://news.web.nhk/newsweb/na/nd-20260811de43263",
      "pubDate": "Tue, 11 Aug 2026 18:37:56 +0900"
-    },
-    {
-     "title": "【動画】イオンモール熊本 爆発後の捜索活動の映像 被害克明に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260811de43268",
-     "pubDate": "Tue, 11 Aug 2026 18:35:00 +0900"
     }
    ]
   },
