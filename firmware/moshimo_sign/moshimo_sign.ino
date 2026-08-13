@@ -64,7 +64,7 @@
 // このビルドのバージョン。リリースごとに +1 する (手順: docs/firmware-release.md)。
 // **公開する .bin はこの値を上げてビルドしたものであること。** manifest の version だけ
 // 上げて .bin が古いままだと、実機は「更新したのにまだ古い」を延々繰り返す。
-#define FW_VERSION 7
+#define FW_VERSION 8
 
 // 古い config.h でもビルドが通るように既定値を用意する。
 #ifndef SELFUPDATE_MANIFEST_URL
