@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-13T09:37:01.971Z",
+ "updatedAt": "2026-08-13T10:49:20.574Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "千葉県北西部と南部 線状降水帯発生 災害危険度高まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43703",
-     "pubDate": "Thu, 13 Aug 2026 18:16:11 +0900"
-    },
-    {
-     "title": "千葉 市川と松戸にレベル4大雨危険警報 増水などに厳重警戒を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43708",
-     "pubDate": "Thu, 13 Aug 2026 18:12:00 +0900"
+     "title": "千葉の12市 レベル5大雨特別警報 最大級警戒 気象庁など会見へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
+     "pubDate": "Thu, 13 Aug 2026 19:43:29 +0900"
     },
     {
      "title": "【ライブ配信中】関東では局地的に猛烈な雨 危険警報の地域も",
@@ -23,24 +18,29 @@
      "pubDate": "Thu, 13 Aug 2026 18:17:05 +0900"
     },
     {
+     "title": "【大雨】JR千葉駅前は道路が冠水（午後6時ごろ）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43760",
+     "pubDate": "Thu, 13 Aug 2026 19:33:40 +0900"
+    },
+    {
+     "title": "千葉県北西部と南部 線状降水帯発生 災害危険度高まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43703",
+     "pubDate": "Thu, 13 Aug 2026 19:02:01 +0900"
+    },
+    {
+     "title": "【大雨 交通影響】首都圏 JRや私鉄各線で運転見合わせや遅れ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43729",
+     "pubDate": "Thu, 13 Aug 2026 19:05:00 +0900"
+    },
+    {
      "title": "高市首相「断じて許容できず」プーチン大統領の北方領土訪問に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43689",
-     "pubDate": "Thu, 13 Aug 2026 17:57:04 +0900"
+     "pubDate": "Thu, 13 Aug 2026 19:09:01 +0900"
     },
     {
      "title": "ロシア プーチン大統領 北方領土初めて訪問",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43566",
      "pubDate": "Thu, 13 Aug 2026 18:22:47 +0900"
-    },
-    {
-     "title": "秋篠宮さま パラグアイ訪問前記者会見で改正皇室典範にも言及",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43641",
-     "pubDate": "Thu, 13 Aug 2026 18:02:36 +0900"
-    },
-    {
-     "title": "高校野球 東日大昌平が青森山田に勝利 3回戦へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43635",
-     "pubDate": "Thu, 13 Aug 2026 17:46:44 +0900"
     }
    ]
   },
@@ -57,7 +57,7 @@
     {
      "title": "九州自動車道 あす朝から全線で通行可能に 地震から17日ぶり",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43678",
-     "pubDate": "Thu, 13 Aug 2026 18:11:33 +0900"
+     "pubDate": "Thu, 13 Aug 2026 19:05:33 +0900"
     },
     {
      "title": "熊本地震 どうする？災害廃棄物 【専門家Q＆A】",
@@ -97,7 +97,7 @@
     {
      "title": "被災者の体調管理が課題 しんきゅう師派遣も【被災地の動き】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43575",
-     "pubDate": "Thu, 13 Aug 2026 14:46:15 +0900"
+     "pubDate": "Thu, 13 Aug 2026 19:27:35 +0900"
     },
     {
      "title": "地震で被害受けた熊本城 一般公開が再開",
@@ -105,9 +105,9 @@
      "pubDate": "Thu, 13 Aug 2026 12:22:00 +0900"
     },
     {
-     "title": "ニシキヘビ 体長2mの2匹 マンションから逃げ出す 川崎 多摩区",
+     "title": "“逃走”ニシキヘビ 見つからず 夜も警戒続ける 川崎 多摩区",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43553",
-     "pubDate": "Thu, 13 Aug 2026 16:43:45 +0900"
+     "pubDate": "Thu, 13 Aug 2026 18:36:59 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（8月13日）",
@@ -115,9 +115,9 @@
      "pubDate": "Thu, 13 Aug 2026 13:48:16 +0900"
     },
     {
-     "title": "熊本 地震活動が依然活発 きょうも厳しい暑さに 熱中症対策を",
+     "title": "熊本 きょうも猛暑日 地震活動依然活発 5弱程度以上の地震注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43525",
-     "pubDate": "Thu, 13 Aug 2026 12:03:32 +0900"
+     "pubDate": "Thu, 13 Aug 2026 19:22:44 +0900"
     },
     {
      "title": "検事の取り調べ映像 高等検察庁でチェックの取り組み開始",
@@ -151,7 +151,7 @@
     {
      "title": "高市首相「断じて許容できず」プーチン大統領の北方領土訪問に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43689",
-     "pubDate": "Thu, 13 Aug 2026 17:57:04 +0900"
+     "pubDate": "Thu, 13 Aug 2026 19:09:01 +0900"
     },
     {
      "title": "ホルムズ海峡の通航“5月以降で最低水準に近づく”米メディア",
@@ -231,19 +231,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "露大統領の択捉島訪問 高市氏抗議",
-     "link": "https://news.yahoo.co.jp/pickup/6591598?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 08:28:30 GMT"
+     "title": "千葉県北西部に大雨特別警報",
+     "link": "https://news.yahoo.co.jp/pickup/6591616?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 10:40:38 GMT"
     },
     {
-     "title": "千葉県北西部・南部に線状降水帯",
-     "link": "https://news.yahoo.co.jp/pickup/6591607?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 09:20:14 GMT"
-    },
-    {
-     "title": "経営・管理の在留資格 厳格化の訳",
-     "link": "https://news.yahoo.co.jp/pickup/6591595?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 08:50:53 GMT"
+     "title": "安全確保を 大雨のときのNG行動",
+     "link": "https://news.yahoo.co.jp/pickup/6589507?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 10:41:24 GMT"
     },
     {
      "title": "関東で激しい雨 現地のSNS投稿",
@@ -251,19 +246,24 @@
      "pubDate": "Thu, 13 Aug 2026 08:08:37 GMT"
     },
     {
-     "title": "映像 スペインなどで「皆既日食」",
-     "link": "https://news.yahoo.co.jp/pickup/6591528?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 23:35:59 GMT"
+     "title": "大雨 関東の鉄道の運行情報",
+     "link": "https://news.yahoo.co.jp/pickup/6591612?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 10:11:21 GMT"
     },
     {
-     "title": "一太郎転落 振り返る当時の担当者",
-     "link": "https://news.yahoo.co.jp/pickup/6591588?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 07:31:25 GMT"
+     "title": "遊泳禁止中に流されたか 男性死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6591608?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 09:35:00 GMT"
     },
     {
      "title": "新スペース・マウンテン 名称決定",
      "link": "https://news.yahoo.co.jp/pickup/6591568?source=rss",
      "pubDate": "Thu, 13 Aug 2026 04:11:12 GMT"
+    },
+    {
+     "title": "藤川監督怒り 森下に2戦連続死球",
+     "link": "https://news.yahoo.co.jp/pickup/6591611?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 10:14:38 GMT"
     },
     {
      "title": "勝利の有明 球審「球持っていて」",
