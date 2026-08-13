@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-13T14:11:47.776Z",
+ "updatedAt": "2026-08-13T15:27:30.029Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "千葉県内19自治体に大雨特別警報 気象庁と国交省会見【詳細】",
+     "title": "千葉県内20自治体に大雨特別警報 気象庁と国交省会見【詳細】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
-     "pubDate": "Thu, 13 Aug 2026 22:51:26 +0900"
+     "pubDate": "Thu, 13 Aug 2026 23:50:08 +0900"
     },
     {
-     "title": "【大雨被害】道路冠水相次ぐ 柏で車中から救助の女性 心肺停止",
+     "title": "【大雨被害】市川の冠水道路で見つかった男性 死亡確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43748",
-     "pubDate": "Thu, 13 Aug 2026 23:00:37 +0900"
+     "pubDate": "Fri, 14 Aug 2026 00:18:22 +0900"
     },
     {
-     "title": "赤間防災相“今回の大雨で2人心肺停止と報告受けた”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43873",
-     "pubDate": "Thu, 13 Aug 2026 22:50:00 +0900"
+     "title": "千葉 八街市付近で記録的な大雨 災害の危険迫る（0：00）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43908",
+     "pubDate": "Fri, 14 Aug 2026 00:18:08 +0900"
+    },
+    {
+     "title": "千葉県で記録的な大雨 災害の危険迫る（23：30）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43895",
+     "pubDate": "Thu, 13 Aug 2026 23:52:37 +0900"
     },
     {
      "title": "千葉県 レベル5の大雨と土砂災害の特別警報 命助かる行動を",
@@ -31,11 +36,6 @@
      "title": "【動画】千葉 市川でバス立往生（午後6時前）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43852",
      "pubDate": "Thu, 13 Aug 2026 23:01:59 +0900"
-    },
-    {
-     "title": "【動画】走行中のバスの車内に水が入り込む 千葉 松戸",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43851",
-     "pubDate": "Thu, 13 Aug 2026 22:38:07 +0900"
     },
     {
      "title": "【動画】千葉市中央区で道路から水吹き上がる（午後7時ごろ）",
@@ -154,6 +154,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ロシア プーチン大統領 北方領土に その狙いは 専門家に聞く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43710",
+     "pubDate": "Thu, 13 Aug 2026 23:23:36 +0900"
+    },
+    {
      "title": "高市首相「断じて許容できず」プーチン大統領の北方領土訪問に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43689",
      "pubDate": "Thu, 13 Aug 2026 19:09:01 +0900"
@@ -222,11 +227,6 @@
      "title": "ロシア プーチン大統領 北方領土問題めぐり 日本を強くけん制",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43491",
      "pubDate": "Wed, 12 Aug 2026 19:51:47 +0900"
-    },
-    {
-     "title": "高市首相 イラン大統領と電話会談“ホルムズ自由で安全 重要”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43492",
-     "pubDate": "Wed, 12 Aug 2026 22:09:47 +0900"
     }
    ]
   },
@@ -236,14 +236,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "千葉市と市原市 土砂災害特別警報",
-     "link": "https://news.yahoo.co.jp/pickup/6591632?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 13:04:44 GMT"
+     "title": "千葉県に土砂災害特別警報",
+     "link": "https://news.yahoo.co.jp/pickup/6591642?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 15:07:54 GMT"
     },
     {
      "title": "千葉県の大雨特別警報 エリア拡大",
-     "link": "https://news.yahoo.co.jp/pickup/6591634?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 13:29:55 GMT"
+     "link": "https://news.yahoo.co.jp/pickup/6591641?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 15:00:11 GMT"
     },
     {
      "title": "気象庁「経験のないような大雨」",
@@ -266,14 +266,14 @@
      "pubDate": "Thu, 13 Aug 2026 13:59:28 GMT"
     },
     {
-     "title": "千葉県で大雨 マップで災害情報",
-     "link": "https://news.yahoo.co.jp/pickup/6591630?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 13:14:43 GMT"
+     "title": "大雨で帰宅困難 県庁に200人以上",
+     "link": "https://news.yahoo.co.jp/pickup/6591640?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 14:45:43 GMT"
     },
     {
-     "title": "千葉県などで停電発生 最新の状況",
-     "link": "https://news.yahoo.co.jp/pickup/6591633?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 13:17:20 GMT"
+     "title": "千葉県で大雨 現地のSNS投稿",
+     "link": "https://news.yahoo.co.jp/pickup/6591625?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 12:03:07 GMT"
     }
    ]
   }
