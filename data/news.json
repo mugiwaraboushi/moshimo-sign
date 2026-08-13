@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-13T10:49:20.574Z",
+ "updatedAt": "2026-08-13T11:36:18.519Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "千葉の12市 レベル5大雨特別警報 最大級警戒 気象庁など会見へ",
+     "title": "千葉にレベル5大雨特別警報 最大級警戒を【気象庁会見配信中】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
-     "pubDate": "Thu, 13 Aug 2026 19:43:29 +0900"
+     "pubDate": "Thu, 13 Aug 2026 20:26:12 +0900"
     },
     {
-     "title": "【ライブ配信中】関東では局地的に猛烈な雨 危険警報の地域も",
+     "title": "【ライブ配信中】関東で局地的に猛烈な雨 危険警報の地域も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43577",
-     "pubDate": "Thu, 13 Aug 2026 18:17:05 +0900"
+     "pubDate": "Thu, 13 Aug 2026 20:01:19 +0900"
     },
     {
-     "title": "【大雨】JR千葉駅前は道路が冠水（午後6時ごろ）",
+     "title": "【大雨】千葉市や船橋市で道路冠水（午後6時前後）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43760",
-     "pubDate": "Thu, 13 Aug 2026 19:33:40 +0900"
+     "pubDate": "Thu, 13 Aug 2026 20:18:04 +0900"
     },
     {
-     "title": "千葉県北西部と南部 線状降水帯発生 災害危険度高まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43703",
-     "pubDate": "Thu, 13 Aug 2026 19:02:01 +0900"
+     "title": "【大雨被害】千葉 道路冠水で車水没 住宅浸水や崖崩れの情報も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43748",
+     "pubDate": "Thu, 13 Aug 2026 19:32:00 +0900"
     },
     {
      "title": "【大雨 交通影響】首都圏 JRや私鉄各線で運転見合わせや遅れ",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "上皇ご夫妻 ことしは軽井沢での静養を見送り",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43682",
+     "pubDate": "Thu, 13 Aug 2026 20:28:28 +0900"
+    },
     {
      "title": "秋篠宮さま パラグアイ訪問前記者会見で改正皇室典範にも言及",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43641",
@@ -80,7 +85,7 @@
      "pubDate": "Thu, 13 Aug 2026 16:54:07 +0900"
     },
     {
-     "title": "東京 野川 仙川 善福寺川にレベル４氾濫危険警報 厳重警戒を",
+     "title": "【解除】東京 野川 仙川 善福寺川のレベル４氾濫危険警報解除",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43656",
      "pubDate": "Thu, 13 Aug 2026 16:14:00 +0900"
     },
@@ -112,17 +117,12 @@
     {
      "title": "【動画】Pickup NEWS（8月13日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43502",
-     "pubDate": "Thu, 13 Aug 2026 13:48:16 +0900"
+     "pubDate": "Thu, 13 Aug 2026 20:00:08 +0900"
     },
     {
      "title": "熊本 きょうも猛暑日 地震活動依然活発 5弱程度以上の地震注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43525",
      "pubDate": "Thu, 13 Aug 2026 19:22:44 +0900"
-    },
-    {
-     "title": "検事の取り調べ映像 高等検察庁でチェックの取り組み開始",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43524",
-     "pubDate": "Thu, 13 Aug 2026 05:36:00 +0900"
     }
    ]
   },
@@ -231,14 +231,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "千葉県北西部に大雨特別警報",
-     "link": "https://news.yahoo.co.jp/pickup/6591616?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 10:40:38 GMT"
+     "title": "命守る行動を 千葉に大雨特別警報",
+     "link": "https://news.yahoo.co.jp/pickup/6591619?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 11:23:49 GMT"
     },
     {
-     "title": "安全確保を 大雨のときのNG行動",
-     "link": "https://news.yahoo.co.jp/pickup/6589507?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 10:41:24 GMT"
+     "title": "中継・気象庁会見 千葉に特別警報",
+     "link": "https://news.yahoo.co.jp/pickup/6591620?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 11:26:56 GMT"
+    },
+    {
+     "title": "大雨で車内閉じ込め 女性心肺停止",
+     "link": "https://news.yahoo.co.jp/pickup/6591621?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 11:30:39 GMT"
     },
     {
      "title": "関東で激しい雨 現地のSNS投稿",
@@ -254,11 +259,6 @@
      "title": "遊泳禁止中に流されたか 男性死亡",
      "link": "https://news.yahoo.co.jp/pickup/6591608?source=rss",
      "pubDate": "Thu, 13 Aug 2026 09:35:00 GMT"
-    },
-    {
-     "title": "新スペース・マウンテン 名称決定",
-     "link": "https://news.yahoo.co.jp/pickup/6591568?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 04:11:12 GMT"
     },
     {
      "title": "藤川監督怒り 森下に2戦連続死球",
