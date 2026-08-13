@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-13T22:07:40.554Z",
+ "updatedAt": "2026-08-13T23:08:41.013Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -15,32 +15,32 @@
     {
      "title": "成田空港 ターミナルに約7000人滞留 大雨による電車バス運休で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43941",
-     "pubDate": "Fri, 14 Aug 2026 06:03:34 +0900"
+     "pubDate": "Fri, 14 Aug 2026 07:58:46 +0900"
     },
     {
-     "title": "千葉県内の大雨特別警報を危険警報などに切り替え【詳しく】",
+     "title": "千葉県内の大雨特別警報を危険警報などに切り替え【上空映像】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
-     "pubDate": "Fri, 14 Aug 2026 07:04:44 +0900"
+     "pubDate": "Fri, 14 Aug 2026 08:01:00 +0900"
     },
     {
-     "title": "【大雨 交通影響】首都圏 JRや私鉄の運転予定は（14日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43937",
-     "pubDate": "Fri, 14 Aug 2026 06:55:22 +0900"
+     "title": "【大雨】千葉県庁で約1800人が一夜明かす 帰宅困難者相次ぎ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43764",
+     "pubDate": "Fri, 14 Aug 2026 07:40:47 +0900"
     },
     {
-     "title": "【動画】千葉 大雨 被害の様子",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43880",
-     "pubDate": "Fri, 14 Aug 2026 02:42:20 +0900"
+     "title": "千葉 若葉区 車2台が川に流され7人救助 5人搬送",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43978",
+     "pubDate": "Fri, 14 Aug 2026 07:26:19 +0900"
+    },
+    {
+     "title": "千葉県 午前8時から災害対策本部会議 大雨被害を受け",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43980",
+     "pubDate": "Fri, 14 Aug 2026 07:08:28 +0900"
     },
     {
      "title": "【気象予報士解説】千葉 レベル4大雨危険警報などに切り替え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43818",
      "pubDate": "Fri, 14 Aug 2026 06:38:14 +0900"
-    },
-    {
-     "title": "政府 ロシアへの対抗措置を検討 プーチン氏の北方領土訪問受け",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43919",
-     "pubDate": "Fri, 14 Aug 2026 06:43:53 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（8月14日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43783",
+     "pubDate": "Fri, 14 Aug 2026 07:46:21 +0900"
+    },
     {
      "title": "熊本地震 宇城と氷川町 学童保育の約6割 再開のめど立たず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43860",
@@ -118,11 +123,6 @@
      "title": "被災者の体調管理が課題 しんきゅう師派遣も【被災地の動き】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43575",
      "pubDate": "Thu, 13 Aug 2026 19:27:35 +0900"
-    },
-    {
-     "title": "地震で被害受けた熊本城 一般公開が再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43578",
-     "pubDate": "Thu, 13 Aug 2026 12:22:00 +0900"
     }
    ]
   },
@@ -158,6 +158,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "米「イラン海上封鎖 無期限可能」ホルムズ海峡開放 見通せず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43959",
+     "pubDate": "Fri, 14 Aug 2026 07:42:00 +0900"
+    },
+    {
+     "title": "S＆P500 株価指数が最高値 FRB利上げ観測後退で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43968",
+     "pubDate": "Fri, 14 Aug 2026 07:28:00 +0900"
+    },
+    {
+     "title": "ウクライナで地雷探知の新システム 日本の支援で供与",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43955",
+     "pubDate": "Fri, 14 Aug 2026 07:10:59 +0900"
+    },
     {
      "title": "政府 ロシアへの対抗措置を検討 プーチン氏の北方領土訪問受け",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43919",
@@ -217,21 +232,6 @@
      "title": "米国務省“出産ツーリズム”防止専門チーム立ち上げ対策強化へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43554",
      "pubDate": "Thu, 13 Aug 2026 09:56:00 +0900"
-    },
-    {
-     "title": "欧州で27年ぶり スペインなど皆既日食 フランスなどは部分日食",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43530",
-     "pubDate": "Thu, 13 Aug 2026 09:51:00 +0900"
-    },
-    {
-     "title": "コロンビア地震 死者265人に 72時間を前に救助活動続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43549",
-     "pubDate": "Thu, 13 Aug 2026 08:40:00 +0900"
-    },
-    {
-     "title": "IEA 石油供給量見通しを下方修正 ホルムズ海峡再開見通せず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43546",
-     "pubDate": "Thu, 13 Aug 2026 07:19:04 +0900"
     }
    ]
   },
@@ -251,24 +251,9 @@
      "pubDate": "Thu, 13 Aug 2026 20:29:37 GMT"
     },
     {
-     "title": "安全確保を 大雨のときのNG行動",
-     "link": "https://news.yahoo.co.jp/pickup/6589507?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 10:41:24 GMT"
-    },
-    {
-     "title": "千葉県内 約1万人の帰宅困難者",
-     "link": "https://news.yahoo.co.jp/pickup/6591653?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 21:40:22 GMT"
-    },
-    {
      "title": "千葉県内のJR各線 始発から運休",
      "link": "https://news.yahoo.co.jp/pickup/6591646?source=rss",
      "pubDate": "Thu, 13 Aug 2026 19:46:02 GMT"
-    },
-    {
-     "title": "午前1時 成田空港に6600人が滞留",
-     "link": "https://news.yahoo.co.jp/pickup/6591647?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 20:00:16 GMT"
     },
     {
      "title": "千葉県で大雨 3人死亡1人心肺停止",
@@ -276,9 +261,24 @@
      "pubDate": "Thu, 13 Aug 2026 21:27:59 GMT"
     },
     {
-     "title": "千葉県で大雨 現地のSNS投稿",
-     "link": "https://news.yahoo.co.jp/pickup/6591625?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 12:03:07 GMT"
+     "title": "千葉県内 約1万人の帰宅困難者",
+     "link": "https://news.yahoo.co.jp/pickup/6591653?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 21:40:22 GMT"
+    },
+    {
+     "title": "秋葉原駅に熊本産の牛乳 売上急増",
+     "link": "https://news.yahoo.co.jp/pickup/6591602?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 08:47:53 GMT"
+    },
+    {
+     "title": "露大統領が択捉島を電撃訪問 波紋",
+     "link": "https://news.yahoo.co.jp/pickup/6591614?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 11:50:30 GMT"
+    },
+    {
+     "title": "千葉にいまして 矢部浩之ANN休演",
+     "link": "https://news.yahoo.co.jp/pickup/6591654?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 22:13:36 GMT"
     }
    ]
   }
