@@ -4,7 +4,7 @@
   "brightness": 96,
   "speed": 45,
   "colorTop": "FF9C00",
-  "colorScroll": "rainbow",
+  "colorScroll": "FF9C00",
   "messages": [
     "こんにちは",
     "Hello World!",
