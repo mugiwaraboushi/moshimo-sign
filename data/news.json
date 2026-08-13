@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-13T21:11:07.279Z",
+ "updatedAt": "2026-08-13T22:07:40.554Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "千葉県内の大雨特別警報を危険警報などに切り替え【詳しく】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
-     "pubDate": "Fri, 14 Aug 2026 05:59:02 +0900"
-    },
-    {
-     "title": "千葉 佐倉 タクシーが水没 車内の女性１人が意識がない状態",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43970",
-     "pubDate": "Fri, 14 Aug 2026 06:07:24 +0900"
-    },
-    {
-     "title": "【大雨被害】千葉 記録的大雨 2人が死亡 1人が心肺停止",
+     "title": "【大雨被害】千葉 記録的大雨 2人死亡1人心肺停止1人意識なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43748",
-     "pubDate": "Fri, 14 Aug 2026 05:55:23 +0900"
+     "pubDate": "Fri, 14 Aug 2026 07:02:29 +0900"
     },
     {
      "title": "成田空港 ターミナルに約7000人滞留 大雨による電車バス運休で",
@@ -28,9 +18,14 @@
      "pubDate": "Fri, 14 Aug 2026 06:03:34 +0900"
     },
     {
+     "title": "千葉県内の大雨特別警報を危険警報などに切り替え【詳しく】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
+     "pubDate": "Fri, 14 Aug 2026 07:04:44 +0900"
+    },
+    {
      "title": "【大雨 交通影響】首都圏 JRや私鉄の運転予定は（14日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43937",
-     "pubDate": "Fri, 14 Aug 2026 05:46:02 +0900"
+     "pubDate": "Fri, 14 Aug 2026 06:55:22 +0900"
     },
     {
      "title": "【動画】千葉 大雨 被害の様子",
@@ -38,9 +33,14 @@
      "pubDate": "Fri, 14 Aug 2026 02:42:20 +0900"
     },
     {
-     "title": "【気象予報士解説】千葉 レベル5大雨特別警報 今後の見通しは",
+     "title": "【気象予報士解説】千葉 レベル4大雨危険警報などに切り替え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43818",
-     "pubDate": "Fri, 14 Aug 2026 03:30:55 +0900"
+     "pubDate": "Fri, 14 Aug 2026 06:38:14 +0900"
+    },
+    {
+     "title": "政府 ロシアへの対抗措置を検討 プーチン氏の北方領土訪問受け",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43919",
+     "pubDate": "Fri, 14 Aug 2026 06:43:53 +0900"
     }
    ]
   },
@@ -159,6 +159,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "政府 ロシアへの対抗措置を検討 プーチン氏の北方領土訪問受け",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43919",
+     "pubDate": "Fri, 14 Aug 2026 06:43:53 +0900"
+    },
+    {
+     "title": "ベルギー「フラワーカーペット」両国友好記念し日本デザインに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43957",
+     "pubDate": "Fri, 14 Aug 2026 06:41:12 +0900"
+    },
+    {
+     "title": "ベルリンの壁建設開始から65年で追悼式典 当時を知る人も出席",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43958",
+     "pubDate": "Fri, 14 Aug 2026 06:39:45 +0900"
+    },
+    {
      "title": "ヨーロッパ各地で熱波続く パリでは40度近くまで上がる見込み",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43675",
      "pubDate": "Fri, 14 Aug 2026 02:23:56 +0900"
@@ -217,21 +232,6 @@
      "title": "IEA 石油供給量見通しを下方修正 ホルムズ海峡再開見通せず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43546",
      "pubDate": "Thu, 13 Aug 2026 07:19:04 +0900"
-    },
-    {
-     "title": "米 トランプ大統領 優位な立場を改めて主張も 先行きは不透明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43527",
-     "pubDate": "Thu, 13 Aug 2026 07:17:00 +0900"
-    },
-    {
-     "title": "ドイツ 情報機関の権限を大幅に強化する法案を閣議決定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43547",
-     "pubDate": "Thu, 13 Aug 2026 06:37:58 +0900"
-    },
-    {
-     "title": "中国 国家プロジェクト開発 新型旅客機「C919」初の国際線就航",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43537",
-     "pubDate": "Thu, 13 Aug 2026 01:01:42 +0900"
     }
    ]
   },
@@ -251,9 +251,14 @@
      "pubDate": "Thu, 13 Aug 2026 20:29:37 GMT"
     },
     {
-     "title": "千葉県に大雨 最新情報まとめ",
-     "link": "https://news.yahoo.co.jp/pickup/6591651?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 20:51:47 GMT"
+     "title": "安全確保を 大雨のときのNG行動",
+     "link": "https://news.yahoo.co.jp/pickup/6589507?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 10:41:24 GMT"
+    },
+    {
+     "title": "千葉県内 約1万人の帰宅困難者",
+     "link": "https://news.yahoo.co.jp/pickup/6591653?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 21:40:22 GMT"
     },
     {
      "title": "千葉県内のJR各線 始発から運休",
@@ -266,9 +271,9 @@
      "pubDate": "Thu, 13 Aug 2026 20:00:16 GMT"
     },
     {
-     "title": "千葉県で大雨 1人死亡1人心肺停止",
-     "link": "https://news.yahoo.co.jp/pickup/6591645?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 17:25:46 GMT"
+     "title": "千葉県で大雨 3人死亡1人心肺停止",
+     "link": "https://news.yahoo.co.jp/pickup/6591652?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 21:27:59 GMT"
     },
     {
      "title": "千葉県で大雨 現地のSNS投稿",
