@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-13T18:13:52.056Z",
+ "updatedAt": "2026-08-13T19:31:11.801Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,17 +10,27 @@
     {
      "title": "千葉県内22自治体に大雨特別警報 気象庁と国交省会見【詳細】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
-     "pubDate": "Fri, 14 Aug 2026 02:48:47 +0900"
+     "pubDate": "Fri, 14 Aug 2026 03:22:19 +0900"
+    },
+    {
+     "title": "千葉 八千代市の冠水した路上で男性見つかる 死亡確認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43945",
+     "pubDate": "Fri, 14 Aug 2026 04:14:15 +0900"
+    },
+    {
+     "title": "成田空港 ターミナルに約6600人滞留 電車やバス運休で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43941",
+     "pubDate": "Fri, 14 Aug 2026 04:16:00 +0900"
     },
     {
      "title": "【大雨被害】市川の冠水道路で見つかった男性 死亡確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43748",
-     "pubDate": "Fri, 14 Aug 2026 02:46:46 +0900"
+     "pubDate": "Fri, 14 Aug 2026 03:24:37 +0900"
     },
     {
      "title": "千葉県 レベル5の大雨と土砂災害の特別警報 命助かる行動を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43577",
-     "pubDate": "Fri, 14 Aug 2026 02:38:58 +0900"
+     "pubDate": "Fri, 14 Aug 2026 03:58:45 +0900"
     },
     {
      "title": "【動画】千葉 大雨 被害の様子",
@@ -30,17 +40,7 @@
     {
      "title": "【気象予報士解説】千葉 レベル5大雨特別警報 今後の見通しは",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43818",
-     "pubDate": "Thu, 13 Aug 2026 21:32:45 +0900"
-    },
-    {
-     "title": "【大雨】専門家「内水氾濫が発生 夜間は危険な状態続く」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43868",
-     "pubDate": "Fri, 14 Aug 2026 02:25:50 +0900"
-    },
-    {
-     "title": "【大雨】避難情報まとめ 総務省消防庁（0：00）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43831",
-     "pubDate": "Thu, 13 Aug 2026 21:48:00 +0900"
+     "pubDate": "Fri, 14 Aug 2026 03:30:55 +0900"
     }
    ]
   },
@@ -251,14 +251,14 @@
      "pubDate": "Thu, 13 Aug 2026 15:07:54 GMT"
     },
     {
+     "title": "安全確保を 大雨のときのNG行動",
+     "link": "https://news.yahoo.co.jp/pickup/6589507?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 10:41:24 GMT"
+    },
+    {
      "title": "千葉県に大雨特別警報 最新情報",
      "link": "https://news.yahoo.co.jp/pickup/6591623?source=rss",
      "pubDate": "Thu, 13 Aug 2026 12:12:09 GMT"
-    },
-    {
-     "title": "千葉県北西部などに線状降水帯",
-     "link": "https://news.yahoo.co.jp/pickup/6591644?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 17:17:49 GMT"
     },
     {
      "title": "車内閉じ込めなど多数の通報 千葉",
