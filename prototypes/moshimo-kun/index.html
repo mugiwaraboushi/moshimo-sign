@@ -157,6 +157,7 @@ function drawChar(fb, ch, box0, t, seed, opt={}){
   const cx0 = box0.x + box0.w/2, cy0 = box0.y + box0.h/2, base0 = box0.y + box0.h;
   const box = { x: cx0 - box0.w*fx/2, y: cy0 - box0.h*fy/2, w: box0.w*fx, h: box0.h*fy };
   const base = box0.h * 0.092 * (C.fat || 1) * ST.fat * ST.size * (opt.bold || 1);
+  const TILT = ST.tilt + (opt.tilt || 0);                  // うごき側からも傾けられる
   const tubes = [];                                        // [ax,ay,ar]→[bx,by,br]
   let x0 = W, x1 = 0, y0 = H, y1 = 0;
   for (let si=0; si<C.strokes.length; si++){
@@ -172,7 +173,7 @@ function drawChar(fb, ch, box0, t, seed, opt={}){
         taper *= 1 + (ST.head - 1) * Math.max(0, 1 - s*3);  // 頭のほうだけ太らせる（あたま）
       }
       const py = box.y + q[1]*box.h;
-      const lean = (base0 - py) * ST.tilt * 0.30;           // 上ほど横にずれる（かたむき）
+      const lean = (base0 - py) * TILT * 0.30;           // 上ほど横にずれる（かたむき）
       const pt = [box.x + q[0]*box.w + lean, py, Math.max(1.1, base*st.r*taper)];
       if (prev) tubes.push([prev, pt]);
       prev = pt;
@@ -202,7 +203,7 @@ function drawChar(fb, ch, box0, t, seed, opt={}){
     }
   }
   const eyeY = box.y + C.eye[1]*box.h + ST.eyeY;
-  return { ex: box.x + C.eye[0]*box.w + (base0 - eyeY) * ST.tilt * 0.30,   // 体と同じだけ傾ける
+  return { ex: box.x + C.eye[0]*box.w + (base0 - eyeY) * TILT * 0.30,   // 体と同じだけ傾ける
            ey: eyeY, sp: Math.max(0, (C.eyeSpread || 3) + ST.eyeSp) };
 }
 // 目は白い点2つ。まばたきで1ドットの線になる。
@@ -258,6 +259,11 @@ function headphones(fb, a, r, c){                      // ヘッドホン（頭�
     for (let dy=-1; dy<=1; dy++){ px(fb, ex, a.ey+dy, c); px(fb, ex+s, a.ey+dy, c); }
   }
 }
+function note(fb, x, y, c){                            // 8分音符
+  for (let i=0;i<5;i++) px(fb, x+2, y+i, c);           // ぼう
+  px(fb, x+3, y, c); px(fb, x+3, y+1, c);              // はた
+  for (const [dx,dy] of [[0,4],[1,4],[0,5],[1,5]]) px(fb, x+dx, y+dy, c);   // たま
+}
 function mic(fb, x, t, c, dust){                       // マイクと音の輪
   line(fb, x, 20, x, 30, c); line(fb, x-3, 31, x+3, 31, c);
   for (let dy=-4; dy<=1; dy++) for (let dx=-2; dx<=2; dx++)
@@ -308,6 +314,21 @@ const ANIMS = [
     const box = BOX(21 + 2.0*Math.sin(t*0.28), 3 + 1.0*Math.sin(t*0.41), 22, 25);
     const a = drawChar(fb, "genshi", box, t, 5.5);
     eyes(fb, a, { blink:blinking(t,5.5), gazeX:Math.round(Math.sin(t*0.23)) });
+  }},
+
+{ id:"headbang", label:"ヘドバン", say:"ノっています。首がないので、体ぜんぶで振っています。",
+  draw(fb,t){
+    const beat = t * 2.4;                                  // だいたい144BPM
+    const ph = beat - Math.floor(beat);
+    const s = ph < 0.38 ? ease(ph/0.38) : 1 - ease((ph-0.38)/0.62);   // 速く振り下ろして、ゆっくり戻す
+    const a = drawChar(fb, "mo", BOX(22, 3 + 3.2*s, 21, 26 - 2.2*s), t, 0.7, { tilt: -0.9*s });
+    eyes(fb, a, { blink: s > 0.8 || blinking(t,0.7) });     // 振り切ったところで目をつぶる
+    for (let i=0;i<3;i++){                                 // 半拍ごとに音符が飛ぶ
+      const spawn = Math.floor(beat*2 - i) / 2, age = beat - spawn;
+      if (age < 0 || age > 1.0) continue;
+      const side = (Math.round(spawn*2) % 2) ? 1 : -1;
+      note(fb, 32 + side*(11 + age*8), 13 - age*10, 3);
+    }
   }},
 
 { id:"read", label:"よむ", say:"ミニライブラリで借りたそうです。同じページを、さっきから。",
