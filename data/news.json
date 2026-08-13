@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-13T11:36:18.519Z",
+ "updatedAt": "2026-08-13T12:38:13.592Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,34 +8,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "千葉にレベル5大雨特別警報 最大級警戒を【気象庁会見配信中】",
+     "title": "千葉県に大雨特別警報 気象庁と国交省会見【詳細】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
-     "pubDate": "Thu, 13 Aug 2026 20:26:12 +0900"
+     "pubDate": "Thu, 13 Aug 2026 21:33:22 +0900"
     },
     {
-     "title": "【ライブ配信中】関東で局地的に猛烈な雨 危険警報の地域も",
+     "title": "【ライブ配信中】千葉県にレベル5大雨特別警報 命助かる行動を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43577",
-     "pubDate": "Thu, 13 Aug 2026 20:01:19 +0900"
+     "pubDate": "Thu, 13 Aug 2026 21:19:59 +0900"
     },
     {
-     "title": "【大雨】千葉市や船橋市で道路冠水（午後6時前後）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43760",
-     "pubDate": "Thu, 13 Aug 2026 20:18:04 +0900"
+     "title": "【動画】千葉 柏の道路冠水 JR千葉駅ホーム上（午後7時前後）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43791",
+     "pubDate": "Thu, 13 Aug 2026 20:57:02 +0900"
     },
     {
      "title": "【大雨被害】千葉 道路冠水で車水没 住宅浸水や崖崩れの情報も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43748",
-     "pubDate": "Thu, 13 Aug 2026 19:32:00 +0900"
+     "pubDate": "Thu, 13 Aug 2026 21:23:41 +0900"
+    },
+    {
+     "title": "【気象予報士解説】千葉 レベル5大雨特別警報 今後の見通しは",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43818",
+     "pubDate": "Thu, 13 Aug 2026 21:32:45 +0900"
     },
     {
      "title": "【大雨 交通影響】首都圏 JRや私鉄各線で運転見合わせや遅れ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43729",
-     "pubDate": "Thu, 13 Aug 2026 19:05:00 +0900"
-    },
-    {
-     "title": "高市首相「断じて許容できず」プーチン大統領の北方領土訪問に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43689",
-     "pubDate": "Thu, 13 Aug 2026 19:09:01 +0900"
+     "pubDate": "Thu, 13 Aug 2026 21:33:53 +0900"
     },
     {
      "title": "ロシア プーチン大統領 北方領土初めて訪問",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "横浜市長 重大パワハラ認定受け市議会で謝罪 給与削減の意向",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43701",
+     "pubDate": "Thu, 13 Aug 2026 20:36:15 +0900"
+    },
     {
      "title": "上皇ご夫妻 ことしは軽井沢での静養を見送り",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43682",
@@ -118,11 +123,6 @@
      "title": "【動画】Pickup NEWS（8月13日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43502",
      "pubDate": "Thu, 13 Aug 2026 20:00:08 +0900"
-    },
-    {
-     "title": "熊本 きょうも猛暑日 地震活動依然活発 5弱程度以上の地震注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43525",
-     "pubDate": "Thu, 13 Aug 2026 19:22:44 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "火星衛星探査機「MMX」公開 秋にも打ち上げへ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43676",
+     "pubDate": "Thu, 13 Aug 2026 20:45:14 +0900"
+    },
     {
      "title": "日本版GPS衛星「みちびき7号機」 H3ロケットで打ち上げ成功",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
@@ -236,9 +241,24 @@
      "pubDate": "Thu, 13 Aug 2026 11:23:49 GMT"
     },
     {
-     "title": "中継・気象庁会見 千葉に特別警報",
-     "link": "https://news.yahoo.co.jp/pickup/6591620?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 11:26:56 GMT"
+     "title": "埼玉・茨城で線状降水帯発生恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6591622?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 11:36:32 GMT"
+    },
+    {
+     "title": "気象庁「経験のないような大雨」",
+     "link": "https://news.yahoo.co.jp/pickup/6591626?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 12:05:45 GMT"
+    },
+    {
+     "title": "千葉県に大雨特別警報 最新情報",
+     "link": "https://news.yahoo.co.jp/pickup/6591623?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 12:12:09 GMT"
+    },
+    {
+     "title": "船橋市 広範囲の道路で冠水相次ぐ",
+     "link": "https://news.yahoo.co.jp/pickup/6591628?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 12:30:06 GMT"
     },
     {
      "title": "大雨で車内閉じ込め 女性心肺停止",
@@ -246,29 +266,14 @@
      "pubDate": "Thu, 13 Aug 2026 11:30:39 GMT"
     },
     {
-     "title": "関東で激しい雨 現地のSNS投稿",
-     "link": "https://news.yahoo.co.jp/pickup/6591594?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 08:08:37 GMT"
+     "title": "大雨特別警報 各地の河川水位情報",
+     "link": "https://news.yahoo.co.jp/pickup/6591627?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 12:12:27 GMT"
     },
     {
-     "title": "大雨 関東の鉄道の運行情報",
-     "link": "https://news.yahoo.co.jp/pickup/6591612?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 10:11:21 GMT"
-    },
-    {
-     "title": "遊泳禁止中に流されたか 男性死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6591608?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 09:35:00 GMT"
-    },
-    {
-     "title": "藤川監督怒り 森下に2戦連続死球",
-     "link": "https://news.yahoo.co.jp/pickup/6591611?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 10:14:38 GMT"
-    },
-    {
-     "title": "勝利の有明 球審「球持っていて」",
-     "link": "https://news.yahoo.co.jp/pickup/6591609?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 09:32:13 GMT"
+     "title": "千葉県で大雨 現地のSNS投稿",
+     "link": "https://news.yahoo.co.jp/pickup/6591625?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 12:03:07 GMT"
     }
    ]
   }
