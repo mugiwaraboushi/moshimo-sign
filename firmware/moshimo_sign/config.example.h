@@ -36,6 +36,12 @@
 // 24未満を指定しても .ino 側で24に引き上げられる (holdMsのコマ送りに枚数が要るため)
 #define MAX_FRAMES 24
 
+// ---- 自己アップデート (v0.7) ----
+// 実機が自分で新しいファームウェアを取りに行くための設定。手順は docs/firmware-release.md。
+// URLを空文字列 "" にすると自己アップデート機能そのものが無効になる。
+#define SELFUPDATE_MANIFEST_URL "https://mugiwaraboushi.github.io/moshimo-sign/firmware/manifest.json"
+#define SELFUPDATE_INTERVAL_MS (6UL * 60UL * 60UL * 1000UL)   // 6時間ごとに確認
+
 // ---- 表示内容 ----
 #define TOP_MESSAGE "営業中"
 #define DEFAULT_MESSAGE "ようこそ「もしも」へ　◆　まちと未来の実験室"

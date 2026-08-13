@@ -13,6 +13,8 @@ dist/
 *.bin
 *.elf
 *.map
+# 自己アップデートで配布する .bin だけは例外 (手順: docs/firmware-release.md)
+!firmware/moshimo_sign.bin
 
 # 会議音声・議事録などの非公開資料 (個人名が入るため公開しない)
 private/

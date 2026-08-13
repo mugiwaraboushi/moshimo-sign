@@ -1,5 +1,5 @@
 /*
- * もしも電光掲示板 ファームウェア v0.5
+ * もしも電光掲示板 ファームウェア v0.7
  * ESP32 (WROOM-32) + HUB75 RGBマトリクスパネル 64x32 (P4)
  *
  * 機能:
@@ -11,7 +11,11 @@
  *  - ドット絵の静止画表示: mode:"frames" + frames[] (v0.5)
  *    → prototypes/draw/ で描いた絵のURL (d=...) をそのまま playlist に載せる
  *  - WiFi接続、HTTPポーリングによるコメント取得(15秒毎、URLはconfig.hで設定)
+ *  - コマ送り: frames[].holdMs によるミリ秒指定 (v2.1先行)
  *  - ArduinoOTA: 初回USB書き込み後はWiFi経由で更新可能 (同一LAN内)
+ *  - 自己アップデート: firmware/manifest.json を見て自分で新しい.binを取りに行く (v0.7)
+ *    → 設置後もUSB・現地作業なしで更新できる。手順は docs/firmware-release.md
+ *    → playlist.json の "fwPing" に新バージョン番号を書けば、周期を待たず即時反映
  *
  * 配線 (HUB75標準ピン割当はライブラリ既定値を使用):
  *   https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA を参照
@@ -24,6 +28,7 @@
 #include <NetworkClientSecure.h>
 #include <ArduinoOTA.h>
 #include <ArduinoJson.h>
+#include <Update.h>
 #include <time.h>
 #include <ESP32-HUB75-MatrixPanel-I2S-DMA.h>
 #include "config.h"
@@ -54,6 +59,20 @@
 #define FRAME_W 64
 #define FRAME_H 32
 #define FRAME_BYTES ((FRAME_W * FRAME_H) / 8)  // 256バイト = base64url 342文字
+
+// ---- 自己アップデート (v0.7) ----
+// このビルドのバージョン。リリースごとに +1 する (手順: docs/firmware-release.md)。
+// **公開する .bin はこの値を上げてビルドしたものであること。** manifest の version だけ
+// 上げて .bin が古いままだと、実機は「更新したのにまだ古い」を延々繰り返す。
+#define FW_VERSION 7
+
+// 古い config.h でもビルドが通るように既定値を用意する。
+#ifndef SELFUPDATE_MANIFEST_URL
+#define SELFUPDATE_MANIFEST_URL "https://mugiwaraboushi.github.io/moshimo-sign/firmware/manifest.json"
+#endif
+#ifndef SELFUPDATE_INTERVAL_MS
+#define SELFUPDATE_INTERVAL_MS (6UL * 60UL * 60UL * 1000UL)  // 6時間
+#endif
 
 // ---------------- パネル ----------------
 MatrixPanel_I2S_DMA *display = nullptr;
@@ -307,6 +326,135 @@ static uint16_t hexToColor565(const char *hex) {
   return ((r >> 3) << 11) | ((g >> 2) << 5) | (b >> 3);
 }
 
+// ---------------- 自己アップデート (v0.7) ----------------
+// manifest.json を見て、自分より新しいバージョンがあれば取りに行って書き込む。
+// 形式: {"version":8, "url":"https://.../moshimo_sign.bin", "md5":"...", "size":1421728,
+//        "quietHours":{"from":2,"to":5}}
+// 手順は docs/firmware-release.md を参照。
+//
+// 直前に「このバージョンへ更新する」と決めて書き込んだ番号を RTCメモリに置く。
+// ESP.restart() では消えず、電源断で消える。manifest の version だけ上げて .bin が
+// 古いままだと更新→再起動→また更新…の無限ループになるので、その検出に使う。
+RTC_DATA_ATTR static int rtcUpdatedTo = 0;
+
+// 現在時刻(JST)が quietHours の範囲内か。範囲は from <= 時 < to。
+// from > to なら日をまたぐ (例 22時〜5時)。clockOk=false は NTP未同期。
+static bool inQuietHours(int from, int to, bool &clockOk) {
+  time_t now = time(nullptr);
+  struct tm tmv;
+  localtime_r(&now, &tmv);
+  clockOk = (tmv.tm_year > 100);   // 上段の時計表示と同じ判定 (2000年より前なら未同期)
+  if (!clockOk) return false;
+  int h = tmv.tm_hour;
+  return (from <= to) ? (h >= from && h < to) : (h >= from || h < to);
+}
+
+// ignoreQuiet=true で quietHours を無視する (playlist の fwPing 経由 = 人間の明示指示)。
+static void selfUpdateCheck(bool ignoreQuiet) {
+  if (strlen(SELFUPDATE_MANIFEST_URL) == 0) return;   // 空なら機能ごと無効
+  if (WiFi.status() != WL_CONNECTED) return;
+
+  int code;
+  String body = httpGetString(String(SELFUPDATE_MANIFEST_URL) + "?t=" + String(millis()), code);
+  if (code != 200 || !body.length()) {
+    Serial.printf("[selfupdate] manifest fetch failed (%d)\n", code);
+    return;
+  }
+  JsonDocument doc;
+  if (deserializeJson(doc, body)) {
+    Serial.println("[selfupdate] manifest JSON parse error");
+    return;
+  }
+  int newVer        = doc["version"] | 0;
+  const char *binUrl = doc["url"] | "";
+  const char *md5    = doc["md5"] | "";
+  size_t size       = (size_t)(doc["size"] | 0);
+
+  // ダウングレード禁止。同じバージョンも「何もしない」が正常。
+  if (newVer <= FW_VERSION) {
+    Serial.printf("[selfupdate] up to date (manifest v%d / running v%d)\n", newVer, FW_VERSION);
+    return;
+  }
+  if (!strlen(binUrl) || !strlen(md5) || size == 0) {
+    Serial.println("[selfupdate] manifest incomplete (url/md5/size のいずれかが無い)");
+    return;
+  }
+  // 前回このバージョンへ更新したはずなのに、まだ FW_VERSION が古い
+  // = 公開されている .bin の FW_VERSION が manifest と食い違っている。
+  if (rtcUpdatedTo == newVer) {
+    Serial.printf("[selfupdate] abort: v%d を書き込み済みのはずが FW_VERSION=%d のまま。"
+                  ".bin と manifest が不一致\n", newVer, FW_VERSION);
+    return;
+  }
+  if (!ignoreQuiet && doc["quietHours"].is<JsonObject>()) {
+    int from = doc["quietHours"]["from"] | 0;
+    int to   = doc["quietHours"]["to"] | 0;
+    bool clockOk = false;
+    bool inRange = inQuietHours(from, to, clockOk);
+    if (!clockOk) {
+      Serial.println("[selfupdate] postpone: NTP未同期で時刻が信用できない");
+      return;
+    }
+    if (!inRange) {
+      Serial.printf("[selfupdate] postpone: quietHours %d-%d時の外\n", from, to);
+      return;
+    }
+  }
+
+  Serial.printf("[selfupdate] start: v%d -> v%d (%u bytes)\n", FW_VERSION, newVer, (unsigned)size);
+
+  // 書き込み中は描画も playlist取得も止まる (数十秒)。失敗しても現行のまま動き続ける。
+  NetworkClientSecure client;
+  HTTPClient http;
+  http.setTimeout(20000);
+  String burl = String(binUrl);
+  bool begun;
+  if (burl.startsWith("https")) {
+    client.setInsecure();   // httpGetString と同じ方針 (MD5で中身は検証する)
+    begun = http.begin(client, burl);
+  } else {
+    begun = http.begin(burl);
+  }
+  if (!begun) { Serial.println("[selfupdate] http begin failed"); return; }
+
+  int bcode = http.GET();
+  if (bcode != 200) {
+    Serial.printf("[selfupdate] bin fetch failed (%d)\n", bcode);
+    http.end();
+    return;
+  }
+  int len = http.getSize();
+  if (len > 0 && (size_t)len != size) {
+    Serial.printf("[selfupdate] size mismatch (manifest %u / server %d)\n", (unsigned)size, len);
+    http.end();
+    return;
+  }
+  if (!Update.begin(size)) {
+    Serial.printf("[selfupdate] Update.begin failed: %s\n", Update.errorString());
+    http.end();
+    return;
+  }
+  Update.setMD5(md5);   // 書き込み後に照合される。合わなければ end() が失敗する
+  size_t written = Update.writeStream(http.getStream());
+  if (written != size) {
+    Serial.printf("[selfupdate] write incomplete (%u/%u)\n", (unsigned)written, (unsigned)size);
+    Update.abort();
+    http.end();
+    return;
+  }
+  if (!Update.end(true)) {
+    Serial.printf("[selfupdate] verify failed: %s\n", Update.errorString());
+    http.end();
+    return;
+  }
+  http.end();
+  rtcUpdatedTo = newVer;
+  Serial.printf("[selfupdate] ok: v%d を書き込んだ。再起動する\n", newVer);
+  Serial.flush();
+  delay(200);
+  ESP.restart();
+}
+
 static unsigned long lastPlaylist = 0;
 static void fetchPlaylist() {
   if (strlen(PLAYLIST_URL) == 0) return;
@@ -374,6 +522,15 @@ static void fetchPlaylist() {
   }
   rebuildMarquee();
   Serial.println("[playlist] applied");
+
+  // fwPing (v0.7): チャット駆動の即時更新。playlist に自分より新しい番号が書かれていたら
+  // 6時間周期を待たずにその場でマニフェストを見に行く。人間の明示的な指示なので
+  // quietHours は無視する。実際に更新するかどうかの判断は selfUpdateCheck 側。
+  if (doc["fwPing"].is<int>() && (int)doc["fwPing"] > FW_VERSION) {
+    Serial.printf("[selfupdate] fwPing=%d (running v%d) → 即時確認\n",
+                  (int)doc["fwPing"], FW_VERSION);
+    selfUpdateCheck(true);
+  }
 }
 
 // 上段: 営業中/時計 交互
@@ -464,6 +621,16 @@ void loop() {
   if (lastPlaylist == 0 || ms - lastPlaylist > PLAYLIST_INTERVAL_MS) {
     lastPlaylist = ms;
     fetchPlaylist();
+  }
+
+  // 自己アップデート (v0.7): 起動60秒後に初回、以後 SELFUPDATE_INTERVAL_MS ごと。
+  // 起動直後を避けるのは、WiFi接続とNTP同期が済むのを待つため。
+  static unsigned long lastSelfUpdate = 0;
+  if (lastSelfUpdate == 0) {
+    if (ms > 60000) { lastSelfUpdate = ms; selfUpdateCheck(false); }
+  } else if (ms - lastSelfUpdate > SELFUPDATE_INTERVAL_MS) {
+    lastSelfUpdate = ms;
+    selfUpdateCheck(false);
   }
 
   // ドット絵モード (v0.5 / holdMs は v2.1先行)。文字は出さず、画をパネル中央に置く。
