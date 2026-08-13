@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-13T06:52:14.831Z",
+ "updatedAt": "2026-08-13T08:09:32.626Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "ロシア プーチン大統領 北方領土初めて訪問",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43566",
-     "pubDate": "Thu, 13 Aug 2026 15:07:28 +0900"
+     "title": "東京 練馬区にレベル４ 大雨危険警報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43663",
+     "pubDate": "Thu, 13 Aug 2026 16:40:00 +0900"
     },
     {
-     "title": "【ライブ配信中】大気不安定 関東など非常に激しい雨のおそれ",
+     "title": "ロシア プーチン大統領 北方領土初めて訪問",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43566",
+     "pubDate": "Thu, 13 Aug 2026 17:03:06 +0900"
+    },
+    {
+     "title": "【ライブ配信中】関東で非常に激しい雨 危険警報の地域も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43577",
      "pubDate": "Thu, 13 Aug 2026 12:00:00 +0900"
     },
     {
-     "title": "半蔵門線ホームでアスベスト 国交省が全国鉄道会社に点検要請",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43586",
-     "pubDate": "Thu, 13 Aug 2026 15:20:00 +0900"
-    },
-    {
      "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3662人避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43574",
-     "pubDate": "Thu, 13 Aug 2026 15:21:00 +0900"
+     "pubDate": "Thu, 13 Aug 2026 16:44:11 +0900"
     },
     {
-     "title": "高校野球 有明が長崎日大高に競り勝って3回戦進出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43615",
-     "pubDate": "Thu, 13 Aug 2026 15:07:55 +0900"
-    },
-    {
-     "title": "ニシキヘビ 体長2mの2匹 マンションから逃げ出す 川崎 多摩区",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43553",
-     "pubDate": "Thu, 13 Aug 2026 15:50:17 +0900"
+     "title": "長野 東御 親子3人殺傷 父親を再逮捕 母親から依頼受け殺害か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43653",
+     "pubDate": "Thu, 13 Aug 2026 16:59:47 +0900"
     },
     {
      "title": "台風17号 南鳥島近海を北東に進む 今後の情報に注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43523",
      "pubDate": "Thu, 13 Aug 2026 14:04:50 +0900"
+    },
+    {
+     "title": "睡眠薬入りの酒で現金など奪った疑い逮捕 容疑否認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43650",
+     "pubDate": "Thu, 13 Aug 2026 16:54:07 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "長野 東御 親子3人殺傷 父親を再逮捕 母親から依頼受け殺害か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43653",
+     "pubDate": "Thu, 13 Aug 2026 16:59:47 +0900"
+    },
+    {
+     "title": "睡眠薬入りの酒で現金など奪った疑い逮捕 容疑否認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43650",
+     "pubDate": "Thu, 13 Aug 2026 16:54:07 +0900"
+    },
+    {
+     "title": "東京 野川 仙川 善福寺川にレベル４氾濫危険警報 厳重警戒を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43656",
+     "pubDate": "Thu, 13 Aug 2026 16:14:00 +0900"
+    },
     {
      "title": "半蔵門線ホームでアスベスト 国交省が全国鉄道会社に点検要請",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43586",
@@ -72,7 +87,7 @@
     {
      "title": "ニシキヘビ 体長2mの2匹 マンションから逃げ出す 川崎 多摩区",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43553",
-     "pubDate": "Thu, 13 Aug 2026 15:50:17 +0900"
+     "pubDate": "Thu, 13 Aug 2026 16:43:45 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（8月13日）",
@@ -108,21 +123,6 @@
      "title": "違法スカウトG「ナチュラル」メンバー逮捕 スカウト中心人物か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43466",
      "pubDate": "Wed, 12 Aug 2026 18:57:52 +0900"
-    },
-    {
-     "title": "北海道 江別 強盗致死事件 1審で無期懲役判決の被告が控訴",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43457",
-     "pubDate": "Wed, 12 Aug 2026 18:30:15 +0900"
-    },
-    {
-     "title": "辺野古沖転覆事故 海保 船長所属団体の共同代表らの自宅を捜索",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43467",
-     "pubDate": "Wed, 12 Aug 2026 18:24:59 +0900"
-    },
-    {
-     "title": "希少トカゲ密輸疑いで逮捕 スーツケースにトカゲ200匹 警視庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43383",
-     "pubDate": "Wed, 12 Aug 2026 17:13:49 +0900"
     }
    ]
   },
@@ -156,7 +156,7 @@
     {
      "title": "ロシア プーチン大統領 北方領土初めて訪問",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43566",
-     "pubDate": "Thu, 13 Aug 2026 15:07:28 +0900"
+     "pubDate": "Thu, 13 Aug 2026 17:03:06 +0900"
     },
     {
      "title": "米ホワイトハウス レビット報道官が退任へ“ほろ苦い決断”",
@@ -231,34 +231,34 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "露大統領の択捉島訪問 茂木氏抗議",
-     "link": "https://news.yahoo.co.jp/pickup/6591572?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 04:29:51 GMT"
+     "title": "九州自動車道 14日朝に全線復旧",
+     "link": "https://news.yahoo.co.jp/pickup/6591591?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 07:33:24 GMT"
     },
     {
-     "title": "高市内閣の支持率は横ばい 時事",
-     "link": "https://news.yahoo.co.jp/pickup/6591584?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 06:49:57 GMT"
+     "title": "露大統領の択捉島訪問 元島民動揺",
+     "link": "https://news.yahoo.co.jp/pickup/6591585?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 07:13:00 GMT"
     },
     {
-     "title": "闇バイト応募で渡米 邦人男性保護",
-     "link": "https://news.yahoo.co.jp/pickup/6591577?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 04:58:58 GMT"
+     "title": "無人の農業運搬車にひかれ 死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6591587?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 07:40:21 GMT"
     },
     {
-     "title": "泳いで母を助けに 18歳遺体で発見",
-     "link": "https://news.yahoo.co.jp/pickup/6591581?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 05:57:21 GMT"
+     "title": "そごう 19年ぶり「本店」名称復活",
+     "link": "https://news.yahoo.co.jp/pickup/6591590?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 07:38:03 GMT"
     },
     {
-     "title": "芸能プロの佐藤企画 破産開始決定",
-     "link": "https://news.yahoo.co.jp/pickup/6591573?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 04:40:47 GMT"
+     "title": "一太郎転落 振り返る当時の担当者",
+     "link": "https://news.yahoo.co.jp/pickup/6591588?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 07:31:25 GMT"
     },
     {
-     "title": "新スペース・マウンテン 名称決定",
-     "link": "https://news.yahoo.co.jp/pickup/6591568?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 04:11:12 GMT"
+     "title": "結婚式に見知らぬ300人参加 中国",
+     "link": "https://news.yahoo.co.jp/pickup/6591549?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 02:33:31 GMT"
     },
     {
      "title": "大谷が痛恨の走塁死 併殺プレー",
