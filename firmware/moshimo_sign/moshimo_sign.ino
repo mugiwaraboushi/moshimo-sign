@@ -38,8 +38,16 @@
 #endif
 
 // frames (v0.5) も同様に、古い config.h でビルドが通るように既定値を用意する。
-#ifndef MAX_FRAMES
-#define MAX_FRAMES 8
+// v2.1先行対応で 8 → 24 に拡張した。holdMs による高速コマ送りは枚数を食うため。
+// MAX_FRAMES はRAM量で決まる実装上の上限であって設置場所ごとの設定ではないので、
+// 古い config.h に 8 が残っていても 24 に引き上げる (下げる方向の上書きだけ無視する)。
+#ifdef MAX_FRAMES
+#if MAX_FRAMES < 24
+#undef MAX_FRAMES
+#define MAX_FRAMES 24
+#endif
+#else
+#define MAX_FRAMES 24
 #endif
 
 // ドット絵は 64x32 固定 (prototypes/draw/ の s=1)。仕様は docs/playlist-spec.md を参照。
@@ -141,7 +149,12 @@ static void drawText(const uint16_t *cps, int n, int x, int y, uint16_t color) {
 // 1ドット1bitのモノクロ画像を描く。文字描画と並ぶもう一つの「描画の口」。
 // ビット順は prototypes/draw/ と同一: 左上から行優先、1バイト8ドット、MSBが左。
 // (x,y=左上)。パネル外はクリッピングする。
-static void drawBitmap(const uint8_t *bits, int w, int h, int x, int y, uint16_t color) {
+//
+// 点灯ドットだけでなく消灯ドットも黒で塗る (v2.1先行)。こうすると clearScreen() を
+// 挟まず1パスで前の絵を置き換えられる。clearScreen してから描くと、その隙間をDMAが
+// スキャンしたとき一瞬全消灯が見えるため。hold が秒単位なら気付かないが、holdMs で
+// 数十msまで詰めると瞬断としてはっきり出る。
+static void drawBitmapOpaque(const uint8_t *bits, int w, int h, int x, int y, uint16_t color) {
   for (int r = 0; r < h; r++) {
     int py = y + r;
     if (py < 0 || py >= PANEL_H) continue;
@@ -149,7 +162,8 @@ static void drawBitmap(const uint8_t *bits, int w, int h, int x, int y, uint16_t
       int px = x + c;
       if (px < 0 || px >= PANEL_W) continue;
       int i = r * w + c;
-      if ((bits[i >> 3] >> (7 - (i & 7))) & 1) display->drawPixel(px, py, color);
+      bool on = (bits[i >> 3] >> (7 - (i & 7))) & 1;
+      display->drawPixel(px, py, on ? color : 0);
     }
   }
 }
@@ -208,7 +222,7 @@ static DisplayMode plMode = MODE_DUAL;
 // frames: ドット絵の静止画 (v0.5)。hold秒ごとに次の絵へ切り替えて先頭に戻る
 static uint8_t plFrameData[MAX_FRAMES][FRAME_BYTES];
 static uint16_t plFrameColor[MAX_FRAMES];
-static uint8_t plFrameHold[MAX_FRAMES];   // 秒 (1-60)
+static uint16_t plFrameHoldMs[MAX_FRAMES];  // ミリ秒。hold(秒)もここへ1000倍して入れる
 static int plFrameCount = 0;
 static int frameIdx = 0;
 static unsigned long frameSince = 0;      // 0 = 未開始 (次の描画で現在時刻を入れる)
@@ -343,7 +357,14 @@ static void fetchPlaylist() {
         continue;
       }
       plFrameColor[n] = v["color"].is<const char*>() ? hexToColor565(v["color"]) : plColorTop;
-      plFrameHold[n]  = v["hold"].is<float>() ? constrain((int)(float)v["hold"], 1, 60) : 8;
+      // holdMs (ミリ秒) が指定されていればそちらを優先し、無ければ hold (秒) を使う。
+      // 下限20msは1コマ50fps相当。これより短い指定はパネルの走査が追いつかない。
+      if (v["holdMs"].is<float>())
+        plFrameHoldMs[n] = constrain((int)(float)v["holdMs"], 20, 60000);
+      else if (v["hold"].is<float>())
+        plFrameHoldMs[n] = constrain((int)(float)v["hold"], 1, 60) * 1000;
+      else
+        plFrameHoldMs[n] = 8000;
       n++;
     }
     plFrameCount = n;
@@ -445,33 +466,40 @@ void loop() {
     fetchPlaylist();
   }
 
-  // フレーム描画 (約30fps)
+  // ドット絵モード (v0.5 / holdMs は v2.1先行)。文字は出さず、画をパネル中央に置く。
+  // frames が0枚のときは黒画面にせず下の2段表示にフォールバックする。
+  //
+  // 下の「約30fps」の間引きより前に置いてある。間引いた後だと切り替え判定が33ms刻みに
+  // 量子化され、holdMs:52 のような指定が 66ms (33の倍数) に丸められて本来の速さで
+  // 動かなくなるため。ここは自前で「絵が変わったときだけ描く」ので毎回通っても軽い。
+  if (plMode == MODE_FRAMES && plFrameCount > 0) {
+    if (frameSince == 0) frameSince = ms;
+    // 溜まった遅れぶんコマを進める。1周分を超えたら追いつくのを諦めて現在時刻に合わせる
+    // (WiFi取得などで数百ms止まったあと、早送りで一気に流れるのを防ぐ)。
+    unsigned int guard = 0;
+    while (ms - frameSince >= (unsigned long)plFrameHoldMs[frameIdx]) {
+      frameSince += plFrameHoldMs[frameIdx];
+      frameIdx = (frameIdx + 1) % plFrameCount;
+      if (++guard >= (unsigned int)plFrameCount) { frameSince = ms; break; }
+    }
+    // 絵が変わったときだけ描く。消灯ドットも塗る版を使うので clearScreen は挟まない
+    // (挟むと高速なコマ送りで瞬断が見える)。
+    if (drawnFrame != frameIdx) {
+      drawnFrame = frameIdx;
+      drawBitmapOpaque(plFrameData[frameIdx], FRAME_W, FRAME_H,
+                       (PANEL_W - FRAME_W) / 2, (PANEL_H - FRAME_H) / 2,
+                       plFrameColor[frameIdx]);
+    }
+    return;
+  }
+  drawnFrame = -1;  // 文字表示に戻った = パネルの内容が流れるので、次回frames時は描き直す
+
+  // 文字表示のフレーム描画 (約30fps)
   static unsigned long lastFrame = 0;
   if (ms - lastFrame < 33) return;
   float dt = (ms - lastFrame) / 1000.0f;
   if (dt > 0.1f) dt = 0.1f;
   lastFrame = ms;
-
-  // ドット絵モード (v0.5)。文字は出さず、画をパネル中央に置く。
-  // frames が0枚のときは黒画面にせず下の2段表示にフォールバックする。
-  if (plMode == MODE_FRAMES && plFrameCount > 0) {
-    if (frameSince == 0) frameSince = ms;
-    if (ms - frameSince >= (unsigned long)plFrameHold[frameIdx] * 1000UL) {
-      frameSince = ms;
-      frameIdx = (frameIdx + 1) % plFrameCount;
-    }
-    // 静止画なので絵が変わったときだけ描く。毎フレーム消して描き直すと
-    // DMAがスキャン中のバッファを触り続けることになり、ちらつきの原因になる。
-    if (drawnFrame != frameIdx) {
-      drawnFrame = frameIdx;
-      display->clearScreen();
-      drawBitmap(plFrameData[frameIdx], FRAME_W, FRAME_H,
-                 (PANEL_W - FRAME_W) / 2, (PANEL_H - FRAME_H) / 2,
-                 plFrameColor[frameIdx]);
-    }
-    return;
-  }
-  drawnFrame = -1;  // 文字表示に戻った = パネルの内容が流れるので、次回frames時は描き直す
 
   scrollX -= plSpeed * dt;
   if (scrollX < -marqueeW) scrollX = PANEL_W;

@@ -60,6 +60,7 @@
 | `frames[].d` | string | 64×32のドット絵。base64url **342文字固定** | 必須 |
 | `frames[].color` | string | 発光色。RGB 16進6桁 (`colorTop` と同じ形式) | `colorTop` の値 |
 | `frames[].hold` | number | 表示秒数 (1〜60) | `8` |
+| `frames[].holdMs` | number | 表示時間をミリ秒で指定 (20〜60000)。**`hold` より優先**。コマ送り用 (v2.1先行) | — |
 
 #### 描いた絵を載せる手順
 

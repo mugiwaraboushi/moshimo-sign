@@ -31,9 +31,10 @@
 #define PLAYLIST_INTERVAL_MS 60000
 #define MAX_PLAYLIST_MSGS 10
 
-// ---- ドット絵 frames (v0.5) ----
-// 1枚あたり256バイトをRAMに常駐させる (8枚で2KB)
-#define MAX_FRAMES 8
+// ---- ドット絵 frames (v0.5 / holdMs は v2.1先行) ----
+// 1枚あたり256バイトをRAMに常駐させる (24枚で6KB)
+// 24未満を指定しても .ino 側で24に引き上げられる (holdMsのコマ送りに枚数が要るため)
+#define MAX_FRAMES 24
 
 // ---- 表示内容 ----
 #define TOP_MESSAGE "営業中"
