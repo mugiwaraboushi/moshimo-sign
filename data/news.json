@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-13T20:26:25.443Z",
+ "updatedAt": "2026-08-13T21:11:07.279Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,27 +10,27 @@
     {
      "title": "千葉県内の大雨特別警報を危険警報などに切り替え【詳しく】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
-     "pubDate": "Fri, 14 Aug 2026 05:23:36 +0900"
+     "pubDate": "Fri, 14 Aug 2026 05:59:02 +0900"
     },
     {
-     "title": "【大雨被害】市川市 八千代市 2人死亡確認",
+     "title": "千葉 佐倉 タクシーが水没 車内の女性１人が意識がない状態",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43970",
+     "pubDate": "Fri, 14 Aug 2026 06:07:24 +0900"
+    },
+    {
+     "title": "【大雨被害】千葉 記録的大雨 2人が死亡 1人が心肺停止",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43748",
-     "pubDate": "Fri, 14 Aug 2026 05:00:53 +0900"
+     "pubDate": "Fri, 14 Aug 2026 05:55:23 +0900"
     },
     {
-     "title": "千葉県 レベル5の大雨と土砂災害の特別警報 命助かる行動を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43577",
-     "pubDate": "Fri, 14 Aug 2026 05:07:58 +0900"
-    },
-    {
-     "title": "成田空港 ターミナルに約6600人滞留 電車やバス運休で",
+     "title": "成田空港 ターミナルに約7000人滞留 大雨による電車バス運休で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43941",
-     "pubDate": "Fri, 14 Aug 2026 04:16:00 +0900"
+     "pubDate": "Fri, 14 Aug 2026 06:03:34 +0900"
     },
     {
-     "title": "【大雨】千葉県・千葉市・船橋市 帰宅困難者向けに施設を開放",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43764",
-     "pubDate": "Fri, 14 Aug 2026 04:54:50 +0900"
+     "title": "【大雨 交通影響】首都圏 JRや私鉄の運転予定は（14日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43937",
+     "pubDate": "Fri, 14 Aug 2026 05:46:02 +0900"
     },
     {
      "title": "【動画】千葉 大雨 被害の様子",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "熊本地震 宇城と氷川町 学童保育の約6割 再開のめど立たず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43860",
+     "pubDate": "Fri, 14 Aug 2026 05:26:00 +0900"
+    },
     {
      "title": "東京地検 新検事正に松下裕子氏が就任「役割を全うする」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43698",
@@ -118,11 +123,6 @@
      "title": "地震で被害受けた熊本城 一般公開が再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43578",
      "pubDate": "Thu, 13 Aug 2026 12:22:00 +0900"
-    },
-    {
-     "title": "“逃走”ニシキヘビ 見つからず 夜も警戒続ける 川崎 多摩区",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43553",
-     "pubDate": "Thu, 13 Aug 2026 18:36:59 +0900"
     }
    ]
   },
@@ -241,24 +241,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "千葉県の大雨特別警報 エリア拡大",
-     "link": "https://news.yahoo.co.jp/pickup/6591641?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 15:00:11 GMT"
+     "title": "千葉県の特別警報 危険警報に切替",
+     "link": "https://news.yahoo.co.jp/pickup/6591650?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 20:42:44 GMT"
     },
     {
-     "title": "千葉県に土砂災害特別警報",
-     "link": "https://news.yahoo.co.jp/pickup/6591642?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 15:07:54 GMT"
+     "title": "危険な雨 土砂災害など終日警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6591649?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 20:29:37 GMT"
     },
     {
-     "title": "安全確保を 大雨のときのNG行動",
-     "link": "https://news.yahoo.co.jp/pickup/6589507?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 10:41:24 GMT"
-    },
-    {
-     "title": "千葉県に大雨特別警報 最新情報",
-     "link": "https://news.yahoo.co.jp/pickup/6591623?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 12:12:09 GMT"
+     "title": "千葉県に大雨 最新情報まとめ",
+     "link": "https://news.yahoo.co.jp/pickup/6591651?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 20:51:47 GMT"
     },
     {
      "title": "千葉県内のJR各線 始発から運休",
