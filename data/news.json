@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-13T17:25:22.443Z",
+ "updatedAt": "2026-08-13T18:13:52.056Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,37 +10,37 @@
     {
      "title": "千葉県内22自治体に大雨特別警報 気象庁と国交省会見【詳細】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
-     "pubDate": "Fri, 14 Aug 2026 00:40:44 +0900"
+     "pubDate": "Fri, 14 Aug 2026 02:48:47 +0900"
     },
     {
      "title": "【大雨被害】市川の冠水道路で見つかった男性 死亡確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43748",
-     "pubDate": "Fri, 14 Aug 2026 00:18:22 +0900"
-    },
-    {
-     "title": "千葉県北西部・北東部に線状降水帯発生 災害危険度高まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43930",
-     "pubDate": "Fri, 14 Aug 2026 02:18:00 +0900"
+     "pubDate": "Fri, 14 Aug 2026 02:46:46 +0900"
     },
     {
      "title": "千葉県 レベル5の大雨と土砂災害の特別警報 命助かる行動を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43577",
-     "pubDate": "Fri, 14 Aug 2026 01:51:56 +0900"
+     "pubDate": "Fri, 14 Aug 2026 02:38:58 +0900"
     },
     {
-     "title": "【動画】走行中のバスの車内に水が入り込む 千葉 松戸",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43851",
-     "pubDate": "Thu, 13 Aug 2026 22:38:07 +0900"
+     "title": "【動画】千葉 大雨 被害の様子",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43880",
+     "pubDate": "Fri, 14 Aug 2026 02:42:20 +0900"
     },
     {
-     "title": "【動画】千葉 市川でバス立往生（午後6時前）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43852",
-     "pubDate": "Thu, 13 Aug 2026 23:01:59 +0900"
+     "title": "【気象予報士解説】千葉 レベル5大雨特別警報 今後の見通しは",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43818",
+     "pubDate": "Thu, 13 Aug 2026 21:32:45 +0900"
     },
     {
-     "title": "【動画】千葉市中央区で道路から水吹き上がる（午後7時ごろ）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43816",
-     "pubDate": "Thu, 13 Aug 2026 21:41:00 +0900"
+     "title": "【大雨】専門家「内水氾濫が発生 夜間は危険な状態続く」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43868",
+     "pubDate": "Fri, 14 Aug 2026 02:25:50 +0900"
+    },
+    {
+     "title": "【大雨】避難情報まとめ 総務省消防庁（0：00）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43831",
+     "pubDate": "Thu, 13 Aug 2026 21:48:00 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "東京地検 新検事正に松下裕子氏が就任「役割を全うする」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43698",
+     "pubDate": "Fri, 14 Aug 2026 02:24:52 +0900"
+    },
     {
      "title": "横浜市長 重大パワハラ認定受け市議会で謝罪 給与削減の意向",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43701",
@@ -118,11 +123,6 @@
      "title": "“逃走”ニシキヘビ 見つからず 夜も警戒続ける 川崎 多摩区",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43553",
      "pubDate": "Thu, 13 Aug 2026 18:36:59 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（8月13日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43502",
-     "pubDate": "Thu, 13 Aug 2026 20:00:08 +0900"
     }
    ]
   },
@@ -266,9 +266,9 @@
      "pubDate": "Thu, 13 Aug 2026 13:46:07 GMT"
     },
     {
-     "title": "冠水道路に浮いた男性 死亡を確認",
-     "link": "https://news.yahoo.co.jp/pickup/6591638?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 13:59:28 GMT"
+     "title": "千葉県で大雨 1人死亡1人心肺停止",
+     "link": "https://news.yahoo.co.jp/pickup/6591645?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 17:25:46 GMT"
     },
     {
      "title": "千葉大雨 帰宅時間の駅前に長い列",
