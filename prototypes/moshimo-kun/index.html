@@ -32,6 +32,9 @@
   .row input[type=range] { flex:1; min-width:0; accent-color:var(--accent); height:26px; }
   .hint { font-size:10px; color:#5b626b; margin:0 2px 6px; padding-left:calc(6em + 10px); }
   .note { font-size:10px; color:#5b626b; line-height:1.7; margin-top:8px; }
+  .grp { font-size:11px; color:var(--accent); letter-spacing:.12em; margin:14px 2px 2px;
+    border-bottom:1px solid #22262c; padding-bottom:4px; }
+  .grp:first-child { margin-top:2px; }
   .foot { font-size:10px; color:#4b525b; line-height:1.7; margin-top:22px; }
 </style>
 </head>
@@ -148,10 +151,12 @@ function tubeDist(x, y, a, b){
 // box = {x,y,w,h}   fade: 0=全部いる 1=ほどけて消えた
 function drawChar(fb, ch, box0, t, seed, opt={}){
   const C = CHARS[ch];
-  const sc = C.scale || 1;                                 // 字ごとの大きさ（足元をそろえる）
-  const box = sc === 1 ? box0 : { x: box0.x + box0.w*(1-sc)/2, y: box0.y + box0.h*(1-sc),
-                                  w: box0.w*sc, h: box0.h*sc };
-  const base = box.h * 0.092 * (C.fat || 1) * ST.fat * (opt.bold || 1);
+  const sc = (C.scale || 1);                               // 字ごとの大きさ
+  // おおきさ・よこはばは真ん中を基準に伸び縮みさせる（大きくしても顔が画面に残るように）
+  const fx = sc * ST.size * ST.wide, fy = sc * ST.size;
+  const cx0 = box0.x + box0.w/2, cy0 = box0.y + box0.h/2, base0 = box0.y + box0.h;
+  const box = { x: cx0 - box0.w*fx/2, y: cy0 - box0.h*fy/2, w: box0.w*fx, h: box0.h*fy };
+  const base = box0.h * 0.092 * (C.fat || 1) * ST.fat * ST.size * (opt.bold || 1);
   const tubes = [];                                        // [ax,ay,ar]→[bx,by,br]
   let x0 = W, x1 = 0, y0 = H, y1 = 0;
   for (let si=0; si<C.strokes.length; si++){
@@ -162,8 +167,13 @@ function drawChar(fb, ch, box0, t, seed, opt={}){
       const s = i/N, q = bez(st.p, s);
       const f = s*3, k = Math.min(2, Math.floor(f));
       let taper = pr[k] + (pr[k+1]-pr[k])*(f-k);
-      if (si === 0) taper *= 1 + (ST.belly - 1) * s;        // 下に行くほど太らせる（したぶくれ）
-      const pt = [box.x + q[0]*box.w, box.y + q[1]*box.h, Math.max(1.1, base*st.r*taper)];
+      if (si === 0){
+        taper *= 1 + (ST.belly - 1) * s;                    // 下に行くほど太らせる（したぶくれ）
+        taper *= 1 + (ST.head - 1) * Math.max(0, 1 - s*3);  // 頭のほうだけ太らせる（あたま）
+      }
+      const py = box.y + q[1]*box.h;
+      const lean = (base0 - py) * ST.tilt * 0.30;           // 上ほど横にずれる（かたむき）
+      const pt = [box.x + q[0]*box.w + lean, py, Math.max(1.1, base*st.r*taper)];
       if (prev) tubes.push([prev, pt]);
       prev = pt;
       x0 = Math.min(x0, pt[0]-pt[2]-2); x1 = Math.max(x1, pt[0]+pt[2]+2);
@@ -177,19 +187,23 @@ function drawChar(fb, ch, box0, t, seed, opt={}){
       let acc = 0;
       for (const tb of tubes) acc += Math.exp(-K * tubeDist(x, y, tb[0], tb[1]));
       const d = -Math.log(acc) / K;                         // やわらかい合成距離
-      const wob = ST.wob * (C.wobMul || 1) * (0.62*Math.sin(x*0.50 + t*1.00 + seed)     // 輪郭のうねり
-                + 0.46*Math.sin(y*0.58 - t*0.80 + seed*2.1)
-                + 0.34*Math.sin((x+y)*0.33 + t*1.30 + seed*0.6));
+      const F = ST.wobFrq, S = ST.wobSpd;
+      let wob = ST.wob * (C.wobMul || 1) * (0.62*Math.sin(x*0.50*F + t*1.00*S + seed)   // 輪郭のうねり
+                + 0.46*Math.sin(y*0.58*F - t*0.80*S + seed*2.1)
+                + 0.34*Math.sin((x+y)*0.33*F + t*1.30*S + seed*0.6));
+      if (ST.melt) wob += ST.melt * 3 * Math.max(0, (y - box.y) / box.h - 0.35);   // 下半身がふやける
       if (d > wob) continue;
       if (fade > 0){
         const k = rnd(x,y);
         if (k < fade){ if (k > fade-0.07) px(fb,x,y,3); continue; }  // ほどけた粒
       }
+      if (ST.grain && d > -1.6 - ST.grain && rnd(x*1.7, y*2.3) < ST.grain) continue;  // 縁がまばらに欠ける
       px(fb,x,y,1);
     }
   }
-  return { ex: box.x + C.eye[0]*box.w, ey: box.y + C.eye[1]*box.h + ST.eyeY,
-           sp: Math.max(0, (C.eyeSpread || 3) + ST.eyeSp) };
+  const eyeY = box.y + C.eye[1]*box.h + ST.eyeY;
+  return { ex: box.x + C.eye[0]*box.w + (base0 - eyeY) * ST.tilt * 0.30,   // 体と同じだけ傾ける
+           ey: eyeY, sp: Math.max(0, (C.eyeSpread || 3) + ST.eyeSp) };
 }
 // 目は白い点2つ。まばたきで1ドットの線になる。
 function eyes(fb, a, opt={}){
@@ -202,11 +216,13 @@ function eyes(fb, a, opt={}){
     }
     px(fb,X,Y,2);
   };
-  const s = a.sp || 3, cols = [-s-1, -s, s, s+1];
-  if (opt.blink){ for (const dx of cols) put(x+dx, y); }
-  else for (const dy of [0,1]) for (const dx of cols) put(x+dx, y-1+dy);
+  const s = a.sp || 3, n = Math.max(1, Math.round(ST.eyeSz));   // 目の一辺のドット数
+  const cols = [];
+  for (let i=0;i<n;i++){ cols.push(-s-i); cols.push(s+i); }
+  const rows = opt.blink ? [0] : Array.from({length:n}, (_,i) => -i);
+  for (const dy of rows) for (const dx of cols) put(x+dx, y+dy);
 }
-const blinking = (t, seed) => ((t*0.9 + seed*3.3) % 4.1) < 0.14;
+const blinking = (t, seed) => ST.blink > 0 && ((t*0.9*ST.blink + seed*3.3) % 4.1) < 0.14;
 const ease = p => p<0 ? 0 : p>1 ? 1 : p*p*(3-2*p);
 
 // ===================== 小道具 =====================
@@ -368,12 +384,26 @@ let autoPlay = q.get("auto") === "1";
 
 // ステータス（この6つでもしもくんの体つきが決まる。URLに入るので、いじった形はそのまま共有できる）
 const STATUS = [
-  { key:"fat",   label:"たいじゅう",   min:0.75, max:1.60, step:0.05, def:1,    hint:"体ぜんぶの太さ" },
-  { key:"belly", label:"したぶくれ",   min:0.70, max:1.60, step:0.05, def:1,    hint:"下に行くほどの太り方" },
-  { key:"joint", label:"つなぎめ",     min:0.60, max:2.00, step:0.05, def:1.15, hint:"小さいほど、ぷにっと繋がる" },
-  { key:"wob",   label:"ゆらぎ",       min:0,    max:2.00, step:0.10, def:1,    hint:"輪郭のうねりの大きさ" },
-  { key:"eyeSp", label:"目のかんかく", min:-1,   max:3,    step:1,    def:0,    hint:"＋で離れる（ドット）" },
-  { key:"eyeY",  label:"目のたかさ",   min:-3,   max:3,    step:1,    def:0,    hint:"＋で下がる（ドット）" },
+  { g:"からだ", key:"size",  label:"おおきさ",   min:0.40, max:1.80, step:0.05, def:1,    hint:"背の高さ。真ん中を基準に伸び縮みする" },
+  { g:"からだ", key:"wide",  label:"よこはば",   min:0.40, max:2.20, step:0.05, def:1,    hint:"小さいとひょろ長く、大きいとぺちゃんこ" },
+  { g:"からだ", key:"fat",   label:"たいじゅう", min:0.30, max:2.60, step:0.05, def:1,    hint:"体ぜんぶの太さ" },
+  { g:"からだ", key:"belly", label:"したぶくれ", min:0.20, max:2.40, step:0.05, def:1,    hint:"下に行くほどの太り方" },
+  { g:"からだ", key:"head",  label:"あたま",     min:0.30, max:2.60, step:0.05, def:1,    hint:"頭だけの大きさ。上げると頭でっかち" },
+  { g:"からだ", key:"tilt",  label:"かたむき",   min:-1.2, max:1.2,  step:0.05, def:0,    hint:"上ほど横にずれる。風に流されている感じ" },
+  { g:"からだ", key:"joint", label:"つなぎめ",   min:0.25, max:3.50, step:0.05, def:1.15, hint:"小さいほど、ぷにっと繋がる" },
+  { g:"からだ", key:"melt",  label:"とけぐあい", min:0,    max:2.00, step:0.05, def:0,    hint:"下半身がふやけて広がる" },
+
+  { g:"かお",   key:"eyeSp", label:"目のかんかく", min:-2, max:8,    step:1,    def:0,    hint:"＋で離れる（ドット）" },
+  { g:"かお",   key:"eyeY",  label:"目のたかさ",   min:-8, max:8,    step:1,    def:0,    hint:"＋で下がる（ドット）" },
+  { g:"かお",   key:"eyeSz", label:"目のおおきさ", min:1,  max:4,    step:1,    def:2,    hint:"1ドット〜4ドット四方" },
+  { g:"かお",   key:"blink", label:"まばたき",     min:0,  max:3.00, step:0.10, def:1,    hint:"0でしなくなる。上げるとせわしない" },
+
+  { g:"ゆれ",   key:"wob",   label:"ゆらぎ",     min:0,    max:5.00, step:0.10, def:1,    hint:"輪郭のうねりの大きさ" },
+  { g:"ゆれ",   key:"wobSpd",label:"ゆれのはやさ", min:0,  max:4.00, step:0.10, def:1,    hint:"0で止まる（置物になる）" },
+  { g:"ゆれ",   key:"wobFrq",label:"ゆれのこまかさ", min:0.20, max:4.00, step:0.05, def:1, hint:"大きいとギザギザ、小さいと大きなうねり" },
+
+  { g:"みため", key:"glow",  label:"にじみ",     min:0,    max:2.00, step:0.05, def:1,    hint:"LEDのにじみ具合" },
+  { g:"みため", key:"grain", label:"つぶだち",   min:0,    max:1.00, step:0.05, def:0,    hint:"縁のドットがまばらに欠ける" },
 ];
 const ST = {};
 for (const s of STATUS){
@@ -401,7 +431,7 @@ function paint(t){
     for (let y=0;y<H;y++) for (let x=0;x<W;x++){
       const v = fb[y*W+x]; if (!v) continue;
       ctx.fillStyle = col(v);
-      ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*(pass?.38:.62), 0, 7); ctx.fill();
+      ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*(pass ? .38 : (0.30 + 0.32*ST.glow)), 0, 7); ctx.fill();
     }
   }
   ctx.globalAlpha = 1;
@@ -430,7 +460,13 @@ const fmtVal = (s,v) => s.step >= 1 ? (v > 0 ? "+" + v : String(v)) : v.toFixed(
 function buildStatus(){
   const el = document.getElementById("status");
   el.innerHTML = "";
+  let group = "";
   for (const s of STATUS){
+    if (s.g && s.g !== group){                    // からだ／かお／ゆれ／みため の見出し
+      group = s.g;
+      const gh = document.createElement("div"); gh.className = "grp"; gh.textContent = group;
+      el.appendChild(gh);
+    }
     const row = document.createElement("div"); row.className = "row";
     const nm = document.createElement("span"); nm.className = "nm"; nm.textContent = s.label;
     const inp = document.createElement("input");
