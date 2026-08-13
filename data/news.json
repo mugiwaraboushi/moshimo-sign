@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-13T00:04:11.541Z",
+ "updatedAt": "2026-08-13T03:04:37.234Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【地震速報】熊本県・鹿児島県で震度3 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43555",
-     "pubDate": "Thu, 13 Aug 2026 08:59:00 +0900"
+     "title": "東北から近畿 大気不安定 関東など非常に激しい雨のおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43577",
+     "pubDate": "Thu, 13 Aug 2026 12:00:55 +0900"
     },
     {
-     "title": "台風17号 北寄りに進む見込み 進路予報に幅 今後の情報に注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43523",
-     "pubDate": "Thu, 13 Aug 2026 07:26:20 +0900"
+     "title": "ニシキヘビ 体長2mの2匹 マンションから逃げ出す 川崎 多摩区",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43553",
+     "pubDate": "Thu, 13 Aug 2026 11:56:42 +0900"
+    },
+    {
+     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3662人避難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43574",
+     "pubDate": "Thu, 13 Aug 2026 11:44:19 +0900"
     },
     {
      "title": "熊本 地震活動が依然活発 きょうも厳しい暑さに 熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43525",
-     "pubDate": "Thu, 13 Aug 2026 07:08:48 +0900"
+     "pubDate": "Thu, 13 Aug 2026 12:03:32 +0900"
     },
     {
-     "title": "国旗損壊処罰法 きょう施行",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43520",
-     "pubDate": "Thu, 13 Aug 2026 05:12:33 +0900"
+     "title": "米ホワイトハウス レビット報道官が退任へ“ほろ苦い決断”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43565",
+     "pubDate": "Thu, 13 Aug 2026 10:40:00 +0900"
     },
     {
-     "title": "体長約2mのニシキヘビ2匹 マンションから逃げ出す 川崎 多摩区",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43553",
-     "pubDate": "Thu, 13 Aug 2026 08:49:04 +0900"
+     "title": "7月企業物価 7.2％上昇 高い水準続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43559",
+     "pubDate": "Thu, 13 Aug 2026 10:21:00 +0900"
     },
     {
-     "title": "IEA 石油供給量見通しを下方修正 ホルムズ海峡再開見通せず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43546",
-     "pubDate": "Thu, 13 Aug 2026 07:19:04 +0900"
-    },
-    {
-     "title": "検事の取り調べ映像 高等検察庁でチェックの取り組み開始",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43524",
-     "pubDate": "Thu, 13 Aug 2026 05:36:00 +0900"
+     "title": "米国務省“出産ツーリズム”防止専門チーム立ち上げ対策強化へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43554",
+     "pubDate": "Thu, 13 Aug 2026 09:56:00 +0900"
     }
    ]
   },
@@ -50,19 +50,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "体長約2mのニシキヘビ2匹 マンションから逃げ出す 川崎 多摩区",
+     "title": "ニシキヘビ 体長2mの2匹 マンションから逃げ出す 川崎 多摩区",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43553",
-     "pubDate": "Thu, 13 Aug 2026 08:49:04 +0900"
+     "pubDate": "Thu, 13 Aug 2026 11:56:42 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（8月13日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43502",
-     "pubDate": "Thu, 13 Aug 2026 07:02:53 +0900"
+     "pubDate": "Thu, 13 Aug 2026 10:23:16 +0900"
     },
     {
      "title": "熊本 地震活動が依然活発 きょうも厳しい暑さに 熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43525",
-     "pubDate": "Thu, 13 Aug 2026 07:08:48 +0900"
+     "pubDate": "Thu, 13 Aug 2026 12:03:32 +0900"
     },
     {
      "title": "検事の取り調べ映像 高等検察庁でチェックの取り組み開始",
@@ -72,7 +72,7 @@
     {
      "title": "台風17号 北寄りに進む見込み 進路予報に幅 今後の情報に注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43523",
-     "pubDate": "Thu, 13 Aug 2026 07:26:20 +0900"
+     "pubDate": "Thu, 13 Aug 2026 11:30:55 +0900"
     },
     {
      "title": "熱中症搬送者数 8月9日までの1週間で7600人余 熊本も200人近く",
@@ -149,9 +149,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米ホワイトハウス レビット報道官が退任へ“ほろ苦い決断”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43565",
+     "pubDate": "Thu, 13 Aug 2026 10:40:00 +0900"
+    },
+    {
+     "title": "米国務省“出産ツーリズム”防止専門チーム立ち上げ対策強化へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43554",
+     "pubDate": "Thu, 13 Aug 2026 09:56:00 +0900"
+    },
+    {
+     "title": "欧州で27年ぶり スペインなど皆既日食 フランスなどは部分日食",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43530",
+     "pubDate": "Thu, 13 Aug 2026 09:51:00 +0900"
+    },
+    {
      "title": "コロンビア地震 死者265人に 72時間を前に救助活動続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43549",
-     "pubDate": "Thu, 13 Aug 2026 08:40:21 +0900"
+     "pubDate": "Thu, 13 Aug 2026 08:40:00 +0900"
     },
     {
      "title": "IEA 石油供給量見通しを下方修正 ホルムズ海峡再開見通せず",
@@ -161,7 +176,7 @@
     {
      "title": "米 トランプ大統領 優位な立場を改めて主張も 先行きは不透明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43527",
-     "pubDate": "Thu, 13 Aug 2026 07:17:37 +0900"
+     "pubDate": "Thu, 13 Aug 2026 07:17:00 +0900"
     },
     {
      "title": "ドイツ 情報機関の権限を大幅に強化する法案を閣議決定",
@@ -207,21 +222,6 @@
      "title": "韓国 旧統一教会元幹部ら在宅起訴 政治家130人余に違法献金か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43478",
      "pubDate": "Wed, 12 Aug 2026 19:08:00 +0900"
-    },
-    {
-     "title": "中国から輸出された新車 2か月連続で100万台超 EV需要高く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43473",
-     "pubDate": "Wed, 12 Aug 2026 18:55:32 +0900"
-    },
-    {
-     "title": "円相場 値下がり 中東情勢の先行きへの不透明感から",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43477",
-     "pubDate": "Wed, 12 Aug 2026 18:26:01 +0900"
-    },
-    {
-     "title": "全日空 国際線の燃油サーチャージ引き下げへ 9月発券分から",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43465",
-     "pubDate": "Wed, 12 Aug 2026 17:53:53 +0900"
     }
    ]
   },
@@ -231,24 +231,29 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "国旗損壊 捜査幹部から懸念の声も",
-     "link": "https://news.yahoo.co.jp/pickup/6591524?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 23:27:06 GMT"
+     "title": "被爆した父 体内のガラス時々出た",
+     "link": "https://news.yahoo.co.jp/pickup/6591548?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 02:43:28 GMT"
     },
     {
-     "title": "猛暑常態化 工事の「夏季休工」増",
-     "link": "https://news.yahoo.co.jp/pickup/6591517?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 22:26:46 GMT"
+     "title": "相互関税還付 米で日本企業を提訴",
+     "link": "https://news.yahoo.co.jp/pickup/6591541?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 02:36:32 GMT"
     },
     {
-     "title": "米大統領報道官が今月で辞任 発表",
-     "link": "https://news.yahoo.co.jp/pickup/6591519?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 22:50:02 GMT"
+     "title": "バブル・氷河期・Z 各世代の働く",
+     "link": "https://news.yahoo.co.jp/pickup/6591554?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 02:36:06 GMT"
     },
     {
-     "title": "特急列車 車との衝突気付かず走行",
-     "link": "https://news.yahoo.co.jp/pickup/6591508?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 21:12:01 GMT"
+     "title": "9億円相当の覚醒剤密輸疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6591543?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 02:18:48 GMT"
+    },
+    {
+     "title": "流星群の観測ツアー参加者 滑落か",
+     "link": "https://news.yahoo.co.jp/pickup/6591550?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 02:41:29 GMT"
     },
     {
      "title": "高密度の金含む鉱石 相次ぎ発見",
@@ -256,19 +261,14 @@
      "pubDate": "Wed, 12 Aug 2026 23:15:03 GMT"
     },
     {
-     "title": "阿波おどり「性的」動画 不安の声",
-     "link": "https://news.yahoo.co.jp/pickup/6591513?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 21:54:02 GMT"
+     "title": "レイカーズ売却報道 ド軍監督驚き",
+     "link": "https://news.yahoo.co.jp/pickup/6591555?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 02:44:41 GMT"
     },
     {
-     "title": "レイカーズ 125億ドル超で売却へ",
-     "link": "https://news.yahoo.co.jp/pickup/6591520?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 22:49:23 GMT"
-    },
-    {
-     "title": "出産の山本舞香 ドラマ続編を辞退",
-     "link": "https://news.yahoo.co.jp/pickup/6591514?source=rss",
-     "pubDate": "Wed, 12 Aug 2026 22:03:19 GMT"
+     "title": "VIVANTタイ俳優のフォロワー急増",
+     "link": "https://news.yahoo.co.jp/pickup/6591546?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 02:22:03 GMT"
     }
    ]
   }
