@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-13T12:38:13.592Z",
+ "updatedAt": "2026-08-13T14:11:47.776Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "千葉県に大雨特別警報 気象庁と国交省会見【詳細】",
+     "title": "千葉県内19自治体に大雨特別警報 気象庁と国交省会見【詳細】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
-     "pubDate": "Thu, 13 Aug 2026 21:33:22 +0900"
+     "pubDate": "Thu, 13 Aug 2026 22:51:26 +0900"
     },
     {
-     "title": "【ライブ配信中】千葉県にレベル5大雨特別警報 命助かる行動を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43577",
-     "pubDate": "Thu, 13 Aug 2026 21:19:59 +0900"
-    },
-    {
-     "title": "【動画】千葉 柏の道路冠水 JR千葉駅ホーム上（午後7時前後）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43791",
-     "pubDate": "Thu, 13 Aug 2026 20:57:02 +0900"
-    },
-    {
-     "title": "【大雨被害】千葉 道路冠水で車水没 住宅浸水や崖崩れの情報も",
+     "title": "【大雨被害】道路冠水相次ぐ 柏で車中から救助の女性 心肺停止",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43748",
-     "pubDate": "Thu, 13 Aug 2026 21:23:41 +0900"
+     "pubDate": "Thu, 13 Aug 2026 23:00:37 +0900"
     },
     {
-     "title": "【気象予報士解説】千葉 レベル5大雨特別警報 今後の見通しは",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43818",
-     "pubDate": "Thu, 13 Aug 2026 21:32:45 +0900"
+     "title": "赤間防災相“今回の大雨で2人心肺停止と報告受けた”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43873",
+     "pubDate": "Thu, 13 Aug 2026 22:50:00 +0900"
     },
     {
-     "title": "【大雨 交通影響】首都圏 JRや私鉄各線で運転見合わせや遅れ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43729",
-     "pubDate": "Thu, 13 Aug 2026 21:33:53 +0900"
+     "title": "千葉県 レベル5の大雨と土砂災害の特別警報 命助かる行動を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43577",
+     "pubDate": "Thu, 13 Aug 2026 23:04:35 +0900"
     },
     {
-     "title": "ロシア プーチン大統領 北方領土初めて訪問",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43566",
-     "pubDate": "Thu, 13 Aug 2026 18:22:47 +0900"
+     "title": "【動画】千葉 市川でバス立往生（午後6時前）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43852",
+     "pubDate": "Thu, 13 Aug 2026 23:01:59 +0900"
+    },
+    {
+     "title": "【動画】走行中のバスの車内に水が入り込む 千葉 松戸",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43851",
+     "pubDate": "Thu, 13 Aug 2026 22:38:07 +0900"
+    },
+    {
+     "title": "【動画】千葉市中央区で道路から水吹き上がる（午後7時ごろ）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43816",
+     "pubDate": "Thu, 13 Aug 2026 21:41:00 +0900"
     }
    ]
   },
@@ -166,7 +166,7 @@
     {
      "title": "ロシア プーチン大統領 北方領土初めて訪問",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43566",
-     "pubDate": "Thu, 13 Aug 2026 18:22:47 +0900"
+     "pubDate": "Thu, 13 Aug 2026 21:52:11 +0900"
     },
     {
      "title": "米ホワイトハウス レビット報道官が退任へ“ほろ苦い決断”",
@@ -236,14 +236,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "命守る行動を 千葉に大雨特別警報",
-     "link": "https://news.yahoo.co.jp/pickup/6591619?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 11:23:49 GMT"
+     "title": "千葉市と市原市 土砂災害特別警報",
+     "link": "https://news.yahoo.co.jp/pickup/6591632?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 13:04:44 GMT"
     },
     {
-     "title": "埼玉・茨城で線状降水帯発生恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6591622?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 11:36:32 GMT"
+     "title": "千葉県の大雨特別警報 エリア拡大",
+     "link": "https://news.yahoo.co.jp/pickup/6591634?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 13:29:55 GMT"
     },
     {
      "title": "気象庁「経験のないような大雨」",
@@ -256,24 +256,24 @@
      "pubDate": "Thu, 13 Aug 2026 12:12:09 GMT"
     },
     {
-     "title": "船橋市 広範囲の道路で冠水相次ぐ",
-     "link": "https://news.yahoo.co.jp/pickup/6591628?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 12:30:06 GMT"
+     "title": "車内閉じ込めなど多数の通報 千葉",
+     "link": "https://news.yahoo.co.jp/pickup/6591636?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 13:46:07 GMT"
     },
     {
-     "title": "大雨で車内閉じ込め 女性心肺停止",
-     "link": "https://news.yahoo.co.jp/pickup/6591621?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 11:30:39 GMT"
+     "title": "冠水道路に浮いた男性 死亡を確認",
+     "link": "https://news.yahoo.co.jp/pickup/6591638?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 13:59:28 GMT"
     },
     {
-     "title": "大雨特別警報 各地の河川水位情報",
-     "link": "https://news.yahoo.co.jp/pickup/6591627?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 12:12:27 GMT"
+     "title": "千葉県で大雨 マップで災害情報",
+     "link": "https://news.yahoo.co.jp/pickup/6591630?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 13:14:43 GMT"
     },
     {
-     "title": "千葉県で大雨 現地のSNS投稿",
-     "link": "https://news.yahoo.co.jp/pickup/6591625?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 12:03:07 GMT"
+     "title": "千葉県などで停電発生 最新の状況",
+     "link": "https://news.yahoo.co.jp/pickup/6591633?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 13:17:20 GMT"
     }
    ]
   }
