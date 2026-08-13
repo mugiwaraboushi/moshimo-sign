@@ -117,6 +117,19 @@ const CHARS = {
     eyeSpread: 1,                        // 体が小さいぶん、目も寄せる
     scale: 0.88,                           // 「し」は少しだけ小さい
   },
+  // げんしけい: メンバーが古い紙で見つけた手描きの生き物。もしもくんの先祖にあたるらしい。
+  // 頭はもこもこ、胴はうねって、右下でくるんと巻いて終わる。
+  genshi: {
+    strokes: [
+      { p:[[0.44,0.16],[0.24,0.40],[0.64,0.58],[0.40,0.78]], r:1.00, prof:[2.00,0.95,0.80,0.70] },
+      { p:[[0.40,0.78],[0.52,1.04],[1.00,0.94],[0.84,0.60]], r:0.70, prof:[0.80,0.75,0.65,0.50] },
+      { p:[[0.30,0.13],[0.34,0.10],[0.40,0.09],[0.44,0.11]], r:0.62, prof:[0.85,1.00,1.00,0.85] },
+      { p:[[0.52,0.10],[0.58,0.09],[0.64,0.12],[0.66,0.17]], r:0.62, prof:[0.85,1.00,1.00,0.85] },
+    ],
+    eye: [0.47, 0.22],
+    eyeSpread: 1,
+    wobMul: 1.5,                           // 骨がないぶん、輪郭はもっと落ち着かない
+  },
 };
 const bez = (P,s) => {
   const u = 1-s, a = u*u*u, b = 3*u*u*s, c = 3*u*s*s, d = s*s*s;
@@ -164,7 +177,7 @@ function drawChar(fb, ch, box0, t, seed, opt={}){
       let acc = 0;
       for (const tb of tubes) acc += Math.exp(-K * tubeDist(x, y, tb[0], tb[1]));
       const d = -Math.log(acc) / K;                         // やわらかい合成距離
-      const wob = ST.wob * (0.62*Math.sin(x*0.50 + t*1.00 + seed)     // 輪郭のうねり
+      const wob = ST.wob * (C.wobMul || 1) * (0.62*Math.sin(x*0.50 + t*1.00 + seed)     // 輪郭のうねり
                 + 0.46*Math.sin(y*0.58 - t*0.80 + seed*2.1)
                 + 0.34*Math.sin((x+y)*0.33 + t*1.30 + seed*0.6));
       if (d > wob) continue;
@@ -272,6 +285,13 @@ const ANIMS = [
       const a = drawChar(fb, ch, box, t, i*2.1);
       eyes(fb, a, { blink:blinking(t, i*2.1) });
     });
+  }},
+
+{ id:"genshi", label:"げんしけい", say:"古い紙に描かれていた姿。もしもくんの、ずっと前の形だそうです。骨がないのはこのころから。",
+  draw(fb,t){
+    const box = BOX(21 + 2.0*Math.sin(t*0.28), 3 + 1.0*Math.sin(t*0.41), 22, 25);
+    const a = drawChar(fb, "genshi", box, t, 5.5);
+    eyes(fb, a, { blink:blinking(t,5.5), gazeX:Math.round(Math.sin(t*0.23)) });
   }},
 
 { id:"read", label:"よむ", say:"ミニライブラリで借りたそうです。同じページを、さっきから。",
