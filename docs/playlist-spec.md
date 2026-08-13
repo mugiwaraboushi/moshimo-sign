@@ -15,7 +15,8 @@
 | `colorTop` | string | 上段の色 (RGB 16進6桁、#なし) | `"FF9C00"` |
 | `colorScroll` | string | 下段スクロールの色。RGB 16進6桁、または特殊値 `"rainbow"` | `"FF9C00"` / `"rainbow"` |
 | `messages` | string[] | スクロールで流す文言 (最大10件、◆で連結される) | |
-| `frames` | object[] | ドット絵の静止画 (最大8枚)。`mode:"frames"` のときだけ使われる | |
+| `frames` | object[] | ドット絵の静止画 (最大24枚)。`mode:"frames"` のときだけ使われる | |
+| `fwPing` | int | ファームウェアの版番号。実機より新しい値を書くと、その場で自己アップデートを実行する (v0.7〜)。手順: [`firmware-release.md`](firmware-release.md) | `9` |
 
 - 省略したキーは現在値を維持する
 - イベント時のコメント(COMMENTS_URL経由)は `messages` の後ろに自動で連結される

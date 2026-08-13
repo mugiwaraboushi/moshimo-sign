@@ -1,5 +1,5 @@
 /*
- * もしも電光掲示板 ファームウェア v0.7
+ * もしも電光掲示板 ファームウェア v0.9
  * ESP32 (WROOM-32) + HUB75 RGBマトリクスパネル 64x32 (P4)
  *
  * 機能:
@@ -16,6 +16,8 @@
  *  - 自己アップデート: firmware/manifest.json を見て自分で新しい.binを取りに行く (v0.7)
  *    → 設置後もUSB・現地作業なしで更新できる。手順は docs/firmware-release.md
  *    → playlist.json の "fwPing" に新バージョン番号を書けば、周期を待たず即時反映
+ *  - 起動時のバージョン表示: 右下に「v9」を数秒出す (v0.9)
+ *    → 実機が今どの版かを、電源を挿し直してパネルを見るだけで確認できる
  *
  * 配線 (HUB75標準ピン割当はライブラリ既定値を使用):
  *   https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA を参照
@@ -64,7 +66,7 @@
 // このビルドのバージョン。リリースごとに +1 する (手順: docs/firmware-release.md)。
 // **公開する .bin はこの値を上げてビルドしたものであること。** manifest の version だけ
 // 上げて .bin が古いままだと、実機は「更新したのにまだ古い」を延々繰り返す。
-#define FW_VERSION 8
+#define FW_VERSION 9
 
 // 古い config.h でもビルドが通るように既定値を用意する。
 #ifndef SELFUPDATE_MANIFEST_URL
@@ -407,7 +409,11 @@ static void selfUpdateCheck(bool ignoreQuiet) {
   NetworkClientSecure client;
   HTTPClient http;
   http.setTimeout(20000);
+  // manifest と同じくキャッシュバスターを付ける。PagesのCDNが古い .bin を返すと
+  // manifest の新しいmd5と合わず失敗する (md5検証で弾かれるので壊れはしないが、
+  // 次の周期まで更新が進まない)。
   String burl = String(binUrl);
+  burl += (burl.indexOf('?') >= 0 ? "&t=" : "?t=") + String(millis());
   bool begun;
   if (burl.startsWith("https")) {
     client.setInsecure();   // httpGetString と同じ方針 (MD5で中身は検証する)
@@ -580,6 +586,21 @@ static void fetchComments() {
   http.end();
 }
 
+// ---------------- 起動時のバージョン表示 (v0.9) ----------------
+// 実機が今どの版かを「電源を挿し直してパネルを見る」だけで確認できるようにする。
+// 遠隔からバージョンを問い合わせる手段が無いため (v8の検証で分かった)。
+// 右下に控えめな色で「v9」と出す。通常表示に入ると loop() 側の描画で自然に消える。
+#define BOOT_VERSION_MIN_MS 3000   // 電波が良いと起動が数秒で終わるので、読める時間を確保する
+
+static void drawBootVersion() {
+  char buf[16];
+  snprintf(buf, sizeof(buf), "v%d", FW_VERSION);
+  uint16_t cps[8];
+  int n = decodeUtf8(String(buf), cps, 8);
+  int w = textWidth(cps, n);
+  drawText(cps, n, PANEL_W - w, PANEL_H - 16, hexToColor565("505050"));
+}
+
 // ---------------- setup / loop ----------------
 void setup() {
   Serial.begin(115200);
@@ -590,6 +611,10 @@ void setup() {
   display->setBrightness8(BRIGHTNESS);
   display->clearScreen();
 
+  drawBootVersion();
+  unsigned long bootShownAt = millis();
+  Serial.printf("[boot] moshimo-sign FW_VERSION=%d\n", FW_VERSION);
+
   wifiSetup();
 
   configTime(9 * 3600, 0, "ntp.nict.jp", "pool.ntp.org");  // JST
@@ -599,6 +624,10 @@ void setup() {
   ArduinoOTA.begin();
 
   rebuildMarquee();
+
+  // WiFiがすぐ繋がると起動処理が数秒で終わり、版数を読む前に通常表示へ移ってしまう。
+  // 目視確認が目的なので、最低 BOOT_VERSION_MIN_MS は出したままにする。
+  while (millis() - bootShownAt < BOOT_VERSION_MIN_MS) delay(50);
 }
 
 void loop() {
