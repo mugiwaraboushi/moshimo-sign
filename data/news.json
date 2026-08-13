@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-13T15:27:30.029Z",
+ "updatedAt": "2026-08-13T16:23:01.685Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "千葉県内20自治体に大雨特別警報 気象庁と国交省会見【詳細】",
+     "title": "千葉県内22自治体に大雨特別警報 気象庁と国交省会見【詳細】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
-     "pubDate": "Thu, 13 Aug 2026 23:50:08 +0900"
+     "pubDate": "Fri, 14 Aug 2026 00:40:44 +0900"
     },
     {
      "title": "【大雨被害】市川の冠水道路で見つかった男性 死亡確認",
@@ -18,19 +18,19 @@
      "pubDate": "Fri, 14 Aug 2026 00:18:22 +0900"
     },
     {
-     "title": "千葉 八街市付近で記録的な大雨 災害の危険迫る（0：00）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43908",
-     "pubDate": "Fri, 14 Aug 2026 00:18:08 +0900"
-    },
-    {
-     "title": "千葉県で記録的な大雨 災害の危険迫る（23：30）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43895",
-     "pubDate": "Thu, 13 Aug 2026 23:52:37 +0900"
+     "title": "千葉 山武市付近で記録的な大雨 災害の危険迫る（0：30）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43916",
+     "pubDate": "Fri, 14 Aug 2026 00:44:39 +0900"
     },
     {
      "title": "千葉県 レベル5の大雨と土砂災害の特別警報 命助かる行動を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43577",
-     "pubDate": "Thu, 13 Aug 2026 23:04:35 +0900"
+     "pubDate": "Fri, 14 Aug 2026 01:09:49 +0900"
+    },
+    {
+     "title": "【動画】走行中のバスの車内に水が入り込む 千葉 松戸",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43851",
+     "pubDate": "Thu, 13 Aug 2026 22:38:07 +0900"
     },
     {
      "title": "【動画】千葉 市川でバス立往生（午後6時前）",
@@ -236,14 +236,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "千葉県に土砂災害特別警報",
-     "link": "https://news.yahoo.co.jp/pickup/6591642?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 15:07:54 GMT"
-    },
-    {
      "title": "千葉県の大雨特別警報 エリア拡大",
      "link": "https://news.yahoo.co.jp/pickup/6591641?source=rss",
      "pubDate": "Thu, 13 Aug 2026 15:00:11 GMT"
+    },
+    {
+     "title": "千葉県に土砂災害特別警報",
+     "link": "https://news.yahoo.co.jp/pickup/6591642?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 15:07:54 GMT"
     },
     {
      "title": "気象庁「経験のないような大雨」",
@@ -266,9 +266,9 @@
      "pubDate": "Thu, 13 Aug 2026 13:59:28 GMT"
     },
     {
-     "title": "大雨で帰宅困難 県庁に200人以上",
-     "link": "https://news.yahoo.co.jp/pickup/6591640?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 14:45:43 GMT"
+     "title": "千葉大雨 帰宅時間の駅前に長い列",
+     "link": "https://news.yahoo.co.jp/pickup/6591643?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 15:49:52 GMT"
     },
     {
      "title": "千葉県で大雨 現地のSNS投稿",
