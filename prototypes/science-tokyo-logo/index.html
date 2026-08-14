@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Science S ぐるぐる — もしも電光掲示板</title>
+<style>
+  * { box-sizing:border-box; margin:0; }
+  html,body { height:100%; }
+  body { background:#0a0b0d; color:#c9d0d8; display:flex; flex-direction:column; align-items:center;
+    gap:12px; font-family:'Hiragino Sans','Noto Sans JP',sans-serif; padding:14px; }
+  .panel-frame { background:#000; border-radius:12px; padding:12px; width:100%; max-width:560px;
+    box-shadow:0 0 0 3px #23262b, 0 14px 40px rgba(0,0,0,.7); }
+  canvas { display:block; width:100%; image-rendering:pixelated; }
+  .ctl { width:100%; max-width:560px; display:flex; flex-direction:column; gap:10px; }
+  .row { display:flex; align-items:center; gap:10px; }
+  .row > label { flex:0 0 5.2em; font-size:12px; color:#7f8894; letter-spacing:.06em; }
+  input[type=range] { flex:1; accent-color:#3B7BFF; }
+  .val { flex:0 0 3.6em; font-size:12px; color:#c9d0d8; text-align:right; font-variant-numeric:tabular-nums; }
+  .seg { display:flex; gap:6px; flex-wrap:wrap; flex:1; }
+  .seg button { flex:1; min-width:5.5em; padding:8px 6px; font-size:12px; border-radius:8px; cursor:pointer;
+    border:1px solid #2b3038; background:#14171b; color:#8d95a0; font-family:inherit; }
+  .seg button.on { background:#1d2430; border-color:#3B7BFF; color:#dce6f5; }
+  .swatch { width:30px; height:30px; border-radius:8px; border:1px solid #2b3038; cursor:pointer; padding:0; }
+  .swatch.on { outline:2px solid #dce6f5; outline-offset:1px; }
+  .copy { width:100%; padding:13px; border-radius:10px; border:1px solid #2b3038; background:#161b22;
+    color:#c9d0d8; font-size:13px; font-family:inherit; cursor:pointer; }
+  .copy:active { background:#1d2430; }
+  .cap { color:#4b525b; font-size:11px; letter-spacing:.08em; text-align:center; line-height:1.9;
+    max-width:560px; }
+  .cap a { color:#8a6a2f; text-decoration:none; }
+</style>
+</head>
+<body>
+
+<div class="panel-frame"><canvas id="led"></canvas></div>
+
+<div class="ctl">
+  <div class="row">
+    <label>回りかた</label>
+    <div class="seg" id="modes"></div>
+  </div>
+  <div class="row">
+    <label>速さ</label>
+    <input type="range" id="rpm" min="6" max="90" step="1" value="31">
+    <span class="val" id="rpmv"></span>
+  </div>
+  <div class="row">
+    <label>大きさ</label>
+    <input type="range" id="size" min="50" max="100" step="1" value="100">
+    <span class="val" id="sizev"></span>
+  </div>
+  <div class="row">
+    <label>色</label>
+    <div class="seg" id="colors"></div>
+  </div>
+  <button class="copy" id="copy">playlist用をコピー（24コマ）</button>
+</div>
+
+<div class="cap" id="cap"></div>
+
+<script>
+// ===========================================================================
+// 東京科学大学 (Institute of Science Tokyo) のシンボルマーク「Science S」を
+// 64×32 の1bitドット絵として描き、ぐるぐる回す。
+//
+// 形状データは公式デザインシステムのロゴSVG (science-tokyo-logo.svg) から
+// シンボル部分の3パスをそのまま取り出したもの。上下2本のアーチと、それを
+// 結ぶ中央のアーチで構成されている。
+//   出典: https://design-system.isct.ac.jp/ja/brand/elements/seal
+//
+// 実機 (playlist.json の mode:"frames") は24コマ・holdMs でのコマ送りに対応
+// しているので、ここで書き出した frames をそのまま貼れば実機でも回る。
+// ===========================================================================
+
+const SYM = {
+  // ロゴSVG (viewBox 0 0 233 48) のうちシンボル部分の外接矩形
+  x: 0.1187, y: 1.1151, w: 33.5908, h: 46.4935,
+  paths: [
+    // 上のアーチ
+    "M33.7095 1.11523C19.3904 1.11523 7.46761 5.25243 0.771859 10.8604C0.390242 11.187 0.118652 11.6222 0.118652 12.2211V22.5651C0.118652 22.3478 0.281607 22.1842 0.60891 21.9119C9.80955 14.508 21.7867 12.2754 33.7095 12.2754V1.11523Z",
+    // 下のアーチ
+    "M33.7095 34.9561V24.5801C33.7095 24.8524 33.2193 24.961 32.4574 25.0153C20.0987 25.7779 8.28448 29.5884 0.118652 35.4136V47.6086C7.71275 42.3663 18.7463 37.8746 29.2109 36.3928C29.3397 36.3767 31.8961 36.0035 32.2158 35.9547C32.6051 35.8955 33.4108 35.8092 33.6455 35.2994C33.6949 35.1929 33.7102 35.0522 33.7095 34.9561Z",
+    // 上下を結ぶ中央のアーチ
+    "M33.7095 24.581C33.7095 24.3087 33.4372 24.0364 33.0013 23.7098C27.3118 19.7425 20.1808 16.9327 11.9628 15.6172C7.88823 17.0942 4.05323 19.1409 0.60891 21.9131C0.281607 22.1854 0.118652 22.3491 0.118652 22.5663C0.118652 22.7843 0.227287 22.8393 0.66323 22.8936C6.0261 23.4647 12.2588 24.8874 17.9921 27.3546C22.5903 26.1262 27.4797 25.3233 32.4574 25.0162C33.2193 24.9619 33.7095 24.8533 33.7095 24.581Z",
+  ],
+};
+const P2D = SYM.paths.map(d => new Path2D(d));
+
+const W = 64, H = 32;      // パネル
+const SS = 5;              // ラスタライズ時の縦横スーパーサンプル数
+const COVER = 0.34;        // このカバー率を超えたドットを点灯とみなす
+
+// 実機で使える色 (prototypes/draw/ のパレットと同じ)。
+// ブランドカラーの紺 #1C3177 はLEDに出すと暗すぎてほぼ見えないため、
+// 同系で発色する青を既定にしている。
+const COLORS = [
+  { hex:"3B7BFF", label:"青" },
+  { hex:"27E0FF", label:"水" },
+  { hex:"FFFFFF", label:"白" },
+  { hex:"FF9C00", label:"橙" },
+];
+const MODES = [
+  { id:"y",    label:"軸まわり" },   // 縦軸まわりに回る (高さいっぱいのまま)
+  { id:"flat", label:"平面" },       // 画面の中で時計まわりに回る
+  { id:"tilt", label:"ななめ" },     // 軸まわり + ゆっくり傾く
+];
+
+// ---- 状態 ----
+const q = new URLSearchParams(location.search);
+const S = {
+  mode:  MODES.some(m=>m.id===q.get("mode")) ? q.get("mode") : "y",
+  rpm:   Math.min(Math.max(parseFloat(q.get("rpm")) || 31, 6), 90),
+  size:  Math.min(Math.max(parseFloat(q.get("size")) || 100, 50), 100),
+  color: (q.get("color") || "3B7BFF").replace("#",""),
+};
+
+// ---- ラスタライザ ----
+const off = document.createElement("canvas");
+off.width = W*SS; off.height = H*SS;
+const octx = off.getContext("2d", { willReadFrequently:true });
+
+// theta ラジアンぶん回した状態を 64×32 の 0/1 バッファにする
+function rasterize(theta){
+  octx.setTransform(1,0,0,1,0,0);
+  octx.clearRect(0,0,off.width,off.height);
+  octx.fillStyle = "#fff";
+
+  const bw = SYM.w, bh = SYM.h;
+  // 平面回転は回しても画面から出ないよう外接円に収める。
+  // 軸まわりは高さが変わらないのでパネルの高さいっぱいに置ける。
+  const fitH = (S.mode === "flat")
+    ? H*SS * (bh/Math.hypot(bw,bh))
+    : H*SS;
+  const s = (fitH * S.size/100) / bh;
+
+  octx.translate(off.width/2, off.height/2);
+  if (S.mode === "flat") {
+    octx.rotate(theta);
+  } else {
+    // 縦軸まわりの回転 = 横方向の縮み。真横を向いた瞬間に消えないよう下限を持たせる。
+    let sx = Math.cos(theta);
+    if (Math.abs(sx) < 0.055) sx = sx < 0 ? -0.055 : 0.055;
+    octx.scale(sx, 1);
+    if (S.mode === "tilt") octx.rotate(Math.sin(theta*0.5) * 0.28);
+  }
+  octx.scale(s, s);
+  octx.translate(-(SYM.x + bw/2), -(SYM.y + bh/2));
+  for (const p of P2D) octx.fill(p);
+
+  // スーパーサンプルを1ドットぶんずつ数えて2値化する
+  const img = octx.getImageData(0,0,off.width,off.height).data;
+  const fb = new Uint8Array(W*H);
+  const need = SS*SS*COVER;
+  for (let y=0;y<H;y++) for (let x=0;x<W;x++){
+    let n = 0;
+    for (let dy=0;dy<SS;dy++){
+      let i = (((y*SS+dy)*off.width) + x*SS)*4 + 3;
+      for (let dx=0;dx<SS;dx++, i+=4) if (img[i] > 127) n++;
+    }
+    if (n >= need) fb[y*W+x] = 1;
+  }
+  return fb;
+}
+
+// ---- パネル描画 (prototypes/board/ と同じ見た目) ----
+const cv = document.getElementById("led"), ctx = cv.getContext("2d");
+const DOT = 10;
+cv.width = W*DOT; cv.height = H*DOT;
+
+function paint(fb){
+  ctx.fillStyle = "#000"; ctx.fillRect(0,0,cv.width,cv.height);
+  ctx.fillStyle = "#15171a";
+  for (let y=0;y<H;y++) for (let x=0;x<W;x++){
+    if (!fb[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.32, 0, 7); ctx.fill(); }
+  }
+  const col = "#" + S.color;
+  ctx.fillStyle = col; ctx.globalAlpha = .25;
+  for (let y=0;y<H;y++) for (let x=0;x<W;x++){
+    if (fb[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.62, 0, 7); ctx.fill(); }
+  }
+  ctx.globalAlpha = 1;
+  for (let y=0;y<H;y++) for (let x=0;x<W;x++){
+    if (fb[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.38, 0, 7); ctx.fill(); }
+  }
+}
+
+let t0 = null;
+function frame(ts){
+  requestAnimationFrame(frame);
+  if (t0 === null) t0 = ts;
+  const theta = ((ts - t0)/1000) * (S.rpm/60) * Math.PI*2;
+  paint(rasterize(theta));
+}
+requestAnimationFrame(frame);
+
+// ---- playlist用の書き出し ----
+const NFRAMES = 24;
+function encode(fb){
+  const bytes = new Uint8Array(W*H/8);
+  for (let i=0;i<W*H;i++) if (fb[i]) bytes[i>>3] |= 0x80 >> (i&7);
+  let s = "";
+  for (const b of bytes) s += String.fromCharCode(b);
+  return btoa(s).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");
+}
+function buildFrames(){
+  // 1周を24等分。holdMs は指定の回転数から逆算する (実機の上限は60000ms)。
+  const holdMs = Math.max(20, Math.round(60000 / S.rpm / NFRAMES));
+  const frames = [];
+  for (let i=0;i<NFRAMES;i++){
+    frames.push({ d: encode(rasterize(i/NFRAMES * Math.PI*2)), color: S.color, holdMs });
+  }
+  return { mode:"frames", frames };
+}
+
+// ---- UI ----
+const $ = id => document.getElementById(id);
+function syncUrl(){
+  const s = `?mode=${S.mode}&rpm=${S.rpm}&size=${S.size}&color=${S.color}`;
+  history.replaceState(null, "", s);
+}
+MODES.forEach(m => {
+  const b = document.createElement("button");
+  b.textContent = m.label; b.dataset.id = m.id;
+  b.onclick = () => { S.mode = m.id; refresh(); };
+  $("modes").appendChild(b);
+});
+COLORS.forEach(c => {
+  const b = document.createElement("button");
+  b.className = "swatch"; b.dataset.hex = c.hex; b.title = c.label;
+  b.style.background = "#" + c.hex;
+  b.onclick = () => { S.color = c.hex; refresh(); };
+  $("colors").appendChild(b);
+});
+$("rpm").oninput  = e => { S.rpm  = +e.target.value; refresh(); };
+$("size").oninput = e => { S.size = +e.target.value; refresh(); };
+
+function refresh(){
+  $("rpm").value = S.rpm; $("size").value = S.size;
+  $("rpmv").textContent  = (60/S.rpm).toFixed(1) + "秒/周";
+  $("sizev").textContent = S.size + "%";
+  for (const b of $("modes").children) b.classList.toggle("on", b.dataset.id === S.mode);
+  for (const b of $("colors").children) b.classList.toggle("on", b.dataset.hex === S.color);
+  syncUrl();
+}
+refresh();
+
+$("copy").onclick = async () => {
+  const json = JSON.stringify(buildFrames(), null, 2);
+  const btn = $("copy");
+  try {
+    await navigator.clipboard.writeText(json);
+    btn.textContent = "コピーしました（playlist.json に貼れます）";
+  } catch (e) {
+    btn.textContent = "コピーできませんでした";
+  }
+  setTimeout(() => { btn.textContent = "playlist用をコピー（24コマ）"; }, 2200);
+};
+
+$("cap").innerHTML =
+  "64×32 dot ／ シンボルマークの形は東京科学大学デザインシステムのロゴSVGより ／ " +
+  '<a href="../../">プロトタイプ一覧</a>';
+</script>
+</body>
+</html>
