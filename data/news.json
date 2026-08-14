@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-14T14:05:54.372Z",
+ "updatedAt": "2026-08-14T15:11:50.648Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "千葉など関東 15日明け方にかけ非常に激しい雨のおそれ 警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44019",
-     "pubDate": "Fri, 14 Aug 2026 21:19:02 +0900"
+     "pubDate": "Fri, 14 Aug 2026 23:56:27 +0900"
     },
     {
      "title": "千葉 中央区のアンダーパス 排水ポンプ作動せず 原因を調査",
@@ -18,19 +18,19 @@
      "pubDate": "Fri, 14 Aug 2026 22:34:07 +0900"
     },
     {
-     "title": "【千葉 大雨被害】死者8人に 住宅被害は少なくとも178棟に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43980",
-     "pubDate": "Fri, 14 Aug 2026 19:59:37 +0900"
-    },
-    {
-     "title": "【大雨】冠水した車から2人を引き出した男性 緊迫の状況語る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44061",
-     "pubDate": "Fri, 14 Aug 2026 21:21:08 +0900"
-    },
-    {
      "title": "【大雨 交通影響】鉄道や道路の状況 15日以降も運休続く路線も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43937",
-     "pubDate": "Fri, 14 Aug 2026 21:58:26 +0900"
+     "pubDate": "Fri, 14 Aug 2026 23:48:49 +0900"
+    },
+    {
+     "title": "米 7月の小売業の売上高 前月比0.6％減 FRB利上げ観測やや後退",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44188",
+     "pubDate": "Sat, 15 Aug 2026 00:05:27 +0900"
+    },
+    {
+     "title": "福岡県議会 藏内議長に対する議長職の辞職勧告決議案を提出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44162",
+     "pubDate": "Fri, 14 Aug 2026 22:39:18 +0900"
     },
     {
      "title": "辺野古沖事故 遺族が同志社国際高校と学校法人に要望書を提出",
@@ -38,9 +38,9 @@
      "pubDate": "Fri, 14 Aug 2026 19:36:13 +0900"
     },
     {
-     "title": "横浜 山中市長のパワハラ問題 市議会主要3会派が辞職申し入れ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44139",
-     "pubDate": "Fri, 14 Aug 2026 18:55:53 +0900"
+     "title": "フィリピン大統領 日本との海洋境界交渉“2国間で決める”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44176",
+     "pubDate": "Fri, 14 Aug 2026 22:48:42 +0900"
     }
    ]
   },
@@ -67,7 +67,7 @@
     {
      "title": "知床 羅臼岳 ヒグマに襲われ男性死亡から1年 父親初めて現地に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44035",
-     "pubDate": "Fri, 14 Aug 2026 20:09:18 +0900"
+     "pubDate": "Fri, 14 Aug 2026 20:09:00 +0900"
     },
     {
      "title": "大雨で帰宅困難者も 専門家「対策の検討必要」",
@@ -169,6 +169,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米 7月の小売業の売上高 前月比0.6％減 FRB利上げ観測やや後退",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44188",
+     "pubDate": "Sat, 15 Aug 2026 00:05:27 +0900"
+    },
+    {
      "title": "フィリピン大統領 日本との海洋境界交渉“2国間で決める”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44176",
      "pubDate": "Fri, 14 Aug 2026 22:48:42 +0900"
@@ -237,11 +242,6 @@
      "title": "S＆P500 株価指数が最高値 FRB利上げ観測後退で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43968",
      "pubDate": "Fri, 14 Aug 2026 07:28:00 +0900"
-    },
-    {
-     "title": "ウクライナで地雷探知の新システム 日本の支援で供与",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43955",
-     "pubDate": "Fri, 14 Aug 2026 07:10:00 +0900"
     }
    ]
   },
@@ -251,19 +251,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "関東など 15日にかけ激しい雨注意",
-     "link": "https://news.yahoo.co.jp/pickup/6591730?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 10:41:09 GMT"
+     "title": "千葉県 明け方まで激しい雷雨恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6591752?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 14:16:26 GMT"
     },
     {
-     "title": "千葉豪雨 放置車両1200台超見通し",
-     "link": "https://news.yahoo.co.jp/pickup/6591735?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 10:53:47 GMT"
+     "title": "千葉豪雨 住民も加わり懸命な救助",
+     "link": "https://news.yahoo.co.jp/pickup/6591756?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 15:00:20 GMT"
     },
     {
-     "title": "政府 択捉島巡り露に対抗措置検討",
-     "link": "https://news.yahoo.co.jp/pickup/6591704?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 07:33:21 GMT"
+     "title": "スマホ水没・水ぬれ時 NGな行為",
+     "link": "https://news.yahoo.co.jp/pickup/6591755?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 14:42:27 GMT"
+    },
+    {
+     "title": "エルニーニョ 非常に強くなる恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6591750?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 14:05:10 GMT"
     },
     {
      "title": "バスローブで報道対応 県職員処分",
@@ -271,14 +276,9 @@
      "pubDate": "Fri, 14 Aug 2026 12:14:15 GMT"
     },
     {
-     "title": "アシックス商事 解散・清算の方針",
-     "link": "https://news.yahoo.co.jp/pickup/6591697?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 06:46:03 GMT"
-    },
-    {
-     "title": "高さ日本一 観覧車8カ月以上停止",
-     "link": "https://news.yahoo.co.jp/pickup/6591731?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 10:37:47 GMT"
+     "title": "余命数週間と突然告知され 男性涙",
+     "link": "https://news.yahoo.co.jp/pickup/6591758?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 15:07:19 GMT"
     },
     {
      "title": "横浜・織田の初球 甲子園どよめく",
