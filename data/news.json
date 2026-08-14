@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-14T20:00:28.726Z",
+ "updatedAt": "2026-08-14T20:51:26.136Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "千葉など関東 15日明け方にかけ非常に激しい雨のおそれ 警戒を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44019",
-     "pubDate": "Fri, 14 Aug 2026 23:56:27 +0900"
+     "title": "きょう戦後81年の終戦の日 各地で戦没者追悼の催し",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
+     "pubDate": "Sat, 15 Aug 2026 05:17:48 +0900"
     },
     {
-     "title": "千葉 中央区のアンダーパス 排水ポンプ作動せず 原因を調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44178",
-     "pubDate": "Fri, 14 Aug 2026 22:34:07 +0900"
-    },
-    {
-     "title": "【大雨 交通影響】鉄道や道路の状況 15日以降も運休続く路線も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43937",
-     "pubDate": "Fri, 14 Aug 2026 23:48:49 +0900"
+     "title": "大リーグ村上宗隆選手が熊本支援のチャリティープロジェクト",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44194",
+     "pubDate": "Sat, 15 Aug 2026 05:04:49 +0900"
     },
     {
      "title": "熊本地震 被災の福祉施設へ介護職員派遣 人件費は公費負担に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44172",
      "pubDate": "Sat, 15 Aug 2026 01:12:37 +0900"
+    },
+    {
+     "title": "韓国 インチョン国際空港 上半期の国際線旅客数が世界一",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44196",
+     "pubDate": "Sat, 15 Aug 2026 04:55:59 +0900"
     },
     {
      "title": "アフガニスタン タリバン復権から5年 人道状況の悪化懸念",
@@ -38,9 +38,9 @@
      "pubDate": "Sat, 15 Aug 2026 00:05:27 +0900"
     },
     {
-     "title": "福岡県議会 藏内議長に対する議長職の辞職勧告決議案を提出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44162",
-     "pubDate": "Fri, 14 Aug 2026 22:39:18 +0900"
+     "title": "英国 右派政党の党首 辞職後の補欠選挙で再選も疑惑の調査続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44192",
+     "pubDate": "Sat, 15 Aug 2026 05:01:01 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "きょう戦後81年の終戦の日 各地で戦没者追悼の催し",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
+     "pubDate": "Sat, 15 Aug 2026 05:17:48 +0900"
+    },
     {
      "title": "熊本地震 被災の福祉施設へ介護職員派遣 人件費は公費負担に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44172",
@@ -118,11 +123,6 @@
      "title": "【動画】Pickup NEWS（8月14日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43783",
      "pubDate": "Fri, 14 Aug 2026 20:07:59 +0900"
-    },
-    {
-     "title": "熊本地震 宇城と氷川町 学童保育の約6割 再開のめど立たず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43860",
-     "pubDate": "Fri, 14 Aug 2026 05:26:00 +0900"
     }
    ]
   },
@@ -168,6 +168,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "英国 右派政党の党首 辞職後の補欠選挙で再選も疑惑の調査続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44192",
+     "pubDate": "Sat, 15 Aug 2026 05:01:01 +0900"
+    },
     {
      "title": "韓国 インチョン国際空港 上半期の国際線旅客数が世界一",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44196",
@@ -237,11 +242,6 @@
      "title": "北朝鮮外務省 米韓の合同軍事演習を非難 対抗措置辞さない姿勢",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44015",
      "pubDate": "Fri, 14 Aug 2026 11:44:03 +0900"
-    },
-    {
-     "title": "ホワイトソックス村上宗隆 代打で三振 チームも敗れる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44006",
-     "pubDate": "Fri, 14 Aug 2026 10:34:56 +0900"
     }
    ]
   },
