@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-14T22:09:32.130Z",
+ "updatedAt": "2026-08-14T22:45:12.936Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,6 +23,11 @@
      "pubDate": "Sat, 15 Aug 2026 05:17:48 +0900"
     },
     {
+     "title": "小泉防衛相が靖国神社に参拝",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44211",
+     "pubDate": "Sat, 15 Aug 2026 07:35:20 +0900"
+    },
+    {
      "title": "熊本地震 地震活動は依然活発 15日も厳しい暑さ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44208",
      "pubDate": "Sat, 15 Aug 2026 06:35:55 +0900"
@@ -31,11 +36,6 @@
      "title": "大リーグ村上宗隆選手が熊本支援のチャリティープロジェクト",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44194",
      "pubDate": "Sat, 15 Aug 2026 05:04:49 +0900"
-    },
-    {
-     "title": "15歳未満のSNS利用禁止法に違憲判断 フランス憲法評議会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44203",
-     "pubDate": "Sat, 15 Aug 2026 06:40:33 +0900"
     },
     {
      "title": "ウクライナ高官「北朝鮮とロシアの軍事協力拡大」日本に警鐘",
@@ -169,6 +169,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "コロンビア地震 1万超の住宅破壊 家失った人の支援も課題に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44213",
+     "pubDate": "Sat, 15 Aug 2026 07:37:57 +0900"
+    },
+    {
      "title": "15歳未満のSNS利用禁止法に違憲判断 フランス憲法評議会",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44203",
      "pubDate": "Sat, 15 Aug 2026 06:40:33 +0900"
@@ -237,11 +242,6 @@
      "title": "キューバ フィデル・カストロ氏生誕100年で米に対抗姿勢",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44066",
      "pubDate": "Fri, 14 Aug 2026 15:47:00 +0900"
-    },
-    {
-     "title": "トランプ政権のハーバード大巡る“反ユダヤ”の訴えを棄却",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44074",
-     "pubDate": "Fri, 14 Aug 2026 15:40:05 +0900"
     }
    ]
   },
@@ -251,19 +251,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "千葉県 明け方まで激しい雷雨恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6591752?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 14:16:26 GMT"
+     "title": "15日 九州-東北で急な雷雨の恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6591764?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 22:34:43 GMT"
+    },
+    {
+     "title": "衆院区割り改定 12道府県が対象か",
+     "link": "https://news.yahoo.co.jp/pickup/6591763?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 22:33:31 GMT"
     },
     {
      "title": "千葉豪雨 住民も加わり懸命な救助",
      "link": "https://news.yahoo.co.jp/pickup/6591756?source=rss",
      "pubDate": "Fri, 14 Aug 2026 15:00:20 GMT"
-    },
-    {
-     "title": "スマホ水没・水ぬれ時 NGな行為",
-     "link": "https://news.yahoo.co.jp/pickup/6591755?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 14:42:27 GMT"
     },
     {
      "title": "エルニーニョ 非常に強くなる恐れ",
@@ -281,14 +281,14 @@
      "pubDate": "Fri, 14 Aug 2026 15:07:19 GMT"
     },
     {
-     "title": "横浜・織田の初球 甲子園どよめく",
-     "link": "https://news.yahoo.co.jp/pickup/6591751?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 13:48:53 GMT"
+     "title": "鈴木誠也が21号 値千金の3ラン",
+     "link": "https://news.yahoo.co.jp/pickup/6591761?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 22:36:54 GMT"
     },
     {
-     "title": "ハマ・オカモト OKAMOTO'S脱退",
-     "link": "https://news.yahoo.co.jp/pickup/6591742?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 11:20:18 GMT"
+     "title": "村上宗隆 熊本に1千万円を寄付へ",
+     "link": "https://news.yahoo.co.jp/pickup/6591759?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 22:20:24 GMT"
     }
    ]
   }
