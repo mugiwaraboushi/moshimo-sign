@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-14T08:05:46.520Z",
+ "updatedAt": "2026-08-14T09:31:38.750Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "【千葉 大雨被害】死者8人に 路上や車内で亡くなる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43980",
-     "pubDate": "Fri, 14 Aug 2026 17:04:15 +0900"
+     "pubDate": "Fri, 14 Aug 2026 17:22:41 +0900"
     },
     {
      "title": "千葉県内 大雨特別警報を危険警報に切り替え",
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "女性の唇を無理やり自分で縫わせたか 同居人を強要の罪で起訴",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44125",
+     "pubDate": "Fri, 14 Aug 2026 18:30:34 +0900"
+    },
+    {
+     "title": "熊本地震 子ども心をどうケアする? 【専門家Ｑ＆Ａ】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44086",
+     "pubDate": "Fri, 14 Aug 2026 17:33:19 +0900"
+    },
     {
      "title": "【大雨】冠水した車から2人を引き出した男性 緊迫の状況語る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44061",
@@ -113,16 +123,6 @@
      "title": "睡眠薬入りの酒で現金など奪った疑い逮捕 容疑否認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43650",
      "pubDate": "Thu, 13 Aug 2026 16:54:07 +0900"
-    },
-    {
-     "title": "【解除】東京 野川 仙川 善福寺川のレベル４氾濫危険警報解除",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43656",
-     "pubDate": "Thu, 13 Aug 2026 16:14:00 +0900"
-    },
-    {
-     "title": "半蔵門線ホームでアスベスト 国交省が全国鉄道会社に点検要請",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43586",
-     "pubDate": "Thu, 13 Aug 2026 15:20:00 +0900"
     }
    ]
   },
@@ -163,6 +163,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "対米投資 第2弾プロジェクトにアメリカの銀行も融資へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44120",
+     "pubDate": "Fri, 14 Aug 2026 17:58:22 +0900"
+    },
     {
      "title": "韓国 イ大統領の支持率44％に下落 初めて不支持が上回る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44090",
@@ -232,11 +237,6 @@
      "title": "ベルリンの壁建設開始から65年で追悼式典 当時を知る人も出席",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43958",
      "pubDate": "Fri, 14 Aug 2026 06:39:45 +0900"
-    },
-    {
-     "title": "ヨーロッパ各地で熱波続く パリでは40度近くまで上がる見込み",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43675",
-     "pubDate": "Fri, 14 Aug 2026 02:23:56 +0900"
     }
    ]
   },
@@ -251,19 +251,24 @@
      "pubDate": "Fri, 14 Aug 2026 07:35:06 GMT"
     },
     {
-     "title": "千葉豪雨で8人死亡 約7400人避難",
-     "link": "https://news.yahoo.co.jp/pickup/6591698?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 06:46:45 GMT"
+     "title": "千葉豪雨少なくとも放置車両200台",
+     "link": "https://news.yahoo.co.jp/pickup/6591720?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 09:14:14 GMT"
     },
     {
-     "title": "阿蘇中岳 噴火警戒レベル3に",
-     "link": "https://news.yahoo.co.jp/pickup/6591699?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 07:10:00 GMT"
+     "title": "声届かず沈む車 住民が窓割り救助",
+     "link": "https://news.yahoo.co.jp/pickup/6591716?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 08:34:08 GMT"
     },
     {
-     "title": "北方領土巡る日本の抗議 露が反発",
-     "link": "https://news.yahoo.co.jp/pickup/6591673?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 02:55:49 GMT"
+     "title": "英国籍の中学生 日本旅行中に不明",
+     "link": "https://news.yahoo.co.jp/pickup/6591713?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 08:27:30 GMT"
+    },
+    {
+     "title": "海で流された子助けに 父心肺停止",
+     "link": "https://news.yahoo.co.jp/pickup/6591712?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 08:07:12 GMT"
     },
     {
      "title": "アシックス商事 解散・清算の方針",
@@ -271,19 +276,14 @@
      "pubDate": "Fri, 14 Aug 2026 06:46:03 GMT"
     },
     {
-     "title": "虫歯20本 デンタルネグレクト実態",
-     "link": "https://news.yahoo.co.jp/pickup/6591688?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 04:53:15 GMT"
+     "title": "初任給100万円の会社 応募1300人",
+     "link": "https://news.yahoo.co.jp/pickup/6591715?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 08:44:04 GMT"
     },
     {
-     "title": "折りたたみスマホの発売続々 狙い",
-     "link": "https://news.yahoo.co.jp/pickup/6591694?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 06:00:45 GMT"
-    },
-    {
-     "title": "衝撃 ゴルフ安田祐香が初日で-11",
-     "link": "https://news.yahoo.co.jp/pickup/6591695?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 06:32:53 GMT"
+     "title": "八村塁 2年ぶり代表復帰の理由",
+     "link": "https://news.yahoo.co.jp/pickup/6591718?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 09:04:31 GMT"
     }
    ]
   }
