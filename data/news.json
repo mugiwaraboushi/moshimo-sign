@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-14T03:03:36.235Z",
+ "updatedAt": "2026-08-14T05:11:27.750Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "千葉 記録的大雨 今後も激しい雨のおそれ 警戒を【ヘリ映像】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44019",
-     "pubDate": "Fri, 14 Aug 2026 11:51:38 +0900"
-    },
-    {
-     "title": "【千葉 大雨被害】5人死亡 1人心肺停止 1人行方不明",
+     "title": "【千葉 大雨被害】死者8人に 路上や車内で亡くなる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43980",
-     "pubDate": "Fri, 14 Aug 2026 12:00:07 +0900"
+     "pubDate": "Fri, 14 Aug 2026 13:46:32 +0900"
     },
     {
-     "title": "成田空港 ロビーに利用客の長い列 大雨による電車・バス運休で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43941",
-     "pubDate": "Fri, 14 Aug 2026 11:58:55 +0900"
+     "title": "千葉 記録的大雨 今後も激しい雨のおそれ 警戒を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44019",
+     "pubDate": "Fri, 14 Aug 2026 13:34:04 +0900"
     },
     {
-     "title": "【大雨被害】千葉 記録的大雨 自治体ごとに詳しく",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43748",
-     "pubDate": "Fri, 14 Aug 2026 08:54:26 +0900"
-    },
-    {
-     "title": "【大雨】千葉県庁で約1800人が一夜明かす 帰宅困難者相次ぎ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43764",
-     "pubDate": "Fri, 14 Aug 2026 07:40:47 +0900"
-    },
-    {
-     "title": "千葉 若葉区 車2台が川に流され7人救助 5人搬送",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43978",
-     "pubDate": "Fri, 14 Aug 2026 07:26:19 +0900"
+     "title": "【ドローン 上空ヘリ映像】千葉 記録的大雨 広い範囲で冠水",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43999",
+     "pubDate": "Fri, 14 Aug 2026 13:11:49 +0900"
     },
     {
      "title": "【気象予報士解説】雨の今後の見通しは 雷にも注意 警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44016",
      "pubDate": "Fri, 14 Aug 2026 11:26:59 +0900"
+    },
+    {
+     "title": "千葉 大雨 成田空港で最大7000人が一時ターミナル内にとどまる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43941",
+     "pubDate": "Fri, 14 Aug 2026 12:49:41 +0900"
+    },
+    {
+     "title": "九州自動車道 全線で通行止め解除 熊本地震発生から17日ぶり",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43973",
+     "pubDate": "Fri, 14 Aug 2026 13:24:52 +0900"
+    },
+    {
+     "title": "プーチン大統領の北方領土訪問 国連が当事者に自制呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44017",
+     "pubDate": "Fri, 14 Aug 2026 12:02:00 +0900"
     }
    ]
   },
@@ -132,6 +132,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "「週刊少年ジャンプ」直近の発行部数 初めて100万部を下回る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44024",
+     "pubDate": "Fri, 14 Aug 2026 12:05:44 +0900"
+    },
+    {
      "title": "戦争体験つづった「ガラスのうさぎ」作者 高木敏子さん死去",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43862",
      "pubDate": "Fri, 14 Aug 2026 02:22:27 +0900"
@@ -149,7 +154,7 @@
     {
      "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260809de42912",
-     "pubDate": "Sun, 09 Aug 2026 11:41:09 +0900"
+     "pubDate": "Sun, 09 Aug 2026 11:41:00 +0900"
     }
    ]
   },
@@ -159,9 +164,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "エルニーニョ現象“歴史的な水準”予測 日本 台風増加のおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44018",
+     "pubDate": "Fri, 14 Aug 2026 13:25:00 +0900"
+    },
+    {
+     "title": "米トランプ政権 一部のドローン関連部品に100％の追加関税",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44033",
+     "pubDate": "Fri, 14 Aug 2026 13:08:03 +0900"
+    },
+    {
      "title": "プーチン大統領の北方領土訪問 国連が当事者に自制呼びかけ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44017",
-     "pubDate": "Fri, 14 Aug 2026 12:02:26 +0900"
+     "pubDate": "Fri, 14 Aug 2026 12:02:00 +0900"
     },
     {
      "title": "北朝鮮外務省 米韓の合同軍事演習を非難 対抗措置辞さない姿勢",
@@ -176,7 +191,7 @@
     {
      "title": "米「イラン海上封鎖 無期限可能」ホルムズ海峡開放 見通せず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43959",
-     "pubDate": "Fri, 14 Aug 2026 08:41:38 +0900"
+     "pubDate": "Fri, 14 Aug 2026 13:13:36 +0900"
     },
     {
      "title": "S＆P500 株価指数が最高値 FRB利上げ観測後退で",
@@ -222,16 +237,6 @@
      "title": "ロシア プーチン大統領 北方領土に その狙いは 専門家に聞く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43710",
      "pubDate": "Thu, 13 Aug 2026 23:23:36 +0900"
-    },
-    {
-     "title": "高市首相「断じて許容できず」プーチン大統領の北方領土訪問に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43689",
-     "pubDate": "Thu, 13 Aug 2026 19:09:01 +0900"
-    },
-    {
-     "title": "ホルムズ海峡の通航“5月以降で最低水準に近づく”米メディア",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43592",
-     "pubDate": "Thu, 13 Aug 2026 14:52:22 +0900"
     }
    ]
   },
@@ -241,44 +246,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "関東・東北 夕方から雨強まる予想",
-     "link": "https://news.yahoo.co.jp/pickup/6591665?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 00:25:28 GMT"
+     "title": "千葉大雨6人死亡 1人が心肺停止",
+     "link": "https://news.yahoo.co.jp/pickup/6591684?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 04:02:21 GMT"
     },
     {
-     "title": "千葉駅 一夜明かした家族連れも",
-     "link": "https://news.yahoo.co.jp/pickup/6591672?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 01:53:50 GMT"
+     "title": "午後も関東は大雨恐れ 厳重警戒を",
+     "link": "https://news.yahoo.co.jp/pickup/6591687?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 04:40:46 GMT"
     },
     {
-     "title": "帰宅困難の約4千人 自衛隊が輸送",
-     "link": "https://news.yahoo.co.jp/pickup/6591664?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 00:18:28 GMT"
+     "title": "大雨から一夜 関東の鉄道運行情報",
+     "link": "https://news.yahoo.co.jp/pickup/6591678?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 03:38:09 GMT"
     },
     {
-     "title": "広い範囲で浸水 上空からの映像",
-     "link": "https://news.yahoo.co.jp/pickup/6591668?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 01:35:24 GMT"
+     "title": "千葉大雨でガス異常 1万戸超停止",
+     "link": "https://news.yahoo.co.jp/pickup/6591682?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 03:57:52 GMT"
     },
     {
-     "title": "パワハラの横浜市長 市議追及に涙",
-     "link": "https://news.yahoo.co.jp/pickup/6591670?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 01:21:02 GMT"
+     "title": "BBQ客のゴミ深刻化 クマ誘う恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6591686?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 04:32:19 GMT"
     },
     {
-     "title": "マスク氏 スペースX株48.4%保有",
-     "link": "https://news.yahoo.co.jp/pickup/6591667?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 00:52:15 GMT"
+     "title": "虫歯20本 デンタルネグレクト実態",
+     "link": "https://news.yahoo.co.jp/pickup/6591688?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 04:53:15 GMT"
     },
     {
-     "title": "森下 清原氏ペースの通算50死球",
-     "link": "https://news.yahoo.co.jp/pickup/6591674?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 02:42:52 GMT"
+     "title": "スキージャンプ銅 丸山希が結婚",
+     "link": "https://news.yahoo.co.jp/pickup/6591685?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 04:19:00 GMT"
     },
     {
-     "title": "サマソニ東京 予定通り千葉で開催",
-     "link": "https://news.yahoo.co.jp/pickup/6591662?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 00:03:14 GMT"
+     "title": "TWICEチェヨン 事務所が破局否定",
+     "link": "https://news.yahoo.co.jp/pickup/6591680?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 03:47:33 GMT"
     }
    ]
   }
