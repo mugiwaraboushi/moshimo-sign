@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-14T11:34:31.788Z",
+ "updatedAt": "2026-08-14T12:34:36.698Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,6 +8,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "千葉 御宿町にレベル4土砂災害危険警報（19:03）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44169",
+     "pubDate": "Fri, 14 Aug 2026 20:32:05 +0900"
+    },
+    {
      "title": "【千葉 大雨被害】死者8人に 住宅被害は少なくとも178棟に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43980",
      "pubDate": "Fri, 14 Aug 2026 19:59:37 +0900"
@@ -15,17 +20,12 @@
     {
      "title": "【大雨】冠水した車から2人を引き出した男性 緊迫の状況語る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44061",
-     "pubDate": "Fri, 14 Aug 2026 16:56:53 +0900"
+     "pubDate": "Fri, 14 Aug 2026 21:21:08 +0900"
     },
     {
-     "title": "浸水相次いだ要因 台地浸食のくぼ地広がる「谷津地形」影響か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44115",
-     "pubDate": "Fri, 14 Aug 2026 18:50:00 +0900"
-    },
-    {
-     "title": "千葉など関東 15日明け方にかけ激しい雨のおそれ 警戒を",
+     "title": "千葉など関東 15日明け方にかけ非常に激しい雨のおそれ 警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44019",
-     "pubDate": "Fri, 14 Aug 2026 19:45:11 +0900"
+     "pubDate": "Fri, 14 Aug 2026 21:19:02 +0900"
     },
     {
      "title": "辺野古沖事故 遺族が同志社国際高校と学校法人に要望書を提出",
@@ -52,7 +52,7 @@
     {
      "title": "沖縄 尖閣沖 中国海警局の船4隻が領海侵入",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44155",
-     "pubDate": "Fri, 14 Aug 2026 20:33:17 +0900"
+     "pubDate": "Fri, 14 Aug 2026 20:33:00 +0900"
     },
     {
      "title": "車で移動中に浸水被害 専門家「毎年起きる身近な危険」",
@@ -97,7 +97,7 @@
     {
      "title": "【大雨】冠水した車から2人を引き出した男性 緊迫の状況語る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44061",
-     "pubDate": "Fri, 14 Aug 2026 16:56:53 +0900"
+     "pubDate": "Fri, 14 Aug 2026 21:21:08 +0900"
     },
     {
      "title": "秋田県オンライン記者説明会で不適切対応 職員を停職処分",
@@ -261,19 +261,19 @@
      "pubDate": "Fri, 14 Aug 2026 10:53:47 GMT"
     },
     {
-     "title": "冠水した国道 停電で排水できず",
-     "link": "https://news.yahoo.co.jp/pickup/6591732?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 11:14:16 GMT"
+     "title": "アンダーパス 停電で排水できず",
+     "link": "https://news.yahoo.co.jp/pickup/6591743?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 11:38:24 GMT"
     },
     {
-     "title": "深夜の爆音「走り屋」の言い分",
-     "link": "https://news.yahoo.co.jp/pickup/6591741?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 11:15:33 GMT"
+     "title": "福岡県議長の辞職勧告決議案 提出",
+     "link": "https://news.yahoo.co.jp/pickup/6591725?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 09:45:23 GMT"
     },
     {
-     "title": "初任給100万円の会社 応募1300人",
-     "link": "https://news.yahoo.co.jp/pickup/6591715?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 08:44:04 GMT"
+     "title": "バスローブで報道対応 県職員処分",
+     "link": "https://news.yahoo.co.jp/pickup/6591746?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 12:14:15 GMT"
     },
     {
      "title": "高さ日本一 観覧車8カ月以上停止",
@@ -281,9 +281,9 @@
      "pubDate": "Fri, 14 Aug 2026 10:37:47 GMT"
     },
     {
-     "title": "速報 横浜が日南学園をリード",
-     "link": "https://news.yahoo.co.jp/pickup/6591738?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 11:06:44 GMT"
+     "title": "横浜が日南学園に10得点快勝",
+     "link": "https://news.yahoo.co.jp/pickup/6591744?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 11:55:55 GMT"
     },
     {
      "title": "ハマ・オカモト OKAMOTO'S脱退",
