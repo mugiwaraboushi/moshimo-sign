@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-13T23:08:41.013Z",
+ "updatedAt": "2026-08-14T00:03:27.348Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【大雨被害】千葉 記録的大雨 2人死亡1人心肺停止1人意識なし",
+     "title": "千葉県内の大雨特別警報を危険警報などに切り替え【上空映像】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
+     "pubDate": "Fri, 14 Aug 2026 08:37:13 +0900"
+    },
+    {
+     "title": "千葉 大雨被害 4人死亡 1人心肺停止 1人行方不明 災害対策本部",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43980",
+     "pubDate": "Fri, 14 Aug 2026 08:36:00 +0900"
+    },
+    {
+     "title": "【大雨被害】千葉 記録的大雨 自治体ごとに詳しく",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43748",
-     "pubDate": "Fri, 14 Aug 2026 07:02:29 +0900"
+     "pubDate": "Fri, 14 Aug 2026 08:54:26 +0900"
     },
     {
      "title": "成田空港 ターミナルに約7000人滞留 大雨による電車バス運休で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43941",
      "pubDate": "Fri, 14 Aug 2026 07:58:46 +0900"
-    },
-    {
-     "title": "千葉県内の大雨特別警報を危険警報などに切り替え【上空映像】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
-     "pubDate": "Fri, 14 Aug 2026 08:01:00 +0900"
     },
     {
      "title": "【大雨】千葉県庁で約1800人が一夜明かす 帰宅困難者相次ぎ",
@@ -31,11 +36,6 @@
      "title": "千葉 若葉区 車2台が川に流され7人救助 5人搬送",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43978",
      "pubDate": "Fri, 14 Aug 2026 07:26:19 +0900"
-    },
-    {
-     "title": "千葉県 午前8時から災害対策本部会議 大雨被害を受け",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43980",
-     "pubDate": "Fri, 14 Aug 2026 07:08:28 +0900"
     },
     {
      "title": "【気象予報士解説】千葉 レベル4大雨危険警報などに切り替え",
@@ -161,7 +161,7 @@
     {
      "title": "米「イラン海上封鎖 無期限可能」ホルムズ海峡開放 見通せず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43959",
-     "pubDate": "Fri, 14 Aug 2026 07:42:00 +0900"
+     "pubDate": "Fri, 14 Aug 2026 08:41:38 +0900"
     },
     {
      "title": "S＆P500 株価指数が最高値 FRB利上げ観測後退で",
@@ -251,14 +251,9 @@
      "pubDate": "Thu, 13 Aug 2026 20:29:37 GMT"
     },
     {
-     "title": "千葉県内のJR各線 始発から運休",
-     "link": "https://news.yahoo.co.jp/pickup/6591646?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 19:46:02 GMT"
-    },
-    {
-     "title": "千葉県で大雨 3人死亡1人心肺停止",
-     "link": "https://news.yahoo.co.jp/pickup/6591652?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 21:27:59 GMT"
+     "title": "千葉大雨の死者4人に 行方不明1人",
+     "link": "https://news.yahoo.co.jp/pickup/6591663?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 23:45:37 GMT"
     },
     {
      "title": "千葉県内 約1万人の帰宅困難者",
@@ -266,19 +261,24 @@
      "pubDate": "Thu, 13 Aug 2026 21:40:22 GMT"
     },
     {
-     "title": "秋葉原駅に熊本産の牛乳 売上急増",
-     "link": "https://news.yahoo.co.jp/pickup/6591602?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 08:47:53 GMT"
+     "title": "一夜明けた千葉 上空からの映像",
+     "link": "https://news.yahoo.co.jp/pickup/6591661?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 23:28:49 GMT"
     },
     {
-     "title": "露大統領が択捉島を電撃訪問 波紋",
-     "link": "https://news.yahoo.co.jp/pickup/6591614?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 11:50:30 GMT"
+     "title": "患者のX線画像 9病院で流出疑い",
+     "link": "https://news.yahoo.co.jp/pickup/6591658?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 23:13:13 GMT"
     },
     {
      "title": "千葉にいまして 矢部浩之ANN休演",
      "link": "https://news.yahoo.co.jp/pickup/6591654?source=rss",
      "pubDate": "Thu, 13 Aug 2026 22:13:36 GMT"
+    },
+    {
+     "title": "異色のふぉ～ゆ～ CDデビューへ",
+     "link": "https://news.yahoo.co.jp/pickup/6591655?source=rss",
+     "pubDate": "Thu, 13 Aug 2026 22:48:12 GMT"
     }
    ]
   }
