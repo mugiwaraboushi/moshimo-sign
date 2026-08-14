@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-14T21:45:23.551Z",
+ "updatedAt": "2026-08-14T22:09:32.130Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -11,6 +11,11 @@
      "title": "【千葉 記録的豪雨】8人死亡 建物被害さらに増える可能性",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44198",
      "pubDate": "Sat, 15 Aug 2026 06:34:21 +0900"
+    },
+    {
+     "title": "【大雨 交通影響】鉄道や道路 一部区間で運転見合わせなど続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44210",
+     "pubDate": "Sat, 15 Aug 2026 06:45:00 +0900"
     },
     {
      "title": "きょう戦後81年の終戦の日 各地で戦没者追悼の催し",
@@ -36,11 +41,6 @@
      "title": "ウクライナ高官「北朝鮮とロシアの軍事協力拡大」日本に警鐘",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44201",
      "pubDate": "Sat, 15 Aug 2026 06:29:09 +0900"
-    },
-    {
-     "title": "国内女子サッカーの課題を考えるイベント開催",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44190",
-     "pubDate": "Sat, 15 Aug 2026 06:18:20 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（8月15日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44174",
+     "pubDate": "Sat, 15 Aug 2026 07:01:55 +0900"
+    },
     {
      "title": "きょう戦後81年の終戦の日 各地で戦没者追悼の催し",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
@@ -118,11 +123,6 @@
      "title": "秋田県オンライン記者説明会で不適切対応 職員を停職処分",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44092",
      "pubDate": "Fri, 14 Aug 2026 22:24:12 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（8月14日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43783",
-     "pubDate": "Fri, 14 Aug 2026 20:07:59 +0900"
     }
    ]
   },
