@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-14T16:10:50.401Z",
+ "updatedAt": "2026-08-14T17:22:12.764Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,6 +23,11 @@
      "pubDate": "Fri, 14 Aug 2026 23:48:49 +0900"
     },
     {
+     "title": "熊本地震 被災の福祉施設へ介護職員派遣 人件費は公費負担に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44172",
+     "pubDate": "Sat, 15 Aug 2026 01:12:37 +0900"
+    },
+    {
      "title": "米 7月の小売業の売上高 前月比0.6％減 FRB利上げ観測やや後退",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44188",
      "pubDate": "Sat, 15 Aug 2026 00:05:27 +0900"
@@ -31,11 +36,6 @@
      "title": "福岡県議会 藏内議長に対する議長職の辞職勧告決議案を提出",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44162",
      "pubDate": "Fri, 14 Aug 2026 22:39:18 +0900"
-    },
-    {
-     "title": "辺野古沖事故 遺族が同志社国際高校と学校法人に要望書を提出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44156",
-     "pubDate": "Fri, 14 Aug 2026 19:36:13 +0900"
     },
     {
      "title": "フィリピン大統領 日本との海洋境界交渉“2国間で決める”",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "熊本地震 被災の福祉施設へ介護職員派遣 人件費は公費負担に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44172",
+     "pubDate": "Sat, 15 Aug 2026 01:12:37 +0900"
+    },
     {
      "title": "熊本地震で被災した高校生の就職活動 国が柔軟な対応を要請",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44184",
@@ -118,11 +123,6 @@
      "title": "熊本地震 宇城と氷川町 学童保育の約6割 再開のめど立たず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43860",
      "pubDate": "Fri, 14 Aug 2026 05:26:00 +0900"
-    },
-    {
-     "title": "東京地検 新検事正に松下裕子氏が就任「役割を全うする」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43698",
-     "pubDate": "Fri, 14 Aug 2026 02:24:52 +0900"
     }
    ]
   },
