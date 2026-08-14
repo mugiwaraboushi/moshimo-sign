@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-14T12:34:36.698Z",
+ "updatedAt": "2026-08-14T14:05:54.372Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "千葉 御宿町にレベル4土砂災害危険警報（19:03）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44169",
-     "pubDate": "Fri, 14 Aug 2026 20:32:05 +0900"
+     "title": "千葉など関東 15日明け方にかけ非常に激しい雨のおそれ 警戒を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44019",
+     "pubDate": "Fri, 14 Aug 2026 21:19:02 +0900"
+    },
+    {
+     "title": "千葉 中央区のアンダーパス 排水ポンプ作動せず 原因を調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44178",
+     "pubDate": "Fri, 14 Aug 2026 22:34:07 +0900"
     },
     {
      "title": "【千葉 大雨被害】死者8人に 住宅被害は少なくとも178棟に",
@@ -23,9 +28,9 @@
      "pubDate": "Fri, 14 Aug 2026 21:21:08 +0900"
     },
     {
-     "title": "千葉など関東 15日明け方にかけ非常に激しい雨のおそれ 警戒を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44019",
-     "pubDate": "Fri, 14 Aug 2026 21:19:02 +0900"
+     "title": "【大雨 交通影響】鉄道や道路の状況 15日以降も運休続く路線も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43937",
+     "pubDate": "Fri, 14 Aug 2026 21:58:26 +0900"
     },
     {
      "title": "辺野古沖事故 遺族が同志社国際高校と学校法人に要望書を提出",
@@ -36,11 +41,6 @@
      "title": "横浜 山中市長のパワハラ問題 市議会主要3会派が辞職申し入れ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44139",
      "pubDate": "Fri, 14 Aug 2026 18:55:53 +0900"
-    },
-    {
-     "title": "車で移動中に浸水被害 専門家「毎年起きる身近な危険」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44103",
-     "pubDate": "Fri, 14 Aug 2026 20:23:37 +0900"
     }
    ]
   },
@@ -50,9 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "沖縄 尖閣沖 中国海警局の船4隻が領海侵入",
+     "title": "熊本地震で被災した高校生の就職活動 国が柔軟な対応を要請",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44184",
+     "pubDate": "Fri, 14 Aug 2026 22:51:38 +0900"
+    },
+    {
+     "title": "沖縄 尖閣沖 中国海警局の船4隻が一時領海侵入",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44155",
-     "pubDate": "Fri, 14 Aug 2026 20:33:00 +0900"
+     "pubDate": "Fri, 14 Aug 2026 22:25:00 +0900"
     },
     {
      "title": "車で移動中に浸水被害 専門家「毎年起きる身近な危険」",
@@ -102,7 +107,7 @@
     {
      "title": "秋田県オンライン記者説明会で不適切対応 職員を停職処分",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44092",
-     "pubDate": "Fri, 14 Aug 2026 16:20:40 +0900"
+     "pubDate": "Fri, 14 Aug 2026 22:24:12 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（8月14日）",
@@ -118,11 +123,6 @@
      "title": "東京地検 新検事正に松下裕子氏が就任「役割を全うする」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43698",
      "pubDate": "Fri, 14 Aug 2026 02:24:52 +0900"
-    },
-    {
-     "title": "横浜市長 重大パワハラ認定受け市議会で謝罪 給与削減の意向",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43701",
-     "pubDate": "Thu, 13 Aug 2026 20:36:15 +0900"
     }
    ]
   },
@@ -168,6 +168,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "フィリピン大統領 日本との海洋境界交渉“2国間で決める”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44176",
+     "pubDate": "Fri, 14 Aug 2026 22:48:42 +0900"
+    },
+    {
+     "title": "米財務長官 イランへの制裁で来週新たな措置を発表へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44163",
+     "pubDate": "Fri, 14 Aug 2026 22:46:57 +0900"
+    },
+    {
+     "title": "ロシア外相が日本批判“アメリカと協力して軍事化”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44170",
+     "pubDate": "Fri, 14 Aug 2026 22:44:53 +0900"
+    },
     {
      "title": "対米投資 第2弾プロジェクトにアメリカの銀行も融資へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44120",
@@ -227,21 +242,6 @@
      "title": "ウクライナで地雷探知の新システム 日本の支援で供与",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43955",
      "pubDate": "Fri, 14 Aug 2026 07:10:00 +0900"
-    },
-    {
-     "title": "政府 ロシアへの対抗措置を検討 プーチン氏の北方領土訪問受け",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43919",
-     "pubDate": "Fri, 14 Aug 2026 16:45:54 +0900"
-    },
-    {
-     "title": "ベルギー「フラワーカーペット」両国友好記念し日本デザインに",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43957",
-     "pubDate": "Fri, 14 Aug 2026 06:41:12 +0900"
-    },
-    {
-     "title": "ベルリンの壁建設開始から65年で追悼式典 当時を知る人も出席",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43958",
-     "pubDate": "Fri, 14 Aug 2026 06:39:45 +0900"
     }
    ]
   },
@@ -261,14 +261,9 @@
      "pubDate": "Fri, 14 Aug 2026 10:53:47 GMT"
     },
     {
-     "title": "アンダーパス 停電で排水できず",
-     "link": "https://news.yahoo.co.jp/pickup/6591743?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 11:38:24 GMT"
-    },
-    {
-     "title": "福岡県議長の辞職勧告決議案 提出",
-     "link": "https://news.yahoo.co.jp/pickup/6591725?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 09:45:23 GMT"
+     "title": "政府 択捉島巡り露に対抗措置検討",
+     "link": "https://news.yahoo.co.jp/pickup/6591704?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 07:33:21 GMT"
     },
     {
      "title": "バスローブで報道対応 県職員処分",
@@ -276,14 +271,19 @@
      "pubDate": "Fri, 14 Aug 2026 12:14:15 GMT"
     },
     {
+     "title": "アシックス商事 解散・清算の方針",
+     "link": "https://news.yahoo.co.jp/pickup/6591697?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 06:46:03 GMT"
+    },
+    {
      "title": "高さ日本一 観覧車8カ月以上停止",
      "link": "https://news.yahoo.co.jp/pickup/6591731?source=rss",
      "pubDate": "Fri, 14 Aug 2026 10:37:47 GMT"
     },
     {
-     "title": "横浜が日南学園に10得点快勝",
-     "link": "https://news.yahoo.co.jp/pickup/6591744?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 11:55:55 GMT"
+     "title": "横浜・織田の初球 甲子園どよめく",
+     "link": "https://news.yahoo.co.jp/pickup/6591751?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 13:48:53 GMT"
     },
     {
      "title": "ハマ・オカモト OKAMOTO'S脱退",
