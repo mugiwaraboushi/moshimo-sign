@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-14T22:45:12.936Z",
+ "updatedAt": "2026-08-14T23:09:38.240Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,9 @@
      "pubDate": "Sat, 15 Aug 2026 06:34:21 +0900"
     },
     {
-     "title": "【大雨 交通影響】鉄道や道路 一部区間で運転見合わせなど続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44210",
-     "pubDate": "Sat, 15 Aug 2026 06:45:00 +0900"
+     "title": "関東甲信 大気不安定 千葉で大雨ピーク過ぎるも地盤緩み注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44212",
+     "pubDate": "Sat, 15 Aug 2026 07:54:15 +0900"
     },
     {
      "title": "きょう戦後81年の終戦の日 各地で戦没者追悼の催し",
@@ -25,17 +25,17 @@
     {
      "title": "小泉防衛相が靖国神社に参拝",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44211",
-     "pubDate": "Sat, 15 Aug 2026 07:35:20 +0900"
+     "pubDate": "Sat, 15 Aug 2026 07:52:30 +0900"
+    },
+    {
+     "title": "インドネシアでM7.7の地震 日本への津波の影響なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44197",
+     "pubDate": "Sat, 15 Aug 2026 07:48:07 +0900"
     },
     {
      "title": "熊本地震 地震活動は依然活発 15日も厳しい暑さ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44208",
      "pubDate": "Sat, 15 Aug 2026 06:35:55 +0900"
-    },
-    {
-     "title": "大リーグ村上宗隆選手が熊本支援のチャリティープロジェクト",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44194",
-     "pubDate": "Sat, 15 Aug 2026 05:04:49 +0900"
     },
     {
      "title": "ウクライナ高官「北朝鮮とロシアの軍事協力拡大」日本に警鐘",
@@ -256,9 +256,14 @@
      "pubDate": "Fri, 14 Aug 2026 22:34:43 GMT"
     },
     {
-     "title": "衆院区割り改定 12道府県が対象か",
-     "link": "https://news.yahoo.co.jp/pickup/6591763?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 22:33:31 GMT"
+     "title": "7道府県が副首都申請を検討 共同",
+     "link": "https://news.yahoo.co.jp/pickup/6591762?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 22:40:04 GMT"
+    },
+    {
+     "title": "自民幹部 靖国に集団参拝で調整",
+     "link": "https://news.yahoo.co.jp/pickup/6591765?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 22:50:47 GMT"
     },
     {
      "title": "千葉豪雨 住民も加わり懸命な救助",
@@ -266,24 +271,19 @@
      "pubDate": "Fri, 14 Aug 2026 15:00:20 GMT"
     },
     {
+     "title": "映像 防犯カメラに断層出現の瞬間",
+     "link": "https://news.yahoo.co.jp/pickup/6591766?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 22:43:42 GMT"
+    },
+    {
+     "title": "インドネシア付近でM7.7の地震",
+     "link": "https://news.yahoo.co.jp/pickup/6591768?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 22:59:18 GMT"
+    },
+    {
      "title": "エルニーニョ 非常に強くなる恐れ",
      "link": "https://news.yahoo.co.jp/pickup/6591750?source=rss",
      "pubDate": "Fri, 14 Aug 2026 14:05:10 GMT"
-    },
-    {
-     "title": "バスローブで報道対応 県職員処分",
-     "link": "https://news.yahoo.co.jp/pickup/6591746?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 12:14:15 GMT"
-    },
-    {
-     "title": "余命数週間と突然告知され 男性涙",
-     "link": "https://news.yahoo.co.jp/pickup/6591758?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 15:07:19 GMT"
-    },
-    {
-     "title": "鈴木誠也が21号 値千金の3ラン",
-     "link": "https://news.yahoo.co.jp/pickup/6591761?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 22:36:54 GMT"
     },
     {
      "title": "村上宗隆 熊本に1千万円を寄付へ",
