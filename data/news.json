@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-14T21:13:01.620Z",
+ "updatedAt": "2026-08-14T21:45:23.551Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "【千葉 記録的豪雨】8人死亡 建物被害さらに増える可能性",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44198",
+     "pubDate": "Sat, 15 Aug 2026 06:34:21 +0900"
+    },
+    {
      "title": "きょう戦後81年の終戦の日 各地で戦没者追悼の催し",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
      "pubDate": "Sat, 15 Aug 2026 05:17:48 +0900"
+    },
+    {
+     "title": "熊本地震 地震活動は依然活発 15日も厳しい暑さ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44208",
+     "pubDate": "Sat, 15 Aug 2026 06:35:55 +0900"
     },
     {
      "title": "大リーグ村上宗隆選手が熊本支援のチャリティープロジェクト",
@@ -18,29 +28,19 @@
      "pubDate": "Sat, 15 Aug 2026 05:04:49 +0900"
     },
     {
-     "title": "熊本地震 被災の福祉施設へ介護職員派遣 人件費は公費負担に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44172",
-     "pubDate": "Sat, 15 Aug 2026 01:12:37 +0900"
+     "title": "15歳未満のSNS利用禁止法に違憲判断 フランス憲法評議会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44203",
+     "pubDate": "Sat, 15 Aug 2026 06:40:33 +0900"
     },
     {
-     "title": "トランプ政権“中国が高関税逃れで「う回輸出」”の報告書",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44181",
-     "pubDate": "Sat, 15 Aug 2026 06:09:36 +0900"
+     "title": "ウクライナ高官「北朝鮮とロシアの軍事協力拡大」日本に警鐘",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44201",
+     "pubDate": "Sat, 15 Aug 2026 06:29:09 +0900"
     },
     {
-     "title": "韓国 インチョン国際空港 上半期の国際線旅客数が世界一",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44196",
-     "pubDate": "Sat, 15 Aug 2026 04:55:59 +0900"
-    },
-    {
-     "title": "アフガニスタン タリバン復権から5年 人道状況の悪化懸念",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44175",
-     "pubDate": "Sat, 15 Aug 2026 04:53:40 +0900"
-    },
-    {
-     "title": "英国 右派政党の党首 辞職後の補欠選挙で再選も疑惑の調査続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44192",
-     "pubDate": "Sat, 15 Aug 2026 05:01:01 +0900"
+     "title": "国内女子サッカーの課題を考えるイベント開催",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44190",
+     "pubDate": "Sat, 15 Aug 2026 06:18:20 +0900"
     }
    ]
   },
@@ -169,6 +169,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "15歳未満のSNS利用禁止法に違憲判断 フランス憲法評議会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44203",
+     "pubDate": "Sat, 15 Aug 2026 06:40:33 +0900"
+    },
+    {
+     "title": "国連 ウクライナで7月に死亡の民間人 侵攻開始直後を除き最多",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44189",
+     "pubDate": "Sat, 15 Aug 2026 06:38:05 +0900"
+    },
+    {
+     "title": "ウクライナ高官「北朝鮮とロシアの軍事協力拡大」日本に警鐘",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44201",
+     "pubDate": "Sat, 15 Aug 2026 06:29:09 +0900"
+    },
+    {
      "title": "トランプ政権“中国が高関税逃れで「う回輸出」”の報告書",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44181",
      "pubDate": "Sat, 15 Aug 2026 06:09:36 +0900"
@@ -227,21 +242,6 @@
      "title": "トランプ政権のハーバード大巡る“反ユダヤ”の訴えを棄却",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44074",
      "pubDate": "Fri, 14 Aug 2026 15:40:05 +0900"
-    },
-    {
-     "title": "エルニーニョ現象“歴史的な水準”予測 日本 台風増加のおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44018",
-     "pubDate": "Fri, 14 Aug 2026 13:25:00 +0900"
-    },
-    {
-     "title": "米トランプ政権 一部のドローン関連部品に100％の追加関税",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44033",
-     "pubDate": "Fri, 14 Aug 2026 13:08:00 +0900"
-    },
-    {
-     "title": "プーチン大統領の北方領土訪問 国連が当事者に自制呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44017",
-     "pubDate": "Fri, 14 Aug 2026 12:02:00 +0900"
     }
    ]
   },
