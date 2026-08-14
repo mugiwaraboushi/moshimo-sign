@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-14T06:49:40.020Z",
+ "updatedAt": "2026-08-14T08:05:46.520Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "【千葉 大雨被害】死者8人に 路上や車内で亡くなる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43980",
-     "pubDate": "Fri, 14 Aug 2026 14:52:58 +0900"
+     "pubDate": "Fri, 14 Aug 2026 17:04:15 +0900"
     },
     {
      "title": "千葉県内 大雨特別警報を危険警報に切り替え",
@@ -18,29 +18,29 @@
      "pubDate": "Fri, 14 Aug 2026 14:34:28 +0900"
     },
     {
-     "title": "千葉の記録的大雨「令和8年8月千葉豪雨」と命名 気象庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44072",
-     "pubDate": "Fri, 14 Aug 2026 14:06:00 +0900"
+     "title": "【大雨】冠水した車から2人を引き出した男性 緊迫の状況語る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44061",
+     "pubDate": "Fri, 14 Aug 2026 16:56:53 +0900"
+    },
+    {
+     "title": "千葉 JR大網駅では構内に水や泥 駅員が掃き出す作業に追われる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44093",
+     "pubDate": "Fri, 14 Aug 2026 16:57:19 +0900"
     },
     {
      "title": "千葉 記録的大雨 今後も激しい雨のおそれ 警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44019",
-     "pubDate": "Fri, 14 Aug 2026 13:34:04 +0900"
-    },
-    {
-     "title": "【ドローン 上空ヘリ映像】千葉 記録的大雨 広い範囲で冠水",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43999",
-     "pubDate": "Fri, 14 Aug 2026 13:11:00 +0900"
+     "pubDate": "Fri, 14 Aug 2026 17:01:53 +0900"
     },
     {
      "title": "九州自動車道 全線で通行止め解除 熊本地震発生から17日ぶり",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43973",
-     "pubDate": "Fri, 14 Aug 2026 13:24:52 +0900"
+     "pubDate": "Fri, 14 Aug 2026 16:35:33 +0900"
     },
     {
-     "title": "プーチン大統領の北方領土訪問 国連が当事者に自制呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44017",
-     "pubDate": "Fri, 14 Aug 2026 12:02:00 +0900"
+     "title": "秋田県オンライン記者説明会で不適切対応 職員を停職処分",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44092",
+     "pubDate": "Fri, 14 Aug 2026 16:20:40 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【大雨】冠水した車から2人を引き出した男性 緊迫の状況語る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44061",
+     "pubDate": "Fri, 14 Aug 2026 16:56:53 +0900"
+    },
+    {
+     "title": "秋田県オンライン記者説明会で不適切対応 職員を停職処分",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44092",
+     "pubDate": "Fri, 14 Aug 2026 16:20:40 +0900"
+    },
     {
      "title": "【動画】Pickup NEWS（8月14日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43783",
@@ -113,16 +123,6 @@
      "title": "半蔵門線ホームでアスベスト 国交省が全国鉄道会社に点検要請",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43586",
      "pubDate": "Thu, 13 Aug 2026 15:20:00 +0900"
-    },
-    {
-     "title": "千葉 九十九里町の海水浴場 遊泳中の男性流され死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43590",
-     "pubDate": "Thu, 13 Aug 2026 14:49:00 +0900"
-    },
-    {
-     "title": "被災者の体調管理が課題 しんきゅう師派遣も【被災地の動き】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43575",
-     "pubDate": "Thu, 13 Aug 2026 19:27:35 +0900"
     }
    ]
   },
@@ -132,9 +132,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
-     "title": "「週刊少年ジャンプ」直近の発行部数 初めて100万部を下回る",
+     "title": "「週刊少年ジャンプ」直近の発行部数 100万部を下回る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44024",
-     "pubDate": "Fri, 14 Aug 2026 12:05:44 +0900"
+     "pubDate": "Fri, 14 Aug 2026 12:05:00 +0900"
     },
     {
      "title": "戦争体験つづった「ガラスのうさぎ」作者 高木敏子さん死去",
@@ -164,9 +164,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "韓国 イ大統領の支持率44％に下落 初めて不支持が上回る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44090",
+     "pubDate": "Fri, 14 Aug 2026 16:13:49 +0900"
+    },
+    {
      "title": "キューバ フィデル・カストロ氏生誕100年で米に対抗姿勢",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44066",
-     "pubDate": "Fri, 14 Aug 2026 15:47:59 +0900"
+     "pubDate": "Fri, 14 Aug 2026 15:47:00 +0900"
     },
     {
      "title": "トランプ政権のハーバード大巡る“反ユダヤ”の訴えを棄却",
@@ -181,7 +186,7 @@
     {
      "title": "米トランプ政権 一部のドローン関連部品に100％の追加関税",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44033",
-     "pubDate": "Fri, 14 Aug 2026 13:08:03 +0900"
+     "pubDate": "Fri, 14 Aug 2026 13:08:00 +0900"
     },
     {
      "title": "プーチン大統領の北方領土訪問 国連が当事者に自制呼びかけ",
@@ -211,12 +216,12 @@
     {
      "title": "ウクライナで地雷探知の新システム 日本の支援で供与",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43955",
-     "pubDate": "Fri, 14 Aug 2026 07:10:59 +0900"
+     "pubDate": "Fri, 14 Aug 2026 07:10:00 +0900"
     },
     {
      "title": "政府 ロシアへの対抗措置を検討 プーチン氏の北方領土訪問受け",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43919",
-     "pubDate": "Fri, 14 Aug 2026 06:43:53 +0900"
+     "pubDate": "Fri, 14 Aug 2026 16:45:54 +0900"
     },
     {
      "title": "ベルギー「フラワーカーペット」両国友好記念し日本デザインに",
@@ -232,11 +237,6 @@
      "title": "ヨーロッパ各地で熱波続く パリでは40度近くまで上がる見込み",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43675",
      "pubDate": "Fri, 14 Aug 2026 02:23:56 +0900"
-    },
-    {
-     "title": "高市首相 中国 習主席に哀悼の意 朱鎔基元首相の死去受け",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43848",
-     "pubDate": "Fri, 14 Aug 2026 02:12:50 +0900"
     }
    ]
   },
@@ -246,24 +246,29 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "関東 局地的に非常に激しい雨恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6591705?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 07:35:06 GMT"
+    },
+    {
      "title": "千葉豪雨で8人死亡 約7400人避難",
      "link": "https://news.yahoo.co.jp/pickup/6591698?source=rss",
      "pubDate": "Fri, 14 Aug 2026 06:46:45 GMT"
     },
     {
-     "title": "午後も関東は大雨恐れ 厳重警戒を",
-     "link": "https://news.yahoo.co.jp/pickup/6591687?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 04:40:46 GMT"
+     "title": "阿蘇中岳 噴火警戒レベル3に",
+     "link": "https://news.yahoo.co.jp/pickup/6591699?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 07:10:00 GMT"
     },
     {
-     "title": "千葉県 記録的な豪雨となった理由",
-     "link": "https://news.yahoo.co.jp/pickup/6591692?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 05:44:26 GMT"
+     "title": "北方領土巡る日本の抗議 露が反発",
+     "link": "https://news.yahoo.co.jp/pickup/6591673?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 02:55:49 GMT"
     },
     {
-     "title": "帰りたい 豪雨で帰宅困難者が続出",
-     "link": "https://news.yahoo.co.jp/pickup/6591689?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 05:10:23 GMT"
+     "title": "アシックス商事 解散・清算の方針",
+     "link": "https://news.yahoo.co.jp/pickup/6591697?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 06:46:03 GMT"
     },
     {
      "title": "虫歯20本 デンタルネグレクト実態",
@@ -279,11 +284,6 @@
      "title": "衝撃 ゴルフ安田祐香が初日で-11",
      "link": "https://news.yahoo.co.jp/pickup/6591695?source=rss",
      "pubDate": "Fri, 14 Aug 2026 06:32:53 GMT"
-    },
-    {
-     "title": "シュワバー トウモロコシ畑へ2HR",
-     "link": "https://news.yahoo.co.jp/pickup/6591690?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 05:17:20 GMT"
     }
    ]
   }
