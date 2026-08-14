@@ -1,16 +1,12 @@
 {
   "topText": "営業中",
   "mode": "dual",
-  "brightness": 96,
+  "brightness": 128,
   "speed": 45,
-  "colorTop": "FF9C00",
-  "colorScroll": "FF9C00",
+  "colorTop": "FF3B30",
+  "colorScroll": "rainbow",
   "messages": [
-    "この電光掲示板は試験運用中です",
-    "流したい言葉は Discord で受付中",
-    "文字・色・速さ・ドット絵まで出せます",
-    "反映はおよそ1〜2分",
-    "もしも まちと未来の実験室"
+    "棚主募集中！"
   ],
   "fwPing": 9
 }
