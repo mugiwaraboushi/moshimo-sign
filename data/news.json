@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-14T10:44:55.907Z",
+ "updatedAt": "2026-08-14T11:34:31.788Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "【千葉 大雨被害】死者8人に 住宅被害は少なくとも178棟に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43980",
-     "pubDate": "Fri, 14 Aug 2026 19:13:13 +0900"
+     "pubDate": "Fri, 14 Aug 2026 19:59:37 +0900"
     },
     {
      "title": "【大雨】冠水した車から2人を引き出した男性 緊迫の状況語る",
@@ -23,9 +23,9 @@
      "pubDate": "Fri, 14 Aug 2026 18:50:00 +0900"
     },
     {
-     "title": "千葉など関東 15日明け方にかけ非常に激しい雨のおそれ 警戒を",
+     "title": "千葉など関東 15日明け方にかけ激しい雨のおそれ 警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44019",
-     "pubDate": "Fri, 14 Aug 2026 18:59:43 +0900"
+     "pubDate": "Fri, 14 Aug 2026 19:45:11 +0900"
     },
     {
      "title": "辺野古沖事故 遺族が同志社国際高校と学校法人に要望書を提出",
@@ -38,9 +38,9 @@
      "pubDate": "Fri, 14 Aug 2026 18:55:53 +0900"
     },
     {
-     "title": "秋田県オンライン記者説明会で不適切対応 職員を停職処分",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44092",
-     "pubDate": "Fri, 14 Aug 2026 16:20:40 +0900"
+     "title": "車で移動中に浸水被害 専門家「毎年起きる身近な危険」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44103",
+     "pubDate": "Fri, 14 Aug 2026 20:23:37 +0900"
     }
    ]
   },
@@ -49,6 +49,26 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "沖縄 尖閣沖 中国海警局の船4隻が領海侵入",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44155",
+     "pubDate": "Fri, 14 Aug 2026 20:33:17 +0900"
+    },
+    {
+     "title": "車で移動中に浸水被害 専門家「毎年起きる身近な危険」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44103",
+     "pubDate": "Fri, 14 Aug 2026 20:23:37 +0900"
+    },
+    {
+     "title": "知床 羅臼岳 ヒグマに襲われ男性死亡から1年 父親初めて現地に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44035",
+     "pubDate": "Fri, 14 Aug 2026 20:09:18 +0900"
+    },
+    {
+     "title": "大雨で帰宅困難者も 専門家「対策の検討必要」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44138",
+     "pubDate": "Fri, 14 Aug 2026 20:08:25 +0900"
+    },
     {
      "title": "辺野古沖事故 遺族が同志社国際高校と学校法人に要望書を提出",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44156",
@@ -87,7 +107,7 @@
     {
      "title": "【動画】Pickup NEWS（8月14日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43783",
-     "pubDate": "Fri, 14 Aug 2026 14:51:30 +0900"
+     "pubDate": "Fri, 14 Aug 2026 20:07:59 +0900"
     },
     {
      "title": "熊本地震 宇城と氷川町 学童保育の約6割 再開のめど立たず",
@@ -103,26 +123,6 @@
      "title": "横浜市長 重大パワハラ認定受け市議会で謝罪 給与削減の意向",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43701",
      "pubDate": "Thu, 13 Aug 2026 20:36:15 +0900"
-    },
-    {
-     "title": "上皇ご夫妻 ことしは軽井沢での静養を見送り",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43682",
-     "pubDate": "Thu, 13 Aug 2026 20:28:28 +0900"
-    },
-    {
-     "title": "秋篠宮さま パラグアイ訪問前記者会見で改正皇室典範にも言及",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43641",
-     "pubDate": "Thu, 13 Aug 2026 18:02:36 +0900"
-    },
-    {
-     "title": "九州自動車道 あす朝から全線で通行可能に 地震から17日ぶり",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43678",
-     "pubDate": "Thu, 13 Aug 2026 19:05:33 +0900"
-    },
-    {
-     "title": "熊本地震 どうする？災害廃棄物 【専門家Q＆A】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43623",
-     "pubDate": "Thu, 13 Aug 2026 17:38:36 +0900"
     }
    ]
   },
@@ -256,19 +256,19 @@
      "pubDate": "Fri, 14 Aug 2026 10:41:09 GMT"
     },
     {
-     "title": "千葉豪雨少なくとも放置車両200台",
-     "link": "https://news.yahoo.co.jp/pickup/6591720?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 09:14:14 GMT"
+     "title": "千葉豪雨 放置車両1200台超見通し",
+     "link": "https://news.yahoo.co.jp/pickup/6591735?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 10:53:47 GMT"
     },
     {
-     "title": "声届かず沈む車 住民が窓割り救助",
-     "link": "https://news.yahoo.co.jp/pickup/6591716?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 08:34:08 GMT"
+     "title": "冠水した国道 停電で排水できず",
+     "link": "https://news.yahoo.co.jp/pickup/6591732?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 11:14:16 GMT"
     },
     {
-     "title": "戦犯として裁かれた父 罪感じる娘",
-     "link": "https://news.yahoo.co.jp/pickup/6591726?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 09:53:33 GMT"
+     "title": "深夜の爆音「走り屋」の言い分",
+     "link": "https://news.yahoo.co.jp/pickup/6591741?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 11:15:33 GMT"
     },
     {
      "title": "初任給100万円の会社 応募1300人",
@@ -281,14 +281,14 @@
      "pubDate": "Fri, 14 Aug 2026 10:37:47 GMT"
     },
     {
-     "title": "宝くじ・ロト7 千葉県で1等12億円",
-     "link": "https://news.yahoo.co.jp/pickup/6591723?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 09:34:40 GMT"
+     "title": "速報 横浜が日南学園をリード",
+     "link": "https://news.yahoo.co.jp/pickup/6591738?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 11:06:44 GMT"
     },
     {
-     "title": "堺雅人 小野花梨と再会に満面笑み",
-     "link": "https://news.yahoo.co.jp/pickup/6591727?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 10:07:41 GMT"
+     "title": "ハマ・オカモト OKAMOTO'S脱退",
+     "link": "https://news.yahoo.co.jp/pickup/6591742?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 11:20:18 GMT"
     }
    ]
   }
