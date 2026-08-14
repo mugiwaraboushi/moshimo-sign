@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-14T00:03:27.348Z",
+ "updatedAt": "2026-08-14T03:03:36.235Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "千葉県内の大雨特別警報を危険警報などに切り替え【上空映像】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43749",
-     "pubDate": "Fri, 14 Aug 2026 08:37:13 +0900"
+     "title": "千葉 記録的大雨 今後も激しい雨のおそれ 警戒を【ヘリ映像】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44019",
+     "pubDate": "Fri, 14 Aug 2026 11:51:38 +0900"
     },
     {
-     "title": "千葉 大雨被害 4人死亡 1人心肺停止 1人行方不明 災害対策本部",
+     "title": "【千葉 大雨被害】5人死亡 1人心肺停止 1人行方不明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43980",
-     "pubDate": "Fri, 14 Aug 2026 08:36:00 +0900"
+     "pubDate": "Fri, 14 Aug 2026 12:00:07 +0900"
+    },
+    {
+     "title": "成田空港 ロビーに利用客の長い列 大雨による電車・バス運休で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43941",
+     "pubDate": "Fri, 14 Aug 2026 11:58:55 +0900"
     },
     {
      "title": "【大雨被害】千葉 記録的大雨 自治体ごとに詳しく",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43748",
      "pubDate": "Fri, 14 Aug 2026 08:54:26 +0900"
-    },
-    {
-     "title": "成田空港 ターミナルに約7000人滞留 大雨による電車バス運休で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de43941",
-     "pubDate": "Fri, 14 Aug 2026 07:58:46 +0900"
     },
     {
      "title": "【大雨】千葉県庁で約1800人が一夜明かす 帰宅困難者相次ぎ",
@@ -38,9 +38,9 @@
      "pubDate": "Fri, 14 Aug 2026 07:26:19 +0900"
     },
     {
-     "title": "【気象予報士解説】千葉 レベル4大雨危険警報などに切り替え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43818",
-     "pubDate": "Fri, 14 Aug 2026 06:38:14 +0900"
+     "title": "【気象予報士解説】雨の今後の見通しは 雷にも注意 警戒を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44016",
+     "pubDate": "Fri, 14 Aug 2026 11:26:59 +0900"
     }
    ]
   },
@@ -52,7 +52,7 @@
     {
      "title": "【動画】Pickup NEWS（8月14日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43783",
-     "pubDate": "Fri, 14 Aug 2026 07:46:21 +0900"
+     "pubDate": "Fri, 14 Aug 2026 10:56:28 +0900"
     },
     {
      "title": "熊本地震 宇城と氷川町 学童保育の約6割 再開のめど立たず",
@@ -159,6 +159,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "プーチン大統領の北方領土訪問 国連が当事者に自制呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44017",
+     "pubDate": "Fri, 14 Aug 2026 12:02:26 +0900"
+    },
+    {
+     "title": "北朝鮮外務省 米韓の合同軍事演習を非難 対抗措置辞さない姿勢",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44015",
+     "pubDate": "Fri, 14 Aug 2026 11:44:03 +0900"
+    },
+    {
+     "title": "ホワイトソックス村上宗隆 代打で三振 チームも敗れる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44006",
+     "pubDate": "Fri, 14 Aug 2026 10:34:56 +0900"
+    },
+    {
      "title": "米「イラン海上封鎖 無期限可能」ホルムズ海峡開放 見通せず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de43959",
      "pubDate": "Fri, 14 Aug 2026 08:41:38 +0900"
@@ -217,21 +232,6 @@
      "title": "ホルムズ海峡の通航“5月以降で最低水準に近づく”米メディア",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43592",
      "pubDate": "Thu, 13 Aug 2026 14:52:22 +0900"
-    },
-    {
-     "title": "ロシア プーチン大統領 北方領土初めて訪問",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43566",
-     "pubDate": "Thu, 13 Aug 2026 21:52:11 +0900"
-    },
-    {
-     "title": "米ホワイトハウス レビット報道官が退任へ“ほろ苦い決断”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43565",
-     "pubDate": "Thu, 13 Aug 2026 10:40:00 +0900"
-    },
-    {
-     "title": "米国務省“出産ツーリズム”防止専門チーム立ち上げ対策強化へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43554",
-     "pubDate": "Thu, 13 Aug 2026 09:56:00 +0900"
     }
    ]
   },
@@ -241,44 +241,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "千葉県の特別警報 危険警報に切替",
-     "link": "https://news.yahoo.co.jp/pickup/6591650?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 20:42:44 GMT"
+     "title": "関東・東北 夕方から雨強まる予想",
+     "link": "https://news.yahoo.co.jp/pickup/6591665?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 00:25:28 GMT"
     },
     {
-     "title": "危険な雨 土砂災害など終日警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6591649?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 20:29:37 GMT"
+     "title": "千葉駅 一夜明かした家族連れも",
+     "link": "https://news.yahoo.co.jp/pickup/6591672?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 01:53:50 GMT"
     },
     {
-     "title": "千葉大雨の死者4人に 行方不明1人",
-     "link": "https://news.yahoo.co.jp/pickup/6591663?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 23:45:37 GMT"
+     "title": "帰宅困難の約4千人 自衛隊が輸送",
+     "link": "https://news.yahoo.co.jp/pickup/6591664?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 00:18:28 GMT"
     },
     {
-     "title": "千葉県内 約1万人の帰宅困難者",
-     "link": "https://news.yahoo.co.jp/pickup/6591653?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 21:40:22 GMT"
+     "title": "広い範囲で浸水 上空からの映像",
+     "link": "https://news.yahoo.co.jp/pickup/6591668?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 01:35:24 GMT"
     },
     {
-     "title": "一夜明けた千葉 上空からの映像",
-     "link": "https://news.yahoo.co.jp/pickup/6591661?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 23:28:49 GMT"
+     "title": "パワハラの横浜市長 市議追及に涙",
+     "link": "https://news.yahoo.co.jp/pickup/6591670?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 01:21:02 GMT"
     },
     {
-     "title": "患者のX線画像 9病院で流出疑い",
-     "link": "https://news.yahoo.co.jp/pickup/6591658?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 23:13:13 GMT"
+     "title": "マスク氏 スペースX株48.4%保有",
+     "link": "https://news.yahoo.co.jp/pickup/6591667?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 00:52:15 GMT"
     },
     {
-     "title": "千葉にいまして 矢部浩之ANN休演",
-     "link": "https://news.yahoo.co.jp/pickup/6591654?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 22:13:36 GMT"
+     "title": "森下 清原氏ペースの通算50死球",
+     "link": "https://news.yahoo.co.jp/pickup/6591674?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 02:42:52 GMT"
     },
     {
-     "title": "異色のふぉ～ゆ～ CDデビューへ",
-     "link": "https://news.yahoo.co.jp/pickup/6591655?source=rss",
-     "pubDate": "Thu, 13 Aug 2026 22:48:12 GMT"
+     "title": "サマソニ東京 予定通り千葉で開催",
+     "link": "https://news.yahoo.co.jp/pickup/6591662?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 00:03:14 GMT"
     }
    ]
   }
