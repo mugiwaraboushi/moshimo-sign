@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T09:13:50.923Z",
+ "updatedAt": "2026-08-15T09:46:30.479Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,14 +13,9 @@
      "pubDate": "Sat, 15 Aug 2026 18:06:42 +0900"
     },
     {
-     "title": "戦後81年の終戦の日 政府主催の全国戦没者追悼式",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
-     "pubDate": "Sat, 15 Aug 2026 17:27:05 +0900"
-    },
-    {
-     "title": "小泉防衛相ら4閣僚が靖国神社参拝 高市首相は見送りへ",
+     "title": "小泉防衛相ら4閣僚が靖国神社参拝 高市首相は見送り",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44238",
-     "pubDate": "Sat, 15 Aug 2026 17:40:30 +0900"
+     "pubDate": "Sat, 15 Aug 2026 18:40:52 +0900"
     },
     {
      "title": "【千葉豪雨 被害】8人死亡確認 建物への浸水被害相次ぐ",
@@ -28,9 +23,14 @@
      "pubDate": "Sat, 15 Aug 2026 16:14:00 +0900"
     },
     {
-     "title": "関東甲信 大気不安定 千葉で大雨ピーク過ぎるも地盤緩み注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44212",
-     "pubDate": "Sat, 15 Aug 2026 07:54:15 +0900"
+     "title": "戦後81年の終戦の日 政府主催の全国戦没者追悼式",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
+     "pubDate": "Sat, 15 Aug 2026 17:27:05 +0900"
+    },
+    {
+     "title": "熊本地震 15日も厳しい暑さ 熱中症対策を 活発な地震活動続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44208",
+     "pubDate": "Sat, 15 Aug 2026 11:48:35 +0900"
     },
     {
      "title": "終戦の日 さまざまな立場の人たちが戦争の犠牲者を悼む集会",
@@ -38,9 +38,9 @@
      "pubDate": "Sat, 15 Aug 2026 17:45:51 +0900"
     },
     {
-     "title": "熊本地震 15日も厳しい暑さ 熱中症対策を 活発な地震活動続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44208",
-     "pubDate": "Sat, 15 Aug 2026 11:48:35 +0900"
+     "title": "関東甲信 大気不安定 千葉で大雨ピーク過ぎるも地盤緩み注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44212",
+     "pubDate": "Sat, 15 Aug 2026 07:54:15 +0900"
     }
    ]
   },
@@ -251,14 +251,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "首相 離れた場所から靖国「遥拝」",
+     "link": "https://news.yahoo.co.jp/pickup/6591846?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 09:00:17 GMT"
+    },
+    {
      "title": "この学校に爆弾落ちた 17歳の葛藤",
      "link": "https://news.yahoo.co.jp/pickup/6591840?source=rss",
      "pubDate": "Sat, 15 Aug 2026 08:03:16 GMT"
-    },
-    {
-     "title": "豪雨で放置車両 追突事故も発生",
-     "link": "https://news.yahoo.co.jp/pickup/6591845?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 08:30:36 GMT"
     },
     {
      "title": "海に流された子2人助けに 父死亡",
@@ -271,9 +271,14 @@
      "pubDate": "Sat, 15 Aug 2026 07:25:57 GMT"
     },
     {
-     "title": "英2階建てバス 暑すぎ運転手スト",
-     "link": "https://news.yahoo.co.jp/pickup/6591839?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 08:17:38 GMT"
+     "title": "車で撮り鉄殺そうとした疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6591852?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 09:38:18 GMT"
+    },
+    {
+     "title": "「ゲーム行動症」若年層10% 調査",
+     "link": "https://news.yahoo.co.jp/pickup/6591851?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 09:27:22 GMT"
     },
     {
      "title": "学歴からかう動画 批判した教授",
@@ -281,14 +286,9 @@
      "pubDate": "Sat, 15 Aug 2026 08:39:36 GMT"
     },
     {
-     "title": "コミケ近くのベローチェ 高速提供",
-     "link": "https://news.yahoo.co.jp/pickup/6591836?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 07:34:55 GMT"
-    },
-    {
-     "title": "履正社が涙の敗退 守備ミス目立つ",
-     "link": "https://news.yahoo.co.jp/pickup/6591838?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 07:52:45 GMT"
+     "title": "大橋未歩アナ 不妊治療と流産告白",
+     "link": "https://news.yahoo.co.jp/pickup/6591790?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 01:39:21 GMT"
     }
    ]
   }
