@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T23:08:21.204Z",
+ "updatedAt": "2026-08-15T23:40:42.697Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -246,9 +246,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "戦地へ向かった父 1度の抱っこ",
-     "link": "https://news.yahoo.co.jp/pickup/6591872?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 12:53:53 GMT"
+     "title": "首相の靖国参拝見送り 外交考慮か",
+     "link": "https://news.yahoo.co.jp/pickup/6591897?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 23:06:57 GMT"
     },
     {
      "title": "熊本地震 なお3205人が避難所に",
@@ -256,9 +256,9 @@
      "pubDate": "Sat, 15 Aug 2026 22:42:46 GMT"
     },
     {
-     "title": "花火が地上付近で爆発 3人けが",
-     "link": "https://news.yahoo.co.jp/pickup/6591887?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 15:08:56 GMT"
+     "title": "中国船 尖閣周辺EEZで海洋調査か",
+     "link": "https://news.yahoo.co.jp/pickup/6591895?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 22:54:50 GMT"
     },
     {
      "title": "行方不明の英国籍12歳少女 保護",
