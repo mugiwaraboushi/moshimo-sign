@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T10:10:00.527Z",
+ "updatedAt": "2026-08-15T10:44:26.763Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "地表断層出現の瞬間か 熊本 八代の防犯カメラに地表のずれ写る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44255",
-     "pubDate": "Sat, 15 Aug 2026 18:06:42 +0900"
+     "pubDate": "Sat, 15 Aug 2026 18:06:00 +0900"
     },
     {
      "title": "戦後81年の終戦の日 政府主催の全国戦没者追悼式",
@@ -23,24 +23,24 @@
      "pubDate": "Sat, 15 Aug 2026 16:14:00 +0900"
     },
     {
+     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3205人が避難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44248",
+     "pubDate": "Sat, 15 Aug 2026 19:24:53 +0900"
+    },
+    {
      "title": "小泉防衛相ら4閣僚が靖国神社参拝 高市首相は見送り",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44238",
      "pubDate": "Sat, 15 Aug 2026 18:56:03 +0900"
     },
     {
+     "title": "千葉県 熊谷知事が佐倉市を視察「激甚災害指定を」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44290",
+     "pubDate": "Sat, 15 Aug 2026 19:18:16 +0900"
+    },
+    {
      "title": "熊本地震 活発な地震活動 厳しい暑さ続く見込み 熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44208",
      "pubDate": "Sat, 15 Aug 2026 19:06:44 +0900"
-    },
-    {
-     "title": "熊本地震 お盆にふるさとで実家の片づけ行う人も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44237",
-     "pubDate": "Sat, 15 Aug 2026 16:01:20 +0900"
-    },
-    {
-     "title": "関東甲信 大気不安定 千葉で大雨ピーク過ぎるも地盤緩み注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44212",
-     "pubDate": "Sat, 15 Aug 2026 07:54:15 +0900"
     }
    ]
   },
@@ -50,9 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "お盆のUターンラッシュ 高速道路でピーク 各地で渋滞発生",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44293",
+     "pubDate": "Sat, 15 Aug 2026 19:39:12 +0900"
+    },
+    {
      "title": "終戦の日 さまざまな立場の人たちが戦争の犠牲者を悼む集会",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44275",
-     "pubDate": "Sat, 15 Aug 2026 18:50:40 +0900"
+     "pubDate": "Sat, 15 Aug 2026 19:14:39 +0900"
     },
     {
      "title": "終戦81年 太平洋戦争の激戦地 フィリピンで戦没者を追悼",
@@ -60,9 +65,9 @@
      "pubDate": "Sat, 15 Aug 2026 15:20:16 +0900"
     },
     {
-     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3223人が避難",
+     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3205人が避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44248",
-     "pubDate": "Sat, 15 Aug 2026 15:45:00 +0900"
+     "pubDate": "Sat, 15 Aug 2026 19:24:53 +0900"
     },
     {
      "title": "高市首相 千鳥ヶ淵戦没者墓苑で献花 「全国戦没者追悼式」前に",
@@ -118,11 +123,6 @@
      "title": "横浜 山中市長のパワハラ問題 市議会主要3会派が辞職申し入れ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44139",
      "pubDate": "Fri, 14 Aug 2026 18:55:53 +0900"
-    },
-    {
-     "title": "熊本 阿蘇山 噴火警戒レベルを「3」に引き上げ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44111",
-     "pubDate": "Fri, 14 Aug 2026 18:38:00 +0900"
     }
    ]
   },
@@ -256,14 +256,9 @@
      "pubDate": "Sat, 15 Aug 2026 10:05:15 GMT"
     },
     {
-     "title": "首相 離れた場所から靖国「遥拝」",
-     "link": "https://news.yahoo.co.jp/pickup/6591846?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 09:00:17 GMT"
-    },
-    {
-     "title": "海に流された子2人助けに 父死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6591826?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 06:42:48 GMT"
+     "title": "立憲が財政難 頭痛める党執行部",
+     "link": "https://news.yahoo.co.jp/pickup/6591850?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 09:08:40 GMT"
     },
     {
      "title": "マンション爆発事故 住人が死亡",
@@ -276,6 +271,11 @@
      "pubDate": "Sat, 15 Aug 2026 09:38:18 GMT"
     },
     {
+     "title": "SUVの国内販売競争 激しさ増す",
+     "link": "https://news.yahoo.co.jp/pickup/6591858?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 10:18:07 GMT"
+    },
+    {
      "title": "「ゲーム行動症」若年層10% 調査",
      "link": "https://news.yahoo.co.jp/pickup/6591851?source=rss",
      "pubDate": "Sat, 15 Aug 2026 09:27:22 GMT"
@@ -286,9 +286,9 @@
      "pubDate": "Sat, 15 Aug 2026 08:39:36 GMT"
     },
     {
-     "title": "映画「ズートピア3」制作決定",
-     "link": "https://news.yahoo.co.jp/pickup/6591853?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 09:35:52 GMT"
+     "title": "八村塁が得点 有明アリーナ大歓声",
+     "link": "https://news.yahoo.co.jp/pickup/6591859?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 10:30:57 GMT"
     }
    ]
   }
