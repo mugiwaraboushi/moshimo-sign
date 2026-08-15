@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T13:04:21.376Z",
+ "updatedAt": "2026-08-15T13:48:08.551Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -33,14 +33,14 @@
      "pubDate": "Sat, 15 Aug 2026 18:56:03 +0900"
     },
     {
-     "title": "千葉県 熊谷知事が佐倉市を視察「激甚災害指定を」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44290",
-     "pubDate": "Sat, 15 Aug 2026 19:18:16 +0900"
+     "title": "インドネシアでM7.7の地震 94cmの津波観測 これまでに38人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44197",
+     "pubDate": "Sat, 15 Aug 2026 20:42:49 +0900"
     },
     {
-     "title": "熊本地震 活発な地震活動 厳しい暑さ続く見込み 熱中症対策を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44208",
-     "pubDate": "Sat, 15 Aug 2026 19:06:44 +0900"
+     "title": "ドジャース 大谷翔平 投手復帰へブルペン練習を再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44253",
+     "pubDate": "Sat, 15 Aug 2026 20:48:43 +0900"
     }
    ]
   },
@@ -256,9 +256,9 @@
      "pubDate": "Sat, 15 Aug 2026 12:53:53 GMT"
     },
     {
-     "title": "千葉豪雨の死者は9人に 県が発表",
-     "link": "https://news.yahoo.co.jp/pickup/6591863?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 11:42:04 GMT"
+     "title": "熊本地震の住家被害 3万棟超え",
+     "link": "https://news.yahoo.co.jp/pickup/6591876?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 13:28:45 GMT"
     },
     {
      "title": "択捉島 ロシア大統領は軍艦で訪問",
@@ -271,9 +271,9 @@
      "pubDate": "Sat, 15 Aug 2026 12:36:01 GMT"
     },
     {
-     "title": "車で撮り鉄殺そうとした疑い 逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6591852?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 09:38:18 GMT"
+     "title": "豪で521kgの金塊鋳造 ギネス認定",
+     "link": "https://news.yahoo.co.jp/pickup/6591875?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 13:26:43 GMT"
     },
     {
      "title": "3児の母 突然「余命2カ月」の宣告",
@@ -281,9 +281,9 @@
      "pubDate": "Sat, 15 Aug 2026 10:56:53 GMT"
     },
     {
-     "title": "死球受けた中日・村松 肩甲骨骨折",
-     "link": "https://news.yahoo.co.jp/pickup/6591870?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 12:21:37 GMT"
+     "title": "天山広吉が引退 蝶野が惜別ビンタ",
+     "link": "https://news.yahoo.co.jp/pickup/6591877?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 13:34:52 GMT"
     },
     {
      "title": "八村22得点大暴れ 2年ぶり代表戦",
