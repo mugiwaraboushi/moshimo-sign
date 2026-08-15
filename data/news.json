@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T04:52:40.919Z",
+ "updatedAt": "2026-08-15T05:13:45.033Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -62,7 +62,7 @@
     {
      "title": "【動画】Pickup NEWS（8月15日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44174",
-     "pubDate": "Sat, 15 Aug 2026 07:01:55 +0900"
+     "pubDate": "Sat, 15 Aug 2026 14:11:50 +0900"
     },
     {
      "title": "戦後81年の終戦の日 政府主催の全国戦没者追悼式",
@@ -276,14 +276,14 @@
      "pubDate": "Sat, 15 Aug 2026 03:50:55 GMT"
     },
     {
-     "title": "速報 ドジャースvs.ブリュワーズ",
-     "link": "https://news.yahoo.co.jp/pickup/6591805?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 04:00:28 GMT"
+     "title": "由伸が快投 6回9K1失点で12勝目",
+     "link": "https://news.yahoo.co.jp/pickup/6591812?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 05:04:35 GMT"
     },
     {
-     "title": "「キングダム ハーツ」アニメ化へ",
-     "link": "https://news.yahoo.co.jp/pickup/6591804?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 03:58:40 GMT"
+     "title": "智弁和歌山 11回の激闘を制し8強",
+     "link": "https://news.yahoo.co.jp/pickup/6591811?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 04:58:30 GMT"
     },
     {
      "title": "ボディビル大会に寺田心 どよめき",
