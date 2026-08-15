@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T19:40:52.455Z",
+ "updatedAt": "2026-08-15T20:07:53.606Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -28,11 +28,6 @@
      "pubDate": "Sun, 16 Aug 2026 01:21:47 +0900"
     },
     {
-     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3205人が避難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44248",
-     "pubDate": "Sat, 15 Aug 2026 19:24:53 +0900"
-    },
-    {
      "title": "小泉防衛相ら4閣僚が靖国神社参拝 高市首相は見送り",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44238",
      "pubDate": "Sat, 15 Aug 2026 18:56:03 +0900"
@@ -41,6 +36,11 @@
      "title": "靖国神社参拝めぐり中国“強く抗議”韓国“嘆き禁じ得ない”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44311",
      "pubDate": "Sat, 15 Aug 2026 23:00:19 +0900"
+    },
+    {
+     "title": "インド モディ首相「発展するためには若者が重要」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44297",
+     "pubDate": "Sat, 15 Aug 2026 23:01:40 +0900"
     }
    ]
   },
