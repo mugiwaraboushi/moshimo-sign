@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T07:03:25.427Z",
+ "updatedAt": "2026-08-15T07:49:03.624Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -20,12 +20,7 @@
     {
      "title": "【千葉豪雨 被害】8人死亡確認 建物への浸水被害相次ぐ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44198",
-     "pubDate": "Sat, 15 Aug 2026 15:04:00 +0900"
-    },
-    {
-     "title": "小泉防衛相ら4閣僚が靖国神社参拝 高市首相は見送りへ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44238",
-     "pubDate": "Sat, 15 Aug 2026 13:25:28 +0900"
+     "pubDate": "Sat, 15 Aug 2026 16:14:24 +0900"
     },
     {
      "title": "関東甲信 大気不安定 千葉で大雨ピーク過ぎるも地盤緩み注意",
@@ -38,9 +33,14 @@
      "pubDate": "Sat, 15 Aug 2026 11:48:35 +0900"
     },
     {
-     "title": "終戦の日 超党派議員89人が靖国神社参拝 小野田経済安保相も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44247",
-     "pubDate": "Sat, 15 Aug 2026 14:44:36 +0900"
+     "title": "小泉防衛相ら4閣僚が靖国神社参拝 高市首相は見送りへ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44238",
+     "pubDate": "Sat, 15 Aug 2026 16:40:25 +0900"
+    },
+    {
+     "title": "熊本地震 お盆にふるさとで実家の片づけ行う人も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44237",
+     "pubDate": "Sat, 15 Aug 2026 16:01:20 +0900"
     }
    ]
   },
@@ -251,9 +251,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "関東-近畿で局地的に雨雲 警戒を",
-     "link": "https://news.yahoo.co.jp/pickup/6591818?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 05:49:56 GMT"
+     "title": "戦死の兄のため 追悼式参列の98歳",
+     "link": "https://news.yahoo.co.jp/pickup/6591823?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 06:26:01 GMT"
+    },
+    {
+     "title": "戦没者追悼式 式辞に高市カラー",
+     "link": "https://news.yahoo.co.jp/pickup/6591828?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 07:07:20 GMT"
     },
     {
      "title": "インドネシア東部で地震 20人死亡",
@@ -261,29 +266,24 @@
      "pubDate": "Sat, 15 Aug 2026 06:50:16 GMT"
     },
     {
-     "title": "車水没 保険適用のためすべきこと",
-     "link": "https://news.yahoo.co.jp/pickup/6591810?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 05:06:44 GMT"
-    },
-    {
      "title": "海に流された子2人助けに 父死亡",
      "link": "https://news.yahoo.co.jp/pickup/6591826?source=rss",
      "pubDate": "Sat, 15 Aug 2026 06:42:48 GMT"
     },
     {
-     "title": "人生に挫折した元東大生たち 実態",
-     "link": "https://news.yahoo.co.jp/pickup/6591829?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 06:59:11 GMT"
+     "title": "マンション爆発事故 住人が死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6591834?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 07:25:57 GMT"
     },
     {
-     "title": "西武 ウィンゲンターらと契約延長",
-     "link": "https://news.yahoo.co.jp/pickup/6591817?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 05:51:21 GMT"
+     "title": "甲子園 三重が履正社に勝ち8強",
+     "link": "https://news.yahoo.co.jp/pickup/6591835?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 07:27:48 GMT"
     },
     {
-     "title": "由伸が12勝目 チームの連敗を阻止",
-     "link": "https://news.yahoo.co.jp/pickup/6591815?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 05:23:44 GMT"
+     "title": "大谷の投手復帰プラン 監督明かす",
+     "link": "https://news.yahoo.co.jp/pickup/6591830?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 07:25:36 GMT"
     },
     {
      "title": "寺田心 ボディビル大会終え寝たい",
