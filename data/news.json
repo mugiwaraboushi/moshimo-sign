@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T13:48:08.551Z",
+ "updatedAt": "2026-08-15T14:10:05.201Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -169,6 +169,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "インド モディ首相「発展するためには若者が重要」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44297",
+     "pubDate": "Sat, 15 Aug 2026 23:01:40 +0900"
+    },
+    {
+     "title": "靖国神社参拝めぐり中国“強く抗議”韓国“嘆き禁じ得ない”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44311",
+     "pubDate": "Sat, 15 Aug 2026 23:00:19 +0900"
+    },
+    {
      "title": "台湾 新幹線をベースにした新型車両を導入 最初の車両が到着",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44289",
      "pubDate": "Sat, 15 Aug 2026 19:53:03 +0900"
@@ -232,16 +242,6 @@
      "title": "トランプ政権“中国が高関税逃れで「う回輸出」”の報告書",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44181",
      "pubDate": "Sat, 15 Aug 2026 06:09:36 +0900"
-    },
-    {
-     "title": "英国 右派政党の党首 辞職後の補欠選挙で再選も疑惑の調査続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44192",
-     "pubDate": "Sat, 15 Aug 2026 05:01:01 +0900"
-    },
-    {
-     "title": "韓国 インチョン国際空港 上半期の国際線旅客数が世界一",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44196",
-     "pubDate": "Sat, 15 Aug 2026 04:55:59 +0900"
     }
    ]
   },
