@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T05:13:45.033Z",
+ "updatedAt": "2026-08-15T05:46:54.095Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -20,7 +20,7 @@
     {
      "title": "【千葉 記録的豪雨】8人死亡確認 建物への浸水被害相次ぐ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44198",
-     "pubDate": "Sat, 15 Aug 2026 13:00:40 +0900"
+     "pubDate": "Sat, 15 Aug 2026 13:00:00 +0900"
     },
     {
      "title": "高市首相 千鳥ヶ淵戦没者墓苑で献花 「全国戦没者追悼式」前に",
@@ -169,6 +169,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "韓国 イ大統領「光復節」式典で演説“日韓協力の地平広げる”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44250",
+     "pubDate": "Sat, 15 Aug 2026 14:29:52 +0900"
+    },
+    {
+     "title": "ロシア プーチン大統領が北朝鮮のキム総書記へ祝電 結束を確認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44254",
+     "pubDate": "Sat, 15 Aug 2026 14:21:24 +0900"
+    },
+    {
      "title": "トランプ大統領“近くホルムズ海峡は米領と宣言”イラン側反発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44241",
      "pubDate": "Sat, 15 Aug 2026 12:31:16 +0900"
@@ -232,16 +242,6 @@
      "title": "フィリピン大統領 日本との海洋境界交渉“2国間で決める”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44176",
      "pubDate": "Fri, 14 Aug 2026 22:48:42 +0900"
-    },
-    {
-     "title": "米財務長官 イランへの制裁で来週新たな措置を発表へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44163",
-     "pubDate": "Fri, 14 Aug 2026 22:46:57 +0900"
-    },
-    {
-     "title": "ロシア外相が日本批判“アメリカと協力して軍事化”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44170",
-     "pubDate": "Fri, 14 Aug 2026 22:44:53 +0900"
     }
    ]
   },
@@ -256,19 +256,19 @@
      "pubDate": "Sat, 15 Aug 2026 03:48:38 GMT"
     },
     {
-     "title": "千葉豪雨 路上放置の車撤去続く",
-     "link": "https://news.yahoo.co.jp/pickup/6591808?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 04:27:43 GMT"
+     "title": "閣僚の靖国参拝 中国が強烈な抗議",
+     "link": "https://news.yahoo.co.jp/pickup/6591814?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 05:19:59 GMT"
     },
     {
-     "title": "李大統領 日韓協力の拡大を表明",
-     "link": "https://news.yahoo.co.jp/pickup/6591800?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 03:38:07 GMT"
+     "title": "インドネシア地震 5人死亡と発表",
+     "link": "https://news.yahoo.co.jp/pickup/6591813?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 05:15:33 GMT"
     },
     {
-     "title": "外国人の重大事故が増加傾向 背景",
-     "link": "https://news.yahoo.co.jp/pickup/6591807?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 04:45:25 GMT"
+     "title": "車水没 保険適用のためすべきこと",
+     "link": "https://news.yahoo.co.jp/pickup/6591810?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 05:06:44 GMT"
     },
     {
      "title": "壁から大量の金貨や金塊 ベルギー",
@@ -276,9 +276,9 @@
      "pubDate": "Sat, 15 Aug 2026 03:50:55 GMT"
     },
     {
-     "title": "由伸が快投 6回9K1失点で12勝目",
-     "link": "https://news.yahoo.co.jp/pickup/6591812?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 05:04:35 GMT"
+     "title": "由伸が12勝目 チームの連敗を阻止",
+     "link": "https://news.yahoo.co.jp/pickup/6591815?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 05:23:44 GMT"
     },
     {
      "title": "智弁和歌山 11回の激闘を制し8強",
