@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T22:43:17.555Z",
+ "updatedAt": "2026-08-15T23:08:21.204Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -251,14 +251,9 @@
      "pubDate": "Sat, 15 Aug 2026 12:53:53 GMT"
     },
     {
-     "title": "インドネシアの地震 40人超が死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6591885?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 14:41:32 GMT"
-    },
-    {
-     "title": "子と川遊びしようと 男性溺れ死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6591869?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 12:36:01 GMT"
+     "title": "熊本地震 なお3205人が避難所に",
+     "link": "https://news.yahoo.co.jp/pickup/6591894?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 22:42:46 GMT"
     },
     {
      "title": "花火が地上付近で爆発 3人けが",
@@ -271,6 +266,11 @@
      "pubDate": "Sat, 15 Aug 2026 22:14:20 GMT"
     },
     {
+     "title": "SAトイレに急病人 対応に反響",
+     "link": "https://news.yahoo.co.jp/pickup/6591896?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 22:52:38 GMT"
+    },
+    {
      "title": "鈴木彩艶のPSG移籍は破談か 報道",
      "link": "https://news.yahoo.co.jp/pickup/6591890?source=rss",
      "pubDate": "Sat, 15 Aug 2026 22:20:53 GMT"
@@ -281,9 +281,9 @@
      "pubDate": "Sat, 15 Aug 2026 22:20:31 GMT"
     },
     {
-     "title": "中村七之助 第1子誕生を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6591884?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 14:21:07 GMT"
+     "title": "ラヴ上等と法務省コラボ なぜ物議",
+     "link": "https://news.yahoo.co.jp/pickup/6591893?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 22:42:12 GMT"
     }
    ]
   }
