@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T21:41:10.652Z",
+ "updatedAt": "2026-08-15T22:07:08.010Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -28,9 +28,9 @@
      "pubDate": "Sun, 16 Aug 2026 01:21:47 +0900"
     },
     {
-     "title": "山形 鶴岡 花火大会で3人軽傷 花火が地上で破裂したか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44344",
-     "pubDate": "Sun, 16 Aug 2026 06:16:18 +0900"
+     "title": "自民 小林政調会長が靖国神社に参拝",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44348",
+     "pubDate": "Sun, 16 Aug 2026 06:46:40 +0900"
     },
     {
      "title": "地表断層出現の瞬間か 熊本 八代の防犯カメラに地表のずれ写る",
@@ -38,9 +38,9 @@
      "pubDate": "Sat, 15 Aug 2026 18:06:00 +0900"
     },
     {
-     "title": "新体操 ロス五輪出場権を獲得 世界選手権の団体総合で2位に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44332",
-     "pubDate": "Sun, 16 Aug 2026 02:44:00 +0900"
+     "title": "岐阜 長良川で水難事故相次ぐ 23歳の男性 計2人が溺れて死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44296",
+     "pubDate": "Sat, 15 Aug 2026 23:48:12 +0900"
     }
    ]
   },
@@ -50,14 +50,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "JR中央・総武線の各駅停車 全線の上下線で運転見合わせ",
+     "title": "【動画】Pickup NEWS（8月16日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44257",
+     "pubDate": "Sun, 16 Aug 2026 07:01:54 +0900"
+    },
+    {
+     "title": "JR中央・総武線 一部区間で運転見合わせ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44346",
-     "pubDate": "Sun, 16 Aug 2026 06:24:15 +0900"
+     "pubDate": "Sun, 16 Aug 2026 06:57:49 +0900"
     },
     {
      "title": "山形 鶴岡 花火大会で3人軽傷 花火が地上で破裂したか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44344",
-     "pubDate": "Sun, 16 Aug 2026 06:16:18 +0900"
+     "pubDate": "Sun, 16 Aug 2026 07:05:16 +0900"
     },
     {
      "title": "熊本地震 活発な活動続く 最大震度5弱程度以上の地震に注意",
@@ -118,11 +123,6 @@
      "title": "【動画】Pickup NEWS（8月15日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44174",
      "pubDate": "Sat, 15 Aug 2026 19:44:13 +0900"
-    },
-    {
-     "title": "戦後81年の終戦の日 政府主催の全国戦没者追悼式",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
-     "pubDate": "Sat, 15 Aug 2026 20:17:27 +0900"
     }
    ]
   },
