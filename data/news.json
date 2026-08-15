@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T14:43:58.265Z",
+ "updatedAt": "2026-08-15T15:08:03.202Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -33,14 +33,14 @@
      "pubDate": "Sat, 15 Aug 2026 18:56:03 +0900"
     },
     {
-     "title": "インドネシアでM7.7の地震 94cmの津波観測 これまでに38人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44197",
-     "pubDate": "Sat, 15 Aug 2026 20:42:49 +0900"
+     "title": "靖国神社参拝めぐり中国“強く抗議”韓国“嘆き禁じ得ない”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44311",
+     "pubDate": "Sat, 15 Aug 2026 23:00:19 +0900"
     },
     {
-     "title": "ドジャース 大谷翔平 投手復帰へブルペン練習を再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44253",
-     "pubDate": "Sat, 15 Aug 2026 20:48:43 +0900"
+     "title": "陸上女子100mハードル 中島ひとみが再び日本新記録",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44299",
+     "pubDate": "Sat, 15 Aug 2026 22:57:41 +0900"
     }
    ]
   },
@@ -55,9 +55,9 @@
      "pubDate": "Sat, 15 Aug 2026 23:38:40 +0900"
     },
     {
-     "title": "岐阜 美濃 長良川で川遊びの23歳男性溺れ死亡",
+     "title": "岐阜 長良川で水難事故相次ぐ 23歳の男性 計2人が溺れて死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44296",
-     "pubDate": "Sat, 15 Aug 2026 21:23:18 +0900"
+     "pubDate": "Sat, 15 Aug 2026 23:48:12 +0900"
     },
     {
      "title": "高校野球 「2部制」期間 熱中症疑いの選手はのべ9人",
@@ -206,7 +206,7 @@
     {
      "title": "トランプ大統領“近くホルムズ海峡は米領と宣言”イラン側反発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44241",
-     "pubDate": "Sat, 15 Aug 2026 12:31:00 +0900"
+     "pubDate": "Sat, 15 Aug 2026 23:54:00 +0900"
     },
     {
      "title": "リバプール ベゾス氏参加の投資家グループに一部株式売却へ",
@@ -261,19 +261,14 @@
      "pubDate": "Sat, 15 Aug 2026 14:41:32 GMT"
     },
     {
-     "title": "放置車両レッカー追いつかず 千葉",
-     "link": "https://news.yahoo.co.jp/pickup/6591879?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 14:04:28 GMT"
-    },
-    {
      "title": "子と川遊びしようと 男性溺れ死亡",
      "link": "https://news.yahoo.co.jp/pickup/6591869?source=rss",
      "pubDate": "Sat, 15 Aug 2026 12:36:01 GMT"
     },
     {
-     "title": "米軍AIシステム「メイブン」とは",
-     "link": "https://news.yahoo.co.jp/pickup/6591883?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 14:22:11 GMT"
+     "title": "花火が地上付近で爆発 3人軽傷か",
+     "link": "https://news.yahoo.co.jp/pickup/6591886?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 14:52:21 GMT"
     },
     {
      "title": "物価高 具材ない麺商品の投入加速",
@@ -289,6 +284,11 @@
      "title": "中村七之助 第1子誕生を発表",
      "link": "https://news.yahoo.co.jp/pickup/6591884?source=rss",
      "pubDate": "Sat, 15 Aug 2026 14:21:07 GMT"
+    },
+    {
+     "title": "寺田心 ボディビル大会終え寝たい",
+     "link": "https://news.yahoo.co.jp/pickup/6591824?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 06:33:47 GMT"
     }
    ]
   }
