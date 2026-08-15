@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T20:07:53.606Z",
+ "updatedAt": "2026-08-15T20:44:09.144Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "【千葉豪雨】死者9人 行方不明1人 浸水被害1000棟超 雨に注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
+     "pubDate": "Sun, 16 Aug 2026 05:22:26 +0900"
+    },
+    {
+     "title": "熊本地震 活発な活動続く 最大震度5弱程度以上の地震に注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44323",
+     "pubDate": "Sun, 16 Aug 2026 05:38:09 +0900"
+    },
+    {
      "title": "地表断層出現の瞬間か 熊本 八代の防犯カメラに地表のずれ写る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44255",
      "pubDate": "Sat, 15 Aug 2026 18:06:00 +0900"
-    },
-    {
-     "title": "戦後81年の終戦の日 政府主催の全国戦没者追悼式",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
-     "pubDate": "Sat, 15 Aug 2026 20:17:27 +0900"
-    },
-    {
-     "title": "【千葉豪雨】この雨で死亡した人9人に 住宅被害も相次ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44198",
-     "pubDate": "Sat, 15 Aug 2026 20:04:55 +0900"
     },
     {
      "title": "自民 岸田元首相 萩生田幹事長代行ら 山梨県鳴沢村で会合",
@@ -28,14 +28,14 @@
      "pubDate": "Sun, 16 Aug 2026 01:21:47 +0900"
     },
     {
-     "title": "小泉防衛相ら4閣僚が靖国神社参拝 高市首相は見送り",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44238",
-     "pubDate": "Sat, 15 Aug 2026 18:56:03 +0900"
+     "title": "絶滅危惧種のキタサンショウウオ 生息地等保護区指定へ 環境省",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44228",
+     "pubDate": "Sun, 16 Aug 2026 05:15:30 +0900"
     },
     {
      "title": "靖国神社参拝めぐり中国“強く抗議”韓国“嘆き禁じ得ない”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44311",
-     "pubDate": "Sat, 15 Aug 2026 23:00:19 +0900"
+     "pubDate": "Sun, 16 Aug 2026 05:18:24 +0900"
     },
     {
      "title": "インド モディ首相「発展するためには若者が重要」",
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "熊本地震 活発な活動続く 最大震度5弱程度以上の地震に注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44323",
+     "pubDate": "Sun, 16 Aug 2026 05:38:09 +0900"
+    },
+    {
+     "title": "絶滅危惧種のキタサンショウウオ 生息地等保護区指定へ 環境省",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44228",
+     "pubDate": "Sun, 16 Aug 2026 05:15:30 +0900"
+    },
+    {
+     "title": "【千葉豪雨】死者9人 行方不明1人 浸水被害1000棟超 雨に注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
+     "pubDate": "Sun, 16 Aug 2026 05:22:26 +0900"
+    },
     {
      "title": "長野 岡谷 3人死亡の土石流災害から5年 遺族が現場に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44315",
@@ -108,21 +123,6 @@
      "title": "熊本地震で被災した高校生の就職活動 国が柔軟な対応を要請",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44184",
      "pubDate": "Fri, 14 Aug 2026 22:51:38 +0900"
-    },
-    {
-     "title": "沖縄 尖閣沖 中国海警局の船4隻が一時領海侵入",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44155",
-     "pubDate": "Fri, 14 Aug 2026 22:25:00 +0900"
-    },
-    {
-     "title": "車で移動中に浸水被害 専門家「毎年起きる身近な危険」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44103",
-     "pubDate": "Fri, 14 Aug 2026 20:23:37 +0900"
-    },
-    {
-     "title": "知床 羅臼岳 ヒグマに襲われ男性死亡から1年 父親初めて現地に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44035",
-     "pubDate": "Fri, 14 Aug 2026 20:09:00 +0900"
     }
    ]
   },
@@ -171,7 +171,7 @@
     {
      "title": "靖国神社参拝めぐり中国“強く抗議”韓国“嘆き禁じ得ない”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44311",
-     "pubDate": "Sat, 15 Aug 2026 23:00:19 +0900"
+     "pubDate": "Sun, 16 Aug 2026 05:18:24 +0900"
     },
     {
      "title": "台湾 新幹線をベースにした新型車両を導入 最初の車両が到着",
