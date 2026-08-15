@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T06:16:20.978Z",
+ "updatedAt": "2026-08-15T07:03:25.427Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3223人が避難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44248",
+     "pubDate": "Sat, 15 Aug 2026 15:45:24 +0900"
+    },
+    {
      "title": "戦後81年の終戦の日 政府主催の全国戦没者追悼式",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
      "pubDate": "Sat, 15 Aug 2026 13:42:55 +0900"
     },
     {
-     "title": "【千葉 記録的豪雨】8人死亡確認 建物への浸水被害相次ぐ",
+     "title": "【千葉豪雨 被害】8人死亡確認 建物への浸水被害相次ぐ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44198",
-     "pubDate": "Sat, 15 Aug 2026 15:04:14 +0900"
-    },
-    {
-     "title": "熊本地震 15日も厳しい暑さ 熱中症対策を 活発な地震活動続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44208",
-     "pubDate": "Sat, 15 Aug 2026 11:48:35 +0900"
+     "pubDate": "Sat, 15 Aug 2026 15:04:00 +0900"
     },
     {
      "title": "小泉防衛相ら4閣僚が靖国神社参拝 高市首相は見送りへ",
@@ -33,14 +33,14 @@
      "pubDate": "Sat, 15 Aug 2026 07:54:15 +0900"
     },
     {
+     "title": "熊本地震 15日も厳しい暑さ 熱中症対策を 活発な地震活動続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44208",
+     "pubDate": "Sat, 15 Aug 2026 11:48:35 +0900"
+    },
+    {
      "title": "終戦の日 超党派議員89人が靖国神社参拝 小野田経済安保相も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44247",
      "pubDate": "Sat, 15 Aug 2026 14:44:36 +0900"
-    },
-    {
-     "title": "ロシア プーチン大統領が北朝鮮のキム総書記へ祝電 結束を確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44254",
-     "pubDate": "Sat, 15 Aug 2026 14:21:24 +0900"
     }
    ]
   },
@@ -50,9 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "終戦81年 太平洋戦争の激戦地 フィリピンで戦没者を追悼",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44268",
+     "pubDate": "Sat, 15 Aug 2026 15:20:16 +0900"
+    },
+    {
      "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3223人が避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44248",
-     "pubDate": "Sat, 15 Aug 2026 15:07:47 +0900"
+     "pubDate": "Sat, 15 Aug 2026 15:45:24 +0900"
     },
     {
      "title": "高市首相 千鳥ヶ淵戦没者墓苑で献花 「全国戦没者追悼式」前に",
@@ -118,11 +123,6 @@
      "title": "女性の唇を無理やり自分で縫わせたか 同居人を強要の罪で起訴",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44125",
      "pubDate": "Fri, 14 Aug 2026 18:30:34 +0900"
-    },
-    {
-     "title": "熊本地震 子ども心をどうケアする? 【専門家Ｑ＆Ａ】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44086",
-     "pubDate": "Fri, 14 Aug 2026 17:33:19 +0900"
     }
    ]
   },
@@ -169,6 +169,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "終戦81年 太平洋戦争の激戦地 フィリピンで戦没者を追悼",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44268",
+     "pubDate": "Sat, 15 Aug 2026 15:20:16 +0900"
+    },
+    {
+     "title": "ワシントンの第2次世界大戦記念碑に落書きか 容疑者を訴追",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44227",
+     "pubDate": "Sat, 15 Aug 2026 15:19:34 +0900"
+    },
+    {
      "title": "韓国 イ大統領「光復節」式典で演説“日韓協力の地平広げる”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44250",
      "pubDate": "Sat, 15 Aug 2026 14:29:52 +0900"
@@ -181,7 +191,7 @@
     {
      "title": "トランプ大統領“近くホルムズ海峡は米領と宣言”イラン側反発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44241",
-     "pubDate": "Sat, 15 Aug 2026 12:31:16 +0900"
+     "pubDate": "Sat, 15 Aug 2026 12:31:00 +0900"
     },
     {
      "title": "リバプール ベゾス氏参加の投資家グループに一部株式売却へ",
@@ -232,16 +242,6 @@
      "title": "アフガニスタン タリバン復権から5年 人道状況の悪化懸念",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44175",
      "pubDate": "Sat, 15 Aug 2026 04:53:40 +0900"
-    },
-    {
-     "title": "米 7月の小売業の売上高 前月比0.6％減 FRB利上げ観測やや後退",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44188",
-     "pubDate": "Sat, 15 Aug 2026 00:05:27 +0900"
-    },
-    {
-     "title": "フィリピン大統領 日本との海洋境界交渉“2国間で決める”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44176",
-     "pubDate": "Fri, 14 Aug 2026 22:48:42 +0900"
     }
    ]
   },
@@ -256,14 +256,9 @@
      "pubDate": "Sat, 15 Aug 2026 05:49:56 GMT"
     },
     {
-     "title": "ウ和平仲介 米大統領は二転三転",
-     "link": "https://news.yahoo.co.jp/pickup/6591816?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 05:35:31 GMT"
-    },
-    {
-     "title": "閣僚の靖国参拝 中国が強烈な抗議",
-     "link": "https://news.yahoo.co.jp/pickup/6591814?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 05:19:59 GMT"
+     "title": "インドネシア東部で地震 20人死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6591827?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 06:50:16 GMT"
     },
     {
      "title": "車水没 保険適用のためすべきこと",
@@ -271,9 +266,19 @@
      "pubDate": "Sat, 15 Aug 2026 05:06:44 GMT"
     },
     {
-     "title": "壁から大量の金貨や金塊 ベルギー",
-     "link": "https://news.yahoo.co.jp/pickup/6591802?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 03:50:55 GMT"
+     "title": "海に流された子2人助けに 父死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6591826?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 06:42:48 GMT"
+    },
+    {
+     "title": "人生に挫折した元東大生たち 実態",
+     "link": "https://news.yahoo.co.jp/pickup/6591829?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 06:59:11 GMT"
+    },
+    {
+     "title": "西武 ウィンゲンターらと契約延長",
+     "link": "https://news.yahoo.co.jp/pickup/6591817?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 05:51:21 GMT"
     },
     {
      "title": "由伸が12勝目 チームの連敗を阻止",
@@ -281,14 +286,9 @@
      "pubDate": "Sat, 15 Aug 2026 05:23:44 GMT"
     },
     {
-     "title": "智弁和歌山 11回の激闘を制し8強",
-     "link": "https://news.yahoo.co.jp/pickup/6591811?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 04:58:30 GMT"
-    },
-    {
-     "title": "ボディビル大会に寺田心 どよめき",
-     "link": "https://news.yahoo.co.jp/pickup/6591799?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 03:14:18 GMT"
+     "title": "寺田心 ボディビル大会終え寝たい",
+     "link": "https://news.yahoo.co.jp/pickup/6591824?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 06:33:47 GMT"
     }
    ]
   }
