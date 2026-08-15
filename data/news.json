@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T11:41:02.193Z",
+ "updatedAt": "2026-08-15T12:12:11.566Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -256,9 +256,9 @@
      "pubDate": "Sat, 15 Aug 2026 10:05:15 GMT"
     },
     {
-     "title": "立憲が財政難 頭痛める党執行部",
-     "link": "https://news.yahoo.co.jp/pickup/6591850?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 09:08:40 GMT"
+     "title": "千葉豪雨の死者は9人に 県が発表",
+     "link": "https://news.yahoo.co.jp/pickup/6591863?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 11:42:04 GMT"
     },
     {
      "title": "米大統領 ガソリン高「謝らない」",
@@ -271,11 +271,6 @@
      "pubDate": "Sat, 15 Aug 2026 09:38:18 GMT"
     },
     {
-     "title": "SUVの国内販売競争 激しさ増す",
-     "link": "https://news.yahoo.co.jp/pickup/6591858?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 10:18:07 GMT"
-    },
-    {
      "title": "学歴からかう動画 批判した教授",
      "link": "https://news.yahoo.co.jp/pickup/6591847?source=rss",
      "pubDate": "Sat, 15 Aug 2026 08:39:36 GMT"
@@ -284,6 +279,11 @@
      "title": "3児の母 突然「余命2カ月」の宣告",
      "link": "https://news.yahoo.co.jp/pickup/6591861?source=rss",
      "pubDate": "Sat, 15 Aug 2026 10:56:53 GMT"
+    },
+    {
+     "title": "甲子園 仙台育英が3年ぶり8強進出",
+     "link": "https://news.yahoo.co.jp/pickup/6591867?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 11:58:41 GMT"
     },
     {
      "title": "100m障害・中島ひとみ また日本新",
