@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T16:08:59.235Z",
+ "updatedAt": "2026-08-15T16:46:18.057Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,6 +23,11 @@
      "pubDate": "Sat, 15 Aug 2026 20:04:55 +0900"
     },
     {
+     "title": "自民 岸田元首相 萩生田幹事長代行ら 山梨県鳴沢村で会合",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44321",
+     "pubDate": "Sun, 16 Aug 2026 01:21:47 +0900"
+    },
+    {
      "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3205人が避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44248",
      "pubDate": "Sat, 15 Aug 2026 19:24:53 +0900"
@@ -36,11 +41,6 @@
      "title": "靖国神社参拝めぐり中国“強く抗議”韓国“嘆き禁じ得ない”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44311",
      "pubDate": "Sat, 15 Aug 2026 23:00:19 +0900"
-    },
-    {
-     "title": "トランプ大統領“近くホルムズ海峡は米領と宣言”イラン側反発",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44241",
-     "pubDate": "Sat, 15 Aug 2026 23:54:00 +0900"
     }
    ]
   },
