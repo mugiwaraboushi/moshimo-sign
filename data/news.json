@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T09:46:30.479Z",
+ "updatedAt": "2026-08-15T10:10:00.527Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,9 @@
      "pubDate": "Sat, 15 Aug 2026 18:06:42 +0900"
     },
     {
-     "title": "小泉防衛相ら4閣僚が靖国神社参拝 高市首相は見送り",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44238",
-     "pubDate": "Sat, 15 Aug 2026 18:40:52 +0900"
+     "title": "戦後81年の終戦の日 政府主催の全国戦没者追悼式",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
+     "pubDate": "Sat, 15 Aug 2026 17:27:05 +0900"
     },
     {
      "title": "【千葉豪雨 被害】8人死亡確認 建物への浸水被害相次ぐ",
@@ -23,19 +23,19 @@
      "pubDate": "Sat, 15 Aug 2026 16:14:00 +0900"
     },
     {
-     "title": "戦後81年の終戦の日 政府主催の全国戦没者追悼式",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
-     "pubDate": "Sat, 15 Aug 2026 17:27:05 +0900"
+     "title": "小泉防衛相ら4閣僚が靖国神社参拝 高市首相は見送り",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44238",
+     "pubDate": "Sat, 15 Aug 2026 18:56:03 +0900"
     },
     {
-     "title": "熊本地震 15日も厳しい暑さ 熱中症対策を 活発な地震活動続く",
+     "title": "熊本地震 活発な地震活動 厳しい暑さ続く見込み 熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44208",
-     "pubDate": "Sat, 15 Aug 2026 11:48:35 +0900"
+     "pubDate": "Sat, 15 Aug 2026 19:06:44 +0900"
     },
     {
-     "title": "終戦の日 さまざまな立場の人たちが戦争の犠牲者を悼む集会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44275",
-     "pubDate": "Sat, 15 Aug 2026 17:45:51 +0900"
+     "title": "熊本地震 お盆にふるさとで実家の片づけ行う人も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44237",
+     "pubDate": "Sat, 15 Aug 2026 16:01:20 +0900"
     },
     {
      "title": "関東甲信 大気不安定 千葉で大雨ピーク過ぎるも地盤緩み注意",
@@ -52,7 +52,7 @@
     {
      "title": "終戦の日 さまざまな立場の人たちが戦争の犠牲者を悼む集会",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44275",
-     "pubDate": "Sat, 15 Aug 2026 17:45:51 +0900"
+     "pubDate": "Sat, 15 Aug 2026 18:50:40 +0900"
     },
     {
      "title": "終戦81年 太平洋戦争の激戦地 フィリピンで戦没者を追悼",
@@ -251,14 +251,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "被爆で顔に傷 思春期耐えられず",
+     "link": "https://news.yahoo.co.jp/pickup/6591857?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 10:05:15 GMT"
+    },
+    {
      "title": "首相 離れた場所から靖国「遥拝」",
      "link": "https://news.yahoo.co.jp/pickup/6591846?source=rss",
      "pubDate": "Sat, 15 Aug 2026 09:00:17 GMT"
-    },
-    {
-     "title": "この学校に爆弾落ちた 17歳の葛藤",
-     "link": "https://news.yahoo.co.jp/pickup/6591840?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 08:03:16 GMT"
     },
     {
      "title": "海に流された子2人助けに 父死亡",
@@ -286,9 +286,9 @@
      "pubDate": "Sat, 15 Aug 2026 08:39:36 GMT"
     },
     {
-     "title": "大橋未歩アナ 不妊治療と流産告白",
-     "link": "https://news.yahoo.co.jp/pickup/6591790?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 01:39:21 GMT"
+     "title": "映画「ズートピア3」制作決定",
+     "link": "https://news.yahoo.co.jp/pickup/6591853?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 09:35:52 GMT"
     }
    ]
   }
