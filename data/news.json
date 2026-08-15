@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T14:10:05.201Z",
+ "updatedAt": "2026-08-15T14:43:58.265Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "長野 岡谷 3人死亡の土石流災害から5年 遺族が現場に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44315",
+     "pubDate": "Sat, 15 Aug 2026 23:38:40 +0900"
+    },
     {
      "title": "岐阜 美濃 長良川で川遊びの23歳男性溺れ死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44296",
@@ -118,11 +123,6 @@
      "title": "知床 羅臼岳 ヒグマに襲われ男性死亡から1年 父親初めて現地に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44035",
      "pubDate": "Fri, 14 Aug 2026 20:09:00 +0900"
-    },
-    {
-     "title": "大雨で帰宅困難者も 専門家「対策の検討必要」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44138",
-     "pubDate": "Fri, 14 Aug 2026 20:08:25 +0900"
     }
    ]
   },
@@ -256,14 +256,14 @@
      "pubDate": "Sat, 15 Aug 2026 12:53:53 GMT"
     },
     {
-     "title": "熊本地震の住家被害 3万棟超え",
-     "link": "https://news.yahoo.co.jp/pickup/6591876?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 13:28:45 GMT"
+     "title": "インドネシアの地震 40人超が死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6591885?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 14:41:32 GMT"
     },
     {
-     "title": "択捉島 ロシア大統領は軍艦で訪問",
-     "link": "https://news.yahoo.co.jp/pickup/6591871?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 12:27:22 GMT"
+     "title": "放置車両レッカー追いつかず 千葉",
+     "link": "https://news.yahoo.co.jp/pickup/6591879?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 14:04:28 GMT"
     },
     {
      "title": "子と川遊びしようと 男性溺れ死亡",
@@ -271,9 +271,14 @@
      "pubDate": "Sat, 15 Aug 2026 12:36:01 GMT"
     },
     {
-     "title": "豪で521kgの金塊鋳造 ギネス認定",
-     "link": "https://news.yahoo.co.jp/pickup/6591875?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 13:26:43 GMT"
+     "title": "米軍AIシステム「メイブン」とは",
+     "link": "https://news.yahoo.co.jp/pickup/6591883?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 14:22:11 GMT"
+    },
+    {
+     "title": "物価高 具材ない麺商品の投入加速",
+     "link": "https://news.yahoo.co.jp/pickup/6591874?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 13:06:06 GMT"
     },
     {
      "title": "3児の母 突然「余命2カ月」の宣告",
@@ -281,14 +286,9 @@
      "pubDate": "Sat, 15 Aug 2026 10:56:53 GMT"
     },
     {
-     "title": "天山広吉が引退 蝶野が惜別ビンタ",
-     "link": "https://news.yahoo.co.jp/pickup/6591877?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 13:34:52 GMT"
-    },
-    {
-     "title": "八村22得点大暴れ 2年ぶり代表戦",
-     "link": "https://news.yahoo.co.jp/pickup/6591873?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 12:47:34 GMT"
+     "title": "中村七之助 第1子誕生を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6591884?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 14:21:07 GMT"
     }
    ]
   }
