@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T07:49:03.624Z",
+ "updatedAt": "2026-08-15T08:12:29.998Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3223人が避難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44248",
-     "pubDate": "Sat, 15 Aug 2026 15:45:24 +0900"
+     "title": "【千葉豪雨 被害】8人死亡確認 建物への浸水被害相次ぐ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44198",
+     "pubDate": "Sat, 15 Aug 2026 16:14:24 +0900"
     },
     {
      "title": "戦後81年の終戦の日 政府主催の全国戦没者追悼式",
@@ -18,9 +18,9 @@
      "pubDate": "Sat, 15 Aug 2026 13:42:55 +0900"
     },
     {
-     "title": "【千葉豪雨 被害】8人死亡確認 建物への浸水被害相次ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44198",
-     "pubDate": "Sat, 15 Aug 2026 16:14:24 +0900"
+     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3223人が避難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44248",
+     "pubDate": "Sat, 15 Aug 2026 15:45:00 +0900"
     },
     {
      "title": "関東甲信 大気不安定 千葉で大雨ピーク過ぎるも地盤緩み注意",
@@ -57,7 +57,7 @@
     {
      "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3223人が避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44248",
-     "pubDate": "Sat, 15 Aug 2026 15:45:24 +0900"
+     "pubDate": "Sat, 15 Aug 2026 15:45:00 +0900"
     },
     {
      "title": "高市首相 千鳥ヶ淵戦没者墓苑で献花 「全国戦没者追悼式」前に",
@@ -251,19 +251,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "戦死の兄のため 追悼式参列の98歳",
-     "link": "https://news.yahoo.co.jp/pickup/6591823?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 06:26:01 GMT"
+     "title": "この学校に爆弾落ちた 17歳の葛藤",
+     "link": "https://news.yahoo.co.jp/pickup/6591840?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 08:03:16 GMT"
     },
     {
      "title": "戦没者追悼式 式辞に高市カラー",
      "link": "https://news.yahoo.co.jp/pickup/6591828?source=rss",
      "pubDate": "Sat, 15 Aug 2026 07:07:20 GMT"
-    },
-    {
-     "title": "インドネシア東部で地震 20人死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6591827?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 06:50:16 GMT"
     },
     {
      "title": "海に流された子2人助けに 父死亡",
@@ -276,14 +271,19 @@
      "pubDate": "Sat, 15 Aug 2026 07:25:57 GMT"
     },
     {
-     "title": "甲子園 三重が履正社に勝ち8強",
-     "link": "https://news.yahoo.co.jp/pickup/6591835?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 07:27:48 GMT"
+     "title": "コミケ近くのベローチェ 高速提供",
+     "link": "https://news.yahoo.co.jp/pickup/6591836?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 07:34:55 GMT"
     },
     {
-     "title": "大谷の投手復帰プラン 監督明かす",
-     "link": "https://news.yahoo.co.jp/pickup/6591830?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 07:25:36 GMT"
+     "title": "速報甲子園 拓大紅陵vs.仙台育英",
+     "link": "https://news.yahoo.co.jp/pickup/6591825?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 07:46:39 GMT"
+    },
+    {
+     "title": "履正社が涙の敗退 守備ミス目立つ",
+     "link": "https://news.yahoo.co.jp/pickup/6591838?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 07:52:45 GMT"
     },
     {
      "title": "寺田心 ボディビル大会終え寝たい",
