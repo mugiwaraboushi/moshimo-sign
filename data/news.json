@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T05:46:54.095Z",
+ "updatedAt": "2026-08-15T06:16:20.978Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,19 +13,9 @@
      "pubDate": "Sat, 15 Aug 2026 13:42:55 +0900"
     },
     {
-     "title": "小泉防衛相ら4閣僚が靖国神社参拝 高市首相は見送りへ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44238",
-     "pubDate": "Sat, 15 Aug 2026 13:25:28 +0900"
-    },
-    {
      "title": "【千葉 記録的豪雨】8人死亡確認 建物への浸水被害相次ぐ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44198",
-     "pubDate": "Sat, 15 Aug 2026 13:00:00 +0900"
-    },
-    {
-     "title": "高市首相 千鳥ヶ淵戦没者墓苑で献花 「全国戦没者追悼式」前に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44236",
-     "pubDate": "Sat, 15 Aug 2026 11:27:00 +0900"
+     "pubDate": "Sat, 15 Aug 2026 15:04:14 +0900"
     },
     {
      "title": "熊本地震 15日も厳しい暑さ 熱中症対策を 活発な地震活動続く",
@@ -33,14 +23,24 @@
      "pubDate": "Sat, 15 Aug 2026 11:48:35 +0900"
     },
     {
+     "title": "小泉防衛相ら4閣僚が靖国神社参拝 高市首相は見送りへ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44238",
+     "pubDate": "Sat, 15 Aug 2026 13:25:28 +0900"
+    },
+    {
      "title": "関東甲信 大気不安定 千葉で大雨ピーク過ぎるも地盤緩み注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44212",
      "pubDate": "Sat, 15 Aug 2026 07:54:15 +0900"
     },
     {
-     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3223人が避難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44248",
-     "pubDate": "Sat, 15 Aug 2026 12:35:00 +0900"
+     "title": "終戦の日 超党派議員89人が靖国神社参拝 小野田経済安保相も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44247",
+     "pubDate": "Sat, 15 Aug 2026 14:44:36 +0900"
+    },
+    {
+     "title": "ロシア プーチン大統領が北朝鮮のキム総書記へ祝電 結束を確認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44254",
+     "pubDate": "Sat, 15 Aug 2026 14:21:24 +0900"
     }
    ]
   },
@@ -52,7 +52,7 @@
     {
      "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3223人が避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44248",
-     "pubDate": "Sat, 15 Aug 2026 12:35:00 +0900"
+     "pubDate": "Sat, 15 Aug 2026 15:07:47 +0900"
     },
     {
      "title": "高市首相 千鳥ヶ淵戦没者墓苑で献花 「全国戦没者追悼式」前に",
@@ -251,19 +251,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "首相「反省」触れず 戦没者追悼式",
-     "link": "https://news.yahoo.co.jp/pickup/6591801?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 03:48:38 GMT"
+     "title": "関東-近畿で局地的に雨雲 警戒を",
+     "link": "https://news.yahoo.co.jp/pickup/6591818?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 05:49:56 GMT"
+    },
+    {
+     "title": "ウ和平仲介 米大統領は二転三転",
+     "link": "https://news.yahoo.co.jp/pickup/6591816?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 05:35:31 GMT"
     },
     {
      "title": "閣僚の靖国参拝 中国が強烈な抗議",
      "link": "https://news.yahoo.co.jp/pickup/6591814?source=rss",
      "pubDate": "Sat, 15 Aug 2026 05:19:59 GMT"
-    },
-    {
-     "title": "インドネシア地震 5人死亡と発表",
-     "link": "https://news.yahoo.co.jp/pickup/6591813?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 05:15:33 GMT"
     },
     {
      "title": "車水没 保険適用のためすべきこと",
