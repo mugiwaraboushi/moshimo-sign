@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T20:44:09.144Z",
+ "updatedAt": "2026-08-15T21:09:08.764Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,9 +18,9 @@
      "pubDate": "Sun, 16 Aug 2026 05:38:09 +0900"
     },
     {
-     "title": "地表断層出現の瞬間か 熊本 八代の防犯カメラに地表のずれ写る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44255",
-     "pubDate": "Sat, 15 Aug 2026 18:06:00 +0900"
+     "title": "インドネシア東部地震の死者47人に 救助活動続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44335",
+     "pubDate": "Sun, 16 Aug 2026 05:52:55 +0900"
     },
     {
      "title": "自民 岸田元首相 萩生田幹事長代行ら 山梨県鳴沢村で会合",
@@ -33,14 +33,14 @@
      "pubDate": "Sun, 16 Aug 2026 05:15:30 +0900"
     },
     {
-     "title": "靖国神社参拝めぐり中国“強く抗議”韓国“嘆き禁じ得ない”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44311",
-     "pubDate": "Sun, 16 Aug 2026 05:18:24 +0900"
+     "title": "地表断層出現の瞬間か 熊本 八代の防犯カメラに地表のずれ写る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44255",
+     "pubDate": "Sat, 15 Aug 2026 18:06:00 +0900"
     },
     {
-     "title": "インド モディ首相「発展するためには若者が重要」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44297",
-     "pubDate": "Sat, 15 Aug 2026 23:01:40 +0900"
+     "title": "新体操 ロス五輪出場権を獲得 世界選手権の団体総合で2位に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44332",
+     "pubDate": "Sun, 16 Aug 2026 02:44:00 +0900"
     }
    ]
   },
@@ -164,6 +164,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "インドネシア東部地震の死者47人に 救助活動続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44335",
+     "pubDate": "Sun, 16 Aug 2026 05:52:55 +0900"
+    },
+    {
      "title": "インド モディ首相「発展するためには若者が重要」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44297",
      "pubDate": "Sat, 15 Aug 2026 23:01:40 +0900"
@@ -232,11 +237,6 @@
      "title": "ウクライナ高官「北朝鮮とロシアの軍事協力拡大」日本に警鐘",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44201",
      "pubDate": "Sat, 15 Aug 2026 09:13:59 +0900"
-    },
-    {
-     "title": "トランプ政権“中国が高関税逃れで「う回輸出」”の報告書",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44181",
-     "pubDate": "Sat, 15 Aug 2026 06:09:36 +0900"
     }
    ]
   },
