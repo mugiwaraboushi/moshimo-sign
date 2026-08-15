@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T01:56:18.242Z",
+ "updatedAt": "2026-08-15T02:43:26.184Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,29 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "千葉 記録的豪雨 8人死亡 建物被害増える可能性【上空映像】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44198",
-     "pubDate": "Sat, 15 Aug 2026 06:34:00 +0900"
-    },
-    {
-     "title": "自民 鈴木幹事長ら幹部が靖国神社に参拝 小泉防衛相ら閣僚も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44211",
-     "pubDate": "Sat, 15 Aug 2026 10:50:47 +0900"
-    },
-    {
-     "title": "【地震情報】福島県で震度3 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44226",
-     "pubDate": "Sat, 15 Aug 2026 10:28:00 +0900"
-    },
-    {
      "title": "きょう戦後81年の終戦の日 各地で戦没者追悼の催し",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
      "pubDate": "Sat, 15 Aug 2026 05:17:48 +0900"
     },
     {
-     "title": "高市首相 「終戦の日」の靖国神社参拝見送りへ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44218",
-     "pubDate": "Sat, 15 Aug 2026 09:17:52 +0900"
+     "title": "小泉防衛相ら4閣僚が靖国神社参拝 高市首相は見送りへ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44238",
+     "pubDate": "Sat, 15 Aug 2026 11:41:32 +0900"
+    },
+    {
+     "title": "【千葉 記録的豪雨】8人死亡 建物被害さらに増える可能性",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44198",
+     "pubDate": "Sat, 15 Aug 2026 06:34:00 +0900"
+    },
+    {
+     "title": "高市首相 千鳥ヶ淵戦没者墓苑で献花 「全国戦没者追悼式」前に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44236",
+     "pubDate": "Sat, 15 Aug 2026 11:27:39 +0900"
     },
     {
      "title": "関東甲信 大気不安定 千葉で大雨ピーク過ぎるも地盤緩み注意",
@@ -41,6 +36,11 @@
      "title": "熊本地震 地震活動は依然活発 15日も厳しい暑さ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44208",
      "pubDate": "Sat, 15 Aug 2026 06:35:55 +0900"
+    },
+    {
+     "title": "4月-6月のGDP 民間は3期連続プラスの予測 個人消費堅調で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44230",
+     "pubDate": "Sat, 15 Aug 2026 11:01:02 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "高市首相 千鳥ヶ淵戦没者墓苑で献花 「全国戦没者追悼式」前に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44236",
+     "pubDate": "Sat, 15 Aug 2026 11:27:39 +0900"
+    },
     {
      "title": "【動画】Pickup NEWS（8月15日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44174",
@@ -118,11 +123,6 @@
      "title": "【大雨】冠水した車から2人を引き出した男性 緊迫の状況語る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44061",
      "pubDate": "Fri, 14 Aug 2026 21:21:08 +0900"
-    },
-    {
-     "title": "秋田県オンライン記者説明会で不適切対応 職員を停職処分",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44092",
-     "pubDate": "Fri, 14 Aug 2026 22:24:12 +0900"
     }
    ]
   },
@@ -168,6 +168,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "リバプール ベゾス氏参加の投資家グループに一部株式売却へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44235",
+     "pubDate": "Sat, 15 Aug 2026 11:12:12 +0900"
+    },
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月15日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43487",
@@ -237,11 +242,6 @@
      "title": "対米投資 第2弾プロジェクトにアメリカの銀行も融資へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44120",
      "pubDate": "Fri, 14 Aug 2026 17:58:00 +0900"
-    },
-    {
-     "title": "韓国 イ大統領の支持率44％に下落 初めて不支持が上回る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44090",
-     "pubDate": "Fri, 14 Aug 2026 16:13:49 +0900"
     }
    ]
   },
@@ -251,9 +251,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "駅長かなわず戦死 父の無念思う娘",
-     "link": "https://news.yahoo.co.jp/pickup/6591771?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 23:31:53 GMT"
+     "title": "「死にに帰った」同級生 空襲犠牲",
+     "link": "https://news.yahoo.co.jp/pickup/6591797?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 02:35:23 GMT"
     },
     {
      "title": "自民幹部ら相次ぎ靖国神社を参拝",
@@ -261,14 +261,9 @@
      "pubDate": "Sat, 15 Aug 2026 00:08:58 GMT"
     },
     {
-     "title": "車の中に人が 豪雨で一変した街",
-     "link": "https://news.yahoo.co.jp/pickup/6591770?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 23:16:33 GMT"
-    },
-    {
-     "title": "インドネシアM7.7現地は津波警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6591784?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 00:53:59 GMT"
+     "title": "インドネシアM7.7現地で津波観測",
+     "link": "https://news.yahoo.co.jp/pickup/6591795?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 02:11:39 GMT"
     },
     {
      "title": "病院敷地に遺体遺棄疑い 3人逮捕",
@@ -281,9 +276,14 @@
      "pubDate": "Sat, 15 Aug 2026 00:58:11 GMT"
     },
     {
-     "title": "村上27号 大谷と並び日本勢トップ",
-     "link": "https://news.yahoo.co.jp/pickup/6591783?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 00:28:59 GMT"
+     "title": "速報ドジャース 山本由伸が先発",
+     "link": "https://news.yahoo.co.jp/pickup/6591789?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 02:08:01 GMT"
+    },
+    {
+     "title": "速報 敦賀気比vs.智弁和歌山",
+     "link": "https://news.yahoo.co.jp/pickup/6591786?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 02:03:38 GMT"
     },
     {
      "title": "大橋未歩アナ 不妊治療と流産告白",
