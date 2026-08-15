@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T10:44:26.763Z",
+ "updatedAt": "2026-08-15T11:07:55.213Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,9 +18,9 @@
      "pubDate": "Sat, 15 Aug 2026 17:27:05 +0900"
     },
     {
-     "title": "【千葉豪雨 被害】8人死亡確認 建物への浸水被害相次ぐ",
+     "title": "【千葉豪雨】この雨で死亡した人9人に 住宅被害も相次ぐ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44198",
-     "pubDate": "Sat, 15 Aug 2026 16:14:00 +0900"
+     "pubDate": "Sat, 15 Aug 2026 20:04:55 +0900"
     },
     {
      "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3205人が避難",
@@ -50,6 +50,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "高校野球 「2部制」期間 熱中症疑いの選手はのべ9人",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44282",
+     "pubDate": "Sat, 15 Aug 2026 19:54:37 +0900"
+    },
+    {
      "title": "お盆のUターンラッシュ 高速道路でピーク 各地で渋滞発生",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44293",
      "pubDate": "Sat, 15 Aug 2026 19:39:12 +0900"
@@ -77,7 +82,7 @@
     {
      "title": "【動画】Pickup NEWS（8月15日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44174",
-     "pubDate": "Sat, 15 Aug 2026 18:12:36 +0900"
+     "pubDate": "Sat, 15 Aug 2026 19:44:13 +0900"
     },
     {
      "title": "戦後81年の終戦の日 政府主催の全国戦没者追悼式",
@@ -118,11 +123,6 @@
      "title": "辺野古沖事故 遺族が同志社国際高校と学校法人に要望書を提出",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44156",
      "pubDate": "Fri, 14 Aug 2026 19:36:13 +0900"
-    },
-    {
-     "title": "横浜 山中市長のパワハラ問題 市議会主要3会派が辞職申し入れ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44139",
-     "pubDate": "Fri, 14 Aug 2026 18:55:53 +0900"
     }
    ]
   },
@@ -168,6 +168,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "台湾 新幹線をベースにした新型車両を導入 最初の車両が到着",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44289",
+     "pubDate": "Sat, 15 Aug 2026 19:53:03 +0900"
+    },
     {
      "title": "終戦81年 太平洋戦争の激戦地 フィリピンで戦没者を追悼",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44268",
@@ -237,11 +242,6 @@
      "title": "韓国 インチョン国際空港 上半期の国際線旅客数が世界一",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44196",
      "pubDate": "Sat, 15 Aug 2026 04:55:59 +0900"
-    },
-    {
-     "title": "アフガニスタン タリバン復権から5年 人道状況の悪化懸念",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44175",
-     "pubDate": "Sat, 15 Aug 2026 04:53:40 +0900"
     }
    ]
   },
@@ -261,6 +261,11 @@
      "pubDate": "Sat, 15 Aug 2026 09:08:40 GMT"
     },
     {
+     "title": "米大統領 ガソリン高「謝らない」",
+     "link": "https://news.yahoo.co.jp/pickup/6591860?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 10:46:58 GMT"
+    },
+    {
      "title": "マンション爆発事故 住人が死亡",
      "link": "https://news.yahoo.co.jp/pickup/6591834?source=rss",
      "pubDate": "Sat, 15 Aug 2026 07:25:57 GMT"
@@ -276,19 +281,14 @@
      "pubDate": "Sat, 15 Aug 2026 10:18:07 GMT"
     },
     {
-     "title": "「ゲーム行動症」若年層10% 調査",
-     "link": "https://news.yahoo.co.jp/pickup/6591851?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 09:27:22 GMT"
-    },
-    {
      "title": "学歴からかう動画 批判した教授",
      "link": "https://news.yahoo.co.jp/pickup/6591847?source=rss",
      "pubDate": "Sat, 15 Aug 2026 08:39:36 GMT"
     },
     {
-     "title": "八村塁が得点 有明アリーナ大歓声",
-     "link": "https://news.yahoo.co.jp/pickup/6591859?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 10:30:57 GMT"
+     "title": "3児の母 突然「余命2カ月」の宣告",
+     "link": "https://news.yahoo.co.jp/pickup/6591861?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 10:56:53 GMT"
     }
    ]
   }
