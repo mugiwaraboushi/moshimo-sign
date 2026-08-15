@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T21:09:08.764Z",
+ "updatedAt": "2026-08-15T21:41:10.652Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -28,9 +28,9 @@
      "pubDate": "Sun, 16 Aug 2026 01:21:47 +0900"
     },
     {
-     "title": "絶滅危惧種のキタサンショウウオ 生息地等保護区指定へ 環境省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44228",
-     "pubDate": "Sun, 16 Aug 2026 05:15:30 +0900"
+     "title": "山形 鶴岡 花火大会で3人軽傷 花火が地上で破裂したか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44344",
+     "pubDate": "Sun, 16 Aug 2026 06:16:18 +0900"
     },
     {
      "title": "地表断層出現の瞬間か 熊本 八代の防犯カメラに地表のずれ写る",
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "JR中央・総武線の各駅停車 全線の上下線で運転見合わせ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44346",
+     "pubDate": "Sun, 16 Aug 2026 06:24:15 +0900"
+    },
+    {
+     "title": "山形 鶴岡 花火大会で3人軽傷 花火が地上で破裂したか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44344",
+     "pubDate": "Sun, 16 Aug 2026 06:16:18 +0900"
+    },
     {
      "title": "熊本地震 活発な活動続く 最大震度5弱程度以上の地震に注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44323",
@@ -113,16 +123,6 @@
      "title": "戦後81年の終戦の日 政府主催の全国戦没者追悼式",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
      "pubDate": "Sat, 15 Aug 2026 20:17:27 +0900"
-    },
-    {
-     "title": "熊本地震 被災の福祉施設へ介護職員派遣 人件費は公費負担に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44172",
-     "pubDate": "Sat, 15 Aug 2026 01:12:37 +0900"
-    },
-    {
-     "title": "熊本地震で被災した高校生の就職活動 国が柔軟な対応を要請",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44184",
-     "pubDate": "Fri, 14 Aug 2026 22:51:38 +0900"
     }
    ]
   },
