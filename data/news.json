@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T15:40:56.498Z",
+ "updatedAt": "2026-08-15T16:08:59.235Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -155,11 +155,6 @@
      "title": "日本版GPS衛星「みちびき7号機」 H3ロケットで打ち上げ成功",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
      "pubDate": "Tue, 11 Aug 2026 12:38:25 +0900"
-    },
-    {
-     "title": "大飯原発3号機 発電設備トラブルで自動停止 外部への影響なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260809de42912",
-     "pubDate": "Sun, 09 Aug 2026 11:41:00 +0900"
     }
    ]
   },
