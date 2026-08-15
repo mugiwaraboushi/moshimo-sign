@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T04:01:50.132Z",
+ "updatedAt": "2026-08-15T04:52:40.919Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,22 +10,17 @@
     {
      "title": "戦後81年の終戦の日 政府主催の全国戦没者追悼式",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
-     "pubDate": "Sat, 15 Aug 2026 12:39:38 +0900"
+     "pubDate": "Sat, 15 Aug 2026 13:42:55 +0900"
     },
     {
      "title": "小泉防衛相ら4閣僚が靖国神社参拝 高市首相は見送りへ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44238",
-     "pubDate": "Sat, 15 Aug 2026 11:41:00 +0900"
+     "pubDate": "Sat, 15 Aug 2026 13:25:28 +0900"
     },
     {
      "title": "【千葉 記録的豪雨】8人死亡確認 建物への浸水被害相次ぐ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44198",
      "pubDate": "Sat, 15 Aug 2026 13:00:40 +0900"
-    },
-    {
-     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3223人が避難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44248",
-     "pubDate": "Sat, 15 Aug 2026 12:35:00 +0900"
     },
     {
      "title": "高市首相 千鳥ヶ淵戦没者墓苑で献花 「全国戦没者追悼式」前に",
@@ -41,6 +36,11 @@
      "title": "関東甲信 大気不安定 千葉で大雨ピーク過ぎるも地盤緩み注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44212",
      "pubDate": "Sat, 15 Aug 2026 07:54:15 +0900"
+    },
+    {
+     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3223人が避難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44248",
+     "pubDate": "Sat, 15 Aug 2026 12:35:00 +0900"
     }
    ]
   },
@@ -67,7 +67,7 @@
     {
      "title": "戦後81年の終戦の日 政府主催の全国戦没者追悼式",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
-     "pubDate": "Sat, 15 Aug 2026 12:39:38 +0900"
+     "pubDate": "Sat, 15 Aug 2026 13:42:55 +0900"
     },
     {
      "title": "熊本地震 被災の福祉施設へ介護職員派遣 人件費は公費負担に",
@@ -256,9 +256,9 @@
      "pubDate": "Sat, 15 Aug 2026 03:48:38 GMT"
     },
     {
-     "title": "「死にに帰った」同級生 空襲犠牲",
-     "link": "https://news.yahoo.co.jp/pickup/6591797?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 02:35:23 GMT"
+     "title": "千葉豪雨 路上放置の車撤去続く",
+     "link": "https://news.yahoo.co.jp/pickup/6591808?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 04:27:43 GMT"
     },
     {
      "title": "李大統領 日韓協力の拡大を表明",
@@ -266,9 +266,9 @@
      "pubDate": "Sat, 15 Aug 2026 03:38:07 GMT"
     },
     {
-     "title": "インドネシアM7.7倒壊で2人死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6591798?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 02:52:44 GMT"
+     "title": "外国人の重大事故が増加傾向 背景",
+     "link": "https://news.yahoo.co.jp/pickup/6591807?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 04:45:25 GMT"
     },
     {
      "title": "壁から大量の金貨や金塊 ベルギー",
@@ -276,19 +276,19 @@
      "pubDate": "Sat, 15 Aug 2026 03:50:55 GMT"
     },
     {
-     "title": "速報ドジャース 山本由伸が先発",
-     "link": "https://news.yahoo.co.jp/pickup/6591789?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 02:08:01 GMT"
+     "title": "速報 ドジャースvs.ブリュワーズ",
+     "link": "https://news.yahoo.co.jp/pickup/6591805?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 04:00:28 GMT"
+    },
+    {
+     "title": "「キングダム ハーツ」アニメ化へ",
+     "link": "https://news.yahoo.co.jp/pickup/6591804?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 03:58:40 GMT"
     },
     {
      "title": "ボディビル大会に寺田心 どよめき",
      "link": "https://news.yahoo.co.jp/pickup/6591799?source=rss",
      "pubDate": "Sat, 15 Aug 2026 03:14:18 GMT"
-    },
-    {
-     "title": "大橋未歩アナ 不妊治療と流産告白",
-     "link": "https://news.yahoo.co.jp/pickup/6591790?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 01:39:21 GMT"
     }
    ]
   }
