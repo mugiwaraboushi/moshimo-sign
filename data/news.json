@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T00:28:29.199Z",
+ "updatedAt": "2026-08-15T01:56:18.242Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "千葉 記録的豪雨 8人死亡 建物被害増える可能性【上空映像】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44198",
+     "pubDate": "Sat, 15 Aug 2026 06:34:00 +0900"
+    },
+    {
+     "title": "自民 鈴木幹事長ら幹部が靖国神社に参拝 小泉防衛相ら閣僚も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44211",
+     "pubDate": "Sat, 15 Aug 2026 10:50:47 +0900"
+    },
+    {
+     "title": "【地震情報】福島県で震度3 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44226",
+     "pubDate": "Sat, 15 Aug 2026 10:28:00 +0900"
+    },
     {
      "title": "きょう戦後81年の終戦の日 各地で戦没者追悼の催し",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
@@ -18,16 +33,6 @@
      "pubDate": "Sat, 15 Aug 2026 09:17:52 +0900"
     },
     {
-     "title": "自民 鈴木幹事長 有村総務会長 西村選対委員長 靖国神社に参拝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44211",
-     "pubDate": "Sat, 15 Aug 2026 09:14:35 +0900"
-    },
-    {
-     "title": "【千葉 記録的豪雨】8人死亡 建物被害さらに増える可能性",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44198",
-     "pubDate": "Sat, 15 Aug 2026 06:34:21 +0900"
-    },
-    {
      "title": "関東甲信 大気不安定 千葉で大雨ピーク過ぎるも地盤緩み注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44212",
      "pubDate": "Sat, 15 Aug 2026 07:54:15 +0900"
@@ -36,11 +41,6 @@
      "title": "熊本地震 地震活動は依然活発 15日も厳しい暑さ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44208",
      "pubDate": "Sat, 15 Aug 2026 06:35:55 +0900"
-    },
-    {
-     "title": "ウクライナ高官「北朝鮮とロシアの軍事協力拡大」日本に警鐘",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44201",
-     "pubDate": "Sat, 15 Aug 2026 09:13:59 +0900"
     }
    ]
   },
@@ -169,6 +169,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月15日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43487",
+     "pubDate": "Sat, 15 Aug 2026 10:38:29 +0900"
+    },
+    {
      "title": "コロンビア地震 1万超の住宅破壊 家失った人の支援も課題に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44213",
      "pubDate": "Sat, 15 Aug 2026 07:37:57 +0900"
@@ -237,11 +242,6 @@
      "title": "韓国 イ大統領の支持率44％に下落 初めて不支持が上回る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44090",
      "pubDate": "Fri, 14 Aug 2026 16:13:49 +0900"
-    },
-    {
-     "title": "キューバ フィデル・カストロ氏生誕100年で米に対抗姿勢",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44066",
-     "pubDate": "Fri, 14 Aug 2026 15:47:00 +0900"
     }
    ]
   },
@@ -250,11 +250,6 @@
    "src": "Yahoo!",
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
-    {
-     "title": "日本軍の秘密作戦 石油部隊とは",
-     "link": "https://news.yahoo.co.jp/pickup/6591772?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 23:43:49 GMT"
-    },
     {
      "title": "駅長かなわず戦死 父の無念思う娘",
      "link": "https://news.yahoo.co.jp/pickup/6591771?source=rss",
@@ -271,14 +266,9 @@
      "pubDate": "Fri, 14 Aug 2026 23:16:33 GMT"
     },
     {
-     "title": "7道府県が副首都申請を検討 共同",
-     "link": "https://news.yahoo.co.jp/pickup/6591762?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 22:40:04 GMT"
-    },
-    {
-     "title": "インドネシア付近でM7.7の地震",
-     "link": "https://news.yahoo.co.jp/pickup/6591768?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 22:59:18 GMT"
+     "title": "インドネシアM7.7現地は津波警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6591784?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 00:53:59 GMT"
     },
     {
      "title": "病院敷地に遺体遺棄疑い 3人逮捕",
@@ -286,9 +276,19 @@
      "pubDate": "Sat, 15 Aug 2026 00:06:44 GMT"
     },
     {
-     "title": "村上宗隆が27号 日本勢トップタイ",
-     "link": "https://news.yahoo.co.jp/pickup/6591775?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 00:07:32 GMT"
+     "title": "一緒にいたくて 冷凍庫に子を遺棄",
+     "link": "https://news.yahoo.co.jp/pickup/6591788?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 00:58:11 GMT"
+    },
+    {
+     "title": "村上27号 大谷と並び日本勢トップ",
+     "link": "https://news.yahoo.co.jp/pickup/6591783?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 00:28:59 GMT"
+    },
+    {
+     "title": "大橋未歩アナ 不妊治療と流産告白",
+     "link": "https://news.yahoo.co.jp/pickup/6591790?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 01:39:21 GMT"
     }
    ]
   }
