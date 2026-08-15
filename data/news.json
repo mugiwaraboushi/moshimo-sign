@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-14T23:43:20.319Z",
+ "updatedAt": "2026-08-15T00:28:29.199Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "自民 鈴木幹事長 有村総務会長 西村選対委員長 靖国神社に参拝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44211",
-     "pubDate": "Sat, 15 Aug 2026 08:11:43 +0900"
-    },
-    {
      "title": "きょう戦後81年の終戦の日 各地で戦没者追悼の催し",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44171",
      "pubDate": "Sat, 15 Aug 2026 05:17:48 +0900"
+    },
+    {
+     "title": "高市首相 「終戦の日」の靖国神社参拝見送りへ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44218",
+     "pubDate": "Sat, 15 Aug 2026 09:17:52 +0900"
+    },
+    {
+     "title": "自民 鈴木幹事長 有村総務会長 西村選対委員長 靖国神社に参拝",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44211",
+     "pubDate": "Sat, 15 Aug 2026 09:14:35 +0900"
     },
     {
      "title": "【千葉 記録的豪雨】8人死亡 建物被害さらに増える可能性",
@@ -28,19 +33,14 @@
      "pubDate": "Sat, 15 Aug 2026 07:54:15 +0900"
     },
     {
-     "title": "インドネシアでM7.7の地震 日本への津波の影響なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44197",
-     "pubDate": "Sat, 15 Aug 2026 07:48:07 +0900"
-    },
-    {
      "title": "熊本地震 地震活動は依然活発 15日も厳しい暑さ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44208",
      "pubDate": "Sat, 15 Aug 2026 06:35:55 +0900"
     },
     {
-     "title": "コロンビア地震 1万超の住宅破壊 家失った人の支援も課題に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44213",
-     "pubDate": "Sat, 15 Aug 2026 07:37:57 +0900"
+     "title": "ウクライナ高官「北朝鮮とロシアの軍事協力拡大」日本に警鐘",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44201",
+     "pubDate": "Sat, 15 Aug 2026 09:13:59 +0900"
     }
    ]
   },
@@ -186,7 +186,7 @@
     {
      "title": "ウクライナ高官「北朝鮮とロシアの軍事協力拡大」日本に警鐘",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44201",
-     "pubDate": "Sat, 15 Aug 2026 06:29:09 +0900"
+     "pubDate": "Sat, 15 Aug 2026 09:13:59 +0900"
     },
     {
      "title": "トランプ政権“中国が高関税逃れで「う回輸出」”の報告書",
@@ -251,19 +251,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "日本軍の秘密作戦 石油部隊とは",
+     "link": "https://news.yahoo.co.jp/pickup/6591772?source=rss",
+     "pubDate": "Fri, 14 Aug 2026 23:43:49 GMT"
+    },
+    {
      "title": "駅長かなわず戦死 父の無念思う娘",
      "link": "https://news.yahoo.co.jp/pickup/6591771?source=rss",
      "pubDate": "Fri, 14 Aug 2026 23:31:53 GMT"
     },
     {
-     "title": "15日 九州-東北で急な雷雨の恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6591764?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 22:34:43 GMT"
-    },
-    {
-     "title": "米大統領 海峡巡り強硬姿勢強める",
-     "link": "https://news.yahoo.co.jp/pickup/6591767?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 22:57:19 GMT"
+     "title": "自民幹部ら相次ぎ靖国神社を参拝",
+     "link": "https://news.yahoo.co.jp/pickup/6591779?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 00:08:58 GMT"
     },
     {
      "title": "車の中に人が 豪雨で一変した街",
@@ -276,19 +276,19 @@
      "pubDate": "Fri, 14 Aug 2026 22:40:04 GMT"
     },
     {
-     "title": "映像 防犯カメラに断層出現の瞬間",
-     "link": "https://news.yahoo.co.jp/pickup/6591766?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 22:43:42 GMT"
-    },
-    {
      "title": "インドネシア付近でM7.7の地震",
      "link": "https://news.yahoo.co.jp/pickup/6591768?source=rss",
      "pubDate": "Fri, 14 Aug 2026 22:59:18 GMT"
     },
     {
-     "title": "ニコニコ動画 有料会員90万人割れ",
-     "link": "https://news.yahoo.co.jp/pickup/6591769?source=rss",
-     "pubDate": "Fri, 14 Aug 2026 23:12:06 GMT"
+     "title": "病院敷地に遺体遺棄疑い 3人逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6591777?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 00:06:44 GMT"
+    },
+    {
+     "title": "村上宗隆が27号 日本勢トップタイ",
+     "link": "https://news.yahoo.co.jp/pickup/6591775?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 00:07:32 GMT"
     }
    ]
   }
