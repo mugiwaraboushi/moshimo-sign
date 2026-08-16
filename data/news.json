@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T17:40:18.554Z",
+ "updatedAt": "2026-08-16T18:09:55.900Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "お盆のUターンラッシュ 新幹線と空の便がピークに",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44364",
-     "pubDate": "Sun, 16 Aug 2026 18:41:00 +0900"
-    },
-    {
-     "title": "死者10人に 浸水被害は約1500棟 千葉市で車両約2500台が路上に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
-     "pubDate": "Sun, 16 Aug 2026 22:44:18 +0900"
+     "title": "千葉豪雨 死者10人 千葉市で車約2500台が路上に残る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44428",
+     "pubDate": "Mon, 17 Aug 2026 02:39:36 +0900"
     },
     {
      "title": "熊本地震 17日も熱中症対策を 最大震度5弱程度以上の地震注意",
@@ -23,14 +18,9 @@
      "pubDate": "Sun, 16 Aug 2026 19:28:38 +0900"
     },
     {
-     "title": "熊本 天草 お盆の帰省にあわせ二十歳のつどい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44391",
-     "pubDate": "Sun, 16 Aug 2026 19:27:31 +0900"
-    },
-    {
-     "title": "ハンガリーでポーランド人観光客乗せたバス 横転事故 12人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44416",
-     "pubDate": "Mon, 17 Aug 2026 00:13:35 +0900"
+     "title": "インドネシア東部地震で53人死亡 食料・水の確保が課題に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44411",
+     "pubDate": "Sun, 16 Aug 2026 20:45:21 +0900"
     },
     {
      "title": "ロシア ウクライナ 双方が首都を攻撃 応酬激しさ増す",
@@ -38,9 +28,19 @@
      "pubDate": "Sun, 16 Aug 2026 20:31:47 +0900"
     },
     {
-     "title": "インドネシア東部地震で53人死亡 食料・水の確保が課題に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44411",
-     "pubDate": "Sun, 16 Aug 2026 20:45:21 +0900"
+     "title": "ウクライナ ロシアの物流施設など攻撃 えん戦気分拡大ねらいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44393",
+     "pubDate": "Sun, 16 Aug 2026 19:58:33 +0900"
+    },
+    {
+     "title": "ハンガリーでポーランド人観光客乗せたバス 横転事故 12人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44416",
+     "pubDate": "Mon, 17 Aug 2026 00:13:35 +0900"
+    },
+    {
+     "title": "競泳 19歳の今福和志が男子1500ｍ自由形で日本新記録",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44406",
+     "pubDate": "Sun, 16 Aug 2026 18:59:00 +0900"
     }
    ]
   },
