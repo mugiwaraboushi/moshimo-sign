@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T11:08:46.460Z",
+ "updatedAt": "2026-08-16T11:40:52.764Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -87,7 +87,7 @@
     {
      "title": "【動画】Pickup NEWS（8月16日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44257",
-     "pubDate": "Sun, 16 Aug 2026 19:45:03 +0900"
+     "pubDate": "Sun, 16 Aug 2026 20:14:19 +0900"
     },
     {
      "title": "JR中央・総武線 全線で運転再開",
@@ -169,6 +169,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月16日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43489",
+     "pubDate": "Sun, 16 Aug 2026 20:37:24 +0900"
+    },
+    {
+     "title": "ロシア ウクライナ 双方が首都を攻撃 応酬激しさ増す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44402",
+     "pubDate": "Sun, 16 Aug 2026 20:31:47 +0900"
+    },
+    {
      "title": "ウクライナ ロシアの物流施設など攻撃 えん戦気分拡大ねらいか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44393",
      "pubDate": "Sun, 16 Aug 2026 19:58:33 +0900"
@@ -232,16 +242,6 @@
      "title": "リバプール ベゾス氏参加の投資家グループに一部株式売却へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44235",
      "pubDate": "Sat, 15 Aug 2026 11:12:12 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月15日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43487",
-     "pubDate": "Sat, 15 Aug 2026 10:38:29 +0900"
-    },
-    {
-     "title": "コロンビア地震 1万超の住宅破壊 家失った人の支援も課題に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44213",
-     "pubDate": "Sat, 15 Aug 2026 07:37:57 +0900"
     }
    ]
   },
@@ -251,34 +251,34 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "内閣改造と自民役員人事 注目点は",
+     "link": "https://news.yahoo.co.jp/pickup/6591986?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 11:11:22 GMT"
+    },
+    {
      "title": "千葉など17日から厳しい暑さ 注意",
      "link": "https://news.yahoo.co.jp/pickup/6591973?source=rss",
      "pubDate": "Sun, 16 Aug 2026 09:41:22 GMT"
     },
     {
-     "title": "インドネシアの地震 死者50人超に",
-     "link": "https://news.yahoo.co.jp/pickup/6591974?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 09:48:27 GMT"
+     "title": "千葉の車両撤去 JAFに要請が殺到",
+     "link": "https://news.yahoo.co.jp/pickup/6591972?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 09:37:55 GMT"
     },
     {
-     "title": "ゆりかご初日に預けられ 今は22歳",
-     "link": "https://news.yahoo.co.jp/pickup/6591975?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 09:50:11 GMT"
-    },
-    {
-     "title": "豪で「ワーホリ」受け入れ抑制へ",
-     "link": "https://news.yahoo.co.jp/pickup/6591966?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 08:57:21 GMT"
-    },
-    {
-     "title": "地震で停電 教室育ちサーモン全滅",
-     "link": "https://news.yahoo.co.jp/pickup/6591970?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 09:11:21 GMT"
+     "title": "知人助けようとして行方不明 千葉",
+     "link": "https://news.yahoo.co.jp/pickup/6591985?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 11:16:55 GMT"
     },
     {
      "title": "早期退職 第二の人生は甘くない?",
      "link": "https://news.yahoo.co.jp/pickup/6591977?source=rss",
      "pubDate": "Sun, 16 Aug 2026 10:26:05 GMT"
+    },
+    {
+     "title": "激震 有明ダブルエースの1人骨折",
+     "link": "https://news.yahoo.co.jp/pickup/6591983?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 11:11:01 GMT"
     },
     {
      "title": "中日8回に10失点 ファン続々帰路",
