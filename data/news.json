@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T02:05:33.014Z",
+ "updatedAt": "2026-08-16T03:24:08.616Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,34 +8,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【千葉豪雨】死者9人 行方不明1人 浸水被害1000棟超 雨に注意",
+     "title": "【地震速報】熊本 益城町で震度3 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44216",
+     "pubDate": "Sun, 16 Aug 2026 12:10:00 +0900"
+    },
+    {
+     "title": "お盆のUターンラッシュ 新幹線と空の便がピークに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44364",
+     "pubDate": "Sun, 16 Aug 2026 12:00:00 +0900"
+    },
+    {
+     "title": "【千葉豪雨】死者9人 夜にかけ雨のおそれ 土砂災害に注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
-     "pubDate": "Sun, 16 Aug 2026 07:31:41 +0900"
+     "pubDate": "Sun, 16 Aug 2026 12:21:58 +0900"
     },
     {
-     "title": "熊本地震 活発な活動続く 最大震度5弱程度以上の地震に注意",
+     "title": "熊本地震 活発な活動続く きょうも熱中症対策を 雷雨にも注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44323",
-     "pubDate": "Sun, 16 Aug 2026 05:38:09 +0900"
+     "pubDate": "Sun, 16 Aug 2026 12:01:58 +0900"
     },
     {
-     "title": "高校野球 健大高崎が佐野日大高に勝ち準々決勝へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44351",
-     "pubDate": "Sun, 16 Aug 2026 10:10:13 +0900"
-    },
-    {
-     "title": "ブルージェイズ 岡本和真 1安打 今季100安打到達 チーム2連勝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44355",
-     "pubDate": "Sun, 16 Aug 2026 10:17:00 +0900"
+     "title": "高校野球 東日大昌平が有明をリード（5回終了時）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44367",
+     "pubDate": "Sun, 16 Aug 2026 11:52:43 +0900"
     },
     {
      "title": "憲法改正 与党“緊急事態条項の条文化を”野党は賛否分かれる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44352",
      "pubDate": "Sun, 16 Aug 2026 10:17:01 +0900"
-    },
-    {
-     "title": "自民 小林政調会長が靖国神社に参拝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44348",
-     "pubDate": "Sun, 16 Aug 2026 10:13:07 +0900"
     },
     {
      "title": "ウクライナがロシアのロケット製造拠点など攻撃",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "お盆のUターンラッシュ 新幹線と空の便がピークに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44364",
+     "pubDate": "Sun, 16 Aug 2026 12:00:00 +0900"
+    },
     {
      "title": "【動画】Pickup NEWS（8月16日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44257",
@@ -65,9 +70,9 @@
      "pubDate": "Sun, 16 Aug 2026 07:05:16 +0900"
     },
     {
-     "title": "熊本地震 活発な活動続く 最大震度5弱程度以上の地震に注意",
+     "title": "熊本地震 活発な活動続く きょうも熱中症対策を 雷雨にも注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44323",
-     "pubDate": "Sun, 16 Aug 2026 05:38:09 +0900"
+     "pubDate": "Sun, 16 Aug 2026 12:01:58 +0900"
     },
     {
      "title": "絶滅危惧種のキタサンショウウオ 生息地等保護区指定へ 環境省",
@@ -75,9 +80,9 @@
      "pubDate": "Sun, 16 Aug 2026 05:15:30 +0900"
     },
     {
-     "title": "【千葉豪雨】死者9人 行方不明1人 浸水被害1000棟超 雨に注意",
+     "title": "【千葉豪雨】死者9人 夜にかけ雨のおそれ 土砂災害に注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
-     "pubDate": "Sun, 16 Aug 2026 07:31:41 +0900"
+     "pubDate": "Sun, 16 Aug 2026 12:21:58 +0900"
     },
     {
      "title": "長野 岡谷 3人死亡の土石流災害から5年 遺族が現場に",
@@ -118,11 +123,6 @@
      "title": "高市首相 千鳥ヶ淵戦没者墓苑で献花 「全国戦没者追悼式」前に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44236",
      "pubDate": "Sat, 15 Aug 2026 11:27:00 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（8月15日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44174",
-     "pubDate": "Sat, 15 Aug 2026 19:44:13 +0900"
     }
    ]
   },
@@ -246,14 +246,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "お盆休み最終日 Uターン混雑予想",
-     "link": "https://news.yahoo.co.jp/pickup/6591906?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 00:16:05 GMT"
+     "title": "お盆休み最終日 交通混雑がピーク",
+     "link": "https://news.yahoo.co.jp/pickup/6591931?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 03:22:01 GMT"
     },
     {
-     "title": "子の水難 助けに飛び込むのはNG",
-     "link": "https://news.yahoo.co.jp/pickup/6591904?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 00:38:12 GMT"
+     "title": "千葉豪雨で露呈 都市型水害の課題",
+     "link": "https://news.yahoo.co.jp/pickup/6591914?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 01:17:17 GMT"
+    },
+    {
+     "title": "首相異例の遥拝 保守層離反を警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6591925?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 02:39:24 GMT"
     },
     {
      "title": "韓国「親日派財産」没収 本格化へ",
@@ -261,29 +266,24 @@
      "pubDate": "Sun, 16 Aug 2026 01:40:05 GMT"
     },
     {
-     "title": "行方不明の英国籍12歳少女 保護",
-     "link": "https://news.yahoo.co.jp/pickup/6591888?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 22:14:20 GMT"
+     "title": "飼い犬殺害 裁判官が証言に苦言",
+     "link": "https://news.yahoo.co.jp/pickup/6591923?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 02:08:43 GMT"
     },
     {
-     "title": "日本初確認の虫 SNS動画きっかけ",
-     "link": "https://news.yahoo.co.jp/pickup/6591912?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 01:19:12 GMT"
+     "title": "プロテイン 価格の高騰止まらず",
+     "link": "https://news.yahoo.co.jp/pickup/6591929?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 02:55:48 GMT"
     },
     {
-     "title": "SAトイレに急病人 対応に反響",
-     "link": "https://news.yahoo.co.jp/pickup/6591896?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 22:52:38 GMT"
+     "title": "ド軍敗戦 大谷翔平は適時三塁打",
+     "link": "https://news.yahoo.co.jp/pickup/6591922?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 02:10:20 GMT"
     },
     {
-     "title": "速報甲子園 東日大昌平vs.有明",
-     "link": "https://news.yahoo.co.jp/pickup/6591918?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 01:33:16 GMT"
-    },
-    {
-     "title": "健大高崎が8強「北関東対決」制す",
-     "link": "https://news.yahoo.co.jp/pickup/6591919?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 01:46:31 GMT"
+     "title": "有明が一挙4点の逆転劇 快進撃8強",
+     "link": "https://news.yahoo.co.jp/pickup/6591933?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 03:19:17 GMT"
     }
    ]
   }
