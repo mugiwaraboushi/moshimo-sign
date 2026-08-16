@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T08:13:43.513Z",
+ "updatedAt": "2026-08-16T08:52:24.170Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,24 +13,24 @@
      "pubDate": "Sun, 16 Aug 2026 16:54:49 +0900"
     },
     {
+     "title": "【千葉豪雨】死者10人に 夜にかけ雨のおそれ 土砂災害に注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
+     "pubDate": "Sun, 16 Aug 2026 17:25:01 +0900"
+    },
+    {
      "title": "千葉県四街道市 市内全域の土砂災害警戒区域などに避難指示",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44388",
      "pubDate": "Sun, 16 Aug 2026 16:33:09 +0900"
     },
     {
-     "title": "【千葉豪雨】死者9人 夜にかけ雨のおそれ 土砂災害に注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
-     "pubDate": "Sun, 16 Aug 2026 16:36:00 +0900"
+     "title": "高校野球 横浜が霞ヶ浦に勝ち準々決勝進出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44389",
+     "pubDate": "Sun, 16 Aug 2026 17:24:49 +0900"
     },
     {
      "title": "お盆のUターンラッシュ 新幹線と空の便がピークに",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44364",
      "pubDate": "Sun, 16 Aug 2026 13:08:14 +0900"
-    },
-    {
-     "title": "高校野球 花巻東が英明に勝利 3年ぶりベスト8 機動力生かす",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44380",
-     "pubDate": "Sun, 16 Aug 2026 16:10:24 +0900"
     },
     {
      "title": "熊本地震 活発な活動続く きょうも熱中症対策を 雷雨にも注意",
@@ -95,9 +95,9 @@
      "pubDate": "Sun, 16 Aug 2026 05:15:30 +0900"
     },
     {
-     "title": "【千葉豪雨】死者9人 夜にかけ雨のおそれ 土砂災害に注意を",
+     "title": "【千葉豪雨】死者10人に 夜にかけ雨のおそれ 土砂災害に注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
-     "pubDate": "Sun, 16 Aug 2026 16:36:00 +0900"
+     "pubDate": "Sun, 16 Aug 2026 17:25:01 +0900"
     },
     {
      "title": "長野 岡谷 3人死亡の土石流災害から5年 遺族が現場に",
@@ -261,19 +261,9 @@
      "pubDate": "Sun, 16 Aug 2026 07:59:28 GMT"
     },
     {
-     "title": "ベルギーで過去最大規模の山火事",
-     "link": "https://news.yahoo.co.jp/pickup/6591943?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 05:38:01 GMT"
-    },
-    {
-     "title": "釣り竿取りに池泳ぎ溺れたか 死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6591945?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 05:41:56 GMT"
-    },
-    {
-     "title": "高専「ネーミングライツ」広がる",
-     "link": "https://news.yahoo.co.jp/pickup/6591951?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 06:46:17 GMT"
+     "title": "千葉豪雨の死者10人 1人行方不明",
+     "link": "https://news.yahoo.co.jp/pickup/6591964?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 08:27:04 GMT"
     },
     {
      "title": "世界でブームのスクイーズ 事故も",
@@ -281,14 +271,24 @@
      "pubDate": "Sun, 16 Aug 2026 06:28:10 GMT"
     },
     {
+     "title": "生まれた子に重い障害 8年間自責",
+     "link": "https://news.yahoo.co.jp/pickup/6591962?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 08:30:48 GMT"
+    },
+    {
      "title": "子ども用ハーネス賛否 識者の見解",
      "link": "https://news.yahoo.co.jp/pickup/6591953?source=rss",
      "pubDate": "Sun, 16 Aug 2026 07:23:29 GMT"
     },
     {
-     "title": "速報甲子園 横浜が霞ケ浦を逆転",
-     "link": "https://news.yahoo.co.jp/pickup/6591959?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 07:41:11 GMT"
+     "title": "横浜が8強進出 霞ケ浦に逆転勝利",
+     "link": "https://news.yahoo.co.jp/pickup/6591963?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 08:16:29 GMT"
+    },
+    {
+     "title": "モナキの快進撃 支えた純烈・酒井",
+     "link": "https://news.yahoo.co.jp/pickup/6591965?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 08:22:10 GMT"
     }
    ]
   }
