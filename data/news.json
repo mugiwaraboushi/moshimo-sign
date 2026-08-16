@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T05:49:47.242Z",
+ "updatedAt": "2026-08-16T06:17:33.491Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -20,7 +20,7 @@
     {
      "title": "熊本地震 活発な活動続く きょうも熱中症対策を 雷雨にも注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44323",
-     "pubDate": "Sun, 16 Aug 2026 12:01:58 +0900"
+     "pubDate": "Sun, 16 Aug 2026 15:10:38 +0900"
     },
     {
      "title": "上野動物園のパンダ舎 あすから解体 多くの人が最後の別れ",
@@ -33,9 +33,9 @@
      "pubDate": "Sun, 16 Aug 2026 13:41:23 +0900"
     },
     {
-     "title": "高校野球 花巻東が英明をリード（5回終了時）",
+     "title": "高校野球 花巻東が英明に勝ち準々決勝進出",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44380",
-     "pubDate": "Sun, 16 Aug 2026 14:14:08 +0900"
+     "pubDate": "Sun, 16 Aug 2026 15:05:45 +0900"
     },
     {
      "title": "熊本地震 「くまモン」が活動再開 被害受けた小学校を訪問",
@@ -77,7 +77,7 @@
     {
      "title": "熊本地震 活発な活動続く きょうも熱中症対策を 雷雨にも注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44323",
-     "pubDate": "Sun, 16 Aug 2026 12:01:58 +0900"
+     "pubDate": "Sun, 16 Aug 2026 15:10:38 +0900"
     },
     {
      "title": "絶滅危惧種のキタサンショウウオ 生息地等保護区指定へ 環境省",
@@ -276,9 +276,9 @@
      "pubDate": "Sun, 16 Aug 2026 02:55:48 GMT"
     },
     {
-     "title": "元近鉄の左腕・神部年男さん死去",
-     "link": "https://news.yahoo.co.jp/pickup/6591944?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 05:33:36 GMT"
+     "title": "花巻東が3年ぶり8強 英明を破る",
+     "link": "https://news.yahoo.co.jp/pickup/6591947?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 05:51:30 GMT"
     },
     {
      "title": "緊急先発の有明・斉藤 109球完投",
