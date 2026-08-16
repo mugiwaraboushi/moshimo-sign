@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T08:52:24.170Z",
+ "updatedAt": "2026-08-16T09:14:24.944Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -55,9 +55,9 @@
      "pubDate": "Sun, 16 Aug 2026 16:54:49 +0900"
     },
     {
-     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3159人避難",
+     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3121人避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44361",
-     "pubDate": "Sun, 16 Aug 2026 15:23:59 +0900"
+     "pubDate": "Sun, 16 Aug 2026 18:13:34 +0900"
     },
     {
      "title": "上野動物園のパンダ舎 あすから解体 多くの人が最後の別れ",
@@ -261,9 +261,14 @@
      "pubDate": "Sun, 16 Aug 2026 07:59:28 GMT"
     },
     {
-     "title": "千葉豪雨の死者10人 1人行方不明",
-     "link": "https://news.yahoo.co.jp/pickup/6591964?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 08:27:04 GMT"
+     "title": "溺れ死んじゃう 浸水の車内で恐怖",
+     "link": "https://news.yahoo.co.jp/pickup/6591969?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 09:04:35 GMT"
+    },
+    {
+     "title": "豪で「ワーホリ」受け入れ抑制へ",
+     "link": "https://news.yahoo.co.jp/pickup/6591966?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 08:57:21 GMT"
     },
     {
      "title": "世界でブームのスクイーズ 事故も",
@@ -281,14 +286,9 @@
      "pubDate": "Sun, 16 Aug 2026 07:23:29 GMT"
     },
     {
-     "title": "横浜が8強進出 霞ケ浦に逆転勝利",
-     "link": "https://news.yahoo.co.jp/pickup/6591963?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 08:16:29 GMT"
-    },
-    {
-     "title": "モナキの快進撃 支えた純烈・酒井",
-     "link": "https://news.yahoo.co.jp/pickup/6591965?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 08:22:10 GMT"
+     "title": "G小笠原に8秒間の大ブーイング",
+     "link": "https://news.yahoo.co.jp/pickup/6591968?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 09:00:43 GMT"
     }
    ]
   }
