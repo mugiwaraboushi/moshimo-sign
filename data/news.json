@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T04:56:30.080Z",
+ "updatedAt": "2026-08-16T05:18:55.042Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,24 +23,24 @@
      "pubDate": "Sun, 16 Aug 2026 12:01:58 +0900"
     },
     {
-     "title": "熊本地震 「くまモン」が活動再開 被害受けた小学校を訪問",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44363",
-     "pubDate": "Sun, 16 Aug 2026 12:39:19 +0900"
-    },
-    {
      "title": "上野動物園のパンダ舎 あすから解体 多くの人が最後の別れ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44365",
      "pubDate": "Sun, 16 Aug 2026 13:26:04 +0900"
     },
     {
-     "title": "ドジャース 大谷翔平 タイムリースリーベースもチームは敗れる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44369",
-     "pubDate": "Sun, 16 Aug 2026 12:56:52 +0900"
+     "title": "女子ゴルフ米ツアー第3R 原英莉花と勝みなみ 首位と4打差の5位",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44374",
+     "pubDate": "Sun, 16 Aug 2026 13:41:23 +0900"
     },
     {
-     "title": "高校野球 有明が東日大昌平に勝ち準々決勝進出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44367",
-     "pubDate": "Sun, 16 Aug 2026 12:40:20 +0900"
+     "title": "高校野球 花巻東が英明をリード（5回終了時）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44380",
+     "pubDate": "Sun, 16 Aug 2026 14:14:08 +0900"
+    },
+    {
+     "title": "熊本地震 「くまモン」が活動再開 被害受けた小学校を訪問",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44363",
+     "pubDate": "Sun, 16 Aug 2026 12:39:19 +0900"
     }
    ]
   },
@@ -62,7 +62,7 @@
     {
      "title": "【動画】Pickup NEWS（8月16日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44257",
-     "pubDate": "Sun, 16 Aug 2026 07:01:54 +0900"
+     "pubDate": "Sun, 16 Aug 2026 14:15:55 +0900"
     },
     {
      "title": "JR中央・総武線 全線で運転再開",
@@ -256,19 +256,14 @@
      "pubDate": "Sun, 16 Aug 2026 03:22:01 GMT"
     },
     {
-     "title": "米金融 新顔「ヨール街」に存在感",
-     "link": "https://news.yahoo.co.jp/pickup/6591924?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 02:14:02 GMT"
+     "title": "軍人に殴られた痛み 少年の記憶",
+     "link": "https://news.yahoo.co.jp/pickup/6591928?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 03:06:07 GMT"
     },
     {
      "title": "多摩川で中学生が溺れる 意識不明",
      "link": "https://news.yahoo.co.jp/pickup/6591935?source=rss",
      "pubDate": "Sun, 16 Aug 2026 04:14:43 GMT"
-    },
-    {
-     "title": "飼い犬殺害 裁判官が証言に苦言",
-     "link": "https://news.yahoo.co.jp/pickup/6591923?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 02:08:43 GMT"
     },
     {
      "title": "生後4カ月でがん 眼球摘出を決断",
@@ -289,6 +284,11 @@
      "title": "緊急先発の有明・斉藤 109球完投",
      "link": "https://news.yahoo.co.jp/pickup/6591936?source=rss",
      "pubDate": "Sun, 16 Aug 2026 04:36:27 GMT"
+    },
+    {
+     "title": "前田敦子 子どもは完全に生きがい",
+     "link": "https://news.yahoo.co.jp/pickup/6591938?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 04:56:12 GMT"
     }
    ]
   }
