@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T10:09:51.131Z",
+ "updatedAt": "2026-08-16T10:44:51.078Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "お盆のUターンラッシュ 新幹線と空の便がピークに",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44364",
-     "pubDate": "Sun, 16 Aug 2026 18:41:08 +0900"
-    },
-    {
      "title": "【千葉豪雨】死者10人に 浸水被害は約1500棟 片づけや給水続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
-     "pubDate": "Sun, 16 Aug 2026 19:06:27 +0900"
+     "pubDate": "Sun, 16 Aug 2026 19:40:44 +0900"
+    },
+    {
+     "title": "熊本 天草 お盆の帰省にあわせ二十歳のつどい",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44391",
+     "pubDate": "Sun, 16 Aug 2026 19:27:31 +0900"
+    },
+    {
+     "title": "熊本地震 17日も熱中症対策を 最大震度5弱程度以上の地震注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44323",
+     "pubDate": "Sun, 16 Aug 2026 19:28:38 +0900"
     },
     {
      "title": "サッカー元日本代表巻さん 地元の熊本 宇城市の被災地で夏祭り",
@@ -23,19 +28,14 @@
      "pubDate": "Sun, 16 Aug 2026 18:25:37 +0900"
     },
     {
-     "title": "熊本地震 17日も熱中症対策を 最大震度5弱程度以上の地震注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44323",
-     "pubDate": "Sun, 16 Aug 2026 18:38:48 +0900"
+     "title": "競泳 19歳の今福和志が男子1500ｍ自由形で日本新記録",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44406",
+     "pubDate": "Sun, 16 Aug 2026 18:59:00 +0900"
     },
     {
-     "title": "佳子さま 高校生の手話コンテストに出席 手話でおことば",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44401",
-     "pubDate": "Sun, 16 Aug 2026 18:50:13 +0900"
-    },
-    {
-     "title": "高校野球 横浜が霞ヶ浦に逆転勝ち 準々決勝進出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44389",
-     "pubDate": "Sun, 16 Aug 2026 18:53:32 +0900"
+     "title": "酒に酔って逆走 車3台巻き込む事故起こす 会社員を逮捕 徳島",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44405",
+     "pubDate": "Sun, 16 Aug 2026 19:21:03 +0900"
     },
     {
      "title": "千葉県四街道市 市内全域の土砂災害警戒区域などに避難指示",
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "熊本 天草 お盆の帰省にあわせ二十歳のつどい",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44391",
+     "pubDate": "Sun, 16 Aug 2026 19:27:31 +0900"
+    },
+    {
+     "title": "酒に酔って逆走 車3台巻き込む事故起こす 会社員を逮捕 徳島",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44405",
+     "pubDate": "Sun, 16 Aug 2026 19:21:03 +0900"
+    },
     {
      "title": "佳子さま 高校生の手話コンテストに出席 手話でおことば",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44401",
@@ -92,7 +102,7 @@
     {
      "title": "熊本地震 17日も熱中症対策を 最大震度5弱程度以上の地震注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44323",
-     "pubDate": "Sun, 16 Aug 2026 18:38:48 +0900"
+     "pubDate": "Sun, 16 Aug 2026 19:28:38 +0900"
     },
     {
      "title": "絶滅危惧種のキタサンショウウオ 生息地等保護区指定へ 環境省",
@@ -102,7 +112,7 @@
     {
      "title": "【千葉豪雨】死者10人に 浸水被害は約1500棟 片づけや給水続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
-     "pubDate": "Sun, 16 Aug 2026 19:06:27 +0900"
+     "pubDate": "Sun, 16 Aug 2026 19:40:44 +0900"
     },
     {
      "title": "長野 岡谷 3人死亡の土石流災害から5年 遺族が現場に",
@@ -113,16 +123,6 @@
      "title": "岐阜 長良川で水難事故相次ぐ 23歳の男性 計2人が溺れて死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44296",
      "pubDate": "Sat, 15 Aug 2026 23:48:12 +0900"
-    },
-    {
-     "title": "高校野球 「2部制」期間 熱中症疑いの選手はのべ9人",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44282",
-     "pubDate": "Sat, 15 Aug 2026 19:54:37 +0900"
-    },
-    {
-     "title": "お盆のUターンラッシュ 高速道路でピーク 各地で渋滞発生",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44293",
-     "pubDate": "Sat, 15 Aug 2026 19:39:12 +0900"
     }
    ]
   },
@@ -171,7 +171,7 @@
     {
      "title": "“交渉期限”迫る イラン「停戦存在せず」 米も対決姿勢",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44371",
-     "pubDate": "Sun, 16 Aug 2026 15:40:14 +0900"
+     "pubDate": "Sun, 16 Aug 2026 15:40:00 +0900"
     },
     {
      "title": "ウクライナがロシアのロケット製造拠点など攻撃",
@@ -221,7 +221,7 @@
     {
      "title": "トランプ大統領“近くホルムズ海峡は米領と宣言”イラン側反発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44241",
-     "pubDate": "Sat, 15 Aug 2026 23:54:00 +0900"
+     "pubDate": "Sat, 15 Aug 2026 12:31:00 +0900"
     },
     {
      "title": "リバプール ベゾス氏参加の投資家グループに一部株式売却へ",
@@ -256,9 +256,9 @@
      "pubDate": "Sun, 16 Aug 2026 09:41:22 GMT"
     },
     {
-     "title": "衆議院本館の女性トイレ 増設へ",
-     "link": "https://news.yahoo.co.jp/pickup/6591967?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 08:55:30 GMT"
+     "title": "インドネシアの地震 死者50人超に",
+     "link": "https://news.yahoo.co.jp/pickup/6591974?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 09:48:27 GMT"
     },
     {
      "title": "ゆりかご初日に預けられ 今は22歳",
@@ -276,14 +276,14 @@
      "pubDate": "Sun, 16 Aug 2026 09:11:21 GMT"
     },
     {
-     "title": "飼い犬殺害 裁判官が証言に苦言",
-     "link": "https://news.yahoo.co.jp/pickup/6591923?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 02:08:43 GMT"
+     "title": "早期退職 第二の人生は甘くない?",
+     "link": "https://news.yahoo.co.jp/pickup/6591977?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 10:26:05 GMT"
     },
     {
-     "title": "G小笠原に8秒間の大ブーイング",
-     "link": "https://news.yahoo.co.jp/pickup/6591968?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 09:00:43 GMT"
+     "title": "中日8回に10失点 ファン続々帰路",
+     "link": "https://news.yahoo.co.jp/pickup/6591979?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 10:33:39 GMT"
     },
     {
      "title": "木村多江 結婚は流れに乗った感じ",
