@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T23:40:42.697Z",
+ "updatedAt": "2026-08-16T00:29:00.694Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -246,19 +246,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "首相の靖国参拝見送り 外交考慮か",
-     "link": "https://news.yahoo.co.jp/pickup/6591897?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 23:06:57 GMT"
-    },
-    {
-     "title": "熊本地震 なお3205人が避難所に",
-     "link": "https://news.yahoo.co.jp/pickup/6591894?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 22:42:46 GMT"
+     "title": "お盆休み後は熱中症リスク高 警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6591898?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 23:10:16 GMT"
     },
     {
      "title": "中国船 尖閣周辺EEZで海洋調査か",
      "link": "https://news.yahoo.co.jp/pickup/6591895?source=rss",
      "pubDate": "Sat, 15 Aug 2026 22:54:50 GMT"
+    },
+    {
+     "title": "粗悪なモバイル電池 会社の闇追跡",
+     "link": "https://news.yahoo.co.jp/pickup/6591902?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 00:02:54 GMT"
     },
     {
      "title": "行方不明の英国籍12歳少女 保護",
@@ -271,19 +271,19 @@
      "pubDate": "Sat, 15 Aug 2026 22:52:38 GMT"
     },
     {
+     "title": "MLB初 デビュー戦で3打席連続HR",
+     "link": "https://news.yahoo.co.jp/pickup/6591901?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 23:54:07 GMT"
+    },
+    {
      "title": "鈴木彩艶のPSG移籍は破談か 報道",
      "link": "https://news.yahoo.co.jp/pickup/6591890?source=rss",
      "pubDate": "Sat, 15 Aug 2026 22:20:53 GMT"
     },
     {
-     "title": "J1町田 FW小川航基の獲得に動く",
-     "link": "https://news.yahoo.co.jp/pickup/6591891?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 22:20:31 GMT"
-    },
-    {
-     "title": "ラヴ上等と法務省コラボ なぜ物議",
-     "link": "https://news.yahoo.co.jp/pickup/6591893?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 22:42:12 GMT"
+     "title": "長州小力 無免許運転を巡り胸中",
+     "link": "https://news.yahoo.co.jp/pickup/6591903?source=rss",
+     "pubDate": "Sat, 15 Aug 2026 23:55:52 GMT"
     }
    ]
   }
