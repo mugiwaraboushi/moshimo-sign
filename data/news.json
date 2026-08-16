@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T11:40:52.764Z",
+ "updatedAt": "2026-08-16T12:12:30.904Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "お盆のUターンラッシュ 新幹線と空の便がピークに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44364",
+     "pubDate": "Sun, 16 Aug 2026 18:41:00 +0900"
+    },
+    {
      "title": "【千葉豪雨】死者10人に 浸水被害は約1500棟 片づけや給水続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
      "pubDate": "Sun, 16 Aug 2026 19:40:44 +0900"
-    },
-    {
-     "title": "お盆のUターンラッシュ 新幹線と空の便がピークに",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44364",
-     "pubDate": "Sun, 16 Aug 2026 18:41:08 +0900"
     },
     {
      "title": "熊本 天草 お盆の帰省にあわせ二十歳のつどい",
@@ -23,9 +23,9 @@
      "pubDate": "Sun, 16 Aug 2026 19:27:31 +0900"
     },
     {
-     "title": "熊本地震 17日も熱中症対策を 最大震度5弱程度以上の地震注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44323",
-     "pubDate": "Sun, 16 Aug 2026 19:28:38 +0900"
+     "title": "ロシア ウクライナ 双方が首都を攻撃 応酬激しさ増す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44402",
+     "pubDate": "Sun, 16 Aug 2026 20:31:47 +0900"
     },
     {
      "title": "競泳 19歳の今福和志が男子1500ｍ自由形で日本新記録",
@@ -38,9 +38,9 @@
      "pubDate": "Sun, 16 Aug 2026 19:21:03 +0900"
     },
     {
-     "title": "千葉県四街道市 市内全域の土砂災害警戒区域などに避難指示",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44388",
-     "pubDate": "Sun, 16 Aug 2026 16:33:09 +0900"
+     "title": "インドネシア東部地震で53人死亡 食料・水の確保が課題に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44411",
+     "pubDate": "Sun, 16 Aug 2026 20:45:21 +0900"
     }
    ]
   },
@@ -82,7 +82,7 @@
     {
      "title": "お盆のUターンラッシュ 新幹線と空の便がピークに",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44364",
-     "pubDate": "Sun, 16 Aug 2026 18:41:08 +0900"
+     "pubDate": "Sun, 16 Aug 2026 18:41:00 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（8月16日）",
@@ -169,6 +169,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "インドネシア東部地震で53人死亡 食料・水の確保が課題に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44411",
+     "pubDate": "Sun, 16 Aug 2026 20:45:21 +0900"
+    },
+    {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月16日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43489",
      "pubDate": "Sun, 16 Aug 2026 20:37:24 +0900"
@@ -237,11 +242,6 @@
      "title": "トランプ大統領“近くホルムズ海峡は米領と宣言”イラン側反発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44241",
      "pubDate": "Sat, 15 Aug 2026 12:31:00 +0900"
-    },
-    {
-     "title": "リバプール ベゾス氏参加の投資家グループに一部株式売却へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44235",
-     "pubDate": "Sat, 15 Aug 2026 11:12:12 +0900"
     }
    ]
   },
@@ -256,11 +256,6 @@
      "pubDate": "Sun, 16 Aug 2026 11:11:22 GMT"
     },
     {
-     "title": "千葉など17日から厳しい暑さ 注意",
-     "link": "https://news.yahoo.co.jp/pickup/6591973?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 09:41:22 GMT"
-    },
-    {
      "title": "千葉の車両撤去 JAFに要請が殺到",
      "link": "https://news.yahoo.co.jp/pickup/6591972?source=rss",
      "pubDate": "Sun, 16 Aug 2026 09:37:55 GMT"
@@ -269,6 +264,11 @@
      "title": "知人助けようとして行方不明 千葉",
      "link": "https://news.yahoo.co.jp/pickup/6591985?source=rss",
      "pubDate": "Sun, 16 Aug 2026 11:16:55 GMT"
+    },
+    {
+     "title": "「迷子です」と女児 高校生ら保護",
+     "link": "https://news.yahoo.co.jp/pickup/6591984?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 11:16:03 GMT"
     },
     {
      "title": "早期退職 第二の人生は甘くない?",
