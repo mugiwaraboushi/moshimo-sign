@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T15:08:54.119Z",
+ "updatedAt": "2026-08-16T15:42:05.342Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -28,9 +28,9 @@
      "pubDate": "Sun, 16 Aug 2026 19:27:31 +0900"
     },
     {
-     "title": "酒に酔って逆走 車3台巻き込む事故起こす 会社員を逮捕 徳島",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44405",
-     "pubDate": "Sun, 16 Aug 2026 19:21:03 +0900"
+     "title": "ハンガリーでポーランド人観光客乗せたバス 横転事故 12人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44416",
+     "pubDate": "Mon, 17 Aug 2026 00:13:35 +0900"
     },
     {
      "title": "ロシア ウクライナ 双方が首都を攻撃 応酬激しさ増す",
@@ -169,6 +169,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ハンガリーでポーランド人観光客乗せたバス 横転事故 12人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44416",
+     "pubDate": "Mon, 17 Aug 2026 00:13:35 +0900"
+    },
+    {
      "title": "インドネシア東部地震で53人死亡 食料・水の確保が課題に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44411",
      "pubDate": "Sun, 16 Aug 2026 20:45:21 +0900"
@@ -237,11 +242,6 @@
      "title": "ロシア プーチン大統領が北朝鮮のキム総書記へ祝電 結束を確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44254",
      "pubDate": "Sat, 15 Aug 2026 14:21:24 +0900"
-    },
-    {
-     "title": "トランプ大統領“近くホルムズ海峡は米領と宣言”イラン側反発",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44241",
-     "pubDate": "Sat, 15 Aug 2026 12:31:00 +0900"
     }
    ]
   },
@@ -286,9 +286,9 @@
      "pubDate": "Sun, 16 Aug 2026 15:00:50 GMT"
     },
     {
-     "title": "激震 有明ダブルエースの1人骨折",
-     "link": "https://news.yahoo.co.jp/pickup/6591983?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 11:11:01 GMT"
+     "title": "広島・小園が懲罰交代 ミス連発",
+     "link": "https://news.yahoo.co.jp/pickup/6591997?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 13:27:26 GMT"
     }
    ]
   }
