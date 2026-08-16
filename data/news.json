@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T13:06:01.373Z",
+ "updatedAt": "2026-08-16T13:49:10.080Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "死者10人に 浸水被害は約1500棟 千葉市で車両約2500台が路上に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
-     "pubDate": "Sun, 16 Aug 2026 21:54:56 +0900"
+     "pubDate": "Sun, 16 Aug 2026 22:44:18 +0900"
     },
     {
      "title": "お盆のUターンラッシュ 新幹線と空の便がピークに",
@@ -112,7 +112,7 @@
     {
      "title": "死者10人に 浸水被害は約1500棟 千葉市で車両約2500台が路上に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
-     "pubDate": "Sun, 16 Aug 2026 21:54:56 +0900"
+     "pubDate": "Sun, 16 Aug 2026 22:44:18 +0900"
     },
     {
      "title": "長野 岡谷 3人死亡の土石流災害から5年 遺族が現場に",
@@ -256,19 +256,14 @@
      "pubDate": "Sun, 16 Aug 2026 11:11:22 GMT"
     },
     {
-     "title": "千葉豪雨 放置車両2700台を確認",
-     "link": "https://news.yahoo.co.jp/pickup/6591991?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 12:36:37 GMT"
-    },
-    {
      "title": "千葉市の川沿いに遺体 豪雨関連か",
      "link": "https://news.yahoo.co.jp/pickup/6591994?source=rss",
      "pubDate": "Sun, 16 Aug 2026 13:00:18 GMT"
     },
     {
-     "title": "辞職勧告受け 福岡県議長続投考え",
-     "link": "https://news.yahoo.co.jp/pickup/6591987?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 12:07:39 GMT"
+     "title": "BBQ中に川に流され 20代女性重体",
+     "link": "https://news.yahoo.co.jp/pickup/6592000?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 13:37:35 GMT"
     },
     {
      "title": "早期退職 第二の人生は甘くない?",
@@ -281,14 +276,19 @@
      "pubDate": "Sun, 16 Aug 2026 12:38:32 GMT"
     },
     {
-     "title": "横浜・織田 登板するだけで大歓声",
-     "link": "https://news.yahoo.co.jp/pickup/6591989?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 12:08:11 GMT"
+     "title": "広島・小園が懲罰交代 ミス連発",
+     "link": "https://news.yahoo.co.jp/pickup/6591997?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 13:27:26 GMT"
     },
     {
      "title": "激震 有明ダブルエースの1人骨折",
      "link": "https://news.yahoo.co.jp/pickup/6591983?source=rss",
      "pubDate": "Sun, 16 Aug 2026 11:11:01 GMT"
+    },
+    {
+     "title": "カンヌ女優賞 岡本多緒が出産",
+     "link": "https://news.yahoo.co.jp/pickup/6591999?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 13:25:29 GMT"
     }
    ]
   }
