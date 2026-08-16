@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T21:08:18.867Z",
+ "updatedAt": "2026-08-16T21:40:15.114Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "千葉豪雨 死者10人 千葉市で車約2500台が路上に残る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44428",
-     "pubDate": "Mon, 17 Aug 2026 02:39:36 +0900"
+     "pubDate": "Mon, 17 Aug 2026 02:39:00 +0900"
     },
     {
      "title": "きょうから米韓軍事演習 野外機動訓練縮小続くも北朝鮮は反発",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（8月17日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44403",
+     "pubDate": "Mon, 17 Aug 2026 06:36:33 +0900"
+    },
     {
      "title": "車いす利用者 送迎車での死亡事故7年で30件 消費者事故調",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44410",
@@ -118,11 +123,6 @@
      "title": "死者10人に 浸水被害は約1500棟 千葉市で車両約2500台が路上に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
      "pubDate": "Sun, 16 Aug 2026 22:44:18 +0900"
-    },
-    {
-     "title": "長野 岡谷 3人死亡の土石流災害から5年 遺族が現場に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44315",
-     "pubDate": "Sat, 15 Aug 2026 23:38:40 +0900"
     }
    ]
   },
@@ -271,19 +271,19 @@
      "pubDate": "Sun, 16 Aug 2026 13:37:35 GMT"
     },
     {
-     "title": "マンホールの蓋飛ぶ 虫駆除原因か",
-     "link": "https://news.yahoo.co.jp/pickup/6592005?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 14:47:20 GMT"
-    },
-    {
-     "title": "京急上大岡駅 液晶の「パタパタ」",
-     "link": "https://news.yahoo.co.jp/pickup/6591992?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 12:38:32 GMT"
-    },
-    {
      "title": "オープンAI 経営幹部が相次ぎ退社",
      "link": "https://news.yahoo.co.jp/pickup/6592006?source=rss",
      "pubDate": "Sun, 16 Aug 2026 15:00:50 GMT"
+    },
+    {
+     "title": "Cロナウド 今季終了後の引退示唆",
+     "link": "https://news.yahoo.co.jp/pickup/6592008?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 21:24:54 GMT"
+    },
+    {
+     "title": "村上宗隆が28号2ラン 快進撃主役",
+     "link": "https://news.yahoo.co.jp/pickup/6592007?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 21:09:17 GMT"
     },
     {
      "title": "広島・小園が懲罰交代 ミス連発",
