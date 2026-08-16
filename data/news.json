@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T22:42:59.479Z",
+ "updatedAt": "2026-08-16T23:08:12.423Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -251,9 +251,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "福岡県で震度4 津波の心配なし",
-     "link": "https://news.yahoo.co.jp/pickup/6592009?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 21:43:37 GMT"
+     "title": "介護保険証とマイナ 一体化を促進",
+     "link": "https://news.yahoo.co.jp/pickup/6592015?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 22:39:10 GMT"
     },
     {
      "title": "トランプ氏 米韓軍事演習縮小指示",
@@ -261,14 +261,14 @@
      "pubDate": "Sun, 16 Aug 2026 22:20:29 GMT"
     },
     {
+     "title": "遊泳区域外で泳ぎ練習中 溺れ死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6592020?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 22:59:17 GMT"
+    },
+    {
      "title": "BBQ中に川に流され 20代女性重体",
      "link": "https://news.yahoo.co.jp/pickup/6592000?source=rss",
      "pubDate": "Sun, 16 Aug 2026 13:37:35 GMT"
-    },
-    {
-     "title": "福岡県議長 自民会派相談役外れる",
-     "link": "https://news.yahoo.co.jp/pickup/6592014?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 22:26:59 GMT"
     },
     {
      "title": "オープンAI 経営幹部が相次ぎ退社",
@@ -286,9 +286,9 @@
      "pubDate": "Sun, 16 Aug 2026 21:24:54 GMT"
     },
     {
-     "title": "村上宗隆が28号2ラン 快進撃主役",
-     "link": "https://news.yahoo.co.jp/pickup/6592007?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 21:09:17 GMT"
+     "title": "剛力彩芽 事務所名イジりに笑顔",
+     "link": "https://news.yahoo.co.jp/pickup/6592016?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 22:38:06 GMT"
     }
    ]
   }
