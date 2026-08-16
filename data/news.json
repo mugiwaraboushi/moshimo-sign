@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T12:12:30.904Z",
+ "updatedAt": "2026-08-16T13:06:01.373Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "死者10人に 浸水被害は約1500棟 千葉市で車両約2500台が路上に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
+     "pubDate": "Sun, 16 Aug 2026 21:54:56 +0900"
+    },
+    {
      "title": "お盆のUターンラッシュ 新幹線と空の便がピークに",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44364",
      "pubDate": "Sun, 16 Aug 2026 18:41:00 +0900"
-    },
-    {
-     "title": "【千葉豪雨】死者10人に 浸水被害は約1500棟 片づけや給水続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
-     "pubDate": "Sun, 16 Aug 2026 19:40:44 +0900"
     },
     {
      "title": "熊本 天草 お盆の帰省にあわせ二十歳のつどい",
@@ -77,7 +77,7 @@
     {
      "title": "上野動物園のパンダ舎 あすから解体 多くの人が最後の別れ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44365",
-     "pubDate": "Sun, 16 Aug 2026 13:26:04 +0900"
+     "pubDate": "Sun, 16 Aug 2026 13:26:00 +0900"
     },
     {
      "title": "お盆のUターンラッシュ 新幹線と空の便がピークに",
@@ -110,9 +110,9 @@
      "pubDate": "Sun, 16 Aug 2026 05:15:30 +0900"
     },
     {
-     "title": "【千葉豪雨】死者10人に 浸水被害は約1500棟 片づけや給水続く",
+     "title": "死者10人に 浸水被害は約1500棟 千葉市で車両約2500台が路上に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
-     "pubDate": "Sun, 16 Aug 2026 19:40:44 +0900"
+     "pubDate": "Sun, 16 Aug 2026 21:54:56 +0900"
     },
     {
      "title": "長野 岡谷 3人死亡の土石流災害から5年 遺族が現場に",
@@ -256,19 +256,19 @@
      "pubDate": "Sun, 16 Aug 2026 11:11:22 GMT"
     },
     {
-     "title": "千葉の車両撤去 JAFに要請が殺到",
-     "link": "https://news.yahoo.co.jp/pickup/6591972?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 09:37:55 GMT"
+     "title": "千葉豪雨 放置車両2700台を確認",
+     "link": "https://news.yahoo.co.jp/pickup/6591991?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 12:36:37 GMT"
     },
     {
-     "title": "知人助けようとして行方不明 千葉",
-     "link": "https://news.yahoo.co.jp/pickup/6591985?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 11:16:55 GMT"
+     "title": "千葉市の川沿いに遺体 豪雨関連か",
+     "link": "https://news.yahoo.co.jp/pickup/6591994?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 13:00:18 GMT"
     },
     {
-     "title": "「迷子です」と女児 高校生ら保護",
-     "link": "https://news.yahoo.co.jp/pickup/6591984?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 11:16:03 GMT"
+     "title": "辞職勧告受け 福岡県議長続投考え",
+     "link": "https://news.yahoo.co.jp/pickup/6591987?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 12:07:39 GMT"
     },
     {
      "title": "早期退職 第二の人生は甘くない?",
@@ -276,19 +276,19 @@
      "pubDate": "Sun, 16 Aug 2026 10:26:05 GMT"
     },
     {
+     "title": "京急上大岡駅 液晶の「パタパタ」",
+     "link": "https://news.yahoo.co.jp/pickup/6591992?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 12:38:32 GMT"
+    },
+    {
+     "title": "横浜・織田 登板するだけで大歓声",
+     "link": "https://news.yahoo.co.jp/pickup/6591989?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 12:08:11 GMT"
+    },
+    {
      "title": "激震 有明ダブルエースの1人骨折",
      "link": "https://news.yahoo.co.jp/pickup/6591983?source=rss",
      "pubDate": "Sun, 16 Aug 2026 11:11:01 GMT"
-    },
-    {
-     "title": "中日8回に10失点 ファン続々帰路",
-     "link": "https://news.yahoo.co.jp/pickup/6591979?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 10:33:39 GMT"
-    },
-    {
-     "title": "木村多江 結婚は流れに乗った感じ",
-     "link": "https://news.yahoo.co.jp/pickup/6591971?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 09:35:26 GMT"
     }
    ]
   }
