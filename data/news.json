@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T22:07:08.116Z",
+ "updatedAt": "2026-08-16T22:42:59.479Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,11 +7,6 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
-    {
-     "title": "【地震速報】福岡 糸島で震度4 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44445",
-     "pubDate": "Mon, 17 Aug 2026 06:45:31 +0900"
-    },
     {
      "title": "トランプ大統領 米韓合同軍事演習“縮小を指示”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44424",
@@ -21,6 +16,11 @@
      "title": "千葉豪雨 死者10人 千葉市で車約2500台が路上に残る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44428",
      "pubDate": "Mon, 17 Aug 2026 02:39:00 +0900"
+    },
+    {
+     "title": "JR外房線 17日朝から代行バス運行 一部区間で運転見合わせ続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44432",
+     "pubDate": "Mon, 17 Aug 2026 07:03:46 +0900"
     },
     {
      "title": "熊本地震 地震活動と暑さに注意 できるかぎりの熱中症対策を",
@@ -33,14 +33,14 @@
      "pubDate": "Mon, 17 Aug 2026 05:56:16 +0900"
     },
     {
-     "title": "ロシアへの長距離攻撃にイギリス供与の無人機使用 英紙報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44425",
-     "pubDate": "Mon, 17 Aug 2026 05:27:09 +0900"
+     "title": "食料品の消費税減税の地方減収分 国で補てん検討",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44414",
+     "pubDate": "Mon, 17 Aug 2026 07:14:26 +0900"
     },
     {
-     "title": "インドネシア東部地震で53人死亡 食料・水の確保が課題に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44411",
-     "pubDate": "Sun, 16 Aug 2026 20:45:21 +0900"
+     "title": "論文盗用疑惑のケンブリッジ大元教授死亡 疑惑に人種差別訴え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44438",
+     "pubDate": "Mon, 17 Aug 2026 07:34:55 +0900"
     }
    ]
   },
@@ -169,6 +169,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "論文盗用疑惑のケンブリッジ大元教授死亡 疑惑に人種差別訴え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44438",
+     "pubDate": "Mon, 17 Aug 2026 07:34:55 +0900"
+    },
+    {
+     "title": "リヒテンシュタイン 女性も国家元首可能に 欧州で転換進む",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44439",
+     "pubDate": "Mon, 17 Aug 2026 07:23:32 +0900"
+    },
+    {
      "title": "ロシアへの長距離攻撃にイギリス供与の無人機使用 英紙報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44425",
      "pubDate": "Mon, 17 Aug 2026 05:27:09 +0900"
@@ -232,16 +242,6 @@
      "title": "台湾 新幹線をベースにした新型車両を導入 最初の車両が到着",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44289",
      "pubDate": "Sat, 15 Aug 2026 19:53:03 +0900"
-    },
-    {
-     "title": "終戦81年 太平洋戦争の激戦地 フィリピンで戦没者を追悼",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44268",
-     "pubDate": "Sat, 15 Aug 2026 15:20:16 +0900"
-    },
-    {
-     "title": "ワシントンの第2次世界大戦記念碑に落書きか 容疑者を訴追",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44227",
-     "pubDate": "Sat, 15 Aug 2026 15:19:34 +0900"
     }
    ]
   },
@@ -256,19 +256,19 @@
      "pubDate": "Sun, 16 Aug 2026 21:43:37 GMT"
     },
     {
-     "title": "逆走台風と千葉豪雨 なぜ起きた",
-     "link": "https://news.yahoo.co.jp/pickup/6591993?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 13:00:16 GMT"
-    },
-    {
-     "title": "米イラン覚書期限 海峡開放見えず",
-     "link": "https://news.yahoo.co.jp/pickup/6592001?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 13:44:26 GMT"
+     "title": "トランプ氏 米韓軍事演習縮小指示",
+     "link": "https://news.yahoo.co.jp/pickup/6592012?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 22:20:29 GMT"
     },
     {
      "title": "BBQ中に川に流され 20代女性重体",
      "link": "https://news.yahoo.co.jp/pickup/6592000?source=rss",
      "pubDate": "Sun, 16 Aug 2026 13:37:35 GMT"
+    },
+    {
+     "title": "福岡県議長 自民会派相談役外れる",
+     "link": "https://news.yahoo.co.jp/pickup/6592014?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 22:26:59 GMT"
     },
     {
      "title": "オープンAI 経営幹部が相次ぎ退社",
