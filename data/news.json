@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T05:18:55.042Z",
+ "updatedAt": "2026-08-16T05:49:47.242Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -251,19 +251,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "お盆休み最終日 交通混雑がピーク",
-     "link": "https://news.yahoo.co.jp/pickup/6591931?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 03:22:01 GMT"
-    },
-    {
      "title": "軍人に殴られた痛み 少年の記憶",
      "link": "https://news.yahoo.co.jp/pickup/6591928?source=rss",
      "pubDate": "Sun, 16 Aug 2026 03:06:07 GMT"
     },
     {
-     "title": "多摩川で中学生が溺れる 意識不明",
-     "link": "https://news.yahoo.co.jp/pickup/6591935?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 04:14:43 GMT"
+     "title": "露がウクライナの子連れ去り 実態",
+     "link": "https://news.yahoo.co.jp/pickup/6591913?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 01:13:15 GMT"
+    },
+    {
+     "title": "釣り竿取りに池泳ぎ溺れたか 死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6591945?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 05:41:56 GMT"
     },
     {
      "title": "生後4カ月でがん 眼球摘出を決断",
@@ -276,9 +276,9 @@
      "pubDate": "Sun, 16 Aug 2026 02:55:48 GMT"
     },
     {
-     "title": "速報甲子園 花巻東vs.英明",
-     "link": "https://news.yahoo.co.jp/pickup/6591934?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 03:47:35 GMT"
+     "title": "元近鉄の左腕・神部年男さん死去",
+     "link": "https://news.yahoo.co.jp/pickup/6591944?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 05:33:36 GMT"
     },
     {
      "title": "緊急先発の有明・斉藤 109球完投",
