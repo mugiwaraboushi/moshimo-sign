@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T21:40:15.114Z",
+ "updatedAt": "2026-08-16T22:07:08.116Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "【地震速報】福岡 糸島で震度4 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44445",
+     "pubDate": "Mon, 17 Aug 2026 06:45:31 +0900"
+    },
+    {
+     "title": "トランプ大統領 米韓合同軍事演習“縮小を指示”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44424",
+     "pubDate": "Mon, 17 Aug 2026 07:05:21 +0900"
+    },
+    {
      "title": "千葉豪雨 死者10人 千葉市で車約2500台が路上に残る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44428",
      "pubDate": "Mon, 17 Aug 2026 02:39:00 +0900"
-    },
-    {
-     "title": "きょうから米韓軍事演習 野外機動訓練縮小続くも北朝鮮は反発",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44424",
-     "pubDate": "Mon, 17 Aug 2026 05:25:50 +0900"
     },
     {
      "title": "熊本地震 地震活動と暑さに注意 できるかぎりの熱中症対策を",
@@ -31,11 +36,6 @@
      "title": "ロシアへの長距離攻撃にイギリス供与の無人機使用 英紙報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44425",
      "pubDate": "Mon, 17 Aug 2026 05:27:09 +0900"
-    },
-    {
-     "title": "ハンガリーでポーランド人観光客乗せたバス 横転事故 12人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44416",
-     "pubDate": "Mon, 17 Aug 2026 00:13:00 +0900"
     },
     {
      "title": "インドネシア東部地震で53人死亡 食料・水の確保が課題に",
@@ -174,9 +174,9 @@
      "pubDate": "Mon, 17 Aug 2026 05:27:09 +0900"
     },
     {
-     "title": "きょうから米韓軍事演習 野外機動訓練縮小続くも北朝鮮は反発",
+     "title": "トランプ大統領 米韓合同軍事演習“縮小を指示”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44424",
-     "pubDate": "Mon, 17 Aug 2026 05:25:50 +0900"
+     "pubDate": "Mon, 17 Aug 2026 07:05:21 +0900"
     },
     {
      "title": "ハンガリーでポーランド人観光客乗せたバス 横転事故 12人死亡",
@@ -251,6 +251,11 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "福岡県で震度4 津波の心配なし",
+     "link": "https://news.yahoo.co.jp/pickup/6592009?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 21:43:37 GMT"
+    },
+    {
      "title": "逆走台風と千葉豪雨 なぜ起きた",
      "link": "https://news.yahoo.co.jp/pickup/6591993?source=rss",
      "pubDate": "Sun, 16 Aug 2026 13:00:16 GMT"
@@ -259,11 +264,6 @@
      "title": "米イラン覚書期限 海峡開放見えず",
      "link": "https://news.yahoo.co.jp/pickup/6592001?source=rss",
      "pubDate": "Sun, 16 Aug 2026 13:44:26 GMT"
-    },
-    {
-     "title": "ドローン600機 露首都に向け飛行",
-     "link": "https://news.yahoo.co.jp/pickup/6592002?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 14:01:34 GMT"
     },
     {
      "title": "BBQ中に川に流され 20代女性重体",
@@ -276,6 +276,11 @@
      "pubDate": "Sun, 16 Aug 2026 15:00:50 GMT"
     },
     {
+     "title": "トミー・ジョン氏死去 MLB発表",
+     "link": "https://news.yahoo.co.jp/pickup/6592011?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 21:58:14 GMT"
+    },
+    {
      "title": "Cロナウド 今季終了後の引退示唆",
      "link": "https://news.yahoo.co.jp/pickup/6592008?source=rss",
      "pubDate": "Sun, 16 Aug 2026 21:24:54 GMT"
@@ -284,11 +289,6 @@
      "title": "村上宗隆が28号2ラン 快進撃主役",
      "link": "https://news.yahoo.co.jp/pickup/6592007?source=rss",
      "pubDate": "Sun, 16 Aug 2026 21:09:17 GMT"
-    },
-    {
-     "title": "広島・小園が懲罰交代 ミス連発",
-     "link": "https://news.yahoo.co.jp/pickup/6591997?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 13:27:26 GMT"
     }
    ]
   }
