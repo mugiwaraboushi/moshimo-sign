@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T23:08:12.423Z",
+ "updatedAt": "2026-08-16T23:39:51.569Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -251,14 +251,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "豪雨で放置車両 撤去見通し立たず",
+     "link": "https://news.yahoo.co.jp/pickup/6592023?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 23:29:07 GMT"
+    },
+    {
      "title": "介護保険証とマイナ 一体化を促進",
      "link": "https://news.yahoo.co.jp/pickup/6592015?source=rss",
      "pubDate": "Sun, 16 Aug 2026 22:39:10 GMT"
-    },
-    {
-     "title": "トランプ氏 米韓軍事演習縮小指示",
-     "link": "https://news.yahoo.co.jp/pickup/6592012?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 22:20:29 GMT"
     },
     {
      "title": "遊泳区域外で泳ぎ練習中 溺れ死亡",
@@ -266,9 +266,9 @@
      "pubDate": "Sun, 16 Aug 2026 22:59:17 GMT"
     },
     {
-     "title": "BBQ中に川に流され 20代女性重体",
-     "link": "https://news.yahoo.co.jp/pickup/6592000?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 13:37:35 GMT"
+     "title": "大戸屋HD社長 海外出店を加速",
+     "link": "https://news.yahoo.co.jp/pickup/6592019?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 23:14:16 GMT"
     },
     {
      "title": "オープンAI 経営幹部が相次ぎ退社",
@@ -281,14 +281,14 @@
      "pubDate": "Sun, 16 Aug 2026 21:58:14 GMT"
     },
     {
-     "title": "Cロナウド 今季終了後の引退示唆",
-     "link": "https://news.yahoo.co.jp/pickup/6592008?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 21:24:54 GMT"
-    },
-    {
      "title": "剛力彩芽 事務所名イジりに笑顔",
      "link": "https://news.yahoo.co.jp/pickup/6592016?source=rss",
      "pubDate": "Sun, 16 Aug 2026 22:38:06 GMT"
+    },
+    {
+     "title": "Cロナウド 今季終了後の引退示唆",
+     "link": "https://news.yahoo.co.jp/pickup/6592008?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 21:24:54 GMT"
     }
    ]
   }
