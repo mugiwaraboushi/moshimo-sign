@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T14:44:14.676Z",
+ "updatedAt": "2026-08-16T15:08:54.119Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -256,11 +256,6 @@
      "pubDate": "Sun, 16 Aug 2026 13:00:16 GMT"
     },
     {
-     "title": "千葉市の川沿いに遺体 豪雨関連か",
-     "link": "https://news.yahoo.co.jp/pickup/6591994?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 13:00:18 GMT"
-    },
-    {
      "title": "米イラン覚書期限 海峡開放見えず",
      "link": "https://news.yahoo.co.jp/pickup/6592001?source=rss",
      "pubDate": "Sun, 16 Aug 2026 13:44:26 GMT"
@@ -276,19 +271,24 @@
      "pubDate": "Sun, 16 Aug 2026 13:37:35 GMT"
     },
     {
+     "title": "マンホールの蓋飛ぶ 虫駆除原因か",
+     "link": "https://news.yahoo.co.jp/pickup/6592005?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 14:47:20 GMT"
+    },
+    {
      "title": "京急上大岡駅 液晶の「パタパタ」",
      "link": "https://news.yahoo.co.jp/pickup/6591992?source=rss",
      "pubDate": "Sun, 16 Aug 2026 12:38:32 GMT"
     },
     {
-     "title": "霞ケ浦選手へ横浜選手水渡す 拍手",
-     "link": "https://news.yahoo.co.jp/pickup/6592004?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 14:18:10 GMT"
+     "title": "オープンAI 経営幹部が相次ぎ退社",
+     "link": "https://news.yahoo.co.jp/pickup/6592006?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 15:00:50 GMT"
     },
     {
-     "title": "広島・小園が懲罰交代 ミス連発",
-     "link": "https://news.yahoo.co.jp/pickup/6591997?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 13:27:26 GMT"
+     "title": "激震 有明ダブルエースの1人骨折",
+     "link": "https://news.yahoo.co.jp/pickup/6591983?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 11:11:01 GMT"
     }
    ]
   }
