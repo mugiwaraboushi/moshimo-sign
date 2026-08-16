@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T09:14:24.944Z",
+ "updatedAt": "2026-08-16T09:47:47.618Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "お盆のUターンラッシュ 新幹線と空の便がピークに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44364",
+     "pubDate": "Sun, 16 Aug 2026 18:41:08 +0900"
+    },
     {
      "title": "東京 府中 多摩川で遊んでいた中学3年男子生徒が溺れて重体",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44386",
@@ -18,9 +23,14 @@
      "pubDate": "Sun, 16 Aug 2026 17:25:01 +0900"
     },
     {
-     "title": "千葉県四街道市 市内全域の土砂災害警戒区域などに避難指示",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44388",
-     "pubDate": "Sun, 16 Aug 2026 16:33:09 +0900"
+     "title": "サッカー元日本代表巻さん 地元の熊本 宇城市の被災地で夏祭り",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44395",
+     "pubDate": "Sun, 16 Aug 2026 18:25:37 +0900"
+    },
+    {
+     "title": "熊本地震 17日も熱中症対策を 最大震度5弱程度以上の地震注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44323",
+     "pubDate": "Sun, 16 Aug 2026 18:38:48 +0900"
     },
     {
      "title": "高校野球 横浜が霞ヶ浦に勝ち準々決勝進出",
@@ -28,19 +38,9 @@
      "pubDate": "Sun, 16 Aug 2026 17:24:49 +0900"
     },
     {
-     "title": "お盆のUターンラッシュ 新幹線と空の便がピークに",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44364",
-     "pubDate": "Sun, 16 Aug 2026 13:08:14 +0900"
-    },
-    {
-     "title": "熊本地震 活発な活動続く きょうも熱中症対策を 雷雨にも注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44323",
-     "pubDate": "Sun, 16 Aug 2026 15:10:38 +0900"
-    },
-    {
-     "title": "女子ゴルフ国内ツアー 安田祐香が優勝 全英制覇の桑木志帆42位",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44383",
-     "pubDate": "Sun, 16 Aug 2026 16:43:54 +0900"
+     "title": "千葉県四街道市 市内全域の土砂災害警戒区域などに避難指示",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44388",
+     "pubDate": "Sun, 16 Aug 2026 16:33:09 +0900"
     }
    ]
   },
@@ -67,7 +67,7 @@
     {
      "title": "お盆のUターンラッシュ 新幹線と空の便がピークに",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44364",
-     "pubDate": "Sun, 16 Aug 2026 13:08:14 +0900"
+     "pubDate": "Sun, 16 Aug 2026 18:41:08 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（8月16日）",
@@ -85,9 +85,9 @@
      "pubDate": "Sun, 16 Aug 2026 07:05:16 +0900"
     },
     {
-     "title": "熊本地震 活発な活動続く きょうも熱中症対策を 雷雨にも注意",
+     "title": "熊本地震 17日も熱中症対策を 最大震度5弱程度以上の地震注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44323",
-     "pubDate": "Sun, 16 Aug 2026 15:10:38 +0900"
+     "pubDate": "Sun, 16 Aug 2026 18:38:48 +0900"
     },
     {
      "title": "絶滅危惧種のキタサンショウウオ 生息地等保護区指定へ 環境省",
@@ -251,24 +251,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "千葉など17日から厳しい暑さ 注意",
+     "link": "https://news.yahoo.co.jp/pickup/6591973?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 09:41:22 GMT"
+    },
+    {
      "title": "防空壕で生まれた自民森山氏 思い",
      "link": "https://news.yahoo.co.jp/pickup/6591954?source=rss",
      "pubDate": "Sun, 16 Aug 2026 07:24:48 GMT"
     },
     {
-     "title": "地震で実家崩れ「助けて」父の声",
-     "link": "https://news.yahoo.co.jp/pickup/6591961?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 07:59:28 GMT"
-    },
-    {
-     "title": "溺れ死んじゃう 浸水の車内で恐怖",
-     "link": "https://news.yahoo.co.jp/pickup/6591969?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 09:04:35 GMT"
-    },
-    {
      "title": "豪で「ワーホリ」受け入れ抑制へ",
      "link": "https://news.yahoo.co.jp/pickup/6591966?source=rss",
      "pubDate": "Sun, 16 Aug 2026 08:57:21 GMT"
+    },
+    {
+     "title": "地震で停電 教室育ちサーモン全滅",
+     "link": "https://news.yahoo.co.jp/pickup/6591970?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 09:11:21 GMT"
     },
     {
      "title": "世界でブームのスクイーズ 事故も",
@@ -281,14 +281,14 @@
      "pubDate": "Sun, 16 Aug 2026 08:30:48 GMT"
     },
     {
-     "title": "子ども用ハーネス賛否 識者の見解",
-     "link": "https://news.yahoo.co.jp/pickup/6591953?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 07:23:29 GMT"
-    },
-    {
      "title": "G小笠原に8秒間の大ブーイング",
      "link": "https://news.yahoo.co.jp/pickup/6591968?source=rss",
      "pubDate": "Sun, 16 Aug 2026 09:00:43 GMT"
+    },
+    {
+     "title": "木村多江 結婚は流れに乗った感じ",
+     "link": "https://news.yahoo.co.jp/pickup/6591971?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 09:35:26 GMT"
     }
    ]
   }
