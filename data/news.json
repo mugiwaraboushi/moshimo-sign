@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T10:44:51.078Z",
+ "updatedAt": "2026-08-16T11:08:46.460Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,6 +13,11 @@
      "pubDate": "Sun, 16 Aug 2026 19:40:44 +0900"
     },
     {
+     "title": "お盆のUターンラッシュ 新幹線と空の便がピークに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44364",
+     "pubDate": "Sun, 16 Aug 2026 18:41:08 +0900"
+    },
+    {
      "title": "熊本 天草 お盆の帰省にあわせ二十歳のつどい",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44391",
      "pubDate": "Sun, 16 Aug 2026 19:27:31 +0900"
@@ -21,11 +26,6 @@
      "title": "熊本地震 17日も熱中症対策を 最大震度5弱程度以上の地震注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44323",
      "pubDate": "Sun, 16 Aug 2026 19:28:38 +0900"
-    },
-    {
-     "title": "サッカー元日本代表巻さん 地元の熊本 宇城市の被災地で夏祭り",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44395",
-     "pubDate": "Sun, 16 Aug 2026 18:25:37 +0900"
     },
     {
      "title": "競泳 19歳の今福和志が男子1500ｍ自由形で日本新記録",
@@ -87,7 +87,7 @@
     {
      "title": "【動画】Pickup NEWS（8月16日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44257",
-     "pubDate": "Sun, 16 Aug 2026 14:15:55 +0900"
+     "pubDate": "Sun, 16 Aug 2026 19:45:03 +0900"
     },
     {
      "title": "JR中央・総武線 全線で運転再開",
@@ -169,6 +169,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ウクライナ ロシアの物流施設など攻撃 えん戦気分拡大ねらいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44393",
+     "pubDate": "Sun, 16 Aug 2026 19:58:33 +0900"
+    },
+    {
      "title": "“交渉期限”迫る イラン「停戦存在せず」 米も対決姿勢",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44371",
      "pubDate": "Sun, 16 Aug 2026 15:40:00 +0900"
@@ -237,11 +242,6 @@
      "title": "コロンビア地震 1万超の住宅破壊 家失った人の支援も課題に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44213",
      "pubDate": "Sat, 15 Aug 2026 07:37:57 +0900"
-    },
-    {
-     "title": "15歳未満のSNS利用禁止法に違憲判断 フランス憲法評議会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44203",
-     "pubDate": "Sat, 15 Aug 2026 06:40:33 +0900"
     }
    ]
   },
