@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T07:05:52.641Z",
+ "updatedAt": "2026-08-16T07:50:32.484Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【千葉豪雨】死者9人 夜にかけ雨のおそれ 土砂災害に注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
-     "pubDate": "Sun, 16 Aug 2026 13:28:21 +0900"
+     "title": "千葉県四街道市 市内全域の土砂災害警戒区域などに避難指示",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44388",
+     "pubDate": "Sun, 16 Aug 2026 16:33:09 +0900"
     },
     {
-     "title": "“交渉期限”迫る イラン「停戦存在せず」 米も対決姿勢",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44371",
-     "pubDate": "Sun, 16 Aug 2026 15:40:14 +0900"
+     "title": "【千葉豪雨】死者9人 夜にかけ雨のおそれ 土砂災害に注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
+     "pubDate": "Sun, 16 Aug 2026 16:36:06 +0900"
     },
     {
      "title": "お盆のUターンラッシュ 新幹線と空の便がピークに",
@@ -23,24 +23,24 @@
      "pubDate": "Sun, 16 Aug 2026 13:08:14 +0900"
     },
     {
+     "title": "高校野球 花巻東が英明に勝利 3年ぶりベスト8 機動力生かす",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44380",
+     "pubDate": "Sun, 16 Aug 2026 16:10:24 +0900"
+    },
+    {
      "title": "熊本地震 活発な活動続く きょうも熱中症対策を 雷雨にも注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44323",
      "pubDate": "Sun, 16 Aug 2026 15:10:38 +0900"
     },
     {
-     "title": "高校野球 花巻東が英明に勝ち準々決勝進出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44380",
-     "pubDate": "Sun, 16 Aug 2026 15:05:45 +0900"
+     "title": "熊本地震 「くまモン」が活動再開 被害受けた小学校を訪問",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44363",
+     "pubDate": "Sun, 16 Aug 2026 12:39:19 +0900"
     },
     {
      "title": "上野動物園のパンダ舎 あすから解体 多くの人が最後の別れ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44365",
      "pubDate": "Sun, 16 Aug 2026 13:26:04 +0900"
-    },
-    {
-     "title": "熊本地震 「くまモン」が活動再開 被害受けた小学校を訪問",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44363",
-     "pubDate": "Sun, 16 Aug 2026 12:39:19 +0900"
     }
    ]
   },
@@ -92,7 +92,7 @@
     {
      "title": "【千葉豪雨】死者9人 夜にかけ雨のおそれ 土砂災害に注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
-     "pubDate": "Sun, 16 Aug 2026 13:28:21 +0900"
+     "pubDate": "Sun, 16 Aug 2026 16:36:06 +0900"
     },
     {
      "title": "長野 岡谷 3人死亡の土石流災害から5年 遺族が現場に",
@@ -251,14 +251,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "軍人に殴られた痛み 少年の記憶",
-     "link": "https://news.yahoo.co.jp/pickup/6591928?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 03:06:07 GMT"
+     "title": "防空壕で生まれた自民森山氏 思い",
+     "link": "https://news.yahoo.co.jp/pickup/6591954?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 07:24:48 GMT"
     },
     {
-     "title": "露がウクライナの子連れ去り 実態",
-     "link": "https://news.yahoo.co.jp/pickup/6591913?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 01:13:15 GMT"
+     "title": "ベルギーで過去最大規模の山火事",
+     "link": "https://news.yahoo.co.jp/pickup/6591943?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 05:38:01 GMT"
     },
     {
      "title": "釣り竿取りに池泳ぎ溺れたか 死亡",
@@ -266,19 +266,9 @@
      "pubDate": "Sun, 16 Aug 2026 05:41:56 GMT"
     },
     {
-     "title": "命の危険に直面 炎天下で働く人々",
-     "link": "https://news.yahoo.co.jp/pickup/6591917?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 01:38:35 GMT"
-    },
-    {
      "title": "高専「ネーミングライツ」広がる",
      "link": "https://news.yahoo.co.jp/pickup/6591951?source=rss",
      "pubDate": "Sun, 16 Aug 2026 06:46:17 GMT"
-    },
-    {
-     "title": "生後4カ月でがん 眼球摘出を決断",
-     "link": "https://news.yahoo.co.jp/pickup/6591932?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 03:44:24 GMT"
     },
     {
      "title": "世界でブームのスクイーズ 事故も",
@@ -286,9 +276,19 @@
      "pubDate": "Sun, 16 Aug 2026 06:28:10 GMT"
     },
     {
-     "title": "速報甲子園 霞ケ浦vs.横浜",
-     "link": "https://news.yahoo.co.jp/pickup/6591948?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 06:11:00 GMT"
+     "title": "生後4カ月でがん 眼球摘出を決断",
+     "link": "https://news.yahoo.co.jp/pickup/6591932?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 03:44:24 GMT"
+    },
+    {
+     "title": "子ども用ハーネス賛否 識者の見解",
+     "link": "https://news.yahoo.co.jp/pickup/6591953?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 07:23:29 GMT"
+    },
+    {
+     "title": "速報甲子園 横浜が霞ケ浦を逆転",
+     "link": "https://news.yahoo.co.jp/pickup/6591959?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 07:41:11 GMT"
     }
    ]
   }
