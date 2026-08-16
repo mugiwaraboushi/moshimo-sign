@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T00:29:00.694Z",
+ "updatedAt": "2026-08-16T02:05:33.014Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,29 +18,29 @@
      "pubDate": "Sun, 16 Aug 2026 05:38:09 +0900"
     },
     {
-     "title": "岐阜 長良川で水難事故相次ぐ 23歳の男性 計2人が溺れて死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44296",
-     "pubDate": "Sat, 15 Aug 2026 23:48:12 +0900"
+     "title": "高校野球 健大高崎が佐野日大高に勝ち準々決勝へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44351",
+     "pubDate": "Sun, 16 Aug 2026 10:10:13 +0900"
     },
     {
-     "title": "山形 鶴岡 花火大会で3人軽傷 花火が地上で破裂したか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44344",
-     "pubDate": "Sun, 16 Aug 2026 07:05:16 +0900"
+     "title": "ブルージェイズ 岡本和真 1安打 今季100安打到達 チーム2連勝",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44355",
+     "pubDate": "Sun, 16 Aug 2026 10:17:00 +0900"
     },
     {
-     "title": "自民 岸田元首相 萩生田幹事長代行ら 山梨県鳴沢村で会合",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44321",
-     "pubDate": "Sun, 16 Aug 2026 01:21:47 +0900"
+     "title": "憲法改正 与党“緊急事態条項の条文化を”野党は賛否分かれる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44352",
+     "pubDate": "Sun, 16 Aug 2026 10:17:01 +0900"
     },
     {
      "title": "自民 小林政調会長が靖国神社に参拝",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44348",
-     "pubDate": "Sun, 16 Aug 2026 07:41:45 +0900"
+     "pubDate": "Sun, 16 Aug 2026 10:13:07 +0900"
     },
     {
-     "title": "地表断層出現の瞬間か 熊本 八代の防犯カメラに地表のずれ写る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44255",
-     "pubDate": "Sat, 15 Aug 2026 18:06:00 +0900"
+     "title": "ウクライナがロシアのロケット製造拠点など攻撃",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44336",
+     "pubDate": "Sun, 16 Aug 2026 10:39:54 +0900"
     }
    ]
   },
@@ -164,6 +164,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ウクライナがロシアのロケット製造拠点など攻撃",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44336",
+     "pubDate": "Sun, 16 Aug 2026 10:39:54 +0900"
+    },
+    {
      "title": "インドネシア東部地震の死者47人に 救助活動続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44335",
      "pubDate": "Sun, 16 Aug 2026 05:52:55 +0900"
@@ -232,11 +237,6 @@
      "title": "国連 ウクライナで7月に死亡の民間人 侵攻開始直後を除き最多",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44189",
      "pubDate": "Sat, 15 Aug 2026 06:38:05 +0900"
-    },
-    {
-     "title": "ウクライナ高官「北朝鮮とロシアの軍事協力拡大」日本に警鐘",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44201",
-     "pubDate": "Sat, 15 Aug 2026 09:13:59 +0900"
     }
    ]
   },
@@ -246,19 +246,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "お盆休み後は熱中症リスク高 警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6591898?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 23:10:16 GMT"
+     "title": "お盆休み最終日 Uターン混雑予想",
+     "link": "https://news.yahoo.co.jp/pickup/6591906?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 00:16:05 GMT"
     },
     {
-     "title": "中国船 尖閣周辺EEZで海洋調査か",
-     "link": "https://news.yahoo.co.jp/pickup/6591895?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 22:54:50 GMT"
+     "title": "子の水難 助けに飛び込むのはNG",
+     "link": "https://news.yahoo.co.jp/pickup/6591904?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 00:38:12 GMT"
     },
     {
-     "title": "粗悪なモバイル電池 会社の闇追跡",
-     "link": "https://news.yahoo.co.jp/pickup/6591902?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 00:02:54 GMT"
+     "title": "韓国「親日派財産」没収 本格化へ",
+     "link": "https://news.yahoo.co.jp/pickup/6591916?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 01:40:05 GMT"
     },
     {
      "title": "行方不明の英国籍12歳少女 保護",
@@ -266,24 +266,24 @@
      "pubDate": "Sat, 15 Aug 2026 22:14:20 GMT"
     },
     {
+     "title": "日本初確認の虫 SNS動画きっかけ",
+     "link": "https://news.yahoo.co.jp/pickup/6591912?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 01:19:12 GMT"
+    },
+    {
      "title": "SAトイレに急病人 対応に反響",
      "link": "https://news.yahoo.co.jp/pickup/6591896?source=rss",
      "pubDate": "Sat, 15 Aug 2026 22:52:38 GMT"
     },
     {
-     "title": "MLB初 デビュー戦で3打席連続HR",
-     "link": "https://news.yahoo.co.jp/pickup/6591901?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 23:54:07 GMT"
+     "title": "速報甲子園 東日大昌平vs.有明",
+     "link": "https://news.yahoo.co.jp/pickup/6591918?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 01:33:16 GMT"
     },
     {
-     "title": "鈴木彩艶のPSG移籍は破談か 報道",
-     "link": "https://news.yahoo.co.jp/pickup/6591890?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 22:20:53 GMT"
-    },
-    {
-     "title": "長州小力 無免許運転を巡り胸中",
-     "link": "https://news.yahoo.co.jp/pickup/6591903?source=rss",
-     "pubDate": "Sat, 15 Aug 2026 23:55:52 GMT"
+     "title": "健大高崎が8強「北関東対決」制す",
+     "link": "https://news.yahoo.co.jp/pickup/6591919?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 01:46:31 GMT"
     }
    ]
   }
