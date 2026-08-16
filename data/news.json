@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T03:24:08.616Z",
+ "updatedAt": "2026-08-16T04:05:10.768Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,11 +8,6 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【地震速報】熊本 益城町で震度3 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44216",
-     "pubDate": "Sun, 16 Aug 2026 12:10:00 +0900"
-    },
-    {
      "title": "お盆のUターンラッシュ 新幹線と空の便がピークに",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44364",
      "pubDate": "Sun, 16 Aug 2026 12:00:00 +0900"
@@ -20,7 +15,7 @@
     {
      "title": "【千葉豪雨】死者9人 夜にかけ雨のおそれ 土砂災害に注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
-     "pubDate": "Sun, 16 Aug 2026 12:21:58 +0900"
+     "pubDate": "Sun, 16 Aug 2026 12:41:48 +0900"
     },
     {
      "title": "熊本地震 活発な活動続く きょうも熱中症対策を 雷雨にも注意",
@@ -28,14 +23,19 @@
      "pubDate": "Sun, 16 Aug 2026 12:01:58 +0900"
     },
     {
-     "title": "高校野球 東日大昌平が有明をリード（5回終了時）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44367",
-     "pubDate": "Sun, 16 Aug 2026 11:52:43 +0900"
+     "title": "熊本地震 「くまモン」が活動再開 被害受けた小学校を訪問",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44363",
+     "pubDate": "Sun, 16 Aug 2026 12:39:19 +0900"
     },
     {
-     "title": "憲法改正 与党“緊急事態条項の条文化を”野党は賛否分かれる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44352",
-     "pubDate": "Sun, 16 Aug 2026 10:17:01 +0900"
+     "title": "ドジャース 大谷翔平 タイムリースリーベースもチームは敗れる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44369",
+     "pubDate": "Sun, 16 Aug 2026 12:56:52 +0900"
+    },
+    {
+     "title": "高校野球 有明が東日大昌平に勝ち準々決勝進出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44367",
+     "pubDate": "Sun, 16 Aug 2026 12:40:20 +0900"
     },
     {
      "title": "ウクライナがロシアのロケット製造拠点など攻撃",
@@ -82,7 +82,7 @@
     {
      "title": "【千葉豪雨】死者9人 夜にかけ雨のおそれ 土砂災害に注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
-     "pubDate": "Sun, 16 Aug 2026 12:21:58 +0900"
+     "pubDate": "Sun, 16 Aug 2026 12:41:48 +0900"
     },
     {
      "title": "長野 岡谷 3人死亡の土石流災害から5年 遺族が現場に",
@@ -251,19 +251,14 @@
      "pubDate": "Sun, 16 Aug 2026 03:22:01 GMT"
     },
     {
-     "title": "千葉豪雨で露呈 都市型水害の課題",
-     "link": "https://news.yahoo.co.jp/pickup/6591914?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 01:17:17 GMT"
+     "title": "米金融 新顔「ヨール街」に存在感",
+     "link": "https://news.yahoo.co.jp/pickup/6591924?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 02:14:02 GMT"
     },
     {
      "title": "首相異例の遥拝 保守層離反を警戒",
      "link": "https://news.yahoo.co.jp/pickup/6591925?source=rss",
      "pubDate": "Sun, 16 Aug 2026 02:39:24 GMT"
-    },
-    {
-     "title": "韓国「親日派財産」没収 本格化へ",
-     "link": "https://news.yahoo.co.jp/pickup/6591916?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 01:40:05 GMT"
     },
     {
      "title": "飼い犬殺害 裁判官が証言に苦言",
@@ -276,9 +271,14 @@
      "pubDate": "Sun, 16 Aug 2026 02:55:48 GMT"
     },
     {
-     "title": "ド軍敗戦 大谷翔平は適時三塁打",
-     "link": "https://news.yahoo.co.jp/pickup/6591922?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 02:10:20 GMT"
+     "title": "生後4カ月でがん 眼球摘出を決断",
+     "link": "https://news.yahoo.co.jp/pickup/6591932?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 03:44:24 GMT"
+    },
+    {
+     "title": "速報甲子園 花巻東vs.英明",
+     "link": "https://news.yahoo.co.jp/pickup/6591934?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 03:47:35 GMT"
     },
     {
      "title": "有明が一挙4点の逆転劇 快進撃8強",
