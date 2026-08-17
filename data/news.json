@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T10:02:23.519Z",
+ "updatedAt": "2026-08-17T10:52:59.550Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,22 +10,22 @@
     {
      "title": "千葉豪雨 死者10人 2人行方不明 千葉市で車約2500台路上に残る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44428",
-     "pubDate": "Mon, 17 Aug 2026 17:22:54 +0900"
+     "pubDate": "Mon, 17 Aug 2026 19:09:45 +0900"
     },
     {
-     "title": "福岡県議会 議長の辞職勧告決議案 採決行われず",
+     "title": "福岡県議会 議長の辞職勧告決議案 採決行われず 中止動議受け",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44547",
-     "pubDate": "Mon, 17 Aug 2026 17:07:00 +0900"
+     "pubDate": "Mon, 17 Aug 2026 19:47:54 +0900"
     },
     {
      "title": "横浜高校野球部の元監督 渡辺元智さん死去 81歳 春夏計5回優勝",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44622",
-     "pubDate": "Mon, 17 Aug 2026 18:23:20 +0900"
+     "pubDate": "Mon, 17 Aug 2026 19:09:15 +0900"
     },
     {
-     "title": "千葉 大雨影響で放射性廃液漏れ出したか“環境への影響なし”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44556",
-     "pubDate": "Mon, 17 Aug 2026 16:09:00 +0900"
+     "title": "【動画】停電続く総合病院 電気設備がある地下に水が",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44640",
+     "pubDate": "Mon, 17 Aug 2026 19:33:48 +0900"
     },
     {
      "title": "高市首相 都内の病院で手の検査など受ける",
@@ -38,9 +38,9 @@
      "pubDate": "Mon, 17 Aug 2026 15:09:00 +0900"
     },
     {
-     "title": "江沢民元国家主席の生誕100年 習主席が党の統治正統性を強調か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44594",
-     "pubDate": "Mon, 17 Aug 2026 18:25:47 +0900"
+     "title": "千葉 大雨影響で放射性廃液漏れ出したか“環境への影響なし”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44556",
+     "pubDate": "Mon, 17 Aug 2026 16:09:00 +0900"
     }
    ]
   },
@@ -50,14 +50,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "東京高検検事長に松本裕氏が就任「フェアに捜査する姿勢を」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44642",
+     "pubDate": "Mon, 17 Aug 2026 19:51:44 +0900"
+    },
+    {
+     "title": "【動画】停電続く総合病院 電気設備がある地下に水が",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44640",
+     "pubDate": "Mon, 17 Aug 2026 19:33:48 +0900"
+    },
+    {
      "title": "お盆の鉄道利用者前年並み 九州では熊本地震の影響で2割ほど減",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44576",
      "pubDate": "Mon, 17 Aug 2026 18:31:00 +0900"
     },
     {
-     "title": "新潟 北区 海で小学生の男児が溺れ病院搬送 意識不明の重体",
+     "title": "新潟 北区 海で溺れ11歳の小学生男児が死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44614",
-     "pubDate": "Mon, 17 Aug 2026 18:11:31 +0900"
+     "pubDate": "Mon, 17 Aug 2026 19:05:55 +0900"
     },
     {
      "title": "千葉 大雨影響で放射性廃液漏れ出したか“環境への影響なし”",
@@ -82,7 +92,7 @@
     {
      "title": "【動画】Pickup NEWS（8月17日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44403",
-     "pubDate": "Mon, 17 Aug 2026 14:06:17 +0900"
+     "pubDate": "Mon, 17 Aug 2026 19:41:48 +0900"
     },
     {
      "title": "車いす利用者 送迎車での死亡事故7年で30件 消費者事故調",
@@ -113,16 +123,6 @@
      "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3121人避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44361",
      "pubDate": "Sun, 16 Aug 2026 18:13:34 +0900"
-    },
-    {
-     "title": "上野動物園のパンダ舎 17日から解体 多くの人が最後の別れ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44365",
-     "pubDate": "Sun, 16 Aug 2026 13:26:00 +0900"
-    },
-    {
-     "title": "お盆のUターンラッシュ 新幹線と空の便がピークに",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44364",
-     "pubDate": "Sun, 16 Aug 2026 18:41:00 +0900"
     }
    ]
   },
@@ -168,6 +168,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "中国 7月の「小売売上高」 去年同月比＋0.6％ 内需の停滞続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44637",
+     "pubDate": "Mon, 17 Aug 2026 19:29:48 +0900"
+    },
     {
      "title": "江沢民元国家主席の生誕100年 習主席が党の統治正統性を強調か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44594",
@@ -237,11 +242,6 @@
      "title": "ウクライナ ロシアの物流施設など攻撃 えん戦気分拡大ねらいか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44393",
      "pubDate": "Sun, 16 Aug 2026 19:58:00 +0900"
-    },
-    {
-     "title": "“交渉期限”迫る イラン「停戦存在せず」 米も対決姿勢",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44371",
-     "pubDate": "Sun, 16 Aug 2026 15:40:00 +0900"
     }
    ]
   },
@@ -251,6 +251,11 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "福岡県議会 蔵内氏が議長辞任意向",
+     "link": "https://news.yahoo.co.jp/pickup/6592099?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 10:27:44 GMT"
+    },
+    {
      "title": "コロンビア地震 日本が物資供与へ",
      "link": "https://news.yahoo.co.jp/pickup/6592074?source=rss",
      "pubDate": "Mon, 17 Aug 2026 07:26:32 GMT"
@@ -259,11 +264,6 @@
      "title": "EU 対露制裁を大幅拡大の方針",
      "link": "https://news.yahoo.co.jp/pickup/6592071?source=rss",
      "pubDate": "Mon, 17 Aug 2026 06:46:28 GMT"
-    },
-    {
-     "title": "福岡県会議長の辞職勧告 採決中止",
-     "link": "https://news.yahoo.co.jp/pickup/6592084?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 08:32:44 GMT"
     },
     {
      "title": "11歳男児が海岸で溺れ死亡 新潟",
