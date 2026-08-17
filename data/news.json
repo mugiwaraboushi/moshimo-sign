@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T00:27:39.212Z",
+ "updatedAt": "2026-08-17T02:00:36.671Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "トランプ大統領 米韓合同軍事演習“縮小を指示”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44424",
-     "pubDate": "Mon, 17 Aug 2026 08:56:44 +0900"
-    },
-    {
      "title": "4-6月のGDP 年率プラス1.1％ 3期連続のプラス",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44453",
-     "pubDate": "Mon, 17 Aug 2026 08:58:16 +0900"
+     "pubDate": "Mon, 17 Aug 2026 10:30:15 +0900"
+    },
+    {
+     "title": "トランプ大統領 米韓合同軍事演習“縮小を指示”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44424",
+     "pubDate": "Mon, 17 Aug 2026 10:01:53 +0900"
+    },
+    {
+     "title": "長期金利 2.925％に上昇 物価上昇懸念背景に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44469",
+     "pubDate": "Mon, 17 Aug 2026 10:56:01 +0900"
     },
     {
      "title": "千葉豪雨 死者10人 千葉市で車約2500台が路上に残る",
@@ -23,19 +28,14 @@
      "pubDate": "Mon, 17 Aug 2026 02:39:00 +0900"
     },
     {
-     "title": "熊本地震 地震活動と暑さに注意 できるかぎりの熱中症対策を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44421",
-     "pubDate": "Mon, 17 Aug 2026 05:48:39 +0900"
+     "title": "福岡 粕屋町の住宅火災で１人の遺体発見 住人２人と連絡取れず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44464",
+     "pubDate": "Mon, 17 Aug 2026 10:21:00 +0900"
     },
     {
-     "title": "車いす利用者 送迎車での死亡事故7年で30件 消費者事故調",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44410",
-     "pubDate": "Mon, 17 Aug 2026 05:56:16 +0900"
-    },
-    {
-     "title": "食料品の消費税減税の地方減収分 国で補てん検討",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44414",
-     "pubDate": "Mon, 17 Aug 2026 07:14:26 +0900"
+     "title": "トミー・ジョンさん死去 ひじのじん帯再建手術に革新 大リーグ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44449",
+     "pubDate": "Mon, 17 Aug 2026 09:21:10 +0900"
     },
     {
      "title": "論文盗用疑惑のケンブリッジ大元教授死亡 疑惑に人種差別訴え",
@@ -50,9 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "福岡 粕屋町の住宅火災で１人の遺体発見 住人２人と連絡取れず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44464",
+     "pubDate": "Mon, 17 Aug 2026 10:21:00 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（8月17日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44403",
-     "pubDate": "Mon, 17 Aug 2026 06:36:33 +0900"
+     "pubDate": "Mon, 17 Aug 2026 10:36:25 +0900"
     },
     {
      "title": "車いす利用者 送迎車での死亡事故7年で30件 消費者事故調",
@@ -118,11 +123,6 @@
      "title": "絶滅危惧種のキタサンショウウオ 生息地等保護区指定へ 環境省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44228",
      "pubDate": "Sun, 16 Aug 2026 05:15:30 +0900"
-    },
-    {
-     "title": "死者10人に 浸水被害は約1500棟 千葉市で車両約2500台が路上に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44322",
-     "pubDate": "Sun, 16 Aug 2026 22:44:18 +0900"
     }
    ]
   },
@@ -191,7 +191,7 @@
     {
      "title": "トランプ大統領 米韓合同軍事演習“縮小を指示”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44424",
-     "pubDate": "Mon, 17 Aug 2026 08:56:44 +0900"
+     "pubDate": "Mon, 17 Aug 2026 10:01:53 +0900"
     },
     {
      "title": "ハンガリーでポーランド人観光客乗せたバス 横転事故 12人死亡",
@@ -251,9 +251,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "4-6月期の実質GDP 3期連続プラス",
-     "link": "https://news.yahoo.co.jp/pickup/6592026?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 00:15:29 GMT"
+     "title": "各地で厳しい残暑 熱中症に注意",
+     "link": "https://news.yahoo.co.jp/pickup/6592027?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 00:15:02 GMT"
+    },
+    {
+     "title": "米韓が軍事演習開始 北朝鮮は反発",
+     "link": "https://news.yahoo.co.jp/pickup/6592032?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 01:00:36 GMT"
     },
     {
      "title": "豪雨で放置車両 撤去見通し立たず",
@@ -266,24 +271,19 @@
      "pubDate": "Sun, 16 Aug 2026 22:59:17 GMT"
     },
     {
-     "title": "大戸屋HD社長 海外出店を加速",
-     "link": "https://news.yahoo.co.jp/pickup/6592019?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 23:14:16 GMT"
-    },
-    {
      "title": "マンホールの蓋複数飛ぶ 民家破損",
      "link": "https://news.yahoo.co.jp/pickup/6592025?source=rss",
      "pubDate": "Sun, 16 Aug 2026 23:59:39 GMT"
     },
     {
-     "title": "大谷が好機で痛恨併殺 天を仰ぐ",
-     "link": "https://news.yahoo.co.jp/pickup/6592024?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 23:52:28 GMT"
+     "title": "岩国のシロヘビ 1年間で281匹死ぬ",
+     "link": "https://news.yahoo.co.jp/pickup/6592033?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 01:13:38 GMT"
     },
     {
-     "title": "トミー・ジョン氏死去 MLB発表",
-     "link": "https://news.yahoo.co.jp/pickup/6592011?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 21:58:14 GMT"
+     "title": "トミー・ジョン氏死去 手術の由来",
+     "link": "https://news.yahoo.co.jp/pickup/6592031?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 01:03:00 GMT"
     },
     {
      "title": "永野芽郁 元キャバ嬢役で主演",
