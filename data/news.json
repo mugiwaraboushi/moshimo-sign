@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T11:46:34.435Z",
+ "updatedAt": "2026-08-17T12:16:27.745Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "千葉豪雨 死者10人 2人行方不明 千葉市で車約2500台路上に残る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44428",
-     "pubDate": "Mon, 17 Aug 2026 20:25:05 +0900"
+     "pubDate": "Mon, 17 Aug 2026 21:10:00 +0900"
     },
     {
      "title": "福岡県議会 議長の辞職勧告決議案 採決行われず 中止動議受け",
@@ -28,9 +28,9 @@
      "pubDate": "Mon, 17 Aug 2026 19:33:48 +0900"
     },
     {
-     "title": "高市首相 都内の病院で手の検査など受ける",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44609",
-     "pubDate": "Mon, 17 Aug 2026 18:29:49 +0900"
+     "title": "インドネシア東部地震 独立記念日の式典で犠牲者に祈り",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44646",
+     "pubDate": "Mon, 17 Aug 2026 20:52:02 +0900"
     },
     {
      "title": "熊本地震 自宅や車中での避難者 実態を県が自治体と把握へ",
@@ -38,9 +38,9 @@
      "pubDate": "Mon, 17 Aug 2026 20:08:43 +0900"
     },
     {
-     "title": "ANAとJAL 国内線維持で協調へ 初のダイヤ調整",
+     "title": "ANAとJAL 国内線維持で協調へ 初のダイヤ調整 【Ｑ＆Ａ】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44528",
-     "pubDate": "Mon, 17 Aug 2026 15:09:00 +0900"
+     "pubDate": "Mon, 17 Aug 2026 20:50:07 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "熊本 南九州道 八代南IC-田浦IC 18日朝から通行止め解除",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44647",
+     "pubDate": "Mon, 17 Aug 2026 20:54:22 +0900"
+    },
     {
      "title": "東京高検検事長に松本裕氏が就任「フェアに捜査する姿勢を」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44642",
@@ -118,11 +123,6 @@
      "title": "東京 府中 多摩川で遊んでいた中学3年男子生徒が溺れて重体",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44386",
      "pubDate": "Sun, 16 Aug 2026 16:54:49 +0900"
-    },
-    {
-     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3121人避難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44361",
-     "pubDate": "Sun, 16 Aug 2026 18:13:34 +0900"
     }
    ]
   },
@@ -168,6 +168,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "インドネシア東部地震 独立記念日の式典で犠牲者に祈り",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44646",
+     "pubDate": "Mon, 17 Aug 2026 20:52:02 +0900"
+    },
     {
      "title": "中国 7月の「小売売上高」 去年同月比＋0.6％ 内需の停滞続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44637",
@@ -237,11 +242,6 @@
      "title": "ロシア ウクライナ 双方が首都を攻撃 応酬激しさ増す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44402",
      "pubDate": "Sun, 16 Aug 2026 20:31:47 +0900"
-    },
-    {
-     "title": "ウクライナ ロシアの物流施設など攻撃 えん戦気分拡大ねらいか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44393",
-     "pubDate": "Sun, 16 Aug 2026 19:58:00 +0900"
     }
    ]
   },
@@ -251,19 +251,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "熊本地震 月内にも支援パッケージ",
-     "link": "https://news.yahoo.co.jp/pickup/6592098?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 10:36:44 GMT"
+     "title": "熊本地震の断層破壊は約38km 調査",
+     "link": "https://news.yahoo.co.jp/pickup/6592104?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 11:41:20 GMT"
     },
     {
      "title": "福岡県議会 蔵内氏が議長辞任意向",
      "link": "https://news.yahoo.co.jp/pickup/6592099?source=rss",
      "pubDate": "Mon, 17 Aug 2026 10:27:44 GMT"
-    },
-    {
-     "title": "指名手配中の男 建物侵入疑い逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6592089?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 09:14:20 GMT"
     },
     {
      "title": "クマ3頭飛び出し 走行中の車衝突",
@@ -276,14 +271,19 @@
      "pubDate": "Mon, 17 Aug 2026 11:12:38 GMT"
     },
     {
+     "title": "9日に流され行方不明の女性 救助",
+     "link": "https://news.yahoo.co.jp/pickup/6592108?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 11:48:39 GMT"
+    },
+    {
      "title": "ロケットナウ つまみ食い動画拡散",
      "link": "https://news.yahoo.co.jp/pickup/6592103?source=rss",
      "pubDate": "Mon, 17 Aug 2026 11:17:11 GMT"
     },
     {
-     "title": "渡辺元智さん死去 教え子に筒香ら",
-     "link": "https://news.yahoo.co.jp/pickup/6592100?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 10:50:23 GMT"
+     "title": "KEY TO LIT 今冬CDデビュー決定",
+     "link": "https://news.yahoo.co.jp/pickup/6592106?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 11:46:40 GMT"
     },
     {
      "title": "衛藤美彩&源田壮亮 第3子が誕生",
