@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T19:47:31.519Z",
+ "updatedAt": "2026-08-17T20:12:16.725Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "千葉豪雨 死者10人 2人行方不明 千葉市で車約2500台路上に残る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44428",
-     "pubDate": "Mon, 17 Aug 2026 21:31:44 +0900"
+     "title": "熊本地震から3週間 3000人以上避難所に 避難所以外支援も課題",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44662",
+     "pubDate": "Tue, 18 Aug 2026 04:56:13 +0900"
     },
     {
-     "title": "福岡県議会 議長の辞職勧告決議案 採決行われず 中止動議受け",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44547",
-     "pubDate": "Mon, 17 Aug 2026 20:36:34 +0900"
+     "title": "千葉豪雨 被災店舗の再開や農業被害対応など 生活再建が課題",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44659",
+     "pubDate": "Tue, 18 Aug 2026 04:51:30 +0900"
+    },
+    {
+     "title": "高校野球 夏の甲子園【大会13日目 準々決勝の見どころ】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44652",
+     "pubDate": "Tue, 18 Aug 2026 04:44:15 +0900"
     },
     {
      "title": "横浜高校野球部の元監督 渡辺元智さん死去 81歳 春夏計5回優勝",
@@ -23,14 +28,9 @@
      "pubDate": "Mon, 17 Aug 2026 21:36:16 +0900"
     },
     {
-     "title": "熊本地震 自宅や車中での避難者 実態を県が自治体と把握へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44611",
-     "pubDate": "Mon, 17 Aug 2026 20:08:43 +0900"
-    },
-    {
-     "title": "上野厚労相 熊本視察「雇用調整助成金」特例適用検討急ぐ考え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44648",
-     "pubDate": "Mon, 17 Aug 2026 20:57:53 +0900"
+     "title": "福岡県議会 議長の辞職勧告決議案 採決行われず 中止動議受け",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44547",
+     "pubDate": "Mon, 17 Aug 2026 20:36:34 +0900"
     },
     {
      "title": "韓国与党「共に民主党」代表にイ大統領の側近選出",
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "熊本地震から3週間 3000人以上避難所に 避難所以外支援も課題",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44662",
+     "pubDate": "Tue, 18 Aug 2026 04:56:13 +0900"
+    },
+    {
+     "title": "千葉豪雨 被災店舗の再開や農業被害対応など 生活再建が課題",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44659",
+     "pubDate": "Tue, 18 Aug 2026 04:51:30 +0900"
+    },
     {
      "title": "東急世田谷線 遮断機が上がったまま列車が通過 けが人なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44656",
@@ -113,16 +123,6 @@
      "title": "熊本 天草 お盆の帰省にあわせ二十歳のつどい",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44391",
      "pubDate": "Sun, 16 Aug 2026 19:27:31 +0900"
-    },
-    {
-     "title": "酒に酔って逆走 車3台巻き込む事故起こす 会社員を逮捕 徳島",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44405",
-     "pubDate": "Sun, 16 Aug 2026 19:21:03 +0900"
-    },
-    {
-     "title": "佳子さま 高校生の手話コンテストに出席 手話でおことば",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44401",
-     "pubDate": "Sun, 16 Aug 2026 18:50:13 +0900"
     }
    ]
   },
