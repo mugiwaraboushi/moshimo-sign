@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T23:10:31.771Z",
+ "updatedAt": "2026-08-17T23:42:49.201Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,11 +23,6 @@
      "pubDate": "Tue, 18 Aug 2026 06:21:00 +0900"
     },
     {
-     "title": "高校野球 夏の甲子園【大会13日目 準々決勝の見どころ】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44652",
-     "pubDate": "Tue, 18 Aug 2026 04:44:15 +0900"
-    },
-    {
      "title": "千葉豪雨 被災店舗の再開や農業被害対応など 生活再建が課題",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44659",
      "pubDate": "Tue, 18 Aug 2026 04:51:00 +0900"
@@ -41,6 +36,11 @@
      "title": "ガザ地区の和平計画 イスラエル首相がアメリカ側と協議",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44666",
      "pubDate": "Tue, 18 Aug 2026 06:48:14 +0900"
+    },
+    {
+     "title": "高校野球 夏の甲子園【大会13日目 準々決勝の見どころ】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44652",
+     "pubDate": "Tue, 18 Aug 2026 04:44:15 +0900"
     }
    ]
   },
@@ -261,9 +261,9 @@
      "pubDate": "Mon, 17 Aug 2026 21:36:04 GMT"
     },
     {
-     "title": "流され8日ぶり救助 食料でしのぐ",
-     "link": "https://news.yahoo.co.jp/pickup/6592129?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 22:53:14 GMT"
+     "title": "出産の子を殺人未遂疑い 16歳逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6592132?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 23:39:25 GMT"
     },
     {
      "title": "「モネの池」一変 抹茶みたいに",
