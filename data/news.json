@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T05:55:48.652Z",
+ "updatedAt": "2026-08-17T06:30:02.663Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,14 +13,19 @@
      "pubDate": "Mon, 17 Aug 2026 13:18:24 +0900"
     },
     {
+     "title": "千葉 豪雨で浸水の被害の大網白里で災害ボランティア活動開始",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44492",
+     "pubDate": "Mon, 17 Aug 2026 15:11:07 +0900"
+    },
+    {
+     "title": "ANAとJAL 国内線維持で協調へ 初のダイヤ調整",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44528",
+     "pubDate": "Mon, 17 Aug 2026 15:09:00 +0900"
+    },
+    {
      "title": "熊本 八代 緊急の「公費解体」開始 2次被害のおそれある建物",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44500",
      "pubDate": "Mon, 17 Aug 2026 12:39:00 +0900"
-    },
-    {
-     "title": "アメリカとイランの覚書形骸化 事態打開の糸口見いだせず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44493",
-     "pubDate": "Mon, 17 Aug 2026 13:35:26 +0900"
     },
     {
      "title": "4-6月のGDP 年率プラス1.1％ 3期連続のプラス",
@@ -28,19 +33,14 @@
      "pubDate": "Mon, 17 Aug 2026 13:00:17 +0900"
     },
     {
+     "title": "トランプ大統領 米韓合同軍事演習“縮小を指示”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44424",
+     "pubDate": "Mon, 17 Aug 2026 14:35:39 +0900"
+    },
+    {
      "title": "長期金利 2.93％に上昇 インフレ加速の見方 背景に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44469",
      "pubDate": "Mon, 17 Aug 2026 12:56:22 +0900"
-    },
-    {
-     "title": "熊本 氷川町 保育園・幼稚園 1日通した子どもの預かり一部再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44489",
-     "pubDate": "Mon, 17 Aug 2026 13:11:12 +0900"
-    },
-    {
-     "title": "九州道復旧受け 高速バス通常ルートで運行再開 熊本",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44520",
-     "pubDate": "Mon, 17 Aug 2026 13:15:00 +0900"
     }
    ]
   },
@@ -169,6 +169,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月17日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260812de43490",
+     "pubDate": "Mon, 17 Aug 2026 14:58:28 +0900"
+    },
+    {
      "title": "アメリカとイランの覚書形骸化 事態打開の糸口見いだせず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44493",
      "pubDate": "Mon, 17 Aug 2026 13:35:26 +0900"
@@ -237,11 +242,6 @@
      "title": "インドネシア東部地震の死者47人に 救助活動続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44335",
      "pubDate": "Sun, 16 Aug 2026 05:52:55 +0900"
-    },
-    {
-     "title": "インド モディ首相「発展するためには若者が重要」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44297",
-     "pubDate": "Sat, 15 Aug 2026 23:01:40 +0900"
     }
    ]
   },
@@ -261,11 +261,6 @@
      "pubDate": "Mon, 17 Aug 2026 04:51:35 GMT"
     },
     {
-     "title": "千葉で遺体 豪雨で不明の男性か",
-     "link": "https://news.yahoo.co.jp/pickup/6592056?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 04:28:03 GMT"
-    },
-    {
      "title": "73歳運転 店に車突っ込み2人けが",
      "link": "https://news.yahoo.co.jp/pickup/6592065?source=rss",
      "pubDate": "Mon, 17 Aug 2026 05:45:11 GMT"
@@ -274,6 +269,11 @@
      "title": "キャッシュレス決済 浸透に地域差",
      "link": "https://news.yahoo.co.jp/pickup/6592030?source=rss",
      "pubDate": "Mon, 17 Aug 2026 00:54:18 GMT"
+    },
+    {
+     "title": "キョン 千葉県から分布拡大の恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6592066?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 05:55:35 GMT"
     },
     {
      "title": "韓国で犬肉禁止へ 伝統惜しむ客",
