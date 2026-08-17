@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T22:10:59.680Z",
+ "updatedAt": "2026-08-17T22:46:06.759Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,14 +13,19 @@
      "pubDate": "Tue, 18 Aug 2026 04:56:00 +0900"
     },
     {
-     "title": "高校野球 夏の甲子園【大会13日目 準々決勝の見どころ】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44652",
-     "pubDate": "Tue, 18 Aug 2026 04:44:15 +0900"
+     "title": "トランプ大統領 “北朝鮮 対話呼びかけに対し非常に前向き”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44677",
+     "pubDate": "Tue, 18 Aug 2026 07:30:18 +0900"
     },
     {
      "title": "ロシア外相“駐ロ日本大使呼び出し” 日本側“18日に応じる”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44664",
      "pubDate": "Tue, 18 Aug 2026 06:21:00 +0900"
+    },
+    {
+     "title": "高校野球 夏の甲子園【大会13日目 準々決勝の見どころ】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44652",
+     "pubDate": "Tue, 18 Aug 2026 04:44:15 +0900"
     },
     {
      "title": "千葉豪雨 被災店舗の再開や農業被害対応など 生活再建が課題",
@@ -36,11 +41,6 @@
      "title": "ガザ地区の和平計画 イスラエル首相がアメリカ側と協議",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44666",
      "pubDate": "Tue, 18 Aug 2026 06:48:14 +0900"
-    },
-    {
-     "title": "楽天グループ 迎撃ドローン開発手がけるドイツ新興企業と提携",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44669",
-     "pubDate": "Tue, 18 Aug 2026 06:41:13 +0900"
     }
    ]
   },
@@ -164,6 +164,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "トランプ大統領 “北朝鮮 対話呼びかけに対し非常に前向き”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44677",
+     "pubDate": "Tue, 18 Aug 2026 07:30:18 +0900"
+    },
+    {
      "title": "ガザ地区の和平計画 イスラエル首相がアメリカ側と協議",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44666",
      "pubDate": "Tue, 18 Aug 2026 06:48:14 +0900"
@@ -232,11 +237,6 @@
      "title": "論文盗用疑惑のケンブリッジ大元教授死亡 疑惑に人種差別訴え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44438",
      "pubDate": "Mon, 17 Aug 2026 07:34:00 +0900"
-    },
-    {
-     "title": "リヒテンシュタイン 女性も国家元首可能に 欧州で転換進む",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44439",
-     "pubDate": "Mon, 17 Aug 2026 07:23:32 +0900"
     }
    ]
   },
@@ -246,9 +246,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "熊本地震3週間「関連死」防ぐには",
-     "link": "https://news.yahoo.co.jp/pickup/6592118?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 14:19:11 GMT"
+     "title": "18日九州や山陰など35℃超 対策を",
+     "link": "https://news.yahoo.co.jp/pickup/6592125?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 22:18:17 GMT"
     },
     {
      "title": "豪雨で車が浸水 金銭負担が心配",
@@ -256,24 +256,19 @@
      "pubDate": "Mon, 17 Aug 2026 13:36:51 GMT"
     },
     {
+     "title": "露が日本大使に出頭要請 抗議受け",
+     "link": "https://news.yahoo.co.jp/pickup/6592124?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 22:05:13 GMT"
+    },
+    {
      "title": "ゴルフ場で働く19歳自殺 労災認定",
      "link": "https://news.yahoo.co.jp/pickup/6592122?source=rss",
      "pubDate": "Mon, 17 Aug 2026 21:36:04 GMT"
     },
     {
-     "title": "9日に流され行方不明の女性 救助",
-     "link": "https://news.yahoo.co.jp/pickup/6592108?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 11:48:39 GMT"
-    },
-    {
      "title": "殺人未遂罪の被告が行方不明 函館",
      "link": "https://news.yahoo.co.jp/pickup/6592120?source=rss",
      "pubDate": "Mon, 17 Aug 2026 21:08:10 GMT"
-    },
-    {
-     "title": "踏切開いたまま電車通過 東急電鉄",
-     "link": "https://news.yahoo.co.jp/pickup/6592116?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 14:03:44 GMT"
     },
     {
      "title": "「モネの池」一変 抹茶みたいに",
@@ -284,6 +279,11 @@
      "title": "渡辺元智さん死去 松坂大輔氏悼む",
      "link": "https://news.yahoo.co.jp/pickup/6592119?source=rss",
      "pubDate": "Mon, 17 Aug 2026 14:32:54 GMT"
+    },
+    {
+     "title": "高橋光臣がつんく役 24時間テレビ",
+     "link": "https://news.yahoo.co.jp/pickup/6592126?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 22:22:44 GMT"
     }
    ]
   }
