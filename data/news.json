@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T18:18:57.782Z",
+ "updatedAt": "2026-08-17T19:04:47.609Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,9 +23,9 @@
      "pubDate": "Mon, 17 Aug 2026 21:36:16 +0900"
     },
     {
-     "title": "東急世田谷線 遮断機が上がったまま列車が通過 けが人なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44656",
-     "pubDate": "Mon, 17 Aug 2026 22:04:11 +0900"
+     "title": "熊本地震 自宅や車中での避難者 実態を県が自治体と把握へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44611",
+     "pubDate": "Mon, 17 Aug 2026 20:08:43 +0900"
     },
     {
      "title": "上野厚労相 熊本視察「雇用調整助成金」特例適用検討急ぐ考え",
@@ -38,9 +38,9 @@
      "pubDate": "Mon, 17 Aug 2026 22:29:34 +0900"
     },
     {
-     "title": "ANAとJAL 国内線維持で協調へ 初のダイヤ調整 【Ｑ＆Ａ】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44528",
-     "pubDate": "Mon, 17 Aug 2026 20:50:07 +0900"
+     "title": "熊本 南九州道 八代南IC-田浦IC 18日朝から通行止め解除",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44647",
+     "pubDate": "Mon, 17 Aug 2026 20:54:22 +0900"
     }
    ]
   },
