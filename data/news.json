@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T05:03:47.020Z",
+ "updatedAt": "2026-08-17T05:55:48.652Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -40,7 +40,7 @@
     {
      "title": "九州道復旧受け 高速バス通常ルートで運行再開 熊本",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44520",
-     "pubDate": "Mon, 17 Aug 2026 13:15:08 +0900"
+     "pubDate": "Mon, 17 Aug 2026 13:15:00 +0900"
     }
    ]
   },
@@ -67,7 +67,7 @@
     {
      "title": "【動画】Pickup NEWS（8月17日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44403",
-     "pubDate": "Mon, 17 Aug 2026 10:36:25 +0900"
+     "pubDate": "Mon, 17 Aug 2026 14:06:17 +0900"
     },
     {
      "title": "車いす利用者 送迎車での死亡事故7年で30件 消費者事故調",
@@ -196,7 +196,7 @@
     {
      "title": "トランプ大統領 米韓合同軍事演習“縮小を指示”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44424",
-     "pubDate": "Mon, 17 Aug 2026 10:01:53 +0900"
+     "pubDate": "Mon, 17 Aug 2026 14:35:39 +0900"
     },
     {
      "title": "ハンガリーでポーランド人観光客乗せたバス 横転事故 12人死亡",
@@ -251,19 +251,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "千葉豪雨 冠水で高齢者施設が孤立",
-     "link": "https://news.yahoo.co.jp/pickup/6592053?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 03:59:28 GMT"
+     "title": "旅館などへの2次避難進まず 熊本",
+     "link": "https://news.yahoo.co.jp/pickup/6592057?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 04:45:01 GMT"
     },
     {
-     "title": "精神疾患の日本兵に感染人体実験",
-     "link": "https://news.yahoo.co.jp/pickup/6592042?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 02:52:38 GMT"
-    },
-    {
-     "title": "定着するか 稼げるブルーカラー",
-     "link": "https://news.yahoo.co.jp/pickup/6592038?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 02:21:28 GMT"
+     "title": "コンゴ エボラ感染者の約半数死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6592059?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 04:51:35 GMT"
     },
     {
      "title": "千葉で遺体 豪雨で不明の男性か",
@@ -271,24 +266,29 @@
      "pubDate": "Mon, 17 Aug 2026 04:28:03 GMT"
     },
     {
-     "title": "運転手引きずり降ろし車奪う 逃走",
-     "link": "https://news.yahoo.co.jp/pickup/6592047?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 02:43:32 GMT"
+     "title": "73歳運転 店に車突っ込み2人けが",
+     "link": "https://news.yahoo.co.jp/pickup/6592065?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 05:45:11 GMT"
     },
     {
-     "title": "「カレー焼きそば」再評価 なぜ今",
-     "link": "https://news.yahoo.co.jp/pickup/6592049?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 03:39:23 GMT"
+     "title": "キャッシュレス決済 浸透に地域差",
+     "link": "https://news.yahoo.co.jp/pickup/6592030?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 00:54:18 GMT"
+    },
+    {
+     "title": "韓国で犬肉禁止へ 伝統惜しむ客",
+     "link": "https://news.yahoo.co.jp/pickup/6592063?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 05:23:17 GMT"
+    },
+    {
+     "title": "俳優 H・パネッティーアさん死去",
+     "link": "https://news.yahoo.co.jp/pickup/6592062?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 05:11:27 GMT"
     },
     {
      "title": "大竹まこと 前立腺がんを公表",
      "link": "https://news.yahoo.co.jp/pickup/6592055?source=rss",
      "pubDate": "Mon, 17 Aug 2026 03:57:18 GMT"
-    },
-    {
-     "title": "歌舞伎俳優・中村種之助が結婚",
-     "link": "https://news.yahoo.co.jp/pickup/6592054?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 03:39:28 GMT"
     }
    ]
   }
