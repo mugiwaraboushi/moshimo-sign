@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T11:13:47.790Z",
+ "updatedAt": "2026-08-17T11:46:34.435Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,12 +10,12 @@
     {
      "title": "千葉豪雨 死者10人 2人行方不明 千葉市で車約2500台路上に残る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44428",
-     "pubDate": "Mon, 17 Aug 2026 20:04:36 +0900"
+     "pubDate": "Mon, 17 Aug 2026 20:25:05 +0900"
     },
     {
      "title": "福岡県議会 議長の辞職勧告決議案 採決行われず 中止動議受け",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44547",
-     "pubDate": "Mon, 17 Aug 2026 19:57:03 +0900"
+     "pubDate": "Mon, 17 Aug 2026 20:36:34 +0900"
     },
     {
      "title": "横浜高校野球部の元監督 渡辺元智さん死去 81歳 春夏計5回優勝",
@@ -271,14 +271,14 @@
      "pubDate": "Mon, 17 Aug 2026 10:50:54 GMT"
     },
     {
-     "title": "「いけず石」物議 大阪市タジタジ",
-     "link": "https://news.yahoo.co.jp/pickup/6592082?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 08:41:04 GMT"
+     "title": "ANAとJAL 互いにダイヤを調整へ",
+     "link": "https://news.yahoo.co.jp/pickup/6592102?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 11:12:38 GMT"
     },
     {
-     "title": "葬儀の料金複雑化 トラブル絶えず",
-     "link": "https://news.yahoo.co.jp/pickup/6592088?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 09:12:15 GMT"
+     "title": "ロケットナウ つまみ食い動画拡散",
+     "link": "https://news.yahoo.co.jp/pickup/6592103?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 11:17:11 GMT"
     },
     {
      "title": "渡辺元智さん死去 教え子に筒香ら",
