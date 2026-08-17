@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T23:39:51.569Z",
+ "updatedAt": "2026-08-17T00:27:39.212Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,17 +10,17 @@
     {
      "title": "トランプ大統領 米韓合同軍事演習“縮小を指示”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44424",
-     "pubDate": "Mon, 17 Aug 2026 07:05:21 +0900"
+     "pubDate": "Mon, 17 Aug 2026 08:56:44 +0900"
+    },
+    {
+     "title": "4-6月のGDP 年率プラス1.1％ 3期連続のプラス",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44453",
+     "pubDate": "Mon, 17 Aug 2026 08:58:16 +0900"
     },
     {
      "title": "千葉豪雨 死者10人 千葉市で車約2500台が路上に残る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44428",
      "pubDate": "Mon, 17 Aug 2026 02:39:00 +0900"
-    },
-    {
-     "title": "JR外房線 17日朝から代行バス運行 一部区間で運転見合わせ続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44432",
-     "pubDate": "Mon, 17 Aug 2026 07:03:46 +0900"
     },
     {
      "title": "熊本地震 地震活動と暑さに注意 できるかぎりの熱中症対策を",
@@ -169,6 +169,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ブラジル大統領選挙の選挙戦始まる 現職と前大統領長男が軸に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44448",
+     "pubDate": "Mon, 17 Aug 2026 08:51:49 +0900"
+    },
+    {
      "title": "論文盗用疑惑のケンブリッジ大元教授死亡 疑惑に人種差別訴え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44438",
      "pubDate": "Mon, 17 Aug 2026 07:34:55 +0900"
@@ -186,7 +191,7 @@
     {
      "title": "トランプ大統領 米韓合同軍事演習“縮小を指示”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44424",
-     "pubDate": "Mon, 17 Aug 2026 07:05:21 +0900"
+     "pubDate": "Mon, 17 Aug 2026 08:56:44 +0900"
     },
     {
      "title": "ハンガリーでポーランド人観光客乗せたバス 横転事故 12人死亡",
@@ -237,11 +242,6 @@
      "title": "靖国神社参拝めぐり中国“強く抗議”韓国“嘆き禁じ得ない”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44311",
      "pubDate": "Sun, 16 Aug 2026 05:18:24 +0900"
-    },
-    {
-     "title": "台湾 新幹線をベースにした新型車両を導入 最初の車両が到着",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44289",
-     "pubDate": "Sat, 15 Aug 2026 19:53:03 +0900"
     }
    ]
   },
@@ -251,14 +251,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "4-6月期の実質GDP 3期連続プラス",
+     "link": "https://news.yahoo.co.jp/pickup/6592026?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 00:15:29 GMT"
+    },
+    {
      "title": "豪雨で放置車両 撤去見通し立たず",
      "link": "https://news.yahoo.co.jp/pickup/6592023?source=rss",
      "pubDate": "Sun, 16 Aug 2026 23:29:07 GMT"
-    },
-    {
-     "title": "介護保険証とマイナ 一体化を促進",
-     "link": "https://news.yahoo.co.jp/pickup/6592015?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 22:39:10 GMT"
     },
     {
      "title": "遊泳区域外で泳ぎ練習中 溺れ死亡",
@@ -271,9 +271,14 @@
      "pubDate": "Sun, 16 Aug 2026 23:14:16 GMT"
     },
     {
-     "title": "オープンAI 経営幹部が相次ぎ退社",
-     "link": "https://news.yahoo.co.jp/pickup/6592006?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 15:00:50 GMT"
+     "title": "マンホールの蓋複数飛ぶ 民家破損",
+     "link": "https://news.yahoo.co.jp/pickup/6592025?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 23:59:39 GMT"
+    },
+    {
+     "title": "大谷が好機で痛恨併殺 天を仰ぐ",
+     "link": "https://news.yahoo.co.jp/pickup/6592024?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 23:52:28 GMT"
     },
     {
      "title": "トミー・ジョン氏死去 MLB発表",
@@ -281,14 +286,9 @@
      "pubDate": "Sun, 16 Aug 2026 21:58:14 GMT"
     },
     {
-     "title": "剛力彩芽 事務所名イジりに笑顔",
-     "link": "https://news.yahoo.co.jp/pickup/6592016?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 22:38:06 GMT"
-    },
-    {
-     "title": "Cロナウド 今季終了後の引退示唆",
-     "link": "https://news.yahoo.co.jp/pickup/6592008?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 21:24:54 GMT"
+     "title": "永野芽郁 元キャバ嬢役で主演",
+     "link": "https://news.yahoo.co.jp/pickup/6592022?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 23:34:12 GMT"
     }
    ]
   }
