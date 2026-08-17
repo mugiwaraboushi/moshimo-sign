@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T13:57:47.641Z",
+ "updatedAt": "2026-08-17T14:20:59.840Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -256,14 +256,9 @@
      "pubDate": "Mon, 17 Aug 2026 11:41:20 GMT"
     },
     {
-     "title": "発電機で一酸化炭素中毒 注意点",
-     "link": "https://news.yahoo.co.jp/pickup/6592109?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 12:29:10 GMT"
-    },
-    {
-     "title": "指名手配中の男 建物侵入疑い逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6592089?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 09:14:20 GMT"
+     "title": "豪雨で車が浸水 金銭負担が心配",
+     "link": "https://news.yahoo.co.jp/pickup/6592117?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 13:36:51 GMT"
     },
     {
      "title": "9日に流され行方不明の女性 救助",
@@ -271,14 +266,19 @@
      "pubDate": "Mon, 17 Aug 2026 11:48:39 GMT"
     },
     {
+     "title": "踏切開いたまま電車通過 東急電鉄",
+     "link": "https://news.yahoo.co.jp/pickup/6592116?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 14:03:44 GMT"
+    },
+    {
      "title": "「夜に経済活動」夏暑すぎて注目",
      "link": "https://news.yahoo.co.jp/pickup/6592113?source=rss",
      "pubDate": "Mon, 17 Aug 2026 13:27:21 GMT"
     },
     {
-     "title": "ANAとJAL 互いにダイヤを調整へ",
-     "link": "https://news.yahoo.co.jp/pickup/6592102?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 11:12:38 GMT"
+     "title": "子どもの「3大夏風邪」予防策は",
+     "link": "https://news.yahoo.co.jp/pickup/6592069?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 06:54:23 GMT"
     },
     {
      "title": "ロケットナウ つまみ食い動画拡散",
