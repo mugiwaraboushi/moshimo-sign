@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T06:30:02.663Z",
+ "updatedAt": "2026-08-17T07:32:45.899Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "千葉豪雨 死者10人 2人行方不明 千葉市で車約2500台路上に残る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44428",
-     "pubDate": "Mon, 17 Aug 2026 13:18:24 +0900"
+     "title": "【地震情報】熊本県八代市で震度3 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44508",
+     "pubDate": "Mon, 17 Aug 2026 15:53:36 +0900"
     },
     {
-     "title": "千葉 豪雨で浸水の被害の大網白里で災害ボランティア活動開始",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44492",
-     "pubDate": "Mon, 17 Aug 2026 15:11:07 +0900"
+     "title": "千葉豪雨 死者10人 2人行方不明 千葉市で車約2500台路上に残る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44428",
+     "pubDate": "Mon, 17 Aug 2026 15:44:42 +0900"
+    },
+    {
+     "title": "熊本 各地で厳しい暑さ熱中症対策を 地震活動に引き続き注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44421",
+     "pubDate": "Mon, 17 Aug 2026 11:58:00 +0900"
+    },
+    {
+     "title": "千葉 大雨影響で放射性廃液漏れ出したか“環境への影響なし”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44556",
+     "pubDate": "Mon, 17 Aug 2026 16:09:00 +0900"
     },
     {
      "title": "ANAとJAL 国内線維持で協調へ 初のダイヤ調整",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44528",
      "pubDate": "Mon, 17 Aug 2026 15:09:00 +0900"
-    },
-    {
-     "title": "熊本 八代 緊急の「公費解体」開始 2次被害のおそれある建物",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44500",
-     "pubDate": "Mon, 17 Aug 2026 12:39:00 +0900"
     },
     {
      "title": "4-6月のGDP 年率プラス1.1％ 3期連続のプラス",
@@ -36,11 +41,6 @@
      "title": "トランプ大統領 米韓合同軍事演習“縮小を指示”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44424",
      "pubDate": "Mon, 17 Aug 2026 14:35:39 +0900"
-    },
-    {
-     "title": "長期金利 2.93％に上昇 インフレ加速の見方 背景に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44469",
-     "pubDate": "Mon, 17 Aug 2026 12:56:22 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "千葉 大雨影響で放射性廃液漏れ出したか“環境への影響なし”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44556",
+     "pubDate": "Mon, 17 Aug 2026 16:09:00 +0900"
+    },
     {
      "title": "愛子さま 半導体物理国際会議の開会式に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44485",
@@ -118,11 +123,6 @@
      "title": "JR中央・総武線 全線で運転再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44346",
      "pubDate": "Sun, 16 Aug 2026 07:08:11 +0900"
-    },
-    {
-     "title": "山形 鶴岡 花火大会で3人軽傷 花火が地上で破裂したか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44344",
-     "pubDate": "Sun, 16 Aug 2026 07:05:16 +0900"
     }
    ]
   },
@@ -169,9 +169,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "東南アジア主要国GDP イラン情勢などで多くの国で伸び率縮小",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44540",
+     "pubDate": "Mon, 17 Aug 2026 16:03:50 +0900"
+    },
+    {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月17日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260812de43490",
-     "pubDate": "Mon, 17 Aug 2026 14:58:28 +0900"
+     "pubDate": "Mon, 17 Aug 2026 14:58:00 +0900"
     },
     {
      "title": "アメリカとイランの覚書形骸化 事態打開の糸口見いだせず",
@@ -237,11 +242,6 @@
      "title": "ウクライナがロシアのロケット製造拠点など攻撃",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44336",
      "pubDate": "Sun, 16 Aug 2026 10:39:54 +0900"
-    },
-    {
-     "title": "インドネシア東部地震の死者47人に 救助活動続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44335",
-     "pubDate": "Sun, 16 Aug 2026 05:52:55 +0900"
     }
    ]
   },
@@ -251,14 +251,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "旅館などへの2次避難進まず 熊本",
-     "link": "https://news.yahoo.co.jp/pickup/6592057?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 04:45:01 GMT"
+     "title": "「都構想」と「副首都」巡る課題",
+     "link": "https://news.yahoo.co.jp/pickup/6592046?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 04:31:22 GMT"
     },
     {
-     "title": "コンゴ エボラ感染者の約半数死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6592059?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 04:51:35 GMT"
+     "title": "露とウ 民間施設への空爆相次ぐ",
+     "link": "https://news.yahoo.co.jp/pickup/6592052?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 03:13:53 GMT"
+    },
+    {
+     "title": "浸水で放射性廃液が漏えい 千葉市",
+     "link": "https://news.yahoo.co.jp/pickup/6592072?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 06:55:01 GMT"
     },
     {
      "title": "73歳運転 店に車突っ込み2人けが",
@@ -266,9 +271,9 @@
      "pubDate": "Mon, 17 Aug 2026 05:45:11 GMT"
     },
     {
-     "title": "キャッシュレス決済 浸透に地域差",
-     "link": "https://news.yahoo.co.jp/pickup/6592030?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 00:54:18 GMT"
+     "title": "公園の名称 異例の決選投票で決定",
+     "link": "https://news.yahoo.co.jp/pickup/6592058?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 04:52:52 GMT"
     },
     {
      "title": "キョン 千葉県から分布拡大の恐れ",
@@ -276,19 +281,14 @@
      "pubDate": "Mon, 17 Aug 2026 05:55:35 GMT"
     },
     {
-     "title": "韓国で犬肉禁止へ 伝統惜しむ客",
-     "link": "https://news.yahoo.co.jp/pickup/6592063?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 05:23:17 GMT"
+     "title": "ギャル曽根 ご飯「1日24合炊く」",
+     "link": "https://news.yahoo.co.jp/pickup/6592067?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 06:14:00 GMT"
     },
     {
-     "title": "俳優 H・パネッティーアさん死去",
-     "link": "https://news.yahoo.co.jp/pickup/6592062?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 05:11:27 GMT"
-    },
-    {
-     "title": "大竹まこと 前立腺がんを公表",
-     "link": "https://news.yahoo.co.jp/pickup/6592055?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 03:57:18 GMT"
+     "title": "元乃木坂46・衛藤美彩が第3子出産",
+     "link": "https://news.yahoo.co.jp/pickup/6592068?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 06:27:47 GMT"
     }
    ]
   }
