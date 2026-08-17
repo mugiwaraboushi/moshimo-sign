@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T12:16:27.745Z",
+ "updatedAt": "2026-08-17T13:12:06.209Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "千葉豪雨 死者10人 2人行方不明 千葉市で車約2500台路上に残る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44428",
-     "pubDate": "Mon, 17 Aug 2026 21:10:00 +0900"
+     "pubDate": "Mon, 17 Aug 2026 21:31:44 +0900"
     },
     {
      "title": "福岡県議会 議長の辞職勧告決議案 採決行われず 中止動議受け",
@@ -20,7 +20,7 @@
     {
      "title": "横浜高校野球部の元監督 渡辺元智さん死去 81歳 春夏計5回優勝",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44622",
-     "pubDate": "Mon, 17 Aug 2026 19:09:15 +0900"
+     "pubDate": "Mon, 17 Aug 2026 21:36:16 +0900"
     },
     {
      "title": "【動画】停電続く総合病院 電気設備がある地下に水が",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "東急世田谷線 遮断機が上がったまま列車が通過 けが人なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44656",
+     "pubDate": "Mon, 17 Aug 2026 22:04:11 +0900"
+    },
     {
      "title": "熊本 南九州道 八代南IC-田浦IC 18日朝から通行止め解除",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44647",
@@ -118,11 +123,6 @@
      "title": "佳子さま 高校生の手話コンテストに出席 手話でおことば",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44401",
      "pubDate": "Sun, 16 Aug 2026 18:50:13 +0900"
-    },
-    {
-     "title": "東京 府中 多摩川で遊んでいた中学3年男子生徒が溺れて重体",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44386",
-     "pubDate": "Sun, 16 Aug 2026 16:54:49 +0900"
     }
    ]
   },
@@ -256,9 +256,14 @@
      "pubDate": "Mon, 17 Aug 2026 11:41:20 GMT"
     },
     {
-     "title": "福岡県議会 蔵内氏が議長辞任意向",
-     "link": "https://news.yahoo.co.jp/pickup/6592099?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 10:27:44 GMT"
+     "title": "発電機で一酸化炭素中毒 注意点",
+     "link": "https://news.yahoo.co.jp/pickup/6592109?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 12:29:10 GMT"
+    },
+    {
+     "title": "指名手配中の男 建物侵入疑い逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6592089?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 09:14:20 GMT"
     },
     {
      "title": "クマ3頭飛び出し 走行中の車衝突",
@@ -266,29 +271,24 @@
      "pubDate": "Mon, 17 Aug 2026 10:50:54 GMT"
     },
     {
-     "title": "ANAとJAL 互いにダイヤを調整へ",
-     "link": "https://news.yahoo.co.jp/pickup/6592102?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 11:12:38 GMT"
-    },
-    {
      "title": "9日に流され行方不明の女性 救助",
      "link": "https://news.yahoo.co.jp/pickup/6592108?source=rss",
      "pubDate": "Mon, 17 Aug 2026 11:48:39 GMT"
     },
     {
+     "title": "ANAとJAL 互いにダイヤを調整へ",
+     "link": "https://news.yahoo.co.jp/pickup/6592102?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 11:12:38 GMT"
+    },
+    {
+     "title": "ゲーム婚した夫婦たち 恋した瞬間",
+     "link": "https://news.yahoo.co.jp/pickup/6592086?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 08:53:05 GMT"
+    },
+    {
      "title": "ロケットナウ つまみ食い動画拡散",
      "link": "https://news.yahoo.co.jp/pickup/6592103?source=rss",
      "pubDate": "Mon, 17 Aug 2026 11:17:11 GMT"
-    },
-    {
-     "title": "KEY TO LIT 今冬CDデビュー決定",
-     "link": "https://news.yahoo.co.jp/pickup/6592106?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 11:46:40 GMT"
-    },
-    {
-     "title": "衛藤美彩&源田壮亮 第3子が誕生",
-     "link": "https://news.yahoo.co.jp/pickup/6592097?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 09:54:00 GMT"
     }
    ]
   }
