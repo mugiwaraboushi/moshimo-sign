@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T10:52:59.550Z",
+ "updatedAt": "2026-08-17T11:13:47.790Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,12 +10,12 @@
     {
      "title": "千葉豪雨 死者10人 2人行方不明 千葉市で車約2500台路上に残る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44428",
-     "pubDate": "Mon, 17 Aug 2026 19:09:45 +0900"
+     "pubDate": "Mon, 17 Aug 2026 20:04:36 +0900"
     },
     {
      "title": "福岡県議会 議長の辞職勧告決議案 採決行われず 中止動議受け",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44547",
-     "pubDate": "Mon, 17 Aug 2026 19:47:54 +0900"
+     "pubDate": "Mon, 17 Aug 2026 19:57:03 +0900"
     },
     {
      "title": "横浜高校野球部の元監督 渡辺元智さん死去 81歳 春夏計5回優勝",
@@ -33,14 +33,14 @@
      "pubDate": "Mon, 17 Aug 2026 18:29:49 +0900"
     },
     {
+     "title": "熊本地震 自宅や車中での避難者 実態を県が自治体と把握へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44611",
+     "pubDate": "Mon, 17 Aug 2026 20:08:43 +0900"
+    },
+    {
      "title": "ANAとJAL 国内線維持で協調へ 初のダイヤ調整",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44528",
      "pubDate": "Mon, 17 Aug 2026 15:09:00 +0900"
-    },
-    {
-     "title": "千葉 大雨影響で放射性廃液漏れ出したか“環境への影響なし”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44556",
-     "pubDate": "Mon, 17 Aug 2026 16:09:00 +0900"
     }
    ]
   },
@@ -251,24 +251,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "熊本地震 月内にも支援パッケージ",
+     "link": "https://news.yahoo.co.jp/pickup/6592098?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 10:36:44 GMT"
+    },
+    {
      "title": "福岡県議会 蔵内氏が議長辞任意向",
      "link": "https://news.yahoo.co.jp/pickup/6592099?source=rss",
      "pubDate": "Mon, 17 Aug 2026 10:27:44 GMT"
-    },
-    {
-     "title": "コロンビア地震 日本が物資供与へ",
-     "link": "https://news.yahoo.co.jp/pickup/6592074?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 07:26:32 GMT"
-    },
-    {
-     "title": "EU 対露制裁を大幅拡大の方針",
-     "link": "https://news.yahoo.co.jp/pickup/6592071?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 06:46:28 GMT"
-    },
-    {
-     "title": "11歳男児が海岸で溺れ死亡 新潟",
-     "link": "https://news.yahoo.co.jp/pickup/6592090?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 09:11:48 GMT"
     },
     {
      "title": "指名手配中の男 建物侵入疑い逮捕",
@@ -276,14 +266,24 @@
      "pubDate": "Mon, 17 Aug 2026 09:14:20 GMT"
     },
     {
+     "title": "クマ3頭飛び出し 走行中の車衝突",
+     "link": "https://news.yahoo.co.jp/pickup/6592101?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 10:50:54 GMT"
+    },
+    {
      "title": "「いけず石」物議 大阪市タジタジ",
      "link": "https://news.yahoo.co.jp/pickup/6592082?source=rss",
      "pubDate": "Mon, 17 Aug 2026 08:41:04 GMT"
     },
     {
-     "title": "横浜高校元監督 渡辺元智さん死去",
-     "link": "https://news.yahoo.co.jp/pickup/6592092?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 09:06:17 GMT"
+     "title": "葬儀の料金複雑化 トラブル絶えず",
+     "link": "https://news.yahoo.co.jp/pickup/6592088?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 09:12:15 GMT"
+    },
+    {
+     "title": "渡辺元智さん死去 教え子に筒香ら",
+     "link": "https://news.yahoo.co.jp/pickup/6592100?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 10:50:23 GMT"
     },
     {
      "title": "衛藤美彩&源田壮亮 第3子が誕生",
