@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T04:08:11.457Z",
+ "updatedAt": "2026-08-17T05:03:47.020Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,22 +10,7 @@
     {
      "title": "千葉豪雨 死者10人 2人行方不明 千葉市で車約2500台路上に残る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44428",
-     "pubDate": "Mon, 17 Aug 2026 12:37:10 +0900"
-    },
-    {
-     "title": "4-6月のGDP 年率プラス1.1％ 3期連続のプラス",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44453",
-     "pubDate": "Mon, 17 Aug 2026 13:00:17 +0900"
-    },
-    {
-     "title": "千葉 大網白里 豪雨で銀行も浸水被害 臨時のATM搭載車が対応",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44492",
-     "pubDate": "Mon, 17 Aug 2026 12:14:13 +0900"
-    },
-    {
-     "title": "愛子さま 半導体物理国際会議の開会式に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44485",
-     "pubDate": "Mon, 17 Aug 2026 12:23:32 +0900"
+     "pubDate": "Mon, 17 Aug 2026 13:18:24 +0900"
     },
     {
      "title": "熊本 八代 緊急の「公費解体」開始 2次被害のおそれある建物",
@@ -33,14 +18,29 @@
      "pubDate": "Mon, 17 Aug 2026 12:39:00 +0900"
     },
     {
-     "title": "トランプ大統領 米韓合同軍事演習“縮小を指示”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44424",
-     "pubDate": "Mon, 17 Aug 2026 10:01:53 +0900"
+     "title": "アメリカとイランの覚書形骸化 事態打開の糸口見いだせず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44493",
+     "pubDate": "Mon, 17 Aug 2026 13:35:26 +0900"
+    },
+    {
+     "title": "4-6月のGDP 年率プラス1.1％ 3期連続のプラス",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44453",
+     "pubDate": "Mon, 17 Aug 2026 13:00:17 +0900"
     },
     {
      "title": "長期金利 2.93％に上昇 インフレ加速の見方 背景に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44469",
      "pubDate": "Mon, 17 Aug 2026 12:56:22 +0900"
+    },
+    {
+     "title": "熊本 氷川町 保育園・幼稚園 1日通した子どもの預かり一部再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44489",
+     "pubDate": "Mon, 17 Aug 2026 13:11:12 +0900"
+    },
+    {
+     "title": "九州道復旧受け 高速バス通常ルートで運行再開 熊本",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44520",
+     "pubDate": "Mon, 17 Aug 2026 13:15:08 +0900"
     }
    ]
   },
@@ -52,7 +52,7 @@
     {
      "title": "愛子さま 半導体物理国際会議の開会式に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44485",
-     "pubDate": "Mon, 17 Aug 2026 12:23:32 +0900"
+     "pubDate": "Mon, 17 Aug 2026 12:23:00 +0900"
     },
     {
      "title": "千葉県内の高速道路 豪雨影響の通行止めすべて解除",
@@ -169,6 +169,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "アメリカとイランの覚書形骸化 事態打開の糸口見いだせず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44493",
+     "pubDate": "Mon, 17 Aug 2026 13:35:26 +0900"
+    },
+    {
      "title": "ブラジル大統領選挙の選挙戦始まる 現職と前大統領長男が軸に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44448",
      "pubDate": "Mon, 17 Aug 2026 08:51:00 +0900"
@@ -237,11 +242,6 @@
      "title": "インド モディ首相「発展するためには若者が重要」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260815de44297",
      "pubDate": "Sat, 15 Aug 2026 23:01:40 +0900"
-    },
-    {
-     "title": "靖国神社参拝めぐり中国“強く抗議”韓国“嘆き禁じ得ない”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44311",
-     "pubDate": "Sun, 16 Aug 2026 05:18:24 +0900"
     }
    ]
   },
@@ -251,9 +251,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "長期金利が上昇 約30年ぶり高水準",
-     "link": "https://news.yahoo.co.jp/pickup/6592041?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 02:16:48 GMT"
+     "title": "千葉豪雨 冠水で高齢者施設が孤立",
+     "link": "https://news.yahoo.co.jp/pickup/6592053?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 03:59:28 GMT"
     },
     {
      "title": "精神疾患の日本兵に感染人体実験",
@@ -266,14 +266,14 @@
      "pubDate": "Mon, 17 Aug 2026 02:21:28 GMT"
     },
     {
+     "title": "千葉で遺体 豪雨で不明の男性か",
+     "link": "https://news.yahoo.co.jp/pickup/6592056?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 04:28:03 GMT"
+    },
+    {
      "title": "運転手引きずり降ろし車奪う 逃走",
      "link": "https://news.yahoo.co.jp/pickup/6592047?source=rss",
      "pubDate": "Mon, 17 Aug 2026 02:43:32 GMT"
-    },
-    {
-     "title": "篠山輝信さん 事務所との裁判語る",
-     "link": "https://news.yahoo.co.jp/pickup/6592036?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 02:03:17 GMT"
     },
     {
      "title": "「カレー焼きそば」再評価 なぜ今",
