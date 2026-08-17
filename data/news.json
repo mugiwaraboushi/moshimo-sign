@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T15:45:44.514Z",
+ "updatedAt": "2026-08-17T16:12:14.125Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -155,11 +155,6 @@
      "title": "火星衛星探査機「MMX」公開 秋にも打ち上げへ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43676",
      "pubDate": "Thu, 13 Aug 2026 20:45:14 +0900"
-    },
-    {
-     "title": "日本版GPS衛星「みちびき7号機」 H3ロケットで打ち上げ成功",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
-     "pubDate": "Tue, 11 Aug 2026 12:38:00 +0900"
     }
    ]
   },
