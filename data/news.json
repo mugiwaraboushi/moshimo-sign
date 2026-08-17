@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T03:24:13.332Z",
+ "updatedAt": "2026-08-17T04:08:11.457Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,12 +10,12 @@
     {
      "title": "千葉豪雨 死者10人 2人行方不明 千葉市で車約2500台路上に残る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44428",
-     "pubDate": "Mon, 17 Aug 2026 12:20:49 +0900"
+     "pubDate": "Mon, 17 Aug 2026 12:37:10 +0900"
     },
     {
      "title": "4-6月のGDP 年率プラス1.1％ 3期連続のプラス",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44453",
-     "pubDate": "Mon, 17 Aug 2026 11:45:08 +0900"
+     "pubDate": "Mon, 17 Aug 2026 13:00:17 +0900"
     },
     {
      "title": "千葉 大網白里 豪雨で銀行も浸水被害 臨時のATM搭載車が対応",
@@ -23,9 +23,14 @@
      "pubDate": "Mon, 17 Aug 2026 12:14:13 +0900"
     },
     {
-     "title": "熊本 各地で厳しい暑さ熱中症対策を 地震活動に引き続き注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44421",
-     "pubDate": "Mon, 17 Aug 2026 11:58:00 +0900"
+     "title": "愛子さま 半導体物理国際会議の開会式に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44485",
+     "pubDate": "Mon, 17 Aug 2026 12:23:32 +0900"
+    },
+    {
+     "title": "熊本 八代 緊急の「公費解体」開始 2次被害のおそれある建物",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44500",
+     "pubDate": "Mon, 17 Aug 2026 12:39:00 +0900"
     },
     {
      "title": "トランプ大統領 米韓合同軍事演習“縮小を指示”",
@@ -35,12 +40,7 @@
     {
      "title": "長期金利 2.93％に上昇 インフレ加速の見方 背景に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44469",
-     "pubDate": "Mon, 17 Aug 2026 12:08:34 +0900"
-    },
-    {
-     "title": "トミー・ジョンさん死去 ひじのじん帯再建手術に革新 大リーグ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44449",
-     "pubDate": "Mon, 17 Aug 2026 09:21:10 +0900"
+     "pubDate": "Mon, 17 Aug 2026 12:56:22 +0900"
     }
    ]
   },
@@ -171,7 +171,7 @@
     {
      "title": "ブラジル大統領選挙の選挙戦始まる 現職と前大統領長男が軸に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44448",
-     "pubDate": "Mon, 17 Aug 2026 08:51:49 +0900"
+     "pubDate": "Mon, 17 Aug 2026 08:51:00 +0900"
     },
     {
      "title": "論文盗用疑惑のケンブリッジ大元教授死亡 疑惑に人種差別訴え",
@@ -216,7 +216,7 @@
     {
      "title": "ウクライナ ロシアの物流施設など攻撃 えん戦気分拡大ねらいか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44393",
-     "pubDate": "Sun, 16 Aug 2026 19:58:33 +0900"
+     "pubDate": "Sun, 16 Aug 2026 19:58:00 +0900"
     },
     {
      "title": "“交渉期限”迫る イラン「停戦存在せず」 米も対決姿勢",
@@ -271,24 +271,24 @@
      "pubDate": "Mon, 17 Aug 2026 02:43:32 GMT"
     },
     {
-     "title": "岩国のシロヘビ 1年間で281匹死ぬ",
-     "link": "https://news.yahoo.co.jp/pickup/6592033?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 01:13:38 GMT"
-    },
-    {
      "title": "篠山輝信さん 事務所との裁判語る",
      "link": "https://news.yahoo.co.jp/pickup/6592036?source=rss",
      "pubDate": "Mon, 17 Aug 2026 02:03:17 GMT"
     },
     {
-     "title": "ラヴ上等出演者の発言が物議 解説",
-     "link": "https://news.yahoo.co.jp/pickup/6592051?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 03:01:56 GMT"
+     "title": "「カレー焼きそば」再評価 なぜ今",
+     "link": "https://news.yahoo.co.jp/pickup/6592049?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 03:39:23 GMT"
     },
     {
-     "title": "剛力彩芽 事務所名イジりに笑顔",
-     "link": "https://news.yahoo.co.jp/pickup/6592016?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 22:38:06 GMT"
+     "title": "大竹まこと 前立腺がんを公表",
+     "link": "https://news.yahoo.co.jp/pickup/6592055?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 03:57:18 GMT"
+    },
+    {
+     "title": "歌舞伎俳優・中村種之助が結婚",
+     "link": "https://news.yahoo.co.jp/pickup/6592054?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 03:39:28 GMT"
     }
    ]
   }
