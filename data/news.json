@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T14:20:59.840Z",
+ "updatedAt": "2026-08-17T14:50:29.031Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -28,9 +28,9 @@
      "pubDate": "Mon, 17 Aug 2026 22:04:11 +0900"
     },
     {
-     "title": "インドネシア東部地震 独立記念日の式典で犠牲者に祈り",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44646",
-     "pubDate": "Mon, 17 Aug 2026 20:52:02 +0900"
+     "title": "上野厚労相 熊本視察「雇用調整助成金」特例適用検討急ぐ考え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44648",
+     "pubDate": "Mon, 17 Aug 2026 20:57:53 +0900"
     },
     {
      "title": "韓国与党「共に民主党」代表にイ大統領の側近選出",
@@ -251,9 +251,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "熊本地震の断層破壊は約38km 調査",
-     "link": "https://news.yahoo.co.jp/pickup/6592104?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 11:41:20 GMT"
+     "title": "熊本地震3週間「関連死」防ぐには",
+     "link": "https://news.yahoo.co.jp/pickup/6592118?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 14:19:11 GMT"
     },
     {
      "title": "豪雨で車が浸水 金銭負担が心配",
@@ -271,19 +271,19 @@
      "pubDate": "Mon, 17 Aug 2026 14:03:44 GMT"
     },
     {
-     "title": "「夜に経済活動」夏暑すぎて注目",
-     "link": "https://news.yahoo.co.jp/pickup/6592113?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 13:27:21 GMT"
-    },
-    {
-     "title": "子どもの「3大夏風邪」予防策は",
-     "link": "https://news.yahoo.co.jp/pickup/6592069?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 06:54:23 GMT"
-    },
-    {
      "title": "ロケットナウ つまみ食い動画拡散",
      "link": "https://news.yahoo.co.jp/pickup/6592103?source=rss",
      "pubDate": "Mon, 17 Aug 2026 11:17:11 GMT"
+    },
+    {
+     "title": "渡辺元智さん死去 松坂大輔氏悼む",
+     "link": "https://news.yahoo.co.jp/pickup/6592119?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 14:32:54 GMT"
+    },
+    {
+     "title": "衛藤美彩&源田壮亮 第3子が誕生",
+     "link": "https://news.yahoo.co.jp/pickup/6592097?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 09:54:00 GMT"
     },
     {
      "title": "永野芽郁が元キャバ嬢役 再起は",
