@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T21:45:47.133Z",
+ "updatedAt": "2026-08-17T22:10:59.680Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,6 +13,16 @@
      "pubDate": "Tue, 18 Aug 2026 04:56:00 +0900"
     },
     {
+     "title": "高校野球 夏の甲子園【大会13日目 準々決勝の見どころ】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44652",
+     "pubDate": "Tue, 18 Aug 2026 04:44:15 +0900"
+    },
+    {
+     "title": "ロシア外相“駐ロ日本大使呼び出し” 日本側“18日に応じる”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44664",
+     "pubDate": "Tue, 18 Aug 2026 06:21:00 +0900"
+    },
+    {
      "title": "千葉豪雨 被災店舗の再開や農業被害対応など 生活再建が課題",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44659",
      "pubDate": "Tue, 18 Aug 2026 04:51:00 +0900"
@@ -23,24 +33,14 @@
      "pubDate": "Tue, 18 Aug 2026 06:32:00 +0900"
     },
     {
-     "title": "ロシア外相“駐ロ日本大使呼び出し” 日本側“18日に応じる”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44664",
-     "pubDate": "Tue, 18 Aug 2026 06:21:57 +0900"
+     "title": "ガザ地区の和平計画 イスラエル首相がアメリカ側と協議",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44666",
+     "pubDate": "Tue, 18 Aug 2026 06:48:14 +0900"
     },
     {
-     "title": "米30年債利回り19年ぶり高水準 インフレ再加速へ警戒感",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44672",
-     "pubDate": "Tue, 18 Aug 2026 06:29:30 +0900"
-    },
-    {
-     "title": "高校野球 夏の甲子園【大会13日目 準々決勝の見どころ】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44652",
-     "pubDate": "Tue, 18 Aug 2026 04:44:15 +0900"
-    },
-    {
-     "title": "ロシア野党勢力幹部に禁錮11年余判決 「軍の信用失墜」などで",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44673",
-     "pubDate": "Tue, 18 Aug 2026 06:31:41 +0900"
+     "title": "楽天グループ 迎撃ドローン開発手がけるドイツ新興企業と提携",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44669",
+     "pubDate": "Tue, 18 Aug 2026 06:41:13 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（8月1８日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44641",
+     "pubDate": "Tue, 18 Aug 2026 07:02:51 +0900"
+    },
     {
      "title": "熊本地震から3週間 3000人以上避難所に 避難所以外支援も課題",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44662",
@@ -118,11 +123,6 @@
      "title": "車いす利用者 送迎車での死亡事故7年で30件 消費者事故調",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44410",
      "pubDate": "Mon, 17 Aug 2026 05:56:00 +0900"
-    },
-    {
-     "title": "熊本 天草 お盆の帰省にあわせ二十歳のつどい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44391",
-     "pubDate": "Sun, 16 Aug 2026 19:27:31 +0900"
     }
    ]
   },
@@ -164,6 +164,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ガザ地区の和平計画 イスラエル首相がアメリカ側と協議",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44666",
+     "pubDate": "Tue, 18 Aug 2026 06:48:14 +0900"
+    },
+    {
      "title": "米大統領「急いでいない」イラン高官“不履行なら攻撃開始”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44667",
      "pubDate": "Tue, 18 Aug 2026 06:32:00 +0900"
@@ -171,17 +176,17 @@
     {
      "title": "ロシア野党勢力幹部に禁錮11年余判決 「軍の信用失墜」などで",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44673",
-     "pubDate": "Tue, 18 Aug 2026 06:31:41 +0900"
+     "pubDate": "Tue, 18 Aug 2026 06:31:00 +0900"
     },
     {
      "title": "米30年債利回り19年ぶり高水準 インフレ再加速へ警戒感",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44672",
-     "pubDate": "Tue, 18 Aug 2026 06:29:30 +0900"
+     "pubDate": "Tue, 18 Aug 2026 06:29:00 +0900"
     },
     {
      "title": "ロシア外相“駐ロ日本大使呼び出し” 日本側“18日に応じる”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44664",
-     "pubDate": "Tue, 18 Aug 2026 06:21:57 +0900"
+     "pubDate": "Tue, 18 Aug 2026 06:21:00 +0900"
     },
     {
      "title": "韓国与党「共に民主党」代表にイ大統領の側近選出",
@@ -232,11 +237,6 @@
      "title": "リヒテンシュタイン 女性も国家元首可能に 欧州で転換進む",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44439",
      "pubDate": "Mon, 17 Aug 2026 07:23:32 +0900"
-    },
-    {
-     "title": "ロシアへの長距離攻撃にイギリス供与の無人機使用 英紙報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44425",
-     "pubDate": "Mon, 17 Aug 2026 05:27:09 +0900"
     }
    ]
   },
