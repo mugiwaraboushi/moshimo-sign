@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T02:00:36.671Z",
+ "updatedAt": "2026-08-17T03:24:13.332Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "千葉豪雨 死者10人 2人行方不明 千葉市で車約2500台路上に残る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44428",
+     "pubDate": "Mon, 17 Aug 2026 12:20:49 +0900"
+    },
+    {
      "title": "4-6月のGDP 年率プラス1.1％ 3期連続のプラス",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44453",
-     "pubDate": "Mon, 17 Aug 2026 10:30:15 +0900"
+     "pubDate": "Mon, 17 Aug 2026 11:45:08 +0900"
+    },
+    {
+     "title": "千葉 大網白里 豪雨で銀行も浸水被害 臨時のATM搭載車が対応",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44492",
+     "pubDate": "Mon, 17 Aug 2026 12:14:13 +0900"
+    },
+    {
+     "title": "熊本 各地で厳しい暑さ熱中症対策を 地震活動に引き続き注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44421",
+     "pubDate": "Mon, 17 Aug 2026 11:58:00 +0900"
     },
     {
      "title": "トランプ大統領 米韓合同軍事演習“縮小を指示”",
@@ -18,29 +33,14 @@
      "pubDate": "Mon, 17 Aug 2026 10:01:53 +0900"
     },
     {
-     "title": "長期金利 2.925％に上昇 物価上昇懸念背景に",
+     "title": "長期金利 2.93％に上昇 インフレ加速の見方 背景に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44469",
-     "pubDate": "Mon, 17 Aug 2026 10:56:01 +0900"
-    },
-    {
-     "title": "千葉豪雨 死者10人 千葉市で車約2500台が路上に残る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44428",
-     "pubDate": "Mon, 17 Aug 2026 02:39:00 +0900"
-    },
-    {
-     "title": "福岡 粕屋町の住宅火災で１人の遺体発見 住人２人と連絡取れず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44464",
-     "pubDate": "Mon, 17 Aug 2026 10:21:00 +0900"
+     "pubDate": "Mon, 17 Aug 2026 12:08:34 +0900"
     },
     {
      "title": "トミー・ジョンさん死去 ひじのじん帯再建手術に革新 大リーグ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44449",
      "pubDate": "Mon, 17 Aug 2026 09:21:10 +0900"
-    },
-    {
-     "title": "論文盗用疑惑のケンブリッジ大元教授死亡 疑惑に人種差別訴え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44438",
-     "pubDate": "Mon, 17 Aug 2026 07:34:55 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "愛子さま 半導体物理国際会議の開会式に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44485",
+     "pubDate": "Mon, 17 Aug 2026 12:23:32 +0900"
+    },
+    {
+     "title": "千葉県内の高速道路 豪雨影響の通行止めすべて解除",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44479",
+     "pubDate": "Mon, 17 Aug 2026 11:21:37 +0900"
+    },
     {
      "title": "福岡 粕屋町の住宅火災で１人の遺体発見 住人２人と連絡取れず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44464",
@@ -62,7 +72,7 @@
     {
      "title": "車いす利用者 送迎車での死亡事故7年で30件 消費者事故調",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44410",
-     "pubDate": "Mon, 17 Aug 2026 05:56:16 +0900"
+     "pubDate": "Mon, 17 Aug 2026 05:56:00 +0900"
     },
     {
      "title": "熊本 天草 お盆の帰省にあわせ二十歳のつどい",
@@ -113,16 +123,6 @@
      "title": "山形 鶴岡 花火大会で3人軽傷 花火が地上で破裂したか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44344",
      "pubDate": "Sun, 16 Aug 2026 07:05:16 +0900"
-    },
-    {
-     "title": "熊本地震 17日も熱中症対策を 最大震度5弱程度以上の地震注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44323",
-     "pubDate": "Sun, 16 Aug 2026 19:28:38 +0900"
-    },
-    {
-     "title": "絶滅危惧種のキタサンショウウオ 生息地等保護区指定へ 環境省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260815de44228",
-     "pubDate": "Sun, 16 Aug 2026 05:15:30 +0900"
     }
    ]
   },
@@ -159,7 +159,7 @@
     {
      "title": "日本版GPS衛星「みちびき7号機」 H3ロケットで打ち上げ成功",
      "link": "https://news.web.nhk/newsweb/na/nd-20260810de43195",
-     "pubDate": "Tue, 11 Aug 2026 12:38:25 +0900"
+     "pubDate": "Tue, 11 Aug 2026 12:38:00 +0900"
     }
    ]
   },
@@ -176,7 +176,7 @@
     {
      "title": "論文盗用疑惑のケンブリッジ大元教授死亡 疑惑に人種差別訴え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44438",
-     "pubDate": "Mon, 17 Aug 2026 07:34:55 +0900"
+     "pubDate": "Mon, 17 Aug 2026 07:34:00 +0900"
     },
     {
      "title": "リヒテンシュタイン 女性も国家元首可能に 欧州で転換進む",
@@ -251,29 +251,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "各地で厳しい残暑 熱中症に注意",
-     "link": "https://news.yahoo.co.jp/pickup/6592027?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 00:15:02 GMT"
+     "title": "長期金利が上昇 約30年ぶり高水準",
+     "link": "https://news.yahoo.co.jp/pickup/6592041?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 02:16:48 GMT"
     },
     {
-     "title": "米韓が軍事演習開始 北朝鮮は反発",
-     "link": "https://news.yahoo.co.jp/pickup/6592032?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 01:00:36 GMT"
+     "title": "精神疾患の日本兵に感染人体実験",
+     "link": "https://news.yahoo.co.jp/pickup/6592042?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 02:52:38 GMT"
     },
     {
-     "title": "豪雨で放置車両 撤去見通し立たず",
-     "link": "https://news.yahoo.co.jp/pickup/6592023?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 23:29:07 GMT"
+     "title": "定着するか 稼げるブルーカラー",
+     "link": "https://news.yahoo.co.jp/pickup/6592038?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 02:21:28 GMT"
     },
     {
-     "title": "遊泳区域外で泳ぎ練習中 溺れ死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6592020?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 22:59:17 GMT"
-    },
-    {
-     "title": "マンホールの蓋複数飛ぶ 民家破損",
-     "link": "https://news.yahoo.co.jp/pickup/6592025?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 23:59:39 GMT"
+     "title": "運転手引きずり降ろし車奪う 逃走",
+     "link": "https://news.yahoo.co.jp/pickup/6592047?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 02:43:32 GMT"
     },
     {
      "title": "岩国のシロヘビ 1年間で281匹死ぬ",
@@ -281,14 +276,19 @@
      "pubDate": "Mon, 17 Aug 2026 01:13:38 GMT"
     },
     {
-     "title": "トミー・ジョン氏死去 手術の由来",
-     "link": "https://news.yahoo.co.jp/pickup/6592031?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 01:03:00 GMT"
+     "title": "篠山輝信さん 事務所との裁判語る",
+     "link": "https://news.yahoo.co.jp/pickup/6592036?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 02:03:17 GMT"
     },
     {
-     "title": "永野芽郁 元キャバ嬢役で主演",
-     "link": "https://news.yahoo.co.jp/pickup/6592022?source=rss",
-     "pubDate": "Sun, 16 Aug 2026 23:34:12 GMT"
+     "title": "ラヴ上等出演者の発言が物議 解説",
+     "link": "https://news.yahoo.co.jp/pickup/6592051?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 03:01:56 GMT"
+    },
+    {
+     "title": "剛力彩芽 事務所名イジりに笑顔",
+     "link": "https://news.yahoo.co.jp/pickup/6592016?source=rss",
+     "pubDate": "Sun, 16 Aug 2026 22:38:06 GMT"
     }
    ]
   }
