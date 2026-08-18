@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T14:02:09.916Z",
+ "updatedAt": "2026-08-18T14:58:09.245Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,9 +23,9 @@
      "pubDate": "Tue, 18 Aug 2026 21:50:39 +0900"
     },
     {
-     "title": "両陛下 空海ゆかりの名宝を集めた特別展に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44903",
-     "pubDate": "Tue, 18 Aug 2026 22:35:40 +0900"
+     "title": "秋篠宮ご夫妻 パラグアイに向けて出発",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44900",
+     "pubDate": "Tue, 18 Aug 2026 22:43:36 +0900"
     },
     {
      "title": "熊本地震 局所的に今の耐震基準でも倒壊するほどの揺れか",
@@ -251,6 +251,11 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "米朝首脳会談に含み 米大統領狙い",
+     "link": "https://news.yahoo.co.jp/pickup/6592223?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 13:41:34 GMT"
+    },
+    {
      "title": "地震倒壊 工場煙突を国が全国調査",
      "link": "https://news.yahoo.co.jp/pickup/6592221?source=rss",
      "pubDate": "Tue, 18 Aug 2026 13:19:14 GMT"
@@ -261,19 +266,19 @@
      "pubDate": "Tue, 18 Aug 2026 12:42:17 GMT"
     },
     {
-     "title": "米産ジャガイモ輸入巡り 農家懸念",
-     "link": "https://news.yahoo.co.jp/pickup/6592224?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 13:49:52 GMT"
-    },
-    {
      "title": "放火し両親殺害未遂疑い 15歳逮捕",
      "link": "https://news.yahoo.co.jp/pickup/6592211?source=rss",
      "pubDate": "Tue, 18 Aug 2026 12:33:09 GMT"
     },
     {
-     "title": "ポケGOイベと入試重複 宿泊困難",
-     "link": "https://news.yahoo.co.jp/pickup/6592209?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 11:10:03 GMT"
+     "title": "遭難女性8日ぶり救助 夫「感謝」",
+     "link": "https://news.yahoo.co.jp/pickup/6592227?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 14:16:42 GMT"
+    },
+    {
+     "title": "四千頭身・都築のブランド休止",
+     "link": "https://news.yahoo.co.jp/pickup/6592191?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 08:28:08 GMT"
     },
     {
      "title": "横浜高校監督 インタビューで号泣",
@@ -284,11 +289,6 @@
      "title": "「踊る」新作スピンオフ配信決定",
      "link": "https://news.yahoo.co.jp/pickup/6592225?source=rss",
      "pubDate": "Tue, 18 Aug 2026 13:57:24 GMT"
-    },
-    {
-     "title": "山本耕史 バスローブ姿で取材会",
-     "link": "https://news.yahoo.co.jp/pickup/6592219?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 12:51:51 GMT"
     }
    ]
   }
