@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T11:46:45.513Z",
+ "updatedAt": "2026-08-18T12:17:58.726Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -11,6 +11,11 @@
      "title": "千葉豪雨 新たに2人の死亡確認 死者13人に 浸水被害は2314棟",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44659",
      "pubDate": "Tue, 18 Aug 2026 19:04:47 +0900"
+    },
+    {
+     "title": "熊本 八代市 7月28日の地震直後から出していた避難指示を解除",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44879",
+     "pubDate": "Tue, 18 Aug 2026 21:01:03 +0900"
     },
     {
      "title": "熊本地震 局所的に今の耐震基準でも倒壊するほどの揺れか",
@@ -28,19 +33,14 @@
      "pubDate": "Tue, 18 Aug 2026 20:22:22 +0900"
     },
     {
-     "title": "ロシア外務省が日本大使に抗議 日本大使館「立場 適切に説明」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44873",
-     "pubDate": "Tue, 18 Aug 2026 19:23:45 +0900"
-    },
-    {
-     "title": "高校野球 健大高崎が有明に延長の末サヨナラ勝ち 初のベスト4",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44857",
-     "pubDate": "Tue, 18 Aug 2026 19:23:14 +0900"
-    },
-    {
      "title": "千葉豪雨で乗客死亡 国交省が全国のタクシー会社などに通知",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44818",
      "pubDate": "Tue, 18 Aug 2026 17:34:49 +0900"
+    },
+    {
+     "title": "ロシア外務省が日本大使に抗議 日本大使館「立場 適切に説明」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44873",
+     "pubDate": "Tue, 18 Aug 2026 19:23:45 +0900"
     }
    ]
   },
@@ -281,14 +281,14 @@
      "pubDate": "Tue, 18 Aug 2026 07:40:06 GMT"
     },
     {
+     "title": "横浜高校監督 インタビューで号泣",
+     "link": "https://news.yahoo.co.jp/pickup/6592213?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 12:06:04 GMT"
+    },
+    {
      "title": "健大高崎サヨナラ勝ち 夏初の4強",
      "link": "https://news.yahoo.co.jp/pickup/6592206?source=rss",
      "pubDate": "Tue, 18 Aug 2026 10:22:41 GMT"
-    },
-    {
-     "title": "広島監督 小園のこと一日中考えた",
-     "link": "https://news.yahoo.co.jp/pickup/6592205?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 10:17:49 GMT"
     }
    ]
   }
