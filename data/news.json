@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T01:56:38.584Z",
+ "updatedAt": "2026-08-18T02:48:12.330Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "熊本地震から3週間 3000人以上避難所に 避難所以外支援も課題",
+     "title": "【ライブ】熊本地震から3週間 高市首相に熊本県知事らが要望書",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44662",
-     "pubDate": "Tue, 18 Aug 2026 04:56:00 +0900"
+     "pubDate": "Tue, 18 Aug 2026 11:46:51 +0900"
     },
     {
      "title": "長期金利 2.945％に上昇 インフレ加速の見方など 国債売る動き",
@@ -38,9 +38,9 @@
      "pubDate": "Tue, 18 Aug 2026 06:32:00 +0900"
     },
     {
-     "title": "楽天グループ 迎撃ドローン開発手がけるドイツ新興企業と提携",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44669",
-     "pubDate": "Tue, 18 Aug 2026 06:41:13 +0900"
+     "title": "高校野球 天理が三重に勝利 ベスト4進出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44680",
+     "pubDate": "Tue, 18 Aug 2026 09:31:00 +0900"
     }
    ]
   },
@@ -55,9 +55,9 @@
      "pubDate": "Tue, 18 Aug 2026 10:26:39 +0900"
     },
     {
-     "title": "熊本地震から3週間 3000人以上避難所に 避難所以外支援も課題",
+     "title": "【ライブ】熊本地震から3週間 高市首相に熊本県知事らが要望書",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44662",
-     "pubDate": "Tue, 18 Aug 2026 04:56:00 +0900"
+     "pubDate": "Tue, 18 Aug 2026 11:46:51 +0900"
     },
     {
      "title": "千葉豪雨 被災店舗の再開や農業被害対応など 生活再建が課題",
@@ -251,14 +251,14 @@
      "pubDate": "Tue, 18 Aug 2026 00:36:24 GMT"
     },
     {
-     "title": "子が「自殺」検索で通知 インスタ",
-     "link": "https://news.yahoo.co.jp/pickup/6592135?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 00:22:51 GMT"
+     "title": "高市首相お盆休み返上? Xで連投",
+     "link": "https://news.yahoo.co.jp/pickup/6592149?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 02:25:31 GMT"
     },
     {
-     "title": "出産の子を殺人未遂疑い 16歳逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6592132?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 23:39:25 GMT"
+     "title": "ゴルフ場で働く19歳自殺 労災認定",
+     "link": "https://news.yahoo.co.jp/pickup/6592122?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 21:36:04 GMT"
     },
     {
      "title": "四千頭身・都築メンバー 書類送検",
@@ -276,14 +276,14 @@
      "pubDate": "Tue, 18 Aug 2026 01:09:08 GMT"
     },
     {
-     "title": "速報甲子園 仙台育英vs智弁和歌山",
-     "link": "https://news.yahoo.co.jp/pickup/6592142?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 01:38:01 GMT"
+     "title": "速報 智弁和歌山が仙台育英に先制",
+     "link": "https://news.yahoo.co.jp/pickup/6592145?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 02:07:10 GMT"
     },
     {
-     "title": "甲子園 天理が三重を破り4強入り",
-     "link": "https://news.yahoo.co.jp/pickup/6592143?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 01:16:46 GMT"
+     "title": "大谷が28号「相性抜群」菅野から",
+     "link": "https://news.yahoo.co.jp/pickup/6592147?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 02:19:09 GMT"
     }
    ]
   }
