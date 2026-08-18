@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T05:51:28.192Z",
+ "updatedAt": "2026-08-18T06:19:49.691Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "【地震速報】熊本で震度3 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44564",
+     "pubDate": "Tue, 18 Aug 2026 15:09:00 +0900"
+    },
     {
      "title": "【ライブ】自衛隊の戦闘機 那覇空港滑走路上で停止 トラブルか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44743",
@@ -23,11 +28,6 @@
      "pubDate": "Tue, 18 Aug 2026 13:53:49 +0900"
     },
     {
-     "title": "【動画】ドジャース大谷2打席連続HR 6年連続30号にあと1本",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44698",
-     "pubDate": "Tue, 18 Aug 2026 14:01:43 +0900"
-    },
-    {
      "title": "高校野球 智弁和歌山が仙台育英をリード 5回終了時",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44681",
      "pubDate": "Tue, 18 Aug 2026 13:34:33 +0900"
@@ -40,7 +40,7 @@
     {
      "title": "お笑い 「四千頭身」メンバー 迷惑防止条例違反などで書類送検",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44696",
-     "pubDate": "Tue, 18 Aug 2026 11:51:20 +0900"
+     "pubDate": "Tue, 18 Aug 2026 15:17:36 +0900"
     }
    ]
   },
@@ -77,7 +77,7 @@
     {
      "title": "お笑い 「四千頭身」メンバー 迷惑防止条例違反などで書類送検",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44696",
-     "pubDate": "Tue, 18 Aug 2026 11:51:20 +0900"
+     "pubDate": "Tue, 18 Aug 2026 15:17:36 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（8月18日）",
@@ -246,14 +246,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "千葉豪雨の死者 調査中含め11人に",
-     "link": "https://news.yahoo.co.jp/pickup/6592161?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 03:54:42 GMT"
-    },
-    {
      "title": "福岡県議会の採決見送り憤りの声",
      "link": "https://news.yahoo.co.jp/pickup/6592169?source=rss",
      "pubDate": "Tue, 18 Aug 2026 05:12:04 GMT"
+    },
+    {
+     "title": "地検 被告行方不明を即時公表せず",
+     "link": "https://news.yahoo.co.jp/pickup/6592167?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 04:46:15 GMT"
     },
     {
      "title": "自衛隊の戦闘機 那覇空港で停止",
