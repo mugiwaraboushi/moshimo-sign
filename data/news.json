@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T20:44:52.828Z",
+ "updatedAt": "2026-08-18T21:11:12.117Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "千葉豪雨 死者13人 浸水2300棟超 路上の車両きょう移動完了へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44911",
-     "pubDate": "Wed, 19 Aug 2026 05:11:08 +0900"
+     "pubDate": "Wed, 19 Aug 2026 05:11:00 +0900"
     },
     {
      "title": "米トランプ政権 ICC＝国際刑事裁判所 赤根所長を制裁対象に",
@@ -18,9 +18,9 @@
      "pubDate": "Wed, 19 Aug 2026 02:46:00 +0900"
     },
     {
-     "title": "熊本 八代市 7月28日の地震直後から出していた避難指示を解除",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44879",
-     "pubDate": "Tue, 18 Aug 2026 21:01:03 +0900"
+     "title": "トランプ大統領「協議行われていない」イランも強気姿勢を維持",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44908",
+     "pubDate": "Wed, 19 Aug 2026 06:08:27 +0900"
     },
     {
      "title": "熊本地震受け 全国の工場など煙突の状況を調査開始 金子国交相",
@@ -57,7 +57,7 @@
     {
      "title": "両陛下 空海ゆかりの名宝を集めた特別展に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44903",
-     "pubDate": "Tue, 18 Aug 2026 22:35:40 +0900"
+     "pubDate": "Tue, 18 Aug 2026 22:35:00 +0900"
     },
     {
      "title": "千葉市 豪雨による路上の約2500台の車 19日にも移動完了見通し",
@@ -169,6 +169,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "トランプ大統領「協議行われていない」イランも強気姿勢を維持",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44908",
+     "pubDate": "Wed, 19 Aug 2026 06:08:27 +0900"
+    },
+    {
      "title": "米トランプ政権 ICC＝国際刑事裁判所 赤根所長を制裁対象に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44920",
      "pubDate": "Wed, 19 Aug 2026 02:46:00 +0900"
@@ -237,11 +242,6 @@
      "title": "ロシア野党勢力幹部に禁錮11年余判決 「軍の信用失墜」などで",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44673",
      "pubDate": "Tue, 18 Aug 2026 06:31:00 +0900"
-    },
-    {
-     "title": "米30年債利回り19年ぶり高水準 インフレ再加速へ警戒感",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44672",
-     "pubDate": "Tue, 18 Aug 2026 06:29:00 +0900"
     }
    ]
   },
