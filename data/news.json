@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T17:49:09.202Z",
+ "updatedAt": "2026-08-18T18:17:34.686Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,9 @@
      "pubDate": "Tue, 18 Aug 2026 19:04:47 +0900"
     },
     {
-     "title": "米 トランプ政権 ICC＝国際刑事裁判所 赤根所長を制裁対象に",
+     "title": "米トランプ政権 ICC＝国際刑事裁判所 赤根所長を制裁対象に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44920",
-     "pubDate": "Wed, 19 Aug 2026 02:46:50 +0900"
+     "pubDate": "Wed, 19 Aug 2026 02:46:00 +0900"
     },
     {
      "title": "熊本 八代市 7月28日の地震直後から出していた避難指示を解除",
@@ -169,9 +169,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "米 トランプ政権 ICC＝国際刑事裁判所 赤根所長を制裁対象に",
+     "title": "米トランプ政権 ICC＝国際刑事裁判所 赤根所長を制裁対象に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44920",
-     "pubDate": "Wed, 19 Aug 2026 02:46:50 +0900"
+     "pubDate": "Wed, 19 Aug 2026 02:46:00 +0900"
     },
     {
      "title": "“英首相が米大統領首席補佐官装う人物とメッセージ”報道",
