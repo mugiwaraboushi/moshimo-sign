@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T04:22:00.548Z",
+ "updatedAt": "2026-08-18T04:57:40.770Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "自衛隊の戦闘機 那覇空港滑走路上で停止 機体トラブルか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44743",
+     "pubDate": "Tue, 18 Aug 2026 13:50:57 +0900"
+    },
+    {
      "title": "熊本地震3週間 3000人以上避難所に 高市首相と熊本県知事会談",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44662",
-     "pubDate": "Tue, 18 Aug 2026 13:12:22 +0900"
+     "pubDate": "Tue, 18 Aug 2026 13:26:15 +0900"
     },
     {
      "title": "千葉豪雨 新たに1人の死亡確認 死者11人に 浸水被害は2140棟",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44659",
-     "pubDate": "Tue, 18 Aug 2026 12:53:36 +0900"
+     "pubDate": "Tue, 18 Aug 2026 13:53:49 +0900"
     },
     {
      "title": "高校野球 天理が完封勝利でベスト4一番乗り",
@@ -26,11 +31,6 @@
      "title": "ふるさと納税の牛肉産地不適正表示疑い 畜産会社元取締役逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44689",
      "pubDate": "Tue, 18 Aug 2026 12:06:00 +0900"
-    },
-    {
-     "title": "米クシュナー氏が中東訪問 ハマスの武装解除 早期進展に期待",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44683",
-     "pubDate": "Tue, 18 Aug 2026 12:32:00 +0900"
     },
     {
      "title": "ドジャース 大谷翔平 2打席連続HR 6年連続30号にあと1本",
@@ -50,6 +50,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "自衛隊の戦闘機 那覇空港滑走路上で停止 機体トラブルか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44743",
+     "pubDate": "Tue, 18 Aug 2026 13:50:57 +0900"
+    },
+    {
      "title": "熊本地震 住宅修理に関するトラブルに注意【専門家Q＆A】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44690",
      "pubDate": "Tue, 18 Aug 2026 12:54:00 +0900"
@@ -67,17 +72,17 @@
     {
      "title": "【動画】Pickup NEWS（8月18日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44641",
-     "pubDate": "Tue, 18 Aug 2026 10:26:39 +0900"
+     "pubDate": "Tue, 18 Aug 2026 13:56:02 +0900"
     },
     {
      "title": "熊本地震3週間 3000人以上避難所に 高市首相と熊本県知事会談",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44662",
-     "pubDate": "Tue, 18 Aug 2026 13:12:22 +0900"
+     "pubDate": "Tue, 18 Aug 2026 13:26:15 +0900"
     },
     {
      "title": "千葉豪雨 新たに1人の死亡確認 死者11人に 浸水被害は2140棟",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44659",
-     "pubDate": "Tue, 18 Aug 2026 12:53:36 +0900"
+     "pubDate": "Tue, 18 Aug 2026 13:53:49 +0900"
     },
     {
      "title": "東急世田谷線 遮断機が上がったまま列車が通過 けが人なし",
@@ -118,11 +123,6 @@
      "title": "愛子さま 半導体物理国際会議の開会式に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44485",
      "pubDate": "Mon, 17 Aug 2026 12:23:00 +0900"
-    },
-    {
-     "title": "千葉県内の高速道路 豪雨影響の通行止めすべて解除",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44479",
-     "pubDate": "Mon, 17 Aug 2026 11:21:37 +0900"
     }
    ]
   },
@@ -261,11 +261,6 @@
      "pubDate": "Tue, 18 Aug 2026 03:47:40 GMT"
     },
     {
-     "title": "返礼品の牛肉産地偽装疑い 逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6592159?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 03:42:42 GMT"
-    },
-    {
      "title": "14歳男子中学生 車にはねられ重体",
      "link": "https://news.yahoo.co.jp/pickup/6592163?source=rss",
      "pubDate": "Tue, 18 Aug 2026 03:48:26 GMT"
@@ -276,14 +271,19 @@
      "pubDate": "Tue, 18 Aug 2026 04:16:48 GMT"
     },
     {
-     "title": "速報甲子園 仙台育英vs智弁和歌山",
-     "link": "https://news.yahoo.co.jp/pickup/6592164?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 03:38:58 GMT"
+     "title": "ジム倒産「料金前払い」リスクは",
+     "link": "https://news.yahoo.co.jp/pickup/6592152?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 02:40:22 GMT"
     },
     {
      "title": "大谷翔平2打席連発29号 敵地騒然",
      "link": "https://news.yahoo.co.jp/pickup/6592156?source=rss",
      "pubDate": "Tue, 18 Aug 2026 02:53:56 GMT"
+    },
+    {
+     "title": "智弁和歌山が4強 18安打11得点",
+     "link": "https://news.yahoo.co.jp/pickup/6592168?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 04:43:26 GMT"
     }
    ]
   }
