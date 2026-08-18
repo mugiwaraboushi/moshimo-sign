@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T21:43:25.207Z",
+ "updatedAt": "2026-08-18T22:09:29.733Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（8月19日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44881",
+     "pubDate": "Wed, 19 Aug 2026 06:55:34 +0900"
+    },
     {
      "title": "西日本中心に気温上昇 危険な暑さに 東北は土砂災害など注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44906",
@@ -118,11 +123,6 @@
      "title": "横浜 交際相手の2歳長男に傷害容疑で会社員逮捕 長男は死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44707",
      "pubDate": "Tue, 18 Aug 2026 19:06:45 +0900"
-    },
-    {
-     "title": "大阪 道頓堀ビル火災から1年 現場近くのビルで消防訓練",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44710",
-     "pubDate": "Tue, 18 Aug 2026 14:30:03 +0900"
     }
    ]
   },
@@ -251,14 +251,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "米朝首脳会談に含み 米大統領狙い",
-     "link": "https://news.yahoo.co.jp/pickup/6592223?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 13:41:34 GMT"
+     "title": "九州～東海で猛暑日続出か 警戒を",
+     "link": "https://news.yahoo.co.jp/pickup/6592232?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 21:42:17 GMT"
     },
     {
-     "title": "地震倒壊 工場煙突を国が全国調査",
-     "link": "https://news.yahoo.co.jp/pickup/6592221?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 13:19:14 GMT"
+     "title": "豪雨の路上車両600台 撤去へ連携",
+     "link": "https://news.yahoo.co.jp/pickup/6592233?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 21:58:37 GMT"
     },
     {
      "title": "ICC赤根所長らを制裁対象に 米国",
