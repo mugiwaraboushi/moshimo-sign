@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T03:33:58.288Z",
+ "updatedAt": "2026-08-18T04:22:00.548Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "熊本地震から3週間 高市首相に熊本県知事らが要望書",
+     "title": "熊本地震3週間 3000人以上避難所に 高市首相と熊本県知事会談",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44662",
-     "pubDate": "Tue, 18 Aug 2026 12:29:07 +0900"
+     "pubDate": "Tue, 18 Aug 2026 13:12:22 +0900"
     },
     {
      "title": "千葉豪雨 新たに1人の死亡確認 死者11人に 浸水被害は2140棟",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44659",
-     "pubDate": "Tue, 18 Aug 2026 12:30:37 +0900"
+     "pubDate": "Tue, 18 Aug 2026 12:53:36 +0900"
     },
     {
      "title": "高校野球 天理が完封勝利でベスト4一番乗り",
@@ -28,14 +28,14 @@
      "pubDate": "Tue, 18 Aug 2026 12:06:00 +0900"
     },
     {
-     "title": "ロシア外相“駐ロ日本大使呼び出し” 日本側“18日に応じる”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44664",
-     "pubDate": "Tue, 18 Aug 2026 06:21:00 +0900"
+     "title": "米クシュナー氏が中東訪問 ハマスの武装解除 早期進展に期待",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44683",
+     "pubDate": "Tue, 18 Aug 2026 12:32:00 +0900"
     },
     {
-     "title": "ドジャース 大谷翔平 菅野智之から5試合ぶり28号ホームラン",
+     "title": "ドジャース 大谷翔平 2打席連続HR 6年連続30号にあと1本",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44698",
-     "pubDate": "Tue, 18 Aug 2026 11:45:17 +0900"
+     "pubDate": "Tue, 18 Aug 2026 13:14:47 +0900"
     },
     {
      "title": "お笑い 「四千頭身」メンバー 迷惑防止条例違反などで書類送検",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "熊本地震 住宅修理に関するトラブルに注意【専門家Q＆A】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44690",
+     "pubDate": "Tue, 18 Aug 2026 12:54:00 +0900"
+    },
     {
      "title": "ふるさと納税の牛肉産地不適正表示疑い 畜産会社元取締役逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44689",
@@ -65,14 +70,14 @@
      "pubDate": "Tue, 18 Aug 2026 10:26:39 +0900"
     },
     {
-     "title": "熊本地震から3週間 高市首相に熊本県知事らが要望書",
+     "title": "熊本地震3週間 3000人以上避難所に 高市首相と熊本県知事会談",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44662",
-     "pubDate": "Tue, 18 Aug 2026 12:29:07 +0900"
+     "pubDate": "Tue, 18 Aug 2026 13:12:22 +0900"
     },
     {
      "title": "千葉豪雨 新たに1人の死亡確認 死者11人に 浸水被害は2140棟",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44659",
-     "pubDate": "Tue, 18 Aug 2026 12:30:37 +0900"
+     "pubDate": "Tue, 18 Aug 2026 12:53:36 +0900"
     },
     {
      "title": "東急世田谷線 遮断機が上がったまま列車が通過 けが人なし",
@@ -80,9 +85,9 @@
      "pubDate": "Mon, 17 Aug 2026 22:04:11 +0900"
     },
     {
-     "title": "熊本 南九州道 八代南IC-田浦IC 18日朝から通行止め解除",
+     "title": "熊本 南九州道 八代南IC-田浦IC 3週間ぶり通行止め解除",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44647",
-     "pubDate": "Mon, 17 Aug 2026 20:54:22 +0900"
+     "pubDate": "Tue, 18 Aug 2026 13:17:02 +0900"
     },
     {
      "title": "東京高検検事長に松本裕氏が就任「フェアに捜査する姿勢を」",
@@ -118,11 +123,6 @@
      "title": "千葉県内の高速道路 豪雨影響の通行止めすべて解除",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44479",
      "pubDate": "Mon, 17 Aug 2026 11:21:37 +0900"
-    },
-    {
-     "title": "福岡 粕屋町で住宅火災 2人の遺体発見 住人2人と連絡取れず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44464",
-     "pubDate": "Mon, 17 Aug 2026 10:21:00 +0900"
     }
    ]
   },
@@ -166,7 +166,7 @@
     {
      "title": "米クシュナー氏が中東訪問 ハマスの武装解除 早期進展に期待",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44683",
-     "pubDate": "Tue, 18 Aug 2026 12:32:39 +0900"
+     "pubDate": "Tue, 18 Aug 2026 12:32:00 +0900"
     },
     {
      "title": "トランプ大統領 “北朝鮮 対話呼びかけに対し非常に前向き”",
@@ -246,39 +246,39 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "AI事業者向け政府知財保護案 判明",
-     "link": "https://news.yahoo.co.jp/pickup/6592154?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 02:38:17 GMT"
+     "title": "千葉豪雨の死者 調査中含め11人に",
+     "link": "https://news.yahoo.co.jp/pickup/6592161?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 03:54:42 GMT"
     },
     {
-     "title": "高市首相お盆休み返上? Xで連投",
-     "link": "https://news.yahoo.co.jp/pickup/6592149?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 02:25:31 GMT"
+     "title": "米 不法移民退去で人手不足の懸念",
+     "link": "https://news.yahoo.co.jp/pickup/6592153?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 02:59:24 GMT"
     },
     {
-     "title": "兵庫県が財政悪化 起債許可団体に",
-     "link": "https://news.yahoo.co.jp/pickup/6592155?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 02:41:31 GMT"
+     "title": "2歳男児殴った疑い逮捕 男児死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6592162?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 03:47:40 GMT"
     },
     {
-     "title": "四千頭身・都築メンバー 書類送検",
-     "link": "https://news.yahoo.co.jp/pickup/6592144?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 01:50:31 GMT"
+     "title": "返礼品の牛肉産地偽装疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6592159?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 03:42:42 GMT"
     },
     {
-     "title": "「NISA貧乏」なぜ生まれる",
-     "link": "https://news.yahoo.co.jp/pickup/6592140?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 01:10:19 GMT"
+     "title": "14歳男子中学生 車にはねられ重体",
+     "link": "https://news.yahoo.co.jp/pickup/6592163?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 03:48:26 GMT"
     },
     {
-     "title": "速報 智弁和歌山が仙台育英に先制",
-     "link": "https://news.yahoo.co.jp/pickup/6592145?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 02:07:10 GMT"
+     "title": "都築メンバー書類送検 とても反省",
+     "link": "https://news.yahoo.co.jp/pickup/6592165?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 04:16:48 GMT"
     },
     {
-     "title": "「佐藤輝明シフト」ルールの現状",
-     "link": "https://news.yahoo.co.jp/pickup/6592148?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 03:14:59 GMT"
+     "title": "速報甲子園 仙台育英vs智弁和歌山",
+     "link": "https://news.yahoo.co.jp/pickup/6592164?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 03:38:58 GMT"
     },
     {
      "title": "大谷翔平2打席連発29号 敵地騒然",
