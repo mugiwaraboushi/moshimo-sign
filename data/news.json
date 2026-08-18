@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T09:54:53.633Z",
+ "updatedAt": "2026-08-18T10:15:03.163Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "千葉豪雨 新たに2人の死亡確認 死者13人に 浸水被害は2314棟",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44659",
-     "pubDate": "Tue, 18 Aug 2026 18:13:07 +0900"
+     "pubDate": "Tue, 18 Aug 2026 19:04:47 +0900"
     },
     {
      "title": "高市首相 熊本地震で知事らと会談 地元の要望踏まえ支援策",
@@ -87,7 +87,7 @@
     {
      "title": "横浜 交際相手の2歳長男に傷害容疑で会社員逮捕 長男は死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44707",
-     "pubDate": "Tue, 18 Aug 2026 14:35:00 +0900"
+     "pubDate": "Tue, 18 Aug 2026 19:06:45 +0900"
     },
     {
      "title": "大阪 道頓堀ビル火災から1年 現場近くのビルで消防訓練",
@@ -169,9 +169,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "太平洋のクロマグロ漁獲枠 来年から2年間 大型魚25％増で合意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44751",
+     "pubDate": "Tue, 18 Aug 2026 17:37:00 +0900"
+    },
+    {
      "title": "中国外相 19日から韓国訪問 朝鮮半島情勢など意見交換へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44844",
-     "pubDate": "Tue, 18 Aug 2026 18:45:43 +0900"
+     "pubDate": "Tue, 18 Aug 2026 18:45:00 +0900"
     },
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月18日の動き）",
@@ -226,7 +231,7 @@
     {
      "title": "ロシア外相“駐ロ日本大使呼び出し” 日本側“18日に応じる”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44664",
-     "pubDate": "Tue, 18 Aug 2026 18:47:08 +0900"
+     "pubDate": "Tue, 18 Aug 2026 18:47:00 +0900"
     },
     {
      "title": "韓国与党「共に民主党」代表にイ大統領の側近選出",
@@ -237,11 +242,6 @@
      "title": "インドネシア東部地震 独立記念日の式典で犠牲者に祈り",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44646",
      "pubDate": "Mon, 17 Aug 2026 20:52:02 +0900"
-    },
-    {
-     "title": "中国 7月の「小売売上高」 去年同月比＋0.6％ 内需の停滞続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44637",
-     "pubDate": "Mon, 17 Aug 2026 19:29:48 +0900"
     }
    ]
   },
@@ -261,6 +261,11 @@
      "pubDate": "Tue, 18 Aug 2026 08:42:29 GMT"
     },
     {
+     "title": "三木谷氏 消費減税に否定的な見解",
+     "link": "https://news.yahoo.co.jp/pickup/6592199?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 09:42:54 GMT"
+    },
+    {
      "title": "日本で走る ベトナム人運転手の今",
      "link": "https://news.yahoo.co.jp/pickup/6592201?source=rss",
      "pubDate": "Tue, 18 Aug 2026 09:51:21 GMT"
@@ -276,14 +281,9 @@
      "pubDate": "Tue, 18 Aug 2026 08:28:08 GMT"
     },
     {
-     "title": "広島・小園「無期限」2軍再調整",
-     "link": "https://news.yahoo.co.jp/pickup/6592181?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 07:33:31 GMT"
-    },
-    {
-     "title": "速報甲子園 健大高崎vs.有明",
-     "link": "https://news.yahoo.co.jp/pickup/6592174?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 08:04:59 GMT"
+     "title": "小園の降格 広島監督が思い明かす",
+     "link": "https://news.yahoo.co.jp/pickup/6592200?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 10:04:55 GMT"
     },
     {
      "title": "漫画ヤニねこ全巻重版 編集長驚き",
