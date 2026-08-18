@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T05:22:27.585Z",
+ "updatedAt": "2026-08-18T05:51:28.192Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,7 +8,7 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "自衛隊の戦闘機 那覇空港滑走路上で停止 機体トラブルか",
+     "title": "【ライブ】自衛隊の戦闘機 那覇空港滑走路上で停止 トラブルか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44743",
      "pubDate": "Tue, 18 Aug 2026 13:50:00 +0900"
     },
@@ -33,9 +33,9 @@
      "pubDate": "Tue, 18 Aug 2026 13:34:33 +0900"
     },
     {
-     "title": "ふるさと納税の牛肉産地不適正表示疑い 畜産会社元取締役逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44689",
-     "pubDate": "Tue, 18 Aug 2026 12:06:00 +0900"
+     "title": "横浜 交際相手の2歳長男に傷害容疑で会社員逮捕 長男は死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44707",
+     "pubDate": "Tue, 18 Aug 2026 14:35:00 +0900"
     },
     {
      "title": "お笑い 「四千頭身」メンバー 迷惑防止条例違反などで書類送検",
@@ -50,7 +50,17 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "自衛隊の戦闘機 那覇空港滑走路上で停止 機体トラブルか",
+     "title": "横浜 交際相手の2歳長男に傷害容疑で会社員逮捕 長男は死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44707",
+     "pubDate": "Tue, 18 Aug 2026 14:35:00 +0900"
+    },
+    {
+     "title": "大阪 道頓堀ビル火災から1年 現場近くのビルで消防訓練",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44710",
+     "pubDate": "Tue, 18 Aug 2026 14:30:03 +0900"
+    },
+    {
+     "title": "【ライブ】自衛隊の戦闘機 那覇空港滑走路上で停止 トラブルか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44743",
      "pubDate": "Tue, 18 Aug 2026 13:50:00 +0900"
     },
@@ -113,16 +123,6 @@
      "title": "新潟 北区 海で溺れ11歳の小学生男児が死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44614",
      "pubDate": "Mon, 17 Aug 2026 19:05:55 +0900"
-    },
-    {
-     "title": "千葉 大雨影響で放射性廃液漏れ出したか“環境への影響なし”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44556",
-     "pubDate": "Mon, 17 Aug 2026 16:09:00 +0900"
-    },
-    {
-     "title": "愛子さま 半導体物理国際会議の開会式に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44485",
-     "pubDate": "Mon, 17 Aug 2026 12:23:00 +0900"
     }
    ]
   },
@@ -251,9 +251,14 @@
      "pubDate": "Tue, 18 Aug 2026 03:54:42 GMT"
     },
     {
-     "title": "米 不法移民退去で人手不足の懸念",
-     "link": "https://news.yahoo.co.jp/pickup/6592153?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 02:59:24 GMT"
+     "title": "福岡県議会の採決見送り憤りの声",
+     "link": "https://news.yahoo.co.jp/pickup/6592169?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 05:12:04 GMT"
+    },
+    {
+     "title": "自衛隊の戦闘機 那覇空港で停止",
+     "link": "https://news.yahoo.co.jp/pickup/6592172?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 05:36:21 GMT"
     },
     {
      "title": "2歳男児殴った疑い逮捕 男児死亡",
@@ -266,14 +271,9 @@
      "pubDate": "Tue, 18 Aug 2026 03:48:26 GMT"
     },
     {
-     "title": "都築メンバー書類送検 とても反省",
-     "link": "https://news.yahoo.co.jp/pickup/6592165?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 04:16:48 GMT"
-    },
-    {
-     "title": "ジム倒産「料金前払い」リスクは",
-     "link": "https://news.yahoo.co.jp/pickup/6592152?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 02:40:22 GMT"
+     "title": "フィットネス倒産 会員のリスクは",
+     "link": "https://news.yahoo.co.jp/pickup/6592173?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 05:31:57 GMT"
     },
     {
      "title": "速報甲子園 花巻東vs.横浜",
@@ -281,9 +281,9 @@
      "pubDate": "Tue, 18 Aug 2026 04:58:34 GMT"
     },
     {
-     "title": "智弁和歌山が4強 18安打11得点",
-     "link": "https://news.yahoo.co.jp/pickup/6592168?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 04:43:26 GMT"
+     "title": "四千頭身・都築メンバー 謹慎処分",
+     "link": "https://news.yahoo.co.jp/pickup/6592171?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 05:36:10 GMT"
     }
    ]
   }
