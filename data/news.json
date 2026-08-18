@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T10:15:03.163Z",
+ "updatedAt": "2026-08-18T10:52:20.776Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,19 @@
      "pubDate": "Tue, 18 Aug 2026 19:04:47 +0900"
     },
     {
+     "title": "熊本地震 局所的に今の耐震基準でも倒壊するほどの揺れか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44700",
+     "pubDate": "Tue, 18 Aug 2026 19:14:00 +0900"
+    },
+    {
      "title": "高市首相 熊本地震で知事らと会談 地元の要望踏まえ支援策",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44728",
      "pubDate": "Tue, 18 Aug 2026 15:57:05 +0900"
+    },
+    {
+     "title": "ロシア外務省が日本大使に抗議 日本大使館「立場 適切に説明」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44873",
+     "pubDate": "Tue, 18 Aug 2026 19:23:45 +0900"
     },
     {
      "title": "自衛隊の戦闘機 那覇空港滑走路上で停止 トラブルか",
@@ -23,24 +33,14 @@
      "pubDate": "Tue, 18 Aug 2026 16:27:02 +0900"
     },
     {
-     "title": "高校野球 横浜が花巻東に勝利 ベスト4へ エース織田翔希が完封",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44767",
-     "pubDate": "Tue, 18 Aug 2026 18:32:50 +0900"
+     "title": "高校野球 健大高崎が有明に延長の末サヨナラ勝ち 初のベスト4",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44857",
+     "pubDate": "Tue, 18 Aug 2026 19:23:14 +0900"
     },
     {
      "title": "千葉豪雨で乗客死亡 国交省が全国のタクシー会社などに通知",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44818",
      "pubDate": "Tue, 18 Aug 2026 17:34:49 +0900"
-    },
-    {
-     "title": "米国産ジャガイモ輸入解禁“容認できず”JA北海道中央会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44701",
-     "pubDate": "Tue, 18 Aug 2026 17:48:00 +0900"
-    },
-    {
-     "title": "お笑い 「四千頭身」メンバー 迷惑防止条例違反などで書類送検",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44696",
-     "pubDate": "Tue, 18 Aug 2026 17:24:43 +0900"
     }
    ]
   },
@@ -52,7 +52,7 @@
     {
      "title": "路上に置かれた車への衝突事故 千葉市内で少なくとも8件",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44835",
-     "pubDate": "Tue, 18 Aug 2026 18:51:59 +0900"
+     "pubDate": "Tue, 18 Aug 2026 19:16:41 +0900"
     },
     {
      "title": "熊本地震 「井戸水の町」八代市 井戸の復旧追いつかず",
@@ -117,7 +117,7 @@
     {
      "title": "【動画】Pickup NEWS（8月18日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44641",
-     "pubDate": "Tue, 18 Aug 2026 13:56:02 +0900"
+     "pubDate": "Tue, 18 Aug 2026 19:49:58 +0900"
     },
     {
      "title": "熊本地震3週間 3000人以上避難所に 高市首相と熊本県知事会談",
@@ -168,6 +168,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "ロシア外務省が日本大使に抗議 日本大使館「立場 適切に説明」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44873",
+     "pubDate": "Tue, 18 Aug 2026 19:23:45 +0900"
+    },
     {
      "title": "太平洋のクロマグロ漁獲枠 来年から2年間 大型魚25％増で合意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44751",
@@ -237,11 +242,6 @@
      "title": "韓国与党「共に民主党」代表にイ大統領の側近選出",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44657",
      "pubDate": "Mon, 17 Aug 2026 22:29:34 +0900"
-    },
-    {
-     "title": "インドネシア東部地震 独立記念日の式典で犠牲者に祈り",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44646",
-     "pubDate": "Mon, 17 Aug 2026 20:52:02 +0900"
     }
    ]
   },
@@ -256,9 +256,14 @@
      "pubDate": "Tue, 18 Aug 2026 09:20:13 GMT"
     },
     {
-     "title": "19日危険な暑さ 九州北部38℃予想",
-     "link": "https://news.yahoo.co.jp/pickup/6592193?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 08:42:29 GMT"
+     "title": "日本で走る ベトナム人運転手の今",
+     "link": "https://news.yahoo.co.jp/pickup/6592201?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 09:51:21 GMT"
+    },
+    {
+     "title": "ANAとJAL 互いのダイヤ調整発表",
+     "link": "https://news.yahoo.co.jp/pickup/6592208?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 10:46:38 GMT"
     },
     {
      "title": "三木谷氏 消費減税に否定的な見解",
@@ -266,14 +271,9 @@
      "pubDate": "Tue, 18 Aug 2026 09:42:54 GMT"
     },
     {
-     "title": "日本で走る ベトナム人運転手の今",
-     "link": "https://news.yahoo.co.jp/pickup/6592201?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 09:51:21 GMT"
-    },
-    {
-     "title": "クレーン車に自転車ひかれ 死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6592183?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 07:39:18 GMT"
+     "title": "開店祝いに著名人名無断使用 謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6592184?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 07:40:06 GMT"
     },
     {
      "title": "四千頭身・都築のブランド休止",
@@ -281,14 +281,14 @@
      "pubDate": "Tue, 18 Aug 2026 08:28:08 GMT"
     },
     {
-     "title": "小園の降格 広島監督が思い明かす",
-     "link": "https://news.yahoo.co.jp/pickup/6592200?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 10:04:55 GMT"
+     "title": "健大高崎サヨナラ勝ち 夏初の4強",
+     "link": "https://news.yahoo.co.jp/pickup/6592206?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 10:22:41 GMT"
     },
     {
-     "title": "漫画ヤニねこ全巻重版 編集長驚き",
-     "link": "https://news.yahoo.co.jp/pickup/6592198?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 09:41:36 GMT"
+     "title": "広島監督 小園のこと一日中考えた",
+     "link": "https://news.yahoo.co.jp/pickup/6592205?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 10:17:49 GMT"
     }
    ]
   }
