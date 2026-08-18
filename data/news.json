@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T11:13:14.824Z",
+ "updatedAt": "2026-08-18T11:46:45.513Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,14 +18,14 @@
      "pubDate": "Tue, 18 Aug 2026 19:14:00 +0900"
     },
     {
-     "title": "自衛隊の戦闘機 那覇空港滑走路上で停止 トラブルか",
+     "title": "那覇空港 自衛隊戦闘機が着陸時に機体トラブル 旅客機40便影響",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44743",
-     "pubDate": "Tue, 18 Aug 2026 16:27:02 +0900"
+     "pubDate": "Tue, 18 Aug 2026 20:31:01 +0900"
     },
     {
      "title": "高市首相 熊本地震で知事らと会談 地元の要望踏まえ支援策",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44728",
-     "pubDate": "Tue, 18 Aug 2026 15:57:05 +0900"
+     "pubDate": "Tue, 18 Aug 2026 20:22:22 +0900"
     },
     {
      "title": "ロシア外務省が日本大使に抗議 日本大使館「立場 適切に説明」",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "“審判員に性的接待”報道 JFA宮本会長「事実確認進めている」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44878",
+     "pubDate": "Tue, 18 Aug 2026 20:31:33 +0900"
+    },
     {
      "title": "熊本地震から3週間 “見えない避難者”半数以上が体調悪化",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44872",
@@ -100,9 +105,9 @@
      "pubDate": "Tue, 18 Aug 2026 14:30:03 +0900"
     },
     {
-     "title": "自衛隊の戦闘機 那覇空港滑走路上で停止 トラブルか",
+     "title": "那覇空港 自衛隊戦闘機が着陸時に機体トラブル 旅客機40便影響",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44743",
-     "pubDate": "Tue, 18 Aug 2026 16:27:02 +0900"
+     "pubDate": "Tue, 18 Aug 2026 20:31:01 +0900"
     },
     {
      "title": "熊本地震 住宅修理に関するトラブルに注意【専門家Q＆A】",
@@ -118,11 +123,6 @@
      "title": "お笑い 「四千頭身」メンバー 迷惑防止条例違反などで書類送検",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44696",
      "pubDate": "Tue, 18 Aug 2026 17:24:43 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（8月18日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44641",
-     "pubDate": "Tue, 18 Aug 2026 19:49:58 +0900"
     }
    ]
   },
@@ -236,7 +236,7 @@
     {
      "title": "ロシア外相“駐ロ日本大使呼び出し” 日本側“18日に応じる”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44664",
-     "pubDate": "Tue, 18 Aug 2026 18:47:00 +0900"
+     "pubDate": "Tue, 18 Aug 2026 06:21:00 +0900"
     },
     {
      "title": "韓国与党「共に民主党」代表にイ大統領の側近選出",
@@ -251,19 +251,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "大型クロマグロ 漁獲枠25%拡大",
+     "link": "https://news.yahoo.co.jp/pickup/6592194?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 09:00:55 GMT"
+    },
+    {
+     "title": "陸自の個人情報収集 昨年公益通報",
+     "link": "https://news.yahoo.co.jp/pickup/6592210?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 11:22:46 GMT"
+    },
+    {
      "title": "ANAとJAL 互いのダイヤ調整発表",
      "link": "https://news.yahoo.co.jp/pickup/6592208?source=rss",
      "pubDate": "Tue, 18 Aug 2026 10:46:38 GMT"
     },
     {
-     "title": "空自機着陸 那覇空港滑走路が再開",
-     "link": "https://news.yahoo.co.jp/pickup/6592196?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 09:20:13 GMT"
-    },
-    {
-     "title": "日本で走る ベトナム人運転手の今",
-     "link": "https://news.yahoo.co.jp/pickup/6592201?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 09:51:21 GMT"
+     "title": "LINEクレジット 都が業務改善命令",
+     "link": "https://news.yahoo.co.jp/pickup/6592197?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 11:38:58 GMT"
     },
     {
      "title": "ポケGOイベと入試重複 宿泊困難",
@@ -274,11 +279,6 @@
      "title": "開店祝いに著名人名無断使用 謝罪",
      "link": "https://news.yahoo.co.jp/pickup/6592184?source=rss",
      "pubDate": "Tue, 18 Aug 2026 07:40:06 GMT"
-    },
-    {
-     "title": "四千頭身・都築のブランド休止",
-     "link": "https://news.yahoo.co.jp/pickup/6592191?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 08:28:08 GMT"
     },
     {
      "title": "健大高崎サヨナラ勝ち 夏初の4強",
