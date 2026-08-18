@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T15:25:43.706Z",
+ "updatedAt": "2026-08-18T15:53:45.755Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -72,7 +72,7 @@
     {
      "title": "熊本地震から3週間 “見えない避難者”半数以上が体調悪化",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44872",
-     "pubDate": "Tue, 18 Aug 2026 20:01:20 +0900"
+     "pubDate": "Tue, 18 Aug 2026 20:01:00 +0900"
     },
     {
      "title": "路上に置かれた車への衝突事故 千葉市内で少なくとも8件",
