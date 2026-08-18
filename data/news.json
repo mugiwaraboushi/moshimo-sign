@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T07:58:56.182Z",
+ "updatedAt": "2026-08-18T08:33:03.829Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "千葉豪雨 新たに2人の死亡確認 死者13人に 浸水被害は2314棟",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44659",
+     "pubDate": "Tue, 18 Aug 2026 17:17:15 +0900"
+    },
+    {
      "title": "ANAとJALが初のダイヤ調整を正式発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44794",
      "pubDate": "Tue, 18 Aug 2026 16:12:35 +0900"
-    },
-    {
-     "title": "熊本 気象庁「１か月から2か月程度 5弱程度以上の地震に注意」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44675",
-     "pubDate": "Tue, 18 Aug 2026 16:17:14 +0900"
     },
     {
      "title": "自衛隊の戦闘機 那覇空港滑走路上で停止 トラブルか",
@@ -28,19 +28,19 @@
      "pubDate": "Tue, 18 Aug 2026 16:51:16 +0900"
     },
     {
-     "title": "横浜 交際相手の2歳長男に傷害容疑で会社員逮捕 長男は死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44707",
-     "pubDate": "Tue, 18 Aug 2026 14:35:00 +0900"
+     "title": "作曲家 久石譲さんの公演 3つの「ギネス世界記録」に認定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44723",
+     "pubDate": "Tue, 18 Aug 2026 17:07:20 +0900"
     },
     {
      "title": "お笑い 「四千頭身」メンバー 迷惑防止条例違反などで書類送検",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44696",
-     "pubDate": "Tue, 18 Aug 2026 15:17:36 +0900"
+     "pubDate": "Tue, 18 Aug 2026 17:24:43 +0900"
     },
     {
      "title": "【動画】ドジャース大谷2打席連続HR 6年連続30号にあと1本",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44698",
-     "pubDate": "Tue, 18 Aug 2026 14:01:43 +0900"
+     "pubDate": "Tue, 18 Aug 2026 17:27:03 +0900"
     }
    ]
   },
@@ -50,9 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "作曲家 久石譲さんの公演 3つの「ギネス世界記録」に認定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44723",
+     "pubDate": "Tue, 18 Aug 2026 17:07:20 +0900"
+    },
+    {
      "title": "政府 子ども自殺対策で臨時相談窓口開設へ 来週26日から",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44779",
-     "pubDate": "Tue, 18 Aug 2026 16:21:54 +0900"
+     "pubDate": "Tue, 18 Aug 2026 16:21:00 +0900"
     },
     {
      "title": "ANAとJALが初のダイヤ調整を正式発表",
@@ -87,7 +92,7 @@
     {
      "title": "お笑い 「四千頭身」メンバー 迷惑防止条例違反などで書類送検",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44696",
-     "pubDate": "Tue, 18 Aug 2026 15:17:36 +0900"
+     "pubDate": "Tue, 18 Aug 2026 17:24:43 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（8月18日）",
@@ -100,9 +105,9 @@
      "pubDate": "Tue, 18 Aug 2026 15:27:38 +0900"
     },
     {
-     "title": "千葉豪雨 新たに1人の死亡確認 死者11人に 浸水被害は2140棟",
+     "title": "千葉豪雨 新たに2人の死亡確認 死者13人に 浸水被害は2314棟",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44659",
-     "pubDate": "Tue, 18 Aug 2026 15:26:32 +0900"
+     "pubDate": "Tue, 18 Aug 2026 17:17:15 +0900"
     },
     {
      "title": "東急世田谷線 遮断機が上がったまま列車が通過 けが人なし",
@@ -118,11 +123,6 @@
      "title": "東京高検検事長に松本裕氏が就任「フェアに捜査する姿勢を」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44642",
      "pubDate": "Mon, 17 Aug 2026 19:51:44 +0900"
-    },
-    {
-     "title": "【動画】停電続く総合病院 電気設備がある地下に水が",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44640",
-     "pubDate": "Mon, 17 Aug 2026 19:33:48 +0900"
     }
    ]
   },
@@ -246,14 +246,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "千葉豪雨で13人死亡 1人行方不明",
+     "link": "https://news.yahoo.co.jp/pickup/6592186?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 07:55:01 GMT"
+    },
+    {
      "title": "大型クロマグロ 漁獲枠拡大で合意",
      "link": "https://news.yahoo.co.jp/pickup/6592177?source=rss",
      "pubDate": "Tue, 18 Aug 2026 06:52:55 GMT"
-    },
-    {
-     "title": "自衛隊の戦闘機 那覇空港で停止",
-     "link": "https://news.yahoo.co.jp/pickup/6592172?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 05:36:21 GMT"
     },
     {
      "title": "玉木氏 北方領土巡る政府対応批判",
@@ -271,19 +271,19 @@
      "pubDate": "Tue, 18 Aug 2026 07:40:06 GMT"
     },
     {
-     "title": "横浜が4強 織田が10奪三振で完封",
-     "link": "https://news.yahoo.co.jp/pickup/6592185?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 07:54:42 GMT"
+     "title": "四千頭身・都築のブランド休止",
+     "link": "https://news.yahoo.co.jp/pickup/6592191?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 08:28:08 GMT"
+    },
+    {
+     "title": "速報甲子園 健大高崎vs.有明",
+     "link": "https://news.yahoo.co.jp/pickup/6592174?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 08:04:59 GMT"
     },
     {
      "title": "広島・小園「無期限」2軍再調整",
      "link": "https://news.yahoo.co.jp/pickup/6592181?source=rss",
      "pubDate": "Tue, 18 Aug 2026 07:33:31 GMT"
-    },
-    {
-     "title": "四千頭身・都築メンバー 謹慎処分",
-     "link": "https://news.yahoo.co.jp/pickup/6592171?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 05:36:10 GMT"
     }
    ]
   }
