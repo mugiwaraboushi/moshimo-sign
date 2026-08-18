@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T23:10:11.721Z",
+ "updatedAt": "2026-08-18T23:42:17.194Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -50,7 +50,7 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "【地震速報】熊本で震度3 津波の心配なし",
+     "title": "【地震情報】熊本で震度3 津波の心配なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44913",
      "pubDate": "Wed, 19 Aug 2026 07:14:00 +0900"
     },
@@ -271,19 +271,19 @@
      "pubDate": "Tue, 18 Aug 2026 21:25:46 GMT"
     },
     {
-     "title": "ディズニーとABC 米当局を提訴",
-     "link": "https://news.yahoo.co.jp/pickup/6592234?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 22:29:25 GMT"
+     "title": "琵琶湖で魚とりの男性死亡 溺死か",
+     "link": "https://news.yahoo.co.jp/pickup/6592239?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 23:13:35 GMT"
     },
     {
-     "title": "草刈りの男性死亡 搬送時体温40℃",
-     "link": "https://news.yahoo.co.jp/pickup/6592230?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 21:17:12 GMT"
+     "title": "高校生3人連携 池で溺れる3人救助",
+     "link": "https://news.yahoo.co.jp/pickup/6592241?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 23:15:38 GMT"
     },
     {
-     "title": "ジムニーノマド 担当語るデザイン",
-     "link": "https://news.yahoo.co.jp/pickup/6592235?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 22:41:58 GMT"
+     "title": "W杯MVPロドリ バルセロナに加入",
+     "link": "https://news.yahoo.co.jp/pickup/6592240?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 23:16:40 GMT"
     },
     {
      "title": "都築拓紀の謹慎 四千頭身どうなる",
