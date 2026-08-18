@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T22:45:47.212Z",
+ "updatedAt": "2026-08-18T23:10:11.721Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,11 +7,6 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
-    {
-     "title": "【地震速報】熊本で震度3 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44913",
-     "pubDate": "Wed, 19 Aug 2026 07:14:00 +0900"
-    },
     {
      "title": "西日本中心に気温上昇 危険な暑さに 東北は土砂災害など注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44906",
@@ -36,6 +31,11 @@
      "title": "米トランプ政権 ICC＝国際刑事裁判所 赤根所長を制裁対象に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44920",
      "pubDate": "Wed, 19 Aug 2026 02:46:00 +0900"
+    },
+    {
+     "title": "コンゴ民主共和国でエボラ出血熱死者2300人超 WHOが緊急委員会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44922",
+     "pubDate": "Wed, 19 Aug 2026 07:56:38 +0900"
     },
     {
      "title": "秋篠宮ご夫妻 パラグアイに向けて出発",
@@ -169,6 +169,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "コンゴ民主共和国でエボラ出血熱死者2300人超 WHOが緊急委員会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44922",
+     "pubDate": "Wed, 19 Aug 2026 07:56:38 +0900"
+    },
+    {
      "title": "トランプ大統領「協議行われていない」イランも強気姿勢を維持",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44908",
      "pubDate": "Wed, 19 Aug 2026 06:08:27 +0900"
@@ -237,11 +242,6 @@
      "title": "米大統領「急いでいない」イラン高官“不履行なら攻撃開始”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44667",
      "pubDate": "Tue, 18 Aug 2026 06:32:00 +0900"
-    },
-    {
-     "title": "ロシア野党勢力幹部に禁錮11年余判決 「軍の信用失墜」などで",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44673",
-     "pubDate": "Tue, 18 Aug 2026 06:31:00 +0900"
     }
    ]
   },
@@ -261,14 +261,14 @@
      "pubDate": "Tue, 18 Aug 2026 21:58:37 GMT"
     },
     {
+     "title": "イランが弾道ミサイル UAE発表",
+     "link": "https://news.yahoo.co.jp/pickup/6592237?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 23:03:46 GMT"
+    },
+    {
      "title": "ICC赤根所長らを制裁対象に 米国",
      "link": "https://news.yahoo.co.jp/pickup/6592231?source=rss",
      "pubDate": "Tue, 18 Aug 2026 21:25:46 GMT"
-    },
-    {
-     "title": "ロシアが日本大使呼び出し抗議",
-     "link": "https://news.yahoo.co.jp/pickup/6592218?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 12:42:17 GMT"
     },
     {
      "title": "ディズニーとABC 米当局を提訴",
@@ -281,14 +281,14 @@
      "pubDate": "Tue, 18 Aug 2026 21:17:12 GMT"
     },
     {
-     "title": "横浜・江坂のプレー 松坂氏が称賛",
-     "link": "https://news.yahoo.co.jp/pickup/6592229?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 21:10:14 GMT"
+     "title": "ジムニーノマド 担当語るデザイン",
+     "link": "https://news.yahoo.co.jp/pickup/6592235?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 22:41:58 GMT"
     },
     {
-     "title": "「踊る」新作スピンオフ配信決定",
-     "link": "https://news.yahoo.co.jp/pickup/6592225?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 13:57:24 GMT"
+     "title": "都築拓紀の謹慎 四千頭身どうなる",
+     "link": "https://news.yahoo.co.jp/pickup/6592236?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 22:51:14 GMT"
     }
    ]
   }
