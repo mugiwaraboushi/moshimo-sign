@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T21:11:12.117Z",
+ "updatedAt": "2026-08-18T21:43:25.207Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "西日本中心に気温上昇 危険な暑さに 東北は土砂災害など注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44906",
+     "pubDate": "Wed, 19 Aug 2026 06:16:55 +0900"
+    },
+    {
      "title": "千葉豪雨 死者13人 浸水2300棟超 路上の車両きょう移動完了へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44911",
      "pubDate": "Wed, 19 Aug 2026 05:11:00 +0900"
-    },
-    {
-     "title": "米トランプ政権 ICC＝国際刑事裁判所 赤根所長を制裁対象に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44920",
-     "pubDate": "Wed, 19 Aug 2026 02:46:00 +0900"
     },
     {
      "title": "トランプ大統領「協議行われていない」イランも強気姿勢を維持",
@@ -23,19 +23,19 @@
      "pubDate": "Wed, 19 Aug 2026 06:08:27 +0900"
     },
     {
-     "title": "熊本地震受け 全国の工場など煙突の状況を調査開始 金子国交相",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44895",
-     "pubDate": "Tue, 18 Aug 2026 21:50:39 +0900"
+     "title": "熊本地震 19日は熊本市で38度危険な暑さに 地震活動にも注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44909",
+     "pubDate": "Wed, 19 Aug 2026 06:09:55 +0900"
+    },
+    {
+     "title": "米トランプ政権 ICC＝国際刑事裁判所 赤根所長を制裁対象に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44920",
+     "pubDate": "Wed, 19 Aug 2026 02:46:00 +0900"
     },
     {
      "title": "秋篠宮ご夫妻 パラグアイに向けて出発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44900",
      "pubDate": "Tue, 18 Aug 2026 22:43:36 +0900"
-    },
-    {
-     "title": "熊本地震 局所的に今の耐震基準でも倒壊するほどの揺れか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44700",
-     "pubDate": "Tue, 18 Aug 2026 19:14:00 +0900"
     },
     {
      "title": "高市首相 熊本地震で知事らと会談 地元の要望踏まえ支援策",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "西日本中心に気温上昇 危険な暑さに 東北は土砂災害など注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44906",
+     "pubDate": "Wed, 19 Aug 2026 06:16:55 +0900"
+    },
     {
      "title": "秋篠宮ご夫妻 パラグアイに向けて出発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44900",
@@ -118,11 +123,6 @@
      "title": "大阪 道頓堀ビル火災から1年 現場近くのビルで消防訓練",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44710",
      "pubDate": "Tue, 18 Aug 2026 14:30:03 +0900"
-    },
-    {
-     "title": "那覇空港 自衛隊戦闘機が着陸時に機体トラブル 旅客機40便影響",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44743",
-     "pubDate": "Tue, 18 Aug 2026 20:31:01 +0900"
     }
    ]
   },
@@ -261,9 +261,19 @@
      "pubDate": "Tue, 18 Aug 2026 13:19:14 GMT"
     },
     {
+     "title": "ICC赤根所長らを制裁対象に 米国",
+     "link": "https://news.yahoo.co.jp/pickup/6592231?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 21:25:46 GMT"
+    },
+    {
      "title": "ロシアが日本大使呼び出し抗議",
      "link": "https://news.yahoo.co.jp/pickup/6592218?source=rss",
      "pubDate": "Tue, 18 Aug 2026 12:42:17 GMT"
+    },
+    {
+     "title": "草刈りの男性死亡 搬送時体温40℃",
+     "link": "https://news.yahoo.co.jp/pickup/6592230?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 21:17:12 GMT"
     },
     {
      "title": "放火し両親殺害未遂疑い 15歳逮捕",
@@ -271,19 +281,9 @@
      "pubDate": "Tue, 18 Aug 2026 12:33:09 GMT"
     },
     {
-     "title": "遭難女性8日ぶり救助 夫「感謝」",
-     "link": "https://news.yahoo.co.jp/pickup/6592227?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 14:16:42 GMT"
-    },
-    {
-     "title": "四千頭身・都築のブランド休止",
-     "link": "https://news.yahoo.co.jp/pickup/6592191?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 08:28:08 GMT"
-    },
-    {
-     "title": "横浜高校監督 インタビューで号泣",
-     "link": "https://news.yahoo.co.jp/pickup/6592213?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 12:06:04 GMT"
+     "title": "横浜・江坂のプレー 松坂氏が称賛",
+     "link": "https://news.yahoo.co.jp/pickup/6592229?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 21:10:14 GMT"
     },
     {
      "title": "「踊る」新作スピンオフ配信決定",
