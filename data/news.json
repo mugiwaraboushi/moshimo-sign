@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T10:52:20.776Z",
+ "updatedAt": "2026-08-18T11:13:14.824Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,6 +18,11 @@
      "pubDate": "Tue, 18 Aug 2026 19:14:00 +0900"
     },
     {
+     "title": "自衛隊の戦闘機 那覇空港滑走路上で停止 トラブルか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44743",
+     "pubDate": "Tue, 18 Aug 2026 16:27:02 +0900"
+    },
+    {
      "title": "高市首相 熊本地震で知事らと会談 地元の要望踏まえ支援策",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44728",
      "pubDate": "Tue, 18 Aug 2026 15:57:05 +0900"
@@ -26,11 +31,6 @@
      "title": "ロシア外務省が日本大使に抗議 日本大使館「立場 適切に説明」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44873",
      "pubDate": "Tue, 18 Aug 2026 19:23:45 +0900"
-    },
-    {
-     "title": "自衛隊の戦闘機 那覇空港滑走路上で停止 トラブルか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44743",
-     "pubDate": "Tue, 18 Aug 2026 16:27:02 +0900"
     },
     {
      "title": "高校野球 健大高崎が有明に延長の末サヨナラ勝ち 初のベスト4",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "熊本地震から3週間 “見えない避難者”半数以上が体調悪化",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44872",
+     "pubDate": "Tue, 18 Aug 2026 20:01:20 +0900"
+    },
     {
      "title": "路上に置かれた車への衝突事故 千葉市内で少なくとも8件",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44835",
@@ -118,11 +123,6 @@
      "title": "【動画】Pickup NEWS（8月18日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44641",
      "pubDate": "Tue, 18 Aug 2026 19:49:58 +0900"
-    },
-    {
-     "title": "熊本地震3週間 3000人以上避難所に 高市首相と熊本県知事会談",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44662",
-     "pubDate": "Tue, 18 Aug 2026 15:27:38 +0900"
     }
    ]
   },
@@ -251,6 +251,11 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "ANAとJAL 互いのダイヤ調整発表",
+     "link": "https://news.yahoo.co.jp/pickup/6592208?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 10:46:38 GMT"
+    },
+    {
      "title": "空自機着陸 那覇空港滑走路が再開",
      "link": "https://news.yahoo.co.jp/pickup/6592196?source=rss",
      "pubDate": "Tue, 18 Aug 2026 09:20:13 GMT"
@@ -261,14 +266,9 @@
      "pubDate": "Tue, 18 Aug 2026 09:51:21 GMT"
     },
     {
-     "title": "ANAとJAL 互いのダイヤ調整発表",
-     "link": "https://news.yahoo.co.jp/pickup/6592208?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 10:46:38 GMT"
-    },
-    {
-     "title": "三木谷氏 消費減税に否定的な見解",
-     "link": "https://news.yahoo.co.jp/pickup/6592199?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 09:42:54 GMT"
+     "title": "ポケGOイベと入試重複 宿泊困難",
+     "link": "https://news.yahoo.co.jp/pickup/6592209?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 11:10:03 GMT"
     },
     {
      "title": "開店祝いに著名人名無断使用 謝罪",
