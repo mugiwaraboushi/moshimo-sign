@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-17T23:42:49.201Z",
+ "updatedAt": "2026-08-18T00:27:29.784Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -11,6 +11,11 @@
      "title": "熊本地震から3週間 3000人以上避難所に 避難所以外支援も課題",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44662",
      "pubDate": "Tue, 18 Aug 2026 04:56:00 +0900"
+    },
+    {
+     "title": "長期金利 2.945％に上昇 インフレ加速の見方など 国債売る動き",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44679",
+     "pubDate": "Tue, 18 Aug 2026 09:23:49 +0900"
     },
     {
      "title": "トランプ大統領 “北朝鮮 対話呼びかけに対し非常に前向き”",
@@ -33,14 +38,9 @@
      "pubDate": "Tue, 18 Aug 2026 06:32:00 +0900"
     },
     {
-     "title": "ガザ地区の和平計画 イスラエル首相がアメリカ側と協議",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44666",
-     "pubDate": "Tue, 18 Aug 2026 06:48:14 +0900"
-    },
-    {
-     "title": "高校野球 夏の甲子園【大会13日目 準々決勝の見どころ】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44652",
-     "pubDate": "Tue, 18 Aug 2026 04:44:15 +0900"
+     "title": "楽天グループ 迎撃ドローン開発手がけるドイツ新興企業と提携",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44669",
+     "pubDate": "Tue, 18 Aug 2026 06:41:13 +0900"
     }
    ]
   },
@@ -271,9 +271,9 @@
      "pubDate": "Mon, 17 Aug 2026 21:24:09 GMT"
     },
     {
-     "title": "速報甲子園 三重vs.天理",
-     "link": "https://news.yahoo.co.jp/pickup/6592127?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 22:58:20 GMT"
+     "title": "パドレスの売却 MLBが承認",
+     "link": "https://news.yahoo.co.jp/pickup/6592130?source=rss",
+     "pubDate": "Mon, 17 Aug 2026 23:11:29 GMT"
     },
     {
      "title": "八村塁 富山でバスケ人生終えたい",
@@ -281,9 +281,9 @@
      "pubDate": "Mon, 17 Aug 2026 22:50:43 GMT"
     },
     {
-     "title": "高橋光臣がつんく役 24時間テレビ",
-     "link": "https://news.yahoo.co.jp/pickup/6592126?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 22:22:44 GMT"
+     "title": "森七菜 4年ぶりに音楽活動再開",
+     "link": "https://news.yahoo.co.jp/pickup/6592131?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 00:01:09 GMT"
     }
    ]
   }
