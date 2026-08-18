@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T22:09:29.733Z",
+ "updatedAt": "2026-08-18T22:45:47.212Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "【地震速報】熊本で震度3 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44913",
+     "pubDate": "Wed, 19 Aug 2026 07:14:00 +0900"
+    },
     {
      "title": "西日本中心に気温上昇 危険な暑さに 東北は土砂災害など注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44906",
@@ -36,11 +41,6 @@
      "title": "秋篠宮ご夫妻 パラグアイに向けて出発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44900",
      "pubDate": "Tue, 18 Aug 2026 22:43:36 +0900"
-    },
-    {
-     "title": "高市首相 熊本地震で知事らと会談 地元の要望踏まえ支援策",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44728",
-     "pubDate": "Tue, 18 Aug 2026 21:28:20 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【地震速報】熊本で震度3 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44913",
+     "pubDate": "Wed, 19 Aug 2026 07:14:00 +0900"
+    },
     {
      "title": "【動画】Pickup NEWS（8月19日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44881",
@@ -118,11 +123,6 @@
      "title": "ANAとJALが初のダイヤ調整を正式発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44794",
      "pubDate": "Tue, 18 Aug 2026 16:12:35 +0900"
-    },
-    {
-     "title": "横浜 交際相手の2歳長男に傷害容疑で会社員逮捕 長男は死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44707",
-     "pubDate": "Tue, 18 Aug 2026 19:06:45 +0900"
     }
    ]
   },
@@ -271,14 +271,14 @@
      "pubDate": "Tue, 18 Aug 2026 12:42:17 GMT"
     },
     {
+     "title": "ディズニーとABC 米当局を提訴",
+     "link": "https://news.yahoo.co.jp/pickup/6592234?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 22:29:25 GMT"
+    },
+    {
      "title": "草刈りの男性死亡 搬送時体温40℃",
      "link": "https://news.yahoo.co.jp/pickup/6592230?source=rss",
      "pubDate": "Tue, 18 Aug 2026 21:17:12 GMT"
-    },
-    {
-     "title": "放火し両親殺害未遂疑い 15歳逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6592211?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 12:33:09 GMT"
     },
     {
      "title": "横浜・江坂のプレー 松坂氏が称賛",
