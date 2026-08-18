@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T07:11:01.997Z",
+ "updatedAt": "2026-08-18T07:58:56.182Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【ライブ】自衛隊の戦闘機 那覇空港滑走路上で停止 トラブルか",
+     "title": "ANAとJALが初のダイヤ調整を正式発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44794",
+     "pubDate": "Tue, 18 Aug 2026 16:12:35 +0900"
+    },
+    {
+     "title": "熊本 気象庁「１か月から2か月程度 5弱程度以上の地震に注意」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44675",
+     "pubDate": "Tue, 18 Aug 2026 16:17:14 +0900"
+    },
+    {
+     "title": "自衛隊の戦闘機 那覇空港滑走路上で停止 トラブルか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44743",
-     "pubDate": "Tue, 18 Aug 2026 13:50:00 +0900"
+     "pubDate": "Tue, 18 Aug 2026 16:27:02 +0900"
     },
     {
-     "title": "熊本地震3週間 3000人以上避難所に 高市首相と熊本県知事会談",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44662",
-     "pubDate": "Tue, 18 Aug 2026 15:27:38 +0900"
-    },
-    {
-     "title": "千葉豪雨 新たに1人の死亡確認 死者11人に 浸水被害は2140棟",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44659",
-     "pubDate": "Tue, 18 Aug 2026 15:26:32 +0900"
-    },
-    {
-     "title": "高校野球 横浜が花巻東をリード 5回終了時",
+     "title": "高校野球 横浜が花巻東に勝利 ベスト4進出",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44767",
-     "pubDate": "Tue, 18 Aug 2026 15:42:40 +0900"
+     "pubDate": "Tue, 18 Aug 2026 16:51:16 +0900"
     },
     {
      "title": "横浜 交際相手の2歳長男に傷害容疑で会社員逮捕 長男は死亡",
@@ -50,6 +50,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "政府 子ども自殺対策で臨時相談窓口開設へ 来週26日から",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44779",
+     "pubDate": "Tue, 18 Aug 2026 16:21:54 +0900"
+    },
+    {
+     "title": "ANAとJALが初のダイヤ調整を正式発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44794",
+     "pubDate": "Tue, 18 Aug 2026 16:12:35 +0900"
+    },
+    {
      "title": "横浜 交際相手の2歳長男に傷害容疑で会社員逮捕 長男は死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44707",
      "pubDate": "Tue, 18 Aug 2026 14:35:00 +0900"
@@ -60,9 +70,9 @@
      "pubDate": "Tue, 18 Aug 2026 14:30:03 +0900"
     },
     {
-     "title": "【ライブ】自衛隊の戦闘機 那覇空港滑走路上で停止 トラブルか",
+     "title": "自衛隊の戦闘機 那覇空港滑走路上で停止 トラブルか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44743",
-     "pubDate": "Tue, 18 Aug 2026 13:50:00 +0900"
+     "pubDate": "Tue, 18 Aug 2026 16:27:02 +0900"
     },
     {
      "title": "熊本地震 住宅修理に関するトラブルに注意【専門家Q＆A】",
@@ -113,16 +123,6 @@
      "title": "【動画】停電続く総合病院 電気設備がある地下に水が",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44640",
      "pubDate": "Mon, 17 Aug 2026 19:33:48 +0900"
-    },
-    {
-     "title": "お盆の鉄道利用者前年並み 九州では熊本地震の影響で2割ほど減",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44576",
-     "pubDate": "Mon, 17 Aug 2026 18:31:00 +0900"
-    },
-    {
-     "title": "新潟 北区 海で溺れ11歳の小学生男児が死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44614",
-     "pubDate": "Mon, 17 Aug 2026 19:05:55 +0900"
     }
    ]
   },
@@ -256,34 +256,34 @@
      "pubDate": "Tue, 18 Aug 2026 05:36:21 GMT"
     },
     {
-     "title": "地検 被告行方不明を即時公表せず",
-     "link": "https://news.yahoo.co.jp/pickup/6592167?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 04:46:15 GMT"
+     "title": "玉木氏 北方領土巡る政府対応批判",
+     "link": "https://news.yahoo.co.jp/pickup/6592180?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 07:19:33 GMT"
     },
     {
-     "title": "2歳男児殴った疑い逮捕 男児死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6592162?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 03:47:40 GMT"
+     "title": "クレーン車に自転車ひかれ 死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6592183?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 07:39:18 GMT"
     },
     {
-     "title": "フィットネス倒産 会員のリスクは",
-     "link": "https://news.yahoo.co.jp/pickup/6592173?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 05:31:57 GMT"
+     "title": "開店祝いに著名人名無断使用 謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6592184?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 07:40:06 GMT"
     },
     {
-     "title": "速報甲子園 横浜が花巻東をリード",
-     "link": "https://news.yahoo.co.jp/pickup/6592176?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 06:38:03 GMT"
+     "title": "横浜が4強 織田が10奪三振で完封",
+     "link": "https://news.yahoo.co.jp/pickup/6592185?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 07:54:42 GMT"
+    },
+    {
+     "title": "広島・小園「無期限」2軍再調整",
+     "link": "https://news.yahoo.co.jp/pickup/6592181?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 07:33:31 GMT"
     },
     {
      "title": "四千頭身・都築メンバー 謹慎処分",
      "link": "https://news.yahoo.co.jp/pickup/6592171?source=rss",
      "pubDate": "Tue, 18 Aug 2026 05:36:10 GMT"
-    },
-    {
-     "title": "森高千里 熊本県に2000万円寄付",
-     "link": "https://news.yahoo.co.jp/pickup/6592175?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 06:24:35 GMT"
     }
    ]
   }
