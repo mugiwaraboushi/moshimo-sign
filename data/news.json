@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T19:45:59.755Z",
+ "updatedAt": "2026-08-18T20:09:31.929Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "千葉豪雨 新たに2人の死亡確認 死者13人に 浸水被害は2314棟",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44659",
-     "pubDate": "Tue, 18 Aug 2026 19:04:47 +0900"
-    },
-    {
      "title": "米トランプ政権 ICC＝国際刑事裁判所 赤根所長を制裁対象に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44920",
      "pubDate": "Wed, 19 Aug 2026 02:46:00 +0900"
+    },
+    {
+     "title": "千葉豪雨 新たに2人の死亡確認 死者13人に 浸水被害は2314棟",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44659",
+     "pubDate": "Tue, 18 Aug 2026 19:04:47 +0900"
     },
     {
      "title": "熊本 八代市 7月28日の地震直後から出していた避難指示を解除",
