@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-18T00:27:29.784Z",
+ "updatedAt": "2026-08-18T01:56:38.584Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -50,9 +50,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "【動画】Pickup NEWS（8月1８日）",
+     "title": "【動画】Pickup NEWS（8月18日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44641",
-     "pubDate": "Tue, 18 Aug 2026 07:02:51 +0900"
+     "pubDate": "Tue, 18 Aug 2026 10:26:39 +0900"
     },
     {
      "title": "熊本地震から3週間 3000人以上避難所に 避難所以外支援も課題",
@@ -246,19 +246,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "18日九州や山陰など35℃超 対策を",
-     "link": "https://news.yahoo.co.jp/pickup/6592125?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 22:18:17 GMT"
+     "title": "ト‌ランプ氏支持率33% ロイター",
+     "link": "https://news.yahoo.co.jp/pickup/6592137?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 00:36:24 GMT"
     },
     {
-     "title": "露が日本大使に出頭要請 抗議受け",
-     "link": "https://news.yahoo.co.jp/pickup/6592124?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 22:05:13 GMT"
-    },
-    {
-     "title": "ゴルフ場で働く19歳自殺 労災認定",
-     "link": "https://news.yahoo.co.jp/pickup/6592122?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 21:36:04 GMT"
+     "title": "子が「自殺」検索で通知 インスタ",
+     "link": "https://news.yahoo.co.jp/pickup/6592135?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 00:22:51 GMT"
     },
     {
      "title": "出産の子を殺人未遂疑い 16歳逮捕",
@@ -266,24 +261,29 @@
      "pubDate": "Mon, 17 Aug 2026 23:39:25 GMT"
     },
     {
-     "title": "「モネの池」一変 抹茶みたいに",
-     "link": "https://news.yahoo.co.jp/pickup/6592121?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 21:24:09 GMT"
+     "title": "四千頭身・都築メンバー 書類送検",
+     "link": "https://news.yahoo.co.jp/pickup/6592144?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 01:50:31 GMT"
     },
     {
-     "title": "パドレスの売却 MLBが承認",
-     "link": "https://news.yahoo.co.jp/pickup/6592130?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 23:11:29 GMT"
+     "title": "「NISA貧乏」なぜ生まれる",
+     "link": "https://news.yahoo.co.jp/pickup/6592140?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 01:10:19 GMT"
     },
     {
-     "title": "八村塁 富山でバスケ人生終えたい",
-     "link": "https://news.yahoo.co.jp/pickup/6592128?source=rss",
-     "pubDate": "Mon, 17 Aug 2026 22:50:43 GMT"
+     "title": "AIで時短も脳はヘトヘト なぜ",
+     "link": "https://news.yahoo.co.jp/pickup/6592139?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 01:09:08 GMT"
     },
     {
-     "title": "森七菜 4年ぶりに音楽活動再開",
-     "link": "https://news.yahoo.co.jp/pickup/6592131?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 00:01:09 GMT"
+     "title": "速報甲子園 仙台育英vs智弁和歌山",
+     "link": "https://news.yahoo.co.jp/pickup/6592142?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 01:38:01 GMT"
+    },
+    {
+     "title": "甲子園 天理が三重を破り4強入り",
+     "link": "https://news.yahoo.co.jp/pickup/6592143?source=rss",
+     "pubDate": "Tue, 18 Aug 2026 01:16:46 GMT"
     }
    ]
   }
