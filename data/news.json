@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T04:58:08.309Z",
+ "updatedAt": "2026-08-19T05:24:21.526Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,9 +18,9 @@
      "pubDate": "Wed, 19 Aug 2026 12:35:00 +0900"
     },
     {
-     "title": "トランプ大統領 秋にも米朝首脳会談を側近らに要求 米報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44961",
-     "pubDate": "Wed, 19 Aug 2026 13:14:59 +0900"
+     "title": "AI学習データの公表要請の基本原則案 今秋にも適用へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44968",
+     "pubDate": "Wed, 19 Aug 2026 13:50:00 +0900"
     },
     {
      "title": "千葉豪雨 死者13人 浸水2300棟超 路上の車両きょう移動完了へ",
@@ -38,9 +38,9 @@
      "pubDate": "Wed, 19 Aug 2026 13:38:19 +0900"
     },
     {
-     "title": "ドジャース 大谷翔平 6年連続となる30号ホームラン",
+     "title": "ドジャース大谷 6年連続30号ホームラン チームは2連勝",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44941",
-     "pubDate": "Wed, 19 Aug 2026 10:47:00 +0900"
+     "pubDate": "Wed, 19 Aug 2026 14:06:20 +0900"
     }
    ]
   },
@@ -169,6 +169,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "UAE“イランから弾道ミサイル2発発射” イラン側は関与否定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44965",
+     "pubDate": "Wed, 19 Aug 2026 14:05:43 +0900"
+    },
+    {
      "title": "トランプ大統領 秋にも米朝首脳会談を側近らに要求 米報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44961",
      "pubDate": "Wed, 19 Aug 2026 13:14:59 +0900"
@@ -237,11 +242,6 @@
      "title": "中国外相 19日から韓国訪問 朝鮮半島情勢など意見交換へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44844",
      "pubDate": "Tue, 18 Aug 2026 18:45:00 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月18日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44529",
-     "pubDate": "Tue, 18 Aug 2026 18:44:42 +0900"
     }
    ]
   },
@@ -251,14 +251,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "熊本など38℃前後予想 熱中症注意",
-     "link": "https://news.yahoo.co.jp/pickup/6592266?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 02:52:38 GMT"
+     "title": "豪雨 放置車の所有者現れるか懸念",
+     "link": "https://news.yahoo.co.jp/pickup/6592280?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 05:14:55 GMT"
     },
     {
-     "title": "超党派議員団が訪中へ 中国側招待",
-     "link": "https://news.yahoo.co.jp/pickup/6592270?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 03:34:00 GMT"
+     "title": "米大統領娘婿がハマスと協議 背景",
+     "link": "https://news.yahoo.co.jp/pickup/6592273?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 03:58:11 GMT"
     },
     {
      "title": "従業員逮捕 竹中工務店がコメント",
@@ -269,6 +269,11 @@
      "title": "ヘルパーがパチンコ 障害者を放置",
      "link": "https://news.yahoo.co.jp/pickup/6592267?source=rss",
      "pubDate": "Wed, 19 Aug 2026 02:49:46 GMT"
+    },
+    {
+     "title": "カリブ海 海藻で各地のビーチ茶色",
+     "link": "https://news.yahoo.co.jp/pickup/6592263?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 02:37:49 GMT"
     },
     {
      "title": "洋麺屋五右衛門 出店ラッシュの訳",
@@ -284,11 +289,6 @@
      "title": "俳優・岸恵子さん死去",
      "link": "https://news.yahoo.co.jp/pickup/6592272?source=rss",
      "pubDate": "Wed, 19 Aug 2026 03:12:58 GMT"
-    },
-    {
-     "title": "池田直人 佐藤アナとの新婚生活",
-     "link": "https://news.yahoo.co.jp/pickup/6592271?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 03:30:31 GMT"
     }
    ]
   }
