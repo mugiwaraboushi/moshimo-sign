@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T05:52:34.540Z",
+ "updatedAt": "2026-08-19T06:20:47.485Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,9 +18,14 @@
      "pubDate": "Wed, 19 Aug 2026 12:35:00 +0900"
     },
     {
-     "title": "AI学習データの公表要請の基本原則案 今秋にも適用へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44968",
-     "pubDate": "Wed, 19 Aug 2026 13:50:00 +0900"
+     "title": "オープンAIが18歳未満対象にChatGPTの対策強化へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44976",
+     "pubDate": "Wed, 19 Aug 2026 14:53:37 +0900"
+    },
+    {
+     "title": "万博工事費水増しし自宅改修か 竹中工務店社員 背任容疑で逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44943",
+     "pubDate": "Wed, 19 Aug 2026 14:58:51 +0900"
     },
     {
      "title": "千葉豪雨 死者13人 浸水2300棟超 路上の車両きょう移動完了へ",
@@ -31,11 +36,6 @@
      "title": "株価 一時2100円超値下がり 半導体関連銘柄中心に売り注文",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44933",
      "pubDate": "Wed, 19 Aug 2026 13:17:57 +0900"
-    },
-    {
-     "title": "世田谷ストーカー殺人事件 韓国籍被告の初公判 殺人は無罪主張",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44973",
-     "pubDate": "Wed, 19 Aug 2026 13:38:19 +0900"
     },
     {
      "title": "ドジャース大谷 6年連続30号ホームラン チームは2連勝",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "万博工事費水増しし自宅改修か 竹中工務店社員 背任容疑で逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44943",
+     "pubDate": "Wed, 19 Aug 2026 14:58:51 +0900"
+    },
     {
      "title": "世田谷ストーカー殺人事件 韓国籍被告の初公判 殺人は無罪主張",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44973",
@@ -118,11 +123,6 @@
      "title": "作曲家 久石譲さんの公演 3つの「ギネス世界記録」に認定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44723",
      "pubDate": "Tue, 18 Aug 2026 17:07:00 +0900"
-    },
-    {
-     "title": "政府 子ども自殺対策で臨時相談窓口開設へ 来週26日から",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44779",
-     "pubDate": "Tue, 18 Aug 2026 16:21:00 +0900"
     }
    ]
   },
@@ -168,6 +168,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "オープンAIが18歳未満対象にChatGPTの対策強化へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44976",
+     "pubDate": "Wed, 19 Aug 2026 14:53:37 +0900"
+    },
     {
      "title": "UAE“イランから弾道ミサイル2発発射” イラン側は関与否定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44965",
@@ -237,11 +242,6 @@
      "title": "太平洋のクロマグロ漁獲枠 来年から2年間 大型魚25％増で合意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44751",
      "pubDate": "Tue, 18 Aug 2026 17:37:00 +0900"
-    },
-    {
-     "title": "中国外相 19日から韓国訪問 朝鮮半島情勢など意見交換へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44844",
-     "pubDate": "Tue, 18 Aug 2026 18:45:00 +0900"
     }
    ]
   },
@@ -261,14 +261,19 @@
      "pubDate": "Wed, 19 Aug 2026 03:58:11 GMT"
     },
     {
+     "title": "川で遊泳中の17歳流される 重体か",
+     "link": "https://news.yahoo.co.jp/pickup/6592283?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 05:39:34 GMT"
+    },
+    {
      "title": "フードデリバリー「menu」終了へ",
      "link": "https://news.yahoo.co.jp/pickup/6592284?source=rss",
      "pubDate": "Wed, 19 Aug 2026 05:42:13 GMT"
     },
     {
-     "title": "ライブ券秒速買い占め botの実態",
-     "link": "https://news.yahoo.co.jp/pickup/6592282?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 05:25:22 GMT"
+     "title": "転売目的で大量購入 悪性bot実態",
+     "link": "https://news.yahoo.co.jp/pickup/6592285?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 05:57:14 GMT"
     },
     {
      "title": "カリブ海 海藻で各地のビーチ茶色",
@@ -281,14 +286,9 @@
      "pubDate": "Wed, 19 Aug 2026 04:03:03 GMT"
     },
     {
-     "title": "報知器鳴り藤井王位避難 対局遅れ",
-     "link": "https://news.yahoo.co.jp/pickup/6592279?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 04:39:16 GMT"
-    },
-    {
-     "title": "俳優・岸恵子さん死去",
-     "link": "https://news.yahoo.co.jp/pickup/6592272?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 03:12:58 GMT"
+     "title": "ジョニデ 新作カリビアンで交渉中",
+     "link": "https://news.yahoo.co.jp/pickup/6592286?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 06:17:25 GMT"
     }
    ]
   }
