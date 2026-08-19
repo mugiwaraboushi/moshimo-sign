@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T07:11:53.861Z",
+ "updatedAt": "2026-08-19T07:58:24.596Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "千葉豪雨 冠水道路で死亡の男性 知人「地域のために働く人」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45028",
-     "pubDate": "Wed, 19 Aug 2026 15:34:58 +0900"
+     "title": "避難所の7割がエアコンなし 専門家「真夏は生死に関わる問題」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44948",
+     "pubDate": "Wed, 19 Aug 2026 16:12:51 +0900"
     },
     {
      "title": "熊本など九州北部で危険な暑さ予想 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44906",
      "pubDate": "Wed, 19 Aug 2026 12:03:52 +0900"
+    },
+    {
+     "title": "千葉豪雨 冠水道路で死亡の男性 知人「地域のために働く人」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45028",
+     "pubDate": "Wed, 19 Aug 2026 15:34:58 +0900"
     },
     {
      "title": "台風18号発生 日本のはるか南東 今後の情報に注意を",
@@ -28,19 +33,14 @@
      "pubDate": "Wed, 19 Aug 2026 15:29:49 +0900"
     },
     {
-     "title": "“離島からの避難計画など丁寧な説明を” 知事会が政府に提言",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45008",
-     "pubDate": "Wed, 19 Aug 2026 15:04:59 +0900"
-    },
-    {
-     "title": "株価 一時2100円超値下がり 半導体関連銘柄中心に売り注文",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44933",
-     "pubDate": "Wed, 19 Aug 2026 13:17:57 +0900"
-    },
-    {
-     "title": "ドジャース大谷 6年連続30号ホームラン チームは2連勝",
+     "title": "ドジャース 大谷翔平 6年連続30号ホームラン チームは2連勝",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44941",
-     "pubDate": "Wed, 19 Aug 2026 14:31:42 +0900"
+     "pubDate": "Wed, 19 Aug 2026 16:18:26 +0900"
+    },
+    {
+     "title": "ホワイトソックス村上宗隆 29号ホームラン シーズン30号に王手",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45056",
+     "pubDate": "Wed, 19 Aug 2026 16:29:39 +0900"
     }
    ]
   },
@@ -169,6 +169,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月19日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44539",
+     "pubDate": "Wed, 19 Aug 2026 16:43:03 +0900"
+    },
+    {
      "title": "トランプ政権 カナダへの50％追加関税 3日間猶予を発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45032",
      "pubDate": "Wed, 19 Aug 2026 15:26:00 +0900"
@@ -237,11 +242,6 @@
      "title": "“英首相が米大統領首席補佐官装う人物とメッセージ”報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44893",
      "pubDate": "Tue, 18 Aug 2026 22:44:43 +0900"
-    },
-    {
-     "title": "ロシア外務省が日本大使に抗議 日本大使館「立場 適切に説明」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44873",
-     "pubDate": "Tue, 18 Aug 2026 19:23:45 +0900"
     }
    ]
   },
@@ -251,19 +251,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "豪雨 放置車の所有者現れるか懸念",
-     "link": "https://news.yahoo.co.jp/pickup/6592280?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 05:14:55 GMT"
+     "title": "ICC所長へ米制裁 外務省「残念」",
+     "link": "https://news.yahoo.co.jp/pickup/6592296?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 07:28:58 GMT"
     },
     {
-     "title": "米大統領娘婿がハマスと協議 背景",
-     "link": "https://news.yahoo.co.jp/pickup/6592273?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 03:58:11 GMT"
+     "title": "東証続落 中東混乱の景気減速懸念",
+     "link": "https://news.yahoo.co.jp/pickup/6592295?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 07:19:02 GMT"
     },
     {
-     "title": "万博 盛況の影で工事の不祥事続々",
-     "link": "https://news.yahoo.co.jp/pickup/6592290?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 07:00:32 GMT"
+     "title": "女児34人にわいせつ 元教諭に実刑",
+     "link": "https://news.yahoo.co.jp/pickup/6592294?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 07:19:14 GMT"
     },
     {
      "title": "フードデリバリー「menu」終了へ",
@@ -276,19 +276,19 @@
      "pubDate": "Wed, 19 Aug 2026 05:57:14 GMT"
     },
     {
-     "title": "吉田正尚は残り全休か 重度肉離れ",
-     "link": "https://news.yahoo.co.jp/pickup/6592287?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 06:20:33 GMT"
+     "title": "脊髄梗塞公表 元中日の石川翔退院",
+     "link": "https://news.yahoo.co.jp/pickup/6592300?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 07:46:35 GMT"
+    },
+    {
+     "title": "元西武・平井克典 今季限りで引退",
+     "link": "https://news.yahoo.co.jp/pickup/6592298?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 07:34:49 GMT"
     },
     {
      "title": "岸恵子さん死去 真知子巻き大流行",
      "link": "https://news.yahoo.co.jp/pickup/6592281?source=rss",
      "pubDate": "Wed, 19 Aug 2026 05:16:39 GMT"
-    },
-    {
-     "title": "ジョニデ 新作カリビアンで交渉中",
-     "link": "https://news.yahoo.co.jp/pickup/6592286?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 06:17:25 GMT"
     }
    ]
   }
