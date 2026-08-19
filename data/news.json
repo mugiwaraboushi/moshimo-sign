@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T11:13:15.886Z",
+ "updatedAt": "2026-08-19T11:46:11.861Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "【データ分析】熱帯夜の日数どれだけ増えた？各地の結果を詳報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45042",
+     "pubDate": "Wed, 19 Aug 2026 20:15:41 +0900"
+    },
+    {
+     "title": "車水没 ドラレコに記録 「このまま行けると思ったが…」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44985",
+     "pubDate": "Wed, 19 Aug 2026 20:14:18 +0900"
+    },
     {
      "title": "千葉豪雨 死者13人 浸水 約2700棟 路上の車両きょう移動完了へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44911",
@@ -28,19 +38,9 @@
      "pubDate": "Wed, 19 Aug 2026 19:50:58 +0900"
     },
     {
-     "title": "東京 江東区新木場 都営バスとトレーラーが衝突 7人けがの情報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45125",
-     "pubDate": "Wed, 19 Aug 2026 19:25:22 +0900"
-    },
-    {
      "title": "プーチン大統領の択捉島訪問受け元島民団体などが外務省に要請",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45120",
      "pubDate": "Wed, 19 Aug 2026 19:44:29 +0900"
-    },
-    {
-     "title": "俳優の岸惠子さん死去 93歳 映画「君の名は」など出演",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44980",
-     "pubDate": "Wed, 19 Aug 2026 19:36:43 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "車水没 ドラレコに記録 「このまま行けると思ったが…」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44985",
+     "pubDate": "Wed, 19 Aug 2026 20:14:18 +0900"
+    },
     {
      "title": "千葉県は豪雨の死者・行方不明者の氏名は公表せず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45109",
@@ -118,11 +123,6 @@
      "title": "俳優の岸惠子さん死去 93歳 映画「君の名は」など出演",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44980",
      "pubDate": "Wed, 19 Aug 2026 19:36:43 +0900"
-    },
-    {
-     "title": "【地震情報】熊本で震度3 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44913",
-     "pubDate": "Wed, 19 Aug 2026 07:14:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "火星衛星探査機「MMX」 10月20日に打ち上げで調整",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45099",
+     "pubDate": "Wed, 19 Aug 2026 20:14:42 +0900"
+    },
     {
      "title": "大飯原発3号機の発電機停止 原因は 調査で運転再開時期は未定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45037",
@@ -173,6 +178,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "英供与の無人機で攻撃か ロ外相「直接関与と見なす権利ある」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45124",
+     "pubDate": "Wed, 19 Aug 2026 20:32:25 +0900"
+    },
     {
      "title": "プーチン大統領の択捉島訪問受け元島民団体などが外務省に要請",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45120",
@@ -242,11 +252,6 @@
      "title": "コンゴ民主共和国でエボラ出血熱死者2300人超 WHOが緊急委員会",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44922",
      "pubDate": "Wed, 19 Aug 2026 07:56:00 +0900"
-    },
-    {
-     "title": "トランプ大統領「協議行われていない」イランも強気姿勢を維持",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44908",
-     "pubDate": "Wed, 19 Aug 2026 06:08:27 +0900"
     }
    ]
   },
@@ -271,9 +276,9 @@
      "pubDate": "Wed, 19 Aug 2026 09:01:52 GMT"
     },
     {
-     "title": "ロケット残骸衝突 月にクレーター",
-     "link": "https://news.yahoo.co.jp/pickup/6592303?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 08:20:31 GMT"
+     "title": "診察待つ列に車突っ込む 女性死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6592327?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 11:21:31 GMT"
     },
     {
      "title": "競って電車遅延させた疑い7人立件",
@@ -286,14 +291,14 @@
      "pubDate": "Wed, 19 Aug 2026 10:30:12 GMT"
     },
     {
-     "title": "動物園のアムールヤマネコ2匹死ぬ",
-     "link": "https://news.yahoo.co.jp/pickup/6592307?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 08:32:08 GMT"
+     "title": "大谷「6年連続30本」他の達成者は",
+     "link": "https://news.yahoo.co.jp/pickup/6592313?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 11:24:17 GMT"
     },
     {
-     "title": "GK鈴木彩艶アストンビラ加入決定",
-     "link": "https://news.yahoo.co.jp/pickup/6592310?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 08:58:57 GMT"
+     "title": "サマソニでも浮上「熱唱客問題」",
+     "link": "https://news.yahoo.co.jp/pickup/6592326?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 11:18:33 GMT"
     }
    ]
   }
