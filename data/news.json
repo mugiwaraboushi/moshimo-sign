@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T21:46:12.560Z",
+ "updatedAt": "2026-08-19T22:11:29.087Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,14 +13,14 @@
      "pubDate": "Thu, 20 Aug 2026 05:05:24 +0900"
     },
     {
+     "title": "米大統領“海峡掌握”イラン 欧州の米軍関連施設攻撃も視野か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45195",
+     "pubDate": "Thu, 20 Aug 2026 07:02:00 +0900"
+    },
+    {
      "title": "神戸 女性殺害事件1年「面識ない」ストーカー相談 兵庫で増加",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45161",
      "pubDate": "Thu, 20 Aug 2026 05:18:45 +0900"
-    },
-    {
-     "title": "トランプ大統領 北朝鮮キム総書記との年内会談に意欲",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45193",
-     "pubDate": "Thu, 20 Aug 2026 06:22:43 +0900"
     },
     {
      "title": "高校野球 夏の甲子園 準決勝 智弁和歌山×横浜【速報予定】",
@@ -38,9 +38,9 @@
      "pubDate": "Thu, 20 Aug 2026 06:30:07 +0900"
     },
     {
-     "title": "ウクライナ 国民から高評価の前国防相が大統領選挙実施を要求",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45192",
-     "pubDate": "Thu, 20 Aug 2026 05:47:09 +0900"
+     "title": "FRB 7月の会合議事録“利上げ必要の可能性高い”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45199",
+     "pubDate": "Thu, 20 Aug 2026 07:06:42 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（8月20日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45141",
+     "pubDate": "Thu, 20 Aug 2026 07:07:45 +0900"
+    },
     {
      "title": "秋篠宮ご夫妻パラグアイに到着",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45170",
@@ -118,11 +123,6 @@
      "title": "千葉豪雨 停電続くマンション 住民“一日も早い復旧を”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44981",
      "pubDate": "Wed, 19 Aug 2026 18:20:25 +0900"
-    },
-    {
-     "title": "宮崎 小林 眼科医院の駐車場で車突っ込む 女性死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45067",
-     "pubDate": "Wed, 19 Aug 2026 18:18:46 +0900"
     }
    ]
   },
@@ -183,6 +183,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "米大統領“海峡掌握”イラン 欧州の米軍関連施設攻撃も視野か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45195",
+     "pubDate": "Thu, 20 Aug 2026 07:02:00 +0900"
+    },
+    {
+     "title": "中韓外相会談 朝鮮半島情勢めぐり意見交わす",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45183",
+     "pubDate": "Thu, 20 Aug 2026 06:52:35 +0900"
+    },
     {
      "title": "インド 山梨県の訪問団が参加した経済イベントが開催",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45189",
@@ -247,16 +257,6 @@
      "title": "超党派議員が中国訪問へ 日中関係改善の糸口探りたい考え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45152",
      "pubDate": "Wed, 19 Aug 2026 20:53:14 +0900"
-    },
-    {
-     "title": "英供与の無人機で攻撃か ロ外相「直接関与と見なす権利ある」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45124",
-     "pubDate": "Wed, 19 Aug 2026 20:32:25 +0900"
-    },
-    {
-     "title": "プーチン大統領の択捉島訪問受け元島民団体などが外務省に要請",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45120",
-     "pubDate": "Wed, 19 Aug 2026 19:44:29 +0900"
     }
    ]
   },
@@ -274,6 +274,11 @@
      "title": "豪雨 千葉市幹線道路の車撤去完了",
      "link": "https://news.yahoo.co.jp/pickup/6592341?source=rss",
      "pubDate": "Wed, 19 Aug 2026 13:50:40 GMT"
+    },
+    {
+     "title": "米大統領 正恩氏と会談の意向表明",
+     "link": "https://news.yahoo.co.jp/pickup/6592351?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 21:55:05 GMT"
     },
     {
      "title": "中道落選者ら 政治団体ゴリラ設立",
@@ -294,11 +299,6 @@
      "title": "阪神・大山 2試合連続サヨナラ打",
      "link": "https://news.yahoo.co.jp/pickup/6592348?source=rss",
      "pubDate": "Wed, 19 Aug 2026 21:18:06 GMT"
-    },
-    {
-     "title": "カズ59歳 天皇杯1回戦で2ゴール",
-     "link": "https://news.yahoo.co.jp/pickup/6592330?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 12:14:11 GMT"
     },
     {
      "title": "上白石萌音 ドラマ主演で1人2役",
