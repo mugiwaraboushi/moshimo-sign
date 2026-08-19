@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T09:54:58.918Z",
+ "updatedAt": "2026-08-19T10:15:14.670Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "東京 江東区新木場 都営バスとトレーラーが衝突 7人けがの情報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45125",
+     "pubDate": "Wed, 19 Aug 2026 19:09:23 +0900"
+    },
+    {
      "title": "避難所の7割がエアコンなし 専門家「真夏は生死に関わる問題」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44948",
      "pubDate": "Wed, 19 Aug 2026 16:12:51 +0900"
     },
     {
-     "title": "熊本など九州北部で危険な暑さ予想 熱中症対策の徹底を",
+     "title": "20日も西日本中心に猛烈な暑さ予想 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44906",
-     "pubDate": "Wed, 19 Aug 2026 12:03:52 +0900"
+     "pubDate": "Wed, 19 Aug 2026 18:58:05 +0900"
     },
     {
      "title": "宮崎 小林 眼科医院の駐車場で車突っ込む 女性死亡",
@@ -23,9 +28,9 @@
      "pubDate": "Wed, 19 Aug 2026 18:18:46 +0900"
     },
     {
-     "title": "日本代表GK 鈴木彩艶がプレミアリーグ アストンビラに移籍へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45104",
-     "pubDate": "Wed, 19 Aug 2026 18:26:36 +0900"
+     "title": "天皇皇后両陛下 アジア大会開会式出席で9月に愛知県へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45073",
+     "pubDate": "Wed, 19 Aug 2026 18:50:55 +0900"
     },
     {
      "title": "解約後も請求続く服レンタル業者 国民生活センターが注意喚起",
@@ -36,11 +41,6 @@
      "title": "俳優の岸惠子さん死去 93歳 映画「君の名は」など出演",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44980",
      "pubDate": "Wed, 19 Aug 2026 17:50:30 +0900"
-    },
-    {
-     "title": "佳子さま 沖縄の「豆記者」と懇談",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45066",
-     "pubDate": "Wed, 19 Aug 2026 18:15:08 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "東京 江東区新木場 都営バスとトレーラーが衝突 7人けがの情報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45125",
+     "pubDate": "Wed, 19 Aug 2026 19:09:23 +0900"
+    },
     {
      "title": "天皇皇后両陛下 アジア大会開会式出席で9月に愛知県へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45073",
@@ -118,11 +123,6 @@
      "title": "秋篠宮ご夫妻 パラグアイに向けて出発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44900",
      "pubDate": "Tue, 18 Aug 2026 22:43:00 +0900"
-    },
-    {
-     "title": "両陛下 空海ゆかりの名宝を集めた特別展に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44903",
-     "pubDate": "Tue, 18 Aug 2026 22:35:00 +0900"
     }
    ]
   },
@@ -266,9 +266,9 @@
      "pubDate": "Wed, 19 Aug 2026 06:35:20 GMT"
     },
     {
-     "title": "警察が盗難車を追跡 運転手は15歳",
-     "link": "https://news.yahoo.co.jp/pickup/6592316?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 09:26:32 GMT"
+     "title": "米警察 少女行方不明で霊能者頼る",
+     "link": "https://news.yahoo.co.jp/pickup/6592308?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 09:01:52 GMT"
     },
     {
      "title": "女児34人にわいせつ 元教諭に実刑",
