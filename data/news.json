@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T06:20:47.485Z",
+ "updatedAt": "2026-08-19T07:11:53.861Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,29 +8,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "千葉豪雨 冠水道路で死亡の男性 知人「地域のために働く人」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45028",
+     "pubDate": "Wed, 19 Aug 2026 15:34:58 +0900"
+    },
+    {
      "title": "熊本など九州北部で危険な暑さ予想 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44906",
      "pubDate": "Wed, 19 Aug 2026 12:03:52 +0900"
     },
     {
+     "title": "台風18号発生 日本のはるか南東 今後の情報に注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45027",
+     "pubDate": "Wed, 19 Aug 2026 15:28:10 +0900"
+    },
+    {
      "title": "俳優の岸惠子さん死去 93歳 映画「君の名は」など出演",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44980",
-     "pubDate": "Wed, 19 Aug 2026 12:35:00 +0900"
+     "pubDate": "Wed, 19 Aug 2026 15:29:49 +0900"
     },
     {
-     "title": "オープンAIが18歳未満対象にChatGPTの対策強化へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44976",
-     "pubDate": "Wed, 19 Aug 2026 14:53:37 +0900"
-    },
-    {
-     "title": "万博工事費水増しし自宅改修か 竹中工務店社員 背任容疑で逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44943",
-     "pubDate": "Wed, 19 Aug 2026 14:58:51 +0900"
-    },
-    {
-     "title": "千葉豪雨 死者13人 浸水2300棟超 路上の車両きょう移動完了へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44911",
-     "pubDate": "Wed, 19 Aug 2026 12:02:00 +0900"
+     "title": "“離島からの避難計画など丁寧な説明を” 知事会が政府に提言",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45008",
+     "pubDate": "Wed, 19 Aug 2026 15:04:59 +0900"
     },
     {
      "title": "株価 一時2100円超値下がり 半導体関連銘柄中心に売り注文",
@@ -50,6 +50,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "千葉豪雨 冠水道路で死亡の男性 知人「地域のために働く人」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45028",
+     "pubDate": "Wed, 19 Aug 2026 15:34:58 +0900"
+    },
+    {
+     "title": "暑さから子どもたちを守る 夏休み中の「学童保育」 対策は?",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45003",
+     "pubDate": "Wed, 19 Aug 2026 15:20:28 +0900"
+    },
+    {
      "title": "万博工事費水増しし自宅改修か 竹中工務店社員 背任容疑で逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44943",
      "pubDate": "Wed, 19 Aug 2026 14:58:51 +0900"
@@ -62,7 +72,7 @@
     {
      "title": "俳優の岸惠子さん死去 93歳 映画「君の名は」など出演",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44980",
-     "pubDate": "Wed, 19 Aug 2026 12:35:00 +0900"
+     "pubDate": "Wed, 19 Aug 2026 15:29:49 +0900"
     },
     {
      "title": "【地震情報】熊本で震度3 津波の心配なし",
@@ -113,16 +123,6 @@
      "title": "高市首相 千葉豪雨で普通交付税の繰り上げ交付を指示",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44837",
      "pubDate": "Tue, 18 Aug 2026 18:29:18 +0900"
-    },
-    {
-     "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3020人避難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44828",
-     "pubDate": "Tue, 18 Aug 2026 17:55:00 +0900"
-    },
-    {
-     "title": "作曲家 久石譲さんの公演 3つの「ギネス世界記録」に認定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44723",
-     "pubDate": "Tue, 18 Aug 2026 17:07:00 +0900"
     }
    ]
   },
@@ -168,6 +168,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "トランプ政権 カナダへの50％追加関税 3日間猶予を発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45032",
+     "pubDate": "Wed, 19 Aug 2026 15:26:00 +0900"
+    },
     {
      "title": "オープンAIが18歳未満対象にChatGPTの対策強化へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44976",
@@ -226,7 +231,7 @@
     {
      "title": "米トランプ政権 ICC＝国際刑事裁判所 赤根所長を制裁対象に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44920",
-     "pubDate": "Wed, 19 Aug 2026 12:58:59 +0900"
+     "pubDate": "Wed, 19 Aug 2026 16:04:45 +0900"
     },
     {
      "title": "“英首相が米大統領首席補佐官装う人物とメッセージ”報道",
@@ -237,11 +242,6 @@
      "title": "ロシア外務省が日本大使に抗議 日本大使館「立場 適切に説明」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44873",
      "pubDate": "Tue, 18 Aug 2026 19:23:45 +0900"
-    },
-    {
-     "title": "太平洋のクロマグロ漁獲枠 来年から2年間 大型魚25％増で合意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44751",
-     "pubDate": "Tue, 18 Aug 2026 17:37:00 +0900"
     }
    ]
   },
@@ -261,9 +261,9 @@
      "pubDate": "Wed, 19 Aug 2026 03:58:11 GMT"
     },
     {
-     "title": "川で遊泳中の17歳流される 重体か",
-     "link": "https://news.yahoo.co.jp/pickup/6592283?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 05:39:34 GMT"
+     "title": "万博 盛況の影で工事の不祥事続々",
+     "link": "https://news.yahoo.co.jp/pickup/6592290?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 07:00:32 GMT"
     },
     {
      "title": "フードデリバリー「menu」終了へ",
@@ -276,14 +276,14 @@
      "pubDate": "Wed, 19 Aug 2026 05:57:14 GMT"
     },
     {
-     "title": "カリブ海 海藻で各地のビーチ茶色",
-     "link": "https://news.yahoo.co.jp/pickup/6592263?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 02:37:49 GMT"
+     "title": "吉田正尚は残り全休か 重度肉離れ",
+     "link": "https://news.yahoo.co.jp/pickup/6592287?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 06:20:33 GMT"
     },
     {
-     "title": "必要な便器数の算出基準 見直しへ",
-     "link": "https://news.yahoo.co.jp/pickup/6592277?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 04:03:03 GMT"
+     "title": "岸恵子さん死去 真知子巻き大流行",
+     "link": "https://news.yahoo.co.jp/pickup/6592281?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 05:16:39 GMT"
     },
     {
      "title": "ジョニデ 新作カリビアンで交渉中",
