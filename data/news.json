@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T04:24:18.836Z",
+ "updatedAt": "2026-08-19T04:58:08.309Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "俳優の岸惠子さん死去 93歳 映画「君の名は」など出演",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44980",
-     "pubDate": "Wed, 19 Aug 2026 12:35:14 +0900"
-    },
-    {
      "title": "熊本など九州北部で危険な暑さ予想 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44906",
      "pubDate": "Wed, 19 Aug 2026 12:03:52 +0900"
+    },
+    {
+     "title": "俳優の岸惠子さん死去 93歳 映画「君の名は」など出演",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44980",
+     "pubDate": "Wed, 19 Aug 2026 12:35:00 +0900"
+    },
+    {
+     "title": "トランプ大統領 秋にも米朝首脳会談を側近らに要求 米報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44961",
+     "pubDate": "Wed, 19 Aug 2026 13:14:59 +0900"
     },
     {
      "title": "千葉豪雨 死者13人 浸水2300棟超 路上の車両きょう移動完了へ",
@@ -28,19 +33,14 @@
      "pubDate": "Wed, 19 Aug 2026 13:17:57 +0900"
     },
     {
+     "title": "世田谷ストーカー殺人事件 韓国籍被告の初公判 殺人は無罪主張",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44973",
+     "pubDate": "Wed, 19 Aug 2026 13:38:19 +0900"
+    },
+    {
      "title": "ドジャース 大谷翔平 6年連続となる30号ホームラン",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44941",
      "pubDate": "Wed, 19 Aug 2026 10:47:00 +0900"
-    },
-    {
-     "title": "レッドソックス吉田 けがは「深刻」 復帰は早くても今季終盤か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44953",
-     "pubDate": "Wed, 19 Aug 2026 11:55:00 +0900"
-    },
-    {
-     "title": "米ABCテレビが提訴“政権が放送免許更新の審査前倒しで報復”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44930",
-     "pubDate": "Wed, 19 Aug 2026 09:22:54 +0900"
     }
    ]
   },
@@ -50,9 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "世田谷ストーカー殺人事件 韓国籍被告の初公判 殺人は無罪主張",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44973",
+     "pubDate": "Wed, 19 Aug 2026 13:38:19 +0900"
+    },
+    {
      "title": "俳優の岸惠子さん死去 93歳 映画「君の名は」など出演",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44980",
-     "pubDate": "Wed, 19 Aug 2026 12:35:14 +0900"
+     "pubDate": "Wed, 19 Aug 2026 12:35:00 +0900"
     },
     {
      "title": "【地震情報】熊本で震度3 津波の心配なし",
@@ -62,7 +67,7 @@
     {
      "title": "【動画】Pickup NEWS（8月19日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44881",
-     "pubDate": "Wed, 19 Aug 2026 09:50:27 +0900"
+     "pubDate": "Wed, 19 Aug 2026 13:43:26 +0900"
     },
     {
      "title": "秋篠宮ご夫妻 パラグアイに向けて出発",
@@ -118,11 +123,6 @@
      "title": "政府 子ども自殺対策で臨時相談窓口開設へ 来週26日から",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44779",
      "pubDate": "Tue, 18 Aug 2026 16:21:00 +0900"
-    },
-    {
-     "title": "ANAとJALが初のダイヤ調整を正式発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44794",
-     "pubDate": "Tue, 18 Aug 2026 16:12:35 +0900"
     }
    ]
   },
@@ -276,9 +276,9 @@
      "pubDate": "Wed, 19 Aug 2026 04:17:40 GMT"
     },
     {
-     "title": "村上宗隆 ビジョン直撃の豪快29号",
-     "link": "https://news.yahoo.co.jp/pickup/6592268?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 02:59:36 GMT"
+     "title": "報知器鳴り藤井王位避難 対局遅れ",
+     "link": "https://news.yahoo.co.jp/pickup/6592279?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 04:39:16 GMT"
     },
     {
      "title": "俳優・岸恵子さん死去",
