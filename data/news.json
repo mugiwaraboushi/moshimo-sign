@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T22:46:42.976Z",
+ "updatedAt": "2026-08-19T23:11:21.466Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,19 +18,19 @@
      "pubDate": "Thu, 20 Aug 2026 07:02:00 +0900"
     },
     {
-     "title": "神戸 女性殺害事件1年「面識ない」ストーカー相談 兵庫で増加",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45161",
-     "pubDate": "Thu, 20 Aug 2026 05:18:45 +0900"
-    },
-    {
      "title": "高校野球 夏の甲子園 準決勝 智弁和歌山×横浜【速報予定】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45038",
      "pubDate": "Thu, 20 Aug 2026 06:36:12 +0900"
     },
     {
-     "title": "熊本地震 熱中症対策を 最大震度5弱程度以上の地震にも注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45198",
-     "pubDate": "Thu, 20 Aug 2026 07:23:31 +0900"
+     "title": "神戸 女性殺害事件1年「面識ない」ストーカー相談 兵庫で増加",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45161",
+     "pubDate": "Thu, 20 Aug 2026 05:18:45 +0900"
+    },
+    {
+     "title": "西日本中心に猛烈な暑さ予想 熱中症対策の徹底を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45196",
+     "pubDate": "Thu, 20 Aug 2026 07:46:00 +0900"
     },
     {
      "title": "フェルメール代表作「真珠の耳飾りの少女」14年ぶり来日公開へ",
@@ -40,7 +40,7 @@
     {
      "title": "FRB 7月の会合議事録“利上げ必要の可能性高い”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45199",
-     "pubDate": "Thu, 20 Aug 2026 07:06:42 +0900"
+     "pubDate": "Thu, 20 Aug 2026 07:06:00 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "西日本中心に猛烈な暑さ予想 熱中症対策の徹底を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45196",
+     "pubDate": "Thu, 20 Aug 2026 07:46:00 +0900"
+    },
     {
      "title": "熊本地震 熱中症対策を 最大震度5弱程度以上の地震にも注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45198",
@@ -118,11 +123,6 @@
      "title": "天皇皇后両陛下 アジア大会開会式出席で9月に愛知県へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45073",
      "pubDate": "Wed, 19 Aug 2026 18:50:55 +0900"
-    },
-    {
-     "title": "解約後も請求続く服レンタル業者 国民生活センターが注意喚起",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45075",
-     "pubDate": "Wed, 19 Aug 2026 18:35:55 +0900"
     }
    ]
   },
@@ -281,14 +281,9 @@
      "pubDate": "Wed, 19 Aug 2026 22:40:14 GMT"
     },
     {
-     "title": "中道落選者ら 政治団体ゴリラ設立",
-     "link": "https://news.yahoo.co.jp/pickup/6592328?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 11:59:44 GMT"
-    },
-    {
-     "title": "ICC所長らへの米制裁 相次ぐ非難",
-     "link": "https://news.yahoo.co.jp/pickup/6592349?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 21:28:55 GMT"
+     "title": "万博工事背任疑い 関係者に衝撃",
+     "link": "https://news.yahoo.co.jp/pickup/6592356?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 22:53:30 GMT"
     },
     {
      "title": "診察待つ列に車突っ込む 女性死亡",
@@ -301,9 +296,14 @@
      "pubDate": "Wed, 19 Aug 2026 22:28:05 GMT"
     },
     {
-     "title": "オリドラ1藤川 トミージョン手術",
-     "link": "https://news.yahoo.co.jp/pickup/6592352?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 22:18:04 GMT"
+     "title": "「エヴァ」とコラボ ショベル人気",
+     "link": "https://news.yahoo.co.jp/pickup/6592357?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 23:05:01 GMT"
+    },
+    {
+     "title": "速報甲子園 智弁和歌山vs.横浜",
+     "link": "https://news.yahoo.co.jp/pickup/6592353?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 22:55:14 GMT"
     }
    ]
   }
