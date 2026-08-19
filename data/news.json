@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T03:35:30.803Z",
+ "updatedAt": "2026-08-19T04:24:18.836Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "俳優の岸惠子さん死去 93歳 映画「君の名は」など出演",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44980",
+     "pubDate": "Wed, 19 Aug 2026 12:35:14 +0900"
+    },
     {
      "title": "熊本など九州北部で危険な暑さ予想 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44906",
@@ -18,24 +23,19 @@
      "pubDate": "Wed, 19 Aug 2026 12:02:00 +0900"
     },
     {
+     "title": "株価 一時2100円超値下がり 半導体関連銘柄中心に売り注文",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44933",
+     "pubDate": "Wed, 19 Aug 2026 13:17:57 +0900"
+    },
+    {
      "title": "ドジャース 大谷翔平 6年連続となる30号ホームラン",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44941",
      "pubDate": "Wed, 19 Aug 2026 10:47:00 +0900"
     },
     {
-     "title": "株価 一時2100円超値下がり 半導体関連銘柄中心に売り注文",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44933",
-     "pubDate": "Wed, 19 Aug 2026 10:28:12 +0900"
-    },
-    {
-     "title": "ブルージェイズ 岡本和真 17試合ぶりの25号ホームラン",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44958",
-     "pubDate": "Wed, 19 Aug 2026 11:49:35 +0900"
-    },
-    {
      "title": "レッドソックス吉田 けがは「深刻」 復帰は早くても今季終盤か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44953",
-     "pubDate": "Wed, 19 Aug 2026 11:55:31 +0900"
+     "pubDate": "Wed, 19 Aug 2026 11:55:00 +0900"
     },
     {
      "title": "米ABCテレビが提訴“政権が放送免許更新の審査前倒しで報復”",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "俳優の岸惠子さん死去 93歳 映画「君の名は」など出演",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44980",
+     "pubDate": "Wed, 19 Aug 2026 12:35:14 +0900"
+    },
     {
      "title": "【地震情報】熊本で震度3 津波の心配なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44913",
@@ -118,11 +123,6 @@
      "title": "ANAとJALが初のダイヤ調整を正式発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44794",
      "pubDate": "Tue, 18 Aug 2026 16:12:35 +0900"
-    },
-    {
-     "title": "横浜 交際相手の2歳長男に傷害容疑で会社員逮捕 長男は死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44707",
-     "pubDate": "Tue, 18 Aug 2026 19:06:45 +0900"
     }
    ]
   },
@@ -169,6 +169,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "トランプ大統領 秋にも米朝首脳会談を側近らに要求 米報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44961",
+     "pubDate": "Wed, 19 Aug 2026 13:14:59 +0900"
+    },
+    {
      "title": "韓国軍「米韓合同軍事演習 21日まで」 期間半分程度に短縮発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44964",
      "pubDate": "Wed, 19 Aug 2026 12:29:58 +0900"
@@ -211,7 +216,7 @@
     {
      "title": "米トランプ政権 ICC＝国際刑事裁判所 赤根所長を制裁対象に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44920",
-     "pubDate": "Wed, 19 Aug 2026 02:46:00 +0900"
+     "pubDate": "Wed, 19 Aug 2026 12:58:59 +0900"
     },
     {
      "title": "“英首相が米大統領首席補佐官装う人物とメッセージ”報道",
@@ -237,11 +242,6 @@
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月18日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44529",
      "pubDate": "Tue, 18 Aug 2026 18:44:42 +0900"
-    },
-    {
-     "title": "日豪防衛相会談 インド太平洋地域の抑止力向上へ連携強化確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44825",
-     "pubDate": "Tue, 18 Aug 2026 18:37:00 +0900"
     }
    ]
   },
@@ -256,14 +256,9 @@
      "pubDate": "Wed, 19 Aug 2026 02:52:38 GMT"
     },
     {
-     "title": "米国が赤根所長らに制裁 ICC非難",
-     "link": "https://news.yahoo.co.jp/pickup/6592261?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 02:30:54 GMT"
-    },
-    {
-     "title": "ヘルパーがパチンコ 障害者を放置",
-     "link": "https://news.yahoo.co.jp/pickup/6592267?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 02:49:46 GMT"
+     "title": "超党派議員団が訪中へ 中国側招待",
+     "link": "https://news.yahoo.co.jp/pickup/6592270?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 03:34:00 GMT"
     },
     {
      "title": "従業員逮捕 竹中工務店がコメント",
@@ -271,14 +266,19 @@
      "pubDate": "Wed, 19 Aug 2026 02:41:31 GMT"
     },
     {
-     "title": "日立 日立建機の全株式売却へ",
-     "link": "https://news.yahoo.co.jp/pickup/6592264?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 02:42:50 GMT"
+     "title": "ヘルパーがパチンコ 障害者を放置",
+     "link": "https://news.yahoo.co.jp/pickup/6592267?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 02:49:46 GMT"
     },
     {
-     "title": "大谷30号 6年連続大台到達の偉業",
-     "link": "https://news.yahoo.co.jp/pickup/6592257?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 01:37:52 GMT"
+     "title": "洋麺屋五右衛門 出店ラッシュの訳",
+     "link": "https://news.yahoo.co.jp/pickup/6592278?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 04:17:40 GMT"
+    },
+    {
+     "title": "村上宗隆 ビジョン直撃の豪快29号",
+     "link": "https://news.yahoo.co.jp/pickup/6592268?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 02:59:36 GMT"
     },
     {
      "title": "俳優・岸恵子さん死去",
@@ -286,9 +286,9 @@
      "pubDate": "Wed, 19 Aug 2026 03:12:58 GMT"
     },
     {
-     "title": "西川貴教 品川-新大阪でゆで卵8個",
-     "link": "https://news.yahoo.co.jp/pickup/6592259?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 02:21:46 GMT"
+     "title": "池田直人 佐藤アナとの新婚生活",
+     "link": "https://news.yahoo.co.jp/pickup/6592271?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 03:30:31 GMT"
     }
    ]
   }
