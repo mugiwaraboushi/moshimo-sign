@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T16:16:05.308Z",
+ "updatedAt": "2026-08-19T16:52:29.274Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -87,7 +87,7 @@
     {
      "title": "東京 江東区新木場 都営バスとトレーラーが衝突 7人けが",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45125",
-     "pubDate": "Wed, 19 Aug 2026 22:12:08 +0900"
+     "pubDate": "Thu, 20 Aug 2026 01:34:54 +0900"
     },
     {
      "title": "天皇皇后両陛下 アジア大会開会式出席で9月に愛知県へ",
@@ -174,6 +174,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "茂木外相 サウジアラビアなど湾岸諸国の経済強じん化を支援",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45176",
+     "pubDate": "Thu, 20 Aug 2026 01:37:36 +0900"
+    },
+    {
      "title": "中国 ロケット再利用目指し回収成功 米への追い上げ図る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45135",
      "pubDate": "Wed, 19 Aug 2026 22:18:53 +0900"
@@ -242,11 +247,6 @@
      "title": "韓国軍「米韓合同軍事演習 21日まで」 期間半分程度に短縮発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44964",
      "pubDate": "Wed, 19 Aug 2026 12:29:00 +0900"
-    },
-    {
-     "title": "米ABCテレビが提訴“政権が放送免許更新の審査前倒しで報復”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44930",
-     "pubDate": "Wed, 19 Aug 2026 09:22:54 +0900"
     }
    ]
   },
