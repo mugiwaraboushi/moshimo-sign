@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T10:15:14.670Z",
+ "updatedAt": "2026-08-19T10:50:56.348Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "東京 江東区新木場 都営バスとトレーラーが衝突 7人けがの情報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45125",
-     "pubDate": "Wed, 19 Aug 2026 19:09:23 +0900"
-    },
-    {
-     "title": "避難所の7割がエアコンなし 専門家「真夏は生死に関わる問題」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44948",
-     "pubDate": "Wed, 19 Aug 2026 16:12:51 +0900"
+     "title": "千葉豪雨 死者13人 浸水 約2700棟 路上の車両きょう移動完了へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44911",
+     "pubDate": "Wed, 19 Aug 2026 19:31:32 +0900"
     },
     {
      "title": "20日も西日本中心に猛烈な暑さ予想 熱中症対策の徹底を",
@@ -23,24 +18,29 @@
      "pubDate": "Wed, 19 Aug 2026 18:58:05 +0900"
     },
     {
+     "title": "東京 江東区新木場 都営バスとトレーラーが衝突 7人けがの情報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45125",
+     "pubDate": "Wed, 19 Aug 2026 19:25:22 +0900"
+    },
+    {
+     "title": "避難所の7割がエアコンなし 専門家「真夏は生死に関わる問題」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44948",
+     "pubDate": "Wed, 19 Aug 2026 16:12:51 +0900"
+    },
+    {
+     "title": "俳優の岸惠子さん死去 93歳 映画「君の名は」など出演",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44980",
+     "pubDate": "Wed, 19 Aug 2026 19:36:43 +0900"
+    },
+    {
      "title": "宮崎 小林 眼科医院の駐車場で車突っ込む 女性死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45067",
      "pubDate": "Wed, 19 Aug 2026 18:18:46 +0900"
     },
     {
-     "title": "天皇皇后両陛下 アジア大会開会式出席で9月に愛知県へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45073",
-     "pubDate": "Wed, 19 Aug 2026 18:50:55 +0900"
-    },
-    {
      "title": "解約後も請求続く服レンタル業者 国民生活センターが注意喚起",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45075",
      "pubDate": "Wed, 19 Aug 2026 18:35:55 +0900"
-    },
-    {
-     "title": "俳優の岸惠子さん死去 93歳 映画「君の名は」など出演",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44980",
-     "pubDate": "Wed, 19 Aug 2026 17:50:30 +0900"
     }
    ]
   },
@@ -52,7 +52,7 @@
     {
      "title": "東京 江東区新木場 都営バスとトレーラーが衝突 7人けがの情報",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45125",
-     "pubDate": "Wed, 19 Aug 2026 19:09:23 +0900"
+     "pubDate": "Wed, 19 Aug 2026 19:25:22 +0900"
     },
     {
      "title": "天皇皇后両陛下 アジア大会開会式出席で9月に愛知県へ",
@@ -107,7 +107,7 @@
     {
      "title": "俳優の岸惠子さん死去 93歳 映画「君の名は」など出演",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44980",
-     "pubDate": "Wed, 19 Aug 2026 17:50:30 +0900"
+     "pubDate": "Wed, 19 Aug 2026 19:36:43 +0900"
     },
     {
      "title": "【地震情報】熊本で震度3 津波の心配なし",
@@ -174,9 +174,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "プーチン大統領の択捉島訪問受け元島民団体などが外務省に要請",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45120",
+     "pubDate": "Wed, 19 Aug 2026 19:44:29 +0900"
+    },
+    {
+     "title": "7月の訪日客数 中国からは大幅減も全体では4か月ぶりに増加",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45101",
+     "pubDate": "Wed, 19 Aug 2026 19:17:16 +0900"
+    },
+    {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月19日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44539",
-     "pubDate": "Wed, 19 Aug 2026 16:43:03 +0900"
+     "pubDate": "Wed, 19 Aug 2026 16:43:00 +0900"
     },
     {
      "title": "トランプ政権 カナダへの50％追加関税 3日間猶予を発表",
@@ -237,16 +247,6 @@
      "title": "トランプ大統領「協議行われていない」イランも強気姿勢を維持",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44908",
      "pubDate": "Wed, 19 Aug 2026 06:08:27 +0900"
-    },
-    {
-     "title": "米トランプ政権 ICC＝国際刑事裁判所 赤根所長を制裁対象に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44920",
-     "pubDate": "Wed, 19 Aug 2026 18:10:20 +0900"
-    },
-    {
-     "title": "“英首相が米大統領首席補佐官装う人物とメッセージ”報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44893",
-     "pubDate": "Tue, 18 Aug 2026 22:44:43 +0900"
     }
    ]
   },
@@ -256,9 +256,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "ICC赤根所長に制裁 首相「残念」",
-     "link": "https://news.yahoo.co.jp/pickup/6592318?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 09:41:30 GMT"
+     "title": "20日 日本海側で激しい雨に注意",
+     "link": "https://news.yahoo.co.jp/pickup/6592323?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 10:25:25 GMT"
     },
     {
      "title": "トロ安くなる? マグロ漁獲枠拡大",
@@ -271,14 +271,14 @@
      "pubDate": "Wed, 19 Aug 2026 09:01:52 GMT"
     },
     {
-     "title": "女児34人にわいせつ 元教諭に実刑",
-     "link": "https://news.yahoo.co.jp/pickup/6592294?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 07:19:14 GMT"
-    },
-    {
      "title": "ロケット残骸衝突 月にクレーター",
      "link": "https://news.yahoo.co.jp/pickup/6592303?source=rss",
      "pubDate": "Wed, 19 Aug 2026 08:20:31 GMT"
+    },
+    {
+     "title": "競って電車遅延させた疑い7人立件",
+     "link": "https://news.yahoo.co.jp/pickup/6592312?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 09:07:58 GMT"
     },
     {
      "title": "動物園のアムールヤマネコ2匹死ぬ",
