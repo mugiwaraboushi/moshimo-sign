@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T21:13:57.050Z",
+ "updatedAt": "2026-08-19T21:46:12.560Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45169",
+     "pubDate": "Thu, 20 Aug 2026 05:05:24 +0900"
+    },
+    {
      "title": "神戸 女性殺害事件1年「面識ない」ストーカー相談 兵庫で増加",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45161",
      "pubDate": "Thu, 20 Aug 2026 05:18:45 +0900"
     },
     {
-     "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45169",
-     "pubDate": "Thu, 20 Aug 2026 05:05:24 +0900"
+     "title": "トランプ大統領 北朝鮮キム総書記との年内会談に意欲",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45193",
+     "pubDate": "Thu, 20 Aug 2026 06:22:43 +0900"
+    },
+    {
+     "title": "高校野球 夏の甲子園 準決勝 智弁和歌山×横浜【速報予定】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45038",
+     "pubDate": "Thu, 20 Aug 2026 06:36:12 +0900"
     },
     {
      "title": "秋篠宮ご夫妻パラグアイに到着",
@@ -23,19 +33,9 @@
      "pubDate": "Thu, 20 Aug 2026 05:31:14 +0900"
     },
     {
-     "title": "米財務省が国債買い戻し倍増 長期金利上昇を押さえるねらい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45184",
-     "pubDate": "Thu, 20 Aug 2026 02:04:00 +0900"
-    },
-    {
-     "title": "千葉豪雨 浸水面積31平方キロ 山手線内側の半分ほどに達したか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45129",
-     "pubDate": "Wed, 19 Aug 2026 20:56:43 +0900"
-    },
-    {
-     "title": "59歳 カズ 三浦知良 サッカー天皇杯で2得点 福島ユナイテッド",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45160",
-     "pubDate": "Wed, 19 Aug 2026 22:42:24 +0900"
+     "title": "フェルメール代表作「真珠の耳飾りの少女」14年ぶり来日公開へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45080",
+     "pubDate": "Thu, 20 Aug 2026 06:30:07 +0900"
     },
     {
      "title": "ウクライナ 国民から高評価の前国防相が大統領選挙実施を要求",
@@ -132,6 +132,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "フェルメール代表作「真珠の耳飾りの少女」14年ぶり来日公開へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45080",
+     "pubDate": "Thu, 20 Aug 2026 06:30:07 +0900"
+    },
+    {
      "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45169",
      "pubDate": "Thu, 20 Aug 2026 05:05:24 +0900"
@@ -179,12 +184,37 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "インド 山梨県の訪問団が参加した経済イベントが開催",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45189",
+     "pubDate": "Thu, 20 Aug 2026 06:44:15 +0900"
+    },
+    {
+     "title": "フェルメール代表作「真珠の耳飾りの少女」14年ぶり来日公開へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45080",
+     "pubDate": "Thu, 20 Aug 2026 06:30:07 +0900"
+    },
+    {
+     "title": "独検察 ノルドストリーム爆発 ウクライナ国籍の男を新たに逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45187",
+     "pubDate": "Thu, 20 Aug 2026 06:26:17 +0900"
+    },
+    {
+     "title": "トランプ大統領 北朝鮮キム総書記との年内会談に意欲",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45193",
+     "pubDate": "Thu, 20 Aug 2026 06:22:43 +0900"
+    },
+    {
+     "title": "北朝鮮 キム総書記妹“米韓合同軍事演習の規模縮小 評価せず”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45188",
+     "pubDate": "Thu, 20 Aug 2026 06:18:46 +0900"
+    },
+    {
      "title": "ウクライナ 国民から高評価の前国防相が大統領選挙実施を要求",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45192",
      "pubDate": "Thu, 20 Aug 2026 05:47:09 +0900"
     },
     {
-     "title": "米財務省が国債買い戻し倍増 長期金利上昇を押さえるねらい",
+     "title": "米財務省が国債買い戻し倍増 長期金利上昇を抑えるねらい",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45184",
      "pubDate": "Thu, 20 Aug 2026 02:04:00 +0900"
     },
@@ -227,31 +257,6 @@
      "title": "プーチン大統領の択捉島訪問受け元島民団体などが外務省に要請",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45120",
      "pubDate": "Wed, 19 Aug 2026 19:44:29 +0900"
-    },
-    {
-     "title": "7月の訪日客数 中国からは大幅減も全体では4か月ぶりに増加",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45101",
-     "pubDate": "Wed, 19 Aug 2026 23:26:53 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（8月19日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44539",
-     "pubDate": "Wed, 19 Aug 2026 16:43:00 +0900"
-    },
-    {
-     "title": "トランプ政権 カナダへの50％追加関税 3日間猶予を発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45032",
-     "pubDate": "Wed, 19 Aug 2026 15:26:00 +0900"
-    },
-    {
-     "title": "オープンAIが18歳未満対象にChatGPTの対策強化へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44976",
-     "pubDate": "Wed, 19 Aug 2026 14:53:37 +0900"
-    },
-    {
-     "title": "UAE“イランから弾道ミサイル2発発射” イラン側は関与否定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44965",
-     "pubDate": "Wed, 19 Aug 2026 14:05:00 +0900"
     }
    ]
   },
@@ -261,14 +266,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "九州-東海で猛暑日の予想 警戒を",
+     "link": "https://news.yahoo.co.jp/pickup/6592350?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 21:38:50 GMT"
+    },
+    {
      "title": "豪雨 千葉市幹線道路の車撤去完了",
      "link": "https://news.yahoo.co.jp/pickup/6592341?source=rss",
      "pubDate": "Wed, 19 Aug 2026 13:50:40 GMT"
-    },
-    {
-     "title": "JR九州被害額16年地震上回る恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6592335?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 12:49:21 GMT"
     },
     {
      "title": "中道落選者ら 政治団体ゴリラ設立",
@@ -276,14 +281,19 @@
      "pubDate": "Wed, 19 Aug 2026 11:59:44 GMT"
     },
     {
+     "title": "ICC所長らへの米制裁 相次ぐ非難",
+     "link": "https://news.yahoo.co.jp/pickup/6592349?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 21:28:55 GMT"
+    },
+    {
      "title": "診察待つ列に車突っ込む 女性死亡",
      "link": "https://news.yahoo.co.jp/pickup/6592327?source=rss",
      "pubDate": "Wed, 19 Aug 2026 11:21:31 GMT"
     },
     {
-     "title": "道沿いに食パン大量投棄 3日連続",
-     "link": "https://news.yahoo.co.jp/pickup/6592320?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 10:30:12 GMT"
+     "title": "阪神・大山 2試合連続サヨナラ打",
+     "link": "https://news.yahoo.co.jp/pickup/6592348?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 21:18:06 GMT"
     },
     {
      "title": "カズ59歳 天皇杯1回戦で2ゴール",
@@ -294,11 +304,6 @@
      "title": "上白石萌音 ドラマ主演で1人2役",
      "link": "https://news.yahoo.co.jp/pickup/6592347?source=rss",
      "pubDate": "Wed, 19 Aug 2026 21:09:18 GMT"
-    },
-    {
-     "title": "四千頭身・後藤 解散はありません",
-     "link": "https://news.yahoo.co.jp/pickup/6592337?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 12:56:20 GMT"
     }
    ]
   }
