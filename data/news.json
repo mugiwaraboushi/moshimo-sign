@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T22:11:29.087Z",
+ "updatedAt": "2026-08-19T22:46:42.976Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45169",
-     "pubDate": "Thu, 20 Aug 2026 05:05:24 +0900"
+     "pubDate": "Thu, 20 Aug 2026 05:05:00 +0900"
     },
     {
      "title": "米大統領“海峡掌握”イラン 欧州の米軍関連施設攻撃も視野か",
@@ -28,9 +28,9 @@
      "pubDate": "Thu, 20 Aug 2026 06:36:12 +0900"
     },
     {
-     "title": "秋篠宮ご夫妻パラグアイに到着",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45170",
-     "pubDate": "Thu, 20 Aug 2026 05:31:14 +0900"
+     "title": "熊本地震 熱中症対策を 最大震度5弱程度以上の地震にも注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45198",
+     "pubDate": "Thu, 20 Aug 2026 07:23:31 +0900"
     },
     {
      "title": "フェルメール代表作「真珠の耳飾りの少女」14年ぶり来日公開へ",
@@ -50,6 +50,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "熊本地震 熱中症対策を 最大震度5弱程度以上の地震にも注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45198",
+     "pubDate": "Thu, 20 Aug 2026 07:23:31 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（8月20日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45141",
      "pubDate": "Thu, 20 Aug 2026 07:07:45 +0900"
@@ -67,7 +72,7 @@
     {
      "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45169",
-     "pubDate": "Thu, 20 Aug 2026 05:05:24 +0900"
+     "pubDate": "Thu, 20 Aug 2026 05:05:00 +0900"
     },
     {
      "title": "「OTC類似薬」追加負担めぐり 患者など団体が会見",
@@ -118,11 +123,6 @@
      "title": "解約後も請求続く服レンタル業者 国民生活センターが注意喚起",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45075",
      "pubDate": "Wed, 19 Aug 2026 18:35:55 +0900"
-    },
-    {
-     "title": "千葉豪雨 停電続くマンション 住民“一日も早い復旧を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44981",
-     "pubDate": "Wed, 19 Aug 2026 18:20:25 +0900"
     }
    ]
   },
@@ -139,7 +139,7 @@
     {
      "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45169",
-     "pubDate": "Thu, 20 Aug 2026 05:05:24 +0900"
+     "pubDate": "Thu, 20 Aug 2026 05:05:00 +0900"
     },
     {
      "title": "火星衛星探査機「MMX」 10月20日に打ち上げで調整",
@@ -271,14 +271,14 @@
      "pubDate": "Wed, 19 Aug 2026 21:38:50 GMT"
     },
     {
-     "title": "豪雨 千葉市幹線道路の車撤去完了",
-     "link": "https://news.yahoo.co.jp/pickup/6592341?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 13:50:40 GMT"
-    },
-    {
      "title": "米大統領 正恩氏と会談の意向表明",
      "link": "https://news.yahoo.co.jp/pickup/6592351?source=rss",
      "pubDate": "Wed, 19 Aug 2026 21:55:05 GMT"
+    },
+    {
+     "title": "台風18号 来週日本列島に影響恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6592355?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 22:40:14 GMT"
     },
     {
      "title": "中道落選者ら 政治団体ゴリラ設立",
@@ -296,14 +296,14 @@
      "pubDate": "Wed, 19 Aug 2026 11:21:31 GMT"
     },
     {
-     "title": "阪神・大山 2試合連続サヨナラ打",
-     "link": "https://news.yahoo.co.jp/pickup/6592348?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 21:18:06 GMT"
+     "title": "直前中止の花火大会 知事「残念」",
+     "link": "https://news.yahoo.co.jp/pickup/6592354?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 22:28:05 GMT"
     },
     {
-     "title": "上白石萌音 ドラマ主演で1人2役",
-     "link": "https://news.yahoo.co.jp/pickup/6592347?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 21:09:18 GMT"
+     "title": "オリドラ1藤川 トミージョン手術",
+     "link": "https://news.yahoo.co.jp/pickup/6592352?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 22:18:04 GMT"
     }
    ]
   }
