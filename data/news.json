@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T11:46:11.861Z",
+ "updatedAt": "2026-08-19T12:17:40.200Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【データ分析】熱帯夜の日数どれだけ増えた？各地の結果を詳報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45042",
-     "pubDate": "Wed, 19 Aug 2026 20:15:41 +0900"
+     "title": "サッカー 59歳の三浦知良選手 天皇杯で2ゴール",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45160",
+     "pubDate": "Wed, 19 Aug 2026 21:04:00 +0900"
     },
     {
      "title": "車水没 ドラレコに記録 「このまま行けると思ったが…」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44985",
      "pubDate": "Wed, 19 Aug 2026 20:14:18 +0900"
+    },
+    {
+     "title": "高市首相 トルコ大統領と電話会談 ホルムズ海峡の安全航行を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45142",
+     "pubDate": "Wed, 19 Aug 2026 20:59:00 +0900"
+    },
+    {
+     "title": "【データ分析】熱帯夜の日数どれだけ増えた？各地の結果を詳報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45042",
+     "pubDate": "Wed, 19 Aug 2026 20:15:41 +0900"
     },
     {
      "title": "千葉豪雨 死者13人 浸水 約2700棟 路上の車両きょう移動完了へ",
@@ -31,16 +41,6 @@
      "title": "台風18号発生 非常に強い勢力に発達見込み 影響出るおそれも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45027",
      "pubDate": "Wed, 19 Aug 2026 19:34:00 +0900"
-    },
-    {
-     "title": "福岡県議会 藏内議長「しかるべき時 議長辞職」議員辞職は否定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45123",
-     "pubDate": "Wed, 19 Aug 2026 19:50:58 +0900"
-    },
-    {
-     "title": "プーチン大統領の択捉島訪問受け元島民団体などが外務省に要請",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45120",
-     "pubDate": "Wed, 19 Aug 2026 19:44:29 +0900"
     }
    ]
   },
@@ -179,6 +179,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "高市首相 トルコ大統領と電話会談 ホルムズ海峡の安全航行を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45142",
+     "pubDate": "Wed, 19 Aug 2026 20:59:00 +0900"
+    },
+    {
+     "title": "超党派議員が中国訪問へ 日中関係改善の糸口探りたい考え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45152",
+     "pubDate": "Wed, 19 Aug 2026 20:53:14 +0900"
+    },
+    {
      "title": "英供与の無人機で攻撃か ロ外相「直接関与と見なす権利ある」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45124",
      "pubDate": "Wed, 19 Aug 2026 20:32:25 +0900"
@@ -242,16 +252,6 @@
      "title": "ウクライナ東部にロシアのミサイル着弾 10人死亡 応酬続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44907",
      "pubDate": "Wed, 19 Aug 2026 09:12:56 +0900"
-    },
-    {
-     "title": "世界的に金利上昇 インフレ・財政悪化懸念 IT巨額社債も要因に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44927",
-     "pubDate": "Wed, 19 Aug 2026 09:12:07 +0900"
-    },
-    {
-     "title": "コンゴ民主共和国でエボラ出血熱死者2300人超 WHOが緊急委員会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44922",
-     "pubDate": "Wed, 19 Aug 2026 07:56:00 +0900"
     }
    ]
   },
@@ -269,11 +269,6 @@
      "title": "訪日客 7月として過去最多344万人",
      "link": "https://news.yahoo.co.jp/pickup/6592317?source=rss",
      "pubDate": "Wed, 19 Aug 2026 09:25:40 GMT"
-    },
-    {
-     "title": "米警察 少女行方不明で霊能者頼る",
-     "link": "https://news.yahoo.co.jp/pickup/6592308?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 09:01:52 GMT"
     },
     {
      "title": "診察待つ列に車突っ込む 女性死亡",
@@ -294,6 +289,11 @@
      "title": "大谷「6年連続30本」他の達成者は",
      "link": "https://news.yahoo.co.jp/pickup/6592313?source=rss",
      "pubDate": "Wed, 19 Aug 2026 11:24:17 GMT"
+    },
+    {
+     "title": "VIVANT物議の「空爆シーン」考察",
+     "link": "https://news.yahoo.co.jp/pickup/6592325?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 11:36:23 GMT"
     },
     {
      "title": "サマソニでも浮上「熱唱客問題」",
