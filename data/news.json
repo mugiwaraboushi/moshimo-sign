@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T01:58:25.860Z",
+ "updatedAt": "2026-08-19T02:53:01.146Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -15,7 +15,7 @@
     {
      "title": "ドジャース 大谷翔平 6年連続となる30号ホームラン",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44941",
-     "pubDate": "Wed, 19 Aug 2026 10:47:43 +0900"
+     "pubDate": "Wed, 19 Aug 2026 10:47:00 +0900"
     },
     {
      "title": "株価 一時2100円超値下がり 半導体関連銘柄中心に売り注文",
@@ -23,14 +23,14 @@
      "pubDate": "Wed, 19 Aug 2026 10:28:12 +0900"
     },
     {
-     "title": "世界的に金利上昇 インフレ・財政悪化懸念 IT巨額社債も要因に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44927",
-     "pubDate": "Wed, 19 Aug 2026 09:12:07 +0900"
-    },
-    {
      "title": "千葉豪雨 死者13人 浸水2300棟超 路上の車両きょう移動完了へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44911",
      "pubDate": "Wed, 19 Aug 2026 05:11:00 +0900"
+    },
+    {
+     "title": "ブルージェイズ 岡本和真 17試合ぶりの25号ホームラン",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44958",
+     "pubDate": "Wed, 19 Aug 2026 11:49:35 +0900"
     },
     {
      "title": "米ABCテレビが提訴“政権が放送免許更新の審査前倒しで報復”",
@@ -67,7 +67,7 @@
     {
      "title": "秋篠宮ご夫妻 パラグアイに向けて出発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44900",
-     "pubDate": "Tue, 18 Aug 2026 22:43:36 +0900"
+     "pubDate": "Tue, 18 Aug 2026 22:43:00 +0900"
     },
     {
      "title": "両陛下 空海ゆかりの名宝を集めた特別展に",
@@ -251,29 +251,34 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "日経平均 一時2000円超の値下がり",
-     "link": "https://news.yahoo.co.jp/pickup/6592250?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 00:31:52 GMT"
+     "title": "米韓軍事演習を短縮 米国側要請で",
+     "link": "https://news.yahoo.co.jp/pickup/6592262?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 02:25:22 GMT"
     },
     {
-     "title": "OpenAIの2人語る 注目の職種FDE",
-     "link": "https://news.yahoo.co.jp/pickup/6592242?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 00:04:04 GMT"
+     "title": "米国が赤根所長らに制裁 ICC非難",
+     "link": "https://news.yahoo.co.jp/pickup/6592261?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 02:30:54 GMT"
     },
     {
-     "title": "竹中工務店の万博現場責任者 逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6592243?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 23:45:27 GMT"
+     "title": "従業員逮捕 竹中工務店がコメント",
+     "link": "https://news.yahoo.co.jp/pickup/6592265?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 02:41:31 GMT"
     },
     {
-     "title": "泊原発構内で作業員死亡 約9m転落",
-     "link": "https://news.yahoo.co.jp/pickup/6592247?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 00:14:41 GMT"
+     "title": "日立 日立建機の全株式売却へ",
+     "link": "https://news.yahoo.co.jp/pickup/6592264?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 02:42:50 GMT"
     },
     {
-     "title": "四千頭身・都築さん 捜査の焦点は",
-     "link": "https://news.yahoo.co.jp/pickup/6592249?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 00:43:11 GMT"
+     "title": "アニメ制作市場 ピークアウトか",
+     "link": "https://news.yahoo.co.jp/pickup/6592258?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 02:02:18 GMT"
+    },
+    {
+     "title": "大腸がん宣告 ボディビル励む男性",
+     "link": "https://news.yahoo.co.jp/pickup/6592260?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 02:25:42 GMT"
     },
     {
      "title": "大谷30号 6年連続大台到達の偉業",
@@ -281,14 +286,9 @@
      "pubDate": "Wed, 19 Aug 2026 01:37:52 GMT"
     },
     {
-     "title": "岡本和真 球団の新人最多HR記録",
-     "link": "https://news.yahoo.co.jp/pickup/6592255?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 01:21:58 GMT"
-    },
-    {
-     "title": "青葉坂46 募集直後から応募殺到",
-     "link": "https://news.yahoo.co.jp/pickup/6592251?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 00:59:50 GMT"
+     "title": "西川貴教 品川-新大阪でゆで卵8個",
+     "link": "https://news.yahoo.co.jp/pickup/6592259?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 02:21:46 GMT"
     }
    ]
   }
