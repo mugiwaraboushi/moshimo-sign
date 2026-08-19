@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T00:27:34.976Z",
+ "updatedAt": "2026-08-19T01:58:25.860Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,34 +13,34 @@
      "pubDate": "Wed, 19 Aug 2026 06:16:55 +0900"
     },
     {
+     "title": "ドジャース 大谷翔平 6年連続となる30号ホームラン",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44941",
+     "pubDate": "Wed, 19 Aug 2026 10:47:43 +0900"
+    },
+    {
+     "title": "株価 一時2100円超値下がり 半導体関連銘柄中心に売り注文",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44933",
+     "pubDate": "Wed, 19 Aug 2026 10:28:12 +0900"
+    },
+    {
+     "title": "世界的に金利上昇 インフレ・財政悪化懸念 IT巨額社債も要因に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44927",
+     "pubDate": "Wed, 19 Aug 2026 09:12:07 +0900"
+    },
+    {
      "title": "千葉豪雨 死者13人 浸水2300棟超 路上の車両きょう移動完了へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44911",
      "pubDate": "Wed, 19 Aug 2026 05:11:00 +0900"
     },
     {
-     "title": "トランプ大統領「協議行われていない」イランも強気姿勢を維持",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44908",
-     "pubDate": "Wed, 19 Aug 2026 06:08:27 +0900"
-    },
-    {
-     "title": "熊本地震 19日は熊本市で38度危険な暑さに 地震活動にも注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44909",
-     "pubDate": "Wed, 19 Aug 2026 06:09:55 +0900"
+     "title": "米ABCテレビが提訴“政権が放送免許更新の審査前倒しで報復”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44930",
+     "pubDate": "Wed, 19 Aug 2026 09:22:54 +0900"
     },
     {
      "title": "米トランプ政権 ICC＝国際刑事裁判所 赤根所長を制裁対象に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44920",
      "pubDate": "Wed, 19 Aug 2026 02:46:00 +0900"
-    },
-    {
-     "title": "コンゴ民主共和国でエボラ出血熱死者2300人超 WHOが緊急委員会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44922",
-     "pubDate": "Wed, 19 Aug 2026 07:56:38 +0900"
-    },
-    {
-     "title": "秋篠宮ご夫妻 パラグアイに向けて出発",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44900",
-     "pubDate": "Tue, 18 Aug 2026 22:43:36 +0900"
     }
    ]
   },
@@ -57,7 +57,7 @@
     {
      "title": "【動画】Pickup NEWS（8月19日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44881",
-     "pubDate": "Wed, 19 Aug 2026 06:55:34 +0900"
+     "pubDate": "Wed, 19 Aug 2026 09:50:27 +0900"
     },
     {
      "title": "西日本中心に気温上昇 危険な暑さに 東北は土砂災害など注意",
@@ -196,7 +196,7 @@
     {
      "title": "コンゴ民主共和国でエボラ出血熱死者2300人超 WHOが緊急委員会",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44922",
-     "pubDate": "Wed, 19 Aug 2026 07:56:38 +0900"
+     "pubDate": "Wed, 19 Aug 2026 07:56:00 +0900"
     },
     {
      "title": "トランプ大統領「協議行われていない」イランも強気姿勢を維持",
@@ -251,9 +251,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "日豪 長射程ミサイル試験で協力",
-     "link": "https://news.yahoo.co.jp/pickup/6592246?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 00:12:44 GMT"
+     "title": "日経平均 一時2000円超の値下がり",
+     "link": "https://news.yahoo.co.jp/pickup/6592250?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 00:31:52 GMT"
     },
     {
      "title": "OpenAIの2人語る 注目の職種FDE",
@@ -261,34 +261,34 @@
      "pubDate": "Wed, 19 Aug 2026 00:04:04 GMT"
     },
     {
-     "title": "イランが弾道ミサイル UAE発表",
-     "link": "https://news.yahoo.co.jp/pickup/6592237?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 23:03:46 GMT"
-    },
-    {
      "title": "竹中工務店の万博現場責任者 逮捕",
      "link": "https://news.yahoo.co.jp/pickup/6592243?source=rss",
      "pubDate": "Tue, 18 Aug 2026 23:45:27 GMT"
     },
     {
-     "title": "高校生3人連携 池で溺れる3人救助",
-     "link": "https://news.yahoo.co.jp/pickup/6592241?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 23:15:38 GMT"
+     "title": "泊原発構内で作業員死亡 約9m転落",
+     "link": "https://news.yahoo.co.jp/pickup/6592247?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 00:14:41 GMT"
     },
     {
-     "title": "バイエルンMF 2試合連続で倒れる",
-     "link": "https://news.yahoo.co.jp/pickup/6592244?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 23:49:45 GMT"
+     "title": "四千頭身・都築さん 捜査の焦点は",
+     "link": "https://news.yahoo.co.jp/pickup/6592249?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 00:43:11 GMT"
     },
     {
-     "title": "石原さとみ 新ドラマで女ルパン役",
-     "link": "https://news.yahoo.co.jp/pickup/6592248?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 00:16:37 GMT"
+     "title": "大谷30号 6年連続大台到達の偉業",
+     "link": "https://news.yahoo.co.jp/pickup/6592257?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 01:37:52 GMT"
     },
     {
-     "title": "都築拓紀の謹慎 四千頭身どうなる",
-     "link": "https://news.yahoo.co.jp/pickup/6592236?source=rss",
-     "pubDate": "Tue, 18 Aug 2026 22:51:14 GMT"
+     "title": "岡本和真 球団の新人最多HR記録",
+     "link": "https://news.yahoo.co.jp/pickup/6592255?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 01:21:58 GMT"
+    },
+    {
+     "title": "青葉坂46 募集直後から応募殺到",
+     "link": "https://news.yahoo.co.jp/pickup/6592251?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 00:59:50 GMT"
     }
    ]
   }
