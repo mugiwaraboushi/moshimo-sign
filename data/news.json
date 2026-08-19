@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T13:17:24.667Z",
+ "updatedAt": "2026-08-19T14:02:58.876Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "防衛省 令和9年度予算案 過去最大 約9兆円要求の方向で調整",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45165",
+     "pubDate": "Wed, 19 Aug 2026 22:30:59 +0900"
+    },
+    {
      "title": "59歳 カズ 三浦知良 サッカー天皇杯で2得点 福島ユナイテッド",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45160",
-     "pubDate": "Wed, 19 Aug 2026 21:04:00 +0900"
+     "pubDate": "Wed, 19 Aug 2026 22:42:24 +0900"
     },
     {
      "title": "車水没 ドラレコに記録 「このまま行けると思ったが…」",
@@ -36,11 +41,6 @@
      "title": "台風18号発生 非常に強い勢力に発達見込み 影響出るおそれも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45027",
      "pubDate": "Wed, 19 Aug 2026 19:34:00 +0900"
-    },
-    {
-     "title": "埼玉 交通トラブル相手の車 踏切内閉じ込めか 殺人未遂で逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45091",
-     "pubDate": "Wed, 19 Aug 2026 20:03:29 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "個人情報保護委 KDDIに行政指導 メールアドレスなど流出で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45162",
+     "pubDate": "Wed, 19 Aug 2026 22:50:24 +0900"
+    },
     {
      "title": "IT企業に不正アクセスで顧客個人情報136万件漏えいの可能性",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45159",
@@ -118,11 +123,6 @@
      "title": "暑さから子どもたちを守る 夏休み中の「学童保育」 対策は?",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45003",
      "pubDate": "Wed, 19 Aug 2026 15:20:28 +0900"
-    },
-    {
-     "title": "万博工事費水増しし自宅改修か 竹中工務店社員 背任容疑で逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44943",
-     "pubDate": "Wed, 19 Aug 2026 14:58:51 +0900"
     }
    ]
   },
@@ -178,6 +178,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "中国 ロケット再利用目指し回収成功 米への追い上げ図る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45135",
+     "pubDate": "Wed, 19 Aug 2026 22:18:53 +0900"
+    },
     {
      "title": "トランプ大統領 米朝首脳会談模索の見方 その思惑は",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45143",
@@ -247,11 +252,6 @@
      "title": "米ABCテレビが提訴“政権が放送免許更新の審査前倒しで報復”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44930",
      "pubDate": "Wed, 19 Aug 2026 09:22:54 +0900"
-    },
-    {
-     "title": "韓国南部で記録的大雨 住宅への被害など相次ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44931",
-     "pubDate": "Wed, 19 Aug 2026 09:15:48 +0900"
     }
    ]
   },
@@ -266,9 +266,9 @@
      "pubDate": "Wed, 19 Aug 2026 12:48:48 GMT"
     },
     {
-     "title": "訪日客 7月として過去最多344万人",
-     "link": "https://news.yahoo.co.jp/pickup/6592317?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 09:25:40 GMT"
+     "title": "中道落選者ら 政治団体ゴリラ設立",
+     "link": "https://news.yahoo.co.jp/pickup/6592328?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 11:59:44 GMT"
     },
     {
      "title": "診察待つ列に車突っ込む 女性死亡",
@@ -276,14 +276,19 @@
      "pubDate": "Wed, 19 Aug 2026 11:21:31 GMT"
     },
     {
-     "title": "競って電車遅延させた疑い7人立件",
-     "link": "https://news.yahoo.co.jp/pickup/6592312?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 09:07:58 GMT"
-    },
-    {
      "title": "道沿いに食パン大量投棄 3日連続",
      "link": "https://news.yahoo.co.jp/pickup/6592320?source=rss",
      "pubDate": "Wed, 19 Aug 2026 10:30:12 GMT"
+    },
+    {
+     "title": "シロイルカも鏡の自分を認識 研究",
+     "link": "https://news.yahoo.co.jp/pickup/6592336?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 13:07:38 GMT"
+    },
+    {
+     "title": "F1角田裕毅 オランダGP緊急参戦",
+     "link": "https://news.yahoo.co.jp/pickup/6592329?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 11:53:35 GMT"
     },
     {
      "title": "カズ59歳 天皇杯1回戦で2ゴール",
@@ -294,11 +299,6 @@
      "title": "四千頭身・後藤 解散はありません",
      "link": "https://news.yahoo.co.jp/pickup/6592337?source=rss",
      "pubDate": "Wed, 19 Aug 2026 12:56:20 GMT"
-    },
-    {
-     "title": "呪怨2作品出演 トシオくん役の今",
-     "link": "https://news.yahoo.co.jp/pickup/6592324?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 11:22:16 GMT"
     }
    ]
   }
