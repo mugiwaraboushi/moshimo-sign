@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T09:20:02.855Z",
+ "updatedAt": "2026-08-19T09:54:58.918Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,14 +18,19 @@
      "pubDate": "Wed, 19 Aug 2026 12:03:52 +0900"
     },
     {
-     "title": "千葉豪雨 冠水道路で死亡の男性 知人「地域のために働く人」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45028",
-     "pubDate": "Wed, 19 Aug 2026 15:34:58 +0900"
+     "title": "宮崎 小林 眼科医院の駐車場で車突っ込む 女性死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45067",
+     "pubDate": "Wed, 19 Aug 2026 18:18:46 +0900"
     },
     {
-     "title": "大飯原発3号機の発電機停止 原因は 調査で運転再開時期は未定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45037",
-     "pubDate": "Wed, 19 Aug 2026 18:08:00 +0900"
+     "title": "日本代表GK 鈴木彩艶がプレミアリーグ アストンビラに移籍へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45104",
+     "pubDate": "Wed, 19 Aug 2026 18:26:36 +0900"
+    },
+    {
+     "title": "解約後も請求続く服レンタル業者 国民生活センターが注意喚起",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45075",
+     "pubDate": "Wed, 19 Aug 2026 18:35:55 +0900"
     },
     {
      "title": "俳優の岸惠子さん死去 93歳 映画「君の名は」など出演",
@@ -33,14 +38,9 @@
      "pubDate": "Wed, 19 Aug 2026 17:50:30 +0900"
     },
     {
-     "title": "トランプ大統領 秋にも米朝首脳会談を側近らに要求 米報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44961",
-     "pubDate": "Wed, 19 Aug 2026 17:47:48 +0900"
-    },
-    {
-     "title": "アジア大会 日本選手団の結団式 旗手の藤波朱理が意気込み",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45070",
-     "pubDate": "Wed, 19 Aug 2026 17:55:00 +0900"
+     "title": "佳子さま 沖縄の「豆記者」と懇談",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45066",
+     "pubDate": "Wed, 19 Aug 2026 18:15:08 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "天皇皇后両陛下 アジア大会開会式出席で9月に愛知県へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45073",
+     "pubDate": "Wed, 19 Aug 2026 18:50:55 +0900"
+    },
+    {
+     "title": "解約後も請求続く服レンタル業者 国民生活センターが注意喚起",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45075",
+     "pubDate": "Wed, 19 Aug 2026 18:35:55 +0900"
+    },
+    {
+     "title": "千葉豪雨 停電続くマンション 住民“一日も早い復旧を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44981",
+     "pubDate": "Wed, 19 Aug 2026 18:20:25 +0900"
+    },
     {
      "title": "宮崎 小林 眼科医院の駐車場で車突っ込む 女性死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45067",
@@ -108,21 +123,6 @@
      "title": "両陛下 空海ゆかりの名宝を集めた特別展に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44903",
      "pubDate": "Tue, 18 Aug 2026 22:35:00 +0900"
-    },
-    {
-     "title": "千葉市 豪雨による路上の約2500台の車 19日にも移動完了見通し",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44899",
-     "pubDate": "Tue, 18 Aug 2026 22:12:12 +0900"
-    },
-    {
-     "title": "“審判員に性的接待”報道 JFA宮本会長「事実確認進めている」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44878",
-     "pubDate": "Tue, 18 Aug 2026 20:31:33 +0900"
-    },
-    {
-     "title": "熊本地震から3週間 “見えない避難者”半数以上が体調悪化",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44872",
-     "pubDate": "Tue, 18 Aug 2026 20:01:00 +0900"
     }
    ]
   },
@@ -256,9 +256,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "ICC所長へ米制裁 外務省「残念」",
-     "link": "https://news.yahoo.co.jp/pickup/6592296?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 07:28:58 GMT"
+     "title": "ICC赤根所長に制裁 首相「残念」",
+     "link": "https://news.yahoo.co.jp/pickup/6592318?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 09:41:30 GMT"
     },
     {
      "title": "トロ安くなる? マグロ漁獲枠拡大",
@@ -266,19 +266,19 @@
      "pubDate": "Wed, 19 Aug 2026 06:35:20 GMT"
     },
     {
-     "title": "2歳死亡 近隣で以前から子の悲鳴",
-     "link": "https://news.yahoo.co.jp/pickup/6592304?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 08:30:45 GMT"
-    },
-    {
-     "title": "踏切で道ふさぎ殺人未遂疑い 逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6592301?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 07:59:05 GMT"
+     "title": "警察が盗難車を追跡 運転手は15歳",
+     "link": "https://news.yahoo.co.jp/pickup/6592316?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 09:26:32 GMT"
     },
     {
      "title": "女児34人にわいせつ 元教諭に実刑",
      "link": "https://news.yahoo.co.jp/pickup/6592294?source=rss",
      "pubDate": "Wed, 19 Aug 2026 07:19:14 GMT"
+    },
+    {
+     "title": "ロケット残骸衝突 月にクレーター",
+     "link": "https://news.yahoo.co.jp/pickup/6592303?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 08:20:31 GMT"
     },
     {
      "title": "動物園のアムールヤマネコ2匹死ぬ",
