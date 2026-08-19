@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T19:45:50.497Z",
+ "updatedAt": "2026-08-19T20:11:54.429Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45169",
+     "pubDate": "Thu, 20 Aug 2026 05:05:24 +0900"
+    },
     {
      "title": "米財務省が国債買い戻し倍増 長期金利上昇を押さえるねらい",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45184",
@@ -28,11 +33,6 @@
      "pubDate": "Wed, 19 Aug 2026 20:14:18 +0900"
     },
     {
-     "title": "防衛省 令和9年度予算案 過去最大 約9兆円要求の方向で調整",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45165",
-     "pubDate": "Wed, 19 Aug 2026 22:30:59 +0900"
-    },
-    {
      "title": "個人情報保護委 KDDIに行政指導 メールアドレスなど流出で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45162",
      "pubDate": "Wed, 19 Aug 2026 22:50:24 +0900"
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45169",
+     "pubDate": "Thu, 20 Aug 2026 05:05:24 +0900"
+    },
     {
      "title": "「OTC類似薬」追加負担めぐり 患者など団体が会見",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45168",
@@ -118,11 +123,6 @@
      "title": "大飯原発3号機の発電機停止 原因は 調査で運転再開時期は未定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45037",
      "pubDate": "Wed, 19 Aug 2026 18:08:00 +0900"
-    },
-    {
-     "title": "千葉豪雨 冠水道路で死亡の男性 知人「地域のために働く人」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45028",
-     "pubDate": "Wed, 19 Aug 2026 15:34:58 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45169",
+     "pubDate": "Thu, 20 Aug 2026 05:05:24 +0900"
+    },
     {
      "title": "火星衛星探査機「MMX」 10月20日に打ち上げで調整",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45099",
