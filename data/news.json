@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T20:50:17.328Z",
+ "updatedAt": "2026-08-19T21:13:57.050Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -25,7 +25,7 @@
     {
      "title": "米財務省が国債買い戻し倍増 長期金利上昇を押さえるねらい",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45184",
-     "pubDate": "Thu, 20 Aug 2026 02:04:47 +0900"
+     "pubDate": "Thu, 20 Aug 2026 02:04:00 +0900"
     },
     {
      "title": "千葉豪雨 浸水面積31平方キロ 山手線内側の半分ほどに達したか",
@@ -38,9 +38,9 @@
      "pubDate": "Wed, 19 Aug 2026 22:42:24 +0900"
     },
     {
-     "title": "経産省 来年度予算案の概算要求 7兆7千億円規模で調整",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45186",
-     "pubDate": "Thu, 20 Aug 2026 05:25:53 +0900"
+     "title": "ウクライナ 国民から高評価の前国防相が大統領選挙実施を要求",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45192",
+     "pubDate": "Thu, 20 Aug 2026 05:47:09 +0900"
     }
    ]
   },
@@ -186,7 +186,7 @@
     {
      "title": "米財務省が国債買い戻し倍増 長期金利上昇を押さえるねらい",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45184",
-     "pubDate": "Thu, 20 Aug 2026 02:04:47 +0900"
+     "pubDate": "Thu, 20 Aug 2026 02:04:00 +0900"
     },
     {
      "title": "茂木外相 サウジアラビアなど湾岸諸国の経済強じん化を支援",
@@ -286,14 +286,14 @@
      "pubDate": "Wed, 19 Aug 2026 10:30:12 GMT"
     },
     {
-     "title": "8強の有明が熊本帰郷 市民ら歓声",
-     "link": "https://news.yahoo.co.jp/pickup/6592346?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 14:50:47 GMT"
-    },
-    {
      "title": "カズ59歳 天皇杯1回戦で2ゴール",
      "link": "https://news.yahoo.co.jp/pickup/6592330?source=rss",
      "pubDate": "Wed, 19 Aug 2026 12:14:11 GMT"
+    },
+    {
+     "title": "上白石萌音 ドラマ主演で1人2役",
+     "link": "https://news.yahoo.co.jp/pickup/6592347?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 21:09:18 GMT"
     },
     {
      "title": "四千頭身・後藤 解散はありません",
