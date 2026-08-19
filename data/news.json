@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T15:53:59.527Z",
+ "updatedAt": "2026-08-19T16:16:05.308Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -165,11 +165,6 @@
      "title": "戦争体験つづった「ガラスのうさぎ」作者 高木敏子さん死去",
      "link": "https://news.web.nhk/newsweb/na/nd-20260813de43862",
      "pubDate": "Fri, 14 Aug 2026 02:22:27 +0900"
-    },
-    {
-     "title": "火星衛星探査機「MMX」公開 秋にも打ち上げへ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43676",
-     "pubDate": "Thu, 13 Aug 2026 20:45:14 +0900"
     }
    ]
   },
