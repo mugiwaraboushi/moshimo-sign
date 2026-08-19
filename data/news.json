@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T20:11:54.429Z",
+ "updatedAt": "2026-08-19T20:50:17.328Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "神戸 女性殺害事件1年「面識ない」ストーカー相談 兵庫で増加",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45161",
+     "pubDate": "Thu, 20 Aug 2026 05:18:45 +0900"
+    },
+    {
      "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45169",
      "pubDate": "Thu, 20 Aug 2026 05:05:24 +0900"
+    },
+    {
+     "title": "秋篠宮ご夫妻パラグアイに到着",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45170",
+     "pubDate": "Thu, 20 Aug 2026 05:31:14 +0900"
     },
     {
      "title": "米財務省が国債買い戻し倍増 長期金利上昇を押さえるねらい",
@@ -28,19 +38,9 @@
      "pubDate": "Wed, 19 Aug 2026 22:42:24 +0900"
     },
     {
-     "title": "車水没 ドラレコに記録 「このまま行けると思ったが…」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44985",
-     "pubDate": "Wed, 19 Aug 2026 20:14:18 +0900"
-    },
-    {
-     "title": "個人情報保護委 KDDIに行政指導 メールアドレスなど流出で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45162",
-     "pubDate": "Wed, 19 Aug 2026 22:50:24 +0900"
-    },
-    {
-     "title": "「OTC類似薬」追加負担めぐり 患者など団体が会見",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45168",
-     "pubDate": "Wed, 19 Aug 2026 23:03:33 +0900"
+     "title": "経産省 来年度予算案の概算要求 7兆7千億円規模で調整",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45186",
+     "pubDate": "Thu, 20 Aug 2026 05:25:53 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "秋篠宮ご夫妻パラグアイに到着",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45170",
+     "pubDate": "Thu, 20 Aug 2026 05:31:14 +0900"
+    },
+    {
+     "title": "神戸 女性殺害事件1年「面識ない」ストーカー相談 兵庫で増加",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45161",
+     "pubDate": "Thu, 20 Aug 2026 05:18:45 +0900"
+    },
     {
      "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45169",
@@ -113,16 +123,6 @@
      "title": "宮崎 小林 眼科医院の駐車場で車突っ込む 女性死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45067",
      "pubDate": "Wed, 19 Aug 2026 18:18:46 +0900"
-    },
-    {
-     "title": "佳子さま 沖縄の「豆記者」と懇談",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45066",
-     "pubDate": "Wed, 19 Aug 2026 18:15:08 +0900"
-    },
-    {
-     "title": "大飯原発3号機の発電機停止 原因は 調査で運転再開時期は未定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45037",
-     "pubDate": "Wed, 19 Aug 2026 18:08:00 +0900"
     }
    ]
   },
@@ -178,6 +178,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "ウクライナ 国民から高評価の前国防相が大統領選挙実施を要求",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45192",
+     "pubDate": "Thu, 20 Aug 2026 05:47:09 +0900"
+    },
     {
      "title": "米財務省が国債買い戻し倍増 長期金利上昇を押さえるねらい",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45184",
@@ -247,11 +252,6 @@
      "title": "UAE“イランから弾道ミサイル2発発射” イラン側は関与否定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44965",
      "pubDate": "Wed, 19 Aug 2026 14:05:00 +0900"
-    },
-    {
-     "title": "トランプ大統領 秋にも米朝首脳会談を側近らに要求 米報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44961",
-     "pubDate": "Wed, 19 Aug 2026 17:47:48 +0900"
     }
    ]
   },
