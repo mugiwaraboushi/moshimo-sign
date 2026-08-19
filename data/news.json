@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T07:58:24.596Z",
+ "updatedAt": "2026-08-19T08:31:46.928Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -25,7 +25,7 @@
     {
      "title": "台風18号発生 日本のはるか南東 今後の情報に注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45027",
-     "pubDate": "Wed, 19 Aug 2026 15:28:10 +0900"
+     "pubDate": "Wed, 19 Aug 2026 15:28:00 +0900"
     },
     {
      "title": "俳優の岸惠子さん死去 93歳 映画「君の名は」など出演",
@@ -261,29 +261,29 @@
      "pubDate": "Wed, 19 Aug 2026 07:19:02 GMT"
     },
     {
+     "title": "トロ安くなる? マグロ漁獲枠拡大",
+     "link": "https://news.yahoo.co.jp/pickup/6592288?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 06:35:20 GMT"
+    },
+    {
+     "title": "踏切で道ふさぎ殺人未遂疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6592301?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 07:59:05 GMT"
+    },
+    {
      "title": "女児34人にわいせつ 元教諭に実刑",
      "link": "https://news.yahoo.co.jp/pickup/6592294?source=rss",
      "pubDate": "Wed, 19 Aug 2026 07:19:14 GMT"
     },
     {
-     "title": "フードデリバリー「menu」終了へ",
-     "link": "https://news.yahoo.co.jp/pickup/6592284?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 05:42:13 GMT"
-    },
-    {
-     "title": "転売目的で大量購入 悪性bot実態",
-     "link": "https://news.yahoo.co.jp/pickup/6592285?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 05:57:14 GMT"
+     "title": "横綱・豊昇龍 右膝の手術を明かす",
+     "link": "https://news.yahoo.co.jp/pickup/6592299?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 07:50:43 GMT"
     },
     {
      "title": "脊髄梗塞公表 元中日の石川翔退院",
      "link": "https://news.yahoo.co.jp/pickup/6592300?source=rss",
      "pubDate": "Wed, 19 Aug 2026 07:46:35 GMT"
-    },
-    {
-     "title": "元西武・平井克典 今季限りで引退",
-     "link": "https://news.yahoo.co.jp/pickup/6592298?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 07:34:49 GMT"
     },
     {
      "title": "岸恵子さん死去 真知子巻き大流行",
