@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T05:24:21.526Z",
+ "updatedAt": "2026-08-19T05:52:34.540Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -40,7 +40,7 @@
     {
      "title": "ドジャース大谷 6年連続30号ホームラン チームは2連勝",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44941",
-     "pubDate": "Wed, 19 Aug 2026 14:06:20 +0900"
+     "pubDate": "Wed, 19 Aug 2026 14:31:42 +0900"
     }
    ]
   },
@@ -181,7 +181,7 @@
     {
      "title": "韓国軍「米韓合同軍事演習 21日まで」 期間半分程度に短縮発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44964",
-     "pubDate": "Wed, 19 Aug 2026 12:29:58 +0900"
+     "pubDate": "Wed, 19 Aug 2026 12:29:00 +0900"
     },
     {
      "title": "米ABCテレビが提訴“政権が放送免許更新の審査前倒しで報復”",
@@ -261,14 +261,14 @@
      "pubDate": "Wed, 19 Aug 2026 03:58:11 GMT"
     },
     {
-     "title": "従業員逮捕 竹中工務店がコメント",
-     "link": "https://news.yahoo.co.jp/pickup/6592265?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 02:41:31 GMT"
+     "title": "フードデリバリー「menu」終了へ",
+     "link": "https://news.yahoo.co.jp/pickup/6592284?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 05:42:13 GMT"
     },
     {
-     "title": "ヘルパーがパチンコ 障害者を放置",
-     "link": "https://news.yahoo.co.jp/pickup/6592267?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 02:49:46 GMT"
+     "title": "ライブ券秒速買い占め botの実態",
+     "link": "https://news.yahoo.co.jp/pickup/6592282?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 05:25:22 GMT"
     },
     {
      "title": "カリブ海 海藻で各地のビーチ茶色",
@@ -276,9 +276,9 @@
      "pubDate": "Wed, 19 Aug 2026 02:37:49 GMT"
     },
     {
-     "title": "洋麺屋五右衛門 出店ラッシュの訳",
-     "link": "https://news.yahoo.co.jp/pickup/6592278?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 04:17:40 GMT"
+     "title": "必要な便器数の算出基準 見直しへ",
+     "link": "https://news.yahoo.co.jp/pickup/6592277?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 04:03:03 GMT"
     },
     {
      "title": "報知器鳴り藤井王位避難 対局遅れ",
