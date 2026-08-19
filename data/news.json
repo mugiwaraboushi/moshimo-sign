@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T08:31:46.928Z",
+ "updatedAt": "2026-08-19T09:20:02.855Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,24 +23,24 @@
      "pubDate": "Wed, 19 Aug 2026 15:34:58 +0900"
     },
     {
-     "title": "台風18号発生 日本のはるか南東 今後の情報に注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45027",
-     "pubDate": "Wed, 19 Aug 2026 15:28:00 +0900"
+     "title": "大飯原発3号機の発電機停止 原因は 調査で運転再開時期は未定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45037",
+     "pubDate": "Wed, 19 Aug 2026 18:08:00 +0900"
     },
     {
      "title": "俳優の岸惠子さん死去 93歳 映画「君の名は」など出演",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44980",
-     "pubDate": "Wed, 19 Aug 2026 15:29:49 +0900"
+     "pubDate": "Wed, 19 Aug 2026 17:50:30 +0900"
     },
     {
-     "title": "ドジャース 大谷翔平 6年連続30号ホームラン チームは2連勝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44941",
-     "pubDate": "Wed, 19 Aug 2026 16:18:26 +0900"
+     "title": "トランプ大統領 秋にも米朝首脳会談を側近らに要求 米報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44961",
+     "pubDate": "Wed, 19 Aug 2026 17:47:48 +0900"
     },
     {
-     "title": "ホワイトソックス村上宗隆 29号ホームラン シーズン30号に王手",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45056",
-     "pubDate": "Wed, 19 Aug 2026 16:29:39 +0900"
+     "title": "アジア大会 日本選手団の結団式 旗手の藤波朱理が意気込み",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45070",
+     "pubDate": "Wed, 19 Aug 2026 17:55:00 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "宮崎 小林 眼科医院の駐車場で車突っ込む 女性死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45067",
+     "pubDate": "Wed, 19 Aug 2026 18:18:46 +0900"
+    },
+    {
+     "title": "佳子さま 沖縄の「豆記者」と懇談",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45066",
+     "pubDate": "Wed, 19 Aug 2026 18:15:08 +0900"
+    },
+    {
+     "title": "大飯原発3号機の発電機停止 原因は 調査で運転再開時期は未定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45037",
+     "pubDate": "Wed, 19 Aug 2026 18:08:00 +0900"
+    },
     {
      "title": "千葉豪雨 冠水道路で死亡の男性 知人「地域のために働く人」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45028",
@@ -72,7 +87,7 @@
     {
      "title": "俳優の岸惠子さん死去 93歳 映画「君の名は」など出演",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44980",
-     "pubDate": "Wed, 19 Aug 2026 15:29:49 +0900"
+     "pubDate": "Wed, 19 Aug 2026 17:50:30 +0900"
     },
     {
      "title": "【地震情報】熊本で震度3 津波の心配なし",
@@ -108,21 +123,6 @@
      "title": "熊本地震から3週間 “見えない避難者”半数以上が体調悪化",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44872",
      "pubDate": "Tue, 18 Aug 2026 20:01:00 +0900"
-    },
-    {
-     "title": "路上に置かれた車への衝突事故 千葉市内で少なくとも8件",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44835",
-     "pubDate": "Tue, 18 Aug 2026 19:16:41 +0900"
-    },
-    {
-     "title": "熊本地震 「井戸水の町」八代市 井戸の復旧追いつかず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44846",
-     "pubDate": "Tue, 18 Aug 2026 18:36:43 +0900"
-    },
-    {
-     "title": "高市首相 千葉豪雨で普通交付税の繰り上げ交付を指示",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44837",
-     "pubDate": "Tue, 18 Aug 2026 18:29:18 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "大飯原発3号機の発電機停止 原因は 調査で運転再開時期は未定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45037",
+     "pubDate": "Wed, 19 Aug 2026 18:08:00 +0900"
+    },
     {
      "title": "NHK杯全国中学校放送コンテスト決勝 各部門の最優秀賞選ばれる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44847",
@@ -191,7 +196,7 @@
     {
      "title": "トランプ大統領 秋にも米朝首脳会談を側近らに要求 米報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44961",
-     "pubDate": "Wed, 19 Aug 2026 13:14:59 +0900"
+     "pubDate": "Wed, 19 Aug 2026 17:47:48 +0900"
     },
     {
      "title": "韓国軍「米韓合同軍事演習 21日まで」 期間半分程度に短縮発表",
@@ -236,7 +241,7 @@
     {
      "title": "米トランプ政権 ICC＝国際刑事裁判所 赤根所長を制裁対象に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44920",
-     "pubDate": "Wed, 19 Aug 2026 16:04:45 +0900"
+     "pubDate": "Wed, 19 Aug 2026 18:10:20 +0900"
     },
     {
      "title": "“英首相が米大統領首席補佐官装う人物とメッセージ”報道",
@@ -256,14 +261,14 @@
      "pubDate": "Wed, 19 Aug 2026 07:28:58 GMT"
     },
     {
-     "title": "東証続落 中東混乱の景気減速懸念",
-     "link": "https://news.yahoo.co.jp/pickup/6592295?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 07:19:02 GMT"
-    },
-    {
      "title": "トロ安くなる? マグロ漁獲枠拡大",
      "link": "https://news.yahoo.co.jp/pickup/6592288?source=rss",
      "pubDate": "Wed, 19 Aug 2026 06:35:20 GMT"
+    },
+    {
+     "title": "2歳死亡 近隣で以前から子の悲鳴",
+     "link": "https://news.yahoo.co.jp/pickup/6592304?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 08:30:45 GMT"
     },
     {
      "title": "踏切で道ふさぎ殺人未遂疑い 逮捕",
@@ -276,19 +281,19 @@
      "pubDate": "Wed, 19 Aug 2026 07:19:14 GMT"
     },
     {
-     "title": "横綱・豊昇龍 右膝の手術を明かす",
-     "link": "https://news.yahoo.co.jp/pickup/6592299?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 07:50:43 GMT"
+     "title": "動物園のアムールヤマネコ2匹死ぬ",
+     "link": "https://news.yahoo.co.jp/pickup/6592307?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 08:32:08 GMT"
     },
     {
-     "title": "脊髄梗塞公表 元中日の石川翔退院",
-     "link": "https://news.yahoo.co.jp/pickup/6592300?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 07:46:35 GMT"
+     "title": "制汗剤の塗り直しはNG? 医師解説",
+     "link": "https://news.yahoo.co.jp/pickup/6592289?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 06:43:52 GMT"
     },
     {
-     "title": "岸恵子さん死去 真知子巻き大流行",
-     "link": "https://news.yahoo.co.jp/pickup/6592281?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 05:16:39 GMT"
+     "title": "GK鈴木彩艶アストンビラ加入決定",
+     "link": "https://news.yahoo.co.jp/pickup/6592310?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 08:58:57 GMT"
     }
    ]
   }
