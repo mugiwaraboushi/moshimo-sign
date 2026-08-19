@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T15:26:29.182Z",
+ "updatedAt": "2026-08-19T15:53:59.527Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -261,14 +261,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "JR九州被害額16年地震上回る恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6592335?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 12:49:21 GMT"
-    },
-    {
      "title": "豪雨 千葉市幹線道路の車撤去完了",
      "link": "https://news.yahoo.co.jp/pickup/6592341?source=rss",
      "pubDate": "Wed, 19 Aug 2026 13:50:40 GMT"
+    },
+    {
+     "title": "JR九州被害額16年地震上回る恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6592335?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 12:49:21 GMT"
     },
     {
      "title": "中道落選者ら 政治団体ゴリラ設立",
