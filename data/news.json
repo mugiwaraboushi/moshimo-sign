@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T04:23:23.123Z",
+ "updatedAt": "2026-08-20T04:59:56.306Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "栃木 東武日光線の駅で特急が作業中の4人に接触 意識ない状態",
+     "title": "栃木 東武日光線の駅で特急と接触の作業員4人全員の死亡を確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 13:22:09 +0900"
+     "pubDate": "Thu, 20 Aug 2026 13:47:16 +0900"
     },
     {
-     "title": "【速報中】高校野球 健大高崎が初の決勝進出 天理に競り勝つ",
+     "title": "高校野球 健大高崎が初の決勝進出 天理に競り勝つ【詳報】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45039",
-     "pubDate": "Thu, 20 Aug 2026 13:21:18 +0900"
+     "pubDate": "Thu, 20 Aug 2026 13:33:55 +0900"
     },
     {
      "title": "千葉豪雨から1週間 ボランティア本格化 園児受け入れの動きも",
@@ -50,9 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "栃木 東武日光線の駅で特急が作業中の4人に接触 意識ない状態",
+     "title": "福岡 天神の川でネパール国籍の女性の遺体 殺人事件として捜査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45252",
+     "pubDate": "Thu, 20 Aug 2026 13:33:21 +0900"
+    },
+    {
+     "title": "栃木 東武日光線の駅で特急と接触の作業員4人全員の死亡を確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 13:22:09 +0900"
+     "pubDate": "Thu, 20 Aug 2026 13:47:16 +0900"
     },
     {
      "title": "成田空港で旅客機エンジンから煙 けが人なし 滑走路閉鎖",
@@ -72,7 +77,7 @@
     {
      "title": "【動画】Pickup NEWS（8月20日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45141",
-     "pubDate": "Thu, 20 Aug 2026 10:00:56 +0900"
+     "pubDate": "Thu, 20 Aug 2026 13:49:42 +0900"
     },
     {
      "title": "秋篠宮ご夫妻パラグアイに到着",
@@ -118,11 +123,6 @@
      "title": "千葉県は豪雨の死者・行方不明者の氏名は公表せず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45109",
      "pubDate": "Wed, 19 Aug 2026 20:09:25 +0900"
-    },
-    {
-     "title": "埼玉 交通トラブル相手の車 踏切内閉じ込めか 殺人未遂で逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45091",
-     "pubDate": "Wed, 19 Aug 2026 20:03:29 +0900"
     }
    ]
   },
@@ -266,24 +266,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "特急電車に接触 作業員4人が死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6592397?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 04:40:56 GMT"
+    },
+    {
      "title": "千葉豪雨1週間 元の生活に戻れず",
      "link": "https://news.yahoo.co.jp/pickup/6592385?source=rss",
      "pubDate": "Thu, 20 Aug 2026 03:03:36 GMT"
     },
     {
-     "title": "国産AIシステムの実証始動 政府",
-     "link": "https://news.yahoo.co.jp/pickup/6592378?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 02:31:02 GMT"
+     "title": "ロシアでガソリン不足「第2波」",
+     "link": "https://news.yahoo.co.jp/pickup/6592382?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 02:48:06 GMT"
     },
     {
-     "title": "特急に作業員4人はねられ心肺停止",
-     "link": "https://news.yahoo.co.jp/pickup/6592395?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 04:02:29 GMT"
-    },
-    {
-     "title": "福岡市の川に女性遺体 殺人と断定",
-     "link": "https://news.yahoo.co.jp/pickup/6592379?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 02:33:14 GMT"
+     "title": "外食で「ダブル看板」広がる 戦略",
+     "link": "https://news.yahoo.co.jp/pickup/6592387?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 04:32:07 GMT"
     },
     {
      "title": "くら寿司 最低価格の値下げ発表",
@@ -296,14 +296,14 @@
      "pubDate": "Thu, 20 Aug 2026 02:36:44 GMT"
     },
     {
-     "title": "健大高崎 天理との接戦制し決勝へ",
-     "link": "https://news.yahoo.co.jp/pickup/6592394?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 04:03:25 GMT"
+     "title": "22日決勝 智弁和歌山vs.健大高崎",
+     "link": "https://news.yahoo.co.jp/pickup/6592398?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 04:55:43 GMT"
     },
     {
-     "title": "横浜敗退 乱調の織田は大粒の涙",
-     "link": "https://news.yahoo.co.jp/pickup/6592375?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 02:23:50 GMT"
+     "title": "秋山竜次 元マネからCMオファー",
+     "link": "https://news.yahoo.co.jp/pickup/6592384?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 02:59:08 GMT"
     }
    ]
   }
