@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T12:19:51.652Z",
+ "updatedAt": "2026-08-20T13:23:49.998Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,22 +10,17 @@
     {
      "title": "栃木 東武日光線の駅で作業員4人が特急と接触し死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 20:54:22 +0900"
+     "pubDate": "Thu, 20 Aug 2026 21:50:13 +0900"
     },
     {
-     "title": "千葉豪雨 夜の消防通報2200件超 緊迫の音声記録も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45321",
-     "pubDate": "Thu, 20 Aug 2026 20:39:26 +0900"
+     "title": "台風18号 23日には非常に強い勢力に発達か 今後の情報に注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45221",
+     "pubDate": "Thu, 20 Aug 2026 19:41:00 +0900"
     },
     {
      "title": "千葉豪雨 幹線道路の車両移動は完了も水没車両の対応続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45364",
-     "pubDate": "Thu, 20 Aug 2026 20:09:06 +0900"
-    },
-    {
-     "title": "大気不安定 福島県で猛烈な雨 北日本東日本中心にあすも雨注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45196",
-     "pubDate": "Thu, 20 Aug 2026 19:22:00 +0900"
+     "pubDate": "Thu, 20 Aug 2026 20:09:00 +0900"
     },
     {
      "title": "熊本 住宅狙う空き巣対策でパトロール強化【被災地の動き】",
@@ -33,14 +28,19 @@
      "pubDate": "Thu, 20 Aug 2026 19:55:17 +0900"
     },
     {
-     "title": "熊本地震 死者数38人と発表 1人は地震と関連なし 2925人が避難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45341",
-     "pubDate": "Thu, 20 Aug 2026 20:02:26 +0900"
+     "title": "福岡 天神 女性殺害事件 退勤5時間後に女性いないと知人が通報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45371",
+     "pubDate": "Thu, 20 Aug 2026 20:55:00 +0900"
     },
     {
      "title": "小泉防衛相 インドと通信アンテナ早期移転へ新協議体設置合意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45369",
      "pubDate": "Thu, 20 Aug 2026 19:43:00 +0900"
+    },
+    {
+     "title": "阪神 伊原陵人投手 1軍選手登録を抹消 週刊誌報道を受けて",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45387",
+     "pubDate": "Thu, 20 Aug 2026 20:45:48 +0900"
     }
    ]
   },
@@ -52,7 +52,7 @@
     {
      "title": "福岡 天神 女性殺害事件 退勤5時間後に女性いないと知人が通報",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45371",
-     "pubDate": "Thu, 20 Aug 2026 20:55:43 +0900"
+     "pubDate": "Thu, 20 Aug 2026 20:55:00 +0900"
     },
     {
      "title": "高校無償化で私立人気が高まる 公立高校の志願者全国で4％余減",
@@ -85,9 +85,9 @@
      "pubDate": "Thu, 20 Aug 2026 18:03:00 +0900"
     },
     {
-     "title": "北朝鮮の弾道ミサイルの可能性あるもの 日本のEEZ外に落下か",
+     "title": "北朝鮮が複数の弾道ミサイル発射 日本のEEZ外に落下か 防衛省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45335",
-     "pubDate": "Thu, 20 Aug 2026 20:02:09 +0900"
+     "pubDate": "Thu, 20 Aug 2026 21:25:02 +0900"
     },
     {
      "title": "熊本地震 八代市長が農業用水確保などの支援を鈴木農相に要請",
@@ -112,7 +112,7 @@
     {
      "title": "三重 釣り客2人死亡の衝突事故 遊漁船船長を書類送検 鳥羽海保",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45277",
-     "pubDate": "Thu, 20 Aug 2026 14:14:38 +0900"
+     "pubDate": "Thu, 20 Aug 2026 14:14:00 +0900"
     },
     {
      "title": "福岡 天神の川でネパール国籍の女性の遺体 殺人事件として捜査",
@@ -122,7 +122,7 @@
     {
      "title": "栃木 東武日光線の駅で作業員4人が特急と接触し死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 20:54:22 +0900"
+     "pubDate": "Thu, 20 Aug 2026 21:50:13 +0900"
     }
    ]
   },
@@ -132,9 +132,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "柏崎刈羽原発で運転員が他人のIDカードで不適切に退室",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45408",
+     "pubDate": "Thu, 20 Aug 2026 22:07:51 +0900"
+    },
+    {
      "title": "スリーマイル島原発廃炉 初取材 AI需要で隣接原子炉再稼働へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45306",
-     "pubDate": "Thu, 20 Aug 2026 16:35:44 +0900"
+     "pubDate": "Thu, 20 Aug 2026 16:35:00 +0900"
     },
     {
      "title": "フェルメール代表作「真珠の耳飾りの少女」14年ぶり来日公開へ",
@@ -189,6 +194,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "中国 レアアース磁石の対日輸出 7月は半減 輸出規制が影響か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45409",
+     "pubDate": "Thu, 20 Aug 2026 21:52:58 +0900"
+    },
+    {
      "title": "韓国各地で朝鮮半島有事を想定した大規模避難訓練",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45375",
      "pubDate": "Thu, 20 Aug 2026 21:09:09 +0900"
@@ -201,7 +211,7 @@
     {
      "title": "ロシア軍が北方領土周辺の艦船想定し訓練実施を発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45379",
-     "pubDate": "Thu, 20 Aug 2026 20:48:36 +0900"
+     "pubDate": "Thu, 20 Aug 2026 22:04:17 +0900"
     },
     {
      "title": "キーウにミサイル攻撃などで13人死亡 応酬続く",
@@ -219,9 +229,9 @@
      "pubDate": "Thu, 20 Aug 2026 18:10:54 +0900"
     },
     {
-     "title": "北朝鮮の弾道ミサイルの可能性あるもの 日本のEEZ外に落下か",
+     "title": "北朝鮮が複数の弾道ミサイル発射 日本のEEZ外に落下か 防衛省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45335",
-     "pubDate": "Thu, 20 Aug 2026 20:02:09 +0900"
+     "pubDate": "Thu, 20 Aug 2026 21:25:02 +0900"
     },
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月20日の動き）",
@@ -231,7 +241,7 @@
     {
      "title": "スリーマイル島原発廃炉 初取材 AI需要で隣接原子炉再稼働へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45306",
-     "pubDate": "Thu, 20 Aug 2026 16:35:44 +0900"
+     "pubDate": "Thu, 20 Aug 2026 16:35:00 +0900"
     },
     {
      "title": "台湾の防衛費予算案 初の1兆台湾元超に 自衛力強化の方針示す",
@@ -257,11 +267,6 @@
      "title": "米大統領“海峡掌握”イラン 欧州の米軍関連施設攻撃も視野か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45195",
      "pubDate": "Thu, 20 Aug 2026 07:02:00 +0900"
-    },
-    {
-     "title": "中韓外相会談 朝鮮半島情勢めぐり意見交わす",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45183",
-     "pubDate": "Thu, 20 Aug 2026 06:52:35 +0900"
     }
    ]
   },
@@ -271,14 +276,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "北朝鮮の対日批判 激化の背景分析",
-     "link": "https://news.yahoo.co.jp/pickup/6592447?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 10:53:17 GMT"
+     "title": "首相 7月就任の英首相と電話会談",
+     "link": "https://news.yahoo.co.jp/pickup/6592461?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 13:03:03 GMT"
     },
     {
-     "title": "子2人の姿が土砂に消え 母の思い",
-     "link": "https://news.yahoo.co.jp/pickup/6592443?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 10:22:08 GMT"
+     "title": "21日 関東など急な雨や雷雨に注意",
+     "link": "https://news.yahoo.co.jp/pickup/6592458?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 12:41:53 GMT"
     },
     {
      "title": "列車に接触し4人死亡 身元判明",
@@ -286,19 +291,19 @@
      "pubDate": "Thu, 20 Aug 2026 11:24:44 GMT"
     },
     {
-     "title": "マンション「共連れ」進む対策",
-     "link": "https://news.yahoo.co.jp/pickup/6592444?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 10:24:44 GMT"
-    },
-    {
-     "title": "富士山6合目 1人でいた7歳を救助",
-     "link": "https://news.yahoo.co.jp/pickup/6592439?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 09:42:07 GMT"
+     "title": "時間外労働 一律抑制見直しに反発",
+     "link": "https://news.yahoo.co.jp/pickup/6592452?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 11:57:01 GMT"
     },
     {
      "title": "メガネにコスメ的な機能 各社注力",
      "link": "https://news.yahoo.co.jp/pickup/6592448?source=rss",
      "pubDate": "Thu, 20 Aug 2026 10:51:26 GMT"
+    },
+    {
+     "title": "道沿いに連日のパン投棄 39㎏確認",
+     "link": "https://news.yahoo.co.jp/pickup/6592459?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 12:44:54 GMT"
     },
     {
      "title": "伊原の疑惑 阪神がおおむね認める",
