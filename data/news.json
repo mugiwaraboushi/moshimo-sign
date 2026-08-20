@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T11:14:58.790Z",
+ "updatedAt": "2026-08-20T11:48:40.697Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,9 @@
      "pubDate": "Thu, 20 Aug 2026 19:54:20 +0900"
     },
     {
-     "title": "千葉豪雨 死者13人 浸水3501棟 農林水産業の被害19億円",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45350",
-     "pubDate": "Thu, 20 Aug 2026 18:14:04 +0900"
+     "title": "千葉豪雨 夜の消防通報2200件超 緊迫の音声記録も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45321",
+     "pubDate": "Thu, 20 Aug 2026 20:39:26 +0900"
     },
     {
      "title": "千葉豪雨 幹線道路の車両移動は完了も水没車両の対応続く",
@@ -189,6 +189,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "キーウにミサイル攻撃などで13人死亡 応酬続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45383",
+     "pubDate": "Thu, 20 Aug 2026 20:44:59 +0900"
+    },
+    {
      "title": "小泉防衛相 インドと通信アンテナ早期移転へ新協議体設置合意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45369",
      "pubDate": "Thu, 20 Aug 2026 19:43:00 +0900"
@@ -257,11 +262,6 @@
      "title": "独検察 ノルドストリーム爆発 ウクライナ国籍の男を新たに逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45187",
      "pubDate": "Thu, 20 Aug 2026 06:26:00 +0900"
-    },
-    {
-     "title": "トランプ大統領 北朝鮮キム総書記との年内会談に意欲",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45193",
-     "pubDate": "Thu, 20 Aug 2026 06:22:00 +0900"
     }
    ]
   },
@@ -286,9 +286,9 @@
      "pubDate": "Thu, 20 Aug 2026 09:20:27 GMT"
     },
     {
-     "title": "4人死亡 見張り役が列車に合図",
-     "link": "https://news.yahoo.co.jp/pickup/6592417?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 07:40:58 GMT"
+     "title": "列車に接触し4人死亡 身元判明",
+     "link": "https://news.yahoo.co.jp/pickup/6592450?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 11:24:44 GMT"
     },
     {
      "title": "子2人の姿が土砂に消え 母の思い",
