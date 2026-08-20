@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T20:52:05.091Z",
+ "updatedAt": "2026-08-20T21:15:39.321Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "栃木 東武日光線の駅で作業員4人が特急と接触し死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 23:20:35 +0900"
+     "title": "栃木4人死亡列車事故 見張り役情報共有できていなかった可能性",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45429",
+     "pubDate": "Fri, 21 Aug 2026 06:02:00 +0900"
     },
     {
      "title": "台風18号 23日には非常に強い勢力に発達か 今後の情報に注意を",
@@ -23,6 +23,11 @@
      "pubDate": "Thu, 20 Aug 2026 20:09:00 +0900"
     },
     {
+     "title": "ロシアによる攻撃 キーウなどで16人死亡 46人けが",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45383",
+     "pubDate": "Fri, 21 Aug 2026 03:16:28 +0900"
+    },
+    {
      "title": "キム・ヨジョン氏 “米韓は主従関係”米と対話の可能性示唆か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45428",
      "pubDate": "Fri, 21 Aug 2026 04:48:22 +0900"
@@ -31,11 +36,6 @@
      "title": "JA全中会長 ことし産のコメ「概算金」下落に懸念示す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45359",
      "pubDate": "Thu, 20 Aug 2026 20:42:59 +0900"
-    },
-    {
-     "title": "韓国各地で朝鮮半島有事を想定した大規模避難訓練",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45375",
-     "pubDate": "Thu, 20 Aug 2026 21:09:09 +0900"
     },
     {
      "title": "阪神 伊原陵人投手 1軍選手登録を抹消 週刊誌報道を受けて",
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "栃木4人死亡列車事故 見張り役情報共有できていなかった可能性",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45429",
+     "pubDate": "Fri, 21 Aug 2026 06:02:00 +0900"
+    },
+    {
+     "title": "みなとみらい線 運転再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45436",
+     "pubDate": "Fri, 21 Aug 2026 05:59:00 +0900"
+    },
     {
      "title": "非上場企業の株式 新たな評価方式の案を公表 国税庁",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45411",
@@ -113,16 +123,6 @@
      "title": "火星衛星探査機「MMX」10月20日打ち上げ JAXA発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45290",
      "pubDate": "Thu, 20 Aug 2026 15:06:22 +0900"
-    },
-    {
-     "title": "三重 釣り客2人死亡の衝突事故 遊漁船船長を書類送検 鳥羽海保",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45277",
-     "pubDate": "Thu, 20 Aug 2026 14:14:00 +0900"
-    },
-    {
-     "title": "福岡 天神の川でネパール国籍の女性の遺体 殺人事件として捜査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45252",
-     "pubDate": "Thu, 20 Aug 2026 13:33:00 +0900"
     }
    ]
   },
@@ -276,9 +276,9 @@
      "pubDate": "Thu, 20 Aug 2026 13:32:34 GMT"
     },
     {
-     "title": "道沿いに連日のパン投棄 39kg確認",
-     "link": "https://news.yahoo.co.jp/pickup/6592472?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 15:17:12 GMT"
+     "title": "飛び込みスポット 20歳が意識不明",
+     "link": "https://news.yahoo.co.jp/pickup/6592473?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 21:05:27 GMT"
     },
     {
      "title": "中国 沖縄の帰属を巡り「疑義」",
@@ -286,9 +286,9 @@
      "pubDate": "Thu, 20 Aug 2026 14:31:38 GMT"
     },
     {
-     "title": "東京の地図情報サイト 都が公開",
-     "link": "https://news.yahoo.co.jp/pickup/6592466?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 13:49:18 GMT"
+     "title": "道沿いに連日のパン投棄 39kg確認",
+     "link": "https://news.yahoo.co.jp/pickup/6592472?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 15:17:12 GMT"
     },
     {
      "title": "伊原の疑惑 阪神がおおむね認める",
