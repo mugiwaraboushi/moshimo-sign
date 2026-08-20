@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T22:50:38.541Z",
+ "updatedAt": "2026-08-20T23:13:41.047Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -266,9 +266,9 @@
      "pubDate": "Thu, 20 Aug 2026 21:34:50 GMT"
     },
     {
-     "title": "26年産新米 大幅値下がりの見通し",
-     "link": "https://news.yahoo.co.jp/pickup/6592471?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 14:47:54 GMT"
+     "title": "北方領土周辺で演習 露が映像公開",
+     "link": "https://news.yahoo.co.jp/pickup/6592485?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 23:02:39 GMT"
     },
     {
      "title": "4人死亡 退避完了と見張りが合図",
@@ -286,6 +286,11 @@
      "pubDate": "Thu, 20 Aug 2026 22:28:25 GMT"
     },
     {
+     "title": "くら寿司最低価格下げる なぜ逆行",
+     "link": "https://news.yahoo.co.jp/pickup/6592483?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 22:56:47 GMT"
+    },
+    {
      "title": "岡本が26号 球団新人最多を更新",
      "link": "https://news.yahoo.co.jp/pickup/6592477?source=rss",
      "pubDate": "Thu, 20 Aug 2026 22:12:13 GMT"
@@ -294,11 +299,6 @@
      "title": "中日サヨナラ負け 9回異例の敬遠",
      "link": "https://news.yahoo.co.jp/pickup/6592476?source=rss",
      "pubDate": "Thu, 20 Aug 2026 21:51:23 GMT"
-    },
-    {
-     "title": "田中樹 24時間テレビドラマ出演",
-     "link": "https://news.yahoo.co.jp/pickup/6592480?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 22:26:53 GMT"
     }
    ]
   }
