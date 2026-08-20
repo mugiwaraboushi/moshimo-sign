@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T15:00:56.347Z",
+ "updatedAt": "2026-08-20T15:54:31.683Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,19 +23,19 @@
      "pubDate": "Thu, 20 Aug 2026 20:09:00 +0900"
     },
     {
-     "title": "自民 「役職希望アンケート」配付 内閣改造の見方広がる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45381",
-     "pubDate": "Thu, 20 Aug 2026 22:45:45 +0900"
-    },
-    {
      "title": "小泉防衛相 インドと通信アンテナ早期移転へ新協議体設置合意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45369",
      "pubDate": "Thu, 20 Aug 2026 19:43:00 +0900"
     },
     {
-     "title": "気象庁 防災機関向けのメールで情報を誤配信",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45421",
-     "pubDate": "Thu, 20 Aug 2026 23:54:34 +0900"
+     "title": "柏崎刈羽原発で運転員が他人のIDカードで不適切に退室",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45408",
+     "pubDate": "Thu, 20 Aug 2026 22:07:51 +0900"
+    },
+    {
+     "title": "日オマーン外相 “ホルムズ海峡 国際社会で議論が不可欠”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45423",
+     "pubDate": "Fri, 21 Aug 2026 00:01:00 +0900"
     },
     {
      "title": "阪神 伊原陵人投手 1軍選手登録を抹消 週刊誌報道を受けて",
@@ -170,21 +170,6 @@
      "title": "女性研究者支援の大学に年間最大5000万円補助へ 文部科学省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260816de44362",
      "pubDate": "Sun, 16 Aug 2026 13:16:34 +0900"
-    },
-    {
-     "title": "ニチレイ サイバー攻撃で従業員の氏名など漏えいのおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44161",
-     "pubDate": "Fri, 14 Aug 2026 19:25:00 +0900"
-    },
-    {
-     "title": "「週刊少年ジャンプ」直近の発行部数 100万部を下回る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260814de44024",
-     "pubDate": "Fri, 14 Aug 2026 12:05:00 +0900"
-    },
-    {
-     "title": "戦争体験つづった「ガラスのうさぎ」作者 高木敏子さん死去",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260813de43862",
-     "pubDate": "Fri, 14 Aug 2026 02:22:27 +0900"
     }
    ]
   },
@@ -194,9 +179,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "中央アフリカで金鉱山が崩落し 100人以上死亡 救助活動続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45418",
+     "pubDate": "Fri, 21 Aug 2026 00:18:21 +0900"
+    },
+    {
      "title": "日オマーン外相 “ホルムズ海峡 国際社会で議論が不可欠”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45423",
-     "pubDate": "Thu, 20 Aug 2026 23:50:48 +0900"
+     "pubDate": "Fri, 21 Aug 2026 00:01:00 +0900"
     },
     {
      "title": "韓国訪問中の中国外相 北朝鮮めぐり“米は敵視政策の放棄を”",
@@ -262,11 +252,6 @@
      "title": "トランプ大統領“大規模経済制裁科す”イランは湾岸諸国に警告",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45217",
      "pubDate": "Thu, 20 Aug 2026 12:25:01 +0900"
-    },
-    {
-     "title": "“ハリー王子 家族とイギリスに帰国へ”英メディア報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45215",
-     "pubDate": "Thu, 20 Aug 2026 12:14:00 +0900"
     }
    ]
   },
@@ -281,11 +266,6 @@
      "pubDate": "Thu, 20 Aug 2026 13:06:16 GMT"
     },
     {
-     "title": "郵便事業 縮小も視野に検討開始",
-     "link": "https://news.yahoo.co.jp/pickup/6592469?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 14:05:35 GMT"
-    },
-    {
      "title": "26年産新米 大幅値下がりの見通し",
      "link": "https://news.yahoo.co.jp/pickup/6592471?source=rss",
      "pubDate": "Thu, 20 Aug 2026 14:47:54 GMT"
@@ -296,19 +276,24 @@
      "pubDate": "Thu, 20 Aug 2026 13:32:34 GMT"
     },
     {
-     "title": "富士山6合目 1人でいた7歳を救助",
-     "link": "https://news.yahoo.co.jp/pickup/6592439?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 09:42:07 GMT"
-    },
-    {
-     "title": "道沿いに連日のパン投棄 39㎏確認",
-     "link": "https://news.yahoo.co.jp/pickup/6592459?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 12:44:54 GMT"
+     "title": "道沿いに連日のパン投棄 39kg確認",
+     "link": "https://news.yahoo.co.jp/pickup/6592472?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 15:17:12 GMT"
     },
     {
      "title": "中国 沖縄の帰属を巡り「疑義」",
      "link": "https://news.yahoo.co.jp/pickup/6592470?source=rss",
      "pubDate": "Thu, 20 Aug 2026 14:31:38 GMT"
+    },
+    {
+     "title": "東京の地図情報サイト 都が公開",
+     "link": "https://news.yahoo.co.jp/pickup/6592466?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 13:49:18 GMT"
+    },
+    {
+     "title": "伊原の疑惑 阪神がおおむね認める",
+     "link": "https://news.yahoo.co.jp/pickup/6592449?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 11:01:51 GMT"
     },
     {
      "title": "セントチヒロ・チッチ 活動名統一",
