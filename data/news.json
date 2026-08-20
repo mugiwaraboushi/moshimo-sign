@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T10:18:28.688Z",
+ "updatedAt": "2026-08-20T10:53:29.999Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,14 +13,14 @@
      "pubDate": "Thu, 20 Aug 2026 19:01:29 +0900"
     },
     {
-     "title": "福島 北塩原村付近で記録的大雨 災害の危険迫る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45356",
-     "pubDate": "Thu, 20 Aug 2026 18:06:31 +0900"
+     "title": "千葉豪雨 死者13人 浸水3501棟 農林水産業の被害19億円",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45350",
+     "pubDate": "Thu, 20 Aug 2026 18:14:04 +0900"
     },
     {
-     "title": "千葉豪雨から1週間 ボランティア本格化 園児受け入れの動きも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45235",
-     "pubDate": "Thu, 20 Aug 2026 12:04:00 +0900"
+     "title": "千葉豪雨 車が水没し女性が死亡 あの時、何が起きていたのか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45344",
+     "pubDate": "Thu, 20 Aug 2026 19:24:47 +0900"
     },
     {
      "title": "熊本地震 あすも被災地は猛烈な暑さに 午後は局地的な雨に注意",
@@ -28,14 +28,14 @@
      "pubDate": "Thu, 20 Aug 2026 19:08:21 +0900"
     },
     {
-     "title": "日本製紙八代工場 地震で先端損傷の煙突 来月中旬めど撤去へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45326",
-     "pubDate": "Thu, 20 Aug 2026 18:03:00 +0900"
+     "title": "熊本地震 車中泊などで死亡は災害関連死か 自治体に相談相次ぐ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45347",
+     "pubDate": "Thu, 20 Aug 2026 19:35:39 +0900"
     },
     {
-     "title": "円相場 値上がり 米の長期金利低下でドル売り円買い進む",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45355",
-     "pubDate": "Thu, 20 Aug 2026 18:21:27 +0900"
+     "title": "大気不安定 福島県で猛烈な雨 北日本東日本中心にあすも雨注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45196",
+     "pubDate": "Thu, 20 Aug 2026 19:22:00 +0900"
     },
     {
      "title": "北朝鮮の弾道ミサイルの可能性あるもの 日本のEEZ外に落下か",
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "高校無償化で私立人気が高まる 公立高校の志願者全国で4％余減",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45212",
+     "pubDate": "Thu, 20 Aug 2026 19:50:01 +0900"
+    },
+    {
+     "title": "熊本地震 車中泊などで死亡は災害関連死か 自治体に相談相次ぐ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45347",
+     "pubDate": "Thu, 20 Aug 2026 19:35:39 +0900"
+    },
     {
      "title": "熊本 住宅狙う空き巣対策でパトロール強化【被災地の動き】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45231",
@@ -113,16 +123,6 @@
      "title": "成田空港で旅客機エンジンから煙 けが人なし 滑走路は再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45224",
      "pubDate": "Thu, 20 Aug 2026 11:31:00 +0900"
-    },
-    {
-     "title": "大気不安定 夜遅くにかけて非常に激しい雨のおそれ あすも注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45196",
-     "pubDate": "Thu, 20 Aug 2026 18:35:45 +0900"
-    },
-    {
-     "title": "熊本地震 あすも被災地は猛烈な暑さに 午後は局地的な雨に注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45198",
-     "pubDate": "Thu, 20 Aug 2026 19:08:21 +0900"
     }
    ]
   },
@@ -188,6 +188,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "小泉防衛相 インドと通信アンテナ早期移転へ新協議体設置合意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45369",
+     "pubDate": "Thu, 20 Aug 2026 19:43:43 +0900"
+    },
     {
      "title": "経産省 石油化学プラントの脱中東ナフサ依存を支援へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45329",
@@ -257,11 +262,6 @@
      "title": "トランプ大統領 北朝鮮キム総書記との年内会談に意欲",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45193",
      "pubDate": "Thu, 20 Aug 2026 06:22:00 +0900"
-    },
-    {
-     "title": "北朝鮮 キム総書記妹“米韓合同軍事演習の規模縮小 評価せず”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45188",
-     "pubDate": "Thu, 20 Aug 2026 06:18:46 +0900"
     }
    ]
   },
@@ -291,9 +291,14 @@
      "pubDate": "Thu, 20 Aug 2026 07:40:58 GMT"
     },
     {
-     "title": "旭川17歳殺害 遺族がコメント発表",
-     "link": "https://news.yahoo.co.jp/pickup/6592422?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 08:29:40 GMT"
+     "title": "子2人の姿が土砂に消え 母の思い",
+     "link": "https://news.yahoo.co.jp/pickup/6592443?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 10:22:08 GMT"
+    },
+    {
+     "title": "マンション「共連れ」進む対策",
+     "link": "https://news.yahoo.co.jp/pickup/6592444?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 10:24:44 GMT"
     },
     {
      "title": "富士山6合目 1人でいた7歳を救助",
@@ -301,14 +306,9 @@
      "pubDate": "Thu, 20 Aug 2026 09:42:07 GMT"
     },
     {
-     "title": "布施博が代表の芸能プロ 破産",
-     "link": "https://news.yahoo.co.jp/pickup/6592413?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 07:21:40 GMT"
-    },
-    {
-     "title": "DF板倉滉 ボルシアMGに電撃復帰",
-     "link": "https://news.yahoo.co.jp/pickup/6592442?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 09:55:41 GMT"
+     "title": "DeNA藤浪が3回途中で降板 唇かむ",
+     "link": "https://news.yahoo.co.jp/pickup/6592446?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 10:36:17 GMT"
     }
    ]
   }
