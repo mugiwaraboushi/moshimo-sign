@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T18:18:53.787Z",
+ "updatedAt": "2026-08-20T19:07:32.691Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,19 +23,19 @@
      "pubDate": "Thu, 20 Aug 2026 20:09:00 +0900"
     },
     {
-     "title": "小泉防衛相 インドと通信アンテナ早期移転へ新協議体設置合意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45369",
-     "pubDate": "Thu, 20 Aug 2026 19:43:00 +0900"
+     "title": "高市首相 英首相と初の電話会談 安全保障など協力推進で一致",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45372",
+     "pubDate": "Fri, 21 Aug 2026 03:23:58 +0900"
     },
     {
-     "title": "柏崎刈羽原発で運転員が他人のIDカードで不適切に退室",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45408",
-     "pubDate": "Thu, 20 Aug 2026 22:07:51 +0900"
+     "title": "自民 小林政調会長 太平洋島しょ国訪問 安保協力で一致",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45424",
+     "pubDate": "Fri, 21 Aug 2026 02:44:23 +0900"
     },
     {
-     "title": "日オマーン外相 “ホルムズ海峡 国際社会で議論が不可欠”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45423",
-     "pubDate": "Fri, 21 Aug 2026 00:01:00 +0900"
+     "title": "サッカー日本代表 アジア杯へ名波氏や長谷部氏らコーチ陣継続",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45415",
+     "pubDate": "Thu, 20 Aug 2026 22:25:07 +0900"
     },
     {
      "title": "阪神 伊原陵人投手 1軍選手登録を抹消 週刊誌報道を受けて",
