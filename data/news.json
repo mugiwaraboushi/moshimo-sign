@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T21:15:39.321Z",
+ "updatedAt": "2026-08-20T21:49:26.849Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,29 +13,29 @@
      "pubDate": "Fri, 21 Aug 2026 06:02:00 +0900"
     },
     {
+     "title": "千葉豪雨 生活やなりわいの再建が課題に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45417",
+     "pubDate": "Fri, 21 Aug 2026 06:38:36 +0900"
+    },
+    {
+     "title": "熊本地震 被災地はきょうも猛烈な暑さ 熱中症対策継続を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45435",
+     "pubDate": "Fri, 21 Aug 2026 06:33:00 +0900"
+    },
+    {
+     "title": "熊本 八代 半世紀以上続くサウナ店が常連客の助けで再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45426",
+     "pubDate": "Fri, 21 Aug 2026 06:39:00 +0900"
+    },
+    {
      "title": "台風18号 23日には非常に強い勢力に発達か 今後の情報に注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45221",
      "pubDate": "Thu, 20 Aug 2026 19:41:00 +0900"
     },
     {
-     "title": "千葉豪雨 幹線道路の車両移動は完了も水没車両の対応続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45364",
-     "pubDate": "Thu, 20 Aug 2026 20:09:00 +0900"
-    },
-    {
-     "title": "ロシアによる攻撃 キーウなどで16人死亡 46人けが",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45383",
-     "pubDate": "Fri, 21 Aug 2026 03:16:28 +0900"
-    },
-    {
-     "title": "キム・ヨジョン氏 “米韓は主従関係”米と対話の可能性示唆か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45428",
-     "pubDate": "Fri, 21 Aug 2026 04:48:22 +0900"
-    },
-    {
-     "title": "JA全中会長 ことし産のコメ「概算金」下落に懸念示す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45359",
-     "pubDate": "Thu, 20 Aug 2026 20:42:59 +0900"
+     "title": "秋篠宮ご夫妻 パラグアイ大統領を表敬訪問",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45430",
+     "pubDate": "Fri, 21 Aug 2026 06:21:56 +0900"
     },
     {
      "title": "阪神 伊原陵人投手 1軍選手登録を抹消 週刊誌報道を受けて",
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "政府 来週にも熊本地震で支援パッケージ 観光振興「応援割」も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45425",
+     "pubDate": "Fri, 21 Aug 2026 06:40:00 +0900"
+    },
+    {
+     "title": "秋篠宮ご夫妻 パラグアイ大統領を表敬訪問",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45430",
+     "pubDate": "Fri, 21 Aug 2026 06:21:56 +0900"
+    },
     {
      "title": "栃木4人死亡列車事故 見張り役情報共有できていなかった可能性",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45429",
@@ -113,16 +123,6 @@
      "title": "イオンが事故調査委員会を発足 爆発事故の原因など究明へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45309",
      "pubDate": "Thu, 20 Aug 2026 16:45:00 +0900"
-    },
-    {
-     "title": "首都高 中央環状線内回りで車両火災 通行止め解除",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45300",
-     "pubDate": "Thu, 20 Aug 2026 17:04:13 +0900"
-    },
-    {
-     "title": "火星衛星探査機「MMX」10月20日打ち上げ JAXA発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45290",
-     "pubDate": "Thu, 20 Aug 2026 15:06:22 +0900"
     }
    ]
   },
@@ -178,6 +178,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "米「史上最大規模の制裁」へ イランは「経済テロ」と反発",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45432",
+     "pubDate": "Fri, 21 Aug 2026 06:16:15 +0900"
+    },
     {
      "title": "キム・ヨジョン氏 “米韓は主従関係”米と対話の可能性示唆か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45428",
@@ -247,11 +252,6 @@
      "title": "スリーマイル島原発廃炉 初取材 AI需要で隣接原子炉再稼働へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45306",
      "pubDate": "Thu, 20 Aug 2026 16:35:00 +0900"
-    },
-    {
-     "title": "台湾の防衛費予算案 初の1兆台湾元超に 自衛力強化の方針示す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45302",
-     "pubDate": "Thu, 20 Aug 2026 15:54:14 +0900"
     }
    ]
   },
@@ -261,9 +261,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "千葉豪雨 農業被害など約19億円",
-     "link": "https://news.yahoo.co.jp/pickup/6592460?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 13:06:16 GMT"
+     "title": "内閣改造 来月中下旬で首相調整",
+     "link": "https://news.yahoo.co.jp/pickup/6592475?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 21:34:50 GMT"
     },
     {
      "title": "26年産新米 大幅値下がりの見通し",
@@ -296,9 +296,9 @@
      "pubDate": "Thu, 20 Aug 2026 11:01:51 GMT"
     },
     {
-     "title": "セントチヒロ・チッチ 活動名統一",
-     "link": "https://news.yahoo.co.jp/pickup/6592453?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 12:01:14 GMT"
+     "title": "新庄氏 リクエストは「食い違い」",
+     "link": "https://news.yahoo.co.jp/pickup/6592474?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 21:23:13 GMT"
     }
    ]
   }
