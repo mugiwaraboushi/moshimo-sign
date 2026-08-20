@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T02:50:26.402Z",
+ "updatedAt": "2026-08-20T03:35:43.339Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【速報中】高校野球 準決勝 健大高崎が先制 天理をリード",
+     "title": "【速報中】高校野球 準決勝 健大高崎と天理 接戦で終盤へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45039",
-     "pubDate": "Thu, 20 Aug 2026 11:33:00 +0900"
+     "pubDate": "Thu, 20 Aug 2026 12:25:19 +0900"
     },
     {
-     "title": "西日本中心に猛烈な暑さに 熱中症対策の徹底を",
+     "title": "東武日光線で線路作業の4人が特急列車と接触 栃木",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
+     "pubDate": "Thu, 20 Aug 2026 12:05:13 +0900"
+    },
+    {
+     "title": "千葉豪雨から1週間 ボランティアの活動が本格化",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45235",
+     "pubDate": "Thu, 20 Aug 2026 12:04:16 +0900"
+    },
+    {
+     "title": "西日本中心に午前中から猛暑日も 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45196",
-     "pubDate": "Thu, 20 Aug 2026 11:03:50 +0900"
+     "pubDate": "Thu, 20 Aug 2026 11:56:39 +0900"
     },
     {
-     "title": "7月の貿易収支 6345億円の赤字 3か月連続の赤字",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45202",
-     "pubDate": "Thu, 20 Aug 2026 09:15:00 +0900"
+     "title": "熊本地震 被災地は午前中から猛烈な暑さ 熱中症対策の徹底を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45198",
+     "pubDate": "Thu, 20 Aug 2026 11:58:01 +0900"
     },
     {
-     "title": "成田空港で航空機エンジンから煙か A滑走路を点検のため閉鎖",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45224",
-     "pubDate": "Thu, 20 Aug 2026 11:31:24 +0900"
+     "title": "トランプ大統領“大規模経済制裁科す”イランは湾岸諸国に警告",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45217",
+     "pubDate": "Thu, 20 Aug 2026 12:25:01 +0900"
     },
     {
-     "title": "イスラエル軍ガザ地区攻撃で10人死亡の報道 和平実現 見通せず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45200",
-     "pubDate": "Thu, 20 Aug 2026 08:40:00 +0900"
-    },
-    {
-     "title": "米大統領“海峡掌握”イラン 欧州の米軍関連施設攻撃も視野か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45195",
-     "pubDate": "Thu, 20 Aug 2026 07:02:00 +0900"
-    },
-    {
-     "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45169",
-     "pubDate": "Thu, 20 Aug 2026 05:05:00 +0900"
+     "title": "株価 値上がり アメリカの株価上昇受け",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45236",
+     "pubDate": "Thu, 20 Aug 2026 12:02:19 +0900"
     }
    ]
   },
@@ -50,19 +50,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "成田空港で航空機エンジンから煙か A滑走路を点検のため閉鎖",
+     "title": "東武日光線で線路作業の4人が特急列車と接触 栃木",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
+     "pubDate": "Thu, 20 Aug 2026 12:05:13 +0900"
+    },
+    {
+     "title": "成田空港で旅客機エンジンから煙 けが人なし 滑走路閉鎖",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45224",
-     "pubDate": "Thu, 20 Aug 2026 11:31:24 +0900"
+     "pubDate": "Thu, 20 Aug 2026 11:31:00 +0900"
     },
     {
-     "title": "西日本中心に猛烈な暑さに 熱中症対策の徹底を",
+     "title": "西日本中心に午前中から猛暑日も 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45196",
-     "pubDate": "Thu, 20 Aug 2026 11:03:50 +0900"
+     "pubDate": "Thu, 20 Aug 2026 11:56:39 +0900"
     },
     {
-     "title": "熊本地震 熱中症対策を 最大震度5弱程度以上の地震にも注意",
+     "title": "熊本地震 被災地は午前中から猛烈な暑さ 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45198",
-     "pubDate": "Thu, 20 Aug 2026 07:23:31 +0900"
+     "pubDate": "Thu, 20 Aug 2026 11:58:01 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（8月20日）",
@@ -118,11 +123,6 @@
      "title": "埼玉 交通トラブル相手の車 踏切内閉じ込めか 殺人未遂で逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45091",
      "pubDate": "Wed, 19 Aug 2026 20:03:29 +0900"
-    },
-    {
-     "title": "東京 江東区新木場 都営バスとトレーラーが衝突 7人けが",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45125",
-     "pubDate": "Thu, 20 Aug 2026 01:34:54 +0900"
     }
    ]
   },
@@ -183,6 +183,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "トランプ大統領“大規模経済制裁科す”イランは湾岸諸国に警告",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45217",
+     "pubDate": "Thu, 20 Aug 2026 12:25:01 +0900"
+    },
+    {
+     "title": "“ハリー王子 家族とイギリスに帰国へ”英メディア報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45215",
+     "pubDate": "Thu, 20 Aug 2026 12:14:39 +0900"
+    },
     {
      "title": "イスラエル軍ガザ地区攻撃で10人死亡の報道 和平実現 見通せず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45200",
@@ -247,16 +257,6 @@
      "title": "トランプ大統領 米朝首脳会談模索の見方 その思惑は",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45143",
      "pubDate": "Wed, 19 Aug 2026 22:11:45 +0900"
-    },
-    {
-     "title": "中韓外相会談始まる 朝鮮半島情勢めぐり意見交換か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45145",
-     "pubDate": "Wed, 19 Aug 2026 21:41:11 +0900"
-    },
-    {
-     "title": "高市首相 トルコ大統領と電話会談 ホルムズ海峡の安全航行を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45142",
-     "pubDate": "Wed, 19 Aug 2026 20:59:00 +0900"
     }
    ]
   },
@@ -266,14 +266,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "米大統領 対イラン制裁発動を表明",
-     "link": "https://news.yahoo.co.jp/pickup/6592374?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 01:55:25 GMT"
+     "title": "線路で特急と接触 作業員4人重体",
+     "link": "https://news.yahoo.co.jp/pickup/6592393?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 03:33:28 GMT"
     },
     {
-     "title": "広島土砂災害 最愛の妻を失い後悔",
-     "link": "https://news.yahoo.co.jp/pickup/6592365?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 00:16:55 GMT"
+     "title": "千葉豪雨1週間 元の生活に戻れず",
+     "link": "https://news.yahoo.co.jp/pickup/6592385?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 03:03:36 GMT"
+    },
+    {
+     "title": "エンジン不具合で航空機停止 成田",
+     "link": "https://news.yahoo.co.jp/pickup/6592380?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 02:40:16 GMT"
     },
     {
      "title": "福岡市の川に女性遺体 殺人と断定",
@@ -281,9 +286,9 @@
      "pubDate": "Thu, 20 Aug 2026 02:33:14 GMT"
     },
     {
-     "title": "残業月45h以内の一律指導見直しへ",
-     "link": "https://news.yahoo.co.jp/pickup/6592366?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 00:16:56 GMT"
+     "title": "くら寿司 最低価格の値下げ発表",
+     "link": "https://news.yahoo.co.jp/pickup/6592386?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 03:05:30 GMT"
     },
     {
      "title": "うどん業界競争 丸亀に急ブレーキ",
@@ -299,11 +304,6 @@
      "title": "横浜敗退 乱調の織田は大粒の涙",
      "link": "https://news.yahoo.co.jp/pickup/6592375?source=rss",
      "pubDate": "Thu, 20 Aug 2026 02:23:50 GMT"
-    },
-    {
-     "title": "仲里依紗 結婚で自由失いたくない",
-     "link": "https://news.yahoo.co.jp/pickup/6592368?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 00:55:28 GMT"
     }
    ]
   }
