@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T14:05:06.656Z",
+ "updatedAt": "2026-08-20T15:00:56.347Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "栃木 東武日光線の駅で作業員4人が特急と接触し死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 21:50:13 +0900"
+     "pubDate": "Thu, 20 Aug 2026 23:20:35 +0900"
     },
     {
      "title": "台風18号 23日には非常に強い勢力に発達か 今後の情報に注意を",
@@ -33,9 +33,9 @@
      "pubDate": "Thu, 20 Aug 2026 19:43:00 +0900"
     },
     {
-     "title": "福岡 天神 女性殺害事件 退勤5時間後に女性いないと知人が通報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45371",
-     "pubDate": "Thu, 20 Aug 2026 20:55:00 +0900"
+     "title": "気象庁 防災機関向けのメールで情報を誤配信",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45421",
+     "pubDate": "Thu, 20 Aug 2026 23:54:34 +0900"
     },
     {
      "title": "阪神 伊原陵人投手 1軍選手登録を抹消 週刊誌報道を受けて",
@@ -122,7 +122,7 @@
     {
      "title": "栃木 東武日光線の駅で作業員4人が特急と接触し死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 21:50:13 +0900"
+     "pubDate": "Thu, 20 Aug 2026 23:20:35 +0900"
     }
    ]
   },
@@ -194,6 +194,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "日オマーン外相 “ホルムズ海峡 国際社会で議論が不可欠”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45423",
+     "pubDate": "Thu, 20 Aug 2026 23:50:48 +0900"
+    },
+    {
      "title": "韓国訪問中の中国外相 北朝鮮めぐり“米は敵視政策の放棄を”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45419",
      "pubDate": "Thu, 20 Aug 2026 22:41:50 +0900"
@@ -262,11 +267,6 @@
      "title": "“ハリー王子 家族とイギリスに帰国へ”英メディア報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45215",
      "pubDate": "Thu, 20 Aug 2026 12:14:00 +0900"
-    },
-    {
-     "title": "イスラエル軍ガザ地区攻撃で10人死亡の報道 和平実現 見通せず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45200",
-     "pubDate": "Thu, 20 Aug 2026 08:40:00 +0900"
     }
    ]
   },
@@ -276,14 +276,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "首相 7月就任の英首相と電話会談",
-     "link": "https://news.yahoo.co.jp/pickup/6592461?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 13:03:03 GMT"
+     "title": "千葉豪雨 農業被害など約19億円",
+     "link": "https://news.yahoo.co.jp/pickup/6592460?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 13:06:16 GMT"
     },
     {
-     "title": "中道との連携 連合地方組織で異論",
-     "link": "https://news.yahoo.co.jp/pickup/6592456?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 12:35:30 GMT"
+     "title": "郵便事業 縮小も視野に検討開始",
+     "link": "https://news.yahoo.co.jp/pickup/6592469?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 14:05:35 GMT"
+    },
+    {
+     "title": "26年産新米 大幅値下がりの見通し",
+     "link": "https://news.yahoo.co.jp/pickup/6592471?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 14:47:54 GMT"
     },
     {
      "title": "4人死亡 退避完了と見張りが合図",
@@ -291,9 +296,9 @@
      "pubDate": "Thu, 20 Aug 2026 13:32:34 GMT"
     },
     {
-     "title": "時間外労働 一律抑制見直しに反発",
-     "link": "https://news.yahoo.co.jp/pickup/6592452?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 11:57:01 GMT"
+     "title": "富士山6合目 1人でいた7歳を救助",
+     "link": "https://news.yahoo.co.jp/pickup/6592439?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 09:42:07 GMT"
     },
     {
      "title": "道沿いに連日のパン投棄 39㎏確認",
@@ -301,14 +306,9 @@
      "pubDate": "Thu, 20 Aug 2026 12:44:54 GMT"
     },
     {
-     "title": "富士山6合目 1人でいた7歳を救助",
-     "link": "https://news.yahoo.co.jp/pickup/6592439?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 09:42:07 GMT"
-    },
-    {
-     "title": "虎・伊原 暴行疑惑で球団通じ謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6592462?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 13:26:40 GMT"
+     "title": "中国 沖縄の帰属を巡り「疑義」",
+     "link": "https://news.yahoo.co.jp/pickup/6592470?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 14:31:38 GMT"
     },
     {
      "title": "セントチヒロ・チッチ 活動名統一",
