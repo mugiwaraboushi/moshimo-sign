@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T00:27:32.889Z",
+ "updatedAt": "2026-08-20T01:57:11.998Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【速報中】高校野球 智弁和歌山がHRなどで横浜を逆転",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45038",
-     "pubDate": "Thu, 20 Aug 2026 09:23:12 +0900"
-    },
-    {
-     "title": "7月の貿易収支 6345億円の赤字 3か月連続の赤字",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45202",
-     "pubDate": "Thu, 20 Aug 2026 09:15:03 +0900"
-    },
-    {
-     "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45169",
-     "pubDate": "Thu, 20 Aug 2026 05:05:00 +0900"
+     "title": "【速報中】高校野球 夏の甲子園 準決勝 天理×健大高崎",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45039",
+     "pubDate": "Thu, 20 Aug 2026 10:47:08 +0900"
     },
     {
      "title": "西日本中心に猛烈な暑さ予想 熱中症対策の徹底を",
@@ -28,19 +18,29 @@
      "pubDate": "Thu, 20 Aug 2026 07:46:00 +0900"
     },
     {
-     "title": "米大統領“海峡掌握”イラン 欧州の米軍関連施設攻撃も視野か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45195",
-     "pubDate": "Thu, 20 Aug 2026 07:02:00 +0900"
-    },
-    {
-     "title": "フェルメール代表作「真珠の耳飾りの少女」14年ぶり来日公開へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45080",
-     "pubDate": "Thu, 20 Aug 2026 06:30:07 +0900"
+     "title": "7月の貿易収支 6345億円の赤字 3か月連続の赤字",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45202",
+     "pubDate": "Thu, 20 Aug 2026 09:15:00 +0900"
     },
     {
      "title": "イスラエル軍ガザ地区攻撃で10人死亡の報道 和平実現 見通せず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45200",
      "pubDate": "Thu, 20 Aug 2026 08:40:59 +0900"
+    },
+    {
+     "title": "米大統領“海峡掌握”イラン 欧州の米軍関連施設攻撃も視野か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45195",
+     "pubDate": "Thu, 20 Aug 2026 07:02:00 +0900"
+    },
+    {
+     "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45169",
+     "pubDate": "Thu, 20 Aug 2026 05:05:00 +0900"
+    },
+    {
+     "title": "フェルメール代表作「真珠の耳飾りの少女」14年ぶり来日公開へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45080",
+     "pubDate": "Thu, 20 Aug 2026 06:30:00 +0900"
     }
    ]
   },
@@ -62,7 +62,7 @@
     {
      "title": "【動画】Pickup NEWS（8月20日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45141",
-     "pubDate": "Thu, 20 Aug 2026 07:07:45 +0900"
+     "pubDate": "Thu, 20 Aug 2026 10:00:56 +0900"
     },
     {
      "title": "秋篠宮ご夫妻パラグアイに到着",
@@ -134,7 +134,7 @@
     {
      "title": "フェルメール代表作「真珠の耳飾りの少女」14年ぶり来日公開へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45080",
-     "pubDate": "Thu, 20 Aug 2026 06:30:07 +0900"
+     "pubDate": "Thu, 20 Aug 2026 06:30:00 +0900"
     },
     {
      "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
@@ -206,7 +206,7 @@
     {
      "title": "フェルメール代表作「真珠の耳飾りの少女」14年ぶり来日公開へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45080",
-     "pubDate": "Thu, 20 Aug 2026 06:30:07 +0900"
+     "pubDate": "Thu, 20 Aug 2026 06:30:00 +0900"
     },
     {
      "title": "独検察 ノルドストリーム爆発 ウクライナ国籍の男を新たに逮捕",
@@ -271,14 +271,14 @@
      "pubDate": "Wed, 19 Aug 2026 23:25:32 GMT"
     },
     {
-     "title": "台風18号 来週日本列島に影響恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6592355?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 22:40:14 GMT"
-    },
-    {
      "title": "イオン 避難後「客も戻れた」証言",
      "link": "https://news.yahoo.co.jp/pickup/6592361?source=rss",
      "pubDate": "Wed, 19 Aug 2026 23:50:23 GMT"
+    },
+    {
+     "title": "残業月45h以内の一律指導見直しへ",
+     "link": "https://news.yahoo.co.jp/pickup/6592366?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 00:16:56 GMT"
     },
     {
      "title": "英ヘンリー王子夫妻 帰国を計画",
@@ -291,19 +291,19 @@
      "pubDate": "Wed, 19 Aug 2026 23:23:55 GMT"
     },
     {
-     "title": "「エヴァ」とコラボ ショベル人気",
-     "link": "https://news.yahoo.co.jp/pickup/6592357?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 23:05:01 GMT"
+     "title": "智弁和歌山が横浜に逆転 決勝進出",
+     "link": "https://news.yahoo.co.jp/pickup/6592372?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 01:27:43 GMT"
     },
     {
-     "title": "速報 智弁和歌山HRで横浜に逆転",
-     "link": "https://news.yahoo.co.jp/pickup/6592364?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 23:55:49 GMT"
+     "title": "オモロー山下57歳 第1子が誕生",
+     "link": "https://news.yahoo.co.jp/pickup/6592373?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 01:40:48 GMT"
     },
     {
-     "title": "横浜・織田3ラン被弾で降板 騒然",
-     "link": "https://news.yahoo.co.jp/pickup/6592367?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 00:19:11 GMT"
+     "title": "仲里依紗 結婚で自由失いたくない",
+     "link": "https://news.yahoo.co.jp/pickup/6592368?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 00:55:28 GMT"
     }
    ]
   }
