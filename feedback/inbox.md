@@ -35,9 +35,18 @@
 - 残っていること:
   - **デプロイは未実施**（Googleアカウントでの操作が必要なため管理者が行う）。
     手順は `docs/event-comments.md` の1〜6。
-  - `COMMENTS_URL` への設定はファームウェア担当（`config.h` は git管理外）。
-- 補足: 実機側は既に対応済み。`fetchComments()` が15秒ごとにプレーンテキストを取得し、
-  `messages` の後ろに連結する（最大20件 = `MAX_COMMENTS`）。
+- 追記 (2026-08-20): 再開の依頼を受けて実機側を読み直したところ、**「実機側は対応済み」は誤り**だった。
+  `fetchComments()` は `http.begin(url)` を直に呼んでいて**リダイレクトを追わない**
+  （`_followRedirects` の既定は `HTTPC_DISABLE_FOLLOW_REDIRECTS`）。GASの `/exec` は
+  `script.googleusercontent.com` への302を返すので、設定しても本文が取れなかった。
+  取得先も `config.h` 固定だった。v0.10 で以下を直した（ファームウェア担当のレビュー待ち）:
+  - `playlist.json` の `commentsUrl` で取得先を指定（受け付けるのは `https://script.google.com/macros/`
+    で始まるURLだけ。公開ファイル経由で任意のホストを叩かせない）
+  - コメント取得を `httpGetString()` 経由にしてリダイレクト追従（httpsは
+    core 3.x の `begin(url)` でも通っていた。ここは当初「https非対応」と書いたが誤り）
+  - 0件の応答も反映（見送りに戻したコメントが流れ続けるのを修正）
+  - `rebuildMarquee()` を内容が変わったときだけ実行（60秒/15秒ごとにスクロールが頭に戻り、
+    一周の長い文面は末尾が出ないままだった）
 
 ## 2026-08-07 / mugi21 / 似顔絵(ドット絵)を実機に出したい
 - 状態: 未処理（実機側が未対応）

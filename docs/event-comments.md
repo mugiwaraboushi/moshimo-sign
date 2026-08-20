@@ -17,7 +17,8 @@
 
 - **自動では何も捨てない。** 自動判定はNGワード等に理由を付けて「未確認」に積むだけで、
   掲示板に出す・見送るは必ず人が押す。
-- 実機側の改修は不要。既存の `COMMENTS_URL` にそのまま挿さる（`docs/playlist-spec.md`）。
+- 実機とつなぐのは `playlist.json` の `commentsUrl`（v0.10〜）。ファームウェアの書き込みは不要
+  （仕様: [`playlist-spec.md`](playlist-spec.md)）。
 
 ## 手順
 
@@ -68,15 +69,21 @@ Apps Script の左メニュー **プロジェクトの設定 → スクリプト
 
 ### 6. 実機につなぐ
 
-`firmware/moshimo_sign/config.h` の `COMMENTS_URL` に **`?action=text` を付けたURL** を入れる。
+`playlist.json` の `commentsUrl` に **`?action=text` を付けたURL** を書いて push する
+(仕様: [`playlist-spec.md`](playlist-spec.md))。**ファームウェアの書き込みは不要。**
 
-```c
-#define COMMENTS_URL "https://script.google.com/macros/s/..../exec?action=text"
+```json
+{ "commentsUrl": "https://script.google.com/macros/s/..../exec?action=text" }
 ```
 
-`config.h` は `.gitignore` 済みなのでリポジトリには載らない。
-書き込みはファームウェア担当が行う。これ以降、管理画面で「掲示板に出す」を押すと
-**15秒以内に実機に出る**。
+- 実機がこれを読むのは次の playlist 取得のとき。**約1〜2分**で繋がる
+- 以降、管理画面で「掲示板に出す」を押すと **15秒以内に実機に出る**
+- **要 v0.10以上** (実機の版は電源を挿し直すと右下に数秒出る)。
+  v0.9以前は取得先が `config.h` 固定で、かつGASの302リダイレクトを追わなかった
+- 受け付けるURLは `https://script.google.com/macros/` で始まるものだけ。
+  別の置き場を使うときは `config.h` の `COMMENTS_URL` に書く (ファームウェア担当の作業)
+
+**イベントが終わったら `commentsUrl` を `""` に戻す。** 取得が止まり、流れていたコメントも消える。
 
 ## APIの仕様
 
@@ -94,9 +101,11 @@ Apps Script の左メニュー **プロジェクトの設定 → スクリプト
 ## 当日の運びかた
 
 1. 管理画面をPCで開いてGASにつなぐ。QRを会場に出す
-2. 「未確認」タブを見ながら、出すものを押していく
-3. 終わったら **CSVで保存**（振り返り用。元のログはスプレッドシートにも残る）
-4. イベント後は `playlist.json` を通常表示に戻す
+2. 開始前に**自分のスマホから1件投稿して、実機に出るところまで通す**
+   （承認から実機まで15秒。ここで出なければ `commentsUrl` の設定か実機の版を疑う）
+3. 「未確認」タブを見ながら、出すものを押していく
+4. 終わったら **CSVで保存**（振り返り用。元のログはスプレッドシートにも残る）
+5. イベント後は `playlist.json` を通常表示に戻し、`commentsUrl` を `""` にする
 
 ## 注意
 

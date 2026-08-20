@@ -5,6 +5,12 @@
 
 対象: Windows 11 + arduino-cli 1.5.1 / ESP32 Arduino Core 3.3.11
 
+> Linux でも同じ手順で通る (検証: arduino-cli 1.5.2-rc.1 / Core 3.3.11)。
+> `winget` の代わりに公式tarball (`https://downloads.arduino.cc/arduino-cli/arduino-cli_latest_Linux_64bit.tar.gz`) を展開し、
+> データ置き場は環境変数 `ARDUINO_DIRECTORIES_DATA` / `ARDUINO_DIRECTORIES_USER` で指定する。
+> **ディスクは展開後で約5.6GB使う。** 空きが少ないマシンでは、インストール後に
+> `staging/` (ダウンロード済みアーカイブ、約1.7GB) を消してよい。
+
 ---
 
 ## 0. 事前確認: ディスク空き容量
@@ -140,8 +146,10 @@ efont のかな漢字7,444字 (`font16.h`) を丸ごとフラッシュに持っ�
 
 | | サイズ | 使用率 |
 |---|---|---|
-| Flash (アプリ) | 1,384,255 / 1,966,080 B | **70%** |
-| RAM (グローバル変数) | 57,432 / 327,680 B | 17% |
+| Flash (アプリ) | 1,422,971 / 1,966,080 B | **72%** |
+| RAM (グローバル変数) | 57,752 / 327,680 B | 17% |
+
+(v0.10 時点の実測値。v0.9以前は 1,384,255 B / 70%)
 
 `huge_app` (3MB) だと余裕はもっとあるが **OTA領域が無くなる**。
 `.ino` は `ArduinoOTA` を使う前提なので、アプリ領域が2面ある `min_spiffs` を選ぶこと。

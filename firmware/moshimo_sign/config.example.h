@@ -20,6 +20,11 @@
 // ---- コメント取得 ----
 // 1行1コメントのプレーンテキストを返すURL (空なら取得しない)
 // 例: Google Apps Script / 小さなWebサーバ / GitHub Gist raw など
+//
+// v0.10からは playlist.json の "commentsUrl" でも指定できる (そちらが優先)。
+// イベントのたびにGASを立て直しても書き込み不要なので、通常はここは空のままでよい。
+// ただし playlist 経由で受け付けるのは COMMENTS_URL_PREFIX で始まるURLだけ
+// (既定: https://script.google.com/macros/)。それ以外の置き場を使うときだけここに書く。
 #define COMMENTS_URL ""
 #define FETCH_INTERVAL_MS 15000
 #define MAX_COMMENTS 20

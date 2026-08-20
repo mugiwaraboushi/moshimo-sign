@@ -16,10 +16,11 @@
 | `colorScroll` | string | 下段スクロールの色。RGB 16進6桁、または特殊値 `"rainbow"` | `"FF9C00"` / `"rainbow"` |
 | `messages` | string[] | スクロールで流す文言 (最大10件、◆で連結される) | |
 | `frames` | object[] | ドット絵の静止画 (最大24枚)。`mode:"frames"` のときだけ使われる | |
+| `commentsUrl` | string | イベントコメントの取得先 (v0.10〜)。空文字で取得を止める。詳細は下記 | `"https://script.google.com/macros/s/…/exec?action=text"` |
 | `fwPing` | int | ファームウェアの版番号。実機より新しい値を書くと、その場で自己アップデートを実行する (v0.7〜)。手順: [`firmware-release.md`](firmware-release.md) | `9` |
 
 - 省略したキーは現在値を維持する
-- イベント時のコメント(COMMENTS_URL経由)は `messages` の後ろに自動で連結される
+- イベント時のコメント(`commentsUrl`経由)は `messages` の後ろに自動で連結される
 - 上段は全角3〜4文字が収まる (64dot幅 ÷ 16dot/文字)
 - 反映まで最大1〜2分 (取得間隔60秒 + CDNキャッシュ)
 
@@ -41,6 +42,30 @@
 
 > 設計メモ: 当初案は `colorMode` + `rainbowCycle` / `rainbowSpin` という新規フィールドだったが、
 > 仕様の追加面積を最小にするため既存 `colorScroll` の特殊値として実装した。
+
+### イベントコメント commentsUrl (v0.10〜)
+
+イベント中に参加者のスマホから届いたコメントを、管理者が選別して実機に流すための取得先。
+仕組みと手順は [`event-comments.md`](event-comments.md)。
+
+```json
+{ "commentsUrl": "https://script.google.com/macros/s/AKfy…/exec?action=text" }
+```
+
+- 実機は**15秒ごと**にこのURLを取りに行き、**1行1コメント**のプレーンテキストとして読む
+  (最大20件。`messages` の後ろに ◆ で連結される)
+- **イベントが終わったら `""` に戻す。** 取得が止まり、流れていたコメントも消える
+- 受け付けるのは **`https://script.google.com/macros/` で始まるURLだけ。**
+  それ以外は無視してシリアルに `commentsUrl rejected` と出る
+  — `playlist.json` は公開されていて誰でも書けるため、実機が任意のホストを叩く状態にしない
+  (`frames[].src` を相対パスだけに限っているのと同じ考え方)。
+  他の置き場を使いたいときはファームウェアの `config.h` に `COMMENTS_URL` を書く
+- 取得に失敗したときは**前回の内容がそのまま残る**(通信が切れた瞬間に表示が消えないように)
+- `mode:"frames"` の間は画面に文字が出ないので、コメントも見えない
+
+> v0.9以前は取得先が `config.h` 固定で、かつ**リダイレクトを追わなかった**。
+> GASの `/exec` は `script.googleusercontent.com` への302を返すため、
+> ファームウェアを書き換えて設定しても本文が取れない状態だった。
 
 ### ドット絵 frames (v0.5〜 / playlist v2.0)
 

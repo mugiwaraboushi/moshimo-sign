@@ -1,5 +1,5 @@
 /*
- * もしも電光掲示板 ファームウェア v0.9
+ * もしも電光掲示板 ファームウェア v0.10
  * ESP32 (WROOM-32) + HUB75 RGBマトリクスパネル 64x32 (P4)
  *
  * 機能:
@@ -10,13 +10,16 @@
  *  - 虹色スクロール: colorScroll:"rainbow" (v0.4)
  *  - ドット絵の静止画表示: mode:"frames" + frames[] (v0.5)
  *    → prototypes/draw/ で描いた絵のURL (d=...) をそのまま playlist に載せる
- *  - WiFi接続、HTTPポーリングによるコメント取得(15秒毎、URLはconfig.hで設定)
+ *  - WiFi接続、HTTPポーリングによるコメント取得(15秒毎)
+ *  - イベントコメント: playlist.json の "commentsUrl" で取得先を指定できる (v0.10)
+ *    → GAS(302リダイレクト)にも届くようになり、URL変更のたびの書き込みが不要になった
+ *    → 画面と手順は prototypes/event-comments/ と docs/event-comments.md
  *  - コマ送り: frames[].holdMs によるミリ秒指定 (v2.1先行)
  *  - ArduinoOTA: 初回USB書き込み後はWiFi経由で更新可能 (同一LAN内)
  *  - 自己アップデート: firmware/manifest.json を見て自分で新しい.binを取りに行く (v0.7)
  *    → 設置後もUSB・現地作業なしで更新できる。手順は docs/firmware-release.md
  *    → playlist.json の "fwPing" に新バージョン番号を書けば、周期を待たず即時反映
- *  - 起動時のバージョン表示: 右下に「v9」を数秒出す (v0.9)
+ *  - 起動時のバージョン表示: 右下に「v10」を数秒出す (v0.9)
  *    → 実機が今どの版かを、電源を挿し直してパネルを見るだけで確認できる
  *
  * 配線 (HUB75標準ピン割当はライブラリ既定値を使用):
@@ -66,7 +69,22 @@
 // このビルドのバージョン。リリースごとに +1 する (手順: docs/firmware-release.md)。
 // **公開する .bin はこの値を上げてビルドしたものであること。** manifest の version だけ
 // 上げて .bin が古いままだと、実機は「更新したのにまだ古い」を延々繰り返す。
-#define FW_VERSION 9
+#define FW_VERSION 10
+
+// ---- イベントコメント (v0.10) ----
+// 取得先は playlist.json の "commentsUrl" でも指定できる。config.h の値は初期値。
+// 古い config.h でもビルドが通るように既定値を用意する。
+#ifndef COMMENTS_URL
+#define COMMENTS_URL ""
+#endif
+
+// playlist.json から受け付けるURLの頭。playlist.json は公開リポジトリにあり誰でも書けるので、
+// 「実機が任意のホストを叩きにいく」状態にはしない (v2.1 の frames[].src を相対パスだけに
+// 限っているのと同じ考え方)。GAS以外の置き場を使うときは config.h の COMMENTS_URL を使う
+// = ファームウェア担当の手を通す。
+#ifndef COMMENTS_URL_PREFIX
+#define COMMENTS_URL_PREFIX "https://script.google.com/macros/"
+#endif
 
 // 古い config.h でもビルドが通るように既定値を用意する。
 #ifndef SELFUPDATE_MANIFEST_URL
@@ -235,6 +253,7 @@ static float plSpeed = SCROLL_SPEED;
 static uint16_t plColorTop = COLOR_TOP;
 static uint16_t plColorScroll = COLOR_BOTTOM;
 static bool plRainbow = false;   // colorScroll:"rainbow" で虹色スクロール (v0.4)
+static String plCommentsUrl = COMMENTS_URL;   // commentsUrl で差し替え可能 (v0.10)
 
 // mode: "dual" / "scroll" / "frames" (v0.5)
 enum DisplayMode { MODE_DUAL, MODE_SCROLL, MODE_FRAMES };
@@ -276,6 +295,9 @@ static void drawTextRainbow(const uint16_t *cps, int n, int x, int y) {
   }
 }
 
+// いま流している本文。中身が変わったときだけ組み直すための控え (v0.10)
+static String marqueeText;
+
 static void rebuildMarquee() {
   String t;
   // playlistのメッセージ + コメントを ◆ で連結して流す
@@ -288,6 +310,11 @@ static void rebuildMarquee() {
     t += comments[i];
   }
   if (!t.length()) t = DEFAULT_MESSAGE;
+  // 中身が同じなら何もしない (v0.10)。組み直すと scrollX が右端に戻るため、
+  // 60秒ごとのplaylist取得・15秒ごとのコメント取得のたびに流れが頭から再開し、
+  // 一周が取得間隔より長い文面は末尾が永久に出てこない。
+  if (t == marqueeText) return;
+  marqueeText = t;
   marqueeLen = decodeUtf8("　" + t, marqueeCps, 1024);
   marqueeW = textWidth(marqueeCps, marqueeLen);
   scrollX = PANEL_W;
@@ -299,16 +326,21 @@ static String httpGetString(const String &url, int &code) {
   String out;
   code = -1;
   http.setTimeout(5000);
+  // リダイレクト追従 (v0.10)。GASの /exec は script.googleusercontent.com への302を返すので、
+  // 追わないと本文が取れない。302(FOUND)はSTRICTでも追われるのでこれで足りる。
+  // リダイレクト先が別ホストでも、プロトコルが同じ(https→https)なら HTTPClient::setURL が通す。
   if (url.startsWith("https")) {
     NetworkClientSecure client;
     client.setInsecure();  // GitHub Pages等の証明書検証を省略 (表示内容のみなので許容)
     if (http.begin(client, url)) {
+      http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
       code = http.GET();
       if (code == 200) out = http.getString();
       http.end();
     }
   } else {
     if (http.begin(url)) {
+      http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
       code = http.GET();
       if (code == 200) out = http.getString();
       http.end();
@@ -493,6 +525,21 @@ static void fetchPlaylist() {
     plRainbow = (strcmp(cs, "rainbow") == 0);
     if (!plRainbow) plColorScroll = hexToColor565(cs);
   }
+  // commentsUrl (v0.10): イベントコメントの取得先。空文字なら取得を止める。
+  // 頭が COMMENTS_URL_PREFIX と違うものは無視する (公開ファイル経由で任意のホストを
+  // 叩かせないため)。既定は Google Apps Script のみ。
+  if (doc["commentsUrl"].is<const char*>()) {
+    String u = String((const char*)doc["commentsUrl"]);
+    if (u.length() == 0 || u.startsWith(COMMENTS_URL_PREFIX)) {
+      if (u != plCommentsUrl) {
+        plCommentsUrl = u;
+        commentCount = 0;   // 取得先が変わったので前の置き場のコメントは持ち越さない
+        Serial.printf("[comments] url set (%d文字)\n", (int)u.length());
+      }
+    } else {
+      Serial.println("[comments] commentsUrl rejected (prefix mismatch)");
+    }
+  }
   if (doc["messages"].is<JsonArray>()) {
     plMsgCount = 0;
     for (JsonVariant v : doc["messages"].as<JsonArray>()) {
@@ -560,30 +607,33 @@ static void drawTopLine() {
 // ---------------- コメント取得 ----------------
 static unsigned long lastFetch = 0;
 static void fetchComments() {
-  if (strlen(COMMENTS_URL) == 0) return;
+  if (plCommentsUrl.length() == 0) return;
   if (WiFi.status() != WL_CONNECTED) return;
-  HTTPClient http;
-  http.setTimeout(4000);
-  http.begin(COMMENTS_URL);
-  int code = http.GET();
-  if (code == 200) {
-    String body = http.getString();  // 1行1コメントのプレーンテキスト
-    int newCount = 0;
-    int from = 0;
-    while (from < (int)body.length() && newCount < MAX_COMMENTS) {
-      int nl = body.indexOf('\n', from);
-      if (nl < 0) nl = body.length();
-      String line = body.substring(from, nl);
-      line.trim();
-      if (line.length()) comments[newCount++] = line;
-      from = nl + 1;
-    }
-    if (newCount > 0) {
-      commentCount = newCount;
-      rebuildMarquee();
-    }
+  // playlistと同じ経路 (httpGetString) を通す (v0.10)。以前は http.begin(url) を直に呼んでいて
+  // **リダイレクトを追わなかった**ため、302を返すGASからは本文が取れなかった
+  // (HTTPClientの _followRedirects の既定は HTTPC_DISABLE_FOLLOW_REDIRECTS)。
+  // キャッシュ回避のクエリもplaylistと同様に付ける。
+  String url = plCommentsUrl + (plCommentsUrl.indexOf('?') >= 0 ? "&t=" : "?t=") + String(millis());
+  int code;
+  String body = httpGetString(url, code);   // 1行1コメントのプレーンテキスト
+  if (code != 200) {
+    Serial.printf("[comments] fetch failed (%d)\n", code);
+    return;   // 通信断で表示中のコメントが消えないよう、失敗時は前回の内容を残す
   }
-  http.end();
+  int newCount = 0;
+  int from = 0;
+  while (from < (int)body.length() && newCount < MAX_COMMENTS) {
+    int nl = body.indexOf('\n', from);
+    if (nl < 0) nl = body.length();
+    String line = body.substring(from, nl);
+    line.trim();
+    if (line.length()) comments[newCount++] = line;
+    from = nl + 1;
+  }
+  // 0件でも反映する (v0.10)。管理画面で全部を見送りに戻したとき、以前は newCount>0 の
+  // ときしか差し替えなかったため、下げたはずのコメントが流れ続けた。
+  commentCount = newCount;
+  rebuildMarquee();   // 中身が同じなら何も起きない (スクロール位置は保たれる)
 }
 
 // ---------------- 起動時のバージョン表示 (v0.9) ----------------
