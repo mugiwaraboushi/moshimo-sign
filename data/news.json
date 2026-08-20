@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T13:23:49.998Z",
+ "updatedAt": "2026-08-20T14:05:06.656Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,14 +23,9 @@
      "pubDate": "Thu, 20 Aug 2026 20:09:00 +0900"
     },
     {
-     "title": "熊本 住宅狙う空き巣対策でパトロール強化【被災地の動き】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45231",
-     "pubDate": "Thu, 20 Aug 2026 19:55:17 +0900"
-    },
-    {
-     "title": "福岡 天神 女性殺害事件 退勤5時間後に女性いないと知人が通報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45371",
-     "pubDate": "Thu, 20 Aug 2026 20:55:00 +0900"
+     "title": "自民 「役職希望アンケート」配付 内閣改造の見方広がる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45381",
+     "pubDate": "Thu, 20 Aug 2026 22:45:45 +0900"
     },
     {
      "title": "小泉防衛相 インドと通信アンテナ早期移転へ新協議体設置合意",
@@ -38,9 +33,14 @@
      "pubDate": "Thu, 20 Aug 2026 19:43:00 +0900"
     },
     {
+     "title": "福岡 天神 女性殺害事件 退勤5時間後に女性いないと知人が通報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45371",
+     "pubDate": "Thu, 20 Aug 2026 20:55:00 +0900"
+    },
+    {
      "title": "阪神 伊原陵人投手 1軍選手登録を抹消 週刊誌報道を受けて",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45387",
-     "pubDate": "Thu, 20 Aug 2026 20:45:48 +0900"
+     "pubDate": "Thu, 20 Aug 2026 22:43:36 +0900"
     }
    ]
   },
@@ -194,6 +194,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "韓国訪問中の中国外相 北朝鮮めぐり“米は敵視政策の放棄を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45419",
+     "pubDate": "Thu, 20 Aug 2026 22:41:50 +0900"
+    },
+    {
      "title": "中国 レアアース磁石の対日輸出 7月は半減 輸出規制が影響か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45409",
      "pubDate": "Thu, 20 Aug 2026 21:52:58 +0900"
@@ -262,11 +267,6 @@
      "title": "イスラエル軍ガザ地区攻撃で10人死亡の報道 和平実現 見通せず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45200",
      "pubDate": "Thu, 20 Aug 2026 08:40:00 +0900"
-    },
-    {
-     "title": "米大統領“海峡掌握”イラン 欧州の米軍関連施設攻撃も視野か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45195",
-     "pubDate": "Thu, 20 Aug 2026 07:02:00 +0900"
     }
    ]
   },
@@ -281,14 +281,14 @@
      "pubDate": "Thu, 20 Aug 2026 13:03:03 GMT"
     },
     {
-     "title": "21日 関東など急な雨や雷雨に注意",
-     "link": "https://news.yahoo.co.jp/pickup/6592458?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 12:41:53 GMT"
+     "title": "中道との連携 連合地方組織で異論",
+     "link": "https://news.yahoo.co.jp/pickup/6592456?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 12:35:30 GMT"
     },
     {
-     "title": "列車に接触し4人死亡 身元判明",
-     "link": "https://news.yahoo.co.jp/pickup/6592450?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 11:24:44 GMT"
+     "title": "4人死亡 退避完了と見張りが合図",
+     "link": "https://news.yahoo.co.jp/pickup/6592465?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 13:32:34 GMT"
     },
     {
      "title": "時間外労働 一律抑制見直しに反発",
@@ -296,19 +296,19 @@
      "pubDate": "Thu, 20 Aug 2026 11:57:01 GMT"
     },
     {
-     "title": "メガネにコスメ的な機能 各社注力",
-     "link": "https://news.yahoo.co.jp/pickup/6592448?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 10:51:26 GMT"
-    },
-    {
      "title": "道沿いに連日のパン投棄 39㎏確認",
      "link": "https://news.yahoo.co.jp/pickup/6592459?source=rss",
      "pubDate": "Thu, 20 Aug 2026 12:44:54 GMT"
     },
     {
-     "title": "伊原の疑惑 阪神がおおむね認める",
-     "link": "https://news.yahoo.co.jp/pickup/6592449?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 11:01:51 GMT"
+     "title": "富士山6合目 1人でいた7歳を救助",
+     "link": "https://news.yahoo.co.jp/pickup/6592439?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 09:42:07 GMT"
+    },
+    {
+     "title": "虎・伊原 暴行疑惑で球団通じ謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6592462?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 13:26:40 GMT"
     },
     {
      "title": "セントチヒロ・チッチ 活動名統一",
