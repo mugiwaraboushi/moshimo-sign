@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T11:48:40.697Z",
+ "updatedAt": "2026-08-20T12:19:51.652Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "栃木 東武日光線の駅で作業員4人が特急と接触し死亡【会見中】",
+     "title": "栃木 東武日光線の駅で作業員4人が特急と接触し死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 19:54:20 +0900"
+     "pubDate": "Thu, 20 Aug 2026 20:54:22 +0900"
     },
     {
      "title": "千葉豪雨 夜の消防通報2200件超 緊迫の音声記録も",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "福岡 天神 女性殺害事件 退勤5時間後に女性いないと知人が通報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45371",
+     "pubDate": "Thu, 20 Aug 2026 20:55:43 +0900"
+    },
     {
      "title": "高校無償化で私立人気が高まる 公立高校の志願者全国で4％余減",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45212",
@@ -115,14 +120,9 @@
      "pubDate": "Thu, 20 Aug 2026 13:33:00 +0900"
     },
     {
-     "title": "栃木 東武日光線の駅で作業員4人が特急と接触し死亡【会見中】",
+     "title": "栃木 東武日光線の駅で作業員4人が特急と接触し死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 19:54:20 +0900"
-    },
-    {
-     "title": "成田空港で旅客機エンジンから煙 けが人なし 滑走路は再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45224",
-     "pubDate": "Thu, 20 Aug 2026 11:31:00 +0900"
+     "pubDate": "Thu, 20 Aug 2026 20:54:22 +0900"
     }
    ]
   },
@@ -189,6 +189,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "韓国各地で朝鮮半島有事を想定した大規模避難訓練",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45375",
+     "pubDate": "Thu, 20 Aug 2026 21:09:09 +0900"
+    },
+    {
+     "title": "中国 不動産大手「恒大グループ」創業者に無期懲役の判決",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45377",
+     "pubDate": "Thu, 20 Aug 2026 20:58:24 +0900"
+    },
+    {
+     "title": "ロシア軍が北方領土周辺の艦船想定し訓練実施を発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45379",
+     "pubDate": "Thu, 20 Aug 2026 20:48:36 +0900"
+    },
+    {
      "title": "キーウにミサイル攻撃などで13人死亡 応酬続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45383",
      "pubDate": "Thu, 20 Aug 2026 20:44:59 +0900"
@@ -247,21 +262,6 @@
      "title": "中韓外相会談 朝鮮半島情勢めぐり意見交わす",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45183",
      "pubDate": "Thu, 20 Aug 2026 06:52:35 +0900"
-    },
-    {
-     "title": "インド 山梨県の訪問団が参加した経済イベントが開催",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45189",
-     "pubDate": "Thu, 20 Aug 2026 06:44:15 +0900"
-    },
-    {
-     "title": "フェルメール代表作「真珠の耳飾りの少女」14年ぶり来日公開へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45080",
-     "pubDate": "Thu, 20 Aug 2026 06:30:00 +0900"
-    },
-    {
-     "title": "独検察 ノルドストリーム爆発 ウクライナ国籍の男を新たに逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45187",
-     "pubDate": "Thu, 20 Aug 2026 06:26:00 +0900"
     }
    ]
   },
@@ -271,29 +271,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "北発射のミサイルは約10発 韓国軍",
-     "link": "https://news.yahoo.co.jp/pickup/6592438?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 09:32:05 GMT"
-    },
-    {
-     "title": "クールジャパン機構廃止へ 経産省",
-     "link": "https://news.yahoo.co.jp/pickup/6592424?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 08:40:34 GMT"
-    },
-    {
-     "title": "夏にインフル 首都圏で増加傾向",
-     "link": "https://news.yahoo.co.jp/pickup/6592437?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 09:20:27 GMT"
-    },
-    {
-     "title": "列車に接触し4人死亡 身元判明",
-     "link": "https://news.yahoo.co.jp/pickup/6592450?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 11:24:44 GMT"
+     "title": "北朝鮮の対日批判 激化の背景分析",
+     "link": "https://news.yahoo.co.jp/pickup/6592447?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 10:53:17 GMT"
     },
     {
      "title": "子2人の姿が土砂に消え 母の思い",
      "link": "https://news.yahoo.co.jp/pickup/6592443?source=rss",
      "pubDate": "Thu, 20 Aug 2026 10:22:08 GMT"
+    },
+    {
+     "title": "列車に接触し4人死亡 身元判明",
+     "link": "https://news.yahoo.co.jp/pickup/6592450?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 11:24:44 GMT"
     },
     {
      "title": "マンション「共連れ」進む対策",
@@ -306,9 +296,19 @@
      "pubDate": "Thu, 20 Aug 2026 09:42:07 GMT"
     },
     {
+     "title": "メガネにコスメ的な機能 各社注力",
+     "link": "https://news.yahoo.co.jp/pickup/6592448?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 10:51:26 GMT"
+    },
+    {
      "title": "伊原の疑惑 阪神がおおむね認める",
      "link": "https://news.yahoo.co.jp/pickup/6592449?source=rss",
      "pubDate": "Thu, 20 Aug 2026 11:01:51 GMT"
+    },
+    {
+     "title": "セントチヒロ・チッチ 活動名統一",
+     "link": "https://news.yahoo.co.jp/pickup/6592453?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 12:01:14 GMT"
     }
    ]
   }
