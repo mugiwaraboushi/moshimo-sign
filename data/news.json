@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T06:21:41.401Z",
+ "updatedAt": "2026-08-20T07:13:19.636Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "首都高 中央環状線内回りで車両火災 広い範囲で通行止め",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45300",
+     "pubDate": "Thu, 20 Aug 2026 15:39:18 +0900"
+    },
+    {
      "title": "栃木 東武日光線の駅で特急と接触の作業員4人全員の死亡を確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 14:15:59 +0900"
+     "pubDate": "Thu, 20 Aug 2026 15:46:12 +0900"
     },
     {
-     "title": "高校野球 健大高崎が初の決勝進出 天理に競り勝つ【詳報】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45039",
-     "pubDate": "Thu, 20 Aug 2026 15:00:21 +0900"
-    },
-    {
-     "title": "千葉豪雨から1週間 ボランティア本格化 園児受け入れの動きも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45235",
-     "pubDate": "Thu, 20 Aug 2026 12:04:00 +0900"
-    },
-    {
-     "title": "西日本中心に午前中から猛暑日も 熱中症対策の徹底を",
+     "title": "岩手で猛烈な雨か 危険警報の発表も 土砂災害など厳重警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45196",
-     "pubDate": "Thu, 20 Aug 2026 11:56:39 +0900"
+     "pubDate": "Thu, 20 Aug 2026 15:50:19 +0900"
     },
     {
      "title": "熊本地震 被災地は午前中から猛烈な暑さ 熱中症対策の徹底を",
@@ -33,14 +28,19 @@
      "pubDate": "Thu, 20 Aug 2026 14:06:09 +0900"
     },
     {
-     "title": "トランプ大統領“大規模経済制裁科す”イランは湾岸諸国に警告",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45217",
-     "pubDate": "Thu, 20 Aug 2026 12:25:01 +0900"
+     "title": "千葉豪雨から1週間 ボランティア本格化 園児受け入れの動きも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45235",
+     "pubDate": "Thu, 20 Aug 2026 12:04:00 +0900"
     },
     {
-     "title": "【地震速報】茨城 水戸で震度3 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de44929",
-     "pubDate": "Thu, 20 Aug 2026 15:02:34 +0900"
+     "title": "火星衛星探査機「MMX」10月20日打ち上げ JAXA発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45290",
+     "pubDate": "Thu, 20 Aug 2026 15:06:22 +0900"
+    },
+    {
+     "title": "ドジャース 佐々木 5回2失点で勝ち負けつかず 大谷は無安打",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45276",
+     "pubDate": "Thu, 20 Aug 2026 14:10:00 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "首都高 中央環状線内回りで車両火災 広い範囲で通行止め",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45300",
+     "pubDate": "Thu, 20 Aug 2026 15:39:18 +0900"
+    },
     {
      "title": "火星衛星探査機「MMX」10月20日打ち上げ JAXA発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45290",
@@ -67,7 +72,7 @@
     {
      "title": "栃木 東武日光線の駅で特急と接触の作業員4人全員の死亡を確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 14:15:59 +0900"
+     "pubDate": "Thu, 20 Aug 2026 15:46:12 +0900"
     },
     {
      "title": "成田空港で旅客機エンジンから煙 けが人なし 滑走路は再開",
@@ -75,9 +80,9 @@
      "pubDate": "Thu, 20 Aug 2026 11:31:00 +0900"
     },
     {
-     "title": "西日本中心に午前中から猛暑日も 熱中症対策の徹底を",
+     "title": "岩手で猛烈な雨か 危険警報の発表も 土砂災害など厳重警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45196",
-     "pubDate": "Thu, 20 Aug 2026 11:56:39 +0900"
+     "pubDate": "Thu, 20 Aug 2026 15:50:19 +0900"
     },
     {
      "title": "熊本地震 被災地は午前中から猛烈な暑さ 熱中症対策の徹底を",
@@ -118,11 +123,6 @@
      "title": "IT企業に不正アクセスで顧客個人情報136万件漏えいの可能性",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45159",
      "pubDate": "Wed, 19 Aug 2026 21:45:50 +0900"
-    },
-    {
-     "title": "天皇ご一家 千葉豪雨の被災者に 側近通じお見舞い",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45130",
-     "pubDate": "Wed, 19 Aug 2026 21:43:48 +0900"
     }
    ]
   },
@@ -164,7 +164,7 @@
     {
      "title": "ニチレイ サイバー攻撃で従業員の氏名など漏えいのおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260814de44161",
-     "pubDate": "Fri, 14 Aug 2026 19:25:36 +0900"
+     "pubDate": "Fri, 14 Aug 2026 19:25:00 +0900"
     },
     {
      "title": "「週刊少年ジャンプ」直近の発行部数 100万部を下回る",
@@ -183,6 +183,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "台湾の防衛費予算案 初の1兆台湾元超に 自衛力強化の方針示す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45302",
+     "pubDate": "Thu, 20 Aug 2026 15:54:14 +0900"
+    },
     {
      "title": "トランプ大統領“大規模経済制裁科す”イランは湾岸諸国に警告",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45217",
@@ -252,11 +257,6 @@
      "title": "中国 ロケット再利用目指し回収成功 米への追い上げ図る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45135",
      "pubDate": "Wed, 19 Aug 2026 22:18:53 +0900"
-    },
-    {
-     "title": "トランプ大統領 米朝首脳会談模索の見方 その思惑は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45143",
-     "pubDate": "Wed, 19 Aug 2026 22:11:45 +0900"
     }
    ]
   },
@@ -271,9 +271,9 @@
      "pubDate": "Thu, 20 Aug 2026 05:53:09 GMT"
     },
     {
-     "title": "ロシアでガソリン不足「第2波」",
-     "link": "https://news.yahoo.co.jp/pickup/6592382?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 02:48:06 GMT"
+     "title": "西日本中心に猛烈な暑さ 対策を",
+     "link": "https://news.yahoo.co.jp/pickup/6592407?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 06:05:55 GMT"
     },
     {
      "title": "特急電車に接触 作業員4人が死亡",
@@ -281,24 +281,24 @@
      "pubDate": "Thu, 20 Aug 2026 04:40:56 GMT"
     },
     {
-     "title": "中国恒大創業者に無期懲役判決",
-     "link": "https://news.yahoo.co.jp/pickup/6592404?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 05:40:42 GMT"
-    },
-    {
      "title": "公園のトイレで男性死亡 熱中症か",
      "link": "https://news.yahoo.co.jp/pickup/6592405?source=rss",
      "pubDate": "Thu, 20 Aug 2026 05:41:32 GMT"
     },
     {
-     "title": "女児34人にわいせつ 判決の背景",
-     "link": "https://news.yahoo.co.jp/pickup/6592400?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 04:59:06 GMT"
+     "title": "京王ライナー 10月から立席導入へ",
+     "link": "https://news.yahoo.co.jp/pickup/6592409?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 06:43:05 GMT"
     },
     {
-     "title": "フードデリバリー「3強」死角は",
-     "link": "https://news.yahoo.co.jp/pickup/6592390?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 04:20:10 GMT"
+     "title": "「対日感情」に変化 韓国若者の今",
+     "link": "https://news.yahoo.co.jp/pickup/6592401?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 05:28:29 GMT"
+    },
+    {
+     "title": "NPB 2軍戦挙行の暑さ基準明確化",
+     "link": "https://news.yahoo.co.jp/pickup/6592410?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 06:55:42 GMT"
     },
     {
      "title": "いしだ壱成 植毛で取り戻した自信",
