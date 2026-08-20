@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T08:01:28.027Z",
+ "updatedAt": "2026-08-20T09:01:45.345Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "栃木 東武日光線の駅で特急と接触の作業員4人死亡【会見予定】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
+     "pubDate": "Thu, 20 Aug 2026 17:34:18 +0900"
+    },
+    {
+     "title": "北朝鮮の弾道ミサイルの可能性あるもの 日本のEEZ外に落下か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45335",
+     "pubDate": "Thu, 20 Aug 2026 17:46:14 +0900"
+    },
     {
      "title": "千葉豪雨から1週間 ボランティア本格化 園児受け入れの動きも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45235",
@@ -18,11 +28,6 @@
      "pubDate": "Thu, 20 Aug 2026 14:06:09 +0900"
     },
     {
-     "title": "栃木 東武日光線の駅で特急と接触の作業員4人全員の死亡を確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 16:21:26 +0900"
-    },
-    {
      "title": "岩手で猛烈な雨か 危険警報の発表も 土砂災害など厳重警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45196",
      "pubDate": "Thu, 20 Aug 2026 15:50:19 +0900"
@@ -31,11 +36,6 @@
      "title": "火星衛星探査機「MMX」10月20日打ち上げ JAXA発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45290",
      "pubDate": "Thu, 20 Aug 2026 15:06:22 +0900"
-    },
-    {
-     "title": "台湾の防衛費予算案 初の1兆台湾元超に 自衛力強化の方針示す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45302",
-     "pubDate": "Thu, 20 Aug 2026 15:54:14 +0900"
     },
     {
      "title": "ドジャース 佐々木 5回2失点で勝ち負けつかず 大谷は無安打",
@@ -50,6 +50,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "北朝鮮の弾道ミサイルの可能性あるもの 日本のEEZ外に落下か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45335",
+     "pubDate": "Thu, 20 Aug 2026 17:46:14 +0900"
+    },
+    {
      "title": "熊本地震 八代市長が農業用水確保などの支援を鈴木農相に要請",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45313",
      "pubDate": "Thu, 20 Aug 2026 16:47:52 +0900"
@@ -57,12 +62,12 @@
     {
      "title": "イオンが事故調査委員会を発足 爆発事故の原因など究明へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45309",
-     "pubDate": "Thu, 20 Aug 2026 16:45:34 +0900"
+     "pubDate": "Thu, 20 Aug 2026 16:45:00 +0900"
     },
     {
-     "title": "首都高 中央環状線内回りで車両火災 広い範囲で通行止め",
+     "title": "首都高 中央環状線内回りで車両火災 通行止め解除",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45300",
-     "pubDate": "Thu, 20 Aug 2026 15:39:18 +0900"
+     "pubDate": "Thu, 20 Aug 2026 17:04:13 +0900"
     },
     {
      "title": "火星衛星探査機「MMX」10月20日打ち上げ JAXA発表",
@@ -80,9 +85,9 @@
      "pubDate": "Thu, 20 Aug 2026 13:33:00 +0900"
     },
     {
-     "title": "栃木 東武日光線の駅で特急と接触の作業員4人全員の死亡を確認",
+     "title": "栃木 東武日光線の駅で特急と接触の作業員4人死亡【会見予定】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 16:21:26 +0900"
+     "pubDate": "Thu, 20 Aug 2026 17:34:18 +0900"
     },
     {
      "title": "成田空港で旅客機エンジンから煙 けが人なし 滑走路は再開",
@@ -118,11 +123,6 @@
      "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45169",
      "pubDate": "Thu, 20 Aug 2026 05:05:00 +0900"
-    },
-    {
-     "title": "「OTC類似薬」追加負担めぐり 患者など団体が会見",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45168",
-     "pubDate": "Wed, 19 Aug 2026 23:03:33 +0900"
     }
    ]
   },
@@ -189,6 +189,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "北朝鮮の弾道ミサイルの可能性あるもの 日本のEEZ外に落下か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45335",
+     "pubDate": "Thu, 20 Aug 2026 17:46:14 +0900"
+    },
+    {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月20日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44541",
+     "pubDate": "Thu, 20 Aug 2026 17:01:08 +0900"
+    },
+    {
      "title": "スリーマイル島原発廃炉 初取材 AI需要で隣接原子炉再稼働へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45306",
      "pubDate": "Thu, 20 Aug 2026 16:35:44 +0900"
@@ -252,16 +262,6 @@
      "title": "ウクライナ 国民から高評価の前国防相が大統領選挙実施を要求",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45192",
      "pubDate": "Thu, 20 Aug 2026 05:47:09 +0900"
-    },
-    {
-     "title": "米財務省が国債買い戻し倍増 長期金利上昇を抑えるねらい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45184",
-     "pubDate": "Thu, 20 Aug 2026 02:04:00 +0900"
-    },
-    {
-     "title": "茂木外相 サウジアラビアなど湾岸諸国の経済強じん化を支援",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45176",
-     "pubDate": "Thu, 20 Aug 2026 01:37:36 +0900"
     }
    ]
   },
@@ -270,6 +270,11 @@
    "src": "Yahoo!",
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
+    {
+     "title": "北発射 ミサイルはEEZ外に落下か",
+     "link": "https://news.yahoo.co.jp/pickup/6592426?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 08:33:04 GMT"
+    },
     {
      "title": "77人犠牲 広島土砂災害から12年",
      "link": "https://news.yahoo.co.jp/pickup/6592420?source=rss",
@@ -286,19 +291,14 @@
      "pubDate": "Thu, 20 Aug 2026 07:40:58 GMT"
     },
     {
-     "title": "山口組と池田組の特定抗争解除へ",
-     "link": "https://news.yahoo.co.jp/pickup/6592416?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 07:39:58 GMT"
+     "title": "旭川17歳殺害 遺族がコメント発表",
+     "link": "https://news.yahoo.co.jp/pickup/6592422?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 08:29:40 GMT"
     },
     {
-     "title": "公園のトイレで男性死亡 熱中症か",
-     "link": "https://news.yahoo.co.jp/pickup/6592405?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 05:41:32 GMT"
-    },
-    {
-     "title": "23区新築マンション平均2.6億円超",
-     "link": "https://news.yahoo.co.jp/pickup/6592414?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 07:20:03 GMT"
+     "title": "ネコの尿「においの名刺」の働き",
+     "link": "https://news.yahoo.co.jp/pickup/6592427?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 08:52:50 GMT"
     },
     {
      "title": "布施博が代表の芸能プロ 破産",
