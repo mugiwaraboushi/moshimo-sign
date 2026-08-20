@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T04:59:56.306Z",
+ "updatedAt": "2026-08-20T05:30:12.597Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "栃木 東武日光線の駅で特急と接触の作業員4人全員の死亡を確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 13:47:16 +0900"
+     "pubDate": "Thu, 20 Aug 2026 14:15:59 +0900"
     },
     {
      "title": "高校野球 健大高崎が初の決勝進出 天理に競り勝つ【詳報】",
@@ -30,7 +30,7 @@
     {
      "title": "熊本地震 被災地は午前中から猛烈な暑さ 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45198",
-     "pubDate": "Thu, 20 Aug 2026 11:58:01 +0900"
+     "pubDate": "Thu, 20 Aug 2026 14:06:09 +0900"
     },
     {
      "title": "トランプ大統領“大規模経済制裁科す”イランは湾岸諸国に警告",
@@ -50,6 +50,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "三重 釣り客2人死亡の衝突事故 遊漁船船長を書類送検 鳥羽海保",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45277",
+     "pubDate": "Thu, 20 Aug 2026 14:14:38 +0900"
+    },
+    {
      "title": "福岡 天神の川でネパール国籍の女性の遺体 殺人事件として捜査",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45252",
      "pubDate": "Thu, 20 Aug 2026 13:33:21 +0900"
@@ -57,10 +62,10 @@
     {
      "title": "栃木 東武日光線の駅で特急と接触の作業員4人全員の死亡を確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 13:47:16 +0900"
+     "pubDate": "Thu, 20 Aug 2026 14:15:59 +0900"
     },
     {
-     "title": "成田空港で旅客機エンジンから煙 けが人なし 滑走路閉鎖",
+     "title": "成田空港で旅客機エンジンから煙 けが人なし 滑走路は再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45224",
      "pubDate": "Thu, 20 Aug 2026 11:31:00 +0900"
     },
@@ -72,7 +77,7 @@
     {
      "title": "熊本地震 被災地は午前中から猛烈な暑さ 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45198",
-     "pubDate": "Thu, 20 Aug 2026 11:58:01 +0900"
+     "pubDate": "Thu, 20 Aug 2026 14:06:09 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（8月20日）",
@@ -118,11 +123,6 @@
      "title": "車水没 ドラレコに記録 「このまま行けると思ったが…」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de44985",
      "pubDate": "Wed, 19 Aug 2026 20:14:18 +0900"
-    },
-    {
-     "title": "千葉県は豪雨の死者・行方不明者の氏名は公表せず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45109",
-     "pubDate": "Wed, 19 Aug 2026 20:09:25 +0900"
     }
    ]
   },
@@ -191,7 +191,7 @@
     {
      "title": "“ハリー王子 家族とイギリスに帰国へ”英メディア報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45215",
-     "pubDate": "Thu, 20 Aug 2026 12:14:39 +0900"
+     "pubDate": "Thu, 20 Aug 2026 12:14:00 +0900"
     },
     {
      "title": "イスラエル軍ガザ地区攻撃で10人死亡の報道 和平実現 見通せず",
@@ -266,11 +266,6 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "特急電車に接触 作業員4人が死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6592397?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 04:40:56 GMT"
-    },
-    {
      "title": "千葉豪雨1週間 元の生活に戻れず",
      "link": "https://news.yahoo.co.jp/pickup/6592385?source=rss",
      "pubDate": "Thu, 20 Aug 2026 03:03:36 GMT"
@@ -281,14 +276,14 @@
      "pubDate": "Thu, 20 Aug 2026 02:48:06 GMT"
     },
     {
+     "title": "特急電車に接触 作業員4人が死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6592397?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 04:40:56 GMT"
+    },
+    {
      "title": "外食で「ダブル看板」広がる 戦略",
      "link": "https://news.yahoo.co.jp/pickup/6592387?source=rss",
      "pubDate": "Thu, 20 Aug 2026 04:32:07 GMT"
-    },
-    {
-     "title": "くら寿司 最低価格の値下げ発表",
-     "link": "https://news.yahoo.co.jp/pickup/6592386?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 03:05:30 GMT"
     },
     {
      "title": "うどん業界競争 丸亀に急ブレーキ",
@@ -296,14 +291,19 @@
      "pubDate": "Thu, 20 Aug 2026 02:36:44 GMT"
     },
     {
+     "title": "中国のアニメ映画 酷評から快進撃",
+     "link": "https://news.yahoo.co.jp/pickup/6592381?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 02:46:13 GMT"
+    },
+    {
+     "title": "織田の進路はMLBも視野 横浜監督",
+     "link": "https://news.yahoo.co.jp/pickup/6592391?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 03:18:51 GMT"
+    },
+    {
      "title": "22日決勝 智弁和歌山vs.健大高崎",
      "link": "https://news.yahoo.co.jp/pickup/6592398?source=rss",
      "pubDate": "Thu, 20 Aug 2026 04:55:43 GMT"
-    },
-    {
-     "title": "秋山竜次 元マネからCMオファー",
-     "link": "https://news.yahoo.co.jp/pickup/6592384?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 02:59:08 GMT"
     }
    ]
   }
