@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T10:53:29.999Z",
+ "updatedAt": "2026-08-20T11:14:58.790Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "栃木 東武日光線の駅で作業員4人が特急と接触し死亡【会見中】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 19:01:29 +0900"
+     "pubDate": "Thu, 20 Aug 2026 19:54:20 +0900"
     },
     {
      "title": "千葉豪雨 死者13人 浸水3501棟 農林水産業の被害19億円",
@@ -18,19 +18,9 @@
      "pubDate": "Thu, 20 Aug 2026 18:14:04 +0900"
     },
     {
-     "title": "千葉豪雨 車が水没し女性が死亡 あの時、何が起きていたのか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45344",
-     "pubDate": "Thu, 20 Aug 2026 19:24:47 +0900"
-    },
-    {
-     "title": "熊本地震 あすも被災地は猛烈な暑さに 午後は局地的な雨に注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45198",
-     "pubDate": "Thu, 20 Aug 2026 19:08:21 +0900"
-    },
-    {
-     "title": "熊本地震 車中泊などで死亡は災害関連死か 自治体に相談相次ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45347",
-     "pubDate": "Thu, 20 Aug 2026 19:35:39 +0900"
+     "title": "千葉豪雨 幹線道路の車両移動は完了も水没車両の対応続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45364",
+     "pubDate": "Thu, 20 Aug 2026 20:09:06 +0900"
     },
     {
      "title": "大気不安定 福島県で猛烈な雨 北日本東日本中心にあすも雨注意",
@@ -38,9 +28,19 @@
      "pubDate": "Thu, 20 Aug 2026 19:22:00 +0900"
     },
     {
-     "title": "北朝鮮の弾道ミサイルの可能性あるもの 日本のEEZ外に落下か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45335",
-     "pubDate": "Thu, 20 Aug 2026 18:51:04 +0900"
+     "title": "熊本 住宅狙う空き巣対策でパトロール強化【被災地の動き】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45231",
+     "pubDate": "Thu, 20 Aug 2026 19:55:17 +0900"
+    },
+    {
+     "title": "熊本地震 死者数38人と発表 1人は地震と関連なし 2925人が避難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45341",
+     "pubDate": "Thu, 20 Aug 2026 20:02:26 +0900"
+    },
+    {
+     "title": "小泉防衛相 インドと通信アンテナ早期移転へ新協議体設置合意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45369",
+     "pubDate": "Thu, 20 Aug 2026 19:43:00 +0900"
     }
    ]
   },
@@ -62,7 +62,7 @@
     {
      "title": "熊本 住宅狙う空き巣対策でパトロール強化【被災地の動き】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45231",
-     "pubDate": "Thu, 20 Aug 2026 19:02:04 +0900"
+     "pubDate": "Thu, 20 Aug 2026 19:55:17 +0900"
     },
     {
      "title": "強盗予備の疑いで新たに18歳を逮捕 指示役兼リクルート役か",
@@ -82,7 +82,7 @@
     {
      "title": "北朝鮮の弾道ミサイルの可能性あるもの 日本のEEZ外に落下か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45335",
-     "pubDate": "Thu, 20 Aug 2026 18:51:04 +0900"
+     "pubDate": "Thu, 20 Aug 2026 20:02:09 +0900"
     },
     {
      "title": "熊本地震 八代市長が農業用水確保などの支援を鈴木農相に要請",
@@ -117,7 +117,7 @@
     {
      "title": "栃木 東武日光線の駅で作業員4人が特急と接触し死亡【会見中】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 19:01:29 +0900"
+     "pubDate": "Thu, 20 Aug 2026 19:54:20 +0900"
     },
     {
      "title": "成田空港で旅客機エンジンから煙 けが人なし 滑走路は再開",
@@ -191,7 +191,7 @@
     {
      "title": "小泉防衛相 インドと通信アンテナ早期移転へ新協議体設置合意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45369",
-     "pubDate": "Thu, 20 Aug 2026 19:43:43 +0900"
+     "pubDate": "Thu, 20 Aug 2026 19:43:00 +0900"
     },
     {
      "title": "経産省 石油化学プラントの脱中東ナフサ依存を支援へ",
@@ -201,12 +201,12 @@
     {
      "title": "北朝鮮の弾道ミサイルの可能性あるもの 日本のEEZ外に落下か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45335",
-     "pubDate": "Thu, 20 Aug 2026 18:51:04 +0900"
+     "pubDate": "Thu, 20 Aug 2026 20:02:09 +0900"
     },
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月20日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44541",
-     "pubDate": "Thu, 20 Aug 2026 17:01:08 +0900"
+     "pubDate": "Thu, 20 Aug 2026 20:02:42 +0900"
     },
     {
      "title": "スリーマイル島原発廃炉 初取材 AI需要で隣接原子炉再稼働へ",
@@ -281,9 +281,9 @@
      "pubDate": "Thu, 20 Aug 2026 08:40:34 GMT"
     },
     {
-     "title": "作業員4人死亡 東武鉄道が謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6592440?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 09:55:44 GMT"
+     "title": "夏にインフル 首都圏で増加傾向",
+     "link": "https://news.yahoo.co.jp/pickup/6592437?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 09:20:27 GMT"
     },
     {
      "title": "4人死亡 見張り役が列車に合図",
@@ -306,9 +306,9 @@
      "pubDate": "Thu, 20 Aug 2026 09:42:07 GMT"
     },
     {
-     "title": "DeNA藤浪が3回途中で降板 唇かむ",
-     "link": "https://news.yahoo.co.jp/pickup/6592446?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 10:36:17 GMT"
+     "title": "伊原の疑惑 阪神がおおむね認める",
+     "link": "https://news.yahoo.co.jp/pickup/6592449?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 11:01:51 GMT"
     }
    ]
   }
