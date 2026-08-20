@@ -27,6 +27,11 @@
   </div>
 
   <!-- プロトタイプ一覧: 新しいものを上に追加 -->
+  <a class="card" href="prototypes/manual/">
+    <div class="name">電光掲示板のつかいかた（マニュアル）</div>
+    <div class="desc">もしものメンバー向けの説明書。店番の人がやることは電源の抜き差しだけ、表示を変えたい人はDiscordで日本語で頼むだけ、という話が5つの節にまとまっている。スマホでそのまま読めて、印刷して掲示板の横に置けるようにも作ってある（印刷用のレイアウトつき・ポータルのQRコード入り）。</div>
+  </a>
+
   <a class="card" href="prototypes/science-tokyo-logo/">
     <div class="name">Science S ぐるぐる</div>
     <div class="desc">東京科学大学のシンボルマーク「Science S」を64×32のドット絵にして回す。形は公式デザインシステムのロゴSVGから起こしているので本物と同じ。回りかたは縦軸まわり（高さいっぱいのまま横に縮んで裏返る）・平面・ななめの3種類、速さと大きさと色も変えられる。「playlist用をコピー」で24コマぶんの frames が出るので、そのまま実機で回せる。</div>
@@ -54,7 +59,7 @@
 
   <a class="card" href="prototypes/event-comments/">
     <div class="name">イベントコメント（投稿・選別・実機出力）</div>
-    <div class="desc">参加者がスマホから質問・つぶやきを送り、管理者が見て掲示板に出すものを決める。自動判定は理由を付けて未確認に積むだけで捨てない。承認したものは<code>COMMENTS_URL</code>用のテキストになり、ログはCSV/JSONで保存できる。</div>
+    <div class="desc">参加者がスマホから質問・つぶやきを送り、管理者が見て掲示板に出すものを決める。自動判定は理由を付けて未確認に積むだけで捨てない。承認したものは <code>playlist.json</code> の <code>commentsUrl</code> 経由で実機に流れ、ログはCSV/JSONで保存できる。</div>
   </a>
 
   <a class="card" href="prototypes/rainbow/">
