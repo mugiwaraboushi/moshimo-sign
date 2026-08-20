@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T21:49:26.849Z",
+ "updatedAt": "2026-08-20T22:13:12.961Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,9 +23,9 @@
      "pubDate": "Fri, 21 Aug 2026 06:33:00 +0900"
     },
     {
-     "title": "熊本 八代 半世紀以上続くサウナ店が常連客の助けで再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45426",
-     "pubDate": "Fri, 21 Aug 2026 06:39:00 +0900"
+     "title": "熊本地震 仮置き場でリチウムイオン電池の分別徹底を 環境省",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45427",
+     "pubDate": "Fri, 21 Aug 2026 06:35:43 +0900"
     },
     {
      "title": "台風18号 23日には非常に強い勢力に発達か 今後の情報に注意を",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（8月21日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45393",
+     "pubDate": "Fri, 21 Aug 2026 07:04:54 +0900"
+    },
     {
      "title": "政府 来週にも熊本地震で支援パッケージ 観光振興「応援割」も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45425",
@@ -118,11 +123,6 @@
      "title": "熊本地震 八代市長が農業用水確保などの支援を鈴木農相に要請",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45313",
      "pubDate": "Thu, 20 Aug 2026 16:47:00 +0900"
-    },
-    {
-     "title": "イオンが事故調査委員会を発足 爆発事故の原因など究明へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45309",
-     "pubDate": "Thu, 20 Aug 2026 16:45:00 +0900"
     }
    ]
   },
@@ -291,9 +291,9 @@
      "pubDate": "Thu, 20 Aug 2026 15:17:12 GMT"
     },
     {
-     "title": "伊原の疑惑 阪神がおおむね認める",
-     "link": "https://news.yahoo.co.jp/pickup/6592449?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 11:01:51 GMT"
+     "title": "中日サヨナラ負け 9回異例の敬遠",
+     "link": "https://news.yahoo.co.jp/pickup/6592476?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 21:51:23 GMT"
     },
     {
      "title": "新庄氏 リクエストは「食い違い」",
