@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-19T23:42:45.385Z",
+ "updatedAt": "2026-08-20T00:27:32.889Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【速報中】高校野球 準決勝 横浜が先制 智弁和歌山をリード",
+     "title": "【速報中】高校野球 智弁和歌山がHRなどで横浜を逆転",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45038",
-     "pubDate": "Thu, 20 Aug 2026 08:30:36 +0900"
+     "pubDate": "Thu, 20 Aug 2026 09:23:12 +0900"
+    },
+    {
+     "title": "7月の貿易収支 6345億円の赤字 3か月連続の赤字",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45202",
+     "pubDate": "Thu, 20 Aug 2026 09:15:03 +0900"
     },
     {
      "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
@@ -18,19 +23,14 @@
      "pubDate": "Thu, 20 Aug 2026 05:05:00 +0900"
     },
     {
-     "title": "米大統領“海峡掌握”イラン 欧州の米軍関連施設攻撃も視野か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45195",
-     "pubDate": "Thu, 20 Aug 2026 07:02:00 +0900"
-    },
-    {
-     "title": "神戸 女性殺害事件1年「面識ない」ストーカー相談 兵庫で増加",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45161",
-     "pubDate": "Thu, 20 Aug 2026 05:18:45 +0900"
-    },
-    {
      "title": "西日本中心に猛烈な暑さ予想 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45196",
      "pubDate": "Thu, 20 Aug 2026 07:46:00 +0900"
+    },
+    {
+     "title": "米大統領“海峡掌握”イラン 欧州の米軍関連施設攻撃も視野か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45195",
+     "pubDate": "Thu, 20 Aug 2026 07:02:00 +0900"
     },
     {
      "title": "フェルメール代表作「真珠の耳飾りの少女」14年ぶり来日公開へ",
@@ -38,9 +38,9 @@
      "pubDate": "Thu, 20 Aug 2026 06:30:07 +0900"
     },
     {
-     "title": "FRB 7月の会合議事録“利上げ必要の可能性高い”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45199",
-     "pubDate": "Thu, 20 Aug 2026 07:06:00 +0900"
+     "title": "イスラエル軍ガザ地区攻撃で10人死亡の報道 和平実現 見通せず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45200",
+     "pubDate": "Thu, 20 Aug 2026 08:40:59 +0900"
     }
    ]
   },
@@ -276,14 +276,14 @@
      "pubDate": "Wed, 19 Aug 2026 22:40:14 GMT"
     },
     {
-     "title": "米大統領 正恩氏と会談の意向表明",
-     "link": "https://news.yahoo.co.jp/pickup/6592351?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 21:55:05 GMT"
+     "title": "イオン 避難後「客も戻れた」証言",
+     "link": "https://news.yahoo.co.jp/pickup/6592361?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 23:50:23 GMT"
     },
     {
-     "title": "万博工事背任疑い 関係者に衝撃",
-     "link": "https://news.yahoo.co.jp/pickup/6592356?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 22:53:30 GMT"
+     "title": "英ヘンリー王子夫妻 帰国を計画",
+     "link": "https://news.yahoo.co.jp/pickup/6592362?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 23:57:26 GMT"
     },
     {
      "title": "赤穂市 非正規130人雇い止めへ",
@@ -291,19 +291,19 @@
      "pubDate": "Wed, 19 Aug 2026 23:23:55 GMT"
     },
     {
-     "title": "直前中止の花火大会 知事「残念」",
-     "link": "https://news.yahoo.co.jp/pickup/6592354?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 22:28:05 GMT"
-    },
-    {
      "title": "「エヴァ」とコラボ ショベル人気",
      "link": "https://news.yahoo.co.jp/pickup/6592357?source=rss",
      "pubDate": "Wed, 19 Aug 2026 23:05:01 GMT"
     },
     {
-     "title": "速報 横浜が智弁和歌山に先制",
-     "link": "https://news.yahoo.co.jp/pickup/6592360?source=rss",
-     "pubDate": "Wed, 19 Aug 2026 23:35:57 GMT"
+     "title": "速報 智弁和歌山HRで横浜に逆転",
+     "link": "https://news.yahoo.co.jp/pickup/6592364?source=rss",
+     "pubDate": "Wed, 19 Aug 2026 23:55:49 GMT"
+    },
+    {
+     "title": "横浜・織田3ラン被弾で降板 騒然",
+     "link": "https://news.yahoo.co.jp/pickup/6592367?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 00:19:11 GMT"
     }
    ]
   }
