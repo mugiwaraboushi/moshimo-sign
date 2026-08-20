@@ -1,18 +1,15 @@
 {
-  "topText": "営業中",
+  "topText": "コメント",
   "mode": "dual",
   "brightness": 180,
   "speed": 45,
-  "colorTop": "FF9C00",
-  "colorScroll": "FF9C00",
+  "colorTop": "27E0FF",
+  "colorScroll": "FFFFFF",
   "messages": [
-    "ここは「もしも」 まちと未来の実験室",
-    "東京科学大学と地域の人が出会って話す場所です",
-    "シェア型書店＆ミニ図書館 一箱の棚主になれます",
-    "トークイベント・ワークショップ・ポッドキャスト収録",
-    "無数の「もしも」を重ねて未来をつくる実験室",
-    "どうぞお気軽にお入りください"
+    "みんなのコメントを流しています",
+    "QRからことばを送ってください ここに流れます"
   ],
+  "commentsUrl": "https://script.google.com/macros/s/AKfycbzq7juTh1Jnblpc052xNAZ2HFr97l22S6HnhqtZsuPcYZoLi3mTeu32G8OlLvzH91Ldig/exec?action=text",
   "frames": [
     {
       "d": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAD4AAAAAAAAwPwAAAAAAADB_gAAAAAAAIP_gAAAAAAAh__gAAAAAAOPOeAAAAAAAw858AwAAAAAH__wDAAAAAAP__AIAAAAAA__8AgAAAAAD__4OAAAAAAP__gwAAAAAA__-AAAAAAAD__8AAAAAAAP__4AAAAAAA___wAAAAAAB___AAAAAAAB__-AAAAAAAH__4AAAAAAAP__AAAAAAAAf_4AAAAAAAA__AAAAAAAAA_4AAAAAAAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
