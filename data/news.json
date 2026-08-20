@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T19:07:32.691Z",
+ "updatedAt": "2026-08-20T19:51:38.858Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,24 +23,24 @@
      "pubDate": "Thu, 20 Aug 2026 20:09:00 +0900"
     },
     {
-     "title": "高市首相 英首相と初の電話会談 安全保障など協力推進で一致",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45372",
-     "pubDate": "Fri, 21 Aug 2026 03:23:58 +0900"
+     "title": "キム・ヨジョン氏 “米韓は主従関係”米と対話の可能性示唆か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45428",
+     "pubDate": "Fri, 21 Aug 2026 04:48:22 +0900"
     },
     {
-     "title": "自民 小林政調会長 太平洋島しょ国訪問 安保協力で一致",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45424",
-     "pubDate": "Fri, 21 Aug 2026 02:44:23 +0900"
-    },
-    {
-     "title": "サッカー日本代表 アジア杯へ名波氏や長谷部氏らコーチ陣継続",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45415",
-     "pubDate": "Thu, 20 Aug 2026 22:25:07 +0900"
+     "title": "JA全中会長 ことし産のコメ「概算金」下落に懸念示す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45359",
+     "pubDate": "Thu, 20 Aug 2026 20:42:59 +0900"
     },
     {
      "title": "阪神 伊原陵人投手 1軍選手登録を抹消 週刊誌報道を受けて",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45387",
      "pubDate": "Thu, 20 Aug 2026 22:43:36 +0900"
+    },
+    {
+     "title": "プロ野球2軍の公式戦 開催などの判断は「暑さ指数」が基準に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45388",
+     "pubDate": "Thu, 20 Aug 2026 20:41:27 +0900"
     }
    ]
   },
@@ -179,6 +179,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "キム・ヨジョン氏 “米韓は主従関係”米と対話の可能性示唆か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45428",
+     "pubDate": "Fri, 21 Aug 2026 04:48:22 +0900"
+    },
+    {
      "title": "中央アフリカで金鉱山が崩落し 100人以上死亡 救助活動続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45418",
      "pubDate": "Fri, 21 Aug 2026 00:18:21 +0900"
@@ -247,11 +252,6 @@
      "title": "台湾の防衛費予算案 初の1兆台湾元超に 自衛力強化の方針示す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45302",
      "pubDate": "Thu, 20 Aug 2026 15:54:14 +0900"
-    },
-    {
-     "title": "トランプ大統領“大規模経済制裁科す”イランは湾岸諸国に警告",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45217",
-     "pubDate": "Thu, 20 Aug 2026 12:25:01 +0900"
     }
    ]
   },
