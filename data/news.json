@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T23:13:41.047Z",
+ "updatedAt": "2026-08-20T23:46:07.521Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -87,7 +87,7 @@
     {
      "title": "高校無償化で私立人気が高まる 公立高校の志願者全国で4％余減",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45212",
-     "pubDate": "Thu, 20 Aug 2026 19:50:01 +0900"
+     "pubDate": "Thu, 20 Aug 2026 19:50:00 +0900"
     },
     {
      "title": "熊本地震 車中泊などで死亡は災害関連死か 自治体に相談相次ぐ",
@@ -266,14 +266,14 @@
      "pubDate": "Thu, 20 Aug 2026 21:34:50 GMT"
     },
     {
+     "title": "防衛事業 再編の企業に国出資方針",
+     "link": "https://news.yahoo.co.jp/pickup/6592489?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 23:35:07 GMT"
+    },
+    {
      "title": "北方領土周辺で演習 露が映像公開",
      "link": "https://news.yahoo.co.jp/pickup/6592485?source=rss",
      "pubDate": "Thu, 20 Aug 2026 23:02:39 GMT"
-    },
-    {
-     "title": "4人死亡 退避完了と見張りが合図",
-     "link": "https://news.yahoo.co.jp/pickup/6592465?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 13:32:34 GMT"
     },
     {
      "title": "飛び込みスポット 20歳が意識不明",
@@ -291,9 +291,9 @@
      "pubDate": "Thu, 20 Aug 2026 22:56:47 GMT"
     },
     {
-     "title": "岡本が26号 球団新人最多を更新",
-     "link": "https://news.yahoo.co.jp/pickup/6592477?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 22:12:13 GMT"
+     "title": "「冷しカプヌ」1週間で供給分完売",
+     "link": "https://news.yahoo.co.jp/pickup/6592487?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 23:23:41 GMT"
     },
     {
      "title": "中日サヨナラ負け 9回異例の敬遠",
