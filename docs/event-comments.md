@@ -95,10 +95,14 @@ GASのURLをまるごと `?api=` に入れる古い形も動くが、URLエン�
 | | |
 |---|---|
 | `GET ?action=text` | 承認済みを1行1件のプレーンテキストで返す。**実機がこれを見る** |
-| `GET ?action=list` | 全件を JSON で返す（管理画面用） |
+| `GET ?action=public` | 承認済みを JSON で返す（参加者画面用・鍵不要） |
+| `GET ?action=list&key=…` | 全件を JSON で返す（管理画面用）。**鍵が要る** |
 | `POST {"action":"add","text":"..."}` | 1件足す。状態は `pending` |
 | `POST {"action":"state","id":1,"state":"approved","key":"..."}` | 状態を変える。`key` 必須 |
 
+- **`Code.gs` を貼り替えたら、必ずデプロイし直すこと**（「デプロイを管理」→ 既存のデプロイを鉛筆で編集 →
+  バージョンを「新しいバージョン」にして更新）。貼っただけでは公開中のURLは古いコードのまま。
+  古いままだと参加者画面が「未確認」「見送り」まで読めてしまう（管理画面が赤帯で知らせる）
 - `state` は `pending` / `approved` / `rejected` のいずれか
 - POST の `Content-Type` は `text/plain` にする（GASはプリフライトを返せないため）
 - 1件の上限は100文字、実機に渡すのは新しい20件（`MAX_COMMENTS` に合わせている）

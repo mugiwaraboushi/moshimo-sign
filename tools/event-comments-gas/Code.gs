@@ -2,9 +2,10 @@
  * もしも電光掲示板 — イベントコメントの置き場 (Google Apps Script)
  *
  * スプレッドシートを保存先にして、4つの口を開ける:
- *   GET  ?action=list                     コメント一覧をJSONで返す（管理画面用）
+ *   GET  ?action=list&key=…               コメント一覧をJSONで返す（管理画面用・鍵が要る）
+ *   GET  ?action=public                   承認済みだけをJSONで返す（参加者画面用・鍵は不要）
  *   GET  ?action=text                     承認済みだけを1行1件のテキストで返す
- *                                         ← このURLを firmware の COMMENTS_URL にする
+ *                                         ← このURLを playlist.json の commentsUrl にする
  *   POST {"action":"add","text":"..."}    1件足す（参加者の投稿）
  *   POST {"action":"state","id":1,"state":"approved","key":"..."}
  *                                         状態を変える（管理者のみ）
@@ -64,7 +65,20 @@ function doGet(e) {
     return plain_(tail.map(function (c) { return c.text; }).join('\n'));
   }
 
+  if (action === 'public') {
+    // 参加者画面が見る口。**承認済みだけ**を返す。鍵は要らない。
+    // 未確認・見送りは参加者に見せない（見送った言葉が会場の全員に見えてしまうため）。
+    var pub = rows_().filter(function (c) { return c.state === 'approved'; });
+    return json_({ ok: true, comments: pub.slice(Math.max(0, pub.length - MAX_TO_DEVICE)) });
+  }
+
   if (action === 'list') {
+    // 管理画面が見る口。未確認・見送りを含む全件なので鍵で守る。
+    // 参加者用URLにはGASのURLが入っているため、鍵なしで開けると誰でも全件読めてしまう。
+    var key = adminKey_();
+    if (!key || String((e && e.parameter && e.parameter.key) || '') !== key) {
+      return json_({ ok: false, error: 'forbidden' });
+    }
     return json_({ ok: true, comments: rows_() });
   }
 
