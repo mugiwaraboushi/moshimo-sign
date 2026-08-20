@@ -1,8 +1,8 @@
 {
-  "version": 9,
+  "version": 10,
   "url": "https://mugiwaraboushi.github.io/moshimo-sign/firmware/moshimo_sign.bin",
-  "md5": "43ab6743842dec2ba607636cfa02b8b0",
-  "size": 1427008,
+  "md5": "a0ea414bd2d651a1b87749955963309d",
+  "size": 1424464,
   "quietHours": {
     "from": 2,
     "to": 5
