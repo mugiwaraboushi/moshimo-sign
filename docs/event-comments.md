@@ -67,6 +67,11 @@ Apps Script の左メニュー **プロジェクトの設定 → スクリプト
 
 同じカードに**参加者用URLとQRコード**が出るので、それを会場で見せる。
 
+参加者用URLは `…/prototypes/event-comments/?role=post&gas=<デプロイID>` の形。
+GASのURLをまるごと `?api=` に入れる古い形も動くが、URLエンコードで長くなりQRが密になって
+読み取りづらいので、いまは短い `gas=` を出している。QRが出ないときは理由がその場に表示される
+(ライブラリが読めていない等)。**URLをコピーして配るだけでも運用できる。**
+
 ### 6. 実機につなぐ
 
 `playlist.json` の `commentsUrl` に **`?action=text` を付けたURL** を書いて push する

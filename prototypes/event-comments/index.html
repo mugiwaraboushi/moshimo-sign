@@ -61,7 +61,7 @@
   .conn.local { background:#1c2026; color:#8a8f98; }
   .conn.err   { background:#2a1616; color:#ff9a8f; }
   #qr { background:#fff; padding:10px; border-radius:9px; display:inline-block; margin-top:10px; }
-  #qr img, #qr canvas { display:block; }
+  #qr svg, #qr img, #qr canvas { display:block; width:200px; height:200px; max-width:100%; }
   .link { font-size:11px; color:#8a6a2f; word-break:break-all; }
 </style>
 </head>
@@ -85,7 +85,8 @@
   </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<!-- QRはSVGで描く。canvas→img方式のライブラリは端末によっては白い四角のまま出るため -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
 <script>
 // =====================================================================
 // 参加者がスマホから投稿 → 自動で理由を付けて保留 → 管理者が選別
@@ -105,9 +106,21 @@ const q = new URLSearchParams(location.search);
 const role = q.get("role") === "admin" ? "admin" : "post";
 
 // ---------------- 接続先の設定 ----------------
-// 参加者はURLの ?api= で受け取る。管理者は画面で入れて端末に保存する。
+// 参加者はURLで受け取る。管理者は画面で入れて端末に保存する。
+// 参加者用URLは ?gas=<デプロイID> の短い形を使う。GASのURLをまるごと ?api= に入れると
+// URLエンコードで倍近くに膨らみ、QRコードが作れる長さを超えてしまうため。
+// ?api= も従来どおり受け付ける（配布済みのURLを壊さない）。
+const GAS_PREFIX = "https://script.google.com/macros/s/", GAS_SUFFIX = "/exec";
+const gasId = u => {
+  const m = /^https:\/\/script\.google\.com\/macros\/s\/([\w-]+)\/exec$/.exec(String(u || ""));
+  return m ? m[1] : "";
+};
 const CONF = {
-  get api(){ return q.get("api") || localStorage.getItem(KEY+":api") || ""; },
+  get api(){
+    const id = q.get("gas");
+    if (id && /^[\w-]+$/.test(id)) return GAS_PREFIX + id + GAS_SUFFIX;
+    return q.get("api") || localStorage.getItem(KEY+":api") || "";
+  },
   set api(v){ v ? localStorage.setItem(KEY+":api", v) : localStorage.removeItem(KEY+":api"); },
   get key(){ return localStorage.getItem(KEY+":key") || ""; },
   set key(v){ v ? localStorage.setItem(KEY+":key", v) : localStorage.removeItem(KEY+":key"); },
@@ -255,8 +268,9 @@ function renderAdmin(){
   const shown = tab === "all" ? all : all.filter(c => c.state === tab);
   const approved = all.filter(c => c.state === "approved");
   const deviceText = approved.slice(-MAX_TO_DEVICE).map(c => c.text).join("\n");
+  const id = gasId(CONF.api);
   const postUrl = location.origin + location.pathname + "?role=post"
-    + (CONF.api ? "&api=" + encodeURIComponent(CONF.api) : "");
+    + (CONF.api ? (id ? "&gas=" + id : "&api=" + encodeURIComponent(CONF.api)) : "");
   // playlist.json の commentsUrl に入れる値。実機はこのURLを15秒ごとに見る
   const deviceUrl = CONF.api ? CONF.api + (CONF.api.includes("?") ? "&" : "?") + "action=text" : "";
 
@@ -388,7 +402,19 @@ function renderAdmin(){
     .then(() => { $("copylink").textContent = "コピーしました"; setTimeout(()=>$("copylink").textContent="URLをコピー", 1400); });
   if ($("copydev")) $("copydev").onclick = () => navigator.clipboard?.writeText(deviceUrl)
     .then(() => { $("copydev").textContent = "コピーしました"; setTimeout(()=>$("copydev").textContent="コピー", 1400); });
-  if ($("qr") && self.QRCode) new QRCode($("qr"), { text: postUrl, width: 168, height: 168 });
+  // QRはSVGで描く。作れなかったときは黙って白い四角を残さず、理由を出す
+  if ($("qr")) {
+    try {
+      if (!self.qrcode) throw new Error("ネットワークかブロッカーでライブラリが読めていません");
+      const qr = qrcode(0, "M");      // 0 = 長さに合わせて自動
+      qr.addData(postUrl);
+      qr.make();
+      $("qr").innerHTML = qr.createSvgTag({ cellSize: 4, margin: 1, scalable: true });
+    } catch (e) {
+      $("qr").innerHTML = `<div style="color:#333;font-size:11px;line-height:1.5;max-width:168px;padding:2px">
+        QRを作れませんでした（${esc(e.message)}）。<br>上のURLをコピーして配ってください。</div>`;
+    }
+  }
 
   $("ngsave").onclick = () => { setNgWords($("ngbox").value.split(/[、,]/).map(s=>s.trim()).filter(Boolean)); render(); };
   $("ngreset").onclick = () => { setNgWords(SEED_NG); render(); };
