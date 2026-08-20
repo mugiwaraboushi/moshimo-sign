@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T20:14:31.737Z",
+ "updatedAt": "2026-08-20T20:52:05.091Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -33,14 +33,14 @@
      "pubDate": "Thu, 20 Aug 2026 20:42:59 +0900"
     },
     {
+     "title": "韓国各地で朝鮮半島有事を想定した大規模避難訓練",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45375",
+     "pubDate": "Thu, 20 Aug 2026 21:09:09 +0900"
+    },
+    {
      "title": "阪神 伊原陵人投手 1軍選手登録を抹消 週刊誌報道を受けて",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45387",
      "pubDate": "Thu, 20 Aug 2026 22:43:36 +0900"
-    },
-    {
-     "title": "プロ野球2軍の公式戦 開催などの判断は「暑さ指数」が基準に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45388",
-     "pubDate": "Thu, 20 Aug 2026 20:41:27 +0900"
     }
    ]
   },
