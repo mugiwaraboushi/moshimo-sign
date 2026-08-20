@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T09:55:47.661Z",
+ "updatedAt": "2026-08-20T10:18:28.688Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "栃木 東武日光線の駅で作業員4人が特急と接触し死亡【会見中】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 18:22:43 +0900"
+     "pubDate": "Thu, 20 Aug 2026 19:01:29 +0900"
     },
     {
      "title": "福島 北塩原村付近で記録的大雨 災害の危険迫る",
@@ -25,12 +25,12 @@
     {
      "title": "熊本地震 あすも被災地は猛烈な暑さに 午後は局地的な雨に注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45198",
-     "pubDate": "Thu, 20 Aug 2026 18:38:09 +0900"
+     "pubDate": "Thu, 20 Aug 2026 19:08:21 +0900"
     },
     {
      "title": "日本製紙八代工場 地震で先端損傷の煙突 来月中旬めど撤去へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45326",
-     "pubDate": "Thu, 20 Aug 2026 18:03:54 +0900"
+     "pubDate": "Thu, 20 Aug 2026 18:03:00 +0900"
     },
     {
      "title": "円相場 値上がり 米の長期金利低下でドル売り円買い進む",
@@ -50,6 +50,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "熊本 住宅狙う空き巣対策でパトロール強化【被災地の動き】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45231",
+     "pubDate": "Thu, 20 Aug 2026 19:02:04 +0900"
+    },
+    {
      "title": "強盗予備の疑いで新たに18歳を逮捕 指示役兼リクルート役か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45331",
      "pubDate": "Thu, 20 Aug 2026 18:43:04 +0900"
@@ -62,7 +67,7 @@
     {
      "title": "日本製紙八代工場 地震で先端損傷の煙突 来月中旬めど撤去へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45326",
-     "pubDate": "Thu, 20 Aug 2026 18:03:54 +0900"
+     "pubDate": "Thu, 20 Aug 2026 18:03:00 +0900"
     },
     {
      "title": "北朝鮮の弾道ミサイルの可能性あるもの 日本のEEZ外に落下か",
@@ -102,7 +107,7 @@
     {
      "title": "栃木 東武日光線の駅で作業員4人が特急と接触し死亡【会見中】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 18:22:43 +0900"
+     "pubDate": "Thu, 20 Aug 2026 19:01:29 +0900"
     },
     {
      "title": "成田空港で旅客機エンジンから煙 けが人なし 滑走路は再開",
@@ -117,12 +122,7 @@
     {
      "title": "熊本地震 あすも被災地は猛烈な暑さに 午後は局地的な雨に注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45198",
-     "pubDate": "Thu, 20 Aug 2026 18:38:09 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（8月20日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45141",
-     "pubDate": "Thu, 20 Aug 2026 13:49:42 +0900"
+     "pubDate": "Thu, 20 Aug 2026 19:08:21 +0900"
     }
    ]
   },
@@ -281,6 +281,11 @@
      "pubDate": "Thu, 20 Aug 2026 08:40:34 GMT"
     },
     {
+     "title": "作業員4人死亡 東武鉄道が謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6592440?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 09:55:44 GMT"
+    },
+    {
      "title": "4人死亡 見張り役が列車に合図",
      "link": "https://news.yahoo.co.jp/pickup/6592417?source=rss",
      "pubDate": "Thu, 20 Aug 2026 07:40:58 GMT"
@@ -301,14 +306,9 @@
      "pubDate": "Thu, 20 Aug 2026 07:21:40 GMT"
     },
     {
-     "title": "阪神・伊原を抹消 暴行疑惑報道",
-     "link": "https://news.yahoo.co.jp/pickup/6592415?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 07:25:05 GMT"
-    },
-    {
-     "title": "「みい山」アニメ化に懸念 意見書",
-     "link": "https://news.yahoo.co.jp/pickup/6592433?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 09:25:41 GMT"
+     "title": "DF板倉滉 ボルシアMGに電撃復帰",
+     "link": "https://news.yahoo.co.jp/pickup/6592442?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 09:55:41 GMT"
     }
    ]
   }
