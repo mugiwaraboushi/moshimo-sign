@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T22:13:12.961Z",
+ "updatedAt": "2026-08-20T22:50:38.541Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,11 +23,6 @@
      "pubDate": "Fri, 21 Aug 2026 06:33:00 +0900"
     },
     {
-     "title": "熊本地震 仮置き場でリチウムイオン電池の分別徹底を 環境省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45427",
-     "pubDate": "Fri, 21 Aug 2026 06:35:43 +0900"
-    },
-    {
      "title": "台風18号 23日には非常に強い勢力に発達か 今後の情報に注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45221",
      "pubDate": "Thu, 20 Aug 2026 19:41:00 +0900"
@@ -35,7 +30,12 @@
     {
      "title": "秋篠宮ご夫妻 パラグアイ大統領を表敬訪問",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45430",
-     "pubDate": "Fri, 21 Aug 2026 06:21:56 +0900"
+     "pubDate": "Fri, 21 Aug 2026 06:21:00 +0900"
+    },
+    {
+     "title": "NYダウ700ドル超下落 米長期金利が再び上昇で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45439",
+     "pubDate": "Fri, 21 Aug 2026 07:12:14 +0900"
     },
     {
      "title": "阪神 伊原陵人投手 1軍選手登録を抹消 週刊誌報道を受けて",
@@ -62,7 +62,7 @@
     {
      "title": "秋篠宮ご夫妻 パラグアイ大統領を表敬訪問",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45430",
-     "pubDate": "Fri, 21 Aug 2026 06:21:56 +0900"
+     "pubDate": "Fri, 21 Aug 2026 06:21:00 +0900"
     },
     {
      "title": "栃木4人死亡列車事故 見張り役情報共有できていなかった可能性",
@@ -179,9 +179,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "NYダウ700ドル超下落 米長期金利が再び上昇で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45439",
+     "pubDate": "Fri, 21 Aug 2026 07:12:14 +0900"
+    },
+    {
      "title": "米「史上最大規模の制裁」へ イランは「経済テロ」と反発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45432",
-     "pubDate": "Fri, 21 Aug 2026 06:16:15 +0900"
+     "pubDate": "Fri, 21 Aug 2026 06:16:00 +0900"
     },
     {
      "title": "キム・ヨジョン氏 “米韓は主従関係”米と対話の可能性示唆か",
@@ -247,11 +252,6 @@
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月20日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44541",
      "pubDate": "Thu, 20 Aug 2026 20:02:42 +0900"
-    },
-    {
-     "title": "スリーマイル島原発廃炉 初取材 AI需要で隣接原子炉再稼働へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45306",
-     "pubDate": "Thu, 20 Aug 2026 16:35:00 +0900"
     }
    ]
   },
@@ -281,14 +281,14 @@
      "pubDate": "Thu, 20 Aug 2026 21:05:27 GMT"
     },
     {
-     "title": "中国 沖縄の帰属を巡り「疑義」",
-     "link": "https://news.yahoo.co.jp/pickup/6592470?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 14:31:38 GMT"
+     "title": "小2が味に違和感 配布の水にネジ",
+     "link": "https://news.yahoo.co.jp/pickup/6592481?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 22:28:25 GMT"
     },
     {
-     "title": "道沿いに連日のパン投棄 39kg確認",
-     "link": "https://news.yahoo.co.jp/pickup/6592472?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 15:17:12 GMT"
+     "title": "岡本が26号 球団新人最多を更新",
+     "link": "https://news.yahoo.co.jp/pickup/6592477?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 22:12:13 GMT"
     },
     {
      "title": "中日サヨナラ負け 9回異例の敬遠",
@@ -296,9 +296,9 @@
      "pubDate": "Thu, 20 Aug 2026 21:51:23 GMT"
     },
     {
-     "title": "新庄氏 リクエストは「食い違い」",
-     "link": "https://news.yahoo.co.jp/pickup/6592474?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 21:23:13 GMT"
+     "title": "田中樹 24時間テレビドラマ出演",
+     "link": "https://news.yahoo.co.jp/pickup/6592480?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 22:26:53 GMT"
     }
    ]
   }
