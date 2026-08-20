@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T07:13:19.636Z",
+ "updatedAt": "2026-08-20T08:01:28.027Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "首都高 中央環状線内回りで車両火災 広い範囲で通行止め",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45300",
-     "pubDate": "Thu, 20 Aug 2026 15:39:18 +0900"
-    },
-    {
-     "title": "栃木 東武日光線の駅で特急と接触の作業員4人全員の死亡を確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 15:46:12 +0900"
-    },
-    {
-     "title": "岩手で猛烈な雨か 危険警報の発表も 土砂災害など厳重警戒",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45196",
-     "pubDate": "Thu, 20 Aug 2026 15:50:19 +0900"
+     "title": "千葉豪雨から1週間 ボランティア本格化 園児受け入れの動きも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45235",
+     "pubDate": "Thu, 20 Aug 2026 12:04:00 +0900"
     },
     {
      "title": "熊本地震 被災地は午前中から猛烈な暑さ 熱中症対策の徹底を",
@@ -28,14 +18,24 @@
      "pubDate": "Thu, 20 Aug 2026 14:06:09 +0900"
     },
     {
-     "title": "千葉豪雨から1週間 ボランティア本格化 園児受け入れの動きも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45235",
-     "pubDate": "Thu, 20 Aug 2026 12:04:00 +0900"
+     "title": "栃木 東武日光線の駅で特急と接触の作業員4人全員の死亡を確認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
+     "pubDate": "Thu, 20 Aug 2026 16:21:26 +0900"
+    },
+    {
+     "title": "岩手で猛烈な雨か 危険警報の発表も 土砂災害など厳重警戒",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45196",
+     "pubDate": "Thu, 20 Aug 2026 15:50:19 +0900"
     },
     {
      "title": "火星衛星探査機「MMX」10月20日打ち上げ JAXA発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45290",
      "pubDate": "Thu, 20 Aug 2026 15:06:22 +0900"
+    },
+    {
+     "title": "台湾の防衛費予算案 初の1兆台湾元超に 自衛力強化の方針示す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45302",
+     "pubDate": "Thu, 20 Aug 2026 15:54:14 +0900"
     },
     {
      "title": "ドジャース 佐々木 5回2失点で勝ち負けつかず 大谷は無安打",
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "熊本地震 八代市長が農業用水確保などの支援を鈴木農相に要請",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45313",
+     "pubDate": "Thu, 20 Aug 2026 16:47:52 +0900"
+    },
+    {
+     "title": "イオンが事故調査委員会を発足 爆発事故の原因など究明へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45309",
+     "pubDate": "Thu, 20 Aug 2026 16:45:34 +0900"
+    },
     {
      "title": "首都高 中央環状線内回りで車両火災 広い範囲で通行止め",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45300",
@@ -72,7 +82,7 @@
     {
      "title": "栃木 東武日光線の駅で特急と接触の作業員4人全員の死亡を確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45242",
-     "pubDate": "Thu, 20 Aug 2026 15:46:12 +0900"
+     "pubDate": "Thu, 20 Aug 2026 16:21:26 +0900"
     },
     {
      "title": "成田空港で旅客機エンジンから煙 けが人なし 滑走路は再開",
@@ -113,16 +123,6 @@
      "title": "「OTC類似薬」追加負担めぐり 患者など団体が会見",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45168",
      "pubDate": "Wed, 19 Aug 2026 23:03:33 +0900"
-    },
-    {
-     "title": "個人情報保護委 KDDIに行政指導 メールアドレスなど流出で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45162",
-     "pubDate": "Wed, 19 Aug 2026 22:50:24 +0900"
-    },
-    {
-     "title": "IT企業に不正アクセスで顧客個人情報136万件漏えいの可能性",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45159",
-     "pubDate": "Wed, 19 Aug 2026 21:45:50 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "スリーマイル島原発廃炉 初取材 AI需要で隣接原子炉再稼働へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45306",
+     "pubDate": "Thu, 20 Aug 2026 16:35:44 +0900"
+    },
     {
      "title": "フェルメール代表作「真珠の耳飾りの少女」14年ぶり来日公開へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45080",
@@ -183,6 +188,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "スリーマイル島原発廃炉 初取材 AI需要で隣接原子炉再稼働へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45306",
+     "pubDate": "Thu, 20 Aug 2026 16:35:44 +0900"
+    },
     {
      "title": "台湾の防衛費予算案 初の1兆台湾元超に 自衛力強化の方針示す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45302",
@@ -252,11 +262,6 @@
      "title": "茂木外相 サウジアラビアなど湾岸諸国の経済強じん化を支援",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45176",
      "pubDate": "Thu, 20 Aug 2026 01:37:36 +0900"
-    },
-    {
-     "title": "中国 ロケット再利用目指し回収成功 米への追い上げ図る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45135",
-     "pubDate": "Wed, 19 Aug 2026 22:18:53 +0900"
     }
    ]
   },
@@ -266,19 +271,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "赤根所長へ米制裁 ICC組織の実像",
-     "link": "https://news.yahoo.co.jp/pickup/6592406?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 05:53:09 GMT"
+     "title": "77人犠牲 広島土砂災害から12年",
+     "link": "https://news.yahoo.co.jp/pickup/6592420?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 07:53:35 GMT"
     },
     {
-     "title": "西日本中心に猛烈な暑さ 対策を",
-     "link": "https://news.yahoo.co.jp/pickup/6592407?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 06:05:55 GMT"
+     "title": "イオン 爆発巡り事故調査委を発足",
+     "link": "https://news.yahoo.co.jp/pickup/6592419?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 07:49:23 GMT"
     },
     {
-     "title": "特急電車に接触 作業員4人が死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6592397?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 04:40:56 GMT"
+     "title": "4人死亡 見張り役が列車に合図",
+     "link": "https://news.yahoo.co.jp/pickup/6592417?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 07:40:58 GMT"
+    },
+    {
+     "title": "山口組と池田組の特定抗争解除へ",
+     "link": "https://news.yahoo.co.jp/pickup/6592416?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 07:39:58 GMT"
     },
     {
      "title": "公園のトイレで男性死亡 熱中症か",
@@ -286,24 +296,19 @@
      "pubDate": "Thu, 20 Aug 2026 05:41:32 GMT"
     },
     {
-     "title": "京王ライナー 10月から立席導入へ",
-     "link": "https://news.yahoo.co.jp/pickup/6592409?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 06:43:05 GMT"
+     "title": "23区新築マンション平均2.6億円超",
+     "link": "https://news.yahoo.co.jp/pickup/6592414?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 07:20:03 GMT"
     },
     {
-     "title": "「対日感情」に変化 韓国若者の今",
-     "link": "https://news.yahoo.co.jp/pickup/6592401?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 05:28:29 GMT"
+     "title": "布施博が代表の芸能プロ 破産",
+     "link": "https://news.yahoo.co.jp/pickup/6592413?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 07:21:40 GMT"
     },
     {
-     "title": "NPB 2軍戦挙行の暑さ基準明確化",
-     "link": "https://news.yahoo.co.jp/pickup/6592410?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 06:55:42 GMT"
-    },
-    {
-     "title": "いしだ壱成 植毛で取り戻した自信",
-     "link": "https://news.yahoo.co.jp/pickup/6592402?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 05:35:51 GMT"
+     "title": "阪神・伊原を抹消 暴行疑惑報道",
+     "link": "https://news.yahoo.co.jp/pickup/6592415?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 07:25:05 GMT"
     }
    ]
   }
