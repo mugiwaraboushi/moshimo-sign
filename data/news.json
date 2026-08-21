@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T21:44:14.087Z",
+ "updatedAt": "2026-08-21T22:10:10.170Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "東海から九州中心に気温上昇 酷暑日予想も 広範囲で大気不安定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45604",
-     "pubDate": "Sat, 22 Aug 2026 06:06:00 +0900"
+     "pubDate": "Sat, 22 Aug 2026 06:50:04 +0900"
     },
     {
      "title": "内閣改造と党役員人事 来月の見方広がる 鈴木幹事長の続投焦点",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（8月22日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45572",
+     "pubDate": "Sat, 22 Aug 2026 06:49:26 +0900"
+    },
     {
      "title": "千葉 路上の車両の所有者への引き渡し 警察などに協力求める",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45615",
@@ -118,11 +123,6 @@
      "title": "愛子さま 滋賀県でリハビリ続ける子どもたちと交流",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45562",
      "pubDate": "Fri, 21 Aug 2026 19:26:59 +0900"
-    },
-    {
-     "title": "関東運輸局 東海汽船の事業停止処分検討で聴聞を実施",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45556",
-     "pubDate": "Fri, 21 Aug 2026 19:04:17 +0900"
     }
    ]
   },
