@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T23:11:24.413Z",
+ "updatedAt": "2026-08-21T23:44:16.253Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -20,7 +20,7 @@
     {
      "title": "内閣改造と党役員人事 来月の見方広がる 鈴木幹事長の続投焦点",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45600",
-     "pubDate": "Sat, 22 Aug 2026 05:11:29 +0900"
+     "pubDate": "Sat, 22 Aug 2026 05:11:00 +0900"
     },
     {
      "title": "千葉 路上の車両の所有者への引き渡し 警察などに協力求める",
@@ -35,7 +35,7 @@
     {
      "title": "台風18号 来週 南西諸島に近づくおそれ 今後の情報に注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45618",
-     "pubDate": "Sat, 22 Aug 2026 05:01:26 +0900"
+     "pubDate": "Sat, 22 Aug 2026 08:24:30 +0900"
     },
     {
      "title": "秋篠宮ご夫妻 日本人のパラグアイ移住90周年記念式典に",
@@ -221,7 +221,7 @@
     {
      "title": "超党派議員が来週訪中 中国外務省「正しい軌道への努力 留意」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45591",
-     "pubDate": "Fri, 21 Aug 2026 21:32:00 +0900"
+     "pubDate": "Sat, 22 Aug 2026 08:42:51 +0900"
     },
     {
      "title": "ウクライナとロシア 21日にかけても攻撃の応酬続く",
@@ -276,9 +276,9 @@
      "pubDate": "Fri, 21 Aug 2026 22:24:01 GMT"
     },
     {
-     "title": "22日 西・東日本は急な雷雨に注意",
-     "link": "https://news.yahoo.co.jp/pickup/6592596?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 14:41:55 GMT"
+     "title": "九州中心に危険な暑さ 熱中症注意",
+     "link": "https://news.yahoo.co.jp/pickup/6592608?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 23:23:00 GMT"
     },
     {
      "title": "赤根所長 ICC加盟国に支援求める",
@@ -291,14 +291,14 @@
      "pubDate": "Fri, 21 Aug 2026 22:46:36 GMT"
     },
     {
-     "title": "劇物を摂取させ殺人未遂疑い 逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6592595?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 14:24:47 GMT"
-    },
-    {
      "title": "若年層で「うつ病」影響が顕在化",
      "link": "https://news.yahoo.co.jp/pickup/6592603?source=rss",
      "pubDate": "Fri, 21 Aug 2026 22:54:42 GMT"
+    },
+    {
+     "title": "100均業界2トップ 快進撃の理由",
+     "link": "https://news.yahoo.co.jp/pickup/6592604?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 23:04:17 GMT"
     },
     {
      "title": "中村 歴代最多満塁弾におかわり節",
