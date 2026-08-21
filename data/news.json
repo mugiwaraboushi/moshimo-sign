@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T10:53:54.432Z",
+ "updatedAt": "2026-08-21T11:14:34.066Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -15,7 +15,7 @@
     {
      "title": "東武日光線 4人死亡列車事故 ホーム下に緊急避難スペースなし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45429",
-     "pubDate": "Fri, 21 Aug 2026 19:41:53 +0900"
+     "pubDate": "Fri, 21 Aug 2026 20:10:43 +0900"
     },
     {
      "title": "関東運輸局 東海汽船の事業停止処分検討で聴聞を実施",
@@ -38,9 +38,9 @@
      "pubDate": "Fri, 21 Aug 2026 15:35:00 +0900"
     },
     {
-     "title": "千葉豪雨 普通交付税約87億円 繰り上げて交付 総務省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45560",
-     "pubDate": "Fri, 21 Aug 2026 18:58:49 +0900"
+     "title": "赤間防災相 千葉豪雨の被災地を視察 復旧復興の支援急ぐ考え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45527",
+     "pubDate": "Fri, 21 Aug 2026 19:28:05 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "秋田 風車の羽根落下事故 警察が立件見送る方針を遺族に伝える",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45568",
+     "pubDate": "Fri, 21 Aug 2026 19:54:23 +0900"
+    },
     {
      "title": "愛子さま 滋賀県でリハビリ続ける子どもたちと交流",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45562",
@@ -107,7 +112,7 @@
     {
      "title": "【動画】Pickup NEWS（8月21日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45393",
-     "pubDate": "Fri, 21 Aug 2026 14:08:41 +0900"
+     "pubDate": "Fri, 21 Aug 2026 19:56:59 +0900"
     },
     {
      "title": "政府 来週にも熊本地震で支援パッケージ 観光振興「応援割」も",
@@ -118,11 +123,6 @@
      "title": "秋篠宮ご夫妻 パラグアイ大統領を表敬訪問",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45430",
      "pubDate": "Fri, 21 Aug 2026 11:57:00 +0900"
-    },
-    {
-     "title": "東武日光線 4人死亡列車事故 ホーム下に緊急避難スペースなし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45429",
-     "pubDate": "Fri, 21 Aug 2026 19:41:53 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "囲碁 碁聖戦 井山碁聖が佐田七段に勝って６連覇",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45580",
+     "pubDate": "Fri, 21 Aug 2026 19:57:40 +0900"
+    },
     {
      "title": "柏崎刈羽原発で運転員が他人のIDカードで不適切に退室",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45408",
@@ -178,6 +183,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "旧統一教会トップとユン前大統領夫人 政党法違反 初公判で否認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45530",
+     "pubDate": "Fri, 21 Aug 2026 20:06:33 +0900"
+    },
     {
      "title": "香港 天安門事件追悼団体と幹部に有罪判決",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45542",
@@ -247,11 +257,6 @@
      "title": "中国 レアアース磁石の対日輸出 7月は半減 輸出規制が影響か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45409",
      "pubDate": "Thu, 20 Aug 2026 21:52:58 +0900"
-    },
-    {
-     "title": "韓国各地で朝鮮半島有事を想定した大規模避難訓練",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45375",
-     "pubDate": "Thu, 20 Aug 2026 21:09:09 +0900"
     }
    ]
   },
@@ -281,9 +286,9 @@
      "pubDate": "Fri, 21 Aug 2026 09:26:39 GMT"
     },
     {
-     "title": "病院から姿消した被告 遺体で発見",
-     "link": "https://news.yahoo.co.jp/pickup/6592555?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 08:08:16 GMT"
+     "title": "高校のバスなど6台事故 生徒搬送",
+     "link": "https://news.yahoo.co.jp/pickup/6592579?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 10:50:18 GMT"
     },
     {
      "title": "韓国で「親日派スキャナー」拡大",
