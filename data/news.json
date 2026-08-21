@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T05:32:50.317Z",
+ "updatedAt": "2026-08-21T06:21:56.366Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -181,7 +181,7 @@
     {
      "title": "北朝鮮 ミサイル発射3回連続で発表せず 米の反応探るか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45495",
-     "pubDate": "Fri, 21 Aug 2026 14:07:29 +0900"
+     "pubDate": "Fri, 21 Aug 2026 14:07:00 +0900"
     },
     {
      "title": "日米韓高官が電話協議 緊密連携確認 北朝鮮弾道ミサイル発射で",
@@ -271,6 +271,11 @@
      "pubDate": "Fri, 21 Aug 2026 04:42:29 GMT"
     },
     {
+     "title": "千葉豪雨 片付け中の感染症に注意",
+     "link": "https://news.yahoo.co.jp/pickup/6592529?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 04:49:47 GMT"
+    },
+    {
      "title": "登校中児童11人 ハチに刺され搬送",
      "link": "https://news.yahoo.co.jp/pickup/6592526?source=rss",
      "pubDate": "Fri, 21 Aug 2026 04:20:51 GMT"
@@ -281,19 +286,14 @@
      "pubDate": "Fri, 21 Aug 2026 05:19:33 GMT"
     },
     {
+     "title": "道路脇にパン大量投棄 法的問題は",
+     "link": "https://news.yahoo.co.jp/pickup/6592536?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 05:46:48 GMT"
+    },
+    {
      "title": "水原受刑者事件 記者の尽きぬ疑問",
      "link": "https://news.yahoo.co.jp/pickup/6592512?source=rss",
      "pubDate": "Fri, 21 Aug 2026 03:12:00 GMT"
-    },
-    {
-     "title": "芸能事務所に異変 倒産が相次ぐ",
-     "link": "https://news.yahoo.co.jp/pickup/6592514?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 03:14:59 GMT"
-    },
-    {
-     "title": "セコマ なぜ人口580人の村にも店",
-     "link": "https://news.yahoo.co.jp/pickup/6592532?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 05:05:10 GMT"
     },
     {
      "title": "「年収5千万円婚活」話題 背景は",
