@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T05:00:14.964Z",
+ "updatedAt": "2026-08-21T05:32:50.317Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,9 @@
      "pubDate": "Fri, 21 Aug 2026 12:21:32 +0900"
     },
     {
-     "title": "大阪パチンコ店放火殺人事件 高見素直死刑囚に死刑執行",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45451",
-     "pubDate": "Fri, 21 Aug 2026 12:23:30 +0900"
+     "title": "パワハラ認定の横浜 山中竹春市長 国際会議の参加見送り",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45494",
+     "pubDate": "Fri, 21 Aug 2026 14:05:00 +0900"
     },
     {
      "title": "台風18号 今後の情報に注意を",
@@ -23,14 +23,9 @@
      "pubDate": "Fri, 21 Aug 2026 11:23:00 +0900"
     },
     {
-     "title": "静岡 清水区 建造中の船から出火し1人死亡 9人搬送",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45473",
-     "pubDate": "Fri, 21 Aug 2026 12:35:28 +0900"
-    },
-    {
-     "title": "NZ地震 犠牲者追悼のプレート取り外される 盗難か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45470",
-     "pubDate": "Fri, 21 Aug 2026 13:28:38 +0900"
+     "title": "大阪パチンコ店放火殺人事件 高見素直死刑囚に死刑執行",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45451",
+     "pubDate": "Fri, 21 Aug 2026 12:23:30 +0900"
     },
     {
      "title": "クールジャパン機構 概算要求見送り 廃止含めて検討 経産省",
@@ -38,9 +33,14 @@
      "pubDate": "Fri, 21 Aug 2026 11:51:00 +0900"
     },
     {
-     "title": "立民 水岡代表 労働組合の幹部と協議 3党合流めぐり",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45465",
-     "pubDate": "Fri, 21 Aug 2026 13:00:52 +0900"
+     "title": "静岡 清水区 建造中の船から出火し1人死亡 9人搬送",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45473",
+     "pubDate": "Fri, 21 Aug 2026 12:35:28 +0900"
+    },
+    {
+     "title": "千葉豪雨で大雨警報等の基準引き下げ 千葉市と八千代市で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45501",
+     "pubDate": "Fri, 21 Aug 2026 14:16:47 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "千葉豪雨で大雨警報等の基準引き下げ 千葉市と八千代市で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45501",
+     "pubDate": "Fri, 21 Aug 2026 14:16:47 +0900"
+    },
+    {
+     "title": "パワハラ認定の横浜 山中竹春市長 国際会議の参加見送り",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45494",
+     "pubDate": "Fri, 21 Aug 2026 14:05:00 +0900"
+    },
     {
      "title": "愛子さま 琵琶湖博物館でビワコオオナマズ鑑賞",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45468",
@@ -72,7 +82,7 @@
     {
      "title": "【動画】Pickup NEWS（8月21日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45393",
-     "pubDate": "Fri, 21 Aug 2026 10:24:58 +0900"
+     "pubDate": "Fri, 21 Aug 2026 14:08:41 +0900"
     },
     {
      "title": "政府 来週にも熊本地震で支援パッケージ 観光振興「応援割」も",
@@ -113,16 +123,6 @@
      "title": "熊本地震 車中泊などで死亡は災害関連死か 自治体に相談相次ぐ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45347",
      "pubDate": "Thu, 20 Aug 2026 19:35:39 +0900"
-    },
-    {
-     "title": "熊本 住宅狙う空き巣対策でパトロール強化【被災地の動き】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45231",
-     "pubDate": "Thu, 20 Aug 2026 19:55:17 +0900"
-    },
-    {
-     "title": "強盗予備の疑いで新たに18歳を逮捕 指示役兼リクルート役か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45331",
-     "pubDate": "Thu, 20 Aug 2026 18:43:04 +0900"
     }
    ]
   },
@@ -178,6 +178,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "北朝鮮 ミサイル発射3回連続で発表せず 米の反応探るか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45495",
+     "pubDate": "Fri, 21 Aug 2026 14:07:29 +0900"
+    },
     {
      "title": "日米韓高官が電話協議 緊密連携確認 北朝鮮弾道ミサイル発射で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45484",
@@ -247,11 +252,6 @@
      "title": "小泉防衛相 インドと通信アンテナ早期移転へ新協議体設置合意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45369",
      "pubDate": "Thu, 20 Aug 2026 19:43:00 +0900"
-    },
-    {
-     "title": "経産省 石油化学プラントの脱中東ナフサ依存を支援へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45329",
-     "pubDate": "Thu, 20 Aug 2026 18:10:54 +0900"
     }
    ]
   },
@@ -266,24 +266,19 @@
      "pubDate": "Fri, 21 Aug 2026 04:29:44 GMT"
     },
     {
-     "title": "議長巡る福岡県会の採決中止 苦情",
-     "link": "https://news.yahoo.co.jp/pickup/6592524?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 04:02:29 GMT"
-    },
-    {
-     "title": "秋サケ激減の異常事態 転換した漁",
-     "link": "https://news.yahoo.co.jp/pickup/6592517?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 03:06:54 GMT"
-    },
-    {
-     "title": "農場で外国籍従業員に暴力か 調査",
-     "link": "https://news.yahoo.co.jp/pickup/6592519?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 03:26:18 GMT"
+     "title": "内閣改造 総裁選争った4人処遇は",
+     "link": "https://news.yahoo.co.jp/pickup/6592528?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 04:42:29 GMT"
     },
     {
      "title": "登校中児童11人 ハチに刺され搬送",
      "link": "https://news.yahoo.co.jp/pickup/6592526?source=rss",
      "pubDate": "Fri, 21 Aug 2026 04:20:51 GMT"
+    },
+    {
+     "title": "川に「モバ充」161個 警察が回収",
+     "link": "https://news.yahoo.co.jp/pickup/6592533?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 05:19:33 GMT"
     },
     {
      "title": "水原受刑者事件 記者の尽きぬ疑問",
@@ -294,6 +289,11 @@
      "title": "芸能事務所に異変 倒産が相次ぐ",
      "link": "https://news.yahoo.co.jp/pickup/6592514?source=rss",
      "pubDate": "Fri, 21 Aug 2026 03:14:59 GMT"
+    },
+    {
+     "title": "セコマ なぜ人口580人の村にも店",
+     "link": "https://news.yahoo.co.jp/pickup/6592532?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 05:05:10 GMT"
     },
     {
      "title": "「年収5千万円婚活」話題 背景は",
