@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T17:52:04.019Z",
+ "updatedAt": "2026-08-21T18:18:20.166Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,24 +23,24 @@
      "pubDate": "Fri, 21 Aug 2026 18:58:21 +0900"
     },
     {
-     "title": "第175回 芥川賞・直木賞の贈呈式",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45589",
-     "pubDate": "Fri, 21 Aug 2026 20:59:42 +0900"
-    },
-    {
      "title": "中国 南部の大規模洪水で死者159人に 各地で大雨被害",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45594",
      "pubDate": "Fri, 21 Aug 2026 22:16:48 +0900"
     },
     {
-     "title": "ウクライナとロシア 21日にかけても攻撃の応酬続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45587",
-     "pubDate": "Fri, 21 Aug 2026 20:52:34 +0900"
+     "title": "日本学術会議 新会員125人を公表 10月の特殊法人移行を前に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45512",
+     "pubDate": "Fri, 21 Aug 2026 23:46:37 +0900"
     },
     {
-     "title": "大量の食パンが大山に 「不法投棄にあたる」警察に相談 鳥取",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45513",
-     "pubDate": "Fri, 21 Aug 2026 15:35:00 +0900"
+     "title": "2週間予報など長期予報充実 2030年までに実現目指す 気象庁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45609",
+     "pubDate": "Fri, 21 Aug 2026 23:34:03 +0900"
+    },
+    {
+     "title": "第175回 芥川賞・直木賞の贈呈式",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45589",
+     "pubDate": "Fri, 21 Aug 2026 20:59:42 +0900"
     }
    ]
   },
@@ -224,7 +224,7 @@
      "pubDate": "Fri, 21 Aug 2026 15:37:24 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月21日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（8月21日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44546",
      "pubDate": "Fri, 21 Aug 2026 15:27:00 +0900"
     },
