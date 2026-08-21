@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T20:10:55.377Z",
+ "updatedAt": "2026-08-21T20:45:21.285Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "栃木4人死亡事故 運転士「急ブレーキかけたが間に合わず」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45613",
+     "pubDate": "Sat, 22 Aug 2026 05:12:12 +0900"
+    },
+    {
      "title": "台風18号 来週 南西諸島に近づくおそれ 今後の情報に注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45618",
      "pubDate": "Sat, 22 Aug 2026 05:01:26 +0900"
     },
     {
+     "title": "内閣改造と党役員人事 来月の見方広がる 鈴木幹事長の続投焦点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45600",
+     "pubDate": "Sat, 22 Aug 2026 05:11:29 +0900"
+    },
+    {
      "title": "千葉豪雨受け アンダーパスを緊急点検 3か所で異常 国交省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45601",
      "pubDate": "Sat, 22 Aug 2026 05:02:34 +0900"
-    },
-    {
-     "title": "高市首相「信頼なければ政治成り立たない」中傷動画報道で説明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45582",
-     "pubDate": "Fri, 21 Aug 2026 20:50:52 +0900"
     },
     {
      "title": "スーパーのコメ平均価格 5キロ3191円 2週ぶり値下がり",
@@ -36,11 +41,6 @@
      "title": "日本学術会議 新会員125人を公表 10月の特殊法人移行を前に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45512",
      "pubDate": "Fri, 21 Aug 2026 23:46:37 +0900"
-    },
-    {
-     "title": "香港 天安門事件追悼団体と幹部に有罪判決",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45542",
-     "pubDate": "Fri, 21 Aug 2026 23:50:34 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "熊本 氷川町 レンコン農家 地震被害で例年より遅い収穫",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45608",
+     "pubDate": "Sat, 22 Aug 2026 05:13:15 +0900"
+    },
+    {
+     "title": "栃木4人死亡事故 運転士「急ブレーキかけたが間に合わず」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45613",
+     "pubDate": "Sat, 22 Aug 2026 05:12:12 +0900"
+    },
     {
      "title": "千葉豪雨受け アンダーパスを緊急点検 3か所で異常 国交省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45601",
@@ -113,16 +123,6 @@
      "title": "小学校で児童11人ハチに刺され軽いけが 広島 庄原市",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45534",
      "pubDate": "Fri, 21 Aug 2026 18:28:53 +0900"
-    },
-    {
-     "title": "中野サンプラザ再開発 中野区が新たな事業計画の骨子を示す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45532",
-     "pubDate": "Fri, 21 Aug 2026 16:18:00 +0900"
-    },
-    {
-     "title": "大量の食パンが大山に 「不法投棄にあたる」警察に相談 鳥取",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45513",
-     "pubDate": "Fri, 21 Aug 2026 15:35:00 +0900"
     }
    ]
   },
