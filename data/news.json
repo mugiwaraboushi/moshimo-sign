@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T09:04:32.386Z",
+ "updatedAt": "2026-08-21T09:56:39.268Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "佐賀 長崎道 鳥栖IC付近で多重事故 少なくとも16人けがか 消防",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45571",
+     "pubDate": "Fri, 21 Aug 2026 18:35:00 +0900"
+    },
+    {
+     "title": "東武日光線 4人死亡列車事故 ホーム下に緊急避難スペースなし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45429",
+     "pubDate": "Fri, 21 Aug 2026 18:40:14 +0900"
+    },
+    {
      "title": "埼玉県で「記録的短時間大雨」発表 中国地方などでも雨雲発達",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45437",
-     "pubDate": "Fri, 21 Aug 2026 17:33:17 +0900"
-    },
-    {
-     "title": "東武日光線 作業員4人死亡の列車事故 見張り役などから聴取",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45429",
-     "pubDate": "Fri, 21 Aug 2026 17:37:07 +0900"
-    },
-    {
-     "title": "大量の食パンが大山に 「不法投棄にあたる」警察に相談 鳥取",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45513",
-     "pubDate": "Fri, 21 Aug 2026 15:35:00 +0900"
+     "pubDate": "Fri, 21 Aug 2026 18:44:19 +0900"
     },
     {
      "title": "台風18号 今後の情報に注意を",
@@ -28,19 +28,19 @@
      "pubDate": "Fri, 21 Aug 2026 17:22:03 +0900"
     },
     {
+     "title": "大量の食パンが大山に 「不法投棄にあたる」警察に相談 鳥取",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45513",
+     "pubDate": "Fri, 21 Aug 2026 15:35:00 +0900"
+    },
+    {
+     "title": "小学校で児童11人ハチに刺され軽いけが 広島 庄原市",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45534",
+     "pubDate": "Fri, 21 Aug 2026 18:28:53 +0900"
+    },
+    {
      "title": "スーパーのコメ平均価格 5キロ3191円 2週ぶり値下がり",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45521",
-     "pubDate": "Fri, 21 Aug 2026 17:52:10 +0900"
-    },
-    {
-     "title": "中野サンプラザ再開発 中野区が新たな事業計画の骨子を示す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45532",
-     "pubDate": "Fri, 21 Aug 2026 16:18:00 +0900"
-    },
-    {
-     "title": "パワハラ認定の横浜 山中竹春市長 国際会議の参加見送り",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45494",
-     "pubDate": "Fri, 21 Aug 2026 17:25:00 +0900"
+     "pubDate": "Fri, 21 Aug 2026 18:39:15 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "佐賀 長崎道 鳥栖IC付近で多重事故 少なくとも16人けがか 消防",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45571",
+     "pubDate": "Fri, 21 Aug 2026 18:35:00 +0900"
+    },
+    {
+     "title": "小学校で児童11人ハチに刺され軽いけが 広島 庄原市",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45534",
+     "pubDate": "Fri, 21 Aug 2026 18:28:53 +0900"
+    },
     {
      "title": "中野サンプラザ再開発 中野区が新たな事業計画の骨子を示す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45532",
@@ -100,9 +110,9 @@
      "pubDate": "Fri, 21 Aug 2026 11:57:00 +0900"
     },
     {
-     "title": "東武日光線 作業員4人死亡の列車事故 見張り役などから聴取",
+     "title": "東武日光線 4人死亡列車事故 ホーム下に緊急避難スペースなし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45429",
-     "pubDate": "Fri, 21 Aug 2026 17:37:07 +0900"
+     "pubDate": "Fri, 21 Aug 2026 18:40:14 +0900"
     },
     {
      "title": "みなとみらい線 運転再開",
@@ -113,16 +123,6 @@
      "title": "非上場企業の株式 新たな評価方式の案を公表 国税庁",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45411",
      "pubDate": "Fri, 21 Aug 2026 02:46:40 +0900"
-    },
-    {
-     "title": "福岡 天神 女性殺害事件 退勤5時間後に女性いないと知人が通報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45371",
-     "pubDate": "Thu, 20 Aug 2026 20:55:00 +0900"
-    },
-    {
-     "title": "高校無償化で私立人気が高まる 公立高校の志願者全国で4％余減",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45212",
-     "pubDate": "Thu, 20 Aug 2026 19:50:00 +0900"
     }
    ]
   },
@@ -261,9 +261,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "不祥事相次ぐ検察 閉ざされた会見",
-     "link": "https://news.yahoo.co.jp/pickup/6592544?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 07:23:02 GMT"
+     "title": "天気予報2週先まで発信へ 気象庁",
+     "link": "https://news.yahoo.co.jp/pickup/6592546?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 07:56:12 GMT"
+    },
+    {
+     "title": "20代NISA買い付け額17倍 2014年比",
+     "link": "https://news.yahoo.co.jp/pickup/6592560?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 08:36:18 GMT"
+    },
+    {
+     "title": "馬渕隆一さん死去 マブチモーター",
+     "link": "https://news.yahoo.co.jp/pickup/6592569?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 09:26:39 GMT"
     },
     {
      "title": "横浜市主催の会議 市長参加見送り",
@@ -271,24 +281,9 @@
      "pubDate": "Fri, 21 Aug 2026 08:14:07 GMT"
     },
     {
-     "title": "露戦略会議に変化「戦後」意識?",
-     "link": "https://news.yahoo.co.jp/pickup/6592522?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 03:56:24 GMT"
-    },
-    {
      "title": "病院から姿消した被告 遺体で発見",
      "link": "https://news.yahoo.co.jp/pickup/6592555?source=rss",
      "pubDate": "Fri, 21 Aug 2026 08:08:16 GMT"
-    },
-    {
-     "title": "ゴルフ研修生19歳自殺 両親が提訴",
-     "link": "https://news.yahoo.co.jp/pickup/6592557?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 08:26:23 GMT"
-    },
-    {
-     "title": "20代NISA買い付け額17倍 2014年比",
-     "link": "https://news.yahoo.co.jp/pickup/6592560?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 08:36:18 GMT"
     },
     {
      "title": "イベでゲストが永久欠番着用 賛否",
@@ -299,6 +294,11 @@
      "title": "ラヴ上等とタイアップ中止 法務省",
      "link": "https://news.yahoo.co.jp/pickup/6592559?source=rss",
      "pubDate": "Fri, 21 Aug 2026 08:32:21 GMT"
+    },
+    {
+     "title": "バイオリニスト木嶋真優さん 出産",
+     "link": "https://news.yahoo.co.jp/pickup/6592568?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 09:29:11 GMT"
     }
    ]
   }
