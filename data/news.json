@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T13:23:33.643Z",
+ "updatedAt": "2026-08-21T14:03:33.872Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,29 +8,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "千葉豪雨 死者13人 浸水被害約3600棟 農業被害28億円",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45579",
-     "pubDate": "Fri, 21 Aug 2026 19:55:23 +0900"
-    },
-    {
      "title": "佐賀 長崎道鳥栖IC付近 部活バス含む車6台関係の事故 10人搬送",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45571",
-     "pubDate": "Fri, 21 Aug 2026 21:54:16 +0900"
+     "pubDate": "Fri, 21 Aug 2026 22:36:18 +0900"
     },
     {
-     "title": "東武日光線 4人死亡列車事故 ホーム下に緊急避難スペースなし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45429",
-     "pubDate": "Fri, 21 Aug 2026 20:10:43 +0900"
+     "title": "高市首相「信頼なければ政治成り立たない」中傷動画報道で説明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45582",
+     "pubDate": "Fri, 21 Aug 2026 20:50:52 +0900"
     },
     {
-     "title": "熊本地震 個人の井戸復旧を災害救助費で支援可能に 高市首相",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45559",
-     "pubDate": "Fri, 21 Aug 2026 19:52:42 +0900"
+     "title": "スーパーのコメ平均価格 5キロ3191円 2週ぶり値下がり",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45521",
+     "pubDate": "Fri, 21 Aug 2026 18:58:21 +0900"
     },
     {
      "title": "第175回 芥川賞・直木賞の贈呈式",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45589",
      "pubDate": "Fri, 21 Aug 2026 20:59:42 +0900"
+    },
+    {
+     "title": "愛子さま 滋賀県でリハビリ続ける子どもたちと交流",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45562",
+     "pubDate": "Fri, 21 Aug 2026 19:26:59 +0900"
     },
     {
      "title": "大量の食パンが大山に 「不法投棄にあたる」警察に相談 鳥取",
@@ -97,7 +97,7 @@
     {
      "title": "佐賀 長崎道鳥栖IC付近 部活バス含む車6台関係の事故 10人搬送",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45571",
-     "pubDate": "Fri, 21 Aug 2026 21:54:16 +0900"
+     "pubDate": "Fri, 21 Aug 2026 22:36:18 +0900"
     },
     {
      "title": "小学校で児童11人ハチに刺され軽いけが 広島 庄原市",
@@ -276,6 +276,11 @@
      "pubDate": "Fri, 21 Aug 2026 09:48:01 GMT"
     },
     {
+     "title": "5人殺害事件遺族 死刑執行に心境",
+     "link": "https://news.yahoo.co.jp/pickup/6592590?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 13:26:54 GMT"
+    },
+    {
      "title": "埼玉で猛烈な雨 車水没訴える通報",
      "link": "https://news.yahoo.co.jp/pickup/6592589?source=rss",
      "pubDate": "Fri, 21 Aug 2026 12:54:28 GMT"
@@ -286,14 +291,9 @@
      "pubDate": "Fri, 21 Aug 2026 12:33:12 GMT"
     },
     {
-     "title": "韓国で「親日派スキャナー」拡大",
-     "link": "https://news.yahoo.co.jp/pickup/6592574?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 10:12:19 GMT"
-    },
-    {
-     "title": "台湾に進学の日本人増 誘致手厚く",
-     "link": "https://news.yahoo.co.jp/pickup/6592542?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 07:19:47 GMT"
+     "title": "宮城高野連なぜ「殺」を問題提起",
+     "link": "https://news.yahoo.co.jp/pickup/6592566?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 09:20:01 GMT"
     },
     {
      "title": "日ハム万波が登録抹消 監督が説明",
