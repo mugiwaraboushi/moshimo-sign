@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T18:18:20.166Z",
+ "updatedAt": "2026-08-21T19:03:46.238Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "佐賀 長崎道鳥栖IC付近 部活バス含む車6台関係の事故 10人搬送",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45571",
-     "pubDate": "Fri, 21 Aug 2026 22:36:18 +0900"
+     "title": "証拠の使用制限を法制審諮問へ 検証難しくなるおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45553",
+     "pubDate": "Fri, 21 Aug 2026 21:16:16 +0900"
     },
     {
      "title": "高市首相「信頼なければ政治成り立たない」中傷動画報道で説明",
@@ -33,9 +33,9 @@
      "pubDate": "Fri, 21 Aug 2026 23:46:37 +0900"
     },
     {
-     "title": "2週間予報など長期予報充実 2030年までに実現目指す 気象庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45609",
-     "pubDate": "Fri, 21 Aug 2026 23:34:03 +0900"
+     "title": "香港 天安門事件追悼団体と幹部に有罪判決",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45542",
+     "pubDate": "Fri, 21 Aug 2026 23:50:34 +0900"
     },
     {
      "title": "第175回 芥川賞・直木賞の贈呈式",
