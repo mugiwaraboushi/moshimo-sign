@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T22:10:10.170Z",
+ "updatedAt": "2026-08-21T22:46:37.759Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -11,6 +11,11 @@
      "title": "東海から九州中心に気温上昇 酷暑日予想も 広範囲で大気不安定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45604",
      "pubDate": "Sat, 22 Aug 2026 06:50:04 +0900"
+    },
+    {
+     "title": "ICC赤根智子所長「『法の支配』の終えんの始まりとさせない」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45623",
+     "pubDate": "Sat, 22 Aug 2026 07:26:40 +0900"
     },
     {
      "title": "内閣改造と党役員人事 来月の見方広がる 鈴木幹事長の続投焦点",
@@ -28,19 +33,14 @@
      "pubDate": "Sat, 22 Aug 2026 05:12:00 +0900"
     },
     {
-     "title": "秋篠宮ご夫妻 日本人のパラグアイ移住90周年記念式典に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45603",
-     "pubDate": "Sat, 22 Aug 2026 05:50:26 +0900"
-    },
-    {
      "title": "台風18号 来週 南西諸島に近づくおそれ 今後の情報に注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45618",
      "pubDate": "Sat, 22 Aug 2026 05:01:26 +0900"
     },
     {
-     "title": "“ロシア軍兵士の死者は24万人以上”英BBCなどが調査し報じる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45617",
-     "pubDate": "Sat, 22 Aug 2026 06:07:35 +0900"
+     "title": "秋篠宮ご夫妻 日本人のパラグアイ移住90周年記念式典に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45603",
+     "pubDate": "Sat, 22 Aug 2026 05:50:26 +0900"
     }
    ]
   },
@@ -189,6 +189,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ICC赤根智子所長「『法の支配』の終えんの始まりとさせない」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45623",
+     "pubDate": "Sat, 22 Aug 2026 07:26:40 +0900"
+    },
+    {
      "title": "“ロシア軍兵士の死者は24万人以上”英BBCなどが調査し報じる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45617",
      "pubDate": "Sat, 22 Aug 2026 06:07:35 +0900"
@@ -257,11 +262,6 @@
      "title": "日米韓高官が電話協議 緊密連携確認 北朝鮮弾道ミサイル発射で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45484",
      "pubDate": "Fri, 21 Aug 2026 13:49:00 +0900"
-    },
-    {
-     "title": "NZ地震 犠牲者追悼のプレート取り外される 盗難か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45470",
-     "pubDate": "Fri, 21 Aug 2026 13:28:38 +0900"
     }
    ]
   },
@@ -276,9 +276,9 @@
      "pubDate": "Fri, 21 Aug 2026 14:41:55 GMT"
     },
     {
-     "title": "埼玉で猛烈な雨 車水没訴える通報",
-     "link": "https://news.yahoo.co.jp/pickup/6592589?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 12:54:28 GMT"
+     "title": "千葉豪雨 車両約2500台の撤去完了",
+     "link": "https://news.yahoo.co.jp/pickup/6592599?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 22:24:01 GMT"
     },
     {
      "title": "赤根所長へ連帯表明の国が相次ぐ",
@@ -301,9 +301,9 @@
      "pubDate": "Fri, 21 Aug 2026 09:57:11 GMT"
     },
     {
-     "title": "中村剛也 延長11回に代打満塁HR",
-     "link": "https://news.yahoo.co.jp/pickup/6592598?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 15:06:05 GMT"
+     "title": "中村 歴代最多満塁弾におかわり節",
+     "link": "https://news.yahoo.co.jp/pickup/6592601?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 22:20:14 GMT"
     },
     {
      "title": "ラヴ上等とタイアップ中止 法務省",
