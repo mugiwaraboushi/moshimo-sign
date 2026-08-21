@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T04:07:49.761Z",
+ "updatedAt": "2026-08-21T05:00:14.964Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -28,19 +28,19 @@
      "pubDate": "Fri, 21 Aug 2026 12:35:28 +0900"
     },
     {
+     "title": "NZ地震 犠牲者追悼のプレート取り外される 盗難か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45470",
+     "pubDate": "Fri, 21 Aug 2026 13:28:38 +0900"
+    },
+    {
      "title": "クールジャパン機構 概算要求見送り 廃止含めて検討 経産省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45462",
      "pubDate": "Fri, 21 Aug 2026 11:51:00 +0900"
     },
     {
-     "title": "千葉豪雨 生活やなりわいの再建が課題に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45417",
-     "pubDate": "Fri, 21 Aug 2026 06:38:00 +0900"
-    },
-    {
-     "title": "北陸で非常に激しい雨 西日本中心に猛烈な暑さ 熱中症対策を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45437",
-     "pubDate": "Fri, 21 Aug 2026 13:03:58 +0900"
+     "title": "立民 水岡代表 労働組合の幹部と協議 3党合流めぐり",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45465",
+     "pubDate": "Fri, 21 Aug 2026 13:00:52 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "愛子さま 琵琶湖博物館でビワコオオナマズ鑑賞",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45468",
+     "pubDate": "Fri, 21 Aug 2026 13:29:36 +0900"
+    },
     {
      "title": "静岡 清水区 建造中の船から出火し1人死亡 9人搬送",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45473",
@@ -118,11 +123,6 @@
      "title": "強盗予備の疑いで新たに18歳を逮捕 指示役兼リクルート役か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45331",
      "pubDate": "Thu, 20 Aug 2026 18:43:04 +0900"
-    },
-    {
-     "title": "愛子さま 大阪でフェルメールの作品を鑑賞",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45351",
-     "pubDate": "Thu, 20 Aug 2026 18:30:47 +0900"
     }
    ]
   },
@@ -178,6 +178,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "日米韓高官が電話協議 緊密連携確認 北朝鮮弾道ミサイル発射で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45484",
+     "pubDate": "Fri, 21 Aug 2026 13:49:00 +0900"
+    },
+    {
+     "title": "NZ地震 犠牲者追悼のプレート取り外される 盗難か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45470",
+     "pubDate": "Fri, 21 Aug 2026 13:28:38 +0900"
+    },
     {
      "title": "NYダウ700ドル超下落 米長期金利が再び上昇で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45439",
@@ -242,16 +252,6 @@
      "title": "経産省 石油化学プラントの脱中東ナフサ依存を支援へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45329",
      "pubDate": "Thu, 20 Aug 2026 18:10:54 +0900"
-    },
-    {
-     "title": "北朝鮮が複数の弾道ミサイル発射 日本のEEZ外に落下か 防衛省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45335",
-     "pubDate": "Thu, 20 Aug 2026 21:25:02 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月20日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44541",
-     "pubDate": "Thu, 20 Aug 2026 20:02:42 +0900"
     }
    ]
   },
@@ -261,14 +261,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "中立公「月内の3党合流」に暗雲",
-     "link": "https://news.yahoo.co.jp/pickup/6592513?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 03:13:41 GMT"
+     "title": "台風18号 26日ごろ沖縄接近の恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6592527?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 04:29:44 GMT"
     },
     {
-     "title": "金融庁が企画室新設へ 検査司令塔",
-     "link": "https://news.yahoo.co.jp/pickup/6592503?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 01:44:33 GMT"
+     "title": "議長巡る福岡県会の採決中止 苦情",
+     "link": "https://news.yahoo.co.jp/pickup/6592524?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 04:02:29 GMT"
     },
     {
      "title": "秋サケ激減の異常事態 転換した漁",
@@ -281,14 +281,9 @@
      "pubDate": "Fri, 21 Aug 2026 03:26:18 GMT"
     },
     {
-     "title": "4人死亡 時速50kmで駅構内進入か",
-     "link": "https://news.yahoo.co.jp/pickup/6592502?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 01:34:27 GMT"
-    },
-    {
-     "title": "botで大量クリック 広告費を詐取",
-     "link": "https://news.yahoo.co.jp/pickup/6592510?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 03:00:00 GMT"
+     "title": "登校中児童11人 ハチに刺され搬送",
+     "link": "https://news.yahoo.co.jp/pickup/6592526?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 04:20:51 GMT"
     },
     {
      "title": "水原受刑者事件 記者の尽きぬ疑問",
@@ -299,6 +294,11 @@
      "title": "芸能事務所に異変 倒産が相次ぐ",
      "link": "https://news.yahoo.co.jp/pickup/6592514?source=rss",
      "pubDate": "Fri, 21 Aug 2026 03:14:59 GMT"
+    },
+    {
+     "title": "「年収5千万円婚活」話題 背景は",
+     "link": "https://news.yahoo.co.jp/pickup/6592525?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 04:09:00 GMT"
     }
    ]
   }
