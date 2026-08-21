@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T06:21:56.366Z",
+ "updatedAt": "2026-08-21T07:13:49.679Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "東武日光線 作業員4人死亡の列車事故 見張り役などから聴取",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45429",
-     "pubDate": "Fri, 21 Aug 2026 12:21:32 +0900"
+     "title": "大量の食パンが大山に 「不法投棄にあたる」警察に相談 鳥取",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45513",
+     "pubDate": "Fri, 21 Aug 2026 15:35:22 +0900"
     },
     {
-     "title": "パワハラ認定の横浜 山中竹春市長 国際会議の参加見送り",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45494",
-     "pubDate": "Fri, 21 Aug 2026 14:05:00 +0900"
+     "title": "東武日光線 作業員4人死亡の列車事故 見張り役などから聴取",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45429",
+     "pubDate": "Fri, 21 Aug 2026 15:48:34 +0900"
     },
     {
      "title": "台風18号 今後の情報に注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45459",
      "pubDate": "Fri, 21 Aug 2026 11:23:00 +0900"
+    },
+    {
+     "title": "企業の法務業務へのAI活用で新指針 法務省",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45505",
+     "pubDate": "Fri, 21 Aug 2026 16:06:45 +0900"
+    },
+    {
+     "title": "ホルムズ海峡で“シャトル船”が原油輸送 日本にも 専門家",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45517",
+     "pubDate": "Fri, 21 Aug 2026 15:37:24 +0900"
     },
     {
      "title": "大阪パチンコ店放火殺人事件 高見素直死刑囚に死刑執行",
@@ -31,16 +41,6 @@
      "title": "クールジャパン機構 概算要求見送り 廃止含めて検討 経産省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45462",
      "pubDate": "Fri, 21 Aug 2026 11:51:00 +0900"
-    },
-    {
-     "title": "静岡 清水区 建造中の船から出火し1人死亡 9人搬送",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45473",
-     "pubDate": "Fri, 21 Aug 2026 12:35:28 +0900"
-    },
-    {
-     "title": "千葉豪雨で大雨警報等の基準引き下げ 千葉市と八千代市で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45501",
-     "pubDate": "Fri, 21 Aug 2026 14:16:47 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "大量の食パンが大山に 「不法投棄にあたる」警察に相談 鳥取",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45513",
+     "pubDate": "Fri, 21 Aug 2026 15:35:22 +0900"
+    },
     {
      "title": "千葉豪雨で大雨警報等の基準引き下げ 千葉市と八千代市で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45501",
@@ -92,12 +97,12 @@
     {
      "title": "秋篠宮ご夫妻 パラグアイ大統領を表敬訪問",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45430",
-     "pubDate": "Fri, 21 Aug 2026 11:57:16 +0900"
+     "pubDate": "Fri, 21 Aug 2026 11:57:00 +0900"
     },
     {
      "title": "東武日光線 作業員4人死亡の列車事故 見張り役などから聴取",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45429",
-     "pubDate": "Fri, 21 Aug 2026 12:21:32 +0900"
+     "pubDate": "Fri, 21 Aug 2026 15:48:34 +0900"
     },
     {
      "title": "みなとみらい線 運転再開",
@@ -118,11 +123,6 @@
      "title": "高校無償化で私立人気が高まる 公立高校の志願者全国で4％余減",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45212",
      "pubDate": "Thu, 20 Aug 2026 19:50:00 +0900"
-    },
-    {
-     "title": "熊本地震 車中泊などで死亡は災害関連死か 自治体に相談相次ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45347",
-     "pubDate": "Thu, 20 Aug 2026 19:35:39 +0900"
     }
    ]
   },
@@ -178,6 +178,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "自民 プーチン氏北方領土訪問容認できず 対話求める声も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45520",
+     "pubDate": "Fri, 21 Aug 2026 15:50:11 +0900"
+    },
+    {
+     "title": "ホルムズ海峡で“シャトル船”が原油輸送 日本にも 専門家",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45517",
+     "pubDate": "Fri, 21 Aug 2026 15:37:24 +0900"
+    },
+    {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月21日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44546",
+     "pubDate": "Fri, 21 Aug 2026 15:27:37 +0900"
+    },
     {
      "title": "北朝鮮 ミサイル発射3回連続で発表せず 米の反応探るか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45495",
@@ -237,21 +252,6 @@
      "title": "中国 不動産大手「恒大グループ」創業者に無期懲役の判決",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45377",
      "pubDate": "Thu, 20 Aug 2026 20:58:24 +0900"
-    },
-    {
-     "title": "ロシア軍が北方領土周辺の艦船想定し訓練実施を発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45379",
-     "pubDate": "Thu, 20 Aug 2026 22:04:17 +0900"
-    },
-    {
-     "title": "ロシアによる攻撃 キーウなどで16人死亡 46人けが",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45383",
-     "pubDate": "Fri, 21 Aug 2026 03:16:00 +0900"
-    },
-    {
-     "title": "小泉防衛相 インドと通信アンテナ早期移転へ新協議体設置合意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45369",
-     "pubDate": "Thu, 20 Aug 2026 19:43:00 +0900"
     }
    ]
   },
@@ -276,14 +276,14 @@
      "pubDate": "Fri, 21 Aug 2026 04:49:47 GMT"
     },
     {
-     "title": "登校中児童11人 ハチに刺され搬送",
-     "link": "https://news.yahoo.co.jp/pickup/6592526?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 04:20:51 GMT"
-    },
-    {
      "title": "川に「モバ充」161個 警察が回収",
      "link": "https://news.yahoo.co.jp/pickup/6592533?source=rss",
      "pubDate": "Fri, 21 Aug 2026 05:19:33 GMT"
+    },
+    {
+     "title": "突如中止の花火大会 返金姿勢示す",
+     "link": "https://news.yahoo.co.jp/pickup/6592540?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 06:46:19 GMT"
     },
     {
      "title": "道路脇にパン大量投棄 法的問題は",
@@ -291,14 +291,14 @@
      "pubDate": "Fri, 21 Aug 2026 05:46:48 GMT"
     },
     {
-     "title": "水原受刑者事件 記者の尽きぬ疑問",
-     "link": "https://news.yahoo.co.jp/pickup/6592512?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 03:12:00 GMT"
+     "title": "横浜・織田 進路決める鍵「直感」",
+     "link": "https://news.yahoo.co.jp/pickup/6592537?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 06:19:31 GMT"
     },
     {
-     "title": "「年収5千万円婚活」話題 背景は",
-     "link": "https://news.yahoo.co.jp/pickup/6592525?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 04:09:00 GMT"
+     "title": "藤井風 12月のタイ公演中止を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6592539?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 06:39:09 GMT"
     }
    ]
   }
