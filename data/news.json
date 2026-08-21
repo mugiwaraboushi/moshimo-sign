@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T22:46:37.759Z",
+ "updatedAt": "2026-08-21T23:11:24.413Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -271,24 +271,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "22日 西・東日本は急な雷雨に注意",
-     "link": "https://news.yahoo.co.jp/pickup/6592596?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 14:41:55 GMT"
-    },
-    {
      "title": "千葉豪雨 車両約2500台の撤去完了",
      "link": "https://news.yahoo.co.jp/pickup/6592599?source=rss",
      "pubDate": "Fri, 21 Aug 2026 22:24:01 GMT"
     },
     {
-     "title": "赤根所長へ連帯表明の国が相次ぐ",
-     "link": "https://news.yahoo.co.jp/pickup/6592587?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 12:33:12 GMT"
+     "title": "22日 西・東日本は急な雷雨に注意",
+     "link": "https://news.yahoo.co.jp/pickup/6592596?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 14:41:55 GMT"
     },
     {
-     "title": "5人殺害事件遺族 死刑執行に心境",
-     "link": "https://news.yahoo.co.jp/pickup/6592590?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 13:26:54 GMT"
+     "title": "赤根所長 ICC加盟国に支援求める",
+     "link": "https://news.yahoo.co.jp/pickup/6592600?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 22:23:53 GMT"
+    },
+    {
+     "title": "4人死亡「見張員はベテラン」証言",
+     "link": "https://news.yahoo.co.jp/pickup/6592602?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 22:46:36 GMT"
     },
     {
      "title": "劇物を摂取させ殺人未遂疑い 逮捕",
@@ -296,9 +296,9 @@
      "pubDate": "Fri, 21 Aug 2026 14:24:47 GMT"
     },
     {
-     "title": "睡眠美容巡り 専門家らリスク懸念",
-     "link": "https://news.yahoo.co.jp/pickup/6592572?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 09:57:11 GMT"
+     "title": "若年層で「うつ病」影響が顕在化",
+     "link": "https://news.yahoo.co.jp/pickup/6592603?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 22:54:42 GMT"
     },
     {
      "title": "中村 歴代最多満塁弾におかわり節",
@@ -306,9 +306,9 @@
      "pubDate": "Fri, 21 Aug 2026 22:20:14 GMT"
     },
     {
-     "title": "ラヴ上等とタイアップ中止 法務省",
-     "link": "https://news.yahoo.co.jp/pickup/6592559?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 08:32:21 GMT"
+     "title": "「みい山」アニメ化3つのポイント",
+     "link": "https://news.yahoo.co.jp/pickup/6592605?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 23:03:18 GMT"
     }
    ]
   }
