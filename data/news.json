@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T14:03:33.872Z",
+ "updatedAt": "2026-08-21T14:59:12.756Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "日本学術会議 新会員125人を公表 10月の特殊法人移行を前に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45512",
+     "pubDate": "Fri, 21 Aug 2026 23:46:37 +0900"
+    },
     {
      "title": "被害の千葉大病院支援 医療器具の洗浄設備貸し出し 東京科学大",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45590",
@@ -118,11 +123,6 @@
      "title": "千葉豪雨で大雨警報等の基準引き下げ 千葉市と八千代市で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45501",
      "pubDate": "Fri, 21 Aug 2026 14:16:47 +0900"
-    },
-    {
-     "title": "パワハラ認定の横浜 山中竹春市長 国際会議の参加見送り",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45494",
-     "pubDate": "Fri, 21 Aug 2026 17:25:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "日本学術会議 新会員125人を公表 10月の特殊法人移行を前に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45512",
+     "pubDate": "Fri, 21 Aug 2026 23:46:37 +0900"
+    },
     {
      "title": "囲碁 碁聖戦 井山碁聖が佐田七段に勝って６連覇",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45580",
@@ -206,7 +211,7 @@
     {
      "title": "香港 天安門事件追悼団体と幹部に有罪判決",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45542",
-     "pubDate": "Fri, 21 Aug 2026 19:36:32 +0900"
+     "pubDate": "Fri, 21 Aug 2026 23:50:34 +0900"
     },
     {
      "title": "自民 プーチン氏北方領土訪問容認できず 対話求める声も",
@@ -266,14 +271,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "概算要求総額 130兆円超の見通し",
-     "link": "https://news.yahoo.co.jp/pickup/6592588?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 12:48:52 GMT"
-    },
-    {
-     "title": "千葉豪雨「助けて」緊迫の119番",
-     "link": "https://news.yahoo.co.jp/pickup/6592571?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 09:48:01 GMT"
+     "title": "22日 西・東日本は急な雷雨に注意",
+     "link": "https://news.yahoo.co.jp/pickup/6592596?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 14:41:55 GMT"
     },
     {
      "title": "5人殺害事件遺族 死刑執行に心境",
@@ -286,9 +286,19 @@
      "pubDate": "Fri, 21 Aug 2026 12:54:28 GMT"
     },
     {
+     "title": "劇物を摂取させ殺人未遂疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6592595?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 14:24:47 GMT"
+    },
+    {
      "title": "赤根所長へ連帯表明の国が相次ぐ",
      "link": "https://news.yahoo.co.jp/pickup/6592587?source=rss",
      "pubDate": "Fri, 21 Aug 2026 12:33:12 GMT"
+    },
+    {
+     "title": "睡眠美容巡り 専門家らリスク懸念",
+     "link": "https://news.yahoo.co.jp/pickup/6592572?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 09:57:11 GMT"
     },
     {
      "title": "宮城高野連なぜ「殺」を問題提起",
@@ -296,14 +306,9 @@
      "pubDate": "Fri, 21 Aug 2026 09:20:01 GMT"
     },
     {
-     "title": "日ハム万波が登録抹消 監督が説明",
-     "link": "https://news.yahoo.co.jp/pickup/6592578?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 11:07:51 GMT"
-    },
-    {
-     "title": "異例 自主映画が1館→53館公開に",
-     "link": "https://news.yahoo.co.jp/pickup/6592585?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 12:28:46 GMT"
+     "title": "ラヴ上等とタイアップ中止 法務省",
+     "link": "https://news.yahoo.co.jp/pickup/6592559?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 08:32:21 GMT"
     }
    ]
   }
