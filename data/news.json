@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T08:02:27.398Z",
+ "updatedAt": "2026-08-21T09:04:32.386Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "さいたま市で記録的短時間大雨 災害が発生する危険",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45541",
-     "pubDate": "Fri, 21 Aug 2026 16:47:14 +0900"
-    },
-    {
-     "title": "大量の食パンが大山に 「不法投棄にあたる」警察に相談 鳥取",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45513",
-     "pubDate": "Fri, 21 Aug 2026 15:35:22 +0900"
+     "title": "埼玉県で「記録的短時間大雨」発表 中国地方などでも雨雲発達",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45437",
+     "pubDate": "Fri, 21 Aug 2026 17:33:17 +0900"
     },
     {
      "title": "東武日光線 作業員4人死亡の列車事故 見張り役などから聴取",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45429",
-     "pubDate": "Fri, 21 Aug 2026 16:35:20 +0900"
+     "pubDate": "Fri, 21 Aug 2026 17:37:07 +0900"
+    },
+    {
+     "title": "大量の食パンが大山に 「不法投棄にあたる」警察に相談 鳥取",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45513",
+     "pubDate": "Fri, 21 Aug 2026 15:35:00 +0900"
     },
     {
      "title": "台風18号 今後の情報に注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45459",
-     "pubDate": "Fri, 21 Aug 2026 11:23:00 +0900"
+     "pubDate": "Fri, 21 Aug 2026 17:22:03 +0900"
     },
     {
-     "title": "ホルムズ海峡で“シャトル船”が原油輸送 日本にも 専門家",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45517",
-     "pubDate": "Fri, 21 Aug 2026 15:37:24 +0900"
+     "title": "スーパーのコメ平均価格 5キロ3191円 2週ぶり値下がり",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45521",
+     "pubDate": "Fri, 21 Aug 2026 17:52:10 +0900"
     },
     {
-     "title": "大阪パチンコ店放火殺人事件 高見素直死刑囚に死刑執行",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45451",
-     "pubDate": "Fri, 21 Aug 2026 12:23:30 +0900"
+     "title": "中野サンプラザ再開発 中野区が新たな事業計画の骨子を示す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45532",
+     "pubDate": "Fri, 21 Aug 2026 16:18:00 +0900"
     },
     {
-     "title": "クールジャパン機構 概算要求見送り 廃止含めて検討 経産省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45462",
-     "pubDate": "Fri, 21 Aug 2026 11:51:00 +0900"
+     "title": "パワハラ認定の横浜 山中竹春市長 国際会議の参加見送り",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45494",
+     "pubDate": "Fri, 21 Aug 2026 17:25:00 +0900"
     }
    ]
   },
@@ -52,12 +52,12 @@
     {
      "title": "中野サンプラザ再開発 中野区が新たな事業計画の骨子を示す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45532",
-     "pubDate": "Fri, 21 Aug 2026 16:18:39 +0900"
+     "pubDate": "Fri, 21 Aug 2026 16:18:00 +0900"
     },
     {
      "title": "大量の食パンが大山に 「不法投棄にあたる」警察に相談 鳥取",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45513",
-     "pubDate": "Fri, 21 Aug 2026 15:35:22 +0900"
+     "pubDate": "Fri, 21 Aug 2026 15:35:00 +0900"
     },
     {
      "title": "千葉豪雨で大雨警報等の基準引き下げ 千葉市と八千代市で",
@@ -67,7 +67,7 @@
     {
      "title": "パワハラ認定の横浜 山中竹春市長 国際会議の参加見送り",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45494",
-     "pubDate": "Fri, 21 Aug 2026 14:05:00 +0900"
+     "pubDate": "Fri, 21 Aug 2026 17:25:00 +0900"
     },
     {
      "title": "愛子さま 琵琶湖博物館でビワコオオナマズ鑑賞",
@@ -83,11 +83,6 @@
      "title": "大阪パチンコ店放火殺人事件 高見素直死刑囚に死刑執行",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45451",
      "pubDate": "Fri, 21 Aug 2026 12:23:30 +0900"
-    },
-    {
-     "title": "7月消費者物価 生鮮除き1.8％上昇 上昇率は拡大",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45440",
-     "pubDate": "Fri, 21 Aug 2026 09:01:00 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（8月21日）",
@@ -107,7 +102,7 @@
     {
      "title": "東武日光線 作業員4人死亡の列車事故 見張り役などから聴取",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45429",
-     "pubDate": "Fri, 21 Aug 2026 16:35:20 +0900"
+     "pubDate": "Fri, 21 Aug 2026 17:37:07 +0900"
     },
     {
      "title": "みなとみらい線 運転再開",
@@ -123,6 +118,11 @@
      "title": "福岡 天神 女性殺害事件 退勤5時間後に女性いないと知人が通報",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45371",
      "pubDate": "Thu, 20 Aug 2026 20:55:00 +0900"
+    },
+    {
+     "title": "高校無償化で私立人気が高まる 公立高校の志願者全国で4％余減",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45212",
+     "pubDate": "Thu, 20 Aug 2026 19:50:00 +0900"
     }
    ]
   },
@@ -261,14 +261,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "あす九州で39℃予想も 熱中症警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6592543?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 07:14:53 GMT"
+     "title": "不祥事相次ぐ検察 閉ざされた会見",
+     "link": "https://news.yahoo.co.jp/pickup/6592544?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 07:23:02 GMT"
     },
     {
-     "title": "千葉豪雨 片付け中の感染症に注意",
-     "link": "https://news.yahoo.co.jp/pickup/6592529?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 04:49:47 GMT"
+     "title": "横浜市主催の会議 市長参加見送り",
+     "link": "https://news.yahoo.co.jp/pickup/6592554?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 08:14:07 GMT"
     },
     {
      "title": "露戦略会議に変化「戦後」意識?",
@@ -276,29 +276,29 @@
      "pubDate": "Fri, 21 Aug 2026 03:56:24 GMT"
     },
     {
-     "title": "不祥事相次ぐ検察 閉ざされた会見",
-     "link": "https://news.yahoo.co.jp/pickup/6592544?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 07:23:02 GMT"
+     "title": "病院から姿消した被告 遺体で発見",
+     "link": "https://news.yahoo.co.jp/pickup/6592555?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 08:08:16 GMT"
     },
     {
-     "title": "川に「モバ充」161個 警察が回収",
-     "link": "https://news.yahoo.co.jp/pickup/6592533?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 05:19:33 GMT"
+     "title": "ゴルフ研修生19歳自殺 両親が提訴",
+     "link": "https://news.yahoo.co.jp/pickup/6592557?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 08:26:23 GMT"
     },
     {
-     "title": "突如中止の花火大会 返金姿勢示す",
-     "link": "https://news.yahoo.co.jp/pickup/6592540?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 06:46:19 GMT"
+     "title": "20代NISA買い付け額17倍 2014年比",
+     "link": "https://news.yahoo.co.jp/pickup/6592560?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 08:36:18 GMT"
     },
     {
-     "title": "横浜・織田 進路決める鍵「直感」",
-     "link": "https://news.yahoo.co.jp/pickup/6592537?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 06:19:31 GMT"
+     "title": "イベでゲストが永久欠番着用 賛否",
+     "link": "https://news.yahoo.co.jp/pickup/6592550?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 08:16:06 GMT"
     },
     {
-     "title": "藤井風 12月のタイ公演中止を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6592539?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 06:39:09 GMT"
+     "title": "ラヴ上等とタイアップ中止 法務省",
+     "link": "https://news.yahoo.co.jp/pickup/6592559?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 08:32:21 GMT"
     }
    ]
   }
