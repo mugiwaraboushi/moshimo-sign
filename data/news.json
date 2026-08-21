@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T15:30:29.223Z",
+ "updatedAt": "2026-08-21T16:16:55.431Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -62,7 +62,7 @@
     {
      "title": "法務省 ネット番組「ラヴ上等」とのタイアップ中止を発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45566",
-     "pubDate": "Fri, 21 Aug 2026 21:30:29 +0900"
+     "pubDate": "Sat, 22 Aug 2026 00:30:00 +0900"
     },
     {
      "title": "巧妙な落とし穴 知らないうちに“トバシ口座”に加担",
