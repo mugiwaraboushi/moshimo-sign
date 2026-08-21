@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T12:19:50.278Z",
+ "updatedAt": "2026-08-21T13:23:33.643Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【地震速報】東京の三宅島 御蔵島で震度3 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45592",
-     "pubDate": "Fri, 21 Aug 2026 21:13:21 +0900"
+     "title": "千葉豪雨 死者13人 浸水被害約3600棟 農業被害28億円",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45579",
+     "pubDate": "Fri, 21 Aug 2026 19:55:23 +0900"
     },
     {
-     "title": "佐賀 長崎道鳥栖IC付近 部活バスを含む多重事故 3人重傷か",
+     "title": "佐賀 長崎道鳥栖IC付近 部活バス含む車6台関係の事故 10人搬送",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45571",
-     "pubDate": "Fri, 21 Aug 2026 21:09:55 +0900"
+     "pubDate": "Fri, 21 Aug 2026 21:54:16 +0900"
     },
     {
      "title": "東武日光線 4人死亡列車事故 ホーム下に緊急避難スペースなし",
@@ -23,14 +23,14 @@
      "pubDate": "Fri, 21 Aug 2026 20:10:43 +0900"
     },
     {
-     "title": "北日本～西日本 あすにかけ大気が非常に不安定 各地で雨雲発達",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45437",
-     "pubDate": "Fri, 21 Aug 2026 21:03:44 +0900"
+     "title": "熊本地震 個人の井戸復旧を災害救助費で支援可能に 高市首相",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45559",
+     "pubDate": "Fri, 21 Aug 2026 19:52:42 +0900"
     },
     {
-     "title": "台風18号 今後の情報に注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45459",
-     "pubDate": "Fri, 21 Aug 2026 19:48:50 +0900"
+     "title": "第175回 芥川賞・直木賞の贈呈式",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45589",
+     "pubDate": "Fri, 21 Aug 2026 20:59:42 +0900"
     },
     {
      "title": "大量の食パンが大山に 「不法投棄にあたる」警察に相談 鳥取",
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "被害の千葉大病院支援 医療器具の洗浄設備貸し出し 東京科学大",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45590",
+     "pubDate": "Fri, 21 Aug 2026 21:58:13 +0900"
+    },
+    {
+     "title": "法務省 ネット番組「ラヴ上等」とのタイアップ中止を発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45566",
+     "pubDate": "Fri, 21 Aug 2026 21:30:29 +0900"
+    },
+    {
+     "title": "巧妙な落とし穴 知らないうちに“トバシ口座”に加担",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45578",
+     "pubDate": "Fri, 21 Aug 2026 21:27:00 +0900"
+    },
     {
      "title": "証拠の使用制限を法制審諮問へ 検証難しくなるおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45553",
@@ -80,9 +95,9 @@
      "pubDate": "Fri, 21 Aug 2026 19:04:17 +0900"
     },
     {
-     "title": "佐賀 長崎道鳥栖IC付近 部活バスを含む多重事故 3人重傷か",
+     "title": "佐賀 長崎道鳥栖IC付近 部活バス含む車6台関係の事故 10人搬送",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45571",
-     "pubDate": "Fri, 21 Aug 2026 21:09:55 +0900"
+     "pubDate": "Fri, 21 Aug 2026 21:54:16 +0900"
     },
     {
      "title": "小学校で児童11人ハチに刺され軽いけが 広島 庄原市",
@@ -108,21 +123,6 @@
      "title": "パワハラ認定の横浜 山中竹春市長 国際会議の参加見送り",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45494",
      "pubDate": "Fri, 21 Aug 2026 17:25:00 +0900"
-    },
-    {
-     "title": "愛子さま 琵琶湖博物館でビワコオオナマズ鑑賞",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45468",
-     "pubDate": "Fri, 21 Aug 2026 13:29:36 +0900"
-    },
-    {
-     "title": "静岡 清水区 建造中の船から出火し1人死亡 9人搬送",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45473",
-     "pubDate": "Fri, 21 Aug 2026 12:35:28 +0900"
-    },
-    {
-     "title": "大阪パチンコ店放火殺人事件 高見素直死刑囚に死刑執行",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45451",
-     "pubDate": "Fri, 21 Aug 2026 12:23:30 +0900"
     }
    ]
   },
@@ -183,6 +183,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "中国 南部の大規模洪水で死者159人に 各地で大雨被害",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45594",
+     "pubDate": "Fri, 21 Aug 2026 22:16:48 +0900"
+    },
+    {
+     "title": "超党派議員が来週訪中 中国外務省「正しい軌道への努力 留意」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45591",
+     "pubDate": "Fri, 21 Aug 2026 21:32:00 +0900"
+    },
     {
      "title": "ウクライナとロシア 21日にかけても攻撃の応酬続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45587",
@@ -247,16 +257,6 @@
      "title": "中央アフリカで金鉱山が崩落し 100人以上死亡 救助活動続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45418",
      "pubDate": "Fri, 21 Aug 2026 00:18:21 +0900"
-    },
-    {
-     "title": "日オマーン外相 “ホルムズ海峡 国際社会で議論が不可欠”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45423",
-     "pubDate": "Fri, 21 Aug 2026 00:01:00 +0900"
-    },
-    {
-     "title": "韓国訪問中の中国外相 北朝鮮めぐり“米は敵視政策の放棄を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45419",
-     "pubDate": "Thu, 20 Aug 2026 22:41:50 +0900"
     }
    ]
   },
@@ -266,24 +266,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "4人死亡 列車見張り員ら任意聴取",
-     "link": "https://news.yahoo.co.jp/pickup/6592573?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 09:58:13 GMT"
+     "title": "概算要求総額 130兆円超の見通し",
+     "link": "https://news.yahoo.co.jp/pickup/6592588?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 12:48:52 GMT"
     },
     {
-     "title": "育児サービス利用など税優遇 方針",
-     "link": "https://news.yahoo.co.jp/pickup/6592556?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 08:28:09 GMT"
+     "title": "千葉豪雨「助けて」緊迫の119番",
+     "link": "https://news.yahoo.co.jp/pickup/6592571?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 09:48:01 GMT"
     },
     {
-     "title": "高校のバスなど6台事故 生徒搬送",
-     "link": "https://news.yahoo.co.jp/pickup/6592579?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 10:50:18 GMT"
+     "title": "埼玉で猛烈な雨 車水没訴える通報",
+     "link": "https://news.yahoo.co.jp/pickup/6592589?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 12:54:28 GMT"
     },
     {
-     "title": "クーラーBOXで5日漂流 メキシコ",
-     "link": "https://news.yahoo.co.jp/pickup/6592580?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 11:20:49 GMT"
+     "title": "赤根所長へ連帯表明の国が相次ぐ",
+     "link": "https://news.yahoo.co.jp/pickup/6592587?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 12:33:12 GMT"
     },
     {
      "title": "韓国で「親日派スキャナー」拡大",
@@ -291,19 +291,19 @@
      "pubDate": "Fri, 21 Aug 2026 10:12:19 GMT"
     },
     {
+     "title": "台湾に進学の日本人増 誘致手厚く",
+     "link": "https://news.yahoo.co.jp/pickup/6592542?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 07:19:47 GMT"
+    },
+    {
      "title": "日ハム万波が登録抹消 監督が説明",
      "link": "https://news.yahoo.co.jp/pickup/6592578?source=rss",
      "pubDate": "Fri, 21 Aug 2026 11:07:51 GMT"
     },
     {
-     "title": "=LOVE運営声明 ファンに注意喚起",
-     "link": "https://news.yahoo.co.jp/pickup/6592577?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 11:05:50 GMT"
-    },
-    {
-     "title": "バイオリニスト木嶋真優さん 出産",
-     "link": "https://news.yahoo.co.jp/pickup/6592568?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 09:29:11 GMT"
+     "title": "異例 自主映画が1館→53館公開に",
+     "link": "https://news.yahoo.co.jp/pickup/6592585?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 12:28:46 GMT"
     }
    ]
   }
