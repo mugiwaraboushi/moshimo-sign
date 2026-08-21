@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T21:11:40.661Z",
+ "updatedAt": "2026-08-21T21:44:14.087Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,29 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "内閣改造と党役員人事 来月の見方広がる 鈴木幹事長の続投焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45600",
-     "pubDate": "Sat, 22 Aug 2026 05:11:29 +0900"
-    },
-    {
-     "title": "千葉豪雨受け アンダーパスを緊急点検 3か所で異常 国交省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45601",
-     "pubDate": "Sat, 22 Aug 2026 05:02:34 +0900"
-    },
-    {
      "title": "東海から九州中心に気温上昇 酷暑日予想も 広範囲で大気不安定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45604",
      "pubDate": "Sat, 22 Aug 2026 06:06:00 +0900"
     },
     {
-     "title": "栃木4人死亡事故 運転士「急ブレーキかけたが間に合わず」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45613",
-     "pubDate": "Sat, 22 Aug 2026 05:12:12 +0900"
+     "title": "内閣改造と党役員人事 来月の見方広がる 鈴木幹事長の続投焦点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45600",
+     "pubDate": "Sat, 22 Aug 2026 05:11:29 +0900"
     },
     {
-     "title": "台風18号 来週 南西諸島に近づくおそれ 今後の情報に注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45618",
-     "pubDate": "Sat, 22 Aug 2026 05:01:26 +0900"
+     "title": "千葉 路上の車両の所有者への引き渡し 警察などに協力求める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45615",
+     "pubDate": "Sat, 22 Aug 2026 06:15:05 +0900"
+    },
+    {
+     "title": "栃木4人死亡事故 運転士「急ブレーキかけたが間に合わず」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45613",
+     "pubDate": "Sat, 22 Aug 2026 05:12:00 +0900"
     },
     {
      "title": "秋篠宮ご夫妻 日本人のパラグアイ移住90周年記念式典に",
@@ -38,9 +33,14 @@
      "pubDate": "Sat, 22 Aug 2026 05:50:26 +0900"
     },
     {
-     "title": "中国 南部の大規模洪水で死者159人に 各地で大雨被害",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45594",
-     "pubDate": "Fri, 21 Aug 2026 22:16:48 +0900"
+     "title": "台風18号 来週 南西諸島に近づくおそれ 今後の情報に注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45618",
+     "pubDate": "Sat, 22 Aug 2026 05:01:26 +0900"
+    },
+    {
+     "title": "“ロシア軍兵士の死者は24万人以上”英BBCなどが調査し報じる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45617",
+     "pubDate": "Sat, 22 Aug 2026 06:07:35 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "千葉 路上の車両の所有者への引き渡し 警察などに協力求める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45615",
+     "pubDate": "Sat, 22 Aug 2026 06:15:05 +0900"
+    },
     {
      "title": "秋篠宮ご夫妻 日本人のパラグアイ移住90周年記念式典に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45603",
@@ -118,11 +123,6 @@
      "title": "関東運輸局 東海汽船の事業停止処分検討で聴聞を実施",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45556",
      "pubDate": "Fri, 21 Aug 2026 19:04:17 +0900"
-    },
-    {
-     "title": "佐賀 長崎道鳥栖IC付近 部活バス含む車6台関係の事故 10人搬送",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45571",
-     "pubDate": "Fri, 21 Aug 2026 22:36:18 +0900"
     }
    ]
   },
