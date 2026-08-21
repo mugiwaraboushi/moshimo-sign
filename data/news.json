@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T14:59:12.756Z",
+ "updatedAt": "2026-08-21T15:30:29.223Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -28,19 +28,19 @@
      "pubDate": "Fri, 21 Aug 2026 20:59:42 +0900"
     },
     {
-     "title": "愛子さま 滋賀県でリハビリ続ける子どもたちと交流",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45562",
-     "pubDate": "Fri, 21 Aug 2026 19:26:59 +0900"
+     "title": "中国 南部の大規模洪水で死者159人に 各地で大雨被害",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45594",
+     "pubDate": "Fri, 21 Aug 2026 22:16:48 +0900"
+    },
+    {
+     "title": "ウクライナとロシア 21日にかけても攻撃の応酬続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45587",
+     "pubDate": "Fri, 21 Aug 2026 20:52:34 +0900"
     },
     {
      "title": "大量の食パンが大山に 「不法投棄にあたる」警察に相談 鳥取",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45513",
      "pubDate": "Fri, 21 Aug 2026 15:35:00 +0900"
-    },
-    {
-     "title": "プロ目指した19歳ゴルフ場研修生自殺で労災認定 両親提訴 福島",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45583",
-     "pubDate": "Fri, 21 Aug 2026 20:41:22 +0900"
     }
    ]
   },
@@ -276,19 +276,9 @@
      "pubDate": "Fri, 21 Aug 2026 14:41:55 GMT"
     },
     {
-     "title": "5人殺害事件遺族 死刑執行に心境",
-     "link": "https://news.yahoo.co.jp/pickup/6592590?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 13:26:54 GMT"
-    },
-    {
      "title": "埼玉で猛烈な雨 車水没訴える通報",
      "link": "https://news.yahoo.co.jp/pickup/6592589?source=rss",
      "pubDate": "Fri, 21 Aug 2026 12:54:28 GMT"
-    },
-    {
-     "title": "劇物を摂取させ殺人未遂疑い 逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6592595?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 14:24:47 GMT"
     },
     {
      "title": "赤根所長へ連帯表明の国が相次ぐ",
@@ -296,14 +286,24 @@
      "pubDate": "Fri, 21 Aug 2026 12:33:12 GMT"
     },
     {
+     "title": "5人殺害事件遺族 死刑執行に心境",
+     "link": "https://news.yahoo.co.jp/pickup/6592590?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 13:26:54 GMT"
+    },
+    {
+     "title": "劇物を摂取させ殺人未遂疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6592595?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 14:24:47 GMT"
+    },
+    {
      "title": "睡眠美容巡り 専門家らリスク懸念",
      "link": "https://news.yahoo.co.jp/pickup/6592572?source=rss",
      "pubDate": "Fri, 21 Aug 2026 09:57:11 GMT"
     },
     {
-     "title": "宮城高野連なぜ「殺」を問題提起",
-     "link": "https://news.yahoo.co.jp/pickup/6592566?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 09:20:01 GMT"
+     "title": "中村剛也 延長11回に代打満塁HR",
+     "link": "https://news.yahoo.co.jp/pickup/6592598?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 15:06:05 GMT"
     },
     {
      "title": "ラヴ上等とタイアップ中止 法務省",
