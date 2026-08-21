@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T00:30:41.512Z",
+ "updatedAt": "2026-08-21T02:14:57.778Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "大阪パチンコ店放火5人死亡事件 放火殺人の死刑囚に死刑執行",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45451",
+     "pubDate": "Fri, 21 Aug 2026 11:02:53 +0900"
+    },
+    {
      "title": "栃木4人死亡列車事故 見張り役情報共有できていなかった可能性",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45429",
      "pubDate": "Fri, 21 Aug 2026 06:02:00 +0900"
-    },
-    {
-     "title": "千葉豪雨 生活やなりわいの再建が課題に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45417",
-     "pubDate": "Fri, 21 Aug 2026 06:38:36 +0900"
-    },
-    {
-     "title": "熊本地震 被災地はきょうも猛烈な暑さ 熱中症対策継続を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45435",
-     "pubDate": "Fri, 21 Aug 2026 06:33:00 +0900"
-    },
-    {
-     "title": "台風18号 23日には非常に強い勢力に発達か 今後の情報に注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45221",
-     "pubDate": "Thu, 20 Aug 2026 19:41:00 +0900"
     },
     {
      "title": "7月の消費者物価指数 生鮮食品除く指数は前年比＋1.8%",
@@ -33,14 +23,24 @@
      "pubDate": "Fri, 21 Aug 2026 09:01:10 +0900"
     },
     {
-     "title": "【地震情報】沖縄県で震度3",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45422",
-     "pubDate": "Fri, 21 Aug 2026 09:23:16 +0900"
+     "title": "千葉豪雨 生活やなりわいの再建が課題に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45417",
+     "pubDate": "Fri, 21 Aug 2026 06:38:00 +0900"
     },
     {
-     "title": "阪神 伊原陵人投手 1軍選手登録を抹消 週刊誌報道を受けて",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45387",
-     "pubDate": "Thu, 20 Aug 2026 22:43:36 +0900"
+     "title": "熊本地震 被災地はきょうも猛烈な暑さ 熱中症対策継続を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45435",
+     "pubDate": "Fri, 21 Aug 2026 06:33:00 +0900"
+    },
+    {
+     "title": "西日本中心に猛烈な暑さ 熱中症対策を 局地的に非常に激しい雨",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45437",
+     "pubDate": "Fri, 21 Aug 2026 06:34:00 +0900"
+    },
+    {
+     "title": "NYダウ700ドル超下落 米長期金利が再び上昇で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45439",
+     "pubDate": "Fri, 21 Aug 2026 07:12:14 +0900"
     }
    ]
   },
@@ -50,6 +50,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "大阪パチンコ店放火5人死亡事件 放火殺人の死刑囚に死刑執行",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45451",
+     "pubDate": "Fri, 21 Aug 2026 11:02:53 +0900"
+    },
+    {
      "title": "7月の消費者物価指数 生鮮食品除く指数は前年比＋1.8%",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45440",
      "pubDate": "Fri, 21 Aug 2026 09:01:10 +0900"
@@ -57,7 +62,7 @@
     {
      "title": "【動画】Pickup NEWS（8月21日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45393",
-     "pubDate": "Fri, 21 Aug 2026 07:04:54 +0900"
+     "pubDate": "Fri, 21 Aug 2026 10:24:58 +0900"
     },
     {
      "title": "政府 来週にも熊本地震で支援パッケージ 観光振興「応援割」も",
@@ -118,11 +123,6 @@
      "title": "日本製紙八代工場 地震で先端損傷の煙突 来月中旬めど撤去へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45326",
      "pubDate": "Thu, 20 Aug 2026 18:03:00 +0900"
-    },
-    {
-     "title": "北朝鮮が複数の弾道ミサイル発射 日本のEEZ外に落下か 防衛省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45335",
-     "pubDate": "Thu, 20 Aug 2026 21:25:02 +0900"
     }
    ]
   },
@@ -231,7 +231,7 @@
     {
      "title": "ロシアによる攻撃 キーウなどで16人死亡 46人けが",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45383",
-     "pubDate": "Fri, 21 Aug 2026 03:16:28 +0900"
+     "pubDate": "Fri, 21 Aug 2026 03:16:00 +0900"
     },
     {
      "title": "小泉防衛相 インドと通信アンテナ早期移転へ新協議体設置合意",
@@ -261,14 +261,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "暑さ続く 北陸・東北は大雨恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6592488?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 23:16:42 GMT"
+     "title": "09年の15人死傷放火殺人 死刑執行",
+     "link": "https://news.yahoo.co.jp/pickup/6592499?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 01:04:25 GMT"
     },
     {
-     "title": "大規模11私大 理系学生増など検討",
-     "link": "https://news.yahoo.co.jp/pickup/6592492?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 00:03:47 GMT"
+     "title": "北 ミサイル発射3回連続報道せず",
+     "link": "https://news.yahoo.co.jp/pickup/6592495?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 00:22:05 GMT"
+    },
+    {
+     "title": "金与正氏 米韓同盟は「主従関係」",
+     "link": "https://news.yahoo.co.jp/pickup/6592500?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 01:14:07 GMT"
     },
     {
      "title": "SKハイニックス 宮城に工場案",
@@ -276,19 +281,14 @@
      "pubDate": "Fri, 21 Aug 2026 00:07:12 GMT"
     },
     {
-     "title": "4人死亡 業務上過失致死疑い視野",
-     "link": "https://news.yahoo.co.jp/pickup/6592491?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 00:05:07 GMT"
+     "title": "4人死亡 時速50kmで駅構内進入か",
+     "link": "https://news.yahoo.co.jp/pickup/6592502?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 01:34:27 GMT"
     },
     {
-     "title": "小2が味に違和感 配布の水にネジ",
-     "link": "https://news.yahoo.co.jp/pickup/6592481?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 22:28:25 GMT"
-    },
-    {
-     "title": "くら寿司最低価格下げる なぜ逆行",
-     "link": "https://news.yahoo.co.jp/pickup/6592483?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 22:56:47 GMT"
+     "title": "タイ政府 500万人にAI無料提供",
+     "link": "https://news.yahoo.co.jp/pickup/6592496?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 00:33:06 GMT"
     },
     {
      "title": "「冷しカプヌ」1週間で供給分完売",
@@ -296,9 +296,9 @@
      "pubDate": "Thu, 20 Aug 2026 23:23:41 GMT"
     },
     {
-     "title": "「みい山」アニメ化 懸念の背景は",
-     "link": "https://news.yahoo.co.jp/pickup/6592494?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 00:10:18 GMT"
+     "title": "織田翔希を智弁和歌山が攻略 真相",
+     "link": "https://news.yahoo.co.jp/pickup/6592497?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 01:13:29 GMT"
     }
    ]
   }
