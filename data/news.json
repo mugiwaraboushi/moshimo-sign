@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T11:14:34.066Z",
+ "updatedAt": "2026-08-21T11:48:31.871Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "プロ目指した19歳ゴルフ場研修生自殺で労災認定 両親提訴 福島",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45583",
+     "pubDate": "Fri, 21 Aug 2026 20:41:22 +0900"
+    },
     {
      "title": "秋田 風車の羽根落下事故 警察が立件見送る方針を遺族に伝える",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45568",
@@ -118,11 +123,6 @@
      "title": "政府 来週にも熊本地震で支援パッケージ 観光振興「応援割」も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45425",
      "pubDate": "Fri, 21 Aug 2026 06:40:00 +0900"
-    },
-    {
-     "title": "秋篠宮ご夫妻 パラグアイ大統領を表敬訪問",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45430",
-     "pubDate": "Fri, 21 Aug 2026 11:57:00 +0900"
     }
    ]
   },
@@ -276,19 +276,14 @@
      "pubDate": "Fri, 21 Aug 2026 08:28:09 GMT"
     },
     {
-     "title": "鈴木宗男氏 駐露大使の対応を批判",
-     "link": "https://news.yahoo.co.jp/pickup/6592561?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 08:59:43 GMT"
-    },
-    {
-     "title": "馬渕隆一さん死去 マブチモーター",
-     "link": "https://news.yahoo.co.jp/pickup/6592569?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 09:26:39 GMT"
-    },
-    {
      "title": "高校のバスなど6台事故 生徒搬送",
      "link": "https://news.yahoo.co.jp/pickup/6592579?source=rss",
      "pubDate": "Fri, 21 Aug 2026 10:50:18 GMT"
+    },
+    {
+     "title": "クーラーBOXで5日漂流 メキシコ",
+     "link": "https://news.yahoo.co.jp/pickup/6592580?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 11:20:49 GMT"
     },
     {
      "title": "韓国で「親日派スキャナー」拡大",
@@ -296,9 +291,14 @@
      "pubDate": "Fri, 21 Aug 2026 10:12:19 GMT"
     },
     {
-     "title": "ラヴ上等とタイアップ中止 法務省",
-     "link": "https://news.yahoo.co.jp/pickup/6592559?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 08:32:21 GMT"
+     "title": "日ハム万波が登録抹消 監督が説明",
+     "link": "https://news.yahoo.co.jp/pickup/6592578?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 11:07:51 GMT"
+    },
+    {
+     "title": "=LOVE運営声明 ファンに注意喚起",
+     "link": "https://news.yahoo.co.jp/pickup/6592577?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 11:05:50 GMT"
     },
     {
      "title": "バイオリニスト木嶋真優さん 出産",
