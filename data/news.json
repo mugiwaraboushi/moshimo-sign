@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T23:46:07.521Z",
+ "updatedAt": "2026-08-21T00:30:41.512Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -28,14 +28,14 @@
      "pubDate": "Thu, 20 Aug 2026 19:41:00 +0900"
     },
     {
-     "title": "秋篠宮ご夫妻 パラグアイ大統領を表敬訪問",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45430",
-     "pubDate": "Fri, 21 Aug 2026 06:21:00 +0900"
+     "title": "7月の消費者物価指数 生鮮食品除く指数は前年比＋1.8%",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45440",
+     "pubDate": "Fri, 21 Aug 2026 09:01:10 +0900"
     },
     {
-     "title": "NYダウ700ドル超下落 米長期金利が再び上昇で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45439",
-     "pubDate": "Fri, 21 Aug 2026 07:12:14 +0900"
+     "title": "【地震情報】沖縄県で震度3",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45422",
+     "pubDate": "Fri, 21 Aug 2026 09:23:16 +0900"
     },
     {
      "title": "阪神 伊原陵人投手 1軍選手登録を抹消 週刊誌報道を受けて",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "7月の消費者物価指数 生鮮食品除く指数は前年比＋1.8%",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45440",
+     "pubDate": "Fri, 21 Aug 2026 09:01:10 +0900"
+    },
     {
      "title": "【動画】Pickup NEWS（8月21日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45393",
@@ -118,11 +123,6 @@
      "title": "北朝鮮が複数の弾道ミサイル発射 日本のEEZ外に落下か 防衛省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45335",
      "pubDate": "Thu, 20 Aug 2026 21:25:02 +0900"
-    },
-    {
-     "title": "熊本地震 八代市長が農業用水確保などの支援を鈴木農相に要請",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45313",
-     "pubDate": "Thu, 20 Aug 2026 16:47:00 +0900"
     }
    ]
   },
@@ -261,24 +261,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "内閣改造 来月中下旬で首相調整",
-     "link": "https://news.yahoo.co.jp/pickup/6592475?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 21:34:50 GMT"
+     "title": "暑さ続く 北陸・東北は大雨恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6592488?source=rss",
+     "pubDate": "Thu, 20 Aug 2026 23:16:42 GMT"
     },
     {
-     "title": "防衛事業 再編の企業に国出資方針",
-     "link": "https://news.yahoo.co.jp/pickup/6592489?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 23:35:07 GMT"
+     "title": "大規模11私大 理系学生増など検討",
+     "link": "https://news.yahoo.co.jp/pickup/6592492?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 00:03:47 GMT"
     },
     {
-     "title": "北方領土周辺で演習 露が映像公開",
-     "link": "https://news.yahoo.co.jp/pickup/6592485?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 23:02:39 GMT"
+     "title": "SKハイニックス 宮城に工場案",
+     "link": "https://news.yahoo.co.jp/pickup/6592493?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 00:07:12 GMT"
     },
     {
-     "title": "飛び込みスポット 20歳が意識不明",
-     "link": "https://news.yahoo.co.jp/pickup/6592473?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 21:05:27 GMT"
+     "title": "4人死亡 業務上過失致死疑い視野",
+     "link": "https://news.yahoo.co.jp/pickup/6592491?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 00:05:07 GMT"
     },
     {
      "title": "小2が味に違和感 配布の水にネジ",
@@ -296,9 +296,9 @@
      "pubDate": "Thu, 20 Aug 2026 23:23:41 GMT"
     },
     {
-     "title": "中日サヨナラ負け 9回異例の敬遠",
-     "link": "https://news.yahoo.co.jp/pickup/6592476?source=rss",
-     "pubDate": "Thu, 20 Aug 2026 21:51:23 GMT"
+     "title": "「みい山」アニメ化 懸念の背景は",
+     "link": "https://news.yahoo.co.jp/pickup/6592494?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 00:10:18 GMT"
     }
    ]
   }
