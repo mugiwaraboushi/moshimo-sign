@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T10:10:06.472Z",
+ "updatedAt": "2026-08-22T10:45:36.308Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,17 +10,7 @@
     {
      "title": "関東南部で猛烈な雨 浸水や川の氾濫に厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45682",
-     "pubDate": "Sat, 22 Aug 2026 19:00:27 +0900"
-    },
-    {
-     "title": "【台風】18号 来週南西諸島に接近か 19号と20号も相次いで発生",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45693",
-     "pubDate": "Sat, 22 Aug 2026 18:53:28 +0900"
-    },
-    {
-     "title": "栃木4人死亡列車事故 運転士200メートル手前で進入許可認識か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45675",
-     "pubDate": "Sat, 22 Aug 2026 18:51:00 +0900"
+     "pubDate": "Sat, 22 Aug 2026 19:27:14 +0900"
     },
     {
      "title": "東京 白子川 一時「氾濫発生水位」上回る",
@@ -28,19 +18,29 @@
      "pubDate": "Sat, 22 Aug 2026 19:06:52 +0900"
     },
     {
-     "title": "熊本地震 災害関連死の疑い含め38人死亡 避難所に2838人避難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45665",
-     "pubDate": "Sat, 22 Aug 2026 17:40:48 +0900"
+     "title": "【台風】18号 来週南西諸島に接近か 19号と20号も相次いで発生",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45693",
+     "pubDate": "Sat, 22 Aug 2026 18:53:00 +0900"
+    },
+    {
+     "title": "栃木4人死亡列車事故 運転士200メートル手前で進入許可認識か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45675",
+     "pubDate": "Sat, 22 Aug 2026 18:51:00 +0900"
+    },
+    {
+     "title": "千葉豪雨 死者13人 浸水被害約3900棟 外房線あす全線運転再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45677",
+     "pubDate": "Sat, 22 Aug 2026 19:11:48 +0900"
     },
     {
      "title": "高校野球 智弁和歌山が優勝 5年ぶり4回目 健大高崎に逆転勝ち",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45392",
-     "pubDate": "Sat, 22 Aug 2026 19:07:27 +0900"
+     "pubDate": "Sat, 22 Aug 2026 19:34:15 +0900"
     },
     {
-     "title": "ウクライナの商業施設に無人機攻撃 16人死亡 100人以上けが",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45697",
-     "pubDate": "Sat, 22 Aug 2026 19:06:31 +0900"
+     "title": "国民民主党 代表選挙が告示 玉木氏と橋本氏が立候補",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45640",
+     "pubDate": "Sat, 22 Aug 2026 13:59:52 +0900"
     }
    ]
   },
@@ -291,19 +291,19 @@
      "pubDate": "Sat, 22 Aug 2026 08:08:04 GMT"
     },
     {
-     "title": "「超・老老介護」神経すり減る夫",
-     "link": "https://news.yahoo.co.jp/pickup/6592673?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 08:07:26 GMT"
-    },
-    {
      "title": "ミカン畑で火事 全身やけどで死亡",
      "link": "https://news.yahoo.co.jp/pickup/6592683?source=rss",
      "pubDate": "Sat, 22 Aug 2026 09:17:09 GMT"
     },
     {
-     "title": "侍U18の18人選出 横浜が最多5人",
-     "link": "https://news.yahoo.co.jp/pickup/6592687?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 09:41:23 GMT"
+     "title": "新幹線の通路に椅子 JR東の見解",
+     "link": "https://news.yahoo.co.jp/pickup/6592622?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 01:09:41 GMT"
+    },
+    {
+     "title": "智弁和の優勝 ドルトムントが祝う",
+     "link": "https://news.yahoo.co.jp/pickup/6592690?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 10:36:13 GMT"
     },
     {
      "title": "VIVANT 太田梨歩役はPC初心者",
