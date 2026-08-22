@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T08:14:03.216Z",
+ "updatedAt": "2026-08-22T08:53:10.027Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "東京 新宿区・豊島区・北区・板橋区にレベル4大雨危険警報",
+     "title": "東京 善福寺川にレベル4氾濫危険警報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45690",
+     "pubDate": "Sat, 22 Aug 2026 17:42:00 +0900"
+    },
+    {
+     "title": "東京 北区と板橋区付近 埼玉 戸田市付近で記録的な大雨",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45671",
+     "pubDate": "Sat, 22 Aug 2026 17:51:51 +0900"
+    },
+    {
+     "title": "東京23区 レベル4大雨危険警報 中央区・荒川区・台東区にも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45669",
-     "pubDate": "Sat, 22 Aug 2026 17:07:46 +0900"
+     "pubDate": "Sat, 22 Aug 2026 17:46:12 +0900"
     },
     {
      "title": "高校野球 智弁和歌山が優勝 5年ぶり4回目 健大高崎に逆転勝ち",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45392",
-     "pubDate": "Sat, 22 Aug 2026 16:48:42 +0900"
+     "pubDate": "Sat, 22 Aug 2026 17:18:12 +0900"
     },
     {
      "title": "台風20号が発生 先島諸島では土砂災害に警戒を",
@@ -28,19 +38,9 @@
      "pubDate": "Sat, 22 Aug 2026 10:47:00 +0900"
     },
     {
-     "title": "台風19号が発生 日本への直接の影響ない見込み",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45635",
-     "pubDate": "Sat, 22 Aug 2026 11:17:00 +0900"
-    },
-    {
      "title": "ドジャース4連勝 山本由伸好投も13勝目ならず 大谷翔平1安打",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45660",
      "pubDate": "Sat, 22 Aug 2026 15:51:32 +0900"
-    },
-    {
-     "title": "トランプ政権 カナダ産乳製品やワインなどに50％追加関税発動",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45661",
-     "pubDate": "Sat, 22 Aug 2026 15:45:19 +0900"
     }
    ]
   },
@@ -271,19 +271,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "ICCなど巡る高市外交「弱腰」批判",
-     "link": "https://news.yahoo.co.jp/pickup/6592655?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 05:51:29 GMT"
-    },
-    {
-     "title": "原爆「包帯の少女」の証言公開へ",
-     "link": "https://news.yahoo.co.jp/pickup/6592651?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 05:29:47 GMT"
+     "title": "東京・北区などで猛烈な雨 警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6592677?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 08:26:34 GMT"
     },
     {
      "title": "ウエストナイル熱 欧州で市中感染",
      "link": "https://news.yahoo.co.jp/pickup/6592672?source=rss",
      "pubDate": "Sat, 22 Aug 2026 07:56:17 GMT"
+    },
+    {
+     "title": "公邸で過ごす意義 首相がXで強調",
+     "link": "https://news.yahoo.co.jp/pickup/6592662?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 07:04:40 GMT"
+    },
+    {
+     "title": "踊り子の体一部狙い撮影 法的には",
+     "link": "https://news.yahoo.co.jp/pickup/6592666?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 07:27:11 GMT"
     },
     {
      "title": "55億円で買った山 県なぜ27年放置",
@@ -299,11 +304,6 @@
      "title": "「自販機」に逆風 飲料各社が工夫",
      "link": "https://news.yahoo.co.jp/pickup/6592665?source=rss",
      "pubDate": "Sat, 22 Aug 2026 07:27:25 GMT"
-    },
-    {
-     "title": "ドジャース激震 パヘスが左手骨折",
-     "link": "https://news.yahoo.co.jp/pickup/6592668?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 07:22:26 GMT"
     },
     {
      "title": "イチロー氏 甲子園決勝で夢叶った",
