@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T09:15:09.326Z",
+ "updatedAt": "2026-08-22T09:47:42.418Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "関東南部で猛烈な雨 浸水や川の氾濫に厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45682",
-     "pubDate": "Sat, 22 Aug 2026 17:58:01 +0900"
+     "pubDate": "Sat, 22 Aug 2026 18:38:38 +0900"
     },
     {
      "title": "東京 神田川にレベル4氾濫危険警報",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "青森 十和田 外国人観光客がクマに襲われけが 命に別状なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45670",
+     "pubDate": "Sat, 22 Aug 2026 18:38:17 +0900"
+    },
     {
      "title": "夏の甲子園 期間中の熱中症疑い選手 のべ16人 去年より8人減",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45681",
@@ -118,11 +123,6 @@
      "title": "プロ目指した19歳ゴルフ場研修生自殺で労災認定 両親提訴 福島",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45583",
      "pubDate": "Fri, 21 Aug 2026 20:41:22 +0900"
-    },
-    {
-     "title": "秋田 風車の羽根落下事故 警察が立件見送る方針を遺族に伝える",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45568",
-     "pubDate": "Fri, 21 Aug 2026 19:54:23 +0900"
     }
    ]
   },
@@ -271,14 +271,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "国連委員 皇室典範などを批判",
+     "link": "https://news.yahoo.co.jp/pickup/6592674?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 08:08:04 GMT"
+    },
+    {
      "title": "「超・老老介護」神経すり減る夫",
      "link": "https://news.yahoo.co.jp/pickup/6592673?source=rss",
      "pubDate": "Sat, 22 Aug 2026 08:07:26 GMT"
     },
     {
-     "title": "東京・北区などで猛烈な雨 警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6592677?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 08:26:34 GMT"
+     "title": "東京・埼玉で猛烈な雨 災害に注意",
+     "link": "https://news.yahoo.co.jp/pickup/6592682?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 09:20:42 GMT"
     },
     {
      "title": "東京都の大雨 現地からのSNS投稿",
@@ -286,14 +291,9 @@
      "pubDate": "Sat, 22 Aug 2026 09:00:36 GMT"
     },
     {
-     "title": "国連委員 皇室典範などを批判",
-     "link": "https://news.yahoo.co.jp/pickup/6592674?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 08:08:04 GMT"
-    },
-    {
-     "title": "ウエストナイル熱 欧州で市中感染",
-     "link": "https://news.yahoo.co.jp/pickup/6592672?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 07:56:17 GMT"
+     "title": "ミカン畑で火事 全身やけどで死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6592683?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 09:17:09 GMT"
     },
     {
      "title": "踊り子の体一部狙い撮影 法的には",
@@ -301,14 +301,14 @@
      "pubDate": "Sat, 22 Aug 2026 07:27:11 GMT"
     },
     {
-     "title": "「自販機」に逆風 飲料各社が工夫",
-     "link": "https://news.yahoo.co.jp/pickup/6592665?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 07:27:25 GMT"
+     "title": "処方箋不要 訪日客に眼鏡が人気",
+     "link": "https://news.yahoo.co.jp/pickup/6592679?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 09:07:34 GMT"
     },
     {
-     "title": "イチロー氏 甲子園決勝で夢叶った",
-     "link": "https://news.yahoo.co.jp/pickup/6592657?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 06:01:40 GMT"
+     "title": "侍U18の18人選出 横浜が最多5人",
+     "link": "https://news.yahoo.co.jp/pickup/6592687?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 09:41:23 GMT"
     }
    ]
   }
