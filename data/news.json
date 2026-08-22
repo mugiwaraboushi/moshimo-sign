@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T13:48:38.326Z",
+ "updatedAt": "2026-08-22T14:09:14.221Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,9 +18,9 @@
      "pubDate": "Sat, 22 Aug 2026 21:52:44 +0900"
     },
     {
-     "title": "台風20号 沖縄 八重山地方で23日に線状降水帯発生おそれ",
+     "title": "台風20号の影響 沖縄 八重山地方で23日に線状降水帯発生おそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45693",
-     "pubDate": "Sat, 22 Aug 2026 22:47:11 +0900"
+     "pubDate": "Sat, 22 Aug 2026 23:02:37 +0900"
     },
     {
      "title": "栃木4人死亡列車事故 運転士200メートル手前で進入許可認識か",
@@ -33,14 +33,14 @@
      "pubDate": "Sat, 22 Aug 2026 19:11:48 +0900"
     },
     {
-     "title": "高校野球 智弁和歌山が優勝 5年ぶり4回目 健大高崎に逆転勝ち",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45392",
-     "pubDate": "Sat, 22 Aug 2026 19:34:15 +0900"
+     "title": "滋賀 野洲 化学工場で男性作業員2人が意識不明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45718",
+     "pubDate": "Sat, 22 Aug 2026 22:26:40 +0900"
     },
     {
-     "title": "国民民主党 代表選挙が告示 玉木氏と橋本氏が立候補",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45640",
-     "pubDate": "Sat, 22 Aug 2026 20:14:42 +0900"
+     "title": "高校野球 智弁和歌山が優勝 5年ぶり4回目 健大高崎に逆転勝ち",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45392",
+     "pubDate": "Sat, 22 Aug 2026 19:34:00 +0900"
     }
    ]
   },
@@ -281,19 +281,14 @@
      "pubDate": "Sat, 22 Aug 2026 13:14:31 GMT"
     },
     {
-     "title": "爆発で休業のイオン 従業員は不安",
-     "link": "https://news.yahoo.co.jp/pickup/6592697?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 11:24:59 GMT"
-    },
-    {
      "title": "衆院比例に「サンラグ式」案浮上",
      "link": "https://news.yahoo.co.jp/pickup/6592706?source=rss",
      "pubDate": "Sat, 22 Aug 2026 12:52:44 GMT"
     },
     {
-     "title": "化学メーカー工場で2人心肺停止",
-     "link": "https://news.yahoo.co.jp/pickup/6592702?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 12:03:35 GMT"
+     "title": "関東南部で雨 東京駅近くで道に穴",
+     "link": "https://news.yahoo.co.jp/pickup/6592714?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 13:54:11 GMT"
     },
     {
      "title": "父の性的虐待で妊娠 今も母知らず",
@@ -314,6 +309,11 @@
      "title": "横浜FMの16歳MF 衝撃の決勝弾",
      "link": "https://news.yahoo.co.jp/pickup/6592708?source=rss",
      "pubDate": "Sat, 22 Aug 2026 13:08:09 GMT"
+    },
+    {
+     "title": "乃木坂公演 雷避難の客戻る前開始",
+     "link": "https://news.yahoo.co.jp/pickup/6592715?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 14:00:40 GMT"
     }
    ]
   }
