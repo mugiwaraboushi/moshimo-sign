@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T16:46:02.405Z",
+ "updatedAt": "2026-08-22T17:09:30.797Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "【地震速報】茨城県 埼玉県 千葉県 震度5弱",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45738",
+     "pubDate": "Sun, 23 Aug 2026 02:04:00 +0900"
+    },
     {
      "title": "関東南部で一時 猛烈な雨 低地の浸水や川の増水に警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45682",
@@ -36,11 +41,6 @@
      "title": "高校野球 智弁和歌山が優勝 5年ぶり4回目 健大高崎に逆転勝ち",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45392",
      "pubDate": "Sat, 22 Aug 2026 19:34:00 +0900"
-    },
-    {
-     "title": "JR外房線 きょう始発から全線で運転再開へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45736",
-     "pubDate": "Sun, 23 Aug 2026 01:34:29 +0900"
     }
    ]
   },
@@ -271,6 +271,11 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "地震情報",
+     "link": "https://news.yahoo.co.jp/pickup/6592010?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 17:04:42 GMT"
+    },
+    {
      "title": "東武事故 200m手前で警笛の記録",
      "link": "https://news.yahoo.co.jp/pickup/6592709?source=rss",
      "pubDate": "Sat, 22 Aug 2026 13:14:31 GMT"
@@ -299,11 +304,6 @@
      "title": "「狼少年」80歳で死去 スペイン",
      "link": "https://news.yahoo.co.jp/pickup/6592712?source=rss",
      "pubDate": "Sat, 22 Aug 2026 13:32:02 GMT"
-    },
-    {
-     "title": "行列回避の「次世代トイレ」続々",
-     "link": "https://news.yahoo.co.jp/pickup/6592696?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 11:09:01 GMT"
     },
     {
      "title": "乃木坂公演 雷避難の客戻る前開始",
