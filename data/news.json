@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T09:47:42.418Z",
+ "updatedAt": "2026-08-22T10:10:06.472Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,37 +10,37 @@
     {
      "title": "関東南部で猛烈な雨 浸水や川の氾濫に厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45682",
-     "pubDate": "Sat, 22 Aug 2026 18:38:38 +0900"
+     "pubDate": "Sat, 22 Aug 2026 19:00:27 +0900"
     },
     {
-     "title": "東京 神田川にレベル4氾濫危険警報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45694",
-     "pubDate": "Sat, 22 Aug 2026 18:00:41 +0900"
+     "title": "【台風】18号 来週南西諸島に接近か 19号と20号も相次いで発生",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45693",
+     "pubDate": "Sat, 22 Aug 2026 18:53:28 +0900"
     },
     {
-     "title": "東京 善福寺川にレベル4氾濫危険警報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45690",
-     "pubDate": "Sat, 22 Aug 2026 17:42:00 +0900"
+     "title": "栃木4人死亡列車事故 運転士200メートル手前で進入許可認識か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45675",
+     "pubDate": "Sat, 22 Aug 2026 18:51:00 +0900"
     },
     {
-     "title": "東京 北区と板橋区付近 埼玉 戸田市付近で記録的な大雨",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45671",
-     "pubDate": "Sat, 22 Aug 2026 17:51:51 +0900"
+     "title": "東京 白子川 一時「氾濫発生水位」上回る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45700",
+     "pubDate": "Sat, 22 Aug 2026 19:06:52 +0900"
     },
     {
-     "title": "東京23区 レベル4大雨危険警報 中央区・荒川区・台東区にも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45669",
-     "pubDate": "Sat, 22 Aug 2026 17:46:12 +0900"
+     "title": "熊本地震 災害関連死の疑い含め38人死亡 避難所に2838人避難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45665",
+     "pubDate": "Sat, 22 Aug 2026 17:40:48 +0900"
     },
     {
      "title": "高校野球 智弁和歌山が優勝 5年ぶり4回目 健大高崎に逆転勝ち",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45392",
-     "pubDate": "Sat, 22 Aug 2026 17:18:12 +0900"
+     "pubDate": "Sat, 22 Aug 2026 19:07:27 +0900"
     },
     {
-     "title": "台風20号が発生 先島諸島では土砂災害に警戒を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45655",
-     "pubDate": "Sat, 22 Aug 2026 14:32:00 +0900"
+     "title": "ウクライナの商業施設に無人機攻撃 16人死亡 100人以上けが",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45697",
+     "pubDate": "Sat, 22 Aug 2026 19:06:31 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "栃木4人死亡列車事故 運転士200メートル手前で進入許可認識か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45675",
+     "pubDate": "Sat, 22 Aug 2026 18:51:00 +0900"
+    },
     {
      "title": "青森 十和田 外国人観光客がクマに襲われけが 命に別状なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45670",
@@ -118,11 +123,6 @@
      "title": "第175回 芥川賞・直木賞の贈呈式",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45589",
      "pubDate": "Fri, 21 Aug 2026 20:59:42 +0900"
-    },
-    {
-     "title": "プロ目指した19歳ゴルフ場研修生自殺で労災認定 両親提訴 福島",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45583",
-     "pubDate": "Fri, 21 Aug 2026 20:41:22 +0900"
     }
    ]
   },
@@ -188,6 +188,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "ウクライナの商業施設に無人機攻撃 16人死亡 100人以上けが",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45697",
+     "pubDate": "Sat, 22 Aug 2026 19:06:31 +0900"
+    },
     {
      "title": "トランプ政権 カナダ産乳製品やワインなどに50％追加関税発動",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45661",
@@ -257,11 +262,6 @@
      "title": "ウクライナとロシア 21日にかけても攻撃の応酬続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45587",
      "pubDate": "Fri, 21 Aug 2026 20:52:34 +0900"
-    },
-    {
-     "title": "旧統一教会トップとユン前大統領夫人 政党法違反 初公判で否認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45530",
-     "pubDate": "Fri, 21 Aug 2026 20:06:33 +0900"
     }
    ]
   },
@@ -271,14 +271,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "国連委員 皇室典範などを批判",
-     "link": "https://news.yahoo.co.jp/pickup/6592674?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 08:08:04 GMT"
-    },
-    {
-     "title": "「超・老老介護」神経すり減る夫",
-     "link": "https://news.yahoo.co.jp/pickup/6592673?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 08:07:26 GMT"
+     "title": "米 対カナダ50%追加関税を発動",
+     "link": "https://news.yahoo.co.jp/pickup/6592685?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 09:34:24 GMT"
     },
     {
      "title": "東京・埼玉で猛烈な雨 災害に注意",
@@ -291,24 +286,29 @@
      "pubDate": "Sat, 22 Aug 2026 09:00:36 GMT"
     },
     {
+     "title": "国連委員 皇室典範などを批判",
+     "link": "https://news.yahoo.co.jp/pickup/6592674?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 08:08:04 GMT"
+    },
+    {
+     "title": "「超・老老介護」神経すり減る夫",
+     "link": "https://news.yahoo.co.jp/pickup/6592673?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 08:07:26 GMT"
+    },
+    {
      "title": "ミカン畑で火事 全身やけどで死亡",
      "link": "https://news.yahoo.co.jp/pickup/6592683?source=rss",
      "pubDate": "Sat, 22 Aug 2026 09:17:09 GMT"
     },
     {
-     "title": "踊り子の体一部狙い撮影 法的には",
-     "link": "https://news.yahoo.co.jp/pickup/6592666?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 07:27:11 GMT"
-    },
-    {
-     "title": "処方箋不要 訪日客に眼鏡が人気",
-     "link": "https://news.yahoo.co.jp/pickup/6592679?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 09:07:34 GMT"
-    },
-    {
      "title": "侍U18の18人選出 横浜が最多5人",
      "link": "https://news.yahoo.co.jp/pickup/6592687?source=rss",
      "pubDate": "Sat, 22 Aug 2026 09:41:23 GMT"
+    },
+    {
+     "title": "VIVANT 太田梨歩役はPC初心者",
+     "link": "https://news.yahoo.co.jp/pickup/6592686?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 09:54:00 GMT"
     }
    ]
   }
