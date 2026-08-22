@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T07:50:49.881Z",
+ "updatedAt": "2026-08-22T08:14:03.216Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "東京 新宿区・豊島区・北区・板橋区にレベル4大雨危険警報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45669",
+     "pubDate": "Sat, 22 Aug 2026 17:07:46 +0900"
+    },
     {
      "title": "高校野球 智弁和歌山が優勝 5年ぶり4回目 健大高崎に逆転勝ち",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45392",
@@ -36,11 +41,6 @@
      "title": "トランプ政権 カナダ産乳製品やワインなどに50％追加関税発動",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45661",
      "pubDate": "Sat, 22 Aug 2026 15:45:19 +0900"
-    },
-    {
-     "title": "国民民主党 代表選挙が告示 玉木氏と橋本氏が立候補",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45640",
-     "pubDate": "Sat, 22 Aug 2026 13:59:52 +0900"
     }
    ]
   },
@@ -281,14 +281,19 @@
      "pubDate": "Sat, 22 Aug 2026 05:29:47 GMT"
     },
     {
-     "title": "USJでコースター停止 けが人なし",
-     "link": "https://news.yahoo.co.jp/pickup/6592653?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 05:39:25 GMT"
+     "title": "ウエストナイル熱 欧州で市中感染",
+     "link": "https://news.yahoo.co.jp/pickup/6592672?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 07:56:17 GMT"
     },
     {
      "title": "55億円で買った山 県なぜ27年放置",
      "link": "https://news.yahoo.co.jp/pickup/6592658?source=rss",
      "pubDate": "Sat, 22 Aug 2026 06:28:00 GMT"
+    },
+    {
+     "title": "原因は謎 運動公園のインコ大量死",
+     "link": "https://news.yahoo.co.jp/pickup/6592670?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 07:42:12 GMT"
     },
     {
      "title": "「自販機」に逆風 飲料各社が工夫",
@@ -304,11 +309,6 @@
      "title": "イチロー氏 甲子園決勝で夢叶った",
      "link": "https://news.yahoo.co.jp/pickup/6592657?source=rss",
      "pubDate": "Sat, 22 Aug 2026 06:01:40 GMT"
-    },
-    {
-     "title": "本木雅弘 俳優デビューの長男言及",
-     "link": "https://news.yahoo.co.jp/pickup/6592664?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 06:59:36 GMT"
     }
    ]
   }
