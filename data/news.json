@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T15:08:26.263Z",
+ "updatedAt": "2026-08-22T15:41:38.092Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,6 +18,11 @@
      "pubDate": "Sat, 22 Aug 2026 21:52:44 +0900"
     },
     {
+     "title": "沖縄 石垣市と竹富町に避難指示",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45732",
+     "pubDate": "Sun, 23 Aug 2026 00:33:50 +0900"
+    },
+    {
      "title": "台風20号の影響 沖縄 八重山地方で23日に線状降水帯発生おそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45693",
      "pubDate": "Sat, 22 Aug 2026 23:02:37 +0900"
@@ -31,11 +36,6 @@
      "title": "千葉豪雨 死者13人 浸水被害約3900棟 外房線あす全線運転再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45677",
      "pubDate": "Sat, 22 Aug 2026 19:11:48 +0900"
-    },
-    {
-     "title": "滋賀 野洲 化学工場で男性作業員2人が意識不明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45718",
-     "pubDate": "Sat, 22 Aug 2026 22:26:40 +0900"
     },
     {
      "title": "高校野球 智弁和歌山が優勝 5年ぶり4回目 健大高崎に逆転勝ち",
@@ -286,14 +286,14 @@
      "pubDate": "Sat, 22 Aug 2026 12:52:44 GMT"
     },
     {
+     "title": "関東南部で雨 東京駅近くで道に穴",
+     "link": "https://news.yahoo.co.jp/pickup/6592714?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 13:54:11 GMT"
+    },
+    {
      "title": "事件で浮き彫りに 介護のカスハラ",
      "link": "https://news.yahoo.co.jp/pickup/6592704?source=rss",
      "pubDate": "Sat, 22 Aug 2026 12:28:18 GMT"
-    },
-    {
-     "title": "東京大雨 水吹き上がるマンホール",
-     "link": "https://news.yahoo.co.jp/pickup/6592692?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 10:54:26 GMT"
     },
     {
      "title": "父の性的虐待で妊娠 今も母知らず",
