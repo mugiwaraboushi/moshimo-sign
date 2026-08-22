@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T10:45:36.308Z",
+ "updatedAt": "2026-08-22T11:09:38.784Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,11 +13,6 @@
      "pubDate": "Sat, 22 Aug 2026 19:27:14 +0900"
     },
     {
-     "title": "東京 白子川 一時「氾濫発生水位」上回る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45700",
-     "pubDate": "Sat, 22 Aug 2026 19:06:52 +0900"
-    },
-    {
      "title": "【台風】18号 来週南西諸島に接近か 19号と20号も相次いで発生",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45693",
      "pubDate": "Sat, 22 Aug 2026 18:53:00 +0900"
@@ -26,6 +21,11 @@
      "title": "栃木4人死亡列車事故 運転士200メートル手前で進入許可認識か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45675",
      "pubDate": "Sat, 22 Aug 2026 18:51:00 +0900"
+    },
+    {
+     "title": "東京 白子川 一時「氾濫発生水位」上回る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45700",
+     "pubDate": "Sat, 22 Aug 2026 19:06:52 +0900"
     },
     {
      "title": "千葉豪雨 死者13人 浸水被害約3900棟 外房線あす全線運転再開",
@@ -67,7 +67,7 @@
     {
      "title": "【動画】Pickup NEWS（8月22日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45572",
-     "pubDate": "Sat, 22 Aug 2026 14:10:22 +0900"
+     "pubDate": "Sat, 22 Aug 2026 19:49:47 +0900"
     },
     {
      "title": "千葉 路上の車両の所有者への引き渡し 警察などに協力求める",
@@ -281,11 +281,6 @@
      "pubDate": "Sat, 22 Aug 2026 09:20:42 GMT"
     },
     {
-     "title": "東京都の大雨 現地からのSNS投稿",
-     "link": "https://news.yahoo.co.jp/pickup/6592680?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 09:00:36 GMT"
-    },
-    {
      "title": "国連委員 皇室典範などを批判",
      "link": "https://news.yahoo.co.jp/pickup/6592674?source=rss",
      "pubDate": "Sat, 22 Aug 2026 08:08:04 GMT"
@@ -296,19 +291,24 @@
      "pubDate": "Sat, 22 Aug 2026 09:17:09 GMT"
     },
     {
-     "title": "新幹線の通路に椅子 JR東の見解",
-     "link": "https://news.yahoo.co.jp/pickup/6592622?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 01:09:41 GMT"
+     "title": "東京大雨 水吹き上がるマンホール",
+     "link": "https://news.yahoo.co.jp/pickup/6592692?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 10:54:26 GMT"
+    },
+    {
+     "title": "長蛇の列解消「壁が動く」トイレ",
+     "link": "https://news.yahoo.co.jp/pickup/6592693?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 10:59:26 GMT"
+    },
+    {
+     "title": "祭りの身代わり人形 救った修復師",
+     "link": "https://news.yahoo.co.jp/pickup/6592678?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 08:46:32 GMT"
     },
     {
      "title": "智弁和の優勝 ドルトムントが祝う",
      "link": "https://news.yahoo.co.jp/pickup/6592690?source=rss",
      "pubDate": "Sat, 22 Aug 2026 10:36:13 GMT"
-    },
-    {
-     "title": "VIVANT 太田梨歩役はPC初心者",
-     "link": "https://news.yahoo.co.jp/pickup/6592686?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 09:54:00 GMT"
     }
    ]
   }
