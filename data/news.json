@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T16:08:24.105Z",
+ "updatedAt": "2026-08-22T16:46:02.405Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -33,14 +33,14 @@
      "pubDate": "Sat, 22 Aug 2026 18:51:00 +0900"
     },
     {
-     "title": "千葉豪雨 死者13人 浸水被害約3900棟 外房線あす全線運転再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45677",
-     "pubDate": "Sat, 22 Aug 2026 19:11:48 +0900"
-    },
-    {
      "title": "高校野球 智弁和歌山が優勝 5年ぶり4回目 健大高崎に逆転勝ち",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45392",
      "pubDate": "Sat, 22 Aug 2026 19:34:00 +0900"
+    },
+    {
+     "title": "JR外房線 きょう始発から全線で運転再開へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45736",
+     "pubDate": "Sun, 23 Aug 2026 01:34:29 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "JR外房線 きょう始発から全線で運転再開へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45736",
+     "pubDate": "Sun, 23 Aug 2026 01:34:29 +0900"
+    },
     {
      "title": "滋賀 野洲 化学工場で男性作業員2人が意識不明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45718",
@@ -118,11 +123,6 @@
      "title": "巧妙な落とし穴 知らないうちに“トバシ口座”に加担",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45578",
      "pubDate": "Fri, 21 Aug 2026 21:27:00 +0900"
-    },
-    {
-     "title": "証拠の使用制限を法制審諮問へ 検証難しくなるおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45553",
-     "pubDate": "Fri, 21 Aug 2026 21:16:16 +0900"
     }
    ]
   },
