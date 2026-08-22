@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T17:09:30.797Z",
+ "updatedAt": "2026-08-22T17:41:38.021Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【地震速報】茨城県 埼玉県 千葉県 震度5弱",
+     "title": "【地震速報】茨城 埼玉 千葉 東京 震度5弱 津波の心配なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45738",
-     "pubDate": "Sun, 23 Aug 2026 02:04:00 +0900"
+     "pubDate": "Sun, 23 Aug 2026 02:34:23 +0900"
     },
     {
-     "title": "関東南部で一時 猛烈な雨 低地の浸水や川の増水に警戒を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45682",
-     "pubDate": "Sat, 22 Aug 2026 21:13:00 +0900"
+     "title": "東海第二原発 異常ないか確認中 長期間運転を停止中",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45742",
+     "pubDate": "Sun, 23 Aug 2026 02:25:00 +0900"
     },
     {
-     "title": "東京駅近くで信号機が地面に沈む 工事中 大雨が原因の可能性",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45716",
-     "pubDate": "Sat, 22 Aug 2026 21:52:44 +0900"
+     "title": "福島第一原発 新たな異常は確認されておらず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45745",
+     "pubDate": "Sun, 23 Aug 2026 02:34:00 +0900"
     },
     {
-     "title": "沖縄 石垣市と竹富町に避難指示",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45732",
-     "pubDate": "Sun, 23 Aug 2026 00:33:50 +0900"
+     "title": "東京消防庁 江東区で水道管破裂の通報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45743",
+     "pubDate": "Sun, 23 Aug 2026 02:32:37 +0900"
     },
     {
-     "title": "台風20号の影響 沖縄 八重山地方で23日に線状降水帯発生おそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45693",
-     "pubDate": "Sat, 22 Aug 2026 23:02:37 +0900"
+     "title": "茨城県警「被害状況を確認中」 神奈川県警「被害の情報なし」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45744",
+     "pubDate": "Sun, 23 Aug 2026 02:39:44 +0900"
     },
     {
-     "title": "栃木4人死亡列車事故 運転士200メートル手前で進入許可認識か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45675",
-     "pubDate": "Sat, 22 Aug 2026 18:51:00 +0900"
+     "title": "茨城県古河市管轄の警察署「30秒ほどの横揺れ続いた」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45740",
+     "pubDate": "Sun, 23 Aug 2026 02:25:18 +0900"
     },
     {
-     "title": "高校野球 智弁和歌山が優勝 5年ぶり4回目 健大高崎に逆転勝ち",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45392",
-     "pubDate": "Sat, 22 Aug 2026 19:34:00 +0900"
+     "title": "震度5弱の注意点は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45741",
+     "pubDate": "Sun, 23 Aug 2026 02:29:42 +0900"
     }
    ]
   },
@@ -271,9 +271,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "地震情報",
-     "link": "https://news.yahoo.co.jp/pickup/6592010?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 17:04:42 GMT"
+     "title": "茨城などで最大震度5弱 津波なし",
+     "link": "https://news.yahoo.co.jp/pickup/6592717?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 17:09:58 GMT"
     },
     {
      "title": "東武事故 200m手前で警笛の記録",
