@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T21:09:32.544Z",
+ "updatedAt": "2026-08-22T21:41:43.237Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -30,7 +30,7 @@
     {
      "title": "【地震】茨城 牛久市役所で天井の一部落ちる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45803",
-     "pubDate": "Sun, 23 Aug 2026 05:56:21 +0900"
+     "pubDate": "Sun, 23 Aug 2026 05:56:00 +0900"
     },
     {
      "title": "台風20号の影響 沖縄 八重山地方で線状降水帯発生のおそれ",
