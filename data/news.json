@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T04:19:26.794Z",
+ "updatedAt": "2026-08-22T04:55:35.102Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "高校野球 智弁和歌山が優勝 5年ぶり4回目 健大高崎に逆転勝ち",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45392",
-     "pubDate": "Sat, 22 Aug 2026 13:09:33 +0900"
+     "pubDate": "Sat, 22 Aug 2026 13:53:35 +0900"
     },
     {
      "title": "国民民主党 代表選挙が告示 玉木氏と橋本氏が立候補",
@@ -28,19 +28,19 @@
      "pubDate": "Sat, 22 Aug 2026 12:30:56 +0900"
     },
     {
-     "title": "午前中から猛暑日 酷暑日予想も広く大気不安定 台風にも注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45604",
-     "pubDate": "Sat, 22 Aug 2026 12:21:00 +0900"
-    },
-    {
      "title": "高市首相 SNSで政策発信強化 理解広めるねらいも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45638",
      "pubDate": "Sat, 22 Aug 2026 12:00:21 +0900"
     },
     {
-     "title": "アジア大会 トーチ掲げリレースタート 名古屋",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45639",
-     "pubDate": "Sat, 22 Aug 2026 12:25:35 +0900"
+     "title": "午前中から猛暑日 酷暑日予想も広く大気不安定 台風にも注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45604",
+     "pubDate": "Sat, 22 Aug 2026 12:21:00 +0900"
+    },
+    {
+     "title": "トランプ大統領 経済制裁強化しイラン側の対応見極める考え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45643",
+     "pubDate": "Sat, 22 Aug 2026 13:31:50 +0900"
     }
    ]
   },
@@ -189,6 +189,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "トランプ大統領 経済制裁強化しイラン側の対応見極める考え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45643",
+     "pubDate": "Sat, 22 Aug 2026 13:31:50 +0900"
+    },
+    {
      "title": "米元高官“イラン制裁の効果見極め必要 軍事攻撃再開も”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45629",
      "pubDate": "Sat, 22 Aug 2026 11:16:14 +0900"
@@ -257,11 +262,6 @@
      "title": "自民 プーチン氏北方領土訪問容認できず 対話求める声も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45520",
      "pubDate": "Fri, 21 Aug 2026 15:50:11 +0900"
-    },
-    {
-     "title": "ホルムズ海峡で“シャトル船”が原油輸送 日本にも 専門家",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45517",
-     "pubDate": "Fri, 21 Aug 2026 15:37:24 +0900"
     }
    ]
   },
@@ -281,14 +281,14 @@
      "pubDate": "Sat, 22 Aug 2026 01:14:18 GMT"
     },
     {
+     "title": "千葉豪雨 被災車両巡りトラブル",
+     "link": "https://news.yahoo.co.jp/pickup/6592642?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 04:13:51 GMT"
+    },
+    {
      "title": "特急事故 複数社から集まり作業",
      "link": "https://news.yahoo.co.jp/pickup/6592635?source=rss",
      "pubDate": "Sat, 22 Aug 2026 02:48:03 GMT"
-    },
-    {
-     "title": "秋田県職員の懲戒処分 妥当性検証",
-     "link": "https://news.yahoo.co.jp/pickup/6592637?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 03:33:36 GMT"
     },
     {
      "title": "長期休み「子どもと出勤」広がる",
@@ -296,19 +296,19 @@
      "pubDate": "Sat, 22 Aug 2026 02:29:49 GMT"
     },
     {
+     "title": "欧米でもキラキラネーム 日本風も",
+     "link": "https://news.yahoo.co.jp/pickup/6592646?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 04:41:38 GMT"
+    },
+    {
      "title": "智弁和歌山 5年ぶり4度目の優勝",
      "link": "https://news.yahoo.co.jp/pickup/6592639?source=rss",
      "pubDate": "Sat, 22 Aug 2026 03:13:20 GMT"
     },
     {
-     "title": "智弁和歌山V「魔曲」響き再逆転",
-     "link": "https://news.yahoo.co.jp/pickup/6592641?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 03:38:46 GMT"
-    },
-    {
-     "title": "笑い飯哲夫 肉眼で花火を楽しんで",
-     "link": "https://news.yahoo.co.jp/pickup/6592626?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 04:08:21 GMT"
+     "title": "甲子園決勝 振り逃げと暴投の違い",
+     "link": "https://news.yahoo.co.jp/pickup/6592643?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 04:14:48 GMT"
     }
    ]
   }
