@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T19:13:17.705Z",
+ "updatedAt": "2026-08-22T19:42:20.874Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【地震速報】茨城 東京 埼玉 千葉 震度5弱 津波の心配なし",
+     "title": "【地震情報】茨城 東京 埼玉 千葉 震度5弱 津波なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45738",
-     "pubDate": "Sun, 23 Aug 2026 04:05:23 +0900"
+     "pubDate": "Sun, 23 Aug 2026 04:23:43 +0900"
     },
     {
      "title": "【地震】さいたま市の消防本部「市内で2人けがの情報」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45772",
-     "pubDate": "Sun, 23 Aug 2026 04:05:42 +0900"
+     "pubDate": "Sun, 23 Aug 2026 04:05:00 +0900"
     },
     {
      "title": "【地震】川崎市で2人けがの情報",
@@ -23,17 +23,17 @@
      "pubDate": "Sun, 23 Aug 2026 03:20:00 +0900"
     },
     {
-     "title": "【地震】千葉 市川「広尾防災公園で水あふれ出している」通報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45764",
-     "pubDate": "Sun, 23 Aug 2026 03:27:00 +0900"
+     "title": "【震度5弱】茨城 取手の住宅で本棚倒れる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45775",
+     "pubDate": "Sun, 23 Aug 2026 04:31:07 +0900"
     },
     {
-     "title": "都内複数の場所で一時エレベーター停止閉じ込めもすでに解消",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45756",
-     "pubDate": "Sun, 23 Aug 2026 03:56:01 +0900"
+     "title": "【地震】東京 足立区でけが人の情報 断水の情報も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45776",
+     "pubDate": "Sun, 23 Aug 2026 04:13:38 +0900"
     },
     {
-     "title": "【地震】東京消防庁 江東区で水道管破裂の通報",
+     "title": "【地震】東京 江東区“水道管が破裂”道路に水があふれ出す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45743",
      "pubDate": "Sun, 23 Aug 2026 02:32:00 +0900"
     },
