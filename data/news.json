@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T17:41:38.021Z",
+ "updatedAt": "2026-08-22T18:10:29.479Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,17 +10,7 @@
     {
      "title": "【地震速報】茨城 埼玉 千葉 東京 震度5弱 津波の心配なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45738",
-     "pubDate": "Sun, 23 Aug 2026 02:34:23 +0900"
-    },
-    {
-     "title": "東海第二原発 異常ないか確認中 長期間運転を停止中",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45742",
-     "pubDate": "Sun, 23 Aug 2026 02:25:00 +0900"
-    },
-    {
-     "title": "福島第一原発 新たな異常は確認されておらず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45745",
-     "pubDate": "Sun, 23 Aug 2026 02:34:00 +0900"
+     "pubDate": "Sun, 23 Aug 2026 03:07:39 +0900"
     },
     {
      "title": "東京消防庁 江東区で水道管破裂の通報",
@@ -28,19 +18,29 @@
      "pubDate": "Sun, 23 Aug 2026 02:32:37 +0900"
     },
     {
-     "title": "茨城県警「被害状況を確認中」 神奈川県警「被害の情報なし」",
+     "title": "【地震】各地の県警や消防など 被害状況を確認中",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45744",
-     "pubDate": "Sun, 23 Aug 2026 02:39:44 +0900"
+     "pubDate": "Sun, 23 Aug 2026 02:39:00 +0900"
     },
     {
-     "title": "茨城県古河市管轄の警察署「30秒ほどの横揺れ続いた」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45740",
-     "pubDate": "Sun, 23 Aug 2026 02:25:18 +0900"
+     "title": "東京 埼玉 千葉で長周期地震動「階級2」観測",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45750",
+     "pubDate": "Sun, 23 Aug 2026 02:58:41 +0900"
     },
     {
-     "title": "震度5弱の注意点は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45741",
-     "pubDate": "Sun, 23 Aug 2026 02:29:42 +0900"
+     "title": "【地震】成田空港 被害情報なし 引き続き情報収集に当たる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45754",
+     "pubDate": "Sun, 23 Aug 2026 02:56:00 +0900"
+    },
+    {
+     "title": "福島第一原発 新たな異常は確認されておらず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45745",
+     "pubDate": "Sun, 23 Aug 2026 02:34:00 +0900"
+    },
+    {
+     "title": "【地震】携帯各社 通話・通信への影響確認されず（2:30）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45752",
+     "pubDate": "Sun, 23 Aug 2026 03:04:25 +0900"
     }
    ]
   },
@@ -291,9 +291,9 @@
      "pubDate": "Sat, 22 Aug 2026 13:54:11 GMT"
     },
     {
-     "title": "事件で浮き彫りに 介護のカスハラ",
-     "link": "https://news.yahoo.co.jp/pickup/6592704?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 12:28:18 GMT"
+     "title": "化学メーカー工場 作業員2人死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6592718?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 17:50:21 GMT"
     },
     {
      "title": "父の性的虐待で妊娠 今も母知らず",
