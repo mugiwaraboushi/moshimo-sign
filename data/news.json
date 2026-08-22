@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T03:31:23.093Z",
+ "updatedAt": "2026-08-22T04:19:26.794Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【速報中】高校野球 智弁和歌山が優勝 5年ぶり4回目",
+     "title": "高校野球 智弁和歌山が優勝 5年ぶり4回目 健大高崎に逆転勝ち",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45392",
-     "pubDate": "Sat, 22 Aug 2026 12:19:05 +0900"
-    },
-    {
-     "title": "午前中から猛暑日 酷暑日予想も広く大気不安定 台風にも注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45604",
-     "pubDate": "Sat, 22 Aug 2026 12:21:00 +0900"
-    },
-    {
-     "title": "千葉豪雨 被害住宅の応急修理支援する制度 受け付け順次始まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45641",
-     "pubDate": "Sat, 22 Aug 2026 11:54:19 +0900"
+     "pubDate": "Sat, 22 Aug 2026 13:09:33 +0900"
     },
     {
      "title": "国民民主党 代表選挙が告示 玉木氏と橋本氏が立候補",
@@ -28,19 +18,29 @@
      "pubDate": "Sat, 22 Aug 2026 12:10:00 +0900"
     },
     {
+     "title": "千葉 路上の車両の所有者への引き渡し 警察などに協力求める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45615",
+     "pubDate": "Sat, 22 Aug 2026 12:27:49 +0900"
+    },
+    {
+     "title": "千葉豪雨 被害住宅の応急修理支援する制度 受け付け順次始まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45641",
+     "pubDate": "Sat, 22 Aug 2026 12:30:56 +0900"
+    },
+    {
+     "title": "午前中から猛暑日 酷暑日予想も広く大気不安定 台風にも注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45604",
+     "pubDate": "Sat, 22 Aug 2026 12:21:00 +0900"
+    },
+    {
      "title": "高市首相 SNSで政策発信強化 理解広めるねらいも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45638",
      "pubDate": "Sat, 22 Aug 2026 12:00:21 +0900"
     },
     {
-     "title": "熊本県 きょうも猛烈な暑さに 熱中症対策を 地震にも注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45605",
-     "pubDate": "Sat, 22 Aug 2026 12:13:58 +0900"
-    },
-    {
-     "title": "ICC赤根智子所長「『法の支配』の終えんの始まりとさせない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45623",
-     "pubDate": "Sat, 22 Aug 2026 07:26:00 +0900"
+     "title": "アジア大会 トーチ掲げリレースタート 名古屋",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45639",
+     "pubDate": "Sat, 22 Aug 2026 12:25:35 +0900"
     }
    ]
   },
@@ -271,14 +271,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "智弁和歌山 5年ぶり4度目の優勝",
-     "link": "https://news.yahoo.co.jp/pickup/6592639?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 03:13:20 GMT"
-    },
-    {
-     "title": "地震で突然失業 肩落とす被災者",
-     "link": "https://news.yahoo.co.jp/pickup/6592621?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 01:06:27 GMT"
+     "title": "沖縄 相次ぐ台風による荒天警戒を",
+     "link": "https://news.yahoo.co.jp/pickup/6592640?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 03:56:43 GMT"
     },
     {
      "title": "TikTokが636億円支払いで和解 米",
@@ -286,29 +281,34 @@
      "pubDate": "Sat, 22 Aug 2026 01:14:18 GMT"
     },
     {
-     "title": "日本語学校で無資格者が授業 愛知",
-     "link": "https://news.yahoo.co.jp/pickup/6592629?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 01:56:30 GMT"
+     "title": "特急事故 複数社から集まり作業",
+     "link": "https://news.yahoo.co.jp/pickup/6592635?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 02:48:03 GMT"
     },
     {
-     "title": "「味の素」広報にAI 炎上の本質",
-     "link": "https://news.yahoo.co.jp/pickup/6592628?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 01:54:18 GMT"
+     "title": "秋田県職員の懲戒処分 妥当性検証",
+     "link": "https://news.yahoo.co.jp/pickup/6592637?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 03:33:36 GMT"
     },
     {
-     "title": "花火大会突如中止 憤るチケ購入者",
-     "link": "https://news.yahoo.co.jp/pickup/6592632?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 02:27:23 GMT"
+     "title": "長期休み「子どもと出勤」広がる",
+     "link": "https://news.yahoo.co.jp/pickup/6592633?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 02:29:49 GMT"
     },
     {
-     "title": "新幹線の通路に椅子 JR東の見解",
-     "link": "https://news.yahoo.co.jp/pickup/6592622?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 01:09:41 GMT"
+     "title": "智弁和歌山 5年ぶり4度目の優勝",
+     "link": "https://news.yahoo.co.jp/pickup/6592639?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 03:13:20 GMT"
     },
     {
-     "title": "清水あいり 母に離婚頼んだ幼少期",
-     "link": "https://news.yahoo.co.jp/pickup/6592617?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 00:41:45 GMT"
+     "title": "智弁和歌山V「魔曲」響き再逆転",
+     "link": "https://news.yahoo.co.jp/pickup/6592641?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 03:38:46 GMT"
+    },
+    {
+     "title": "笑い飯哲夫 肉眼で花火を楽しんで",
+     "link": "https://news.yahoo.co.jp/pickup/6592626?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 04:08:21 GMT"
     }
    ]
   }
