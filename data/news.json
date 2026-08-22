@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T01:56:31.719Z",
+ "updatedAt": "2026-08-22T02:45:45.726Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【速報中】高校野球 智弁和歌山が先制 健大高崎との決勝",
+     "title": "【速報中】高校野球 健大高崎がHRで逆転 智弁和歌山との決勝",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45392",
-     "pubDate": "Sat, 22 Aug 2026 10:52:43 +0900"
+     "pubDate": "Sat, 22 Aug 2026 11:44:47 +0900"
     },
     {
-     "title": "沖縄 宮古島 佐良浜地区に避難指示",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45634",
-     "pubDate": "Sat, 22 Aug 2026 10:46:49 +0900"
+     "title": "東海から九州中心に気温上昇 酷暑日予想も 広範囲で大気不安定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45604",
+     "pubDate": "Sat, 22 Aug 2026 06:50:00 +0900"
+    },
+    {
+     "title": "千葉 路上の車両の所有者への引き渡し 警察などに協力求める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45615",
+     "pubDate": "Sat, 22 Aug 2026 06:15:00 +0900"
     },
     {
      "title": "台風18号 来週 南西諸島に近づくおそれ 今後の情報に注意を",
@@ -23,19 +28,14 @@
      "pubDate": "Sat, 22 Aug 2026 10:47:13 +0900"
     },
     {
+     "title": "台風19号が発生 日本への直接の影響ない見込み",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45635",
+     "pubDate": "Sat, 22 Aug 2026 11:17:38 +0900"
+    },
+    {
      "title": "ICC赤根智子所長「『法の支配』の終えんの始まりとさせない」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45623",
      "pubDate": "Sat, 22 Aug 2026 07:26:00 +0900"
-    },
-    {
-     "title": "栃木4人死亡事故 運転士「急ブレーキかけたが間に合わず」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45613",
-     "pubDate": "Sat, 22 Aug 2026 05:12:00 +0900"
-    },
-    {
-     "title": "千葉 路上の車両の所有者への引き渡し 警察などに協力求める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45615",
-     "pubDate": "Sat, 22 Aug 2026 06:15:00 +0900"
     },
     {
      "title": "内閣改造と党役員人事 来月の見方広がる 鈴木幹事長の続投焦点",
@@ -77,7 +77,7 @@
     {
      "title": "千葉豪雨受け アンダーパスを緊急点検 3か所で異常 国交省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45601",
-     "pubDate": "Sat, 22 Aug 2026 05:02:34 +0900"
+     "pubDate": "Sat, 22 Aug 2026 05:02:00 +0900"
     },
     {
      "title": "日本学術会議 新会員125人を公表 10月の特殊法人移行を前に",
@@ -189,6 +189,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米元高官“イラン制裁の効果見極め必要 軍事攻撃再開も”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45629",
+     "pubDate": "Sat, 22 Aug 2026 11:16:14 +0900"
+    },
+    {
      "title": "次の国連事務総長選出へ 2回目の非公開投票も混戦に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45628",
      "pubDate": "Sat, 22 Aug 2026 08:54:00 +0900"
@@ -226,7 +231,7 @@
     {
      "title": "中国 南部の大規模洪水で死者159人に 各地で大雨被害",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45594",
-     "pubDate": "Fri, 21 Aug 2026 22:16:48 +0900"
+     "pubDate": "Fri, 21 Aug 2026 22:16:00 +0900"
     },
     {
      "title": "超党派議員が来週訪中 中国外務省「正しい軌道への努力 留意」",
@@ -257,11 +262,6 @@
      "title": "ホルムズ海峡で“シャトル船”が原油輸送 日本にも 専門家",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45517",
      "pubDate": "Fri, 21 Aug 2026 15:37:24 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（8月21日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44546",
-     "pubDate": "Fri, 21 Aug 2026 15:27:00 +0900"
     }
    ]
   },
@@ -271,14 +271,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "速報決勝 智弁和歌山vs.健大高崎",
-     "link": "https://news.yahoo.co.jp/pickup/6592616?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 00:51:25 GMT"
-    },
-    {
-     "title": "ウ商業施設に無人機攻撃 15人死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6592607?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 23:24:28 GMT"
+     "title": "速報 健大高崎が智弁和歌山を逆転",
+     "link": "https://news.yahoo.co.jp/pickup/6592636?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 02:39:40 GMT"
     },
     {
      "title": "地震で突然失業 肩落とす被災者",
@@ -286,19 +281,24 @@
      "pubDate": "Sat, 22 Aug 2026 01:06:27 GMT"
     },
     {
-     "title": "殺された15歳の愛娘 父が語る記憶",
-     "link": "https://news.yahoo.co.jp/pickup/6592613?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 00:18:02 GMT"
+     "title": "日本語学校で無資格者が授業 愛知",
+     "link": "https://news.yahoo.co.jp/pickup/6592629?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 01:56:30 GMT"
     },
     {
-     "title": "若年層で「うつ病」影響が顕在化",
-     "link": "https://news.yahoo.co.jp/pickup/6592603?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 22:54:42 GMT"
+     "title": "「味の素」広報にAI 炎上の本質",
+     "link": "https://news.yahoo.co.jp/pickup/6592628?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 01:54:18 GMT"
     },
     {
-     "title": "駅前に残る「廃墟モール」の盛衰",
-     "link": "https://news.yahoo.co.jp/pickup/6592618?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 00:36:25 GMT"
+     "title": "花火大会突如中止 憤るチケ購入者",
+     "link": "https://news.yahoo.co.jp/pickup/6592632?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 02:27:23 GMT"
+    },
+    {
+     "title": "新幹線の通路に椅子 JR東の見解",
+     "link": "https://news.yahoo.co.jp/pickup/6592622?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 01:09:41 GMT"
     },
     {
      "title": "清水あいり 母に離婚頼んだ幼少期",
@@ -306,8 +306,8 @@
      "pubDate": "Sat, 22 Aug 2026 00:41:45 GMT"
     },
     {
-     "title": "不登校だったリュウジ 転機は火事",
-     "link": "https://news.yahoo.co.jp/pickup/6592623?source=rss",
+     "title": "ウルトラマンテオ 戦いが苦手な訳",
+     "link": "https://news.yahoo.co.jp/pickup/6592625?source=rss",
      "pubDate": "Sat, 22 Aug 2026 01:21:10 GMT"
     }
    ]
