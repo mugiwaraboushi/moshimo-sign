@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T14:43:14.816Z",
+ "updatedAt": "2026-08-22T15:08:26.263Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -134,7 +134,7 @@
     {
      "title": "初の女性プロ棋士資格かけた「白玲戦」 西山朋佳は初戦白星",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45705",
-     "pubDate": "Sat, 22 Aug 2026 20:34:28 +0900"
+     "pubDate": "Sat, 22 Aug 2026 23:51:41 +0900"
     },
     {
      "title": "日本学術会議 新会員125人を公表 10月の特殊法人移行を前に",
@@ -286,14 +286,14 @@
      "pubDate": "Sat, 22 Aug 2026 12:52:44 GMT"
     },
     {
-     "title": "関東南部で雨 東京駅近くで道に穴",
-     "link": "https://news.yahoo.co.jp/pickup/6592714?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 13:54:11 GMT"
+     "title": "事件で浮き彫りに 介護のカスハラ",
+     "link": "https://news.yahoo.co.jp/pickup/6592704?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 12:28:18 GMT"
     },
     {
-     "title": "架空の党員をAIで作成 立憲苦言",
-     "link": "https://news.yahoo.co.jp/pickup/6592700?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 11:52:56 GMT"
+     "title": "東京大雨 水吹き上がるマンホール",
+     "link": "https://news.yahoo.co.jp/pickup/6592692?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 10:54:26 GMT"
     },
     {
      "title": "父の性的虐待で妊娠 今も母知らず",
