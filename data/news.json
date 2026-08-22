@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T02:45:45.726Z",
+ "updatedAt": "2026-08-22T03:31:23.093Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【速報中】高校野球 健大高崎がHRで逆転 智弁和歌山との決勝",
+     "title": "【速報中】高校野球 智弁和歌山が優勝 5年ぶり4回目",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45392",
-     "pubDate": "Sat, 22 Aug 2026 11:44:47 +0900"
+     "pubDate": "Sat, 22 Aug 2026 12:19:05 +0900"
     },
     {
-     "title": "東海から九州中心に気温上昇 酷暑日予想も 広範囲で大気不安定",
+     "title": "午前中から猛暑日 酷暑日予想も広く大気不安定 台風にも注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45604",
-     "pubDate": "Sat, 22 Aug 2026 06:50:00 +0900"
+     "pubDate": "Sat, 22 Aug 2026 12:21:00 +0900"
     },
     {
-     "title": "千葉 路上の車両の所有者への引き渡し 警察などに協力求める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45615",
-     "pubDate": "Sat, 22 Aug 2026 06:15:00 +0900"
+     "title": "千葉豪雨 被害住宅の応急修理支援する制度 受け付け順次始まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45641",
+     "pubDate": "Sat, 22 Aug 2026 11:54:19 +0900"
     },
     {
-     "title": "台風18号 来週 南西諸島に近づくおそれ 今後の情報に注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45618",
-     "pubDate": "Sat, 22 Aug 2026 10:47:13 +0900"
+     "title": "国民民主党 代表選挙が告示 玉木氏と橋本氏が立候補",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45640",
+     "pubDate": "Sat, 22 Aug 2026 12:10:00 +0900"
     },
     {
-     "title": "台風19号が発生 日本への直接の影響ない見込み",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45635",
-     "pubDate": "Sat, 22 Aug 2026 11:17:38 +0900"
+     "title": "高市首相 SNSで政策発信強化 理解広めるねらいも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45638",
+     "pubDate": "Sat, 22 Aug 2026 12:00:21 +0900"
+    },
+    {
+     "title": "熊本県 きょうも猛烈な暑さに 熱中症対策を 地震にも注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45605",
+     "pubDate": "Sat, 22 Aug 2026 12:13:58 +0900"
     },
     {
      "title": "ICC赤根智子所長「『法の支配』の終えんの始まりとさせない」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45623",
      "pubDate": "Sat, 22 Aug 2026 07:26:00 +0900"
-    },
-    {
-     "title": "内閣改造と党役員人事 来月の見方広がる 鈴木幹事長の続投焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45600",
-     "pubDate": "Sat, 22 Aug 2026 05:11:00 +0900"
     }
    ]
   },
@@ -57,7 +57,7 @@
     {
      "title": "千葉 路上の車両の所有者への引き渡し 警察などに協力求める",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45615",
-     "pubDate": "Sat, 22 Aug 2026 06:15:00 +0900"
+     "pubDate": "Sat, 22 Aug 2026 12:27:49 +0900"
     },
     {
      "title": "秋篠宮ご夫妻 日本人のパラグアイ移住90周年記念式典に",
@@ -271,14 +271,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "速報 健大高崎が智弁和歌山を逆転",
-     "link": "https://news.yahoo.co.jp/pickup/6592636?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 02:39:40 GMT"
+     "title": "智弁和歌山 5年ぶり4度目の優勝",
+     "link": "https://news.yahoo.co.jp/pickup/6592639?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 03:13:20 GMT"
     },
     {
      "title": "地震で突然失業 肩落とす被災者",
      "link": "https://news.yahoo.co.jp/pickup/6592621?source=rss",
      "pubDate": "Sat, 22 Aug 2026 01:06:27 GMT"
+    },
+    {
+     "title": "TikTokが636億円支払いで和解 米",
+     "link": "https://news.yahoo.co.jp/pickup/6592620?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 01:14:18 GMT"
     },
     {
      "title": "日本語学校で無資格者が授業 愛知",
@@ -304,11 +309,6 @@
      "title": "清水あいり 母に離婚頼んだ幼少期",
      "link": "https://news.yahoo.co.jp/pickup/6592617?source=rss",
      "pubDate": "Sat, 22 Aug 2026 00:41:45 GMT"
-    },
-    {
-     "title": "ウルトラマンテオ 戦いが苦手な訳",
-     "link": "https://news.yahoo.co.jp/pickup/6592625?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 01:21:10 GMT"
     }
    ]
   }
