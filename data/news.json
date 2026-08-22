@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T21:41:43.237Z",
+ "updatedAt": "2026-08-22T22:08:20.048Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,12 +10,22 @@
     {
      "title": "茨城 東京 埼玉 千葉で震度5弱 気象庁“今後1週間程度は注意”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45738",
-     "pubDate": "Sun, 23 Aug 2026 05:47:39 +0900"
+     "pubDate": "Sun, 23 Aug 2026 06:55:59 +0900"
+    },
+    {
+     "title": "台風20号の影響 沖縄 八重山地方で線状降水帯発生のおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45798",
+     "pubDate": "Sun, 23 Aug 2026 06:06:15 +0900"
+    },
+    {
+     "title": "大分では40度の酷暑日予想 熊本も危険な暑さに 大気不安定注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45805",
+     "pubDate": "Sun, 23 Aug 2026 06:53:16 +0900"
     },
     {
      "title": "【被害情報まとめ】地震 埼玉県や神奈川県で複数のけが人",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45744",
-     "pubDate": "Sun, 23 Aug 2026 05:44:00 +0900"
+     "pubDate": "Sun, 23 Aug 2026 06:59:13 +0900"
     },
     {
      "title": "東京 足立区のスーパー 消火剤が大量に噴射 地震で誤作動か",
@@ -26,16 +36,6 @@
      "title": "【地震】東京 江東区“水道管が破裂”道路に水があふれ出す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45743",
      "pubDate": "Sun, 23 Aug 2026 02:32:00 +0900"
-    },
-    {
-     "title": "【地震】茨城 牛久市役所で天井の一部落ちる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45803",
-     "pubDate": "Sun, 23 Aug 2026 05:56:00 +0900"
-    },
-    {
-     "title": "台風20号の影響 沖縄 八重山地方で線状降水帯発生のおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45798",
-     "pubDate": "Sun, 23 Aug 2026 06:06:15 +0900"
     },
     {
      "title": "東京 杉並 道路が冠水し看板が水に流される【22日・映像】",
@@ -50,14 +50,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "【動画】Pickup NEWS（8月23日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45711",
+     "pubDate": "Sun, 23 Aug 2026 07:02:36 +0900"
+    },
+    {
+     "title": "時間外労働「月45時間以内」一律指導取りやめ 連合は懸念示す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45598",
+     "pubDate": "Sun, 23 Aug 2026 06:59:44 +0900"
+    },
+    {
      "title": "【地震】茨城 高速道路の被害確認されず 警察",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45767",
      "pubDate": "Sun, 23 Aug 2026 03:39:29 +0900"
     },
     {
-     "title": "JR外房線 きょう始発から全線で運転再開へ",
+     "title": "JR外房線 きょう始発から全線で運転再開 地震の影響はなし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45736",
-     "pubDate": "Sun, 23 Aug 2026 01:34:29 +0900"
+     "pubDate": "Sun, 23 Aug 2026 01:34:00 +0900"
     },
     {
      "title": "滋賀 野洲 化学工場で男性作業員2人が死亡 酸欠か",
@@ -113,16 +123,6 @@
      "title": "日本学術会議 新会員125人を公表 10月の特殊法人移行を前に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45512",
      "pubDate": "Fri, 21 Aug 2026 23:46:37 +0900"
-    },
-    {
-     "title": "被害の千葉大病院支援 医療器具の洗浄設備貸し出し 東京科学大",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45590",
-     "pubDate": "Fri, 21 Aug 2026 21:58:00 +0900"
-    },
-    {
-     "title": "法務省 ネット番組「ラヴ上等」とのタイアップ中止を発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45566",
-     "pubDate": "Sat, 22 Aug 2026 00:30:00 +0900"
     }
    ]
   },
