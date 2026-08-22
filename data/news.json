@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T15:41:38.092Z",
+ "updatedAt": "2026-08-22T16:08:24.105Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -180,11 +180,6 @@
      "title": "NHK杯全国中学校放送コンテスト決勝 各部門の最優秀賞選ばれる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260818de44847",
      "pubDate": "Tue, 18 Aug 2026 18:43:33 +0900"
-    },
-    {
-     "title": "女性研究者支援の大学に年間最大5000万円補助へ 文部科学省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260816de44362",
-     "pubDate": "Sun, 16 Aug 2026 13:16:34 +0900"
     }
    ]
   },
