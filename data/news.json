@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T19:42:20.874Z",
+ "updatedAt": "2026-08-22T20:08:31.483Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,14 +13,14 @@
      "pubDate": "Sun, 23 Aug 2026 04:23:43 +0900"
     },
     {
-     "title": "【地震】さいたま市の消防本部「市内で2人けがの情報」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45772",
-     "pubDate": "Sun, 23 Aug 2026 04:05:00 +0900"
+     "title": "【被害情報まとめ】川崎市やさいたま市などでけが人の情報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45744",
+     "pubDate": "Sun, 23 Aug 2026 04:43:18 +0900"
     },
     {
-     "title": "【地震】川崎市で2人けがの情報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45762",
-     "pubDate": "Sun, 23 Aug 2026 03:20:00 +0900"
+     "title": "東京 足立区のスーパー 消火剤が大量に噴射 地震で誤作動か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45791",
+     "pubDate": "Sun, 23 Aug 2026 04:52:00 +0900"
     },
     {
      "title": "【震度5弱】茨城 取手の住宅で本棚倒れる",
@@ -28,19 +28,19 @@
      "pubDate": "Sun, 23 Aug 2026 04:31:07 +0900"
     },
     {
-     "title": "【地震】東京 足立区でけが人の情報 断水の情報も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45776",
-     "pubDate": "Sun, 23 Aug 2026 04:13:38 +0900"
-    },
-    {
      "title": "【地震】東京 江東区“水道管が破裂”道路に水があふれ出す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45743",
      "pubDate": "Sun, 23 Aug 2026 02:32:00 +0900"
     },
     {
-     "title": "【地震】埼玉 浦和区「マンホールから水あふれた」複数通報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45766",
-     "pubDate": "Sun, 23 Aug 2026 03:51:03 +0900"
+     "title": "地震による交通機関への影響",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45760",
+     "pubDate": "Sun, 23 Aug 2026 04:47:17 +0900"
+    },
+    {
+     "title": "【地震】千葉 市川「広尾防災公園で水あふれ出している」通報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45764",
+     "pubDate": "Sun, 23 Aug 2026 03:27:00 +0900"
     }
    ]
   },
