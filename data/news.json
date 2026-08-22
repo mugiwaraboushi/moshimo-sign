@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T13:06:10.680Z",
+ "updatedAt": "2026-08-22T13:48:38.326Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,9 +18,9 @@
      "pubDate": "Sat, 22 Aug 2026 21:52:44 +0900"
     },
     {
-     "title": "【台風】18号は来週沖縄県に接近か 19号と20号も相次いで発生",
+     "title": "台風20号 沖縄 八重山地方で23日に線状降水帯発生おそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45693",
-     "pubDate": "Sat, 22 Aug 2026 21:25:54 +0900"
+     "pubDate": "Sat, 22 Aug 2026 22:47:11 +0900"
     },
     {
      "title": "栃木4人死亡列車事故 運転士200メートル手前で進入許可認識か",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "滋賀 野洲 化学工場で男性作業員2人が意識不明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45718",
+     "pubDate": "Sat, 22 Aug 2026 22:26:40 +0900"
+    },
     {
      "title": "栃木4人死亡列車事故 運転士200メートル手前で進入許可認識か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45675",
@@ -118,11 +123,6 @@
      "title": "証拠の使用制限を法制審諮問へ 検証難しくなるおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45553",
      "pubDate": "Fri, 21 Aug 2026 21:16:16 +0900"
-    },
-    {
-     "title": "第175回 芥川賞・直木賞の贈呈式",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45589",
-     "pubDate": "Fri, 21 Aug 2026 20:59:42 +0900"
     }
    ]
   },
@@ -276,9 +276,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "事件で浮き彫りに 介護のカスハラ",
-     "link": "https://news.yahoo.co.jp/pickup/6592704?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 12:28:18 GMT"
+     "title": "東武事故 200m手前で警笛の記録",
+     "link": "https://news.yahoo.co.jp/pickup/6592709?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 13:14:31 GMT"
     },
     {
      "title": "爆発で休業のイオン 従業員は不安",
@@ -296,14 +296,14 @@
      "pubDate": "Sat, 22 Aug 2026 12:03:35 GMT"
     },
     {
-     "title": "東京大雨 水吹き上がるマンホール",
-     "link": "https://news.yahoo.co.jp/pickup/6592692?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 10:54:26 GMT"
+     "title": "父の性的虐待で妊娠 今も母知らず",
+     "link": "https://news.yahoo.co.jp/pickup/6592710?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 13:32:17 GMT"
     },
     {
-     "title": "架空の党員をAIで作成 立憲苦言",
-     "link": "https://news.yahoo.co.jp/pickup/6592700?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 11:52:56 GMT"
+     "title": "「狼少年」80歳で死去 スペイン",
+     "link": "https://news.yahoo.co.jp/pickup/6592712?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 13:32:02 GMT"
     },
     {
      "title": "行列回避の「次世代トイレ」続々",
@@ -311,9 +311,9 @@
      "pubDate": "Sat, 22 Aug 2026 11:09:01 GMT"
     },
     {
-     "title": "智弁和の優勝 ドルトムントが祝う",
-     "link": "https://news.yahoo.co.jp/pickup/6592690?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 10:36:13 GMT"
+     "title": "横浜FMの16歳MF 衝撃の決勝弾",
+     "link": "https://news.yahoo.co.jp/pickup/6592708?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 13:08:09 GMT"
     }
    ]
   }
