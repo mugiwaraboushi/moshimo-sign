@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T06:17:21.503Z",
+ "updatedAt": "2026-08-22T07:06:06.245Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,37 +10,37 @@
     {
      "title": "高校野球 智弁和歌山が優勝 5年ぶり4回目 健大高崎に逆転勝ち",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45392",
-     "pubDate": "Sat, 22 Aug 2026 14:28:22 +0900"
+     "pubDate": "Sat, 22 Aug 2026 16:04:02 +0900"
     },
     {
      "title": "台風20号が発生 先島諸島では土砂災害に警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45655",
-     "pubDate": "Sat, 22 Aug 2026 14:32:14 +0900"
+     "pubDate": "Sat, 22 Aug 2026 14:32:00 +0900"
+    },
+    {
+     "title": "台風18号 来週 南西諸島に近づくおそれ 今後の情報に注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45618",
+     "pubDate": "Sat, 22 Aug 2026 10:47:00 +0900"
+    },
+    {
+     "title": "台風19号が発生 日本への直接の影響ない見込み",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45635",
+     "pubDate": "Sat, 22 Aug 2026 11:17:00 +0900"
+    },
+    {
+     "title": "ドジャース4連勝 山本由伸好投も13勝目ならず 大谷翔平1安打",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45660",
+     "pubDate": "Sat, 22 Aug 2026 15:51:32 +0900"
+    },
+    {
+     "title": "トランプ政権 カナダ産乳製品やワインなどに50％追加関税発動",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45661",
+     "pubDate": "Sat, 22 Aug 2026 15:45:19 +0900"
     },
     {
      "title": "国民民主党 代表選挙が告示 玉木氏と橋本氏が立候補",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45640",
      "pubDate": "Sat, 22 Aug 2026 13:59:52 +0900"
-    },
-    {
-     "title": "千葉 路上の車両の所有者への引き渡し 警察などに協力求める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45615",
-     "pubDate": "Sat, 22 Aug 2026 12:27:49 +0900"
-    },
-    {
-     "title": "熊本地震支援 「応援割」念頭に観光需要喚起策 木原官房長官",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45656",
-     "pubDate": "Sat, 22 Aug 2026 14:36:39 +0900"
-    },
-    {
-     "title": "TikTok 米司法省に4億ドル支払いで和解",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45652",
-     "pubDate": "Sat, 22 Aug 2026 15:00:47 +0900"
-    },
-    {
-     "title": "ホワイトソックス 村上宗隆 無安打もチームはサヨナラ勝ち",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45650",
-     "pubDate": "Sat, 22 Aug 2026 14:24:35 +0900"
     }
    ]
   },
@@ -189,9 +189,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "トランプ政権 カナダ産乳製品やワインなどに50％追加関税発動",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45661",
+     "pubDate": "Sat, 22 Aug 2026 15:45:19 +0900"
+    },
+    {
      "title": "TikTok 米司法省に4億ドル支払いで和解",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45652",
-     "pubDate": "Sat, 22 Aug 2026 15:00:47 +0900"
+     "pubDate": "Sat, 22 Aug 2026 15:00:00 +0900"
     },
     {
      "title": "トランプ大統領 経済制裁強化しイラン側の対応見極める考え",
@@ -257,11 +262,6 @@
      "title": "旧統一教会トップとユン前大統領夫人 政党法違反 初公判で否認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45530",
      "pubDate": "Fri, 21 Aug 2026 20:06:33 +0900"
-    },
-    {
-     "title": "香港 天安門事件追悼団体と幹部に有罪判決",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45542",
-     "pubDate": "Fri, 21 Aug 2026 23:50:34 +0900"
     }
    ]
   },
@@ -271,9 +271,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "千葉豪雨 被災車両巡りトラブル",
-     "link": "https://news.yahoo.co.jp/pickup/6592642?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 04:13:51 GMT"
+     "title": "ICCなど巡る高市外交「弱腰」批判",
+     "link": "https://news.yahoo.co.jp/pickup/6592655?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 05:51:29 GMT"
     },
     {
      "title": "原爆「包帯の少女」の証言公開へ",
@@ -281,19 +281,19 @@
      "pubDate": "Sat, 22 Aug 2026 05:29:47 GMT"
     },
     {
+     "title": "千葉豪雨 被災車両巡りトラブル",
+     "link": "https://news.yahoo.co.jp/pickup/6592642?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 04:13:51 GMT"
+    },
+    {
      "title": "USJでコースター停止 けが人なし",
      "link": "https://news.yahoo.co.jp/pickup/6592653?source=rss",
      "pubDate": "Sat, 22 Aug 2026 05:39:25 GMT"
     },
     {
-     "title": "果物大量盗難は組織的犯行か 識者",
-     "link": "https://news.yahoo.co.jp/pickup/6592645?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 04:35:43 GMT"
-    },
-    {
-     "title": "食パン投棄 鳥取市の海岸でも?",
-     "link": "https://news.yahoo.co.jp/pickup/6592652?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 05:37:11 GMT"
+     "title": "55億円で買った山 県なぜ27年放置",
+     "link": "https://news.yahoo.co.jp/pickup/6592658?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 06:28:00 GMT"
     },
     {
      "title": "欧米でもキラキラネーム 日本風も",
@@ -306,9 +306,9 @@
      "pubDate": "Sat, 22 Aug 2026 06:01:40 GMT"
     },
     {
-     "title": "智弁和歌山 手術乗り越えた主将涙",
-     "link": "https://news.yahoo.co.jp/pickup/6592654?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 05:33:32 GMT"
+     "title": "本木雅弘 俳優デビューの長男言及",
+     "link": "https://news.yahoo.co.jp/pickup/6592664?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 06:59:36 GMT"
     }
    ]
   }
