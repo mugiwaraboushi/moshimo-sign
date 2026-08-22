@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T05:15:56.734Z",
+ "updatedAt": "2026-08-22T05:49:07.770Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "高校野球 智弁和歌山が優勝 5年ぶり4回目 健大高崎に逆転勝ち",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45392",
-     "pubDate": "Sat, 22 Aug 2026 14:13:43 +0900"
+     "pubDate": "Sat, 22 Aug 2026 14:28:22 +0900"
     },
     {
      "title": "国民民主党 代表選挙が告示 玉木氏と橋本氏が立候補",
@@ -271,19 +271,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "沖縄 相次ぐ台風による荒天警戒を",
-     "link": "https://news.yahoo.co.jp/pickup/6592640?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 03:56:43 GMT"
-    },
-    {
-     "title": "TikTokが636億円支払いで和解 米",
-     "link": "https://news.yahoo.co.jp/pickup/6592620?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 01:14:18 GMT"
-    },
-    {
      "title": "千葉豪雨 被災車両巡りトラブル",
      "link": "https://news.yahoo.co.jp/pickup/6592642?source=rss",
      "pubDate": "Sat, 22 Aug 2026 04:13:51 GMT"
+    },
+    {
+     "title": "原爆「包帯の少女」の証言公開へ",
+     "link": "https://news.yahoo.co.jp/pickup/6592651?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 05:29:47 GMT"
+    },
+    {
+     "title": "国民代表選告示 政権との距離争点",
+     "link": "https://news.yahoo.co.jp/pickup/6592650?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 05:10:08 GMT"
     },
     {
      "title": "特急事故 複数社から集まり作業",
@@ -291,9 +291,9 @@
      "pubDate": "Sat, 22 Aug 2026 02:48:03 GMT"
     },
     {
-     "title": "長期休み「子どもと出勤」広がる",
-     "link": "https://news.yahoo.co.jp/pickup/6592633?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 02:29:49 GMT"
+     "title": "USJでコースター停止 けが人なし",
+     "link": "https://news.yahoo.co.jp/pickup/6592653?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 05:39:25 GMT"
     },
     {
      "title": "欧米でもキラキラネーム 日本風も",
@@ -301,14 +301,14 @@
      "pubDate": "Sat, 22 Aug 2026 04:41:38 GMT"
     },
     {
+     "title": "智弁和歌山 手術乗り越えた主将涙",
+     "link": "https://news.yahoo.co.jp/pickup/6592654?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 05:33:32 GMT"
+    },
+    {
      "title": "由伸 7回途中2失点も13勝目ならず",
      "link": "https://news.yahoo.co.jp/pickup/6592648?source=rss",
      "pubDate": "Sat, 22 Aug 2026 04:59:29 GMT"
-    },
-    {
-     "title": "甲子園決勝 振り逃げと暴投の違い",
-     "link": "https://news.yahoo.co.jp/pickup/6592643?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 04:14:48 GMT"
     }
    ]
   }
