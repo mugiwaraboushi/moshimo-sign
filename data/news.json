@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T23:44:16.253Z",
+ "updatedAt": "2026-08-22T00:27:58.020Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,6 +8,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "高校野球 決勝 智弁和歌山×健大高崎【速報予定10:00】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45392",
+     "pubDate": "Sat, 22 Aug 2026 08:42:08 +0900"
+    },
+    {
      "title": "東海から九州中心に気温上昇 酷暑日予想も 広範囲で大気不安定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45604",
      "pubDate": "Sat, 22 Aug 2026 06:50:04 +0900"
@@ -15,7 +20,7 @@
     {
      "title": "ICC赤根智子所長「『法の支配』の終えんの始まりとさせない」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45623",
-     "pubDate": "Sat, 22 Aug 2026 07:26:40 +0900"
+     "pubDate": "Sat, 22 Aug 2026 07:26:00 +0900"
     },
     {
      "title": "内閣改造と党役員人事 来月の見方広がる 鈴木幹事長の続投焦点",
@@ -36,11 +41,6 @@
      "title": "台風18号 来週 南西諸島に近づくおそれ 今後の情報に注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45618",
      "pubDate": "Sat, 22 Aug 2026 08:24:30 +0900"
-    },
-    {
-     "title": "秋篠宮ご夫妻 日本人のパラグアイ移住90周年記念式典に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45603",
-     "pubDate": "Sat, 22 Aug 2026 05:50:26 +0900"
     }
    ]
   },
@@ -189,9 +189,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "次の国連事務総長選出へ 2回目の非公開投票も混戦に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45628",
+     "pubDate": "Sat, 22 Aug 2026 08:54:54 +0900"
+    },
+    {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月22日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44549",
+     "pubDate": "Sat, 22 Aug 2026 08:51:37 +0900"
+    },
+    {
      "title": "ICC赤根智子所長「『法の支配』の終えんの始まりとさせない」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45623",
-     "pubDate": "Sat, 22 Aug 2026 07:26:40 +0900"
+     "pubDate": "Sat, 22 Aug 2026 07:26:00 +0900"
     },
     {
      "title": "“ロシア軍兵士の死者は24万人以上”英BBCなどが調査し報じる",
@@ -252,16 +262,6 @@
      "title": "【詳細】ロシア ウクライナに軍事侵攻（8月21日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44546",
      "pubDate": "Fri, 21 Aug 2026 15:27:00 +0900"
-    },
-    {
-     "title": "北朝鮮 ミサイル発射3回連続で発表せず 米の反応探るか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45495",
-     "pubDate": "Fri, 21 Aug 2026 14:07:00 +0900"
-    },
-    {
-     "title": "日米韓高官が電話協議 緊密連携確認 北朝鮮弾道ミサイル発射で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45484",
-     "pubDate": "Fri, 21 Aug 2026 13:49:00 +0900"
     }
    ]
   },
@@ -271,9 +271,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "千葉豪雨 車両約2500台の撤去完了",
-     "link": "https://news.yahoo.co.jp/pickup/6592599?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 22:24:01 GMT"
+     "title": "ウ商業施設に無人機攻撃 15人死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6592607?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 23:24:28 GMT"
     },
     {
      "title": "九州中心に危険な暑さ 熱中症注意",
@@ -281,14 +281,14 @@
      "pubDate": "Fri, 21 Aug 2026 23:23:00 GMT"
     },
     {
-     "title": "赤根所長 ICC加盟国に支援求める",
-     "link": "https://news.yahoo.co.jp/pickup/6592600?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 22:23:53 GMT"
-    },
-    {
      "title": "4人死亡「見張員はベテラン」証言",
      "link": "https://news.yahoo.co.jp/pickup/6592602?source=rss",
      "pubDate": "Fri, 21 Aug 2026 22:46:36 GMT"
+    },
+    {
+     "title": "凍結受精卵の「その後」迷った母",
+     "link": "https://news.yahoo.co.jp/pickup/6592611?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 00:09:29 GMT"
     },
     {
      "title": "若年層で「うつ病」影響が顕在化",
@@ -306,9 +306,9 @@
      "pubDate": "Fri, 21 Aug 2026 22:20:14 GMT"
     },
     {
-     "title": "「みい山」アニメ化3つのポイント",
-     "link": "https://news.yahoo.co.jp/pickup/6592605?source=rss",
-     "pubDate": "Fri, 21 Aug 2026 23:03:18 GMT"
+     "title": "COWCOW 20年の投稿今夏バズる",
+     "link": "https://news.yahoo.co.jp/pickup/6592614?source=rss",
+     "pubDate": "Fri, 21 Aug 2026 23:57:01 GMT"
     }
    ]
   }
