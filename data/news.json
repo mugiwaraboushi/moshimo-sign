@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T23:08:43.693Z",
+ "updatedAt": "2026-08-22T23:40:54.782Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -28,14 +28,14 @@
      "pubDate": "Sun, 23 Aug 2026 04:52:00 +0900"
     },
     {
+     "title": "栃木4人死亡列車事故 安全確認後の警笛2回中1回しか確認されず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45737",
+     "pubDate": "Sun, 23 Aug 2026 08:24:53 +0900"
+    },
+    {
      "title": "台風20号の影響 沖縄 八重山地方で線状降水帯発生のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45798",
      "pubDate": "Sun, 23 Aug 2026 06:06:15 +0900"
-    },
-    {
-     "title": "大分では40度の酷暑日予想 熊本も危険な暑さに 大気不安定注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45805",
-     "pubDate": "Sun, 23 Aug 2026 06:53:16 +0900"
     },
     {
      "title": "東京 杉並 道路が冠水し看板が水に流される【22日・映像】",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "栃木4人死亡列車事故 安全確認後の警笛2回中1回しか確認されず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45737",
+     "pubDate": "Sun, 23 Aug 2026 08:24:53 +0900"
+    },
     {
      "title": "大分 臼杵 79歳男性が死亡 熱中症か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45806",
@@ -118,11 +123,6 @@
      "title": "栃木4人死亡事故 運転士「急ブレーキかけたが間に合わず」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45613",
      "pubDate": "Sat, 22 Aug 2026 05:12:00 +0900"
-    },
-    {
-     "title": "千葉豪雨受け アンダーパスを緊急点検 3か所で異常 国交省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45601",
-     "pubDate": "Sat, 22 Aug 2026 05:02:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "NASA 次世代宇宙望遠鏡打ち上げへ 視野は従来型の100倍超え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45735",
+     "pubDate": "Sun, 23 Aug 2026 08:19:00 +0900"
+    },
     {
      "title": "初の女性プロ棋士資格かけた「白玲戦」 西山朋佳は初戦白星",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45705",
@@ -188,6 +193,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "NASA 次世代宇宙望遠鏡打ち上げへ 視野は従来型の100倍超え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45735",
+     "pubDate": "Sun, 23 Aug 2026 08:19:00 +0900"
+    },
+    {
+     "title": "ICC赤根所長「存続確保に力を」と日本への期待示す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45804",
+     "pubDate": "Sun, 23 Aug 2026 08:17:00 +0900"
+    },
     {
      "title": "ウクライナの商業施設に無人機攻撃 16人死亡 100人以上けが",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45697",
@@ -252,16 +267,6 @@
      "title": "中国 南部の大規模洪水で死者159人に 各地で大雨被害",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45594",
      "pubDate": "Fri, 21 Aug 2026 22:16:00 +0900"
-    },
-    {
-     "title": "超党派議員が来週訪中 中国外務省「正しい軌道への努力 留意」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45591",
-     "pubDate": "Sat, 22 Aug 2026 08:42:51 +0900"
-    },
-    {
-     "title": "ウクライナとロシア 21日にかけても攻撃の応酬続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45587",
-     "pubDate": "Fri, 21 Aug 2026 20:52:34 +0900"
     }
    ]
   },
@@ -291,11 +296,6 @@
      "pubDate": "Sat, 22 Aug 2026 22:44:56 GMT"
     },
     {
-     "title": "化学メーカー工場 作業員2人死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6592718?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 17:50:21 GMT"
-    },
-    {
      "title": "薬師寺国宝に液体かけた疑い 逮捕",
      "link": "https://news.yahoo.co.jp/pickup/6592721?source=rss",
      "pubDate": "Sat, 22 Aug 2026 22:26:20 GMT"
@@ -309,6 +309,11 @@
      "title": "りくりゅう木原さん&三浦さん婚約",
      "link": "https://news.yahoo.co.jp/pickup/6592724?source=rss",
      "pubDate": "Sat, 22 Aug 2026 22:14:50 GMT"
+    },
+    {
+     "title": "ラヴ上等コラボ中止 制作側責任は",
+     "link": "https://news.yahoo.co.jp/pickup/6592728?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 23:12:59 GMT"
     }
    ]
   }
