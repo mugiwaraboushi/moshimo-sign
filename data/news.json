@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T12:12:51.605Z",
+ "updatedAt": "2026-08-22T13:06:10.680Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "関東南部で猛烈な雨 浸水や川の氾濫に厳重警戒を",
+     "title": "関東南部で一時 猛烈な雨 低地の浸水や川の増水に警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45682",
-     "pubDate": "Sat, 22 Aug 2026 20:50:43 +0900"
+     "pubDate": "Sat, 22 Aug 2026 21:13:00 +0900"
     },
     {
-     "title": "【台風】18号 来週南西諸島に接近か 19号と20号も相次いで発生",
+     "title": "東京駅近くで信号機が地面に沈む 工事中 大雨が原因の可能性",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45716",
+     "pubDate": "Sat, 22 Aug 2026 21:52:44 +0900"
+    },
+    {
+     "title": "【台風】18号は来週沖縄県に接近か 19号と20号も相次いで発生",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45693",
-     "pubDate": "Sat, 22 Aug 2026 18:53:00 +0900"
+     "pubDate": "Sat, 22 Aug 2026 21:25:54 +0900"
     },
     {
      "title": "栃木4人死亡列車事故 運転士200メートル手前で進入許可認識か",
@@ -26,11 +31,6 @@
      "title": "千葉豪雨 死者13人 浸水被害約3900棟 外房線あす全線運転再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45677",
      "pubDate": "Sat, 22 Aug 2026 19:11:48 +0900"
-    },
-    {
-     "title": "横浜市 港北区・鶴見区の避難指示解除",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45713",
-     "pubDate": "Sat, 22 Aug 2026 20:57:29 +0900"
     },
     {
      "title": "高校野球 智弁和歌山が優勝 5年ぶり4回目 健大高崎に逆転勝ち",
@@ -276,14 +276,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "米 対カナダ50%追加関税を発動",
-     "link": "https://news.yahoo.co.jp/pickup/6592685?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 09:34:24 GMT"
+     "title": "事件で浮き彫りに 介護のカスハラ",
+     "link": "https://news.yahoo.co.jp/pickup/6592704?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 12:28:18 GMT"
     },
     {
-     "title": "東京・埼玉で猛烈な雨 災害に注意",
-     "link": "https://news.yahoo.co.jp/pickup/6592682?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 09:20:42 GMT"
+     "title": "爆発で休業のイオン 従業員は不安",
+     "link": "https://news.yahoo.co.jp/pickup/6592697?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 11:24:59 GMT"
+    },
+    {
+     "title": "衆院比例に「サンラグ式」案浮上",
+     "link": "https://news.yahoo.co.jp/pickup/6592706?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 12:52:44 GMT"
     },
     {
      "title": "化学メーカー工場で2人心肺停止",
@@ -294,11 +299,6 @@
      "title": "東京大雨 水吹き上がるマンホール",
      "link": "https://news.yahoo.co.jp/pickup/6592692?source=rss",
      "pubDate": "Sat, 22 Aug 2026 10:54:26 GMT"
-    },
-    {
-     "title": "「盗撮は麻薬」摘発された元教師",
-     "link": "https://news.yahoo.co.jp/pickup/6592691?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 10:53:38 GMT"
     },
     {
      "title": "架空の党員をAIで作成 立憲苦言",
