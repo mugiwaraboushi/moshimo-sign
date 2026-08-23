@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T21:09:56.019Z",
+ "updatedAt": "2026-08-23T21:41:11.328Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "東武鉄道4人死亡事故 複数のミス重なった疑い 警察 経緯解明へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45906",
-     "pubDate": "Mon, 24 Aug 2026 05:20:59 +0900"
+     "title": "大分で39度予想 熊本も危険な暑さに 熱中症対策の徹底を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45898",
+     "pubDate": "Mon, 24 Aug 2026 06:18:00 +0900"
     },
     {
      "title": "台風18号 あす以降 沖縄・奄美に接近へ 早めに備えを",
@@ -18,14 +18,14 @@
      "pubDate": "Mon, 24 Aug 2026 05:50:48 +0900"
     },
     {
+     "title": "東武鉄道4人死亡事故 複数のミス重なった疑い 警察 経緯解明へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45906",
+     "pubDate": "Mon, 24 Aug 2026 05:20:59 +0900"
+    },
+    {
      "title": "経産省など 家事支援・ベビーシッター利用の税制優遇を要望へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45888",
      "pubDate": "Mon, 24 Aug 2026 05:26:59 +0900"
-    },
-    {
-     "title": "24日は大分で40度予想 西・東日本で猛烈な暑さか 熱中症対策を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45805",
-     "pubDate": "Sun, 23 Aug 2026 21:03:22 +0900"
     },
     {
      "title": "新方式で国産初の量子コンピューター稼働開始 分子科学研究所",
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（8月24日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45893",
+     "pubDate": "Mon, 24 Aug 2026 06:36:43 +0900"
+    },
+    {
+     "title": "大分で39度予想 熊本も危険な暑さに 熱中症対策の徹底を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45898",
+     "pubDate": "Mon, 24 Aug 2026 06:18:00 +0900"
+    },
     {
      "title": "台風18号 あす以降 沖縄・奄美に接近へ 早めに備えを",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
@@ -113,16 +123,6 @@
      "title": "大分 臼杵 79歳男性が死亡 熱中症か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45806",
      "pubDate": "Sun, 23 Aug 2026 07:23:06 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（8月23日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45711",
-     "pubDate": "Sun, 23 Aug 2026 20:05:36 +0900"
-    },
-    {
-     "title": "時間外労働「月45時間以内」一律指導取りやめ 連合は懸念示す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45598",
-     "pubDate": "Sun, 23 Aug 2026 06:59:44 +0900"
     }
    ]
   },
@@ -306,14 +306,14 @@
      "pubDate": "Sun, 23 Aug 2026 10:58:33 GMT"
     },
     {
+     "title": "消費減税巡り財政に不安71% 共同",
+     "link": "https://news.yahoo.co.jp/pickup/6592823?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 21:29:41 GMT"
+    },
+    {
      "title": "豪雨で愛車失った人たち 悲痛な声",
      "link": "https://news.yahoo.co.jp/pickup/6592807?source=rss",
      "pubDate": "Sun, 23 Aug 2026 12:24:38 GMT"
-    },
-    {
-     "title": "熊本地震 窯元が葛藤の中で再出発",
-     "link": "https://news.yahoo.co.jp/pickup/6592819?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 14:39:04 GMT"
     },
     {
      "title": "戸建て売り入居する人も 団地人気",
@@ -321,9 +321,9 @@
      "pubDate": "Sun, 23 Aug 2026 11:38:30 GMT"
     },
     {
-     "title": "死んだペットを弔う方法 法的見解",
-     "link": "https://news.yahoo.co.jp/pickup/6592811?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 13:20:05 GMT"
+     "title": "大谷来週にも投手復帰か 監督説明",
+     "link": "https://news.yahoo.co.jp/pickup/6592822?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 21:12:00 GMT"
     },
     {
      "title": "三浦璃来氏 婚約の世間の反応驚き",
