@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T10:10:28.610Z",
+ "updatedAt": "2026-08-23T10:46:39.052Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -199,6 +199,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月23日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44551",
+     "pubDate": "Sun, 23 Aug 2026 19:36:25 +0900"
+    },
+    {
      "title": "ウクライナがロシア物流施設など攻撃 ロシアは攻撃強化を強調",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45733",
      "pubDate": "Sun, 23 Aug 2026 14:17:00 +0900"
@@ -267,11 +272,6 @@
      "title": "ICC赤根智子所長「『法の支配』の終えんの始まりとさせない」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45623",
      "pubDate": "Sat, 22 Aug 2026 07:26:00 +0900"
-    },
-    {
-     "title": "“ロシア軍兵士の死者は24万人以上”英BBCなどが調査し報じる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45617",
-     "pubDate": "Sat, 22 Aug 2026 06:07:00 +0900"
     }
    ]
   },
@@ -306,6 +306,11 @@
      "pubDate": "Sun, 23 Aug 2026 09:28:39 GMT"
     },
     {
+     "title": "速報バレー女子 日本vs.韓国",
+     "link": "https://news.yahoo.co.jp/pickup/6592794?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 10:33:01 GMT"
+    },
+    {
      "title": "三浦璃来氏 婚約の世間の反応驚き",
      "link": "https://news.yahoo.co.jp/pickup/6592786?source=rss",
      "pubDate": "Sun, 23 Aug 2026 08:15:04 GMT"
@@ -314,11 +319,6 @@
      "title": "瀬戸朝香が休養発表 腰椎を骨折",
      "link": "https://news.yahoo.co.jp/pickup/6592795?source=rss",
      "pubDate": "Sun, 23 Aug 2026 10:07:45 GMT"
-    },
-    {
-     "title": "わんこそば755杯 大食い界の新星",
-     "link": "https://news.yahoo.co.jp/pickup/6592790?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 08:57:10 GMT"
     }
    ]
   }
