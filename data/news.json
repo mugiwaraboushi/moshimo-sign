@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T20:08:04.925Z",
+ "updatedAt": "2026-08-23T20:44:41.522Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,14 @@
      "pubDate": "Mon, 24 Aug 2026 04:11:00 +0900"
     },
     {
-     "title": "東武鉄道4人死亡事故 事故当日3本の列車は問題なく通過か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45877",
-     "pubDate": "Sun, 23 Aug 2026 18:59:00 +0900"
+     "title": "茨城県南部の地震 最大震度5弱程度の地震に注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45900",
+     "pubDate": "Mon, 24 Aug 2026 05:23:18 +0900"
+    },
+    {
+     "title": "東武鉄道4人死亡事故 複数のミス重なった疑い 警察 経緯解明へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45906",
+     "pubDate": "Mon, 24 Aug 2026 05:20:59 +0900"
     },
     {
      "title": "台風20号 先島諸島で大雨 台風18号 25日から沖縄 奄美に接近へ",
@@ -23,24 +28,19 @@
      "pubDate": "Sun, 23 Aug 2026 21:13:00 +0900"
     },
     {
-     "title": "【地震情報】北海道函館市などで震度4 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45914",
-     "pubDate": "Sun, 23 Aug 2026 23:36:10 +0900"
+     "title": "新方式で国産初の量子コンピューター稼働開始 分子科学研究所",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45895",
+     "pubDate": "Mon, 24 Aug 2026 05:10:35 +0900"
     },
     {
-     "title": "裁判官3人で審理の事件 1人で審理のミス さいたま地裁熊谷支部",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45915",
-     "pubDate": "Sun, 23 Aug 2026 23:31:35 +0900"
+     "title": "立民 3党合流 現時点で困難の見方広がる 執行部の判断が焦点に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45896",
+     "pubDate": "Mon, 24 Aug 2026 05:22:31 +0900"
     },
     {
      "title": "24日は大分で40度予想 西・東日本で猛烈な暑さか 熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45805",
      "pubDate": "Sun, 23 Aug 2026 21:03:22 +0900"
-    },
-    {
-     "title": "専門家 “関東の地下にある「地震の巣」で発生 備え確認を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45881",
-     "pubDate": "Sun, 23 Aug 2026 18:57:00 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "秋篠宮ご夫妻 イグアスで移住者ねぎらう",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45916",
+     "pubDate": "Mon, 24 Aug 2026 05:38:50 +0900"
+    },
+    {
+     "title": "東武鉄道4人死亡事故 複数のミス重なった疑い 警察 経緯解明へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45906",
+     "pubDate": "Mon, 24 Aug 2026 05:20:59 +0900"
+    },
+    {
+     "title": "新方式で国産初の量子コンピューター稼働開始 分子科学研究所",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45895",
+     "pubDate": "Mon, 24 Aug 2026 05:10:35 +0900"
+    },
     {
      "title": "裁判官3人で審理の事件 1人で審理のミス さいたま地裁熊谷支部",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45915",
@@ -108,21 +123,6 @@
      "title": "【地震】茨城 高速道路の被害確認されず 警察",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45767",
      "pubDate": "Sun, 23 Aug 2026 03:39:00 +0900"
-    },
-    {
-     "title": "JR外房線 きょう始発から全線で運転再開 地震の影響はなし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45736",
-     "pubDate": "Sun, 23 Aug 2026 11:25:51 +0900"
-    },
-    {
-     "title": "滋賀 野洲 化学工場で男性作業員2人が死亡 酸欠か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45718",
-     "pubDate": "Sat, 22 Aug 2026 22:26:00 +0900"
-    },
-    {
-     "title": "栃木4人死亡列車事故 運転士200メートル手前で進入許可認識か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45675",
-     "pubDate": "Sat, 22 Aug 2026 18:51:00 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "ABUロボコン香港で開催 地元の香港大学が優勝",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45901",
+     "pubDate": "Mon, 24 Aug 2026 05:40:25 +0900"
+    },
+    {
+     "title": "新方式で国産初の量子コンピューター稼働開始 分子科学研究所",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45895",
+     "pubDate": "Mon, 24 Aug 2026 05:10:35 +0900"
+    },
     {
      "title": "北京で2回目の人型ロボット運動会 人類記録上回るなど性能向上",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45846",
@@ -204,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ABUロボコン香港で開催 地元の香港大学が優勝",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45901",
+     "pubDate": "Mon, 24 Aug 2026 05:40:25 +0900"
+    },
+    {
+     "title": "ウクライナ ゼレンスキー大統領 ロシアのミサイル増産に警戒",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45902",
+     "pubDate": "Mon, 24 Aug 2026 05:30:05 +0900"
+    },
+    {
      "title": "北京で2回目の人型ロボット運動会 人類記録上回るなど性能向上",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45846",
      "pubDate": "Sun, 23 Aug 2026 20:24:00 +0900"
@@ -267,16 +287,6 @@
      "title": "米元高官“イラン制裁の効果見極め必要 軍事攻撃再開も”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45629",
      "pubDate": "Sat, 22 Aug 2026 11:16:00 +0900"
-    },
-    {
-     "title": "次の国連事務総長選出へ 2回目の非公開投票も混戦に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45628",
-     "pubDate": "Sat, 22 Aug 2026 08:54:00 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（8月22日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44549",
-     "pubDate": "Sat, 22 Aug 2026 08:51:00 +0900"
     }
    ]
   },
