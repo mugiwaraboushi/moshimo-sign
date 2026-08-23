@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T21:41:11.328Z",
+ "updatedAt": "2026-08-23T22:08:06.402Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -15,7 +15,7 @@
     {
      "title": "台風18号 あす以降 沖縄・奄美に接近へ 早めに備えを",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
-     "pubDate": "Mon, 24 Aug 2026 05:50:48 +0900"
+     "pubDate": "Mon, 24 Aug 2026 05:50:00 +0900"
     },
     {
      "title": "東武鉄道4人死亡事故 複数のミス重なった疑い 警察 経緯解明へ",
@@ -50,6 +50,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "小田急線 新百合ヶ丘ー町田 上下線で運転見合わせ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45929",
+     "pubDate": "Mon, 24 Aug 2026 06:43:27 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（8月24日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45893",
      "pubDate": "Mon, 24 Aug 2026 06:36:43 +0900"
@@ -62,7 +67,7 @@
     {
      "title": "台風18号 あす以降 沖縄・奄美に接近へ 早めに備えを",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
-     "pubDate": "Mon, 24 Aug 2026 05:50:48 +0900"
+     "pubDate": "Mon, 24 Aug 2026 05:50:00 +0900"
     },
     {
      "title": "秋篠宮ご夫妻 イグアスで移住者ねぎらう",
@@ -118,11 +123,6 @@
      "title": "東武鉄道子会社を業務上過失致死容疑で捜索 4人死亡事故 警察",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45737",
      "pubDate": "Sun, 23 Aug 2026 13:29:48 +0900"
-    },
-    {
-     "title": "大分 臼杵 79歳男性が死亡 熱中症か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45806",
-     "pubDate": "Sun, 23 Aug 2026 07:23:06 +0900"
     }
    ]
   },
@@ -301,11 +301,6 @@
      "pubDate": "Sun, 23 Aug 2026 14:50:43 GMT"
     },
     {
-     "title": "4人死亡 事故までに列車3本が通過",
-     "link": "https://news.yahoo.co.jp/pickup/6592798?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 10:58:33 GMT"
-    },
-    {
      "title": "消費減税巡り財政に不安71% 共同",
      "link": "https://news.yahoo.co.jp/pickup/6592823?source=rss",
      "pubDate": "Sun, 23 Aug 2026 21:29:41 GMT"
@@ -314,6 +309,11 @@
      "title": "豪雨で愛車失った人たち 悲痛な声",
      "link": "https://news.yahoo.co.jp/pickup/6592807?source=rss",
      "pubDate": "Sun, 23 Aug 2026 12:24:38 GMT"
+    },
+    {
+     "title": "車と衝突 バイクの18歳高校生死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6592824?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 21:45:25 GMT"
     },
     {
      "title": "戸建て売り入居する人も 団地人気",
