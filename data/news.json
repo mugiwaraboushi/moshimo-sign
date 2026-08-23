@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T20:44:41.522Z",
+ "updatedAt": "2026-08-23T21:09:56.019Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【地震情報】熊本県宇城市で震度3 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45925",
-     "pubDate": "Mon, 24 Aug 2026 04:11:00 +0900"
-    },
-    {
-     "title": "茨城県南部の地震 最大震度5弱程度の地震に注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45900",
-     "pubDate": "Mon, 24 Aug 2026 05:23:18 +0900"
-    },
-    {
      "title": "東武鉄道4人死亡事故 複数のミス重なった疑い 警察 経緯解明へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45906",
      "pubDate": "Mon, 24 Aug 2026 05:20:59 +0900"
     },
     {
-     "title": "台風20号 先島諸島で大雨 台風18号 25日から沖縄 奄美に接近へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45798",
-     "pubDate": "Sun, 23 Aug 2026 21:13:00 +0900"
+     "title": "台風18号 あす以降 沖縄・奄美に接近へ 早めに備えを",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
+     "pubDate": "Mon, 24 Aug 2026 05:50:48 +0900"
+    },
+    {
+     "title": "経産省など 家事支援・ベビーシッター利用の税制優遇を要望へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45888",
+     "pubDate": "Mon, 24 Aug 2026 05:26:59 +0900"
+    },
+    {
+     "title": "24日は大分で40度予想 西・東日本で猛烈な暑さか 熱中症対策を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45805",
+     "pubDate": "Sun, 23 Aug 2026 21:03:22 +0900"
     },
     {
      "title": "新方式で国産初の量子コンピューター稼働開始 分子科学研究所",
@@ -33,14 +33,14 @@
      "pubDate": "Mon, 24 Aug 2026 05:10:35 +0900"
     },
     {
-     "title": "立民 3党合流 現時点で困難の見方広がる 執行部の判断が焦点に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45896",
-     "pubDate": "Mon, 24 Aug 2026 05:22:31 +0900"
+     "title": "秋篠宮ご夫妻 イグアスで移住者ねぎらう",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45916",
+     "pubDate": "Mon, 24 Aug 2026 05:38:50 +0900"
     },
     {
-     "title": "24日は大分で40度予想 西・東日本で猛烈な暑さか 熱中症対策を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45805",
-     "pubDate": "Sun, 23 Aug 2026 21:03:22 +0900"
+     "title": "SNSの子どもへの影響 IT大手で被害未然防止の取り組み広がる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45889",
+     "pubDate": "Mon, 24 Aug 2026 05:26:06 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "台風18号 あす以降 沖縄・奄美に接近へ 早めに備えを",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
+     "pubDate": "Mon, 24 Aug 2026 05:50:48 +0900"
+    },
     {
      "title": "秋篠宮ご夫妻 イグアスで移住者ねぎらう",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45916",
@@ -118,11 +123,6 @@
      "title": "時間外労働「月45時間以内」一律指導取りやめ 連合は懸念示す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45598",
      "pubDate": "Sun, 23 Aug 2026 06:59:44 +0900"
-    },
-    {
-     "title": "【地震】茨城 高速道路の被害確認されず 警察",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45767",
-     "pubDate": "Sun, 23 Aug 2026 03:39:00 +0900"
     }
    ]
   },
