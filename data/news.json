@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T22:08:06.402Z",
+ "updatedAt": "2026-08-23T22:43:51.186Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -296,9 +296,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "原油輸送確保 首脳外交求める声も",
-     "link": "https://news.yahoo.co.jp/pickup/6592818?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 14:50:43 GMT"
+     "title": "全国で厳しい暑さ 天気急変も注意",
+     "link": "https://news.yahoo.co.jp/pickup/6592828?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 22:31:23 GMT"
     },
     {
      "title": "消費減税巡り財政に不安71% 共同",
@@ -316,24 +316,24 @@
      "pubDate": "Sun, 23 Aug 2026 21:45:25 GMT"
     },
     {
-     "title": "戸建て売り入居する人も 団地人気",
-     "link": "https://news.yahoo.co.jp/pickup/6592805?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 11:38:30 GMT"
+     "title": "水上バイクによる事故 後を絶たず",
+     "link": "https://news.yahoo.co.jp/pickup/6592825?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 22:07:43 GMT"
     },
     {
-     "title": "大谷来週にも投手復帰か 監督説明",
-     "link": "https://news.yahoo.co.jp/pickup/6592822?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 21:12:00 GMT"
+     "title": "りくりゅう婚約 記者知る信頼関係",
+     "link": "https://news.yahoo.co.jp/pickup/6592827?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 22:25:19 GMT"
     },
     {
-     "title": "三浦璃来氏 婚約の世間の反応驚き",
-     "link": "https://news.yahoo.co.jp/pickup/6592786?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 08:15:04 GMT"
+     "title": "高気圧ガール 湖池屋の新CM曲に",
+     "link": "https://news.yahoo.co.jp/pickup/6592834?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 22:32:10 GMT"
     },
     {
-     "title": "濱田岳 VIVANT考察にショック",
-     "link": "https://news.yahoo.co.jp/pickup/6592810?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 12:42:54 GMT"
+     "title": "KOC 初の敗者復活戦の開催が決定",
+     "link": "https://news.yahoo.co.jp/pickup/6592833?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 22:35:01 GMT"
     }
    ]
   }
