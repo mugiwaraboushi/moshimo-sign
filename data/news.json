@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T11:41:17.024Z",
+ "updatedAt": "2026-08-23T12:13:23.399Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,14 +13,14 @@
      "pubDate": "Sun, 23 Aug 2026 18:59:00 +0900"
     },
     {
-     "title": "台風20号 沖縄 先島諸島で大雨 線状降水帯発生のおそれ",
+     "title": "台風20号 先島諸島で大雨 台風18号 25日から沖縄 奄美に接近へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45798",
-     "pubDate": "Sun, 23 Aug 2026 11:51:00 +0900"
+     "pubDate": "Sun, 23 Aug 2026 20:41:28 +0900"
     },
     {
-     "title": "広島や大分で39度超え 熊本も危険な暑さに 熱中症対策の徹底を",
+     "title": "24日は大分で40度予想 西・東日本で猛烈な暑さか 熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45805",
-     "pubDate": "Sun, 23 Aug 2026 15:23:29 +0900"
+     "pubDate": "Sun, 23 Aug 2026 21:03:22 +0900"
     },
     {
      "title": "北京で2回目の人型ロボット運動会 人類記録上回るなど性能向上",
@@ -35,7 +35,7 @@
     {
      "title": "報道写真家の石川文洋さん死去 ベトナム戦争など最前線で取材",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45876",
-     "pubDate": "Sun, 23 Aug 2026 18:13:16 +0900"
+     "pubDate": "Sun, 23 Aug 2026 18:13:00 +0900"
     },
     {
      "title": "アメリカ建国250年記念し自動車レース トランプ氏が開催推進",
@@ -139,7 +139,7 @@
     {
      "title": "報道写真家の石川文洋さん死去 ベトナム戦争など最前線で取材",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45876",
-     "pubDate": "Sun, 23 Aug 2026 18:13:16 +0900"
+     "pubDate": "Sun, 23 Aug 2026 18:13:00 +0900"
     },
     {
      "title": "NASA 次世代宇宙望遠鏡打ち上げへ 視野は従来型の100倍超え",
@@ -286,14 +286,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "高市内閣の支持率横ばい41% 毎日",
-     "link": "https://news.yahoo.co.jp/pickup/6592802?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 11:05:18 GMT"
-    },
-    {
      "title": "関東で震度5弱 未明の揺れに驚き",
      "link": "https://news.yahoo.co.jp/pickup/6592801?source=rss",
      "pubDate": "Sun, 23 Aug 2026 11:02:25 GMT"
+    },
+    {
+     "title": "4人死亡 事故までに列車3本が通過",
+     "link": "https://news.yahoo.co.jp/pickup/6592798?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 10:58:33 GMT"
     },
     {
      "title": "独身と嘘つかれ妊娠 娘のため提訴",
@@ -301,14 +301,14 @@
      "pubDate": "Sun, 23 Aug 2026 11:09:29 GMT"
     },
     {
-     "title": "ソニー 中国「TCL」と手を組む訳",
-     "link": "https://news.yahoo.co.jp/pickup/6592793?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 09:28:39 GMT"
+     "title": "就活で障害伝えず76% 不利益懸念",
+     "link": "https://news.yahoo.co.jp/pickup/6592777?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 07:32:51 GMT"
     },
     {
-     "title": "横浜市長巡り市議 発達障害と投稿",
-     "link": "https://news.yahoo.co.jp/pickup/6592792?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 09:34:54 GMT"
+     "title": "戸建て売り入居する人も 団地人気",
+     "link": "https://news.yahoo.co.jp/pickup/6592805?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 11:38:30 GMT"
     },
     {
      "title": "速報バレー女子 日本vs.韓国",
