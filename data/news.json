@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T14:11:25.002Z",
+ "updatedAt": "2026-08-23T14:45:29.597Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "【地震情報】北海道函館市などで震度4 津波の心配なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45914",
-     "pubDate": "Sun, 23 Aug 2026 23:07:36 +0900"
+     "pubDate": "Sun, 23 Aug 2026 23:36:10 +0900"
     },
     {
      "title": "東武鉄道4人死亡事故 事故当日3本の列車は問題なく通過か",
@@ -21,6 +21,11 @@
      "title": "台風20号 先島諸島で大雨 台風18号 25日から沖縄 奄美に接近へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45798",
      "pubDate": "Sun, 23 Aug 2026 21:13:00 +0900"
+    },
+    {
+     "title": "裁判官3人で審理の事件 1人で審理のミス さいたま地裁熊谷支部",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45915",
+     "pubDate": "Sun, 23 Aug 2026 23:31:35 +0900"
     },
     {
      "title": "24日は大分で40度予想 西・東日本で猛烈な暑さか 熱中症対策を",
@@ -36,11 +41,6 @@
      "title": "専門家 “関東の地下にある「地震の巣」で発生 備え確認を”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45881",
      "pubDate": "Sun, 23 Aug 2026 18:57:00 +0900"
-    },
-    {
-     "title": "千葉豪雨 水につかった車多数 JAFにレッカー対応依頼相次ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45892",
-     "pubDate": "Sun, 23 Aug 2026 21:02:11 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "裁判官3人で審理の事件 1人で審理のミス さいたま地裁熊谷支部",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45915",
+     "pubDate": "Sun, 23 Aug 2026 23:31:35 +0900"
+    },
     {
      "title": "千葉豪雨 死者13人 浸水被害3900棟余 外房線全線再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45878",
@@ -118,11 +123,6 @@
      "title": "栃木4人死亡列車事故 運転士200メートル手前で進入許可認識か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45675",
      "pubDate": "Sat, 22 Aug 2026 18:51:00 +0900"
-    },
-    {
-     "title": "青森 十和田 外国人観光客がクマに襲われけが 命に別状なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45670",
-     "pubDate": "Sat, 22 Aug 2026 18:38:17 +0900"
     }
    ]
   },
@@ -296,6 +296,11 @@
      "pubDate": "Sun, 23 Aug 2026 10:58:33 GMT"
     },
     {
+     "title": "熊本地震 外国人へ発信3市町のみ",
+     "link": "https://news.yahoo.co.jp/pickup/6592820?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 14:35:34 GMT"
+    },
+    {
      "title": "豪雨で愛車失った人たち 悲痛な声",
      "link": "https://news.yahoo.co.jp/pickup/6592807?source=rss",
      "pubDate": "Sun, 23 Aug 2026 12:24:38 GMT"
@@ -306,14 +311,9 @@
      "pubDate": "Sun, 23 Aug 2026 11:38:30 GMT"
     },
     {
-     "title": "夏多い「外耳炎」仕組みと対策は",
-     "link": "https://news.yahoo.co.jp/pickup/6592796?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 10:34:37 GMT"
-    },
-    {
-     "title": "りくりゅう婚約発表設計 識者見解",
-     "link": "https://news.yahoo.co.jp/pickup/6592809?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 12:44:12 GMT"
+     "title": "三浦璃来氏 婚約の世間の反応驚き",
+     "link": "https://news.yahoo.co.jp/pickup/6592786?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 08:15:04 GMT"
     },
     {
      "title": "灘高コンビ 高校生漫才日本一に",
