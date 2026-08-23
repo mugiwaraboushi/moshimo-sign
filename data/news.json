@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T05:23:34.678Z",
+ "updatedAt": "2026-08-23T05:51:19.304Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -20,7 +20,7 @@
     {
      "title": "大分では40度の酷暑日予想 熊本も危険な暑さに",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45805",
-     "pubDate": "Sun, 23 Aug 2026 13:23:20 +0900"
+     "pubDate": "Sun, 23 Aug 2026 14:48:11 +0900"
     },
     {
      "title": "東武鉄道子会社を業務上過失致死容疑で捜索 4人死亡事故 警察",
@@ -30,7 +30,7 @@
     {
      "title": "ウクライナがロシア物流施設など攻撃 ロシアは攻撃強化を強調",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45733",
-     "pubDate": "Sun, 23 Aug 2026 14:17:04 +0900"
+     "pubDate": "Sun, 23 Aug 2026 14:17:00 +0900"
     },
     {
      "title": "茨城 東京 埼玉 千葉で震度5弱 気象庁“今後1週間程度は注意”",
@@ -196,7 +196,7 @@
     {
      "title": "ウクライナがロシア物流施設など攻撃 ロシアは攻撃強化を強調",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45733",
-     "pubDate": "Sun, 23 Aug 2026 14:17:04 +0900"
+     "pubDate": "Sun, 23 Aug 2026 14:17:00 +0900"
     },
     {
      "title": "アメリカ建国250年記念し自動車レース トランプ氏が開催推進",
@@ -306,14 +306,14 @@
      "pubDate": "Sun, 23 Aug 2026 03:16:13 GMT"
     },
     {
+     "title": "ベルギーの販売員 王室の血筋判明",
+     "link": "https://news.yahoo.co.jp/pickup/6592771?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 05:42:59 GMT"
+    },
+    {
      "title": "りくりゅう婚約 高橋成美氏が祝福",
      "link": "https://news.yahoo.co.jp/pickup/6592750?source=rss",
      "pubDate": "Sun, 23 Aug 2026 02:14:44 GMT"
-    },
-    {
-     "title": "小川彩佳さん 育児綱渡りの時期も",
-     "link": "https://news.yahoo.co.jp/pickup/6592765?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 04:41:18 GMT"
     }
    ]
   }
