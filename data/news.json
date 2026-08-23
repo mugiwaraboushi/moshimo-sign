@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T07:53:01.640Z",
+ "updatedAt": "2026-08-23T08:14:48.514Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,14 +23,14 @@
      "pubDate": "Sun, 23 Aug 2026 11:51:00 +0900"
     },
     {
-     "title": "アメリカ建国250年記念し自動車レース トランプ氏が開催推進",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45833",
-     "pubDate": "Sun, 23 Aug 2026 14:03:40 +0900"
-    },
-    {
      "title": "ウクライナがロシア物流施設など攻撃 ロシアは攻撃強化を強調",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45733",
      "pubDate": "Sun, 23 Aug 2026 14:17:00 +0900"
+    },
+    {
+     "title": "千葉豪雨 浸水被害多数の大網白里市でNPOが住宅片づけの説明会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45871",
+     "pubDate": "Sun, 23 Aug 2026 16:29:56 +0900"
     },
     {
      "title": "茨城 東京 埼玉 千葉で震度5弱 気象庁“今後1週間程度は注意”",
@@ -276,9 +276,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "16歳で意に沿わぬ結婚 残留2世",
-     "link": "https://news.yahoo.co.jp/pickup/6592752?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 02:40:28 GMT"
+     "title": "特急事故 安全管理の書類など押収",
+     "link": "https://news.yahoo.co.jp/pickup/6592782?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 07:53:05 GMT"
     },
     {
      "title": "米地裁 移民ビザ発給停止を無効化",
