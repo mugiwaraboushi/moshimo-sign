@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T13:50:09.652Z",
+ "updatedAt": "2026-08-23T14:11:25.002Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【地震速報】北海道で震度4",
+     "title": "【地震情報】北海道函館市などで震度4 津波の心配なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45914",
-     "pubDate": "Sun, 23 Aug 2026 22:48:25 +0900"
+     "pubDate": "Sun, 23 Aug 2026 23:07:36 +0900"
     },
     {
      "title": "東武鉄道4人死亡事故 事故当日3本の列車は問題なく通過か",
@@ -286,9 +286,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "関東で震度5弱 未明の揺れに驚き",
-     "link": "https://news.yahoo.co.jp/pickup/6592801?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 11:02:25 GMT"
+     "title": "北海道で震度4 津波の心配なし",
+     "link": "https://news.yahoo.co.jp/pickup/6592814?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 13:54:06 GMT"
     },
     {
      "title": "4人死亡 事故までに列車3本が通過",
@@ -301,24 +301,24 @@
      "pubDate": "Sun, 23 Aug 2026 12:24:38 GMT"
     },
     {
-     "title": "報道写真家の石川文洋さん死去",
-     "link": "https://news.yahoo.co.jp/pickup/6592804?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 11:31:26 GMT"
-    },
-    {
      "title": "戸建て売り入居する人も 団地人気",
      "link": "https://news.yahoo.co.jp/pickup/6592805?source=rss",
      "pubDate": "Sun, 23 Aug 2026 11:38:30 GMT"
     },
     {
-     "title": "虎・森下大暴れ 勝ち越し打&31号",
-     "link": "https://news.yahoo.co.jp/pickup/6592812?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 13:29:07 GMT"
+     "title": "夏多い「外耳炎」仕組みと対策は",
+     "link": "https://news.yahoo.co.jp/pickup/6592796?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 10:34:37 GMT"
     },
     {
      "title": "りくりゅう婚約発表設計 識者見解",
      "link": "https://news.yahoo.co.jp/pickup/6592809?source=rss",
      "pubDate": "Sun, 23 Aug 2026 12:44:12 GMT"
+    },
+    {
+     "title": "灘高コンビ 高校生漫才日本一に",
+     "link": "https://news.yahoo.co.jp/pickup/6592813?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 14:01:20 GMT"
     },
     {
      "title": "濱田岳 VIVANT考察にショック",
