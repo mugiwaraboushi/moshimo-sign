@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T11:09:50.962Z",
+ "updatedAt": "2026-08-23T11:41:17.024Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "東武鉄道4人死亡事故 事故当日3本の列車は問題なく通過か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45877",
-     "pubDate": "Sun, 23 Aug 2026 18:59:19 +0900"
+     "pubDate": "Sun, 23 Aug 2026 18:59:00 +0900"
     },
     {
      "title": "台風20号 沖縄 先島諸島で大雨 線状降水帯発生のおそれ",
@@ -23,6 +23,11 @@
      "pubDate": "Sun, 23 Aug 2026 15:23:29 +0900"
     },
     {
+     "title": "北京で2回目の人型ロボット運動会 人類記録上回るなど性能向上",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45846",
+     "pubDate": "Sun, 23 Aug 2026 20:24:00 +0900"
+    },
+    {
      "title": "「シベリア抑留」追悼式 元抑留者や遺族“実態解明を”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45875",
      "pubDate": "Sun, 23 Aug 2026 18:29:07 +0900"
@@ -31,11 +36,6 @@
      "title": "報道写真家の石川文洋さん死去 ベトナム戦争など最前線で取材",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45876",
      "pubDate": "Sun, 23 Aug 2026 18:13:16 +0900"
-    },
-    {
-     "title": "千葉豪雨 浸水被害多数の大網白里市でNPOが住宅片づけの説明会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45871",
-     "pubDate": "Sun, 23 Aug 2026 16:29:56 +0900"
     },
     {
      "title": "アメリカ建国250年記念し自動車レース トランプ氏が開催推進",
@@ -50,9 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "千葉豪雨 死者13人 浸水被害3900棟余 外房線全線再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45878",
+     "pubDate": "Sun, 23 Aug 2026 20:22:50 +0900"
+    },
+    {
      "title": "東武鉄道4人死亡事故 事故当日3本の列車は問題なく通過か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45877",
-     "pubDate": "Sun, 23 Aug 2026 18:59:19 +0900"
+     "pubDate": "Sun, 23 Aug 2026 18:59:00 +0900"
     },
     {
      "title": "「シベリア抑留」追悼式 元抑留者や遺族“実態解明を”",
@@ -118,11 +123,6 @@
      "title": "青森 十和田 外国人観光客がクマに襲われけが 命に別状なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45670",
      "pubDate": "Sat, 22 Aug 2026 18:38:17 +0900"
-    },
-    {
-     "title": "夏の甲子園 期間中の熱中症疑い選手 のべ16人 去年より8人減",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45681",
-     "pubDate": "Sat, 22 Aug 2026 17:54:45 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "北京で2回目の人型ロボット運動会 人類記録上回るなど性能向上",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45846",
+     "pubDate": "Sun, 23 Aug 2026 20:24:00 +0900"
+    },
     {
      "title": "報道写真家の石川文洋さん死去 ベトナム戦争など最前線で取材",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45876",
@@ -198,6 +203,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "北京で2回目の人型ロボット運動会 人類記録上回るなど性能向上",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45846",
+     "pubDate": "Sun, 23 Aug 2026 20:24:00 +0900"
+    },
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月23日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44551",
@@ -267,11 +277,6 @@
      "title": "【詳細】ロシア ウクライナに軍事侵攻（8月22日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44549",
      "pubDate": "Sat, 22 Aug 2026 08:51:00 +0900"
-    },
-    {
-     "title": "ICC赤根智子所長「『法の支配』の終えんの始まりとさせない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45623",
-     "pubDate": "Sat, 22 Aug 2026 07:26:00 +0900"
     }
    ]
   },
@@ -281,29 +286,29 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "地震ボラの暑さ対策を支援 広がる",
-     "link": "https://news.yahoo.co.jp/pickup/6592789?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 08:34:39 GMT"
+     "title": "高市内閣の支持率横ばい41% 毎日",
+     "link": "https://news.yahoo.co.jp/pickup/6592802?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 11:05:18 GMT"
     },
     {
-     "title": "「怠けと違う」文字書けない悩み",
-     "link": "https://news.yahoo.co.jp/pickup/6592778?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 09:17:25 GMT"
+     "title": "関東で震度5弱 未明の揺れに驚き",
+     "link": "https://news.yahoo.co.jp/pickup/6592801?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 11:02:25 GMT"
     },
     {
-     "title": "関東で震度5弱「地震の巣で」識者",
-     "link": "https://news.yahoo.co.jp/pickup/6592781?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 07:36:14 GMT"
-    },
-    {
-     "title": "横浜市長巡り市議 発達障害と投稿",
-     "link": "https://news.yahoo.co.jp/pickup/6592792?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 09:34:54 GMT"
+     "title": "独身と嘘つかれ妊娠 娘のため提訴",
+     "link": "https://news.yahoo.co.jp/pickup/6592803?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 11:09:29 GMT"
     },
     {
      "title": "ソニー 中国「TCL」と手を組む訳",
      "link": "https://news.yahoo.co.jp/pickup/6592793?source=rss",
      "pubDate": "Sun, 23 Aug 2026 09:28:39 GMT"
+    },
+    {
+     "title": "横浜市長巡り市議 発達障害と投稿",
+     "link": "https://news.yahoo.co.jp/pickup/6592792?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 09:34:54 GMT"
     },
     {
      "title": "速報バレー女子 日本vs.韓国",
