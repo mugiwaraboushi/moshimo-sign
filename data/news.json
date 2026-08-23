@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T10:46:39.052Z",
+ "updatedAt": "2026-08-23T11:09:50.962Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -87,7 +87,7 @@
     {
      "title": "【動画】Pickup NEWS（8月23日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45711",
-     "pubDate": "Sun, 23 Aug 2026 14:06:25 +0900"
+     "pubDate": "Sun, 23 Aug 2026 20:05:36 +0900"
     },
     {
      "title": "時間外労働「月45時間以内」一律指導取りやめ 連合は懸念示す",
