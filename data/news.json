@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T00:29:59.768Z",
+ "updatedAt": "2026-08-23T02:09:10.868Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,37 +10,37 @@
     {
      "title": "東武鉄道子会社を業務上過失致死容疑で捜索 4人死亡事故 警察",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45737",
-     "pubDate": "Sun, 23 Aug 2026 09:13:00 +0900"
+     "pubDate": "Sun, 23 Aug 2026 10:49:07 +0900"
+    },
+    {
+     "title": "台風20号の影響 沖縄 八重山地方で線状降水帯発生のおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45798",
+     "pubDate": "Sun, 23 Aug 2026 06:06:00 +0900"
+    },
+    {
+     "title": "JR山手線で人身事故 全線で運転見合わせ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45829",
+     "pubDate": "Sun, 23 Aug 2026 09:56:00 +0900"
+    },
+    {
+     "title": "ICC赤根所長「存続確保に力を」と日本への期待示す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45804",
+     "pubDate": "Sun, 23 Aug 2026 08:17:00 +0900"
     },
     {
      "title": "りくりゅう 三浦さんと木原さん婚約 フィギュアペアで五輪金",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45815",
-     "pubDate": "Sun, 23 Aug 2026 08:48:18 +0900"
+     "pubDate": "Sun, 23 Aug 2026 09:33:55 +0900"
+    },
+    {
+     "title": "熊本 宇城 被災地で外国人支援へ 仮設シャワー設置に向け調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45734",
+     "pubDate": "Sun, 23 Aug 2026 08:28:16 +0900"
     },
     {
      "title": "茨城 東京 埼玉 千葉で震度5弱 気象庁“今後1週間程度は注意”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45738",
      "pubDate": "Sun, 23 Aug 2026 07:14:45 +0900"
-    },
-    {
-     "title": "【被害情報まとめ】地震 埼玉県や神奈川県で複数のけが人",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45744",
-     "pubDate": "Sun, 23 Aug 2026 07:31:01 +0900"
-    },
-    {
-     "title": "東京 足立区のスーパー 消火剤が大量に噴射 地震で誤作動か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45791",
-     "pubDate": "Sun, 23 Aug 2026 04:52:00 +0900"
-    },
-    {
-     "title": "台風20号の影響 沖縄 八重山地方で線状降水帯発生のおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45798",
-     "pubDate": "Sun, 23 Aug 2026 06:06:15 +0900"
-    },
-    {
-     "title": "東京 杉並 道路が冠水し看板が水に流される【22日・映像】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45731",
-     "pubDate": "Sun, 23 Aug 2026 05:50:59 +0900"
     }
    ]
   },
@@ -50,9 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "JR山手線で人身事故 全線で運転見合わせ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45829",
+     "pubDate": "Sun, 23 Aug 2026 09:56:00 +0900"
+    },
+    {
      "title": "東武鉄道子会社を業務上過失致死容疑で捜索 4人死亡事故 警察",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45737",
-     "pubDate": "Sun, 23 Aug 2026 09:13:00 +0900"
+     "pubDate": "Sun, 23 Aug 2026 10:49:07 +0900"
     },
     {
      "title": "大分 臼杵 79歳男性が死亡 熱中症か",
@@ -72,7 +77,7 @@
     {
      "title": "【地震】茨城 高速道路の被害確認されず 警察",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45767",
-     "pubDate": "Sun, 23 Aug 2026 03:39:29 +0900"
+     "pubDate": "Sun, 23 Aug 2026 03:39:00 +0900"
     },
     {
      "title": "JR外房線 きょう始発から全線で運転再開 地震の影響はなし",
@@ -118,11 +123,6 @@
      "title": "熊本 氷川町 レンコン農家 地震被害で例年より遅い収穫",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45608",
      "pubDate": "Sat, 22 Aug 2026 05:13:00 +0900"
-    },
-    {
-     "title": "栃木4人死亡事故 運転士「急ブレーキかけたが間に合わず」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45613",
-     "pubDate": "Sat, 22 Aug 2026 05:12:00 +0900"
     }
    ]
   },
@@ -234,9 +234,9 @@
      "pubDate": "Sat, 22 Aug 2026 08:54:00 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月22日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（8月22日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44549",
-     "pubDate": "Sat, 22 Aug 2026 08:51:37 +0900"
+     "pubDate": "Sat, 22 Aug 2026 08:51:00 +0900"
     },
     {
      "title": "ICC赤根智子所長「『法の支配』の終えんの始まりとさせない」",
@@ -276,34 +276,29 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "発火相次ぐ「モバ充」規制強化へ",
-     "link": "https://news.yahoo.co.jp/pickup/6592731?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 23:32:37 GMT"
+     "title": "ウ側に協力 特殊作戦担うロシア人",
+     "link": "https://news.yahoo.co.jp/pickup/6592729?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 23:14:12 GMT"
     },
     {
-     "title": "カナダ首相 対米報復関税を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6592725?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 22:45:26 GMT"
+     "title": "4人死亡事故 東武建設を家宅捜索",
+     "link": "https://news.yahoo.co.jp/pickup/6592737?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 00:41:50 GMT"
     },
     {
-     "title": "台風20号 八重山地方で大雨の恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6592730?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 23:19:34 GMT"
+     "title": "市の食料配布に4万人 動く自治体",
+     "link": "https://news.yahoo.co.jp/pickup/6592739?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 00:46:45 GMT"
     },
     {
-     "title": "震度5弱 関東の鉄道運行情報",
-     "link": "https://news.yahoo.co.jp/pickup/6592722?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 22:23:25 GMT"
+     "title": "関東で震度5弱 けが人相次ぐ",
+     "link": "https://news.yahoo.co.jp/pickup/6592740?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 00:54:18 GMT"
     },
     {
-     "title": "震度5弱 江東区では道路に水流出",
-     "link": "https://news.yahoo.co.jp/pickup/6592723?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 22:45:17 GMT"
-    },
-    {
-     "title": "人型ロボ100mボルト超え 直後炎上",
-     "link": "https://news.yahoo.co.jp/pickup/6592727?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 22:57:52 GMT"
+     "title": "2000円台の新米 昨年産と価格逆転",
+     "link": "https://news.yahoo.co.jp/pickup/6592734?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 23:54:01 GMT"
     },
     {
      "title": "智弁和歌山 寮母インスタ大バズリ",
@@ -311,9 +306,14 @@
      "pubDate": "Sun, 23 Aug 2026 00:22:31 GMT"
     },
     {
-     "title": "りくりゅう木原さん&三浦さん婚約",
-     "link": "https://news.yahoo.co.jp/pickup/6592724?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 22:14:50 GMT"
+     "title": "りくりゅう プロポーズ写真投稿",
+     "link": "https://news.yahoo.co.jp/pickup/6592732?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 23:55:07 GMT"
+    },
+    {
+     "title": "天木じゅん 競輪佐々木悠葵と結婚",
+     "link": "https://news.yahoo.co.jp/pickup/6592748?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 01:35:59 GMT"
     }
    ]
   }
