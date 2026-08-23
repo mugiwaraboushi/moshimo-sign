@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T08:53:50.796Z",
+ "updatedAt": "2026-08-23T09:15:23.297Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "報道写真家の石川文洋さん死去 ベトナム戦争など最前線で取材",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45876",
+     "pubDate": "Sun, 23 Aug 2026 18:13:16 +0900"
+    },
     {
      "title": "NASA 次世代宇宙望遠鏡打ち上げへ 視野は従来型の100倍超え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45735",
@@ -286,14 +291,9 @@
      "pubDate": "Sun, 23 Aug 2026 07:38:17 GMT"
     },
     {
-     "title": "関東で震度5弱 けが人40人超に",
-     "link": "https://news.yahoo.co.jp/pickup/6592773?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 06:11:51 GMT"
-    },
-    {
-     "title": "スマホ乗っ取られ詐欺SMSのbot化",
-     "link": "https://news.yahoo.co.jp/pickup/6592770?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 05:25:51 GMT"
+     "title": "関東で震度5弱「地震の巣で」識者",
+     "link": "https://news.yahoo.co.jp/pickup/6592781?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 07:36:14 GMT"
     },
     {
      "title": "年金だけ苦しい 炎天下働くシニア",
@@ -314,6 +314,11 @@
      "title": "伝説的漫画家と41歳差婚 介護の今",
      "link": "https://news.yahoo.co.jp/pickup/6592784?source=rss",
      "pubDate": "Sun, 23 Aug 2026 08:14:09 GMT"
+    },
+    {
+     "title": "わんこそば755杯 大食い界の新星",
+     "link": "https://news.yahoo.co.jp/pickup/6592790?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 08:57:10 GMT"
     }
    ]
   }
