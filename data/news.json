@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T02:09:10.868Z",
+ "updatedAt": "2026-08-23T03:26:39.370Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,34 +8,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "東武鉄道子会社を業務上過失致死容疑で捜索 4人死亡事故 警察",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45737",
-     "pubDate": "Sun, 23 Aug 2026 10:49:07 +0900"
-    },
-    {
-     "title": "台風20号の影響 沖縄 八重山地方で線状降水帯発生のおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45798",
-     "pubDate": "Sun, 23 Aug 2026 06:06:00 +0900"
-    },
-    {
      "title": "JR山手線で人身事故 全線で運転見合わせ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45829",
-     "pubDate": "Sun, 23 Aug 2026 09:56:00 +0900"
+     "pubDate": "Sun, 23 Aug 2026 12:12:40 +0900"
     },
     {
-     "title": "ICC赤根所長「存続確保に力を」と日本への期待示す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45804",
-     "pubDate": "Sun, 23 Aug 2026 08:17:00 +0900"
+     "title": "東武鉄道子会社を業務上過失致死容疑で捜索 4人死亡事故 警察",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45737",
+     "pubDate": "Sun, 23 Aug 2026 12:19:12 +0900"
+    },
+    {
+     "title": "台風20号 沖縄 先島諸島で大雨 線状降水帯発生のおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45798",
+     "pubDate": "Sun, 23 Aug 2026 11:51:57 +0900"
+    },
+    {
+     "title": "大分では40度の酷暑日予想 熊本も危険な暑さに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45805",
+     "pubDate": "Sun, 23 Aug 2026 12:22:32 +0900"
+    },
+    {
+     "title": "米は制裁で圧力強化へ イラン“米に協力した国は敵と見なす”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45821",
+     "pubDate": "Sun, 23 Aug 2026 11:44:23 +0900"
     },
     {
      "title": "りくりゅう 三浦さんと木原さん婚約 フィギュアペアで五輪金",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45815",
      "pubDate": "Sun, 23 Aug 2026 09:33:55 +0900"
-    },
-    {
-     "title": "熊本 宇城 被災地で外国人支援へ 仮設シャワー設置に向け調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45734",
-     "pubDate": "Sun, 23 Aug 2026 08:28:16 +0900"
     },
     {
      "title": "茨城 東京 埼玉 千葉で震度5弱 気象庁“今後1週間程度は注意”",
@@ -52,12 +52,12 @@
     {
      "title": "JR山手線で人身事故 全線で運転見合わせ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45829",
-     "pubDate": "Sun, 23 Aug 2026 09:56:00 +0900"
+     "pubDate": "Sun, 23 Aug 2026 12:12:40 +0900"
     },
     {
      "title": "東武鉄道子会社を業務上過失致死容疑で捜索 4人死亡事故 警察",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45737",
-     "pubDate": "Sun, 23 Aug 2026 10:49:07 +0900"
+     "pubDate": "Sun, 23 Aug 2026 12:19:12 +0900"
     },
     {
      "title": "大分 臼杵 79歳男性が死亡 熱中症か",
@@ -82,7 +82,7 @@
     {
      "title": "JR外房線 きょう始発から全線で運転再開 地震の影響はなし",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45736",
-     "pubDate": "Sun, 23 Aug 2026 01:34:00 +0900"
+     "pubDate": "Sun, 23 Aug 2026 11:25:51 +0900"
     },
     {
      "title": "滋賀 野洲 化学工場で男性作業員2人が死亡 酸欠か",
@@ -194,6 +194,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米は制裁で圧力強化へ イラン“米に協力した国は敵と見なす”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45821",
+     "pubDate": "Sun, 23 Aug 2026 11:44:23 +0900"
+    },
+    {
+     "title": "カナダがアメリカへの対抗関税を9月8日に発動へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45819",
+     "pubDate": "Sun, 23 Aug 2026 11:13:07 +0900"
+    },
+    {
      "title": "NASA 次世代宇宙望遠鏡打ち上げへ 視野は従来型の100倍超え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45735",
      "pubDate": "Sun, 23 Aug 2026 08:19:00 +0900"
@@ -257,16 +267,6 @@
      "title": "秋篠宮ご夫妻 日本人のパラグアイ移住90周年記念式典に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45603",
      "pubDate": "Sat, 22 Aug 2026 05:50:00 +0900"
-    },
-    {
-     "title": "中国とインドネシアの外相 初の「包括的戦略対話」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45606",
-     "pubDate": "Sat, 22 Aug 2026 05:46:50 +0900"
-    },
-    {
-     "title": "中国 南部の大規模洪水で死者159人に 各地で大雨被害",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45594",
-     "pubDate": "Fri, 21 Aug 2026 22:16:00 +0900"
     }
    ]
   },
@@ -276,14 +276,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "文科省 来年度科研費を倍増要求へ",
+     "link": "https://news.yahoo.co.jp/pickup/6592747?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 01:39:32 GMT"
+    },
+    {
      "title": "ウ側に協力 特殊作戦担うロシア人",
      "link": "https://news.yahoo.co.jp/pickup/6592729?source=rss",
      "pubDate": "Sat, 22 Aug 2026 23:14:12 GMT"
-    },
-    {
-     "title": "4人死亡事故 東武建設を家宅捜索",
-     "link": "https://news.yahoo.co.jp/pickup/6592737?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 00:41:50 GMT"
     },
     {
      "title": "市の食料配布に4万人 動く自治体",
@@ -291,19 +291,19 @@
      "pubDate": "Sun, 23 Aug 2026 00:46:45 GMT"
     },
     {
-     "title": "関東で震度5弱 けが人相次ぐ",
-     "link": "https://news.yahoo.co.jp/pickup/6592740?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 00:54:18 GMT"
+     "title": "月10万円→30万円 都内老人ホーム",
+     "link": "https://news.yahoo.co.jp/pickup/6592755?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 03:16:13 GMT"
     },
     {
-     "title": "2000円台の新米 昨年産と価格逆転",
-     "link": "https://news.yahoo.co.jp/pickup/6592734?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 23:54:01 GMT"
+     "title": "関東で震度5弱 けが人30人超",
+     "link": "https://news.yahoo.co.jp/pickup/6592754?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 03:02:19 GMT"
     },
     {
-     "title": "智弁和歌山 寮母インスタ大バズリ",
-     "link": "https://news.yahoo.co.jp/pickup/6592735?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 00:22:31 GMT"
+     "title": "りくりゅう婚約 高橋成美氏が祝福",
+     "link": "https://news.yahoo.co.jp/pickup/6592750?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 02:14:44 GMT"
     },
     {
      "title": "りくりゅう プロポーズ写真投稿",
