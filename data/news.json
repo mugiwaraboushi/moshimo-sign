@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T05:51:19.304Z",
+ "updatedAt": "2026-08-23T06:18:55.086Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "アメリカ建国250年記念し自動車レース トランプ氏が開催推進",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45833",
-     "pubDate": "Sun, 23 Aug 2026 14:03:40 +0900"
+     "title": "大分では40度の酷暑日予想 熊本も危険な暑さに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45805",
+     "pubDate": "Sun, 23 Aug 2026 14:48:11 +0900"
     },
     {
      "title": "台風20号 沖縄 先島諸島で大雨 線状降水帯発生のおそれ",
@@ -18,19 +18,14 @@
      "pubDate": "Sun, 23 Aug 2026 11:51:00 +0900"
     },
     {
-     "title": "大分では40度の酷暑日予想 熊本も危険な暑さに",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45805",
-     "pubDate": "Sun, 23 Aug 2026 14:48:11 +0900"
+     "title": "アメリカ建国250年記念し自動車レース トランプ氏が開催推進",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45833",
+     "pubDate": "Sun, 23 Aug 2026 14:03:40 +0900"
     },
     {
      "title": "東武鉄道子会社を業務上過失致死容疑で捜索 4人死亡事故 警察",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45737",
      "pubDate": "Sun, 23 Aug 2026 13:29:48 +0900"
-    },
-    {
-     "title": "ウクライナがロシア物流施設など攻撃 ロシアは攻撃強化を強調",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45733",
-     "pubDate": "Sun, 23 Aug 2026 14:17:00 +0900"
     },
     {
      "title": "茨城 東京 埼玉 千葉で震度5弱 気象庁“今後1週間程度は注意”",
@@ -41,6 +36,11 @@
      "title": "【被害情報まとめ】地震 埼玉県や神奈川県などで複数のけが人",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45744",
      "pubDate": "Sun, 23 Aug 2026 14:05:53 +0900"
+    },
+    {
+     "title": "地震による交通機関への影響 鉄道はすべて運転再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45760",
+     "pubDate": "Sun, 23 Aug 2026 14:54:00 +0900"
     }
    ]
   },
@@ -276,9 +276,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "沖縄知事選 県政奪還へ自民総力戦",
-     "link": "https://news.yahoo.co.jp/pickup/6592736?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 00:26:14 GMT"
+     "title": "16歳で意に沿わぬ結婚 残留2世",
+     "link": "https://news.yahoo.co.jp/pickup/6592752?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 02:40:28 GMT"
     },
     {
      "title": "関東-九州 あす以降も厳しい暑さ",
@@ -286,9 +286,9 @@
      "pubDate": "Sun, 23 Aug 2026 04:38:46 GMT"
     },
     {
-     "title": "関東で震度5弱 けが人30人超",
-     "link": "https://news.yahoo.co.jp/pickup/6592754?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 03:02:19 GMT"
+     "title": "スマホ乗っ取られ詐欺SMSのbot化",
+     "link": "https://news.yahoo.co.jp/pickup/6592770?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 05:25:51 GMT"
     },
     {
      "title": "小5息子殺され加害者と向き合う父",
