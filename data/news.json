@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T14:45:29.597Z",
+ "updatedAt": "2026-08-23T15:09:56.819Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -286,9 +286,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "北海道で震度4 津波の心配なし",
-     "link": "https://news.yahoo.co.jp/pickup/6592814?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 13:54:06 GMT"
+     "title": "原油輸送確保 首脳外交求める声も",
+     "link": "https://news.yahoo.co.jp/pickup/6592818?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 14:50:43 GMT"
     },
     {
      "title": "4人死亡 事故までに列車3本が通過",
@@ -296,14 +296,14 @@
      "pubDate": "Sun, 23 Aug 2026 10:58:33 GMT"
     },
     {
-     "title": "熊本地震 外国人へ発信3市町のみ",
-     "link": "https://news.yahoo.co.jp/pickup/6592820?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 14:35:34 GMT"
-    },
-    {
      "title": "豪雨で愛車失った人たち 悲痛な声",
      "link": "https://news.yahoo.co.jp/pickup/6592807?source=rss",
      "pubDate": "Sun, 23 Aug 2026 12:24:38 GMT"
+    },
+    {
+     "title": "熊本地震 窯元が葛藤の中で再出発",
+     "link": "https://news.yahoo.co.jp/pickup/6592819?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 14:39:04 GMT"
     },
     {
      "title": "戸建て売り入居する人も 団地人気",
@@ -311,14 +311,14 @@
      "pubDate": "Sun, 23 Aug 2026 11:38:30 GMT"
     },
     {
+     "title": "死んだペットを弔う方法 法的見解",
+     "link": "https://news.yahoo.co.jp/pickup/6592811?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 13:20:05 GMT"
+    },
+    {
      "title": "三浦璃来氏 婚約の世間の反応驚き",
      "link": "https://news.yahoo.co.jp/pickup/6592786?source=rss",
      "pubDate": "Sun, 23 Aug 2026 08:15:04 GMT"
-    },
-    {
-     "title": "灘高コンビ 高校生漫才日本一に",
-     "link": "https://news.yahoo.co.jp/pickup/6592813?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 14:01:20 GMT"
     },
     {
      "title": "濱田岳 VIVANT考察にショック",
