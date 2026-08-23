@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T23:40:54.782Z",
+ "updatedAt": "2026-08-23T00:29:59.768Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "東武鉄道子会社を業務上過失致死容疑で捜索 4人死亡事故 警察",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45737",
+     "pubDate": "Sun, 23 Aug 2026 09:13:00 +0900"
+    },
+    {
      "title": "りくりゅう 三浦さんと木原さん婚約 フィギュアペアで五輪金",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45815",
-     "pubDate": "Sun, 23 Aug 2026 08:03:00 +0900"
+     "pubDate": "Sun, 23 Aug 2026 08:48:18 +0900"
     },
     {
      "title": "茨城 東京 埼玉 千葉で震度5弱 気象庁“今後1週間程度は注意”",
@@ -26,11 +31,6 @@
      "title": "東京 足立区のスーパー 消火剤が大量に噴射 地震で誤作動か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45791",
      "pubDate": "Sun, 23 Aug 2026 04:52:00 +0900"
-    },
-    {
-     "title": "栃木4人死亡列車事故 安全確認後の警笛2回中1回しか確認されず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45737",
-     "pubDate": "Sun, 23 Aug 2026 08:24:53 +0900"
     },
     {
      "title": "台風20号の影響 沖縄 八重山地方で線状降水帯発生のおそれ",
@@ -50,9 +50,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "栃木4人死亡列車事故 安全確認後の警笛2回中1回しか確認されず",
+     "title": "東武鉄道子会社を業務上過失致死容疑で捜索 4人死亡事故 警察",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45737",
-     "pubDate": "Sun, 23 Aug 2026 08:24:53 +0900"
+     "pubDate": "Sun, 23 Aug 2026 09:13:00 +0900"
     },
     {
      "title": "大分 臼杵 79歳男性が死亡 熱中症か",
@@ -276,9 +276,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "発火相次ぐ「モバ充」規制強化へ",
+     "link": "https://news.yahoo.co.jp/pickup/6592731?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 23:32:37 GMT"
+    },
+    {
      "title": "カナダ首相 対米報復関税を発表",
      "link": "https://news.yahoo.co.jp/pickup/6592725?source=rss",
      "pubDate": "Sat, 22 Aug 2026 22:45:26 GMT"
+    },
+    {
+     "title": "台風20号 八重山地方で大雨の恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6592730?source=rss",
+     "pubDate": "Sat, 22 Aug 2026 23:19:34 GMT"
     },
     {
      "title": "震度5弱 関東の鉄道運行情報",
@@ -291,29 +301,19 @@
      "pubDate": "Sat, 22 Aug 2026 22:45:17 GMT"
     },
     {
-     "title": "タイ南部3県 爆発や放火相次ぐ",
-     "link": "https://news.yahoo.co.jp/pickup/6592726?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 22:44:56 GMT"
-    },
-    {
-     "title": "薬師寺国宝に液体かけた疑い 逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6592721?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 22:26:20 GMT"
-    },
-    {
      "title": "人型ロボ100mボルト超え 直後炎上",
      "link": "https://news.yahoo.co.jp/pickup/6592727?source=rss",
      "pubDate": "Sat, 22 Aug 2026 22:57:52 GMT"
     },
     {
+     "title": "智弁和歌山 寮母インスタ大バズリ",
+     "link": "https://news.yahoo.co.jp/pickup/6592735?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 00:22:31 GMT"
+    },
+    {
      "title": "りくりゅう木原さん&三浦さん婚約",
      "link": "https://news.yahoo.co.jp/pickup/6592724?source=rss",
      "pubDate": "Sat, 22 Aug 2026 22:14:50 GMT"
-    },
-    {
-     "title": "ラヴ上等コラボ中止 制作側責任は",
-     "link": "https://news.yahoo.co.jp/pickup/6592728?source=rss",
-     "pubDate": "Sat, 22 Aug 2026 23:12:59 GMT"
     }
    ]
   }
