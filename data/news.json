@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T09:15:23.297Z",
+ "updatedAt": "2026-08-23T09:48:40.430Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,9 @@
      "pubDate": "Sun, 23 Aug 2026 13:29:48 +0900"
     },
     {
-     "title": "広島や大分で39度超え 熊本も危険な暑さに 熱中症対策の徹底を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45805",
-     "pubDate": "Sun, 23 Aug 2026 15:23:29 +0900"
+     "title": "報道写真家の石川文洋さん死去 ベトナム戦争など最前線で取材",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45876",
+     "pubDate": "Sun, 23 Aug 2026 18:13:16 +0900"
     },
     {
      "title": "台風20号 沖縄 先島諸島で大雨 線状降水帯発生のおそれ",
@@ -23,9 +23,9 @@
      "pubDate": "Sun, 23 Aug 2026 11:51:00 +0900"
     },
     {
-     "title": "ウクライナがロシア物流施設など攻撃 ロシアは攻撃強化を強調",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45733",
-     "pubDate": "Sun, 23 Aug 2026 14:17:00 +0900"
+     "title": "広島や大分で39度超え 熊本も危険な暑さに 熱中症対策の徹底を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45805",
+     "pubDate": "Sun, 23 Aug 2026 15:23:29 +0900"
     },
     {
      "title": "千葉豪雨 浸水被害多数の大網白里市でNPOが住宅片づけの説明会",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "「シベリア抑留」追悼式 元抑留者や遺族“実態解明を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45875",
+     "pubDate": "Sun, 23 Aug 2026 18:29:07 +0900"
+    },
     {
      "title": "千葉豪雨 浸水被害多数の大網白里市でNPOが住宅片づけの説明会",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45871",
@@ -118,11 +123,6 @@
      "title": "【動画】Pickup NEWS（8月22日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45572",
      "pubDate": "Sat, 22 Aug 2026 19:49:47 +0900"
-    },
-    {
-     "title": "千葉 路上の車両の所有者への引き渡し 警察などに協力求める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45615",
-     "pubDate": "Sat, 22 Aug 2026 12:27:49 +0900"
     }
    ]
   },
@@ -281,14 +281,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "特急事故 安全管理の書類など押収",
-     "link": "https://news.yahoo.co.jp/pickup/6592782?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 07:53:05 GMT"
-    },
-    {
-     "title": "米地裁 移民ビザ発給停止を無効化",
-     "link": "https://news.yahoo.co.jp/pickup/6592780?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 07:38:17 GMT"
+     "title": "地震ボラの暑さ対策を支援 広がる",
+     "link": "https://news.yahoo.co.jp/pickup/6592789?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 08:34:39 GMT"
     },
     {
      "title": "関東で震度5弱「地震の巣で」識者",
@@ -296,9 +291,14 @@
      "pubDate": "Sun, 23 Aug 2026 07:36:14 GMT"
     },
     {
-     "title": "年金だけ苦しい 炎天下働くシニア",
-     "link": "https://news.yahoo.co.jp/pickup/6592772?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 06:05:12 GMT"
+     "title": "横浜市長巡り市議 発達障害と投稿",
+     "link": "https://news.yahoo.co.jp/pickup/6592792?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 09:34:54 GMT"
+    },
+    {
+     "title": "「自分は臭い」思い込み 心理解説",
+     "link": "https://news.yahoo.co.jp/pickup/6592775?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 06:55:56 GMT"
     },
     {
      "title": "VIVANTロケ地の県 観光振興活発",
