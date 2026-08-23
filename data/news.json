@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T19:12:55.549Z",
+ "updatedAt": "2026-08-23T19:41:42.610Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "【地震情報】熊本県宇城市で震度3 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45925",
+     "pubDate": "Mon, 24 Aug 2026 04:11:00 +0900"
+    },
     {
      "title": "東武鉄道4人死亡事故 事故当日3本の列車は問題なく通過か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45877",
@@ -31,11 +36,6 @@
      "title": "24日は大分で40度予想 西・東日本で猛烈な暑さか 熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45805",
      "pubDate": "Sun, 23 Aug 2026 21:03:22 +0900"
-    },
-    {
-     "title": "北京で2回目の人型ロボット運動会 人類記録上回るなど性能向上",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45846",
-     "pubDate": "Sun, 23 Aug 2026 20:24:00 +0900"
     },
     {
      "title": "専門家 “関東の地下にある「地震の巣」で発生 備え確認を”",
