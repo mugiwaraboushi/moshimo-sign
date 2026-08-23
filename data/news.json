@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T08:14:48.514Z",
+ "updatedAt": "2026-08-23T08:53:50.796Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -40,7 +40,7 @@
     {
      "title": "【被害情報まとめ】地震 埼玉県や神奈川県などで複数のけが人",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45744",
-     "pubDate": "Sun, 23 Aug 2026 14:05:53 +0900"
+     "pubDate": "Sun, 23 Aug 2026 17:47:20 +0900"
     }
    ]
   },
@@ -291,11 +291,6 @@
      "pubDate": "Sun, 23 Aug 2026 06:11:51 GMT"
     },
     {
-     "title": "女性死亡 ひき逃げ疑い22歳男逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6592768?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 05:13:49 GMT"
-    },
-    {
      "title": "スマホ乗っ取られ詐欺SMSのbot化",
      "link": "https://news.yahoo.co.jp/pickup/6592770?source=rss",
      "pubDate": "Sun, 23 Aug 2026 05:25:51 GMT"
@@ -311,9 +306,14 @@
      "pubDate": "Sun, 23 Aug 2026 06:40:23 GMT"
     },
     {
-     "title": "りくりゅう 投稿写真は思い出の場",
-     "link": "https://news.yahoo.co.jp/pickup/6592776?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 06:59:40 GMT"
+     "title": "三浦璃来氏 婚約の世間の反応驚き",
+     "link": "https://news.yahoo.co.jp/pickup/6592786?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 08:15:04 GMT"
+    },
+    {
+     "title": "伝説的漫画家と41歳差婚 介護の今",
+     "link": "https://news.yahoo.co.jp/pickup/6592784?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 08:14:09 GMT"
     }
    ]
   }
