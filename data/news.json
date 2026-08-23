@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T22:43:51.186Z",
+ "updatedAt": "2026-08-23T23:08:52.000Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -301,14 +301,9 @@
      "pubDate": "Sun, 23 Aug 2026 22:31:23 GMT"
     },
     {
-     "title": "消費減税巡り財政に不安71% 共同",
-     "link": "https://news.yahoo.co.jp/pickup/6592823?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 21:29:41 GMT"
-    },
-    {
-     "title": "豪雨で愛車失った人たち 悲痛な声",
-     "link": "https://news.yahoo.co.jp/pickup/6592807?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 12:24:38 GMT"
+     "title": "処理水放出3年 タンク貯蔵量7%減",
+     "link": "https://news.yahoo.co.jp/pickup/6592831?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 22:41:33 GMT"
     },
     {
      "title": "車と衝突 バイクの18歳高校生死亡",
@@ -321,19 +316,24 @@
      "pubDate": "Sun, 23 Aug 2026 22:07:43 GMT"
     },
     {
+     "title": "協議離婚サポート 家事ADRに注目",
+     "link": "https://news.yahoo.co.jp/pickup/6592830?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 22:34:49 GMT"
+    },
+    {
      "title": "りくりゅう婚約 記者知る信頼関係",
      "link": "https://news.yahoo.co.jp/pickup/6592827?source=rss",
      "pubDate": "Sun, 23 Aug 2026 22:25:19 GMT"
     },
     {
+     "title": "上田綺世が2戦連発 中断に動じず",
+     "link": "https://news.yahoo.co.jp/pickup/6592832?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 22:44:51 GMT"
+    },
+    {
      "title": "高気圧ガール 湖池屋の新CM曲に",
      "link": "https://news.yahoo.co.jp/pickup/6592834?source=rss",
      "pubDate": "Sun, 23 Aug 2026 22:32:10 GMT"
-    },
-    {
-     "title": "KOC 初の敗者復活戦の開催が決定",
-     "link": "https://news.yahoo.co.jp/pickup/6592833?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 22:35:01 GMT"
     }
    ]
   }
