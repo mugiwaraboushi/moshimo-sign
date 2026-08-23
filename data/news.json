@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T07:07:51.013Z",
+ "updatedAt": "2026-08-23T07:53:01.640Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "東武鉄道子会社を業務上過失致死容疑で捜索 4人死亡事故 警察",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45737",
+     "pubDate": "Sun, 23 Aug 2026 13:29:48 +0900"
+    },
     {
      "title": "広島や大分で39度超え 熊本も危険な暑さに 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45805",
@@ -21,11 +26,6 @@
      "title": "アメリカ建国250年記念し自動車レース トランプ氏が開催推進",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45833",
      "pubDate": "Sun, 23 Aug 2026 14:03:40 +0900"
-    },
-    {
-     "title": "東武鉄道子会社を業務上過失致死容疑で捜索 4人死亡事故 警察",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45737",
-     "pubDate": "Sun, 23 Aug 2026 13:29:48 +0900"
     },
     {
      "title": "ウクライナがロシア物流施設など攻撃 ロシアは攻撃強化を強調",
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "千葉豪雨 浸水被害多数の大網白里市でNPOが住宅片づけの説明会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45871",
+     "pubDate": "Sun, 23 Aug 2026 16:29:56 +0900"
+    },
+    {
+     "title": "秋篠宮ご夫妻 パラグアイで日本人が初めて移住した地域を訪問",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45847",
+     "pubDate": "Sun, 23 Aug 2026 16:11:32 +0900"
+    },
     {
      "title": "JR山手線 全線で運転再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45829",
@@ -113,16 +123,6 @@
      "title": "千葉 路上の車両の所有者への引き渡し 警察などに協力求める",
      "link": "https://news.web.nhk/newsweb/na/nd-20260822de45615",
      "pubDate": "Sat, 22 Aug 2026 12:27:49 +0900"
-    },
-    {
-     "title": "秋篠宮ご夫妻 日本人のパラグアイ移住90周年記念式典に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45603",
-     "pubDate": "Sat, 22 Aug 2026 05:50:00 +0900"
-    },
-    {
-     "title": "熊本 氷川町 レンコン農家 地震被害で例年より遅い収穫",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260821de45608",
-     "pubDate": "Sat, 22 Aug 2026 05:13:00 +0900"
     }
    ]
   },
@@ -281,9 +281,9 @@
      "pubDate": "Sun, 23 Aug 2026 02:40:28 GMT"
     },
     {
-     "title": "関東-九州 あす以降も厳しい暑さ",
-     "link": "https://news.yahoo.co.jp/pickup/6592763?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 04:38:46 GMT"
+     "title": "米地裁 移民ビザ発給停止を無効化",
+     "link": "https://news.yahoo.co.jp/pickup/6592780?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 07:38:17 GMT"
     },
     {
      "title": "関東で震度5弱 けが人40人超に",
@@ -291,24 +291,24 @@
      "pubDate": "Sun, 23 Aug 2026 06:11:51 GMT"
     },
     {
-     "title": "スマホ乗っ取られ詐欺SMSのbot化",
-     "link": "https://news.yahoo.co.jp/pickup/6592770?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 05:25:51 GMT"
-    },
-    {
-     "title": "小5息子殺され加害者と向き合う父",
-     "link": "https://news.yahoo.co.jp/pickup/6592764?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 04:51:01 GMT"
-    },
-    {
      "title": "女性死亡 ひき逃げ疑い22歳男逮捕",
      "link": "https://news.yahoo.co.jp/pickup/6592768?source=rss",
      "pubDate": "Sun, 23 Aug 2026 05:13:49 GMT"
     },
     {
-     "title": "ベルギーの販売員 王室の血筋判明",
-     "link": "https://news.yahoo.co.jp/pickup/6592771?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 05:42:59 GMT"
+     "title": "スマホ乗っ取られ詐欺SMSのbot化",
+     "link": "https://news.yahoo.co.jp/pickup/6592770?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 05:25:51 GMT"
+    },
+    {
+     "title": "年金だけ苦しい 炎天下働くシニア",
+     "link": "https://news.yahoo.co.jp/pickup/6592772?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 06:05:12 GMT"
+    },
+    {
+     "title": "VIVANTロケ地の県 観光振興活発",
+     "link": "https://news.yahoo.co.jp/pickup/6592774?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 06:40:23 GMT"
     },
     {
      "title": "りくりゅう 投稿写真は思い出の場",
