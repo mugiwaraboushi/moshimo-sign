@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T06:18:55.086Z",
+ "updatedAt": "2026-08-23T07:07:51.013Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "大分では40度の酷暑日予想 熊本も危険な暑さに",
+     "title": "広島や大分で39度超え 熊本も危険な暑さに 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45805",
-     "pubDate": "Sun, 23 Aug 2026 14:48:11 +0900"
+     "pubDate": "Sun, 23 Aug 2026 15:23:29 +0900"
     },
     {
      "title": "台風20号 沖縄 先島諸島で大雨 線状降水帯発生のおそれ",
@@ -28,6 +28,11 @@
      "pubDate": "Sun, 23 Aug 2026 13:29:48 +0900"
     },
     {
+     "title": "ウクライナがロシア物流施設など攻撃 ロシアは攻撃強化を強調",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45733",
+     "pubDate": "Sun, 23 Aug 2026 14:17:00 +0900"
+    },
+    {
      "title": "茨城 東京 埼玉 千葉で震度5弱 気象庁“今後1週間程度は注意”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45738",
      "pubDate": "Sun, 23 Aug 2026 07:14:00 +0900"
@@ -36,11 +41,6 @@
      "title": "【被害情報まとめ】地震 埼玉県や神奈川県などで複数のけが人",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45744",
      "pubDate": "Sun, 23 Aug 2026 14:05:53 +0900"
-    },
-    {
-     "title": "地震による交通機関への影響 鉄道はすべて運転再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45760",
-     "pubDate": "Sun, 23 Aug 2026 14:54:00 +0900"
     }
    ]
   },
@@ -206,7 +206,7 @@
     {
      "title": "米は制裁で圧力強化へ イラン“米に協力した国は敵と見なす”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45821",
-     "pubDate": "Sun, 23 Aug 2026 11:44:23 +0900"
+     "pubDate": "Sun, 23 Aug 2026 11:44:00 +0900"
     },
     {
      "title": "カナダがアメリカへの対抗関税を9月8日に発動へ",
@@ -286,6 +286,11 @@
      "pubDate": "Sun, 23 Aug 2026 04:38:46 GMT"
     },
     {
+     "title": "関東で震度5弱 けが人40人超に",
+     "link": "https://news.yahoo.co.jp/pickup/6592773?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 06:11:51 GMT"
+    },
+    {
      "title": "スマホ乗っ取られ詐欺SMSのbot化",
      "link": "https://news.yahoo.co.jp/pickup/6592770?source=rss",
      "pubDate": "Sun, 23 Aug 2026 05:25:51 GMT"
@@ -301,19 +306,14 @@
      "pubDate": "Sun, 23 Aug 2026 05:13:49 GMT"
     },
     {
-     "title": "月10万円→30万円 都内老人ホーム",
-     "link": "https://news.yahoo.co.jp/pickup/6592755?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 03:16:13 GMT"
-    },
-    {
      "title": "ベルギーの販売員 王室の血筋判明",
      "link": "https://news.yahoo.co.jp/pickup/6592771?source=rss",
      "pubDate": "Sun, 23 Aug 2026 05:42:59 GMT"
     },
     {
-     "title": "りくりゅう婚約 高橋成美氏が祝福",
-     "link": "https://news.yahoo.co.jp/pickup/6592750?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 02:14:44 GMT"
+     "title": "りくりゅう 投稿写真は思い出の場",
+     "link": "https://news.yahoo.co.jp/pickup/6592776?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 06:59:40 GMT"
     }
    ]
   }
