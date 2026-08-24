@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T00:29:30.677Z",
+ "updatedAt": "2026-08-24T02:07:12.684Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,12 @@
     {
      "title": "福岡県議会 藏内勇夫議長 議員辞職する意向を表明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45934",
-     "pubDate": "Mon, 24 Aug 2026 09:15:08 +0900"
+     "pubDate": "Mon, 24 Aug 2026 10:58:57 +0900"
+    },
+    {
+     "title": "中古マンション価格 東京23区は2か月連続下落 都心は頭打ちか?",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45945",
+     "pubDate": "Mon, 24 Aug 2026 11:00:28 +0900"
     },
     {
      "title": "大分で39度予想 熊本も危険な暑さに 熱中症対策の徹底を",
@@ -25,17 +30,12 @@
     {
      "title": "東武鉄道4人死亡事故 複数のミス重なった疑い 警察 経緯解明へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45906",
-     "pubDate": "Mon, 24 Aug 2026 05:20:59 +0900"
+     "pubDate": "Mon, 24 Aug 2026 05:20:00 +0900"
     },
     {
-     "title": "ドジャース 大谷翔平 盗塁決め先制点につなげる チーム6連勝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45904",
-     "pubDate": "Mon, 24 Aug 2026 08:32:07 +0900"
-    },
-    {
-     "title": "新方式で国産初の量子コンピューター稼働開始 分子科学研究所",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45895",
-     "pubDate": "Mon, 24 Aug 2026 05:10:35 +0900"
+     "title": "女子ゴルフ 米ツアー最終ラウンド 山下美夢有が優勝 今季2勝目",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45946",
+     "pubDate": "Mon, 24 Aug 2026 11:02:22 +0900"
     },
     {
      "title": "秋篠宮ご夫妻 イグアスで移住者ねぎらう",
@@ -52,7 +52,7 @@
     {
      "title": "福岡県議会 藏内勇夫議長 議員辞職する意向を表明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45934",
-     "pubDate": "Mon, 24 Aug 2026 09:15:08 +0900"
+     "pubDate": "Mon, 24 Aug 2026 10:58:57 +0900"
     },
     {
      "title": "【運転再開】小田急線 新百合ヶ丘ー町田 上下線",
@@ -62,7 +62,7 @@
     {
      "title": "【動画】Pickup NEWS（8月24日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45893",
-     "pubDate": "Mon, 24 Aug 2026 06:36:43 +0900"
+     "pubDate": "Mon, 24 Aug 2026 09:49:03 +0900"
     },
     {
      "title": "大分で39度予想 熊本も危険な暑さに 熱中症対策の徹底を",
@@ -82,7 +82,7 @@
     {
      "title": "東武鉄道4人死亡事故 複数のミス重なった疑い 警察 経緯解明へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45906",
-     "pubDate": "Mon, 24 Aug 2026 05:20:59 +0900"
+     "pubDate": "Mon, 24 Aug 2026 05:20:00 +0900"
     },
     {
      "title": "新方式で国産初の量子コンピューター稼働開始 分子科学研究所",
@@ -221,7 +221,7 @@
     {
      "title": "ウクライナ ゼレンスキー大統領 ロシアのミサイル増産に警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45902",
-     "pubDate": "Mon, 24 Aug 2026 05:30:05 +0900"
+     "pubDate": "Mon, 24 Aug 2026 05:30:00 +0900"
     },
     {
      "title": "北京で2回目の人型ロボット運動会 人類記録上回るなど性能向上",
@@ -301,9 +301,24 @@
      "pubDate": "Sun, 23 Aug 2026 23:02:34 GMT"
     },
     {
-     "title": "台風18号が南西諸島に接近へ 警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6592837?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 23:05:50 GMT"
+     "title": "猛暑の仏 溺死者が300人超える",
+     "link": "https://news.yahoo.co.jp/pickup/6592842?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 23:56:52 GMT"
+    },
+    {
+     "title": "福岡県議会の蔵内氏 議員辞職へ",
+     "link": "https://news.yahoo.co.jp/pickup/6592847?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 00:57:10 GMT"
+    },
+    {
+     "title": "蔵内氏辞職表明 福岡知事コメント",
+     "link": "https://news.yahoo.co.jp/pickup/6592851?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 01:55:54 GMT"
+    },
+    {
+     "title": "江別暴行 当時17歳の懲役30年確定",
+     "link": "https://news.yahoo.co.jp/pickup/6592849?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 01:30:03 GMT"
     },
     {
      "title": "外国人のレンタカー事故多発 実態",
@@ -311,29 +326,14 @@
      "pubDate": "Sun, 23 Aug 2026 23:27:30 GMT"
     },
     {
-     "title": "福岡市長 11月の選挙不出馬を表明",
-     "link": "https://news.yahoo.co.jp/pickup/6592843?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 23:57:29 GMT"
+     "title": "山下美夢有 圧勝で米ツアー4勝目",
+     "link": "https://news.yahoo.co.jp/pickup/6592850?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 01:37:40 GMT"
     },
     {
-     "title": "猛暑の仏 溺死者が300人超える",
-     "link": "https://news.yahoo.co.jp/pickup/6592842?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 23:56:52 GMT"
-    },
-    {
-     "title": "米自動車レースでビーストが周回",
-     "link": "https://news.yahoo.co.jp/pickup/6592841?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 23:48:21 GMT"
-    },
-    {
-     "title": "「うるう時間」27年5月導入へ議論",
-     "link": "https://news.yahoo.co.jp/pickup/6592835?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 22:59:27 GMT"
-    },
-    {
-     "title": "上田綺世が2戦連発 中断に動じず",
-     "link": "https://news.yahoo.co.jp/pickup/6592832?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 22:44:51 GMT"
+     "title": "MLB登板の日本勢4投手「総崩れ」",
+     "link": "https://news.yahoo.co.jp/pickup/6592846?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 00:54:00 GMT"
     }
    ]
   }
