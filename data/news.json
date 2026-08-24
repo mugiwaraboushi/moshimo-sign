@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T22:12:36.245Z",
+ "updatedAt": "2026-08-24T22:49:13.458Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -25,12 +25,12 @@
     {
      "title": "米財務長官“イランと取り引きある企業などに大規模経済制裁”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46098",
-     "pubDate": "Tue, 25 Aug 2026 06:57:04 +0900"
+     "pubDate": "Tue, 25 Aug 2026 07:19:29 +0900"
     },
     {
      "title": "トランプ大統領 カナダの自動車などへの追加関税を50％に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46101",
-     "pubDate": "Tue, 25 Aug 2026 05:17:09 +0900"
+     "pubDate": "Tue, 25 Aug 2026 07:23:49 +0900"
     },
     {
      "title": "台風18号 沖縄の大東島地方が暴風域に 暴風や高波に厳重警戒",
@@ -67,7 +67,7 @@
     {
      "title": "秋篠宮ご夫妻 パラグアイで長年交流の学校を訪問",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46073",
-     "pubDate": "Tue, 25 Aug 2026 05:56:12 +0900"
+     "pubDate": "Tue, 25 Aug 2026 05:56:00 +0900"
     },
     {
      "title": "福岡県議会 藏内議長25日辞職の見通し 会派離脱の議員も",
@@ -77,7 +77,7 @@
     {
      "title": "除染土再生利用 さいたま市と仙台市の国の出先機関でも 都外初",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46083",
-     "pubDate": "Tue, 25 Aug 2026 05:08:10 +0900"
+     "pubDate": "Tue, 25 Aug 2026 05:08:00 +0900"
     },
     {
      "title": "イオンモール爆発事故 雑貨店運営会社 遺族に事実と異なる説明",
@@ -214,14 +214,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米韓外相“北朝鮮の核問題解決に向け協力”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46102",
+     "pubDate": "Tue, 25 Aug 2026 07:23:06 +0900"
+    },
+    {
      "title": "トランプ大統領 カナダの自動車などへの追加関税を50％に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46101",
-     "pubDate": "Tue, 25 Aug 2026 05:17:09 +0900"
+     "pubDate": "Tue, 25 Aug 2026 07:23:49 +0900"
     },
     {
      "title": "米財務長官“イランと取り引きある企業などに大規模経済制裁”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46098",
-     "pubDate": "Tue, 25 Aug 2026 06:57:04 +0900"
+     "pubDate": "Tue, 25 Aug 2026 07:19:29 +0900"
     },
     {
      "title": "EUがウクライナ支援1兆円承認 英は巡航ミサイル部品の機密開示",
@@ -282,11 +287,6 @@
      "title": "ABUロボコン香港で開催 地元の香港大学が優勝",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45901",
      "pubDate": "Mon, 24 Aug 2026 05:40:25 +0900"
-    },
-    {
-     "title": "ウクライナ ゼレンスキー大統領 ロシアのミサイル増産に警戒",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45902",
-     "pubDate": "Mon, 24 Aug 2026 05:30:00 +0900"
     }
    ]
   },
@@ -311,24 +311,24 @@
      "pubDate": "Mon, 24 Aug 2026 22:00:57 GMT"
     },
     {
+     "title": "同志社理事長辞任へ 辺野古事故で",
+     "link": "https://news.yahoo.co.jp/pickup/6592956?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 22:33:49 GMT"
+    },
+    {
+     "title": "住宅に身元不明の3人の遺体 岐阜",
+     "link": "https://news.yahoo.co.jp/pickup/6592954?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 22:22:33 GMT"
+    },
+    {
      "title": "車正面衝突し2人死亡 幼児重傷か",
      "link": "https://news.yahoo.co.jp/pickup/6592949?source=rss",
      "pubDate": "Mon, 24 Aug 2026 21:09:49 GMT"
     },
     {
-     "title": "18歳死亡 灯籠と柱に挟まれる",
-     "link": "https://news.yahoo.co.jp/pickup/6592947?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 14:51:24 GMT"
-    },
-    {
-     "title": "中国で白菜に発がん性物質か 調査",
-     "link": "https://news.yahoo.co.jp/pickup/6592940?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 13:39:56 GMT"
-    },
-    {
-     "title": "智弁和歌山 新チームが初戦敗戦",
-     "link": "https://news.yahoo.co.jp/pickup/6592946?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 14:45:58 GMT"
+     "title": "新庄監督 1軍ベンチ枠拡大を提案",
+     "link": "https://news.yahoo.co.jp/pickup/6592953?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 22:15:07 GMT"
     },
     {
      "title": "人気韓ドラ 芦田愛菜主演で日本版",
