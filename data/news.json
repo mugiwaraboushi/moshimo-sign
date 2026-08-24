@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T11:25:05.642Z",
+ "updatedAt": "2026-08-24T11:49:44.283Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "相模原 男子高校生死亡 直前に車に追いかけられたか捜査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46033",
-     "pubDate": "Mon, 24 Aug 2026 19:31:58 +0900"
-    },
-    {
-     "title": "近畿で39度超 25日は熊本・大分など「酷暑日」に 熱中症対策を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45898",
-     "pubDate": "Mon, 24 Aug 2026 19:03:28 +0900"
-    },
-    {
      "title": "羽田空港の沖合で船が座礁か 警察などが確認進める",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46068",
      "pubDate": "Mon, 24 Aug 2026 19:47:00 +0900"
     },
     {
-     "title": "おせち商戦 デパート各社 物価高で価格抑えた商品販売にも力",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46001",
-     "pubDate": "Mon, 24 Aug 2026 19:41:48 +0900"
+     "title": "相模原 男子高校生死亡 直前に車に追いかけられたか捜査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46033",
+     "pubDate": "Mon, 24 Aug 2026 19:31:58 +0900"
+    },
+    {
+     "title": "静岡 田久保前市長側が無罪主張へ「卒業証書は第三者が作成」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46051",
+     "pubDate": "Mon, 24 Aug 2026 19:53:20 +0900"
     },
     {
      "title": "福岡県議会 藏内勇夫議長が議員辞職願を提出",
@@ -33,14 +28,19 @@
      "pubDate": "Mon, 24 Aug 2026 18:30:58 +0900"
     },
     {
+     "title": "損保ジャパン 自動車保険料を来年1月に平均5％引き上げ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46045",
+     "pubDate": "Mon, 24 Aug 2026 19:37:06 +0900"
+    },
+    {
+     "title": "近畿で39度超 25日は熊本・大分など「酷暑日」に 熱中症対策を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45898",
+     "pubDate": "Mon, 24 Aug 2026 20:35:08 +0900"
+    },
+    {
      "title": "台風18号 あす以降 沖縄・奄美に接近 猛烈な風のおそれ 備えを",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
      "pubDate": "Mon, 24 Aug 2026 17:17:01 +0900"
-    },
-    {
-     "title": "群馬 沼田市・川場村にレベル４大雨土砂災害危険警報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46027",
-     "pubDate": "Mon, 24 Aug 2026 17:40:00 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "台風18号 25日以降沖縄と奄美に接近 猛烈な風のおそれ 備えを",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46056",
+     "pubDate": "Mon, 24 Aug 2026 20:43:58 +0900"
+    },
     {
      "title": "静岡 田久保前市長側が無罪主張へ「卒業証書は第三者が作成」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46051",
@@ -118,11 +123,6 @@
      "title": "【動画】Pickup NEWS（8月24日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45893",
      "pubDate": "Mon, 24 Aug 2026 19:55:17 +0900"
-    },
-    {
-     "title": "台風18号 あす以降 沖縄・奄美に接近 猛烈な風のおそれ 備えを",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
-     "pubDate": "Mon, 24 Aug 2026 17:17:01 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "タイ南部で爆発や放火など50件以上相次ぐ 連続テロか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46069",
+     "pubDate": "Mon, 24 Aug 2026 20:38:33 +0900"
+    },
+    {
      "title": "台湾の東部・南部で大雨 2人行方不明 130人超けが",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46059",
      "pubDate": "Mon, 24 Aug 2026 20:07:41 +0900"
@@ -282,11 +287,6 @@
      "title": "アメリカ建国250年記念し自動車レース トランプ氏が開催推進",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45833",
      "pubDate": "Sun, 23 Aug 2026 14:03:40 +0900"
-    },
-    {
-     "title": "米は制裁で圧力強化へ イラン“米に協力した国は敵と見なす”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45821",
-     "pubDate": "Sun, 23 Aug 2026 11:44:00 +0900"
     }
    ]
   },
@@ -296,9 +296,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風18号が沖縄へ 影響長引く恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6592895?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 08:42:48 GMT"
+     "title": "25日 熊本など40℃酷暑日予想",
+     "link": "https://news.yahoo.co.jp/pickup/6592922?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 11:39:57 GMT"
     },
     {
      "title": "ダークパターン 規制強化の方針",
@@ -326,9 +326,9 @@
      "pubDate": "Mon, 24 Aug 2026 10:48:59 GMT"
     },
     {
-     "title": "SCANDALが活動終了 来年8月で",
-     "link": "https://news.yahoo.co.jp/pickup/6592912?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 10:24:39 GMT"
+     "title": "SCANDAL活動終了 23年にギネス",
+     "link": "https://news.yahoo.co.jp/pickup/6592920?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 11:40:51 GMT"
     },
     {
      "title": "優木まおみ離婚 昨年から母子留学",
