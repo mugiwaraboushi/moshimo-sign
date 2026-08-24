@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T23:40:58.879Z",
+ "updatedAt": "2026-08-24T00:29:30.677Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "福岡県議会 藏内勇夫議長 議員辞職する意向を表明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45934",
+     "pubDate": "Mon, 24 Aug 2026 09:15:08 +0900"
+    },
     {
      "title": "大分で39度予想 熊本も危険な暑さに 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45898",
@@ -36,11 +41,6 @@
      "title": "秋篠宮ご夫妻 イグアスで移住者ねぎらう",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45916",
      "pubDate": "Mon, 24 Aug 2026 05:38:50 +0900"
-    },
-    {
-     "title": "ブルージェイズ 岡本和真 9試合連続ヒット チームは敗戦",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45932",
-     "pubDate": "Mon, 24 Aug 2026 08:26:55 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "福岡県議会 藏内勇夫議長 議員辞職する意向を表明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45934",
+     "pubDate": "Mon, 24 Aug 2026 09:15:08 +0900"
+    },
     {
      "title": "【運転再開】小田急線 新百合ヶ丘ー町田 上下線",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45929",
@@ -118,11 +123,6 @@
      "title": "JR山手線 全線で運転再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45829",
      "pubDate": "Sun, 23 Aug 2026 12:50:58 +0900"
-    },
-    {
-     "title": "東武鉄道子会社を業務上過失致死容疑で捜索 4人死亡事故 警察",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45737",
-     "pubDate": "Sun, 23 Aug 2026 13:29:48 +0900"
     }
    ]
   },
@@ -296,14 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "露のウ侵攻から4年半 広がる戦禍",
+     "link": "https://news.yahoo.co.jp/pickup/6592836?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 23:02:34 GMT"
+    },
+    {
      "title": "台風18号が南西諸島に接近へ 警戒",
      "link": "https://news.yahoo.co.jp/pickup/6592837?source=rss",
      "pubDate": "Sun, 23 Aug 2026 23:05:50 GMT"
-    },
-    {
-     "title": "処理水放出3年 タンク貯蔵量7%減",
-     "link": "https://news.yahoo.co.jp/pickup/6592831?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 22:41:33 GMT"
     },
     {
      "title": "外国人のレンタカー事故多発 実態",
@@ -311,9 +311,19 @@
      "pubDate": "Sun, 23 Aug 2026 23:27:30 GMT"
     },
     {
-     "title": "車と衝突 バイクの18歳高校生死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6592824?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 21:45:25 GMT"
+     "title": "福岡市長 11月の選挙不出馬を表明",
+     "link": "https://news.yahoo.co.jp/pickup/6592843?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 23:57:29 GMT"
+    },
+    {
+     "title": "猛暑の仏 溺死者が300人超える",
+     "link": "https://news.yahoo.co.jp/pickup/6592842?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 23:56:52 GMT"
+    },
+    {
+     "title": "米自動車レースでビーストが周回",
+     "link": "https://news.yahoo.co.jp/pickup/6592841?source=rss",
+     "pubDate": "Sun, 23 Aug 2026 23:48:21 GMT"
     },
     {
      "title": "「うるう時間」27年5月導入へ議論",
@@ -321,19 +331,9 @@
      "pubDate": "Sun, 23 Aug 2026 22:59:27 GMT"
     },
     {
-     "title": "協議離婚サポート 家事ADRに注目",
-     "link": "https://news.yahoo.co.jp/pickup/6592830?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 22:34:49 GMT"
-    },
-    {
      "title": "上田綺世が2戦連発 中断に動じず",
      "link": "https://news.yahoo.co.jp/pickup/6592832?source=rss",
      "pubDate": "Sun, 23 Aug 2026 22:44:51 GMT"
-    },
-    {
-     "title": "りくりゅう婚約 記者知る信頼関係",
-     "link": "https://news.yahoo.co.jp/pickup/6592827?source=rss",
-     "pubDate": "Sun, 23 Aug 2026 22:25:19 GMT"
     }
    ]
   }
