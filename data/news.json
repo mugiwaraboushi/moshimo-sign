@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T09:33:31.102Z",
+ "updatedAt": "2026-08-24T10:25:22.000Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,14 +18,9 @@
      "pubDate": "Mon, 24 Aug 2026 18:16:58 +0900"
     },
     {
-     "title": "群馬 沼田市・川場村にレベル４大雨土砂災害危険警報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46027",
-     "pubDate": "Mon, 24 Aug 2026 17:40:00 +0900"
-    },
-    {
-     "title": "人工衛星活用し旬のキャベツ届ける取り組み開始 JAXAなど",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46018",
-     "pubDate": "Mon, 24 Aug 2026 17:58:00 +0900"
+     "title": "政府 化学兵器テロ備え行動計画 専門家会議創設など盛り込む",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46036",
+     "pubDate": "Mon, 24 Aug 2026 18:48:47 +0900"
     },
     {
      "title": "福岡県議会 藏内勇夫議長が議員辞職願を提出",
@@ -33,9 +28,14 @@
      "pubDate": "Mon, 24 Aug 2026 18:30:58 +0900"
     },
     {
-     "title": "近畿で39度超 熊本も猛烈な暑さに 熱中症対策の徹底を",
+     "title": "群馬 沼田市・川場村にレベル４大雨土砂災害危険警報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46027",
+     "pubDate": "Mon, 24 Aug 2026 17:40:00 +0900"
+    },
+    {
+     "title": "近畿で39度超 25日は熊本・大分など「酷暑日」に 熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45898",
-     "pubDate": "Mon, 24 Aug 2026 16:49:06 +0900"
+     "pubDate": "Mon, 24 Aug 2026 19:03:28 +0900"
     },
     {
      "title": "相模原 男子高校生死亡 暴行加えられたか 事件とみて捜査",
@@ -105,11 +105,6 @@
      "pubDate": "Mon, 24 Aug 2026 13:47:11 +0900"
     },
     {
-     "title": "近畿で39度超 熊本も猛烈な暑さに 熱中症対策の徹底を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45898",
-     "pubDate": "Mon, 24 Aug 2026 16:49:06 +0900"
-    },
-    {
      "title": "台風18号 あす以降 沖縄・奄美に接近 猛烈な風のおそれ 備えを",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
      "pubDate": "Mon, 24 Aug 2026 17:17:01 +0900"
@@ -123,6 +118,11 @@
      "title": "東武鉄道4人死亡事故 複数のミス重なった疑い 警察 経緯解明へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45906",
      "pubDate": "Mon, 24 Aug 2026 05:20:00 +0900"
+    },
+    {
+     "title": "新方式で国産初の量子コンピューター稼働開始 分子科学研究所",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45895",
+     "pubDate": "Mon, 24 Aug 2026 05:10:35 +0900"
     }
    ]
   },
@@ -301,14 +301,19 @@
      "pubDate": "Mon, 24 Aug 2026 08:42:48 GMT"
     },
     {
-     "title": "居眠り運転など検知 搭載義務化へ",
-     "link": "https://news.yahoo.co.jp/pickup/6592884?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 07:04:25 GMT"
-    },
-    {
      "title": "木原氏 ICC所長と緊密に意思疎通",
      "link": "https://news.yahoo.co.jp/pickup/6592880?source=rss",
      "pubDate": "Mon, 24 Aug 2026 06:21:28 GMT"
+    },
+    {
+     "title": "プルデンシャル 自粛中に不祥事か",
+     "link": "https://news.yahoo.co.jp/pickup/6592910?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 10:18:05 GMT"
+    },
+    {
+     "title": "4人死亡 2012年にも作業員と接触",
+     "link": "https://news.yahoo.co.jp/pickup/6592898?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 08:45:12 GMT"
     },
     {
      "title": "クマと車衝突か 運転手の男性死亡",
@@ -316,9 +321,9 @@
      "pubDate": "Mon, 24 Aug 2026 09:20:01 GMT"
     },
     {
-     "title": "モコモコ 永谷園が一時休売を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6592889?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 08:05:43 GMT"
+     "title": "ママせかタイアップ中止 厚労省",
+     "link": "https://news.yahoo.co.jp/pickup/6592907?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 09:26:04 GMT"
     },
     {
      "title": "4億円寄付 ミャクミャク像造って",
@@ -329,11 +334,6 @@
      "title": "優木まおみが離婚 2013年に結婚",
      "link": "https://news.yahoo.co.jp/pickup/6592894?source=rss",
      "pubDate": "Mon, 24 Aug 2026 08:18:51 GMT"
-    },
-    {
-     "title": "ヤニねこアニメ 台湾など配信停止",
-     "link": "https://news.yahoo.co.jp/pickup/6592888?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 07:33:14 GMT"
     }
    ]
   }
