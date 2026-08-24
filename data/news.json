@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T20:54:12.469Z",
+ "updatedAt": "2026-08-24T21:16:24.402Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "秋篠宮ご夫妻 パラグアイで長年交流の学校を訪問",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46073",
+     "pubDate": "Tue, 25 Aug 2026 05:56:12 +0900"
+    },
     {
      "title": "福岡県議会 藏内議長25日辞職の見通し 会派離脱の議員も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46092",
@@ -118,11 +123,6 @@
      "title": "熊本地震 氷川町 断水解消で豆腐店が営業再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45954",
      "pubDate": "Mon, 24 Aug 2026 15:10:14 +0900"
-    },
-    {
-     "title": "売春めぐり相手方も規制を 法務省検討会が報告書案",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45962",
-     "pubDate": "Mon, 24 Aug 2026 14:24:24 +0900"
     }
    ]
   },
@@ -306,6 +306,11 @@
      "pubDate": "Mon, 24 Aug 2026 13:33:23 GMT"
     },
     {
+     "title": "車正面衝突し2人死亡 幼児重傷か",
+     "link": "https://news.yahoo.co.jp/pickup/6592949?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 21:09:49 GMT"
+    },
+    {
      "title": "18歳死亡 灯籠と柱に挟まれる",
      "link": "https://news.yahoo.co.jp/pickup/6592947?source=rss",
      "pubDate": "Mon, 24 Aug 2026 14:51:24 GMT"
@@ -329,11 +334,6 @@
      "title": "俳優・満島ひかり 第1子出産発表",
      "link": "https://news.yahoo.co.jp/pickup/6592944?source=rss",
      "pubDate": "Mon, 24 Aug 2026 13:50:07 GMT"
-    },
-    {
-     "title": "相方に余命宣告 漫才コンビ再出発",
-     "link": "https://news.yahoo.co.jp/pickup/6592924?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 11:50:44 GMT"
     }
    ]
   }
