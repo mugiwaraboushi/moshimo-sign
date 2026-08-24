@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T12:20:06.841Z",
+ "updatedAt": "2026-08-24T13:27:26.477Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,9 +18,9 @@
      "pubDate": "Mon, 24 Aug 2026 19:53:20 +0900"
     },
     {
-     "title": "福岡県議会 藏内勇夫議長が議員辞職願を提出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45934",
-     "pubDate": "Mon, 24 Aug 2026 18:30:58 +0900"
+     "title": "多摩川の河口付近で「船が座礁」通報 複数人がけが",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46068",
+     "pubDate": "Mon, 24 Aug 2026 19:47:00 +0900"
     },
     {
      "title": "ウクライナ 侵攻から4年半の独立記念日 大統領“戦い続ける”",
@@ -30,7 +30,7 @@
     {
      "title": "EUがウクライナ支援1兆円承認 英は巡航ミサイル部品の機密開示",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46076",
-     "pubDate": "Mon, 24 Aug 2026 21:06:25 +0900"
+     "pubDate": "Mon, 24 Aug 2026 21:06:00 +0900"
     },
     {
      "title": "近畿で39度超 25日は熊本・大分など「酷暑日」に 熱中症対策を",
@@ -52,7 +52,7 @@
     {
      "title": "鹿児島 飲食店経営の49歳女性死亡 殺人事件として捜査",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46079",
-     "pubDate": "Mon, 24 Aug 2026 21:16:55 +0900"
+     "pubDate": "Mon, 24 Aug 2026 21:16:00 +0900"
     },
     {
      "title": "台風18号 25日以降沖縄と奄美に接近 猛烈な風のおそれ 備えを",
@@ -216,7 +216,7 @@
     {
      "title": "EUがウクライナ支援1兆円承認 英は巡航ミサイル部品の機密開示",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46076",
-     "pubDate": "Mon, 24 Aug 2026 21:06:25 +0900"
+     "pubDate": "Mon, 24 Aug 2026 21:06:00 +0900"
     },
     {
      "title": "ウクライナ 侵攻から4年半の独立記念日 大統領“戦い続ける”",
@@ -301,14 +301,9 @@
      "pubDate": "Mon, 24 Aug 2026 11:39:57 GMT"
     },
     {
-     "title": "ダークパターン 規制強化の方針",
-     "link": "https://news.yahoo.co.jp/pickup/6592916?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 10:59:18 GMT"
-    },
-    {
-     "title": "プルデンシャル 自粛中に不祥事か",
-     "link": "https://news.yahoo.co.jp/pickup/6592910?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 10:18:05 GMT"
+     "title": "中国外相の韓国訪問 背景に危機感",
+     "link": "https://news.yahoo.co.jp/pickup/6592905?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 11:31:11 GMT"
     },
     {
      "title": "高2死亡 車に追われるバイク映る",
@@ -316,24 +311,29 @@
      "pubDate": "Mon, 24 Aug 2026 11:17:29 GMT"
     },
     {
-     "title": "ファミマがレジ端末の刷新検討",
-     "link": "https://news.yahoo.co.jp/pickup/6592899?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 09:05:00 GMT"
+     "title": "損保J 来年1月に車保険料5%値上げ",
+     "link": "https://news.yahoo.co.jp/pickup/6592935?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 13:22:11 GMT"
     },
     {
-     "title": "急死のラグビー九電選手 母国へ",
-     "link": "https://news.yahoo.co.jp/pickup/6592914?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 10:48:59 GMT"
+     "title": "中国 白菜類に発がん性物質使用か",
+     "link": "https://news.yahoo.co.jp/pickup/6592933?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 13:05:13 GMT"
     },
     {
-     "title": "SCANDAL活動終了 23年にギネス",
-     "link": "https://news.yahoo.co.jp/pickup/6592920?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 11:40:51 GMT"
+     "title": "体長1.2mのオオトカゲ脱走 横浜",
+     "link": "https://news.yahoo.co.jp/pickup/6592934?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 13:01:54 GMT"
     },
     {
-     "title": "VIVANT「ガバガバ考察」の動きも",
-     "link": "https://news.yahoo.co.jp/pickup/6592904?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 11:55:58 GMT"
+     "title": "代表FW小川航基 町田に完全移籍",
+     "link": "https://news.yahoo.co.jp/pickup/6592931?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 12:49:40 GMT"
+    },
+    {
+     "title": "相方に余命宣告 漫才コンビ再出発",
+     "link": "https://news.yahoo.co.jp/pickup/6592924?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 11:50:44 GMT"
     }
    ]
   }
