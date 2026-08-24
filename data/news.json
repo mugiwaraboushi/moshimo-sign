@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T07:46:54.007Z",
+ "updatedAt": "2026-08-24T08:32:57.030Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "福岡県議会 藏内勇夫議長が議員辞職願を提出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45934",
+     "pubDate": "Mon, 24 Aug 2026 16:50:20 +0900"
+    },
+    {
      "title": "近畿で39度超 熊本も猛烈な暑さに 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45898",
-     "pubDate": "Mon, 24 Aug 2026 15:08:56 +0900"
+     "pubDate": "Mon, 24 Aug 2026 16:49:06 +0900"
+    },
+    {
+     "title": "台風18号 あす以降 沖縄・奄美に接近 猛烈な風のおそれ 備えを",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
+     "pubDate": "Mon, 24 Aug 2026 17:17:01 +0900"
     },
     {
      "title": "SNSチャット勧誘にもクーリング・オフ拡大案 消費者庁検討会",
@@ -23,24 +33,14 @@
      "pubDate": "Mon, 24 Aug 2026 15:04:57 +0900"
     },
     {
-     "title": "木原官房長官 内閣改造・自民党役員人事「高市首相が決める」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45982",
-     "pubDate": "Mon, 24 Aug 2026 15:27:25 +0900"
+     "title": "サッカー日本代表 小川航基 FC町田ゼルビアに移籍で合意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46012",
+     "pubDate": "Mon, 24 Aug 2026 17:15:19 +0900"
     },
     {
      "title": "売春めぐり相手方も規制を 法務省検討会が報告書案",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45962",
      "pubDate": "Mon, 24 Aug 2026 14:24:24 +0900"
-    },
-    {
-     "title": "茂木外相“ICC所長赤根氏は日本の国際司法 役割強化の表れ”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46000",
-     "pubDate": "Mon, 24 Aug 2026 16:17:02 +0900"
-    },
-    {
-     "title": "福岡県議会 藏内勇夫議長 議員辞職する意向を表明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45934",
-     "pubDate": "Mon, 24 Aug 2026 14:17:50 +0900"
     }
    ]
   },
@@ -75,9 +75,9 @@
      "pubDate": "Mon, 24 Aug 2026 15:04:57 +0900"
     },
     {
-     "title": "福岡県議会 藏内勇夫議長 議員辞職する意向を表明",
+     "title": "福岡県議会 藏内勇夫議長が議員辞職願を提出",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45934",
-     "pubDate": "Mon, 24 Aug 2026 14:17:50 +0900"
+     "pubDate": "Mon, 24 Aug 2026 16:50:20 +0900"
     },
     {
      "title": "【運転再開】小田急線 新百合ヶ丘ー町田 上下線",
@@ -92,12 +92,12 @@
     {
      "title": "近畿で39度超 熊本も猛烈な暑さに 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45898",
-     "pubDate": "Mon, 24 Aug 2026 15:08:56 +0900"
+     "pubDate": "Mon, 24 Aug 2026 16:49:06 +0900"
     },
     {
      "title": "台風18号 あす以降 沖縄・奄美に接近 猛烈な風のおそれ 備えを",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
-     "pubDate": "Mon, 24 Aug 2026 13:07:41 +0900"
+     "pubDate": "Mon, 24 Aug 2026 17:17:01 +0900"
     },
     {
      "title": "秋篠宮ご夫妻 イグアスで移住者ねぎらう",
@@ -296,19 +296,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "居眠り運転など検知 搭載義務化へ",
+     "link": "https://news.yahoo.co.jp/pickup/6592884?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 07:04:25 GMT"
+    },
+    {
      "title": "イラン 攻撃重視の方針が鮮明に",
      "link": "https://news.yahoo.co.jp/pickup/6592875?source=rss",
      "pubDate": "Mon, 24 Aug 2026 04:52:41 GMT"
     },
     {
-     "title": "豪雨 千葉市が避難レベル誤り配信",
-     "link": "https://news.yahoo.co.jp/pickup/6592878?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 05:32:24 GMT"
-    },
-    {
-     "title": "居眠り運転など検知 搭載義務化へ",
-     "link": "https://news.yahoo.co.jp/pickup/6592884?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 07:04:25 GMT"
+     "title": "木原氏 ICC所長と緊密に意思疎通",
+     "link": "https://news.yahoo.co.jp/pickup/6592880?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 06:21:28 GMT"
     },
     {
      "title": "車横転し男性死亡 車体に動物の毛",
@@ -316,9 +316,9 @@
      "pubDate": "Mon, 24 Aug 2026 06:37:24 GMT"
     },
     {
-     "title": "厚労省 映画とタイアップ巡り謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6592879?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 05:42:19 GMT"
+     "title": "モコモコ 永谷園が一時休売を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6592889?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 08:05:43 GMT"
     },
     {
      "title": "バレー黒後愛が海外挑戦 会見で涙",
@@ -326,14 +326,14 @@
      "pubDate": "Mon, 24 Aug 2026 07:23:56 GMT"
     },
     {
+     "title": "優木まおみが離婚 2013年に結婚",
+     "link": "https://news.yahoo.co.jp/pickup/6592894?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 08:18:51 GMT"
+    },
+    {
      "title": "ヤニねこアニメ 台湾など配信停止",
      "link": "https://news.yahoo.co.jp/pickup/6592888?source=rss",
      "pubDate": "Mon, 24 Aug 2026 07:33:14 GMT"
-    },
-    {
-     "title": "宇梶剛士 若者のコスパ優先に思い",
-     "link": "https://news.yahoo.co.jp/pickup/6592882?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 06:50:42 GMT"
     }
    ]
   }
