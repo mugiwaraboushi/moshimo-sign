@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T05:58:54.741Z",
+ "updatedAt": "2026-08-24T06:52:03.693Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "近畿で39度超 熊本も猛烈な暑さに 熱中症対策の徹底を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45898",
+     "pubDate": "Mon, 24 Aug 2026 15:08:56 +0900"
+    },
+    {
      "title": "売春めぐり相手方も規制を 法務省検討会が報告書案",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45962",
      "pubDate": "Mon, 24 Aug 2026 14:24:24 +0900"
     },
     {
-     "title": "スズキ 軽乗用車のEV公開 参入相次ぎ普及なるか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45955",
-     "pubDate": "Mon, 24 Aug 2026 14:45:01 +0900"
+     "title": "木原官房長官 北朝鮮対応でアメリカ政府などと緊密連携",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45974",
+     "pubDate": "Mon, 24 Aug 2026 15:18:32 +0900"
     },
     {
-     "title": "大分で39度予想 熊本も危険な暑さに 熱中症対策の徹底を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45898",
-     "pubDate": "Mon, 24 Aug 2026 12:21:09 +0900"
+     "title": "北朝鮮国営メディア 高市首相の靖国神社へのよう拝など非難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45996",
+     "pubDate": "Mon, 24 Aug 2026 15:10:31 +0900"
     },
     {
-     "title": "熊本地震 氷川町 断水解消で豆腐店が営業再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45954",
-     "pubDate": "Mon, 24 Aug 2026 14:43:36 +0900"
+     "title": "相模原 男子高校生死亡 暴行加えられたか 事件とみて捜査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45952",
+     "pubDate": "Mon, 24 Aug 2026 15:04:57 +0900"
     },
     {
-     "title": "イラン革命防衛隊報道官「米が軍事面での敗北認めたに等しい」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45942",
-     "pubDate": "Mon, 24 Aug 2026 14:30:51 +0900"
+     "title": "小野田大臣“サイバー攻撃事案など踏まえ必要な予算確保を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45992",
+     "pubDate": "Mon, 24 Aug 2026 15:24:10 +0900"
     },
     {
      "title": "福岡県議会 藏内勇夫議長 議員辞職する意向を表明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45934",
      "pubDate": "Mon, 24 Aug 2026 14:17:50 +0900"
-    },
-    {
-     "title": "相模原 高校生死亡 暴行加えられたようなあと 事件とみて捜査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45952",
-     "pubDate": "Mon, 24 Aug 2026 13:33:44 +0900"
     }
    ]
   },
@@ -52,7 +52,7 @@
     {
      "title": "熊本地震 氷川町 断水解消で豆腐店が営業再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45954",
-     "pubDate": "Mon, 24 Aug 2026 14:43:36 +0900"
+     "pubDate": "Mon, 24 Aug 2026 15:10:14 +0900"
     },
     {
      "title": "売春めぐり相手方も規制を 法務省検討会が報告書案",
@@ -65,9 +65,9 @@
      "pubDate": "Mon, 24 Aug 2026 11:31:36 +0900"
     },
     {
-     "title": "相模原 高校生死亡 暴行加えられたようなあと 事件とみて捜査",
+     "title": "相模原 男子高校生死亡 暴行加えられたか 事件とみて捜査",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45952",
-     "pubDate": "Mon, 24 Aug 2026 13:33:44 +0900"
+     "pubDate": "Mon, 24 Aug 2026 15:04:57 +0900"
     },
     {
      "title": "福岡県議会 藏内勇夫議長 議員辞職する意向を表明",
@@ -85,9 +85,9 @@
      "pubDate": "Mon, 24 Aug 2026 13:47:11 +0900"
     },
     {
-     "title": "大分で39度予想 熊本も危険な暑さに 熱中症対策の徹底を",
+     "title": "近畿で39度超 熊本も猛烈な暑さに 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45898",
-     "pubDate": "Mon, 24 Aug 2026 12:21:09 +0900"
+     "pubDate": "Mon, 24 Aug 2026 15:08:56 +0900"
     },
     {
      "title": "台風18号 あす以降 沖縄・奄美に接近 猛烈な風のおそれ 備えを",
@@ -214,6 +214,26 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月24日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44552",
+     "pubDate": "Mon, 24 Aug 2026 15:23:54 +0900"
+    },
+    {
+     "title": "木原官房長官 北朝鮮対応でアメリカ政府などと緊密連携",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45974",
+     "pubDate": "Mon, 24 Aug 2026 15:18:32 +0900"
+    },
+    {
+     "title": "北朝鮮国営メディア 高市首相の靖国神社へのよう拝など非難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45996",
+     "pubDate": "Mon, 24 Aug 2026 15:10:31 +0900"
+    },
+    {
+     "title": "木原官房長官 ICC赤根所長と緊密に意思疎通 必要な支援行う",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45976",
+     "pubDate": "Mon, 24 Aug 2026 15:07:00 +0900"
+    },
+    {
      "title": "イラン革命防衛隊報道官「米が軍事面での敗北認めたに等しい」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45942",
      "pubDate": "Mon, 24 Aug 2026 14:30:51 +0900"
@@ -267,26 +287,6 @@
      "title": "ICC赤根所長「存続確保に力を」と日本への期待示す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45804",
      "pubDate": "Sun, 23 Aug 2026 08:17:00 +0900"
-    },
-    {
-     "title": "ウクライナの商業施設に無人機攻撃 16人死亡 100人以上けが",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45697",
-     "pubDate": "Sat, 22 Aug 2026 19:06:31 +0900"
-    },
-    {
-     "title": "トランプ政権 カナダ産乳製品やワインなどに50％追加関税発動",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45661",
-     "pubDate": "Sat, 22 Aug 2026 15:45:19 +0900"
-    },
-    {
-     "title": "TikTok 米司法省に4億ドル支払いで和解",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45652",
-     "pubDate": "Sat, 22 Aug 2026 15:00:00 +0900"
-    },
-    {
-     "title": "トランプ大統領 経済制裁強化しイラン側の対応見極める考え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45643",
-     "pubDate": "Sat, 22 Aug 2026 13:31:00 +0900"
     }
    ]
   },
@@ -296,9 +296,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "猛暑日が続出 西日本で危険な暑さ",
-     "link": "https://news.yahoo.co.jp/pickup/6592859?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 02:58:02 GMT"
+     "title": "イラン 攻撃重視の方針が鮮明に",
+     "link": "https://news.yahoo.co.jp/pickup/6592875?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 04:52:41 GMT"
     },
     {
      "title": "豪雨 千葉市が避難レベル誤り配信",
@@ -316,14 +316,14 @@
      "pubDate": "Mon, 24 Aug 2026 05:04:42 GMT"
     },
     {
+     "title": "車横転し男性死亡 車体に動物の毛",
+     "link": "https://news.yahoo.co.jp/pickup/6592881?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 06:37:24 GMT"
+    },
+    {
      "title": "厚労省 映画とタイアップ巡り謝罪",
      "link": "https://news.yahoo.co.jp/pickup/6592879?source=rss",
      "pubDate": "Mon, 24 Aug 2026 05:42:19 GMT"
-    },
-    {
-     "title": "総合居酒屋苦戦 老舗チェーンの今",
-     "link": "https://news.yahoo.co.jp/pickup/6592871?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 04:02:56 GMT"
     },
     {
      "title": "100年以上続く奇祭が休止へ 宮城",
