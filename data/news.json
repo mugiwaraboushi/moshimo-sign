@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T21:16:24.402Z",
+ "updatedAt": "2026-08-24T21:49:51.728Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,24 +13,24 @@
      "pubDate": "Tue, 25 Aug 2026 01:01:44 +0900"
     },
     {
-     "title": "トランプ大統領 カナダの自動車などへの追加関税を50％に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46101",
-     "pubDate": "Tue, 25 Aug 2026 05:17:09 +0900"
-    },
-    {
      "title": "米財務長官“イランと取り引きある企業などに大規模経済制裁”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46098",
      "pubDate": "Tue, 25 Aug 2026 05:00:08 +0900"
     },
     {
-     "title": "近畿で39度超 25日は熊本・大分など「酷暑日」に 熱中症対策を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45898",
-     "pubDate": "Mon, 24 Aug 2026 22:52:18 +0900"
-    },
-    {
      "title": "台風18号 25日以降沖縄・奄美に接近 猛烈な風のおそれ 備えを",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
      "pubDate": "Tue, 25 Aug 2026 00:12:54 +0900"
+    },
+    {
+     "title": "熊本 大分など「酷暑日」予想 熱中症対策の徹底を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46075",
+     "pubDate": "Tue, 25 Aug 2026 06:23:04 +0900"
+    },
+    {
+     "title": "トランプ大統領 カナダの自動車などへの追加関税を50％に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46101",
+     "pubDate": "Tue, 25 Aug 2026 05:17:09 +0900"
     },
     {
      "title": "除染土再生利用 さいたま市と仙台市の国の出先機関でも 都外初",
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "岐阜 大野町 住宅で成人とみられる3人の遺体見つかる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46099",
+     "pubDate": "Tue, 25 Aug 2026 06:47:29 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（8月25日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46070",
+     "pubDate": "Tue, 25 Aug 2026 06:36:18 +0900"
+    },
     {
      "title": "秋篠宮ご夫妻 パラグアイで長年交流の学校を訪問",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46073",
@@ -113,16 +123,6 @@
      "title": "熊本地震 災害関連死の疑い含め38人死亡 避難所に2684人避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45947",
      "pubDate": "Mon, 24 Aug 2026 17:39:02 +0900"
-    },
-    {
-     "title": "SNSチャット勧誘にもクーリング・オフ拡大案 消費者庁検討会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46006",
-     "pubDate": "Mon, 24 Aug 2026 16:36:09 +0900"
-    },
-    {
-     "title": "熊本地震 氷川町 断水解消で豆腐店が営業再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45954",
-     "pubDate": "Mon, 24 Aug 2026 15:10:14 +0900"
     }
    ]
   },
@@ -296,9 +296,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "カナダ車関税2倍へ 米大統領表明",
-     "link": "https://news.yahoo.co.jp/pickup/6592948?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 15:13:29 GMT"
+     "title": "台風18号 26日にかけ沖縄など接近",
+     "link": "https://news.yahoo.co.jp/pickup/6592951?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 21:41:27 GMT"
     },
     {
      "title": "損保ジャパン 車保険料5%値上げへ",
@@ -331,9 +331,9 @@
      "pubDate": "Mon, 24 Aug 2026 14:45:58 GMT"
     },
     {
-     "title": "俳優・満島ひかり 第1子出産発表",
-     "link": "https://news.yahoo.co.jp/pickup/6592944?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 13:50:07 GMT"
+     "title": "人気韓ドラ 芦田愛菜主演で日本版",
+     "link": "https://news.yahoo.co.jp/pickup/6592950?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 21:25:37 GMT"
     }
    ]
   }
