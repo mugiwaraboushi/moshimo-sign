@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T20:15:14.000Z",
+ "updatedAt": "2026-08-24T20:54:12.469Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,24 +13,14 @@
      "pubDate": "Tue, 25 Aug 2026 01:01:44 +0900"
     },
     {
-     "title": "除染土再生利用 さいたま市と仙台市の国の出先機関でも 都外初",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46083",
-     "pubDate": "Tue, 25 Aug 2026 05:08:10 +0900"
+     "title": "トランプ大統領 カナダの自動車などへの追加関税を50％に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46101",
+     "pubDate": "Tue, 25 Aug 2026 05:17:09 +0900"
     },
     {
      "title": "米財務長官“イランと取り引きある企業などに大規模経済制裁”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46098",
      "pubDate": "Tue, 25 Aug 2026 05:00:08 +0900"
-    },
-    {
-     "title": "相模原 男子高校生死亡 直前に車に追いかけられたか捜査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46033",
-     "pubDate": "Mon, 24 Aug 2026 19:31:58 +0900"
-    },
-    {
-     "title": "田久保前伊東市長側が無罪主張へ「卒業証書は第三者が作成」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46051",
-     "pubDate": "Mon, 24 Aug 2026 19:53:00 +0900"
     },
     {
      "title": "近畿で39度超 25日は熊本・大分など「酷暑日」に 熱中症対策を",
@@ -41,6 +31,16 @@
      "title": "台風18号 25日以降沖縄・奄美に接近 猛烈な風のおそれ 備えを",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
      "pubDate": "Tue, 25 Aug 2026 00:12:54 +0900"
+    },
+    {
+     "title": "除染土再生利用 さいたま市と仙台市の国の出先機関でも 都外初",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46083",
+     "pubDate": "Tue, 25 Aug 2026 05:08:10 +0900"
+    },
+    {
+     "title": "福岡県議会 藏内議長25日辞職の見通し 会派離脱の議員も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46092",
+     "pubDate": "Tue, 25 Aug 2026 05:26:44 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "福岡県議会 藏内議長25日辞職の見通し 会派離脱の議員も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46092",
+     "pubDate": "Tue, 25 Aug 2026 05:26:44 +0900"
+    },
     {
      "title": "除染土再生利用 さいたま市と仙台市の国の出先機関でも 都外初",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46083",
@@ -118,11 +123,6 @@
      "title": "売春めぐり相手方も規制を 法務省検討会が報告書案",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45962",
      "pubDate": "Mon, 24 Aug 2026 14:24:24 +0900"
-    },
-    {
-     "title": "秋篠宮ご夫妻 パラグアイ訪問“移住者や日系人と交流 有意義”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45933",
-     "pubDate": "Mon, 24 Aug 2026 11:31:36 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "トランプ大統領 カナダの自動車などへの追加関税を50％に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46101",
+     "pubDate": "Tue, 25 Aug 2026 05:17:09 +0900"
+    },
+    {
      "title": "米財務長官“イランと取り引きある企業などに大規模経済制裁”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46098",
      "pubDate": "Tue, 25 Aug 2026 05:00:08 +0900"
@@ -282,11 +287,6 @@
      "title": "ウクライナ ゼレンスキー大統領 ロシアのミサイル増産に警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45902",
      "pubDate": "Mon, 24 Aug 2026 05:30:00 +0900"
-    },
-    {
-     "title": "北京で2回目の人型ロボット運動会 人類記録上回るなど性能向上",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45846",
-     "pubDate": "Sun, 23 Aug 2026 20:24:00 +0900"
     }
    ]
   },
