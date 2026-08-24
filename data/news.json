@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T11:49:44.283Z",
+ "updatedAt": "2026-08-24T12:20:06.841Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,11 +7,6 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
-    {
-     "title": "羽田空港の沖合で船が座礁か 警察などが確認進める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46068",
-     "pubDate": "Mon, 24 Aug 2026 19:47:00 +0900"
-    },
     {
      "title": "相模原 男子高校生死亡 直前に車に追いかけられたか捜査",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46033",
@@ -28,14 +23,19 @@
      "pubDate": "Mon, 24 Aug 2026 18:30:58 +0900"
     },
     {
-     "title": "損保ジャパン 自動車保険料を来年1月に平均5％引き上げ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46045",
-     "pubDate": "Mon, 24 Aug 2026 19:37:06 +0900"
+     "title": "ウクライナ 侵攻から4年半の独立記念日 大統領“戦い続ける”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46042",
+     "pubDate": "Mon, 24 Aug 2026 20:57:13 +0900"
+    },
+    {
+     "title": "EUがウクライナ支援1兆円承認 英は巡航ミサイル部品の機密開示",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46076",
+     "pubDate": "Mon, 24 Aug 2026 21:06:25 +0900"
     },
     {
      "title": "近畿で39度超 25日は熊本・大分など「酷暑日」に 熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45898",
-     "pubDate": "Mon, 24 Aug 2026 20:35:08 +0900"
+     "pubDate": "Mon, 24 Aug 2026 21:17:59 +0900"
     },
     {
      "title": "台風18号 あす以降 沖縄・奄美に接近 猛烈な風のおそれ 備えを",
@@ -50,6 +50,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "鹿児島 飲食店経営の49歳女性死亡 殺人事件として捜査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46079",
+     "pubDate": "Mon, 24 Aug 2026 21:16:55 +0900"
+    },
+    {
      "title": "台風18号 25日以降沖縄と奄美に接近 猛烈な風のおそれ 備えを",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46056",
      "pubDate": "Mon, 24 Aug 2026 20:43:58 +0900"
@@ -60,7 +65,7 @@
      "pubDate": "Mon, 24 Aug 2026 19:53:20 +0900"
     },
     {
-     "title": "羽田空港の沖合で船が座礁か 警察などが確認進める",
+     "title": "多摩川の河口付近で「船が座礁」通報 複数人がけが",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46068",
      "pubDate": "Mon, 24 Aug 2026 19:47:00 +0900"
     },
@@ -118,11 +123,6 @@
      "title": "【運転再開】小田急線 新百合ヶ丘ー町田 上下線",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45929",
      "pubDate": "Mon, 24 Aug 2026 08:12:19 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（8月24日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45893",
-     "pubDate": "Mon, 24 Aug 2026 19:55:17 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "EUがウクライナ支援1兆円承認 英は巡航ミサイル部品の機密開示",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46076",
+     "pubDate": "Mon, 24 Aug 2026 21:06:25 +0900"
+    },
+    {
+     "title": "ウクライナ 侵攻から4年半の独立記念日 大統領“戦い続ける”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46042",
+     "pubDate": "Mon, 24 Aug 2026 20:57:13 +0900"
+    },
+    {
      "title": "タイ南部で爆発や放火など50件以上相次ぐ 連続テロか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46069",
      "pubDate": "Mon, 24 Aug 2026 20:38:33 +0900"
@@ -277,16 +287,6 @@
      "title": "【詳細】ロシア ウクライナに軍事侵攻（8月23日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44551",
      "pubDate": "Sun, 23 Aug 2026 19:36:00 +0900"
-    },
-    {
-     "title": "ウクライナがロシア物流施設など攻撃 ロシアは攻撃強化を強調",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45733",
-     "pubDate": "Sun, 23 Aug 2026 14:17:00 +0900"
-    },
-    {
-     "title": "アメリカ建国250年記念し自動車レース トランプ氏が開催推進",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45833",
-     "pubDate": "Sun, 23 Aug 2026 14:03:40 +0900"
     }
    ]
   },
@@ -316,9 +316,9 @@
      "pubDate": "Mon, 24 Aug 2026 11:17:29 GMT"
     },
     {
-     "title": "車横転で子ども含む6人けが 東京",
-     "link": "https://news.yahoo.co.jp/pickup/6592911?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 10:23:19 GMT"
+     "title": "ファミマがレジ端末の刷新検討",
+     "link": "https://news.yahoo.co.jp/pickup/6592899?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 09:05:00 GMT"
     },
     {
      "title": "急死のラグビー九電選手 母国へ",
@@ -331,9 +331,9 @@
      "pubDate": "Mon, 24 Aug 2026 11:40:51 GMT"
     },
     {
-     "title": "優木まおみ離婚 昨年から母子留学",
-     "link": "https://news.yahoo.co.jp/pickup/6592917?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 11:04:44 GMT"
+     "title": "VIVANT「ガバガバ考察」の動きも",
+     "link": "https://news.yahoo.co.jp/pickup/6592904?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 11:55:58 GMT"
     }
    ]
   }
