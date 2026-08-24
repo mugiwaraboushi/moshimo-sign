@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T16:00:56.399Z",
+ "updatedAt": "2026-08-24T17:01:35.543Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "イオンモール爆発事故 雑貨店運営会社 遺族に事実と異なる説明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46093",
+     "pubDate": "Tue, 25 Aug 2026 01:01:44 +0900"
+    },
     {
      "title": "相模原 男子高校生死亡 直前に車に追いかけられたか捜査",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46033",
@@ -16,11 +21,6 @@
      "title": "田久保前伊東市長側が無罪主張へ「卒業証書は第三者が作成」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46051",
      "pubDate": "Mon, 24 Aug 2026 19:53:00 +0900"
-    },
-    {
-     "title": "多摩川の河口付近で「クルーザーが座礁」9人けが うち2人重傷",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46068",
-     "pubDate": "Mon, 24 Aug 2026 23:51:32 +0900"
     },
     {
      "title": "ウクライナ 侵攻から4年半の独立記念日 大統領“戦い続ける”",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "イオンモール爆発事故 雑貨店運営会社 遺族に事実と異なる説明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46093",
+     "pubDate": "Tue, 25 Aug 2026 01:01:44 +0900"
+    },
     {
      "title": "「検察なめんな」 取り調べの録画に主任検事「相当ではない」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46085",
@@ -118,11 +123,6 @@
      "title": "相模原 男子高校生死亡 暴行加えられたか 事件とみて捜査",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45952",
      "pubDate": "Mon, 24 Aug 2026 15:04:57 +0900"
-    },
-    {
-     "title": "福岡県議会 藏内勇夫議長が議員辞職願を提出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45934",
-     "pubDate": "Mon, 24 Aug 2026 18:30:58 +0900"
     }
    ]
   },
