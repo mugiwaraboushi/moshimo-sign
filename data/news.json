@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T13:27:26.477Z",
+ "updatedAt": "2026-08-24T14:09:09.344Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,9 @@
      "pubDate": "Mon, 24 Aug 2026 19:31:58 +0900"
     },
     {
-     "title": "静岡 田久保前市長側が無罪主張へ「卒業証書は第三者が作成」",
+     "title": "田久保前伊東市長側が無罪主張へ「卒業証書は第三者が作成」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46051",
-     "pubDate": "Mon, 24 Aug 2026 19:53:20 +0900"
+     "pubDate": "Mon, 24 Aug 2026 19:53:00 +0900"
     },
     {
      "title": "多摩川の河口付近で「船が座礁」通報 複数人がけが",
@@ -35,7 +35,7 @@
     {
      "title": "近畿で39度超 25日は熊本・大分など「酷暑日」に 熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45898",
-     "pubDate": "Mon, 24 Aug 2026 21:17:59 +0900"
+     "pubDate": "Mon, 24 Aug 2026 22:52:18 +0900"
     },
     {
      "title": "台風18号 あす以降 沖縄・奄美に接近 猛烈な風のおそれ 備えを",
@@ -57,12 +57,12 @@
     {
      "title": "台風18号 25日以降沖縄と奄美に接近 猛烈な風のおそれ 備えを",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46056",
-     "pubDate": "Mon, 24 Aug 2026 20:43:58 +0900"
+     "pubDate": "Mon, 24 Aug 2026 20:43:00 +0900"
     },
     {
-     "title": "静岡 田久保前市長側が無罪主張へ「卒業証書は第三者が作成」",
+     "title": "田久保前伊東市長側が無罪主張へ「卒業証書は第三者が作成」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46051",
-     "pubDate": "Mon, 24 Aug 2026 19:53:20 +0900"
+     "pubDate": "Mon, 24 Aug 2026 19:53:00 +0900"
     },
     {
      "title": "多摩川の河口付近で「船が座礁」通報 複数人がけが",
@@ -296,14 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "25日 熊本など40℃酷暑日予想",
-     "link": "https://news.yahoo.co.jp/pickup/6592922?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 11:39:57 GMT"
+     "title": "ICC制裁巡り超党派議連が非難声明",
+     "link": "https://news.yahoo.co.jp/pickup/6592929?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 12:32:19 GMT"
     },
     {
-     "title": "中国外相の韓国訪問 背景に危機感",
-     "link": "https://news.yahoo.co.jp/pickup/6592905?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 11:31:11 GMT"
+     "title": "損保ジャパン 車保険料5%値上げへ",
+     "link": "https://news.yahoo.co.jp/pickup/6592942?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 13:33:23 GMT"
     },
     {
      "title": "高2死亡 車に追われるバイク映る",
@@ -311,24 +311,24 @@
      "pubDate": "Mon, 24 Aug 2026 11:17:29 GMT"
     },
     {
-     "title": "損保J 来年1月に車保険料5%値上げ",
-     "link": "https://news.yahoo.co.jp/pickup/6592935?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 13:22:11 GMT"
+     "title": "10人乗るクルーザー座礁 2人重傷",
+     "link": "https://news.yahoo.co.jp/pickup/6592941?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 13:37:47 GMT"
     },
     {
-     "title": "中国 白菜類に発がん性物質使用か",
-     "link": "https://news.yahoo.co.jp/pickup/6592933?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 13:05:13 GMT"
-    },
-    {
-     "title": "体長1.2mのオオトカゲ脱走 横浜",
-     "link": "https://news.yahoo.co.jp/pickup/6592934?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 13:01:54 GMT"
+     "title": "中国で白菜に発がん性物質か 調査",
+     "link": "https://news.yahoo.co.jp/pickup/6592940?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 13:39:56 GMT"
     },
     {
      "title": "代表FW小川航基 町田に完全移籍",
      "link": "https://news.yahoo.co.jp/pickup/6592931?source=rss",
      "pubDate": "Mon, 24 Aug 2026 12:49:40 GMT"
+    },
+    {
+     "title": "俳優・満島ひかり 第1子出産発表",
+     "link": "https://news.yahoo.co.jp/pickup/6592944?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 13:50:07 GMT"
     },
     {
      "title": "相方に余命宣告 漫才コンビ再出発",
