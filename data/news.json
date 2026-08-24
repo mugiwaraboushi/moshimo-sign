@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T21:49:51.728Z",
+ "updatedAt": "2026-08-24T22:12:36.245Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,19 +13,19 @@
      "pubDate": "Tue, 25 Aug 2026 01:01:44 +0900"
     },
     {
+     "title": "岐阜 大野町 住宅で成人とみられる3人の遺体見つかる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46099",
+     "pubDate": "Tue, 25 Aug 2026 06:47:00 +0900"
+    },
+    {
+     "title": "新潟 阿賀野 巨大な灯籠押し合う催しで男子高校生が挟まれ死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46103",
+     "pubDate": "Tue, 25 Aug 2026 07:02:41 +0900"
+    },
+    {
      "title": "米財務長官“イランと取り引きある企業などに大規模経済制裁”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46098",
-     "pubDate": "Tue, 25 Aug 2026 05:00:08 +0900"
-    },
-    {
-     "title": "台風18号 25日以降沖縄・奄美に接近 猛烈な風のおそれ 備えを",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
-     "pubDate": "Tue, 25 Aug 2026 00:12:54 +0900"
-    },
-    {
-     "title": "熊本 大分など「酷暑日」予想 熱中症対策の徹底を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46075",
-     "pubDate": "Tue, 25 Aug 2026 06:23:04 +0900"
+     "pubDate": "Tue, 25 Aug 2026 06:57:04 +0900"
     },
     {
      "title": "トランプ大統領 カナダの自動車などへの追加関税を50％に",
@@ -33,14 +33,14 @@
      "pubDate": "Tue, 25 Aug 2026 05:17:09 +0900"
     },
     {
-     "title": "除染土再生利用 さいたま市と仙台市の国の出先機関でも 都外初",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46083",
-     "pubDate": "Tue, 25 Aug 2026 05:08:10 +0900"
+     "title": "台風18号 沖縄の大東島地方が暴風域に 暴風や高波に厳重警戒",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46074",
+     "pubDate": "Tue, 25 Aug 2026 05:42:29 +0900"
     },
     {
-     "title": "福岡県議会 藏内議長25日辞職の見通し 会派離脱の議員も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46092",
-     "pubDate": "Tue, 25 Aug 2026 05:26:44 +0900"
+     "title": "熊本 大分など「酷暑日」予想 熱中症対策の徹底を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46075",
+     "pubDate": "Tue, 25 Aug 2026 06:23:04 +0900"
     }
    ]
   },
@@ -50,9 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "新潟 阿賀野 巨大な灯籠押し合う催しで男子高校生が挟まれ死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46103",
+     "pubDate": "Tue, 25 Aug 2026 07:02:41 +0900"
+    },
+    {
      "title": "岐阜 大野町 住宅で成人とみられる3人の遺体見つかる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46099",
-     "pubDate": "Tue, 25 Aug 2026 06:47:29 +0900"
+     "pubDate": "Tue, 25 Aug 2026 06:47:00 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（8月25日）",
@@ -118,11 +123,6 @@
      "title": "3歳長女を床に落とし骨折させたか 20代母親を逮捕 警視庁",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46024",
      "pubDate": "Mon, 24 Aug 2026 18:16:58 +0900"
-    },
-    {
-     "title": "熊本地震 災害関連死の疑い含め38人死亡 避難所に2684人避難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45947",
-     "pubDate": "Mon, 24 Aug 2026 17:39:02 +0900"
     }
    ]
   },
@@ -221,7 +221,7 @@
     {
      "title": "米財務長官“イランと取り引きある企業などに大規模経済制裁”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46098",
-     "pubDate": "Tue, 25 Aug 2026 05:00:08 +0900"
+     "pubDate": "Tue, 25 Aug 2026 06:57:04 +0900"
     },
     {
      "title": "EUがウクライナ支援1兆円承認 英は巡航ミサイル部品の機密開示",
@@ -306,6 +306,11 @@
      "pubDate": "Mon, 24 Aug 2026 13:33:23 GMT"
     },
     {
+     "title": "相模原17歳死亡 ぼう然とする友人",
+     "link": "https://news.yahoo.co.jp/pickup/6592952?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 22:00:57 GMT"
+    },
+    {
      "title": "車正面衝突し2人死亡 幼児重傷か",
      "link": "https://news.yahoo.co.jp/pickup/6592949?source=rss",
      "pubDate": "Mon, 24 Aug 2026 21:09:49 GMT"
@@ -319,11 +324,6 @@
      "title": "中国で白菜に発がん性物質か 調査",
      "link": "https://news.yahoo.co.jp/pickup/6592940?source=rss",
      "pubDate": "Mon, 24 Aug 2026 13:39:56 GMT"
-    },
-    {
-     "title": "4億円寄付 ミャクミャク像造って",
-     "link": "https://news.yahoo.co.jp/pickup/6592897?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 09:03:13 GMT"
     },
     {
      "title": "智弁和歌山 新チームが初戦敗戦",
