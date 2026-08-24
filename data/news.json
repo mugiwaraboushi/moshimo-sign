@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T04:13:10.131Z",
+ "updatedAt": "2026-08-24T05:07:46.130Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,12 @@
     {
      "title": "売春めぐり相手方も規制を 法務省検討会が報告書案",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45962",
-     "pubDate": "Mon, 24 Aug 2026 12:39:48 +0900"
+     "pubDate": "Mon, 24 Aug 2026 14:02:08 +0900"
+    },
+    {
+     "title": "スズキ 軽乗用車のEV公開 参入相次ぎ普及なるか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45955",
+     "pubDate": "Mon, 24 Aug 2026 14:00:06 +0900"
     },
     {
      "title": "大分で39度予想 熊本も危険な暑さに 熱中症対策の徹底を",
@@ -18,29 +23,24 @@
      "pubDate": "Mon, 24 Aug 2026 12:21:09 +0900"
     },
     {
-     "title": "綿貫民輔 元衆院議長が死去 99歳",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45968",
-     "pubDate": "Mon, 24 Aug 2026 12:43:18 +0900"
-    },
-    {
-     "title": "福岡県議会 藏内勇夫議長 議員辞職する意向を表明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45934",
-     "pubDate": "Mon, 24 Aug 2026 12:17:14 +0900"
-    },
-    {
-     "title": "超党派議員が北京へ 中国共産党関係者と会談 関係改善糸口探る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45948",
-     "pubDate": "Mon, 24 Aug 2026 12:45:36 +0900"
+     "title": "熊本地震 氷川町 断水解消で豆腐店が営業再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45954",
+     "pubDate": "Mon, 24 Aug 2026 13:35:14 +0900"
     },
     {
      "title": "イラン革命防衛隊報道官「米が軍事面での敗北認めたに等しい」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45942",
-     "pubDate": "Mon, 24 Aug 2026 12:32:34 +0900"
+     "pubDate": "Mon, 24 Aug 2026 14:04:20 +0900"
     },
     {
-     "title": "千葉豪雨 災害で出た廃棄物の戸別回収が始まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45950",
-     "pubDate": "Mon, 24 Aug 2026 12:02:19 +0900"
+     "title": "福岡県議会 藏内勇夫議長 議員辞職する意向を表明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45934",
+     "pubDate": "Mon, 24 Aug 2026 13:48:58 +0900"
+    },
+    {
+     "title": "相模原 高校生死亡 暴行加えられたようなあと 事件とみて捜査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45952",
+     "pubDate": "Mon, 24 Aug 2026 13:33:44 +0900"
     }
    ]
   },
@@ -50,9 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "熊本地震 氷川町 断水解消で豆腐店が営業再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45954",
+     "pubDate": "Mon, 24 Aug 2026 13:35:14 +0900"
+    },
+    {
      "title": "売春めぐり相手方も規制を 法務省検討会が報告書案",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45962",
-     "pubDate": "Mon, 24 Aug 2026 12:39:48 +0900"
+     "pubDate": "Mon, 24 Aug 2026 14:02:08 +0900"
     },
     {
      "title": "秋篠宮ご夫妻 パラグアイ訪問“移住者や日系人と交流 有意義”",
@@ -60,14 +65,14 @@
      "pubDate": "Mon, 24 Aug 2026 11:31:36 +0900"
     },
     {
-     "title": "相模原 17歳男子高校生が死亡 繰り返し殴られたような跡",
+     "title": "相模原 高校生死亡 暴行加えられたようなあと 事件とみて捜査",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45952",
-     "pubDate": "Mon, 24 Aug 2026 11:14:41 +0900"
+     "pubDate": "Mon, 24 Aug 2026 13:33:44 +0900"
     },
     {
      "title": "福岡県議会 藏内勇夫議長 議員辞職する意向を表明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45934",
-     "pubDate": "Mon, 24 Aug 2026 12:17:14 +0900"
+     "pubDate": "Mon, 24 Aug 2026 13:48:58 +0900"
     },
     {
      "title": "【運転再開】小田急線 新百合ヶ丘ー町田 上下線",
@@ -77,7 +82,7 @@
     {
      "title": "【動画】Pickup NEWS（8月24日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45893",
-     "pubDate": "Mon, 24 Aug 2026 09:49:03 +0900"
+     "pubDate": "Mon, 24 Aug 2026 13:47:11 +0900"
     },
     {
      "title": "大分で39度予想 熊本も危険な暑さに 熱中症対策の徹底を",
@@ -118,11 +123,6 @@
      "title": "東武鉄道4人死亡事故 事故当日3本の列車は問題なく通過か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45877",
      "pubDate": "Sun, 23 Aug 2026 18:59:00 +0900"
-    },
-    {
-     "title": "「シベリア抑留」追悼式 元抑留者や遺族“実態解明を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45875",
-     "pubDate": "Sun, 23 Aug 2026 18:29:07 +0900"
     }
    ]
   },
@@ -216,7 +216,7 @@
     {
      "title": "イラン革命防衛隊報道官「米が軍事面での敗北認めたに等しい」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45942",
-     "pubDate": "Mon, 24 Aug 2026 12:32:34 +0900"
+     "pubDate": "Mon, 24 Aug 2026 14:04:20 +0900"
     },
     {
      "title": "ABUロボコン香港で開催 地元の香港大学が優勝",
@@ -301,9 +301,14 @@
      "pubDate": "Mon, 24 Aug 2026 02:58:02 GMT"
     },
     {
-     "title": "出国税でクマ対策など 訪日客負担",
-     "link": "https://news.yahoo.co.jp/pickup/6592848?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 02:35:22 GMT"
+     "title": "ウ首相 日本に迎撃弾の供与を期待",
+     "link": "https://news.yahoo.co.jp/pickup/6592870?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 03:56:04 GMT"
+    },
+    {
+     "title": "売春防止法 買う側の勧誘も処罰案",
+     "link": "https://news.yahoo.co.jp/pickup/6592873?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 04:22:46 GMT"
     },
     {
      "title": "東武4人死亡 兄「納得できない」",
@@ -311,9 +316,9 @@
      "pubDate": "Mon, 24 Aug 2026 03:38:21 GMT"
     },
     {
-     "title": "路上で倒れていた高2死亡 事件か",
-     "link": "https://news.yahoo.co.jp/pickup/6592857?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 02:32:41 GMT"
+     "title": "高2が死亡 殴られたようなあと",
+     "link": "https://news.yahoo.co.jp/pickup/6592874?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 04:27:08 GMT"
     },
     {
      "title": "病院から逃走の被告 死因は内因死",
@@ -321,19 +326,14 @@
      "pubDate": "Mon, 24 Aug 2026 03:09:54 GMT"
     },
     {
-     "title": "スズキ初の軽乗用EV eスカイ公開",
-     "link": "https://news.yahoo.co.jp/pickup/6592868?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 03:33:37 GMT"
+     "title": "100年以上続く奇祭が休止へ 宮城",
+     "link": "https://news.yahoo.co.jp/pickup/6592872?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 04:07:25 GMT"
     },
     {
-     "title": "ローソン 手巻きおにぎり値下げへ",
-     "link": "https://news.yahoo.co.jp/pickup/6592864?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 03:27:09 GMT"
-    },
-    {
-     "title": "中日・嶋コーチ書類送検 車で事故",
-     "link": "https://news.yahoo.co.jp/pickup/6592856?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 02:28:37 GMT"
+     "title": "FW小川航基 J1町田移籍が決定的",
+     "link": "https://news.yahoo.co.jp/pickup/6592876?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 05:02:33 GMT"
     }
    ]
   }
