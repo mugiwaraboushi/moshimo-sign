@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T10:59:05.421Z",
+ "updatedAt": "2026-08-24T11:25:05.642Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,11 +13,6 @@
      "pubDate": "Mon, 24 Aug 2026 19:31:58 +0900"
     },
     {
-     "title": "福岡県議会 藏内勇夫議長が議員辞職願を提出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45934",
-     "pubDate": "Mon, 24 Aug 2026 18:30:58 +0900"
-    },
-    {
      "title": "近畿で39度超 25日は熊本・大分など「酷暑日」に 熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45898",
      "pubDate": "Mon, 24 Aug 2026 19:03:28 +0900"
@@ -25,12 +20,17 @@
     {
      "title": "羽田空港の沖合で船が座礁か 警察などが確認進める",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46068",
-     "pubDate": "Mon, 24 Aug 2026 19:47:25 +0900"
+     "pubDate": "Mon, 24 Aug 2026 19:47:00 +0900"
     },
     {
      "title": "おせち商戦 デパート各社 物価高で価格抑えた商品販売にも力",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46001",
      "pubDate": "Mon, 24 Aug 2026 19:41:48 +0900"
+    },
+    {
+     "title": "福岡県議会 藏内勇夫議長が議員辞職願を提出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45934",
+     "pubDate": "Mon, 24 Aug 2026 18:30:58 +0900"
     },
     {
      "title": "台風18号 あす以降 沖縄・奄美に接近 猛烈な風のおそれ 備えを",
@@ -57,7 +57,7 @@
     {
      "title": "羽田空港の沖合で船が座礁か 警察などが確認進める",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46068",
-     "pubDate": "Mon, 24 Aug 2026 19:47:25 +0900"
+     "pubDate": "Mon, 24 Aug 2026 19:47:00 +0900"
     },
     {
      "title": "相模原 男子高校生死亡 直前に車に追いかけられたか捜査",
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "台湾の東部・南部で大雨 2人行方不明 130人超けが",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46059",
+     "pubDate": "Mon, 24 Aug 2026 20:07:41 +0900"
+    },
+    {
+     "title": "超党派議連 ICC制裁で非難声明「明確な抗議と制裁の撤回を」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46043",
+     "pubDate": "Mon, 24 Aug 2026 20:00:19 +0900"
+    },
+    {
      "title": "茂木外相“ICC所長赤根氏は日本の国際司法 役割強化の表れ”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46000",
      "pubDate": "Mon, 24 Aug 2026 16:17:00 +0900"
@@ -277,16 +287,6 @@
      "title": "米は制裁で圧力強化へ イラン“米に協力した国は敵と見なす”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45821",
      "pubDate": "Sun, 23 Aug 2026 11:44:00 +0900"
-    },
-    {
-     "title": "カナダがアメリカへの対抗関税を9月8日に発動へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45819",
-     "pubDate": "Sun, 23 Aug 2026 11:13:07 +0900"
-    },
-    {
-     "title": "NASA 次世代宇宙望遠鏡打ち上げへ 視野は従来型の100倍超え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45735",
-     "pubDate": "Sun, 23 Aug 2026 08:19:00 +0900"
     }
    ]
   },
@@ -301,9 +301,9 @@
      "pubDate": "Mon, 24 Aug 2026 08:42:48 GMT"
     },
     {
-     "title": "大雨でごみ山崩落30人死亡 ギニア",
-     "link": "https://news.yahoo.co.jp/pickup/6592886?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 07:37:29 GMT"
+     "title": "ダークパターン 規制強化の方針",
+     "link": "https://news.yahoo.co.jp/pickup/6592916?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 10:59:18 GMT"
     },
     {
      "title": "プルデンシャル 自粛中に不祥事か",
@@ -311,9 +311,9 @@
      "pubDate": "Mon, 24 Aug 2026 10:18:05 GMT"
     },
     {
-     "title": "クマと車衝突か 運転手の男性死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6592902?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 09:20:01 GMT"
+     "title": "高2死亡 車に追われるバイク映る",
+     "link": "https://news.yahoo.co.jp/pickup/6592919?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 11:17:29 GMT"
     },
     {
      "title": "車横転で子ども含む6人けが 東京",
@@ -331,9 +331,9 @@
      "pubDate": "Mon, 24 Aug 2026 10:24:39 GMT"
     },
     {
-     "title": "優木まおみが離婚 2013年に結婚",
-     "link": "https://news.yahoo.co.jp/pickup/6592894?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 08:18:51 GMT"
+     "title": "優木まおみ離婚 昨年から母子留学",
+     "link": "https://news.yahoo.co.jp/pickup/6592917?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 11:04:44 GMT"
     }
    ]
   }
