@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T15:06:33.902Z",
+ "updatedAt": "2026-08-24T16:00:56.399Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -38,9 +38,9 @@
      "pubDate": "Mon, 24 Aug 2026 22:52:18 +0900"
     },
     {
-     "title": "台風18号 あす以降 沖縄・奄美に接近 猛烈な風のおそれ 備えを",
+     "title": "台風18号 25日以降沖縄・奄美に接近 猛烈な風のおそれ 備えを",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
-     "pubDate": "Mon, 24 Aug 2026 17:17:01 +0900"
+     "pubDate": "Tue, 25 Aug 2026 00:12:54 +0900"
     }
    ]
   },
@@ -296,14 +296,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "ICC制裁巡り超党派議連が非難声明",
-     "link": "https://news.yahoo.co.jp/pickup/6592929?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 12:32:19 GMT"
-    },
-    {
-     "title": "金密輸の手口巧妙化 政府審査強化",
-     "link": "https://news.yahoo.co.jp/pickup/6592925?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 11:50:15 GMT"
+     "title": "カナダ車関税2倍へ 米大統領表明",
+     "link": "https://news.yahoo.co.jp/pickup/6592948?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 15:13:29 GMT"
     },
     {
      "title": "損保ジャパン 車保険料5%値上げへ",
@@ -319,6 +314,11 @@
      "title": "中国で白菜に発がん性物質か 調査",
      "link": "https://news.yahoo.co.jp/pickup/6592940?source=rss",
      "pubDate": "Mon, 24 Aug 2026 13:39:56 GMT"
+    },
+    {
+     "title": "4億円寄付 ミャクミャク像造って",
+     "link": "https://news.yahoo.co.jp/pickup/6592897?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 09:03:13 GMT"
     },
     {
      "title": "智弁和歌山 新チームが初戦敗戦",
