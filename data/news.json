@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T08:32:57.030Z",
+ "updatedAt": "2026-08-24T09:33:31.102Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "台風18号 あす以降 沖縄・奄美に接近 猛烈な風のおそれ 備えを",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
+     "pubDate": "Mon, 24 Aug 2026 17:17:01 +0900"
+    },
+    {
+     "title": "3歳長女を床に落とし骨折させたか 20代母親を逮捕 警視庁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46024",
+     "pubDate": "Mon, 24 Aug 2026 18:16:58 +0900"
+    },
+    {
+     "title": "群馬 沼田市・川場村にレベル４大雨土砂災害危険警報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46027",
+     "pubDate": "Mon, 24 Aug 2026 17:40:00 +0900"
+    },
+    {
+     "title": "人工衛星活用し旬のキャベツ届ける取り組み開始 JAXAなど",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46018",
+     "pubDate": "Mon, 24 Aug 2026 17:58:00 +0900"
+    },
+    {
      "title": "福岡県議会 藏内勇夫議長が議員辞職願を提出",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45934",
-     "pubDate": "Mon, 24 Aug 2026 16:50:20 +0900"
+     "pubDate": "Mon, 24 Aug 2026 18:30:58 +0900"
     },
     {
      "title": "近畿で39度超 熊本も猛烈な暑さに 熱中症対策の徹底を",
@@ -18,29 +38,9 @@
      "pubDate": "Mon, 24 Aug 2026 16:49:06 +0900"
     },
     {
-     "title": "台風18号 あす以降 沖縄・奄美に接近 猛烈な風のおそれ 備えを",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
-     "pubDate": "Mon, 24 Aug 2026 17:17:01 +0900"
-    },
-    {
-     "title": "SNSチャット勧誘にもクーリング・オフ拡大案 消費者庁検討会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46006",
-     "pubDate": "Mon, 24 Aug 2026 16:36:09 +0900"
-    },
-    {
      "title": "相模原 男子高校生死亡 暴行加えられたか 事件とみて捜査",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45952",
      "pubDate": "Mon, 24 Aug 2026 15:04:57 +0900"
-    },
-    {
-     "title": "サッカー日本代表 小川航基 FC町田ゼルビアに移籍で合意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46012",
-     "pubDate": "Mon, 24 Aug 2026 17:15:19 +0900"
-    },
-    {
-     "title": "売春めぐり相手方も規制を 法務省検討会が報告書案",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45962",
-     "pubDate": "Mon, 24 Aug 2026 14:24:24 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "長野 軽井沢町の小学校元講師 傷害罪で有罪判決確定へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46010",
+     "pubDate": "Mon, 24 Aug 2026 18:30:24 +0900"
+    },
+    {
+     "title": "3歳長女を床に落とし骨折させたか 20代母親を逮捕 警視庁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46024",
+     "pubDate": "Mon, 24 Aug 2026 18:16:58 +0900"
+    },
+    {
+     "title": "熊本地震 災害関連死の疑い含め38人死亡 避難所に2684人避難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45947",
+     "pubDate": "Mon, 24 Aug 2026 17:39:02 +0900"
+    },
     {
      "title": "SNSチャット勧誘にもクーリング・オフ拡大案 消費者庁検討会",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46006",
@@ -77,7 +92,7 @@
     {
      "title": "福岡県議会 藏内勇夫議長が議員辞職願を提出",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45934",
-     "pubDate": "Mon, 24 Aug 2026 16:50:20 +0900"
+     "pubDate": "Mon, 24 Aug 2026 18:30:58 +0900"
     },
     {
      "title": "【運転再開】小田急線 新百合ヶ丘ー町田 上下線",
@@ -108,21 +123,6 @@
      "title": "東武鉄道4人死亡事故 複数のミス重なった疑い 警察 経緯解明へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45906",
      "pubDate": "Mon, 24 Aug 2026 05:20:00 +0900"
-    },
-    {
-     "title": "新方式で国産初の量子コンピューター稼働開始 分子科学研究所",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45895",
-     "pubDate": "Mon, 24 Aug 2026 05:10:35 +0900"
-    },
-    {
-     "title": "裁判官3人で審理の事件 1人で審理のミス さいたま地裁熊谷支部",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45915",
-     "pubDate": "Sun, 23 Aug 2026 23:31:35 +0900"
-    },
-    {
-     "title": "千葉豪雨 死者13人 浸水被害3900棟余 外房線全線再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45878",
-     "pubDate": "Sun, 23 Aug 2026 20:22:50 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "人工衛星活用し旬のキャベツ届ける取り組み開始 JAXAなど",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46018",
+     "pubDate": "Mon, 24 Aug 2026 17:58:00 +0900"
+    },
     {
      "title": "ABUロボコン香港で開催 地元の香港大学が優勝",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45901",
@@ -200,11 +205,6 @@
      "title": "大飯原発3号機の発電機停止 原因は 調査で運転再開時期は未定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45037",
      "pubDate": "Wed, 19 Aug 2026 18:08:00 +0900"
-    },
-    {
-     "title": "NHK杯全国中学校放送コンテスト決勝 各部門の最優秀賞選ばれる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260818de44847",
-     "pubDate": "Tue, 18 Aug 2026 18:43:33 +0900"
     }
    ]
   },
@@ -216,7 +216,7 @@
     {
      "title": "茂木外相“ICC所長赤根氏は日本の国際司法 役割強化の表れ”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46000",
-     "pubDate": "Mon, 24 Aug 2026 16:17:02 +0900"
+     "pubDate": "Mon, 24 Aug 2026 16:17:00 +0900"
     },
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月24日の動き）",
@@ -296,14 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "台風18号が沖縄へ 影響長引く恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6592895?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 08:42:48 GMT"
+    },
+    {
      "title": "居眠り運転など検知 搭載義務化へ",
      "link": "https://news.yahoo.co.jp/pickup/6592884?source=rss",
      "pubDate": "Mon, 24 Aug 2026 07:04:25 GMT"
-    },
-    {
-     "title": "イラン 攻撃重視の方針が鮮明に",
-     "link": "https://news.yahoo.co.jp/pickup/6592875?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 04:52:41 GMT"
     },
     {
      "title": "木原氏 ICC所長と緊密に意思疎通",
@@ -311,9 +311,9 @@
      "pubDate": "Mon, 24 Aug 2026 06:21:28 GMT"
     },
     {
-     "title": "車横転し男性死亡 車体に動物の毛",
-     "link": "https://news.yahoo.co.jp/pickup/6592881?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 06:37:24 GMT"
+     "title": "クマと車衝突か 運転手の男性死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6592902?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 09:20:01 GMT"
     },
     {
      "title": "モコモコ 永谷園が一時休売を発表",
@@ -321,9 +321,9 @@
      "pubDate": "Mon, 24 Aug 2026 08:05:43 GMT"
     },
     {
-     "title": "バレー黒後愛が海外挑戦 会見で涙",
-     "link": "https://news.yahoo.co.jp/pickup/6592885?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 07:23:56 GMT"
+     "title": "4億円寄付 ミャクミャク像造って",
+     "link": "https://news.yahoo.co.jp/pickup/6592897?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 09:03:13 GMT"
     },
     {
      "title": "優木まおみが離婚 2013年に結婚",
