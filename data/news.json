@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T10:25:22.000Z",
+ "updatedAt": "2026-08-24T10:59:05.421Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風18号 あす以降 沖縄・奄美に接近 猛烈な風のおそれ 備えを",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
-     "pubDate": "Mon, 24 Aug 2026 17:17:01 +0900"
-    },
-    {
-     "title": "3歳長女を床に落とし骨折させたか 20代母親を逮捕 警視庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46024",
-     "pubDate": "Mon, 24 Aug 2026 18:16:58 +0900"
-    },
-    {
-     "title": "政府 化学兵器テロ備え行動計画 専門家会議創設など盛り込む",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46036",
-     "pubDate": "Mon, 24 Aug 2026 18:48:47 +0900"
+     "title": "相模原 男子高校生死亡 直前に車に追いかけられたか捜査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46033",
+     "pubDate": "Mon, 24 Aug 2026 19:31:58 +0900"
     },
     {
      "title": "福岡県議会 藏内勇夫議長が議員辞職願を提出",
@@ -28,19 +18,29 @@
      "pubDate": "Mon, 24 Aug 2026 18:30:58 +0900"
     },
     {
-     "title": "群馬 沼田市・川場村にレベル４大雨土砂災害危険警報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46027",
-     "pubDate": "Mon, 24 Aug 2026 17:40:00 +0900"
-    },
-    {
      "title": "近畿で39度超 25日は熊本・大分など「酷暑日」に 熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45898",
      "pubDate": "Mon, 24 Aug 2026 19:03:28 +0900"
     },
     {
-     "title": "相模原 男子高校生死亡 暴行加えられたか 事件とみて捜査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45952",
-     "pubDate": "Mon, 24 Aug 2026 15:04:57 +0900"
+     "title": "羽田空港の沖合で船が座礁か 警察などが確認進める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46068",
+     "pubDate": "Mon, 24 Aug 2026 19:47:25 +0900"
+    },
+    {
+     "title": "おせち商戦 デパート各社 物価高で価格抑えた商品販売にも力",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46001",
+     "pubDate": "Mon, 24 Aug 2026 19:41:48 +0900"
+    },
+    {
+     "title": "台風18号 あす以降 沖縄・奄美に接近 猛烈な風のおそれ 備えを",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
+     "pubDate": "Mon, 24 Aug 2026 17:17:01 +0900"
+    },
+    {
+     "title": "群馬 沼田市・川場村にレベル４大雨土砂災害危険警報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46027",
+     "pubDate": "Mon, 24 Aug 2026 17:40:00 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "静岡 田久保前市長側が無罪主張へ「卒業証書は第三者が作成」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46051",
+     "pubDate": "Mon, 24 Aug 2026 19:53:20 +0900"
+    },
+    {
+     "title": "羽田空港の沖合で船が座礁か 警察などが確認進める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46068",
+     "pubDate": "Mon, 24 Aug 2026 19:47:25 +0900"
+    },
+    {
+     "title": "相模原 男子高校生死亡 直前に車に追いかけられたか捜査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46033",
+     "pubDate": "Mon, 24 Aug 2026 19:31:58 +0900"
+    },
     {
      "title": "長野 軽井沢町の小学校元講師 傷害罪で有罪判決確定へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46010",
@@ -102,27 +117,12 @@
     {
      "title": "【動画】Pickup NEWS（8月24日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45893",
-     "pubDate": "Mon, 24 Aug 2026 13:47:11 +0900"
+     "pubDate": "Mon, 24 Aug 2026 19:55:17 +0900"
     },
     {
      "title": "台風18号 あす以降 沖縄・奄美に接近 猛烈な風のおそれ 備えを",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45899",
      "pubDate": "Mon, 24 Aug 2026 17:17:01 +0900"
-    },
-    {
-     "title": "秋篠宮ご夫妻 イグアスで移住者ねぎらう",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45916",
-     "pubDate": "Mon, 24 Aug 2026 05:38:50 +0900"
-    },
-    {
-     "title": "東武鉄道4人死亡事故 複数のミス重なった疑い 警察 経緯解明へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45906",
-     "pubDate": "Mon, 24 Aug 2026 05:20:00 +0900"
-    },
-    {
-     "title": "新方式で国産初の量子コンピューター稼働開始 分子科学研究所",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45895",
-     "pubDate": "Mon, 24 Aug 2026 05:10:35 +0900"
     }
    ]
   },
@@ -221,7 +221,7 @@
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月24日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44552",
-     "pubDate": "Mon, 24 Aug 2026 15:23:54 +0900"
+     "pubDate": "Mon, 24 Aug 2026 15:23:00 +0900"
     },
     {
      "title": "木原官房長官 北朝鮮対応でアメリカ政府などと緊密連携",
@@ -241,7 +241,7 @@
     {
      "title": "イラン革命防衛隊報道官「米が軍事面での敗北認めたに等しい」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45942",
-     "pubDate": "Mon, 24 Aug 2026 14:30:51 +0900"
+     "pubDate": "Mon, 24 Aug 2026 19:40:01 +0900"
     },
     {
      "title": "ABUロボコン香港で開催 地元の香港大学が優勝",
@@ -301,9 +301,9 @@
      "pubDate": "Mon, 24 Aug 2026 08:42:48 GMT"
     },
     {
-     "title": "木原氏 ICC所長と緊密に意思疎通",
-     "link": "https://news.yahoo.co.jp/pickup/6592880?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 06:21:28 GMT"
+     "title": "大雨でごみ山崩落30人死亡 ギニア",
+     "link": "https://news.yahoo.co.jp/pickup/6592886?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 07:37:29 GMT"
     },
     {
      "title": "プルデンシャル 自粛中に不祥事か",
@@ -311,24 +311,24 @@
      "pubDate": "Mon, 24 Aug 2026 10:18:05 GMT"
     },
     {
-     "title": "4人死亡 2012年にも作業員と接触",
-     "link": "https://news.yahoo.co.jp/pickup/6592898?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 08:45:12 GMT"
-    },
-    {
      "title": "クマと車衝突か 運転手の男性死亡",
      "link": "https://news.yahoo.co.jp/pickup/6592902?source=rss",
      "pubDate": "Mon, 24 Aug 2026 09:20:01 GMT"
     },
     {
-     "title": "ママせかタイアップ中止 厚労省",
-     "link": "https://news.yahoo.co.jp/pickup/6592907?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 09:26:04 GMT"
+     "title": "車横転で子ども含む6人けが 東京",
+     "link": "https://news.yahoo.co.jp/pickup/6592911?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 10:23:19 GMT"
     },
     {
-     "title": "4億円寄付 ミャクミャク像造って",
-     "link": "https://news.yahoo.co.jp/pickup/6592897?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 09:03:13 GMT"
+     "title": "急死のラグビー九電選手 母国へ",
+     "link": "https://news.yahoo.co.jp/pickup/6592914?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 10:48:59 GMT"
+    },
+    {
+     "title": "SCANDALが活動終了 来年8月で",
+     "link": "https://news.yahoo.co.jp/pickup/6592912?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 10:24:39 GMT"
     },
     {
      "title": "優木まおみが離婚 2013年に結婚",
