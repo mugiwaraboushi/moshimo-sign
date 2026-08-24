@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T14:09:09.344Z",
+ "updatedAt": "2026-08-24T15:06:33.902Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,14 +18,14 @@
      "pubDate": "Mon, 24 Aug 2026 19:53:00 +0900"
     },
     {
-     "title": "多摩川の河口付近で「船が座礁」通報 複数人がけが",
+     "title": "多摩川の河口付近で「クルーザーが座礁」9人けが うち2人重傷",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46068",
-     "pubDate": "Mon, 24 Aug 2026 19:47:00 +0900"
+     "pubDate": "Mon, 24 Aug 2026 23:51:32 +0900"
     },
     {
      "title": "ウクライナ 侵攻から4年半の独立記念日 大統領“戦い続ける”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46042",
-     "pubDate": "Mon, 24 Aug 2026 20:57:13 +0900"
+     "pubDate": "Mon, 24 Aug 2026 23:35:25 +0900"
     },
     {
      "title": "EUがウクライナ支援1兆円承認 英は巡航ミサイル部品の機密開示",
@@ -50,6 +50,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "「検察なめんな」 取り調べの録画に主任検事「相当ではない」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46085",
+     "pubDate": "Mon, 24 Aug 2026 23:28:57 +0900"
+    },
+    {
      "title": "鹿児島 飲食店経営の49歳女性死亡 殺人事件として捜査",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46079",
      "pubDate": "Mon, 24 Aug 2026 21:16:00 +0900"
@@ -65,9 +70,9 @@
      "pubDate": "Mon, 24 Aug 2026 19:53:00 +0900"
     },
     {
-     "title": "多摩川の河口付近で「船が座礁」通報 複数人がけが",
+     "title": "多摩川の河口付近で「クルーザーが座礁」9人けが うち2人重傷",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46068",
-     "pubDate": "Mon, 24 Aug 2026 19:47:00 +0900"
+     "pubDate": "Mon, 24 Aug 2026 23:51:32 +0900"
     },
     {
      "title": "相模原 男子高校生死亡 直前に車に追いかけられたか捜査",
@@ -118,11 +123,6 @@
      "title": "福岡県議会 藏内勇夫議長が議員辞職願を提出",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45934",
      "pubDate": "Mon, 24 Aug 2026 18:30:58 +0900"
-    },
-    {
-     "title": "【運転再開】小田急線 新百合ヶ丘ー町田 上下線",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45929",
-     "pubDate": "Mon, 24 Aug 2026 08:12:19 +0900"
     }
    ]
   },
@@ -221,7 +221,7 @@
     {
      "title": "ウクライナ 侵攻から4年半の独立記念日 大統領“戦い続ける”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46042",
-     "pubDate": "Mon, 24 Aug 2026 20:57:13 +0900"
+     "pubDate": "Mon, 24 Aug 2026 23:35:25 +0900"
     },
     {
      "title": "タイ南部で爆発や放火など50件以上相次ぐ 連続テロか",
@@ -301,19 +301,19 @@
      "pubDate": "Mon, 24 Aug 2026 12:32:19 GMT"
     },
     {
+     "title": "金密輸の手口巧妙化 政府審査強化",
+     "link": "https://news.yahoo.co.jp/pickup/6592925?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 11:50:15 GMT"
+    },
+    {
      "title": "損保ジャパン 車保険料5%値上げへ",
      "link": "https://news.yahoo.co.jp/pickup/6592942?source=rss",
      "pubDate": "Mon, 24 Aug 2026 13:33:23 GMT"
     },
     {
-     "title": "高2死亡 車に追われるバイク映る",
-     "link": "https://news.yahoo.co.jp/pickup/6592919?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 11:17:29 GMT"
-    },
-    {
-     "title": "10人乗るクルーザー座礁 2人重傷",
-     "link": "https://news.yahoo.co.jp/pickup/6592941?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 13:37:47 GMT"
+     "title": "18歳死亡 灯籠と柱に挟まれる",
+     "link": "https://news.yahoo.co.jp/pickup/6592947?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 14:51:24 GMT"
     },
     {
      "title": "中国で白菜に発がん性物質か 調査",
@@ -321,9 +321,9 @@
      "pubDate": "Mon, 24 Aug 2026 13:39:56 GMT"
     },
     {
-     "title": "代表FW小川航基 町田に完全移籍",
-     "link": "https://news.yahoo.co.jp/pickup/6592931?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 12:49:40 GMT"
+     "title": "智弁和歌山 新チームが初戦敗戦",
+     "link": "https://news.yahoo.co.jp/pickup/6592946?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 14:45:58 GMT"
     },
     {
      "title": "俳優・満島ひかり 第1子出産発表",
