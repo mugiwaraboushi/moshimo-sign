@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T23:12:14.361Z",
+ "updatedAt": "2026-08-24T23:42:28.894Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -40,7 +40,7 @@
     {
      "title": "熊本 大分など「酷暑日」予想 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46075",
-     "pubDate": "Tue, 25 Aug 2026 06:23:04 +0900"
+     "pubDate": "Tue, 25 Aug 2026 08:34:35 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ウクライナ支援有志連合の首脳会合 防空支援強化で一致",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46077",
+     "pubDate": "Tue, 25 Aug 2026 08:16:40 +0900"
+    },
+    {
      "title": "米韓外相“北朝鮮の核問題解決に向け協力”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46102",
      "pubDate": "Tue, 25 Aug 2026 07:23:06 +0900"
@@ -282,11 +287,6 @@
      "title": "イラン革命防衛隊報道官「米が軍事面での敗北認めたに等しい」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45942",
      "pubDate": "Mon, 24 Aug 2026 19:40:01 +0900"
-    },
-    {
-     "title": "ABUロボコン香港で開催 地元の香港大学が優勝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45901",
-     "pubDate": "Mon, 24 Aug 2026 05:40:25 +0900"
     }
    ]
   },
@@ -296,9 +296,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風18号 26日にかけ沖縄など接近",
-     "link": "https://news.yahoo.co.jp/pickup/6592951?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 21:41:27 GMT"
+     "title": "ウ侵略4年半 欧州の結束アピール",
+     "link": "https://news.yahoo.co.jp/pickup/6592958?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 22:48:06 GMT"
     },
     {
      "title": "同志社理事長辞任へ 辺野古事故で",
@@ -311,11 +311,6 @@
      "pubDate": "Mon, 24 Aug 2026 22:00:57 GMT"
     },
     {
-     "title": "18歳死亡 灯籠と柱に挟まれる",
-     "link": "https://news.yahoo.co.jp/pickup/6592947?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 14:51:24 GMT"
-    },
-    {
      "title": "住宅に身元不明の3人の遺体 岐阜",
      "link": "https://news.yahoo.co.jp/pickup/6592954?source=rss",
      "pubDate": "Mon, 24 Aug 2026 22:22:33 GMT"
@@ -326,14 +321,19 @@
      "pubDate": "Mon, 24 Aug 2026 22:51:13 GMT"
     },
     {
-     "title": "新庄監督 1軍ベンチ枠拡大を提案",
-     "link": "https://news.yahoo.co.jp/pickup/6592953?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 22:15:07 GMT"
+     "title": "コンビニ各社おにぎり値下げ なぜ",
+     "link": "https://news.yahoo.co.jp/pickup/6592961?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 23:06:36 GMT"
     },
     {
-     "title": "人気韓ドラ 芦田愛菜主演で日本版",
-     "link": "https://news.yahoo.co.jp/pickup/6592950?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 21:25:37 GMT"
+     "title": "電車でのハンディファン使用 賛否",
+     "link": "https://news.yahoo.co.jp/pickup/6592963?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 23:21:55 GMT"
+    },
+    {
+     "title": "幾田りら 映画で梓みちよさん役",
+     "link": "https://news.yahoo.co.jp/pickup/6592964?source=rss",
+     "pubDate": "Mon, 24 Aug 2026 23:33:25 GMT"
     }
    ]
   }
