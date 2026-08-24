@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T17:53:13.768Z",
+ "updatedAt": "2026-08-24T18:20:08.223Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -11,6 +11,11 @@
      "title": "イオンモール爆発事故 雑貨店運営会社 遺族に事実と異なる説明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46093",
      "pubDate": "Tue, 25 Aug 2026 01:01:44 +0900"
+    },
+    {
+     "title": "米財務長官“イランと取り引きある企業などに大規模経済制裁”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46098",
+     "pubDate": "Tue, 25 Aug 2026 03:16:38 +0900"
     },
     {
      "title": "相模原 男子高校生死亡 直前に車に追いかけられたか捜査",
@@ -26,11 +31,6 @@
      "title": "ウクライナ 侵攻から4年半の独立記念日 大統領“戦い続ける”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46042",
      "pubDate": "Mon, 24 Aug 2026 23:35:25 +0900"
-    },
-    {
-     "title": "EUがウクライナ支援1兆円承認 英は巡航ミサイル部品の機密開示",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46076",
-     "pubDate": "Mon, 24 Aug 2026 21:06:00 +0900"
     },
     {
      "title": "近畿で39度超 25日は熊本・大分など「酷暑日」に 熱中症対策を",
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米財務長官“イランと取り引きある企業などに大規模経済制裁”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46098",
+     "pubDate": "Tue, 25 Aug 2026 03:16:38 +0900"
+    },
+    {
      "title": "EUがウクライナ支援1兆円承認 英は巡航ミサイル部品の機密開示",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46076",
      "pubDate": "Mon, 24 Aug 2026 21:06:00 +0900"
@@ -282,11 +287,6 @@
      "title": "北京で2回目の人型ロボット運動会 人類記録上回るなど性能向上",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45846",
      "pubDate": "Sun, 23 Aug 2026 20:24:00 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（8月23日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44551",
-     "pubDate": "Sun, 23 Aug 2026 19:36:00 +0900"
     }
    ]
   },
