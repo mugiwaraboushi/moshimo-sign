@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T09:57:20.012Z",
+ "updatedAt": "2026-08-25T10:23:42.939Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "台風18号 鹿児島 奄美地方や沖縄本島地方に接近 厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46074",
-     "pubDate": "Tue, 25 Aug 2026 18:48:27 +0900"
+     "pubDate": "Tue, 25 Aug 2026 19:12:57 +0900"
     },
     {
      "title": "西日本では39度超 危険な暑さに 北海道では大雨",
@@ -18,29 +18,29 @@
      "pubDate": "Tue, 25 Aug 2026 17:46:46 +0900"
     },
     {
-     "title": "熊本地震 激甚災害対象追加見込み 災害公営住宅建設など支援へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46206",
-     "pubDate": "Tue, 25 Aug 2026 16:39:53 +0900"
-    },
-    {
-     "title": "文科省 来年度予算案の概算要求で過去最大の8兆8000億円",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46241",
-     "pubDate": "Tue, 25 Aug 2026 18:36:18 +0900"
-    },
-    {
      "title": "【比較動画】クマ撃退スプレー 市販製品の「性能」に大きな差",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46130",
      "pubDate": "Tue, 25 Aug 2026 18:47:55 +0900"
     },
     {
-     "title": "神奈川 船舶衝突事故 「花火見に行く途中」 海保が詳しく捜査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46260",
-     "pubDate": "Tue, 25 Aug 2026 18:26:41 +0900"
+     "title": "熊本 宇城 ラグビー五郎丸さんが子どもと交流【被災地の動き】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46129",
+     "pubDate": "Tue, 25 Aug 2026 18:54:31 +0900"
     },
     {
-     "title": "【地震情報】 北海道で震度3 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46272",
-     "pubDate": "Tue, 25 Aug 2026 18:49:54 +0900"
+     "title": "ことしの新米の「概算金」 大幅引き下げ相次ぐ 値下がり傾向か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46183",
+     "pubDate": "Tue, 25 Aug 2026 19:09:20 +0900"
+    },
+    {
+     "title": "正岡子規 未発表の2句見つかる 新年の心情込めた俳句など",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46283",
+     "pubDate": "Tue, 25 Aug 2026 19:06:14 +0900"
+    },
+    {
+     "title": "文科省 来年度予算案の概算要求で過去最大の8兆8000億円",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46241",
+     "pubDate": "Tue, 25 Aug 2026 18:36:18 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "正岡子規 未発表の2句見つかる 新年の心情込めた俳句など",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46283",
+     "pubDate": "Tue, 25 Aug 2026 19:06:14 +0900"
+    },
     {
      "title": "熊本 宇城 ラグビー五郎丸さんが子どもと交流【被災地の動き】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46129",
@@ -97,7 +102,7 @@
     {
      "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46187",
-     "pubDate": "Tue, 25 Aug 2026 17:38:10 +0900"
+     "pubDate": "Tue, 25 Aug 2026 19:04:28 +0900"
     },
     {
      "title": "警察白書に大川原化工機えん罪事件を初記載",
@@ -110,7 +115,7 @@
      "pubDate": "Tue, 25 Aug 2026 18:19:38 +0900"
     },
     {
-     "title": "相模原高校生死亡 バイク2台が車に追われ2人が暴行受けたか",
+     "title": "相模原高校生死亡 車から降りてきた2人から暴行受けたか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46148",
      "pubDate": "Tue, 25 Aug 2026 12:09:00 +0900"
     },
@@ -118,11 +123,6 @@
      "title": "熊本地震“炊き出しでイスラム教徒苦情”根拠ない情報拡散",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46105",
      "pubDate": "Tue, 25 Aug 2026 08:05:00 +0900"
-    },
-    {
-     "title": "相模原 高校生死亡 車に追われ農道逃げ込んだあと暴行受けたか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46081",
-     "pubDate": "Tue, 25 Aug 2026 07:56:00 +0900"
     }
    ]
   },
@@ -301,14 +301,14 @@
      "pubDate": "Tue, 25 Aug 2026 09:07:36 GMT"
     },
     {
-     "title": "コメ価格暴落 備蓄米放出が要因か",
-     "link": "https://news.yahoo.co.jp/pickup/6593046?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 09:26:49 GMT"
-    },
-    {
      "title": "小泉防衛相 保守層の評価なぜ反転",
      "link": "https://news.yahoo.co.jp/pickup/6593044?source=rss",
      "pubDate": "Tue, 25 Aug 2026 09:41:02 GMT"
+    },
+    {
+     "title": "犯行10秒 2億円相当の腕時計窃盗",
+     "link": "https://news.yahoo.co.jp/pickup/6593050?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 10:02:49 GMT"
     },
     {
      "title": "高校生死亡した祭り 2年前も事故",
@@ -321,14 +321,14 @@
      "pubDate": "Tue, 25 Aug 2026 08:53:13 GMT"
     },
     {
+     "title": "高級化or大衆化 外食市場巡る動き",
+     "link": "https://news.yahoo.co.jp/pickup/6592996?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 05:31:34 GMT"
+    },
+    {
      "title": "競泳・本多灯被告に拘禁刑1年求刑",
      "link": "https://news.yahoo.co.jp/pickup/6593020?source=rss",
      "pubDate": "Tue, 25 Aug 2026 07:31:06 GMT"
-    },
-    {
-     "title": "アジア大会の日程変更 選手ら困惑",
-     "link": "https://news.yahoo.co.jp/pickup/6593041?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 09:02:45 GMT"
     },
     {
      "title": "古田敦也氏 いじめ受けて中学転校",
