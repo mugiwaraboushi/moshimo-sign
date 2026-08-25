@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T19:51:10.849Z",
+ "updatedAt": "2026-08-25T20:13:44.861Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -23,9 +23,14 @@
      "pubDate": "Tue, 25 Aug 2026 20:42:25 +0900"
     },
     {
-     "title": "ウクライナ支援有志連合の首脳会合 防空支援強化で一致",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46077",
-     "pubDate": "Tue, 25 Aug 2026 22:13:35 +0900"
+     "title": "「百日せき」患者増の2か月前に下水調査で流行の兆し 阪大など",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46306",
+     "pubDate": "Wed, 26 Aug 2026 04:48:01 +0900"
+    },
+    {
+     "title": "政府 エネルギー安定確保で新計画 代替パイプライン建設支援",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46331",
+     "pubDate": "Wed, 26 Aug 2026 05:06:38 +0900"
     },
     {
      "title": "【比較動画】クマ撃退スプレー 市販製品の「性能」に大きな差",
@@ -36,11 +41,6 @@
      "title": "来年度予算案で国債費を過去最大36兆円要求へ 財務省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46321",
      "pubDate": "Tue, 25 Aug 2026 22:27:09 +0900"
-    },
-    {
-     "title": "農水副大臣がAPEC会合で中国閣僚とことば交わす",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46315",
-     "pubDate": "Tue, 25 Aug 2026 22:01:59 +0900"
     }
    ]
   },
