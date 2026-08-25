@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T08:04:09.260Z",
+ "updatedAt": "2026-08-25T09:04:36.054Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "西日本では38度超 危険な暑さに 熱中症対策徹底を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46075",
-     "pubDate": "Tue, 25 Aug 2026 15:57:25 +0900"
-    },
-    {
      "title": "台風18号 鹿児島 奄美地方や沖縄本島地方に接近へ 厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46074",
-     "pubDate": "Tue, 25 Aug 2026 15:54:50 +0900"
+     "pubDate": "Tue, 25 Aug 2026 17:30:51 +0900"
+    },
+    {
+     "title": "西日本では39度超 危険な暑さに 北海道では大雨",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46075",
+     "pubDate": "Tue, 25 Aug 2026 17:46:46 +0900"
     },
     {
      "title": "熊本地震 激甚災害対象追加見込み 災害公営住宅建設など支援へ",
@@ -23,24 +23,24 @@
      "pubDate": "Tue, 25 Aug 2026 16:39:53 +0900"
     },
     {
-     "title": "自民税調 消費税1％へ議論開始 9月半ばまでに税制改正大綱",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46194",
-     "pubDate": "Tue, 25 Aug 2026 15:51:52 +0900"
-    },
-    {
      "title": "千葉豪雨 千葉市長が激甚災害早期指定含め財政負担軽減を要請",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46204",
      "pubDate": "Tue, 25 Aug 2026 16:24:23 +0900"
     },
     {
-     "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46187",
-     "pubDate": "Tue, 25 Aug 2026 16:29:31 +0900"
+     "title": "【比較動画】クマ撃退スプレー 市販製品の「性能」に大きな差",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46130",
+     "pubDate": "Tue, 25 Aug 2026 17:16:56 +0900"
     },
     {
-     "title": "バドミントン世界選手権準優勝 山口茜「納得感と悔しさ」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46217",
-     "pubDate": "Tue, 25 Aug 2026 16:42:50 +0900"
+     "title": "福岡県議会 藏内議長の議員辞職願を許可 きょう付けの辞職決定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46168",
+     "pubDate": "Tue, 25 Aug 2026 16:58:33 +0900"
+    },
+    {
+     "title": "川崎市の製鉄所高炉などの跡地で冷凍食品保管施設建設へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46223",
+     "pubDate": "Tue, 25 Aug 2026 17:01:00 +0900"
     }
    ]
   },
@@ -60,9 +60,9 @@
      "pubDate": "Tue, 25 Aug 2026 16:52:48 +0900"
     },
     {
-     "title": "噴射距離が短い？クマ撃退スプレー 調査で見えた「性能」の差",
+     "title": "【比較動画】クマ撃退スプレー 市販製品の「性能」に大きな差",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46130",
-     "pubDate": "Tue, 25 Aug 2026 15:49:47 +0900"
+     "pubDate": "Tue, 25 Aug 2026 17:16:56 +0900"
     },
     {
      "title": "新「マイナアプリ」提供開始 行政手続きを簡素化 デジタル庁",
@@ -77,7 +77,7 @@
     {
      "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46187",
-     "pubDate": "Tue, 25 Aug 2026 16:29:31 +0900"
+     "pubDate": "Tue, 25 Aug 2026 17:38:10 +0900"
     },
     {
      "title": "警察白書に大川原化工機えん罪事件を初記載",
@@ -214,9 +214,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "茂木外相「米国ICC制裁は日本の立場と相いれない」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46243",
+     "pubDate": "Tue, 25 Aug 2026 17:10:24 +0900"
+    },
+    {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月25日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44565",
-     "pubDate": "Tue, 25 Aug 2026 16:40:14 +0900"
+     "pubDate": "Tue, 25 Aug 2026 16:40:00 +0900"
     },
     {
      "title": "アメリカ シリアのテロ支援国家指定を解除 イラン影響力排除か",
@@ -241,7 +246,7 @@
     {
      "title": "アメリカが経済制裁強化 イランは“報復を覚悟すべき”と反発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46098",
-     "pubDate": "Tue, 25 Aug 2026 13:12:00 +0900"
+     "pubDate": "Tue, 25 Aug 2026 17:28:52 +0900"
     },
     {
      "title": "EUがウクライナ支援1兆円承認 英は巡航ミサイル部品の機密開示",
@@ -282,11 +287,6 @@
      "title": "木原官房長官 北朝鮮対応でアメリカ政府などと緊密連携",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45974",
      "pubDate": "Mon, 24 Aug 2026 15:18:32 +0900"
-    },
-    {
-     "title": "北朝鮮国営メディア 高市首相の靖国神社へのよう拝など非難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45996",
-     "pubDate": "Mon, 24 Aug 2026 15:10:31 +0900"
     }
    ]
   },
@@ -301,14 +301,19 @@
      "pubDate": "Tue, 25 Aug 2026 07:32:06 GMT"
     },
     {
-     "title": "ウで徴兵をめぐる暴力が増 背景は",
-     "link": "https://news.yahoo.co.jp/pickup/6593012?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 06:03:18 GMT"
+     "title": "26日関東で局地的な雷雨恐れ 警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6593026?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 07:57:37 GMT"
     },
     {
-     "title": "日航機墜落 修理ミス巡り国公表へ",
-     "link": "https://news.yahoo.co.jp/pickup/6593013?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 06:28:31 GMT"
+     "title": "医療事故 母子感染防げずがん発症",
+     "link": "https://news.yahoo.co.jp/pickup/6593032?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 08:30:57 GMT"
+    },
+    {
+     "title": "米デスバレー立ち往生 観光客死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6593039?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 08:53:13 GMT"
     },
     {
      "title": "競泳・本多灯被告に拘禁刑1年求刑",
@@ -316,24 +321,19 @@
      "pubDate": "Tue, 25 Aug 2026 07:31:06 GMT"
     },
     {
-     "title": "部活や登校 サングラスOK広がる",
-     "link": "https://news.yahoo.co.jp/pickup/6593014?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 06:46:35 GMT"
-    },
-    {
-     "title": "韓国サッカー危機 国民の信頼失墜",
-     "link": "https://news.yahoo.co.jp/pickup/6593025?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 07:43:51 GMT"
-    },
-    {
      "title": "新「マイナアプリ」提供スタート",
      "link": "https://news.yahoo.co.jp/pickup/6593017?source=rss",
      "pubDate": "Tue, 25 Aug 2026 07:13:57 GMT"
     },
     {
-     "title": "窮地の酒蔵 刀剣乱舞ファンが救う",
-     "link": "https://news.yahoo.co.jp/pickup/6593019?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 07:23:42 GMT"
+     "title": "モス スーパーなどで冷食販売へ",
+     "link": "https://news.yahoo.co.jp/pickup/6593030?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 08:33:42 GMT"
+    },
+    {
+     "title": "古田敦也氏 いじめ受けて中学転校",
+     "link": "https://news.yahoo.co.jp/pickup/6593034?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 08:20:35 GMT"
     }
    ]
   }
