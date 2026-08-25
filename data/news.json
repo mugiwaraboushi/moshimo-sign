@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T22:50:37.439Z",
+ "updatedAt": "2026-08-25T23:14:22.942Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "台風18号 鹿児島 奄美や沖縄本島を暴風域に巻き込んで西へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46333",
-     "pubDate": "Wed, 26 Aug 2026 07:25:08 +0900"
+     "pubDate": "Wed, 26 Aug 2026 08:08:28 +0900"
     },
     {
      "title": "西・東日本で危険な暑さ予想 午後は大気の状態不安定に",
@@ -23,9 +23,14 @@
      "pubDate": "Wed, 26 Aug 2026 06:19:00 +0900"
     },
     {
-     "title": "南太平洋 バヌアツ諸島で火山噴火 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46314",
-     "pubDate": "Wed, 26 Aug 2026 05:25:48 +0900"
+     "title": "トランプ大統領 オンタリオ湖の改称検討 カナダとの対立激化",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46334",
+     "pubDate": "Wed, 26 Aug 2026 07:46:00 +0900"
+    },
+    {
+     "title": "発がん性指摘の化学物質含む溶液に白菜浸し出荷か 中国河北省",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46332",
+     "pubDate": "Wed, 26 Aug 2026 07:44:21 +0900"
     },
     {
      "title": "妊娠中期に暑い中を過ごすと「早産」リスク高まる",
@@ -36,11 +41,6 @@
      "title": "「百日せき」患者増の2か月前に下水調査で流行の兆し 阪大など",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46306",
      "pubDate": "Wed, 26 Aug 2026 04:48:00 +0900"
-    },
-    {
-     "title": "自民 福岡県連から28日に聴き取り 早期に事態の収拾を図る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46329",
-     "pubDate": "Wed, 26 Aug 2026 05:55:00 +0900"
     }
    ]
   },
@@ -211,7 +211,7 @@
     {
      "title": "トランプ大統領 オンタリオ湖の改称検討 カナダとの対立激化",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46334",
-     "pubDate": "Wed, 26 Aug 2026 07:46:52 +0900"
+     "pubDate": "Wed, 26 Aug 2026 07:46:00 +0900"
     },
     {
      "title": "発がん性指摘の化学物質含む溶液に白菜浸し出荷か 中国河北省",
@@ -321,9 +321,9 @@
      "pubDate": "Tue, 25 Aug 2026 22:06:34 GMT"
     },
     {
-     "title": "大谷31日に投手復帰の可能性 監督",
-     "link": "https://news.yahoo.co.jp/pickup/6593086?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 22:14:20 GMT"
+     "title": "TBS南波雅俊アナ 結婚を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6593091?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 23:10:20 GMT"
     },
     {
      "title": "「救命病棟24時」13年ぶり復活",
