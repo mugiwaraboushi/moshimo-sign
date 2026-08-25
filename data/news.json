@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T12:20:41.759Z",
+ "updatedAt": "2026-08-25T13:24:42.809Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "南太平洋 バヌアツ諸島で大規模噴火 日本への津波の有無調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46314",
-     "pubDate": "Tue, 25 Aug 2026 20:56:00 +0900"
+     "title": "台風18号 鹿児島 奄美地方や沖縄本島地方に最接近 厳重警戒を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46074",
+     "pubDate": "Tue, 25 Aug 2026 21:28:02 +0900"
+    },
+    {
+     "title": "鹿児島 奄美地方に線状降水帯発生のおそれ 直前予測を発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46317",
+     "pubDate": "Tue, 25 Aug 2026 21:34:28 +0900"
     },
     {
      "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
@@ -18,19 +23,9 @@
      "pubDate": "Tue, 25 Aug 2026 20:42:25 +0900"
     },
     {
-     "title": "台風18号 鹿児島 奄美地方や沖縄本島地方に接近 厳重警戒を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46074",
-     "pubDate": "Tue, 25 Aug 2026 20:28:01 +0900"
-    },
-    {
      "title": "西日本では39度超の危険な暑さに 夜間も熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46075",
      "pubDate": "Tue, 25 Aug 2026 19:29:48 +0900"
-    },
-    {
-     "title": "熊本 宇城 ラグビー五郎丸さんが子どもと交流【被災地の動き】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46129",
-     "pubDate": "Tue, 25 Aug 2026 18:54:31 +0900"
     },
     {
      "title": "【比較動画】クマ撃退スプレー 市販製品の「性能」に大きな差",
@@ -41,6 +36,11 @@
      "title": "高市首相 ガソリン1リットル 170円程度に抑制の支援策継続方針",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46280",
      "pubDate": "Tue, 25 Aug 2026 18:37:00 +0900"
+    },
+    {
+     "title": "南太平洋 バヌアツ諸島で大規模噴火 日本への津波の有無調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46314",
+     "pubDate": "Tue, 25 Aug 2026 20:56:00 +0900"
     }
    ]
   },
@@ -92,7 +92,7 @@
     {
      "title": "新「マイナアプリ」提供開始 行政手続きを簡素化 デジタル庁",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46202",
-     "pubDate": "Tue, 25 Aug 2026 15:34:00 +0900"
+     "pubDate": "Tue, 25 Aug 2026 21:29:44 +0900"
     },
     {
      "title": "福岡 海の中道大橋飲酒運転事故から20年 現場で追悼する人も",
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "農水副大臣がAPEC会合で中国閣僚とことば交わす",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46315",
+     "pubDate": "Tue, 25 Aug 2026 22:01:59 +0900"
+    },
+    {
+     "title": "パリ近郊 サウジの資金で日本の漫画扱うテーマパーク建設へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46311",
+     "pubDate": "Tue, 25 Aug 2026 21:56:51 +0900"
+    },
+    {
      "title": "アメリカ経済制裁 イランと中国反発 パキスタンはイランと協議",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46289",
      "pubDate": "Tue, 25 Aug 2026 20:27:17 +0900"
@@ -241,7 +251,7 @@
     {
      "title": "ウクライナ支援有志連合の首脳会合 防空支援強化で一致",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46077",
-     "pubDate": "Tue, 25 Aug 2026 08:16:40 +0900"
+     "pubDate": "Tue, 25 Aug 2026 22:13:35 +0900"
     },
     {
      "title": "米韓外相“北朝鮮の核問題解決に向け協力”",
@@ -277,16 +287,6 @@
      "title": "台湾の東部・南部で大雨 2人行方不明 130人超けが",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46059",
      "pubDate": "Mon, 24 Aug 2026 20:07:41 +0900"
-    },
-    {
-     "title": "超党派議連 ICC制裁で非難声明「明確な抗議と制裁の撤回を」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46043",
-     "pubDate": "Mon, 24 Aug 2026 20:00:19 +0900"
-    },
-    {
-     "title": "茂木外相“ICC所長赤根氏は日本の国際司法 役割強化の表れ”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46000",
-     "pubDate": "Mon, 24 Aug 2026 16:17:00 +0900"
     }
    ]
   },
@@ -296,14 +296,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "南太平洋で地震 日本への津波調査",
-     "link": "https://news.yahoo.co.jp/pickup/6593062?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 12:03:00 GMT"
+     "title": "バヌアツで噴火 気象庁が津波調査",
+     "link": "https://news.yahoo.co.jp/pickup/6593068?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 13:09:30 GMT"
     },
     {
-     "title": "蔵内氏 金銭授受疑惑は重ねて否定",
-     "link": "https://news.yahoo.co.jp/pickup/6593048?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 09:46:56 GMT"
+     "title": "AI事業者へ知財保護指針 政府決定",
+     "link": "https://news.yahoo.co.jp/pickup/6593055?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 11:13:01 GMT"
+    },
+    {
+     "title": "飲酒事故で3児失う 20年苦しむ母",
+     "link": "https://news.yahoo.co.jp/pickup/6593066?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 13:16:17 GMT"
     },
     {
      "title": "中国産白菜巡り波紋 韓国に飛び火",
@@ -311,19 +316,14 @@
      "pubDate": "Tue, 25 Aug 2026 11:19:09 GMT"
     },
     {
-     "title": "「がんこ」創業 小嶋淳司さん死去",
-     "link": "https://news.yahoo.co.jp/pickup/6593057?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 11:30:25 GMT"
-    },
-    {
      "title": "川底に沈む男児発見 中学生ら救助",
      "link": "https://news.yahoo.co.jp/pickup/6593054?source=rss",
      "pubDate": "Tue, 25 Aug 2026 11:04:18 GMT"
     },
     {
-     "title": "正岡子規 新出句が2句見つかる",
-     "link": "https://news.yahoo.co.jp/pickup/6593058?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 11:34:18 GMT"
+     "title": "パン39kg点々と投棄 環境相が非難",
+     "link": "https://news.yahoo.co.jp/pickup/6593064?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 12:45:36 GMT"
     },
     {
      "title": "ABC小西アナ&大石アナ 結婚報告",
