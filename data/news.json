@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T10:56:16.563Z",
+ "updatedAt": "2026-08-25T11:17:25.782Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風18号 鹿児島 奄美地方や沖縄本島地方に接近 厳重警戒を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46074",
-     "pubDate": "Tue, 25 Aug 2026 19:12:57 +0900"
-    },
-    {
      "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46187",
      "pubDate": "Tue, 25 Aug 2026 19:37:43 +0900"
+    },
+    {
+     "title": "台風18号 鹿児島 奄美地方や沖縄本島地方に接近 厳重警戒を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46074",
+     "pubDate": "Tue, 25 Aug 2026 19:12:57 +0900"
     },
     {
      "title": "西日本では39度超の危険な暑さに 夜間も熱中症対策を",
@@ -301,19 +301,9 @@
      "pubDate": "Tue, 25 Aug 2026 09:07:36 GMT"
     },
     {
-     "title": "小泉防衛相 保守層の評価なぜ反転",
-     "link": "https://news.yahoo.co.jp/pickup/6593044?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 09:41:02 GMT"
-    },
-    {
      "title": "犯行10秒 2億円相当の腕時計窃盗",
      "link": "https://news.yahoo.co.jp/pickup/6593050?source=rss",
      "pubDate": "Tue, 25 Aug 2026 10:02:49 GMT"
-    },
-    {
-     "title": "高校生死亡した祭り 2年前も事故",
-     "link": "https://news.yahoo.co.jp/pickup/6593049?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 09:48:27 GMT"
     },
     {
      "title": "米デスバレー立ち往生 観光客死亡",
@@ -321,9 +311,19 @@
      "pubDate": "Tue, 25 Aug 2026 08:53:13 GMT"
     },
     {
-     "title": "高級化or大衆化 外食市場巡る動き",
-     "link": "https://news.yahoo.co.jp/pickup/6592996?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 05:31:34 GMT"
+     "title": "宅配業者に暴言 カスハラ被害深刻",
+     "link": "https://news.yahoo.co.jp/pickup/6593033?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 08:18:12 GMT"
+    },
+    {
+     "title": "川底に沈む男児発見 中学生ら救助",
+     "link": "https://news.yahoo.co.jp/pickup/6593054?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 11:04:18 GMT"
+    },
+    {
+     "title": "AIメンタルケア 開発者が促す注意",
+     "link": "https://news.yahoo.co.jp/pickup/6593051?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 10:14:32 GMT"
     },
     {
      "title": "西武1軍復帰の渡部聖弥 負傷交代",
