@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T00:28:50.539Z",
+ "updatedAt": "2026-08-25T01:58:59.817Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,26 +13,6 @@
      "pubDate": "Tue, 25 Aug 2026 01:01:00 +0900"
     },
     {
-     "title": "相模原 高校生死亡 車に追われ農道逃げ込んだあと暴行受けたか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46081",
-     "pubDate": "Tue, 25 Aug 2026 07:56:00 +0900"
-    },
-    {
-     "title": "岐阜 大野町 住宅で成人とみられる3人の遺体見つかる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46099",
-     "pubDate": "Tue, 25 Aug 2026 06:47:00 +0900"
-    },
-    {
-     "title": "米財務長官“イランと取り引きある企業などに大規模経済制裁”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46098",
-     "pubDate": "Tue, 25 Aug 2026 09:23:54 +0900"
-    },
-    {
-     "title": "トランプ大統領 カナダの自動車などへの追加関税を50％に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46101",
-     "pubDate": "Tue, 25 Aug 2026 09:24:56 +0900"
-    },
-    {
      "title": "台風18号 沖縄の大東島地方に最接近 厳重警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46074",
      "pubDate": "Tue, 25 Aug 2026 09:17:36 +0900"
@@ -41,6 +21,26 @@
      "title": "熊本 大分など「酷暑日」予想 熱中症対策の徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46075",
      "pubDate": "Tue, 25 Aug 2026 09:26:21 +0900"
+    },
+    {
+     "title": "相模原 高校生死亡 車に追われ農道逃げ込んだあと暴行受けたか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46081",
+     "pubDate": "Tue, 25 Aug 2026 07:56:00 +0900"
+    },
+    {
+     "title": "鹿児島 与論町 町内全域の2640世帯4873人に避難指示",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46113",
+     "pubDate": "Tue, 25 Aug 2026 10:17:56 +0900"
+    },
+    {
+     "title": "米財務長官“イランと取り引きある企業などに大規模経済制裁”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46098",
+     "pubDate": "Tue, 25 Aug 2026 09:23:54 +0900"
+    },
+    {
+     "title": "岐阜 大野町 住宅で成人とみられる3人の遺体見つかる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46099",
+     "pubDate": "Tue, 25 Aug 2026 06:47:00 +0900"
     }
    ]
   },
@@ -52,7 +52,7 @@
     {
      "title": "熊本地震“炊き出しでイスラム教徒苦情”根拠ない情報拡散",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46105",
-     "pubDate": "Tue, 25 Aug 2026 08:05:11 +0900"
+     "pubDate": "Tue, 25 Aug 2026 08:05:00 +0900"
     },
     {
      "title": "相模原 高校生死亡 車に追われ農道逃げ込んだあと暴行受けたか",
@@ -62,7 +62,7 @@
     {
      "title": "新潟 阿賀野 巨大な灯籠押し合う催しで男子高校生が挟まれ死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46103",
-     "pubDate": "Tue, 25 Aug 2026 07:02:41 +0900"
+     "pubDate": "Tue, 25 Aug 2026 07:02:00 +0900"
     },
     {
      "title": "岐阜 大野町 住宅で成人とみられる3人の遺体見つかる",
@@ -72,7 +72,7 @@
     {
      "title": "【動画】Pickup NEWS（8月25日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46070",
-     "pubDate": "Tue, 25 Aug 2026 06:36:18 +0900"
+     "pubDate": "Tue, 25 Aug 2026 09:55:52 +0900"
     },
     {
      "title": "秋篠宮ご夫妻 パラグアイで長年交流の学校を訪問",
@@ -82,7 +82,7 @@
     {
      "title": "福岡県議会 藏内議長25日辞職の見通し 会派離脱の議員も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46092",
-     "pubDate": "Tue, 25 Aug 2026 05:26:44 +0900"
+     "pubDate": "Tue, 25 Aug 2026 05:26:00 +0900"
     },
     {
      "title": "除染土再生利用 さいたま市と仙台市の国の出先機関でも 都外初",
@@ -221,7 +221,7 @@
     {
      "title": "米韓外相“北朝鮮の核問題解決に向け協力”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46102",
-     "pubDate": "Tue, 25 Aug 2026 07:23:06 +0900"
+     "pubDate": "Tue, 25 Aug 2026 07:23:00 +0900"
     },
     {
      "title": "トランプ大統領 カナダの自動車などへの追加関税を50％に",
@@ -296,34 +296,34 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "経産省 事業再編促す税優遇要望へ",
-     "link": "https://news.yahoo.co.jp/pickup/6592967?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 00:01:49 GMT"
+     "title": "米 イランに「経済的総攻撃」発表",
+     "link": "https://news.yahoo.co.jp/pickup/6592970?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 00:08:24 GMT"
     },
     {
-     "title": "ウ侵略4年半 欧州の結束アピール",
-     "link": "https://news.yahoo.co.jp/pickup/6592958?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 22:48:06 GMT"
+     "title": "イオン爆発前に「ガス臭」証言",
+     "link": "https://news.yahoo.co.jp/pickup/6592976?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 01:07:16 GMT"
     },
     {
-     "title": "相模原17歳死亡 ぼう然とする友人",
-     "link": "https://news.yahoo.co.jp/pickup/6592952?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 22:00:57 GMT"
+     "title": "福岡県議会の自民会派 1人が離脱",
+     "link": "https://news.yahoo.co.jp/pickup/6592980?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 01:49:26 GMT"
     },
     {
-     "title": "住宅に身元不明の3人の遺体 岐阜",
-     "link": "https://news.yahoo.co.jp/pickup/6592954?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 22:22:33 GMT"
+     "title": "路上売春 買う側処罰案に賛否の訳",
+     "link": "https://news.yahoo.co.jp/pickup/6592971?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 00:21:33 GMT"
     },
     {
-     "title": "警視庁警官3060人欠員 採用不調か",
-     "link": "https://news.yahoo.co.jp/pickup/6592957?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 22:51:13 GMT"
+     "title": "「将門塚」で迷惑配信 刑事責任は",
+     "link": "https://news.yahoo.co.jp/pickup/6592972?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 00:25:48 GMT"
     },
     {
-     "title": "コンビニ各社おにぎり値下げ なぜ",
-     "link": "https://news.yahoo.co.jp/pickup/6592961?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 23:06:36 GMT"
+     "title": "窓口営業は午前のみ 京都信用金庫",
+     "link": "https://news.yahoo.co.jp/pickup/6592978?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 01:17:36 GMT"
     },
     {
      "title": "電車でのハンディファン使用 賛否",
@@ -331,9 +331,9 @@
      "pubDate": "Mon, 24 Aug 2026 23:21:55 GMT"
     },
     {
-     "title": "幾田りら 映画で梓みちよさん役",
-     "link": "https://news.yahoo.co.jp/pickup/6592964?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 23:33:25 GMT"
+     "title": "行方不明のオオトカゲを確保 横浜",
+     "link": "https://news.yahoo.co.jp/pickup/6592979?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 01:26:21 GMT"
     }
    ]
   }
