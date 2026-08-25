@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T19:05:31.415Z",
+ "updatedAt": "2026-08-25T19:51:10.849Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "台風18号 鹿児島県や沖縄本島に最接近 奄美では線状降水帯発生",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46333",
-     "pubDate": "Wed, 26 Aug 2026 03:13:32 +0900"
+     "pubDate": "Wed, 26 Aug 2026 03:13:00 +0900"
     },
     {
      "title": "南太平洋 バヌアツ諸島で大規模噴火 目立った潮位変化なし",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "「百日せき」患者増の2か月前に下水調査で流行の兆し 阪大など",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46306",
+     "pubDate": "Wed, 26 Aug 2026 04:48:01 +0900"
+    },
     {
      "title": "正岡子規 未発表の2句見つかる 新年の心情込めた俳句など",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46283",
@@ -118,11 +123,6 @@
      "title": "相模原高校生死亡 車から降りてきた2人から暴行受けたか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46148",
      "pubDate": "Tue, 25 Aug 2026 12:09:00 +0900"
-    },
-    {
-     "title": "熊本地震“炊き出しでイスラム教徒苦情”根拠ない情報拡散",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46105",
-     "pubDate": "Tue, 25 Aug 2026 08:05:00 +0900"
     }
    ]
   },
