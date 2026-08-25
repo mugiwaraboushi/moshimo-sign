@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T21:49:32.759Z",
+ "updatedAt": "2026-08-25T22:12:35.929Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "台風18号 鹿児島 奄美や沖縄本島を暴風域に巻き込んで西へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46333",
-     "pubDate": "Wed, 26 Aug 2026 06:43:17 +0900"
+     "pubDate": "Wed, 26 Aug 2026 07:05:01 +0900"
     },
     {
      "title": "南太平洋 バヌアツ諸島で火山噴火 津波の心配なし",
@@ -306,11 +306,6 @@
      "pubDate": "Tue, 25 Aug 2026 20:50:19 GMT"
     },
     {
-     "title": "米大統領 オンタリオ湖の改称検討",
-     "link": "https://news.yahoo.co.jp/pickup/6593077?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 14:29:13 GMT"
-    },
-    {
      "title": "3児失う事故から20年 4児と歩む母",
      "link": "https://news.yahoo.co.jp/pickup/6593071?source=rss",
      "pubDate": "Tue, 25 Aug 2026 13:26:09 GMT"
@@ -319,6 +314,11 @@
      "title": "崖下200メートルに車転落か 死亡",
      "link": "https://news.yahoo.co.jp/pickup/6593079?source=rss",
      "pubDate": "Tue, 25 Aug 2026 15:16:01 GMT"
+    },
+    {
+     "title": "米歌手 ドリー・パートンさん死去",
+     "link": "https://news.yahoo.co.jp/pickup/6593084?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 22:06:34 GMT"
     },
     {
      "title": "バレー秋本が16得点 TV解説は母",
