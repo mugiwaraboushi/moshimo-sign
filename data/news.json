@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T11:17:25.782Z",
+ "updatedAt": "2026-08-25T11:50:12.635Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,12 +10,12 @@
     {
      "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46187",
-     "pubDate": "Tue, 25 Aug 2026 19:37:43 +0900"
+     "pubDate": "Tue, 25 Aug 2026 20:42:25 +0900"
     },
     {
      "title": "台風18号 鹿児島 奄美地方や沖縄本島地方に接近 厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46074",
-     "pubDate": "Tue, 25 Aug 2026 19:12:57 +0900"
+     "pubDate": "Tue, 25 Aug 2026 20:28:01 +0900"
     },
     {
      "title": "西日本では39度超の危険な暑さに 夜間も熱中症対策を",
@@ -97,12 +97,12 @@
     {
      "title": "福岡 海の中道大橋飲酒運転事故から20年 現場で追悼する人も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46160",
-     "pubDate": "Tue, 25 Aug 2026 14:55:29 +0900"
+     "pubDate": "Tue, 25 Aug 2026 14:55:00 +0900"
     },
     {
      "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46187",
-     "pubDate": "Tue, 25 Aug 2026 19:37:43 +0900"
+     "pubDate": "Tue, 25 Aug 2026 20:42:25 +0900"
     },
     {
      "title": "警察白書に大川原化工機えん罪事件を初記載",
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "アメリカ経済制裁 イランと中国反発 パキスタンはイランと協議",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46289",
+     "pubDate": "Tue, 25 Aug 2026 20:27:17 +0900"
+    },
+    {
      "title": "高市首相 ICC赤根所長への制裁は日本の立場と相いれず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46290",
      "pubDate": "Tue, 25 Aug 2026 19:41:02 +0900"
@@ -226,7 +231,7 @@
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月25日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44565",
-     "pubDate": "Tue, 25 Aug 2026 16:40:00 +0900"
+     "pubDate": "Tue, 25 Aug 2026 20:43:08 +0900"
     },
     {
      "title": "アメリカ シリアのテロ支援国家指定を解除 イラン影響力排除か",
@@ -282,11 +287,6 @@
      "title": "茂木外相“ICC所長赤根氏は日本の国際司法 役割強化の表れ”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46000",
      "pubDate": "Mon, 24 Aug 2026 16:17:00 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月24日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44552",
-     "pubDate": "Mon, 24 Aug 2026 15:23:00 +0900"
     }
    ]
   },
@@ -296,9 +296,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "ガソリン補助金継続へ 高市氏表明",
-     "link": "https://news.yahoo.co.jp/pickup/6593042?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 09:07:36 GMT"
+     "title": "蔵内氏 金銭授受疑惑は重ねて否定",
+     "link": "https://news.yahoo.co.jp/pickup/6593048?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 09:46:56 GMT"
     },
     {
      "title": "犯行10秒 2億円相当の腕時計窃盗",
@@ -311,9 +311,19 @@
      "pubDate": "Tue, 25 Aug 2026 08:53:13 GMT"
     },
     {
+     "title": "「がんこ」創業 小嶋淳司さん死去",
+     "link": "https://news.yahoo.co.jp/pickup/6593057?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 11:30:25 GMT"
+    },
+    {
      "title": "宅配業者に暴言 カスハラ被害深刻",
      "link": "https://news.yahoo.co.jp/pickup/6593033?source=rss",
      "pubDate": "Tue, 25 Aug 2026 08:18:12 GMT"
+    },
+    {
+     "title": "中国産白菜巡り波紋 韓国に飛び火",
+     "link": "https://news.yahoo.co.jp/pickup/6593056?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 11:19:09 GMT"
     },
     {
      "title": "川底に沈む男児発見 中学生ら救助",
@@ -321,19 +331,9 @@
      "pubDate": "Tue, 25 Aug 2026 11:04:18 GMT"
     },
     {
-     "title": "AIメンタルケア 開発者が促す注意",
-     "link": "https://news.yahoo.co.jp/pickup/6593051?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 10:14:32 GMT"
-    },
-    {
-     "title": "西武1軍復帰の渡部聖弥 負傷交代",
-     "link": "https://news.yahoo.co.jp/pickup/6593053?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 10:43:19 GMT"
-    },
-    {
-     "title": "古田敦也氏 いじめ受けて中学転校",
-     "link": "https://news.yahoo.co.jp/pickup/6593034?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 08:20:35 GMT"
+     "title": "FC東京 誹謗中傷や替え歌に警鐘",
+     "link": "https://news.yahoo.co.jp/pickup/6593036?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 08:40:31 GMT"
     }
    ]
   }
