@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T05:01:31.833Z",
+ "updatedAt": "2026-08-25T05:54:06.196Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46187",
-     "pubDate": "Tue, 25 Aug 2026 13:58:35 +0900"
+     "pubDate": "Tue, 25 Aug 2026 13:58:00 +0900"
     },
     {
      "title": "台風18号 沖縄の大東島地方が暴風域に 厳重警戒を",
@@ -38,9 +38,9 @@
      "pubDate": "Tue, 25 Aug 2026 12:14:00 +0900"
     },
     {
-     "title": "千葉豪雨 大網白里市で車の無償貸し出し始まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46140",
-     "pubDate": "Tue, 25 Aug 2026 12:07:00 +0900"
+     "title": "政府 外国人の在留許可手数料 10月から引き上げ決定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46146",
+     "pubDate": "Tue, 25 Aug 2026 14:03:30 +0900"
     }
    ]
   },
@@ -52,7 +52,7 @@
     {
      "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46187",
-     "pubDate": "Tue, 25 Aug 2026 13:58:35 +0900"
+     "pubDate": "Tue, 25 Aug 2026 13:58:00 +0900"
     },
     {
      "title": "警察白書に大川原化工機えん罪事件を初記載",
@@ -92,7 +92,7 @@
     {
      "title": "【動画】Pickup NEWS（8月25日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46070",
-     "pubDate": "Tue, 25 Aug 2026 09:55:52 +0900"
+     "pubDate": "Tue, 25 Aug 2026 14:28:43 +0900"
     },
     {
      "title": "秋篠宮ご夫妻 パラグアイで長年交流の学校を訪問",
@@ -296,14 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風18号が沖縄接近 高波など警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6592995?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 03:12:28 GMT"
-    },
-    {
      "title": "福岡県議長 辞職の理由説明せず",
      "link": "https://news.yahoo.co.jp/pickup/6593001?source=rss",
      "pubDate": "Tue, 25 Aug 2026 04:19:30 GMT"
+    },
+    {
+     "title": "ウクライナ 徴兵巡る暴力なぜ増加",
+     "link": "https://news.yahoo.co.jp/pickup/6592987?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 04:53:39 GMT"
     },
     {
      "title": "中野ブロードウェイで窃盗事件",
@@ -311,24 +311,24 @@
      "pubDate": "Tue, 25 Aug 2026 04:48:33 GMT"
     },
     {
-     "title": "ハビタ 当初の報告巡り遺族に謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6593000?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 04:04:01 GMT"
-    },
-    {
      "title": "高2死亡 車に追われ暴行されたか",
      "link": "https://news.yahoo.co.jp/pickup/6593007?source=rss",
      "pubDate": "Tue, 25 Aug 2026 04:59:23 GMT"
     },
     {
-     "title": "買春目的の訪日客増 対応求める声",
-     "link": "https://news.yahoo.co.jp/pickup/6592984?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 02:29:49 GMT"
+     "title": "東武事故受け AC広告に差し替え",
+     "link": "https://news.yahoo.co.jp/pickup/6593008?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 05:36:08 GMT"
     },
     {
-     "title": "田久保氏PCに偽造卒業証書データ",
-     "link": "https://news.yahoo.co.jp/pickup/6592982?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 02:32:49 GMT"
+     "title": "違法駐車でバス23分足止め 責任は",
+     "link": "https://news.yahoo.co.jp/pickup/6593003?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 04:44:13 GMT"
+    },
+    {
+     "title": "調整さん 20年で日程調整4119万件",
+     "link": "https://news.yahoo.co.jp/pickup/6593005?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 05:05:45 GMT"
     },
     {
      "title": "キンタローが特殊メイク 会場爆笑",
