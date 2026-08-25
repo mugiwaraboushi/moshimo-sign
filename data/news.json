@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T23:14:22.942Z",
+ "updatedAt": "2026-08-25T23:44:44.621Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -311,9 +311,9 @@
      "pubDate": "Tue, 25 Aug 2026 22:43:18 GMT"
     },
     {
-     "title": "崖下200メートルに車転落か 死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6593079?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 15:16:01 GMT"
+     "title": "免職と誤報 北陸放送に賠償命じる",
+     "link": "https://news.yahoo.co.jp/pickup/6593090?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 23:13:51 GMT"
     },
     {
      "title": "米歌手 ドリー・パートンさん死去",
