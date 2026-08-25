@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T05:54:06.196Z",
+ "updatedAt": "2026-08-25T06:22:18.386Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,12 +10,12 @@
     {
      "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46187",
-     "pubDate": "Tue, 25 Aug 2026 13:58:00 +0900"
+     "pubDate": "Tue, 25 Aug 2026 15:13:53 +0900"
     },
     {
      "title": "台風18号 沖縄の大東島地方が暴風域に 厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46074",
-     "pubDate": "Tue, 25 Aug 2026 13:29:12 +0900"
+     "pubDate": "Tue, 25 Aug 2026 14:58:13 +0900"
     },
     {
      "title": "福岡県議会 藏内議長「本日議員辞職する」理由説明せず",
@@ -28,9 +28,9 @@
      "pubDate": "Tue, 25 Aug 2026 12:09:00 +0900"
     },
     {
-     "title": "各地で猛烈な暑さ 九州「酷暑日」予想も 熱中症対策徹底を",
+     "title": "西日本では38度超 危険な暑さに 熱中症対策徹底を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46075",
-     "pubDate": "Tue, 25 Aug 2026 12:04:00 +0900"
+     "pubDate": "Tue, 25 Aug 2026 15:08:25 +0900"
     },
     {
      "title": "消費税減税 「総額表示」に特例検討へ 事業者負担軽減で",
@@ -50,9 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "福岡 海の中道大橋飲酒運転事故から20年 現場で追悼する人も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46160",
+     "pubDate": "Tue, 25 Aug 2026 14:55:29 +0900"
+    },
+    {
      "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46187",
-     "pubDate": "Tue, 25 Aug 2026 13:58:00 +0900"
+     "pubDate": "Tue, 25 Aug 2026 15:13:53 +0900"
     },
     {
      "title": "警察白書に大川原化工機えん罪事件を初記載",
@@ -62,7 +67,7 @@
     {
      "title": "東京 台東区 4億円窃盗事件 暴力団員に拘禁刑7年判決",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46127",
-     "pubDate": "Tue, 25 Aug 2026 12:12:28 +0900"
+     "pubDate": "Tue, 25 Aug 2026 15:16:48 +0900"
     },
     {
      "title": "相模原高校生死亡 バイク2台が車に追われ2人が暴行受けたか",
@@ -107,7 +112,7 @@
     {
      "title": "除染土再生利用 さいたま市と仙台市の国の出先機関でも 都外初",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46083",
-     "pubDate": "Tue, 25 Aug 2026 05:08:00 +0900"
+     "pubDate": "Tue, 25 Aug 2026 15:08:12 +0900"
     },
     {
      "title": "イオンモール爆発事故 雑貨店運営会社 遺族に事実と異なる説明",
@@ -118,11 +123,6 @@
      "title": "「検察なめんな」 取り調べの録画に主任検事「相当ではない」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46085",
      "pubDate": "Mon, 24 Aug 2026 23:28:57 +0900"
-    },
-    {
-     "title": "鹿児島 飲食店経営の49歳女性死亡 殺人事件として捜査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46079",
-     "pubDate": "Mon, 24 Aug 2026 21:16:00 +0900"
     }
    ]
   },
@@ -301,9 +301,9 @@
      "pubDate": "Tue, 25 Aug 2026 04:19:30 GMT"
     },
     {
-     "title": "ウクライナ 徴兵巡る暴力なぜ増加",
-     "link": "https://news.yahoo.co.jp/pickup/6592987?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 04:53:39 GMT"
+     "title": "ウで徴兵をめぐる暴力が増 背景は",
+     "link": "https://news.yahoo.co.jp/pickup/6593012?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 06:03:18 GMT"
     },
     {
      "title": "中野ブロードウェイで窃盗事件",
