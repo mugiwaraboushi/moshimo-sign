@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T04:26:17.674Z",
+ "updatedAt": "2026-08-25T05:01:31.833Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46187",
+     "pubDate": "Tue, 25 Aug 2026 13:58:35 +0900"
+    },
+    {
      "title": "台風18号 沖縄の大東島地方が暴風域に 厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46074",
-     "pubDate": "Tue, 25 Aug 2026 12:24:07 +0900"
+     "pubDate": "Tue, 25 Aug 2026 13:29:12 +0900"
     },
     {
      "title": "福岡県議会 藏内議長「本日議員辞職する」理由説明せず",
@@ -36,11 +41,6 @@
      "title": "千葉豪雨 大網白里市で車の無償貸し出し始まる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46140",
      "pubDate": "Tue, 25 Aug 2026 12:07:00 +0900"
-    },
-    {
-     "title": "鹿児島 与論町 町内全域の2640世帯4873人に避難指示",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46113",
-     "pubDate": "Tue, 25 Aug 2026 10:17:56 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46187",
+     "pubDate": "Tue, 25 Aug 2026 13:58:35 +0900"
+    },
     {
      "title": "警察白書に大川原化工機えん罪事件を初記載",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46144",
@@ -118,11 +123,6 @@
      "title": "鹿児島 飲食店経営の49歳女性死亡 殺人事件として捜査",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46079",
      "pubDate": "Mon, 24 Aug 2026 21:16:00 +0900"
-    },
-    {
-     "title": "台風18号 25日以降沖縄と奄美に接近 猛烈な風のおそれ 備えを",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46056",
-     "pubDate": "Mon, 24 Aug 2026 20:43:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "「科研費」倍増の約4500億円要求へ 文科省が来年度予算で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46158",
+     "pubDate": "Tue, 25 Aug 2026 13:42:24 +0900"
+    },
     {
      "title": "人工衛星活用し旬のキャベツ届ける取り組み開始 JAXAなど",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46018",
@@ -200,11 +205,6 @@
      "title": "火星衛星探査機「MMX」 10月20日に打ち上げで調整",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45099",
      "pubDate": "Wed, 19 Aug 2026 20:14:42 +0900"
-    },
-    {
-     "title": "大飯原発3号機の発電機停止 原因は 調査で運転再開時期は未定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45037",
-     "pubDate": "Wed, 19 Aug 2026 18:08:00 +0900"
     }
    ]
   },
@@ -231,7 +231,7 @@
     {
      "title": "アメリカが経済制裁強化 イランは“報復を覚悟すべき”と反発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46098",
-     "pubDate": "Tue, 25 Aug 2026 13:12:08 +0900"
+     "pubDate": "Tue, 25 Aug 2026 13:12:00 +0900"
     },
     {
      "title": "EUがウクライナ支援1兆円承認 英は巡航ミサイル部品の機密開示",
@@ -301,9 +301,14 @@
      "pubDate": "Tue, 25 Aug 2026 03:12:28 GMT"
     },
     {
-     "title": "米軍攻撃ヘリ高頻度で墜落 CNN",
-     "link": "https://news.yahoo.co.jp/pickup/6592990?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 02:46:42 GMT"
+     "title": "福岡県議長 辞職の理由説明せず",
+     "link": "https://news.yahoo.co.jp/pickup/6593001?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 04:19:30 GMT"
+    },
+    {
+     "title": "中野ブロードウェイで窃盗事件",
+     "link": "https://news.yahoo.co.jp/pickup/6593006?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 04:48:33 GMT"
     },
     {
      "title": "ハビタ 当初の報告巡り遺族に謝罪",
@@ -311,14 +316,9 @@
      "pubDate": "Tue, 25 Aug 2026 04:04:01 GMT"
     },
     {
-     "title": "蔵内氏「限界だろう」辞職表明前",
-     "link": "https://news.yahoo.co.jp/pickup/6592989?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 02:41:49 GMT"
-    },
-    {
-     "title": "高2死亡 トラブル巻き込まれたか",
-     "link": "https://news.yahoo.co.jp/pickup/6592992?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 03:09:53 GMT"
+     "title": "高2死亡 車に追われ暴行されたか",
+     "link": "https://news.yahoo.co.jp/pickup/6593007?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 04:59:23 GMT"
     },
     {
      "title": "買春目的の訪日客増 対応求める声",
