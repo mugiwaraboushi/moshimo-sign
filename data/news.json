@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T01:58:59.817Z",
+ "updatedAt": "2026-08-25T02:55:28.719Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "イオンモール爆発事故 雑貨店運営会社 遺族に事実と異なる説明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46093",
-     "pubDate": "Tue, 25 Aug 2026 01:01:00 +0900"
-    },
-    {
      "title": "台風18号 沖縄の大東島地方に最接近 厳重警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46074",
-     "pubDate": "Tue, 25 Aug 2026 09:17:36 +0900"
+     "pubDate": "Tue, 25 Aug 2026 11:18:09 +0900"
+    },
+    {
+     "title": "鹿児島 与論町 町内全域の2640世帯4873人に避難指示",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46113",
+     "pubDate": "Tue, 25 Aug 2026 10:17:56 +0900"
     },
     {
      "title": "熊本 大分など「酷暑日」予想 熱中症対策の徹底を",
@@ -28,9 +28,9 @@
      "pubDate": "Tue, 25 Aug 2026 07:56:00 +0900"
     },
     {
-     "title": "鹿児島 与論町 町内全域の2640世帯4873人に避難指示",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46113",
-     "pubDate": "Tue, 25 Aug 2026 10:17:56 +0900"
+     "title": "イオンモール爆発事故 雑貨店運営会社 遺族に事実と異なる説明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46093",
+     "pubDate": "Tue, 25 Aug 2026 01:01:00 +0900"
     },
     {
      "title": "米財務長官“イランと取り引きある企業などに大規模経済制裁”",
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "米 イランに「経済的総攻撃」発表",
-     "link": "https://news.yahoo.co.jp/pickup/6592970?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 00:08:24 GMT"
+     "title": "相次ぐ熱中症患者 救急医療ひっ迫",
+     "link": "https://news.yahoo.co.jp/pickup/6592974?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 00:39:57 GMT"
     },
     {
-     "title": "イオン爆発前に「ガス臭」証言",
-     "link": "https://news.yahoo.co.jp/pickup/6592976?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 01:07:16 GMT"
+     "title": "8/22の世界海面水温 観測史上最高",
+     "link": "https://news.yahoo.co.jp/pickup/6592975?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 00:47:08 GMT"
     },
     {
-     "title": "福岡県議会の自民会派 1人が離脱",
-     "link": "https://news.yahoo.co.jp/pickup/6592980?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 01:49:26 GMT"
+     "title": "蔵内氏「限界だろう」辞職表明前",
+     "link": "https://news.yahoo.co.jp/pickup/6592989?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 02:41:49 GMT"
     },
     {
-     "title": "路上売春 買う側処罰案に賛否の訳",
-     "link": "https://news.yahoo.co.jp/pickup/6592971?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 00:21:33 GMT"
+     "title": "買春目的の訪日客増 対応求める声",
+     "link": "https://news.yahoo.co.jp/pickup/6592984?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 02:29:49 GMT"
     },
     {
-     "title": "「将門塚」で迷惑配信 刑事責任は",
-     "link": "https://news.yahoo.co.jp/pickup/6592972?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 00:25:48 GMT"
+     "title": "田久保氏PCに偽造卒業証書データ",
+     "link": "https://news.yahoo.co.jp/pickup/6592982?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 02:32:49 GMT"
     },
     {
-     "title": "窓口営業は午前のみ 京都信用金庫",
-     "link": "https://news.yahoo.co.jp/pickup/6592978?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 01:17:36 GMT"
-    },
-    {
-     "title": "電車でのハンディファン使用 賛否",
-     "link": "https://news.yahoo.co.jp/pickup/6592963?source=rss",
-     "pubDate": "Mon, 24 Aug 2026 23:21:55 GMT"
+     "title": "夫不倫で離婚 切り出された家売却",
+     "link": "https://news.yahoo.co.jp/pickup/6592981?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 02:23:11 GMT"
     },
     {
      "title": "行方不明のオオトカゲを確保 横浜",
      "link": "https://news.yahoo.co.jp/pickup/6592979?source=rss",
      "pubDate": "Tue, 25 Aug 2026 01:26:21 GMT"
+    },
+    {
+     "title": "俳優木元ゆうこ S状結腸がん公表",
+     "link": "https://news.yahoo.co.jp/pickup/6592983?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 02:24:50 GMT"
     }
    ]
   }
