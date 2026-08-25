@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T07:15:15.788Z",
+ "updatedAt": "2026-08-25T08:04:09.260Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46187",
-     "pubDate": "Tue, 25 Aug 2026 15:13:53 +0900"
+     "title": "西日本では38度超 危険な暑さに 熱中症対策徹底を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46075",
+     "pubDate": "Tue, 25 Aug 2026 15:57:25 +0900"
     },
     {
      "title": "台風18号 鹿児島 奄美地方や沖縄本島地方に接近へ 厳重警戒を",
@@ -18,29 +18,29 @@
      "pubDate": "Tue, 25 Aug 2026 15:54:50 +0900"
     },
     {
-     "title": "西日本では38度超 危険な暑さに 熱中症対策徹底を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46075",
-     "pubDate": "Tue, 25 Aug 2026 15:57:25 +0900"
+     "title": "熊本地震 激甚災害対象追加見込み 災害公営住宅建設など支援へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46206",
+     "pubDate": "Tue, 25 Aug 2026 16:39:53 +0900"
     },
     {
-     "title": "赤澤経産相“イオンモール爆発”めぐり 事故調査委員会設置へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46181",
-     "pubDate": "Tue, 25 Aug 2026 15:29:16 +0900"
+     "title": "自民税調 消費税1％へ議論開始 9月半ばまでに税制改正大綱",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46194",
+     "pubDate": "Tue, 25 Aug 2026 15:51:52 +0900"
     },
     {
-     "title": "相模原高校生死亡 バイク2台が車に追われ2人が暴行受けたか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46148",
-     "pubDate": "Tue, 25 Aug 2026 12:09:00 +0900"
+     "title": "千葉豪雨 千葉市長が激甚災害早期指定含め財政負担軽減を要請",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46204",
+     "pubDate": "Tue, 25 Aug 2026 16:24:23 +0900"
     },
     {
-     "title": "新「マイナアプリ」提供開始 行政手続きを簡素化 デジタル庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46202",
-     "pubDate": "Tue, 25 Aug 2026 15:34:27 +0900"
+     "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46187",
+     "pubDate": "Tue, 25 Aug 2026 16:29:31 +0900"
     },
     {
-     "title": "ホワイトソックス 村上宗隆 2試合ぶりヒットもチームは敗れる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46170",
-     "pubDate": "Tue, 25 Aug 2026 15:16:31 +0900"
+     "title": "バドミントン世界選手権準優勝 山口茜「納得感と悔しさ」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46217",
+     "pubDate": "Tue, 25 Aug 2026 16:42:50 +0900"
     }
    ]
   },
@@ -50,9 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "「ナチュラル」トップを再逮捕 偽名でホテル宿泊か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46138",
+     "pubDate": "Tue, 25 Aug 2026 16:26:03 +0900"
+    },
+    {
      "title": "辺野古転覆事故 同志社理事長が引責辞任意向 高校校長も退任へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46215",
-     "pubDate": "Tue, 25 Aug 2026 16:05:57 +0900"
+     "pubDate": "Tue, 25 Aug 2026 16:52:48 +0900"
     },
     {
      "title": "噴射距離が短い？クマ撃退スプレー 調査で見えた「性能」の差",
@@ -62,7 +67,7 @@
     {
      "title": "新「マイナアプリ」提供開始 行政手続きを簡素化 デジタル庁",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46202",
-     "pubDate": "Tue, 25 Aug 2026 15:34:27 +0900"
+     "pubDate": "Tue, 25 Aug 2026 15:34:00 +0900"
     },
     {
      "title": "福岡 海の中道大橋飲酒運転事故から20年 現場で追悼する人も",
@@ -72,7 +77,7 @@
     {
      "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46187",
-     "pubDate": "Tue, 25 Aug 2026 15:13:53 +0900"
+     "pubDate": "Tue, 25 Aug 2026 16:29:31 +0900"
     },
     {
      "title": "警察白書に大川原化工機えん罪事件を初記載",
@@ -118,11 +123,6 @@
      "title": "秋篠宮ご夫妻 パラグアイで長年交流の学校を訪問",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46073",
      "pubDate": "Tue, 25 Aug 2026 05:56:00 +0900"
-    },
-    {
-     "title": "福岡県議会 藏内議長25日辞職の見通し",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46092",
-     "pubDate": "Tue, 25 Aug 2026 05:26:00 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月25日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44565",
+     "pubDate": "Tue, 25 Aug 2026 16:40:14 +0900"
+    },
+    {
      "title": "アメリカ シリアのテロ支援国家指定を解除 イラン影響力排除か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46162",
      "pubDate": "Tue, 25 Aug 2026 15:48:57 +0900"
@@ -282,11 +287,6 @@
      "title": "北朝鮮国営メディア 高市首相の靖国神社へのよう拝など非難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45996",
      "pubDate": "Mon, 24 Aug 2026 15:10:31 +0900"
-    },
-    {
-     "title": "木原官房長官 ICC赤根所長と緊密に意思疎通 必要な支援行う",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45976",
-     "pubDate": "Mon, 24 Aug 2026 15:07:00 +0900"
     }
    ]
   },
@@ -296,9 +296,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "福岡県議長 辞職の理由説明せず",
-     "link": "https://news.yahoo.co.jp/pickup/6593001?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 04:19:30 GMT"
+     "title": "出国税の使い道 見直しを検討へ",
+     "link": "https://news.yahoo.co.jp/pickup/6593021?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 07:32:06 GMT"
     },
     {
      "title": "ウで徴兵をめぐる暴力が増 背景は",
@@ -311,19 +311,9 @@
      "pubDate": "Tue, 25 Aug 2026 06:28:31 GMT"
     },
     {
-     "title": "高2死亡 車に追われ暴行されたか",
-     "link": "https://news.yahoo.co.jp/pickup/6593007?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 04:59:23 GMT"
-    },
-    {
-     "title": "違法駐車でバス23分足止め 責任は",
-     "link": "https://news.yahoo.co.jp/pickup/6593003?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 04:44:13 GMT"
-    },
-    {
-     "title": "不祥事表面化 韓国サッカーに危機",
-     "link": "https://news.yahoo.co.jp/pickup/6593011?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 06:19:20 GMT"
+     "title": "競泳・本多灯被告に拘禁刑1年求刑",
+     "link": "https://news.yahoo.co.jp/pickup/6593020?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 07:31:06 GMT"
     },
     {
      "title": "部活や登校 サングラスOK広がる",
@@ -331,9 +321,19 @@
      "pubDate": "Tue, 25 Aug 2026 06:46:35 GMT"
     },
     {
-     "title": "キンタローが特殊メイク 会場爆笑",
-     "link": "https://news.yahoo.co.jp/pickup/6592998?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 03:53:24 GMT"
+     "title": "韓国サッカー危機 国民の信頼失墜",
+     "link": "https://news.yahoo.co.jp/pickup/6593025?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 07:43:51 GMT"
+    },
+    {
+     "title": "新「マイナアプリ」提供スタート",
+     "link": "https://news.yahoo.co.jp/pickup/6593017?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 07:13:57 GMT"
+    },
+    {
+     "title": "窮地の酒蔵 刀剣乱舞ファンが救う",
+     "link": "https://news.yahoo.co.jp/pickup/6593019?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 07:23:42 GMT"
     }
    ]
   }
