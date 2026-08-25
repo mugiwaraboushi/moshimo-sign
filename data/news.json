@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T11:50:12.635Z",
+ "updatedAt": "2026-08-25T12:20:41.759Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "南太平洋 バヌアツ諸島で大規模噴火 日本への津波の有無調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46314",
+     "pubDate": "Tue, 25 Aug 2026 20:56:00 +0900"
+    },
     {
      "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46187",
@@ -36,11 +41,6 @@
      "title": "高市首相 ガソリン1リットル 170円程度に抑制の支援策継続方針",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46280",
      "pubDate": "Tue, 25 Aug 2026 18:37:00 +0900"
-    },
-    {
-     "title": "正岡子規 未発表の2句見つかる 新年の心情込めた俳句など",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46283",
-     "pubDate": "Tue, 25 Aug 2026 19:06:14 +0900"
     }
    ]
   },
@@ -296,29 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "南太平洋で地震 日本への津波調査",
+     "link": "https://news.yahoo.co.jp/pickup/6593062?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 12:03:00 GMT"
+    },
+    {
      "title": "蔵内氏 金銭授受疑惑は重ねて否定",
      "link": "https://news.yahoo.co.jp/pickup/6593048?source=rss",
      "pubDate": "Tue, 25 Aug 2026 09:46:56 GMT"
-    },
-    {
-     "title": "犯行10秒 2億円相当の腕時計窃盗",
-     "link": "https://news.yahoo.co.jp/pickup/6593050?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 10:02:49 GMT"
-    },
-    {
-     "title": "米デスバレー立ち往生 観光客死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6593039?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 08:53:13 GMT"
-    },
-    {
-     "title": "「がんこ」創業 小嶋淳司さん死去",
-     "link": "https://news.yahoo.co.jp/pickup/6593057?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 11:30:25 GMT"
-    },
-    {
-     "title": "宅配業者に暴言 カスハラ被害深刻",
-     "link": "https://news.yahoo.co.jp/pickup/6593033?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 08:18:12 GMT"
     },
     {
      "title": "中国産白菜巡り波紋 韓国に飛び火",
@@ -326,14 +311,29 @@
      "pubDate": "Tue, 25 Aug 2026 11:19:09 GMT"
     },
     {
+     "title": "「がんこ」創業 小嶋淳司さん死去",
+     "link": "https://news.yahoo.co.jp/pickup/6593057?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 11:30:25 GMT"
+    },
+    {
      "title": "川底に沈む男児発見 中学生ら救助",
      "link": "https://news.yahoo.co.jp/pickup/6593054?source=rss",
      "pubDate": "Tue, 25 Aug 2026 11:04:18 GMT"
     },
     {
-     "title": "FC東京 誹謗中傷や替え歌に警鐘",
-     "link": "https://news.yahoo.co.jp/pickup/6593036?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 08:40:31 GMT"
+     "title": "正岡子規 新出句が2句見つかる",
+     "link": "https://news.yahoo.co.jp/pickup/6593058?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 11:34:18 GMT"
+    },
+    {
+     "title": "ABC小西アナ&大石アナ 結婚報告",
+     "link": "https://news.yahoo.co.jp/pickup/6593060?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 11:52:54 GMT"
+    },
+    {
+     "title": "キンタローが特殊メイク 会場爆笑",
+     "link": "https://news.yahoo.co.jp/pickup/6592998?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 03:53:24 GMT"
     }
    ]
   }
