@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T03:37:43.099Z",
+ "updatedAt": "2026-08-25T04:26:17.674Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,9 @@
      "pubDate": "Tue, 25 Aug 2026 12:24:07 +0900"
     },
     {
-     "title": "各地で猛烈な暑さ 九州「酷暑日」予想も 熱中症対策徹底を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46075",
-     "pubDate": "Tue, 25 Aug 2026 12:04:00 +0900"
+     "title": "福岡県議会 藏内議長「本日議員辞職する」理由説明せず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46168",
+     "pubDate": "Tue, 25 Aug 2026 12:52:35 +0900"
     },
     {
      "title": "相模原高校生死亡 バイク2台が車に追われ2人が暴行受けたか",
@@ -23,9 +23,9 @@
      "pubDate": "Tue, 25 Aug 2026 12:09:00 +0900"
     },
     {
-     "title": "福岡県議会 藏内議長25日辞職の見通し",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46092",
-     "pubDate": "Tue, 25 Aug 2026 05:26:00 +0900"
+     "title": "各地で猛烈な暑さ 九州「酷暑日」予想も 熱中症対策徹底を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46075",
+     "pubDate": "Tue, 25 Aug 2026 12:04:00 +0900"
     },
     {
      "title": "消費税減税 「総額表示」に特例検討へ 事業者負担軽減で",
@@ -33,14 +33,14 @@
      "pubDate": "Tue, 25 Aug 2026 12:14:00 +0900"
     },
     {
-     "title": "鹿児島 与論町 町内全域の2640世帯4873人に避難指示",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46113",
-     "pubDate": "Tue, 25 Aug 2026 10:17:56 +0900"
-    },
-    {
      "title": "千葉豪雨 大網白里市で車の無償貸し出し始まる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46140",
      "pubDate": "Tue, 25 Aug 2026 12:07:00 +0900"
+    },
+    {
+     "title": "鹿児島 与論町 町内全域の2640世帯4873人に避難指示",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46113",
+     "pubDate": "Tue, 25 Aug 2026 10:17:56 +0900"
     }
    ]
   },
@@ -52,7 +52,7 @@
     {
      "title": "警察白書に大川原化工機えん罪事件を初記載",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46144",
-     "pubDate": "Tue, 25 Aug 2026 12:19:15 +0900"
+     "pubDate": "Tue, 25 Aug 2026 12:19:00 +0900"
     },
     {
      "title": "東京 台東区 4億円窃盗事件 暴力団員に拘禁刑7年判決",
@@ -229,9 +229,9 @@
      "pubDate": "Tue, 25 Aug 2026 09:24:56 +0900"
     },
     {
-     "title": "米財務長官“イランと取り引きある企業などに大規模経済制裁”",
+     "title": "アメリカが経済制裁強化 イランは“報復を覚悟すべき”と反発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46098",
-     "pubDate": "Tue, 25 Aug 2026 09:23:54 +0900"
+     "pubDate": "Tue, 25 Aug 2026 13:12:08 +0900"
     },
     {
      "title": "EUがウクライナ支援1兆円承認 英は巡航ミサイル部品の機密開示",
@@ -301,14 +301,14 @@
      "pubDate": "Tue, 25 Aug 2026 03:12:28 GMT"
     },
     {
-     "title": "相次ぐ熱中症患者 救急医療ひっ迫",
-     "link": "https://news.yahoo.co.jp/pickup/6592974?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 00:39:57 GMT"
-    },
-    {
      "title": "米軍攻撃ヘリ高頻度で墜落 CNN",
      "link": "https://news.yahoo.co.jp/pickup/6592990?source=rss",
      "pubDate": "Tue, 25 Aug 2026 02:46:42 GMT"
+    },
+    {
+     "title": "ハビタ 当初の報告巡り遺族に謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6593000?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 04:04:01 GMT"
     },
     {
      "title": "蔵内氏「限界だろう」辞職表明前",
@@ -331,9 +331,9 @@
      "pubDate": "Tue, 25 Aug 2026 02:32:49 GMT"
     },
     {
-     "title": "夫不倫で離婚 切り出された家売却",
-     "link": "https://news.yahoo.co.jp/pickup/6592981?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 02:23:11 GMT"
+     "title": "キンタローが特殊メイク 会場爆笑",
+     "link": "https://news.yahoo.co.jp/pickup/6592998?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 03:53:24 GMT"
     }
    ]
   }
