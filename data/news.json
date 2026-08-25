@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T02:55:28.719Z",
+ "updatedAt": "2026-08-25T03:37:43.099Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風18号 沖縄の大東島地方に最接近 厳重警戒",
+     "title": "台風18号 沖縄の大東島地方が暴風域に 厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46074",
-     "pubDate": "Tue, 25 Aug 2026 11:18:09 +0900"
+     "pubDate": "Tue, 25 Aug 2026 12:24:07 +0900"
+    },
+    {
+     "title": "各地で猛烈な暑さ 九州「酷暑日」予想も 熱中症対策徹底を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46075",
+     "pubDate": "Tue, 25 Aug 2026 12:04:00 +0900"
+    },
+    {
+     "title": "相模原高校生死亡 バイク2台が車に追われ2人が暴行受けたか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46148",
+     "pubDate": "Tue, 25 Aug 2026 12:09:00 +0900"
+    },
+    {
+     "title": "福岡県議会 藏内議長25日辞職の見通し",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46092",
+     "pubDate": "Tue, 25 Aug 2026 05:26:00 +0900"
+    },
+    {
+     "title": "消費税減税 「総額表示」に特例検討へ 事業者負担軽減で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46071",
+     "pubDate": "Tue, 25 Aug 2026 12:14:00 +0900"
     },
     {
      "title": "鹿児島 与論町 町内全域の2640世帯4873人に避難指示",
@@ -18,29 +38,9 @@
      "pubDate": "Tue, 25 Aug 2026 10:17:56 +0900"
     },
     {
-     "title": "熊本 大分など「酷暑日」予想 熱中症対策の徹底を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46075",
-     "pubDate": "Tue, 25 Aug 2026 09:26:21 +0900"
-    },
-    {
-     "title": "相模原 高校生死亡 車に追われ農道逃げ込んだあと暴行受けたか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46081",
-     "pubDate": "Tue, 25 Aug 2026 07:56:00 +0900"
-    },
-    {
-     "title": "イオンモール爆発事故 雑貨店運営会社 遺族に事実と異なる説明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46093",
-     "pubDate": "Tue, 25 Aug 2026 01:01:00 +0900"
-    },
-    {
-     "title": "米財務長官“イランと取り引きある企業などに大規模経済制裁”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46098",
-     "pubDate": "Tue, 25 Aug 2026 09:23:54 +0900"
-    },
-    {
-     "title": "岐阜 大野町 住宅で成人とみられる3人の遺体見つかる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46099",
-     "pubDate": "Tue, 25 Aug 2026 06:47:00 +0900"
+     "title": "千葉豪雨 大網白里市で車の無償貸し出し始まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46140",
+     "pubDate": "Tue, 25 Aug 2026 12:07:00 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "警察白書に大川原化工機えん罪事件を初記載",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46144",
+     "pubDate": "Tue, 25 Aug 2026 12:19:15 +0900"
+    },
+    {
+     "title": "東京 台東区 4億円窃盗事件 暴力団員に拘禁刑7年判決",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46127",
+     "pubDate": "Tue, 25 Aug 2026 12:12:28 +0900"
+    },
+    {
+     "title": "相模原高校生死亡 バイク2台が車に追われ2人が暴行受けたか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46148",
+     "pubDate": "Tue, 25 Aug 2026 12:09:00 +0900"
+    },
     {
      "title": "熊本地震“炊き出しでイスラム教徒苦情”根拠ない情報拡散",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46105",
@@ -80,7 +95,7 @@
      "pubDate": "Tue, 25 Aug 2026 05:56:00 +0900"
     },
     {
-     "title": "福岡県議会 藏内議長25日辞職の見通し 会派離脱の議員も",
+     "title": "福岡県議会 藏内議長25日辞職の見通し",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46092",
      "pubDate": "Tue, 25 Aug 2026 05:26:00 +0900"
     },
@@ -108,21 +123,6 @@
      "title": "台風18号 25日以降沖縄と奄美に接近 猛烈な風のおそれ 備えを",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46056",
      "pubDate": "Mon, 24 Aug 2026 20:43:00 +0900"
-    },
-    {
-     "title": "田久保前伊東市長側が無罪主張へ「卒業証書は第三者が作成」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46051",
-     "pubDate": "Mon, 24 Aug 2026 19:53:00 +0900"
-    },
-    {
-     "title": "多摩川の河口付近で「クルーザーが座礁」9人けが うち2人重傷",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46068",
-     "pubDate": "Mon, 24 Aug 2026 23:51:32 +0900"
-    },
-    {
-     "title": "相模原 男子高校生死亡 直前に車に追いかけられたか捜査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46033",
-     "pubDate": "Mon, 24 Aug 2026 19:31:58 +0900"
     }
    ]
   },
@@ -296,19 +296,29 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "台風18号が沖縄接近 高波など警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6592995?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 03:12:28 GMT"
+    },
+    {
      "title": "相次ぐ熱中症患者 救急医療ひっ迫",
      "link": "https://news.yahoo.co.jp/pickup/6592974?source=rss",
      "pubDate": "Tue, 25 Aug 2026 00:39:57 GMT"
     },
     {
-     "title": "8/22の世界海面水温 観測史上最高",
-     "link": "https://news.yahoo.co.jp/pickup/6592975?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 00:47:08 GMT"
+     "title": "米軍攻撃ヘリ高頻度で墜落 CNN",
+     "link": "https://news.yahoo.co.jp/pickup/6592990?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 02:46:42 GMT"
     },
     {
      "title": "蔵内氏「限界だろう」辞職表明前",
      "link": "https://news.yahoo.co.jp/pickup/6592989?source=rss",
      "pubDate": "Tue, 25 Aug 2026 02:41:49 GMT"
+    },
+    {
+     "title": "高2死亡 トラブル巻き込まれたか",
+     "link": "https://news.yahoo.co.jp/pickup/6592992?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 03:09:53 GMT"
     },
     {
      "title": "買春目的の訪日客増 対応求める声",
@@ -324,16 +334,6 @@
      "title": "夫不倫で離婚 切り出された家売却",
      "link": "https://news.yahoo.co.jp/pickup/6592981?source=rss",
      "pubDate": "Tue, 25 Aug 2026 02:23:11 GMT"
-    },
-    {
-     "title": "行方不明のオオトカゲを確保 横浜",
-     "link": "https://news.yahoo.co.jp/pickup/6592979?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 01:26:21 GMT"
-    },
-    {
-     "title": "俳優木元ゆうこ S状結腸がん公表",
-     "link": "https://news.yahoo.co.jp/pickup/6592983?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 02:24:50 GMT"
     }
    ]
   }
