@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T20:51:25.472Z",
+ "updatedAt": "2026-08-25T21:15:15.577Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,9 +18,9 @@
      "pubDate": "Wed, 26 Aug 2026 05:25:48 +0900"
     },
     {
-     "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46187",
-     "pubDate": "Tue, 25 Aug 2026 20:42:25 +0900"
+     "title": "妊娠中期に暑い中を過ごすと「早産」リスク高まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46320",
+     "pubDate": "Wed, 26 Aug 2026 06:09:25 +0900"
     },
     {
      "title": "「百日せき」患者増の2か月前に下水調査で流行の兆し 阪大など",
@@ -30,17 +30,17 @@
     {
      "title": "政府 エネルギー安定確保で新計画 代替パイプライン建設支援",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46331",
-     "pubDate": "Wed, 26 Aug 2026 05:06:38 +0900"
+     "pubDate": "Wed, 26 Aug 2026 05:06:00 +0900"
     },
     {
-     "title": "【比較動画】クマ撃退スプレー 市販製品の「性能」に大きな差",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46130",
-     "pubDate": "Tue, 25 Aug 2026 19:31:55 +0900"
+     "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46187",
+     "pubDate": "Tue, 25 Aug 2026 20:42:25 +0900"
     },
     {
-     "title": "来年度予算案で国債費を過去最大36兆円要求へ 財務省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46321",
-     "pubDate": "Tue, 25 Aug 2026 22:27:09 +0900"
+     "title": "自民 福岡県連から28日に聴き取り 早期に事態の収拾を図る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46329",
+     "pubDate": "Wed, 26 Aug 2026 05:55:00 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "妊娠中期に暑い中を過ごすと「早産」リスク高まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46320",
+     "pubDate": "Wed, 26 Aug 2026 06:09:25 +0900"
+    },
     {
      "title": "「百日せき」患者増の2か月前に下水調査で流行の兆し 阪大など",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46306",
@@ -118,11 +123,6 @@
      "title": "東京 台東区 4億円窃盗事件 暴力団員に拘禁刑7年判決",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46127",
      "pubDate": "Tue, 25 Aug 2026 18:19:38 +0900"
-    },
-    {
-     "title": "相模原高校生死亡 車から降りてきた2人から暴行受けたか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46148",
-     "pubDate": "Tue, 25 Aug 2026 12:09:00 +0900"
     }
    ]
   },
@@ -291,6 +291,11 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "バヌアツ噴火 日本へ津波影響なし",
+     "link": "https://news.yahoo.co.jp/pickup/6593080?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 20:50:19 GMT"
+    },
+    {
      "title": "消費減税で減収農家に給付金 方針",
      "link": "https://news.yahoo.co.jp/pickup/6593076?source=rss",
      "pubDate": "Tue, 25 Aug 2026 14:20:57 GMT"
@@ -301,19 +306,14 @@
      "pubDate": "Tue, 25 Aug 2026 14:29:13 GMT"
     },
     {
-     "title": "崖下200メートルに車転落か 死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6593079?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 15:16:01 GMT"
-    },
-    {
      "title": "3児失う事故から20年 4児と歩む母",
      "link": "https://news.yahoo.co.jp/pickup/6593071?source=rss",
      "pubDate": "Tue, 25 Aug 2026 13:26:09 GMT"
     },
     {
-     "title": "パン39kg点々と投棄 環境相が非難",
-     "link": "https://news.yahoo.co.jp/pickup/6593064?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 12:45:36 GMT"
+     "title": "崖下200メートルに車転落か 死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6593079?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 15:16:01 GMT"
     },
     {
      "title": "古田敦也氏 いじめ受けて中学転校",
@@ -326,9 +326,9 @@
      "pubDate": "Tue, 25 Aug 2026 14:46:48 GMT"
     },
     {
-     "title": "ABC小西アナ&大石アナ 結婚報告",
-     "link": "https://news.yahoo.co.jp/pickup/6593060?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 11:52:54 GMT"
+     "title": "「救命病棟24時」13年ぶり復活",
+     "link": "https://news.yahoo.co.jp/pickup/6593081?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 21:10:27 GMT"
     }
    ]
   }
