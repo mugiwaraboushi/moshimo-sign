@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T06:22:18.386Z",
+ "updatedAt": "2026-08-25T07:15:15.788Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,14 +13,19 @@
      "pubDate": "Tue, 25 Aug 2026 15:13:53 +0900"
     },
     {
-     "title": "台風18号 沖縄の大東島地方が暴風域に 厳重警戒を",
+     "title": "台風18号 鹿児島 奄美地方や沖縄本島地方に接近へ 厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46074",
-     "pubDate": "Tue, 25 Aug 2026 14:58:13 +0900"
+     "pubDate": "Tue, 25 Aug 2026 15:54:50 +0900"
     },
     {
-     "title": "福岡県議会 藏内議長「本日議員辞職する」理由説明せず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46168",
-     "pubDate": "Tue, 25 Aug 2026 12:52:35 +0900"
+     "title": "西日本では38度超 危険な暑さに 熱中症対策徹底を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46075",
+     "pubDate": "Tue, 25 Aug 2026 15:57:25 +0900"
+    },
+    {
+     "title": "赤澤経産相“イオンモール爆発”めぐり 事故調査委員会設置へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46181",
+     "pubDate": "Tue, 25 Aug 2026 15:29:16 +0900"
     },
     {
      "title": "相模原高校生死亡 バイク2台が車に追われ2人が暴行受けたか",
@@ -28,19 +33,14 @@
      "pubDate": "Tue, 25 Aug 2026 12:09:00 +0900"
     },
     {
-     "title": "西日本では38度超 危険な暑さに 熱中症対策徹底を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46075",
-     "pubDate": "Tue, 25 Aug 2026 15:08:25 +0900"
+     "title": "新「マイナアプリ」提供開始 行政手続きを簡素化 デジタル庁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46202",
+     "pubDate": "Tue, 25 Aug 2026 15:34:27 +0900"
     },
     {
-     "title": "消費税減税 「総額表示」に特例検討へ 事業者負担軽減で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46071",
-     "pubDate": "Tue, 25 Aug 2026 12:14:00 +0900"
-    },
-    {
-     "title": "政府 外国人の在留許可手数料 10月から引き上げ決定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46146",
-     "pubDate": "Tue, 25 Aug 2026 14:03:30 +0900"
+     "title": "ホワイトソックス 村上宗隆 2試合ぶりヒットもチームは敗れる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46170",
+     "pubDate": "Tue, 25 Aug 2026 15:16:31 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "辺野古転覆事故 同志社理事長が引責辞任意向 高校校長も退任へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46215",
+     "pubDate": "Tue, 25 Aug 2026 16:05:57 +0900"
+    },
+    {
+     "title": "噴射距離が短い？クマ撃退スプレー 調査で見えた「性能」の差",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46130",
+     "pubDate": "Tue, 25 Aug 2026 15:49:47 +0900"
+    },
+    {
+     "title": "新「マイナアプリ」提供開始 行政手続きを簡素化 デジタル庁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46202",
+     "pubDate": "Tue, 25 Aug 2026 15:34:27 +0900"
+    },
     {
      "title": "福岡 海の中道大橋飲酒運転事故から20年 現場で追悼する人も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46160",
@@ -108,21 +123,6 @@
      "title": "福岡県議会 藏内議長25日辞職の見通し",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46092",
      "pubDate": "Tue, 25 Aug 2026 05:26:00 +0900"
-    },
-    {
-     "title": "除染土再生利用 さいたま市と仙台市の国の出先機関でも 都外初",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46083",
-     "pubDate": "Tue, 25 Aug 2026 15:08:12 +0900"
-    },
-    {
-     "title": "イオンモール爆発事故 雑貨店運営会社 遺族に事実と異なる説明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46093",
-     "pubDate": "Tue, 25 Aug 2026 01:01:00 +0900"
-    },
-    {
-     "title": "「検察なめんな」 取り調べの録画に主任検事「相当ではない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46085",
-     "pubDate": "Mon, 24 Aug 2026 23:28:57 +0900"
     }
    ]
   },
@@ -134,7 +134,7 @@
     {
      "title": "「科研費」倍増の約4500億円要求へ 文科省が来年度予算で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46158",
-     "pubDate": "Tue, 25 Aug 2026 13:42:24 +0900"
+     "pubDate": "Tue, 25 Aug 2026 13:42:00 +0900"
     },
     {
      "title": "人工衛星活用し旬のキャベツ届ける取り組み開始 JAXAなど",
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "アメリカ シリアのテロ支援国家指定を解除 イラン影響力排除か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46162",
+     "pubDate": "Tue, 25 Aug 2026 15:48:57 +0900"
+    },
+    {
      "title": "ウクライナ支援有志連合の首脳会合 防空支援強化で一致",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46077",
      "pubDate": "Tue, 25 Aug 2026 08:16:40 +0900"
@@ -282,11 +287,6 @@
      "title": "木原官房長官 ICC赤根所長と緊密に意思疎通 必要な支援行う",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de45976",
      "pubDate": "Mon, 24 Aug 2026 15:07:00 +0900"
-    },
-    {
-     "title": "イラン革命防衛隊報道官「米が軍事面での敗北認めたに等しい」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de45942",
-     "pubDate": "Mon, 24 Aug 2026 19:40:01 +0900"
     }
    ]
   },
@@ -306,9 +306,9 @@
      "pubDate": "Tue, 25 Aug 2026 06:03:18 GMT"
     },
     {
-     "title": "中野ブロードウェイで窃盗事件",
-     "link": "https://news.yahoo.co.jp/pickup/6593006?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 04:48:33 GMT"
+     "title": "日航機墜落 修理ミス巡り国公表へ",
+     "link": "https://news.yahoo.co.jp/pickup/6593013?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 06:28:31 GMT"
     },
     {
      "title": "高2死亡 車に追われ暴行されたか",
@@ -316,19 +316,19 @@
      "pubDate": "Tue, 25 Aug 2026 04:59:23 GMT"
     },
     {
-     "title": "東武事故受け AC広告に差し替え",
-     "link": "https://news.yahoo.co.jp/pickup/6593008?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 05:36:08 GMT"
-    },
-    {
      "title": "違法駐車でバス23分足止め 責任は",
      "link": "https://news.yahoo.co.jp/pickup/6593003?source=rss",
      "pubDate": "Tue, 25 Aug 2026 04:44:13 GMT"
     },
     {
-     "title": "調整さん 20年で日程調整4119万件",
-     "link": "https://news.yahoo.co.jp/pickup/6593005?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 05:05:45 GMT"
+     "title": "不祥事表面化 韓国サッカーに危機",
+     "link": "https://news.yahoo.co.jp/pickup/6593011?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 06:19:20 GMT"
+    },
+    {
+     "title": "部活や登校 サングラスOK広がる",
+     "link": "https://news.yahoo.co.jp/pickup/6593014?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 06:46:35 GMT"
     },
     {
      "title": "キンタローが特殊メイク 会場爆笑",
