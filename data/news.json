@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T15:10:37.340Z",
+ "updatedAt": "2026-08-25T16:05:12.898Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -16,6 +16,11 @@
      "title": "台風18号 鹿児島 奄美地方や沖縄本島に最接近 線状降水帯発生",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46074",
      "pubDate": "Tue, 25 Aug 2026 23:58:36 +0900"
+    },
+    {
+     "title": "南太平洋 バヌアツ諸島で大規模噴火 目立った潮位変化なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46314",
+     "pubDate": "Wed, 26 Aug 2026 00:09:28 +0900"
     },
     {
      "title": "中野ブロードウェイの店舗で高級時計盗まれる 被害2億円相当か",
@@ -36,11 +41,6 @@
      "title": "来年度予算案で国債費を過去最大36兆円要求へ 財務省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46321",
      "pubDate": "Tue, 25 Aug 2026 22:27:09 +0900"
-    },
-    {
-     "title": "南太平洋 バヌアツ諸島で大規模噴火 日本への津波の有無調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46314",
-     "pubDate": "Tue, 25 Aug 2026 23:40:12 +0900"
     }
    ]
   },
@@ -200,11 +200,6 @@
      "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45169",
      "pubDate": "Thu, 20 Aug 2026 05:05:00 +0900"
-    },
-    {
-     "title": "火星衛星探査機「MMX」 10月20日に打ち上げで調整",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45099",
-     "pubDate": "Wed, 19 Aug 2026 20:14:42 +0900"
     }
    ]
   },
@@ -301,14 +296,14 @@
      "pubDate": "Tue, 25 Aug 2026 14:20:57 GMT"
     },
     {
-     "title": "新学期前 子どものSOSサイン注意",
-     "link": "https://news.yahoo.co.jp/pickup/6593070?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 13:35:45 GMT"
-    },
-    {
      "title": "米大統領 オンタリオ湖の改称検討",
      "link": "https://news.yahoo.co.jp/pickup/6593077?source=rss",
      "pubDate": "Tue, 25 Aug 2026 14:29:13 GMT"
+    },
+    {
+     "title": "崖下200メートルに車転落か 死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6593079?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 15:16:01 GMT"
     },
     {
      "title": "3児失う事故から20年 4児と歩む母",
