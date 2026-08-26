@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-26T11:52:24.651Z",
+ "updatedAt": "2026-08-26T12:22:41.710Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -28,19 +28,19 @@
      "pubDate": "Wed, 26 Aug 2026 19:39:47 +0900"
     },
     {
-     "title": "赤字続く郵便事業 持続可能なサービスのあり方検討へ 初会合",
+     "title": "赤字続く郵便事業 持続可能なサービスのあり方検討【Q＆Aも】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46414",
-     "pubDate": "Wed, 26 Aug 2026 20:36:18 +0900"
-    },
-    {
-     "title": "イラン国営メディア トランプ大統領息子の命脅かす映像 米報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46398",
-     "pubDate": "Wed, 26 Aug 2026 13:06:35 +0900"
+     "pubDate": "Wed, 26 Aug 2026 20:36:00 +0900"
     },
     {
      "title": "自民 税調 消費税減税で議論 政府“農家 漁業者に給付金検討”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46477",
      "pubDate": "Wed, 26 Aug 2026 20:33:49 +0900"
+    },
+    {
+     "title": "高市首相“防災庁設置踏まえ災害対応強化”熊本地震の提言受け",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46529",
+     "pubDate": "Wed, 26 Aug 2026 21:10:14 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "相模原 男子高校生は頭部に強い衝撃で死亡か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46504",
+     "pubDate": "Wed, 26 Aug 2026 21:13:40 +0900"
+    },
     {
      "title": "マッチングアプリで誘い出し240万円余支払わせる 男女3人逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46490",
@@ -118,11 +123,6 @@
      "title": "妊娠中期に暑い中を過ごすと「早産」リスク高まる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46320",
      "pubDate": "Wed, 26 Aug 2026 06:09:00 +0900"
-    },
-    {
-     "title": "「百日せき」患者増の2か月前に下水調査で流行の兆し 阪大など",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46306",
-     "pubDate": "Wed, 26 Aug 2026 04:48:00 +0900"
     }
    ]
   },
@@ -296,24 +296,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "浜岡原発巡り不適切手続き疑い",
+     "link": "https://news.yahoo.co.jp/pickup/6593183?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 12:16:40 GMT"
+    },
+    {
      "title": "備蓄米買い戻しへ 農水省最終調整",
      "link": "https://news.yahoo.co.jp/pickup/6593175?source=rss",
      "pubDate": "Wed, 26 Aug 2026 10:46:43 GMT"
     },
     {
-     "title": "トランプ氏の息子殺害示唆 イラン",
-     "link": "https://news.yahoo.co.jp/pickup/6593160?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 08:49:46 GMT"
+     "title": "韓国 対北を巡り「蚊帳の外」懸念",
+     "link": "https://news.yahoo.co.jp/pickup/6593157?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 09:04:14 GMT"
     },
     {
      "title": "ネパール洪水 観光客380人超不明",
      "link": "https://news.yahoo.co.jp/pickup/6593180?source=rss",
      "pubDate": "Wed, 26 Aug 2026 11:35:36 GMT"
-    },
-    {
-     "title": "火災で新生児14人死亡 パキスタン",
-     "link": "https://news.yahoo.co.jp/pickup/6593181?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 11:37:02 GMT"
     },
     {
      "title": "左右の足間違え手術 患者側と和解",
