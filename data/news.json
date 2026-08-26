@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T23:44:44.621Z",
+ "updatedAt": "2026-08-26T00:30:00.420Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -296,14 +296,9 @@
      "pubDate": "Tue, 25 Aug 2026 21:41:16 GMT"
     },
     {
-     "title": "財務省概算要求 国債費が過去最高",
-     "link": "https://news.yahoo.co.jp/pickup/6593082?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 21:28:20 GMT"
-    },
-    {
-     "title": "コンテンツ支援の司令塔 新設検討",
-     "link": "https://news.yahoo.co.jp/pickup/6593089?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 22:44:19 GMT"
+     "title": "米CIA長官が訪露 和平協議目的か",
+     "link": "https://news.yahoo.co.jp/pickup/6593085?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 22:18:11 GMT"
     },
     {
      "title": "4人死亡 見張り員所定位置おらず",
@@ -316,9 +311,14 @@
      "pubDate": "Tue, 25 Aug 2026 23:13:51 GMT"
     },
     {
-     "title": "米歌手 ドリー・パートンさん死去",
-     "link": "https://news.yahoo.co.jp/pickup/6593084?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 22:06:34 GMT"
+     "title": "ジムニー対抗車 他社が作らない訳",
+     "link": "https://news.yahoo.co.jp/pickup/6593096?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 00:05:42 GMT"
+    },
+    {
+     "title": "大谷限定カード 歴代最高額で落札",
+     "link": "https://news.yahoo.co.jp/pickup/6593095?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 23:51:56 GMT"
     },
     {
      "title": "TBS南波雅俊アナ 結婚を発表",
