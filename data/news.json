@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-26T06:25:45.623Z",
+ "updatedAt": "2026-08-26T07:16:37.081Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -28,9 +28,9 @@
      "pubDate": "Wed, 26 Aug 2026 13:22:46 +0900"
     },
     {
-     "title": "木原官房長官 日中関係 “懸案と課題があるからこそ対話重要”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46419",
-     "pubDate": "Wed, 26 Aug 2026 13:25:54 +0900"
+     "title": "法務省 概算要求で外国人在留の適正管理に807億円余",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46460",
+     "pubDate": "Wed, 26 Aug 2026 16:03:06 +0900"
     },
     {
      "title": "AI関連の展示会「フィジカルAI」に注目集まる 約100社が出展",
@@ -52,12 +52,12 @@
     {
      "title": "香川 水不足が稲作にも影響 干上がる田んぼも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46406",
-     "pubDate": "Wed, 26 Aug 2026 13:05:28 +0900"
+     "pubDate": "Wed, 26 Aug 2026 13:05:00 +0900"
     },
     {
      "title": "高級時計窃盗事件 2人組の男 現場にハンマー残し逃走か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46385",
-     "pubDate": "Wed, 26 Aug 2026 14:59:46 +0900"
+     "pubDate": "Wed, 26 Aug 2026 16:14:05 +0900"
     },
     {
      "title": "秋篠宮ご夫妻 パラグアイから帰国「有意義な旅となった」",
@@ -301,14 +301,9 @@
      "pubDate": "Wed, 26 Aug 2026 05:14:42 GMT"
     },
     {
-     "title": "同志社理事長ら辞任 遺族コメント",
-     "link": "https://news.yahoo.co.jp/pickup/6593129?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 04:36:55 GMT"
-    },
-    {
-     "title": "自転車の中学生 はねられ意識不明",
-     "link": "https://news.yahoo.co.jp/pickup/6593133?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 05:10:47 GMT"
+     "title": "石川に修学旅行 前年度から5割増",
+     "link": "https://news.yahoo.co.jp/pickup/6593140?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 06:42:12 GMT"
     },
     {
      "title": "富士山で遭難激増 シャリバテとは",
@@ -316,19 +311,24 @@
      "pubDate": "Wed, 26 Aug 2026 05:54:10 GMT"
     },
     {
-     "title": "世界12都市エアコン使用 東京最長",
-     "link": "https://news.yahoo.co.jp/pickup/6593131?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 04:45:08 GMT"
+     "title": "女子ばかり行列 学校トイレ巡る声",
+     "link": "https://news.yahoo.co.jp/pickup/6593138?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 06:01:51 GMT"
     },
     {
-     "title": "セブンとヤマト セルフ発送機発表",
-     "link": "https://news.yahoo.co.jp/pickup/6593127?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 04:29:37 GMT"
+     "title": "低価格から変化 ベローチェの戦略",
+     "link": "https://news.yahoo.co.jp/pickup/6593126?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 04:05:59 GMT"
     },
     {
-     "title": "西武・栗山巧に死球 141キロ直撃",
-     "link": "https://news.yahoo.co.jp/pickup/6593141?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 06:19:10 GMT"
+     "title": "ファミマ 服装や髪色に新ルール",
+     "link": "https://news.yahoo.co.jp/pickup/6593139?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 06:15:39 GMT"
+    },
+    {
+     "title": "大谷本塁突入せず 望み通りと監督",
+     "link": "https://news.yahoo.co.jp/pickup/6593143?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 06:59:13 GMT"
     },
     {
      "title": "サンド伊達 体調不良で公演を欠席",
