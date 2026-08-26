@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-26T02:08:54.197Z",
+ "updatedAt": "2026-08-26T03:29:26.594Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風18号 鹿児島 奄美や沖縄本島を暴風域に巻き込んで西へ",
+     "title": "台風18号 奄美や沖縄本島から遠ざかるも土砂災害に厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46333",
-     "pubDate": "Wed, 26 Aug 2026 10:24:29 +0900"
+     "pubDate": "Wed, 26 Aug 2026 12:23:48 +0900"
     },
     {
-     "title": "西・東日本で危険な暑さ予想 午後は大気の状態不安定に",
+     "title": "西日本中心に35度以上の猛烈な暑さに 急な激しい雨にも注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46337",
-     "pubDate": "Wed, 26 Aug 2026 06:52:00 +0900"
+     "pubDate": "Wed, 26 Aug 2026 12:27:33 +0900"
     },
     {
-     "title": "高級時計窃盗事件 駅方向に逃走か 2人組の行方捜査 警視庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46322",
-     "pubDate": "Wed, 26 Aug 2026 06:19:00 +0900"
-    },
-    {
-     "title": "秋篠宮ご夫妻 パラグアイから帰国「有意義な旅となった」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46355",
-     "pubDate": "Wed, 26 Aug 2026 10:36:30 +0900"
+     "title": "高級時計窃盗事件 2人組の男 現場にハンマー残し逃走か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46385",
+     "pubDate": "Wed, 26 Aug 2026 11:49:00 +0900"
     },
     {
      "title": "トランプ大統領 オンタリオ湖の改称検討 カナダとの対立激化",
@@ -33,14 +28,19 @@
      "pubDate": "Wed, 26 Aug 2026 07:46:00 +0900"
     },
     {
+     "title": "米ルビオ長官“当面新たな攻撃なし”同盟国などに伝達 米報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46380",
+     "pubDate": "Wed, 26 Aug 2026 11:33:00 +0900"
+    },
+    {
+     "title": "米「カントリー音楽の女王」ドリー・パートンさん死去",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46361",
+     "pubDate": "Wed, 26 Aug 2026 11:11:15 +0900"
+    },
+    {
      "title": "発がん性指摘の化学物質含む溶液に白菜浸し出荷か 中国河北省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46332",
      "pubDate": "Wed, 26 Aug 2026 07:44:21 +0900"
-    },
-    {
-     "title": "国連とICRC AI使用の自律型兵器の規制を各国に呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46353",
-     "pubDate": "Wed, 26 Aug 2026 10:40:44 +0900"
     }
    ]
   },
@@ -50,6 +50,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "高級時計窃盗事件 2人組の男 現場にハンマー残し逃走か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46385",
+     "pubDate": "Wed, 26 Aug 2026 11:49:00 +0900"
+    },
+    {
      "title": "秋篠宮ご夫妻 パラグアイから帰国「有意義な旅となった」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46355",
      "pubDate": "Wed, 26 Aug 2026 10:36:30 +0900"
@@ -57,7 +62,7 @@
     {
      "title": "【動画】Pickup NEWS（8月26日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46261",
-     "pubDate": "Wed, 26 Aug 2026 07:42:00 +0900"
+     "pubDate": "Wed, 26 Aug 2026 11:18:11 +0900"
     },
     {
      "title": "高級時計窃盗事件 駅方向に逃走か 2人組の行方捜査 警視庁",
@@ -112,17 +117,12 @@
     {
      "title": "【比較動画】クマ撃退スプレー 市販製品の「性能」に大きな差",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46130",
-     "pubDate": "Tue, 25 Aug 2026 19:31:55 +0900"
+     "pubDate": "Tue, 25 Aug 2026 19:31:00 +0900"
     },
     {
      "title": "新「マイナアプリ」提供開始 行政手続きを簡素化 デジタル庁",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46202",
      "pubDate": "Tue, 25 Aug 2026 21:29:44 +0900"
-    },
-    {
-     "title": "福岡 海の中道大橋飲酒運転事故から20年 現場で追悼する人も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46160",
-     "pubDate": "Tue, 25 Aug 2026 14:55:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "米「カントリー音楽の女王」ドリー・パートンさん死去",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46361",
+     "pubDate": "Wed, 26 Aug 2026 11:11:15 +0900"
+    },
     {
      "title": "「科研費」倍増の約4500億円要求へ 文科省が来年度予算で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46158",
@@ -209,9 +214,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "イランへの制裁 米の元制裁調査官“交渉の席に戻すねらい”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46381",
+     "pubDate": "Wed, 26 Aug 2026 11:46:12 +0900"
+    },
+    {
+     "title": "米ルビオ長官“当面新たな攻撃なし”同盟国などに伝達 米報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46380",
+     "pubDate": "Wed, 26 Aug 2026 11:33:00 +0900"
+    },
+    {
+     "title": "NY原油80ドル台に下落 ホルムズ海峡の航路協議を受けて",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46356",
+     "pubDate": "Wed, 26 Aug 2026 11:25:54 +0900"
+    },
+    {
+     "title": "米「カントリー音楽の女王」ドリー・パートンさん死去",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46361",
+     "pubDate": "Wed, 26 Aug 2026 11:11:15 +0900"
+    },
+    {
      "title": "国連とICRC AI使用の自律型兵器の規制を各国に呼びかけ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46353",
-     "pubDate": "Wed, 26 Aug 2026 10:40:44 +0900"
+     "pubDate": "Wed, 26 Aug 2026 10:40:00 +0900"
     },
     {
      "title": "トランプ大統領 オンタリオ湖の改称検討 カナダとの対立激化",
@@ -262,26 +287,6 @@
      "title": "アメリカ シリアのテロ支援国家指定を解除 イラン影響力排除か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46162",
      "pubDate": "Tue, 25 Aug 2026 15:48:57 +0900"
-    },
-    {
-     "title": "ウクライナ支援有志連合の首脳会合 防空支援強化で一致",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46077",
-     "pubDate": "Tue, 25 Aug 2026 22:13:35 +0900"
-    },
-    {
-     "title": "米韓外相“北朝鮮の核問題解決に向け協力”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46102",
-     "pubDate": "Tue, 25 Aug 2026 07:23:00 +0900"
-    },
-    {
-     "title": "トランプ大統領 カナダの自動車などへの追加関税を50％に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46101",
-     "pubDate": "Tue, 25 Aug 2026 09:24:56 +0900"
-    },
-    {
-     "title": "アメリカが経済制裁強化 イランは“報復を覚悟すべき”と反発",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46098",
-     "pubDate": "Tue, 25 Aug 2026 17:28:52 +0900"
     }
    ]
   },
@@ -291,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "ICC制裁巡り自民議員「米が怖い」",
-     "link": "https://news.yahoo.co.jp/pickup/6593098?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 00:37:00 GMT"
+     "title": "米CIA長官が訪露 ウ情勢を協議か",
+     "link": "https://news.yahoo.co.jp/pickup/6593115?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 02:33:43 GMT"
     },
     {
-     "title": "米CIA長官が訪露 和平協議目的か",
-     "link": "https://news.yahoo.co.jp/pickup/6593085?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 22:18:11 GMT"
+     "title": "4人死亡 事故直前まで線路上に7人",
+     "link": "https://news.yahoo.co.jp/pickup/6593119?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 03:00:19 GMT"
     },
     {
-     "title": "「強盗」はウソ 窃盗疑いで女逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6593103?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 01:21:13 GMT"
+     "title": "子助けようとしたか 父流され死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6593114?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 02:56:44 GMT"
     },
     {
-     "title": "来場者増え限界 岩国の花火休止へ",
-     "link": "https://news.yahoo.co.jp/pickup/6593094?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 23:45:47 GMT"
+     "title": "路上に手りゅう弾か 近くに小学校",
+     "link": "https://news.yahoo.co.jp/pickup/6593113?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 02:34:08 GMT"
     },
     {
-     "title": "「ゴーストレストラン」増加の訳",
-     "link": "https://news.yahoo.co.jp/pickup/6593104?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 01:26:13 GMT"
+     "title": "モスも冷凍食品参入 各社強化の訳",
+     "link": "https://news.yahoo.co.jp/pickup/6593092?source=rss",
+     "pubDate": "Tue, 25 Aug 2026 23:17:02 GMT"
     },
     {
-     "title": "ジムニー対抗車 他社が作らない訳",
-     "link": "https://news.yahoo.co.jp/pickup/6593096?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 00:05:42 GMT"
+     "title": "川に流された小2 救った高3の直感",
+     "link": "https://news.yahoo.co.jp/pickup/6593112?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 02:28:42 GMT"
     },
     {
-     "title": "アリサ・リュウ 今季は競技不参加",
-     "link": "https://news.yahoo.co.jp/pickup/6593097?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 00:24:26 GMT"
+     "title": "各局人気アナ 結婚発表ラッシュ",
+     "link": "https://news.yahoo.co.jp/pickup/6593116?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 02:50:44 GMT"
     },
     {
-     "title": "ABC大石アナ 結婚生報告で涙ぐむ",
-     "link": "https://news.yahoo.co.jp/pickup/6593106?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 01:44:42 GMT"
+     "title": "早見あかり 過去に自分の性格矯正",
+     "link": "https://news.yahoo.co.jp/pickup/6593121?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 03:12:45 GMT"
     }
    ]
   }
