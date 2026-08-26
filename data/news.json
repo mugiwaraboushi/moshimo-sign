@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-26T10:03:05.398Z",
+ "updatedAt": "2026-08-26T10:56:44.003Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "福岡県で40度以上「酷暑日」に 各地で危険な暑さ 熱中症対策を",
+     "title": "福岡県で40度以上の「酷暑日」に 広い範囲で熱帯夜の見込み",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46337",
-     "pubDate": "Wed, 26 Aug 2026 16:27:18 +0900"
+     "pubDate": "Wed, 26 Aug 2026 19:20:53 +0900"
     },
     {
-     "title": "ICC赤根所長トランプ政権の制裁発表後 初の会見",
+     "title": "トランプ政権から制裁のICC赤根所長“日本政府の役割に期待”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46462",
-     "pubDate": "Wed, 26 Aug 2026 18:11:09 +0900"
+     "pubDate": "Wed, 26 Aug 2026 19:39:47 +0900"
+    },
+    {
+     "title": "熊本 被災地で極端に雨の少ない状況 レンコンやイチゴに影響",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46396",
+     "pubDate": "Wed, 26 Aug 2026 19:10:36 +0900"
+    },
+    {
+     "title": "栃木4人死亡列車事故 列車通過時刻が十分に共有されずか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46505",
+     "pubDate": "Wed, 26 Aug 2026 19:24:33 +0900"
+    },
+    {
+     "title": "福岡県議会 自民県議団 藏内氏後任議長候補 9月2日絞り込みへ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46487",
+     "pubDate": "Wed, 26 Aug 2026 19:04:57 +0900"
     },
     {
      "title": "イラン国営メディア トランプ大統領息子の命脅かす映像 米報道",
@@ -26,21 +41,6 @@
      "title": "辺野古転覆事故 同志社理事長の辞任と校長の解任を発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46467",
      "pubDate": "Wed, 26 Aug 2026 17:59:19 +0900"
-    },
-    {
-     "title": "CIA長官がモスクワ訪問か ロシアに警告の見方も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46411",
-     "pubDate": "Wed, 26 Aug 2026 13:22:46 +0900"
-    },
-    {
-     "title": "熊本 宇城 被災した中学校の授業再開前に教職員が心のケア学ぶ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46464",
-     "pubDate": "Wed, 26 Aug 2026 18:05:34 +0900"
-    },
-    {
-     "title": "「フィジカルAI」を複数企業が共同で開発進める施設 稼働開始",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46466",
-     "pubDate": "Wed, 26 Aug 2026 16:55:59 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "高級時計窃盗事件 事件の40分前 JR中野駅前に2人組の姿",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46499",
+     "pubDate": "Wed, 26 Aug 2026 19:52:02 +0900"
+    },
+    {
+     "title": "オンライン詐欺対策 事業者が連携強化へ新たな枠組み",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46496",
+     "pubDate": "Wed, 26 Aug 2026 19:40:13 +0900"
+    },
+    {
+     "title": "栃木4人死亡列車事故 列車通過時刻が十分に共有されずか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46505",
+     "pubDate": "Wed, 26 Aug 2026 19:24:33 +0900"
+    },
     {
      "title": "山口 “貴婦人”蒸気機関車「C57」が6年ぶり運行へ試運転",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46488",
@@ -108,21 +123,6 @@
      "title": "熊本 宇城 ラグビー五郎丸さんが子どもと交流【被災地の動き】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46129",
      "pubDate": "Tue, 25 Aug 2026 18:54:31 +0900"
-    },
-    {
-     "title": "4人死亡事故で関東運輸局が東武鉄道に立ち入り調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46263",
-     "pubDate": "Tue, 25 Aug 2026 18:39:18 +0900"
-    },
-    {
-     "title": "文科省 来年度予算案の概算要求で過去最大の8兆8000億円",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46241",
-     "pubDate": "Tue, 25 Aug 2026 18:36:18 +0900"
-    },
-    {
-     "title": "神奈川 船舶衝突事故 「花火見に行く途中」 海保が詳しく捜査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46260",
-     "pubDate": "Tue, 25 Aug 2026 18:26:41 +0900"
     }
    ]
   },
@@ -214,14 +214,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月26日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44567",
+     "pubDate": "Wed, 26 Aug 2026 19:53:43 +0900"
+    },
+    {
      "title": "高市首相 日本とベトナムが舞台のミュージカル 主演俳優を激励",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46459",
      "pubDate": "Wed, 26 Aug 2026 17:56:37 +0900"
     },
     {
-     "title": "ICC赤根所長トランプ政権の制裁発表後 初の会見",
+     "title": "トランプ政権から制裁のICC赤根所長“日本政府の役割に期待”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46462",
-     "pubDate": "Wed, 26 Aug 2026 18:11:09 +0900"
+     "pubDate": "Wed, 26 Aug 2026 19:39:47 +0900"
     },
     {
      "title": "“北朝鮮キム総書記 ことしの経済分野など目標達成指示”報道",
@@ -282,11 +287,6 @@
      "title": "農水副大臣がAPEC会合で中国閣僚とことば交わす",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46315",
      "pubDate": "Tue, 25 Aug 2026 22:01:59 +0900"
-    },
-    {
-     "title": "パリ近郊 サウジの資金で日本の漫画扱うテーマパーク建設へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46311",
-     "pubDate": "Tue, 25 Aug 2026 21:56:51 +0900"
     }
    ]
   },
@@ -296,9 +296,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "ICC赤根所長 制裁受ける理由ない",
-     "link": "https://news.yahoo.co.jp/pickup/6593168?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 09:26:10 GMT"
+     "title": "備蓄米買い戻しへ 農水省最終調整",
+     "link": "https://news.yahoo.co.jp/pickup/6593175?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 10:46:43 GMT"
     },
     {
      "title": "ひかりんちょ 夏休み明けに不登校",
@@ -311,19 +311,19 @@
      "pubDate": "Wed, 26 Aug 2026 08:49:46 GMT"
     },
     {
-     "title": "TikTokに罰金47億円 ブラジル",
-     "link": "https://news.yahoo.co.jp/pickup/6593102?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 01:18:05 GMT"
-    },
-    {
      "title": "左右の足間違え手術 患者側と和解",
      "link": "https://news.yahoo.co.jp/pickup/6593163?source=rss",
      "pubDate": "Wed, 26 Aug 2026 09:02:47 GMT"
     },
     {
-     "title": "龍谷大の硬式野球部 活動を停止中",
-     "link": "https://news.yahoo.co.jp/pickup/6593148?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 07:28:36 GMT"
+     "title": "食パン不法投棄 偽画像拡散相次ぐ",
+     "link": "https://news.yahoo.co.jp/pickup/6593151?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 07:54:05 GMT"
+    },
+    {
+     "title": "那須川天心 始球式でワンバン投球",
+     "link": "https://news.yahoo.co.jp/pickup/6593173?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 10:33:22 GMT"
     },
     {
      "title": "Vaundy 上海公演の中止を発表",
