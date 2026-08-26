@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-26T05:01:17.967Z",
+ "updatedAt": "2026-08-26T05:55:31.912Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "西日本中心に35度以上の猛烈な暑さに 急な激しい雨にも注意を",
+     "title": "福岡空港で40.4度観測「酷暑日」に 熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46337",
-     "pubDate": "Wed, 26 Aug 2026 12:30:08 +0900"
+     "pubDate": "Wed, 26 Aug 2026 14:13:23 +0900"
     },
     {
      "title": "イラン国営メディア トランプ大統領息子の命脅かす映像 米報道",
@@ -67,7 +67,7 @@
     {
      "title": "【動画】Pickup NEWS（8月26日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46261",
-     "pubDate": "Wed, 26 Aug 2026 11:18:11 +0900"
+     "pubDate": "Wed, 26 Aug 2026 14:22:05 +0900"
     },
     {
      "title": "高級時計窃盗事件 駅方向に逃走か 2人組の行方捜査 警視庁",
@@ -296,9 +296,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "沖縄・奄美 台風の影響長引く",
-     "link": "https://news.yahoo.co.jp/pickup/6593125?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 03:35:45 GMT"
+     "title": "博多区で40.4℃ 福岡市初の酷暑日",
+     "link": "https://news.yahoo.co.jp/pickup/6593134?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 05:14:42 GMT"
     },
     {
      "title": "田久保氏巡る刑事裁判 焦点を解説",
@@ -311,14 +311,14 @@
      "pubDate": "Wed, 26 Aug 2026 04:36:55 GMT"
     },
     {
-     "title": "子助けようとしたか 父流され死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6593114?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 02:56:44 GMT"
+     "title": "自転車の中学生 はねられ意識不明",
+     "link": "https://news.yahoo.co.jp/pickup/6593133?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 05:10:47 GMT"
     },
     {
-     "title": "路上に「手りゅう弾」玩具と判明",
-     "link": "https://news.yahoo.co.jp/pickup/6593128?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 04:29:40 GMT"
+     "title": "世界12都市エアコン使用 東京最長",
+     "link": "https://news.yahoo.co.jp/pickup/6593131?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 04:45:08 GMT"
     },
     {
      "title": "セブンとヤマト セルフ発送機発表",
@@ -326,14 +326,14 @@
      "pubDate": "Wed, 26 Aug 2026 04:29:37 GMT"
     },
     {
-     "title": "各局人気アナ 結婚発表ラッシュ",
-     "link": "https://news.yahoo.co.jp/pickup/6593116?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 02:50:44 GMT"
+     "title": "VIVANT なぜ視聴率ダントツ維持",
+     "link": "https://news.yahoo.co.jp/pickup/6593130?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 04:54:15 GMT"
     },
     {
-     "title": "長州小力 解雇されたことには感謝",
-     "link": "https://news.yahoo.co.jp/pickup/6593117?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 02:38:28 GMT"
+     "title": "サンド伊達 体調不良で公演を欠席",
+     "link": "https://news.yahoo.co.jp/pickup/6593132?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 05:05:09 GMT"
     }
    ]
   }
