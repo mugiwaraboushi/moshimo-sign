@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-26T16:42:11.769Z",
+ "updatedAt": "2026-08-26T18:31:57.572Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "富山県西部で線状降水帯発生 厳重警戒",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46574",
+     "pubDate": "Thu, 27 Aug 2026 03:14:29 +0900"
+    },
     {
      "title": "ネパール・中国の国境地帯で土石流 両国で98人死亡740人余不明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46535",
@@ -36,11 +41,6 @@
      "title": "高知 物部川でアユ大量死 猛暑や少雨で水温上昇が原因か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46537",
      "pubDate": "Thu, 27 Aug 2026 00:28:55 +0900"
-    },
-    {
-     "title": "中道の立民出身議員 立民の結論踏まえ対応検討 3党合流めぐり",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46566",
-     "pubDate": "Wed, 26 Aug 2026 23:20:38 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "富士山の大噴火に大雨重なると浸水拡大のおそれ 専門家試算",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46512",
+     "pubDate": "Thu, 27 Aug 2026 03:26:02 +0900"
+    },
     {
      "title": "元弁護士 1億6000万円余り横領の罪 初公判で起訴内容認める",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46564",
@@ -118,11 +123,6 @@
      "title": "高級時計窃盗事件 2人組の男 現場にハンマー残し逃走か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46385",
      "pubDate": "Wed, 26 Aug 2026 16:14:05 +0900"
-    },
-    {
-     "title": "秋篠宮ご夫妻 パラグアイから帰国「有意義な旅となった」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46355",
-     "pubDate": "Wed, 26 Aug 2026 10:36:00 +0900"
     }
    ]
   },
@@ -206,7 +206,7 @@
     {
      "title": "パキスタンの医療機関で火災 新生児14人が死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46562",
-     "pubDate": "Wed, 26 Aug 2026 23:43:43 +0900"
+     "pubDate": "Wed, 26 Aug 2026 23:43:00 +0900"
     },
     {
      "title": "中国 習主席が上海協力機構の首脳会議出席でキルギスへ",
