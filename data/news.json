@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-26T13:30:11.665Z",
+ "updatedAt": "2026-08-26T14:11:46.724Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,9 @@
      "pubDate": "Wed, 26 Aug 2026 21:33:00 +0900"
     },
     {
-     "title": "福岡県で40度以上の「酷暑日」に 広い範囲で熱帯夜の見込み",
+     "title": "福岡県で40度以上の「酷暑日」に 広い範囲で大気不安定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46337",
-     "pubDate": "Wed, 26 Aug 2026 19:20:53 +0900"
+     "pubDate": "Wed, 26 Aug 2026 22:55:45 +0900"
     },
     {
      "title": "トランプ政権から制裁のICC赤根所長“日本政府の役割に期待”",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "文化庁の補助金不交付 不服審査請求に対する裁決取り消す判決",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46544",
+     "pubDate": "Wed, 26 Aug 2026 23:01:19 +0900"
+    },
     {
      "title": "AI開発での個人情報取得規制緩和 運用ルールづくり進める",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46526",
@@ -118,11 +123,6 @@
      "title": "【動画】Pickup NEWS（8月26日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46261",
      "pubDate": "Wed, 26 Aug 2026 20:21:19 +0900"
-    },
-    {
-     "title": "高級時計窃盗事件 駅方向に逃走か 2人組の行方捜査 警視庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46322",
-     "pubDate": "Wed, 26 Aug 2026 06:19:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "文化庁の補助金不交付 不服審査請求に対する裁決取り消す判決",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46544",
+     "pubDate": "Wed, 26 Aug 2026 23:01:19 +0900"
+    },
     {
      "title": "中部電力 浜岡原発の廃炉作業めぐり新たな不適切事案判明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46523",
@@ -200,11 +205,6 @@
      "title": "スリーマイル島原発廃炉 初取材 AI需要で隣接原子炉再稼働へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260820de45306",
      "pubDate": "Thu, 20 Aug 2026 16:35:00 +0900"
-    },
-    {
-     "title": "フェルメール代表作「真珠の耳飾りの少女」14年ぶり来日公開へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45080",
-     "pubDate": "Thu, 20 Aug 2026 06:30:00 +0900"
     }
    ]
   },
@@ -213,6 +213,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "NY原油市場WTI 約2週間ぶり1バレル＝80ドル下回る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46558",
+     "pubDate": "Wed, 26 Aug 2026 23:04:48 +0900"
+    },
+    {
+     "title": "モルドバとの国境検問所が攻撃受ける ウクライナ外相が非難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46516",
+     "pubDate": "Wed, 26 Aug 2026 22:54:32 +0900"
+    },
     {
      "title": "高市首相“ホルムズ海峡は自由で安全な航行確保が重要”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46531",
@@ -277,16 +287,6 @@
      "title": "米「カントリー音楽の女王」ドリー・パートンさん死去",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46361",
      "pubDate": "Wed, 26 Aug 2026 16:56:55 +0900"
-    },
-    {
-     "title": "国連とICRC AI使用の自律型兵器の規制を各国に呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46353",
-     "pubDate": "Wed, 26 Aug 2026 10:40:00 +0900"
-    },
-    {
-     "title": "トランプ大統領 オンタリオ湖の改称検討 カナダとの対立激化",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46334",
-     "pubDate": "Wed, 26 Aug 2026 07:46:00 +0900"
     }
    ]
   },
