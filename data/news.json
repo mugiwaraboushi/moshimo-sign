@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-26T09:07:48.006Z",
+ "updatedAt": "2026-08-26T10:03:05.398Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【ライブ中】ICC赤根所長トランプ政権の制裁発表後 初の会見",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46462",
-     "pubDate": "Wed, 26 Aug 2026 18:00:38 +0900"
-    },
-    {
      "title": "福岡県で40度以上「酷暑日」に 各地で危険な暑さ 熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46337",
      "pubDate": "Wed, 26 Aug 2026 16:27:18 +0900"
+    },
+    {
+     "title": "ICC赤根所長トランプ政権の制裁発表後 初の会見",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46462",
+     "pubDate": "Wed, 26 Aug 2026 18:11:09 +0900"
     },
     {
      "title": "イラン国営メディア トランプ大統領息子の命脅かす映像 米報道",
@@ -23,9 +23,9 @@
      "pubDate": "Wed, 26 Aug 2026 13:06:35 +0900"
     },
     {
-     "title": "台風18号 奄美や沖縄本島から遠ざかるも土砂災害に厳重警戒を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46333",
-     "pubDate": "Wed, 26 Aug 2026 16:22:58 +0900"
+     "title": "辺野古転覆事故 同志社理事長の辞任と校長の解任を発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46467",
+     "pubDate": "Wed, 26 Aug 2026 17:59:19 +0900"
     },
     {
      "title": "CIA長官がモスクワ訪問か ロシアに警告の見方も",
@@ -33,14 +33,14 @@
      "pubDate": "Wed, 26 Aug 2026 13:22:46 +0900"
     },
     {
-     "title": "政府 「副首都」構想で10月下旬めどに指定要件など決める方針",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46472",
-     "pubDate": "Wed, 26 Aug 2026 17:15:00 +0900"
+     "title": "熊本 宇城 被災した中学校の授業再開前に教職員が心のケア学ぶ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46464",
+     "pubDate": "Wed, 26 Aug 2026 18:05:34 +0900"
     },
     {
-     "title": "AI関連の展示会「フィジカルAI」に注目集まる 約100社が出展",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46402",
-     "pubDate": "Wed, 26 Aug 2026 13:04:23 +0900"
+     "title": "「フィジカルAI」を複数企業が共同で開発進める施設 稼働開始",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46466",
+     "pubDate": "Wed, 26 Aug 2026 16:55:59 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "山口 “貴婦人”蒸気機関車「C57」が6年ぶり運行へ試運転",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46488",
+     "pubDate": "Wed, 26 Aug 2026 19:01:22 +0900"
+    },
+    {
+     "title": "千葉豪雨 車の浸水 大手損保では保険請求受け付け1万3800件超",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46481",
+     "pubDate": "Wed, 26 Aug 2026 19:00:15 +0900"
+    },
     {
      "title": "辺野古転覆事故 同志社理事長の辞任と校長の解任を発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46467",
@@ -113,16 +123,6 @@
      "title": "神奈川 船舶衝突事故 「花火見に行く途中」 海保が詳しく捜査",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46260",
      "pubDate": "Tue, 25 Aug 2026 18:26:41 +0900"
-    },
-    {
-     "title": "「ナチュラル」トップを再逮捕 偽名でホテル宿泊か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46138",
-     "pubDate": "Tue, 25 Aug 2026 16:26:03 +0900"
-    },
-    {
-     "title": "辺野古転覆事故 同志社理事長が引責辞任意向 高校校長も退任へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46215",
-     "pubDate": "Tue, 25 Aug 2026 18:32:56 +0900"
     }
    ]
   },
@@ -219,9 +219,9 @@
      "pubDate": "Wed, 26 Aug 2026 17:56:37 +0900"
     },
     {
-     "title": "【ライブ中】ICC赤根所長トランプ政権の制裁発表後 初の会見",
+     "title": "ICC赤根所長トランプ政権の制裁発表後 初の会見",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46462",
-     "pubDate": "Wed, 26 Aug 2026 18:00:38 +0900"
+     "pubDate": "Wed, 26 Aug 2026 18:11:09 +0900"
     },
     {
      "title": "“北朝鮮キム総書記 ことしの経済分野など目標達成指示”報道",
@@ -296,14 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "中継 ICC赤根所長が制裁巡り会見",
-     "link": "https://news.yahoo.co.jp/pickup/6593152?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 08:02:33 GMT"
+     "title": "ICC赤根所長 制裁受ける理由ない",
+     "link": "https://news.yahoo.co.jp/pickup/6593168?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 09:26:10 GMT"
     },
     {
-     "title": "猛暑一転 天気の主役は秋雨前線に",
-     "link": "https://news.yahoo.co.jp/pickup/6593150?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 07:44:20 GMT"
+     "title": "ひかりんちょ 夏休み明けに不登校",
+     "link": "https://news.yahoo.co.jp/pickup/6593162?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 08:42:57 GMT"
     },
     {
      "title": "トランプ氏の息子殺害示唆 イラン",
@@ -311,19 +311,14 @@
      "pubDate": "Wed, 26 Aug 2026 08:49:46 GMT"
     },
     {
-     "title": "高2死亡事件 死因は「脳挫傷」",
-     "link": "https://news.yahoo.co.jp/pickup/6593161?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 08:49:38 GMT"
+     "title": "TikTokに罰金47億円 ブラジル",
+     "link": "https://news.yahoo.co.jp/pickup/6593102?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 01:18:05 GMT"
     },
     {
-     "title": "26年間不法在留疑い 70代の男逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6593159?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 08:35:37 GMT"
-    },
-    {
-     "title": "ファミマ 服装や髪色に新ルール",
-     "link": "https://news.yahoo.co.jp/pickup/6593139?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 06:15:39 GMT"
+     "title": "左右の足間違え手術 患者側と和解",
+     "link": "https://news.yahoo.co.jp/pickup/6593163?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 09:02:47 GMT"
     },
     {
      "title": "龍谷大の硬式野球部 活動を停止中",
@@ -331,9 +326,14 @@
      "pubDate": "Wed, 26 Aug 2026 07:28:36 GMT"
     },
     {
-     "title": "ひかりんちょ 夏休み明けに不登校",
-     "link": "https://news.yahoo.co.jp/pickup/6593162?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 08:42:57 GMT"
+     "title": "Vaundy 上海公演の中止を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6593170?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 09:53:01 GMT"
+    },
+    {
+     "title": "青木マッチョ コンビ解散を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6593171?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 09:50:33 GMT"
     }
    ]
   }
