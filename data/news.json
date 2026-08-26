@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-26T10:56:44.003Z",
+ "updatedAt": "2026-08-26T11:20:28.448Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "中部電力 浜岡原発めぐり新たな不適切事案判明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46523",
+     "pubDate": "Wed, 26 Aug 2026 19:57:41 +0900"
+    },
+    {
+     "title": "ネパールで洪水 380人以上の観光客が行方不明か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46535",
+     "pubDate": "Wed, 26 Aug 2026 20:06:38 +0900"
+    },
     {
      "title": "福岡県で40度以上の「酷暑日」に 広い範囲で熱帯夜の見込み",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46337",
@@ -23,11 +33,6 @@
      "pubDate": "Wed, 26 Aug 2026 19:10:36 +0900"
     },
     {
-     "title": "栃木4人死亡列車事故 列車通過時刻が十分に共有されずか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46505",
-     "pubDate": "Wed, 26 Aug 2026 19:24:33 +0900"
-    },
-    {
      "title": "福岡県議会 自民県議団 藏内氏後任議長候補 9月2日絞り込みへ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46487",
      "pubDate": "Wed, 26 Aug 2026 19:04:57 +0900"
@@ -36,11 +41,6 @@
      "title": "イラン国営メディア トランプ大統領息子の命脅かす映像 米報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46398",
      "pubDate": "Wed, 26 Aug 2026 13:06:35 +0900"
-    },
-    {
-     "title": "辺野古転覆事故 同志社理事長の辞任と校長の解任を発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46467",
-     "pubDate": "Wed, 26 Aug 2026 17:59:19 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "マッチングアプリで誘い出し240万円余支払わせる 男女3人逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46490",
+     "pubDate": "Wed, 26 Aug 2026 20:15:13 +0900"
+    },
+    {
+     "title": "中部電力 浜岡原発めぐり新たな不適切事案判明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46523",
+     "pubDate": "Wed, 26 Aug 2026 19:57:41 +0900"
+    },
     {
      "title": "高級時計窃盗事件 事件の40分前 JR中野駅前に2人組の姿",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46499",
@@ -62,7 +72,7 @@
     {
      "title": "栃木4人死亡列車事故 列車通過時刻が十分に共有されずか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46505",
-     "pubDate": "Wed, 26 Aug 2026 19:24:33 +0900"
+     "pubDate": "Wed, 26 Aug 2026 19:24:00 +0900"
     },
     {
      "title": "山口 “貴婦人”蒸気機関車「C57」が6年ぶり運行へ試運転",
@@ -113,16 +123,6 @@
      "title": "「百日せき」患者増の2か月前に下水調査で流行の兆し 阪大など",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46306",
      "pubDate": "Wed, 26 Aug 2026 04:48:00 +0900"
-    },
-    {
-     "title": "正岡子規 未発表の2句見つかる 新年の心情込めた俳句など",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46283",
-     "pubDate": "Tue, 25 Aug 2026 19:06:14 +0900"
-    },
-    {
-     "title": "熊本 宇城 ラグビー五郎丸さんが子どもと交流【被災地の動き】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46129",
-     "pubDate": "Tue, 25 Aug 2026 18:54:31 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "中部電力 浜岡原発めぐり新たな不適切事案判明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46523",
+     "pubDate": "Wed, 26 Aug 2026 19:57:41 +0900"
+    },
     {
      "title": "米「カントリー音楽の女王」ドリー・パートンさん死去",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46361",
@@ -200,11 +205,6 @@
      "title": "フェルメール代表作「真珠の耳飾りの少女」14年ぶり来日公開へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260819de45080",
      "pubDate": "Thu, 20 Aug 2026 06:30:00 +0900"
-    },
-    {
-     "title": "鎌倉時代の「元寇の矢」見つかる 元が南宋から接収し転用か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260819de45169",
-     "pubDate": "Thu, 20 Aug 2026 05:05:00 +0900"
     }
    ]
   },
@@ -213,6 +213,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "ネパールで洪水 380人以上の観光客が行方不明か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46535",
+     "pubDate": "Wed, 26 Aug 2026 20:06:38 +0900"
+    },
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月26日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44567",
@@ -282,11 +287,6 @@
      "title": "ロシア 攻撃防護対策不十分な施設を政府管理下に置く大統領令",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46330",
      "pubDate": "Wed, 26 Aug 2026 07:35:19 +0900"
-    },
-    {
-     "title": "農水副大臣がAPEC会合で中国閣僚とことば交わす",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46315",
-     "pubDate": "Tue, 25 Aug 2026 22:01:59 +0900"
     }
    ]
   },
@@ -311,6 +311,11 @@
      "pubDate": "Wed, 26 Aug 2026 08:49:46 GMT"
     },
     {
+     "title": "時計窃盗 電動ボード直前借りたか",
+     "link": "https://news.yahoo.co.jp/pickup/6593176?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 10:48:19 GMT"
+    },
+    {
      "title": "左右の足間違え手術 患者側と和解",
      "link": "https://news.yahoo.co.jp/pickup/6593163?source=rss",
      "pubDate": "Wed, 26 Aug 2026 09:02:47 GMT"
@@ -319,11 +324,6 @@
      "title": "食パン不法投棄 偽画像拡散相次ぐ",
      "link": "https://news.yahoo.co.jp/pickup/6593151?source=rss",
      "pubDate": "Wed, 26 Aug 2026 07:54:05 GMT"
-    },
-    {
-     "title": "那須川天心 始球式でワンバン投球",
-     "link": "https://news.yahoo.co.jp/pickup/6593173?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 10:33:22 GMT"
     },
     {
      "title": "Vaundy 上海公演の中止を発表",
