@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-26T15:57:27.954Z",
+ "updatedAt": "2026-08-26T16:42:11.769Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -38,9 +38,9 @@
      "pubDate": "Thu, 27 Aug 2026 00:28:55 +0900"
     },
     {
-     "title": "台風18号 奄美や沖縄本島から遠ざかるも影響残る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46333",
-     "pubDate": "Wed, 26 Aug 2026 23:34:15 +0900"
+     "title": "中道の立民出身議員 立民の結論踏まえ対応検討 3党合流めぐり",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46566",
+     "pubDate": "Wed, 26 Aug 2026 23:20:38 +0900"
     }
    ]
   },
