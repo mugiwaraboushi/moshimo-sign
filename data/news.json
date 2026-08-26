@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-26T18:31:57.572Z",
+ "updatedAt": "2026-08-26T21:21:53.905Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "富山県西部で線状降水帯発生 厳重警戒",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46574",
-     "pubDate": "Thu, 27 Aug 2026 03:14:29 +0900"
+     "title": "石川 加賀に「線状降水帯直前予測」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46590",
+     "pubDate": "Thu, 27 Aug 2026 05:55:30 +0900"
     },
     {
-     "title": "ネパール・中国の国境地帯で土石流 両国で98人死亡740人余不明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46535",
-     "pubDate": "Thu, 27 Aug 2026 00:50:36 +0900"
+     "title": "富山 石川で線状降水帯発生 土砂災害など厳重警戒",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46585",
+     "pubDate": "Thu, 27 Aug 2026 06:11:08 +0900"
     },
     {
-     "title": "中部電力 浜岡原発の廃炉作業めぐり新たな不適切事案判明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46523",
-     "pubDate": "Wed, 26 Aug 2026 21:33:00 +0900"
+     "title": "石川 志賀町付近で記録的大雨 災害の危険迫る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46589",
+     "pubDate": "Thu, 27 Aug 2026 05:44:42 +0900"
     },
     {
-     "title": "福岡県で40度以上の「酷暑日」に 広い範囲で大気不安定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46337",
-     "pubDate": "Wed, 26 Aug 2026 22:55:45 +0900"
+     "title": "ネパール・中国の国境地帯で土石流“日本人5人と連絡取れず”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46576",
+     "pubDate": "Thu, 27 Aug 2026 05:05:37 +0900"
     },
     {
-     "title": "熊本地震支援パッケージ案 観光振興で「応援割」盛り込む",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46561",
-     "pubDate": "Wed, 26 Aug 2026 23:05:00 +0900"
+     "title": "中部電力 浜岡原発の廃炉めぐる不適切事案 きょう公表へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46580",
+     "pubDate": "Thu, 27 Aug 2026 04:37:25 +0900"
     },
     {
-     "title": "千葉豪雨から2週間 高齢者施設で復旧遅れ続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46485",
-     "pubDate": "Wed, 26 Aug 2026 20:17:16 +0900"
+     "title": "沖縄県知事選挙きょう告示 基地負担や経済など論戦へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46552",
+     "pubDate": "Thu, 27 Aug 2026 05:33:54 +0900"
     },
     {
-     "title": "高知 物部川でアユ大量死 猛暑や少雨で水温上昇が原因か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46537",
-     "pubDate": "Thu, 27 Aug 2026 00:28:55 +0900"
+     "title": "高級時計窃盗事件 盗まれた時計は最高価格帯 事前に下見か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46560",
+     "pubDate": "Thu, 27 Aug 2026 05:26:05 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "高級時計窃盗事件 盗まれた時計は最高価格帯 事前に下見か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46560",
+     "pubDate": "Thu, 27 Aug 2026 05:26:05 +0900"
+    },
     {
      "title": "富士山の大噴火に大雨重なると浸水拡大のおそれ 専門家試算",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46512",
@@ -118,11 +123,6 @@
      "title": "香川 水不足が稲作にも影響 干上がる田んぼも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46406",
      "pubDate": "Wed, 26 Aug 2026 13:05:00 +0900"
-    },
-    {
-     "title": "高級時計窃盗事件 2人組の男 現場にハンマー残し逃走か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46385",
-     "pubDate": "Wed, 26 Aug 2026 16:14:05 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "原子力規制庁 来年度予算案の概算要求に次世代炉審査の調査費",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46568",
+     "pubDate": "Thu, 27 Aug 2026 05:35:39 +0900"
+    },
+    {
+     "title": "中部電力 浜岡原発の廃炉めぐる不適切事案 きょう公表へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46580",
+     "pubDate": "Thu, 27 Aug 2026 04:37:25 +0900"
+    },
     {
      "title": "文化庁の補助金不交付 不服審査請求に対する裁決取り消す判決",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46544",
@@ -204,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "中国ロボット運動会 100m決勝は5台が8秒台 技術開発が加速",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46581",
+     "pubDate": "Thu, 27 Aug 2026 05:45:43 +0900"
+    },
+    {
+     "title": "ネパール・中国の国境地帯で土石流“日本人5人と連絡取れず”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46576",
+     "pubDate": "Thu, 27 Aug 2026 05:05:37 +0900"
+    },
+    {
      "title": "パキスタンの医療機関で火災 新生児14人が死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46562",
      "pubDate": "Wed, 26 Aug 2026 23:43:00 +0900"
@@ -261,22 +281,12 @@
     {
      "title": "CIA長官がモスクワ訪問か ロシアに警告の見方も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46411",
-     "pubDate": "Wed, 26 Aug 2026 13:22:46 +0900"
+     "pubDate": "Thu, 27 Aug 2026 05:30:12 +0900"
     },
     {
      "title": "イラン国営メディア トランプ大統領息子の命脅かす映像 米報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46398",
      "pubDate": "Wed, 26 Aug 2026 13:06:35 +0900"
-    },
-    {
-     "title": "イランへの制裁 米の元制裁調査官“交渉の席に戻すねらい”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46381",
-     "pubDate": "Wed, 26 Aug 2026 11:46:12 +0900"
-    },
-    {
-     "title": "米ルビオ長官“当面新たな攻撃なし”同盟国などに伝達 米報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46380",
-     "pubDate": "Wed, 26 Aug 2026 11:33:00 +0900"
     }
    ]
   },
@@ -291,14 +301,14 @@
      "pubDate": "Wed, 26 Aug 2026 12:00:22 GMT"
     },
     {
-     "title": "ネパール洪水 観光客約380人不明",
-     "link": "https://news.yahoo.co.jp/pickup/6593197?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 14:49:45 GMT"
-    },
-    {
      "title": "学校版カスハラ指針 国が策定へ",
      "link": "https://news.yahoo.co.jp/pickup/6593196?source=rss",
      "pubDate": "Wed, 26 Aug 2026 14:36:02 GMT"
+    },
+    {
+     "title": "ネパール洪水日本人5人連絡取れず",
+     "link": "https://news.yahoo.co.jp/pickup/6593198?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 21:12:53 GMT"
     },
     {
      "title": "ヘンリー王子一家が帰国 英報道",
