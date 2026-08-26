@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-26T07:16:37.081Z",
+ "updatedAt": "2026-08-26T08:04:53.410Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "【ライブ中】ICC赤根所長トランプ政権の制裁発表後 初の会見",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46462",
+     "pubDate": "Wed, 26 Aug 2026 16:45:00 +0900"
+    },
+    {
      "title": "福岡県で40度以上「酷暑日」に 各地で危険な暑さ 熱中症対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46337",
-     "pubDate": "Wed, 26 Aug 2026 15:12:17 +0900"
+     "pubDate": "Wed, 26 Aug 2026 16:27:18 +0900"
     },
     {
      "title": "イラン国営メディア トランプ大統領息子の命脅かす映像 米報道",
@@ -20,17 +25,12 @@
     {
      "title": "台風18号 奄美や沖縄本島から遠ざかるも土砂災害に厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46333",
-     "pubDate": "Wed, 26 Aug 2026 13:13:57 +0900"
+     "pubDate": "Wed, 26 Aug 2026 16:22:58 +0900"
     },
     {
      "title": "CIA長官がモスクワ訪問か ロシアに警告の見方も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46411",
      "pubDate": "Wed, 26 Aug 2026 13:22:46 +0900"
-    },
-    {
-     "title": "法務省 概算要求で外国人在留の適正管理に807億円余",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46460",
-     "pubDate": "Wed, 26 Aug 2026 16:03:06 +0900"
     },
     {
      "title": "AI関連の展示会「フィジカルAI」に注目集まる 約100社が出展",
@@ -134,7 +134,7 @@
     {
      "title": "米「カントリー音楽の女王」ドリー・パートンさん死去",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46361",
-     "pubDate": "Wed, 26 Aug 2026 11:11:00 +0900"
+     "pubDate": "Wed, 26 Aug 2026 16:56:55 +0900"
     },
     {
      "title": "「科研費」倍増の約4500億円要求へ 文科省が来年度予算で",
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【ライブ中】ICC赤根所長トランプ政権の制裁発表後 初の会見",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46462",
+     "pubDate": "Wed, 26 Aug 2026 16:45:00 +0900"
+    },
+    {
+     "title": "“北朝鮮キム総書記 ことしの経済分野など目標達成指示”報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46401",
+     "pubDate": "Wed, 26 Aug 2026 16:27:04 +0900"
+    },
+    {
      "title": "CIA長官がモスクワ訪問か ロシアに警告の見方も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46411",
      "pubDate": "Wed, 26 Aug 2026 13:22:46 +0900"
@@ -241,7 +251,7 @@
     {
      "title": "米「カントリー音楽の女王」ドリー・パートンさん死去",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46361",
-     "pubDate": "Wed, 26 Aug 2026 11:11:00 +0900"
+     "pubDate": "Wed, 26 Aug 2026 16:56:55 +0900"
     },
     {
      "title": "国連とICRC AI使用の自律型兵器の規制を各国に呼びかけ",
@@ -277,16 +287,6 @@
      "title": "アメリカ経済制裁 イランと中国反発 パキスタンはイランと協議",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46289",
      "pubDate": "Tue, 25 Aug 2026 20:27:17 +0900"
-    },
-    {
-     "title": "高市首相 ICC赤根所長への制裁は日本の立場と相いれず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46290",
-     "pubDate": "Tue, 25 Aug 2026 19:41:02 +0900"
-    },
-    {
-     "title": "茂木外相「米国ICC制裁は日本の立場と相いれない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46243",
-     "pubDate": "Tue, 25 Aug 2026 17:10:00 +0900"
     }
    ]
   },
@@ -296,9 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "博多区で40.4℃ 福岡市初の酷暑日",
-     "link": "https://news.yahoo.co.jp/pickup/6593134?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 05:14:42 GMT"
+     "title": "中継 ICC赤根所長が制裁巡り会見",
+     "link": "https://news.yahoo.co.jp/pickup/6593152?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 08:02:33 GMT"
+    },
+    {
+     "title": "猛暑一転 天気の主役は秋雨前線に",
+     "link": "https://news.yahoo.co.jp/pickup/6593150?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 07:44:20 GMT"
     },
     {
      "title": "石川に修学旅行 前年度から5割増",
@@ -306,19 +311,9 @@
      "pubDate": "Wed, 26 Aug 2026 06:42:12 GMT"
     },
     {
-     "title": "富士山で遭難激増 シャリバテとは",
-     "link": "https://news.yahoo.co.jp/pickup/6593135?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 05:54:10 GMT"
-    },
-    {
-     "title": "女子ばかり行列 学校トイレ巡る声",
-     "link": "https://news.yahoo.co.jp/pickup/6593138?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 06:01:51 GMT"
-    },
-    {
-     "title": "低価格から変化 ベローチェの戦略",
-     "link": "https://news.yahoo.co.jp/pickup/6593126?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 04:05:59 GMT"
+     "title": "ChatGPTで不正利用 親露世論操作",
+     "link": "https://news.yahoo.co.jp/pickup/6593149?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 07:37:51 GMT"
     },
     {
      "title": "ファミマ 服装や髪色に新ルール",
@@ -326,9 +321,14 @@
      "pubDate": "Wed, 26 Aug 2026 06:15:39 GMT"
     },
     {
-     "title": "大谷本塁突入せず 望み通りと監督",
-     "link": "https://news.yahoo.co.jp/pickup/6593143?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 06:59:13 GMT"
+     "title": "ペンギン入りSuica 在庫限り終了",
+     "link": "https://news.yahoo.co.jp/pickup/6593146?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 07:16:59 GMT"
+    },
+    {
+     "title": "龍谷大の硬式野球部 活動を停止中",
+     "link": "https://news.yahoo.co.jp/pickup/6593148?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 07:28:36 GMT"
     },
     {
      "title": "サンド伊達 体調不良で公演を欠席",
