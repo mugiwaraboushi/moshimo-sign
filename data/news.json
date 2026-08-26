@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-26T08:04:53.410Z",
+ "updatedAt": "2026-08-26T09:07:48.006Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "【ライブ中】ICC赤根所長トランプ政権の制裁発表後 初の会見",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46462",
-     "pubDate": "Wed, 26 Aug 2026 16:45:00 +0900"
+     "pubDate": "Wed, 26 Aug 2026 18:00:38 +0900"
     },
     {
      "title": "福岡県で40度以上「酷暑日」に 各地で危険な暑さ 熱中症対策を",
@@ -33,14 +33,14 @@
      "pubDate": "Wed, 26 Aug 2026 13:22:46 +0900"
     },
     {
+     "title": "政府 「副首都」構想で10月下旬めどに指定要件など決める方針",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46472",
+     "pubDate": "Wed, 26 Aug 2026 17:15:00 +0900"
+    },
+    {
      "title": "AI関連の展示会「フィジカルAI」に注目集まる 約100社が出展",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46402",
      "pubDate": "Wed, 26 Aug 2026 13:04:23 +0900"
-    },
-    {
-     "title": "ドジャース大谷 3試合ぶり安打 チーム競り負け6連勝でストップ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46409",
-     "pubDate": "Wed, 26 Aug 2026 13:52:07 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "辺野古転覆事故 同志社理事長の辞任と校長の解任を発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46467",
+     "pubDate": "Wed, 26 Aug 2026 17:59:19 +0900"
+    },
     {
      "title": "香川 水不足が稲作にも影響 干上がる田んぼも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46406",
@@ -118,11 +123,6 @@
      "title": "辺野古転覆事故 同志社理事長が引責辞任意向 高校校長も退任へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46215",
      "pubDate": "Tue, 25 Aug 2026 18:32:56 +0900"
-    },
-    {
-     "title": "【比較動画】クマ撃退スプレー 市販製品の「性能」に大きな差",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46130",
-     "pubDate": "Tue, 25 Aug 2026 19:31:00 +0900"
     }
    ]
   },
@@ -214,9 +214,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "高市首相 日本とベトナムが舞台のミュージカル 主演俳優を激励",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46459",
+     "pubDate": "Wed, 26 Aug 2026 17:56:37 +0900"
+    },
+    {
      "title": "【ライブ中】ICC赤根所長トランプ政権の制裁発表後 初の会見",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46462",
-     "pubDate": "Wed, 26 Aug 2026 16:45:00 +0900"
+     "pubDate": "Wed, 26 Aug 2026 18:00:38 +0900"
     },
     {
      "title": "“北朝鮮キム総書記 ことしの経済分野など目標達成指示”報道",
@@ -282,11 +287,6 @@
      "title": "パリ近郊 サウジの資金で日本の漫画扱うテーマパーク建設へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46311",
      "pubDate": "Tue, 25 Aug 2026 21:56:51 +0900"
-    },
-    {
-     "title": "アメリカ経済制裁 イランと中国反発 パキスタンはイランと協議",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46289",
-     "pubDate": "Tue, 25 Aug 2026 20:27:17 +0900"
     }
    ]
   },
@@ -306,14 +306,19 @@
      "pubDate": "Wed, 26 Aug 2026 07:44:20 GMT"
     },
     {
-     "title": "石川に修学旅行 前年度から5割増",
-     "link": "https://news.yahoo.co.jp/pickup/6593140?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 06:42:12 GMT"
+     "title": "トランプ氏の息子殺害示唆 イラン",
+     "link": "https://news.yahoo.co.jp/pickup/6593160?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 08:49:46 GMT"
     },
     {
-     "title": "ChatGPTで不正利用 親露世論操作",
-     "link": "https://news.yahoo.co.jp/pickup/6593149?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 07:37:51 GMT"
+     "title": "高2死亡事件 死因は「脳挫傷」",
+     "link": "https://news.yahoo.co.jp/pickup/6593161?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 08:49:38 GMT"
+    },
+    {
+     "title": "26年間不法在留疑い 70代の男逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6593159?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 08:35:37 GMT"
     },
     {
      "title": "ファミマ 服装や髪色に新ルール",
@@ -321,19 +326,14 @@
      "pubDate": "Wed, 26 Aug 2026 06:15:39 GMT"
     },
     {
-     "title": "ペンギン入りSuica 在庫限り終了",
-     "link": "https://news.yahoo.co.jp/pickup/6593146?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 07:16:59 GMT"
-    },
-    {
      "title": "龍谷大の硬式野球部 活動を停止中",
      "link": "https://news.yahoo.co.jp/pickup/6593148?source=rss",
      "pubDate": "Wed, 26 Aug 2026 07:28:36 GMT"
     },
     {
-     "title": "サンド伊達 体調不良で公演を欠席",
-     "link": "https://news.yahoo.co.jp/pickup/6593132?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 05:05:09 GMT"
+     "title": "ひかりんちょ 夏休み明けに不登校",
+     "link": "https://news.yahoo.co.jp/pickup/6593162?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 08:42:57 GMT"
     }
    ]
   }
