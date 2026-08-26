@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-26T03:29:26.594Z",
+ "updatedAt": "2026-08-26T04:09:31.030Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -15,7 +15,7 @@
     {
      "title": "西日本中心に35度以上の猛烈な暑さに 急な激しい雨にも注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46337",
-     "pubDate": "Wed, 26 Aug 2026 12:27:33 +0900"
+     "pubDate": "Wed, 26 Aug 2026 12:30:08 +0900"
     },
     {
      "title": "高級時計窃盗事件 2人組の男 現場にハンマー残し逃走か",
@@ -23,9 +23,9 @@
      "pubDate": "Wed, 26 Aug 2026 11:49:00 +0900"
     },
     {
-     "title": "トランプ大統領 オンタリオ湖の改称検討 カナダとの対立激化",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46334",
-     "pubDate": "Wed, 26 Aug 2026 07:46:00 +0900"
+     "title": "ドジャース大谷 3試合ぶり安打 チーム競り負け6連勝でストップ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46409",
+     "pubDate": "Wed, 26 Aug 2026 13:03:16 +0900"
     },
     {
      "title": "米ルビオ長官“当面新たな攻撃なし”同盟国などに伝達 米報道",
@@ -38,9 +38,9 @@
      "pubDate": "Wed, 26 Aug 2026 11:11:15 +0900"
     },
     {
-     "title": "発がん性指摘の化学物質含む溶液に白菜浸し出荷か 中国河北省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46332",
-     "pubDate": "Wed, 26 Aug 2026 07:44:21 +0900"
+     "title": "熊本地震 JR宇土～八代で代行バス運行開始【被災地の動き】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46383",
+     "pubDate": "Wed, 26 Aug 2026 12:46:15 +0900"
     }
    ]
   },
@@ -50,6 +50,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "香川 水不足が稲作にも影響 干上がる田んぼも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46406",
+     "pubDate": "Wed, 26 Aug 2026 13:05:28 +0900"
+    },
+    {
      "title": "高級時計窃盗事件 2人組の男 現場にハンマー残し逃走か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46385",
      "pubDate": "Wed, 26 Aug 2026 11:49:00 +0900"
@@ -57,7 +62,7 @@
     {
      "title": "秋篠宮ご夫妻 パラグアイから帰国「有意義な旅となった」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46355",
-     "pubDate": "Wed, 26 Aug 2026 10:36:30 +0900"
+     "pubDate": "Wed, 26 Aug 2026 10:36:00 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（8月26日）",
@@ -118,11 +123,6 @@
      "title": "【比較動画】クマ撃退スプレー 市販製品の「性能」に大きな差",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46130",
      "pubDate": "Tue, 25 Aug 2026 19:31:00 +0900"
-    },
-    {
-     "title": "新「マイナアプリ」提供開始 行政手続きを簡素化 デジタル庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46202",
-     "pubDate": "Tue, 25 Aug 2026 21:29:44 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "イラン国営メディア トランプ大統領息子の命脅かす映像 米報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46398",
+     "pubDate": "Wed, 26 Aug 2026 13:06:35 +0900"
+    },
+    {
      "title": "イランへの制裁 米の元制裁調査官“交渉の席に戻すねらい”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46381",
      "pubDate": "Wed, 26 Aug 2026 11:46:12 +0900"
@@ -282,11 +287,6 @@
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月25日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44565",
      "pubDate": "Tue, 25 Aug 2026 20:43:08 +0900"
-    },
-    {
-     "title": "アメリカ シリアのテロ支援国家指定を解除 イラン影響力排除か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46162",
-     "pubDate": "Tue, 25 Aug 2026 15:48:57 +0900"
     }
    ]
   },
@@ -296,9 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "米CIA長官が訪露 ウ情勢を協議か",
-     "link": "https://news.yahoo.co.jp/pickup/6593115?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 02:33:43 GMT"
+     "title": "沖縄・奄美 台風の影響長引く",
+     "link": "https://news.yahoo.co.jp/pickup/6593125?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 03:35:45 GMT"
+    },
+    {
+     "title": "田久保氏巡る刑事裁判 焦点を解説",
+     "link": "https://news.yahoo.co.jp/pickup/6593100?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 01:02:03 GMT"
     },
     {
      "title": "4人死亡 事故直前まで線路上に7人",
@@ -311,29 +316,24 @@
      "pubDate": "Wed, 26 Aug 2026 02:56:44 GMT"
     },
     {
-     "title": "路上に手りゅう弾か 近くに小学校",
-     "link": "https://news.yahoo.co.jp/pickup/6593113?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 02:34:08 GMT"
+     "title": "自分の体に精巣 性分化疾患の女性",
+     "link": "https://news.yahoo.co.jp/pickup/6593118?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 02:44:03 GMT"
     },
     {
-     "title": "モスも冷凍食品参入 各社強化の訳",
-     "link": "https://news.yahoo.co.jp/pickup/6593092?source=rss",
-     "pubDate": "Tue, 25 Aug 2026 23:17:02 GMT"
+     "title": "「ゴーストレストラン」増加の訳",
+     "link": "https://news.yahoo.co.jp/pickup/6593104?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 01:26:13 GMT"
     },
     {
-     "title": "川に流された小2 救った高3の直感",
-     "link": "https://news.yahoo.co.jp/pickup/6593112?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 02:28:42 GMT"
+     "title": "長州小力 解雇されたことには感謝",
+     "link": "https://news.yahoo.co.jp/pickup/6593117?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 02:38:28 GMT"
     },
     {
      "title": "各局人気アナ 結婚発表ラッシュ",
      "link": "https://news.yahoo.co.jp/pickup/6593116?source=rss",
      "pubDate": "Wed, 26 Aug 2026 02:50:44 GMT"
-    },
-    {
-     "title": "早見あかり 過去に自分の性格矯正",
-     "link": "https://news.yahoo.co.jp/pickup/6593121?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 03:12:45 GMT"
     }
    ]
   }
