@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-26T14:11:46.724Z",
+ "updatedAt": "2026-08-26T15:57:27.954Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "ネパール・中国の国境地帯で土石流 両国で98人死亡740人余不明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46535",
+     "pubDate": "Thu, 27 Aug 2026 00:50:36 +0900"
+    },
     {
      "title": "中部電力 浜岡原発の廃炉作業めぐり新たな不適切事案判明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46523",
@@ -18,14 +23,9 @@
      "pubDate": "Wed, 26 Aug 2026 22:55:45 +0900"
     },
     {
-     "title": "トランプ政権から制裁のICC赤根所長“日本政府の役割に期待”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46462",
-     "pubDate": "Wed, 26 Aug 2026 19:39:47 +0900"
-    },
-    {
-     "title": "相模原 男子高校生は頭部に強い衝撃で死亡か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46504",
-     "pubDate": "Wed, 26 Aug 2026 21:13:40 +0900"
+     "title": "熊本地震支援パッケージ案 観光振興で「応援割」盛り込む",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46561",
+     "pubDate": "Wed, 26 Aug 2026 23:05:00 +0900"
     },
     {
      "title": "千葉豪雨から2週間 高齢者施設で復旧遅れ続く",
@@ -33,14 +33,14 @@
      "pubDate": "Wed, 26 Aug 2026 20:17:16 +0900"
     },
     {
-     "title": "ネパールで洪水 380人以上の観光客が行方不明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46535",
-     "pubDate": "Wed, 26 Aug 2026 21:49:39 +0900"
+     "title": "高知 物部川でアユ大量死 猛暑や少雨で水温上昇が原因か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46537",
+     "pubDate": "Thu, 27 Aug 2026 00:28:55 +0900"
     },
     {
-     "title": "自民 税調 消費税減税で議論 政府“農家 漁業者に給付金検討”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46477",
-     "pubDate": "Wed, 26 Aug 2026 20:33:49 +0900"
+     "title": "台風18号 奄美や沖縄本島から遠ざかるも影響残る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46333",
+     "pubDate": "Wed, 26 Aug 2026 23:34:15 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "元弁護士 1億6000万円余り横領の罪 初公判で起訴内容認める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46564",
+     "pubDate": "Wed, 26 Aug 2026 23:41:00 +0900"
+    },
     {
      "title": "文化庁の補助金不交付 不服審査請求に対する裁決取り消す判決",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46544",
@@ -118,11 +123,6 @@
      "title": "秋篠宮ご夫妻 パラグアイから帰国「有意義な旅となった」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46355",
      "pubDate": "Wed, 26 Aug 2026 10:36:00 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（8月26日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260825de46261",
-     "pubDate": "Wed, 26 Aug 2026 20:21:19 +0900"
     }
    ]
   },
@@ -195,16 +195,6 @@
      "title": "囲碁 碁聖戦 井山碁聖が佐田七段に勝って６連覇",
      "link": "https://news.web.nhk/newsweb/na/nd-20260821de45580",
      "pubDate": "Fri, 21 Aug 2026 19:57:40 +0900"
-    },
-    {
-     "title": "柏崎刈羽原発で運転員が他人のIDカードで不適切に退室",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45408",
-     "pubDate": "Thu, 20 Aug 2026 22:07:51 +0900"
-    },
-    {
-     "title": "スリーマイル島原発廃炉 初取材 AI需要で隣接原子炉再稼働へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260820de45306",
-     "pubDate": "Thu, 20 Aug 2026 16:35:00 +0900"
     }
    ]
   },
@@ -214,9 +204,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "パキスタンの医療機関で火災 新生児14人が死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46562",
+     "pubDate": "Wed, 26 Aug 2026 23:43:43 +0900"
+    },
+    {
+     "title": "中国 習主席が上海協力機構の首脳会議出席でキルギスへ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46565",
+     "pubDate": "Wed, 26 Aug 2026 23:30:00 +0900"
+    },
+    {
      "title": "NY原油市場WTI 約2週間ぶり1バレル＝80ドル下回る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46558",
-     "pubDate": "Wed, 26 Aug 2026 23:04:48 +0900"
+     "pubDate": "Wed, 26 Aug 2026 23:04:00 +0900"
     },
     {
      "title": "モルドバとの国境検問所が攻撃受ける ウクライナ外相が非難",
@@ -234,9 +234,9 @@
      "pubDate": "Wed, 26 Aug 2026 20:31:56 +0900"
     },
     {
-     "title": "ネパールで洪水 380人以上の観光客が行方不明",
+     "title": "ネパール・中国の国境地帯で土石流 両国で98人死亡740人余不明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46535",
-     "pubDate": "Wed, 26 Aug 2026 21:49:39 +0900"
+     "pubDate": "Thu, 27 Aug 2026 00:50:36 +0900"
     },
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月26日の動き）",
@@ -277,16 +277,6 @@
      "title": "米ルビオ長官“当面新たな攻撃なし”同盟国などに伝達 米報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46380",
      "pubDate": "Wed, 26 Aug 2026 11:33:00 +0900"
-    },
-    {
-     "title": "NY原油80ドル台に下落 ホルムズ海峡の航路協議を受けて",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46356",
-     "pubDate": "Wed, 26 Aug 2026 11:25:54 +0900"
-    },
-    {
-     "title": "米「カントリー音楽の女王」ドリー・パートンさん死去",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46361",
-     "pubDate": "Wed, 26 Aug 2026 16:56:55 +0900"
     }
    ]
   },
@@ -296,14 +286,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "浜岡原発巡り不適切手続きか",
-     "link": "https://news.yahoo.co.jp/pickup/6593184?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 12:25:05 GMT"
-    },
-    {
      "title": "ICC制裁 日本を巡り前所長が指摘",
      "link": "https://news.yahoo.co.jp/pickup/6593182?source=rss",
      "pubDate": "Wed, 26 Aug 2026 12:00:22 GMT"
+    },
+    {
+     "title": "ネパール洪水 観光客約380人不明",
+     "link": "https://news.yahoo.co.jp/pickup/6593197?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 14:49:45 GMT"
+    },
+    {
+     "title": "学校版カスハラ指針 国が策定へ",
+     "link": "https://news.yahoo.co.jp/pickup/6593196?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 14:36:02 GMT"
+    },
+    {
+     "title": "ヘンリー王子一家が帰国 英報道",
+     "link": "https://news.yahoo.co.jp/pickup/6593191?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 13:42:37 GMT"
     },
     {
      "title": "生活道路の法定速度 9/1から30km",
@@ -311,29 +311,19 @@
      "pubDate": "Wed, 26 Aug 2026 13:23:03 GMT"
     },
     {
-     "title": "高知・物部川 アユの大量死相次ぐ",
-     "link": "https://news.yahoo.co.jp/pickup/6593178?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 11:35:30 GMT"
-    },
-    {
-     "title": "ファミマ 服装や髪色に新ルール",
-     "link": "https://news.yahoo.co.jp/pickup/6593139?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 06:15:39 GMT"
-    },
-    {
-     "title": "天皇杯 京都産業大がJ1水戸に勝利",
-     "link": "https://news.yahoo.co.jp/pickup/6593185?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 12:39:20 GMT"
-    },
-    {
-     "title": "GTA6の動画流出 制作会社が謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6593187?source=rss",
-     "pubDate": "Wed, 26 Aug 2026 13:02:19 GMT"
+     "title": "ファミマの制服 業界初Tシャツに",
+     "link": "https://news.yahoo.co.jp/pickup/6593195?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 14:21:16 GMT"
     },
     {
      "title": "人気歌手の海外公演 中止相次ぐ",
      "link": "https://news.yahoo.co.jp/pickup/6593188?source=rss",
      "pubDate": "Wed, 26 Aug 2026 12:52:30 GMT"
+    },
+    {
+     "title": "青木マッチョ コンビ解散を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6593171?source=rss",
+     "pubDate": "Wed, 26 Aug 2026 09:50:33 GMT"
     }
    ]
   }
