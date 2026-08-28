@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-27T20:49:40.808Z",
+ "updatedAt": "2026-08-28T04:58:44.474Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "北海道釧路地方で線状降水帯発生 石川 富山で局地的に雨強まる",
+     "title": "横浜 山中市長 支援者に辞意伝える 重大なパワハラ行為認定で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46874",
+     "pubDate": "Fri, 28 Aug 2026 13:51:42 +0900"
+    },
+    {
+     "title": "全国的に大気不安定 北陸再び雨強まる見込み 土砂災害に警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260827de46810",
-     "pubDate": "Fri, 28 Aug 2026 05:40:28 +0900"
+     "pubDate": "Fri, 28 Aug 2026 12:00:00 +0900"
     },
     {
-     "title": "北海道 浜中町付近で記録的な大雨 災害の危険迫る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46846",
-     "pubDate": "Fri, 28 Aug 2026 05:35:41 +0900"
+     "title": "石川県 道路に土砂 周囲と行き来できない地域相次ぐ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46876",
+     "pubDate": "Fri, 28 Aug 2026 13:24:20 +0900"
     },
     {
-     "title": "北海道 釧路地方で線状降水帯が発生 厳重警戒を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46841",
-     "pubDate": "Fri, 28 Aug 2026 04:46:44 +0900"
+     "title": "熊本地震1か月 イオンモール熊本に献花台も 犠牲者を追悼",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46910",
+     "pubDate": "Fri, 28 Aug 2026 12:28:06 +0900"
     },
     {
-     "title": "北海道 根室地方で線状降水帯発生のおそれ 厳重警戒を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46844",
-     "pubDate": "Fri, 28 Aug 2026 05:08:34 +0900"
+     "title": "熊本地震1か月 揺れへの備え継続を 猛烈な暑さも続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46824",
+     "pubDate": "Fri, 28 Aug 2026 12:36:02 +0900"
     },
     {
-     "title": "富山県東部 線状降水帯発生のおそれ 直前予測を発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46840",
-     "pubDate": "Fri, 28 Aug 2026 04:37:33 +0900"
+     "title": "ネパール土石流 362人死亡確認 日本人5人と連絡取れず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46815",
+     "pubDate": "Fri, 28 Aug 2026 05:53:00 +0900"
     },
     {
-     "title": "ネパール・中国の国境地帯で土石流 ネパール側の死者359人",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46576",
-     "pubDate": "Fri, 28 Aug 2026 02:45:04 +0900"
-    },
-    {
-     "title": "東京 中野 高級時計窃盗事件でチリ国籍の男の容疑者2人逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46670",
-     "pubDate": "Thu, 27 Aug 2026 23:00:00 +0900"
+     "title": "高級時計窃盗事件 2日前に容疑者とみられる人物来店 下見か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46917",
+     "pubDate": "Fri, 28 Aug 2026 12:59:09 +0900"
     }
    ]
   },
@@ -49,6 +49,66 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "旧統一教会に対する債権申し出 全国一斉の電話相談会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46914",
+     "pubDate": "Fri, 28 Aug 2026 13:46:08 +0900"
+    },
+    {
+     "title": "高級時計窃盗事件 2日前に容疑者とみられる人物来店 下見か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46917",
+     "pubDate": "Fri, 28 Aug 2026 12:59:09 +0900"
+    },
+    {
+     "title": "最高裁 生成AI活用検討でシステム開発費を予算計上へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46923",
+     "pubDate": "Fri, 28 Aug 2026 12:34:17 +0900"
+    },
+    {
+     "title": "視覚障害の夫婦 職務質問めぐり賠償を求めた裁判で敗訴確定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46901",
+     "pubDate": "Fri, 28 Aug 2026 12:19:05 +0900"
+    },
+    {
+     "title": "保育所の待機児童数 9年ぶりに増加 背景に保育士不足など",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46898",
+     "pubDate": "Fri, 28 Aug 2026 12:00:55 +0900"
+    },
+    {
+     "title": "7月の有効求人倍率1.18倍 前月と同水準 厚労省",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46829",
+     "pubDate": "Fri, 28 Aug 2026 08:57:00 +0900"
+    },
+    {
+     "title": "東海第二原発で防潮堤完成延期へ 再稼働は2028年度後半以降に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46859",
+     "pubDate": "Fri, 28 Aug 2026 08:50:00 +0900"
+    },
+    {
+     "title": "子どものSNS規制 広がる背景は 【Q＆Aで詳しく】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46832",
+     "pubDate": "Fri, 28 Aug 2026 08:12:09 +0900"
+    },
+    {
+     "title": "中部電力 廃炉作業でも不正 組織風土の抜本的見直し問われる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46830",
+     "pubDate": "Fri, 28 Aug 2026 07:10:25 +0900"
+    },
+    {
+     "title": "熊本地震1か月 避難生活続く 安心な住まいの確保が課題",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46835",
+     "pubDate": "Fri, 28 Aug 2026 08:20:35 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（8月28日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46819",
+     "pubDate": "Fri, 28 Aug 2026 13:57:48 +0900"
+    },
+    {
+     "title": "東京 中野 高級時計窃盗事件 容疑者“お金にして母国に”供述",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46838",
+     "pubDate": "Fri, 28 Aug 2026 06:27:00 +0900"
+    },
     {
      "title": "辺野古転覆事故 同志社が教育の中立性・適切性検討委を設置へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de46839",
@@ -63,66 +123,6 @@
      "title": "厚生労働白書案 医療や介護人手不足でロボット・AI活用不可欠",
      "link": "https://news.web.nhk/newsweb/na/nd-20260827de46801",
      "pubDate": "Thu, 27 Aug 2026 20:31:30 +0900"
-    },
-    {
-     "title": "保護者の過度な要求から教職員守るガイドライン通知へ 文科省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46788",
-     "pubDate": "Thu, 27 Aug 2026 19:43:36 +0900"
-    },
-    {
-     "title": "アスベスト中皮腫 時効めぐり遺族の訴え認める 2審で初",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46783",
-     "pubDate": "Thu, 27 Aug 2026 19:03:00 +0900"
-    },
-    {
-     "title": "東海第二原発 防潮堤の工事計画了承も完成時期延期含め検討",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46774",
-     "pubDate": "Thu, 27 Aug 2026 18:59:21 +0900"
-    },
-    {
-     "title": "栃木4人死亡列車事故 中継見張員 配置前に作業か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46784",
-     "pubDate": "Thu, 27 Aug 2026 18:58:00 +0900"
-    },
-    {
-     "title": "証券口座乗っ取りめぐり79人が証券会社4社に調停申し立て",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46765",
-     "pubDate": "Thu, 27 Aug 2026 18:56:00 +0900"
-    },
-    {
-     "title": "香川県 渇水対策本部を設置 28日からの取水制限受け対応確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46756",
-     "pubDate": "Thu, 27 Aug 2026 18:54:31 +0900"
-    },
-    {
-     "title": "宮崎 宮崎空港で「煙のようなもの充満」の情報 けが人なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46761",
-     "pubDate": "Thu, 27 Aug 2026 17:43:17 +0900"
-    },
-    {
-     "title": "原子力規制委 テロ対策施設 設置期限延長の規則改正を正式決定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46736",
-     "pubDate": "Thu, 27 Aug 2026 16:10:08 +0900"
-    },
-    {
-     "title": "天皇皇后両陛下 9月下旬に熊本地震の被災地訪問へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46721",
-     "pubDate": "Thu, 27 Aug 2026 15:17:19 +0900"
-    },
-    {
-     "title": "東京 台東区の強盗予備事件で新たに1人逮捕 リクルート役か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46672",
-     "pubDate": "Thu, 27 Aug 2026 13:03:00 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（8月27日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46493",
-     "pubDate": "Thu, 27 Aug 2026 20:37:57 +0900"
-    },
-    {
-     "title": "高級時計窃盗事件 盗まれた時計は最高価格帯 事前に下見か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46560",
-     "pubDate": "Thu, 27 Aug 2026 05:26:05 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "東海第二原発で防潮堤完成延期へ 再稼働は2028年度後半以降に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46859",
+     "pubDate": "Fri, 28 Aug 2026 08:50:00 +0900"
+    },
     {
      "title": "芸術家 草間彌生さん死去 97歳 水玉モチーフの作品で知られる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260827de46651",
@@ -200,11 +205,6 @@
      "title": "NASA 次世代宇宙望遠鏡打ち上げへ 視野は従来型の100倍超え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45735",
      "pubDate": "Sun, 23 Aug 2026 08:19:00 +0900"
-    },
-    {
-     "title": "初の女性プロ棋士資格かけた「白玲戦」 西山朋佳は初戦白星",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260822de45705",
-     "pubDate": "Sat, 22 Aug 2026 23:51:41 +0900"
     }
    ]
   },
@@ -214,14 +214,49 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ジャクソンホール会議が開幕 FRBウォーシュ議長の講演に注目",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46922",
+     "pubDate": "Fri, 28 Aug 2026 13:40:39 +0900"
+    },
+    {
+     "title": "トランプ大統領 オンタリオ湖をアメリカ湖に変更の大統領令",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46864",
+     "pubDate": "Fri, 28 Aug 2026 10:15:00 +0900"
+    },
+    {
+     "title": "“戦後 欧州最悪の虐殺”で服役中のムラディッチ元司令官 死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46850",
+     "pubDate": "Fri, 28 Aug 2026 08:16:45 +0900"
+    },
+    {
+     "title": "ロシア情報機関トップ 米CIA長官と会談認めるも“特別でない”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46851",
+     "pubDate": "Fri, 28 Aug 2026 08:02:02 +0900"
+    },
+    {
+     "title": "国連事務総長 エボラ出血熱 感染急速拡大で各国の協力呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46848",
+     "pubDate": "Fri, 28 Aug 2026 07:14:57 +0900"
+    },
+    {
+     "title": "イラン軍事作戦半年 ホルムズ海峡など打開道筋見いだせず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46813",
+     "pubDate": "Fri, 28 Aug 2026 06:14:00 +0900"
+    },
+    {
+     "title": "ネパール土石流 362人死亡確認 日本人5人と連絡取れず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46815",
+     "pubDate": "Fri, 28 Aug 2026 05:53:00 +0900"
+    },
+    {
      "title": "北朝鮮外務省 アメリカの韓国へのミサイル売却を非難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260827de46821",
      "pubDate": "Thu, 27 Aug 2026 21:51:49 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（8月27日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（8月27日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44568",
-     "pubDate": "Thu, 27 Aug 2026 19:26:32 +0900"
+     "pubDate": "Thu, 27 Aug 2026 19:26:00 +0900"
     },
     {
      "title": "茂木外相 コロンビア閣僚とEPA交渉活性化で一致",
@@ -252,41 +287,6 @@
      "title": "エヌビディア決算 最終利益が2.2倍に AI向け半導体好調で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260827de46624",
      "pubDate": "Thu, 27 Aug 2026 11:35:01 +0900"
-    },
-    {
-     "title": "ホルムズ海峡めぐりイランとオマーンが共同声明 米と対立続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46623",
-     "pubDate": "Thu, 27 Aug 2026 11:30:49 +0900"
-    },
-    {
-     "title": "米メタ SNS依存大型訴訟 約180億ドル支払いで和解 対策義務化",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46628",
-     "pubDate": "Thu, 27 Aug 2026 11:11:57 +0900"
-    },
-    {
-     "title": "中国ロボット運動会 100m決勝は5台が8秒台 技術開発が加速",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46581",
-     "pubDate": "Thu, 27 Aug 2026 05:45:43 +0900"
-    },
-    {
-     "title": "ネパール・中国の国境地帯で土石流 ネパール側の死者359人",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46576",
-     "pubDate": "Fri, 28 Aug 2026 02:45:04 +0900"
-    },
-    {
-     "title": "パキスタンの医療機関で火災 新生児14人が死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46562",
-     "pubDate": "Wed, 26 Aug 2026 23:43:00 +0900"
-    },
-    {
-     "title": "中国 習主席が上海協力機構の首脳会議出席でキルギスへ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46565",
-     "pubDate": "Wed, 26 Aug 2026 23:30:00 +0900"
-    },
-    {
-     "title": "NY原油市場WTI 約2週間ぶり1バレル＝80ドル下回る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46558",
-     "pubDate": "Wed, 26 Aug 2026 23:04:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "熊本地震1カ月 日増しに傾く自宅",
-     "link": "https://news.yahoo.co.jp/pickup/6593343?source=rss",
-     "pubDate": "Thu, 27 Aug 2026 14:58:24 GMT"
+     "title": "北陸や北海道 午後も激しい雨恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6593389?source=rss",
+     "pubDate": "Fri, 28 Aug 2026 03:41:50 GMT"
     },
     {
-     "title": "車水没 ドア蹴り脱出「死ぬかと」",
-     "link": "https://news.yahoo.co.jp/pickup/6593333?source=rss",
-     "pubDate": "Thu, 27 Aug 2026 12:40:24 GMT"
+     "title": "ラグビーリーグワン 選手側と和解",
+     "link": "https://news.yahoo.co.jp/pickup/6593392?source=rss",
+     "pubDate": "Fri, 28 Aug 2026 04:23:14 GMT"
     },
     {
-     "title": "高級腕時計 窃盗容疑で男2人逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6593341?source=rss",
-     "pubDate": "Thu, 27 Aug 2026 14:19:29 GMT"
+     "title": "横浜市長 辞職の意向を表明",
+     "link": "https://news.yahoo.co.jp/pickup/6593391?source=rss",
+     "pubDate": "Fri, 28 Aug 2026 04:03:09 GMT"
     },
     {
-     "title": "猛毒浴び院生死亡 北大がコメント",
-     "link": "https://news.yahoo.co.jp/pickup/6593330?source=rss",
-     "pubDate": "Thu, 27 Aug 2026 12:09:25 GMT"
+     "title": "ネパールで不明日本人ら 名簿公表",
+     "link": "https://news.yahoo.co.jp/pickup/6593387?source=rss",
+     "pubDate": "Fri, 28 Aug 2026 03:19:05 GMT"
     },
     {
-     "title": "転落に巻き込まれ娘死亡 父悲痛",
-     "link": "https://news.yahoo.co.jp/pickup/6593335?source=rss",
-     "pubDate": "Thu, 27 Aug 2026 13:27:53 GMT"
+     "title": "うつ病で2年半こもる 回復後の道",
+     "link": "https://news.yahoo.co.jp/pickup/6593380?source=rss",
+     "pubDate": "Fri, 28 Aug 2026 02:42:04 GMT"
     },
     {
-     "title": "ネパール洪水 氷河崩落が原因か",
-     "link": "https://news.yahoo.co.jp/pickup/6593337?source=rss",
-     "pubDate": "Thu, 27 Aug 2026 13:36:19 GMT"
+     "title": "小学校敷地内でひき逃げ疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6593377?source=rss",
+     "pubDate": "Fri, 28 Aug 2026 02:42:49 GMT"
     },
     {
-     "title": "日本発の航空機に遺体 マレーシア",
-     "link": "https://news.yahoo.co.jp/pickup/6593336?source=rss",
-     "pubDate": "Thu, 27 Aug 2026 13:29:34 GMT"
+     "title": "USJ 大規模に拡張する方向で調整",
+     "link": "https://news.yahoo.co.jp/pickup/6593393?source=rss",
+     "pubDate": "Fri, 28 Aug 2026 04:30:36 GMT"
     },
     {
-     "title": "便器が真っ赤に 柏原収史の後悔",
-     "link": "https://news.yahoo.co.jp/pickup/6593340?source=rss",
-     "pubDate": "Thu, 27 Aug 2026 14:05:14 GMT"
+     "title": "購入済みゲームの維持 各社対応は",
+     "link": "https://news.yahoo.co.jp/pickup/6593388?source=rss",
+     "pubDate": "Fri, 28 Aug 2026 03:35:16 GMT"
     }
    ]
   }
