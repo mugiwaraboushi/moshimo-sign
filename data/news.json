@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-29T07:56:09.428Z",
+ "updatedAt": "2026-08-29T13:27:38.364Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "鹿児島 いちき串木野市の水難事故 沖合で新たに1人見つかる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47141",
-     "pubDate": "Sat, 29 Aug 2026 16:32:11 +0900"
+     "title": "東京 中野 高級時計窃盗事件 わずか6秒間のうちに盗んだか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47164",
+     "pubDate": "Sat, 29 Aug 2026 19:52:26 +0900"
     },
     {
-     "title": "ネパール土石流 586人が死亡 国連は支援を拡大する方針",
+     "title": "ネパール土石流 633人が死亡 二次災害のリスクを警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260829de47121",
-     "pubDate": "Sat, 29 Aug 2026 12:20:26 +0900"
+     "pubDate": "Sat, 29 Aug 2026 19:57:08 +0900"
     },
     {
-     "title": "トランプ大統領“ベネズエラ石油資源の過半数の支配権を確保”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47161",
-     "pubDate": "Sat, 29 Aug 2026 15:01:00 +0900"
+     "title": "鹿児島 いちき串木野市の水難事故 沖合で発見の中高生3人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47141",
+     "pubDate": "Sat, 29 Aug 2026 19:51:35 +0900"
     },
     {
-     "title": "AIと人間が協力の「ペア碁」新たなeスポーツ目指す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47163",
-     "pubDate": "Sat, 29 Aug 2026 16:22:14 +0900"
-    },
-    {
-     "title": "石川県で「熱中症警戒アラート」誤発表 原因は気温観測に誤り",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47154",
-     "pubDate": "Sat, 29 Aug 2026 15:57:20 +0900"
-    },
-    {
-     "title": "大気の状態非常に不安定 北陸で再び大雨のおそれ",
+     "title": "前線で大気の状態不安定 石川県と福井県にレベル4危険警報",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47108",
-     "pubDate": "Sat, 29 Aug 2026 12:16:00 +0900"
+     "pubDate": "Sat, 29 Aug 2026 21:29:59 +0900"
     },
     {
-     "title": "マレーシアの空港 東京発の航空機の車輪格納部から遺体",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47107",
-     "pubDate": "Fri, 28 Aug 2026 22:41:00 +0900"
+     "title": "福井 勝山市 約8300世帯に避難指示",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47180",
+     "pubDate": "Sat, 29 Aug 2026 21:49:42 +0900"
+    },
+    {
+     "title": "熊本地震 400人余を病院間搬送 緊急事態で生かされたことは…",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47139",
+     "pubDate": "Sat, 29 Aug 2026 17:29:00 +0900"
+    },
+    {
+     "title": "メッツ千賀滉大 リリーフ登板で1イニング無失点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47160",
+     "pubDate": "Sat, 29 Aug 2026 14:22:23 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "熊本地震 被災住宅の公費解体で相談窓口設置 宇土市役所",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47155",
+     "pubDate": "Sat, 29 Aug 2026 19:07:56 +0900"
+    },
+    {
+     "title": "東京 中野 高級時計窃盗事件 わずか6秒間のうちに盗んだか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47164",
+     "pubDate": "Sat, 29 Aug 2026 19:52:26 +0900"
+    },
+    {
+     "title": "熊本地震 400人余を病院間搬送 緊急事態で生かされたことは…",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47139",
+     "pubDate": "Sat, 29 Aug 2026 17:29:00 +0900"
+    },
     {
      "title": "除染土再生利用 仙台市の国の出先機関に土が運び込まれる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260829de47150",
@@ -60,14 +75,14 @@
      "pubDate": "Sat, 29 Aug 2026 13:13:54 +0900"
     },
     {
-     "title": "鹿児島 いちき串木野市の水難事故 沖合で新たに1人見つかる",
+     "title": "鹿児島 いちき串木野市の水難事故 沖合で発見の中高生3人死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260829de47141",
-     "pubDate": "Sat, 29 Aug 2026 16:32:11 +0900"
+     "pubDate": "Sat, 29 Aug 2026 19:51:35 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（8月29日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47092",
-     "pubDate": "Sat, 29 Aug 2026 14:17:16 +0900"
+     "pubDate": "Sat, 29 Aug 2026 19:34:13 +0900"
     },
     {
      "title": "鹿児島 いちき串木野市の海岸で流された中高生3人の捜索続く",
@@ -108,21 +123,6 @@
      "title": "京王線と京王相模原線 運転再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47096",
      "pubDate": "Fri, 28 Aug 2026 22:52:35 +0900"
-    },
-    {
-     "title": "中国大使館侵入事件で起訴の自衛官を懲戒免職",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47089",
-     "pubDate": "Fri, 28 Aug 2026 20:45:00 +0900"
-    },
-    {
-     "title": "高級腕時計窃盗事件 容疑者の1人「簡単に盗めると思った」供述",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47066",
-     "pubDate": "Fri, 28 Aug 2026 19:16:59 +0900"
-    },
-    {
-     "title": "上半期の出生数は34万人余 11年ぶり前年比増加 厚労省調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47045",
-     "pubDate": "Fri, 28 Aug 2026 19:04:12 +0900"
     }
    ]
   },
@@ -134,7 +134,7 @@
     {
      "title": "AIと人間が協力の「ペア碁」新たなeスポーツ目指す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260829de47163",
-     "pubDate": "Sat, 29 Aug 2026 16:22:14 +0900"
+     "pubDate": "Sat, 29 Aug 2026 16:22:00 +0900"
     },
     {
      "title": "サンドウィッチマン 伊達みきおさん 脳梗塞で休養",
@@ -254,9 +254,9 @@
      "pubDate": "Sat, 29 Aug 2026 10:17:50 +0900"
     },
     {
-     "title": "ネパール土石流 586人が死亡 国連は支援を拡大する方針",
+     "title": "ネパール土石流 633人が死亡 二次災害のリスクを警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260829de47121",
-     "pubDate": "Sat, 29 Aug 2026 12:20:26 +0900"
+     "pubDate": "Sat, 29 Aug 2026 19:57:08 +0900"
     },
     {
      "title": "消せるボールペン 特許侵害で韓国メーカーの販売差し止め",
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "避難3日目迎え疲労の色 石川富山",
-     "link": "https://news.yahoo.co.jp/pickup/6593510?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 06:15:38 GMT"
+     "title": "熊本地震 被災者それぞれの1カ月",
+     "link": "https://news.yahoo.co.jp/pickup/6593558?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 12:44:42 GMT"
     },
     {
-     "title": "海で流された中高生 2人が死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6593511?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 05:53:50 GMT"
+     "title": "千葉豪雨 半壊判定が大幅増見通し",
+     "link": "https://news.yahoo.co.jp/pickup/6593545?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 10:25:07 GMT"
     },
     {
-     "title": "北陸29-31日も大雨恐れ 厳重警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6593516?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 06:34:12 GMT"
+     "title": "海で3人死亡 14歳は救助図ったか",
+     "link": "https://news.yahoo.co.jp/pickup/6593554?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 12:11:53 GMT"
     },
     {
-     "title": "妹を遺棄疑い 死亡関与ほのめかす",
-     "link": "https://news.yahoo.co.jp/pickup/6593517?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 06:34:24 GMT"
+     "title": "なぜ娘殺された わからぬまま20年",
+     "link": "https://news.yahoo.co.jp/pickup/6593549?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 11:30:32 GMT"
     },
     {
-     "title": "睡眠導入剤を乱用 青い舌の少女",
-     "link": "https://news.yahoo.co.jp/pickup/6593522?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 07:22:19 GMT"
+     "title": "牛が線路に迷い込む 列車80分停止",
+     "link": "https://news.yahoo.co.jp/pickup/6593556?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 12:19:55 GMT"
     },
     {
-     "title": "病気と気づかず 社交不安症とは",
-     "link": "https://news.yahoo.co.jp/pickup/6593509?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 06:01:31 GMT"
+     "title": "阪神・森下が死球交代 甲子園怒号",
+     "link": "https://news.yahoo.co.jp/pickup/6593555?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 12:20:00 GMT"
     },
     {
-     "title": "南極海でアザラシ大量死の恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6593520?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 07:16:45 GMT"
+     "title": "バレー女子が完敗 選手は5秒絶句",
+     "link": "https://news.yahoo.co.jp/pickup/6593551?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 12:12:22 GMT"
     },
     {
-     "title": "大河ドラマ巡り2市がNHKに文書",
-     "link": "https://news.yahoo.co.jp/pickup/6593506?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 05:10:27 GMT"
+     "title": "52歳でアイドルに 看護師から転身",
+     "link": "https://news.yahoo.co.jp/pickup/6593547?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 10:49:39 GMT"
     }
    ]
   }
