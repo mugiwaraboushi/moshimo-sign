@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-29T01:02:03.693Z",
+ "updatedAt": "2026-08-29T07:56:09.428Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "鹿児島 いちき串木野市の水難事故 沖合で新たに1人見つかる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47141",
+     "pubDate": "Sat, 29 Aug 2026 16:32:11 +0900"
+    },
+    {
+     "title": "ネパール土石流 586人が死亡 国連は支援を拡大する方針",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47121",
+     "pubDate": "Sat, 29 Aug 2026 12:20:26 +0900"
+    },
+    {
+     "title": "トランプ大統領“ベネズエラ石油資源の過半数の支配権を確保”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47161",
+     "pubDate": "Sat, 29 Aug 2026 15:01:00 +0900"
+    },
+    {
+     "title": "AIと人間が協力の「ペア碁」新たなeスポーツ目指す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47163",
+     "pubDate": "Sat, 29 Aug 2026 16:22:14 +0900"
+    },
+    {
+     "title": "石川県で「熱中症警戒アラート」誤発表 原因は気温観測に誤り",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47154",
+     "pubDate": "Sat, 29 Aug 2026 15:57:20 +0900"
+    },
+    {
      "title": "大気の状態非常に不安定 北陸で再び大雨のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47108",
-     "pubDate": "Sat, 29 Aug 2026 06:38:06 +0900"
+     "pubDate": "Sat, 29 Aug 2026 12:16:00 +0900"
     },
     {
-     "title": "サンドウィッチマン 伊達みきおさん 脳梗塞で休養",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47115",
-     "pubDate": "Fri, 28 Aug 2026 23:35:00 +0900"
-    },
-    {
-     "title": "消せるボールペン 特許侵害で韓国メーカーの販売差し止め",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47105",
-     "pubDate": "Sat, 29 Aug 2026 05:08:27 +0900"
-    },
-    {
-     "title": "土石流５８６人死亡 ネパール側の行方不明者１９００人超に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47121",
-     "pubDate": "Sat, 29 Aug 2026 05:15:27 +0900"
-    },
-    {
-     "title": "FRBウォーシュ議長 “利上げの可能性を排除しない考え”示唆",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47112",
-     "pubDate": "Sat, 29 Aug 2026 04:43:09 +0900"
-    },
-    {
-     "title": "鹿児島 いちき串木野市の海岸で流された中高生3人の捜索続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47117",
-     "pubDate": "Sat, 29 Aug 2026 06:30:09 +0900"
-    },
-    {
-     "title": "立民「合流せず」3党の関係行方は中道・公明の出方が焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47103",
-     "pubDate": "Sat, 29 Aug 2026 04:55:33 +0900"
+     "title": "マレーシアの空港 東京発の航空機の車輪格納部から遺体",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47107",
+     "pubDate": "Fri, 28 Aug 2026 22:41:00 +0900"
     }
    ]
   },
@@ -50,9 +50,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "除染土再生利用 仙台市の国の出先機関に土が運び込まれる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47150",
+     "pubDate": "Sat, 29 Aug 2026 15:53:11 +0900"
+    },
+    {
+     "title": "物価高が続く中で全国一斉の生活相談会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47143",
+     "pubDate": "Sat, 29 Aug 2026 13:13:54 +0900"
+    },
+    {
+     "title": "鹿児島 いちき串木野市の水難事故 沖合で新たに1人見つかる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47141",
+     "pubDate": "Sat, 29 Aug 2026 16:32:11 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（8月29日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47092",
-     "pubDate": "Sat, 29 Aug 2026 06:42:45 +0900"
+     "pubDate": "Sat, 29 Aug 2026 14:17:16 +0900"
     },
     {
      "title": "鹿児島 いちき串木野市の海岸で流された中高生3人の捜索続く",
@@ -82,7 +97,7 @@
     {
      "title": "マレーシアの空港 東京発の航空機の車輪格納部から遺体",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47107",
-     "pubDate": "Fri, 28 Aug 2026 22:41:02 +0900"
+     "pubDate": "Fri, 28 Aug 2026 22:41:00 +0900"
     },
     {
      "title": "最低賃金の調査票紛失 延べ339人分の個人情報 漏えいのおそれ",
@@ -108,21 +123,6 @@
      "title": "上半期の出生数は34万人余 11年ぶり前年比増加 厚労省調査",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47045",
      "pubDate": "Fri, 28 Aug 2026 19:04:12 +0900"
-    },
-    {
-     "title": "環境省 帰還困難区域の除染など加速化へ 福島 大熊町に新拠点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47050",
-     "pubDate": "Fri, 28 Aug 2026 19:03:30 +0900"
-    },
-    {
-     "title": "三重 伊賀市長パワハラ疑惑 百条委 市長“異動希望求めてない\"",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47037",
-     "pubDate": "Fri, 28 Aug 2026 19:01:23 +0900"
-    },
-    {
-     "title": "大阪 USJ拡張へ 隣接地活用してアトラクションを整備",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47049",
-     "pubDate": "Fri, 28 Aug 2026 18:54:09 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "AIと人間が協力の「ペア碁」新たなeスポーツ目指す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47163",
+     "pubDate": "Sat, 29 Aug 2026 16:22:14 +0900"
+    },
     {
      "title": "サンドウィッチマン 伊達みきおさん 脳梗塞で休養",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47115",
@@ -200,11 +205,6 @@
      "title": "ABUロボコン香港で開催 地元の香港大学が優勝",
      "link": "https://news.web.nhk/newsweb/na/nd-20260823de45901",
      "pubDate": "Mon, 24 Aug 2026 05:40:25 +0900"
-    },
-    {
-     "title": "新方式で国産初の量子コンピューター稼働開始 分子科学研究所",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45895",
-     "pubDate": "Mon, 24 Aug 2026 05:10:35 +0900"
     }
    ]
   },
@@ -214,9 +214,49 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "土石流５８６人死亡 ネパール側の行方不明者１９００人超に",
+     "title": "トランプ大統領“ベネズエラ石油資源の過半数の支配権を確保”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47161",
+     "pubDate": "Sat, 29 Aug 2026 15:01:00 +0900"
+    },
+    {
+     "title": "米紙 対イラン作戦でアメリカ弱体化とロシアが評価か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47147",
+     "pubDate": "Sat, 29 Aug 2026 13:57:26 +0900"
+    },
+    {
+     "title": "FRB議長「金融引き締め的と表現は難しい」利上げ可能性に含み",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47140",
+     "pubDate": "Sat, 29 Aug 2026 12:45:53 +0900"
+    },
+    {
+     "title": "ゼレンスキー大統領「CIA長官のモスクワ訪問の説明受けた」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47122",
+     "pubDate": "Sat, 29 Aug 2026 11:24:37 +0900"
+    },
+    {
+     "title": "米財務省 イラン経済制裁でエジプトの銀行とのドル取引遮断へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47128",
+     "pubDate": "Sat, 29 Aug 2026 11:17:00 +0900"
+    },
+    {
+     "title": "ICC締約国会議 アメリカでの開催変更を検討",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47120",
+     "pubDate": "Sat, 29 Aug 2026 11:12:22 +0900"
+    },
+    {
+     "title": "中国 軍制服組トップら2人を解任 規律違反などの疑いで調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47111",
+     "pubDate": "Sat, 29 Aug 2026 10:39:58 +0900"
+    },
+    {
+     "title": "米の日本製紙子会社の11人死亡事故 タンクの厚み不足指摘",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47127",
+     "pubDate": "Sat, 29 Aug 2026 10:17:50 +0900"
+    },
+    {
+     "title": "ネパール土石流 586人が死亡 国連は支援を拡大する方針",
      "link": "https://news.web.nhk/newsweb/na/nd-20260829de47121",
-     "pubDate": "Sat, 29 Aug 2026 05:15:27 +0900"
+     "pubDate": "Sat, 29 Aug 2026 12:20:26 +0900"
     },
     {
      "title": "消せるボールペン 特許侵害で韓国メーカーの販売差し止め",
@@ -236,7 +276,7 @@
     {
      "title": "マレーシアの空港 東京発の航空機の車輪格納部から遺体",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47107",
-     "pubDate": "Fri, 28 Aug 2026 22:41:02 +0900"
+     "pubDate": "Fri, 28 Aug 2026 22:41:00 +0900"
     },
     {
      "title": "米のイラン軍事作戦半年 ホルムズ回避の代替ルート構築進む",
@@ -247,46 +287,6 @@
      "title": "「米政府のアンソロピック排除措置は違憲」連邦地裁",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47040",
      "pubDate": "Fri, 28 Aug 2026 19:00:45 +0900"
-    },
-    {
-     "title": "サッカー UEFAがFIFA主催大会への不参加を暫定的に停止",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46939",
-     "pubDate": "Fri, 28 Aug 2026 15:58:22 +0900"
-    },
-    {
-     "title": "ホルムズ海峡 事実上の封鎖から半年 通過船舶は10分の1程度に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46970",
-     "pubDate": "Fri, 28 Aug 2026 15:06:00 +0900"
-    },
-    {
-     "title": "ジャクソンホール会議が開幕 FRBウォーシュ議長の講演に注目",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46922",
-     "pubDate": "Fri, 28 Aug 2026 14:44:52 +0900"
-    },
-    {
-     "title": "トランプ大統領 オンタリオ湖をアメリカ湖に変更の大統領令",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46864",
-     "pubDate": "Fri, 28 Aug 2026 10:15:00 +0900"
-    },
-    {
-     "title": "“戦後 欧州最悪の虐殺”で服役中のムラディッチ元司令官 死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46850",
-     "pubDate": "Fri, 28 Aug 2026 08:16:45 +0900"
-    },
-    {
-     "title": "ロシア情報機関トップ 米CIA長官と会談認めるも“特別でない”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46851",
-     "pubDate": "Fri, 28 Aug 2026 08:02:02 +0900"
-    },
-    {
-     "title": "国連事務総長 エボラ出血熱 感染急速拡大で各国の協力呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46848",
-     "pubDate": "Fri, 28 Aug 2026 07:14:57 +0900"
-    },
-    {
-     "title": "イラン軍事作戦半年 ホルムズ海峡など打開道筋見いだせず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46813",
-     "pubDate": "Fri, 28 Aug 2026 06:14:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "避難所行かない被災者 各々の事情",
-     "link": "https://news.yahoo.co.jp/pickup/6593473?source=rss",
-     "pubDate": "Fri, 28 Aug 2026 23:39:58 GMT"
+     "title": "避難3日目迎え疲労の色 石川富山",
+     "link": "https://news.yahoo.co.jp/pickup/6593510?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 06:15:38 GMT"
     },
     {
-     "title": "石川・富山で大雨長引く恐れ 警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6593469?source=rss",
-     "pubDate": "Fri, 28 Aug 2026 23:07:52 GMT"
+     "title": "海で流された中高生 2人が死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6593511?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 05:53:50 GMT"
     },
     {
-     "title": "近畿で30年以内にM6.8超 50～60%",
-     "link": "https://news.yahoo.co.jp/pickup/6593466?source=rss",
-     "pubDate": "Fri, 28 Aug 2026 22:43:03 GMT"
+     "title": "北陸29-31日も大雨恐れ 厳重警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6593516?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 06:34:12 GMT"
     },
     {
-     "title": "福岡県議に公認出せない 首相意向",
-     "link": "https://news.yahoo.co.jp/pickup/6593477?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 00:30:46 GMT"
+     "title": "妹を遺棄疑い 死亡関与ほのめかす",
+     "link": "https://news.yahoo.co.jp/pickup/6593517?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 06:34:24 GMT"
     },
     {
-     "title": "従業員死亡 容疑者は支配的立場か",
-     "link": "https://news.yahoo.co.jp/pickup/6593476?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 00:11:27 GMT"
+     "title": "睡眠導入剤を乱用 青い舌の少女",
+     "link": "https://news.yahoo.co.jp/pickup/6593522?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 07:22:19 GMT"
     },
     {
-     "title": "日野市立病院 市が1億円追加支援",
-     "link": "https://news.yahoo.co.jp/pickup/6593478?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 00:48:30 GMT"
+     "title": "病気と気づかず 社交不安症とは",
+     "link": "https://news.yahoo.co.jp/pickup/6593509?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 06:01:31 GMT"
     },
     {
-     "title": "読テレ・中谷しのぶアナ 妊娠報告",
-     "link": "https://news.yahoo.co.jp/pickup/6593472?source=rss",
-     "pubDate": "Fri, 28 Aug 2026 23:29:52 GMT"
+     "title": "南極海でアザラシ大量死の恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6593520?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 07:16:45 GMT"
     },
     {
-     "title": "TBS・山形純菜アナ 結婚を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6593462?source=rss",
-     "pubDate": "Fri, 28 Aug 2026 22:16:00 GMT"
+     "title": "大河ドラマ巡り2市がNHKに文書",
+     "link": "https://news.yahoo.co.jp/pickup/6593506?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 05:10:27 GMT"
     }
    ]
   }
