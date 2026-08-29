@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-29T17:16:06.272Z",
+ "updatedAt": "2026-08-29T19:50:03.063Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "前線で大気の状態不安定 石川県と福井県にレベル4危険警報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47108",
-     "pubDate": "Sat, 29 Aug 2026 22:34:23 +0900"
+     "title": "福井県に大雨特別警報を発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47200",
+     "pubDate": "Sun, 30 Aug 2026 04:38:11 +0900"
     },
     {
-     "title": "福井県嶺北と石川県加賀に「線状降水帯直前予測」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47175",
-     "pubDate": "Sun, 30 Aug 2026 02:09:15 +0900"
+     "title": "福井県大野市に緊急安全確保 命が助かる可能性の高い行動を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47199",
+     "pubDate": "Sun, 30 Aug 2026 04:35:20 +0900"
     },
     {
-     "title": "東京 中野 高級時計窃盗事件 わずか6秒間のうちに盗んだか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47164",
-     "pubDate": "Sat, 29 Aug 2026 19:52:26 +0900"
+     "title": "レベル4氾濫危険警報 福井県 九頭竜川水系 竹田川",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47204",
+     "pubDate": "Sun, 30 Aug 2026 04:34:00 +0900"
     },
     {
-     "title": "熊本地震 400人余を病院間搬送 緊急事態で生かされたことは…",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47139",
-     "pubDate": "Sat, 29 Aug 2026 17:29:00 +0900"
+     "title": "福井県に大雨特別警報 気象庁と国交省 午前5時半から会見へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47205",
+     "pubDate": "Sun, 30 Aug 2026 04:48:14 +0900"
     },
     {
      "title": "【地震情報】茨城県で震度4 津波の心配なし",
@@ -33,14 +33,14 @@
      "pubDate": "Sun, 30 Aug 2026 00:49:00 +0900"
     },
     {
+     "title": "東京 中野 高級時計窃盗事件 わずか6秒間のうちに盗んだか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47164",
+     "pubDate": "Sat, 29 Aug 2026 19:52:26 +0900"
+    },
+    {
      "title": "バレーボール日本女子 アジア選手権 ロス五輪出場権獲得ならず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260829de47183",
      "pubDate": "Sat, 29 Aug 2026 22:53:37 +0900"
-    },
-    {
-     "title": "野球 18歳以下の日本代表 大学日本代表に敗れる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47187",
-     "pubDate": "Sat, 29 Aug 2026 23:45:36 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "ホンダと日産「SDV」で基本ソフト共同開発など協業 近く合意へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47171",
+     "pubDate": "Sun, 30 Aug 2026 02:33:50 +0900"
+    },
     {
      "title": "熊本地震 被災住宅の公費解体で相談窓口設置 宇土市役所",
      "link": "https://news.web.nhk/newsweb/na/nd-20260829de47155",
@@ -118,11 +123,6 @@
      "title": "最低賃金の調査票紛失 延べ339人分の個人情報 漏えいのおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47099",
      "pubDate": "Fri, 28 Aug 2026 22:09:41 +0900"
-    },
-    {
-     "title": "京王線と京王相模原線 運転再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47096",
-     "pubDate": "Fri, 28 Aug 2026 22:52:35 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ネパール土石流682人死亡 行方不明者の捜索続くも難航",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47203",
+     "pubDate": "Sun, 30 Aug 2026 04:16:00 +0900"
+    },
+    {
      "title": "ウクライナ首都近郊で37人死亡 ロシア軍攻撃で弾薬爆発か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260829de47184",
      "pubDate": "Sat, 29 Aug 2026 23:47:18 +0900"
@@ -282,11 +287,6 @@
      "title": "マレーシアの空港 東京発の航空機の車輪格納部から遺体",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47107",
      "pubDate": "Fri, 28 Aug 2026 22:41:00 +0900"
-    },
-    {
-     "title": "米のイラン軍事作戦半年 ホルムズ回避の代替ルート構築進む",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47041",
-     "pubDate": "Fri, 28 Aug 2026 20:53:29 +0900"
     }
    ]
   },
