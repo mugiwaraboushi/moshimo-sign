@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-29T13:27:38.364Z",
+ "updatedAt": "2026-08-29T17:16:06.272Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,29 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "前線で大気の状態不安定 石川県と福井県にレベル4危険警報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47108",
+     "pubDate": "Sat, 29 Aug 2026 22:34:23 +0900"
+    },
+    {
+     "title": "福井県嶺北と石川県加賀に「線状降水帯直前予測」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47175",
+     "pubDate": "Sun, 30 Aug 2026 02:09:15 +0900"
+    },
+    {
      "title": "東京 中野 高級時計窃盗事件 わずか6秒間のうちに盗んだか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260829de47164",
      "pubDate": "Sat, 29 Aug 2026 19:52:26 +0900"
-    },
-    {
-     "title": "ネパール土石流 633人が死亡 二次災害のリスクを警戒",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47121",
-     "pubDate": "Sat, 29 Aug 2026 19:57:08 +0900"
-    },
-    {
-     "title": "鹿児島 いちき串木野市の水難事故 沖合で発見の中高生3人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47141",
-     "pubDate": "Sat, 29 Aug 2026 19:51:35 +0900"
-    },
-    {
-     "title": "前線で大気の状態不安定 石川県と福井県にレベル4危険警報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47108",
-     "pubDate": "Sat, 29 Aug 2026 21:29:59 +0900"
-    },
-    {
-     "title": "福井 勝山市 約8300世帯に避難指示",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47180",
-     "pubDate": "Sat, 29 Aug 2026 21:49:42 +0900"
     },
     {
      "title": "熊本地震 400人余を病院間搬送 緊急事態で生かされたことは…",
@@ -38,9 +28,19 @@
      "pubDate": "Sat, 29 Aug 2026 17:29:00 +0900"
     },
     {
-     "title": "メッツ千賀滉大 リリーフ登板で1イニング無失点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47160",
-     "pubDate": "Sat, 29 Aug 2026 14:22:23 +0900"
+     "title": "【地震情報】茨城県で震度4 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46854",
+     "pubDate": "Sun, 30 Aug 2026 00:49:00 +0900"
+    },
+    {
+     "title": "バレーボール日本女子 アジア選手権 ロス五輪出場権獲得ならず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47183",
+     "pubDate": "Sat, 29 Aug 2026 22:53:37 +0900"
+    },
+    {
+     "title": "野球 18歳以下の日本代表 大学日本代表に敗れる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47187",
+     "pubDate": "Sat, 29 Aug 2026 23:45:36 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ウクライナ首都近郊で37人死亡 ロシア軍攻撃で弾薬爆発か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47184",
+     "pubDate": "Sat, 29 Aug 2026 23:47:18 +0900"
+    },
+    {
      "title": "トランプ大統領“ベネズエラ石油資源の過半数の支配権を確保”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260829de47161",
      "pubDate": "Sat, 29 Aug 2026 15:01:00 +0900"
@@ -282,11 +287,6 @@
      "title": "米のイラン軍事作戦半年 ホルムズ回避の代替ルート構築進む",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47041",
      "pubDate": "Fri, 28 Aug 2026 20:53:29 +0900"
-    },
-    {
-     "title": "「米政府のアンソロピック排除措置は違憲」連邦地裁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47040",
-     "pubDate": "Fri, 28 Aug 2026 19:00:45 +0900"
     }
    ]
   },
@@ -296,14 +296,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "茨城県で最大震度4 津波心配なし",
+     "link": "https://news.yahoo.co.jp/pickup/6593574?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 15:23:44 GMT"
+    },
+    {
      "title": "熊本地震 被災者それぞれの1カ月",
      "link": "https://news.yahoo.co.jp/pickup/6593558?source=rss",
      "pubDate": "Sat, 29 Aug 2026 12:44:42 GMT"
     },
     {
-     "title": "千葉豪雨 半壊判定が大幅増見通し",
-     "link": "https://news.yahoo.co.jp/pickup/6593545?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 10:25:07 GMT"
+     "title": "娘が不登校になった精神科医 訴え",
+     "link": "https://news.yahoo.co.jp/pickup/6593568?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 14:14:16 GMT"
     },
     {
      "title": "海で3人死亡 14歳は救助図ったか",
@@ -311,29 +316,24 @@
      "pubDate": "Sat, 29 Aug 2026 12:11:53 GMT"
     },
     {
-     "title": "なぜ娘殺された わからぬまま20年",
-     "link": "https://news.yahoo.co.jp/pickup/6593549?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 11:30:32 GMT"
-    },
-    {
      "title": "牛が線路に迷い込む 列車80分停止",
      "link": "https://news.yahoo.co.jp/pickup/6593556?source=rss",
      "pubDate": "Sat, 29 Aug 2026 12:19:55 GMT"
     },
     {
-     "title": "阪神・森下が死球交代 甲子園怒号",
-     "link": "https://news.yahoo.co.jp/pickup/6593555?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 12:20:00 GMT"
+     "title": "バレー女子敗北 木村沙織さん涙声",
+     "link": "https://news.yahoo.co.jp/pickup/6593571?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 14:35:24 GMT"
     },
     {
-     "title": "バレー女子が完敗 選手は5秒絶句",
-     "link": "https://news.yahoo.co.jp/pickup/6593551?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 12:12:22 GMT"
+     "title": "甲子園 両軍ファン乱闘騒ぎ複数件",
+     "link": "https://news.yahoo.co.jp/pickup/6593572?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 14:50:34 GMT"
     },
     {
-     "title": "52歳でアイドルに 看護師から転身",
-     "link": "https://news.yahoo.co.jp/pickup/6593547?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 10:49:39 GMT"
+     "title": "24時間TVにブラックビスケッツ",
+     "link": "https://news.yahoo.co.jp/pickup/6593570?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 14:22:03 GMT"
     }
    ]
   }
