@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-30T15:05:06.014Z",
+ "updatedAt": "2026-08-30T18:40:03.173Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "滋賀 乗用車とトラックが正面衝突 2人死亡1人重体3人重軽傷",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47327",
+     "pubDate": "Mon, 31 Aug 2026 03:24:28 +0900"
+    },
+    {
      "title": "福井県で記録的な大雨 土砂災害に引き続き十分注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47200",
      "pubDate": "Sun, 30 Aug 2026 22:33:52 +0900"
-    },
-    {
-     "title": "【選挙速報】香川県知事選挙 現職の池田豊人氏 2回目の当選",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46506",
-     "pubDate": "Sun, 30 Aug 2026 23:09:07 +0900"
     },
     {
      "title": "ネパール土石流 768人死亡 3000人以上不明 6歳女児を救出",
@@ -28,9 +28,9 @@
      "pubDate": "Sun, 30 Aug 2026 20:05:02 +0900"
     },
     {
-     "title": "西武 栗山巧 引退試合最後の打席はセンター前ヒット 2152安打",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47288",
-     "pubDate": "Mon, 31 Aug 2026 00:00:56 +0900"
+     "title": "【選挙結果】香川県知事選挙 現職の池田豊人氏 2回目の当選",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46506",
+     "pubDate": "Mon, 31 Aug 2026 00:24:58 +0900"
     },
     {
      "title": "名古屋 アトラクションのドア開かず 11人が約30分間閉じ込め",
@@ -38,9 +38,9 @@
      "pubDate": "Sun, 30 Aug 2026 18:53:00 +0900"
     },
     {
-     "title": "ディズニーランドで客のモバイルバッテリーから煙 けが人なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47293",
-     "pubDate": "Sun, 30 Aug 2026 21:10:08 +0900"
+     "title": "西武 栗山巧 引退試合最後の打席はセンター前ヒット 2152安打",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47288",
+     "pubDate": "Mon, 31 Aug 2026 01:11:26 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "滋賀 乗用車とトラックが正面衝突 2人死亡1人重体3人重軽傷",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47327",
+     "pubDate": "Mon, 31 Aug 2026 03:24:28 +0900"
+    },
     {
      "title": "【動画】Pickup NEWS（8月30日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260829de47172",
@@ -118,11 +123,6 @@
      "title": "JR九頭竜線 えちぜん鉄道 全線で終日運転取りやめ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47234",
      "pubDate": "Sun, 30 Aug 2026 08:03:32 +0900"
-    },
-    {
-     "title": "熊本地震 3自治体の職員2割余が“高い疲労の状態”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47173",
-     "pubDate": "Sun, 30 Aug 2026 07:38:29 +0900"
     }
    ]
   },
@@ -200,11 +200,6 @@
      "title": "「科研費」倍増の約4500億円要求へ 文科省が来年度予算で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260825de46158",
      "pubDate": "Tue, 25 Aug 2026 13:42:00 +0900"
-    },
-    {
-     "title": "人工衛星活用し旬のキャベツ届ける取り組み開始 JAXAなど",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260824de46018",
-     "pubDate": "Mon, 24 Aug 2026 17:58:00 +0900"
     }
    ]
   },
@@ -216,7 +211,7 @@
     {
      "title": "アイスランド国民投票 EU加盟交渉再開に反対上回り再開見送り",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47316",
-     "pubDate": "Sun, 30 Aug 2026 22:11:53 +0900"
+     "pubDate": "Mon, 31 Aug 2026 01:18:57 +0900"
     },
     {
      "title": "日トルクメニスタン外相会談 資源・エネルギー分野の協力推進",
