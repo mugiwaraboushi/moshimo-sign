@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-30T00:27:48.206Z",
+ "updatedAt": "2026-08-30T05:37:01.484Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "福井県に大雨特別警報 福井市 大野市 勝山市の3市が対象",
+     "title": "福井県3市 大雨危険警報に 土砂災害など引き続き厳重に警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47200",
-     "pubDate": "Sun, 30 Aug 2026 08:39:50 +0900"
+     "pubDate": "Sun, 30 Aug 2026 14:29:31 +0900"
     },
     {
-     "title": "福井 大野 勝山の3市に緊急安全確保 命助かる可能性高い行動を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47199",
-     "pubDate": "Sun, 30 Aug 2026 06:16:00 +0900"
+     "title": "【大雨被害 動画】福井県内の上空からの映像",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47264",
+     "pubDate": "Sun, 30 Aug 2026 11:33:00 +0900"
     },
     {
-     "title": "気象庁と国交省が会見“身の安全確保を”福井県に大雨特別警報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47205",
-     "pubDate": "Sun, 30 Aug 2026 06:24:00 +0900"
+     "title": "ネパール土石流 750人死亡 3000人以上が行方不明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47268",
+     "pubDate": "Sun, 30 Aug 2026 14:20:22 +0900"
     },
     {
-     "title": "福井市 芳野川で越水 県福井土木事務所",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47243",
-     "pubDate": "Sun, 30 Aug 2026 09:12:27 +0900"
+     "title": "【動画】福井 勝山市 えちぜん鉄道の線路に大量の水が流れ込む",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47265",
+     "pubDate": "Sun, 30 Aug 2026 12:15:16 +0900"
     },
     {
-     "title": "【被害まとめ】福井県内で道路冠水や住宅浸水相次ぐ",
+     "title": "【被害まとめ】福井県内 道路冠水や住宅浸水の情報相次ぐ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47209",
-     "pubDate": "Sun, 30 Aug 2026 07:37:11 +0900"
+     "pubDate": "Sun, 30 Aug 2026 13:58:38 +0900"
     },
     {
-     "title": "【動画】大雨 福井県 各地の状況は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47235",
-     "pubDate": "Sun, 30 Aug 2026 09:19:23 +0900"
+     "title": "海自イージス艦が佐世保基地に帰港 トマホーク発射の改修終え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47254",
+     "pubDate": "Sun, 30 Aug 2026 14:01:10 +0900"
     },
     {
-     "title": "【河川カメラの映像】福井県 各地の河川状況",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47211",
-     "pubDate": "Sun, 30 Aug 2026 05:42:00 +0900"
+     "title": "福井県内の緊急安全確保はすべて避難指示に切り替え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47281",
+     "pubDate": "Sun, 30 Aug 2026 13:03:15 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "海自イージス艦が佐世保基地に帰港 トマホーク発射の改修終え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47254",
+     "pubDate": "Sun, 30 Aug 2026 14:01:10 +0900"
+    },
     {
      "title": "福井 国道8号で冠水 坂井市の下り線一部区間が通行止め",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47241",
@@ -73,11 +78,6 @@
      "title": "熊本地震 3自治体の職員2割余が“高い疲労の状態”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260829de47173",
      "pubDate": "Sun, 30 Aug 2026 07:38:29 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（8月30日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47172",
-     "pubDate": "Sun, 30 Aug 2026 07:03:58 +0900"
     },
     {
      "title": "ホンダと日産「SDV」で基本ソフト共同開発など協業 近く合意へ",
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（8月29日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44572",
+     "pubDate": "Sat, 29 Aug 2026 14:12:00 +0900"
+    },
+    {
+     "title": "ネパール土石流 750人死亡 3000人以上が行方不明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47268",
+     "pubDate": "Sun, 30 Aug 2026 14:20:22 +0900"
+    },
+    {
      "title": "ネパール土石流682人死亡 行方不明者の捜索続くも難航",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47203",
      "pubDate": "Sun, 30 Aug 2026 04:16:00 +0900"
@@ -277,16 +287,6 @@
      "title": "FRBウォーシュ議長 “利上げの可能性を排除しない考え”示唆",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47112",
      "pubDate": "Sat, 29 Aug 2026 04:43:09 +0900"
-    },
-    {
-     "title": "ノルウェーのハラルド国王が死去",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47110",
-     "pubDate": "Fri, 28 Aug 2026 23:25:00 +0900"
-    },
-    {
-     "title": "マレーシアの空港 東京発の航空機の車輪格納部から遺体",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47107",
-     "pubDate": "Fri, 28 Aug 2026 22:41:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "福井県に大雨特別警報 最大級警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6593588?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 22:08:02 GMT"
+     "title": "福井県 土砂災害などに厳重警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6593619?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 05:06:38 GMT"
     },
     {
-     "title": "大雨で浸水リスク 車移動は危険",
-     "link": "https://news.yahoo.co.jp/pickup/6593582?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 21:14:58 GMT"
+     "title": "福井4市 観測史上最多の降水量",
+     "link": "https://news.yahoo.co.jp/pickup/6593615?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 04:20:28 GMT"
     },
     {
-     "title": "福井県 24万人に緊急安全確保",
-     "link": "https://news.yahoo.co.jp/pickup/6593595?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 23:37:28 GMT"
+     "title": "中道 結党7カ月で瓦解の危機",
+     "link": "https://news.yahoo.co.jp/pickup/6593599?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 00:56:02 GMT"
     },
     {
-     "title": "福井・龍ヶ鼻ダム 緊急放流の恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6593585?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 21:47:22 GMT"
+     "title": "ネパール土石流 氷河崩落が原因",
+     "link": "https://news.yahoo.co.jp/pickup/6593616?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 04:38:12 GMT"
     },
     {
-     "title": "海で中高生3人死亡 家族ら悲痛",
-     "link": "https://news.yahoo.co.jp/pickup/6593590?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 22:35:06 GMT"
+     "title": "不登校に悩み ハッとした子の言葉",
+     "link": "https://news.yahoo.co.jp/pickup/6593613?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 04:01:04 GMT"
     },
     {
-     "title": "中国の白菜問題巡り 3人刑事拘留",
-     "link": "https://news.yahoo.co.jp/pickup/6593596?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 23:57:17 GMT"
+     "title": "海で死亡の中高生3人 死因は水死",
+     "link": "https://news.yahoo.co.jp/pickup/6593617?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 04:44:50 GMT"
     },
     {
-     "title": "大谷の投手復帰が白紙に 監督説明",
-     "link": "https://news.yahoo.co.jp/pickup/6593589?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 22:28:09 GMT"
+     "title": "山肌埋め尽くすシカ 南アルプス",
+     "link": "https://news.yahoo.co.jp/pickup/6593620?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 05:32:35 GMT"
     },
     {
-     "title": "大坂なおみ「私の本業は母親」",
-     "link": "https://news.yahoo.co.jp/pickup/6593594?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 23:09:10 GMT"
+     "title": "吉田響 独走状態から失速し9位",
+     "link": "https://news.yahoo.co.jp/pickup/6593622?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 05:34:38 GMT"
     }
    ]
   }
