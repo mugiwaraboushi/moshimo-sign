@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-30T05:37:01.484Z",
+ "updatedAt": "2026-08-30T10:47:07.762Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "福井県3市 大雨危険警報に 土砂災害など引き続き厳重に警戒を",
+     "title": "福井県で記録的な大雨 土砂災害に引き続き厳重に警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47200",
-     "pubDate": "Sun, 30 Aug 2026 14:29:31 +0900"
+     "pubDate": "Sun, 30 Aug 2026 19:37:11 +0900"
     },
     {
-     "title": "【大雨被害 動画】福井県内の上空からの映像",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47264",
-     "pubDate": "Sun, 30 Aug 2026 11:33:00 +0900"
+     "title": "【速報予定】香川県知事選 開票や出口調査 当選情報はこちらで",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46506",
+     "pubDate": "Sun, 30 Aug 2026 19:01:39 +0900"
     },
     {
      "title": "ネパール土石流 750人死亡 3000人以上が行方不明",
@@ -23,24 +23,24 @@
      "pubDate": "Sun, 30 Aug 2026 14:20:22 +0900"
     },
     {
-     "title": "【動画】福井 勝山市 えちぜん鉄道の線路に大量の水が流れ込む",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47265",
-     "pubDate": "Sun, 30 Aug 2026 12:15:16 +0900"
+     "title": "31日 北陸は猛暑日予想のところも 熱中症に厳重に警戒 対策を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47299",
+     "pubDate": "Sun, 30 Aug 2026 18:55:52 +0900"
     },
     {
-     "title": "【被害まとめ】福井県内 道路冠水や住宅浸水の情報相次ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47209",
-     "pubDate": "Sun, 30 Aug 2026 13:58:38 +0900"
+     "title": "【大雨被害 動画】福井県内の上空からの映像",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47264",
+     "pubDate": "Sun, 30 Aug 2026 18:09:00 +0900"
     },
     {
-     "title": "海自イージス艦が佐世保基地に帰港 トマホーク発射の改修終え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47254",
-     "pubDate": "Sun, 30 Aug 2026 14:01:10 +0900"
+     "title": "名古屋 アトラクションのドア開かず 11人が約30分間閉じ込め",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47296",
+     "pubDate": "Sun, 30 Aug 2026 18:53:57 +0900"
     },
     {
-     "title": "福井県内の緊急安全確保はすべて避難指示に切り替え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47281",
-     "pubDate": "Sun, 30 Aug 2026 13:03:15 +0900"
+     "title": "岩手 岩泉町 台風豪雨災害から10年 9人犠牲の施設跡地で追悼",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47275",
+     "pubDate": "Sun, 30 Aug 2026 18:38:50 +0900"
     }
    ]
   },
@@ -49,6 +49,41 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "名古屋 アトラクションのドア開かず 11人が約30分間閉じ込め",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47296",
+     "pubDate": "Sun, 30 Aug 2026 18:53:57 +0900"
+    },
+    {
+     "title": "大雨被害のJR七尾線で復旧工事 順調に進めば9月6日運転再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47290",
+     "pubDate": "Sun, 30 Aug 2026 18:35:22 +0900"
+    },
+    {
+     "title": "東京ディズニーランドで“客の手荷物から煙”けが人なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47293",
+     "pubDate": "Sun, 30 Aug 2026 18:16:00 +0900"
+    },
+    {
+     "title": "熊本地震 県が整備の仮設住宅 初めて氷川町に完成",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47279",
+     "pubDate": "Sun, 30 Aug 2026 17:03:52 +0900"
+    },
+    {
+     "title": "環境省 除染土再生利用 さいたま市にある合同庁舎の花壇でも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47270",
+     "pubDate": "Sun, 30 Aug 2026 15:15:28 +0900"
+    },
+    {
+     "title": "「大曲の花火」 約1万8000発が夜空彩る 秋田 大仙",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47202",
+     "pubDate": "Sun, 30 Aug 2026 14:51:52 +0900"
+    },
+    {
+     "title": "愛媛 四国中央市のブランド盆栽用の松 約50本盗まれたか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47178",
+     "pubDate": "Sun, 30 Aug 2026 14:38:39 +0900"
+    },
     {
      "title": "海自イージス艦が佐世保基地に帰港 トマホーク発射の改修終え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47254",
@@ -60,9 +95,9 @@
      "pubDate": "Sun, 30 Aug 2026 08:37:24 +0900"
     },
     {
-     "title": "【福井 交通影響まとめ】鉄道で見合わせ 高速道路で通行止め",
+     "title": "【福井 交通影響まとめ】31日の鉄道・バスの運行予定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47239",
-     "pubDate": "Sun, 30 Aug 2026 08:42:40 +0900"
+     "pubDate": "Sun, 30 Aug 2026 18:59:33 +0900"
     },
     {
      "title": "北陸道 福井ICと金津ICの間 上下線で通行止め",
@@ -88,41 +123,6 @@
      "title": "熊本地震 被災住宅の公費解体で相談窓口設置 宇土市役所",
      "link": "https://news.web.nhk/newsweb/na/nd-20260829de47155",
      "pubDate": "Sat, 29 Aug 2026 19:07:56 +0900"
-    },
-    {
-     "title": "東京 中野 高級時計窃盗事件 わずか6秒間のうちに盗んだか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47164",
-     "pubDate": "Sat, 29 Aug 2026 19:52:26 +0900"
-    },
-    {
-     "title": "熊本地震 400人余を病院間搬送 緊急事態で生かされたことは…",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47139",
-     "pubDate": "Sat, 29 Aug 2026 17:29:00 +0900"
-    },
-    {
-     "title": "除染土再生利用 仙台市の国の出先機関に土が運び込まれる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47150",
-     "pubDate": "Sat, 29 Aug 2026 15:53:11 +0900"
-    },
-    {
-     "title": "物価高が続く中で全国一斉の生活相談会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47143",
-     "pubDate": "Sat, 29 Aug 2026 13:13:54 +0900"
-    },
-    {
-     "title": "鹿児島 いちき串木野市の水難事故 沖合で発見の中高生3人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47141",
-     "pubDate": "Sat, 29 Aug 2026 19:51:35 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（8月29日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47092",
-     "pubDate": "Sat, 29 Aug 2026 19:34:13 +0900"
-    },
-    {
-     "title": "鹿児島 いちき串木野市の海岸で流された中高生3人の捜索続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47117",
-     "pubDate": "Sat, 29 Aug 2026 06:30:09 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "環境省 除染土再生利用 さいたま市にある合同庁舎の花壇でも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47270",
+     "pubDate": "Sun, 30 Aug 2026 15:15:28 +0900"
+    },
     {
      "title": "AIと人間が協力の「ペア碁」新たなeスポーツ目指す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260829de47163",
@@ -200,11 +205,6 @@
      "title": "人工衛星活用し旬のキャベツ届ける取り組み開始 JAXAなど",
      "link": "https://news.web.nhk/newsweb/na/nd-20260824de46018",
      "pubDate": "Mon, 24 Aug 2026 17:58:00 +0900"
-    },
-    {
-     "title": "ABUロボコン香港で開催 地元の香港大学が優勝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260823de45901",
-     "pubDate": "Mon, 24 Aug 2026 05:40:25 +0900"
     }
    ]
   },
@@ -213,6 +213,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "黄川田担当相 北方領土洋上慰霊に参加 「墓参を早期に実現」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47263",
+     "pubDate": "Sun, 30 Aug 2026 17:18:00 +0900"
+    },
+    {
+     "title": "北朝鮮で党の中央軍事委員会開催 副委員長や国防相人事を決定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47267",
+     "pubDate": "Sun, 30 Aug 2026 16:07:15 +0900"
+    },
+    {
+     "title": "“米軍 日本などへの兵器補充に数年か”イラン攻撃の影響 米紙",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47269",
+     "pubDate": "Sun, 30 Aug 2026 16:00:14 +0900"
+    },
     {
      "title": "【詳細】ロシア ウクライナに軍事侵攻（8月29日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260817de44572",
@@ -272,21 +287,6 @@
      "title": "米の日本製紙子会社の11人死亡事故 タンクの厚み不足指摘",
      "link": "https://news.web.nhk/newsweb/na/nd-20260829de47127",
      "pubDate": "Sat, 29 Aug 2026 10:17:50 +0900"
-    },
-    {
-     "title": "ネパール土石流 633人が死亡 二次災害のリスクを警戒",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47121",
-     "pubDate": "Sat, 29 Aug 2026 19:57:08 +0900"
-    },
-    {
-     "title": "消せるボールペン 特許侵害で韓国メーカーの販売差し止め",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47105",
-     "pubDate": "Sat, 29 Aug 2026 05:08:27 +0900"
-    },
-    {
-     "title": "FRBウォーシュ議長 “利上げの可能性を排除しない考え”示唆",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47112",
-     "pubDate": "Sat, 29 Aug 2026 04:43:09 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "福井県 土砂災害などに厳重警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6593619?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 05:06:38 GMT"
+     "title": "福井大雨「目覚めると周囲が水」",
+     "link": "https://news.yahoo.co.jp/pickup/6593642?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 08:13:28 GMT"
     },
     {
-     "title": "福井4市 観測史上最多の降水量",
-     "link": "https://news.yahoo.co.jp/pickup/6593615?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 04:20:28 GMT"
+     "title": "カイロス3号機失敗 静電気要因か",
+     "link": "https://news.yahoo.co.jp/pickup/6593644?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 08:40:47 GMT"
     },
     {
-     "title": "中道 結党7カ月で瓦解の危機",
-     "link": "https://news.yahoo.co.jp/pickup/6593599?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 00:56:02 GMT"
+     "title": "ソニー生命に立ち入り検査へ",
+     "link": "https://news.yahoo.co.jp/pickup/6593651?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 09:28:00 GMT"
     },
     {
-     "title": "ネパール土石流 氷河崩落が原因",
-     "link": "https://news.yahoo.co.jp/pickup/6593616?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 04:38:12 GMT"
+     "title": "レゴランド閉じ込め 扉破壊し救助",
+     "link": "https://news.yahoo.co.jp/pickup/6593662?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 10:39:14 GMT"
     },
     {
-     "title": "不登校に悩み ハッとした子の言葉",
-     "link": "https://news.yahoo.co.jp/pickup/6593613?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 04:01:04 GMT"
+     "title": "こたけ正義感 冤罪をネタにした訳",
+     "link": "https://news.yahoo.co.jp/pickup/6593654?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 09:35:05 GMT"
     },
     {
-     "title": "海で死亡の中高生3人 死因は水死",
-     "link": "https://news.yahoo.co.jp/pickup/6593617?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 04:44:50 GMT"
+     "title": "バレー女子が銅 W杯の出場権獲得",
+     "link": "https://news.yahoo.co.jp/pickup/6593648?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 09:02:28 GMT"
     },
     {
-     "title": "山肌埋め尽くすシカ 南アルプス",
-     "link": "https://news.yahoo.co.jp/pickup/6593620?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 05:32:35 GMT"
+     "title": "24時間テレビ マラソンなどX反応",
+     "link": "https://news.yahoo.co.jp/pickup/6593659?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 10:19:13 GMT"
     },
     {
-     "title": "吉田響 独走状態から失速し9位",
-     "link": "https://news.yahoo.co.jp/pickup/6593622?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 05:34:38 GMT"
+     "title": "金子恵美氏48歳 不妊治療に葛藤",
+     "link": "https://news.yahoo.co.jp/pickup/6593660?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 10:26:51 GMT"
     }
    ]
   }
