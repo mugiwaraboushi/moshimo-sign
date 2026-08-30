@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-29T22:03:45.839Z",
+ "updatedAt": "2026-08-30T00:27:48.206Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,10 +10,10 @@
     {
      "title": "福井県に大雨特別警報 福井市 大野市 勝山市の3市が対象",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47200",
-     "pubDate": "Sun, 30 Aug 2026 06:52:33 +0900"
+     "pubDate": "Sun, 30 Aug 2026 08:39:50 +0900"
     },
     {
-     "title": "福井市と大野市に緊急安全確保 命が助かる可能性の高い行動を",
+     "title": "福井 大野 勝山の3市に緊急安全確保 命助かる可能性高い行動を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47199",
      "pubDate": "Sun, 30 Aug 2026 06:16:00 +0900"
     },
@@ -23,19 +23,19 @@
      "pubDate": "Sun, 30 Aug 2026 06:24:00 +0900"
     },
     {
-     "title": "【動画】福井市大宮町の国道が冠水 茶色い水が激しく流れる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47218",
-     "pubDate": "Sun, 30 Aug 2026 06:33:12 +0900"
+     "title": "福井市 芳野川で越水 県福井土木事務所",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47243",
+     "pubDate": "Sun, 30 Aug 2026 09:12:27 +0900"
     },
     {
      "title": "【被害まとめ】福井県内で道路冠水や住宅浸水相次ぐ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47209",
-     "pubDate": "Sun, 30 Aug 2026 07:02:51 +0900"
+     "pubDate": "Sun, 30 Aug 2026 07:37:11 +0900"
     },
     {
-     "title": "福井 坂井 道路が冠水して車が立ち往生との情報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47222",
-     "pubDate": "Sun, 30 Aug 2026 06:49:18 +0900"
+     "title": "【動画】大雨 福井県 各地の状況は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47235",
+     "pubDate": "Sun, 30 Aug 2026 09:19:23 +0900"
     },
     {
      "title": "【河川カメラの映像】福井県 各地の河川状況",
@@ -49,6 +49,36 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "福井 国道8号で冠水 坂井市の下り線一部区間が通行止め",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47241",
+     "pubDate": "Sun, 30 Aug 2026 08:37:24 +0900"
+    },
+    {
+     "title": "【福井 交通影響まとめ】鉄道で見合わせ 高速道路で通行止め",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47239",
+     "pubDate": "Sun, 30 Aug 2026 08:42:40 +0900"
+    },
+    {
+     "title": "北陸道 福井ICと金津ICの間 上下線で通行止め",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47237",
+     "pubDate": "Sun, 30 Aug 2026 08:14:28 +0900"
+    },
+    {
+     "title": "JR九頭竜線 えちぜん鉄道 全線で終日運転取りやめ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47234",
+     "pubDate": "Sun, 30 Aug 2026 08:03:32 +0900"
+    },
+    {
+     "title": "熊本地震 3自治体の職員2割余が“高い疲労の状態”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47173",
+     "pubDate": "Sun, 30 Aug 2026 07:38:29 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（8月30日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47172",
+     "pubDate": "Sun, 30 Aug 2026 07:03:58 +0900"
+    },
     {
      "title": "ホンダと日産「SDV」で基本ソフト共同開発など協業 近く合意へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260829de47171",
@@ -93,36 +123,6 @@
      "title": "鹿児島 いちき串木野市の海岸で流された中高生3人の捜索続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260829de47117",
      "pubDate": "Sat, 29 Aug 2026 06:30:09 +0900"
-    },
-    {
-     "title": "東京 高級時計窃盗事件 逮捕の2人 事件前後に服を着替えたか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47100",
-     "pubDate": "Sat, 29 Aug 2026 06:29:05 +0900"
-    },
-    {
-     "title": "消せるボールペン 特許侵害で韓国メーカーの販売差し止め",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47105",
-     "pubDate": "Sat, 29 Aug 2026 05:08:27 +0900"
-    },
-    {
-     "title": "サンドウィッチマン 伊達みきおさん 脳梗塞で休養",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47115",
-     "pubDate": "Fri, 28 Aug 2026 23:35:00 +0900"
-    },
-    {
-     "title": "東北新幹線 運転再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47114",
-     "pubDate": "Fri, 28 Aug 2026 23:36:17 +0900"
-    },
-    {
-     "title": "マレーシアの空港 東京発の航空機の車輪格納部から遺体",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47107",
-     "pubDate": "Fri, 28 Aug 2026 22:41:00 +0900"
-    },
-    {
-     "title": "最低賃金の調査票紛失 延べ339人分の個人情報 漏えいのおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47099",
-     "pubDate": "Fri, 28 Aug 2026 22:09:41 +0900"
     }
    ]
   },
@@ -296,9 +296,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "命守って 福井県に大雨特別警報",
-     "link": "https://news.yahoo.co.jp/pickup/6593577?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 19:58:11 GMT"
+     "title": "福井県に大雨特別警報 最大級警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6593588?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 22:08:02 GMT"
     },
     {
      "title": "大雨で浸水リスク 車移動は危険",
@@ -306,9 +306,9 @@
      "pubDate": "Sat, 29 Aug 2026 21:14:58 GMT"
     },
     {
-     "title": "福井県に大雨特別警報 最新情報",
-     "link": "https://news.yahoo.co.jp/pickup/6593581?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 21:23:53 GMT"
+     "title": "福井県 24万人に緊急安全確保",
+     "link": "https://news.yahoo.co.jp/pickup/6593595?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 23:37:28 GMT"
     },
     {
      "title": "福井・龍ヶ鼻ダム 緊急放流の恐れ",
@@ -316,24 +316,24 @@
      "pubDate": "Sat, 29 Aug 2026 21:47:22 GMT"
     },
     {
-     "title": "安全確保を 大雨のときのNG行動",
-     "link": "https://news.yahoo.co.jp/pickup/6593206?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 19:59:00 GMT"
+     "title": "海で中高生3人死亡 家族ら悲痛",
+     "link": "https://news.yahoo.co.jp/pickup/6593590?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 22:35:06 GMT"
     },
     {
-     "title": "福井県で大雨 現地のSNS投稿",
-     "link": "https://news.yahoo.co.jp/pickup/6593583?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 21:10:07 GMT"
+     "title": "中国の白菜問題巡り 3人刑事拘留",
+     "link": "https://news.yahoo.co.jp/pickup/6593596?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 23:57:17 GMT"
     },
     {
-     "title": "娘が不登校になった精神科医 訴え",
-     "link": "https://news.yahoo.co.jp/pickup/6593568?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 14:14:16 GMT"
+     "title": "大谷の投手復帰が白紙に 監督説明",
+     "link": "https://news.yahoo.co.jp/pickup/6593589?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 22:28:09 GMT"
     },
     {
-     "title": "バレー女子敗北 木村沙織さん涙声",
-     "link": "https://news.yahoo.co.jp/pickup/6593571?source=rss",
-     "pubDate": "Sat, 29 Aug 2026 14:35:24 GMT"
+     "title": "大坂なおみ「私の本業は母親」",
+     "link": "https://news.yahoo.co.jp/pickup/6593594?source=rss",
+     "pubDate": "Sat, 29 Aug 2026 23:09:10 GMT"
     }
    ]
   }
