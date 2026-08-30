@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-30T21:41:03.440Z",
+ "updatedAt": "2026-08-30T23:57:58.051Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "核のごみ最終処分地 近く茨城・常陸大宮市に文献調査申し入れ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47318",
+     "pubDate": "Mon, 31 Aug 2026 07:19:14 +0900"
+    },
     {
      "title": "滋賀 乗用車とトラックが正面衝突 3人死亡 3人重軽傷",
      "link": "https://news.web.nhk/newsweb/na/nd-20260831de47327",
@@ -23,9 +28,9 @@
      "pubDate": "Mon, 31 Aug 2026 05:38:33 +0900"
     },
     {
-     "title": "NASAが次世代宇宙望遠鏡打ち上げ 従来型望遠鏡の視野100倍超え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47324",
-     "pubDate": "Mon, 31 Aug 2026 05:07:02 +0900"
+     "title": "ベルギー国防相“新たに駐在武官配置し日本と連携強化”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47075",
+     "pubDate": "Mon, 31 Aug 2026 05:42:53 +0900"
     },
     {
      "title": "ネパール土石流 797人死亡 住民孤立 支援態勢の構築が急務に",
@@ -33,14 +38,9 @@
      "pubDate": "Mon, 31 Aug 2026 05:47:25 +0900"
     },
     {
-     "title": "【選挙結果】香川県知事選挙 現職の池田豊人氏 2回目の当選",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46506",
-     "pubDate": "Mon, 31 Aug 2026 05:21:23 +0900"
-    },
-    {
-     "title": "福井県で記録的な大雨 土砂災害に引き続き十分注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47200",
-     "pubDate": "Sun, 30 Aug 2026 22:33:52 +0900"
+     "title": "西日本～東日本で猛暑日予想 大雨被害の福井も 熱中症対策を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47330",
+     "pubDate": "Mon, 31 Aug 2026 06:24:50 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（8月31日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47304",
+     "pubDate": "Mon, 31 Aug 2026 06:46:15 +0900"
+    },
     {
      "title": "滋賀 乗用車とトラックが正面衝突 3人死亡 3人重軽傷",
      "link": "https://news.web.nhk/newsweb/na/nd-20260831de47327",
@@ -118,11 +123,6 @@
      "title": "北陸道 福井ICと金津ICの間 上下線で通行止め",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47237",
      "pubDate": "Sun, 30 Aug 2026 08:14:28 +0900"
-    },
-    {
-     "title": "JR九頭竜線 えちぜん鉄道 全線で終日運転取りやめ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47234",
-     "pubDate": "Sun, 30 Aug 2026 08:03:32 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "アフガニスタン東部地震から1年 継続支援を求める声",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47326",
+     "pubDate": "Mon, 31 Aug 2026 08:18:09 +0900"
+    },
+    {
+     "title": "タイ 生成AIを無料で利用可能に 政府が利用料支払い普及へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47297",
+     "pubDate": "Mon, 31 Aug 2026 07:29:14 +0900"
+    },
+    {
      "title": "ネパール土石流 797人死亡 住民孤立 支援態勢の構築が急務に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260831de47329",
      "pubDate": "Mon, 31 Aug 2026 05:47:25 +0900"
@@ -277,16 +287,6 @@
      "title": "“米軍 日本などへの兵器補充に数年か”イラン攻撃の影響 米紙",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47269",
      "pubDate": "Sun, 30 Aug 2026 16:00:00 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（8月29日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260817de44572",
-     "pubDate": "Sat, 29 Aug 2026 14:12:00 +0900"
-    },
-    {
-     "title": "ネパール土石流 750人死亡 3000人以上が行方不明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47268",
-     "pubDate": "Sun, 30 Aug 2026 14:20:22 +0900"
     }
    ]
   },
@@ -296,19 +296,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "米軍 イラン南部の発射施設攻撃",
-     "link": "https://news.yahoo.co.jp/pickup/6593692?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 21:06:15 GMT"
+     "title": "核ごみ調査 常陸大宮市申し入れへ",
+     "link": "https://news.yahoo.co.jp/pickup/6593705?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 23:26:10 GMT"
     },
     {
-     "title": "福岡県 議員連盟への補助金廃止へ",
-     "link": "https://news.yahoo.co.jp/pickup/6593686?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 13:53:25 GMT"
+     "title": "31日 東海や九州で猛暑日の予想",
+     "link": "https://news.yahoo.co.jp/pickup/6593700?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 22:49:46 GMT"
     },
     {
-     "title": "80歳の和菓子店主死亡 殺人と断定",
-     "link": "https://news.yahoo.co.jp/pickup/6593678?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 12:59:38 GMT"
+     "title": "ソニーG35社がAnthropic提訴 米",
+     "link": "https://news.yahoo.co.jp/pickup/6593701?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 23:01:09 GMT"
     },
     {
      "title": "トラックと車が正面衝突 3人死亡",
@@ -316,9 +316,14 @@
      "pubDate": "Sun, 30 Aug 2026 21:30:07 GMT"
     },
     {
-     "title": "顔の腫瘍で驚かれる三男 父の願い",
-     "link": "https://news.yahoo.co.jp/pickup/6593685?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 14:18:21 GMT"
+     "title": "なぜ 吉祥寺駅周辺にスタバ9店舗",
+     "link": "https://news.yahoo.co.jp/pickup/6593702?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 23:33:37 GMT"
+    },
+    {
+     "title": "大谷のスイング異変 足元グラつく",
+     "link": "https://news.yahoo.co.jp/pickup/6593696?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 22:22:57 GMT"
     },
     {
      "title": "元アマ横綱花田秀虎 角界入り断念",
@@ -326,14 +331,9 @@
      "pubDate": "Sun, 30 Aug 2026 21:18:53 GMT"
     },
     {
-     "title": "野茂氏 栗山に「引退を撤回して」",
-     "link": "https://news.yahoo.co.jp/pickup/6593672?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 12:12:37 GMT"
-    },
-    {
-     "title": "WEST.藤井流星と小瀧望が脱退へ",
-     "link": "https://news.yahoo.co.jp/pickup/6593688?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 14:08:42 GMT"
+     "title": "WEST.2人脱退へ フェス返金対応",
+     "link": "https://news.yahoo.co.jp/pickup/6593697?source=rss",
+     "pubDate": "Sun, 30 Aug 2026 22:18:04 GMT"
     }
    ]
   }
