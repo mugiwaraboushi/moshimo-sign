@@ -37,6 +37,19 @@
   .qr { background:#fff; padding:9px; border-radius:9px; display:inline-block; margin-top:10px; }
   .qr svg { display:block; width:132px; height:132px; }
 
+  /* ---- フローチャート (インラインSVG) ---- */
+  .flow { margin:14px 0 4px; }
+  .flow svg { display:block; width:100%; max-width:520px; height:auto; margin:0 auto;
+    color:var(--fg); }
+  .flow .box { fill:#1a1e24; stroke:#3a4048; stroke-width:1.2; }
+  .flow .box.goal { stroke:var(--led); stroke-width:1.8; }
+  .flow .ln { stroke:currentColor; stroke-width:1.4; }
+  .flow text { fill:currentColor; font-size:13px; font-family:inherit; }
+  .flow .lbl { font-size:11px; fill:var(--dim); }
+  .flow .key { fill:var(--led); font-weight:bold; }
+  .flow figcaption { font-size:12px; color:var(--dim); text-align:center; margin-top:8px; }
+  .flow figcaption b { color:var(--fg); }
+
   .btns { margin:20px 0 0; }
   button { font:inherit; font-size:12px; background:#1c2026; color:var(--fg);
     border:1px solid var(--line); border-radius:8px; padding:8px 14px; }
@@ -62,6 +75,14 @@
     a { color:#000; text-decoration:none; }
     .noprint { display:none !important; }
     .foot { color:#777; }
+    .flow svg { color:#000; }
+    .flow .box { fill:#fff; stroke:#888; }
+    .flow .box.goal { stroke:#000; stroke-width:2; }
+    .flow .lbl { fill:#555; }
+    .flow .key { fill:#000; }
+    .flow figcaption { color:#555; }
+    .flow figcaption b { color:#000; }
+    .flow { break-inside:avoid; page-break-inside:avoid; }
   }
 </style>
 </head>
@@ -99,11 +120,60 @@
 
   <section>
     <h2><span class="no">3</span>「電光掲示板くん」の起こしかた</h2>
-    <p>もしものPC（Chromebook）は、Discordで返事をするAI「電光掲示板くん」の住まいです。これも店番の仕事はかんたんです。</p>
+    <p>もしものPC（Chromebook）は、Discordで返事をするAI「電光掲示板くん」の住まいです。開店したら、この順にたどってください。</p>
+
+    <figure class="flow">
+      <svg viewBox="0 0 620 560" role="img" aria-label="電光掲示板くんの起こしかた: PCの電源を入れ、ランチャーからターミナルを開き、penguinをクリック、botと打ってEnter。確認を聞かれたら基本的にYes。1〜2分でDiscordにオンラインになれば出勤完了">
+        <defs>
+          <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+            <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+          </marker>
+        </defs>
+        <!-- 縦の本線 -->
+        <rect class="box" x="38" y="12" width="240" height="46" rx="9"/>
+        <text x="158" y="41" text-anchor="middle">PCの電源を入れる</text>
+        <line class="ln" x1="158" y1="58" x2="158" y2="86" marker-end="url(#ar)"/>
+
+        <rect class="box" x="38" y="90" width="240" height="46" rx="9"/>
+        <text x="158" y="112" text-anchor="middle">ランチャー（左下の丸）から</text>
+        <text x="158" y="129" text-anchor="middle">「ターミナル」を開く</text>
+        <line class="ln" x1="158" y1="136" x2="158" y2="164" marker-end="url(#ar)"/>
+
+        <rect class="box" x="38" y="168" width="240" height="46" rx="9"/>
+        <text x="158" y="197" text-anchor="middle">「penguin」をクリック</text>
+        <line class="ln" x1="158" y1="214" x2="158" y2="242" marker-end="url(#ar)"/>
+
+        <rect class="box" x="38" y="246" width="240" height="46" rx="9"/>
+        <text x="158" y="268" text-anchor="middle">黒い画面に半角で</text>
+        <text x="158" y="285" text-anchor="middle"><tspan class="key">bot</tspan> と打って <tspan class="key">Enter</tspan></text>
+        <line class="ln" x1="158" y1="292" x2="158" y2="320" marker-end="url(#ar)"/>
+
+        <!-- 分岐 -->
+        <polygon class="box" points="158,324 268,376 158,428 48,376"/>
+        <text x="158" y="371" text-anchor="middle">「やっていいですか?」</text>
+        <text x="158" y="388" text-anchor="middle">と聞かれた?</text>
+
+        <line class="ln" x1="158" y1="428" x2="158" y2="486" marker-end="url(#ar)"/>
+        <text class="lbl" x="146" y="462" text-anchor="end">聞かれない</text>
+
+        <line class="ln" x1="268" y1="376" x2="352" y2="376" marker-end="url(#ar)"/>
+        <text class="lbl" x="310" y="368" text-anchor="middle">聞かれた</text>
+
+        <rect class="box" x="356" y="353" width="220" height="46" rx="9"/>
+        <text x="466" y="382" text-anchor="middle">基本的に <tspan class="key">Yes</tspan> と答える</text>
+        <polyline class="ln" points="466,399 466,509 288,509" fill="none" marker-end="url(#ar)"/>
+
+        <!-- ゴール -->
+        <rect class="box goal" x="38" y="490" width="240" height="52" rx="9"/>
+        <text x="158" y="512" text-anchor="middle">1〜2分でDiscordにオンライン</text>
+        <text x="158" y="530" text-anchor="middle">＝ 出勤完了</text>
+      </svg>
+      <figcaption>迷うのは分岐だけ。<b>内容が明らかに変な確認のときだけ</b>、押さずに管理者へ。</figcaption>
+    </figure>
+
     <ul>
-      <li><b>開店したら、PCの電源を入れる。</b>画面左下の丸いボタン（ランチャー）をクリックして<b>「ターミナル」</b>を開き、出てきた<b>「penguin」</b>をクリック。黒い画面が現れたら、半角英字で <b>bot</b> と打って<b>Enter</b>。Claudeが立ち上がり、「電光掲示板くん」がオンラインになります</li>
-      <li>作業の途中で<b>「これ、やっていいですか?」と人間の承認を待つ</b>ことがあります。<b>基本的にYesで大丈夫です</b>（内容が明らかに変なときだけ、押さずに管理者へ）</li>
-      <li>見終わったら<b>黒い画面はそのまま閉じてOK</b>です。電光掲示板くんは裏で働き続けます（<b>Ctrl+Cだけ押さない</b>）。閉店のときは、掲示板もPCも<b>電源を切るだけ</b>です</li>
+      <li>オンラインになったら<b>黒い画面はそのまま閉じてOK</b>です。電光掲示板くんは裏で働き続けます（<b>Ctrl+Cだけ押さない</b>）</li>
+      <li><b>閉店のときは、掲示板もPCも電源を切るだけ。</b>どちらもいつ切っても壊れません</li>
     </ul>
   </section>
 
