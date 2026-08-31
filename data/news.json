@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-30T23:57:58.051Z",
+ "updatedAt": "2026-08-31T03:01:56.418Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "核のごみ最終処分地 近く茨城・常陸大宮市に文献調査申し入れ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47318",
-     "pubDate": "Mon, 31 Aug 2026 07:19:14 +0900"
+     "title": "核のごみ最終処分地 近く茨城 常陸大宮市に文献調査申し入れへ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47363",
+     "pubDate": "Mon, 31 Aug 2026 11:48:58 +0900"
+    },
+    {
+     "title": "福井県 記録的大雨 被害から一夜明け片づけ作業",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47359",
+     "pubDate": "Mon, 31 Aug 2026 11:51:00 +0900"
+    },
+    {
+     "title": "長期金利 一時2.95％まで上昇 29年10か月ぶりの高水準に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47352",
+     "pubDate": "Mon, 31 Aug 2026 10:46:00 +0900"
+    },
+    {
+     "title": "アメリカとイランが双方攻撃 直接攻撃交わされたのは7月末以来",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47336",
+     "pubDate": "Mon, 31 Aug 2026 11:48:35 +0900"
     },
     {
      "title": "滋賀 乗用車とトラックが正面衝突 3人死亡 3人重軽傷",
      "link": "https://news.web.nhk/newsweb/na/nd-20260831de47327",
-     "pubDate": "Mon, 31 Aug 2026 05:33:54 +0900"
+     "pubDate": "Mon, 31 Aug 2026 09:49:45 +0900"
     },
     {
      "title": "中道 立民 公明 きょう再び党首会談へ「分党」やむなしの意見",
      "link": "https://news.web.nhk/newsweb/na/nd-20260831de47325",
-     "pubDate": "Mon, 31 Aug 2026 04:53:51 +0900"
+     "pubDate": "Mon, 31 Aug 2026 04:53:00 +0900"
     },
     {
      "title": "千葉豪雨 走行中のタクシー浸水被害100台超 協会が緊急会合へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47321",
-     "pubDate": "Mon, 31 Aug 2026 05:38:33 +0900"
-    },
-    {
-     "title": "ベルギー国防相“新たに駐在武官配置し日本と連携強化”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47075",
-     "pubDate": "Mon, 31 Aug 2026 05:42:53 +0900"
-    },
-    {
-     "title": "ネパール土石流 797人死亡 住民孤立 支援態勢の構築が急務に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47329",
-     "pubDate": "Mon, 31 Aug 2026 05:47:25 +0900"
-    },
-    {
-     "title": "西日本～東日本で猛暑日予想 大雨被害の福井も 熱中症対策を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47330",
-     "pubDate": "Mon, 31 Aug 2026 06:24:50 +0900"
+     "pubDate": "Mon, 31 Aug 2026 05:38:00 +0900"
     }
    ]
   },
@@ -50,14 +50,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "核のごみ最終処分地 近く茨城 常陸大宮市に文献調査申し入れへ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47363",
+     "pubDate": "Mon, 31 Aug 2026 11:48:58 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（8月31日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47304",
-     "pubDate": "Mon, 31 Aug 2026 06:46:15 +0900"
+     "pubDate": "Mon, 31 Aug 2026 10:12:46 +0900"
     },
     {
      "title": "滋賀 乗用車とトラックが正面衝突 3人死亡 3人重軽傷",
      "link": "https://news.web.nhk/newsweb/na/nd-20260831de47327",
-     "pubDate": "Mon, 31 Aug 2026 05:33:54 +0900"
+     "pubDate": "Mon, 31 Aug 2026 09:49:45 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（8月30日）",
@@ -118,11 +123,6 @@
      "title": "【福井 交通影響まとめ】31日の鉄道・バスの運行予定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47239",
      "pubDate": "Sun, 30 Aug 2026 18:59:33 +0900"
-    },
-    {
-     "title": "北陸道 福井ICと金津ICの間 上下線で通行止め",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47237",
-     "pubDate": "Sun, 30 Aug 2026 08:14:28 +0900"
     }
    ]
   },
@@ -179,7 +179,7 @@
     {
      "title": "原子力規制庁 来年度予算案の概算要求に次世代炉審査の調査費",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46568",
-     "pubDate": "Thu, 27 Aug 2026 05:35:39 +0900"
+     "pubDate": "Thu, 27 Aug 2026 05:35:00 +0900"
     },
     {
      "title": "中部電力 浜岡原発の廃炉めぐる不適切事案 きょう公表へ",
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "アメリカとイランが双方攻撃 直接攻撃交わされたのは7月末以来",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47336",
+     "pubDate": "Mon, 31 Aug 2026 11:48:35 +0900"
+    },
+    {
+     "title": "米軍幹部 イラン作戦での部隊駐留延長に不同意や懸念 米紙",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47331",
+     "pubDate": "Mon, 31 Aug 2026 09:19:00 +0900"
+    },
+    {
      "title": "アフガニスタン東部地震から1年 継続支援を求める声",
      "link": "https://news.web.nhk/newsweb/na/nd-20260831de47326",
      "pubDate": "Mon, 31 Aug 2026 08:18:09 +0900"
@@ -221,17 +231,17 @@
     {
      "title": "タイ 生成AIを無料で利用可能に 政府が利用料支払い普及へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47297",
-     "pubDate": "Mon, 31 Aug 2026 07:29:14 +0900"
+     "pubDate": "Mon, 31 Aug 2026 07:29:00 +0900"
     },
     {
      "title": "ネパール土石流 797人死亡 住民孤立 支援態勢の構築が急務に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260831de47329",
-     "pubDate": "Mon, 31 Aug 2026 05:47:25 +0900"
+     "pubDate": "Mon, 31 Aug 2026 05:47:00 +0900"
     },
     {
      "title": "ベルギー国防相“新たに駐在武官配置し日本と連携強化”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47075",
-     "pubDate": "Mon, 31 Aug 2026 05:42:53 +0900"
+     "pubDate": "Mon, 31 Aug 2026 05:42:00 +0900"
     },
     {
      "title": "きょうからロシアと中国が主導する上海協力機構の首脳会議",
@@ -277,16 +287,6 @@
      "title": "黄川田担当相 北方領土洋上慰霊に参加 「墓参を早期に実現」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47263",
      "pubDate": "Sun, 30 Aug 2026 17:18:00 +0900"
-    },
-    {
-     "title": "北朝鮮で党の中央軍事委員会開催 副委員長や国防相人事を決定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47267",
-     "pubDate": "Sun, 30 Aug 2026 16:07:00 +0900"
-    },
-    {
-     "title": "“米軍 日本などへの兵器補充に数年か”イラン攻撃の影響 米紙",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260830de47269",
-     "pubDate": "Sun, 30 Aug 2026 16:00:00 +0900"
     }
    ]
   },
@@ -296,34 +296,34 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "核ごみ調査 常陸大宮市申し入れへ",
-     "link": "https://news.yahoo.co.jp/pickup/6593705?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 23:26:10 GMT"
+     "title": "総務省 情報開示遅らせる旨投稿",
+     "link": "https://news.yahoo.co.jp/pickup/6593714?source=rss",
+     "pubDate": "Mon, 31 Aug 2026 01:08:48 GMT"
     },
     {
-     "title": "31日 東海や九州で猛暑日の予想",
-     "link": "https://news.yahoo.co.jp/pickup/6593700?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 22:49:46 GMT"
+     "title": "イラン 米空軍基地に報復攻撃",
+     "link": "https://news.yahoo.co.jp/pickup/6593722?source=rss",
+     "pubDate": "Mon, 31 Aug 2026 02:27:46 GMT"
     },
     {
-     "title": "ソニーG35社がAnthropic提訴 米",
-     "link": "https://news.yahoo.co.jp/pickup/6593701?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 23:01:09 GMT"
+     "title": "ハウス食品G 壱番屋の売却検討",
+     "link": "https://news.yahoo.co.jp/pickup/6593727?source=rss",
+     "pubDate": "Mon, 31 Aug 2026 02:50:30 GMT"
     },
     {
-     "title": "トラックと車が正面衝突 3人死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6593694?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 21:30:07 GMT"
+     "title": "グランドキャニオンで大規模洪水",
+     "link": "https://news.yahoo.co.jp/pickup/6593718?source=rss",
+     "pubDate": "Mon, 31 Aug 2026 01:44:53 GMT"
     },
     {
-     "title": "なぜ 吉祥寺駅周辺にスタバ9店舗",
-     "link": "https://news.yahoo.co.jp/pickup/6593702?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 23:33:37 GMT"
+     "title": "家族旅行一転 5人死亡の遺族後悔",
+     "link": "https://news.yahoo.co.jp/pickup/6593719?source=rss",
+     "pubDate": "Mon, 31 Aug 2026 01:52:44 GMT"
     },
     {
-     "title": "大谷のスイング異変 足元グラつく",
-     "link": "https://news.yahoo.co.jp/pickup/6593696?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 22:22:57 GMT"
+     "title": "鈴木唯人が衝撃のハット 独開幕戦",
+     "link": "https://news.yahoo.co.jp/pickup/6593729?source=rss",
+     "pubDate": "Mon, 31 Aug 2026 02:47:04 GMT"
     },
     {
      "title": "元アマ横綱花田秀虎 角界入り断念",
@@ -331,9 +331,9 @@
      "pubDate": "Sun, 30 Aug 2026 21:18:53 GMT"
     },
     {
-     "title": "WEST.2人脱退へ フェス返金対応",
-     "link": "https://news.yahoo.co.jp/pickup/6593697?source=rss",
-     "pubDate": "Sun, 30 Aug 2026 22:18:04 GMT"
+     "title": "元櫻坂46守屋茜 事務所退所を報告",
+     "link": "https://news.yahoo.co.jp/pickup/6593730?source=rss",
+     "pubDate": "Mon, 31 Aug 2026 02:54:20 GMT"
     }
    ]
   }
