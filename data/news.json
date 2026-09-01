@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-01T21:28:25.779Z",
+ "updatedAt": "2026-09-01T23:27:18.981Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "北日本で大雨 青森で線状降水帯が発生 厳重に警戒を",
+     "title": "北日本で大雨 青森で線状降水帯発生 青森・秋田では厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47704",
-     "pubDate": "Wed, 02 Sep 2026 05:47:00 +0900"
+     "pubDate": "Wed, 02 Sep 2026 07:17:55 +0900"
     },
     {
      "title": "長期金利3％超 日銀の金融政策や財政めぐる動きが焦点",
@@ -18,9 +18,14 @@
      "pubDate": "Wed, 02 Sep 2026 02:02:15 +0900"
     },
     {
-     "title": "ロシア財務相がアメリカでのG20参加で欧州側は反発",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47720",
-     "pubDate": "Wed, 02 Sep 2026 06:26:20 +0900"
+     "title": "伊勢神宮近くの商店街火災 鎮火に向け消火活動続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47708",
+     "pubDate": "Wed, 02 Sep 2026 07:12:06 +0900"
+    },
+    {
+     "title": "G20は2日目の議論に 声明とりまとめに向けた調整も続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47719",
+     "pubDate": "Wed, 02 Sep 2026 06:31:27 +0900"
     },
     {
      "title": "ネパール土石流発生1週間 2万人態勢で救助",
@@ -28,19 +33,14 @@
      "pubDate": "Wed, 02 Sep 2026 05:16:14 +0900"
     },
     {
-     "title": "上海協力機構の首脳会議が閉幕 イランに連帯示す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47715",
-     "pubDate": "Wed, 02 Sep 2026 05:54:16 +0900"
-    },
-    {
-     "title": "伊勢神宮近くの商店街火災 鎮火に向け消火活動続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47708",
-     "pubDate": "Wed, 02 Sep 2026 06:19:45 +0900"
+     "title": "ロシア外務省報道官、日米豪共同訓練に「対抗措置とる」と警告",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47725",
+     "pubDate": "Wed, 02 Sep 2026 07:24:03 +0900"
     },
     {
      "title": "アメリカ中央軍 革命防衛隊への攻撃を開始と発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47713",
-     "pubDate": "Wed, 02 Sep 2026 03:56:00 +0900"
+     "pubDate": "Wed, 02 Sep 2026 06:50:32 +0900"
     }
    ]
   },
@@ -50,14 +50,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "伊勢神宮近くの商店街火災 鎮火に向け消火活動続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47708",
-     "pubDate": "Wed, 02 Sep 2026 06:19:45 +0900"
+     "title": "【動画】Pickup NEWS（9月2日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47685",
+     "pubDate": "Wed, 02 Sep 2026 06:49:24 +0900"
     },
     {
-     "title": "北日本で大雨 青森で線状降水帯が発生 厳重に警戒を",
+     "title": "伊勢神宮近くの商店街火災 鎮火に向け消火活動続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47708",
+     "pubDate": "Wed, 02 Sep 2026 07:12:06 +0900"
+    },
+    {
+     "title": "北日本で大雨 青森で線状降水帯発生 青森・秋田では厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47704",
-     "pubDate": "Wed, 02 Sep 2026 05:47:00 +0900"
+     "pubDate": "Wed, 02 Sep 2026 07:17:55 +0900"
     },
     {
      "title": "地下のライブハウスで地震が起きたら？防災の日に避難訓練",
@@ -118,11 +123,6 @@
      "title": "福井 生活道路の法定速度引き下げで警察などが啓発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47642",
      "pubDate": "Tue, 01 Sep 2026 17:36:45 +0900"
-    },
-    {
-     "title": "秋篠宮さま 熊本県の病院を視察",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47635",
-     "pubDate": "Tue, 01 Sep 2026 19:05:02 +0900"
     }
    ]
   },
@@ -209,6 +209,26 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ドイツ政府、空港の爆発物搭載ドローンは「ロシアの責任」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47723",
+     "pubDate": "Wed, 02 Sep 2026 07:38:45 +0900"
+    },
+    {
+     "title": "英スターマー前首相が議員辞職を明らかに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47726",
+     "pubDate": "Wed, 02 Sep 2026 07:30:17 +0900"
+    },
+    {
+     "title": "ロシア外務省報道官、日米豪共同訓練に「対抗措置とる」と警告",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47725",
+     "pubDate": "Wed, 02 Sep 2026 07:24:03 +0900"
+    },
+    {
+     "title": "G20は2日目の議論に 声明とりまとめに向けた調整も続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47719",
+     "pubDate": "Wed, 02 Sep 2026 06:31:27 +0900"
+    },
+    {
      "title": "ロシア財務相がアメリカでのG20参加で欧州側は反発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47720",
      "pubDate": "Wed, 02 Sep 2026 06:26:20 +0900"
@@ -226,7 +246,7 @@
     {
      "title": "アメリカ中央軍 革命防衛隊への攻撃を開始と発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47713",
-     "pubDate": "Wed, 02 Sep 2026 03:56:00 +0900"
+     "pubDate": "Wed, 02 Sep 2026 06:50:32 +0900"
     },
     {
      "title": "アメリカ10年債利回り4.8％に迫る世界的に長期金利が上昇",
@@ -262,26 +282,6 @@
      "title": "米グランドキャニオンで洪水 ２人死亡 １人の安否不明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47684",
      "pubDate": "Tue, 01 Sep 2026 21:04:54 +0900"
-    },
-    {
-     "title": "キーウでロシアによる攻撃激化 ジェット搭載の無人機も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47667",
-     "pubDate": "Tue, 01 Sep 2026 20:07:28 +0900"
-    },
-    {
-     "title": "高市首相 ネパール首相と電話会談 日本人の救援に協力要請",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47671",
-     "pubDate": "Tue, 01 Sep 2026 19:45:12 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月1日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46912",
-     "pubDate": "Tue, 01 Sep 2026 22:03:13 +0900"
-    },
-    {
-     "title": "中国発ネット通販「SHEIN」上場 成長鈍化で課題も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47623",
-     "pubDate": "Tue, 01 Sep 2026 16:08:57 +0900"
     }
    ]
   },
@@ -291,44 +291,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "青森県弘前市など大雨 1時間90mm",
-     "link": "https://news.yahoo.co.jp/pickup/6593920?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 21:24:49 GMT"
+     "title": "ウ大統領 ロシア領空は事実上閉鎖",
+     "link": "https://news.yahoo.co.jp/pickup/6593929?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 22:44:23 GMT"
     },
     {
-     "title": "防災庁を11月創設へ 課題は山積",
-     "link": "https://news.yahoo.co.jp/pickup/6593915?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 14:18:59 GMT"
+     "title": "米軍がイラン攻撃 革命防衛隊標的",
+     "link": "https://news.yahoo.co.jp/pickup/6593922?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 21:41:18 GMT"
     },
     {
-     "title": "フラット35 9月の適用金利3.46%",
-     "link": "https://news.yahoo.co.jp/pickup/6593916?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 14:33:57 GMT"
+     "title": "厳しい残暑 熊本など猛暑日の予想",
+     "link": "https://news.yahoo.co.jp/pickup/6593932?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 23:05:16 GMT"
     },
     {
-     "title": "「エクモ」で接続ミス 患者が重体",
-     "link": "https://news.yahoo.co.jp/pickup/6593905?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 12:50:10 GMT"
+     "title": "ホテルに放火疑い 米旅行者を逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6593927?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 22:26:35 GMT"
     },
     {
-     "title": "学歴ネタ動画 福島大の学長が反発",
-     "link": "https://news.yahoo.co.jp/pickup/6593903?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 12:34:11 GMT"
+     "title": "鳥取県職員が阿部寛まねPR 反響",
+     "link": "https://news.yahoo.co.jp/pickup/6593934?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 23:17:52 GMT"
     },
     {
-     "title": "レクサス 新型「NX」世界初公開",
-     "link": "https://news.yahoo.co.jp/pickup/6593911?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 13:58:54 GMT"
+     "title": "エンゼルス 球団売却を正式発表",
+     "link": "https://news.yahoo.co.jp/pickup/6593923?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 21:56:16 GMT"
     },
     {
-     "title": "牛三つ子誕生の牧場 4日後双子も",
-     "link": "https://news.yahoo.co.jp/pickup/6593909?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 13:23:53 GMT"
+     "title": "俳優・藤原季節 ボクシングで敗戦",
+     "link": "https://news.yahoo.co.jp/pickup/6593930?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 22:36:20 GMT"
     },
     {
-     "title": "阪神森下の顔付近に投球 怒号飛ぶ",
-     "link": "https://news.yahoo.co.jp/pickup/6593917?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 14:43:23 GMT"
+     "title": "異例連ドラ 全話シンガポール撮影",
+     "link": "https://news.yahoo.co.jp/pickup/6593928?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 22:33:16 GMT"
     }
    ]
   }
