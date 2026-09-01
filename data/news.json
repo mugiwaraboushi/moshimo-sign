@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-01T18:39:40.789Z",
+ "updatedAt": "2026-09-01T21:28:25.779Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "青森県津軽で「線状降水帯発生」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47712",
-     "pubDate": "Wed, 02 Sep 2026 03:20:17 +0900"
+     "title": "北日本で大雨 青森で線状降水帯が発生 厳重に警戒を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47704",
+     "pubDate": "Wed, 02 Sep 2026 05:47:00 +0900"
     },
     {
      "title": "長期金利3％超 日銀の金融政策や財政めぐる動きが焦点",
@@ -18,29 +18,29 @@
      "pubDate": "Wed, 02 Sep 2026 02:02:15 +0900"
     },
     {
-     "title": "台風24号 2日～4日ごろに沖縄・奄美に近づく見込み",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47558",
-     "pubDate": "Tue, 01 Sep 2026 19:03:00 +0900"
+     "title": "ロシア財務相がアメリカでのG20参加で欧州側は反発",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47720",
+     "pubDate": "Wed, 02 Sep 2026 06:26:20 +0900"
     },
     {
-     "title": "ユーロ圏消費者物価8月は3.3％上昇 エネルギー価格上昇で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47709",
-     "pubDate": "Wed, 02 Sep 2026 01:56:26 +0900"
+     "title": "ネパール土石流発生1週間 2万人態勢で救助",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47705",
+     "pubDate": "Wed, 02 Sep 2026 05:16:14 +0900"
     },
     {
-     "title": "アメリカ10年債利回り4.8％に迫る世界的に長期金利が上昇",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47711",
-     "pubDate": "Wed, 02 Sep 2026 02:56:08 +0900"
+     "title": "上海協力機構の首脳会議が閉幕 イランに連帯示す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47715",
+     "pubDate": "Wed, 02 Sep 2026 05:54:16 +0900"
     },
     {
-     "title": "個人向け社債の発行 過去最多更新のペース 成長資金確保の狙い",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47696",
-     "pubDate": "Wed, 02 Sep 2026 00:13:38 +0900"
+     "title": "伊勢神宮近くの商店街火災 鎮火に向け消火活動続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47708",
+     "pubDate": "Wed, 02 Sep 2026 06:19:45 +0900"
     },
     {
-     "title": "茂木外相 中東欧4か国外相と会合 国際秩序強化へ協力",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47706",
-     "pubDate": "Wed, 02 Sep 2026 02:03:50 +0900"
+     "title": "アメリカ中央軍 革命防衛隊への攻撃を開始と発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47713",
+     "pubDate": "Wed, 02 Sep 2026 03:56:00 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "伊勢神宮近くの商店街火災 鎮火に向け消火活動続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47708",
+     "pubDate": "Wed, 02 Sep 2026 06:19:45 +0900"
+    },
+    {
+     "title": "北日本で大雨 青森で線状降水帯が発生 厳重に警戒を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47704",
+     "pubDate": "Wed, 02 Sep 2026 05:47:00 +0900"
+    },
     {
      "title": "地下のライブハウスで地震が起きたら？防災の日に避難訓練",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47698",
@@ -113,16 +123,6 @@
      "title": "秋篠宮さま 熊本県の病院を視察",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47635",
      "pubDate": "Tue, 01 Sep 2026 19:05:02 +0900"
-    },
-    {
-     "title": "全国知事会 NHK受信契約の合理化や簡素化に向けた提言を提出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47621",
-     "pubDate": "Tue, 01 Sep 2026 15:38:00 +0900"
-    },
-    {
-     "title": "日本人初の宇宙飛行 秋山豊寛さん死去 元TBS記者 84歳",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47618",
-     "pubDate": "Tue, 01 Sep 2026 19:00:35 +0900"
     }
    ]
   },
@@ -209,6 +209,26 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ロシア財務相がアメリカでのG20参加で欧州側は反発",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47720",
+     "pubDate": "Wed, 02 Sep 2026 06:26:20 +0900"
+    },
+    {
+     "title": "上海協力機構の首脳会議が閉幕 イランに連帯示す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47715",
+     "pubDate": "Wed, 02 Sep 2026 05:54:16 +0900"
+    },
+    {
+     "title": "ネパール土石流発生1週間 2万人態勢で救助",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47705",
+     "pubDate": "Wed, 02 Sep 2026 05:16:14 +0900"
+    },
+    {
+     "title": "アメリカ中央軍 革命防衛隊への攻撃を開始と発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47713",
+     "pubDate": "Wed, 02 Sep 2026 03:56:00 +0900"
+    },
+    {
      "title": "アメリカ10年債利回り4.8％に迫る世界的に長期金利が上昇",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47711",
      "pubDate": "Wed, 02 Sep 2026 02:56:08 +0900"
@@ -221,7 +241,7 @@
     {
      "title": "茂木外相 中東欧4か国外相と会合 国際秩序強化へ協力",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47706",
-     "pubDate": "Wed, 02 Sep 2026 02:03:50 +0900"
+     "pubDate": "Wed, 02 Sep 2026 02:03:00 +0900"
     },
     {
      "title": "ユーロ圏消費者物価8月は3.3％上昇 エネルギー価格上昇で",
@@ -262,26 +282,6 @@
      "title": "中国発ネット通販「SHEIN」上場 成長鈍化で課題も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47623",
      "pubDate": "Tue, 01 Sep 2026 16:08:57 +0900"
-    },
-    {
-     "title": "アジア開発銀行 神田総裁の再任が決定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47620",
-     "pubDate": "Tue, 01 Sep 2026 15:43:00 +0900"
-    },
-    {
-     "title": "韓国情報機関「米朝の対話の兆しある」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47617",
-     "pubDate": "Tue, 01 Sep 2026 15:33:00 +0900"
-    },
-    {
-     "title": "ソニーG傘下の企業などアンソロピック訴え AI学習で著作権侵害",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47586",
-     "pubDate": "Tue, 01 Sep 2026 12:59:00 +0900"
-    },
-    {
-     "title": "米陸軍長官が辞表提出 米メディア報道 4月には海軍長官も退任",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47572",
-     "pubDate": "Tue, 01 Sep 2026 12:14:00 +0900"
     }
    ]
   },
@@ -291,14 +291,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "青森県弘前市など大雨 1時間90mm",
+     "link": "https://news.yahoo.co.jp/pickup/6593920?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 21:24:49 GMT"
+    },
+    {
      "title": "防災庁を11月創設へ 課題は山積",
      "link": "https://news.yahoo.co.jp/pickup/6593915?source=rss",
      "pubDate": "Tue, 01 Sep 2026 14:18:59 GMT"
-    },
-    {
-     "title": "ラーメンの缶詰も 防災グッズ進化",
-     "link": "https://news.yahoo.co.jp/pickup/6593898?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 11:51:31 GMT"
     },
     {
      "title": "フラット35 9月の適用金利3.46%",
