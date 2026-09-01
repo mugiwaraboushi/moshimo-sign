@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-31T21:56:47.366Z",
+ "updatedAt": "2026-09-01T00:54:50.519Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "長期金利 2.965％に上昇 約29年11か月ぶりの水準",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47546",
+     "pubDate": "Tue, 01 Sep 2026 09:47:41 +0900"
+    },
+    {
      "title": "西日本や北陸で猛暑日予想 熱中症対策を 大気の状態も不安定に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47540",
-     "pubDate": "Tue, 01 Sep 2026 06:03:12 +0900"
+     "pubDate": "Tue, 01 Sep 2026 06:03:00 +0900"
+    },
+    {
+     "title": "防災の日 政府の総合防災訓練 日本海溝・千島海溝巨大地震想定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47514",
+     "pubDate": "Tue, 01 Sep 2026 09:25:59 +0900"
+    },
+    {
+     "title": "米ベッセント財務長官と日銀総裁や片山財務相が相次ぎ会談",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47542",
+     "pubDate": "Tue, 01 Sep 2026 07:12:00 +0900"
     },
     {
      "title": "サッカー メッシ アルゼンチン代表を引退 SNSで表明",
@@ -20,27 +35,12 @@
     {
      "title": "核のごみ最終処分地の文献調査 住民との丁寧な対話が課題に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260831de47522",
-     "pubDate": "Tue, 01 Sep 2026 05:41:44 +0900"
+     "pubDate": "Tue, 01 Sep 2026 05:41:00 +0900"
     },
     {
      "title": "ネパール土石流 死者は955人に 土砂撤去が課題",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47534",
      "pubDate": "Tue, 01 Sep 2026 05:50:46 +0900"
-    },
-    {
-     "title": "羽田空港の新たなサテライト施設 きょうから運用始まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47519",
-     "pubDate": "Tue, 01 Sep 2026 06:45:51 +0900"
-    },
-    {
-     "title": "G20開幕 初日は世界経済を議論 日米財務相会談の動向も焦点に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47541",
-     "pubDate": "Tue, 01 Sep 2026 06:16:30 +0900"
-    },
-    {
-     "title": "防災の日 政府の総合防災訓練 日本海溝・千島海溝巨大地震想定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47514",
-     "pubDate": "Tue, 01 Sep 2026 06:09:18 +0900"
     }
    ]
   },
@@ -50,19 +50,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "「生活道路」の法定速度 きょうから時速30キロに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47504",
+     "pubDate": "Tue, 01 Sep 2026 07:03:01 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（9月1日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47507",
+     "pubDate": "Tue, 01 Sep 2026 07:01:01 +0900"
+    },
+    {
      "title": "防災の日 政府の総合防災訓練 日本海溝・千島海溝巨大地震想定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260831de47514",
-     "pubDate": "Tue, 01 Sep 2026 06:09:18 +0900"
+     "pubDate": "Tue, 01 Sep 2026 09:25:59 +0900"
     },
     {
      "title": "核のごみ最終処分地の文献調査 住民との丁寧な対話が課題に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260831de47522",
-     "pubDate": "Tue, 01 Sep 2026 05:41:44 +0900"
+     "pubDate": "Tue, 01 Sep 2026 05:41:00 +0900"
     },
     {
      "title": "歌舞伎町ビル火災から25年 現場で遺族などが追悼",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47528",
-     "pubDate": "Tue, 01 Sep 2026 05:37:44 +0900"
+     "pubDate": "Tue, 01 Sep 2026 05:37:00 +0900"
     },
     {
      "title": "新学習指導要領 授業時数を学校判断で調整可能に",
@@ -113,16 +123,6 @@
      "title": "国内最高齢 115歳の女性が死去 奈良 大和郡山",
      "link": "https://news.web.nhk/newsweb/na/nd-20260831de47470",
      "pubDate": "Mon, 31 Aug 2026 19:42:04 +0900"
-    },
-    {
-     "title": "成城石井のお菓子 原材料表示で「卵」記載漏れ 商品自主回収へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47481",
-     "pubDate": "Mon, 31 Aug 2026 19:40:23 +0900"
-    },
-    {
-     "title": "震度7の揺れ観測した熊本 宇城市の小中学校で学校再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47401",
-     "pubDate": "Mon, 31 Aug 2026 20:37:56 +0900"
     }
    ]
   },
@@ -209,6 +209,26 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米イラン 約1か月ぶりの直接攻撃 トランプ大統領は報復を示唆",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47536",
+     "pubDate": "Tue, 01 Sep 2026 09:39:53 +0900"
+    },
+    {
+     "title": "ゼレンスキー大統領 米特使らとロシアめぐり意見交換",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47539",
+     "pubDate": "Tue, 01 Sep 2026 09:35:00 +0900"
+    },
+    {
+     "title": "茂木外相がポーランド外相と会談 ウクライナ復興推進へ連携",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47545",
+     "pubDate": "Tue, 01 Sep 2026 09:02:00 +0900"
+    },
+    {
+     "title": "米ベッセント財務長官と日銀総裁や片山財務相が相次ぎ会談",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47542",
+     "pubDate": "Tue, 01 Sep 2026 07:12:00 +0900"
+    },
+    {
      "title": "茂木外相 スロバキア外相と会談 経済協力の強化で一致",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47527",
      "pubDate": "Tue, 01 Sep 2026 06:19:51 +0900"
@@ -262,26 +282,6 @@
      "title": "ネパール土石流 行方不明の日本人5人 大阪市在住か 市教委説明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260831de47484",
      "pubDate": "Mon, 31 Aug 2026 20:27:45 +0900"
-    },
-    {
-     "title": "キルギスで上海協力機構の首脳会議 中ロ首脳会談で結束確認か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47404",
-     "pubDate": "Mon, 31 Aug 2026 23:23:10 +0900"
-    },
-    {
-     "title": "帰還事業めぐり原告が北朝鮮資産の差し押さえ申し立て",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47384",
-     "pubDate": "Mon, 31 Aug 2026 16:03:13 +0900"
-    },
-    {
-     "title": "旧統一教会トップのハン・ハクチャ総裁に懲役2年の判決",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47413",
-     "pubDate": "Mon, 31 Aug 2026 18:25:57 +0900"
-    },
-    {
-     "title": "中国の製造業景況感 2か月連続景気判断の節目「50」下回る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47405",
-     "pubDate": "Mon, 31 Aug 2026 14:51:07 +0900"
     }
    ]
   },
@@ -291,44 +291,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "米露財務相が会談 ウ和平案協議か",
-     "link": "https://news.yahoo.co.jp/pickup/6593798?source=rss",
-     "pubDate": "Mon, 31 Aug 2026 21:52:17 GMT"
+     "title": "9月も厳しい残暑 熱中症に警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6593807?source=rss",
+     "pubDate": "Mon, 31 Aug 2026 23:33:00 GMT"
     },
     {
-     "title": "信組不祥事 金融庁が検査拡充へ",
-     "link": "https://news.yahoo.co.jp/pickup/6593788?source=rss",
-     "pubDate": "Mon, 31 Aug 2026 14:05:06 GMT"
+     "title": "長期金利一時2.955% 30年ぶり水準",
+     "link": "https://news.yahoo.co.jp/pickup/6593818?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 00:39:37 GMT"
     },
     {
-     "title": "三重の商店街火災 ほぼ全焼か",
-     "link": "https://news.yahoo.co.jp/pickup/6593797?source=rss",
-     "pubDate": "Mon, 31 Aug 2026 21:39:28 GMT"
+     "title": "中道分裂へ 急ごしらえで限界露呈",
+     "link": "https://news.yahoo.co.jp/pickup/6593799?source=rss",
+     "pubDate": "Mon, 31 Aug 2026 22:30:01 GMT"
     },
     {
-     "title": "住宅ローン変動金利 2行引き上げ",
-     "link": "https://news.yahoo.co.jp/pickup/6593780?source=rss",
-     "pubDate": "Mon, 31 Aug 2026 12:54:07 GMT"
+     "title": "旧統一教会解散 韓国でも現実味",
+     "link": "https://news.yahoo.co.jp/pickup/6593816?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 00:39:52 GMT"
     },
     {
-     "title": "和菓子店の店主死亡 トクリュウか",
-     "link": "https://news.yahoo.co.jp/pickup/6593793?source=rss",
-     "pubDate": "Mon, 31 Aug 2026 14:46:29 GMT"
+     "title": "車2台が正面衝突し1人死亡 男逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6593801?source=rss",
+     "pubDate": "Mon, 31 Aug 2026 22:31:09 GMT"
     },
     {
-     "title": "メッシ アルゼンチン代表を引退",
-     "link": "https://news.yahoo.co.jp/pickup/6593794?source=rss",
-     "pubDate": "Mon, 31 Aug 2026 21:11:57 GMT"
+     "title": "堂安のサウジ移籍が破談に 独報道",
+     "link": "https://news.yahoo.co.jp/pickup/6593811?source=rss",
+     "pubDate": "Mon, 31 Aug 2026 23:59:57 GMT"
     },
     {
-     "title": "二宮和也 石川佳純さんと卓球対決",
-     "link": "https://news.yahoo.co.jp/pickup/6593795?source=rss",
-     "pubDate": "Mon, 31 Aug 2026 21:22:02 GMT"
+     "title": "メッシ代表引退 全て捧げ尽くした",
+     "link": "https://news.yahoo.co.jp/pickup/6593812?source=rss",
+     "pubDate": "Mon, 31 Aug 2026 23:52:05 GMT"
     },
     {
-     "title": "水谷八重子さん死去 友近が追悼",
-     "link": "https://news.yahoo.co.jp/pickup/6593790?source=rss",
-     "pubDate": "Mon, 31 Aug 2026 14:18:33 GMT"
+     "title": "ポケカがアニメ映画の題材に なぜ",
+     "link": "https://news.yahoo.co.jp/pickup/6593820?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 00:38:13 GMT"
     }
    ]
   }
