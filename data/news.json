@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-01T15:15:33.614Z",
+ "updatedAt": "2026-09-01T18:39:40.789Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "青森県津軽で「線状降水帯発生」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47712",
+     "pubDate": "Wed, 02 Sep 2026 03:20:17 +0900"
+    },
+    {
+     "title": "長期金利3％超 日銀の金融政策や財政めぐる動きが焦点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47702",
+     "pubDate": "Wed, 02 Sep 2026 02:02:15 +0900"
+    },
+    {
      "title": "台風24号 2日～4日ごろに沖縄・奄美に近づく見込み",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47558",
      "pubDate": "Tue, 01 Sep 2026 19:03:00 +0900"
     },
     {
-     "title": "千葉豪雨は「異常気象」 気象庁の専門家検討会が指摘",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47697",
-     "pubDate": "Tue, 01 Sep 2026 23:28:19 +0900"
+     "title": "ユーロ圏消費者物価8月は3.3％上昇 エネルギー価格上昇で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47709",
+     "pubDate": "Wed, 02 Sep 2026 01:56:26 +0900"
     },
     {
-     "title": "ネパール土石流死者1000人超 要支援6万人超 被災者心のケアも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47575",
-     "pubDate": "Tue, 01 Sep 2026 20:54:09 +0900"
+     "title": "アメリカ10年債利回り4.8％に迫る世界的に長期金利が上昇",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47711",
+     "pubDate": "Wed, 02 Sep 2026 02:56:08 +0900"
     },
     {
-     "title": "地下のライブハウスで地震が起きたら？防災の日に避難訓練",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47698",
-     "pubDate": "Tue, 01 Sep 2026 23:43:18 +0900"
+     "title": "個人向け社債の発行 過去最多更新のペース 成長資金確保の狙い",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47696",
+     "pubDate": "Wed, 02 Sep 2026 00:13:38 +0900"
     },
     {
-     "title": "ことしの夏“気温は高く 降水量は西日本中心に少ない\" 気象庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47638",
-     "pubDate": "Tue, 01 Sep 2026 20:02:41 +0900"
-    },
-    {
-     "title": "JOCが法人税を修正申告 5億円を追加納税",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47690",
-     "pubDate": "Tue, 01 Sep 2026 21:44:35 +0900"
-    },
-    {
-     "title": "長期金利3%超 約30年ぶり 日銀の早期利上げ観測など背景",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47546",
-     "pubDate": "Tue, 01 Sep 2026 19:17:00 +0900"
+     "title": "茂木外相 中東欧4か国外相と会合 国際秩序強化へ協力",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47706",
+     "pubDate": "Wed, 02 Sep 2026 02:03:50 +0900"
     }
    ]
   },
@@ -200,11 +200,6 @@
      "title": "中部電力 浜岡原発の廃炉めぐる不適切事案 きょう公表へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260827de46580",
      "pubDate": "Thu, 27 Aug 2026 04:37:25 +0900"
-    },
-    {
-     "title": "文化庁の補助金不交付 不服審査請求に対する裁決取り消す判決",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46544",
-     "pubDate": "Wed, 26 Aug 2026 23:01:19 +0900"
     }
    ]
   },
@@ -213,6 +208,26 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "アメリカ10年債利回り4.8％に迫る世界的に長期金利が上昇",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47711",
+     "pubDate": "Wed, 02 Sep 2026 02:56:08 +0900"
+    },
+    {
+     "title": "日チェコ外相 協力促進へ5年間の行動計画に署名",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47700",
+     "pubDate": "Wed, 02 Sep 2026 02:06:17 +0900"
+    },
+    {
+     "title": "茂木外相 中東欧4か国外相と会合 国際秩序強化へ協力",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47706",
+     "pubDate": "Wed, 02 Sep 2026 02:03:50 +0900"
+    },
+    {
+     "title": "ユーロ圏消費者物価8月は3.3％上昇 エネルギー価格上昇で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47709",
+     "pubDate": "Wed, 02 Sep 2026 01:56:26 +0900"
+    },
     {
      "title": "韓国 過去最大の予算案決定 原潜開発の予算も初計上",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47691",
@@ -267,26 +282,6 @@
      "title": "米陸軍長官が辞表提出 米メディア報道 4月には海軍長官も退任",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47572",
      "pubDate": "Tue, 01 Sep 2026 12:14:00 +0900"
-    },
-    {
-     "title": "宇宙への輸送で日米が覚書 ロケット安全審査の相互認証目指す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47559",
-     "pubDate": "Tue, 01 Sep 2026 12:12:00 +0900"
-    },
-    {
-     "title": "ネパール土石流死者1000人超 要支援6万人超 被災者心のケアも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47575",
-     "pubDate": "Tue, 01 Sep 2026 20:54:09 +0900"
-    },
-    {
-     "title": "ウクライナで新年度開始 攻撃受けた校舎の修理が間に合わず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47521",
-     "pubDate": "Tue, 01 Sep 2026 09:58:00 +0900"
-    },
-    {
-     "title": "米イラン 約1か月ぶりの直接攻撃 トランプ大統領は報復を示唆",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47536",
-     "pubDate": "Tue, 01 Sep 2026 11:46:16 +0900"
     }
    ]
   },
