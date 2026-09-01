@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-01T05:47:18.543Z",
+ "updatedAt": "2026-09-01T10:35:59.238Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "長期金利 3%に上昇 約30年ぶり 日銀の早期利上げ観測など背景",
+     "title": "長期金利3%超 約30年ぶり 日銀の早期利上げ観測など背景",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47546",
-     "pubDate": "Tue, 01 Sep 2026 14:33:19 +0900"
+     "pubDate": "Tue, 01 Sep 2026 19:17:41 +0900"
     },
     {
-     "title": "鈴木農相 政府備蓄米21万トン買い戻しを表明 価格への影響焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47556",
-     "pubDate": "Tue, 01 Sep 2026 12:34:24 +0900"
+     "title": "ネパール土石流死者1000人超 国連「6万5000人が支援必要」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47575",
+     "pubDate": "Tue, 01 Sep 2026 18:45:02 +0900"
+    },
+    {
+     "title": "日本人初の宇宙飛行 秋山豊寛さん死去 元TBS記者 84歳",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47618",
+     "pubDate": "Tue, 01 Sep 2026 19:00:35 +0900"
     },
     {
      "title": "住宅ローン「フラット35」 長期金利上昇で過去最高",
@@ -23,24 +28,19 @@
      "pubDate": "Tue, 01 Sep 2026 14:11:00 +0900"
     },
     {
-     "title": "「生活道路」法定速度30キロ初日 違反を警戒",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47504",
-     "pubDate": "Tue, 01 Sep 2026 14:03:53 +0900"
+     "title": "千葉豪雨 男性死亡のアンダーパス「レベル4」で通行止め",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47630",
+     "pubDate": "Tue, 01 Sep 2026 16:39:18 +0900"
     },
     {
-     "title": "米陸軍長官が辞表提出 米メディア報道 4月には海軍長官も退任",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47572",
-     "pubDate": "Tue, 01 Sep 2026 12:14:39 +0900"
+     "title": "福井 記録的大雨で被害の勝山市 災害ボランティア活動始まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47562",
+     "pubDate": "Tue, 01 Sep 2026 19:16:21 +0900"
     },
     {
-     "title": "鈴木彩艶がプレミアリーグデビュー 日本選手のGKで初",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47565",
-     "pubDate": "Tue, 01 Sep 2026 13:04:01 +0900"
-    },
-    {
-     "title": "台風24号発生 南西諸島に近づくおそれ 今後の情報に注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47558",
-     "pubDate": "Tue, 01 Sep 2026 13:18:56 +0900"
+     "title": "大阪地検元検事正からの性被害訴える女性検事が退職「悔しい」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47643",
+     "pubDate": "Tue, 01 Sep 2026 17:56:00 +0900"
     }
    ]
   },
@@ -49,6 +49,36 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "大阪地検元検事正からの性被害訴える女性検事が退職「悔しい」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47643",
+     "pubDate": "Tue, 01 Sep 2026 17:56:00 +0900"
+    },
+    {
+     "title": "熊本の煙突倒壊で劣化報告対象拡大など検討 国交相",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47639",
+     "pubDate": "Tue, 01 Sep 2026 17:47:29 +0900"
+    },
+    {
+     "title": "福井 生活道路の法定速度引き下げで警察などが啓発",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47642",
+     "pubDate": "Tue, 01 Sep 2026 17:36:45 +0900"
+    },
+    {
+     "title": "秋篠宮さま 熊本県の病院を視察",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47635",
+     "pubDate": "Tue, 01 Sep 2026 19:05:02 +0900"
+    },
+    {
+     "title": "全国知事会 NHK受信契約の合理化や簡素化に向けた提言を提出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47621",
+     "pubDate": "Tue, 01 Sep 2026 15:38:00 +0900"
+    },
+    {
+     "title": "日本人初の宇宙飛行 秋山豊寛さん死去 元TBS記者 84歳",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47618",
+     "pubDate": "Tue, 01 Sep 2026 19:00:35 +0900"
+    },
     {
      "title": "北海道 増毛町 防災の日に津波想定で小学生が高台に避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47587",
@@ -70,9 +100,9 @@
      "pubDate": "Tue, 01 Sep 2026 14:15:00 +0900"
     },
     {
-     "title": "防災の日 政府の総合防災訓練 日本海溝・千島海溝巨大地震想定",
+     "title": "防災の日に各地で訓練 政府は日本海溝・千島海溝巨大地震想定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260831de47514",
-     "pubDate": "Tue, 01 Sep 2026 11:44:33 +0900"
+     "pubDate": "Tue, 01 Sep 2026 17:52:37 +0900"
     },
     {
      "title": "核のごみ最終処分地の文献調査 住民との丁寧な対話が課題に",
@@ -93,36 +123,6 @@
      "title": "広島市 広陵の学校改善検討委「甲子園至上主義との決別を」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260831de47515",
      "pubDate": "Mon, 31 Aug 2026 23:24:35 +0900"
-    },
-    {
-     "title": "50年前の北海道庁爆破事件 検察が証拠を紛失",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47509",
-     "pubDate": "Mon, 31 Aug 2026 22:54:35 +0900"
-    },
-    {
-     "title": "食料品消費税減税 地方減収分は適切に補てん 政府方針明らかに",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47494",
-     "pubDate": "Mon, 31 Aug 2026 22:49:32 +0900"
-    },
-    {
-     "title": "新名神6人死亡事故 被告“ながらスマホ”に「慣れた」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47500",
-     "pubDate": "Mon, 31 Aug 2026 21:46:18 +0900"
-    },
-    {
-     "title": "サブスクや定期購入で解約妨害の禁止案を公表 消費者庁検討会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47476",
-     "pubDate": "Mon, 31 Aug 2026 20:52:09 +0900"
-    },
-    {
-     "title": "ネパール土石流 行方不明の日本人5人 大阪市在住か 市教委説明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47484",
-     "pubDate": "Mon, 31 Aug 2026 20:27:45 +0900"
-    },
-    {
-     "title": "新派を代表する俳優 水谷八重子さん死去 87歳",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47480",
-     "pubDate": "Mon, 31 Aug 2026 21:20:04 +0900"
     }
    ]
   },
@@ -132,9 +132,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "海外の製薬企業 日本での新薬販売見送りも 業界団体調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47646",
+     "pubDate": "Tue, 01 Sep 2026 18:37:05 +0900"
+    },
+    {
      "title": "宇宙への輸送で日米が覚書 ロケット安全審査の相互認証目指す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47559",
-     "pubDate": "Tue, 01 Sep 2026 12:12:24 +0900"
+     "pubDate": "Tue, 01 Sep 2026 12:12:00 +0900"
     },
     {
      "title": "NASAが次世代宇宙望遠鏡打ち上げ 従来型望遠鏡の視野100倍超え",
@@ -200,11 +205,6 @@
      "title": "中部電力 浜岡原発の廃炉作業めぐり新たな不適切事案判明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46523",
      "pubDate": "Wed, 26 Aug 2026 21:33:00 +0900"
-    },
-    {
-     "title": "米「カントリー音楽の女王」ドリー・パートンさん死去",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260826de46361",
-     "pubDate": "Wed, 26 Aug 2026 16:56:00 +0900"
     }
    ]
   },
@@ -214,6 +214,26 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月1日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46912",
+     "pubDate": "Tue, 01 Sep 2026 16:21:34 +0900"
+    },
+    {
+     "title": "中国発ネット通販「SHEIN」上場 成長鈍化で課題も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47623",
+     "pubDate": "Tue, 01 Sep 2026 16:08:57 +0900"
+    },
+    {
+     "title": "アジア開発銀行 神田総裁の再任が決定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47620",
+     "pubDate": "Tue, 01 Sep 2026 15:43:00 +0900"
+    },
+    {
+     "title": "韓国情報機関「米朝の対話の兆しある」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47617",
+     "pubDate": "Tue, 01 Sep 2026 15:33:00 +0900"
+    },
+    {
      "title": "ソニーG傘下の企業などアンソロピック訴え AI学習で著作権侵害",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47586",
      "pubDate": "Tue, 01 Sep 2026 12:59:00 +0900"
@@ -221,17 +241,17 @@
     {
      "title": "米陸軍長官が辞表提出 米メディア報道 4月には海軍長官も退任",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47572",
-     "pubDate": "Tue, 01 Sep 2026 12:14:39 +0900"
+     "pubDate": "Tue, 01 Sep 2026 12:14:00 +0900"
     },
     {
      "title": "宇宙への輸送で日米が覚書 ロケット安全審査の相互認証目指す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47559",
-     "pubDate": "Tue, 01 Sep 2026 12:12:24 +0900"
+     "pubDate": "Tue, 01 Sep 2026 12:12:00 +0900"
     },
     {
-     "title": "ネパール土石流955人死亡 国連「6万5000人が支援必要」",
+     "title": "ネパール土石流死者1000人超 国連「6万5000人が支援必要」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47575",
-     "pubDate": "Tue, 01 Sep 2026 12:11:07 +0900"
+     "pubDate": "Tue, 01 Sep 2026 18:45:02 +0900"
     },
     {
      "title": "ウクライナで新年度開始 攻撃受けた校舎の修理が間に合わず",
@@ -267,26 +287,6 @@
      "title": "G20開幕 初日は世界経済を議論 日米財務相会談の動向も焦点に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47541",
      "pubDate": "Tue, 01 Sep 2026 06:16:30 +0900"
-    },
-    {
-     "title": "中ロ首脳会談 両国の結束をあらためて確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47531",
-     "pubDate": "Tue, 01 Sep 2026 05:58:00 +0900"
-    },
-    {
-     "title": "ネパール土石流 死者は955人に 土砂撤去が課題",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47534",
-     "pubDate": "Tue, 01 Sep 2026 05:50:46 +0900"
-    },
-    {
-     "title": "小泉防衛相 ベルギー国防相と初会談 国際秩序維持・強化へ連携",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47508",
-     "pubDate": "Mon, 31 Aug 2026 23:06:31 +0900"
-    },
-    {
-     "title": "茂木外相 ネパール外相と電話会談 日本人の捜索へ協力要請",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260831de47510",
-     "pubDate": "Mon, 31 Aug 2026 22:51:15 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "防災の日 政府が震度7想定し訓練",
-     "link": "https://news.yahoo.co.jp/pickup/6593839?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 03:33:52 GMT"
+     "title": "ガソリン補助に6136億円 閣議決定",
+     "link": "https://news.yahoo.co.jp/pickup/6593867?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 07:43:51 GMT"
     },
     {
-     "title": "米FTCと22州 アマゾンを提訴",
-     "link": "https://news.yahoo.co.jp/pickup/6593822?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 01:19:46 GMT"
+     "title": "ネパール土石流 観光への影響懸念",
+     "link": "https://news.yahoo.co.jp/pickup/6593880?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 09:10:16 GMT"
     },
     {
-     "title": "ネパール 遺体の身元特定が難航",
-     "link": "https://news.yahoo.co.jp/pickup/6593840?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 03:47:59 GMT"
+     "title": "小野田氏側は否定 公選法違反疑い",
+     "link": "https://news.yahoo.co.jp/pickup/6593869?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 08:01:58 GMT"
     },
     {
-     "title": "ドリスコル米陸軍長官 辞表を提出",
-     "link": "https://news.yahoo.co.jp/pickup/6593848?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 05:18:04 GMT"
+     "title": "高校で車が横転 生徒の遺族が提訴",
+     "link": "https://news.yahoo.co.jp/pickup/6593879?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 08:58:04 GMT"
     },
     {
-     "title": "USJ拡張 市有地3ha賃貸で協議へ",
-     "link": "https://news.yahoo.co.jp/pickup/6593842?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 04:01:38 GMT"
+     "title": "みんなで大家さん 事実上の終了へ",
+     "link": "https://news.yahoo.co.jp/pickup/6593873?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 08:25:20 GMT"
     },
     {
-     "title": "秋山豊寛さん死去 90年に宇宙飛行",
-     "link": "https://news.yahoo.co.jp/pickup/6593838?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 03:11:41 GMT"
+     "title": "上高地のバス大混雑 需要が過多",
+     "link": "https://news.yahoo.co.jp/pickup/6593888?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 10:02:29 GMT"
     },
     {
-     "title": "サッカー韓国代表 暫定監督を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6593847?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 04:57:36 GMT"
+     "title": "秋山さん死去 宇宙から第一声話題",
+     "link": "https://news.yahoo.co.jp/pickup/6593877?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 08:45:48 GMT"
     },
     {
-     "title": "大坂なおみ 全米OPでド派手衣装",
-     "link": "https://news.yahoo.co.jp/pickup/6593846?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 05:01:18 GMT"
+     "title": "高木美帆氏 国民栄誉賞の包丁実用",
+     "link": "https://news.yahoo.co.jp/pickup/6593890?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 10:18:03 GMT"
     }
    ]
   }
