@@ -119,6 +119,48 @@ URLから手で切り出す場合は、`#s=1&c=0&d=XXXX` の **`d=` 以降がそ
 - 色はフレーム単位。1枚の絵の中で色を塗り分けることはできない(パネル全体の発光色として効く)
 - `colorScroll` の `"rainbow"` は `frames` では使えない(v2.0では16進6桁のみ)
 
+### 営業カレンダーによる OPEN / CLOSED の自動切り替え
+
+上段 `topText` の `OPEN` / `CLOSED` は、**営業カレンダーを見て自動で切り替わる**。
+実機のファームウェアではなく GitHub Actions 側の仕組みで、`playlist.json` を書き換えることで反映する。
+
+| ファイル | 役割 |
+|---|---|
+| [`data/hours.json`](../data/hours.json) | 営業カレンダー本体。**人が手で編集する**のはここだけ |
+| [`scripts/update-open-closed.mjs`](../scripts/update-open-closed.mjs) | カレンダーを見て `topText` を書き換える |
+| [`.github/workflows/open-closed.yml`](../.github/workflows/open-closed.yml) | 上を定期実行する (JST 12〜21時台は5分おき、他は毎時)。中身は [`docs/examples/open-closed.workflow.yml`](examples/open-closed.workflow.yml) |
+
+`data/hours.json` の書き方:
+
+```json
+{
+  "weekly": { "sun": null, "mon": null, "tue": "13:00-19:00" },
+  "datesUntil": "2026-09-15",
+  "dates": { "2026-09-02": "13:00-17:00", "2026-09-04": null }
+}
+```
+
+- 時刻はすべて**日本時間**。`null` は休み。カンマ区切りで複数の時間帯も書ける
+- `dates` (特定日) が `weekly` (曜日ごとの既定) より優先。短縮営業・臨時営業はここに書く
+- **開店時刻は含み、閉店時刻は含まない** (19:00 ちょうどは `CLOSED`)
+- `datesUntil` を過ぎると `dates` が尽きて `weekly` だけで動く。
+  新しい月間予定表をもらったら `dates` と一緒に更新する
+
+**手動の文言が優先される。** `topText` が `OPEN` / `CLOSED` **以外**のとき
+(イベント中に「イベント中」を出しているときなど) は、このジョブは何もせず黙る。
+自動に戻したくなったら `topText` を `OPEN` か `CLOSED` に書き戻せばよい。
+
+反映の遅れ: GitHub Actions の定期実行は混雑で数分ずれることがあるため、
+開店・閉店の切り替わりは**時刻ちょうどから5〜15分ほど遅れる**ことがある。
+分単位でぴったり合わせたい場合は、実機側で時刻を見る `schedule` (下記 v2.2 ドラフト) の
+実装が要る。
+
+> ワークフローの追加だけは `workflow` 権限のあるトークンが要るため、Claude からは push できない。
+> [`docs/examples/open-closed.workflow.yml`](examples/open-closed.workflow.yml) を
+> `.github/workflows/open-closed.yml` としてコミットすると動きはじめる
+> (GitHubのWeb画面から Add file → Create new file でも入れられる)。
+> 入れるまでは自動切り替えは動かず、`topText` は手で変えたままになる。
+
 ## 更新時の注意 (Claude向け・人間向け共通)
 
 1. 変更前にJSONとして妥当か確認する (壊れたJSONは実機側で無視される=表示は前のまま)
