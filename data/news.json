@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-02T10:33:29.071Z",
+ "updatedAt": "2026-09-02T14:45:36.344Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,6 +8,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "青森 鰺ヶ沢町付近で記録的大雨 災害の危険迫る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47873",
+     "pubDate": "Wed, 02 Sep 2026 23:11:51 +0900"
+    },
+    {
      "title": "上皇さまの意向受け 将来の葬儀の規模大幅縮小へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47735",
      "pubDate": "Wed, 02 Sep 2026 19:00:00 +0900"
@@ -15,32 +20,27 @@
     {
      "title": "台風と前線影響 西・東日本は3日から大雨に 長引くおそれも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47704",
-     "pubDate": "Wed, 02 Sep 2026 19:21:03 +0900"
+     "pubDate": "Wed, 02 Sep 2026 21:26:45 +0900"
     },
     {
      "title": "ネパール土石流 発生から1週間 避難所の衛生状態維持も課題に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47705",
-     "pubDate": "Wed, 02 Sep 2026 18:52:04 +0900"
+     "pubDate": "Wed, 02 Sep 2026 22:23:55 +0900"
     },
     {
-     "title": "自民税調 消費税減税で「便乗値上げ」や「買い控え」に対策を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47815",
-     "pubDate": "Wed, 02 Sep 2026 16:49:01 +0900"
+     "title": "日銀 植田総裁 利上げは9月会合含め毎回会合で議論",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47787",
+     "pubDate": "Wed, 02 Sep 2026 14:57:00 +0900"
     },
     {
-     "title": "富山市 交番襲撃事件の遺族訴訟 2審も訴え退ける",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47835",
-     "pubDate": "Wed, 02 Sep 2026 19:12:42 +0900"
+     "title": "陸自が侵攻相手対処の攻撃用小型無人機を初めて公開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47796",
+     "pubDate": "Wed, 02 Sep 2026 20:18:00 +0900"
     },
     {
-     "title": "備蓄米21万トン買い戻し決定 9月18日に手続き開始 農水省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47803",
-     "pubDate": "Wed, 02 Sep 2026 19:22:21 +0900"
-    },
-    {
-     "title": "プロ野球 ヤクルト 現役最年長の石川が今季かぎりでの引退表明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47809",
-     "pubDate": "Wed, 02 Sep 2026 18:36:34 +0900"
+     "title": "パジェロ新型モデル公開 自動車各社 人気車種で国際競争に備え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47794",
+     "pubDate": "Wed, 02 Sep 2026 19:35:18 +0900"
     }
    ]
   },
@@ -49,6 +49,26 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "福島大学の放射能研究やゆする動画めぐり 大学側が声明発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47867",
+     "pubDate": "Wed, 02 Sep 2026 22:05:35 +0900"
+    },
+    {
+     "title": "公取委「物価高連動のカルテルには厳正対処」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47864",
+     "pubDate": "Wed, 02 Sep 2026 21:12:37 +0900"
+    },
+    {
+     "title": "陸自が侵攻相手対処の攻撃用小型無人機を初めて公開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47796",
+     "pubDate": "Wed, 02 Sep 2026 20:18:00 +0900"
+    },
+    {
+     "title": "店頭の貴金属買い取りでトラブル注意 国民生活センター",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47852",
+     "pubDate": "Wed, 02 Sep 2026 20:13:03 +0900"
+    },
     {
      "title": "備蓄米21万トン買い戻し決定 9月18日に手続き開始 農水省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47803",
@@ -103,26 +123,6 @@
      "title": "デジタル教科書のあり方 骨子案まとめる 文科省審議会",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47783",
      "pubDate": "Wed, 02 Sep 2026 14:10:00 +0900"
-    },
-    {
-     "title": "沖縄の宿泊施設火災 米国籍宿泊客を放火・殺人未遂容疑で逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47765",
-     "pubDate": "Wed, 02 Sep 2026 13:29:47 +0900"
-    },
-    {
-     "title": "6月の生活保護申請 全国で2万件余 前年同月比0.3％増",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47755",
-     "pubDate": "Wed, 02 Sep 2026 12:27:22 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（9月2日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47685",
-     "pubDate": "Wed, 02 Sep 2026 14:34:16 +0900"
-    },
-    {
-     "title": "伊勢神宮近くの商店街火災 発生から約44時間後に鎮火",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47708",
-     "pubDate": "Wed, 02 Sep 2026 14:52:29 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "福島大学の放射能研究やゆする動画めぐり 大学側が声明発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47867",
+     "pubDate": "Wed, 02 Sep 2026 22:05:35 +0900"
+    },
     {
      "title": "原子力規制庁 次世代炉審査向け来年度予算案概算要求で調査費",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47840",
@@ -200,11 +205,6 @@
      "title": "原子力規制庁 来年度予算案の概算要求に次世代炉審査の調査費",
      "link": "https://news.web.nhk/newsweb/na/nd-20260826de46568",
      "pubDate": "Thu, 27 Aug 2026 05:35:00 +0900"
-    },
-    {
-     "title": "中部電力 浜岡原発の廃炉めぐる不適切事案 きょう公表へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260827de46580",
-     "pubDate": "Thu, 27 Aug 2026 04:37:00 +0900"
     }
    ]
   },
@@ -213,6 +213,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "香港の民主活動家 黄之鋒氏、別の罪も認め収監長引くか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47865",
+     "pubDate": "Wed, 02 Sep 2026 21:06:48 +0900"
+    },
+    {
+     "title": "弟はどこに… ネパール土石流 16人と連絡が取れない女性は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47820",
+     "pubDate": "Wed, 02 Sep 2026 20:04:01 +0900"
+    },
     {
      "title": "“結婚式への米軍攻撃”イランが周辺国の米軍基地に報復攻撃",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47843",
@@ -277,16 +287,6 @@
      "title": "上海協力機構の首脳会議が閉幕 イランに連帯示す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47715",
      "pubDate": "Wed, 02 Sep 2026 05:54:16 +0900"
-    },
-    {
-     "title": "ネパール土石流 発生から1週間 避難所の衛生状態維持も課題に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47705",
-     "pubDate": "Wed, 02 Sep 2026 18:52:04 +0900"
-    },
-    {
-     "title": "アメリカはイランの目標を攻撃 イランは“報復”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47713",
-     "pubDate": "Wed, 02 Sep 2026 12:43:29 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "日本郵便に勧告 フリーランス巡り",
-     "link": "https://news.yahoo.co.jp/pickup/6593989?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 07:55:06 GMT"
+     "title": "青森で猛烈な雨 災害発生の恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6594034?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 14:30:49 GMT"
     },
     {
-     "title": "きえないで 新学期に水族館が投稿",
-     "link": "https://news.yahoo.co.jp/pickup/6593999?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 08:54:40 GMT"
+     "title": "台湾・高雄市 熊本に1億5千万円",
+     "link": "https://news.yahoo.co.jp/pickup/6594033?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 14:11:13 GMT"
     },
     {
-     "title": "あべちか強殺未遂事件 男公開手配",
-     "link": "https://news.yahoo.co.jp/pickup/6593986?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 07:32:39 GMT"
+     "title": "上皇さまの葬儀規模 大幅縮小検討",
+     "link": "https://news.yahoo.co.jp/pickup/6594027?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 12:43:30 GMT"
     },
     {
-     "title": "子の余命 他人から告げられ苦痛も",
-     "link": "https://news.yahoo.co.jp/pickup/6594001?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 09:10:57 GMT"
+     "title": "長期金利「3%突破」は異常か",
+     "link": "https://news.yahoo.co.jp/pickup/6594029?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 12:42:49 GMT"
     },
     {
-     "title": "「美人局」疑い 高校生ら5人逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6593988?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 07:47:03 GMT"
+     "title": "和菓子店の店主死亡 長男コメント",
+     "link": "https://news.yahoo.co.jp/pickup/6594016?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 11:24:39 GMT"
     },
     {
-     "title": "「スクイーズ」安全に遊ぶには",
-     "link": "https://news.yahoo.co.jp/pickup/6594006?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 09:38:03 GMT"
+     "title": "パワハラ報道巡り 東京MKが会見",
+     "link": "https://news.yahoo.co.jp/pickup/6594031?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 13:36:56 GMT"
     },
     {
-     "title": "堺雅人の中国語 現地SNSで話題",
-     "link": "https://news.yahoo.co.jp/pickup/6594009?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 10:07:08 GMT"
+     "title": "アニマルカフェ 国が実態調査へ",
+     "link": "https://news.yahoo.co.jp/pickup/6594025?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 12:27:04 GMT"
     },
     {
-     "title": "小籔が吉本退所へ 後悔せんように",
-     "link": "https://news.yahoo.co.jp/pickup/6593995?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 08:22:58 GMT"
+     "title": "広島から1試合4死球 一触即発状態",
+     "link": "https://news.yahoo.co.jp/pickup/6594024?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 12:14:03 GMT"
     }
    ]
   }
