@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-02T01:10:42.255Z",
+ "updatedAt": "2026-09-02T05:58:43.841Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "北日本で大雨 青森で線状降水帯発生 青森・秋田では厳重警戒を",
+     "title": "台風と前線の影響で西・東日本では3日から大雨のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47704",
-     "pubDate": "Wed, 02 Sep 2026 09:00:32 +0900"
+     "pubDate": "Wed, 02 Sep 2026 12:29:39 +0900"
     },
     {
-     "title": "長期金利3％超 日銀の金融政策や財政めぐる動きが焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47702",
-     "pubDate": "Wed, 02 Sep 2026 02:02:00 +0900"
-    },
-    {
-     "title": "伊勢神宮近くの商店街火災 鎮火に向け消火活動続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47708",
-     "pubDate": "Wed, 02 Sep 2026 09:17:49 +0900"
-    },
-    {
-     "title": "G20は2日目の議論に 声明とりまとめに向けた調整も続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47719",
-     "pubDate": "Wed, 02 Sep 2026 06:31:00 +0900"
-    },
-    {
-     "title": "ネパール土石流発生1週間 2万人態勢で救助",
+     "title": "ネパール土石流 発生から1週間 エネルギー施設にも深刻な影響",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47705",
-     "pubDate": "Wed, 02 Sep 2026 05:16:14 +0900"
+     "pubDate": "Wed, 02 Sep 2026 12:15:56 +0900"
     },
     {
-     "title": "ロシア外務省報道官、日米豪共同訓練に「対抗措置とる」と警告",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47725",
-     "pubDate": "Wed, 02 Sep 2026 07:24:03 +0900"
+     "title": "長期金利3.015％に一時上昇 イラン情勢緊迫化でインフレ懸念",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47751",
+     "pubDate": "Wed, 02 Sep 2026 11:18:00 +0900"
     },
     {
-     "title": "アメリカはイランの目標を攻撃 イランは“報復”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47713",
-     "pubDate": "Wed, 02 Sep 2026 09:52:57 +0900"
+     "title": "アメリカ10年債利回り4.8％に迫る世界的に長期金利が上昇",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47711",
+     "pubDate": "Wed, 02 Sep 2026 02:56:00 +0900"
+    },
+    {
+     "title": "株価 一時1900円超の値下がり 原油の先物価格の上昇などで",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47733",
+     "pubDate": "Wed, 02 Sep 2026 12:39:59 +0900"
+    },
+    {
+     "title": "デジタル教科書のあり方 骨子案まとめる 文科省審議会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47783",
+     "pubDate": "Wed, 02 Sep 2026 14:10:18 +0900"
+    },
+    {
+     "title": "ホワイトソックス 村上宗隆 無安打もチームは連敗ストップ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47784",
+     "pubDate": "Wed, 02 Sep 2026 14:19:36 +0900"
     }
    ]
   },
@@ -50,24 +50,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "デジタル教科書のあり方 骨子案まとめる 文科省審議会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47783",
+     "pubDate": "Wed, 02 Sep 2026 14:10:18 +0900"
+    },
+    {
+     "title": "沖縄の宿泊施設火災 米国籍宿泊客を放火・殺人未遂容疑で逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47765",
+     "pubDate": "Wed, 02 Sep 2026 13:29:47 +0900"
+    },
+    {
+     "title": "6月の生活保護申請 全国で2万件余 前年同月比0.3％増",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47755",
+     "pubDate": "Wed, 02 Sep 2026 12:27:22 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（9月2日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47685",
-     "pubDate": "Wed, 02 Sep 2026 06:49:24 +0900"
+     "pubDate": "Wed, 02 Sep 2026 14:34:16 +0900"
     },
     {
-     "title": "伊勢神宮近くの商店街火災 鎮火に向け消火活動続く",
+     "title": "伊勢神宮近くの商店街火災 発生から約44時間後に鎮火",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47708",
-     "pubDate": "Wed, 02 Sep 2026 09:17:49 +0900"
+     "pubDate": "Wed, 02 Sep 2026 14:52:29 +0900"
     },
     {
-     "title": "北日本で大雨 青森で線状降水帯発生 青森・秋田では厳重警戒を",
+     "title": "台風と前線の影響で西・東日本では3日から大雨のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47704",
-     "pubDate": "Wed, 02 Sep 2026 09:00:32 +0900"
+     "pubDate": "Wed, 02 Sep 2026 12:29:39 +0900"
     },
     {
      "title": "地下のライブハウスで地震が起きたら？防災の日に避難訓練",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47698",
-     "pubDate": "Tue, 01 Sep 2026 23:43:18 +0900"
+     "pubDate": "Tue, 01 Sep 2026 23:43:00 +0900"
     },
     {
      "title": "千葉豪雨は「異常気象」 気象庁の専門家検討会が指摘",
@@ -108,21 +123,6 @@
      "title": "辺野古転覆事故受け 同志社が安全管理統括の安全管理室設置",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47670",
      "pubDate": "Tue, 01 Sep 2026 19:42:42 +0900"
-    },
-    {
-     "title": "大阪地検元検事正からの性被害訴える女性検事が退職「悔しい」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47643",
-     "pubDate": "Tue, 01 Sep 2026 17:56:00 +0900"
-    },
-    {
-     "title": "熊本の煙突倒壊で劣化報告対象拡大など検討 国交相",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47639",
-     "pubDate": "Tue, 01 Sep 2026 17:47:29 +0900"
-    },
-    {
-     "title": "福井 生活道路の法定速度引き下げで警察などが啓発",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47642",
-     "pubDate": "Tue, 01 Sep 2026 17:36:45 +0900"
     }
    ]
   },
@@ -134,7 +134,7 @@
     {
      "title": "地下のライブハウスで地震が起きたら？防災の日に避難訓練",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47698",
-     "pubDate": "Tue, 01 Sep 2026 23:43:18 +0900"
+     "pubDate": "Tue, 01 Sep 2026 23:43:00 +0900"
     },
     {
      "title": "海外の製薬企業 日本での新薬販売見送りも 業界団体調査",
@@ -199,7 +199,7 @@
     {
      "title": "中部電力 浜岡原発の廃炉めぐる不適切事案 きょう公表へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260827de46580",
-     "pubDate": "Thu, 27 Aug 2026 04:37:25 +0900"
+     "pubDate": "Thu, 27 Aug 2026 04:37:00 +0900"
     }
    ]
   },
@@ -209,24 +209,54 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "ドイツ政府、空港の爆発物搭載ドローンは「ロシアの責任」",
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月2日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46967",
+     "pubDate": "Wed, 02 Sep 2026 14:50:56 +0900"
+    },
+    {
+     "title": "米ベッセント財務長官 イランへの制裁 中国の対応見極める考え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47750",
+     "pubDate": "Wed, 02 Sep 2026 12:06:00 +0900"
+    },
+    {
+     "title": "核兵器の使用や実験の被害者のための基金設立へ 初の国際会議",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47754",
+     "pubDate": "Wed, 02 Sep 2026 11:57:20 +0900"
+    },
+    {
+     "title": "プーチン大統領 日ロ関係悪化の責任 “100%日本にある”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47747",
+     "pubDate": "Wed, 02 Sep 2026 11:32:44 +0900"
+    },
+    {
+     "title": "長期金利3％超え 片山財務相「緊張感を持って対応」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47749",
+     "pubDate": "Wed, 02 Sep 2026 11:20:00 +0900"
+    },
+    {
+     "title": "日オーストリア外相 法の支配や航行の自由の重要性確認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47729",
+     "pubDate": "Wed, 02 Sep 2026 10:53:33 +0900"
+    },
+    {
+     "title": "“空港で発見の爆発物搭載ドローン ロシアが関与”ドイツ政府",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47723",
-     "pubDate": "Wed, 02 Sep 2026 07:38:45 +0900"
+     "pubDate": "Wed, 02 Sep 2026 07:38:00 +0900"
     },
     {
      "title": "英スターマー前首相が議員辞職を明らかに",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47726",
-     "pubDate": "Wed, 02 Sep 2026 07:30:17 +0900"
+     "pubDate": "Wed, 02 Sep 2026 07:30:00 +0900"
     },
     {
-     "title": "ロシア外務省報道官、日米豪共同訓練に「対抗措置とる」と警告",
+     "title": "ロシア外務省報道官 日米豪共同訓練に「対抗措置とる」と警告",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47725",
-     "pubDate": "Wed, 02 Sep 2026 07:24:03 +0900"
+     "pubDate": "Wed, 02 Sep 2026 07:24:00 +0900"
     },
     {
-     "title": "G20は2日目の議論に 声明とりまとめに向けた調整も続く",
+     "title": "G20閉幕 政府・日銀の政策焦点 アメリカの注文など踏まえ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47719",
-     "pubDate": "Wed, 02 Sep 2026 06:31:00 +0900"
+     "pubDate": "Wed, 02 Sep 2026 13:44:03 +0900"
     },
     {
      "title": "ロシア財務相がアメリカでのG20参加で欧州側は反発",
@@ -239,49 +269,19 @@
      "pubDate": "Wed, 02 Sep 2026 05:54:16 +0900"
     },
     {
-     "title": "ネパール土石流発生1週間 2万人態勢で救助",
+     "title": "ネパール土石流 発生から1週間 エネルギー施設にも深刻な影響",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47705",
-     "pubDate": "Wed, 02 Sep 2026 05:16:14 +0900"
+     "pubDate": "Wed, 02 Sep 2026 12:15:56 +0900"
     },
     {
      "title": "アメリカはイランの目標を攻撃 イランは“報復”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47713",
-     "pubDate": "Wed, 02 Sep 2026 09:52:57 +0900"
+     "pubDate": "Wed, 02 Sep 2026 12:43:29 +0900"
     },
     {
      "title": "アメリカ10年債利回り4.8％に迫る世界的に長期金利が上昇",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47711",
-     "pubDate": "Wed, 02 Sep 2026 02:56:08 +0900"
-    },
-    {
-     "title": "日チェコ外相 協力促進へ5年間の行動計画に署名",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47700",
-     "pubDate": "Wed, 02 Sep 2026 02:06:17 +0900"
-    },
-    {
-     "title": "茂木外相 中東欧4か国外相と会合 国際秩序強化へ協力",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47706",
-     "pubDate": "Wed, 02 Sep 2026 02:03:00 +0900"
-    },
-    {
-     "title": "ユーロ圏消費者物価8月は3.3％上昇 エネルギー価格上昇で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47709",
-     "pubDate": "Wed, 02 Sep 2026 01:56:26 +0900"
-    },
-    {
-     "title": "韓国 過去最大の予算案決定 原潜開発の予算も初計上",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47691",
-     "pubDate": "Tue, 01 Sep 2026 21:49:10 +0900"
-    },
-    {
-     "title": "上海協力機構首脳会議 イランの立場支持する内容の宣言発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47689",
-     "pubDate": "Tue, 01 Sep 2026 21:42:53 +0900"
-    },
-    {
-     "title": "米グランドキャニオンで洪水 ２人死亡 １人の安否不明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47684",
-     "pubDate": "Tue, 01 Sep 2026 21:04:54 +0900"
+     "pubDate": "Wed, 02 Sep 2026 02:56:00 +0900"
     }
    ]
   },
@@ -291,44 +291,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "ネパール土石流 時速167kmか",
-     "link": "https://news.yahoo.co.jp/pickup/6593938?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 23:54:26 GMT"
+     "title": "北日本で大雨 広範囲で雷雨に注意",
+     "link": "https://news.yahoo.co.jp/pickup/6593973?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 05:17:04 GMT"
     },
     {
-     "title": "日本郵便の取材回答 総務省介入か",
-     "link": "https://news.yahoo.co.jp/pickup/6593937?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 23:46:49 GMT"
+     "title": "論文査読にAI活用 誤情報リスクも",
+     "link": "https://news.yahoo.co.jp/pickup/6593969?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 04:55:56 GMT"
     },
     {
-     "title": "米攻撃 イラン結婚式4人死亡報道",
-     "link": "https://news.yahoo.co.jp/pickup/6593942?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 00:31:40 GMT"
+     "title": "GoPro 米企業に株式90%売却へ",
+     "link": "https://news.yahoo.co.jp/pickup/6593966?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 04:07:02 GMT"
     },
     {
-     "title": "ツムラが「養命酒製造」買収完了",
-     "link": "https://news.yahoo.co.jp/pickup/6593936?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 23:23:34 GMT"
+     "title": "三菱自 新型パジェロを世界初公開",
+     "link": "https://news.yahoo.co.jp/pickup/6593972?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 05:22:28 GMT"
     },
     {
-     "title": "ホテルに放火疑い 米旅行者を逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6593927?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 22:26:35 GMT"
+     "title": "車田正美氏 46億円の横領被害訴え",
+     "link": "https://news.yahoo.co.jp/pickup/6593974?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 05:50:32 GMT"
     },
     {
-     "title": "鳥取県職員が阿部寛まねPR 反響",
-     "link": "https://news.yahoo.co.jp/pickup/6593934?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 23:17:52 GMT"
+     "title": "大谷の肘に死球 本拠地ブーイング",
+     "link": "https://news.yahoo.co.jp/pickup/6593971?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 05:15:09 GMT"
     },
     {
-     "title": "菅原由勢 セリエA・カリアリ移籍",
-     "link": "https://news.yahoo.co.jp/pickup/6593943?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 00:43:14 GMT"
+     "title": "アニメ監督・柳瀬雄之さん死去",
+     "link": "https://news.yahoo.co.jp/pickup/6593970?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 04:54:41 GMT"
     },
     {
-     "title": "一ノ瀬ワタル ネトフリ作品で主演",
-     "link": "https://news.yahoo.co.jp/pickup/6593945?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 01:07:56 GMT"
+     "title": "小籔千豊 吉本興業を年内で退社",
+     "link": "https://news.yahoo.co.jp/pickup/6593967?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 04:30:03 GMT"
     }
    ]
   }
