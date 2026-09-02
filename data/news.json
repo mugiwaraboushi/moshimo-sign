@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-01T23:27:18.981Z",
+ "updatedAt": "2026-09-02T01:10:42.255Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,22 +10,22 @@
     {
      "title": "北日本で大雨 青森で線状降水帯発生 青森・秋田では厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47704",
-     "pubDate": "Wed, 02 Sep 2026 07:17:55 +0900"
+     "pubDate": "Wed, 02 Sep 2026 09:00:32 +0900"
     },
     {
      "title": "長期金利3％超 日銀の金融政策や財政めぐる動きが焦点",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47702",
-     "pubDate": "Wed, 02 Sep 2026 02:02:15 +0900"
+     "pubDate": "Wed, 02 Sep 2026 02:02:00 +0900"
     },
     {
      "title": "伊勢神宮近くの商店街火災 鎮火に向け消火活動続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47708",
-     "pubDate": "Wed, 02 Sep 2026 07:12:06 +0900"
+     "pubDate": "Wed, 02 Sep 2026 09:17:49 +0900"
     },
     {
      "title": "G20は2日目の議論に 声明とりまとめに向けた調整も続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47719",
-     "pubDate": "Wed, 02 Sep 2026 06:31:27 +0900"
+     "pubDate": "Wed, 02 Sep 2026 06:31:00 +0900"
     },
     {
      "title": "ネパール土石流発生1週間 2万人態勢で救助",
@@ -38,9 +38,9 @@
      "pubDate": "Wed, 02 Sep 2026 07:24:03 +0900"
     },
     {
-     "title": "アメリカ中央軍 革命防衛隊への攻撃を開始と発表",
+     "title": "アメリカはイランの目標を攻撃 イランは“報復”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47713",
-     "pubDate": "Wed, 02 Sep 2026 06:50:32 +0900"
+     "pubDate": "Wed, 02 Sep 2026 09:52:57 +0900"
     }
    ]
   },
@@ -57,12 +57,12 @@
     {
      "title": "伊勢神宮近くの商店街火災 鎮火に向け消火活動続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47708",
-     "pubDate": "Wed, 02 Sep 2026 07:12:06 +0900"
+     "pubDate": "Wed, 02 Sep 2026 09:17:49 +0900"
     },
     {
      "title": "北日本で大雨 青森で線状降水帯発生 青森・秋田では厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47704",
-     "pubDate": "Wed, 02 Sep 2026 07:17:55 +0900"
+     "pubDate": "Wed, 02 Sep 2026 09:00:32 +0900"
     },
     {
      "title": "地下のライブハウスで地震が起きたら？防災の日に避難訓練",
@@ -226,7 +226,7 @@
     {
      "title": "G20は2日目の議論に 声明とりまとめに向けた調整も続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47719",
-     "pubDate": "Wed, 02 Sep 2026 06:31:27 +0900"
+     "pubDate": "Wed, 02 Sep 2026 06:31:00 +0900"
     },
     {
      "title": "ロシア財務相がアメリカでのG20参加で欧州側は反発",
@@ -244,9 +244,9 @@
      "pubDate": "Wed, 02 Sep 2026 05:16:14 +0900"
     },
     {
-     "title": "アメリカ中央軍 革命防衛隊への攻撃を開始と発表",
+     "title": "アメリカはイランの目標を攻撃 イランは“報復”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47713",
-     "pubDate": "Wed, 02 Sep 2026 06:50:32 +0900"
+     "pubDate": "Wed, 02 Sep 2026 09:52:57 +0900"
     },
     {
      "title": "アメリカ10年債利回り4.8％に迫る世界的に長期金利が上昇",
@@ -291,19 +291,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "ウ大統領 ロシア領空は事実上閉鎖",
-     "link": "https://news.yahoo.co.jp/pickup/6593929?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 22:44:23 GMT"
+     "title": "ネパール土石流 時速167kmか",
+     "link": "https://news.yahoo.co.jp/pickup/6593938?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 23:54:26 GMT"
     },
     {
-     "title": "米軍がイラン攻撃 革命防衛隊標的",
-     "link": "https://news.yahoo.co.jp/pickup/6593922?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 21:41:18 GMT"
+     "title": "日本郵便の取材回答 総務省介入か",
+     "link": "https://news.yahoo.co.jp/pickup/6593937?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 23:46:49 GMT"
     },
     {
-     "title": "厳しい残暑 熊本など猛暑日の予想",
-     "link": "https://news.yahoo.co.jp/pickup/6593932?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 23:05:16 GMT"
+     "title": "米攻撃 イラン結婚式4人死亡報道",
+     "link": "https://news.yahoo.co.jp/pickup/6593942?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 00:31:40 GMT"
+    },
+    {
+     "title": "ツムラが「養命酒製造」買収完了",
+     "link": "https://news.yahoo.co.jp/pickup/6593936?source=rss",
+     "pubDate": "Tue, 01 Sep 2026 23:23:34 GMT"
     },
     {
      "title": "ホテルに放火疑い 米旅行者を逮捕",
@@ -316,19 +321,14 @@
      "pubDate": "Tue, 01 Sep 2026 23:17:52 GMT"
     },
     {
-     "title": "エンゼルス 球団売却を正式発表",
-     "link": "https://news.yahoo.co.jp/pickup/6593923?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 21:56:16 GMT"
+     "title": "菅原由勢 セリエA・カリアリ移籍",
+     "link": "https://news.yahoo.co.jp/pickup/6593943?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 00:43:14 GMT"
     },
     {
-     "title": "俳優・藤原季節 ボクシングで敗戦",
-     "link": "https://news.yahoo.co.jp/pickup/6593930?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 22:36:20 GMT"
-    },
-    {
-     "title": "異例連ドラ 全話シンガポール撮影",
-     "link": "https://news.yahoo.co.jp/pickup/6593928?source=rss",
-     "pubDate": "Tue, 01 Sep 2026 22:33:16 GMT"
+     "title": "一ノ瀬ワタル ネトフリ作品で主演",
+     "link": "https://news.yahoo.co.jp/pickup/6593945?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 01:07:56 GMT"
     }
    ]
   }
