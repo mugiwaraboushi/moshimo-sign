@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-02T21:10:03.604Z",
+ "updatedAt": "2026-09-02T23:24:29.006Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風と前線影響 西・東日本は3日から大雨に 長引くおそれも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47704",
-     "pubDate": "Thu, 03 Sep 2026 02:17:14 +0900"
+     "title": "前線活発化 秋田で非常に激しい雨 広い範囲で大雨続くおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47887",
+     "pubDate": "Thu, 03 Sep 2026 07:51:05 +0900"
+    },
+    {
+     "title": "青森 五所川原 一部地域に緊急安全確保 川の堤防決壊のおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47892",
+     "pubDate": "Thu, 03 Sep 2026 07:03:28 +0900"
+    },
+    {
+     "title": "【大雨】青森市やむつ市 県道で土砂崩れや住宅浸水の被害",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47889",
+     "pubDate": "Thu, 03 Sep 2026 07:22:39 +0900"
+    },
+    {
+     "title": "東北新幹線 運転見合わせ 那須塩原～盛岡の上下線",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47895",
+     "pubDate": "Thu, 03 Sep 2026 07:59:07 +0900"
     },
     {
      "title": "高市首相 党役員人事と内閣改造 再来週にも踏み切るとの見方も",
@@ -18,29 +33,14 @@
      "pubDate": "Thu, 03 Sep 2026 04:53:27 +0900"
     },
     {
-     "title": "青森市 一部地域に緊急安全確保 瀬戸子川で氾濫発生",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47882",
-     "pubDate": "Thu, 03 Sep 2026 02:36:00 +0900"
-    },
-    {
-     "title": "青森市 一部地域に避難指示 内真部川が氾濫のおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47886",
-     "pubDate": "Thu, 03 Sep 2026 05:34:06 +0900"
-    },
-    {
-     "title": "アメリカ中間選挙まで2か月 共和・民主の選挙戦さらに激しく",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47876",
-     "pubDate": "Thu, 03 Sep 2026 05:40:03 +0900"
-    },
-    {
      "title": "ネパール土石流 1200人以上死亡 首相は気候変動対策を訴え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de47884",
      "pubDate": "Thu, 03 Sep 2026 05:29:46 +0900"
     },
     {
-     "title": "円相場一時1ドル＝158円台前半に上昇 日銀利上げ観測強まる中",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47883",
-     "pubDate": "Thu, 03 Sep 2026 03:15:44 +0900"
+     "title": "アメリカ中間選挙まで2か月 共和・民主の選挙戦さらに激しく",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47876",
+     "pubDate": "Thu, 03 Sep 2026 05:40:03 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "東北新幹線 運転見合わせ 那須塩原～盛岡の上下線",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47895",
+     "pubDate": "Thu, 03 Sep 2026 07:59:07 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（9月3日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47849",
+     "pubDate": "Thu, 03 Sep 2026 07:17:05 +0900"
+    },
     {
      "title": "災害関連死の審査指針 日弁連が公表 認定で考慮すべきことなど",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de47878",
@@ -113,16 +123,6 @@
      "title": "漫画家の車田正美さん代表の会社 横領被害で28億円余求め提訴",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47792",
      "pubDate": "Wed, 02 Sep 2026 16:18:54 +0900"
-    },
-    {
-     "title": "石原環境相 “除染土再生利用を今後ほかの地域でも調整”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47806",
-     "pubDate": "Wed, 02 Sep 2026 15:55:19 +0900"
-    },
-    {
-     "title": "米が輸入解禁求める生ジャガイモめぐり説明会 北海道 帯広",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47800",
-     "pubDate": "Wed, 02 Sep 2026 15:28:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "ベネチア国際映画祭開幕 最優秀賞競う部門に日本の2作品",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47885",
+     "pubDate": "Thu, 03 Sep 2026 06:40:22 +0900"
+    },
     {
      "title": "コンゴ民主共和国でエボラ出血熱の死者3000人超える",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de47881",
@@ -204,6 +209,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "FRB「多くの地区で経済活動拡大」物価大幅上昇の地区も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47888",
+     "pubDate": "Thu, 03 Sep 2026 07:00:44 +0900"
+    },
+    {
+     "title": "ベネチア国際映画祭開幕 最優秀賞競う部門に日本の2作品",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47885",
+     "pubDate": "Thu, 03 Sep 2026 06:40:22 +0900"
+    },
+    {
      "title": "アメリカ中間選挙まで2か月 共和・民主の選挙戦さらに激しく",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de47876",
      "pubDate": "Thu, 03 Sep 2026 05:40:03 +0900"
@@ -267,16 +282,6 @@
      "title": "長期金利3％超え 片山財務相「緊張感を持って対応」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47749",
      "pubDate": "Wed, 02 Sep 2026 11:20:00 +0900"
-    },
-    {
-     "title": "日オーストリア外相 法の支配や航行の自由の重要性確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47729",
-     "pubDate": "Wed, 02 Sep 2026 10:53:33 +0900"
-    },
-    {
-     "title": "“空港で発見の爆発物搭載ドローン ロシアが関与”ドイツ政府",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47723",
-     "pubDate": "Wed, 02 Sep 2026 07:38:00 +0900"
     }
    ]
   },
@@ -286,39 +291,39 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "青森で猛烈な雨 災害発生の恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6594034?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 14:30:49 GMT"
+     "title": "台風と秋雨前線 大雨長期化の恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6594040?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 21:29:11 GMT"
     },
     {
-     "title": "学校以外の居場所 様々な選択肢",
-     "link": "https://news.yahoo.co.jp/pickup/6594000?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 12:38:10 GMT"
+     "title": "自民の鈴木幹事長続投へ 首相意向",
+     "link": "https://news.yahoo.co.jp/pickup/6594042?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 21:58:07 GMT"
     },
     {
-     "title": "上皇さまの葬儀規模 大幅縮小検討",
-     "link": "https://news.yahoo.co.jp/pickup/6594027?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 12:43:30 GMT"
+     "title": "「匿流」スマホ遠隔解析へ 提言",
+     "link": "https://news.yahoo.co.jp/pickup/6594038?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 21:14:43 GMT"
     },
     {
-     "title": "パワハラ報道巡り 東京MKが会見",
-     "link": "https://news.yahoo.co.jp/pickup/6594031?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 13:36:56 GMT"
+     "title": "ウーバー 世界従業員の1割削減へ",
+     "link": "https://news.yahoo.co.jp/pickup/6594050?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 22:57:20 GMT"
     },
     {
-     "title": "和菓子店の店主死亡 長男コメント",
-     "link": "https://news.yahoo.co.jp/pickup/6594016?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 11:24:39 GMT"
-    },
-    {
-     "title": "T・ウッズ氏 5年間運転免許停止",
-     "link": "https://news.yahoo.co.jp/pickup/6594036?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 15:03:01 GMT"
+     "title": "大阪市「民泊」開業の規制強化へ",
+     "link": "https://news.yahoo.co.jp/pickup/6594043?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 22:20:19 GMT"
     },
     {
      "title": "MF中村敬斗 仏強豪のリヨン加入",
      "link": "https://news.yahoo.co.jp/pickup/6594037?source=rss",
      "pubDate": "Wed, 02 Sep 2026 21:05:23 GMT"
+    },
+    {
+     "title": "「VIVANT」絶叫台詞がミーム化",
+     "link": "https://news.yahoo.co.jp/pickup/6594044?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 22:19:28 GMT"
     },
     {
      "title": "掲載写真に指6本指摘 週マガ声明",
