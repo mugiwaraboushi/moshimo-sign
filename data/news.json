@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-02T18:10:22.313Z",
+ "updatedAt": "2026-09-02T21:10:03.604Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,34 +13,34 @@
      "pubDate": "Thu, 03 Sep 2026 02:17:14 +0900"
     },
     {
+     "title": "高市首相 党役員人事と内閣改造 再来週にも踏み切るとの見方も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47879",
+     "pubDate": "Thu, 03 Sep 2026 04:53:27 +0900"
+    },
+    {
      "title": "青森市 一部地域に緊急安全確保 瀬戸子川で氾濫発生",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de47882",
-     "pubDate": "Thu, 03 Sep 2026 02:36:06 +0900"
+     "pubDate": "Thu, 03 Sep 2026 02:36:00 +0900"
     },
     {
-     "title": "青森 鰺ヶ沢町付近で記録的大雨 災害の危険迫る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47873",
-     "pubDate": "Wed, 02 Sep 2026 23:11:51 +0900"
+     "title": "青森市 一部地域に避難指示 内真部川が氾濫のおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47886",
+     "pubDate": "Thu, 03 Sep 2026 05:34:06 +0900"
     },
     {
-     "title": "上皇さまの意向受け 将来の葬儀の規模大幅縮小へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47735",
-     "pubDate": "Wed, 02 Sep 2026 19:00:00 +0900"
+     "title": "アメリカ中間選挙まで2か月 共和・民主の選挙戦さらに激しく",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47876",
+     "pubDate": "Thu, 03 Sep 2026 05:40:03 +0900"
     },
     {
-     "title": "ネパール土石流 発生から1週間 避難所の衛生状態維持も課題に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47705",
-     "pubDate": "Wed, 02 Sep 2026 22:23:55 +0900"
+     "title": "ネパール土石流 1200人以上死亡 首相は気候変動対策を訴え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47884",
+     "pubDate": "Thu, 03 Sep 2026 05:29:46 +0900"
     },
     {
-     "title": "陸自が侵攻相手対処の攻撃用小型無人機を初めて公開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47796",
-     "pubDate": "Wed, 02 Sep 2026 20:18:00 +0900"
-    },
-    {
-     "title": "パジェロ新型モデル公開 自動車各社 人気車種で国際競争に備え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47794",
-     "pubDate": "Wed, 02 Sep 2026 19:35:18 +0900"
+     "title": "円相場一時1ドル＝158円台前半に上昇 日銀利上げ観測強まる中",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47883",
+     "pubDate": "Thu, 03 Sep 2026 03:15:44 +0900"
     }
    ]
   },
@@ -132,6 +132,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "コンゴ民主共和国でエボラ出血熱の死者3000人超える",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47881",
+     "pubDate": "Thu, 03 Sep 2026 04:59:44 +0900"
+    },
+    {
      "title": "福島大学の放射能研究やゆする動画めぐり 大学側が声明発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47867",
      "pubDate": "Wed, 02 Sep 2026 22:05:35 +0900"
@@ -199,6 +204,26 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "アメリカ中間選挙まで2か月 共和・民主の選挙戦さらに激しく",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47876",
+     "pubDate": "Thu, 03 Sep 2026 05:40:03 +0900"
+    },
+    {
+     "title": "ネパール土石流 1200人以上死亡 首相は気候変動対策を訴え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47884",
+     "pubDate": "Thu, 03 Sep 2026 05:29:46 +0900"
+    },
+    {
+     "title": "コンゴ民主共和国でエボラ出血熱の死者3000人超える",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47881",
+     "pubDate": "Thu, 03 Sep 2026 04:59:44 +0900"
+    },
+    {
+     "title": "円相場一時1ドル＝158円台前半に上昇 日銀利上げ観測強まる中",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47883",
+     "pubDate": "Thu, 03 Sep 2026 03:15:44 +0900"
+    },
+    {
      "title": "習主席「域外大国は主権の尊重を」イラン情勢めぐり米けん制",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de47874",
      "pubDate": "Thu, 03 Sep 2026 03:04:48 +0900"
@@ -252,26 +277,6 @@
      "title": "“空港で発見の爆発物搭載ドローン ロシアが関与”ドイツ政府",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47723",
      "pubDate": "Wed, 02 Sep 2026 07:38:00 +0900"
-    },
-    {
-     "title": "英スターマー前首相が議員辞職を明らかに",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47726",
-     "pubDate": "Wed, 02 Sep 2026 07:30:00 +0900"
-    },
-    {
-     "title": "ロシア外務省報道官 日米豪共同訓練に「対抗措置とる」と警告",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47725",
-     "pubDate": "Wed, 02 Sep 2026 07:24:00 +0900"
-    },
-    {
-     "title": "G20閉幕 政府・日銀の政策焦点 アメリカの注文など踏まえ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47719",
-     "pubDate": "Wed, 02 Sep 2026 15:34:00 +0900"
-    },
-    {
-     "title": "ロシア財務相がアメリカでのG20参加で欧州側は反発",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47720",
-     "pubDate": "Wed, 02 Sep 2026 06:26:20 +0900"
     }
    ]
   },
@@ -306,14 +311,14 @@
      "pubDate": "Wed, 02 Sep 2026 11:24:39 GMT"
     },
     {
-     "title": "アニマルカフェ 国が実態調査へ",
-     "link": "https://news.yahoo.co.jp/pickup/6594025?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 12:27:04 GMT"
-    },
-    {
      "title": "T・ウッズ氏 5年間運転免許停止",
      "link": "https://news.yahoo.co.jp/pickup/6594036?source=rss",
      "pubDate": "Wed, 02 Sep 2026 15:03:01 GMT"
+    },
+    {
+     "title": "MF中村敬斗 仏強豪のリヨン加入",
+     "link": "https://news.yahoo.co.jp/pickup/6594037?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 21:05:23 GMT"
     },
     {
      "title": "掲載写真に指6本指摘 週マガ声明",
