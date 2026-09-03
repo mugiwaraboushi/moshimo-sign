@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-03T18:08:55.586Z",
+ "updatedAt": "2026-09-03T21:09:50.719Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "鹿児島県奄美地方で「線状降水帯直前予測」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48060",
-     "pubDate": "Fri, 04 Sep 2026 00:41:10 +0900"
+     "title": "台風と前線で各地に発達した雨雲 線状降水帯のおそれも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de48057",
+     "pubDate": "Fri, 04 Sep 2026 06:04:48 +0900"
     },
     {
-     "title": "京都舞鶴 住宅で見つかったクマ2頭を緊急銃猟で駆除",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de48046",
-     "pubDate": "Fri, 04 Sep 2026 01:44:09 +0900"
+     "title": "最低賃金引き上げ 国は中小企業などへの支援進める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de48045",
+     "pubDate": "Fri, 04 Sep 2026 03:45:39 +0900"
     },
     {
-     "title": "熊本 日本製紙八代工場 地震損傷で解体中の煙突火事 鎮圧",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de48019",
-     "pubDate": "Fri, 04 Sep 2026 00:00:37 +0900"
+     "title": "ネパール土石流 閉じこめの水力発電所に生存者か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48070",
+     "pubDate": "Fri, 04 Sep 2026 05:53:48 +0900"
     },
     {
-     "title": "詳報「まんじゅうや」は無効票 東京高裁 神栖市長の訴え退ける",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47905",
-     "pubDate": "Thu, 03 Sep 2026 18:47:00 +0900"
+     "title": "日本製紙八代工場 解体中の煙突火事 きょう現場検証",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48063",
+     "pubDate": "Fri, 04 Sep 2026 05:10:00 +0900"
     },
     {
-     "title": "世界文化遺産の国内候補に「彦根城」推薦決定 文化庁の審議会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47931",
-     "pubDate": "Thu, 03 Sep 2026 20:44:40 +0900"
+     "title": "イグ・ノーベル賞で日本「鼻のかみ方」研究が医学賞を受賞",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48062",
+     "pubDate": "Fri, 04 Sep 2026 03:09:00 +0900"
     },
     {
-     "title": "ノーベル化学賞 受賞者 白川英樹さん死去 90歳",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47974",
-     "pubDate": "Thu, 03 Sep 2026 20:37:56 +0900"
+     "title": "政権骨格維持へ 麻生氏、鈴木氏、木原氏は続投の見方",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de48053",
+     "pubDate": "Fri, 04 Sep 2026 04:59:34 +0900"
     },
     {
-     "title": "円相場 一時 1ドル＝155円台前半に 1か月ぶり高値",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de48058",
-     "pubDate": "Fri, 04 Sep 2026 00:11:58 +0900"
+     "title": "ロンドン初の自動運転タクシー 東京でも年内に試験運行へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48065",
+     "pubDate": "Fri, 04 Sep 2026 05:16:50 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "日本製紙八代工場 解体中の煙突火事 きょう現場検証",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48063",
+     "pubDate": "Fri, 04 Sep 2026 05:10:00 +0900"
+    },
+    {
+     "title": "ネパール土石流災害で日本の警察が検視部隊派遣",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48064",
+     "pubDate": "Fri, 04 Sep 2026 05:02:35 +0900"
+    },
+    {
+     "title": "最低賃金引き上げ 国は中小企業などへの支援進める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de48045",
+     "pubDate": "Fri, 04 Sep 2026 03:45:39 +0900"
+    },
     {
      "title": "「まんじゅうや」は有効票？ NW9広内キャスターが専門家に聞く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de48044",
@@ -108,21 +123,6 @@
      "title": "マッチングアプリ登録男性にうその投資話 詐欺疑いで5人逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de47976",
      "pubDate": "Thu, 03 Sep 2026 16:17:00 +0900"
-    },
-    {
-     "title": "他人のSNSアカウントに不正アクセスした疑い逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47943",
-     "pubDate": "Thu, 03 Sep 2026 15:11:05 +0900"
-    },
-    {
-     "title": "木原官房長官 上皇さまの将来の葬儀 宮内庁で必要な検討",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47970",
-     "pubDate": "Thu, 03 Sep 2026 15:05:00 +0900"
-    },
-    {
-     "title": "被爆の記録映画 フィルムに未知の広範囲シーン確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47922",
-     "pubDate": "Thu, 03 Sep 2026 13:04:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "イグ・ノーベル賞で日本「鼻のかみ方」研究が医学賞を受賞",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48062",
+     "pubDate": "Fri, 04 Sep 2026 03:09:00 +0900"
+    },
     {
      "title": "NY公立小中学校などで生成AI利用を原則禁止へ 新年度の1年間",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de48030",
@@ -200,11 +205,6 @@
      "title": "環境省 除染土再生利用 さいたま市にある合同庁舎の花壇でも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260830de47270",
      "pubDate": "Sun, 30 Aug 2026 15:15:28 +0900"
-    },
-    {
-     "title": "AIと人間が協力の「ペア碁」新たなeスポーツ目指す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47163",
-     "pubDate": "Sat, 29 Aug 2026 16:22:00 +0900"
     }
    ]
   },
@@ -214,9 +214,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "円相場 一時 1ドル＝155円台前半に 1か月ぶり高値",
+     "title": "ネパール土石流 閉じこめの水力発電所に生存者か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48070",
+     "pubDate": "Fri, 04 Sep 2026 05:53:48 +0900"
+    },
+    {
+     "title": "色丹島にインドネシア人 北方領土で受け入れ進む外国人労働者",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de48059",
+     "pubDate": "Fri, 04 Sep 2026 05:24:27 +0900"
+    },
+    {
+     "title": "ロンドン初の自動運転タクシー 東京でも年内に試験運行へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48065",
+     "pubDate": "Fri, 04 Sep 2026 05:16:50 +0900"
+    },
+    {
+     "title": "ネパール土石流災害で日本の警察が検視部隊派遣",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48064",
+     "pubDate": "Fri, 04 Sep 2026 05:02:35 +0900"
+    },
+    {
+     "title": "WMO「エルニーニョ来年2月まで 洪水などリスク高まる」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48061",
+     "pubDate": "Fri, 04 Sep 2026 03:26:54 +0900"
+    },
+    {
+     "title": "イグ・ノーベル賞で日本「鼻のかみ方」研究が医学賞を受賞",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48062",
+     "pubDate": "Fri, 04 Sep 2026 03:09:00 +0900"
+    },
+    {
+     "title": "円相場 一時 1ドル＝155円台前半に 日銀利上げ観測など背景に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de48058",
-     "pubDate": "Fri, 04 Sep 2026 00:11:58 +0900"
+     "pubDate": "Fri, 04 Sep 2026 00:11:00 +0900"
     },
     {
      "title": "NY公立小中学校などで生成AI利用を原則禁止へ 新年度の1年間",
@@ -257,36 +287,6 @@
      "title": "米ベッセント財務長官 日銀利上げで円安改善と伝達 米報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de47990",
      "pubDate": "Thu, 03 Sep 2026 18:11:00 +0900"
-    },
-    {
-     "title": "ロシア極東で「対日戦勝」式典",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47980",
-     "pubDate": "Thu, 03 Sep 2026 16:49:49 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月3日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46968",
-     "pubDate": "Thu, 03 Sep 2026 15:44:00 +0900"
-    },
-    {
-     "title": "プーチン大統領 北方領土の税制優遇措置などで投資活発と主張",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47972",
-     "pubDate": "Thu, 03 Sep 2026 19:28:52 +0900"
-    },
-    {
-     "title": "グーグルの広告サービス独占めぐる裁判 事業分割を回避",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47956",
-     "pubDate": "Thu, 03 Sep 2026 14:30:00 +0900"
-    },
-    {
-     "title": "「スター・ウォーズ」監督 ロサンゼルスに美術館創設し内覧会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47915",
-     "pubDate": "Thu, 03 Sep 2026 12:02:00 +0900"
-    },
-    {
-     "title": "結婚式4人死亡 イラン“戦争犯罪” 米“攻撃準備できている”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47900",
-     "pubDate": "Thu, 03 Sep 2026 20:34:07 +0900"
     }
    ]
   },
@@ -311,9 +311,9 @@
      "pubDate": "Thu, 03 Sep 2026 12:10:39 GMT"
     },
     {
-     "title": "八代工場の火災鎮圧 日本製紙謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6594145?source=rss",
-     "pubDate": "Thu, 03 Sep 2026 14:13:58 GMT"
+     "title": "日本製紙八代工場の火災鎮火",
+     "link": "https://news.yahoo.co.jp/pickup/6594148?source=rss",
+     "pubDate": "Thu, 03 Sep 2026 21:06:25 GMT"
     },
     {
      "title": "麻布十番まつりで食中毒 店主謝罪",
