@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-02T23:24:29.006Z",
+ "updatedAt": "2026-09-03T01:14:08.414Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,29 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "前線活発化 秋田で非常に激しい雨 広い範囲で大雨続くおそれ",
+     "title": "前線活発化 東北～北陸に発達した雨雲 広い範囲で大雨のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de47887",
-     "pubDate": "Thu, 03 Sep 2026 07:51:05 +0900"
-    },
-    {
-     "title": "青森 五所川原 一部地域に緊急安全確保 川の堤防決壊のおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47892",
-     "pubDate": "Thu, 03 Sep 2026 07:03:28 +0900"
+     "pubDate": "Thu, 03 Sep 2026 08:43:11 +0900"
     },
     {
      "title": "【大雨】青森市やむつ市 県道で土砂崩れや住宅浸水の被害",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de47889",
-     "pubDate": "Thu, 03 Sep 2026 07:22:39 +0900"
+     "pubDate": "Thu, 03 Sep 2026 08:50:36 +0900"
     },
     {
-     "title": "東北新幹線 運転見合わせ 那須塩原～盛岡の上下線",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47895",
-     "pubDate": "Thu, 03 Sep 2026 07:59:07 +0900"
+     "title": "【動画】気象予報士解説 広い範囲で大雨続くおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47893",
+     "pubDate": "Thu, 03 Sep 2026 08:36:48 +0900"
     },
     {
      "title": "高市首相 党役員人事と内閣改造 再来週にも踏み切るとの見方も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de47879",
-     "pubDate": "Thu, 03 Sep 2026 04:53:27 +0900"
+     "pubDate": "Thu, 03 Sep 2026 04:53:00 +0900"
     },
     {
      "title": "ネパール土石流 1200人以上死亡 首相は気候変動対策を訴え",
@@ -40,7 +35,12 @@
     {
      "title": "アメリカ中間選挙まで2か月 共和・民主の選挙戦さらに激しく",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de47876",
-     "pubDate": "Thu, 03 Sep 2026 05:40:03 +0900"
+     "pubDate": "Thu, 03 Sep 2026 05:40:00 +0900"
+    },
+    {
+     "title": "東北新幹線 運転を再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47895",
+     "pubDate": "Thu, 03 Sep 2026 08:56:30 +0900"
     }
    ]
   },
@@ -50,9 +50,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "東北新幹線 運転見合わせ 那須塩原～盛岡の上下線",
+     "title": "東北新幹線 運転を再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de47895",
-     "pubDate": "Thu, 03 Sep 2026 07:59:07 +0900"
+     "pubDate": "Thu, 03 Sep 2026 08:56:30 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（9月3日）",
@@ -209,6 +209,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "結婚式4人死亡 イラン“戦争犯罪” 米“攻撃準備できている”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47900",
+     "pubDate": "Thu, 03 Sep 2026 09:27:00 +0900"
+    },
+    {
+     "title": "“ロシア上空 安全ではない” ウクライナ外相がICAOに通告",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47898",
+     "pubDate": "Thu, 03 Sep 2026 08:25:00 +0900"
+    },
+    {
      "title": "FRB「多くの地区で経済活動拡大」物価大幅上昇の地区も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de47888",
      "pubDate": "Thu, 03 Sep 2026 07:00:44 +0900"
@@ -221,7 +231,7 @@
     {
      "title": "アメリカ中間選挙まで2か月 共和・民主の選挙戦さらに激しく",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de47876",
-     "pubDate": "Thu, 03 Sep 2026 05:40:03 +0900"
+     "pubDate": "Thu, 03 Sep 2026 05:40:00 +0900"
     },
     {
      "title": "ネパール土石流 1200人以上死亡 首相は気候変動対策を訴え",
@@ -272,16 +282,6 @@
      "title": "核兵器の使用や実験の被害者のための基金設立へ 初の国際会議",
      "link": "https://news.web.nhk/newsweb/na/nd-20260902de47754",
      "pubDate": "Wed, 02 Sep 2026 11:57:20 +0900"
-    },
-    {
-     "title": "プーチン大統領 日ロ関係悪化の責任 “100%日本にある”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47747",
-     "pubDate": "Wed, 02 Sep 2026 17:36:56 +0900"
-    },
-    {
-     "title": "長期金利3％超え 片山財務相「緊張感を持って対応」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47749",
-     "pubDate": "Wed, 02 Sep 2026 11:20:00 +0900"
     }
    ]
   },
@@ -291,44 +291,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風と秋雨前線 大雨長期化の恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6594040?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 21:29:11 GMT"
+     "title": "中道分裂へ 野党勢力の流動化必至",
+     "link": "https://news.yahoo.co.jp/pickup/6594053?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 23:28:10 GMT"
     },
     {
-     "title": "自民の鈴木幹事長続投へ 首相意向",
-     "link": "https://news.yahoo.co.jp/pickup/6594042?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 21:58:07 GMT"
+     "title": "青森県内で雨強まる 土砂災害警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6594055?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 23:41:07 GMT"
     },
     {
-     "title": "「匿流」スマホ遠隔解析へ 提言",
-     "link": "https://news.yahoo.co.jp/pickup/6594038?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 21:14:43 GMT"
+     "title": "米 イラン攻撃再開「長く続かず」",
+     "link": "https://news.yahoo.co.jp/pickup/6594051?source=rss",
+     "pubDate": "Wed, 02 Sep 2026 23:32:45 GMT"
     },
     {
-     "title": "ウーバー 世界従業員の1割削減へ",
-     "link": "https://news.yahoo.co.jp/pickup/6594050?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 22:57:20 GMT"
+     "title": "ミキサーに挟まれたか 男性死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6594065?source=rss",
+     "pubDate": "Thu, 03 Sep 2026 00:53:41 GMT"
     },
     {
-     "title": "大阪市「民泊」開業の規制強化へ",
-     "link": "https://news.yahoo.co.jp/pickup/6594043?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 22:20:19 GMT"
+     "title": "北海道のゴキブリ増 住環境向上で",
+     "link": "https://news.yahoo.co.jp/pickup/6594056?source=rss",
+     "pubDate": "Thu, 03 Sep 2026 00:01:03 GMT"
     },
     {
-     "title": "MF中村敬斗 仏強豪のリヨン加入",
-     "link": "https://news.yahoo.co.jp/pickup/6594037?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 21:05:23 GMT"
+     "title": "大谷 今季の投手復帰断念の可能性",
+     "link": "https://news.yahoo.co.jp/pickup/6594061?source=rss",
+     "pubDate": "Thu, 03 Sep 2026 00:29:02 GMT"
     },
     {
-     "title": "「VIVANT」絶叫台詞がミーム化",
-     "link": "https://news.yahoo.co.jp/pickup/6594044?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 22:19:28 GMT"
+     "title": "「DB超ビルス」10月から放送開始",
+     "link": "https://news.yahoo.co.jp/pickup/6594059?source=rss",
+     "pubDate": "Thu, 03 Sep 2026 00:25:47 GMT"
     },
     {
-     "title": "掲載写真に指6本指摘 週マガ声明",
-     "link": "https://news.yahoo.co.jp/pickup/6594035?source=rss",
-     "pubDate": "Wed, 02 Sep 2026 14:45:47 GMT"
+     "title": "加藤ローサ&大沢あかねWヒロイン",
+     "link": "https://news.yahoo.co.jp/pickup/6594058?source=rss",
+     "pubDate": "Thu, 03 Sep 2026 00:12:21 GMT"
     }
    ]
   }
