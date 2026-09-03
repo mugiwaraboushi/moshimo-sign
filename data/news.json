@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-03T21:09:50.719Z",
+ "updatedAt": "2026-09-03T23:21:30.674Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風と前線で各地に発達した雨雲 線状降水帯のおそれも",
+     "title": "台風と前線で西日本中心に発達した雨雲 線状降水帯のおそれも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de48057",
-     "pubDate": "Fri, 04 Sep 2026 06:04:48 +0900"
-    },
-    {
-     "title": "最低賃金引き上げ 国は中小企業などへの支援進める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de48045",
-     "pubDate": "Fri, 04 Sep 2026 03:45:39 +0900"
-    },
-    {
-     "title": "ネパール土石流 閉じこめの水力発電所に生存者か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48070",
-     "pubDate": "Fri, 04 Sep 2026 05:53:48 +0900"
+     "pubDate": "Fri, 04 Sep 2026 08:18:59 +0900"
     },
     {
      "title": "日本製紙八代工場 解体中の煙突火事 きょう現場検証",
@@ -28,14 +18,24 @@
      "pubDate": "Fri, 04 Sep 2026 05:10:00 +0900"
     },
     {
+     "title": "ネパール土石流 閉じこめの水力発電所に生存者か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48070",
+     "pubDate": "Fri, 04 Sep 2026 05:53:48 +0900"
+    },
+    {
+     "title": "最低賃金引き上げ 国は中小企業などへの支援進める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de48045",
+     "pubDate": "Fri, 04 Sep 2026 03:45:39 +0900"
+    },
+    {
      "title": "イグ・ノーベル賞で日本「鼻のかみ方」研究が医学賞を受賞",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48062",
      "pubDate": "Fri, 04 Sep 2026 03:09:00 +0900"
     },
     {
-     "title": "政権骨格維持へ 麻生氏、鈴木氏、木原氏は続投の見方",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de48053",
-     "pubDate": "Fri, 04 Sep 2026 04:59:34 +0900"
+     "title": "ゼレンスキー大統領「ロシア上空危険」 プーチン大統領が批判",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48068",
+     "pubDate": "Fri, 04 Sep 2026 06:21:02 +0900"
     },
     {
      "title": "ロンドン初の自動運転タクシー 東京でも年内に試験運行へ",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（9月4日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47995",
+     "pubDate": "Fri, 04 Sep 2026 06:31:50 +0900"
+    },
     {
      "title": "日本製紙八代工場 解体中の煙突火事 きょう現場検証",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48063",
@@ -118,11 +123,6 @@
      "title": "栃木 那須町長選挙 当選無効めぐる裁判始まる 県側は争う姿勢",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de47982",
      "pubDate": "Thu, 03 Sep 2026 16:26:00 +0900"
-    },
-    {
-     "title": "マッチングアプリ登録男性にうその投資話 詐欺疑いで5人逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47976",
-     "pubDate": "Thu, 03 Sep 2026 16:17:00 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ゼレンスキー大統領「ロシア上空危険」 プーチン大統領が批判",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48068",
+     "pubDate": "Fri, 04 Sep 2026 06:21:02 +0900"
+    },
+    {
+     "title": "米 製造業の人材強化へ 副大統領は中国念頭に危機感訴え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48066",
+     "pubDate": "Fri, 04 Sep 2026 06:17:44 +0900"
+    },
+    {
      "title": "ネパール土石流 閉じこめの水力発電所に生存者か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48070",
      "pubDate": "Fri, 04 Sep 2026 05:53:48 +0900"
@@ -277,16 +287,6 @@
      "title": "韓国政府 ソウルの約350の行政機関を移転へ 一極集中を是正",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de48025",
      "pubDate": "Thu, 03 Sep 2026 19:09:53 +0900"
-    },
-    {
-     "title": "ネパール土石流 1200人以上死亡 政府が早期警報システム整備へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47996",
-     "pubDate": "Thu, 03 Sep 2026 18:52:00 +0900"
-    },
-    {
-     "title": "米ベッセント財務長官 日銀利上げで円安改善と伝達 米報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47990",
-     "pubDate": "Thu, 03 Sep 2026 18:11:00 +0900"
     }
    ]
   },
@@ -296,19 +296,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "九州で記録的大雨の恐れ 厳重警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6594140?source=rss",
-     "pubDate": "Thu, 03 Sep 2026 13:56:35 GMT"
+     "title": "四国や九州 災害危険度高まる恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6594154?source=rss",
+     "pubDate": "Thu, 03 Sep 2026 22:21:47 GMT"
     },
     {
-     "title": "混雑状況を床投影 東京メトロ実証",
-     "link": "https://news.yahoo.co.jp/pickup/6594110?source=rss",
-     "pubDate": "Thu, 03 Sep 2026 08:03:44 GMT"
+     "title": "臨時国会 10月上旬に召集で調整",
+     "link": "https://news.yahoo.co.jp/pickup/6594153?source=rss",
+     "pubDate": "Thu, 03 Sep 2026 22:16:03 GMT"
     },
     {
-     "title": "あべちか強殺未遂事件 容疑者逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6594134?source=rss",
-     "pubDate": "Thu, 03 Sep 2026 12:10:39 GMT"
+     "title": "内閣改造 片山さつき財務相留任へ",
+     "link": "https://news.yahoo.co.jp/pickup/6594150?source=rss",
+     "pubDate": "Thu, 03 Sep 2026 21:27:22 GMT"
     },
     {
      "title": "日本製紙八代工場の火災鎮火",
@@ -316,24 +316,24 @@
      "pubDate": "Thu, 03 Sep 2026 21:06:25 GMT"
     },
     {
-     "title": "麻布十番まつりで食中毒 店主謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6594127?source=rss",
-     "pubDate": "Thu, 03 Sep 2026 10:29:09 GMT"
+     "title": "あべちか強殺未遂事件 容疑者逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6594134?source=rss",
+     "pubDate": "Thu, 03 Sep 2026 12:10:39 GMT"
     },
     {
-     "title": "大和ハウス 一戸建ての部門再編へ",
-     "link": "https://news.yahoo.co.jp/pickup/6594146?source=rss",
-     "pubDate": "Thu, 03 Sep 2026 14:16:21 GMT"
+     "title": "大谷翔平 31試合ぶりスタメン外",
+     "link": "https://news.yahoo.co.jp/pickup/6594155?source=rss",
+     "pubDate": "Thu, 03 Sep 2026 22:30:48 GMT"
     },
     {
-     "title": "HYBE創業者を書類送検 韓国警察",
-     "link": "https://news.yahoo.co.jp/pickup/6594102?source=rss",
-     "pubDate": "Thu, 03 Sep 2026 06:57:31 GMT"
+     "title": "上田綺世 新天地でいきなりゴール",
+     "link": "https://news.yahoo.co.jp/pickup/6594152?source=rss",
+     "pubDate": "Thu, 03 Sep 2026 21:55:03 GMT"
     },
     {
-     "title": "誠お兄さん なぜ順大の特任助教に",
-     "link": "https://news.yahoo.co.jp/pickup/6594147?source=rss",
-     "pubDate": "Thu, 03 Sep 2026 14:56:48 GMT"
+     "title": "松下奈緒主演 ドクターX看護師役",
+     "link": "https://news.yahoo.co.jp/pickup/6594149?source=rss",
+     "pubDate": "Thu, 03 Sep 2026 21:18:18 GMT"
     }
    ]
   }
