@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-04T18:30:03.785Z",
+ "updatedAt": "2026-09-04T20:55:42.112Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "鹿児島 種子島・屋久島地方に「線状降水帯発生」発表 厳重警戒",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48257",
-     "pubDate": "Sat, 05 Sep 2026 03:01:00 +0900"
+     "title": "鹿児島 屋久島町に土砂災害特別警報 命が助かる行動を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48258",
+     "pubDate": "Sat, 05 Sep 2026 05:47:38 +0900"
+    },
+    {
+     "title": "気象庁 午前6時10分から会見へ 屋久島町に土砂災害特別警報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48264",
+     "pubDate": "Sat, 05 Sep 2026 05:29:04 +0900"
+    },
+    {
+     "title": "インドネシア付近で大規模噴火 日本への津波の有無調査 気象庁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48261",
+     "pubDate": "Sat, 05 Sep 2026 04:15:00 +0900"
     },
     {
      "title": "【動画】鹿児島 屋久島町で横殴りの激しい雨",
@@ -28,19 +38,9 @@
      "pubDate": "Fri, 04 Sep 2026 19:31:59 +0900"
     },
     {
-     "title": "インフルエンザ患者数 前週比1.6倍に増加“基本的な対策を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48171",
-     "pubDate": "Fri, 04 Sep 2026 19:54:54 +0900"
-    },
-    {
-     "title": "ネパール土石流 633人が死亡 二次災害のリスクを警戒",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47121",
-     "pubDate": "Fri, 04 Sep 2026 22:22:14 +0900"
-    },
-    {
-     "title": "【動画】ネパール土石流 2人救助 発災から9日後 その瞬間",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48070",
-     "pubDate": "Fri, 04 Sep 2026 21:59:27 +0900"
+     "title": "米メディア“イランの結婚式攻撃の爆弾は米軍のもの”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48250",
+     "pubDate": "Sat, 05 Sep 2026 05:43:44 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米メディア“イランの結婚式攻撃の爆弾は米軍のもの”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48250",
+     "pubDate": "Sat, 05 Sep 2026 05:43:44 +0900"
+    },
+    {
      "title": "円相場 荒い値動き続く FRB 日銀の利上げ観測や介入警戒で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48256",
      "pubDate": "Sat, 05 Sep 2026 02:12:40 +0900"
@@ -282,11 +287,6 @@
      "title": "【動画】ネパール土石流 2人救助 発災から9日後 その瞬間",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48070",
      "pubDate": "Fri, 04 Sep 2026 21:59:27 +0900"
-    },
-    {
-     "title": "色丹島にインドネシア人 北方領土で受け入れ進む外国人労働者",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de48059",
-     "pubDate": "Fri, 04 Sep 2026 05:24:27 +0900"
     }
    ]
   },
@@ -296,6 +296,16 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "屋久島町に土砂災害特別警報",
+     "link": "https://news.yahoo.co.jp/pickup/6594245?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 20:26:34 GMT"
+    },
+    {
+     "title": "屋久島町に特別警報 最新情報",
+     "link": "https://news.yahoo.co.jp/pickup/6594246?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 20:44:31 GMT"
+    },
+    {
      "title": "関東～九州 大雨の終わり見えず",
      "link": "https://news.yahoo.co.jp/pickup/6594240?source=rss",
      "pubDate": "Fri, 04 Sep 2026 13:55:37 GMT"
@@ -304,16 +314,6 @@
      "title": "米8月雇用16.2万人増 予想上回る",
      "link": "https://news.yahoo.co.jp/pickup/6594237?source=rss",
      "pubDate": "Fri, 04 Sep 2026 13:21:22 GMT"
-    },
-    {
-     "title": "24年の体外受精児8万6473人 最多",
-     "link": "https://news.yahoo.co.jp/pickup/6594216?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 08:14:52 GMT"
-    },
-    {
-     "title": "家事支援の国家資格化 懸念の声も",
-     "link": "https://news.yahoo.co.jp/pickup/6594232?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 12:32:11 GMT"
     },
     {
      "title": "濁流で両親死亡 遺品は朱印帳だけ",
