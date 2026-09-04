@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-04T20:55:42.112Z",
+ "updatedAt": "2026-09-04T22:36:43.998Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "鹿児島 屋久島町に土砂災害特別警報 命が助かる行動を",
+     "title": "鹿児島 屋久島町にレベル5土砂災害特別警報 命が助かる行動を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48258",
-     "pubDate": "Sat, 05 Sep 2026 05:47:38 +0900"
+     "pubDate": "Sat, 05 Sep 2026 07:28:46 +0900"
     },
     {
-     "title": "気象庁 午前6時10分から会見へ 屋久島町に土砂災害特別警報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48264",
-     "pubDate": "Sat, 05 Sep 2026 05:29:04 +0900"
+     "title": "台風24号と秋雨前線の影響で大気不安定 今後の進路 見通しは",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48255",
+     "pubDate": "Sat, 05 Sep 2026 07:33:27 +0900"
     },
     {
-     "title": "インドネシア付近で大規模噴火 日本への津波の有無調査 気象庁",
+     "title": "インドネシア大規模噴火 現時点で目立った潮位変化観測されず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48261",
-     "pubDate": "Sat, 05 Sep 2026 04:15:00 +0900"
+     "pubDate": "Sat, 05 Sep 2026 07:21:48 +0900"
     },
     {
-     "title": "【動画】鹿児島 屋久島町で横殴りの激しい雨",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48238",
-     "pubDate": "Fri, 04 Sep 2026 23:57:38 +0900"
+     "title": "【特別警報】気象庁が記者会見「直ちに身の安全確保して」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48264",
+     "pubDate": "Sat, 05 Sep 2026 07:18:45 +0900"
     },
     {
      "title": "JR首都圏在来線 6日夜から7日にかけて運休や遅れの可能性",
@@ -33,14 +33,14 @@
      "pubDate": "Fri, 04 Sep 2026 21:06:33 +0900"
     },
     {
-     "title": "【気象予報士解説】今後の大雨の見通しは？",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48213",
-     "pubDate": "Fri, 04 Sep 2026 19:31:59 +0900"
+     "title": "政府 消費税減税 地方減収分は特例交付金で全額補てん検討",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48253",
+     "pubDate": "Sat, 05 Sep 2026 06:25:41 +0900"
     },
     {
-     "title": "米メディア“イランの結婚式攻撃の爆弾は米軍のもの”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48250",
-     "pubDate": "Sat, 05 Sep 2026 05:43:44 +0900"
+     "title": "ネパール土石流 発電所で2人救助 政府は優先的に捜索の考え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48262",
+     "pubDate": "Sat, 05 Sep 2026 06:46:05 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（9月5日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48222",
+     "pubDate": "Sat, 05 Sep 2026 06:39:09 +0900"
+    },
     {
      "title": "奈良 「神のお取次者」名乗る被告 監禁などの起訴内容認める",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48244",
@@ -118,11 +123,6 @@
      "title": "東京 足立区 不審火6件相次ぎ1人けが",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48205",
      "pubDate": "Fri, 04 Sep 2026 18:26:32 +0900"
-    },
-    {
-     "title": "全東信 2017年度決算「適正か判断できず」趣旨の監査報告書も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48148",
-     "pubDate": "Fri, 04 Sep 2026 18:00:00 +0900"
     }
    ]
   },
@@ -214,6 +214,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米財務省 イラン経済制裁でトルコの投資銀行を制裁対象に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48266",
+     "pubDate": "Sat, 05 Sep 2026 07:25:09 +0900"
+    },
+    {
+     "title": "ロシア極東 菊の紋章破壊する表現の記念碑設置 日本は撤去要求",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48260",
+     "pubDate": "Sat, 05 Sep 2026 07:16:14 +0900"
+    },
+    {
+     "title": "ネパール土石流 発電所で2人救助 政府は優先的に捜索の考え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48262",
+     "pubDate": "Sat, 05 Sep 2026 06:46:05 +0900"
+    },
+    {
      "title": "米メディア“イランの結婚式攻撃の爆弾は米軍のもの”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48250",
      "pubDate": "Sat, 05 Sep 2026 05:43:44 +0900"
@@ -221,7 +236,7 @@
     {
      "title": "円相場 荒い値動き続く FRB 日銀の利上げ観測や介入警戒で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48256",
-     "pubDate": "Sat, 05 Sep 2026 02:12:40 +0900"
+     "pubDate": "Sat, 05 Sep 2026 07:35:17 +0900"
     },
     {
      "title": "フォルクスワーゲン 従業員５万人追加削減の改革案公表",
@@ -272,21 +287,6 @@
      "title": "イランメディア「米攻撃による犠牲者の葬儀」大きく報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48080",
      "pubDate": "Fri, 04 Sep 2026 11:12:35 +0900"
-    },
-    {
-     "title": "ゼレンスキー大統領「ロシア上空危険」 プーチン大統領が批判",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48068",
-     "pubDate": "Fri, 04 Sep 2026 06:21:02 +0900"
-    },
-    {
-     "title": "米 製造業の人材強化へ 副大統領は中国念頭に危機感訴え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48066",
-     "pubDate": "Fri, 04 Sep 2026 06:17:44 +0900"
-    },
-    {
-     "title": "【動画】ネパール土石流 2人救助 発災から9日後 その瞬間",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48070",
-     "pubDate": "Fri, 04 Sep 2026 21:59:27 +0900"
     }
    ]
   },
@@ -296,24 +296,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "屋久島町に土砂災害特別警報",
-     "link": "https://news.yahoo.co.jp/pickup/6594245?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 20:26:34 GMT"
-    },
-    {
      "title": "屋久島町に特別警報 最新情報",
-     "link": "https://news.yahoo.co.jp/pickup/6594246?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 20:44:31 GMT"
+     "link": "https://news.yahoo.co.jp/pickup/6594249?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 21:38:10 GMT"
     },
     {
-     "title": "関東～九州 大雨の終わり見えず",
-     "link": "https://news.yahoo.co.jp/pickup/6594240?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 13:55:37 GMT"
+     "title": "茂木外相留任へ 外交の継続性重視",
+     "link": "https://news.yahoo.co.jp/pickup/6594255?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 22:26:29 GMT"
     },
     {
-     "title": "米8月雇用16.2万人増 予想上回る",
-     "link": "https://news.yahoo.co.jp/pickup/6594237?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 13:21:22 GMT"
+     "title": "インドネシアの火山で大規模噴火",
+     "link": "https://news.yahoo.co.jp/pickup/6594248?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 21:14:20 GMT"
+    },
+    {
+     "title": "生後2カ月を殺害疑い 18歳男逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6594251?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 22:16:29 GMT"
     },
     {
      "title": "濁流で両親死亡 遺品は朱印帳だけ",
@@ -321,19 +321,19 @@
      "pubDate": "Fri, 04 Sep 2026 13:59:27 GMT"
     },
     {
+     "title": "セブンがアパレルに本格参入 なぜ",
+     "link": "https://news.yahoo.co.jp/pickup/6594250?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 22:02:44 GMT"
+    },
+    {
      "title": "異例 任天堂2日連続新情報発表へ",
      "link": "https://news.yahoo.co.jp/pickup/6594243?source=rss",
      "pubDate": "Fri, 04 Sep 2026 14:44:15 GMT"
     },
     {
-     "title": "バレー男子 薄氷の白星スタート",
-     "link": "https://news.yahoo.co.jp/pickup/6594238?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 13:26:46 GMT"
-    },
-    {
-     "title": "フィギュア 中井亜美SP首位発進",
-     "link": "https://news.yahoo.co.jp/pickup/6594235?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 12:44:22 GMT"
+     "title": "物議の水ダウ ラーメン評論家苦言",
+     "link": "https://news.yahoo.co.jp/pickup/6594253?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 22:18:16 GMT"
     }
    ]
   }
