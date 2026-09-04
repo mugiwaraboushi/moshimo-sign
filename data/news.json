@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-03T23:21:30.674Z",
+ "updatedAt": "2026-09-04T01:05:48.476Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,12 +10,12 @@
     {
      "title": "台風と前線で西日本中心に発達した雨雲 線状降水帯のおそれも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de48057",
-     "pubDate": "Fri, 04 Sep 2026 08:18:59 +0900"
+     "pubDate": "Fri, 04 Sep 2026 09:56:00 +0900"
     },
     {
-     "title": "日本製紙八代工場 解体中の煙突火事 きょう現場検証",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48063",
-     "pubDate": "Fri, 04 Sep 2026 05:10:00 +0900"
+     "title": "7月家計調査 実質の消費支出8か月連続減少",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48082",
+     "pubDate": "Fri, 04 Sep 2026 09:19:38 +0900"
     },
     {
      "title": "ネパール土石流 閉じこめの水力発電所に生存者か",
@@ -23,9 +23,9 @@
      "pubDate": "Fri, 04 Sep 2026 05:53:48 +0900"
     },
     {
-     "title": "最低賃金引き上げ 国は中小企業などへの支援進める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de48045",
-     "pubDate": "Fri, 04 Sep 2026 03:45:39 +0900"
+     "title": "イランメディア「米攻撃による犠牲者の葬儀」大きく報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48080",
+     "pubDate": "Fri, 04 Sep 2026 09:22:34 +0900"
     },
     {
      "title": "イグ・ノーベル賞で日本「鼻のかみ方」研究が医学賞を受賞",
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "イランメディア「米攻撃による犠牲者の葬儀」大きく報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48080",
+     "pubDate": "Fri, 04 Sep 2026 09:22:34 +0900"
+    },
+    {
      "title": "ゼレンスキー大統領「ロシア上空危険」 プーチン大統領が批判",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48068",
      "pubDate": "Fri, 04 Sep 2026 06:21:02 +0900"
@@ -282,11 +287,6 @@
      "title": "茂木外相「モンゴルの自律性などの強化を支援」大統領と会談",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de48040",
      "pubDate": "Thu, 03 Sep 2026 20:24:36 +0900"
-    },
-    {
-     "title": "韓国政府 ソウルの約350の行政機関を移転へ 一極集中を是正",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de48025",
-     "pubDate": "Thu, 03 Sep 2026 19:09:53 +0900"
     }
    ]
   },
@@ -301,39 +301,39 @@
      "pubDate": "Thu, 03 Sep 2026 22:21:47 GMT"
     },
     {
-     "title": "臨時国会 10月上旬に召集で調整",
-     "link": "https://news.yahoo.co.jp/pickup/6594153?source=rss",
-     "pubDate": "Thu, 03 Sep 2026 22:16:03 GMT"
+     "title": "米中間選挙 共和牙城で異例の接戦",
+     "link": "https://news.yahoo.co.jp/pickup/6594166?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 00:14:21 GMT"
     },
     {
-     "title": "内閣改造 片山さつき財務相留任へ",
-     "link": "https://news.yahoo.co.jp/pickup/6594150?source=rss",
-     "pubDate": "Thu, 03 Sep 2026 21:27:22 GMT"
+     "title": "闇サイト殺人 娘が伝えたウソ番号",
+     "link": "https://news.yahoo.co.jp/pickup/6594164?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 00:24:59 GMT"
     },
     {
-     "title": "日本製紙八代工場の火災鎮火",
-     "link": "https://news.yahoo.co.jp/pickup/6594148?source=rss",
-     "pubDate": "Thu, 03 Sep 2026 21:06:25 GMT"
+     "title": "GPT-6発表 人間の監‌視を回避も",
+     "link": "https://news.yahoo.co.jp/pickup/6594163?source=rss",
+     "pubDate": "Thu, 03 Sep 2026 23:40:44 GMT"
     },
     {
-     "title": "あべちか強殺未遂事件 容疑者逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6594134?source=rss",
-     "pubDate": "Thu, 03 Sep 2026 12:10:39 GMT"
+     "title": "「鼻のかみ方」イグ・ノーベル賞",
+     "link": "https://news.yahoo.co.jp/pickup/6594169?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 00:49:06 GMT"
     },
     {
-     "title": "大谷翔平 31試合ぶりスタメン外",
-     "link": "https://news.yahoo.co.jp/pickup/6594155?source=rss",
-     "pubDate": "Thu, 03 Sep 2026 22:30:48 GMT"
+     "title": "遠藤航CLメンバー外 厳しい現実",
+     "link": "https://news.yahoo.co.jp/pickup/6594170?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 00:49:14 GMT"
     },
     {
-     "title": "上田綺世 新天地でいきなりゴール",
-     "link": "https://news.yahoo.co.jp/pickup/6594152?source=rss",
-     "pubDate": "Thu, 03 Sep 2026 21:55:03 GMT"
+     "title": "大谷翔平の首に違和感 監督明かす",
+     "link": "https://news.yahoo.co.jp/pickup/6594168?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 00:32:12 GMT"
     },
     {
-     "title": "松下奈緒主演 ドクターX看護師役",
-     "link": "https://news.yahoo.co.jp/pickup/6594149?source=rss",
-     "pubDate": "Thu, 03 Sep 2026 21:18:18 GMT"
+     "title": "不倫より残酷?Tシャツが乾くまで",
+     "link": "https://news.yahoo.co.jp/pickup/6594165?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 00:10:46 GMT"
     }
    ]
   }
