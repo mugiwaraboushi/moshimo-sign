@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-04T11:30:29.341Z",
+ "updatedAt": "2026-09-04T15:13:40.840Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "鹿児島 種子島・屋久島地方 「線状降水帯直前予測」発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48227",
-     "pubDate": "Fri, 04 Sep 2026 20:26:07 +0900"
-    },
-    {
-     "title": "鹿児島 屋久島町付近で「記録的短時間大雨」災害の危険迫る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48217",
-     "pubDate": "Fri, 04 Sep 2026 19:48:00 +0900"
-    },
-    {
-     "title": "台風や前線 九州南部は大雨 関東ほか7日にかけ大雨か【中継】",
+     "title": "鹿児島 種子島・屋久島地方で線状降水帯発生 厳重警戒【中継】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de48057",
-     "pubDate": "Fri, 04 Sep 2026 20:01:25 +0900"
+     "pubDate": "Fri, 04 Sep 2026 23:55:49 +0900"
     },
     {
-     "title": "インフルエンザ患者数 前週比1.6倍に増加“基本的な対策を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48171",
-     "pubDate": "Fri, 04 Sep 2026 19:54:54 +0900"
+     "title": "【動画】鹿児島 屋久島町で横殴りの激しい雨",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48238",
+     "pubDate": "Fri, 04 Sep 2026 23:57:38 +0900"
+    },
+    {
+     "title": "JR首都圏在来線 6日夜から7日にかけて運休や遅れの可能性",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48221",
+     "pubDate": "Fri, 04 Sep 2026 21:06:33 +0900"
     },
     {
      "title": "【気象予報士解説】今後の大雨の見通しは？",
@@ -33,14 +28,19 @@
      "pubDate": "Fri, 04 Sep 2026 19:31:59 +0900"
     },
     {
-     "title": "【動画】ネパール土石流 2人救助 発災から9日後 その瞬間",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48070",
-     "pubDate": "Fri, 04 Sep 2026 19:53:00 +0900"
+     "title": "インフルエンザ患者数 前週比1.6倍に増加“基本的な対策を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48171",
+     "pubDate": "Fri, 04 Sep 2026 19:54:54 +0900"
     },
     {
-     "title": "ニデック 品質不正で調査委員会が報告書 会社が会見",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48126",
-     "pubDate": "Fri, 04 Sep 2026 19:38:43 +0900"
+     "title": "ネパール土石流 633人が死亡 二次災害のリスクを警戒",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260829de47121",
+     "pubDate": "Fri, 04 Sep 2026 22:22:14 +0900"
+    },
+    {
+     "title": "【動画】ネパール土石流 2人救助 発災から9日後 その瞬間",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48070",
+     "pubDate": "Fri, 04 Sep 2026 21:59:27 +0900"
     }
    ]
   },
@@ -49,6 +49,26 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "奈良 「神のお取次者」名乗る被告 監禁などの起訴内容認める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48244",
+     "pubDate": "Fri, 04 Sep 2026 22:55:53 +0900"
+    },
+    {
+     "title": "松本文科相 福島大 動画「尊厳傷つける言動あってはならない」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48247",
+     "pubDate": "Fri, 04 Sep 2026 22:53:11 +0900"
+    },
+    {
+     "title": "JR首都圏在来線 6日夜から7日にかけて運休や遅れの可能性",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48221",
+     "pubDate": "Fri, 04 Sep 2026 21:06:33 +0900"
+    },
+    {
+     "title": "静岡 牧之原 通園バス置き去り4年 父親「今もずっと後悔」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48223",
+     "pubDate": "Fri, 04 Sep 2026 20:49:52 +0900"
+    },
     {
      "title": "「第3号被保険者制度」対象縮小に向け課題整理へ 厚労省検討会",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48208",
@@ -87,7 +107,7 @@
     {
      "title": "証言「トクリュウに関わりそうに」 “身近な存在”からの誘い",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48185",
-     "pubDate": "Fri, 04 Sep 2026 18:49:10 +0900"
+     "pubDate": "Fri, 04 Sep 2026 18:49:00 +0900"
     },
     {
      "title": "秋の連休 新幹線の混雑ピーク 下り19日・上り22日の見通し",
@@ -103,26 +123,6 @@
      "title": "全東信 2017年度決算「適正か判断できず」趣旨の監査報告書も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48148",
      "pubDate": "Fri, 04 Sep 2026 18:00:00 +0900"
-    },
-    {
-     "title": "インフルエンザ 厚労省 定期接種の前倒し可能を自治体に周知",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48189",
-     "pubDate": "Fri, 04 Sep 2026 17:36:00 +0900"
-    },
-    {
-     "title": "青森 弘前 大雨でJAが農作物の被害調査 収穫直前の稲折れる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48181",
-     "pubDate": "Fri, 04 Sep 2026 17:34:00 +0900"
-    },
-    {
-     "title": "富山 氷見 大雨で浸水被害の家屋の掃除に使う消毒液配布",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48155",
-     "pubDate": "Fri, 04 Sep 2026 16:18:43 +0900"
-    },
-    {
-     "title": "千葉 市原のイオンタウンでガス漏れ 全員避難し無事",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48168",
-     "pubDate": "Fri, 04 Sep 2026 17:54:52 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "フォルクスワーゲン 従業員５万人追加削減の改革案公表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48234",
+     "pubDate": "Fri, 04 Sep 2026 22:20:00 +0900"
+    },
+    {
+     "title": "米雇用統計 8月の就業者は前月比増加 市場予想を大きく上回る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48240",
+     "pubDate": "Fri, 04 Sep 2026 23:43:36 +0900"
+    },
+    {
      "title": "国連の報告書 パリ協定の気温1.5度超の長期化に警鐘",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48188",
      "pubDate": "Fri, 04 Sep 2026 17:39:00 +0900"
@@ -266,7 +276,7 @@
     {
      "title": "【動画】ネパール土石流 2人救助 発災から9日後 その瞬間",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48070",
-     "pubDate": "Fri, 04 Sep 2026 19:53:00 +0900"
+     "pubDate": "Fri, 04 Sep 2026 21:59:27 +0900"
     },
     {
      "title": "色丹島にインドネシア人 北方領土で受け入れ進む外国人労働者",
@@ -277,16 +287,6 @@
      "title": "ロンドン初の自動運転タクシー 東京でも年内に試験運行へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48065",
      "pubDate": "Fri, 04 Sep 2026 05:16:50 +0900"
-    },
-    {
-     "title": "ネパール土石流災害で日本の警察が検視部隊派遣",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48064",
-     "pubDate": "Fri, 04 Sep 2026 05:02:00 +0900"
-    },
-    {
-     "title": "WMO「エルニーニョ来年2月まで 洪水などリスク高まる」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48061",
-     "pubDate": "Fri, 04 Sep 2026 03:26:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "大雨 週明けにかけ関東など拡大か",
-     "link": "https://news.yahoo.co.jp/pickup/6594228?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 10:15:06 GMT"
+     "title": "関東～九州 大雨の終わり見えず",
+     "link": "https://news.yahoo.co.jp/pickup/6594240?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 13:55:37 GMT"
     },
     {
-     "title": "宮崎で大雨 倒木や冠水など影響",
-     "link": "https://news.yahoo.co.jp/pickup/6594227?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 09:58:15 GMT"
+     "title": "米8月雇用16.2万人増 予想上回る",
+     "link": "https://news.yahoo.co.jp/pickup/6594237?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 13:21:22 GMT"
     },
     {
-     "title": "伊メローニ首相 異例の安定政権",
-     "link": "https://news.yahoo.co.jp/pickup/6594219?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 08:27:57 GMT"
+     "title": "24年の体外受精児8万6473人 最多",
+     "link": "https://news.yahoo.co.jp/pickup/6594216?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 08:14:52 GMT"
     },
     {
-     "title": "アルファード中古価格が下落 なぜ",
-     "link": "https://news.yahoo.co.jp/pickup/6594222?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 09:15:12 GMT"
+     "title": "家事支援の国家資格化 懸念の声も",
+     "link": "https://news.yahoo.co.jp/pickup/6594232?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 12:32:11 GMT"
     },
     {
-     "title": "川にコンクリ製の工作物 無断設置",
-     "link": "https://news.yahoo.co.jp/pickup/6594229?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 10:47:26 GMT"
+     "title": "濁流で両親死亡 遺品は朱印帳だけ",
+     "link": "https://news.yahoo.co.jp/pickup/6594241?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 13:59:27 GMT"
     },
     {
-     "title": "側溝の中で声 落ちた男児を救助",
-     "link": "https://news.yahoo.co.jp/pickup/6594226?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 09:51:02 GMT"
+     "title": "異例 任天堂2日連続新情報発表へ",
+     "link": "https://news.yahoo.co.jp/pickup/6594243?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 14:44:15 GMT"
     },
     {
-     "title": "俳優・青砥洋さん死去 84歳",
-     "link": "https://news.yahoo.co.jp/pickup/6594224?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 09:14:37 GMT"
+     "title": "バレー男子 薄氷の白星スタート",
+     "link": "https://news.yahoo.co.jp/pickup/6594238?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 13:26:46 GMT"
     },
     {
-     "title": "バナナサンド 2人休養も影響なし",
-     "link": "https://news.yahoo.co.jp/pickup/6594221?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 08:52:03 GMT"
+     "title": "フィギュア 中井亜美SP首位発進",
+     "link": "https://news.yahoo.co.jp/pickup/6594235?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 12:44:22 GMT"
     }
    ]
   }
