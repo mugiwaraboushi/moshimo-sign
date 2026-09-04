@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-04T15:13:40.840Z",
+ "updatedAt": "2026-09-04T18:30:03.785Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "鹿児島 種子島・屋久島地方で線状降水帯発生 厳重警戒【中継】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de48057",
-     "pubDate": "Fri, 04 Sep 2026 23:55:49 +0900"
+     "title": "鹿児島 種子島・屋久島地方に「線状降水帯発生」発表 厳重警戒",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48257",
+     "pubDate": "Sat, 05 Sep 2026 03:01:00 +0900"
     },
     {
      "title": "【動画】鹿児島 屋久島町で横殴りの激しい雨",
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "円相場 荒い値動き続く FRB 日銀の利上げ観測や介入警戒で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48256",
+     "pubDate": "Sat, 05 Sep 2026 02:12:40 +0900"
+    },
+    {
      "title": "フォルクスワーゲン 従業員５万人追加削減の改革案公表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48234",
      "pubDate": "Fri, 04 Sep 2026 22:20:00 +0900"
@@ -221,7 +226,7 @@
     {
      "title": "米雇用統計 8月の就業者は前月比増加 市場予想を大きく上回る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48240",
-     "pubDate": "Fri, 04 Sep 2026 23:43:36 +0900"
+     "pubDate": "Sat, 05 Sep 2026 00:41:53 +0900"
     },
     {
      "title": "国連の報告書 パリ協定の気温1.5度超の長期化に警鐘",
@@ -282,11 +287,6 @@
      "title": "色丹島にインドネシア人 北方領土で受け入れ進む外国人労働者",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de48059",
      "pubDate": "Fri, 04 Sep 2026 05:24:27 +0900"
-    },
-    {
-     "title": "ロンドン初の自動運転タクシー 東京でも年内に試験運行へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48065",
-     "pubDate": "Fri, 04 Sep 2026 05:16:50 +0900"
     }
    ]
   },
