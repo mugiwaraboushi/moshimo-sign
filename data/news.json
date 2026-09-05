@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-05T19:09:32.464Z",
+ "updatedAt": "2026-09-05T21:23:57.911Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風24号 鹿児島 奄美地方で線状降水帯 6日以降は広範囲で大雨",
+     "title": "九州～東北の太平洋側中心に大雨 10日まで続くおそれも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48377",
-     "pubDate": "Sun, 06 Sep 2026 00:51:21 +0900"
+     "pubDate": "Sun, 06 Sep 2026 05:02:00 +0900"
+    },
+    {
+     "title": "岐阜の洋菓子店で火事 2人死亡3人搬送 事件巻き込まれたか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48383",
+     "pubDate": "Sun, 06 Sep 2026 04:18:46 +0900"
+    },
+    {
+     "title": "JR首都圏在来線 6日夜から7日にかけて運休や遅れの可能性",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48221",
+     "pubDate": "Sun, 06 Sep 2026 05:31:00 +0900"
     },
     {
      "title": "悠仁さま 20歳の誕生日",
@@ -18,29 +28,19 @@
      "pubDate": "Sun, 06 Sep 2026 00:00:40 +0900"
     },
     {
+     "title": "国民民主党代表選 6日 投開票 新代表を選出へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48378",
+     "pubDate": "Sun, 06 Sep 2026 05:33:18 +0900"
+    },
+    {
+     "title": "ドイツ州議会選挙投票へ 「極右」政党が第1党か 抗議デモも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48382",
+     "pubDate": "Sun, 06 Sep 2026 06:06:50 +0900"
+    },
+    {
      "title": "内閣改造 片山財務相 茂木外相 小泉防衛相 留任の方向で調整",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48338",
      "pubDate": "Sat, 05 Sep 2026 21:17:34 +0900"
-    },
-    {
-     "title": "鹿児島 奄美地方「線状降水帯発生」気象庁発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48347",
-     "pubDate": "Sat, 05 Sep 2026 20:06:00 +0900"
-    },
-    {
-     "title": "ネパール土石流 トンネルからさらに1人救助 住宅から女性1人も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48334",
-     "pubDate": "Sat, 05 Sep 2026 22:23:44 +0900"
-    },
-    {
-     "title": "長期金利上昇 私たちの暮らしや経済への影響は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48324",
-     "pubDate": "Sat, 05 Sep 2026 20:09:00 +0900"
-    },
-    {
-     "title": "自民党福岡県連 松本会長が辞意表明 県連で金銭授受調査へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48351",
-     "pubDate": "Sat, 05 Sep 2026 19:14:23 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "岐阜の洋菓子店で火事 2人死亡3人搬送 事件巻き込まれたか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48383",
+     "pubDate": "Sun, 06 Sep 2026 04:18:46 +0900"
+    },
     {
      "title": "悠仁さま 20歳の誕生日",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48356",
@@ -97,7 +102,7 @@
     {
      "title": "JR首都圏在来線 6日夜から7日にかけて運休や遅れの可能性",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48221",
-     "pubDate": "Sat, 05 Sep 2026 17:45:39 +0900"
+     "pubDate": "Sun, 06 Sep 2026 05:31:00 +0900"
     },
     {
      "title": "静岡 牧之原 通園バス置き去り4年 父親「今もずっと後悔」",
@@ -118,11 +123,6 @@
      "title": "秋の連休 高速道路渋滞 ピークは下り19日20日 上り21日22日か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48190",
      "pubDate": "Fri, 04 Sep 2026 19:40:46 +0900"
-    },
-    {
-     "title": "路上でスカウト行為した疑い逮捕 3000人に声かけたか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48203",
-     "pubDate": "Fri, 04 Sep 2026 19:39:00 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ドイツ州議会選挙投票へ 「極右」政党が第1党か 抗議デモも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48382",
+     "pubDate": "Sun, 06 Sep 2026 06:06:50 +0900"
+    },
+    {
+     "title": "イギリスで支持伸ばす右派政党“政権とれば不法移民止める”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48375",
+     "pubDate": "Sun, 06 Sep 2026 05:55:10 +0900"
+    },
+    {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月5日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de46973",
      "pubDate": "Sat, 05 Sep 2026 21:09:44 +0900"
@@ -277,16 +287,6 @@
      "title": "訪米中の赤澤経産相 関税措置めぐり“去年の日米合意は不変”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48275",
      "pubDate": "Sat, 05 Sep 2026 09:08:00 +0900"
-    },
-    {
-     "title": "無人機がウクライナ情報機関を直撃 12人けが",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48259",
-     "pubDate": "Sat, 05 Sep 2026 08:54:24 +0900"
-    },
-    {
-     "title": "国連総会“メルカトル図法ではない図法を推奨”決議を採択",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48269",
-     "pubDate": "Sat, 05 Sep 2026 07:55:00 +0900"
     }
    ]
   },
@@ -311,14 +311,14 @@
      "pubDate": "Sat, 05 Sep 2026 10:29:58 GMT"
     },
     {
+     "title": "ケーキ店で放火か 2人死亡3人搬送",
+     "link": "https://news.yahoo.co.jp/pickup/6594367?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 21:08:16 GMT"
+    },
+    {
      "title": "悠仁さま20歳 成年皇族の歩み進め",
      "link": "https://news.yahoo.co.jp/pickup/6594366?source=rss",
      "pubDate": "Sat, 05 Sep 2026 15:30:05 GMT"
-    },
-    {
-     "title": "ケーキ店火災で3人搬送 岐阜",
-     "link": "https://news.yahoo.co.jp/pickup/6594364?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 14:48:00 GMT"
     },
     {
      "title": "ベルトコンベアに巻き込まれ 重体",
