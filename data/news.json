@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-05T21:23:57.911Z",
+ "updatedAt": "2026-09-05T23:02:02.380Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "九州～東北の太平洋側中心に大雨 10日まで続くおそれも",
+     "title": "東京 伊豆諸島南部に「線状降水帯直前予測」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48395",
+     "pubDate": "Sun, 06 Sep 2026 07:17:30 +0900"
+    },
+    {
+     "title": "西日本～東北の太平洋側中心に大雨 10日まで続くおそれも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48377",
-     "pubDate": "Sun, 06 Sep 2026 05:02:00 +0900"
+     "pubDate": "Sun, 06 Sep 2026 07:33:56 +0900"
+    },
+    {
+     "title": "東京 八丈町に記録的短時間大雨の気象防災速報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48392",
+     "pubDate": "Sun, 06 Sep 2026 07:13:36 +0900"
     },
     {
      "title": "岐阜の洋菓子店で火事 2人死亡3人搬送 事件巻き込まれたか",
@@ -28,19 +38,9 @@
      "pubDate": "Sun, 06 Sep 2026 00:00:40 +0900"
     },
     {
-     "title": "国民民主党代表選 6日 投開票 新代表を選出へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48378",
-     "pubDate": "Sun, 06 Sep 2026 05:33:18 +0900"
-    },
-    {
-     "title": "ドイツ州議会選挙投票へ 「極右」政党が第1党か 抗議デモも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48382",
-     "pubDate": "Sun, 06 Sep 2026 06:06:50 +0900"
-    },
-    {
-     "title": "内閣改造 片山財務相 茂木外相 小泉防衛相 留任の方向で調整",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48338",
-     "pubDate": "Sat, 05 Sep 2026 21:17:34 +0900"
+     "title": "ネパール土石流 トンネルから新たに1人が救助 さらなる捜索へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48379",
+     "pubDate": "Sun, 06 Sep 2026 06:41:36 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "戦時中の複写装置発見 旧陸軍「登戸研究所」が発注し製造か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48380",
+     "pubDate": "Sun, 06 Sep 2026 06:26:56 +0900"
+    },
     {
      "title": "岐阜の洋菓子店で火事 2人死亡3人搬送 事件巻き込まれたか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48383",
@@ -118,11 +123,6 @@
      "title": "「アンダーパス」事前通行止めへ 千葉豪雨受け全国6か所で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48209",
      "pubDate": "Fri, 04 Sep 2026 19:42:30 +0900"
-    },
-    {
-     "title": "秋の連休 高速道路渋滞 ピークは下り19日20日 上り21日22日か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48190",
-     "pubDate": "Fri, 04 Sep 2026 19:40:46 +0900"
     }
    ]
   },
@@ -214,6 +214,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "プーチン大統領 トランプ大統領特使らとウクライナ情勢で会談",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48381",
+     "pubDate": "Sun, 06 Sep 2026 06:57:43 +0900"
+    },
+    {
+     "title": "米軍 イラン石油タンカー3隻を攻撃 艦艇へのミサイル発射受け",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48384",
+     "pubDate": "Sun, 06 Sep 2026 06:50:13 +0900"
+    },
+    {
+     "title": "ネパール土石流 トンネルから新たに1人が救助 さらなる捜索へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48379",
+     "pubDate": "Sun, 06 Sep 2026 06:41:36 +0900"
+    },
+    {
      "title": "ドイツ州議会選挙投票へ 「極右」政党が第1党か 抗議デモも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48382",
      "pubDate": "Sun, 06 Sep 2026 06:06:50 +0900"
@@ -224,9 +239,9 @@
      "pubDate": "Sun, 06 Sep 2026 05:55:10 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月5日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（9月5日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de46973",
-     "pubDate": "Sat, 05 Sep 2026 21:09:44 +0900"
+     "pubDate": "Sat, 05 Sep 2026 21:09:00 +0900"
     },
     {
      "title": "アメリカ 子3人を殺害の母 刑事責任問う裁判は審理無効に",
@@ -272,21 +287,6 @@
      "title": "フランスで猛暑続く 暑さ関連とみられる死者7000人に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48267",
      "pubDate": "Sat, 05 Sep 2026 10:34:00 +0900"
-    },
-    {
-     "title": "アルゼンチンと英 島の領有権巡り対立深まる トランプ発言で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48278",
-     "pubDate": "Sat, 05 Sep 2026 10:27:00 +0900"
-    },
-    {
-     "title": "アメリカで軽油の販売価格が最高値更新 物価上昇に圧力",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48270",
-     "pubDate": "Sat, 05 Sep 2026 09:21:17 +0900"
-    },
-    {
-     "title": "訪米中の赤澤経産相 関税措置めぐり“去年の日米合意は不変”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48275",
-     "pubDate": "Sat, 05 Sep 2026 09:08:00 +0900"
     }
    ]
   },
@@ -296,14 +296,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "西-東日本 警報級大雨が続く恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6594342?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 11:15:09 GMT"
-    },
-    {
-     "title": "ネパール土石流から10日 2人救助",
-     "link": "https://news.yahoo.co.jp/pickup/6594363?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 14:41:12 GMT"
+     "title": "東京・八丈町で大雨 1時間110ミリ",
+     "link": "https://news.yahoo.co.jp/pickup/6594374?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 22:39:12 GMT"
     },
     {
      "title": "29年に中低所得者へ現金給付検討",
@@ -311,14 +306,14 @@
      "pubDate": "Sat, 05 Sep 2026 10:29:58 GMT"
     },
     {
-     "title": "ケーキ店で放火か 2人死亡3人搬送",
-     "link": "https://news.yahoo.co.jp/pickup/6594367?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 21:08:16 GMT"
-    },
-    {
      "title": "悠仁さま20歳 成年皇族の歩み進め",
      "link": "https://news.yahoo.co.jp/pickup/6594366?source=rss",
      "pubDate": "Sat, 05 Sep 2026 15:30:05 GMT"
+    },
+    {
+     "title": "ケーキ店で放火か 2人死亡3人搬送",
+     "link": "https://news.yahoo.co.jp/pickup/6594367?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 21:08:16 GMT"
     },
     {
      "title": "ベルトコンベアに巻き込まれ 重体",
@@ -331,9 +326,14 @@
      "pubDate": "Sat, 05 Sep 2026 13:39:27 GMT"
     },
     {
-     "title": "広島 延長戦の末に逆転負けの大敗",
-     "link": "https://news.yahoo.co.jp/pickup/6594365?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 15:07:50 GMT"
+     "title": "広島監督の長男 プロ志望届提出へ",
+     "link": "https://news.yahoo.co.jp/pickup/6594369?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 22:17:41 GMT"
+    },
+    {
+     "title": "大谷3戦連続スタメン外 移籍後初",
+     "link": "https://news.yahoo.co.jp/pickup/6594368?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 22:13:07 GMT"
     }
    ]
   }
