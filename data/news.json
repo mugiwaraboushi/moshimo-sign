@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-05T00:26:39.782Z",
+ "updatedAt": "2026-09-05T04:43:55.948Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,34 +8,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "鹿児島 屋久島町にレベル5土砂災害特別警報 命が助かる行動を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48258",
-     "pubDate": "Sat, 05 Sep 2026 08:58:50 +0900"
-    },
-    {
      "title": "台風24号と秋雨前線の影響で大気不安定 今後の進路 見通しは",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48255",
-     "pubDate": "Sat, 05 Sep 2026 07:33:27 +0900"
+     "pubDate": "Sat, 05 Sep 2026 12:59:43 +0900"
     },
     {
-     "title": "インドネシア大規模噴火 現時点で目立った潮位変化観測されず",
+     "title": "鹿児島 屋久島町 レベル5土砂災害特別警報 危険警報に切り替え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48287",
+     "pubDate": "Sat, 05 Sep 2026 12:26:25 +0900"
+    },
+    {
+     "title": "インドネシア 大規模噴火 日本への津波の心配なし 気象庁",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48261",
-     "pubDate": "Sat, 05 Sep 2026 07:21:48 +0900"
+     "pubDate": "Sat, 05 Sep 2026 12:41:49 +0900"
     },
     {
-     "title": "【特別警報】気象庁が記者会見「直ちに身の安全確保して」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48264",
-     "pubDate": "Sat, 05 Sep 2026 07:18:45 +0900"
+     "title": "星新一さん自筆のSFみつかる 初期の未発表作品か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48277",
+     "pubDate": "Sat, 05 Sep 2026 12:31:00 +0900"
     },
     {
-     "title": "円相場 荒い値動き続く FRB 日銀の利上げ観測や介入警戒で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48256",
-     "pubDate": "Sat, 05 Sep 2026 07:35:00 +0900"
+     "title": "ベネチア国際映画祭 塚本晋也監督の映画が公式上映",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48291",
+     "pubDate": "Sat, 05 Sep 2026 12:45:55 +0900"
     },
     {
-     "title": "政府 消費税減税 地方減収分は特例交付金で全額補てん検討",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48253",
-     "pubDate": "Sat, 05 Sep 2026 06:25:00 +0900"
+     "title": "ホワイトソックス村上 2試合連続無安打 チームは連敗ストップ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48294",
+     "pubDate": "Sat, 05 Sep 2026 12:52:00 +0900"
     },
     {
      "title": "ネパール土石流 発電所で2人救助 政府は優先的に捜索の考え",
@@ -62,7 +62,7 @@
     {
      "title": "松本文科相 福島大 動画「尊厳傷つける言動あってはならない」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48247",
-     "pubDate": "Fri, 04 Sep 2026 22:53:11 +0900"
+     "pubDate": "Fri, 04 Sep 2026 22:53:00 +0900"
     },
     {
      "title": "JR首都圏在来線 6日夜から7日にかけて運休や遅れの可能性",
@@ -132,6 +132,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "ベネチア国際映画祭 塚本晋也監督の映画が公式上映",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48291",
+     "pubDate": "Sat, 05 Sep 2026 12:45:55 +0900"
+    },
+    {
+     "title": "星新一さん自筆のSFみつかる 初期の未発表作品か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48277",
+     "pubDate": "Sat, 05 Sep 2026 12:31:00 +0900"
+    },
+    {
      "title": "国連の報告書 パリ協定の気温1.5度超の長期化に警鐘",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48188",
      "pubDate": "Fri, 04 Sep 2026 17:39:00 +0900"
@@ -195,16 +205,6 @@
      "title": "地下のライブハウスで地震が起きたら？防災の日に避難訓練",
      "link": "https://news.web.nhk/newsweb/na/nd-20260901de47698",
      "pubDate": "Tue, 01 Sep 2026 23:43:00 +0900"
-    },
-    {
-     "title": "海外の製薬企業 日本での新薬販売見送りも 業界団体調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47646",
-     "pubDate": "Tue, 01 Sep 2026 18:37:05 +0900"
-    },
-    {
-     "title": "宇宙への輸送で日米が覚書 ロケット安全審査の相互認証目指す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260901de47559",
-     "pubDate": "Tue, 01 Sep 2026 12:12:00 +0900"
     }
    ]
   },
@@ -214,6 +214,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ベネチア国際映画祭 塚本晋也監督の映画が公式上映",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48291",
+     "pubDate": "Sat, 05 Sep 2026 12:45:55 +0900"
+    },
+    {
+     "title": "フランスで猛暑続く 暑さ関連とみられる死者7000人に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48267",
+     "pubDate": "Sat, 05 Sep 2026 10:34:00 +0900"
+    },
+    {
+     "title": "アルゼンチンと英 島の領有権巡り対立深まる トランプ発言で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48278",
+     "pubDate": "Sat, 05 Sep 2026 10:27:00 +0900"
+    },
+    {
      "title": "アメリカで軽油の販売価格が最高値更新 物価上昇に圧力",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48270",
      "pubDate": "Sat, 05 Sep 2026 09:21:17 +0900"
@@ -221,7 +236,7 @@
     {
      "title": "訪米中の赤澤経産相 関税措置めぐり“去年の日米合意は不変”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48275",
-     "pubDate": "Sat, 05 Sep 2026 09:08:19 +0900"
+     "pubDate": "Sat, 05 Sep 2026 09:08:00 +0900"
     },
     {
      "title": "無人機がウクライナ情報機関を直撃 12人けが",
@@ -272,21 +287,6 @@
      "title": "国連の報告書 パリ協定の気温1.5度超の長期化に警鐘",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48188",
      "pubDate": "Fri, 04 Sep 2026 17:39:00 +0900"
-    },
-    {
-     "title": "米オープンAI 最新モデルの提供開始 “安全対策を強化”と強調",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48178",
-     "pubDate": "Fri, 04 Sep 2026 16:25:00 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月4日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46969",
-     "pubDate": "Fri, 04 Sep 2026 16:21:00 +0900"
-    },
-    {
-     "title": "米 ホワイトハウスがMAGAゲームサイト公開 批判の声も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48170",
-     "pubDate": "Fri, 04 Sep 2026 15:54:45 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "屋久島町に特別警報 最新情報",
-     "link": "https://news.yahoo.co.jp/pickup/6594249?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 21:38:10 GMT"
+     "title": "屋久島町 土砂災害危険警報に切替",
+     "link": "https://news.yahoo.co.jp/pickup/6594286?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 02:41:18 GMT"
     },
     {
-     "title": "太平洋側は大雨が長引く 備えを",
-     "link": "https://news.yahoo.co.jp/pickup/6594256?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 22:43:05 GMT"
+     "title": "予算膨張 首相は懸念払拭に懸命",
+     "link": "https://news.yahoo.co.jp/pickup/6594282?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 02:16:14 GMT"
     },
     {
-     "title": "障害者雇用巡り那覇の業者を調査",
-     "link": "https://news.yahoo.co.jp/pickup/6594267?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 23:38:06 GMT"
+     "title": "高校文化祭で催涙スプレー2人けが",
+     "link": "https://news.yahoo.co.jp/pickup/6594295?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 04:28:02 GMT"
     },
     {
-     "title": "追突後40m後退 男性はねられ死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6594264?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 23:35:35 GMT"
+     "title": "ニデック不正 利益至上主義が浸透",
+     "link": "https://news.yahoo.co.jp/pickup/6594268?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 00:03:04 GMT"
     },
     {
-     "title": "メルカトル図法やめて 国連採択",
-     "link": "https://news.yahoo.co.jp/pickup/6594260?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 23:03:19 GMT"
+     "title": "佐藤同士で結婚→離婚 戸籍の動き",
+     "link": "https://news.yahoo.co.jp/pickup/6594294?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 04:08:42 GMT"
     },
     {
-     "title": "神奈川県民の生涯通勤 労働8年分",
-     "link": "https://news.yahoo.co.jp/pickup/6594263?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 23:29:42 GMT"
+     "title": "全米OP 選手が大麻のにおい訴え",
+     "link": "https://news.yahoo.co.jp/pickup/6594296?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 04:27:42 GMT"
     },
     {
-     "title": "大谷がIL入りの可能性 監督決断は",
-     "link": "https://news.yahoo.co.jp/pickup/6594271?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 00:04:57 GMT"
+     "title": "こち亀 新アニメ両津役は落合福嗣",
+     "link": "https://news.yahoo.co.jp/pickup/6594291?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 03:29:08 GMT"
     },
     {
-     "title": "物議の水ダウ ラーメン評論家苦言",
-     "link": "https://news.yahoo.co.jp/pickup/6594253?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 22:18:16 GMT"
+     "title": "日テレ徳島えりかアナ 産休を報告",
+     "link": "https://news.yahoo.co.jp/pickup/6594289?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 03:28:23 GMT"
     }
    ]
   }
