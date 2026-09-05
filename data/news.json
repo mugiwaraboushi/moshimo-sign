@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-04T22:36:43.998Z",
+ "updatedAt": "2026-09-05T00:26:39.782Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "鹿児島 屋久島町にレベル5土砂災害特別警報 命が助かる行動を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48258",
-     "pubDate": "Sat, 05 Sep 2026 07:28:46 +0900"
+     "pubDate": "Sat, 05 Sep 2026 08:58:50 +0900"
     },
     {
      "title": "台風24号と秋雨前線の影響で大気不安定 今後の進路 見通しは",
@@ -28,19 +28,19 @@
      "pubDate": "Sat, 05 Sep 2026 07:18:45 +0900"
     },
     {
-     "title": "JR首都圏在来線 6日夜から7日にかけて運休や遅れの可能性",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48221",
-     "pubDate": "Fri, 04 Sep 2026 21:06:33 +0900"
+     "title": "円相場 荒い値動き続く FRB 日銀の利上げ観測や介入警戒で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48256",
+     "pubDate": "Sat, 05 Sep 2026 07:35:00 +0900"
     },
     {
      "title": "政府 消費税減税 地方減収分は特例交付金で全額補てん検討",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48253",
-     "pubDate": "Sat, 05 Sep 2026 06:25:41 +0900"
+     "pubDate": "Sat, 05 Sep 2026 06:25:00 +0900"
     },
     {
      "title": "ネパール土石流 発電所で2人救助 政府は優先的に捜索の考え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48262",
-     "pubDate": "Sat, 05 Sep 2026 06:46:05 +0900"
+     "pubDate": "Sat, 05 Sep 2026 06:46:00 +0900"
     }
    ]
   },
@@ -214,29 +214,49 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "アメリカで軽油の販売価格が最高値更新 物価上昇に圧力",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48270",
+     "pubDate": "Sat, 05 Sep 2026 09:21:17 +0900"
+    },
+    {
+     "title": "訪米中の赤澤経産相 関税措置めぐり“去年の日米合意は不変”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48275",
+     "pubDate": "Sat, 05 Sep 2026 09:08:19 +0900"
+    },
+    {
+     "title": "無人機がウクライナ情報機関を直撃 12人けが",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48259",
+     "pubDate": "Sat, 05 Sep 2026 08:54:24 +0900"
+    },
+    {
+     "title": "国連総会“メルカトル図法ではない図法を推奨”決議を採択",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48269",
+     "pubDate": "Sat, 05 Sep 2026 07:55:00 +0900"
+    },
+    {
      "title": "米財務省 イラン経済制裁でトルコの投資銀行を制裁対象に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48266",
-     "pubDate": "Sat, 05 Sep 2026 07:25:09 +0900"
+     "pubDate": "Sat, 05 Sep 2026 07:25:00 +0900"
     },
     {
      "title": "ロシア極東 菊の紋章破壊する表現の記念碑設置 日本は撤去要求",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48260",
-     "pubDate": "Sat, 05 Sep 2026 07:16:14 +0900"
+     "pubDate": "Sat, 05 Sep 2026 07:16:00 +0900"
     },
     {
      "title": "ネパール土石流 発電所で2人救助 政府は優先的に捜索の考え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48262",
-     "pubDate": "Sat, 05 Sep 2026 06:46:05 +0900"
+     "pubDate": "Sat, 05 Sep 2026 06:46:00 +0900"
     },
     {
      "title": "米メディア“イランの結婚式攻撃の爆弾は米軍のもの”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48250",
-     "pubDate": "Sat, 05 Sep 2026 05:43:44 +0900"
+     "pubDate": "Sat, 05 Sep 2026 05:43:00 +0900"
     },
     {
      "title": "円相場 荒い値動き続く FRB 日銀の利上げ観測や介入警戒で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48256",
-     "pubDate": "Sat, 05 Sep 2026 07:35:17 +0900"
+     "pubDate": "Sat, 05 Sep 2026 07:35:00 +0900"
     },
     {
      "title": "フォルクスワーゲン 従業員５万人追加削減の改革案公表",
@@ -267,26 +287,6 @@
      "title": "米 ホワイトハウスがMAGAゲームサイト公開 批判の声も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48170",
      "pubDate": "Fri, 04 Sep 2026 15:54:45 +0900"
-    },
-    {
-     "title": "韓国 米軍支援へホルムズ海峡に艦艇など派遣検討か 現地報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48138",
-     "pubDate": "Fri, 04 Sep 2026 18:19:21 +0900"
-    },
-    {
-     "title": "ネパール土石流 水力発電所トンネルから2人救出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48129",
-     "pubDate": "Fri, 04 Sep 2026 13:59:49 +0900"
-    },
-    {
-     "title": "災害時の国際連携の条約を 赤十字などがキャンペーン開始",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48089",
-     "pubDate": "Fri, 04 Sep 2026 10:25:00 +0900"
-    },
-    {
-     "title": "イランメディア「米攻撃による犠牲者の葬儀」大きく報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48080",
-     "pubDate": "Fri, 04 Sep 2026 11:12:35 +0900"
     }
    ]
   },
@@ -301,34 +301,34 @@
      "pubDate": "Fri, 04 Sep 2026 21:38:10 GMT"
     },
     {
-     "title": "茂木外相留任へ 外交の継続性重視",
-     "link": "https://news.yahoo.co.jp/pickup/6594255?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 22:26:29 GMT"
+     "title": "太平洋側は大雨が長引く 備えを",
+     "link": "https://news.yahoo.co.jp/pickup/6594256?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 22:43:05 GMT"
     },
     {
-     "title": "インドネシアの火山で大規模噴火",
-     "link": "https://news.yahoo.co.jp/pickup/6594248?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 21:14:20 GMT"
+     "title": "障害者雇用巡り那覇の業者を調査",
+     "link": "https://news.yahoo.co.jp/pickup/6594267?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 23:38:06 GMT"
     },
     {
-     "title": "生後2カ月を殺害疑い 18歳男逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6594251?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 22:16:29 GMT"
+     "title": "追突後40m後退 男性はねられ死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6594264?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 23:35:35 GMT"
     },
     {
-     "title": "濁流で両親死亡 遺品は朱印帳だけ",
-     "link": "https://news.yahoo.co.jp/pickup/6594241?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 13:59:27 GMT"
+     "title": "メルカトル図法やめて 国連採択",
+     "link": "https://news.yahoo.co.jp/pickup/6594260?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 23:03:19 GMT"
     },
     {
-     "title": "セブンがアパレルに本格参入 なぜ",
-     "link": "https://news.yahoo.co.jp/pickup/6594250?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 22:02:44 GMT"
+     "title": "神奈川県民の生涯通勤 労働8年分",
+     "link": "https://news.yahoo.co.jp/pickup/6594263?source=rss",
+     "pubDate": "Fri, 04 Sep 2026 23:29:42 GMT"
     },
     {
-     "title": "異例 任天堂2日連続新情報発表へ",
-     "link": "https://news.yahoo.co.jp/pickup/6594243?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 14:44:15 GMT"
+     "title": "大谷がIL入りの可能性 監督決断は",
+     "link": "https://news.yahoo.co.jp/pickup/6594271?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 00:04:57 GMT"
     },
     {
      "title": "物議の水ダウ ラーメン評論家苦言",
