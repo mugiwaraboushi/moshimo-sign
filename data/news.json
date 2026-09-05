@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-05T12:10:04.794Z",
+ "updatedAt": "2026-09-05T15:22:07.525Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "沖縄 本島北部に「線状降水帯直前予測」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48359",
-     "pubDate": "Sat, 05 Sep 2026 20:40:04 +0900"
+     "title": "台風24号 秋雨前線 熱帯低気圧 大雨続くおそれ 今後の見通しは",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48255",
+     "pubDate": "Sat, 05 Sep 2026 23:00:18 +0900"
     },
     {
      "title": "鹿児島 奄美地方「線状降水帯発生」気象庁発表",
@@ -18,29 +18,29 @@
      "pubDate": "Sat, 05 Sep 2026 20:06:00 +0900"
     },
     {
-     "title": "台風24号 秋雨前線 熱帯低気圧大雨続くおそれ 今後の見通しは",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48255",
-     "pubDate": "Sat, 05 Sep 2026 20:51:38 +0900"
+     "title": "悠仁さま 20歳の誕生日",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48356",
+     "pubDate": "Sun, 06 Sep 2026 00:00:40 +0900"
+    },
+    {
+     "title": "内閣改造 片山財務相 茂木外相 小泉防衛相 留任の方向で調整",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48338",
+     "pubDate": "Sat, 05 Sep 2026 21:17:34 +0900"
     },
     {
      "title": "ネパール土石流 トンネルからさらに1人救助 住宅から女性1人も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48334",
-     "pubDate": "Sat, 05 Sep 2026 19:34:21 +0900"
-    },
-    {
-     "title": "自民党福岡県連 松本会長が辞意表明 県連で金銭授受調査へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48351",
-     "pubDate": "Sat, 05 Sep 2026 19:14:23 +0900"
-    },
-    {
-     "title": "内閣改造 茂木外相と小泉防衛相 留任の方向で調整",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48338",
-     "pubDate": "Sat, 05 Sep 2026 18:18:00 +0900"
+     "pubDate": "Sat, 05 Sep 2026 22:23:44 +0900"
     },
     {
      "title": "長期金利上昇 私たちの暮らしや経済への影響は",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48324",
      "pubDate": "Sat, 05 Sep 2026 20:09:00 +0900"
+    },
+    {
+     "title": "自民党福岡県連 松本会長が辞意表明 県連で金銭授受調査へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48351",
+     "pubDate": "Sat, 05 Sep 2026 19:14:23 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "悠仁さま 20歳の誕生日",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48356",
+     "pubDate": "Sun, 06 Sep 2026 00:00:40 +0900"
+    },
     {
      "title": "静岡 牧之原 通園バス置き去り事件から4年 遺族ら献花",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48343",
@@ -118,11 +123,6 @@
      "title": "路上でスカウト行為した疑い逮捕 3000人に声かけたか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48203",
      "pubDate": "Fri, 04 Sep 2026 19:39:00 +0900"
-    },
-    {
-     "title": "東京 町田のアパートに強盗に入ろうと準備した疑いで4人逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48198",
-     "pubDate": "Fri, 04 Sep 2026 19:16:48 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月5日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46973",
+     "pubDate": "Sat, 05 Sep 2026 21:09:44 +0900"
+    },
+    {
      "title": "アメリカ 子3人を殺害の母 刑事責任問う裁判は審理無効に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48352",
      "pubDate": "Sat, 05 Sep 2026 20:49:40 +0900"
@@ -231,7 +236,7 @@
     {
      "title": "ネパール土石流 トンネルからさらに1人救助 住宅から女性1人も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48334",
-     "pubDate": "Sat, 05 Sep 2026 19:34:21 +0900"
+     "pubDate": "Sat, 05 Sep 2026 22:23:44 +0900"
     },
     {
      "title": "トランプ大統領 ロシアとウクライナに特使ら派遣へ",
@@ -282,11 +287,6 @@
      "title": "国連総会“メルカトル図法ではない図法を推奨”決議を採択",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48269",
      "pubDate": "Sat, 05 Sep 2026 07:55:00 +0900"
-    },
-    {
-     "title": "米財務省 イラン経済制裁でトルコの投資銀行を制裁対象に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48266",
-     "pubDate": "Sat, 05 Sep 2026 07:25:00 +0900"
     }
    ]
   },
@@ -296,14 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "大雨 屋久島町で土砂崩れや断水",
-     "link": "https://news.yahoo.co.jp/pickup/6594341?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 11:09:52 GMT"
+     "title": "西-東日本 警報級大雨が続く恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6594342?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 11:15:09 GMT"
     },
     {
-     "title": "内閣改造 小泉防衛相の留任で調整",
-     "link": "https://news.yahoo.co.jp/pickup/6594345?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 11:35:46 GMT"
+     "title": "ネパール土石流から10日 2人救助",
+     "link": "https://news.yahoo.co.jp/pickup/6594363?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 14:41:12 GMT"
     },
     {
      "title": "29年に中低所得者へ現金給付検討",
@@ -311,29 +311,29 @@
      "pubDate": "Sat, 05 Sep 2026 10:29:58 GMT"
     },
     {
-     "title": "殺虫剤誤飲の死亡事故 市周知せず",
-     "link": "https://news.yahoo.co.jp/pickup/6594333?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 10:23:22 GMT"
+     "title": "ケーキ店火災で3人搬送 岐阜",
+     "link": "https://news.yahoo.co.jp/pickup/6594364?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 14:48:00 GMT"
     },
     {
-     "title": "くら寿司「ちいかわ」コラボ中止",
-     "link": "https://news.yahoo.co.jp/pickup/6594339?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 10:42:23 GMT"
+     "title": "ベルトコンベアに巻き込まれ 重体",
+     "link": "https://news.yahoo.co.jp/pickup/6594356?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 13:23:49 GMT"
     },
     {
-     "title": "ワリエワの中立資格取り消し 報道",
-     "link": "https://news.yahoo.co.jp/pickup/6594340?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 10:59:29 GMT"
+     "title": "くら寿司コラボ中止 従業員が不正",
+     "link": "https://news.yahoo.co.jp/pickup/6594359?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 13:39:27 GMT"
     },
     {
-     "title": "コナン初の参加型アニメ制作決定",
-     "link": "https://news.yahoo.co.jp/pickup/6594346?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 11:52:22 GMT"
+     "title": "広島 延長戦の末に逆転負けの大敗",
+     "link": "https://news.yahoo.co.jp/pickup/6594365?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 15:07:50 GMT"
     },
     {
-     "title": "物議の水ダウ ラーメン評論家苦言",
-     "link": "https://news.yahoo.co.jp/pickup/6594253?source=rss",
-     "pubDate": "Fri, 04 Sep 2026 22:18:16 GMT"
+     "title": "福島大巡る発言 wakatte.tvが謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6594358?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 13:28:41 GMT"
     }
    ]
   }
