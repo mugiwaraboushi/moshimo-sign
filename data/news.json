@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-06T19:19:39.892Z",
+ "updatedAt": "2026-09-06T21:29:00.603Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "東京 新島村に土砂災害特別警報 命が助かる可能性高い行動を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48639",
-     "pubDate": "Mon, 07 Sep 2026 04:17:39 +0900"
+     "title": "東京 新島村に土砂災害特別警報 伊豆諸島や関東南部で大雨",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48631",
+     "pubDate": "Mon, 07 Sep 2026 06:13:22 +0900"
+    },
+    {
+     "title": "大雨交通影響 7日は山手線など本数減 運休区間も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48452",
+     "pubDate": "Mon, 07 Sep 2026 05:18:15 +0900"
     },
     {
      "title": "関東 東海 東北 線状降水帯発生の可能性 安全最優先に行動を",
@@ -18,9 +23,14 @@
      "pubDate": "Mon, 07 Sep 2026 04:14:36 +0900"
     },
     {
-     "title": "大雨交通影響 7日は山手線など本数減 運休区間も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48452",
-     "pubDate": "Mon, 07 Sep 2026 03:00:40 +0900"
+     "title": "千葉 アンダーパス通行止め レベル4大雨危険警報で新ルール",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48665",
+     "pubDate": "Mon, 07 Sep 2026 06:18:37 +0900"
+    },
+    {
+     "title": "気象庁会見 東京 新島村に土砂災害特別警報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48645",
+     "pubDate": "Mon, 07 Sep 2026 06:17:27 +0900"
     },
     {
      "title": "3人死亡火事は同級生の集まりで発生か 会社役員関与の可能性も",
@@ -28,19 +38,9 @@
      "pubDate": "Mon, 07 Sep 2026 04:07:11 +0900"
     },
     {
-     "title": "体に必要な物質作る カギのたんぱく質特定 東大などのグループ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48248",
-     "pubDate": "Mon, 07 Sep 2026 04:04:22 +0900"
-    },
-    {
-     "title": "大雨影響 7日は臨時休校相次ぐ 東京23区の一部や横浜市など",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48469",
-     "pubDate": "Sun, 06 Sep 2026 19:35:06 +0900"
-    },
-    {
-     "title": "国民民主党 代表選挙 玉木代表が再選 党勢拡大など課題",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48550",
-     "pubDate": "Mon, 07 Sep 2026 04:10:13 +0900"
+     "title": "クビアカツヤカミキリ 環境省が対策強化へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48524",
+     "pubDate": "Mon, 07 Sep 2026 05:50:02 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "クビアカツヤカミキリ 環境省が対策強化へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48524",
+     "pubDate": "Mon, 07 Sep 2026 05:50:02 +0900"
+    },
     {
      "title": "3人死亡火事は同級生の集まりで発生か 会社役員関与の可能性も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260907de48555",
@@ -118,11 +123,6 @@
      "title": "鳥取 岩美町 10代の男性3人海に流され 1人行方不明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48331",
      "pubDate": "Sat, 05 Sep 2026 18:03:00 +0900"
-    },
-    {
-     "title": "クマに襲われ男性負傷 1人できのこ採り中に 長野 伊那",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48337",
-     "pubDate": "Sat, 05 Sep 2026 17:41:00 +0900"
     }
    ]
   },
@@ -296,9 +296,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "東海-東北の太平洋側で大雨 警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6594468?source=rss",
-     "pubDate": "Sun, 06 Sep 2026 13:34:42 GMT"
+     "title": "東京・新島村に特別警報 最新情報",
+     "link": "https://news.yahoo.co.jp/pickup/6594482?source=rss",
+     "pubDate": "Sun, 06 Sep 2026 20:35:37 GMT"
     },
     {
      "title": "全国の鉄道・フライト 最新情報",
@@ -306,24 +306,24 @@
      "pubDate": "Sun, 06 Sep 2026 14:22:46 GMT"
     },
     {
+     "title": "関東 朝の通勤・通学を大雨直撃か",
+     "link": "https://news.yahoo.co.jp/pickup/6594483?source=rss",
+     "pubDate": "Sun, 06 Sep 2026 20:44:24 GMT"
+    },
+    {
+     "title": "アンダーパスで予防的規制 全国初",
+     "link": "https://news.yahoo.co.jp/pickup/6594484?source=rss",
+     "pubDate": "Sun, 06 Sep 2026 20:48:44 GMT"
+    },
+    {
      "title": "内閣支持率が62.5%に上昇 JNN",
      "link": "https://news.yahoo.co.jp/pickup/6594473?source=rss",
      "pubDate": "Sun, 06 Sep 2026 13:57:26 GMT"
     },
     {
-     "title": "ケーキ店火災 男性の遺体に刺し傷",
-     "link": "https://news.yahoo.co.jp/pickup/6594471?source=rss",
-     "pubDate": "Sun, 06 Sep 2026 13:39:08 GMT"
-    },
-    {
-     "title": "複数作業員に列車接近 JR西で3月",
-     "link": "https://news.yahoo.co.jp/pickup/6594428?source=rss",
-     "pubDate": "Sun, 06 Sep 2026 07:18:38 GMT"
-    },
-    {
-     "title": "G小笠原が完封 6回には打球直撃",
-     "link": "https://news.yahoo.co.jp/pickup/6594477?source=rss",
-     "pubDate": "Sun, 06 Sep 2026 14:52:17 GMT"
+     "title": "旧姓トルソワ 愛息を抱き取材対応",
+     "link": "https://news.yahoo.co.jp/pickup/6594485?source=rss",
+     "pubDate": "Sun, 06 Sep 2026 21:26:11 GMT"
     },
     {
      "title": "岩本照 体調不良で舞台急きょ中止",
