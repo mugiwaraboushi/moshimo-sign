@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-06T17:10:01.682Z",
+ "updatedAt": "2026-09-06T19:19:39.892Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "関東 東海 東北 線状降水帯発生の可能性 安全最優先に行動を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48377",
-     "pubDate": "Mon, 07 Sep 2026 02:07:22 +0900"
+     "title": "東京 新島村に土砂災害特別警報 命が助かる可能性高い行動を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48639",
+     "pubDate": "Mon, 07 Sep 2026 04:17:39 +0900"
     },
     {
-     "title": "東京 善福寺川にレベル4氾濫危険警報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48552",
-     "pubDate": "Mon, 07 Sep 2026 00:01:03 +0900"
+     "title": "関東 東海 東北 線状降水帯発生の可能性 安全最優先に行動を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48377",
+     "pubDate": "Mon, 07 Sep 2026 04:14:36 +0900"
     },
     {
      "title": "大雨交通影響 7日は山手線など本数減 運休区間も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48452",
-     "pubDate": "Sun, 06 Sep 2026 23:55:00 +0900"
+     "pubDate": "Mon, 07 Sep 2026 03:00:40 +0900"
     },
     {
-     "title": "岐阜 洋菓子店火事3人死亡「人が刺されガソリンまかれた」通報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48427",
-     "pubDate": "Sun, 06 Sep 2026 19:32:23 +0900"
+     "title": "3人死亡火事は同級生の集まりで発生か 会社役員関与の可能性も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48555",
+     "pubDate": "Mon, 07 Sep 2026 04:07:11 +0900"
+    },
+    {
+     "title": "体に必要な物質作る カギのたんぱく質特定 東大などのグループ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48248",
+     "pubDate": "Mon, 07 Sep 2026 04:04:22 +0900"
     },
     {
      "title": "大雨影響 7日は臨時休校相次ぐ 東京23区の一部や横浜市など",
@@ -33,14 +38,9 @@
      "pubDate": "Sun, 06 Sep 2026 19:35:06 +0900"
     },
     {
-     "title": "千葉市にレベル4大雨危険警報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48563",
-     "pubDate": "Mon, 07 Sep 2026 00:47:05 +0900"
-    },
-    {
-     "title": "フィギュア 女子シングル 島田麻央がシニア初の国際大会で優勝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48529",
-     "pubDate": "Sun, 06 Sep 2026 22:56:03 +0900"
+     "title": "国民民主党 代表選挙 玉木代表が再選 党勢拡大など課題",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48550",
+     "pubDate": "Mon, 07 Sep 2026 04:10:13 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "3人死亡火事は同級生の集まりで発生か 会社役員関与の可能性も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48555",
+     "pubDate": "Mon, 07 Sep 2026 04:07:11 +0900"
+    },
     {
      "title": "ＩＣＣ赤根所長が講演「法の支配への違法な脅しに沈黙せず」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48517",
@@ -118,11 +123,6 @@
      "title": "クマに襲われ男性負傷 1人できのこ採り中に 長野 伊那",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48337",
      "pubDate": "Sat, 05 Sep 2026 17:41:00 +0900"
-    },
-    {
-     "title": "文化祭の高校でスプレー噴射 教員2人けが 盗撮行為していたか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48332",
-     "pubDate": "Sat, 05 Sep 2026 17:23:26 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "体に必要な物質作る カギのたんぱく質特定 東大などのグループ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48248",
+     "pubDate": "Mon, 07 Sep 2026 04:04:22 +0900"
+    },
     {
      "title": "温風で文化財害虫駆除 日光東照宮の重要文化財建物で効果確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48400",
@@ -200,11 +205,6 @@
      "title": "コンゴ民主共和国でエボラ出血熱の死者3000人超える",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de47881",
      "pubDate": "Thu, 03 Sep 2026 04:59:00 +0900"
-    },
-    {
-     "title": "福島大学の放射能研究やゆする動画めぐり 大学側が声明発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47867",
-     "pubDate": "Wed, 02 Sep 2026 22:05:35 +0900"
     }
    ]
   },
