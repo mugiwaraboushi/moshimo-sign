@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-06T01:06:37.653Z",
+ "updatedAt": "2026-09-06T06:05:49.848Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "西日本～東北の太平洋側中心に大雨 10日まで続くおそれも",
+     "title": "関東南部と東海 線状降水帯発生の可能性 今夜からあすにかけて",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48377",
-     "pubDate": "Sun, 06 Sep 2026 09:19:46 +0900"
-    },
-    {
-     "title": "東京 伊豆諸島南部に「線状降水帯直前予測」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48395",
-     "pubDate": "Sun, 06 Sep 2026 07:17:00 +0900"
-    },
-    {
-     "title": "東京 八丈町に記録的短時間大雨の気象防災速報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48392",
-     "pubDate": "Sun, 06 Sep 2026 09:15:05 +0900"
+     "pubDate": "Sun, 06 Sep 2026 14:43:13 +0900"
     },
     {
      "title": "JR首都圏在来線 6日夜から7日にかけて運休や遅れの可能性",
@@ -28,19 +18,29 @@
      "pubDate": "Sun, 06 Sep 2026 05:31:00 +0900"
     },
     {
-     "title": "台風24号 秋雨前線 熱帯低気圧 大雨続くおそれ 今後の見通しは",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48255",
-     "pubDate": "Sun, 06 Sep 2026 09:13:49 +0900"
+     "title": "悠仁さま 20歳の誕生日 天皇皇后両陛下にあいさつ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48437",
+     "pubDate": "Sun, 06 Sep 2026 13:40:20 +0900"
     },
     {
-     "title": "悠仁さま 20歳の誕生日",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48356",
-     "pubDate": "Sun, 06 Sep 2026 00:00:00 +0900"
+     "title": "国民民主党 代表選挙 玉木代表が再選",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48450",
+     "pubDate": "Sun, 06 Sep 2026 14:01:00 +0900"
+    },
+    {
+     "title": "岐阜 洋菓子店で火事 3人死亡2人搬送「ガソリンまかれた」通報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48427",
+     "pubDate": "Sun, 06 Sep 2026 13:46:15 +0900"
     },
     {
      "title": "村上宗隆 今季30号ホームラン 大リーグ1年目の日本選手で初",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48402",
-     "pubDate": "Sun, 06 Sep 2026 09:52:00 +0900"
+     "pubDate": "Sun, 06 Sep 2026 14:33:53 +0900"
+    },
+    {
+     "title": "ブルージェイズ 岡本和真 決勝打含む4安打2打点 チーム4連勝",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48453",
+     "pubDate": "Sun, 06 Sep 2026 14:54:57 +0900"
     }
    ]
   },
@@ -50,9 +50,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "悠仁さま 20歳の誕生日 天皇皇后両陛下にあいさつ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48437",
+     "pubDate": "Sun, 06 Sep 2026 13:40:20 +0900"
+    },
+    {
+     "title": "大雨被害のJR七尾線が全線で運転再開 石川",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48425",
+     "pubDate": "Sun, 06 Sep 2026 13:17:19 +0900"
+    },
+    {
+     "title": "岐阜 洋菓子店で火事 3人死亡2人搬送「ガソリンまかれた」通報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48427",
+     "pubDate": "Sun, 06 Sep 2026 13:46:15 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（9月6日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48361",
-     "pubDate": "Sun, 06 Sep 2026 08:07:51 +0900"
+     "pubDate": "Sun, 06 Sep 2026 13:57:00 +0900"
     },
     {
      "title": "戦時中の複写装置発見 旧陸軍「登戸研究所」が発注し製造か",
@@ -108,21 +123,6 @@
      "title": "松本文科相 福島大 動画「尊厳傷つける言動あってはならない」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48247",
      "pubDate": "Fri, 04 Sep 2026 22:53:00 +0900"
-    },
-    {
-     "title": "JR首都圏在来線 6日夜から7日にかけて運休や遅れの可能性",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48221",
-     "pubDate": "Sun, 06 Sep 2026 05:31:00 +0900"
-    },
-    {
-     "title": "静岡 牧之原 通園バス置き去り4年 父親「今もずっと後悔」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48223",
-     "pubDate": "Fri, 04 Sep 2026 20:49:52 +0900"
-    },
-    {
-     "title": "「第3号被保険者制度」対象縮小に向け課題整理へ 厚労省検討会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48208",
-     "pubDate": "Fri, 04 Sep 2026 19:51:42 +0900"
     }
    ]
   },
@@ -214,14 +214,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ミサイル備蓄低下報道受け 米国防総省が「ポリグラフ」検査か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48436",
+     "pubDate": "Sun, 06 Sep 2026 14:06:00 +0900"
+    },
+    {
      "title": "プーチン大統領 トランプ大統領特使らとウクライナ情勢で会談",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48381",
-     "pubDate": "Sun, 06 Sep 2026 06:57:00 +0900"
+     "pubDate": "Sun, 06 Sep 2026 14:36:33 +0900"
     },
     {
      "title": "米軍 イラン石油タンカー3隻を攻撃 艦艇へのミサイル発射受け",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48384",
-     "pubDate": "Sun, 06 Sep 2026 06:50:13 +0900"
+     "pubDate": "Sun, 06 Sep 2026 06:50:00 +0900"
     },
     {
      "title": "ネパール土石流 トンネルから新たに1人が救助 さらなる捜索へ",
@@ -282,11 +287,6 @@
      "title": "ベネチア国際映画祭 塚本晋也監督の映画が公式上映",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48291",
      "pubDate": "Sat, 05 Sep 2026 12:45:55 +0900"
-    },
-    {
-     "title": "フランスで猛暑続く 暑さ関連とみられる死者7000人に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48267",
-     "pubDate": "Sat, 05 Sep 2026 10:34:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "東海や関東 滝のような雨の恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6594381?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 23:39:32 GMT"
+     "title": "東海・関東 災害級大雨の恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6594412?source=rss",
+     "pubDate": "Sun, 06 Sep 2026 04:34:55 GMT"
     },
     {
-     "title": "米軍 イランのタンカー3隻攻撃",
-     "link": "https://news.yahoo.co.jp/pickup/6594378?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 23:17:27 GMT"
+     "title": "国民民主党の代表選 玉木氏が3選",
+     "link": "https://news.yahoo.co.jp/pickup/6594419?source=rss",
+     "pubDate": "Sun, 06 Sep 2026 05:24:51 GMT"
     },
     {
-     "title": "電子図書館 全国自治体3割超導入",
-     "link": "https://news.yahoo.co.jp/pickup/6594388?source=rss",
-     "pubDate": "Sun, 06 Sep 2026 00:31:03 GMT"
+     "title": "ケーキ店火災 同級生ら会合中か",
+     "link": "https://news.yahoo.co.jp/pickup/6594420?source=rss",
+     "pubDate": "Sun, 06 Sep 2026 05:38:50 GMT"
     },
     {
-     "title": "ケーキ店火災 人が刺されたと通報",
-     "link": "https://news.yahoo.co.jp/pickup/6594380?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 23:31:35 GMT"
+     "title": "くら寿司コラボ中止 客は落胆の声",
+     "link": "https://news.yahoo.co.jp/pickup/6594416?source=rss",
+     "pubDate": "Sun, 06 Sep 2026 04:51:05 GMT"
     },
     {
-     "title": "乗っていた車の下敷きか 男性死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6594377?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 23:09:24 GMT"
+     "title": "「直パケレシピ」企業が次々公開",
+     "link": "https://news.yahoo.co.jp/pickup/6594403?source=rss",
+     "pubDate": "Sun, 06 Sep 2026 02:56:28 GMT"
     },
     {
-     "title": "子供の「憧れの島」佐渡島が話題",
-     "link": "https://news.yahoo.co.jp/pickup/6594391?source=rss",
-     "pubDate": "Sun, 06 Sep 2026 00:37:16 GMT"
+     "title": "「ドパガキ」な娘2人 父語る実態",
+     "link": "https://news.yahoo.co.jp/pickup/6594402?source=rss",
+     "pubDate": "Sun, 06 Sep 2026 02:51:47 GMT"
     },
     {
-     "title": "村上30号 日本選手新人で初の偉業",
-     "link": "https://news.yahoo.co.jp/pickup/6594382?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 23:56:09 GMT"
+     "title": "西山茉希語る 過酷なCanCam時代",
+     "link": "https://news.yahoo.co.jp/pickup/6594418?source=rss",
+     "pubDate": "Sun, 06 Sep 2026 04:59:53 GMT"
     },
     {
-     "title": "広島監督の長男 プロ志望届提出へ",
-     "link": "https://news.yahoo.co.jp/pickup/6594369?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 22:17:41 GMT"
+     "title": "萩谷慧悟&渡辺みり愛 結婚を公表",
+     "link": "https://news.yahoo.co.jp/pickup/6594410?source=rss",
+     "pubDate": "Sun, 06 Sep 2026 04:13:26 GMT"
     }
    ]
   }
