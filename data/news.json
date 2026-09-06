@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-05T23:02:02.380Z",
+ "updatedAt": "2026-09-06T01:06:37.653Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "東京 伊豆諸島南部に「線状降水帯直前予測」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48395",
-     "pubDate": "Sun, 06 Sep 2026 07:17:30 +0900"
-    },
-    {
      "title": "西日本～東北の太平洋側中心に大雨 10日まで続くおそれも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48377",
-     "pubDate": "Sun, 06 Sep 2026 07:33:56 +0900"
+     "pubDate": "Sun, 06 Sep 2026 09:19:46 +0900"
+    },
+    {
+     "title": "東京 伊豆諸島南部に「線状降水帯直前予測」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48395",
+     "pubDate": "Sun, 06 Sep 2026 07:17:00 +0900"
     },
     {
      "title": "東京 八丈町に記録的短時間大雨の気象防災速報",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48392",
-     "pubDate": "Sun, 06 Sep 2026 07:13:36 +0900"
-    },
-    {
-     "title": "岐阜の洋菓子店で火事 2人死亡3人搬送 事件巻き込まれたか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48383",
-     "pubDate": "Sun, 06 Sep 2026 04:18:46 +0900"
+     "pubDate": "Sun, 06 Sep 2026 09:15:05 +0900"
     },
     {
      "title": "JR首都圏在来線 6日夜から7日にかけて運休や遅れの可能性",
@@ -33,14 +28,19 @@
      "pubDate": "Sun, 06 Sep 2026 05:31:00 +0900"
     },
     {
-     "title": "悠仁さま 20歳の誕生日",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48356",
-     "pubDate": "Sun, 06 Sep 2026 00:00:40 +0900"
+     "title": "台風24号 秋雨前線 熱帯低気圧 大雨続くおそれ 今後の見通しは",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48255",
+     "pubDate": "Sun, 06 Sep 2026 09:13:49 +0900"
     },
     {
-     "title": "ネパール土石流 トンネルから新たに1人が救助 さらなる捜索へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48379",
-     "pubDate": "Sun, 06 Sep 2026 06:41:36 +0900"
+     "title": "悠仁さま 20歳の誕生日",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48356",
+     "pubDate": "Sun, 06 Sep 2026 00:00:00 +0900"
+    },
+    {
+     "title": "村上宗隆 今季30号ホームラン 大リーグ1年目の日本選手で初",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48402",
+     "pubDate": "Sun, 06 Sep 2026 09:52:00 +0900"
     }
    ]
   },
@@ -50,19 +50,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "【動画】Pickup NEWS（9月6日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48361",
+     "pubDate": "Sun, 06 Sep 2026 08:07:51 +0900"
+    },
+    {
      "title": "戦時中の複写装置発見 旧陸軍「登戸研究所」が発注し製造か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48380",
-     "pubDate": "Sun, 06 Sep 2026 06:26:56 +0900"
+     "pubDate": "Sun, 06 Sep 2026 06:26:00 +0900"
     },
     {
      "title": "岐阜の洋菓子店で火事 2人死亡3人搬送 事件巻き込まれたか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48383",
-     "pubDate": "Sun, 06 Sep 2026 04:18:46 +0900"
+     "pubDate": "Sun, 06 Sep 2026 04:18:00 +0900"
     },
     {
      "title": "悠仁さま 20歳の誕生日",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48356",
-     "pubDate": "Sun, 06 Sep 2026 00:00:40 +0900"
+     "pubDate": "Sun, 06 Sep 2026 00:00:00 +0900"
     },
     {
      "title": "静岡 牧之原 通園バス置き去り事件から4年 遺族ら献花",
@@ -118,11 +123,6 @@
      "title": "「第3号被保険者制度」対象縮小に向け課題整理へ 厚労省検討会",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48208",
      "pubDate": "Fri, 04 Sep 2026 19:51:42 +0900"
-    },
-    {
-     "title": "「アンダーパス」事前通行止めへ 千葉豪雨受け全国6か所で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260904de48209",
-     "pubDate": "Fri, 04 Sep 2026 19:42:30 +0900"
     }
    ]
   },
@@ -216,7 +216,7 @@
     {
      "title": "プーチン大統領 トランプ大統領特使らとウクライナ情勢で会談",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48381",
-     "pubDate": "Sun, 06 Sep 2026 06:57:43 +0900"
+     "pubDate": "Sun, 06 Sep 2026 06:57:00 +0900"
     },
     {
      "title": "米軍 イラン石油タンカー3隻を攻撃 艦艇へのミサイル発射受け",
@@ -226,7 +226,7 @@
     {
      "title": "ネパール土石流 トンネルから新たに1人が救助 さらなる捜索へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48379",
-     "pubDate": "Sun, 06 Sep 2026 06:41:36 +0900"
+     "pubDate": "Sun, 06 Sep 2026 06:41:00 +0900"
     },
     {
      "title": "ドイツ州議会選挙投票へ 「極右」政党が第1党か 抗議デモも",
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "東京・八丈町で大雨 1時間110ミリ",
-     "link": "https://news.yahoo.co.jp/pickup/6594374?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 22:39:12 GMT"
+     "title": "東海や関東 滝のような雨の恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6594381?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 23:39:32 GMT"
     },
     {
-     "title": "29年に中低所得者へ現金給付検討",
-     "link": "https://news.yahoo.co.jp/pickup/6594335?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 10:29:58 GMT"
+     "title": "米軍 イランのタンカー3隻攻撃",
+     "link": "https://news.yahoo.co.jp/pickup/6594378?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 23:17:27 GMT"
     },
     {
-     "title": "悠仁さま20歳 成年皇族の歩み進め",
-     "link": "https://news.yahoo.co.jp/pickup/6594366?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 15:30:05 GMT"
+     "title": "電子図書館 全国自治体3割超導入",
+     "link": "https://news.yahoo.co.jp/pickup/6594388?source=rss",
+     "pubDate": "Sun, 06 Sep 2026 00:31:03 GMT"
     },
     {
-     "title": "ケーキ店で放火か 2人死亡3人搬送",
-     "link": "https://news.yahoo.co.jp/pickup/6594367?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 21:08:16 GMT"
+     "title": "ケーキ店火災 人が刺されたと通報",
+     "link": "https://news.yahoo.co.jp/pickup/6594380?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 23:31:35 GMT"
     },
     {
-     "title": "ベルトコンベアに巻き込まれ 重体",
-     "link": "https://news.yahoo.co.jp/pickup/6594356?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 13:23:49 GMT"
+     "title": "乗っていた車の下敷きか 男性死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6594377?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 23:09:24 GMT"
     },
     {
-     "title": "くら寿司コラボ中止 従業員が不正",
-     "link": "https://news.yahoo.co.jp/pickup/6594359?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 13:39:27 GMT"
+     "title": "子供の「憧れの島」佐渡島が話題",
+     "link": "https://news.yahoo.co.jp/pickup/6594391?source=rss",
+     "pubDate": "Sun, 06 Sep 2026 00:37:16 GMT"
+    },
+    {
+     "title": "村上30号 日本選手新人で初の偉業",
+     "link": "https://news.yahoo.co.jp/pickup/6594382?source=rss",
+     "pubDate": "Sat, 05 Sep 2026 23:56:09 GMT"
     },
     {
      "title": "広島監督の長男 プロ志望届提出へ",
      "link": "https://news.yahoo.co.jp/pickup/6594369?source=rss",
      "pubDate": "Sat, 05 Sep 2026 22:17:41 GMT"
-    },
-    {
-     "title": "大谷3戦連続スタメン外 移籍後初",
-     "link": "https://news.yahoo.co.jp/pickup/6594368?source=rss",
-     "pubDate": "Sat, 05 Sep 2026 22:13:07 GMT"
     }
    ]
   }
