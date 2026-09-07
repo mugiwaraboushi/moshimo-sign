@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-07T00:37:08.730Z",
+ "updatedAt": "2026-09-07T05:20:32.772Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "東京 新島村に土砂災害特別警報 大雨の範囲は東北にも広がる",
+     "title": "新島村と大島町に土砂災害特別警報 命助かる可能性高い行動を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260907de48631",
-     "pubDate": "Mon, 07 Sep 2026 08:59:52 +0900"
+     "pubDate": "Mon, 07 Sep 2026 13:02:58 +0900"
     },
     {
-     "title": "東北新幹線 上下線とも運転再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48699",
-     "pubDate": "Mon, 07 Sep 2026 08:45:00 +0900"
+     "title": "伊豆諸島 大島町内全域に緊急安全確保",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48778",
+     "pubDate": "Mon, 07 Sep 2026 13:49:58 +0900"
     },
     {
-     "title": "大雨交通影響 7日は山手線など本数減 運休区間も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48452",
-     "pubDate": "Mon, 07 Sep 2026 06:50:57 +0900"
+     "title": "【被害】福島 いわき アンダーパスで浸水した車の女性死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48714",
+     "pubDate": "Mon, 07 Sep 2026 13:46:31 +0900"
     },
     {
-     "title": "3人死亡火事は同級生の集まりで発生か 会社役員関与の可能性も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48555",
-     "pubDate": "Mon, 07 Sep 2026 04:07:00 +0900"
+     "title": "日本製紙八代工場の火災 ドローンなどで現場状況詳しく調べる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48754",
+     "pubDate": "Mon, 07 Sep 2026 13:57:00 +0900"
     },
     {
-     "title": "「ドイツのための選択肢」州議選で第1党確実 単独過半数焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48669",
-     "pubDate": "Mon, 07 Sep 2026 07:38:04 +0900"
+     "title": "3人死亡火事 会社役員 建物駐車場の車内で見つかる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48752",
+     "pubDate": "Mon, 07 Sep 2026 12:26:00 +0900"
     },
     {
-     "title": "ネパール土石流 中国がチベット側被災地を外国メディアに公開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48626",
-     "pubDate": "Mon, 07 Sep 2026 06:32:00 +0900"
+     "title": "土地の仕入れ装い脱税か 不動産管理会社を告発 東京国税局",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48756",
+     "pubDate": "Mon, 07 Sep 2026 12:58:00 +0900"
     },
     {
-     "title": "メッツ 千賀 9回にリリーフ登板し無失点で6セーブ目",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48692",
-     "pubDate": "Mon, 07 Sep 2026 08:59:33 +0900"
+     "title": "【動画】赤羽駅が混雑 大雨影響で一時本数減らし運行",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48710",
+     "pubDate": "Mon, 07 Sep 2026 12:08:24 +0900"
     }
    ]
   },
@@ -50,9 +50,44 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "東北新幹線 上下線とも運転再開",
+     "title": "日本製紙八代工場の火災 ドローンなどで現場状況詳しく調べる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48754",
+     "pubDate": "Mon, 07 Sep 2026 13:57:00 +0900"
+    },
+    {
+     "title": "土地の仕入れ装い脱税か 不動産管理会社を告発 東京国税局",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48756",
+     "pubDate": "Mon, 07 Sep 2026 12:58:00 +0900"
+    },
+    {
+     "title": "3人死亡火事 会社役員 建物駐車場の車内で見つかる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48752",
+     "pubDate": "Mon, 07 Sep 2026 12:26:00 +0900"
+    },
+    {
+     "title": "金沢市が大雨の被災自治体から災害廃棄物を受け入れ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48751",
+     "pubDate": "Mon, 07 Sep 2026 12:13:53 +0900"
+    },
+    {
+     "title": "【動画】赤羽駅が混雑 大雨影響で一時本数減らし運行",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48710",
+     "pubDate": "Mon, 07 Sep 2026 12:08:24 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（9月7日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48501",
+     "pubDate": "Mon, 07 Sep 2026 13:56:03 +0900"
+    },
+    {
+     "title": "【被害】福島 いわき アンダーパスで浸水した車の女性死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48714",
+     "pubDate": "Mon, 07 Sep 2026 13:46:31 +0900"
+    },
+    {
+     "title": "東北新幹線で人身事故 女性死亡 運転見合わせ約2時間半で再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260907de48699",
-     "pubDate": "Mon, 07 Sep 2026 08:45:00 +0900"
+     "pubDate": "Mon, 07 Sep 2026 11:41:46 +0900"
     },
     {
      "title": "東北新幹線 人身事故で運転見合わせ 東京と仙台の間 上下線",
@@ -67,7 +102,7 @@
     {
      "title": "クビアカツヤカミキリ 環境省が対策強化へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48524",
-     "pubDate": "Mon, 07 Sep 2026 05:50:02 +0900"
+     "pubDate": "Mon, 07 Sep 2026 05:50:00 +0900"
     },
     {
      "title": "3人死亡火事は同級生の集まりで発生か 会社役員関与の可能性も",
@@ -88,41 +123,6 @@
      "title": "福井 記録的大雨から1週間 ボランティアが活動 農産物の被害も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48468",
      "pubDate": "Sun, 06 Sep 2026 18:29:06 +0900"
-    },
-    {
-     "title": "温風で文化財害虫駆除 日光東照宮の重要文化財建物で効果確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48400",
-     "pubDate": "Sun, 06 Sep 2026 15:16:00 +0900"
-    },
-    {
-     "title": "悠仁さま 20歳の誕生日 天皇皇后両陛下にあいさつ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48437",
-     "pubDate": "Sun, 06 Sep 2026 13:40:00 +0900"
-    },
-    {
-     "title": "大雨被害のJR七尾線が全線で運転再開 石川",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48425",
-     "pubDate": "Sun, 06 Sep 2026 13:17:00 +0900"
-    },
-    {
-     "title": "岐阜 洋菓子店火事3人死亡「人が刺されガソリンまかれた」通報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48427",
-     "pubDate": "Sun, 06 Sep 2026 19:32:23 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（9月6日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48361",
-     "pubDate": "Sun, 06 Sep 2026 19:49:06 +0900"
-    },
-    {
-     "title": "戦時中の複写装置発見 旧陸軍「登戸研究所」が発注し製造か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48380",
-     "pubDate": "Sun, 06 Sep 2026 06:26:00 +0900"
-    },
-    {
-     "title": "岐阜の洋菓子店で火事 2人死亡3人搬送 事件巻き込まれたか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48383",
-     "pubDate": "Sun, 06 Sep 2026 04:18:00 +0900"
     }
    ]
   },
@@ -149,7 +149,7 @@
     {
      "title": "ベネチア国際映画祭 塚本晋也監督の映画が公式上映",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48291",
-     "pubDate": "Sat, 05 Sep 2026 12:45:55 +0900"
+     "pubDate": "Sat, 05 Sep 2026 12:45:00 +0900"
     },
     {
      "title": "星新一さん自筆のSFみつかる 初期の未発表作品か",
@@ -214,14 +214,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "「ドイツのための選択肢」州議選で第1党確実 単独過半数焦点",
+     "title": "北朝鮮 キム総書記 新型駆逐艦の就役式で海軍力強化強調",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48725",
+     "pubDate": "Mon, 07 Sep 2026 11:12:30 +0900"
+    },
+    {
+     "title": "米アマゾン貨物機オーバーランし複数の車両に衝突 5人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48713",
+     "pubDate": "Mon, 07 Sep 2026 10:25:29 +0900"
+    },
+    {
+     "title": "「ドイツのための選択肢」州議選で第１党 単独過半数は届かず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260907de48669",
-     "pubDate": "Mon, 07 Sep 2026 07:38:04 +0900"
+     "pubDate": "Mon, 07 Sep 2026 07:38:00 +0900"
     },
     {
      "title": "イランが米に報復主張 ホルムズ海峡周辺で緊張続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260907de48600",
-     "pubDate": "Mon, 07 Sep 2026 07:16:07 +0900"
+     "pubDate": "Mon, 07 Sep 2026 11:24:17 +0900"
     },
     {
      "title": "ネパール土石流 中国がチベット側被災地を外国メディアに公開",
@@ -277,16 +287,6 @@
      "title": "ドイツ州議会選挙投票へ 「極右」政党が第1党か 抗議デモも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260906de48382",
      "pubDate": "Sun, 06 Sep 2026 06:06:50 +0900"
-    },
-    {
-     "title": "イギリスで支持伸ばす右派政党“政権とれば不法移民止める”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48375",
-     "pubDate": "Sun, 06 Sep 2026 05:55:10 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（9月5日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46973",
-     "pubDate": "Sat, 05 Sep 2026 21:09:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "活発な雨雲 関東や東北で大雨警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6594495?source=rss",
-     "pubDate": "Sun, 06 Sep 2026 23:44:01 GMT"
+     "title": "命守る行動を 大島町に特別警報",
+     "link": "https://news.yahoo.co.jp/pickup/6594529?source=rss",
+     "pubDate": "Mon, 07 Sep 2026 04:00:37 GMT"
     },
     {
-     "title": "東京・新島村に特別警報 最新情報",
-     "link": "https://news.yahoo.co.jp/pickup/6594482?source=rss",
-     "pubDate": "Sun, 06 Sep 2026 20:35:37 GMT"
+     "title": "大島町と新島村 特別警報最新情報",
+     "link": "https://news.yahoo.co.jp/pickup/6594526?source=rss",
+     "pubDate": "Mon, 07 Sep 2026 03:44:50 GMT"
     },
     {
-     "title": "米特使 ウ訪問し新和平案を提示",
-     "link": "https://news.yahoo.co.jp/pickup/6594493?source=rss",
-     "pubDate": "Sun, 06 Sep 2026 23:39:01 GMT"
+     "title": "アンダーパスで車水没 1人死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6594525?source=rss",
+     "pubDate": "Mon, 07 Sep 2026 03:44:20 GMT"
     },
     {
-     "title": "沖縄知事選は古謝氏が先行 読売",
-     "link": "https://news.yahoo.co.jp/pickup/6594486?source=rss",
-     "pubDate": "Sun, 06 Sep 2026 22:12:43 GMT"
+     "title": "ケーキ店火災 死亡男性招かれずか",
+     "link": "https://news.yahoo.co.jp/pickup/6594515?source=rss",
+     "pubDate": "Mon, 07 Sep 2026 03:15:14 GMT"
     },
     {
-     "title": "新宿区の民泊 住宅地の営業禁止へ",
-     "link": "https://news.yahoo.co.jp/pickup/6594497?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 00:13:21 GMT"
+     "title": "3党合流見送り 中道・野田氏謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6594528?source=rss",
+     "pubDate": "Mon, 07 Sep 2026 04:01:54 GMT"
     },
     {
-     "title": "監督辞任 阿部慎之助氏が騒動語る",
-     "link": "https://news.yahoo.co.jp/pickup/6594498?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 00:10:32 GMT"
+     "title": "OpenAI 独でのAI「暴走」認める",
+     "link": "https://news.yahoo.co.jp/pickup/6594531?source=rss",
+     "pubDate": "Mon, 07 Sep 2026 04:38:31 GMT"
     },
     {
-     "title": "中田翔氏 数億円を自腹で野球施設",
-     "link": "https://news.yahoo.co.jp/pickup/6594491?source=rss",
-     "pubDate": "Sun, 06 Sep 2026 22:49:14 GMT"
+     "title": "俳優・品川徹さん死去 90歳",
+     "link": "https://news.yahoo.co.jp/pickup/6594532?source=rss",
+     "pubDate": "Mon, 07 Sep 2026 04:24:49 GMT"
     },
     {
-     "title": "坂口ら主演級俳優の結婚相次ぐ",
-     "link": "https://news.yahoo.co.jp/pickup/6594489?source=rss",
-     "pubDate": "Sun, 06 Sep 2026 22:50:26 GMT"
+     "title": "VIVANT放送 2週休止はピンチか",
+     "link": "https://news.yahoo.co.jp/pickup/6594527?source=rss",
+     "pubDate": "Mon, 07 Sep 2026 04:02:13 GMT"
     }
    ]
   }
