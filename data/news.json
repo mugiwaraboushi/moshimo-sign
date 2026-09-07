@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-07T20:01:58.115Z",
+ "updatedAt": "2026-09-07T22:53:51.853Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "伊豆諸島北部 レベル5特別警報をレベル4危険警報に切り替え",
+     "title": "伊豆諸島の特別警報は危険警報に 東海は線状降水帯可能性も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48909",
-     "pubDate": "Tue, 08 Sep 2026 04:23:32 +0900"
+     "pubDate": "Tue, 08 Sep 2026 06:48:41 +0900"
     },
     {
      "title": "岐阜 洋菓子店3人死亡の放火疑い事件 “死亡役員が関与”証言",
@@ -18,29 +18,29 @@
      "pubDate": "Tue, 08 Sep 2026 04:35:36 +0900"
     },
     {
-     "title": "EU グリーンランドに2億ユーロ投資発表 関係強化がねらい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48905",
-     "pubDate": "Tue, 08 Sep 2026 04:48:45 +0900"
+     "title": "中国 日本製半導体関連物質をダンピング認定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48891",
+     "pubDate": "Tue, 08 Sep 2026 06:09:22 +0900"
     },
     {
-     "title": "日野町事件 有罪主張の証拠 取り調べないことで見解一致",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48866",
-     "pubDate": "Mon, 07 Sep 2026 21:50:45 +0900"
+     "title": "無人機対策 ウクライナで漁業用網の再利用進む",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48908",
+     "pubDate": "Tue, 08 Sep 2026 05:01:08 +0900"
     },
     {
-     "title": "日本製紙八代工場火災 作業員「鉄柱切断中に想定以上の火花」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48855",
-     "pubDate": "Mon, 07 Sep 2026 20:29:09 +0900"
+     "title": "金融庁 超長期の住宅ローン審査を重点的にモニタリング",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48880",
+     "pubDate": "Tue, 08 Sep 2026 06:30:01 +0900"
     },
     {
-     "title": "横浜市 山中市長の辞職 市議会が同意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48811",
-     "pubDate": "Mon, 07 Sep 2026 19:22:46 +0900"
+     "title": "ドイツ州議選 メルツ首相 州政府成立に協力しない姿勢強調",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48914",
+     "pubDate": "Tue, 08 Sep 2026 05:11:54 +0900"
     },
     {
-     "title": "「ドイツのための選択肢」州議選で第１党 過半数は届かず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48669",
-     "pubDate": "Mon, 07 Sep 2026 21:41:11 +0900"
+     "title": "自民党役員人事と内閣改造 来週にも実施で調整 国会審議備え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48893",
+     "pubDate": "Tue, 08 Sep 2026 05:44:38 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "家賃保証会社の社員を刺し大けがさせた疑い 66歳住人を逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48903",
+     "pubDate": "Tue, 08 Sep 2026 06:42:20 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（9月8日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48851",
+     "pubDate": "Tue, 08 Sep 2026 06:34:18 +0900"
+    },
+    {
+     "title": "千葉県内のJR一部区間 大雨で始発から運転見合わせ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48917",
+     "pubDate": "Tue, 08 Sep 2026 06:16:33 +0900"
+    },
     {
      "title": "岐阜 洋菓子店3人死亡の放火疑い事件 “死亡役員が関与”証言",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48888",
@@ -108,21 +123,6 @@
      "title": "金沢市が大雨の被災自治体から災害廃棄物を受け入れ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260907de48751",
      "pubDate": "Mon, 07 Sep 2026 12:13:53 +0900"
-    },
-    {
-     "title": "【動画】赤羽駅が混雑 大雨影響で一時本数減らし運行",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48710",
-     "pubDate": "Mon, 07 Sep 2026 12:08:24 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（9月7日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48501",
-     "pubDate": "Mon, 07 Sep 2026 19:36:08 +0900"
-    },
-    {
-     "title": "【被害】福島 いわき アンダーパスで水没した車の女性死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48714",
-     "pubDate": "Mon, 07 Sep 2026 19:30:13 +0900"
     }
    ]
   },
@@ -214,6 +214,26 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "航空機リース事業に熱視線 旅行客増や中東情勢背景に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48897",
+     "pubDate": "Tue, 08 Sep 2026 06:25:56 +0900"
+    },
+    {
+     "title": "中国 日本製半導体関連物質をダンピング認定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48891",
+     "pubDate": "Tue, 08 Sep 2026 06:09:22 +0900"
+    },
+    {
+     "title": "ロシアと北朝鮮を結ぶ初の車両用の橋が完成",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48892",
+     "pubDate": "Tue, 08 Sep 2026 05:38:59 +0900"
+    },
+    {
+     "title": "ドイツ州議選 メルツ首相 州政府成立に協力しない姿勢強調",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48914",
+     "pubDate": "Tue, 08 Sep 2026 05:11:54 +0900"
+    },
+    {
      "title": "無人機対策 ウクライナで漁業用網の再利用進む",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48908",
      "pubDate": "Tue, 08 Sep 2026 05:01:08 +0900"
@@ -267,26 +287,6 @@
      "title": "北朝鮮 キム総書記 新型駆逐艦の就役式で海軍力強化強調",
      "link": "https://news.web.nhk/newsweb/na/nd-20260907de48725",
      "pubDate": "Mon, 07 Sep 2026 11:12:00 +0900"
-    },
-    {
-     "title": "米アマゾン貨物機オーバーランし複数の車両に衝突 5人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48713",
-     "pubDate": "Mon, 07 Sep 2026 10:25:29 +0900"
-    },
-    {
-     "title": "「ドイツのための選択肢」州議選で第１党 過半数は届かず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48669",
-     "pubDate": "Mon, 07 Sep 2026 21:41:11 +0900"
-    },
-    {
-     "title": "イランが米に報復主張 ホルムズ海峡周辺で緊張続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48600",
-     "pubDate": "Mon, 07 Sep 2026 19:26:19 +0900"
-    },
-    {
-     "title": "ネパール土石流 中国がチベット側被災地を外国メディアに公開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48626",
-     "pubDate": "Mon, 07 Sep 2026 06:32:00 +0900"
     }
    ]
   },
@@ -296,19 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "伊豆諸島 土砂災害危険警報に切替",
-     "link": "https://news.yahoo.co.jp/pickup/6594594?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 19:31:31 GMT"
+     "title": "四国-東北南部で大雨恐れ 警戒を",
+     "link": "https://news.yahoo.co.jp/pickup/6594599?source=rss",
+     "pubDate": "Mon, 07 Sep 2026 22:18:18 GMT"
     },
     {
-     "title": "秋雨前線停滞 油断できぬ状況続く",
-     "link": "https://news.yahoo.co.jp/pickup/6594589?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 14:15:10 GMT"
-    },
-    {
-     "title": "景気拡大期 戦後最長超えの公算大",
-     "link": "https://news.yahoo.co.jp/pickup/6594592?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 14:53:25 GMT"
+     "title": "小林鷹之政調会長留任へ 首相意向",
+     "link": "https://news.yahoo.co.jp/pickup/6594595?source=rss",
+     "pubDate": "Mon, 07 Sep 2026 21:10:07 GMT"
     },
     {
      "title": "6歳男児が行方不明 足どりは",
@@ -316,14 +311,14 @@
      "pubDate": "Mon, 07 Sep 2026 13:40:56 GMT"
     },
     {
-     "title": "不採用者を匿流に紹介疑い 再逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6594585?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 13:25:19 GMT"
+     "title": "金利上昇 住宅ローン返済者ら悩み",
+     "link": "https://news.yahoo.co.jp/pickup/6594597?source=rss",
+     "pubDate": "Mon, 07 Sep 2026 21:48:02 GMT"
     },
     {
-     "title": "新米出回り コメさらに値下がりか",
-     "link": "https://news.yahoo.co.jp/pickup/6594538?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 05:41:58 GMT"
+     "title": "マンガの言葉 データベース整備へ",
+     "link": "https://news.yahoo.co.jp/pickup/6594596?source=rss",
+     "pubDate": "Mon, 07 Sep 2026 21:29:53 GMT"
     },
     {
      "title": "メルカリ くら寿司の騒動巡り言及",
@@ -331,9 +326,14 @@
      "pubDate": "Mon, 07 Sep 2026 13:19:21 GMT"
     },
     {
-     "title": "Aimer 出産&事務所退所を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6594577?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 11:50:55 GMT"
+     "title": "大谷5戦ぶりにスタメン 監督発表",
+     "link": "https://news.yahoo.co.jp/pickup/6594598?source=rss",
+     "pubDate": "Mon, 07 Sep 2026 22:23:11 GMT"
+    },
+    {
+     "title": "唐田えりか 映画で韓国人役演じる",
+     "link": "https://news.yahoo.co.jp/pickup/6594602?source=rss",
+     "pubDate": "Mon, 07 Sep 2026 22:46:54 GMT"
     }
    ]
   }
