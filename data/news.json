@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-08T13:56:37.694Z",
+ "updatedAt": "2026-09-08T17:40:15.370Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,29 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【大雨】名古屋 帰宅困難者多数 バスを待つ長い列も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49150",
-     "pubDate": "Tue, 08 Sep 2026 21:39:00 +0900"
-    },
-    {
-     "title": "山梨 甲府市と昭和町で道路の冠水などの通報相次ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49172",
-     "pubDate": "Tue, 08 Sep 2026 22:26:33 +0900"
-    },
-    {
-     "title": "大雨 関東の鉄道にも影響 高速道路は9日以降に通行止めも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49176",
-     "pubDate": "Tue, 08 Sep 2026 22:32:44 +0900"
-    },
-    {
-     "title": "庄内川 レベル5氾濫特別警報 ほかの地域も線状降水帯おそれ",
+     "title": "庄内川「レベル2氾濫注意報」に 今後も各地で線状降水帯おそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48909",
-     "pubDate": "Tue, 08 Sep 2026 21:48:35 +0900"
+     "pubDate": "Wed, 09 Sep 2026 01:17:44 +0900"
     },
     {
-     "title": "【動画】大雨で道路冠水や地下鉄駅の浸水 被害状況は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49034",
-     "pubDate": "Tue, 08 Sep 2026 21:15:57 +0900"
+     "title": "【動画】東京 武蔵野 吉祥寺の住宅街で道路が冠水",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49183",
+     "pubDate": "Tue, 08 Sep 2026 23:50:03 +0900"
+    },
+    {
+     "title": "【動画】名古屋 千種区 道路一面に茶色い水 急な流れも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49141",
+     "pubDate": "Tue, 08 Sep 2026 22:35:05 +0900"
+    },
+    {
+     "title": "名古屋 市内の全市立学校と幼稚園 9日は休校・休園に 大雨影響",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49182",
+     "pubDate": "Tue, 08 Sep 2026 23:12:13 +0900"
     },
     {
      "title": "自民党役員人事 内閣改造 早ければ来週16日 17日にも実施へ",
@@ -41,6 +36,11 @@
      "title": "岐阜 洋菓子店3人死亡事件“役員が戻ってきて男性刺した”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de49153",
      "pubDate": "Tue, 08 Sep 2026 21:33:58 +0900"
+    },
+    {
+     "title": "UNDP＝国連開発計画“アフガニスタンの女性への支援継続を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49131",
+     "pubDate": "Tue, 08 Sep 2026 20:43:06 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "庄内川のレベル5氾濫特別警報をレベル2氾濫注意報に切り替え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49184",
+     "pubDate": "Wed, 09 Sep 2026 00:44:00 +0900"
+    },
     {
      "title": "名古屋市西区の女性殺害事件 民事裁判始まる 被告側は争う姿勢",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de49146",
@@ -118,11 +123,6 @@
      "title": "7月の実質賃金 前年同月比2.4％増 7か月連続プラス",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48898",
      "pubDate": "Tue, 08 Sep 2026 14:04:16 +0900"
-    },
-    {
-     "title": "家賃保証会社の社員を刺し大けがさせた疑い 66歳住人を逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48903",
-     "pubDate": "Tue, 08 Sep 2026 06:42:20 +0900"
     }
    ]
   },
@@ -284,9 +284,9 @@
      "pubDate": "Tue, 08 Sep 2026 14:49:33 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月8日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（9月8日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de46985",
-     "pubDate": "Tue, 08 Sep 2026 18:59:58 +0900"
+     "pubDate": "Tue, 08 Sep 2026 18:59:00 +0900"
     }
    ]
   },
@@ -296,19 +296,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "愛知岐阜で氾濫特別警報 最新情報",
-     "link": "https://news.yahoo.co.jp/pickup/6594681?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 11:25:18 GMT"
-    },
-    {
-     "title": "気象庁「直ちに身の安全確保を」",
-     "link": "https://news.yahoo.co.jp/pickup/6594683?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 12:24:38 GMT"
-    },
-    {
-     "title": "名古屋の1時間雨量 観測史上最大",
-     "link": "https://news.yahoo.co.jp/pickup/6594677?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 10:52:48 GMT"
+     "title": "愛知・岐阜の庄内川 氾濫注意報に",
+     "link": "https://news.yahoo.co.jp/pickup/6594689?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 15:52:50 GMT"
     },
     {
      "title": "大雨で大きく波打つ川 名古屋市",
@@ -321,14 +311,24 @@
      "pubDate": "Tue, 08 Sep 2026 12:19:31 GMT"
     },
     {
-     "title": "なぜ突然の円高に 背景と見通し",
-     "link": "https://news.yahoo.co.jp/pickup/6594665?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 10:53:51 GMT"
+     "title": "アンダーパス規制 対象拡大を検討",
+     "link": "https://news.yahoo.co.jp/pickup/6594691?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 16:08:30 GMT"
     },
     {
-     "title": "周東がランニング満塁弾 27年ぶり",
-     "link": "https://news.yahoo.co.jp/pickup/6594685?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 12:44:16 GMT"
+     "title": "園児から「しね」手紙 いじめ相当",
+     "link": "https://news.yahoo.co.jp/pickup/6594659?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 07:55:40 GMT"
+    },
+    {
+     "title": "日本3分野トップ OECD学力調査",
+     "link": "https://news.yahoo.co.jp/pickup/6594692?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 16:29:08 GMT"
+    },
+    {
+     "title": "10億円分当せん券が売れ残り 栃木",
+     "link": "https://news.yahoo.co.jp/pickup/6594688?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 14:25:31 GMT"
     },
     {
      "title": "松岡茉優 妊娠のみな実エスコート",
