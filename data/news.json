@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-08T00:46:01.090Z",
+ "updatedAt": "2026-09-08T05:23:39.289Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "伊豆諸島の特別警報は危険警報に 東海は線状降水帯可能性も",
+     "title": "関東と山梨県にも線状降水帯半日前予測",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48994",
+     "pubDate": "Tue, 08 Sep 2026 13:54:00 +0900"
+    },
+    {
+     "title": "大雨続く 東海と四国では線状降水帯発生の可能性も 警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48909",
-     "pubDate": "Tue, 08 Sep 2026 09:44:01 +0900"
+     "pubDate": "Tue, 08 Sep 2026 12:22:00 +0900"
     },
     {
-     "title": "岐阜 洋菓子店3人死亡の放火疑い事件 “死亡役員が関与”証言",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48888",
-     "pubDate": "Tue, 08 Sep 2026 04:35:00 +0900"
+     "title": "たけし軍団メンバー お笑い芸人のグレート義太夫さん死去",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48990",
+     "pubDate": "Tue, 08 Sep 2026 13:39:27 +0900"
     },
     {
-     "title": "ロシア ウクライナ和平でアメリカ交えた協議再開排除せず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48912",
-     "pubDate": "Tue, 08 Sep 2026 09:12:20 +0900"
+     "title": "岐阜 洋菓子店3人死亡事件 現場にガソリン携行缶 放火に使用か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48967",
+     "pubDate": "Tue, 08 Sep 2026 12:41:00 +0900"
     },
     {
-     "title": "円相場 値上がり 一時1ドル＝153円台に ことし2月以来",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48928",
-     "pubDate": "Tue, 08 Sep 2026 08:44:55 +0900"
+     "title": "自民役員会 党役員人事 高市首相に一任 来週にも人事行う方針",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48957",
+     "pubDate": "Tue, 08 Sep 2026 11:45:00 +0900"
     },
     {
-     "title": "4-6月のGDP改定値 年率＋1.4％ 上方修正",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48932",
-     "pubDate": "Tue, 08 Sep 2026 09:03:00 +0900"
+     "title": "台東区 民泊新規営業を住宅地などで認めない方針 来年1月から",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48960",
+     "pubDate": "Tue, 08 Sep 2026 12:34:00 +0900"
     },
     {
-     "title": "中国 日本製半導体関連物質をダンピング認定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48891",
-     "pubDate": "Tue, 08 Sep 2026 06:09:00 +0900"
-    },
-    {
-     "title": "ドイツ州議選 メルツ首相 州政府成立に協力しない姿勢強調",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48914",
-     "pubDate": "Tue, 08 Sep 2026 05:11:54 +0900"
+     "title": "7月の実質賃金 前年同月比2.4％増 7か月連続プラス",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48898",
+     "pubDate": "Tue, 08 Sep 2026 14:04:16 +0900"
     }
    ]
   },
@@ -50,9 +50,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "天皇陛下 皇居で稲刈り",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48978",
+     "pubDate": "Tue, 08 Sep 2026 13:59:40 +0900"
+    },
+    {
+     "title": "たけし軍団メンバー お笑い芸人のグレート義太夫さん死去",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48990",
+     "pubDate": "Tue, 08 Sep 2026 13:39:27 +0900"
+    },
+    {
+     "title": "岐阜 洋菓子店3人死亡事件 現場にガソリン携行缶 放火に使用か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48967",
+     "pubDate": "Tue, 08 Sep 2026 12:41:00 +0900"
+    },
+    {
+     "title": "台東区 民泊新規営業を住宅地などで認めない方針 来年1月から",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48960",
+     "pubDate": "Tue, 08 Sep 2026 12:34:00 +0900"
+    },
+    {
+     "title": "静岡 川根本町 工事現場で土砂崩れ 作業員1人巻き込まれる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48964",
+     "pubDate": "Tue, 08 Sep 2026 12:35:11 +0900"
+    },
+    {
+     "title": "秋篠宮ご夫妻 ノルウェー前国王の葬儀に出発",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48947",
+     "pubDate": "Tue, 08 Sep 2026 10:42:44 +0900"
+    },
+    {
      "title": "7月の実質賃金 前年同月比2.4％増 7か月連続プラス",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48898",
-     "pubDate": "Tue, 08 Sep 2026 09:30:30 +0900"
+     "pubDate": "Tue, 08 Sep 2026 14:04:16 +0900"
     },
     {
      "title": "家賃保証会社の社員を刺し大けがさせた疑い 66歳住人を逮捕",
@@ -62,7 +92,7 @@
     {
      "title": "【動画】Pickup NEWS（9月8日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260907de48851",
-     "pubDate": "Tue, 08 Sep 2026 06:34:18 +0900"
+     "pubDate": "Tue, 08 Sep 2026 13:43:48 +0900"
     },
     {
      "title": "千葉県内のJR一部区間 大雨で始発から運転見合わせ",
@@ -93,36 +123,6 @@
      "title": "鳥取 熱中症死亡事故 労働安全衛生法違反の疑いで書類送検",
      "link": "https://news.web.nhk/newsweb/na/nd-20260907de48859",
      "pubDate": "Mon, 07 Sep 2026 20:45:09 +0900"
-    },
-    {
-     "title": "日本製紙八代工場火災 作業員「鉄柱切断中に想定以上の火花」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48855",
-     "pubDate": "Mon, 07 Sep 2026 20:29:09 +0900"
-    },
-    {
-     "title": "黄川田こども相 ユーチューバーと面会 悩みある子ども声かけを",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48833",
-     "pubDate": "Mon, 07 Sep 2026 18:37:59 +0900"
-    },
-    {
-     "title": "札幌の病院 薬局設置めぐる入札妨害事件 最高裁で弁論",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48829",
-     "pubDate": "Mon, 07 Sep 2026 18:17:00 +0900"
-    },
-    {
-     "title": "日本製紙八代工場の火災 ドローンなどで現場状況詳しく調べる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48754",
-     "pubDate": "Mon, 07 Sep 2026 13:57:00 +0900"
-    },
-    {
-     "title": "土地の仕入れ装い脱税か 不動産管理会社を告発 東京国税局",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48756",
-     "pubDate": "Mon, 07 Sep 2026 12:58:00 +0900"
-    },
-    {
-     "title": "岐阜 洋菓子店放火疑い事件 警察が現場から複数の刃物押収",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48752",
-     "pubDate": "Mon, 07 Sep 2026 19:42:26 +0900"
     }
    ]
   },
@@ -214,6 +214,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "新イラン大使に森川徹氏 政府が閣議決定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48981",
+     "pubDate": "Tue, 08 Sep 2026 13:19:30 +0900"
+    },
+    {
+     "title": "トランプ大統領「ボンバルディア機販売禁止」カナダをけん制",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48956",
+     "pubDate": "Tue, 08 Sep 2026 11:50:17 +0900"
+    },
+    {
+     "title": "仏モンサンミシェルと厳島神社がある廿日市市が観光で交流",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48933",
+     "pubDate": "Tue, 08 Sep 2026 10:21:00 +0900"
+    },
+    {
      "title": "北朝鮮 国防相 日米韓の共同訓練を非難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48907",
      "pubDate": "Tue, 08 Sep 2026 09:17:08 +0900"
@@ -241,7 +256,7 @@
     {
      "title": "ドイツ州議選 メルツ首相 州政府成立に協力しない姿勢強調",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48914",
-     "pubDate": "Tue, 08 Sep 2026 05:11:54 +0900"
+     "pubDate": "Tue, 08 Sep 2026 05:11:00 +0900"
     },
     {
      "title": "無人機対策 ウクライナで漁業用網の再利用進む",
@@ -251,7 +266,7 @@
     {
      "title": "EU グリーンランドに2億ユーロ投資発表 関係強化がねらい",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48905",
-     "pubDate": "Tue, 08 Sep 2026 04:48:45 +0900"
+     "pubDate": "Tue, 08 Sep 2026 04:48:00 +0900"
     },
     {
      "title": "ネパール土石流 トンネル救助「ほかにも生存者の可能性」",
@@ -272,21 +287,6 @@
      "title": "日米韓3か国が共同訓練開始 連携を確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260907de48814",
      "pubDate": "Mon, 07 Sep 2026 16:29:00 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月7日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46984",
-     "pubDate": "Mon, 07 Sep 2026 16:24:05 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（9月6日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46983",
-     "pubDate": "Sun, 06 Sep 2026 18:05:00 +0900"
-    },
-    {
-     "title": "インドネシア噴火 国際空港は深夜再開の見通し",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48802",
-     "pubDate": "Mon, 07 Sep 2026 21:57:44 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "四国-東北南部で大雨恐れ 警戒を",
-     "link": "https://news.yahoo.co.jp/pickup/6594599?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 22:18:18 GMT"
+     "title": "東海 9日朝にかけ線状降水帯恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6594642?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 04:37:55 GMT"
     },
     {
-     "title": "維新 閣僚ポスト「1枠」を要求",
-     "link": "https://news.yahoo.co.jp/pickup/6594604?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 23:24:23 GMT"
+     "title": "車水没 市は通報3分前に水位把握",
+     "link": "https://news.yahoo.co.jp/pickup/6594631?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 03:30:44 GMT"
     },
     {
-     "title": "一時1ドル153円台 約半年ぶり水準",
-     "link": "https://news.yahoo.co.jp/pickup/6594610?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 00:01:36 GMT"
+     "title": "一時1ドル152円台 約半年ぶり水準",
+     "link": "https://news.yahoo.co.jp/pickup/6594633?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 03:08:53 GMT"
     },
     {
-     "title": "福岡の海岸に遺体 不明の大学生か",
-     "link": "https://news.yahoo.co.jp/pickup/6594611?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 00:23:22 GMT"
+     "title": "銀行の「個人マネー争奪戦」激化",
+     "link": "https://news.yahoo.co.jp/pickup/6594614?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 00:38:27 GMT"
     },
     {
-     "title": "英JLR 従業員4000人を削減へ",
-     "link": "https://news.yahoo.co.jp/pickup/6594613?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 00:15:14 GMT"
+     "title": "英国王 ヘンリー王子らは「私人」",
+     "link": "https://news.yahoo.co.jp/pickup/6594615?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 00:41:31 GMT"
     },
     {
-     "title": "親睦行事の駅伝で夫熱中症死 提訴",
-     "link": "https://news.yahoo.co.jp/pickup/6594601?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 22:52:47 GMT"
+     "title": "大谷 今季の投手復帰断念を明かす",
+     "link": "https://news.yahoo.co.jp/pickup/6594641?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 04:29:29 GMT"
     },
     {
-     "title": "早朝に窓叩く音 女性保護した母娘",
-     "link": "https://news.yahoo.co.jp/pickup/6594607?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 00:17:09 GMT"
+     "title": "岩佐真悠子氏 介護士としてCMに",
+     "link": "https://news.yahoo.co.jp/pickup/6594632?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 03:07:20 GMT"
     },
     {
-     "title": "唐田えりか 韓国人役で映画主演",
-     "link": "https://news.yahoo.co.jp/pickup/6594603?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 23:00:35 GMT"
+     "title": "義太夫さん 死去当日もブログ更新",
+     "link": "https://news.yahoo.co.jp/pickup/6594639?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 04:09:11 GMT"
     }
    ]
   }
