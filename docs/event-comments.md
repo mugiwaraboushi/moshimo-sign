@@ -65,6 +65,14 @@ Apps Script の左メニュー **プロジェクトの設定 → スクリプト
 さきほどのURLと `ADMIN_KEY` を入れて「保存してつなぐ」。
 上部の帯が「GASにつながっています」になれば成功。
 
+> **入れるのは `…/exec` で終わるURL。** ブラウザで `/exec` を開くと
+> `https://script.googleusercontent.com/macros/echo?user_content_key=…` に転送されるので、
+> **アドレスバーからコピーするとこの転送先を拾ってしまう。** これを入れると帯が
+> 「つなぎ先に届きません」のままになる (2026-09-08 に実際に起きた)。
+> 転送先のURLは最初のリクエスト1回ぶんを焼き付けた使い捨てのもので、`action` を
+> 付け替えても常に同じ応答しか返さないため、管理画面の `action=list` が通らない。
+> 正しいURLは Apps Script の「デプロイを管理」に表示されているもの。
+
 同じカードに**参加者用URLとQRコード**が出るので、それを会場で見せる。
 
 参加者用URLは `…/prototypes/event-comments/?role=post&gas=<デプロイID>` の形。
