@@ -1,11 +1,12 @@
 {
-  "topText": "OPEN",
+  "topText": "CLOSED",
   "mode": "dual",
   "brightness": 180,
   "speed": 45,
   "colorTop": "FF9C00",
   "colorScroll": "FF9C00",
   "messages": [
+    "雨が降っています 傘をお忘れなく",
     "ここは「もしも」 まちと未来の実験室",
     "東京科学大学と地域の人が出会って話す場所です",
     "シェア型書店＆ミニ図書館 一箱の棚主になれます",
