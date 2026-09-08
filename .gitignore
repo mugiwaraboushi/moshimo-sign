@@ -21,4 +21,7 @@ private/
 *.m4a
 *.mp3
 
+# 雨の見張りが「自分が入れた1行」を控えるファイル (実行した端末ごとの状態)
+.rain-line.json
+
 .DS_Store
