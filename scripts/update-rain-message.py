@@ -6,7 +6,8 @@
   python3 scripts/update-rain-message.py --dry-run  書き換えずに、どうなるかだけ出す
 
 出す文言は3通り:
-  降っている        「雨が降っています 傘をお忘れなく」
+  降っている        開いていれば「雨が降ってきました 雨宿りしていきませんか」
+                    閉まっていれば「雨が降っています 傘をお忘れなく」
   1時間以内に降る    「13:45ごろ 雨が降り出しそうです 傘をどうぞ」
   どちらでもない     行を出さない
 
@@ -27,13 +28,18 @@ rain = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(rain)
 
 
-def desired_line(lat, lon, zoom, lead_min):
-    """いま出すべき雨の1行。出す必要がなければ None。"""
+def desired_line(lat, lon, zoom, lead_min, is_open):
+    """いま出すべき雨の1行。出す必要がなければ None。
+
+    開いている間は「雨宿りしていきませんか」と誘い、閉まっている間は
+    傘の一言にする。閉まっているのに入れと言うのは案内として成り立たないため。
+    """
     obs = [t for t in rain.fetch(f"{rain.BASE}/targetTimes_N1.json")
            if t["validtime"] == t["basetime"]]
     latest = max(obs, key=lambda t: t["basetime"])
     if rain.intensity_at(latest["basetime"], latest["validtime"], lat, lon, zoom) > 0:
-        return "雨が降っています 傘をお忘れなく", "raining"
+        return ("雨が降ってきました 雨宿りしていきませんか" if is_open
+                else "雨が降っています 傘をお忘れなく"), "raining"
 
     obs_at = rain.to_jst(latest["basetime"])
     for t in sorted(rain.fetch(f"{rain.BASE}/targetTimes_N2.json"), key=lambda t: t["validtime"]):
@@ -57,7 +63,9 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
 
-    line, state = (None, "cleared") if a.clear else desired_line(a.lat, a.lon, a.zoom, a.lead_min)
+    is_open = json.loads(PLAYLIST.read_text(encoding="utf-8")).get("topText") == "OPEN"
+    line, state = ((None, "cleared") if a.clear
+                   else desired_line(a.lat, a.lon, a.zoom, a.lead_min, is_open))
 
     previous = None
     if os.path.exists(a.state):
