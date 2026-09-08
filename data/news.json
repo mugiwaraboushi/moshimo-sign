@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-07T22:53:51.853Z",
+ "updatedAt": "2026-09-08T00:46:01.090Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,37 +10,37 @@
     {
      "title": "伊豆諸島の特別警報は危険警報に 東海は線状降水帯可能性も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48909",
-     "pubDate": "Tue, 08 Sep 2026 06:48:41 +0900"
+     "pubDate": "Tue, 08 Sep 2026 09:44:01 +0900"
     },
     {
      "title": "岐阜 洋菓子店3人死亡の放火疑い事件 “死亡役員が関与”証言",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48888",
-     "pubDate": "Tue, 08 Sep 2026 04:35:36 +0900"
+     "pubDate": "Tue, 08 Sep 2026 04:35:00 +0900"
+    },
+    {
+     "title": "ロシア ウクライナ和平でアメリカ交えた協議再開排除せず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48912",
+     "pubDate": "Tue, 08 Sep 2026 09:12:20 +0900"
+    },
+    {
+     "title": "円相場 値上がり 一時1ドル＝153円台に ことし2月以来",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48928",
+     "pubDate": "Tue, 08 Sep 2026 08:44:55 +0900"
+    },
+    {
+     "title": "4-6月のGDP改定値 年率＋1.4％ 上方修正",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48932",
+     "pubDate": "Tue, 08 Sep 2026 09:03:00 +0900"
     },
     {
      "title": "中国 日本製半導体関連物質をダンピング認定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48891",
-     "pubDate": "Tue, 08 Sep 2026 06:09:22 +0900"
-    },
-    {
-     "title": "無人機対策 ウクライナで漁業用網の再利用進む",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48908",
-     "pubDate": "Tue, 08 Sep 2026 05:01:08 +0900"
-    },
-    {
-     "title": "金融庁 超長期の住宅ローン審査を重点的にモニタリング",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48880",
-     "pubDate": "Tue, 08 Sep 2026 06:30:01 +0900"
+     "pubDate": "Tue, 08 Sep 2026 06:09:00 +0900"
     },
     {
      "title": "ドイツ州議選 メルツ首相 州政府成立に協力しない姿勢強調",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48914",
      "pubDate": "Tue, 08 Sep 2026 05:11:54 +0900"
-    },
-    {
-     "title": "自民党役員人事と内閣改造 来週にも実施で調整 国会審議備え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48893",
-     "pubDate": "Tue, 08 Sep 2026 05:44:38 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "7月の実質賃金 前年同月比2.4％増 7か月連続プラス",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48898",
+     "pubDate": "Tue, 08 Sep 2026 09:30:30 +0900"
+    },
     {
      "title": "家賃保証会社の社員を刺し大けがさせた疑い 66歳住人を逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48903",
@@ -67,7 +72,7 @@
     {
      "title": "岐阜 洋菓子店3人死亡の放火疑い事件 “死亡役員が関与”証言",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48888",
-     "pubDate": "Tue, 08 Sep 2026 04:35:36 +0900"
+     "pubDate": "Tue, 08 Sep 2026 04:35:00 +0900"
     },
     {
      "title": "福島 アンダーパス冠水 ポンプ作動も川の水位上昇で排水進まず",
@@ -118,11 +123,6 @@
      "title": "岐阜 洋菓子店放火疑い事件 警察が現場から複数の刃物押収",
      "link": "https://news.web.nhk/newsweb/na/nd-20260907de48752",
      "pubDate": "Mon, 07 Sep 2026 19:42:26 +0900"
-    },
-    {
-     "title": "金沢市が大雨の被災自治体から災害廃棄物を受け入れ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48751",
-     "pubDate": "Mon, 07 Sep 2026 12:13:53 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "北朝鮮 国防相 日米韓の共同訓練を非難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48907",
+     "pubDate": "Tue, 08 Sep 2026 09:17:08 +0900"
+    },
+    {
+     "title": "ロシア ウクライナ和平でアメリカ交えた協議再開排除せず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48912",
+     "pubDate": "Tue, 08 Sep 2026 09:12:20 +0900"
+    },
+    {
      "title": "航空機リース事業に熱視線 旅行客増や中東情勢背景に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48897",
      "pubDate": "Tue, 08 Sep 2026 06:25:56 +0900"
@@ -221,7 +231,7 @@
     {
      "title": "中国 日本製半導体関連物質をダンピング認定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48891",
-     "pubDate": "Tue, 08 Sep 2026 06:09:22 +0900"
+     "pubDate": "Tue, 08 Sep 2026 06:09:00 +0900"
     },
     {
      "title": "ロシアと北朝鮮を結ぶ初の車両用の橋が完成",
@@ -277,16 +287,6 @@
      "title": "インドネシア噴火 国際空港は深夜再開の見通し",
      "link": "https://news.web.nhk/newsweb/na/nd-20260907de48802",
      "pubDate": "Mon, 07 Sep 2026 21:57:44 +0900"
-    },
-    {
-     "title": "オーストラリア 水の事故から子どもを守る教育",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260902de47746",
-     "pubDate": "Fri, 04 Sep 2026 12:36:00 +0900"
-    },
-    {
-     "title": "北朝鮮 キム総書記 新型駆逐艦の就役式で海軍力強化強調",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48725",
-     "pubDate": "Mon, 07 Sep 2026 11:12:00 +0900"
     }
    ]
   },
@@ -301,39 +301,39 @@
      "pubDate": "Mon, 07 Sep 2026 22:18:18 GMT"
     },
     {
-     "title": "小林鷹之政調会長留任へ 首相意向",
-     "link": "https://news.yahoo.co.jp/pickup/6594595?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 21:10:07 GMT"
+     "title": "維新 閣僚ポスト「1枠」を要求",
+     "link": "https://news.yahoo.co.jp/pickup/6594604?source=rss",
+     "pubDate": "Mon, 07 Sep 2026 23:24:23 GMT"
     },
     {
-     "title": "6歳男児が行方不明 足どりは",
-     "link": "https://news.yahoo.co.jp/pickup/6594588?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 13:40:56 GMT"
+     "title": "一時1ドル153円台 約半年ぶり水準",
+     "link": "https://news.yahoo.co.jp/pickup/6594610?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 00:01:36 GMT"
     },
     {
-     "title": "金利上昇 住宅ローン返済者ら悩み",
-     "link": "https://news.yahoo.co.jp/pickup/6594597?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 21:48:02 GMT"
+     "title": "福岡の海岸に遺体 不明の大学生か",
+     "link": "https://news.yahoo.co.jp/pickup/6594611?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 00:23:22 GMT"
     },
     {
-     "title": "マンガの言葉 データベース整備へ",
-     "link": "https://news.yahoo.co.jp/pickup/6594596?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 21:29:53 GMT"
+     "title": "英JLR 従業員4000人を削減へ",
+     "link": "https://news.yahoo.co.jp/pickup/6594613?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 00:15:14 GMT"
     },
     {
-     "title": "メルカリ くら寿司の騒動巡り言及",
-     "link": "https://news.yahoo.co.jp/pickup/6594581?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 13:19:21 GMT"
+     "title": "親睦行事の駅伝で夫熱中症死 提訴",
+     "link": "https://news.yahoo.co.jp/pickup/6594601?source=rss",
+     "pubDate": "Mon, 07 Sep 2026 22:52:47 GMT"
     },
     {
-     "title": "大谷5戦ぶりにスタメン 監督発表",
-     "link": "https://news.yahoo.co.jp/pickup/6594598?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 22:23:11 GMT"
+     "title": "早朝に窓叩く音 女性保護した母娘",
+     "link": "https://news.yahoo.co.jp/pickup/6594607?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 00:17:09 GMT"
     },
     {
-     "title": "唐田えりか 映画で韓国人役演じる",
-     "link": "https://news.yahoo.co.jp/pickup/6594602?source=rss",
-     "pubDate": "Mon, 07 Sep 2026 22:46:54 GMT"
+     "title": "唐田えりか 韓国人役で映画主演",
+     "link": "https://news.yahoo.co.jp/pickup/6594603?source=rss",
+     "pubDate": "Mon, 07 Sep 2026 23:00:35 GMT"
     }
    ]
   }
