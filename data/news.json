@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-08T20:22:31.618Z",
+ "updatedAt": "2026-09-08T22:46:49.170Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "東海で猛烈な雨 浸水被害も 各地で線状降水帯発生のおそれ",
+     "title": "大雨続く見込み 各地で線状降水帯発生のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49198",
-     "pubDate": "Wed, 09 Sep 2026 05:05:25 +0900"
+     "pubDate": "Wed, 09 Sep 2026 06:46:45 +0900"
     },
     {
-     "title": "名古屋 市内の全市立学校と幼稚園 9日は休校・休園に 大雨影響",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49182",
-     "pubDate": "Tue, 08 Sep 2026 23:12:13 +0900"
+     "title": "【動画】名古屋 大雨で道路冠水や地下鉄駅の浸水 被害状況は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49034",
+     "pubDate": "Wed, 09 Sep 2026 06:30:42 +0900"
     },
     {
      "title": "自民党役員人事と内閣改造 政権骨格維持 維新ポスト調整も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49187",
-     "pubDate": "Wed, 09 Sep 2026 04:55:58 +0900"
+     "pubDate": "Wed, 09 Sep 2026 04:55:00 +0900"
     },
     {
-     "title": "上智大生殺害放火事件 未解決のまま30年に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49178",
-     "pubDate": "Wed, 09 Sep 2026 05:15:59 +0900"
+     "title": "アメリカ 共和党が初めて中間選挙前に党大会開催へ 焦点は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49169",
+     "pubDate": "Wed, 09 Sep 2026 06:15:00 +0900"
     },
     {
-     "title": "米ロ首脳電話会談 米大統領 ウクライナでの戦闘早期終結に意欲",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49200",
-     "pubDate": "Wed, 09 Sep 2026 05:19:30 +0900"
+     "title": "大手金融グループ 個人向けサービス強化で預金獲得目指す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49205",
+     "pubDate": "Wed, 09 Sep 2026 06:29:32 +0900"
     },
     {
-     "title": "福岡県議会きょう開会 対策を確実に進められるかが焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49174",
-     "pubDate": "Wed, 09 Sep 2026 04:52:00 +0900"
+     "title": "“ハマスの奇襲攻撃 イスラエル首相に事前警告”報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49208",
+     "pubDate": "Wed, 09 Sep 2026 06:19:29 +0900"
     },
     {
-     "title": "熊本 八代 被害受けた井戸で復旧に向けた作業続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49089",
-     "pubDate": "Tue, 08 Sep 2026 20:14:10 +0900"
+     "title": "韓国国防省「ホルムズ海峡の情勢把握へ調査団」軍派遣準備か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49190",
+     "pubDate": "Wed, 09 Sep 2026 06:52:20 +0900"
     }
    ]
   },
@@ -50,9 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "【動画】Pickup NEWS（9月9日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49145",
+     "pubDate": "Wed, 09 Sep 2026 06:45:00 +0900"
+    },
+    {
      "title": "上智大生殺害放火事件 未解決のまま30年に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de49178",
-     "pubDate": "Wed, 09 Sep 2026 05:15:59 +0900"
+     "pubDate": "Wed, 09 Sep 2026 05:15:00 +0900"
     },
     {
      "title": "庄内川のレベル5氾濫特別警報をレベル2氾濫注意報に切り替え",
@@ -118,11 +123,6 @@
      "title": "静岡 川根本町 工事現場で土砂崩れ 作業員1人巻き込まれる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48964",
      "pubDate": "Tue, 08 Sep 2026 12:35:11 +0900"
-    },
-    {
-     "title": "秋篠宮ご夫妻 ノルウェー前国王の葬儀に出発",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48947",
-     "pubDate": "Tue, 08 Sep 2026 10:42:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "空港インフラの異常 AIで検知へ 国内19空港で実証実験",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49206",
+     "pubDate": "Wed, 09 Sep 2026 06:32:12 +0900"
+    },
     {
      "title": "世界文化賞にN響指揮者のヘルベルト・ブロムシュテットさんら",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de49076",
@@ -200,11 +205,6 @@
      "title": "「スター・ウォーズ」監督 ロサンゼルスに美術館創設し内覧会",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de47915",
      "pubDate": "Thu, 03 Sep 2026 12:02:00 +0900"
-    },
-    {
-     "title": "ベネチア国際映画祭開幕 最優秀賞競う部門に日本の2作品",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47885",
-     "pubDate": "Thu, 03 Sep 2026 06:40:00 +0900"
     }
    ]
   },
@@ -213,6 +213,41 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "ハンガリー ロシアの外交官10人に国外退去命じる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49213",
+     "pubDate": "Wed, 09 Sep 2026 07:38:19 +0900"
+    },
+    {
+     "title": "広島県の横田知事がロンドンで県産の日本酒とかきの魅力をPR",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49204",
+     "pubDate": "Wed, 09 Sep 2026 06:55:48 +0900"
+    },
+    {
+     "title": "韓国国防省「ホルムズ海峡の情勢把握へ調査団」軍派遣準備か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49190",
+     "pubDate": "Wed, 09 Sep 2026 06:52:20 +0900"
+    },
+    {
+     "title": "“ハマスの奇襲攻撃 イスラエル首相に事前警告”報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49208",
+     "pubDate": "Wed, 09 Sep 2026 06:19:29 +0900"
+    },
+    {
+     "title": "アメリカ 共和党が初めて中間選挙前に党大会開催へ 焦点は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49169",
+     "pubDate": "Wed, 09 Sep 2026 06:15:00 +0900"
+    },
+    {
+     "title": "韓国の美容医療アプリ 日本ユーザー約4万8000人の個人情報流出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49197",
+     "pubDate": "Wed, 09 Sep 2026 05:34:46 +0900"
+    },
+    {
+     "title": "ネパール土石流 発生から2週間 温暖化への対応求める声も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49138",
+     "pubDate": "Wed, 09 Sep 2026 05:31:00 +0900"
+    },
     {
      "title": "米ロ首脳電話会談 米大統領 ウクライナでの戦闘早期終結に意欲",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49200",
@@ -252,41 +287,6 @@
      "title": "UNDP＝国連開発計画“アフガニスタンの女性への支援継続を”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de49131",
      "pubDate": "Tue, 08 Sep 2026 20:43:06 +0900"
-    },
-    {
-     "title": "韓国サムスン電子が横浜に半導体研究拠点を設立",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49113",
-     "pubDate": "Tue, 08 Sep 2026 20:38:46 +0900"
-    },
-    {
-     "title": "中国 8月の輸出額25％増加 貿易黒字は拡大傾向続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49105",
-     "pubDate": "Tue, 08 Sep 2026 20:36:08 +0900"
-    },
-    {
-     "title": "国際学力調査 読解力中心に格差拡大か SNS 生成AI不適切使用で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49087",
-     "pubDate": "Tue, 08 Sep 2026 19:35:14 +0900"
-    },
-    {
-     "title": "世界文化賞にN響指揮者のヘルベルト・ブロムシュテットさんら",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49076",
-     "pubDate": "Tue, 08 Sep 2026 18:49:31 +0900"
-    },
-    {
-     "title": "ブルージェイズ岡本和真 29号ホームラン チームはサヨナラ負け",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49071",
-     "pubDate": "Tue, 08 Sep 2026 18:42:37 +0900"
-    },
-    {
-     "title": "土石流被害のネパールに300万ドルの緊急無償資金協力 茂木外相",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49052",
-     "pubDate": "Tue, 08 Sep 2026 17:38:18 +0900"
-    },
-    {
-     "title": "インドネシア 噴火影響で閉鎖の国際空港など再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49006",
-     "pubDate": "Tue, 08 Sep 2026 14:49:33 +0900"
     }
    ]
   },
@@ -296,24 +296,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "関東～四国で線状降水帯の恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6594693?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 21:06:02 GMT"
+    },
+    {
      "title": "愛知・岐阜の庄内川 氾濫注意報に",
      "link": "https://news.yahoo.co.jp/pickup/6594689?source=rss",
      "pubDate": "Tue, 08 Sep 2026 15:52:50 GMT"
     },
     {
-     "title": "大雨で大きく波打つ川 名古屋市",
-     "link": "https://news.yahoo.co.jp/pickup/6594678?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 11:13:21 GMT"
+     "title": "大雨 名古屋では多くの帰宅困難者",
+     "link": "https://news.yahoo.co.jp/pickup/6594694?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 21:14:03 GMT"
     },
     {
-     "title": "近畿9日昼前にかけ線状降水帯恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6594684?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 12:19:31 GMT"
-    },
-    {
-     "title": "アンダーパス規制 対象拡大を検討",
-     "link": "https://news.yahoo.co.jp/pickup/6594691?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 16:08:30 GMT"
+     "title": "元法相の陣内孝雄さん死去",
+     "link": "https://news.yahoo.co.jp/pickup/6594695?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 21:20:50 GMT"
     },
     {
      "title": "園児から「しね」手紙 いじめ相当",
@@ -321,19 +321,19 @@
      "pubDate": "Tue, 08 Sep 2026 07:55:40 GMT"
     },
     {
-     "title": "日本3分野トップ OECD学力調査",
-     "link": "https://news.yahoo.co.jp/pickup/6594692?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 16:29:08 GMT"
+     "title": "日ハム捕手・進藤「人生初」登板",
+     "link": "https://news.yahoo.co.jp/pickup/6594699?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 22:31:18 GMT"
     },
     {
-     "title": "10億円分当せん券が売れ残り 栃木",
-     "link": "https://news.yahoo.co.jp/pickup/6594688?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 14:25:31 GMT"
+     "title": "高橋藍が背面スパイク どよめき",
+     "link": "https://news.yahoo.co.jp/pickup/6594696?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 21:29:42 GMT"
     },
     {
-     "title": "松岡茉優 妊娠のみな実エスコート",
-     "link": "https://news.yahoo.co.jp/pickup/6594686?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 13:08:39 GMT"
+     "title": "ゼルダ時のオカリナ 11/5発売決定",
+     "link": "https://news.yahoo.co.jp/pickup/6594697?source=rss",
+     "pubDate": "Tue, 08 Sep 2026 21:47:01 GMT"
     }
    ]
   }
