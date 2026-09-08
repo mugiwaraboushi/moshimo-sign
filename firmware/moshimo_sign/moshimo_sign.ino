@@ -1,5 +1,5 @@
 /*
- * もしも電光掲示板 ファームウェア v0.10
+ * もしも電光掲示板 ファームウェア v0.12
  * ESP32 (WROOM-32) + HUB75 RGBマトリクスパネル 64x32 (P4)
  *
  * 機能:
@@ -19,8 +19,12 @@
  *  - 自己アップデート: firmware/manifest.json を見て自分で新しい.binを取りに行く (v0.7)
  *    → 設置後もUSB・現地作業なしで更新できる。手順は docs/firmware-release.md
  *    → playlist.json の "fwPing" に新バージョン番号を書けば、周期を待たず即時反映
- *  - 起動時のバージョン表示: 右下に「v10」を数秒出す (v0.9)
+ *  - 起動時のバージョン表示: 右下に版数を数秒出す (v0.9)
  *    → 実機が今どの版かを、電源を挿し直してパネルを見るだけで確認できる
+ *  - 取得の非同期化: playlistもコメントも取得は別タスク、反映だけloop() (v0.12)
+ *    → 60秒ごとにスクロールが止まって表示がリセットされて見える問題を解消
+ *    → 1本のタスクで playlist(60秒) と コメント(15秒) を回す
+ *  - WiFiモデムスリープ停止: 常時給電なのでOTAと応答を優先する (v0.12)
  *
  * 配線 (HUB75標準ピン割当はライブラリ既定値を使用):
  *   https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA を参照
@@ -69,7 +73,7 @@
 // このビルドのバージョン。リリースごとに +1 する (手順: docs/firmware-release.md)。
 // **公開する .bin はこの値を上げてビルドしたものであること。** manifest の version だけ
 // 上げて .bin が古いままだと、実機は「更新したのにまだ古い」を延々繰り返す。
-#define FW_VERSION 10
+#define FW_VERSION 12
 
 // ---- イベントコメント (v0.10) ----
 // 取得先は playlist.json の "commentsUrl" でも指定できる。config.h の値は初期値。
@@ -103,6 +107,10 @@ static WiFiMulti wifiMulti;
 
 static void wifiSetup() {
   WiFi.mode(WIFI_STA);
+  // モデムスリープを切る (v0.12)。既定では受信の合間に電波部を落として省電力にするが、
+  // この掲示板は常時給電なので節電の必要がない。切っておくと OTA の取りこぼしが減り、
+  // playlist/コメント取得の初回応答も安定する (スリープ復帰待ちが挟まらなくなる)。
+  WiFi.setSleep(false);
   wifiMulti.addAP(WIFI_SSID, WIFI_PASS);
   if (strlen(WIFI_SSID2)) wifiMulti.addAP(WIFI_SSID2, WIFI_PASS2);
   wifiMulti.run(10000);  // 最大10秒待つ
@@ -254,8 +262,9 @@ static uint16_t plColorTop = COLOR_TOP;
 static uint16_t plColorScroll = COLOR_BOTTOM;
 static bool plRainbow = false;   // colorScroll:"rainbow" で虹色スクロール (v0.4)
 static String plCommentsUrl = COMMENTS_URL;   // commentsUrl で差し替え可能 (v0.10)
-// plCommentsUrl と受け渡し用バッファは取得タスクと共有する。詳細は「コメント取得」の節。
-static SemaphoreHandle_t commentsMutex = nullptr;
+// plCommentsUrl と受け渡し用バッファは取得タスクと共有する。
+// 詳細は「ネットワーク取得タスク」の節。
+static SemaphoreHandle_t fetchMutex = nullptr;
 
 // mode: "dual" / "scroll" / "frames" (v0.5)
 enum DisplayMode { MODE_DUAL, MODE_SCROLL, MODE_FRAMES };
@@ -411,7 +420,13 @@ static void selfUpdateCheck(bool ignoreQuiet) {
   if (WiFi.status() != WL_CONNECTED) return;
 
   int code;
-  String body = httpGetString(String(SELFUPDATE_MANIFEST_URL) + "?t=" + String(millis()), code);
+  // fwPing 経由 (ignoreQuiet=true) は「人がいま押した」指示なので、取得タスクと重なっても
+  // 見送らずに順番を待つ (v0.12)。待たないと -2 で空振りし、反応が次のplaylist取得まで
+  // 最大1分遅れる。逆に6時間ごとの定期確認 (ignoreQuiet=false) は待たない —— ここで待つと
+  // 6時間に一度スクロールが数秒止まることになり、シームレス化の趣旨に反する。
+  // 定期確認は空振りしても次の周期で拾えばよい。
+  String body = httpGetString(String(SELFUPDATE_MANIFEST_URL) + "?t=" + String(millis()),
+                              code, ignoreQuiet);
   if (code != 200 || !body.length()) {
     Serial.printf("[selfupdate] manifest fetch failed (%d)\n", code);
     return;
@@ -519,23 +534,67 @@ static void selfUpdateCheck(bool ignoreQuiet) {
   ESP.restart();
 }
 
-// 取得できたら true。false = 今回は取れなかった (呼び手が間隔を詰めて再挑戦する)
-static bool fetchPlaylist() {
-  if (strlen(PLAYLIST_URL) == 0) return true;
+// playlist取得は「取りに行く」と「反映する」に分かれている (v0.12)。
+//
+//   fetchPlaylistBody()  … HTTPだけ。取得タスク側で走る (TLSで1〜2秒止まる)
+//   applyPlaylistBody()  … JSONパースと表示への反映。loop()側で走る (速い)
+//
+// v0.11以前は loop() の中で両方やっていたため、60秒ごとに取得のあいだスクロールが
+// 止まり、そこで表示がリセットされたように見えていた。これがv12の主目的。
+// 分けたことで、描画を止めるのはパースと反映だけになる。
+
+// HTTPだけ。取れたら true を返し、body に本文を入れる。
+// false = 今回は取れなかった (呼び手が間隔を詰めて再挑戦する)
+static bool fetchPlaylistBody(String &body, bool wait) {
+  if (strlen(PLAYLIST_URL) == 0) return false;
   if (WiFi.status() != WL_CONNECTED) return false;
   // CDNキャッシュ回避のためクエリを付与
   String url = String(PLAYLIST_URL) + "?t=" + String(millis());
   int code;
-  String body = httpGetString(url, code);
-  if (code != 200 || !body.length()) {
+  String out = httpGetString(url, code, wait);
+  if (code != 200 || !out.length()) {
     Serial.printf("[playlist] fetch failed (%d)\n", code);
-    return false;   // -2 = コメント取得と重なった。すぐ再挑戦してよい (v0.10)
+    return false;   // -2 = 他の取得と重なった。すぐ再挑戦してよい (v0.10)
   }
+  body = out;
+  return true;
+}
+
+// 直前に反映した本文と、そこに書かれていた fwPing (v0.12)。
+// 本文まるごと持つのは数KBのヒープを使うが、frames が最大24枚あると
+// 「変わったかどうか」をハッシュで代用したときの取りこぼし (更新が永久に無視される)
+// のほうが痛い。実機は設置済みで直しに行けないので、確実な一致比較にする。
+static String lastAppliedPlaylist;
+static int    lastFwPing = 0;
+
+// パースと反映。呼ぶのは loop() 側だけ (表示・フォント・ヒープを触るため)。
+// 戻り値は「取り直す意味があるか」ではなく「JSONとして読めたか」。
+static bool applyPlaylistBody(const String &body) {
+  // **中身が1バイトも変わっていないなら、パースも反映もしない (v0.12)。**
+  // 通常運転では60秒ごとに同じ本文が返る。それを毎回パースすると、JSONの読み取りと
+  // frames のbase64デコード (最大24枚×342文字) で loop() が数十ms止まる。
+  // holdMs:52 のコマ送りでは1〜2コマぶんの引っかかりになって目に見えるため、
+  // 変化が無いときは丸ごと省く。取得の非同期化と合わせて、これで60秒周期の
+  // 引っかかりが無くなる。
+  if (lastAppliedPlaylist.length() && body == lastAppliedPlaylist) {
+    // 表示の反映は省くが、fwPing だけは毎回見る。manifest の公開がCDNに行き渡る前に
+    // fwPing を拾った場合、ここを省くと次に playlist の中身が変わるまで
+    // (最悪6時間の定期確認まで) 更新が始まらなくなるため。v0.11以前と同じ挙動。
+    if (lastFwPing > FW_VERSION) {
+      Serial.printf("[selfupdate] fwPing=%d (running v%d) → 即時確認\n", lastFwPing, FW_VERSION);
+      selfUpdateCheck(true);
+    }
+    Serial.println("[playlist] no change");
+    return true;
+  }
+
   JsonDocument doc;
   if (deserializeJson(doc, body)) {
     Serial.println("[playlist] JSON parse error");
-    return true;   // 取得はできている。壊れたJSONを3秒ごとに取り直しても直らない
+    return false;   // 壊れたJSONを3秒ごとに取り直しても直らない。次の周期を待つ
   }
+  lastAppliedPlaylist = body;
+  lastFwPing = doc["fwPing"].is<int>() ? (int)doc["fwPing"] : 0;
   if (doc["topText"].is<const char*>())  plTopText = String((const char*)doc["topText"]);
   if (doc["mode"].is<const char*>()) {
     const char *m = doc["mode"];
@@ -559,9 +618,9 @@ static bool fetchPlaylist() {
     if (u.length() == 0 || u.startsWith(COMMENTS_URL_PREFIX)) {
       if (u != plCommentsUrl) {
         // 取得タスクが同じ String を読んでいるので、書き換えはmutexの中で行う
-        if (commentsMutex) xSemaphoreTake(commentsMutex, portMAX_DELAY);
+        if (fetchMutex) xSemaphoreTake(fetchMutex, portMAX_DELAY);
         plCommentsUrl = u;
-        if (commentsMutex) xSemaphoreGive(commentsMutex);
+        if (fetchMutex) xSemaphoreGive(fetchMutex);
         commentCount = 0;   // 取得先が変わったので前の置き場のコメントは持ち越さない
         Serial.printf("[comments] url set (%d文字)\n", (int)u.length());
       }
@@ -634,18 +693,25 @@ static void drawTopLine() {
   drawText(cps, n, (PANEL_W - w) / 2, 0, plColorTop);
 }
 
-// ---------------- コメント取得 ----------------
-// **取得は別タスク (core 0) で行う。** GASの応答は実測で2〜3秒かかる (302リダイレクト込み)。
-// loop() の中で待つと、その間スクロールが止まって見える — 15秒ごとに2〜3秒の停止は
-// イベント中ずっと目につく。そこで「取りに行く」のは別タスク、「表示に反映する」のは
-// loop() 側、と分ける。
+// ---------------- ネットワーク取得タスク ----------------
+// **取得は別タスク (core 0) で行う。** GASの応答は実測で2〜3秒、playlist も TLS込みで
+// 1〜2秒かかる。loop() の中で待つと、その間スクロールが止まって見える —— コメントは
+// 15秒ごと、playlist は60秒ごとなので、イベント中ずっと目につく。
+// そこで「取りに行く」のは別タスク、「表示に反映する」のは loop() 側、と分ける。
 //
-// タスクとloop()の間で受け渡すのは fetchedBody / fetchedReady だけ。
-// String は同時に触ると壊れるので、受け渡しは必ず commentsMutex の中で行う。
+// **コメントとplaylistを1本のタスクに同居させている (v0.12)。**
+// 2本に分けるとTLSバッファぶんのスタックが二重に要る (20KB×2) うえ、どのみち
+// netMutex で通信は1本ずつに直列化されるので、並列にしても速くならない。
+// 1本にまとめれば取得が自然に順番待ちになり、netMutex で弾かれる空振りも減る。
+//
+// タスクとloop()の間で受け渡すのは下の受け渡しバッファだけ。
+// String は同時に触ると壊れるので、受け渡しは必ず fetchMutex の中で行う。
 static unsigned long lastFetch = 0;
-static String fetchedBody;                 // 取ってきた本文 (mutexの中でだけ触る)
-static volatile bool fetchedReady = false; // 未反映の本文がある
-static volatile bool commentsAsync = false;// タスクが動いている (falseならloop()側で取る)
+static String fetchedBody;                 // コメント本文 (mutexの中でだけ触る)
+static volatile bool fetchedReady = false; // 未反映のコメント本文がある
+static String fetchedPlBody;               // playlist本文 (mutexの中でだけ触る)
+static volatile bool fetchedPlReady = false;// 未反映のplaylist本文がある
+static volatile bool fetchAsync = false;   // タスクが動いている (falseならloop()側で取る)
 
 // 受け取った本文を comments[] に展開する。呼ぶのは loop() 側だけ。
 static void applyCommentsBody(const String &body) {
@@ -672,16 +738,16 @@ static void applyCommentsBody(const String &body) {
 // 取得できたら true を返し、body に本文を入れる。
 static bool fetchCommentsOnce(String &body) {
   String url;
-  if (commentsMutex) xSemaphoreTake(commentsMutex, portMAX_DELAY);
+  if (fetchMutex) xSemaphoreTake(fetchMutex, portMAX_DELAY);
   url = plCommentsUrl;
-  if (commentsMutex) xSemaphoreGive(commentsMutex);
+  if (fetchMutex) xSemaphoreGive(fetchMutex);
   if (url.length() == 0) return false;
   if (WiFi.status() != WL_CONNECTED) return false;
   // キャッシュ回避のクエリもplaylistと同様に付ける
   url += (url.indexOf('?') >= 0 ? "&t=" : "?t=") + String(millis());
   int code;
   // 別タスクなので、他の取得が終わるのを待ってよい (待っても表示は止まらない)
-  String out = httpGetString(url, code, commentsAsync);   // 1行1コメントのプレーンテキスト
+  String out = httpGetString(url, code, fetchAsync);   // 1行1コメントのプレーンテキスト
   if (code != 200) {
     Serial.printf("[comments] fetch failed (%d)\n", code);
     return false;   // 通信断で表示中のコメントが消えないよう、失敗時は前回の内容を残す
@@ -690,17 +756,54 @@ static bool fetchCommentsOnce(String &body) {
   return true;
 }
 
-static void commentsTask(void *arg) {
+// 取得タスク本体。コメント (15秒) と playlist (60秒 / 失敗時3秒) を1本で回す。
+// ここでやるのは **HTTPと受け渡しだけ**。パースも表示も触らない。
+static void fetchTask(void *arg) {
   (void)arg;
+  // どちらも起動直後に1回目を走らせる (nextXxx = 0)。
+  // playlist を先に置くのは、commentsUrl と表示設定がそこから来るため。
+  unsigned long nextPlaylist = 0;
+  unsigned long nextComments = 0;
+  const bool havePlaylistUrl = strlen(PLAYLIST_URL) > 0;
+
   for (;;) {
-    String body;
-    if (fetchCommentsOnce(body)) {
-      xSemaphoreTake(commentsMutex, portMAX_DELAY);
-      fetchedBody = body;
-      fetchedReady = true;
-      xSemaphoreGive(commentsMutex);
+    unsigned long ms = millis();
+
+    // ---- playlist ----
+    // 比較を符号付きで行い、millis()が一周しても止まらないようにする。
+    if (havePlaylistUrl && (long)(ms - nextPlaylist) >= 0) {
+      String body;
+      bool got = fetchPlaylistBody(body, true);
+      if (got) {
+        xSemaphoreTake(fetchMutex, portMAX_DELAY);
+        fetchedPlBody = body;
+        fetchedPlReady = true;
+        xSemaphoreGive(fetchMutex);
+      }
+      // 取れなかったときは3秒後に再挑戦する (v0.10の意味論を維持)。
+      // 取れた場合は、loop()側でJSONが壊れていても取り直さない —— 壊れたJSONを
+      // 3秒ごとに取り直しても直らないので、次の60秒周期に任せる。
+      nextPlaylist = millis() + (got ? PLAYLIST_INTERVAL_MS : 3000);
     }
-    vTaskDelay(pdMS_TO_TICKS(FETCH_INTERVAL_MS));
+
+    // ---- コメント ----
+    // plCommentsUrl が空のときは通信しない。**これが緊急停止弁**: 万一この経路で
+    // 不具合が出ても、playlist.json の commentsUrl を "" にすれば取得が止まる
+    // (実機は設置済みで、USBでの復旧が難しいため残してある)。
+    // v0.11以前は「commentsUrlが入るまでタスクごと起こさない」だったが、v0.12では
+    // playlist取得も同じタスクが担うので、タスク自体は起動時から回す。
+    if ((long)(ms - nextComments) >= 0) {
+      String body;
+      if (fetchCommentsOnce(body)) {
+        xSemaphoreTake(fetchMutex, portMAX_DELAY);
+        fetchedBody = body;
+        fetchedReady = true;
+        xSemaphoreGive(fetchMutex);
+      }
+      nextComments = millis() + FETCH_INTERVAL_MS;
+    }
+
+    vTaskDelay(pdMS_TO_TICKS(100));   // 次の予定を見に行くだけの間隔
   }
 }
 
@@ -708,45 +811,65 @@ static void commentsTask(void *arg) {
 static void applyFetchedComments() {
   if (!fetchedReady) return;
   String body;
-  xSemaphoreTake(commentsMutex, portMAX_DELAY);
+  xSemaphoreTake(fetchMutex, portMAX_DELAY);
   body = fetchedBody;
   fetchedBody = "";      // 持ち回らない (最大20行ぶんのヒープを解放する)
   fetchedReady = false;
-  xSemaphoreGive(commentsMutex);
+  xSemaphoreGive(fetchMutex);
   applyCommentsBody(body);
 }
 
+// loop() から呼ぶ。タスクが持ってきた playlist があればパースして反映する (待たない)。
+// fwPing → selfUpdateCheck(true) もこの中 (= loop()側) から呼ばれる。
+static void applyFetchedPlaylist() {
+  if (!fetchedPlReady) return;
+  String body;
+  xSemaphoreTake(fetchMutex, portMAX_DELAY);
+  body = fetchedPlBody;
+  fetchedPlBody = "";    // 持ち回らない (playlist本文は数KBある)
+  fetchedPlReady = false;
+  xSemaphoreGive(fetchMutex);
+  applyPlaylistBody(body);
+}
+
 // タスクを作れなかったときの退路。従来どおり loop() の中で取りに行く
-// (2〜3秒止まるが、コメントが出ないよりはよい)。
+// (2〜3秒止まるが、表示が更新できないよりはよい)。
 static void fetchCommentsBlocking() {
   String body;
   if (fetchCommentsOnce(body)) applyCommentsBody(body);
 }
 
-// setup()から呼ぶ。ここでは入れ物だけ作る。
-static void commentsSetup() {
-  netMutex = xSemaphoreCreateMutex();        // 通信は同時に1本まで (httpGetString)
-  commentsMutex = xSemaphoreCreateMutex();
-  if (!commentsMutex) Serial.println("[comments] mutex作成に失敗。loop()側で取得する");
+// 同上。戻り値は「次を60秒後にしてよいか」(false なら3秒後に再挑戦)。
+static bool fetchPlaylistBlocking() {
+  if (strlen(PLAYLIST_URL) == 0) return true;
+  String body;
+  if (!fetchPlaylistBody(body, false)) return false;
+  applyPlaylistBody(body);
+  return true;   // 取得はできている。JSONが壊れていても取り直しは次の周期で
 }
 
-// **取得タスクは commentsUrl が入って初めて起こす。** 起動時に無条件で起こさないのは、
-// 万一この経路で不具合が出たときに playlist.json の commentsUrl を "" にするだけで
-// 止められるようにするため (実機は設置済みで、USBでの復旧が難しい)。
-static bool commentsTaskTried = false;
-static void commentsStart() {
-  if (commentsTaskTried) return;
-  commentsTaskTried = true;
-  if (!commentsMutex) return;   // 入れ物が無い。loop()側の従来経路で取る
+// setup()から呼ぶ。ここでは入れ物だけ作る (タスクは fetchTaskStart で起こす)。
+static void fetchSetup() {
+  netMutex   = xSemaphoreCreateMutex();      // 通信は同時に1本まで (httpGetString)
+  fetchMutex = xSemaphoreCreateMutex();      // タスクとloop()の受け渡しバッファを守る
+  if (!fetchMutex) Serial.println("[fetch] mutex作成に失敗。loop()側で取得する");
+}
+
+// 取得タスクを起こす。setup() から1回だけ呼ぶ。
+static bool fetchTaskTried = false;
+static void fetchTaskStart() {
+  if (fetchTaskTried) return;
+  fetchTaskTried = true;
+  if (!fetchMutex) return;   // 入れ物が無い。loop()側の従来経路で取る
   // スタックはTLSハンドシェイクぶんに余裕を見て20KB。WiFiと同じcore 0、
   // 優先度は loopTask と同じ1にして描画を邪魔しない。
-  BaseType_t ok = xTaskCreatePinnedToCore(commentsTask, "comments", 20480, nullptr, 1, nullptr, 0);
+  BaseType_t ok = xTaskCreatePinnedToCore(fetchTask, "fetch", 20480, nullptr, 1, nullptr, 0);
   if (ok != pdPASS) {
-    Serial.println("[comments] タスク作成に失敗。loop()側で取得する");
+    Serial.println("[fetch] タスク作成に失敗。loop()側で取得する");
     return;
   }
-  commentsAsync = true;
-  Serial.println("[comments] 取得タスクを開始 (core 0)");
+  fetchAsync = true;
+  Serial.println("[fetch] 取得タスクを開始 (core 0 / playlist+コメント)");
 }
 
 // ---------------- 起動時のバージョン表示 (v0.9) ----------------
@@ -786,7 +909,8 @@ void setup() {
   if (strlen(OTA_PASSWORD)) ArduinoOTA.setPassword(OTA_PASSWORD);
   ArduinoOTA.begin();
 
-  commentsSetup();   // コメント取得タスクを起こす (v0.10)
+  fetchSetup();       // 受け渡しの入れ物を作る (v0.10 / 名前と役割を v0.12 で整理)
+  fetchTaskStart();   // playlist+コメントの取得タスクを起こす (v0.12)
 
   rebuildMarquee();
 
@@ -808,22 +932,25 @@ void loop() {
     wifiMulti.run(5000);
   }
 
-  // コメント: 取得は別タスク。ここでは持ってきた本文を反映するだけなので待たない (v0.10)。
-  // タスクは取得先が入って初めて起こす。作れなかったときは従来どおりここで取りに行く。
-  if (!commentsTaskTried && plCommentsUrl.length()) commentsStart();
-  if (commentsAsync) {
+  // コメントもplaylistも、取得は別タスク (v0.12)。ここでは持ってきた本文を
+  // 反映するだけなので待たない = スクロールが止まらない。
+  // タスクを作れなかったときだけ、従来どおりここで取りに行く。
+  if (fetchAsync) {
     applyFetchedComments();
-  } else if (plCommentsUrl.length() && ms - lastFetch > FETCH_INTERVAL_MS) {
-    lastFetch = ms;
-    fetchCommentsBlocking();
-  }
-  // playlist: 取れなかったときは3秒後に再挑戦する (v0.10)。コメント取得と重なって
-  // 見送った場合に60秒待つと、「実機に1〜2分で反映」が守れなくなるため。
-  // 比較を符号付きで行い、millis()が一周しても止まらないようにする。
-  static unsigned long nextPlaylistAt = 0;
-  if ((long)(ms - nextPlaylistAt) >= 0) {
-    bool ok = fetchPlaylist();
-    nextPlaylistAt = ms + (ok ? PLAYLIST_INTERVAL_MS : 3000);
+    applyFetchedPlaylist();
+  } else {
+    if (plCommentsUrl.length() && ms - lastFetch > FETCH_INTERVAL_MS) {
+      lastFetch = ms;
+      fetchCommentsBlocking();
+    }
+    // 取れなかったときは3秒後に再挑戦する (v0.10)。他の取得と重なって見送った場合に
+    // 60秒待つと、「実機に1〜2分で反映」が守れなくなるため。
+    // 比較を符号付きで行い、millis()が一周しても止まらないようにする。
+    static unsigned long nextPlaylistAt = 0;
+    if ((long)(ms - nextPlaylistAt) >= 0) {
+      bool ok = fetchPlaylistBlocking();
+      nextPlaylistAt = ms + (ok ? PLAYLIST_INTERVAL_MS : 3000);
+    }
   }
 
   // 自己アップデート (v0.7): 起動60秒後に初回、以後 SELFUPDATE_INTERVAL_MS ごと。
