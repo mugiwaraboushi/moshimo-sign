@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-09T09:56:26.157Z",
+ "updatedAt": "2026-09-09T14:01:02.938Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "局地的に激しい雨 東海では線状降水帯発生のおそれ 厳重警戒を",
+     "title": "東日本中心に大気不安定 静岡で線状降水帯発生のおそれ 警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49198",
-     "pubDate": "Wed, 09 Sep 2026 18:43:07 +0900"
+     "pubDate": "Wed, 09 Sep 2026 20:56:12 +0900"
     },
     {
-     "title": "【動画】名古屋 大雨 23人けが 路上で動けない車両200台以上",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49220",
-     "pubDate": "Wed, 09 Sep 2026 18:01:43 +0900"
+     "title": "洋菓子店3人死亡事件 死亡の2人 住人の中学時代の同級生と確認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49379",
+     "pubDate": "Wed, 09 Sep 2026 20:39:00 +0900"
     },
     {
-     "title": "中道 立民・公明出身に分かれ統一会派の方針決定 分裂へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49272",
-     "pubDate": "Wed, 09 Sep 2026 18:53:22 +0900"
-    },
-    {
-     "title": "ネパール土石流 発生から2週間 温暖化への対応求める声も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49138",
-     "pubDate": "Wed, 09 Sep 2026 16:08:31 +0900"
+     "title": "行方不明高齢者の介護保険料 家族負担を免除可能に 厚労省通知",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49396",
+     "pubDate": "Wed, 09 Sep 2026 22:32:20 +0900"
     },
     {
      "title": "高速道路 約10キロ逆走 警察が追跡 渋谷で逮捕【動画も】",
@@ -33,14 +28,19 @@
      "pubDate": "Wed, 09 Sep 2026 18:03:57 +0900"
     },
     {
-     "title": "上智大生殺害放火事件 未解決のまま30年 情報提供を呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49178",
-     "pubDate": "Wed, 09 Sep 2026 18:00:22 +0900"
+     "title": "将棋「王位戦」藤井聡太六冠が防衛 7連覇を果たす",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49392",
+     "pubDate": "Wed, 09 Sep 2026 22:42:05 +0900"
     },
     {
-     "title": "NHK記者 同意なく性的な身体接触で懲戒免職",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49329",
-     "pubDate": "Wed, 09 Sep 2026 17:55:00 +0900"
+     "title": "ネパール土石流 発生から2週間 国際社会に支援呼びかけへ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49138",
+     "pubDate": "Wed, 09 Sep 2026 20:31:53 +0900"
+    },
+    {
+     "title": "【動画】名古屋 大雨 23人けが 路上で動けない車両200台以上",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49220",
+     "pubDate": "Wed, 09 Sep 2026 22:12:05 +0900"
     }
    ]
   },
@@ -49,6 +49,31 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "行方不明高齢者の介護保険料 家族負担を免除可能に 厚労省通知",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49396",
+     "pubDate": "Wed, 09 Sep 2026 22:32:20 +0900"
+    },
+    {
+     "title": "悪天候の富士山で2人が意識不明 警察「無理な登山控えて」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49385",
+     "pubDate": "Wed, 09 Sep 2026 21:35:21 +0900"
+    },
+    {
+     "title": "洋菓子店3人死亡事件 死亡の2人 住人の中学時代の同級生と確認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49379",
+     "pubDate": "Wed, 09 Sep 2026 20:39:00 +0900"
+    },
+    {
+     "title": "【動画】広がりを見せる「多世代型住宅」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49350",
+     "pubDate": "Wed, 09 Sep 2026 20:24:51 +0900"
+    },
+    {
+     "title": "沖縄県知事選挙 候補者のフェイク相次ぐ 生成AIの偽動画も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49372",
+     "pubDate": "Wed, 09 Sep 2026 20:02:54 +0900"
+    },
     {
      "title": "核ごみ処分地の調査 常陸大宮市議は16日に改めて意見 茨城",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49334",
@@ -75,9 +100,9 @@
      "pubDate": "Wed, 09 Sep 2026 17:31:00 +0900"
     },
     {
-     "title": "神奈川 三浦 小学生1人が海に流されたか 警察や消防が捜索",
+     "title": "神奈川 三浦 城ヶ島 小学生が岩場で高波にさらわれ行方不明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49336",
-     "pubDate": "Wed, 09 Sep 2026 18:13:59 +0900"
+     "pubDate": "Wed, 09 Sep 2026 20:43:51 +0900"
     },
     {
      "title": "【動画】塚本晋也監督が描く 帰還兵の“終わりのない苦しみ”",
@@ -98,31 +123,6 @@
      "title": "広島 特産の養殖かき 酸素濃度低下で「厳戒アラート」初発出",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49302",
      "pubDate": "Wed, 09 Sep 2026 15:32:00 +0900"
-    },
-    {
-     "title": "山形新幹線 米沢駅から山形駅間の上下線 運転見合わせ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49312",
-     "pubDate": "Wed, 09 Sep 2026 15:29:30 +0900"
-    },
-    {
-     "title": "福岡県議会が開会 辞職の藏内前議長の後任に自民の大島氏選出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49307",
-     "pubDate": "Wed, 09 Sep 2026 15:15:00 +0900"
-    },
-    {
-     "title": "ガールズバー従業員に売春強要の罪 元経営者に懲役7年の判決",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49273",
-     "pubDate": "Wed, 09 Sep 2026 13:53:00 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（9月9日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49145",
-     "pubDate": "Wed, 09 Sep 2026 13:50:38 +0900"
-    },
-    {
-     "title": "上智大生殺害放火事件 未解決のまま30年 情報提供を呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49178",
-     "pubDate": "Wed, 09 Sep 2026 18:00:22 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "将棋「王位戦」藤井聡太六冠が防衛 7連覇を果たす",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49392",
+     "pubDate": "Wed, 09 Sep 2026 22:42:05 +0900"
+    },
     {
      "title": "柏崎刈羽原発 東電に安全性向上の取り組み求める 政府",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49323",
@@ -200,11 +205,6 @@
      "title": "NY公立小中学校などで生成AI利用を原則禁止へ 新年度の1年間",
      "link": "https://news.web.nhk/newsweb/na/nd-20260903de48030",
      "pubDate": "Thu, 03 Sep 2026 22:46:15 +0900"
-    },
-    {
-     "title": "エコ商品の「環境ラベル」6割が表示適切でない可能性",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de48022",
-     "pubDate": "Thu, 03 Sep 2026 19:05:14 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "WTI先物価格 一時1バレル＝95ドル台に上昇 約3か月ぶり高値",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49382",
+     "pubDate": "Wed, 09 Sep 2026 20:59:32 +0900"
+    },
+    {
      "title": "円相場 値上がり 米財務長官の発言受けて円買いの動き進む",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49355",
      "pubDate": "Wed, 09 Sep 2026 18:55:33 +0900"
@@ -221,7 +226,7 @@
     {
      "title": "「トランプ氏は党大会に賭けている」イラン情勢で揺れるMAGA派",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49274",
-     "pubDate": "Wed, 09 Sep 2026 18:44:04 +0900"
+     "pubDate": "Wed, 09 Sep 2026 18:44:00 +0900"
     },
     {
      "title": "小麦売り渡し価格12％引き上げへ 中東情勢など影響",
@@ -282,11 +287,6 @@
      "title": "フランスの美術館で印象派ルノアールの絵画盗まれる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49215",
      "pubDate": "Wed, 09 Sep 2026 08:10:00 +0900"
-    },
-    {
-     "title": "ハンガリー ロシアの外交官10人に国外退去命じる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49213",
-     "pubDate": "Wed, 09 Sep 2026 07:38:19 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "東海や関東 9日夜にかけ大雨恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6594772?source=rss",
-     "pubDate": "Wed, 09 Sep 2026 09:12:05 GMT"
+     "title": "ネパール土石流がれき220万t 試算",
+     "link": "https://news.yahoo.co.jp/pickup/6594779?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 11:06:38 GMT"
     },
     {
-     "title": "米大統領 独極右AfDの勝利を絶賛",
-     "link": "https://news.yahoo.co.jp/pickup/6594739?source=rss",
-     "pubDate": "Wed, 09 Sep 2026 03:48:21 GMT"
+     "title": "応用進む医療AI 学習偏るとリスク",
+     "link": "https://news.yahoo.co.jp/pickup/6594755?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 07:23:30 GMT"
     },
     {
-     "title": "男児が海に流され行方不明 神奈川",
-     "link": "https://news.yahoo.co.jp/pickup/6594763?source=rss",
-     "pubDate": "Wed, 09 Sep 2026 08:19:02 GMT"
+     "title": "人工内耳つけた子 育児奔走した母",
+     "link": "https://news.yahoo.co.jp/pickup/6594793?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 13:24:57 GMT"
     },
     {
-     "title": "丸亀製麺の運営会社に勧告 公取委",
-     "link": "https://news.yahoo.co.jp/pickup/6594758?source=rss",
-     "pubDate": "Wed, 09 Sep 2026 07:35:17 GMT"
+     "title": "鉄塔から転落 点検の従業員が死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6594782?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 11:49:42 GMT"
     },
     {
-     "title": "6歳不明 約10台のドラレコを解析",
-     "link": "https://news.yahoo.co.jp/pickup/6594766?source=rss",
-     "pubDate": "Wed, 09 Sep 2026 08:38:12 GMT"
+     "title": "毒物浴び院生死亡 北大に市が指導",
+     "link": "https://news.yahoo.co.jp/pickup/6594767?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 08:42:53 GMT"
     },
     {
-     "title": "母死亡 熱湯かけた疑いで息子逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6594770?source=rss",
-     "pubDate": "Wed, 09 Sep 2026 08:55:26 GMT"
+     "title": "中日 今季リーグ優勝の可能性消滅",
+     "link": "https://news.yahoo.co.jp/pickup/6594790?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 12:47:03 GMT"
     },
     {
-     "title": "同意なく性的接触 NHK記者を免職",
-     "link": "https://news.yahoo.co.jp/pickup/6594761?source=rss",
-     "pubDate": "Wed, 09 Sep 2026 08:12:34 GMT"
+     "title": "J1千葉 17年ぶりにリーグ杯で勝利",
+     "link": "https://news.yahoo.co.jp/pickup/6594789?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 12:47:03 GMT"
     },
     {
-     "title": "警察から逃走 女が東京外環道逆走",
-     "link": "https://news.yahoo.co.jp/pickup/6594764?source=rss",
-     "pubDate": "Wed, 09 Sep 2026 08:33:49 GMT"
+     "title": "ミセス約1カ月の夏季休暇終了報告",
+     "link": "https://news.yahoo.co.jp/pickup/6594792?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 13:21:08 GMT"
     }
    ]
   }
