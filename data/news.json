@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-09T00:45:54.180Z",
+ "updatedAt": "2026-09-09T05:26:01.726Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "四国や東海で非常に激しい雨 各地で線状降水帯のおそれも",
+     "title": "非常に激しい雨 近畿・東海は線状降水帯のおそれ 厳重に警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49198",
-     "pubDate": "Wed, 09 Sep 2026 09:09:02 +0900"
+     "pubDate": "Wed, 09 Sep 2026 13:47:25 +0900"
     },
     {
-     "title": "名古屋 大雨 一夜明けた市内の様子は",
+     "title": "【動画】名古屋 大雨 一夜明けた市内の様子は",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49220",
-     "pubDate": "Wed, 09 Sep 2026 07:57:00 +0900"
-    },
-    {
-     "title": "自民党役員人事と内閣改造 政権骨格維持 維新ポスト調整も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49187",
-     "pubDate": "Wed, 09 Sep 2026 04:55:00 +0900"
-    },
-    {
-     "title": "NY原油市場 約3か月ぶり高値 ホルムズ海峡や代替ルートに懸念",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49209",
-     "pubDate": "Wed, 09 Sep 2026 08:17:40 +0900"
+     "pubDate": "Wed, 09 Sep 2026 13:08:26 +0900"
     },
     {
      "title": "アメリカ 共和党が初めて中間選挙前に党大会開催へ 焦点は",
@@ -33,14 +23,24 @@
      "pubDate": "Wed, 09 Sep 2026 06:15:00 +0900"
     },
     {
-     "title": "大手金融グループ 個人向けサービス強化で預金獲得目指す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49205",
-     "pubDate": "Wed, 09 Sep 2026 06:29:32 +0900"
+     "title": "ネパール土石流 発生から2週間 温暖化への対応求める声も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49138",
+     "pubDate": "Wed, 09 Sep 2026 12:21:44 +0900"
     },
     {
-     "title": "スミソニアン協会トップが退任表明 トランプ政権が展示批判",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49219",
-     "pubDate": "Wed, 09 Sep 2026 08:43:31 +0900"
+     "title": "上智大生殺害放火事件 未解決のまま30年 情報提供を呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49178",
+     "pubDate": "Wed, 09 Sep 2026 12:30:29 +0900"
+    },
+    {
+     "title": "【動画】大雨 今後の見通しは？ 気象予報士解説",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49256",
+     "pubDate": "Wed, 09 Sep 2026 12:47:45 +0900"
+    },
+    {
+     "title": "米長官「今や私が『胴元』」 市場にない情報あると強調",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49275",
+     "pubDate": "Wed, 09 Sep 2026 14:13:05 +0900"
     }
    ]
   },
@@ -50,14 +50,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "【動画】Pickup NEWS（9月9日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49145",
-     "pubDate": "Wed, 09 Sep 2026 06:45:00 +0900"
+     "title": "ガールズバー従業員に売春強要の罪 元経営者に懲役7年の判決",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49273",
+     "pubDate": "Wed, 09 Sep 2026 13:53:00 +0900"
     },
     {
-     "title": "上智大生殺害放火事件 未解決のまま30年に",
+     "title": "【動画】Pickup NEWS（9月9日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49145",
+     "pubDate": "Wed, 09 Sep 2026 13:50:38 +0900"
+    },
+    {
+     "title": "上智大生殺害放火事件 未解決のまま30年 情報提供を呼びかけ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de49178",
-     "pubDate": "Wed, 09 Sep 2026 05:15:00 +0900"
+     "pubDate": "Wed, 09 Sep 2026 12:30:29 +0900"
     },
     {
      "title": "庄内川のレベル5氾濫特別警報をレベル2氾濫注意報に切り替え",
@@ -118,11 +123,6 @@
      "title": "台東区 民泊新規営業を住宅地などで認めない方針 来年1月から",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de48960",
      "pubDate": "Wed, 09 Sep 2026 05:21:41 +0900"
-    },
-    {
-     "title": "静岡 川根本町 工事現場で土砂崩れ 作業員1人巻き込まれる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de48964",
-     "pubDate": "Tue, 08 Sep 2026 12:35:11 +0900"
     }
    ]
   },
@@ -139,7 +139,7 @@
     {
      "title": "フランスの美術館で印象派ルノアールの絵画盗まれる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49215",
-     "pubDate": "Wed, 09 Sep 2026 08:10:46 +0900"
+     "pubDate": "Wed, 09 Sep 2026 08:10:00 +0900"
     },
     {
      "title": "空港インフラの異常 AIで検知へ 国内19空港で実証実験",
@@ -214,6 +214,31 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米長官「今や私が『胴元』」 市場にない情報あると強調",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49275",
+     "pubDate": "Wed, 09 Sep 2026 14:13:05 +0900"
+    },
+    {
+     "title": "中国消費者物価指数＋0.8％ 2か月連続0％台",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49277",
+     "pubDate": "Wed, 09 Sep 2026 14:04:06 +0900"
+    },
+    {
+     "title": "トランプ政権 カナダ産オートバイやアルコール飲料など禁輸へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49265",
+     "pubDate": "Wed, 09 Sep 2026 13:19:35 +0900"
+    },
+    {
+     "title": "木原官房長官 アジア大会での北朝鮮選手団入国 関係省庁で検討",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49267",
+     "pubDate": "Wed, 09 Sep 2026 13:12:53 +0900"
+    },
+    {
+     "title": "米軍がイランのタンカー攻撃 イランは米軍基地にミサイル攻撃",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49247",
+     "pubDate": "Wed, 09 Sep 2026 11:45:27 +0900"
+    },
+    {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月9日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de46986",
      "pubDate": "Wed, 09 Sep 2026 09:17:07 +0900"
@@ -236,7 +261,7 @@
     {
      "title": "フランスの美術館で印象派ルノアールの絵画盗まれる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49215",
-     "pubDate": "Wed, 09 Sep 2026 08:10:46 +0900"
+     "pubDate": "Wed, 09 Sep 2026 08:10:00 +0900"
     },
     {
      "title": "ハンガリー ロシアの外交官10人に国外退去命じる",
@@ -262,31 +287,6 @@
      "title": "アメリカ 共和党が初めて中間選挙前に党大会開催へ 焦点は",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de49169",
      "pubDate": "Wed, 09 Sep 2026 06:15:00 +0900"
-    },
-    {
-     "title": "韓国の美容医療アプリ 日本ユーザー約4万8000人の個人情報流出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49197",
-     "pubDate": "Wed, 09 Sep 2026 05:34:46 +0900"
-    },
-    {
-     "title": "ネパール土石流 発生から2週間 温暖化への対応求める声も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49138",
-     "pubDate": "Wed, 09 Sep 2026 05:31:00 +0900"
-    },
-    {
-     "title": "米ロ首脳電話会談 米大統領 ウクライナでの戦闘早期終結に意欲",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49200",
-     "pubDate": "Wed, 09 Sep 2026 05:19:30 +0900"
-    },
-    {
-     "title": "ネパール土石流 トンネルに120人以上取り残されたか 捜索続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49163",
-     "pubDate": "Tue, 08 Sep 2026 22:48:44 +0900"
-    },
-    {
-     "title": "自民 石破前首相 韓国首相と会談 人口減少など課題で連携確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49156",
-     "pubDate": "Tue, 08 Sep 2026 22:13:41 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "広範囲で大雨 線状降水帯に警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6594710?source=rss",
-     "pubDate": "Wed, 09 Sep 2026 00:02:12 GMT"
+     "title": "西日本～東北で大雨続く 厳重警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6594731?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 03:06:29 GMT"
     },
     {
-     "title": "沖縄のPFAS 基地由来と推測と米",
-     "link": "https://news.yahoo.co.jp/pickup/6594711?source=rss",
-     "pubDate": "Wed, 09 Sep 2026 00:25:15 GMT"
+     "title": "中露首脳が祝電 北朝鮮建国78周年",
+     "link": "https://news.yahoo.co.jp/pickup/6594723?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 02:36:20 GMT"
     },
     {
-     "title": "上智大生殺害30年 父親に焦燥感",
-     "link": "https://news.yahoo.co.jp/pickup/6594708?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 23:48:56 GMT"
+     "title": "車200台が浸水し立ち往生 名古屋",
+     "link": "https://news.yahoo.co.jp/pickup/6594742?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 04:16:32 GMT"
     },
     {
-     "title": "ケーキ店火災 男性再来店後に出火",
-     "link": "https://news.yahoo.co.jp/pickup/6594709?source=rss",
-     "pubDate": "Wed, 09 Sep 2026 00:00:36 GMT"
+     "title": "富士山 意識不明の登山者2人発見",
+     "link": "https://news.yahoo.co.jp/pickup/6594722?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 02:11:44 GMT"
     },
     {
-     "title": "血を流した男性死亡 ひき逃げか",
-     "link": "https://news.yahoo.co.jp/pickup/6594701?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 22:39:52 GMT"
+     "title": "国連推奨地図 北方領土が露領の色",
+     "link": "https://news.yahoo.co.jp/pickup/6594743?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 04:29:57 GMT"
     },
     {
-     "title": "折り畳み式iPhone 開発に約10年",
-     "link": "https://news.yahoo.co.jp/pickup/6594706?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 23:34:50 GMT"
+     "title": "元SB選手 宮地克彦容疑者を逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6594741?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 04:06:10 GMT"
     },
     {
-     "title": "長澤まさみ 22年ぶりゴジラ映画",
-     "link": "https://news.yahoo.co.jp/pickup/6594705?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 23:11:15 GMT"
+     "title": "WEST.出演の新CM 7人で6月撮影",
+     "link": "https://news.yahoo.co.jp/pickup/6594744?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 04:59:08 GMT"
     },
     {
-     "title": "俳優養成所「無名塾」来年2月解散",
-     "link": "https://news.yahoo.co.jp/pickup/6594703?source=rss",
-     "pubDate": "Tue, 08 Sep 2026 22:49:13 GMT"
+     "title": "ゼルダ時のオカリナ発売へ 注目点",
+     "link": "https://news.yahoo.co.jp/pickup/6594734?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 04:40:41 GMT"
     }
    ]
   }
