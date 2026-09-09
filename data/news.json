@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-09T14:01:02.938Z",
+ "updatedAt": "2026-09-09T17:52:51.060Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "東日本中心に大気不安定 静岡で線状降水帯発生のおそれ 警戒を",
+     "title": "関東甲信や伊豆諸島 明け方にかけて激しい雨のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49198",
-     "pubDate": "Wed, 09 Sep 2026 20:56:12 +0900"
+     "pubDate": "Thu, 10 Sep 2026 00:24:31 +0900"
     },
     {
      "title": "洋菓子店3人死亡事件 死亡の2人 住人の中学時代の同級生と確認",
@@ -18,29 +18,29 @@
      "pubDate": "Wed, 09 Sep 2026 20:39:00 +0900"
     },
     {
-     "title": "行方不明高齢者の介護保険料 家族負担を免除可能に 厚労省通知",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49396",
-     "pubDate": "Wed, 09 Sep 2026 22:32:20 +0900"
-    },
-    {
-     "title": "高速道路 約10キロ逆走 警察が追跡 渋谷で逮捕【動画も】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49327",
-     "pubDate": "Wed, 09 Sep 2026 18:03:57 +0900"
-    },
-    {
-     "title": "将棋「王位戦」藤井聡太六冠が防衛 7連覇を果たす",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49392",
-     "pubDate": "Wed, 09 Sep 2026 22:42:05 +0900"
-    },
-    {
      "title": "ネパール土石流 発生から2週間 国際社会に支援呼びかけへ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260908de49138",
      "pubDate": "Wed, 09 Sep 2026 20:31:53 +0900"
     },
     {
-     "title": "【動画】名古屋 大雨 23人けが 路上で動けない車両200台以上",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49220",
-     "pubDate": "Wed, 09 Sep 2026 22:12:05 +0900"
+     "title": "東京 狛江 強盗致死事件 実行役の被告 無期懲役確定へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49410",
+     "pubDate": "Thu, 10 Sep 2026 02:19:40 +0900"
+    },
+    {
+     "title": "行方不明高齢者の介護保険料 家族負担を免除可能に 厚労省通知",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49396",
+     "pubDate": "Wed, 09 Sep 2026 22:32:20 +0900"
+    },
+    {
+     "title": "熊本地震 地震調査委“今後2週間程度は震度5弱以上に注意”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49407",
+     "pubDate": "Thu, 10 Sep 2026 00:19:27 +0900"
+    },
+    {
+     "title": "将棋「王位戦」藤井聡太六冠が防衛 7連覇を果たす",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49392",
+     "pubDate": "Wed, 09 Sep 2026 23:51:00 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "東京 狛江 強盗致死事件 実行役の被告 無期懲役確定へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49410",
+     "pubDate": "Thu, 10 Sep 2026 02:19:40 +0900"
+    },
+    {
+     "title": "熊本地震 地震調査委“今後2週間程度は震度5弱以上に注意”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49407",
+     "pubDate": "Thu, 10 Sep 2026 00:19:27 +0900"
+    },
     {
      "title": "行方不明高齢者の介護保険料 家族負担を免除可能に 厚労省通知",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49396",
@@ -80,9 +90,9 @@
      "pubDate": "Wed, 09 Sep 2026 18:17:00 +0900"
     },
     {
-     "title": "高速道路 約10キロ逆走 警察が追跡 渋谷で逮捕【動画も】",
+     "title": "高速道路 約10キロ逆走 警察が追跡 渋谷で身柄確保【動画も】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49327",
-     "pubDate": "Wed, 09 Sep 2026 18:03:57 +0900"
+     "pubDate": "Thu, 10 Sep 2026 01:09:31 +0900"
     },
     {
      "title": "外国人材の育成就労制度 受け入れ対象に航空分野も追加検討",
@@ -113,16 +123,6 @@
      "title": "東京五輪競泳の銀メダリスト本多選手 危険運転傷害で有罪判決",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49332",
      "pubDate": "Wed, 09 Sep 2026 18:45:08 +0900"
-    },
-    {
-     "title": "メンズエステで性的サービス提供か 経営者ら逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49306",
-     "pubDate": "Wed, 09 Sep 2026 15:55:44 +0900"
-    },
-    {
-     "title": "広島 特産の養殖かき 酸素濃度低下で「厳戒アラート」初発出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49302",
-     "pubDate": "Wed, 09 Sep 2026 15:32:00 +0900"
     }
    ]
   },
@@ -134,7 +134,7 @@
     {
      "title": "将棋「王位戦」藤井聡太六冠が防衛 7連覇を果たす",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49392",
-     "pubDate": "Wed, 09 Sep 2026 22:42:05 +0900"
+     "pubDate": "Wed, 09 Sep 2026 23:51:00 +0900"
     },
     {
      "title": "柏崎刈羽原発 東電に安全性向上の取り組み求める 政府",
@@ -202,9 +202,9 @@
      "pubDate": "Fri, 04 Sep 2026 03:09:00 +0900"
     },
     {
-     "title": "NY公立小中学校などで生成AI利用を原則禁止へ 新年度の1年間",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260903de48030",
-     "pubDate": "Thu, 03 Sep 2026 22:46:15 +0900"
+     "title": "世界文化遺産の国内候補に「彦根城」推薦決定 文化庁の審議会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260903de47931",
+     "pubDate": "Fri, 04 Sep 2026 13:13:22 +0900"
     }
    ]
   },
@@ -301,19 +301,14 @@
      "pubDate": "Wed, 09 Sep 2026 11:06:38 GMT"
     },
     {
-     "title": "応用進む医療AI 学習偏るとリスク",
-     "link": "https://news.yahoo.co.jp/pickup/6594755?source=rss",
-     "pubDate": "Wed, 09 Sep 2026 07:23:30 GMT"
+     "title": "睡眠研究の柳沢氏らにラスカー賞",
+     "link": "https://news.yahoo.co.jp/pickup/6594795?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 14:36:01 GMT"
     },
     {
-     "title": "人工内耳つけた子 育児奔走した母",
-     "link": "https://news.yahoo.co.jp/pickup/6594793?source=rss",
-     "pubDate": "Wed, 09 Sep 2026 13:24:57 GMT"
-    },
-    {
-     "title": "鉄塔から転落 点検の従業員が死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6594782?source=rss",
-     "pubDate": "Wed, 09 Sep 2026 11:49:42 GMT"
+     "title": "丸亀製麺の運営会社に勧告 公取委",
+     "link": "https://news.yahoo.co.jp/pickup/6594758?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 07:35:17 GMT"
     },
     {
      "title": "毒物浴び院生死亡 北大に市が指導",
@@ -321,19 +316,24 @@
      "pubDate": "Wed, 09 Sep 2026 08:42:53 GMT"
     },
     {
+     "title": "人工内耳つけた子 育児奔走した母",
+     "link": "https://news.yahoo.co.jp/pickup/6594793?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 13:24:57 GMT"
+    },
+    {
      "title": "中日 今季リーグ優勝の可能性消滅",
      "link": "https://news.yahoo.co.jp/pickup/6594790?source=rss",
      "pubDate": "Wed, 09 Sep 2026 12:47:03 GMT"
     },
     {
-     "title": "J1千葉 17年ぶりにリーグ杯で勝利",
-     "link": "https://news.yahoo.co.jp/pickup/6594789?source=rss",
-     "pubDate": "Wed, 09 Sep 2026 12:47:03 GMT"
+     "title": "櫻坂46・松田里奈 年内卒業を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6594794?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 13:38:20 GMT"
     },
     {
-     "title": "ミセス約1カ月の夏季休暇終了報告",
-     "link": "https://news.yahoo.co.jp/pickup/6594792?source=rss",
-     "pubDate": "Wed, 09 Sep 2026 13:21:08 GMT"
+     "title": "星のカービィ新作 ニンダイまとめ",
+     "link": "https://news.yahoo.co.jp/pickup/6594796?source=rss",
+     "pubDate": "Wed, 09 Sep 2026 15:22:21 GMT"
     }
    ]
   }
