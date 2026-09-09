@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-09T17:52:51.060Z",
+ "updatedAt": "2026-09-09T20:06:10.814Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "中道 立民・公明出身者で分裂へ 統一会派での連携維持が課題",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49377",
+     "pubDate": "Thu, 10 Sep 2026 05:02:33 +0900"
+    },
     {
      "title": "関東甲信や伊豆諸島 明け方にかけて激しい雨のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49198",
@@ -18,19 +23,14 @@
      "pubDate": "Wed, 09 Sep 2026 20:39:00 +0900"
     },
     {
-     "title": "ネパール土石流 発生から2週間 国際社会に支援呼びかけへ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260908de49138",
-     "pubDate": "Wed, 09 Sep 2026 20:31:53 +0900"
-    },
-    {
      "title": "東京 狛江 強盗致死事件 実行役の被告 無期懲役確定へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49410",
      "pubDate": "Thu, 10 Sep 2026 02:19:40 +0900"
     },
     {
-     "title": "行方不明高齢者の介護保険料 家族負担を免除可能に 厚労省通知",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49396",
-     "pubDate": "Wed, 09 Sep 2026 22:32:20 +0900"
+     "title": "チョルノービリ原発 日本の支援で太陽光発電設備が完成",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49406",
+     "pubDate": "Thu, 10 Sep 2026 04:23:13 +0900"
     },
     {
      "title": "熊本地震 地震調査委“今後2週間程度は震度5弱以上に注意”",
@@ -38,9 +38,9 @@
      "pubDate": "Thu, 10 Sep 2026 00:19:27 +0900"
     },
     {
-     "title": "将棋「王位戦」藤井聡太六冠が防衛 7連覇を果たす",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49392",
-     "pubDate": "Wed, 09 Sep 2026 23:51:00 +0900"
+     "title": "ドイツ州議選で躍進の「極右」党首と首相が議会で舌戦",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49405",
+     "pubDate": "Thu, 10 Sep 2026 04:26:33 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ドイツ州議選で躍進の「極右」党首と首相が議会で舌戦",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49405",
+     "pubDate": "Thu, 10 Sep 2026 04:26:33 +0900"
+    },
+    {
+     "title": "チョルノービリ原発 日本の支援で太陽光発電設備が完成",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49406",
+     "pubDate": "Thu, 10 Sep 2026 04:23:13 +0900"
+    },
+    {
      "title": "WTI先物価格 一時1バレル＝95ドル台に上昇 約3か月ぶり高値",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49382",
      "pubDate": "Wed, 09 Sep 2026 20:59:32 +0900"
@@ -277,16 +287,6 @@
      "title": "NY原油市場 約3か月ぶり高値 ホルムズ海峡や代替ルートに懸念",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49209",
      "pubDate": "Wed, 09 Sep 2026 08:17:40 +0900"
-    },
-    {
-     "title": "欧州など ヨルダン川西岸のユダヤ人入植地との物品取引規制へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49211",
-     "pubDate": "Wed, 09 Sep 2026 08:14:09 +0900"
-    },
-    {
-     "title": "フランスの美術館で印象派ルノアールの絵画盗まれる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49215",
-     "pubDate": "Wed, 09 Sep 2026 08:10:00 +0900"
     }
    ]
   },
