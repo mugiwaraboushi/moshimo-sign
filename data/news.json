@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-10T09:52:33.407Z",
+ "updatedAt": "2026-09-10T13:54:40.292Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "警察庁の前サイバー捜査課長懲戒免職 捜査費私的流用で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49548",
-     "pubDate": "Thu, 10 Sep 2026 18:17:00 +0900"
+     "title": "前線北上で11日東海 近畿 甲信は激しい雨も 土砂災害十分注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49378",
+     "pubDate": "Thu, 10 Sep 2026 19:28:39 +0900"
+    },
+    {
+     "title": "張本勲さん死去 86歳 プロ野球最多安打 解説者では「喝！」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49426",
+     "pubDate": "Thu, 10 Sep 2026 19:25:20 +0900"
     },
     {
      "title": "“AIが人々の命奪いかねない”アンソロピック研究者が退社表明",
@@ -18,14 +23,9 @@
      "pubDate": "Thu, 10 Sep 2026 13:57:00 +0900"
     },
     {
-     "title": "ドジャース大谷翔平選手 15日間のけが人リスト入りへ 移籍後初",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49433",
-     "pubDate": "Thu, 10 Sep 2026 17:49:40 +0900"
-    },
-    {
-     "title": "張本勲さん死去 86歳 プロ野球最多安打 解説者では「喝！」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49426",
-     "pubDate": "Thu, 10 Sep 2026 18:37:54 +0900"
+     "title": "トランプ大統領 共和党大会で演説「民主党に委ねれば悲劇だ」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49402",
+     "pubDate": "Thu, 10 Sep 2026 19:28:13 +0900"
     },
     {
      "title": "世界遺産の高野山で宿坊営む複数の宗教法人 1億円超の申告漏れ",
@@ -33,14 +33,14 @@
      "pubDate": "Thu, 10 Sep 2026 18:47:21 +0900"
     },
     {
-     "title": "トランプ大統領 共和党大会で演説「民主党に委ねれば悲劇だ」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49402",
-     "pubDate": "Thu, 10 Sep 2026 15:44:00 +0900"
+     "title": "警察庁の前サイバー捜査課長懲戒免職 捜査費私的流用で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49548",
+     "pubDate": "Thu, 10 Sep 2026 18:17:00 +0900"
     },
     {
-     "title": "島根原発3号機の審査おおむね終了 規制委が審査書とりまとめへ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49560",
-     "pubDate": "Thu, 10 Sep 2026 18:37:20 +0900"
+     "title": "気象庁 千葉豪雨は「スコールライン型」の積乱雲が停滞か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49553",
+     "pubDate": "Thu, 10 Sep 2026 19:11:08 +0900"
     }
    ]
   },
@@ -50,6 +50,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "刑事手続きへの被害者関与で遺族から意見 法制審議会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49601",
+     "pubDate": "Thu, 10 Sep 2026 22:25:24 +0900"
+    },
+    {
+     "title": "気象庁 千葉豪雨は「スコールライン型」の積乱雲が停滞か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49553",
+     "pubDate": "Thu, 10 Sep 2026 19:11:08 +0900"
+    },
+    {
      "title": "“ルフィ”広域強盗事件 詐欺グループトップの初公判 11月に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49547",
      "pubDate": "Thu, 10 Sep 2026 18:45:00 +0900"
@@ -57,7 +67,7 @@
     {
      "title": "島根原発3号機の審査おおむね終了 規制委が審査書とりまとめへ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49560",
-     "pubDate": "Thu, 10 Sep 2026 18:37:20 +0900"
+     "pubDate": "Thu, 10 Sep 2026 18:37:00 +0900"
     },
     {
      "title": "警察庁の前サイバー捜査課長懲戒免職 捜査費私的流用で",
@@ -82,7 +92,7 @@
     {
      "title": "三重 新名神6人死亡事故 元会社員に拘禁刑7年求刑",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49522",
-     "pubDate": "Thu, 10 Sep 2026 15:52:00 +0900"
+     "pubDate": "Thu, 10 Sep 2026 20:36:14 +0900"
     },
     {
      "title": "東海道新幹線 全線で運転再開",
@@ -113,16 +123,6 @@
      "title": "虐待死の子ども 2024年度50人 3割は24時間以内に遺棄され死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49452",
      "pubDate": "Thu, 10 Sep 2026 12:02:00 +0900"
-    },
-    {
-     "title": "世界遺産の高野山で宿坊営む複数の宗教法人 1億円超の申告漏れ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49447",
-     "pubDate": "Thu, 10 Sep 2026 18:47:21 +0900"
-    },
-    {
-     "title": "「ランサムウエア」のサイバー攻撃被害 半期で過去最多 警察庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49443",
-     "pubDate": "Thu, 10 Sep 2026 10:59:00 +0900"
     }
    ]
   },
@@ -144,7 +144,7 @@
     {
      "title": "張本勲さん死去 86歳 プロ野球最多安打 解説者では「喝！」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49426",
-     "pubDate": "Thu, 10 Sep 2026 18:37:54 +0900"
+     "pubDate": "Thu, 10 Sep 2026 19:25:20 +0900"
     },
     {
      "title": "将棋「王位戦」藤井聡太六冠が防衛 7連覇を果たす",
@@ -214,6 +214,26 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "中国青島 修理中の貨物船で火災 25人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49602",
+     "pubDate": "Thu, 10 Sep 2026 22:21:57 +0900"
+    },
+    {
+     "title": "中国 習主席がBRICSで7年ぶりインド訪問 訪米へ外交活発化",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49599",
+     "pubDate": "Thu, 10 Sep 2026 22:00:24 +0900"
+    },
+    {
+     "title": "ウクライナ大統領を乗せた専用機に無人機接近か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49582",
+     "pubDate": "Thu, 10 Sep 2026 21:33:07 +0900"
+    },
+    {
+     "title": "中国 新車輸出100万台超続く 背景にガソリン高でEV需要か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49558",
+     "pubDate": "Thu, 10 Sep 2026 19:14:48 +0900"
+    },
+    {
      "title": "“安全保障観点など踏まえODA強化を”有識者が提言",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49557",
      "pubDate": "Thu, 10 Sep 2026 18:43:30 +0900"
@@ -231,7 +251,7 @@
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月10日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de46987",
-     "pubDate": "Thu, 10 Sep 2026 15:42:00 +0900"
+     "pubDate": "Thu, 10 Sep 2026 19:54:36 +0900"
     },
     {
      "title": "木原長官 イコールアース図法の北方領土表記など修正申し入れ",
@@ -261,32 +281,12 @@
     {
      "title": "アップル 初の折りたたみ式スマホ発表 販売価格36万円余から",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49403",
-     "pubDate": "Thu, 10 Sep 2026 18:10:01 +0900"
+     "pubDate": "Thu, 10 Sep 2026 20:34:14 +0900"
     },
     {
      "title": "米トランプ大統領 ロシアとウクライナとの3者会談実現に意欲",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49420",
      "pubDate": "Thu, 10 Sep 2026 07:02:00 +0900"
-    },
-    {
-     "title": "ラスカー賞に睡眠研究の筑波大 柳沢教授らと中外製薬研究者3人",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49414",
-     "pubDate": "Thu, 10 Sep 2026 17:56:24 +0900"
-    },
-    {
-     "title": "ロシア報道官 米中ロ3か国首脳会談 “可能性はある”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49413",
-     "pubDate": "Thu, 10 Sep 2026 06:16:58 +0900"
-    },
-    {
-     "title": "トランプ大統領 共和党大会で演説「民主党に委ねれば悲劇だ」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49402",
-     "pubDate": "Thu, 10 Sep 2026 15:44:00 +0900"
-    },
-    {
-     "title": "国連本部で日本寄贈の「平和の鐘」鳴らす式典",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49412",
-     "pubDate": "Thu, 10 Sep 2026 05:23:25 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "あいち・三十三FG 統合合意解消",
-     "link": "https://news.yahoo.co.jp/pickup/6594874?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 08:32:58 GMT"
+     "title": "ニデック創業者らに株主代表訴訟",
+     "link": "https://news.yahoo.co.jp/pickup/6594887?source=rss",
+     "pubDate": "Thu, 10 Sep 2026 09:54:25 GMT"
     },
     {
-     "title": "福岡の大学病院分院 閉院続く事情",
-     "link": "https://news.yahoo.co.jp/pickup/6594869?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 08:06:38 GMT"
+     "title": "3台絡む事故で3人死傷 逆走と通報",
+     "link": "https://news.yahoo.co.jp/pickup/6594899?source=rss",
+     "pubDate": "Thu, 10 Sep 2026 12:04:21 GMT"
     },
     {
-     "title": "迷惑行為横行で中学生出禁 店の今",
-     "link": "https://news.yahoo.co.jp/pickup/6594864?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 07:34:11 GMT"
+     "title": "感染性ある口蹄疫 空港検疫で確認",
+     "link": "https://news.yahoo.co.jp/pickup/6594879?source=rss",
+     "pubDate": "Thu, 10 Sep 2026 09:13:10 GMT"
     },
     {
-     "title": "鳥貴族 均一価格410円に値上げへ",
-     "link": "https://news.yahoo.co.jp/pickup/6594875?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 08:43:17 GMT"
+     "title": "千葉豪雨解析 気象庁の担当も驚き",
+     "link": "https://news.yahoo.co.jp/pickup/6594890?source=rss",
+     "pubDate": "Thu, 10 Sep 2026 10:19:13 GMT"
     },
     {
-     "title": "野生ラッコ巡り町議が違反 辞職へ",
-     "link": "https://news.yahoo.co.jp/pickup/6594885?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 09:17:44 GMT"
+     "title": "減少止まらぬ銭湯 活路にサウナ",
+     "link": "https://news.yahoo.co.jp/pickup/6594870?source=rss",
+     "pubDate": "Thu, 10 Sep 2026 08:02:47 GMT"
     },
     {
-     "title": "「グエー」呼んだ寄付 父親が感謝",
-     "link": "https://news.yahoo.co.jp/pickup/6594865?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 07:39:42 GMT"
+     "title": "バスケ男子 アジア大会で白星発進",
+     "link": "https://news.yahoo.co.jp/pickup/6594902?source=rss",
+     "pubDate": "Thu, 10 Sep 2026 13:42:19 GMT"
     },
     {
-     "title": "蒼井優「T乾」自身には反省点も",
-     "link": "https://news.yahoo.co.jp/pickup/6594873?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 08:22:52 GMT"
+     "title": "朝倉未来 青木真也に159秒で勝利",
+     "link": "https://news.yahoo.co.jp/pickup/6594901?source=rss",
+     "pubDate": "Thu, 10 Sep 2026 12:50:09 GMT"
     },
     {
-     "title": "滝沢秀明社長のTOBEに紺綬褒章",
-     "link": "https://news.yahoo.co.jp/pickup/6594866?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 07:43:48 GMT"
+     "title": "パンサー尾形の娘 モデルデビュー",
+     "link": "https://news.yahoo.co.jp/pickup/6594896?source=rss",
+     "pubDate": "Thu, 10 Sep 2026 11:32:53 GMT"
     }
    ]
   }
