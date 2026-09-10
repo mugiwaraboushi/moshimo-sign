@@ -36,6 +36,7 @@
 #include <HTTPClient.h>
 #include <NetworkClientSecure.h>
 #include <ArduinoOTA.h>
+#include "esp_task_wdt.h"
 #include <ArduinoJson.h>
 #include <Update.h>
 #include <time.h>
@@ -73,7 +74,7 @@
 // このビルドのバージョン。リリースごとに +1 する (手順: docs/firmware-release.md)。
 // **公開する .bin はこの値を上げてビルドしたものであること。** manifest の version だけ
 // 上げて .bin が古いままだと、実機は「更新したのにまだ古い」を延々繰り返す。
-#define FW_VERSION 12
+#define FW_VERSION 13
 
 // ---- イベントコメント (v0.10) ----
 // 取得先は playlist.json の "commentsUrl" でも指定できる。config.h の値は初期値。
@@ -362,6 +363,7 @@ static String httpGetString(const String &url, int &code, bool wait = false) {
   if (url.startsWith("https")) {
     NetworkClientSecure client;
     client.setInsecure();  // GitHub Pages等の証明書検証を省略 (表示内容のみなので許容)
+    client.setHandshakeTimeout(10);
     if (http.begin(client, url)) {
       http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
       code = http.GET();
@@ -890,6 +892,16 @@ static void drawBootVersion() {
 // ---------------- setup / loop ----------------
 void setup() {
   Serial.begin(115200);
+
+  {
+    esp_task_wdt_config_t wdtcfg;
+    wdtcfg.timeout_ms     = 60000;
+    wdtcfg.idle_core_mask = (1 << 0);
+    wdtcfg.trigger_panic  = true;
+    esp_err_t r = esp_task_wdt_reconfigure(&wdtcfg);
+    if (r != ESP_OK) r = esp_task_wdt_init(&wdtcfg);
+    Serial.printf("[wdt] task watchdog timeout=60s (%s)\n", r == ESP_OK ? "ok" : "FAILED");
+  }
 
   HUB75_I2S_CFG mxconfig(PANEL_W, PANEL_H, 1);
   display = new MatrixPanel_I2S_DMA(mxconfig);
