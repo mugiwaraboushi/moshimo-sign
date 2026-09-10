@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-10T19:51:42.046Z",
+ "updatedAt": "2026-09-10T22:00:06.650Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "紀子さま 60歳の誕生日",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49611",
-     "pubDate": "Fri, 11 Sep 2026 00:14:00 +0900"
+     "title": "秋雨前線で大気不安定 太平洋側中心に激しい雨のおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49632",
+     "pubDate": "Fri, 11 Sep 2026 06:36:26 +0900"
+    },
+    {
+     "title": "共和党大会 トランプ大統領再び演説へ 民主党対抗集会も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49622",
+     "pubDate": "Fri, 11 Sep 2026 05:04:01 +0900"
+    },
+    {
+     "title": "消費税減税 大綱の来週決定目指す 高市首相 人事の検討進める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49613",
+     "pubDate": "Fri, 11 Sep 2026 05:41:28 +0900"
     },
     {
      "title": "千葉豪雨タクシー乗客死亡 外部委員会に調査要請 災害関連で初",
@@ -18,29 +28,19 @@
      "pubDate": "Fri, 11 Sep 2026 01:17:41 +0900"
     },
     {
-     "title": "8月の世界の平均気温が過去最高に EU気象情報機関発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49610",
-     "pubDate": "Fri, 11 Sep 2026 00:35:56 +0900"
+     "title": "紀子さま 60歳の誕生日",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49611",
+     "pubDate": "Fri, 11 Sep 2026 00:14:00 +0900"
     },
     {
-     "title": "高市首相 今月21日から国連総会出席で訪米を調整",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49567",
-     "pubDate": "Thu, 10 Sep 2026 22:29:45 +0900"
+     "title": "磐越道 部活動バス事故 容疑者の「鑑定留置」3か月延長へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49606",
+     "pubDate": "Fri, 11 Sep 2026 05:11:46 +0900"
     },
     {
-     "title": "歌舞伎批評の第一人者 演劇評論家 渡辺保さん死去",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49612",
-     "pubDate": "Fri, 11 Sep 2026 01:01:59 +0900"
-    },
-    {
-     "title": "前線北上で11日東海 近畿 甲信は激しい雨も 土砂災害十分注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49378",
-     "pubDate": "Thu, 10 Sep 2026 19:28:39 +0900"
-    },
-    {
-     "title": "張本勲さん死去 86歳 プロ野球最多安打 解説者では「喝！」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49426",
-     "pubDate": "Thu, 10 Sep 2026 19:25:20 +0900"
+     "title": "米同時多発テロ事件から25年 政治 社会への影響検証する動きも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49614",
+     "pubDate": "Fri, 11 Sep 2026 05:55:13 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（9月11日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49578",
+     "pubDate": "Fri, 11 Sep 2026 06:48:26 +0900"
+    },
+    {
+     "title": "磐越道 部活動バス事故 容疑者の「鑑定留置」3か月延長へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49606",
+     "pubDate": "Fri, 11 Sep 2026 05:11:46 +0900"
+    },
     {
      "title": "千葉豪雨タクシー乗客死亡 外部委員会に調査要請 災害関連で初",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49616",
@@ -113,16 +123,6 @@
      "title": "熊本地震で被災した住宅の公費解体 申請受け付け始まる 熊本市",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49496",
      "pubDate": "Thu, 10 Sep 2026 14:18:00 +0900"
-    },
-    {
-     "title": "警察庁 DNA型鑑定不正の再発防止策で「アドバイザー」委嘱",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49469",
-     "pubDate": "Thu, 10 Sep 2026 13:26:00 +0900"
-    },
-    {
-     "title": "自殺予防週間始まる“つらい気持ち相談を”SNSでも受け付け",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49464",
-     "pubDate": "Thu, 10 Sep 2026 17:10:34 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "ベネチア国際映画祭で日本映画が注目【Q＆Aで詳しく】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49598",
+     "pubDate": "Fri, 11 Sep 2026 05:11:24 +0900"
+    },
+    {
+     "title": "小惑星リュウグウは太陽系初期の天体の残骸 北海道大学など",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49609",
+     "pubDate": "Fri, 11 Sep 2026 05:06:48 +0900"
+    },
     {
      "title": "歌舞伎批評の第一人者 演劇評論家 渡辺保さん死去",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49612",
@@ -195,16 +205,6 @@
      "title": "東京大学「赤門」の改修工事現場 関係者向け見学会",
      "link": "https://news.web.nhk/newsweb/na/nd-20260905de48328",
      "pubDate": "Sat, 05 Sep 2026 17:03:00 +0900"
-    },
-    {
-     "title": "ベネチア国際映画祭 塚本晋也監督の映画が公式上映",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48291",
-     "pubDate": "Sat, 05 Sep 2026 12:45:00 +0900"
-    },
-    {
-     "title": "星新一さん自筆のSFみつかる 初期の未発表作品か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48277",
-     "pubDate": "Sat, 05 Sep 2026 12:31:00 +0900"
     }
    ]
   },
@@ -214,14 +214,54 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米同時多発テロ事件から25年 政治 社会への影響検証する動きも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49614",
+     "pubDate": "Fri, 11 Sep 2026 05:55:13 +0900"
+    },
+    {
+     "title": "IAEAの理事会 イラン核問題を国連の安保理に付託する決議",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49627",
+     "pubDate": "Fri, 11 Sep 2026 05:39:16 +0900"
+    },
+    {
+     "title": "北欧のアイスランド政府が捕鯨禁止の法案提出へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49620",
+     "pubDate": "Fri, 11 Sep 2026 05:35:39 +0900"
+    },
+    {
+     "title": "ベネチア国際映画祭で日本映画が注目【Q＆Aで詳しく】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49598",
+     "pubDate": "Fri, 11 Sep 2026 05:11:24 +0900"
+    },
+    {
+     "title": "米長期金利約2年10か月ぶり高水準 原油高や財政悪化懸念",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49615",
+     "pubDate": "Fri, 11 Sep 2026 05:09:47 +0900"
+    },
+    {
+     "title": "共和党大会 トランプ大統領再び演説へ 民主党対抗集会も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49622",
+     "pubDate": "Fri, 11 Sep 2026 05:04:01 +0900"
+    },
+    {
+     "title": "イエメン反政府勢力が攻勢強めホルムズ海峡代替ルートに懸念",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49624",
+     "pubDate": "Fri, 11 Sep 2026 05:01:46 +0900"
+    },
+    {
+     "title": "ウクライナ空軍 ロシアのジェット無人機の迎撃が新たな課題に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49625",
+     "pubDate": "Fri, 11 Sep 2026 04:56:01 +0900"
+    },
+    {
      "title": "欧州中銀が2会合ぶり利上げ 物価上昇抑えたいねらい",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49617",
      "pubDate": "Fri, 11 Sep 2026 02:17:48 +0900"
     },
     {
-     "title": "NY原油1バレル100ドル台に 約4か月ぶり 原油供給に懸念",
+     "title": "NY原油1バレル100ドル上回る 約4か月ぶり 原油供給に懸念",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49618",
-     "pubDate": "Fri, 11 Sep 2026 02:16:55 +0900"
+     "pubDate": "Fri, 11 Sep 2026 02:16:00 +0900"
     },
     {
      "title": "8月の世界の平均気温が過去最高に EU気象情報機関発表",
@@ -247,46 +287,6 @@
      "title": "ウクライナ大統領を乗せた専用機に無人機接近か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49582",
      "pubDate": "Thu, 10 Sep 2026 21:33:07 +0900"
-    },
-    {
-     "title": "中国 新車輸出100万台超続く 背景にガソリン高でEV需要か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49558",
-     "pubDate": "Thu, 10 Sep 2026 19:14:48 +0900"
-    },
-    {
-     "title": "“安全保障観点など踏まえODA強化を”有識者が提言",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49557",
-     "pubDate": "Thu, 10 Sep 2026 18:43:30 +0900"
-    },
-    {
-     "title": "米同時多発テロ事件から25年を前にテロ対策訓練 外務省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49504",
-     "pubDate": "Thu, 10 Sep 2026 16:17:00 +0900"
-    },
-    {
-     "title": "北朝鮮 キム総書記 建国記念日に愛国心や忠誠を強調",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49517",
-     "pubDate": "Thu, 10 Sep 2026 16:08:00 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月10日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46987",
-     "pubDate": "Thu, 10 Sep 2026 23:18:47 +0900"
-    },
-    {
-     "title": "木原長官 イコールアース図法の北方領土表記など修正申し入れ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49494",
-     "pubDate": "Thu, 10 Sep 2026 14:39:00 +0900"
-    },
-    {
-     "title": "米政府機関「中国企業が産業規模で米AI蒸留」非難 中国は反発",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49492",
-     "pubDate": "Thu, 10 Sep 2026 14:32:00 +0900"
-    },
-    {
-     "title": "“AIが人々の命奪いかねない”アンソロピック研究者が退社表明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49482",
-     "pubDate": "Thu, 10 Sep 2026 13:57:00 +0900"
     }
    ]
   },
@@ -306,9 +306,14 @@
      "pubDate": "Thu, 10 Sep 2026 13:47:04 GMT"
     },
     {
-     "title": "半導体巡る日中摩擦 企業に影響は",
-     "link": "https://news.yahoo.co.jp/pickup/6594883?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 13:14:56 GMT"
+     "title": "紀子さま還暦60歳に 文章で感想",
+     "link": "https://news.yahoo.co.jp/pickup/6594909?source=rss",
+     "pubDate": "Thu, 10 Sep 2026 21:23:26 GMT"
+    },
+    {
+     "title": "自転車の8歳 はねられ意識不明",
+     "link": "https://news.yahoo.co.jp/pickup/6594911?source=rss",
+     "pubDate": "Thu, 10 Sep 2026 21:47:50 GMT"
     },
     {
      "title": "3台絡む事故で3人死傷 逆走と通報",
@@ -316,19 +321,14 @@
      "pubDate": "Thu, 10 Sep 2026 12:04:21 GMT"
     },
     {
-     "title": "富士山閉山期 登山届の義務化検討",
-     "link": "https://news.yahoo.co.jp/pickup/6594907?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 14:47:18 GMT"
+     "title": "平本蓮が涙の復活 判定勝ちで絶叫",
+     "link": "https://news.yahoo.co.jp/pickup/6594910?source=rss",
+     "pubDate": "Thu, 10 Sep 2026 21:35:36 GMT"
     },
     {
-     "title": "鳥貴族 均一価格410円に値上げへ",
-     "link": "https://news.yahoo.co.jp/pickup/6594875?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 08:43:17 GMT"
-    },
-    {
-     "title": "朝倉未来 青木真也に159秒で勝利",
-     "link": "https://news.yahoo.co.jp/pickup/6594901?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 12:50:09 GMT"
+     "title": "日本ハム中島卓也 今季限りで引退",
+     "link": "https://news.yahoo.co.jp/pickup/6594908?source=rss",
+     "pubDate": "Thu, 10 Sep 2026 21:12:18 GMT"
     },
     {
      "title": "パンサー尾形の娘 モデルデビュー",
