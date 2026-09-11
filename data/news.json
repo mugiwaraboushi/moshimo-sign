@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-11T18:40:17.409Z",
+ "updatedAt": "2026-09-11T21:23:05.013Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "中部電力 報告書提出受け14日に会見 経営トップ進退判断へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49824",
+     "pubDate": "Sat, 12 Sep 2026 06:09:08 +0900"
+    },
+    {
+     "title": "消費税減税で大綱来週決定へ 国会審議備え担当閣僚新設も検討",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49833",
+     "pubDate": "Sat, 12 Sep 2026 05:27:29 +0900"
+    },
+    {
      "title": "俳優 森本レオさん死去 83歳 俳優・ナレーターとして活躍",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49814",
      "pubDate": "Fri, 11 Sep 2026 21:40:25 +0900"
     },
     {
-     "title": "岐阜 洋菓子店殺人事件 店主の死亡確認 死者4人に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49832",
-     "pubDate": "Sat, 12 Sep 2026 00:41:07 +0900"
+     "title": "米同時多発テロ事件25年 旅客機激突のビル跡地で犠牲者を追悼",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49838",
+     "pubDate": "Sat, 12 Sep 2026 05:37:07 +0900"
     },
     {
-     "title": "アメリカ 8月の消費者物価指数 去年同月比3.4％の上昇",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49799",
-     "pubDate": "Fri, 11 Sep 2026 23:51:19 +0900"
+     "title": "相模原 高校生暴行死事件 警察に通報しないよう口止めか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49835",
+     "pubDate": "Sat, 12 Sep 2026 05:06:04 +0900"
     },
     {
-     "title": "ノルウェー大使館 サバ価格高騰の中 ニシン輸出拡大へPR強化",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49752",
-     "pubDate": "Fri, 11 Sep 2026 23:47:49 +0900"
+     "title": "戦没者遺骨 DNA判定前に送還へ 集団埋葬地など限定で見直し案",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49822",
+     "pubDate": "Sat, 12 Sep 2026 05:48:57 +0900"
     },
     {
-     "title": "カナダがウクライナ支援に390億円追加へ 防空体制強化",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49815",
-     "pubDate": "Sat, 12 Sep 2026 00:04:34 +0900"
-    },
-    {
-     "title": "韓国・イラン外相電話会談“ホルムズ海峡派遣決まっていない”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49806",
-     "pubDate": "Sat, 12 Sep 2026 00:35:50 +0900"
-    },
-    {
-     "title": "病気で就労できなくなり生活保護求めた外国人男性の敗訴確定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49780",
-     "pubDate": "Fri, 11 Sep 2026 20:13:25 +0900"
+     "title": "イオンモール熊本 すべてのテナントに一時的な契約解除を打診",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49840",
+     "pubDate": "Sat, 12 Sep 2026 04:51:27 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "中部電力 報告書提出受け14日に会見 経営トップ進退判断へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49824",
+     "pubDate": "Sat, 12 Sep 2026 06:09:08 +0900"
+    },
+    {
+     "title": "戦没者遺骨 DNA判定前に送還へ 集団埋葬地など限定で見直し案",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49822",
+     "pubDate": "Sat, 12 Sep 2026 05:48:57 +0900"
+    },
+    {
+     "title": "相模原 高校生暴行死事件 警察に通報しないよう口止めか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49835",
+     "pubDate": "Sat, 12 Sep 2026 05:06:04 +0900"
+    },
     {
      "title": "岐阜 洋菓子店殺人事件 店主の死亡確認 死者4人に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49832",
@@ -108,21 +123,6 @@
      "title": "主要企業のことし夏のボーナスが過去最高",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49733",
      "pubDate": "Fri, 11 Sep 2026 17:50:23 +0900"
-    },
-    {
-     "title": "ミャンマー国籍女性“違法な天引き”会社側に支払い命じる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49723",
-     "pubDate": "Fri, 11 Sep 2026 17:43:00 +0900"
-    },
-    {
-     "title": "バンド演奏用の楽譜“模倣され無料公開”賠償責任は？",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49721",
-     "pubDate": "Fri, 11 Sep 2026 17:34:25 +0900"
-    },
-    {
-     "title": "法務省 不法就労摘発の強化へ 他省庁の調査に参加",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49713",
-     "pubDate": "Fri, 11 Sep 2026 16:35:06 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米同時多発テロ事件25年 旅客機激突のビル跡地で犠牲者を追悼",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49838",
+     "pubDate": "Sat, 12 Sep 2026 05:37:07 +0900"
+    },
+    {
      "title": "韓国・イラン外相電話会談“ホルムズ海峡派遣決まっていない”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49806",
      "pubDate": "Sat, 12 Sep 2026 00:35:50 +0900"
@@ -282,11 +287,6 @@
      "title": "ペルーのフジモリ大統領 米トランプ政権と関係強化進める考え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49693",
      "pubDate": "Fri, 11 Sep 2026 14:47:00 +0900"
-    },
-    {
-     "title": "「法の支配」議連 “ICC赤根所長制裁でアメリカと対話を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49688",
-     "pubDate": "Fri, 11 Sep 2026 16:59:15 +0900"
     }
    ]
   },
