@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-11T21:23:05.013Z",
+ "updatedAt": "2026-09-11T23:23:16.557Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,37 +10,37 @@
     {
      "title": "中部電力 報告書提出受け14日に会見 経営トップ進退判断へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49824",
-     "pubDate": "Sat, 12 Sep 2026 06:09:08 +0900"
+     "pubDate": "Sat, 12 Sep 2026 06:09:00 +0900"
+    },
+    {
+     "title": "サウジアラビアの東西パイプライン 攻撃受け一時操業停止",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49849",
+     "pubDate": "Sat, 12 Sep 2026 08:01:22 +0900"
     },
     {
      "title": "消費税減税で大綱来週決定へ 国会審議備え担当閣僚新設も検討",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49833",
-     "pubDate": "Sat, 12 Sep 2026 05:27:29 +0900"
+     "pubDate": "Sat, 12 Sep 2026 05:27:00 +0900"
     },
     {
-     "title": "俳優 森本レオさん死去 83歳 俳優・ナレーターとして活躍",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49814",
-     "pubDate": "Fri, 11 Sep 2026 21:40:25 +0900"
-    },
-    {
-     "title": "米同時多発テロ事件25年 旅客機激突のビル跡地で犠牲者を追悼",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49838",
-     "pubDate": "Sat, 12 Sep 2026 05:37:07 +0900"
-    },
-    {
-     "title": "相模原 高校生暴行死事件 警察に通報しないよう口止めか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49835",
-     "pubDate": "Sat, 12 Sep 2026 05:06:04 +0900"
-    },
-    {
-     "title": "戦没者遺骨 DNA判定前に送還へ 集団埋葬地など限定で見直し案",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49822",
-     "pubDate": "Sat, 12 Sep 2026 05:48:57 +0900"
+     "title": "スイスで観光客を乗せたバスが横転 5人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49847",
+     "pubDate": "Sat, 12 Sep 2026 07:41:00 +0900"
     },
     {
      "title": "イオンモール熊本 すべてのテナントに一時的な契約解除を打診",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49840",
-     "pubDate": "Sat, 12 Sep 2026 04:51:27 +0900"
+     "pubDate": "Sat, 12 Sep 2026 04:51:00 +0900"
+    },
+    {
+     "title": "イエメン反政府勢力のフーシ派 紅海出入り口の海峡の島制圧か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49839",
+     "pubDate": "Sat, 12 Sep 2026 06:56:02 +0900"
+    },
+    {
+     "title": "米同時多発テロ事件25年 旅客機激突のビル跡地で犠牲者を追悼",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49838",
+     "pubDate": "Sat, 12 Sep 2026 07:48:58 +0900"
     }
    ]
   },
@@ -50,14 +50,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "【動画】Pickup NEWS（9月12日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49803",
+     "pubDate": "Sat, 12 Sep 2026 06:47:26 +0900"
+    },
+    {
      "title": "中部電力 報告書提出受け14日に会見 経営トップ進退判断へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49824",
-     "pubDate": "Sat, 12 Sep 2026 06:09:08 +0900"
+     "pubDate": "Sat, 12 Sep 2026 06:09:00 +0900"
     },
     {
      "title": "戦没者遺骨 DNA判定前に送還へ 集団埋葬地など限定で見直し案",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49822",
-     "pubDate": "Sat, 12 Sep 2026 05:48:57 +0900"
+     "pubDate": "Sat, 12 Sep 2026 05:48:00 +0900"
     },
     {
      "title": "相模原 高校生暴行死事件 警察に通報しないよう口止めか",
@@ -118,11 +123,6 @@
      "title": "クビアカツヤカミキリ 国が防除戦略決定 被害縮小の道筋を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49758",
      "pubDate": "Fri, 11 Sep 2026 18:38:00 +0900"
-    },
-    {
-     "title": "主要企業のことし夏のボーナスが過去最高",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49733",
-     "pubDate": "Fri, 11 Sep 2026 17:50:23 +0900"
     }
    ]
   },
@@ -214,9 +214,44 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "IEA ことしの石油供給見通し下方修正 中東から供給回復来年に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49845",
+     "pubDate": "Sat, 12 Sep 2026 08:20:13 +0900"
+    },
+    {
+     "title": "サウジアラビアの東西パイプライン 攻撃受け一時操業停止",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49849",
+     "pubDate": "Sat, 12 Sep 2026 08:01:22 +0900"
+    },
+    {
+     "title": "スイスで観光客を乗せたバスが横転 5人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49847",
+     "pubDate": "Sat, 12 Sep 2026 07:41:00 +0900"
+    },
+    {
+     "title": "イエメン反政府勢力のフーシ派 紅海出入り口の海峡の島制圧か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49839",
+     "pubDate": "Sat, 12 Sep 2026 06:56:02 +0900"
+    },
+    {
+     "title": "“北朝鮮が日本海に向けて飛しょう体発射”韓国軍",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49846",
+     "pubDate": "Sat, 12 Sep 2026 06:45:39 +0900"
+    },
+    {
+     "title": "プーチン大統領 制裁の西側諸国を批判 BRICSと関係強化に意欲",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49842",
+     "pubDate": "Sat, 12 Sep 2026 06:41:15 +0900"
+    },
+    {
+     "title": "きょうからBRICS首脳会議 中国とインドの関係の安定化が焦点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49837",
+     "pubDate": "Sat, 12 Sep 2026 06:30:37 +0900"
+    },
+    {
      "title": "米同時多発テロ事件25年 旅客機激突のビル跡地で犠牲者を追悼",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49838",
-     "pubDate": "Sat, 12 Sep 2026 05:37:07 +0900"
+     "pubDate": "Sat, 12 Sep 2026 07:48:58 +0900"
     },
     {
      "title": "韓国・イラン外相電話会談“ホルムズ海峡派遣決まっていない”",
@@ -252,41 +287,6 @@
      "title": "北朝鮮選手団 アジア大会出場へ来日 制裁措置の例外で入国",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49792",
      "pubDate": "Fri, 11 Sep 2026 19:47:00 +0900"
-    },
-    {
-     "title": "ドイツで坂本龍一さんの回顧展始まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49777",
-     "pubDate": "Fri, 11 Sep 2026 19:19:58 +0900"
-    },
-    {
-     "title": "米保守系活動家チャーリー・カーク氏殺害1年で追悼集会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49739",
-     "pubDate": "Fri, 11 Sep 2026 18:32:44 +0900"
-    },
-    {
-     "title": "片山財務相“胴元は日本語では怖いが市場感の表れの報道も”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49706",
-     "pubDate": "Fri, 11 Sep 2026 16:28:48 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（9月11日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46988",
-     "pubDate": "Fri, 11 Sep 2026 15:08:00 +0900"
-    },
-    {
-     "title": "インドネシアで森林火災が深刻化 自衛隊も消火活動へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49695",
-     "pubDate": "Fri, 11 Sep 2026 14:59:49 +0900"
-    },
-    {
-     "title": "韓国 イ大統領支持率が初めて40％下回る 中東派遣反対は50％超",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49696",
-     "pubDate": "Fri, 11 Sep 2026 14:55:00 +0900"
-    },
-    {
-     "title": "ペルーのフジモリ大統領 米トランプ政権と関係強化進める考え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49693",
-     "pubDate": "Fri, 11 Sep 2026 14:47:00 +0900"
     }
    ]
   },
@@ -296,14 +296,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "フーシ派が海峡周辺掌握 原油急騰",
-     "link": "https://news.yahoo.co.jp/pickup/6594994?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 13:46:57 GMT"
+     "title": "北朝鮮 日本海に向け飛翔体発射",
+     "link": "https://news.yahoo.co.jp/pickup/6595000?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 22:19:46 GMT"
     },
     {
-     "title": "木原氏 岸田氏アンケ巡る発言謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6594991?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 13:28:24 GMT"
+     "title": "消費減税 特例・経過措置で複雑化",
+     "link": "https://news.yahoo.co.jp/pickup/6595004?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 22:46:39 GMT"
+    },
+    {
+     "title": "亀蔵さん死亡火災 知人を書類送検",
+     "link": "https://news.yahoo.co.jp/pickup/6594999?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 22:20:09 GMT"
     },
     {
      "title": "ケーキ店火災 女性オーナーが死亡",
@@ -311,29 +316,24 @@
      "pubDate": "Fri, 11 Sep 2026 14:27:47 GMT"
     },
     {
-     "title": "海岸に遺体 不明生徒との関連捜査",
-     "link": "https://news.yahoo.co.jp/pickup/6594996?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 14:16:40 GMT"
+     "title": "ガソスタ 10年で1700社超が消滅",
+     "link": "https://news.yahoo.co.jp/pickup/6595006?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 23:05:07 GMT"
     },
     {
-     "title": "中国 日本人ビザ約7.5倍に値上げ",
-     "link": "https://news.yahoo.co.jp/pickup/6594984?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 11:57:42 GMT"
+     "title": "大谷IL入り決定 復帰日の目安なし",
+     "link": "https://news.yahoo.co.jp/pickup/6595003?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 22:41:37 GMT"
     },
     {
-     "title": "SB前田悠伍 開幕から無傷12連勝",
-     "link": "https://news.yahoo.co.jp/pickup/6594998?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 14:41:41 GMT"
+     "title": "映画「国宝」テレビ初放送が決定",
+     "link": "https://news.yahoo.co.jp/pickup/6595008?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 23:06:23 GMT"
     },
     {
-     "title": "ナイトスクープ 新秘書に瀧口アナ",
-     "link": "https://news.yahoo.co.jp/pickup/6594993?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 13:32:28 GMT"
-    },
-    {
-     "title": "俳優の森本レオさんが死去",
-     "link": "https://news.yahoo.co.jp/pickup/6594989?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 12:19:16 GMT"
+     "title": "森本レオさん 原因不明の突然死",
+     "link": "https://news.yahoo.co.jp/pickup/6595002?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 22:29:34 GMT"
     }
    ]
   }
