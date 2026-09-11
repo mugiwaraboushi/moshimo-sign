@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-11T11:52:36.503Z",
+ "updatedAt": "2026-09-11T15:19:49.480Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,29 +8,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "アンダーパスで車水没し1人死亡 救助にあたった消防隊員は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49769",
-     "pubDate": "Fri, 11 Sep 2026 19:49:00 +0900"
+     "title": "俳優 森本レオさん死去 83歳 俳優・ナレーターとして活躍",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49814",
+     "pubDate": "Fri, 11 Sep 2026 21:40:25 +0900"
     },
     {
-     "title": "相模原 高校生暴行死 直前にオートバイ巡りトラブルか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49664",
-     "pubDate": "Fri, 11 Sep 2026 18:13:00 +0900"
+     "title": "ノルウェー大使館 サバ価格高騰の中 ニシン輸出拡大へPR強化",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49752",
+     "pubDate": "Fri, 11 Sep 2026 23:47:49 +0900"
     },
     {
-     "title": "片山財務相“胴元は日本語では怖いが市場感の表れの報道も”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49706",
-     "pubDate": "Fri, 11 Sep 2026 16:28:48 +0900"
+     "title": "アメリカ 8月の消費者物価指数 去年同月比3.4％の上昇",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49799",
+     "pubDate": "Fri, 11 Sep 2026 23:51:19 +0900"
     },
     {
-     "title": "震度7の氷川町内 全住宅の30％超が「半壊以上」 町調査で判明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49787",
-     "pubDate": "Fri, 11 Sep 2026 20:03:28 +0900"
+     "title": "畑のPFAS 野菜からほとんど検出されず 農水省が実験結果",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49805",
+     "pubDate": "Fri, 11 Sep 2026 21:19:44 +0900"
     },
     {
-     "title": "大阪の物流会社保管の小麦に禁止殺虫剤“健康影響可能性低い”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49775",
-     "pubDate": "Fri, 11 Sep 2026 20:16:07 +0900"
+     "title": "カナダがウクライナ支援に390億円追加へ 防空体制強化",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49815",
+     "pubDate": "Sat, 12 Sep 2026 00:04:34 +0900"
     },
     {
      "title": "病気で就労できなくなり生活保護求めた外国人男性の敗訴確定",
@@ -38,9 +38,9 @@
      "pubDate": "Fri, 11 Sep 2026 20:13:25 +0900"
     },
     {
-     "title": "横領や賭博で有罪 簡易裁判所の裁判官を訴追 弾劾裁判へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49756",
-     "pubDate": "Fri, 11 Sep 2026 20:28:08 +0900"
+     "title": "サッカーJ1 第7節 神戸が鹿島に競り勝ち4連勝",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49816",
+     "pubDate": "Fri, 11 Sep 2026 23:38:24 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "俳優 森本レオさん死去 83歳 俳優・ナレーターとして活躍",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49814",
+     "pubDate": "Fri, 11 Sep 2026 21:40:25 +0900"
+    },
     {
      "title": "横領や賭博で有罪 簡易裁判所の裁判官を訴追 弾劾裁判へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49756",
@@ -67,7 +72,7 @@
     {
      "title": "ソニー生命 新たに6千万円余りの不適切な金銭の受け取りを発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49796",
-     "pubDate": "Fri, 11 Sep 2026 20:11:25 +0900"
+     "pubDate": "Fri, 11 Sep 2026 20:11:00 +0900"
     },
     {
      "title": "震度7の氷川町内 全住宅の30％超が「半壊以上」 町調査で判明",
@@ -102,7 +107,7 @@
     {
      "title": "ミャンマー国籍女性“違法な天引き”会社側に支払い命じる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49723",
-     "pubDate": "Fri, 11 Sep 2026 17:43:17 +0900"
+     "pubDate": "Fri, 11 Sep 2026 17:43:00 +0900"
     },
     {
      "title": "バンド演奏用の楽譜“模倣され無料公開”賠償責任は？",
@@ -118,11 +123,6 @@
      "title": "「熊本ふっこう応援割」9月15日から販売開始 熊本県",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49694",
      "pubDate": "Fri, 11 Sep 2026 15:23:04 +0900"
-    },
-    {
-     "title": "小泉防衛相“原子力潜水艦選択肢として排除せず”3文書改定で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49684",
-     "pubDate": "Fri, 11 Sep 2026 13:27:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "畑のPFAS 野菜からほとんど検出されず 農水省が実験結果",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49805",
+     "pubDate": "Fri, 11 Sep 2026 21:19:44 +0900"
+    },
     {
      "title": "ドイツで坂本龍一さんの回顧展始まる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49777",
@@ -200,11 +205,6 @@
      "title": "柏崎刈羽原発 東電に安全性向上の取り組み求める 政府",
      "link": "https://news.web.nhk/newsweb/na/nd-20260909de49323",
      "pubDate": "Wed, 09 Sep 2026 16:37:28 +0900"
-    },
-    {
-     "title": "スミソニアン協会トップが退任表明 トランプ政権が展示批判",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49219",
-     "pubDate": "Wed, 09 Sep 2026 08:43:00 +0900"
     }
    ]
   },
@@ -214,9 +214,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "カナダがウクライナ支援に390億円追加へ 防空体制強化",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49815",
+     "pubDate": "Sat, 12 Sep 2026 00:04:34 +0900"
+    },
+    {
+     "title": "ノルウェー大使館 サバ価格高騰の中 ニシン輸出拡大へPR強化",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49752",
+     "pubDate": "Fri, 11 Sep 2026 23:47:49 +0900"
+    },
+    {
+     "title": "アメリカ 8月の消費者物価指数 去年同月比3.4％の上昇",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49799",
+     "pubDate": "Fri, 11 Sep 2026 23:51:19 +0900"
+    },
+    {
      "title": "BRICS首脳会議開幕へ 中国とインドの首脳会談も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49770",
-     "pubDate": "Fri, 11 Sep 2026 20:04:17 +0900"
+     "pubDate": "Fri, 11 Sep 2026 20:04:00 +0900"
     },
     {
      "title": "天安門事件を追悼する集会の開催団体 元代表に懲役7年の判決",
@@ -226,7 +241,7 @@
     {
      "title": "北朝鮮選手団 アジア大会出場へ来日 制裁措置の例外で入国",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49792",
-     "pubDate": "Fri, 11 Sep 2026 19:47:25 +0900"
+     "pubDate": "Fri, 11 Sep 2026 19:47:00 +0900"
     },
     {
      "title": "ドイツで坂本龍一さんの回顧展始まる",
@@ -244,9 +259,9 @@
      "pubDate": "Fri, 11 Sep 2026 16:28:48 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月11日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（9月11日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de46988",
-     "pubDate": "Fri, 11 Sep 2026 15:08:29 +0900"
+     "pubDate": "Fri, 11 Sep 2026 15:08:00 +0900"
     },
     {
      "title": "インドネシアで森林火災が深刻化 自衛隊も消火活動へ",
@@ -272,21 +287,6 @@
      "title": "イコールアース図法の提唱者が北方領土の色と表記を変更",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49662",
      "pubDate": "Fri, 11 Sep 2026 12:37:11 +0900"
-    },
-    {
-     "title": "トランプ大統領 5000ドル支給に再言及 無党派の支持拡大が焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49652",
-     "pubDate": "Fri, 11 Sep 2026 19:51:48 +0900"
-    },
-    {
-     "title": "米同時多発テロ事件から25年 このあと追悼式典",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49614",
-     "pubDate": "Fri, 11 Sep 2026 18:45:32 +0900"
-    },
-    {
-     "title": "IAEAの理事会 イラン核問題を国連の安保理に付託する決議",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49627",
-     "pubDate": "Fri, 11 Sep 2026 05:39:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "「トランプ配当金」共和党内賛否",
-     "link": "https://news.yahoo.co.jp/pickup/6594966?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 08:34:54 GMT"
+     "title": "フーシ派が海峡周辺掌握 原油急騰",
+     "link": "https://news.yahoo.co.jp/pickup/6594994?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 13:46:57 GMT"
     },
     {
-     "title": "地獄だった 北へ渡った在日韓国人",
-     "link": "https://news.yahoo.co.jp/pickup/6594971?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 08:54:41 GMT"
+     "title": "木原氏 岸田氏アンケ巡る発言謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6594991?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 13:28:24 GMT"
     },
     {
-     "title": "ソニー生命新たに5千万円詐取判明",
-     "link": "https://news.yahoo.co.jp/pickup/6594977?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 10:00:50 GMT"
+     "title": "ケーキ店火災 女性オーナーが死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6594997?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 14:27:47 GMT"
     },
     {
-     "title": "くら寿司苦戦 大手3社で業績に差",
-     "link": "https://news.yahoo.co.jp/pickup/6594979?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 10:26:48 GMT"
+     "title": "海岸に遺体 不明生徒との関連捜査",
+     "link": "https://news.yahoo.co.jp/pickup/6594996?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 14:16:40 GMT"
     },
     {
-     "title": "特定技能の給与天引き 支払い命令",
-     "link": "https://news.yahoo.co.jp/pickup/6594982?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 11:31:52 GMT"
+     "title": "中国 日本人ビザ約7.5倍に値上げ",
+     "link": "https://news.yahoo.co.jp/pickup/6594984?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 11:57:42 GMT"
     },
     {
-     "title": "速報バレー男子 日本vs.インド",
-     "link": "https://news.yahoo.co.jp/pickup/6594975?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 10:30:51 GMT"
+     "title": "SB前田悠伍 開幕から無傷12連勝",
+     "link": "https://news.yahoo.co.jp/pickup/6594998?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 14:41:41 GMT"
     },
     {
-     "title": "加護亜依が「ヤニねこ」出演 話題",
-     "link": "https://news.yahoo.co.jp/pickup/6594978?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 10:21:12 GMT"
+     "title": "ナイトスクープ 新秘書に瀧口アナ",
+     "link": "https://news.yahoo.co.jp/pickup/6594993?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 13:32:28 GMT"
     },
     {
-     "title": "声優の伊藤健太郎が休養 脳内出血",
-     "link": "https://news.yahoo.co.jp/pickup/6594980?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 10:23:57 GMT"
+     "title": "俳優の森本レオさんが死去",
+     "link": "https://news.yahoo.co.jp/pickup/6594989?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 12:19:16 GMT"
     }
    ]
   }
