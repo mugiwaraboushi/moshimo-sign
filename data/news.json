@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-10T23:46:18.598Z",
+ "updatedAt": "2026-09-11T01:38:09.210Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,6 +8,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "中部電力 浜岡原発再稼働に向けた審査 申請取り下げで最終調整",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49642",
+     "pubDate": "Fri, 11 Sep 2026 10:33:21 +0900"
+    },
+    {
+     "title": "日経平均株価 一時2000円超下落",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49643",
+     "pubDate": "Fri, 11 Sep 2026 09:24:26 +0900"
+    },
+    {
+     "title": "実弾発射能力持つ“おもちゃの拳銃”など所持か 会社員逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49647",
+     "pubDate": "Fri, 11 Sep 2026 10:24:45 +0900"
+    },
+    {
      "title": "秋雨前線で大気不安定 太平洋側中心に激しい雨のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49632",
      "pubDate": "Fri, 11 Sep 2026 06:36:26 +0900"
@@ -15,22 +30,7 @@
     {
      "title": "紀子さま 60歳の誕生日",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49611",
-     "pubDate": "Fri, 11 Sep 2026 07:11:06 +0900"
-    },
-    {
-     "title": "千葉豪雨タクシー乗客死亡 外部委員会に調査要請 災害関連で初",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49616",
-     "pubDate": "Fri, 11 Sep 2026 01:17:41 +0900"
-    },
-    {
-     "title": "磐越道 部活動バス事故 容疑者の「鑑定留置」3か月延長へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49606",
-     "pubDate": "Fri, 11 Sep 2026 05:11:46 +0900"
-    },
-    {
-     "title": "共和党大会 トランプ大統領再び演説へ 民主党対抗集会も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49622",
-     "pubDate": "Fri, 11 Sep 2026 05:04:01 +0900"
+     "pubDate": "Fri, 11 Sep 2026 10:22:20 +0900"
     },
     {
      "title": "米同時多発テロ事件から25年 政治 社会への影響検証する動きも",
@@ -38,9 +38,9 @@
      "pubDate": "Fri, 11 Sep 2026 07:14:43 +0900"
     },
     {
-     "title": "消費税減税 大綱の来週決定目指す 高市首相 人事の検討進める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49613",
-     "pubDate": "Fri, 11 Sep 2026 07:27:21 +0900"
+     "title": "大相撲 横綱 豊昇龍が秋場所休場 7月に右ひざ手術",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49645",
+     "pubDate": "Fri, 11 Sep 2026 10:33:10 +0900"
     }
    ]
   },
@@ -50,9 +50,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "実弾発射能力持つ“おもちゃの拳銃”など所持か 会社員逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49647",
+     "pubDate": "Fri, 11 Sep 2026 10:24:45 +0900"
+    },
+    {
+     "title": "中部電力 浜岡原発再稼働に向けた審査 申請取り下げで最終調整",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49642",
+     "pubDate": "Fri, 11 Sep 2026 10:33:21 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（9月11日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49578",
-     "pubDate": "Fri, 11 Sep 2026 06:48:26 +0900"
+     "pubDate": "Fri, 11 Sep 2026 10:09:38 +0900"
     },
     {
      "title": "磐越道 部活動バス事故 容疑者の「鑑定留置」3か月延長へ",
@@ -67,7 +77,7 @@
     {
      "title": "紀子さま 60歳の誕生日",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49611",
-     "pubDate": "Fri, 11 Sep 2026 07:11:06 +0900"
+     "pubDate": "Fri, 11 Sep 2026 10:22:20 +0900"
     },
     {
      "title": "刑事手続きへの被害者関与で遺族から意見 法制審議会",
@@ -113,16 +123,6 @@
      "title": "三重 新名神6人死亡事故 元会社員に拘禁刑7年求刑",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49522",
      "pubDate": "Thu, 10 Sep 2026 20:36:14 +0900"
-    },
-    {
-     "title": "東海道新幹線 全線で運転再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49506",
-     "pubDate": "Thu, 10 Sep 2026 15:03:29 +0900"
-    },
-    {
-     "title": "熊本地震で被災した住宅の公費解体 申請受け付け始まる 熊本市",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49496",
-     "pubDate": "Thu, 10 Sep 2026 14:18:00 +0900"
     }
    ]
   },
@@ -296,34 +296,34 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "維新入閣 馬場氏か藤田氏で調整",
-     "link": "https://news.yahoo.co.jp/pickup/6594918?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 23:08:12 GMT"
+     "title": "米同時テロの遺族 悲しみ死ぬまで",
+     "link": "https://news.yahoo.co.jp/pickup/6594925?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 00:43:31 GMT"
     },
     {
-     "title": "給付制度の担当相 創設を検討",
-     "link": "https://news.yahoo.co.jp/pickup/6594913?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 22:23:43 GMT"
+     "title": "日経平均 一時2000円以上値下がり",
+     "link": "https://news.yahoo.co.jp/pickup/6594924?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 00:32:12 GMT"
     },
     {
-     "title": "自転車の8歳 はねられ意識不明",
-     "link": "https://news.yahoo.co.jp/pickup/6594911?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 21:47:50 GMT"
+     "title": "ChatGPT 一部プラン新規受付停止",
+     "link": "https://news.yahoo.co.jp/pickup/6594928?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 01:20:06 GMT"
     },
     {
-     "title": "3月導入のEVバス 早くも運行停止",
-     "link": "https://news.yahoo.co.jp/pickup/6594915?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 22:39:41 GMT"
+     "title": "1泊20万円の高野山宿坊も 嘆く声",
+     "link": "https://news.yahoo.co.jp/pickup/6594923?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 00:13:48 GMT"
     },
     {
-     "title": "給食チキンナゲットでアレルギー",
-     "link": "https://news.yahoo.co.jp/pickup/6594917?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 22:48:14 GMT"
+     "title": "水星 誕生以降半径10キロ以上縮む",
+     "link": "https://news.yahoo.co.jp/pickup/6594922?source=rss",
+     "pubDate": "Thu, 10 Sep 2026 23:59:56 GMT"
     },
     {
-     "title": "リュウグウ母天体 形成年代を推定",
-     "link": "https://news.yahoo.co.jp/pickup/6594916?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 22:58:57 GMT"
+     "title": "横綱豊昇龍が秋場所休場 苦渋決断",
+     "link": "https://news.yahoo.co.jp/pickup/6594927?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 01:05:46 GMT"
     },
     {
      "title": "張本勲さん 死去4日前受けた取材",
@@ -331,9 +331,9 @@
      "pubDate": "Thu, 10 Sep 2026 23:40:09 GMT"
     },
     {
-     "title": "脱衣所での撮影 TVとVlogの違い",
-     "link": "https://news.yahoo.co.jp/pickup/6594914?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 22:32:10 GMT"
+     "title": "大森元貴 映画で昭和のスター役",
+     "link": "https://news.yahoo.co.jp/pickup/6594926?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 00:47:37 GMT"
     }
    ]
   }
