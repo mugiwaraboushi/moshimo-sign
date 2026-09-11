@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-11T01:38:09.210Z",
+ "updatedAt": "2026-09-11T06:42:45.011Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,37 +10,37 @@
     {
      "title": "中部電力 浜岡原発再稼働に向けた審査 申請取り下げで最終調整",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49642",
-     "pubDate": "Fri, 11 Sep 2026 10:33:21 +0900"
+     "pubDate": "Fri, 11 Sep 2026 15:24:36 +0900"
     },
     {
-     "title": "日経平均株価 一時2000円超下落",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49643",
-     "pubDate": "Fri, 11 Sep 2026 09:24:26 +0900"
+     "title": "「熊本ふっこう応援割」9月15日から販売開始 熊本県",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49694",
+     "pubDate": "Fri, 11 Sep 2026 15:23:04 +0900"
     },
     {
-     "title": "実弾発射能力持つ“おもちゃの拳銃”など所持か 会社員逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49647",
-     "pubDate": "Fri, 11 Sep 2026 10:24:45 +0900"
+     "title": "相模原 高校生暴行死 知人への傷害容疑で少年4人逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49664",
+     "pubDate": "Fri, 11 Sep 2026 12:01:00 +0900"
     },
     {
-     "title": "秋雨前線で大気不安定 太平洋側中心に激しい雨のおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49632",
-     "pubDate": "Fri, 11 Sep 2026 06:36:26 +0900"
+     "title": "OTC類似薬 アトピー性皮膚炎再発予防は追加負担の対象外に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49692",
+     "pubDate": "Fri, 11 Sep 2026 14:37:23 +0900"
     },
     {
-     "title": "紀子さま 60歳の誕生日",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49611",
-     "pubDate": "Fri, 11 Sep 2026 10:22:20 +0900"
+     "title": "小泉防衛相“原子力潜水艦選択肢として排除せず”3文書改定で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49684",
+     "pubDate": "Fri, 11 Sep 2026 13:27:00 +0900"
     },
     {
-     "title": "米同時多発テロ事件から25年 政治 社会への影響検証する動きも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49614",
-     "pubDate": "Fri, 11 Sep 2026 07:14:43 +0900"
+     "title": "府省庁職員ら24万件超の個人情報漏えい 松本デジタル相会見",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49659",
+     "pubDate": "Fri, 11 Sep 2026 12:27:43 +0900"
     },
     {
-     "title": "大相撲 横綱 豊昇龍が秋場所休場 7月に右ひざ手術",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49645",
-     "pubDate": "Fri, 11 Sep 2026 10:33:10 +0900"
+     "title": "消費税減税の大綱案 自民合同会議で税制調査会長らに対応一任",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49656",
+     "pubDate": "Fri, 11 Sep 2026 15:13:15 +0900"
     }
    ]
   },
@@ -50,19 +50,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "実弾発射能力持つ“おもちゃの拳銃”など所持か 会社員逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49647",
-     "pubDate": "Fri, 11 Sep 2026 10:24:45 +0900"
+     "title": "「熊本ふっこう応援割」9月15日から販売開始 熊本県",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49694",
+     "pubDate": "Fri, 11 Sep 2026 15:23:04 +0900"
     },
     {
-     "title": "中部電力 浜岡原発再稼働に向けた審査 申請取り下げで最終調整",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49642",
-     "pubDate": "Fri, 11 Sep 2026 10:33:21 +0900"
+     "title": "小泉防衛相“原子力潜水艦選択肢として排除せず”3文書改定で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49684",
+     "pubDate": "Fri, 11 Sep 2026 13:27:00 +0900"
+    },
+    {
+     "title": "相模原 高校生暴行死 知人への傷害容疑で少年4人逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49664",
+     "pubDate": "Fri, 11 Sep 2026 12:01:00 +0900"
+    },
+    {
+     "title": "実弾発射能力持つ“おもちゃの拳銃”など所持か 会社員逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49647",
+     "pubDate": "Fri, 11 Sep 2026 13:45:00 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（9月11日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49578",
-     "pubDate": "Fri, 11 Sep 2026 10:09:38 +0900"
+     "pubDate": "Fri, 11 Sep 2026 14:21:48 +0900"
     },
     {
      "title": "磐越道 部活動バス事故 容疑者の「鑑定留置」3か月延長へ",
@@ -77,7 +87,7 @@
     {
      "title": "紀子さま 60歳の誕生日",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49611",
-     "pubDate": "Fri, 11 Sep 2026 10:22:20 +0900"
+     "pubDate": "Fri, 11 Sep 2026 12:36:17 +0900"
     },
     {
      "title": "刑事手続きへの被害者関与で遺族から意見 法制審議会",
@@ -113,16 +123,6 @@
      "title": "富山 氷見 大雨でワイン用ぶどう生産にも被害",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49545",
      "pubDate": "Thu, 10 Sep 2026 17:55:13 +0900"
-    },
-    {
-     "title": "天皇皇后両陛下 国民スポーツ大会開会式出席で青森県訪問へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49526",
-     "pubDate": "Thu, 10 Sep 2026 16:47:00 +0900"
-    },
-    {
-     "title": "三重 新名神6人死亡事故 元会社員に拘禁刑7年求刑",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49522",
-     "pubDate": "Thu, 10 Sep 2026 20:36:14 +0900"
     }
    ]
   },
@@ -132,9 +132,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "博物館資料 文化庁策定の収集管理考え方に意見書提出 学術団体",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49697",
+     "pubDate": "Fri, 11 Sep 2026 15:12:00 +0900"
+    },
+    {
+     "title": "中部電力 浜岡原発再稼働に向けた審査 申請取り下げで最終調整",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49642",
+     "pubDate": "Fri, 11 Sep 2026 15:24:36 +0900"
+    },
+    {
      "title": "ベネチア国際映画祭で日本映画が注目【Q＆Aで詳しく】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49598",
-     "pubDate": "Fri, 11 Sep 2026 05:11:24 +0900"
+     "pubDate": "Fri, 11 Sep 2026 05:11:00 +0900"
     },
     {
      "title": "小惑星リュウグウは太陽系初期の天体の残骸 北海道大学など",
@@ -144,7 +154,7 @@
     {
      "title": "歌舞伎批評の第一人者 演劇評論家 渡辺保さん死去",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49612",
-     "pubDate": "Fri, 11 Sep 2026 01:01:59 +0900"
+     "pubDate": "Fri, 11 Sep 2026 01:01:00 +0900"
     },
     {
      "title": "米政府機関「中国企業が産業規模で米AI蒸留」非難 中国は反発",
@@ -195,16 +205,6 @@
      "title": "体に必要な物質作る カギのたんぱく質特定 東大などのグループ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260904de48248",
      "pubDate": "Mon, 07 Sep 2026 04:04:22 +0900"
-    },
-    {
-     "title": "温風で文化財害虫駆除 日光東照宮の重要文化財建物で効果確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260906de48400",
-     "pubDate": "Sun, 06 Sep 2026 15:16:00 +0900"
-    },
-    {
-     "title": "東京大学「赤門」の改修工事現場 関係者向け見学会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260905de48328",
-     "pubDate": "Sat, 05 Sep 2026 17:03:00 +0900"
     }
    ]
   },
@@ -214,6 +214,41 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月11日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46988",
+     "pubDate": "Fri, 11 Sep 2026 15:08:29 +0900"
+    },
+    {
+     "title": "インドネシアで森林火災が深刻化 自衛隊も消火活動へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49695",
+     "pubDate": "Fri, 11 Sep 2026 14:59:49 +0900"
+    },
+    {
+     "title": "韓国 イ大統領支持率が初めて40％下回る 中東派遣反対は50％超",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49696",
+     "pubDate": "Fri, 11 Sep 2026 14:55:21 +0900"
+    },
+    {
+     "title": "ペルーのフジモリ大統領 米トランプ政権と関係強化進める考え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49693",
+     "pubDate": "Fri, 11 Sep 2026 14:47:00 +0900"
+    },
+    {
+     "title": "「法の支配」議連 “ICC赤根所長制裁でアメリカと対話を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49688",
+     "pubDate": "Fri, 11 Sep 2026 14:02:00 +0900"
+    },
+    {
+     "title": "イコールアース図法の提唱者が北方領土の色と表記を変更",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49662",
+     "pubDate": "Fri, 11 Sep 2026 12:37:11 +0900"
+    },
+    {
+     "title": "トランプ大統領 野党批判し5000ドル支給に重ねて言及",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49652",
+     "pubDate": "Fri, 11 Sep 2026 12:01:00 +0900"
+    },
+    {
      "title": "米同時多発テロ事件から25年 政治 社会への影響検証する動きも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49614",
      "pubDate": "Fri, 11 Sep 2026 07:14:43 +0900"
@@ -221,22 +256,22 @@
     {
      "title": "IAEAの理事会 イラン核問題を国連の安保理に付託する決議",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49627",
-     "pubDate": "Fri, 11 Sep 2026 05:39:16 +0900"
+     "pubDate": "Fri, 11 Sep 2026 05:39:00 +0900"
     },
     {
      "title": "北欧のアイスランド政府が捕鯨禁止の法案提出へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49620",
-     "pubDate": "Fri, 11 Sep 2026 05:35:39 +0900"
+     "pubDate": "Fri, 11 Sep 2026 05:35:00 +0900"
     },
     {
      "title": "ベネチア国際映画祭で日本映画が注目【Q＆Aで詳しく】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49598",
-     "pubDate": "Fri, 11 Sep 2026 05:11:24 +0900"
+     "pubDate": "Fri, 11 Sep 2026 05:11:00 +0900"
     },
     {
-     "title": "米長期金利約2年10か月ぶり高水準 原油高や財政悪化懸念",
+     "title": "米長期金利 一時4.96％台に上昇 2023年10月以来の高い水準",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49615",
-     "pubDate": "Fri, 11 Sep 2026 05:09:47 +0900"
+     "pubDate": "Fri, 11 Sep 2026 12:14:24 +0900"
     },
     {
      "title": "共和党大会 トランプ大統領再び演説へ 民主党対抗集会も",
@@ -252,41 +287,6 @@
      "title": "ウクライナ空軍 ロシアのジェット無人機の迎撃が新たな課題に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49625",
      "pubDate": "Fri, 11 Sep 2026 04:56:01 +0900"
-    },
-    {
-     "title": "欧州中銀が2会合ぶり利上げ 物価上昇抑えたいねらい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49617",
-     "pubDate": "Fri, 11 Sep 2026 02:17:48 +0900"
-    },
-    {
-     "title": "NY原油1バレル100ドル上回る 約4か月ぶり 原油供給に懸念",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49618",
-     "pubDate": "Fri, 11 Sep 2026 02:16:00 +0900"
-    },
-    {
-     "title": "8月の世界の平均気温が過去最高に EU気象情報機関発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49610",
-     "pubDate": "Fri, 11 Sep 2026 00:35:56 +0900"
-    },
-    {
-     "title": "トランプ大統領 異例の共和党大会で演説 真意は 専門家に聞く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49568",
-     "pubDate": "Thu, 10 Sep 2026 23:00:01 +0900"
-    },
-    {
-     "title": "中国青島 修理中の貨物船で火災 25人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49602",
-     "pubDate": "Thu, 10 Sep 2026 22:21:57 +0900"
-    },
-    {
-     "title": "中国 習主席がBRICSで7年ぶりインド訪問 訪米へ外交活発化",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49599",
-     "pubDate": "Thu, 10 Sep 2026 22:00:24 +0900"
-    },
-    {
-     "title": "ウクライナ大統領を乗せた専用機に無人機接近か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49582",
-     "pubDate": "Thu, 10 Sep 2026 21:33:07 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "米同時テロの遺族 悲しみ死ぬまで",
-     "link": "https://news.yahoo.co.jp/pickup/6594925?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 00:43:31 GMT"
+     "title": "米同時テロ 24年間「封印」の映像",
+     "link": "https://news.yahoo.co.jp/pickup/6594953?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 05:56:52 GMT"
     },
     {
-     "title": "日経平均 一時2000円以上値下がり",
-     "link": "https://news.yahoo.co.jp/pickup/6594924?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 00:32:12 GMT"
+     "title": "14日にかけ真夏日地点が増加か",
+     "link": "https://news.yahoo.co.jp/pickup/6594949?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 04:35:37 GMT"
     },
     {
-     "title": "ChatGPT 一部プラン新規受付停止",
-     "link": "https://news.yahoo.co.jp/pickup/6594928?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 01:20:06 GMT"
+     "title": "オープンAI 開発ペース緩める検討",
+     "link": "https://news.yahoo.co.jp/pickup/6594950?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 05:12:17 GMT"
     },
     {
-     "title": "1泊20万円の高野山宿坊も 嘆く声",
-     "link": "https://news.yahoo.co.jp/pickup/6594923?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 00:13:48 GMT"
+     "title": "富士山遭難救助 なぜ有料化難しい",
+     "link": "https://news.yahoo.co.jp/pickup/6594936?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 04:07:55 GMT"
     },
     {
-     "title": "水星 誕生以降半径10キロ以上縮む",
-     "link": "https://news.yahoo.co.jp/pickup/6594922?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 23:59:56 GMT"
+     "title": "「一生結婚するつもりない」2割超",
+     "link": "https://news.yahoo.co.jp/pickup/6594952?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 05:26:53 GMT"
     },
     {
-     "title": "横綱豊昇龍が秋場所休場 苦渋決断",
-     "link": "https://news.yahoo.co.jp/pickup/6594927?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 01:05:46 GMT"
+     "title": "東京で551豚まん 朝から長蛇の列",
+     "link": "https://news.yahoo.co.jp/pickup/6594947?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 03:52:56 GMT"
     },
     {
-     "title": "張本勲さん 死去4日前受けた取材",
-     "link": "https://news.yahoo.co.jp/pickup/6594921?source=rss",
-     "pubDate": "Thu, 10 Sep 2026 23:40:09 GMT"
+     "title": "人工超知能開発 なぜ研究者が警告",
+     "link": "https://news.yahoo.co.jp/pickup/6594938?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 04:18:57 GMT"
     },
     {
-     "title": "大森元貴 映画で昭和のスター役",
-     "link": "https://news.yahoo.co.jp/pickup/6594926?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 00:47:37 GMT"
+     "title": "リリー・フランキー 禁煙し14kg増",
+     "link": "https://news.yahoo.co.jp/pickup/6594951?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 05:12:53 GMT"
     }
    ]
   }
