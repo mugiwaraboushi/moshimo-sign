@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-11T15:19:49.480Z",
+ "updatedAt": "2026-09-11T18:40:17.409Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,9 @@
      "pubDate": "Fri, 11 Sep 2026 21:40:25 +0900"
     },
     {
-     "title": "ノルウェー大使館 サバ価格高騰の中 ニシン輸出拡大へPR強化",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49752",
-     "pubDate": "Fri, 11 Sep 2026 23:47:49 +0900"
+     "title": "岐阜 洋菓子店殺人事件 店主の死亡確認 死者4人に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49832",
+     "pubDate": "Sat, 12 Sep 2026 00:41:07 +0900"
     },
     {
      "title": "アメリカ 8月の消費者物価指数 去年同月比3.4％の上昇",
@@ -23,9 +23,9 @@
      "pubDate": "Fri, 11 Sep 2026 23:51:19 +0900"
     },
     {
-     "title": "畑のPFAS 野菜からほとんど検出されず 農水省が実験結果",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49805",
-     "pubDate": "Fri, 11 Sep 2026 21:19:44 +0900"
+     "title": "ノルウェー大使館 サバ価格高騰の中 ニシン輸出拡大へPR強化",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49752",
+     "pubDate": "Fri, 11 Sep 2026 23:47:49 +0900"
     },
     {
      "title": "カナダがウクライナ支援に390億円追加へ 防空体制強化",
@@ -33,14 +33,14 @@
      "pubDate": "Sat, 12 Sep 2026 00:04:34 +0900"
     },
     {
+     "title": "韓国・イラン外相電話会談“ホルムズ海峡派遣決まっていない”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49806",
+     "pubDate": "Sat, 12 Sep 2026 00:35:50 +0900"
+    },
+    {
      "title": "病気で就労できなくなり生活保護求めた外国人男性の敗訴確定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49780",
      "pubDate": "Fri, 11 Sep 2026 20:13:25 +0900"
-    },
-    {
-     "title": "サッカーJ1 第7節 神戸が鹿島に競り勝ち4連勝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49816",
-     "pubDate": "Fri, 11 Sep 2026 23:38:24 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "岐阜 洋菓子店殺人事件 店主の死亡確認 死者4人に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49832",
+     "pubDate": "Sat, 12 Sep 2026 00:41:07 +0900"
+    },
     {
      "title": "俳優 森本レオさん死去 83歳 俳優・ナレーターとして活躍",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49814",
@@ -118,11 +123,6 @@
      "title": "法務省 不法就労摘発の強化へ 他省庁の調査に参加",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49713",
      "pubDate": "Fri, 11 Sep 2026 16:35:06 +0900"
-    },
-    {
-     "title": "「熊本ふっこう応援割」9月15日から販売開始 熊本県",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49694",
-     "pubDate": "Fri, 11 Sep 2026 15:23:04 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "韓国・イラン外相電話会談“ホルムズ海峡派遣決まっていない”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49806",
+     "pubDate": "Sat, 12 Sep 2026 00:35:50 +0900"
+    },
+    {
      "title": "カナダがウクライナ支援に390億円追加へ 防空体制強化",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49815",
      "pubDate": "Sat, 12 Sep 2026 00:04:34 +0900"
@@ -282,11 +287,6 @@
      "title": "「法の支配」議連 “ICC赤根所長制裁でアメリカと対話を”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49688",
      "pubDate": "Fri, 11 Sep 2026 16:59:15 +0900"
-    },
-    {
-     "title": "イコールアース図法の提唱者が北方領土の色と表記を変更",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49662",
-     "pubDate": "Fri, 11 Sep 2026 12:37:11 +0900"
     }
    ]
   },
