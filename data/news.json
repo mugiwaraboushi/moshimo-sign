@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-12T18:30:55.714Z",
+ "updatedAt": "2026-09-12T21:03:29.555Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "京都 全日本実業団選手権の会場で集団食中毒か 20人以上搬送",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49900",
-     "pubDate": "Sat, 12 Sep 2026 21:30:32 +0900"
+     "title": "京都 陸上競技場で28人搬送 “同じ種類の弁当を食べていた”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49921",
+     "pubDate": "Sun, 13 Sep 2026 05:12:43 +0900"
+    },
+    {
+     "title": "千葉豪雨の発生から1か月 死者13人 住宅被害7000棟超える",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49920",
+     "pubDate": "Sun, 13 Sep 2026 05:13:47 +0900"
+    },
+    {
+     "title": "サウジアラビア パイプライン損壊 トランプ氏“イラン関与か”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49908",
+     "pubDate": "Sun, 13 Sep 2026 05:59:23 +0900"
+    },
+    {
+     "title": "ゼレンスキー大統領 ロシアとの首脳会談に前向き 米国で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49936",
+     "pubDate": "Sun, 13 Sep 2026 05:44:54 +0900"
+    },
+    {
+     "title": "BRICS首脳会議で共同宣言を採択 中国インド首脳会談も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49927",
+     "pubDate": "Sun, 13 Sep 2026 05:27:10 +0900"
     },
     {
      "title": "車いすテニス小田凱人 年間グランドスラムならず 全米オープン",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49911",
-     "pubDate": "Sun, 13 Sep 2026 01:56:10 +0900"
-    },
-    {
-     "title": "埼玉 寄居町の治療院兼住宅で火事 男女2人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49922",
-     "pubDate": "Sun, 13 Sep 2026 00:33:00 +0900"
-    },
-    {
-     "title": "ホルムズ海峡の代替ルートで情勢不安定化 市場への影響懸念",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49899",
-     "pubDate": "Sat, 12 Sep 2026 18:46:00 +0900"
-    },
-    {
-     "title": "北海道 十勝岳 噴火警戒レベル3に引き上げ 入山規制",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49856",
-     "pubDate": "Sat, 12 Sep 2026 18:04:00 +0900"
-    },
-    {
-     "title": "被災者に“エコノミークラス症候群”調べる検査 富山",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49903",
-     "pubDate": "Sat, 12 Sep 2026 19:41:34 +0900"
+     "pubDate": "Sun, 13 Sep 2026 05:21:28 +0900"
     },
     {
      "title": "車いすテニス上地結衣 全米オープン 2年連続4回目の優勝",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49912",
-     "pubDate": "Sun, 13 Sep 2026 02:26:28 +0900"
+     "pubDate": "Sun, 13 Sep 2026 05:33:15 +0900"
     }
    ]
   },
@@ -49,6 +49,26 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "救急隊への妨害行為 5年で107件 東京消防庁が協力呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49910",
+     "pubDate": "Sun, 13 Sep 2026 05:39:44 +0900"
+    },
+    {
+     "title": "千葉豪雨の発生から1か月 死者13人 住宅被害7000棟超える",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49920",
+     "pubDate": "Sun, 13 Sep 2026 05:13:47 +0900"
+    },
+    {
+     "title": "京都 陸上競技場で28人搬送 “同じ種類の弁当を食べていた”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49921",
+     "pubDate": "Sun, 13 Sep 2026 05:12:43 +0900"
+    },
+    {
+     "title": "環境省 再生プラ製造の大規模拠点設置を支援 ナフサ代替目指す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49812",
+     "pubDate": "Sun, 13 Sep 2026 05:10:21 +0900"
+    },
     {
      "title": "埼玉 寄居町の治療院兼住宅で火事 男女2人死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49922",
@@ -103,26 +123,6 @@
      "title": "俳優 森本レオさん死去 83歳 俳優・ナレーターとして活躍",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49814",
      "pubDate": "Fri, 11 Sep 2026 21:40:25 +0900"
-    },
-    {
-     "title": "横領や賭博で有罪 簡易裁判所の裁判官を訴追 弾劾裁判へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49756",
-     "pubDate": "Fri, 11 Sep 2026 20:28:08 +0900"
-    },
-    {
-     "title": "大阪の物流会社保管の小麦に禁止殺虫剤“健康影響可能性低い”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49775",
-     "pubDate": "Fri, 11 Sep 2026 20:16:07 +0900"
-    },
-    {
-     "title": "病気で就労できなくなり生活保護求めた外国人男性の敗訴確定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49780",
-     "pubDate": "Fri, 11 Sep 2026 20:13:25 +0900"
-    },
-    {
-     "title": "ソニー生命 新たに6千万円余りの不適切な金銭の受け取りを発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49796",
-     "pubDate": "Fri, 11 Sep 2026 20:11:00 +0900"
     }
    ]
   },
@@ -214,6 +214,26 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "サウジアラビア パイプライン損壊 トランプ氏“イラン関与か”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49908",
+     "pubDate": "Sun, 13 Sep 2026 05:59:23 +0900"
+    },
+    {
+     "title": "トランプ大統領「統一されたアイルランド見たい」英国で非難も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49937",
+     "pubDate": "Sun, 13 Sep 2026 05:55:05 +0900"
+    },
+    {
+     "title": "ゼレンスキー大統領 ロシアとの首脳会談に前向き 米国で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49936",
+     "pubDate": "Sun, 13 Sep 2026 05:44:54 +0900"
+    },
+    {
+     "title": "BRICS首脳会議で共同宣言を採択 中国インド首脳会談も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49927",
+     "pubDate": "Sun, 13 Sep 2026 05:27:10 +0900"
+    },
+    {
      "title": "BRICS首脳会議開幕 このあと中印首脳会談へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49901",
      "pubDate": "Sat, 12 Sep 2026 19:07:00 +0900"
@@ -267,26 +287,6 @@
      "title": "スイスで観光客を乗せたバスが横転 5人死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49847",
      "pubDate": "Sat, 12 Sep 2026 07:41:00 +0900"
-    },
-    {
-     "title": "イエメン反政府勢力のフーシ派 紅海出入り口の海峡の島制圧か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49839",
-     "pubDate": "Sat, 12 Sep 2026 06:56:02 +0900"
-    },
-    {
-     "title": "韓国軍「北朝鮮が短距離弾道ミサイル発射」日米韓訓練に反発か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49846",
-     "pubDate": "Sat, 12 Sep 2026 11:51:00 +0900"
-    },
-    {
-     "title": "プーチン大統領 制裁の西側諸国を批判 BRICSと関係強化に意欲",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49842",
-     "pubDate": "Sat, 12 Sep 2026 06:41:15 +0900"
-    },
-    {
-     "title": "きょうからBRICS首脳会議 中国とインドの関係の安定化が焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49837",
-     "pubDate": "Sat, 12 Sep 2026 06:30:37 +0900"
     }
    ]
   },
