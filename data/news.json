@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-12T13:11:36.204Z",
+ "updatedAt": "2026-09-12T16:23:25.746Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,6 +13,11 @@
      "pubDate": "Sat, 12 Sep 2026 21:30:32 +0900"
     },
     {
+     "title": "埼玉 寄居町の治療院兼住宅で火事 男女2人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49922",
+     "pubDate": "Sun, 13 Sep 2026 00:33:00 +0900"
+    },
+    {
      "title": "ホルムズ海峡の代替ルートで情勢不安定化 市場への影響懸念",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49899",
      "pubDate": "Sat, 12 Sep 2026 18:46:00 +0900"
@@ -23,24 +28,19 @@
      "pubDate": "Sat, 12 Sep 2026 18:04:00 +0900"
     },
     {
-     "title": "維新 藤田共同代表“閣僚に加え副大臣・政務官の打診応じる”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49891",
-     "pubDate": "Sat, 12 Sep 2026 17:45:00 +0900"
-    },
-    {
-     "title": "中道 小川代表“衆議院で統一会派結成 政権と対じ”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49892",
-     "pubDate": "Sat, 12 Sep 2026 18:08:00 +0900"
-    },
-    {
      "title": "被災者に“エコノミークラス症候群”調べる検査 富山",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49903",
      "pubDate": "Sat, 12 Sep 2026 19:41:34 +0900"
     },
     {
-     "title": "十勝岳 噴火警戒レベル引き上げ 気象庁会見【ノーカット動画】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49869",
-     "pubDate": "Sat, 12 Sep 2026 18:48:37 +0900"
+     "title": "ラグビー日本代表 米に快勝 パシフィックネーションズ杯決勝へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49914",
+     "pubDate": "Sun, 13 Sep 2026 00:58:54 +0900"
+    },
+    {
+     "title": "カリフォルニア州 SNSやAIから子ども守る州法成立",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49897",
+     "pubDate": "Sat, 12 Sep 2026 18:07:00 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "埼玉 寄居町の治療院兼住宅で火事 男女2人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49922",
+     "pubDate": "Sun, 13 Sep 2026 00:33:00 +0900"
+    },
     {
      "title": "京都 全日本実業団選手権の会場で集団食中毒か 20人以上搬送",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49900",
@@ -118,11 +123,6 @@
      "title": "ソニー生命 新たに6千万円余りの不適切な金銭の受け取りを発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49796",
      "pubDate": "Fri, 11 Sep 2026 20:11:00 +0900"
-    },
-    {
-     "title": "震度7の氷川町内 全住宅の30％超が「半壊以上」 町調査で判明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49787",
-     "pubDate": "Fri, 11 Sep 2026 20:03:28 +0900"
     }
    ]
   },
@@ -296,19 +296,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台湾に武器売却なら習氏訪米せず",
-     "link": "https://news.yahoo.co.jp/pickup/6595095?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 12:24:57 GMT"
+     "title": "対米投資第3弾 次世代原発が有力",
+     "link": "https://news.yahoo.co.jp/pickup/6595098?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 13:06:04 GMT"
     },
     {
-     "title": "交付金受領巡り 解体の中道に批判",
-     "link": "https://news.yahoo.co.jp/pickup/6595076?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 09:16:07 GMT"
+     "title": "米利上げ予想高まる インフレ続く",
+     "link": "https://news.yahoo.co.jp/pickup/6595097?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 13:09:47 GMT"
     },
     {
-     "title": "陸上の大会で23人搬送 弁当原因か",
-     "link": "https://news.yahoo.co.jp/pickup/6595094?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 12:18:00 GMT"
+     "title": "陸上の大会で28人搬送 弁当原因か",
+     "link": "https://news.yahoo.co.jp/pickup/6595102?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 14:33:23 GMT"
     },
     {
      "title": "MUFG 富裕層囲い込み戦略の裏側",
@@ -321,14 +321,14 @@
      "pubDate": "Sat, 12 Sep 2026 12:00:50 GMT"
     },
     {
-     "title": "侍U18が決勝進出 織田翔希が力投",
-     "link": "https://news.yahoo.co.jp/pickup/6595096?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 12:55:18 GMT"
+     "title": "伊藤大海 西武コーチとの騒動言及",
+     "link": "https://news.yahoo.co.jp/pickup/6595099?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 13:41:16 GMT"
     },
     {
-     "title": "日ハム選手と西武コーチ口論 騒然",
-     "link": "https://news.yahoo.co.jp/pickup/6595089?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 11:35:11 GMT"
+     "title": "バレー男子イラン監督 日程に不満",
+     "link": "https://news.yahoo.co.jp/pickup/6595100?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 13:48:09 GMT"
     },
     {
      "title": "元櫻坂46・渡辺梨加 妊娠を発表",
