@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-12T21:03:29.555Z",
+ "updatedAt": "2026-09-12T23:06:21.630Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,14 @@
      "pubDate": "Sun, 13 Sep 2026 05:12:43 +0900"
     },
     {
-     "title": "千葉豪雨の発生から1か月 死者13人 住宅被害7000棟超える",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49920",
-     "pubDate": "Sun, 13 Sep 2026 05:13:47 +0900"
+     "title": "千葉豪雨 商店などの被害 529社で26億円余 再開できない企業も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49919",
+     "pubDate": "Sun, 13 Sep 2026 06:04:54 +0900"
+    },
+    {
+     "title": "米アンソロピックCEO“AI開発ペース減速させる必要”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49934",
+     "pubDate": "Sun, 13 Sep 2026 07:55:07 +0900"
     },
     {
      "title": "サウジアラビア パイプライン損壊 トランプ氏“イラン関与か”",
@@ -23,24 +28,19 @@
      "pubDate": "Sun, 13 Sep 2026 05:59:23 +0900"
     },
     {
-     "title": "ゼレンスキー大統領 ロシアとの首脳会談に前向き 米国で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49936",
-     "pubDate": "Sun, 13 Sep 2026 05:44:54 +0900"
+     "title": "ベネチア国際映画祭 日本の2作品は最優秀賞ならず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49909",
+     "pubDate": "Sun, 13 Sep 2026 06:56:09 +0900"
     },
     {
-     "title": "BRICS首脳会議で共同宣言を採択 中国インド首脳会談も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49927",
-     "pubDate": "Sun, 13 Sep 2026 05:27:10 +0900"
+     "title": "陸上女子やり投げ 北口榛花 68メートル92の日本新記録",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49941",
+     "pubDate": "Sun, 13 Sep 2026 06:43:59 +0900"
     },
     {
-     "title": "車いすテニス小田凱人 年間グランドスラムならず 全米オープン",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49911",
-     "pubDate": "Sun, 13 Sep 2026 05:21:28 +0900"
-    },
-    {
-     "title": "車いすテニス上地結衣 全米オープン 2年連続4回目の優勝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49912",
-     "pubDate": "Sun, 13 Sep 2026 05:33:15 +0900"
+     "title": "トランプ大統領「統一されたアイルランド見たい」英国で非難も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49937",
+     "pubDate": "Sun, 13 Sep 2026 05:55:05 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（9月13日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49886",
+     "pubDate": "Sun, 13 Sep 2026 07:12:34 +0900"
+    },
     {
      "title": "救急隊への妨害行為 5年で107件 東京消防庁が協力呼びかけ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49910",
@@ -118,11 +123,6 @@
      "title": "岐阜 洋菓子店殺人事件 店主の死亡確認 死者4人に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49832",
      "pubDate": "Sat, 12 Sep 2026 00:41:07 +0900"
-    },
-    {
-     "title": "俳優 森本レオさん死去 83歳 俳優・ナレーターとして活躍",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49814",
-     "pubDate": "Fri, 11 Sep 2026 21:40:25 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "米アンソロピックCEO“AI開発ペース減速させる必要”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49934",
+     "pubDate": "Sun, 13 Sep 2026 07:55:07 +0900"
+    },
+    {
+     "title": "ベネチア国際映画祭 日本の2作品は最優秀賞ならず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49909",
+     "pubDate": "Sun, 13 Sep 2026 06:56:09 +0900"
+    },
     {
      "title": "畑のPFAS 野菜からほとんど検出されず 農水省が実験結果",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49805",
@@ -195,16 +205,6 @@
      "title": "張本勲さん死去 86歳 プロ野球最多安打 解説者では「喝！」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49426",
      "pubDate": "Thu, 10 Sep 2026 19:25:20 +0900"
-    },
-    {
-     "title": "将棋「王位戦」藤井聡太六冠が防衛 7連覇を果たす",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49392",
-     "pubDate": "Wed, 09 Sep 2026 23:51:00 +0900"
-    },
-    {
-     "title": "柏崎刈羽原発 東電に安全性向上の取り組み求める 政府",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260909de49323",
-     "pubDate": "Wed, 09 Sep 2026 16:37:28 +0900"
     }
    ]
   },
@@ -213,6 +213,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "米アンソロピックCEO“AI開発ペース減速させる必要”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49934",
+     "pubDate": "Sun, 13 Sep 2026 07:55:07 +0900"
+    },
+    {
+     "title": "ベネチア国際映画祭 日本の2作品は最優秀賞ならず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49909",
+     "pubDate": "Sun, 13 Sep 2026 06:56:09 +0900"
+    },
+    {
+     "title": "陸上女子やり投げ 北口榛花 68メートル92の日本新記録",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49941",
+     "pubDate": "Sun, 13 Sep 2026 06:43:59 +0900"
+    },
     {
      "title": "サウジアラビア パイプライン損壊 トランプ氏“イラン関与か”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49908",
@@ -264,29 +279,14 @@
      "pubDate": "Sat, 12 Sep 2026 10:13:38 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月12日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（9月12日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de46989",
-     "pubDate": "Sat, 12 Sep 2026 08:39:04 +0900"
+     "pubDate": "Sat, 12 Sep 2026 08:39:00 +0900"
     },
     {
      "title": "世界の海面水温の平均 日ごとの過去最高を100日連続で更新",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49848",
      "pubDate": "Sat, 12 Sep 2026 08:34:00 +0900"
-    },
-    {
-     "title": "IEA ことしの石油供給見通し下方修正 中東から供給回復来年に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49845",
-     "pubDate": "Sat, 12 Sep 2026 08:20:00 +0900"
-    },
-    {
-     "title": "サウジアラビアの東西パイプライン 攻撃受け一時操業停止",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49849",
-     "pubDate": "Sat, 12 Sep 2026 08:01:00 +0900"
-    },
-    {
-     "title": "スイスで観光客を乗せたバスが横転 5人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49847",
-     "pubDate": "Sat, 12 Sep 2026 07:41:00 +0900"
     }
    ]
   },
@@ -296,14 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "対米投資第3弾 次世代原発が有力",
-     "link": "https://news.yahoo.co.jp/pickup/6595098?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 13:06:04 GMT"
+     "title": "国対委員長に村井英樹氏 首相意向",
+     "link": "https://news.yahoo.co.jp/pickup/6595108?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 22:48:12 GMT"
     },
     {
-     "title": "米利上げ予想高まる インフレ続く",
-     "link": "https://news.yahoo.co.jp/pickup/6595097?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 13:09:47 GMT"
+     "title": "AnthropicCEO AI開発の減速訴え",
+     "link": "https://news.yahoo.co.jp/pickup/6595106?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 22:35:27 GMT"
     },
     {
      "title": "陸上の大会で28人搬送 弁当原因か",
@@ -311,29 +311,29 @@
      "pubDate": "Sat, 12 Sep 2026 14:33:23 GMT"
     },
     {
-     "title": "MUFG 富裕層囲い込み戦略の裏側",
-     "link": "https://news.yahoo.co.jp/pickup/6595083?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 10:32:23 GMT"
+     "title": "車にはねられ約7m下に転落 死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6595107?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 22:44:41 GMT"
     },
     {
-     "title": "「時給100円」ブラックインターン",
-     "link": "https://news.yahoo.co.jp/pickup/6595093?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 12:00:50 GMT"
+     "title": "富士山 閉山後でも海外の団体客",
+     "link": "https://news.yahoo.co.jp/pickup/6595103?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 22:22:41 GMT"
     },
     {
-     "title": "伊藤大海 西武コーチとの騒動言及",
-     "link": "https://news.yahoo.co.jp/pickup/6595099?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 13:41:16 GMT"
+     "title": "北口榛花 日本新記録マークし優勝",
+     "link": "https://news.yahoo.co.jp/pickup/6595105?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 22:28:14 GMT"
     },
     {
-     "title": "バレー男子イラン監督 日程に不満",
-     "link": "https://news.yahoo.co.jp/pickup/6595100?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 13:48:09 GMT"
+     "title": "VIVANTロケ地公表「没入」影響は",
+     "link": "https://news.yahoo.co.jp/pickup/6595110?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 23:00:36 GMT"
     },
     {
-     "title": "元櫻坂46・渡辺梨加 妊娠を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6595086?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 11:09:46 GMT"
+     "title": "ベネチア 日本作品は金獅子賞逃す",
+     "link": "https://news.yahoo.co.jp/pickup/6595104?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 22:33:31 GMT"
     }
    ]
   }
