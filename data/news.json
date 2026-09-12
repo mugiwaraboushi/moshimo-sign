@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-12T09:52:45.386Z",
+ "updatedAt": "2026-09-12T13:11:36.204Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "全日本実業団選手権の会場で食中毒か 10人程度搬送 京都",
+     "title": "京都 全日本実業団選手権の会場で集団食中毒か 20人以上搬送",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49900",
-     "pubDate": "Sat, 12 Sep 2026 18:40:00 +0900"
+     "pubDate": "Sat, 12 Sep 2026 21:30:32 +0900"
+    },
+    {
+     "title": "ホルムズ海峡の代替ルートで情勢不安定化 市場への影響懸念",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49899",
+     "pubDate": "Sat, 12 Sep 2026 18:46:00 +0900"
     },
     {
      "title": "北海道 十勝岳 噴火警戒レベル3に引き上げ 入山規制",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49856",
-     "pubDate": "Sat, 12 Sep 2026 18:04:43 +0900"
-    },
-    {
-     "title": "カリフォルニア州 SNSやAIから子ども守る州法成立",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49897",
-     "pubDate": "Sat, 12 Sep 2026 18:07:00 +0900"
+     "pubDate": "Sat, 12 Sep 2026 18:04:00 +0900"
     },
     {
      "title": "維新 藤田共同代表“閣僚に加え副大臣・政務官の打診応じる”",
@@ -33,14 +33,14 @@
      "pubDate": "Sat, 12 Sep 2026 18:08:00 +0900"
     },
     {
-     "title": "“イランが中国の衛星画像をもとに米軍攻撃か”米有力紙",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49890",
-     "pubDate": "Sat, 12 Sep 2026 17:08:00 +0900"
+     "title": "被災者に“エコノミークラス症候群”調べる検査 富山",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49903",
+     "pubDate": "Sat, 12 Sep 2026 19:41:34 +0900"
     },
     {
-     "title": "熱海市の土砂崩れで一部世帯に避難指示 長雨の影響か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49898",
-     "pubDate": "Sat, 12 Sep 2026 18:11:27 +0900"
+     "title": "十勝岳 噴火警戒レベル引き上げ 気象庁会見【ノーカット動画】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49869",
+     "pubDate": "Sat, 12 Sep 2026 18:48:37 +0900"
     }
    ]
   },
@@ -50,9 +50,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "全日本実業団選手権の会場で食中毒か 10人程度搬送 京都",
+     "title": "京都 全日本実業団選手権の会場で集団食中毒か 20人以上搬送",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49900",
-     "pubDate": "Sat, 12 Sep 2026 18:40:00 +0900"
+     "pubDate": "Sat, 12 Sep 2026 21:30:32 +0900"
     },
     {
      "title": "カリフォルニア州 SNSやAIから子ども守る州法成立",
@@ -72,7 +72,7 @@
     {
      "title": "【動画】Pickup NEWS（9月12日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49803",
-     "pubDate": "Sat, 12 Sep 2026 13:41:05 +0900"
+     "pubDate": "Sat, 12 Sep 2026 19:42:13 +0900"
     },
     {
      "title": "中部電力 報告書提出受け14日に会見 経営トップ進退判断へ",
@@ -214,9 +214,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "BRICS首脳会議開幕 このあと中印首脳会談へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49901",
+     "pubDate": "Sat, 12 Sep 2026 19:07:00 +0900"
+    },
+    {
      "title": "ホルムズ海峡の代替ルートで情勢不安定化 市場への影響懸念",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49899",
-     "pubDate": "Sat, 12 Sep 2026 18:46:32 +0900"
+     "pubDate": "Sat, 12 Sep 2026 18:46:00 +0900"
     },
     {
      "title": "カリフォルニア州 SNSやAIから子ども守る州法成立",
@@ -231,7 +236,7 @@
     {
      "title": "FRB利上げ観測強まる トランプ大統領は利下げ圧力",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49880",
-     "pubDate": "Sat, 12 Sep 2026 14:49:55 +0900"
+     "pubDate": "Sat, 12 Sep 2026 14:49:00 +0900"
     },
     {
      "title": "イコールアースの北方領土表記など日本の修正要求にロシア反発",
@@ -282,11 +287,6 @@
      "title": "きょうからBRICS首脳会議 中国とインドの関係の安定化が焦点",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49837",
      "pubDate": "Sat, 12 Sep 2026 06:30:37 +0900"
-    },
-    {
-     "title": "米同時多発テロ事件25年 旅客機激突のビル跡地で犠牲者を追悼",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49838",
-     "pubDate": "Sat, 12 Sep 2026 07:48:58 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "農家落胆 福井大雨でソバに大打撃",
-     "link": "https://news.yahoo.co.jp/pickup/6595063?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 07:11:37 GMT"
+     "title": "台湾に武器売却なら習氏訪米せず",
+     "link": "https://news.yahoo.co.jp/pickup/6595095?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 12:24:57 GMT"
     },
     {
-     "title": "ヘリで空撮 目隠しの内側なぜ報道",
-     "link": "https://news.yahoo.co.jp/pickup/6595068?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 07:50:40 GMT"
+     "title": "交付金受領巡り 解体の中道に批判",
+     "link": "https://news.yahoo.co.jp/pickup/6595076?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 09:16:07 GMT"
     },
     {
-     "title": "ゴールは壊滅 地道な暴追で街変化",
-     "link": "https://news.yahoo.co.jp/pickup/6595061?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 06:43:18 GMT"
+     "title": "陸上の大会で23人搬送 弁当原因か",
+     "link": "https://news.yahoo.co.jp/pickup/6595094?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 12:18:00 GMT"
     },
     {
-     "title": "ケーキ店火災 男性は前日も来店",
-     "link": "https://news.yahoo.co.jp/pickup/6595075?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 09:03:43 GMT"
+     "title": "MUFG 富裕層囲い込み戦略の裏側",
+     "link": "https://news.yahoo.co.jp/pickup/6595083?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 10:32:23 GMT"
     },
     {
-     "title": "「VAIO T」発表 再挑戦する理由",
-     "link": "https://news.yahoo.co.jp/pickup/6595069?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 07:58:49 GMT"
+     "title": "「時給100円」ブラックインターン",
+     "link": "https://news.yahoo.co.jp/pickup/6595093?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 12:00:50 GMT"
     },
     {
-     "title": "ダル 来季現役続行「わからない」",
-     "link": "https://news.yahoo.co.jp/pickup/6595077?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 09:33:08 GMT"
+     "title": "侍U18が決勝進出 織田翔希が力投",
+     "link": "https://news.yahoo.co.jp/pickup/6595096?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 12:55:18 GMT"
     },
     {
-     "title": "松井氏 張本氏への「反抗」明かす",
-     "link": "https://news.yahoo.co.jp/pickup/6595072?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 08:14:20 GMT"
+     "title": "日ハム選手と西武コーチ口論 騒然",
+     "link": "https://news.yahoo.co.jp/pickup/6595089?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 11:35:11 GMT"
     },
     {
-     "title": "Tシャツが乾くまで ヒットの理由",
-     "link": "https://news.yahoo.co.jp/pickup/6595073?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 08:33:09 GMT"
+     "title": "元櫻坂46・渡辺梨加 妊娠を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6595086?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 11:09:46 GMT"
     }
    ]
   }
