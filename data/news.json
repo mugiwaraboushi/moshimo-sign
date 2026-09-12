@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-12T05:57:18.402Z",
+ "updatedAt": "2026-09-12T09:52:45.386Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【中継映像】北海道 十勝岳 噴火警戒レベル3に 入山規制",
+     "title": "全日本実業団選手権の会場で食中毒か 10人程度搬送 京都",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49900",
+     "pubDate": "Sat, 12 Sep 2026 18:40:00 +0900"
+    },
+    {
+     "title": "北海道 十勝岳 噴火警戒レベル3に引き上げ 入山規制",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49856",
-     "pubDate": "Sat, 12 Sep 2026 14:37:48 +0900"
+     "pubDate": "Sat, 12 Sep 2026 18:04:43 +0900"
     },
     {
-     "title": "十勝岳 噴火警戒レベル引き上げ 気象庁会見【ノーカット動画】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49869",
-     "pubDate": "Sat, 12 Sep 2026 14:38:46 +0900"
+     "title": "カリフォルニア州 SNSやAIから子ども守る州法成立",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49897",
+     "pubDate": "Sat, 12 Sep 2026 18:07:00 +0900"
     },
     {
-     "title": "仮釈放中の性犯罪者らにGPS所持の実証実験 来年度にも 法務省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49864",
-     "pubDate": "Sat, 12 Sep 2026 11:37:00 +0900"
+     "title": "維新 藤田共同代表“閣僚に加え副大臣・政務官の打診応じる”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49891",
+     "pubDate": "Sat, 12 Sep 2026 17:45:00 +0900"
     },
     {
-     "title": "石川 大雨の被災地向かうボランティアの出発式",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49871",
-     "pubDate": "Sat, 12 Sep 2026 12:03:00 +0900"
+     "title": "中道 小川代表“衆議院で統一会派結成 政権と対じ”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49892",
+     "pubDate": "Sat, 12 Sep 2026 18:08:00 +0900"
     },
     {
-     "title": "災害時 自宅近くの道路寸断など不安6割超 内閣府世論調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49866",
-     "pubDate": "Sat, 12 Sep 2026 11:30:00 +0900"
+     "title": "“イランが中国の衛星画像をもとに米軍攻撃か”米有力紙",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49890",
+     "pubDate": "Sat, 12 Sep 2026 17:08:00 +0900"
     },
     {
-     "title": "韓国軍「北朝鮮が短距離弾道ミサイル発射」日米韓訓練に反発か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49846",
-     "pubDate": "Sat, 12 Sep 2026 11:51:00 +0900"
-    },
-    {
-     "title": "カブス 今永 6回2失点で10勝目 鈴木 3安打1打点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49865",
-     "pubDate": "Sat, 12 Sep 2026 11:31:00 +0900"
+     "title": "熱海市の土砂崩れで一部世帯に避難指示 長雨の影響か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49898",
+     "pubDate": "Sat, 12 Sep 2026 18:11:27 +0900"
     }
    ]
   },
@@ -50,6 +50,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "全日本実業団選手権の会場で食中毒か 10人程度搬送 京都",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49900",
+     "pubDate": "Sat, 12 Sep 2026 18:40:00 +0900"
+    },
+    {
+     "title": "カリフォルニア州 SNSやAIから子ども守る州法成立",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49897",
+     "pubDate": "Sat, 12 Sep 2026 18:07:00 +0900"
+    },
+    {
      "title": "仮釈放中の性犯罪者らにGPS所持の実証実験 来年度にも 法務省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49864",
      "pubDate": "Sat, 12 Sep 2026 11:37:00 +0900"
@@ -57,7 +67,7 @@
     {
      "title": "沖縄県知事選 選挙期間投稿100万件超 ひぼう中傷 批判の偏りも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49830",
-     "pubDate": "Sat, 12 Sep 2026 09:04:28 +0900"
+     "pubDate": "Sat, 12 Sep 2026 09:04:00 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（9月12日）",
@@ -113,16 +123,6 @@
      "title": "震度7の氷川町内 全住宅の30％超が「半壊以上」 町調査で判明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49787",
      "pubDate": "Fri, 11 Sep 2026 20:03:28 +0900"
-    },
-    {
-     "title": "総務省 ふるさと納税手数料引き下げ要請 仲介サイトの回答公表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49798",
-     "pubDate": "Fri, 11 Sep 2026 20:02:39 +0900"
-    },
-    {
-     "title": "富山 新湊漁港でベニズワイガニの初競り 5匹が「極上」に認定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49763",
-     "pubDate": "Fri, 11 Sep 2026 19:48:57 +0900"
     }
    ]
   },
@@ -214,6 +214,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ホルムズ海峡の代替ルートで情勢不安定化 市場への影響懸念",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49899",
+     "pubDate": "Sat, 12 Sep 2026 18:46:32 +0900"
+    },
+    {
+     "title": "カリフォルニア州 SNSやAIから子ども守る州法成立",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49897",
+     "pubDate": "Sat, 12 Sep 2026 18:07:00 +0900"
+    },
+    {
+     "title": "“イランが中国の衛星画像をもとに米軍攻撃か”米有力紙",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49890",
+     "pubDate": "Sat, 12 Sep 2026 17:08:00 +0900"
+    },
+    {
      "title": "FRB利上げ観測強まる トランプ大統領は利下げ圧力",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49880",
      "pubDate": "Sat, 12 Sep 2026 14:49:55 +0900"
@@ -241,7 +256,7 @@
     {
      "title": "サウジアラビアの東西パイプライン 攻撃受け一時操業停止",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49849",
-     "pubDate": "Sat, 12 Sep 2026 08:01:22 +0900"
+     "pubDate": "Sat, 12 Sep 2026 08:01:00 +0900"
     },
     {
      "title": "スイスで観光客を乗せたバスが横転 5人死亡",
@@ -272,21 +287,6 @@
      "title": "米同時多発テロ事件25年 旅客機激突のビル跡地で犠牲者を追悼",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49838",
      "pubDate": "Sat, 12 Sep 2026 07:48:58 +0900"
-    },
-    {
-     "title": "韓国・イラン外相電話会談“ホルムズ海峡派遣決まっていない”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49806",
-     "pubDate": "Sat, 12 Sep 2026 00:35:50 +0900"
-    },
-    {
-     "title": "カナダがウクライナ支援に390億円追加へ 防空体制強化",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49815",
-     "pubDate": "Sat, 12 Sep 2026 00:04:34 +0900"
-    },
-    {
-     "title": "ノルウェー大使館 サバ価格高騰の中 ニシン輸出拡大へPR強化",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49752",
-     "pubDate": "Fri, 11 Sep 2026 23:47:49 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "ランサム被害を復元 警察庁が開発",
-     "link": "https://news.yahoo.co.jp/pickup/6595048?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 05:23:02 GMT"
+     "title": "農家落胆 福井大雨でソバに大打撃",
+     "link": "https://news.yahoo.co.jp/pickup/6595063?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 07:11:37 GMT"
     },
     {
-     "title": "サウジの原油パイプラインが停止",
-     "link": "https://news.yahoo.co.jp/pickup/6595049?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 05:46:06 GMT"
+     "title": "ヘリで空撮 目隠しの内側なぜ報道",
+     "link": "https://news.yahoo.co.jp/pickup/6595068?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 07:50:40 GMT"
     },
     {
-     "title": "高知の小学校教員合格 予定の倍",
-     "link": "https://news.yahoo.co.jp/pickup/6595051?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 05:34:45 GMT"
+     "title": "ゴールは壊滅 地道な暴追で街変化",
+     "link": "https://news.yahoo.co.jp/pickup/6595061?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 06:43:18 GMT"
     },
     {
-     "title": "千葉豪雨 冠水から通行止めまで1h",
-     "link": "https://news.yahoo.co.jp/pickup/6595040?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 03:49:49 GMT"
+     "title": "ケーキ店火災 男性は前日も来店",
+     "link": "https://news.yahoo.co.jp/pickup/6595075?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 09:03:43 GMT"
     },
     {
-     "title": "韓国で「半導体高校」希望者殺到",
-     "link": "https://news.yahoo.co.jp/pickup/6595045?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 05:06:40 GMT"
+     "title": "「VAIO T」発表 再挑戦する理由",
+     "link": "https://news.yahoo.co.jp/pickup/6595069?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 07:58:49 GMT"
     },
     {
-     "title": "6歳男児不明から1週間 捜索続く",
-     "link": "https://news.yahoo.co.jp/pickup/6595043?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 04:11:46 GMT"
+     "title": "ダル 来季現役続行「わからない」",
+     "link": "https://news.yahoo.co.jp/pickup/6595077?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 09:33:08 GMT"
     },
     {
-     "title": "NHK桑子真帆アナ 第1子を出産",
-     "link": "https://news.yahoo.co.jp/pickup/6595046?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 04:38:53 GMT"
+     "title": "松井氏 張本氏への「反抗」明かす",
+     "link": "https://news.yahoo.co.jp/pickup/6595072?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 08:14:20 GMT"
     },
     {
-     "title": "歌手イルカ 夫介護で苦渋の決断",
-     "link": "https://news.yahoo.co.jp/pickup/6595039?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 03:33:09 GMT"
+     "title": "Tシャツが乾くまで ヒットの理由",
+     "link": "https://news.yahoo.co.jp/pickup/6595073?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 08:33:09 GMT"
     }
    ]
   }
