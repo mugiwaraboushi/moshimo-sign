@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-12T16:23:25.746Z",
+ "updatedAt": "2026-09-12T18:30:55.714Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -11,6 +11,11 @@
      "title": "京都 全日本実業団選手権の会場で集団食中毒か 20人以上搬送",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49900",
      "pubDate": "Sat, 12 Sep 2026 21:30:32 +0900"
+    },
+    {
+     "title": "車いすテニス小田凱人 年間グランドスラムならず 全米オープン",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49911",
+     "pubDate": "Sun, 13 Sep 2026 01:56:10 +0900"
     },
     {
      "title": "埼玉 寄居町の治療院兼住宅で火事 男女2人死亡",
@@ -33,14 +38,9 @@
      "pubDate": "Sat, 12 Sep 2026 19:41:34 +0900"
     },
     {
-     "title": "ラグビー日本代表 米に快勝 パシフィックネーションズ杯決勝へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49914",
-     "pubDate": "Sun, 13 Sep 2026 00:58:54 +0900"
-    },
-    {
-     "title": "カリフォルニア州 SNSやAIから子ども守る州法成立",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49897",
-     "pubDate": "Sat, 12 Sep 2026 18:07:00 +0900"
+     "title": "車いすテニス上地結衣 全米オープン 2年連続4回目の優勝",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49912",
+     "pubDate": "Sun, 13 Sep 2026 02:26:28 +0900"
     }
    ]
   },
