@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-11T23:23:16.557Z",
+ "updatedAt": "2026-09-12T01:16:16.239Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "【ライブ】北海道 十勝岳 噴火警戒レベル3に引き上げ 入山規制",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49856",
+     "pubDate": "Sat, 12 Sep 2026 10:14:15 +0900"
+    },
     {
      "title": "中部電力 報告書提出受け14日に会見 経営トップ進退判断へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49824",
@@ -33,14 +38,9 @@
      "pubDate": "Sat, 12 Sep 2026 04:51:00 +0900"
     },
     {
-     "title": "イエメン反政府勢力のフーシ派 紅海出入り口の海峡の島制圧か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49839",
-     "pubDate": "Sat, 12 Sep 2026 06:56:02 +0900"
-    },
-    {
-     "title": "米同時多発テロ事件25年 旅客機激突のビル跡地で犠牲者を追悼",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49838",
-     "pubDate": "Sat, 12 Sep 2026 07:48:58 +0900"
+     "title": "IEA ことしの石油供給見通し下方修正 中東から供給回復来年に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49845",
+     "pubDate": "Sat, 12 Sep 2026 08:20:13 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "沖縄県知事選 選挙期間投稿100万件超 ひぼう中傷 批判の偏りも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49830",
+     "pubDate": "Sat, 12 Sep 2026 09:04:28 +0900"
+    },
     {
      "title": "【動画】Pickup NEWS（9月12日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49803",
@@ -118,11 +123,6 @@
      "title": "青森 国民スポーツ大会のゴルフ会場でクマ目撃 競技中止",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49771",
      "pubDate": "Fri, 11 Sep 2026 19:40:41 +0900"
-    },
-    {
-     "title": "クビアカツヤカミキリ 国が防除戦略決定 被害縮小の道筋を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49758",
-     "pubDate": "Fri, 11 Sep 2026 18:38:00 +0900"
     }
    ]
   },
@@ -214,6 +214,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "イコールアースの北方領土表記など日本の修正要求にロシア反発",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49854",
+     "pubDate": "Sat, 12 Sep 2026 10:13:38 +0900"
+    },
+    {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月12日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46989",
+     "pubDate": "Sat, 12 Sep 2026 08:39:04 +0900"
+    },
+    {
+     "title": "世界の海面水温の平均 日ごとの過去最高を100日連続で更新",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49848",
+     "pubDate": "Sat, 12 Sep 2026 08:34:04 +0900"
+    },
+    {
      "title": "IEA ことしの石油供給見通し下方修正 中東から供給回復来年に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49845",
      "pubDate": "Sat, 12 Sep 2026 08:20:13 +0900"
@@ -234,9 +249,9 @@
      "pubDate": "Sat, 12 Sep 2026 06:56:02 +0900"
     },
     {
-     "title": "“北朝鮮が日本海に向けて飛しょう体発射”韓国軍",
+     "title": "「北朝鮮が日本海に向けて弾道ミサイル数発を発射」韓国軍",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49846",
-     "pubDate": "Sat, 12 Sep 2026 06:45:39 +0900"
+     "pubDate": "Sat, 12 Sep 2026 08:30:16 +0900"
     },
     {
      "title": "プーチン大統領 制裁の西側諸国を批判 BRICSと関係強化に意欲",
@@ -272,21 +287,6 @@
      "title": "アメリカ 8月の消費者物価指数 去年同月比3.4％の上昇",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49799",
      "pubDate": "Fri, 11 Sep 2026 23:51:19 +0900"
-    },
-    {
-     "title": "BRICS首脳会議開幕へ 中国とインドの首脳会談も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49770",
-     "pubDate": "Fri, 11 Sep 2026 20:04:00 +0900"
-    },
-    {
-     "title": "天安門事件を追悼する集会の開催団体 元代表に懲役7年の判決",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49757",
-     "pubDate": "Fri, 11 Sep 2026 19:52:55 +0900"
-    },
-    {
-     "title": "北朝鮮選手団 アジア大会出場へ来日 制裁措置の例外で入国",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49792",
-     "pubDate": "Fri, 11 Sep 2026 19:47:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "北朝鮮 日本海に向け飛翔体発射",
-     "link": "https://news.yahoo.co.jp/pickup/6595000?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 22:19:46 GMT"
+     "title": "十勝岳 噴火警戒レベル3に",
+     "link": "https://news.yahoo.co.jp/pickup/6595022?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 00:52:04 GMT"
     },
     {
-     "title": "消費減税 特例・経過措置で複雑化",
-     "link": "https://news.yahoo.co.jp/pickup/6595004?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 22:46:39 GMT"
+     "title": "九州～東海で残暑 熱中症対策を",
+     "link": "https://news.yahoo.co.jp/pickup/6595019?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 00:33:11 GMT"
     },
     {
-     "title": "亀蔵さん死亡火災 知人を書類送検",
-     "link": "https://news.yahoo.co.jp/pickup/6594999?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 22:20:09 GMT"
+     "title": "北方領土の地図修正巡り 露が反発",
+     "link": "https://news.yahoo.co.jp/pickup/6595015?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 00:06:12 GMT"
     },
     {
-     "title": "ケーキ店火災 女性オーナーが死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6594997?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 14:27:47 GMT"
+     "title": "工藤会と対峙 前・北九州市長語る",
+     "link": "https://news.yahoo.co.jp/pickup/6595017?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 00:21:50 GMT"
     },
     {
-     "title": "ガソスタ 10年で1700社超が消滅",
-     "link": "https://news.yahoo.co.jp/pickup/6595006?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 23:05:07 GMT"
+     "title": "読めない看板 住民ら要望で存続へ",
+     "link": "https://news.yahoo.co.jp/pickup/6595010?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 23:26:16 GMT"
     },
     {
-     "title": "大谷IL入り決定 復帰日の目安なし",
-     "link": "https://news.yahoo.co.jp/pickup/6595003?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 22:41:37 GMT"
+     "title": "カブス・今永昇太 2年ぶり10勝目",
+     "link": "https://news.yahoo.co.jp/pickup/6595013?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 23:55:13 GMT"
+    },
+    {
+     "title": "森本レオ氏死去 芸名由来は俺を逆",
+     "link": "https://news.yahoo.co.jp/pickup/6595012?source=rss",
+     "pubDate": "Fri, 11 Sep 2026 23:48:11 GMT"
     },
     {
      "title": "映画「国宝」テレビ初放送が決定",
      "link": "https://news.yahoo.co.jp/pickup/6595008?source=rss",
      "pubDate": "Fri, 11 Sep 2026 23:06:23 GMT"
-    },
-    {
-     "title": "森本レオさん 原因不明の突然死",
-     "link": "https://news.yahoo.co.jp/pickup/6595002?source=rss",
-     "pubDate": "Fri, 11 Sep 2026 22:29:34 GMT"
     }
    ]
   }
