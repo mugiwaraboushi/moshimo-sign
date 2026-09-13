@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-13T01:11:55.042Z",
+ "updatedAt": "2026-09-13T06:20:54.803Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "中部電力 林社長 勝野会長が辞意固める データ不正を受け引責",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49958",
+     "pubDate": "Sun, 13 Sep 2026 15:17:14 +0900"
+    },
+    {
      "title": "陸上女子やり投げ 北口榛花 68メートル92の日本新記録",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49941",
      "pubDate": "Sun, 13 Sep 2026 08:54:33 +0900"
+    },
+    {
+     "title": "高野山で宿坊営む「総持院」国税局の指摘受け追徴課税納付",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49956",
+     "pubDate": "Sun, 13 Sep 2026 12:50:00 +0900"
     },
     {
      "title": "京都 陸上競技場で28人搬送 “同じ種類の弁当を食べていた”",
@@ -18,29 +28,19 @@
      "pubDate": "Sun, 13 Sep 2026 05:12:00 +0900"
     },
     {
-     "title": "千葉豪雨 商店などの被害 529社で26億円余 再開できない企業も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49919",
-     "pubDate": "Sun, 13 Sep 2026 06:04:00 +0900"
+     "title": "高市首相 村井英樹氏を国対委員長に起用調整 自民党役員人事",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49949",
+     "pubDate": "Sun, 13 Sep 2026 12:39:15 +0900"
     },
     {
-     "title": "米アンソロピックCEO“AI開発ペース減速させる必要”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49934",
-     "pubDate": "Sun, 13 Sep 2026 08:10:00 +0900"
+     "title": "日中友好議連 超党派若手が北京訪問 交流再開の糸口探る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49955",
+     "pubDate": "Sun, 13 Sep 2026 12:12:00 +0900"
     },
     {
      "title": "トランプ大統領「統一されたアイルランド見たい」英国で非難も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49937",
-     "pubDate": "Sun, 13 Sep 2026 05:55:05 +0900"
-    },
-    {
-     "title": "サウジアラビア パイプライン損壊 トランプ氏“イラン関与か”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49908",
-     "pubDate": "Sun, 13 Sep 2026 05:59:23 +0900"
-    },
-    {
-     "title": "ベネチア国際映画祭 日本の2作品は最優秀賞ならず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49909",
-     "pubDate": "Sun, 13 Sep 2026 06:56:00 +0900"
+     "pubDate": "Sun, 13 Sep 2026 05:55:00 +0900"
     }
    ]
   },
@@ -50,14 +50,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "中部電力 林社長 勝野会長が辞意固める データ不正を受け引責",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49958",
+     "pubDate": "Sun, 13 Sep 2026 15:17:14 +0900"
+    },
+    {
+     "title": "高野山で宿坊営む「総持院」国税局の指摘受け追徴課税納付",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49956",
+     "pubDate": "Sun, 13 Sep 2026 12:50:00 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（9月13日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49886",
-     "pubDate": "Sun, 13 Sep 2026 07:12:34 +0900"
+     "pubDate": "Sun, 13 Sep 2026 14:07:32 +0900"
     },
     {
      "title": "救急隊への妨害行為 5年で107件 東京消防庁が協力呼びかけ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49910",
-     "pubDate": "Sun, 13 Sep 2026 05:39:44 +0900"
+     "pubDate": "Sun, 13 Sep 2026 05:39:00 +0900"
     },
     {
      "title": "千葉豪雨の発生から1か月 死者13人 住宅被害7000棟超える",
@@ -113,16 +123,6 @@
      "title": "戦没者遺骨 DNA判定前に送還へ 集団埋葬地など限定で見直し案",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49822",
      "pubDate": "Sat, 12 Sep 2026 05:48:00 +0900"
-    },
-    {
-     "title": "相模原 高校生暴行死事件 警察に通報しないよう口止めか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49835",
-     "pubDate": "Sat, 12 Sep 2026 05:06:04 +0900"
-    },
-    {
-     "title": "岐阜 洋菓子店殺人事件 店主の死亡確認 死者4人に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49832",
-     "pubDate": "Sat, 12 Sep 2026 00:41:07 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "フィリピン西部フェリー火災 死者76人に 捜索活動続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49951",
+     "pubDate": "Sun, 13 Sep 2026 11:48:00 +0900"
+    },
+    {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月13日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46990",
+     "pubDate": "Sun, 13 Sep 2026 11:26:10 +0900"
+    },
+    {
      "title": "米アンソロピックCEO“AI開発ペース減速させる必要”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49934",
      "pubDate": "Sun, 13 Sep 2026 08:10:00 +0900"
@@ -231,22 +241,22 @@
     {
      "title": "サウジアラビア パイプライン損壊 トランプ氏“イラン関与か”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49908",
-     "pubDate": "Sun, 13 Sep 2026 05:59:23 +0900"
+     "pubDate": "Sun, 13 Sep 2026 05:59:00 +0900"
     },
     {
      "title": "トランプ大統領「統一されたアイルランド見たい」英国で非難も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49937",
-     "pubDate": "Sun, 13 Sep 2026 05:55:05 +0900"
+     "pubDate": "Sun, 13 Sep 2026 05:55:00 +0900"
     },
     {
      "title": "ゼレンスキー大統領 ロシアとの首脳会談に前向き 米国で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49936",
-     "pubDate": "Sun, 13 Sep 2026 05:44:54 +0900"
+     "pubDate": "Sun, 13 Sep 2026 05:44:00 +0900"
     },
     {
      "title": "BRICS首脳会議で共同宣言を採択 中国インド首脳会談も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49927",
-     "pubDate": "Sun, 13 Sep 2026 05:27:10 +0900"
+     "pubDate": "Sun, 13 Sep 2026 05:27:00 +0900"
     },
     {
      "title": "BRICS首脳会議開幕 このあと中印首脳会談へ",
@@ -277,16 +287,6 @@
      "title": "イコールアースの北方領土表記など日本の修正要求にロシア反発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49854",
      "pubDate": "Sat, 12 Sep 2026 10:13:38 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（9月12日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46989",
-     "pubDate": "Sat, 12 Sep 2026 08:39:00 +0900"
-    },
-    {
-     "title": "世界の海面水温の平均 日ごとの過去最高を100日連続で更新",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49848",
-     "pubDate": "Sat, 12 Sep 2026 08:34:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "アンダーパス冠水恐れ 148自治体",
-     "link": "https://news.yahoo.co.jp/pickup/6595114?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 23:38:42 GMT"
+     "title": "中部電力 社長と会長が辞任見通し",
+     "link": "https://news.yahoo.co.jp/pickup/6595151?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 06:00:50 GMT"
     },
     {
-     "title": "13日 九州-北陸で急な強い雨恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6595117?source=rss",
-     "pubDate": "Sun, 13 Sep 2026 00:09:53 GMT"
+     "title": "千葉豪雨1カ月 相次ぐ大雨に疲弊",
+     "link": "https://news.yahoo.co.jp/pickup/6595139?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 03:54:45 GMT"
     },
     {
-     "title": "警察を振り切ったバイク転倒 死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6595121?source=rss",
-     "pubDate": "Sun, 13 Sep 2026 00:20:04 GMT"
+     "title": "北アイルランド巡り 米英に火種か",
+     "link": "https://news.yahoo.co.jp/pickup/6595130?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 01:40:14 GMT"
     },
     {
-     "title": "赤信号渡る3歳を小2発見 母と保護",
-     "link": "https://news.yahoo.co.jp/pickup/6595112?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 23:13:29 GMT"
+     "title": "ジャワ海で船遭難か 120人を捜索",
+     "link": "https://news.yahoo.co.jp/pickup/6595153?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 06:19:27 GMT"
     },
     {
-     "title": "支持広げる「横長バッグ」魅力は",
-     "link": "https://news.yahoo.co.jp/pickup/6595126?source=rss",
-     "pubDate": "Sun, 13 Sep 2026 00:52:44 GMT"
+     "title": "純ガソリン車 次々廃止される事情",
+     "link": "https://news.yahoo.co.jp/pickup/6595140?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 03:38:43 GMT"
     },
     {
-     "title": "富川悠太氏 テレ朝→トヨタの真相",
-     "link": "https://news.yahoo.co.jp/pickup/6595118?source=rss",
-     "pubDate": "Sun, 13 Sep 2026 00:10:54 GMT"
+     "title": "「夜泣きカフェ」漫画機に開設増",
+     "link": "https://news.yahoo.co.jp/pickup/6595144?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 04:59:20 GMT"
     },
     {
-     "title": "ド軍 織田翔希「争奪戦」に本腰か",
-     "link": "https://news.yahoo.co.jp/pickup/6595122?source=rss",
-     "pubDate": "Sun, 13 Sep 2026 00:32:29 GMT"
+     "title": "タッチパネル注文 利用者らの本音",
+     "link": "https://news.yahoo.co.jp/pickup/6595142?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 04:43:23 GMT"
     },
     {
-     "title": "張本勲さん死去 落合博満氏が追悼",
-     "link": "https://news.yahoo.co.jp/pickup/6595119?source=rss",
-     "pubDate": "Sun, 13 Sep 2026 00:02:03 GMT"
+     "title": "新設大会優勝の北口 賞金2300万円",
+     "link": "https://news.yahoo.co.jp/pickup/6595137?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 03:26:50 GMT"
     }
    ]
   }
