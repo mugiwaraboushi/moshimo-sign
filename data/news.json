@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-13T16:29:37.578Z",
+ "updatedAt": "2026-09-13T18:52:19.100Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "沖縄県知事選挙 新人の古謝玄太氏が初当選 現職ら抑える",
      "link": "https://news.web.nhk/newsweb/na/nd-20260907de48826",
-     "pubDate": "Mon, 14 Sep 2026 00:54:57 +0900"
+     "pubDate": "Mon, 14 Sep 2026 03:13:06 +0900"
     },
     {
      "title": "【解説】沖縄県知事選挙 古謝氏の勝因は? 高市政権への影響は?",
