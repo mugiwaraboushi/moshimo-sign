@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-13T18:52:19.100Z",
+ "updatedAt": "2026-09-13T21:10:33.787Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,34 +8,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "沖縄県知事選挙 新人の古謝玄太氏が初当選 現職ら抑える",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48826",
-     "pubDate": "Mon, 14 Sep 2026 03:13:06 +0900"
+     "title": "政府・与党 沖縄県知事選 古謝氏当選で辺野古移設推進",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50006",
+     "pubDate": "Mon, 14 Sep 2026 05:30:41 +0900"
     },
     {
-     "title": "【解説】沖縄県知事選挙 古謝氏の勝因は? 高市政権への影響は?",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49962",
-     "pubDate": "Sun, 13 Sep 2026 22:33:45 +0900"
+     "title": "維新 中司幹事長の入閣調整 今週にも自民党役員人事 内閣改造",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50001",
+     "pubDate": "Mon, 14 Sep 2026 05:12:35 +0900"
+    },
+    {
+     "title": "中部電力きょう会見へ 林社長 勝野会長が辞意固める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49991",
+     "pubDate": "Mon, 14 Sep 2026 04:36:46 +0900"
+    },
+    {
+     "title": "千葉豪雨“屋外での移動危険”避難所開設しない判断の自治体も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de50000",
+     "pubDate": "Mon, 14 Sep 2026 05:45:01 +0900"
+    },
+    {
+     "title": "ホルムズ海峡めぐるイランと湾岸諸国の会合延期に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50008",
+     "pubDate": "Mon, 14 Sep 2026 06:05:54 +0900"
     },
     {
      "title": "秋雨前線停滞 月曜は日本海側中心大雨に その後太平洋側も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49980",
      "pubDate": "Sun, 13 Sep 2026 19:41:37 +0900"
-    },
-    {
-     "title": "京都 陸上選手権会場で食中毒か 弁当業者を立ち入り調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49978",
-     "pubDate": "Sun, 13 Sep 2026 18:58:00 +0900"
-    },
-    {
-     "title": "インドネシアでフェリー転覆 6人死亡130人行方不明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49975",
-     "pubDate": "Sun, 13 Sep 2026 20:45:01 +0900"
-    },
-    {
-     "title": "京都 商店街で地面から水が噴き出し道路が冠水 水道管が破損か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49983",
-     "pubDate": "Sun, 13 Sep 2026 19:26:46 +0900"
     },
     {
      "title": "大相撲秋場所初日 大関復帰の安青錦は白星発進",
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ホルムズ海峡めぐるイランと湾岸諸国の会合延期に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50008",
+     "pubDate": "Mon, 14 Sep 2026 06:05:54 +0900"
+    },
+    {
      "title": "BRICS首脳会議閉幕 習主席はグローバルサウスとの団結訴え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49984",
      "pubDate": "Sun, 13 Sep 2026 21:21:28 +0900"
@@ -282,11 +287,6 @@
      "title": "カリフォルニア州 SNSやAIから子ども守る州法成立",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49897",
      "pubDate": "Sat, 12 Sep 2026 18:07:00 +0900"
-    },
-    {
-     "title": "“イランが中国の衛星画像をもとに米軍攻撃か”米有力紙",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49890",
-     "pubDate": "Sat, 12 Sep 2026 17:08:00 +0900"
     }
    ]
   },
