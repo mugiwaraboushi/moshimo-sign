@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-13T06:20:54.803Z",
+ "updatedAt": "2026-09-13T12:07:45.360Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "【速報】沖縄県知事選 新人の古謝玄太氏が当選確実 現職ら抑え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48826",
+     "pubDate": "Sun, 13 Sep 2026 20:00:00 +0900"
+    },
+    {
+     "title": "秋雨前線停滞 月曜は日本海側中心大雨に その後太平洋側も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49980",
+     "pubDate": "Sun, 13 Sep 2026 19:41:37 +0900"
+    },
+    {
+     "title": "京都 陸上選手権会場で食中毒か 弁当業者を立ち入り調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49978",
+     "pubDate": "Sun, 13 Sep 2026 18:58:00 +0900"
+    },
+    {
+     "title": "インドネシアでフェリー転覆 6人死亡130人行方不明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49975",
+     "pubDate": "Sun, 13 Sep 2026 20:45:01 +0900"
+    },
+    {
+     "title": "京都 商店街で地面から水が噴き出し道路が冠水 水道管が破損か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49983",
+     "pubDate": "Sun, 13 Sep 2026 19:26:46 +0900"
+    },
+    {
      "title": "中部電力 林社長 勝野会長が辞意固める データ不正を受け引責",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49958",
-     "pubDate": "Sun, 13 Sep 2026 15:17:14 +0900"
+     "pubDate": "Sun, 13 Sep 2026 20:20:45 +0900"
     },
     {
-     "title": "陸上女子やり投げ 北口榛花 68メートル92の日本新記録",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49941",
-     "pubDate": "Sun, 13 Sep 2026 08:54:33 +0900"
-    },
-    {
-     "title": "高野山で宿坊営む「総持院」国税局の指摘受け追徴課税納付",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49956",
-     "pubDate": "Sun, 13 Sep 2026 12:50:00 +0900"
-    },
-    {
-     "title": "京都 陸上競技場で28人搬送 “同じ種類の弁当を食べていた”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49921",
-     "pubDate": "Sun, 13 Sep 2026 05:12:00 +0900"
-    },
-    {
-     "title": "高市首相 村井英樹氏を国対委員長に起用調整 自民党役員人事",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49949",
-     "pubDate": "Sun, 13 Sep 2026 12:39:15 +0900"
-    },
-    {
-     "title": "日中友好議連 超党派若手が北京訪問 交流再開の糸口探る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49955",
-     "pubDate": "Sun, 13 Sep 2026 12:12:00 +0900"
-    },
-    {
-     "title": "トランプ大統領「統一されたアイルランド見たい」英国で非難も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49937",
-     "pubDate": "Sun, 13 Sep 2026 05:55:00 +0900"
+     "title": "大相撲秋場所初日 大関復帰の安青錦は白星発進",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49981",
+     "pubDate": "Sun, 13 Sep 2026 20:55:02 +0900"
     }
    ]
   },
@@ -50,9 +50,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "京都 商店街で地面から水が噴き出し道路が冠水 水道管が破損か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49983",
+     "pubDate": "Sun, 13 Sep 2026 19:26:46 +0900"
+    },
+    {
+     "title": "京都 陸上選手権会場で食中毒か 弁当業者を立ち入り調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49978",
+     "pubDate": "Sun, 13 Sep 2026 18:58:00 +0900"
+    },
+    {
+     "title": "富山 氷見 大雨の被災者がホテルなどへ2次避難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49979",
+     "pubDate": "Sun, 13 Sep 2026 18:37:07 +0900"
+    },
+    {
      "title": "中部電力 林社長 勝野会長が辞意固める データ不正を受け引責",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49958",
-     "pubDate": "Sun, 13 Sep 2026 15:17:14 +0900"
+     "pubDate": "Sun, 13 Sep 2026 20:20:45 +0900"
     },
     {
      "title": "高野山で宿坊営む「総持院」国税局の指摘受け追徴課税納付",
@@ -62,7 +77,7 @@
     {
      "title": "【動画】Pickup NEWS（9月13日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49886",
-     "pubDate": "Sun, 13 Sep 2026 14:07:32 +0900"
+     "pubDate": "Sun, 13 Sep 2026 19:37:15 +0900"
     },
     {
      "title": "救急隊への妨害行為 5年で107件 東京消防庁が協力呼びかけ",
@@ -108,21 +123,6 @@
      "title": "沖縄県知事選 選挙期間投稿100万件超 ひぼう中傷 批判の偏りも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49830",
      "pubDate": "Sat, 12 Sep 2026 09:04:00 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（9月12日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49803",
-     "pubDate": "Sat, 12 Sep 2026 19:42:13 +0900"
-    },
-    {
-     "title": "中部電力 報告書提出受け14日に会見 経営トップ進退判断へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49824",
-     "pubDate": "Sat, 12 Sep 2026 06:09:00 +0900"
-    },
-    {
-     "title": "戦没者遺骨 DNA判定前に送還へ 集団埋葬地など限定で見直し案",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49822",
-     "pubDate": "Sat, 12 Sep 2026 05:48:00 +0900"
     }
    ]
   },
@@ -132,9 +132,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "日本の火星衛星探査機「MMX」プロジェクトの研究者が講演会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49974",
+     "pubDate": "Sun, 13 Sep 2026 17:54:00 +0900"
+    },
+    {
      "title": "米アンソロピックCEO“AI開発ペース減速させる必要”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49934",
-     "pubDate": "Sun, 13 Sep 2026 08:10:00 +0900"
+     "pubDate": "Sun, 13 Sep 2026 17:24:03 +0900"
     },
     {
      "title": "ベネチア国際映画祭 日本の2作品は最優秀賞ならず",
@@ -200,11 +205,6 @@
      "title": "“AIが人々の命奪いかねない”アンソロピック研究者が退社表明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49482",
      "pubDate": "Thu, 10 Sep 2026 13:57:00 +0900"
-    },
-    {
-     "title": "張本勲さん死去 86歳 プロ野球最多安打 解説者では「喝！」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49426",
-     "pubDate": "Thu, 10 Sep 2026 19:25:20 +0900"
     }
    ]
   },
@@ -213,6 +213,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "インドネシアでフェリー転覆 6人死亡130人行方不明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49975",
+     "pubDate": "Sun, 13 Sep 2026 20:45:01 +0900"
+    },
     {
      "title": "フィリピン西部フェリー火災 死者76人に 捜索活動続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49951",
@@ -226,7 +231,7 @@
     {
      "title": "米アンソロピックCEO“AI開発ペース減速させる必要”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49934",
-     "pubDate": "Sun, 13 Sep 2026 08:10:00 +0900"
+     "pubDate": "Sun, 13 Sep 2026 17:24:03 +0900"
     },
     {
      "title": "ベネチア国際映画祭 日本の2作品は最優秀賞ならず",
@@ -236,7 +241,7 @@
     {
      "title": "陸上女子やり投げ 北口榛花 68メートル92の日本新記録",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49941",
-     "pubDate": "Sun, 13 Sep 2026 08:54:33 +0900"
+     "pubDate": "Sun, 13 Sep 2026 15:48:14 +0900"
     },
     {
      "title": "サウジアラビア パイプライン損壊 トランプ氏“イラン関与か”",
@@ -282,11 +287,6 @@
      "title": "FRB利上げ観測強まる トランプ大統領は利下げ圧力",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49880",
      "pubDate": "Sat, 12 Sep 2026 14:49:00 +0900"
-    },
-    {
-     "title": "イコールアースの北方領土表記など日本の修正要求にロシア反発",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49854",
-     "pubDate": "Sat, 12 Sep 2026 10:13:38 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "中部電力 社長と会長が辞任見通し",
-     "link": "https://news.yahoo.co.jp/pickup/6595151?source=rss",
-     "pubDate": "Sun, 13 Sep 2026 06:00:50 GMT"
+     "title": "沖縄知事選 古謝玄太氏が当選確実",
+     "link": "https://news.yahoo.co.jp/pickup/6595179?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 11:07:09 GMT"
     },
     {
-     "title": "千葉豪雨1カ月 相次ぐ大雨に疲弊",
-     "link": "https://news.yahoo.co.jp/pickup/6595139?source=rss",
-     "pubDate": "Sun, 13 Sep 2026 03:54:45 GMT"
+     "title": "古謝氏当確 辺野古容認へ県政転換",
+     "link": "https://news.yahoo.co.jp/pickup/6595180?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 11:43:43 GMT"
     },
     {
-     "title": "北アイルランド巡り 米英に火種か",
-     "link": "https://news.yahoo.co.jp/pickup/6595130?source=rss",
-     "pubDate": "Sun, 13 Sep 2026 01:40:14 GMT"
+     "title": "日銀の利上げ公算大 家計への影響",
+     "link": "https://news.yahoo.co.jp/pickup/6595177?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 11:12:49 GMT"
     },
     {
-     "title": "ジャワ海で船遭難か 120人を捜索",
-     "link": "https://news.yahoo.co.jp/pickup/6595153?source=rss",
-     "pubDate": "Sun, 13 Sep 2026 06:19:27 GMT"
+     "title": "車ドア開き衝突 転倒後ひかれ死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6595167?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 08:27:24 GMT"
     },
     {
-     "title": "純ガソリン車 次々廃止される事情",
-     "link": "https://news.yahoo.co.jp/pickup/6595140?source=rss",
-     "pubDate": "Sun, 13 Sep 2026 03:38:43 GMT"
+     "title": "オープンAIのCEO 年内IPOを否定",
+     "link": "https://news.yahoo.co.jp/pickup/6595170?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 08:56:29 GMT"
     },
     {
-     "title": "「夜泣きカフェ」漫画機に開設増",
-     "link": "https://news.yahoo.co.jp/pickup/6595144?source=rss",
-     "pubDate": "Sun, 13 Sep 2026 04:59:20 GMT"
+     "title": "性行為したくない 夫婦で言えぬ訳",
+     "link": "https://news.yahoo.co.jp/pickup/6595175?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 10:14:55 GMT"
     },
     {
-     "title": "タッチパネル注文 利用者らの本音",
-     "link": "https://news.yahoo.co.jp/pickup/6595142?source=rss",
-     "pubDate": "Sun, 13 Sep 2026 04:43:23 GMT"
+     "title": "わが子が「ドパガキ」に? 対策は",
+     "link": "https://news.yahoo.co.jp/pickup/6595173?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 09:27:17 GMT"
     },
     {
-     "title": "新設大会優勝の北口 賞金2300万円",
-     "link": "https://news.yahoo.co.jp/pickup/6595137?source=rss",
-     "pubDate": "Sun, 13 Sep 2026 03:26:50 GMT"
+     "title": "速報バレー男子決勝 日本vsイラン",
+     "link": "https://news.yahoo.co.jp/pickup/6595174?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 10:21:38 GMT"
     }
    ]
   }
