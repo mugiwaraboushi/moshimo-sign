@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-12T23:06:21.630Z",
+ "updatedAt": "2026-09-13T01:11:55.042Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "陸上女子やり投げ 北口榛花 68メートル92の日本新記録",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49941",
+     "pubDate": "Sun, 13 Sep 2026 08:54:33 +0900"
+    },
+    {
      "title": "京都 陸上競技場で28人搬送 “同じ種類の弁当を食べていた”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49921",
-     "pubDate": "Sun, 13 Sep 2026 05:12:43 +0900"
+     "pubDate": "Sun, 13 Sep 2026 05:12:00 +0900"
     },
     {
      "title": "千葉豪雨 商店などの被害 529社で26億円余 再開できない企業も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49919",
-     "pubDate": "Sun, 13 Sep 2026 06:04:54 +0900"
+     "pubDate": "Sun, 13 Sep 2026 06:04:00 +0900"
     },
     {
      "title": "米アンソロピックCEO“AI開発ペース減速させる必要”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49934",
-     "pubDate": "Sun, 13 Sep 2026 07:55:07 +0900"
+     "pubDate": "Sun, 13 Sep 2026 08:10:00 +0900"
+    },
+    {
+     "title": "トランプ大統領「統一されたアイルランド見たい」英国で非難も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49937",
+     "pubDate": "Sun, 13 Sep 2026 05:55:05 +0900"
     },
     {
      "title": "サウジアラビア パイプライン損壊 トランプ氏“イラン関与か”",
@@ -30,17 +40,7 @@
     {
      "title": "ベネチア国際映画祭 日本の2作品は最優秀賞ならず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49909",
-     "pubDate": "Sun, 13 Sep 2026 06:56:09 +0900"
-    },
-    {
-     "title": "陸上女子やり投げ 北口榛花 68メートル92の日本新記録",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49941",
-     "pubDate": "Sun, 13 Sep 2026 06:43:59 +0900"
-    },
-    {
-     "title": "トランプ大統領「統一されたアイルランド見たい」英国で非難も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49937",
-     "pubDate": "Sun, 13 Sep 2026 05:55:05 +0900"
+     "pubDate": "Sun, 13 Sep 2026 06:56:00 +0900"
     }
    ]
   },
@@ -67,7 +67,7 @@
     {
      "title": "京都 陸上競技場で28人搬送 “同じ種類の弁当を食べていた”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49921",
-     "pubDate": "Sun, 13 Sep 2026 05:12:43 +0900"
+     "pubDate": "Sun, 13 Sep 2026 05:12:00 +0900"
     },
     {
      "title": "環境省 再生プラ製造の大規模拠点設置を支援 ナフサ代替目指す",
@@ -134,12 +134,12 @@
     {
      "title": "米アンソロピックCEO“AI開発ペース減速させる必要”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49934",
-     "pubDate": "Sun, 13 Sep 2026 07:55:07 +0900"
+     "pubDate": "Sun, 13 Sep 2026 08:10:00 +0900"
     },
     {
      "title": "ベネチア国際映画祭 日本の2作品は最優秀賞ならず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49909",
-     "pubDate": "Sun, 13 Sep 2026 06:56:09 +0900"
+     "pubDate": "Sun, 13 Sep 2026 06:56:00 +0900"
     },
     {
      "title": "畑のPFAS 野菜からほとんど検出されず 農水省が実験結果",
@@ -216,17 +216,17 @@
     {
      "title": "米アンソロピックCEO“AI開発ペース減速させる必要”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49934",
-     "pubDate": "Sun, 13 Sep 2026 07:55:07 +0900"
+     "pubDate": "Sun, 13 Sep 2026 08:10:00 +0900"
     },
     {
      "title": "ベネチア国際映画祭 日本の2作品は最優秀賞ならず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49909",
-     "pubDate": "Sun, 13 Sep 2026 06:56:09 +0900"
+     "pubDate": "Sun, 13 Sep 2026 06:56:00 +0900"
     },
     {
      "title": "陸上女子やり投げ 北口榛花 68メートル92の日本新記録",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49941",
-     "pubDate": "Sun, 13 Sep 2026 06:43:59 +0900"
+     "pubDate": "Sun, 13 Sep 2026 08:54:33 +0900"
     },
     {
      "title": "サウジアラビア パイプライン損壊 トランプ氏“イラン関与か”",
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "国対委員長に村井英樹氏 首相意向",
-     "link": "https://news.yahoo.co.jp/pickup/6595108?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 22:48:12 GMT"
+     "title": "アンダーパス冠水恐れ 148自治体",
+     "link": "https://news.yahoo.co.jp/pickup/6595114?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 23:38:42 GMT"
     },
     {
-     "title": "AnthropicCEO AI開発の減速訴え",
-     "link": "https://news.yahoo.co.jp/pickup/6595106?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 22:35:27 GMT"
+     "title": "13日 九州-北陸で急な強い雨恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6595117?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 00:09:53 GMT"
     },
     {
-     "title": "陸上の大会で28人搬送 弁当原因か",
-     "link": "https://news.yahoo.co.jp/pickup/6595102?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 14:33:23 GMT"
+     "title": "警察を振り切ったバイク転倒 死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6595121?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 00:20:04 GMT"
     },
     {
-     "title": "車にはねられ約7m下に転落 死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6595107?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 22:44:41 GMT"
+     "title": "赤信号渡る3歳を小2発見 母と保護",
+     "link": "https://news.yahoo.co.jp/pickup/6595112?source=rss",
+     "pubDate": "Sat, 12 Sep 2026 23:13:29 GMT"
     },
     {
-     "title": "富士山 閉山後でも海外の団体客",
-     "link": "https://news.yahoo.co.jp/pickup/6595103?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 22:22:41 GMT"
+     "title": "支持広げる「横長バッグ」魅力は",
+     "link": "https://news.yahoo.co.jp/pickup/6595126?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 00:52:44 GMT"
     },
     {
-     "title": "北口榛花 日本新記録マークし優勝",
-     "link": "https://news.yahoo.co.jp/pickup/6595105?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 22:28:14 GMT"
+     "title": "富川悠太氏 テレ朝→トヨタの真相",
+     "link": "https://news.yahoo.co.jp/pickup/6595118?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 00:10:54 GMT"
     },
     {
-     "title": "VIVANTロケ地公表「没入」影響は",
-     "link": "https://news.yahoo.co.jp/pickup/6595110?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 23:00:36 GMT"
+     "title": "ド軍 織田翔希「争奪戦」に本腰か",
+     "link": "https://news.yahoo.co.jp/pickup/6595122?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 00:32:29 GMT"
     },
     {
-     "title": "ベネチア 日本作品は金獅子賞逃す",
-     "link": "https://news.yahoo.co.jp/pickup/6595104?source=rss",
-     "pubDate": "Sat, 12 Sep 2026 22:33:31 GMT"
+     "title": "張本勲さん死去 落合博満氏が追悼",
+     "link": "https://news.yahoo.co.jp/pickup/6595119?source=rss",
+     "pubDate": "Sun, 13 Sep 2026 00:02:03 GMT"
     }
    ]
   }
