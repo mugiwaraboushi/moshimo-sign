@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-14T06:30:06.583Z",
+ "updatedAt": "2026-09-14T13:11:01.444Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【ライブ】中部電力“浜岡原発 3・4号機の審査申請取り下げ”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50053",
-     "pubDate": "Mon, 14 Sep 2026 15:28:17 +0900"
-    },
-    {
-     "title": "【詳細】中部電力 調査委報告書“原因に経営層の理解の欠如”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50027",
-     "pubDate": "Mon, 14 Sep 2026 15:23:47 +0900"
-    },
-    {
-     "title": "沖縄県知事選 初当選の古謝氏が一夜明け抱負",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50046",
-     "pubDate": "Mon, 14 Sep 2026 13:39:02 +0900"
-    },
-    {
-     "title": "秋田市の住宅地で道路冠水 水につかって動かなくなる車も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50077",
-     "pubDate": "Mon, 14 Sep 2026 13:34:00 +0900"
-    },
-    {
-     "title": "秋雨前線停滞 日本海側中心に非常に激しい雨 土砂災害に警戒",
+     "title": "秋雨前線停滞で大気不安定 兵庫で記録的短時間大雨 安全確保を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50014",
-     "pubDate": "Mon, 14 Sep 2026 14:52:14 +0900"
+     "pubDate": "Mon, 14 Sep 2026 20:43:06 +0900"
     },
     {
-     "title": "秋篠宮さま 悠仁さま 気仙沼でかつおの水揚げ視察",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50057",
-     "pubDate": "Mon, 14 Sep 2026 13:10:00 +0900"
+     "title": "兵庫県たつの市付近 「記録的短時間大雨」の気象防災速報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50182",
+     "pubDate": "Mon, 14 Sep 2026 20:09:00 +0900"
     },
     {
-     "title": "演歌歌手 松原のぶえさん死去「おんなの出船」などのヒット曲",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50079",
-     "pubDate": "Mon, 14 Sep 2026 13:30:08 +0900"
+     "title": "中部電力“浜岡原発 3・4号機 審査申請取り下げ”【会見詳細】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50053",
+     "pubDate": "Mon, 14 Sep 2026 19:42:54 +0900"
+    },
+    {
+     "title": "高市内閣支持率53％ 不支持31％ NHK世論調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50073",
+     "pubDate": "Mon, 14 Sep 2026 19:00:19 +0900"
+    },
+    {
+     "title": "民事裁判の“証拠”どう扱う？民事訴訟法改正の検討始まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50045",
+     "pubDate": "Mon, 14 Sep 2026 22:05:52 +0900"
+    },
+    {
+     "title": "江崎グリコ アーモンド飲料 約10万本自主回収 細菌混入で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50180",
+     "pubDate": "Mon, 14 Sep 2026 20:32:41 +0900"
+    },
+    {
+     "title": "社会保険料抑える違法行為 厚労省指導で１万人余が資格喪失",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50173",
+     "pubDate": "Mon, 14 Sep 2026 21:01:04 +0900"
     }
    ]
   },
@@ -50,79 +50,79 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "【ライブ】中部電力“浜岡原発 3・4号機の審査申請取り下げ”",
+     "title": "木原官房長官 皇室典範改正受け有識者会議メンバーに謝意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50189",
+     "pubDate": "Mon, 14 Sep 2026 21:04:41 +0900"
+    },
+    {
+     "title": "社会保険料抑える違法行為 厚労省指導で１万人余が資格喪失",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50173",
+     "pubDate": "Mon, 14 Sep 2026 21:01:04 +0900"
+    },
+    {
+     "title": "民事裁判の“証拠”どう扱う？民事訴訟法改正の検討始まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50045",
+     "pubDate": "Mon, 14 Sep 2026 22:05:52 +0900"
+    },
+    {
+     "title": "東海道・山陽新幹線 運転再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50174",
+     "pubDate": "Mon, 14 Sep 2026 20:12:03 +0900"
+    },
+    {
+     "title": "熊本地震 宇城 入浴支援活動終了の自衛隊に被災者が感謝伝える",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50164",
+     "pubDate": "Mon, 14 Sep 2026 19:13:16 +0900"
+    },
+    {
+     "title": "震災避難者“住宅無償提供終了後も居住”支払い命じた判決確定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50157",
+     "pubDate": "Mon, 14 Sep 2026 18:47:25 +0900"
+    },
+    {
+     "title": "相模原 知的障害者施設で入所者を平手打ち 県と施設が謝罪",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50163",
+     "pubDate": "Mon, 14 Sep 2026 18:31:00 +0900"
+    },
+    {
+     "title": "ネイリスト殺害事件初公判 被害者 事件前AIにストーカー相談か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50150",
+     "pubDate": "Mon, 14 Sep 2026 21:18:06 +0900"
+    },
+    {
+     "title": "秋篠宮さま 悠仁さま 陸前高田市の診療所を訪問",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50147",
+     "pubDate": "Mon, 14 Sep 2026 17:56:47 +0900"
+    },
+    {
+     "title": "万博のミャクミャクがヘリで空を大移動 新たな展示場所へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50146",
+     "pubDate": "Mon, 14 Sep 2026 19:41:25 +0900"
+    },
+    {
+     "title": "普通免許で運転できるトラック 運送会社が導入 人手不足背景に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50130",
+     "pubDate": "Mon, 14 Sep 2026 16:34:00 +0900"
+    },
+    {
+     "title": "熊本地震 爆発のイオンモール 一般向け献花台 きょうまで",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50136",
+     "pubDate": "Mon, 14 Sep 2026 16:16:00 +0900"
+    },
+    {
+     "title": "福岡空港 全日空旅客機に地上の車両が接触 けが人なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50118",
+     "pubDate": "Mon, 14 Sep 2026 15:49:18 +0900"
+    },
+    {
+     "title": "中部電力“浜岡原発 3・4号機 審査申請取り下げ”【会見詳細】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50053",
-     "pubDate": "Mon, 14 Sep 2026 15:28:17 +0900"
+     "pubDate": "Mon, 14 Sep 2026 19:42:54 +0900"
     },
     {
      "title": "演歌歌手 松原のぶえさん死去「おんなの出船」などのヒット曲",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50079",
-     "pubDate": "Mon, 14 Sep 2026 13:30:08 +0900"
-    },
-    {
-     "title": "秋篠宮さま 悠仁さま 気仙沼でかつおの水揚げ視察",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50057",
-     "pubDate": "Mon, 14 Sep 2026 13:10:00 +0900"
-    },
-    {
-     "title": "東京女子医大背任事件 元職員と建築士に猶予付き有罪判決",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50056",
-     "pubDate": "Mon, 14 Sep 2026 13:06:00 +0900"
-    },
-    {
-     "title": "JR埼京線 大崎～大宮間 湘南新宿ライン全線 運転再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50023",
-     "pubDate": "Mon, 14 Sep 2026 10:24:30 +0900"
-    },
-    {
-     "title": "山梨 富士山での遭難防止へ対策案まとまる 防災ヘリ有料化も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50016",
-     "pubDate": "Mon, 14 Sep 2026 07:47:00 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（9月14日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49986",
-     "pubDate": "Mon, 14 Sep 2026 14:22:17 +0900"
-    },
-    {
-     "title": "秋篠宮さま悠仁さま 気仙沼の震災伝承施設訪問",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49985",
-     "pubDate": "Sun, 13 Sep 2026 21:26:03 +0900"
-    },
-    {
-     "title": "京都 商店街で地面から水が噴き出し道路が冠水 水道管が破損か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49983",
-     "pubDate": "Sun, 13 Sep 2026 19:26:46 +0900"
-    },
-    {
-     "title": "京都 陸上選手権会場で食中毒か 弁当業者を立ち入り調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49978",
-     "pubDate": "Sun, 13 Sep 2026 18:58:00 +0900"
-    },
-    {
-     "title": "富山 氷見 大雨の被災者がホテルなどへ2次避難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49979",
-     "pubDate": "Sun, 13 Sep 2026 18:37:07 +0900"
-    },
-    {
-     "title": "中部電力 林社長 勝野会長が辞意固める データ不正を受け引責",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49958",
-     "pubDate": "Sun, 13 Sep 2026 20:20:45 +0900"
-    },
-    {
-     "title": "高野山で宿坊営む「総持院」国税局の指摘受け追徴課税納付",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49956",
-     "pubDate": "Sun, 13 Sep 2026 12:50:00 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（9月13日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49886",
-     "pubDate": "Sun, 13 Sep 2026 19:37:15 +0900"
-    },
-    {
-     "title": "救急隊への妨害行為 5年で107件 東京消防庁が協力呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49910",
-     "pubDate": "Sun, 13 Sep 2026 05:39:00 +0900"
+     "pubDate": "Mon, 14 Sep 2026 20:22:46 +0900"
     }
    ]
   },
@@ -132,9 +132,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
-     "title": "【詳細】中部電力 調査委報告書“原因に経営層の理解の欠如”",
+     "title": "万博のミャクミャクがヘリで空を大移動 新たな展示場所へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50146",
+     "pubDate": "Mon, 14 Sep 2026 19:41:25 +0900"
+    },
+    {
+     "title": "大河ドラマ「豊臣兄弟！」 特別展を前に内覧会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50144",
+     "pubDate": "Mon, 14 Sep 2026 16:50:00 +0900"
+    },
+    {
+     "title": "【詳細】中部電力 調査委報告書“極めて特異な考え方”指摘",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50027",
-     "pubDate": "Mon, 14 Sep 2026 15:23:47 +0900"
+     "pubDate": "Mon, 14 Sep 2026 19:07:55 +0900"
     },
     {
      "title": "ミュンヘン国際音楽コンクール 日本の弦楽四重奏グループ３位",
@@ -195,16 +205,6 @@
      "title": "ベネチア国際映画祭で日本映画が注目【Q＆Aで詳しく】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260910de49598",
      "pubDate": "Fri, 11 Sep 2026 05:11:00 +0900"
-    },
-    {
-     "title": "小惑星リュウグウは太陽系初期の天体の残骸 北海道大学など",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49609",
-     "pubDate": "Fri, 11 Sep 2026 05:06:48 +0900"
-    },
-    {
-     "title": "歌舞伎批評の第一人者 演劇評論家 渡辺保さん死去",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49612",
-     "pubDate": "Fri, 11 Sep 2026 01:01:00 +0900"
     }
    ]
   },
@@ -214,9 +214,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "日中友好議連の若手議員が中国外務省幹部と会談“意思疎通を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50195",
+     "pubDate": "Mon, 14 Sep 2026 21:46:00 +0900"
+    },
+    {
+     "title": "茂木外相 イエメン外相と電話会談“フーシ派対応で緊密連携”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50190",
+     "pubDate": "Mon, 14 Sep 2026 21:27:02 +0900"
+    },
+    {
+     "title": "超党派議連 ICC制裁受け政府に要請“抗議と即時撤回要求を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50175",
+     "pubDate": "Mon, 14 Sep 2026 20:26:38 +0900"
+    },
+    {
+     "title": "LNGの緊急融通の枠組みなど構築へ 経済産業省",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50123",
+     "pubDate": "Mon, 14 Sep 2026 16:35:13 +0900"
+    },
+    {
+     "title": "森衆院議長 ウクライナ訪問へ 議長の訪問はロシア侵攻後初",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50120",
+     "pubDate": "Mon, 14 Sep 2026 16:30:00 +0900"
+    },
+    {
+     "title": "ホルムズ海峡めぐるイランと湾岸諸国の会合が延期に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50105",
+     "pubDate": "Mon, 14 Sep 2026 15:32:20 +0900"
+    },
+    {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月14日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de46991",
-     "pubDate": "Mon, 14 Sep 2026 15:29:10 +0900"
+     "pubDate": "Mon, 14 Sep 2026 15:29:00 +0900"
     },
     {
      "title": "カナダ EUと経済協力で新構想検討か 米有力紙報道",
@@ -231,7 +261,7 @@
     {
      "title": "北朝鮮 弾道ミサイルなど発射訓練 防空システム無力化ねらいか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50030",
-     "pubDate": "Mon, 14 Sep 2026 11:21:00 +0900"
+     "pubDate": "Mon, 14 Sep 2026 17:24:49 +0900"
     },
     {
      "title": "中国の首都 北京でドローン保有禁止へ",
@@ -257,36 +287,6 @@
      "title": "ホルムズ海峡めぐるイランと湾岸諸国の会合延期に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50008",
      "pubDate": "Mon, 14 Sep 2026 06:05:54 +0900"
-    },
-    {
-     "title": "BRICS首脳会議閉幕 習主席はグローバルサウスとの団結訴え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49984",
-     "pubDate": "Sun, 13 Sep 2026 21:21:28 +0900"
-    },
-    {
-     "title": "インドネシアでフェリー転覆 6人死亡130人行方不明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49975",
-     "pubDate": "Sun, 13 Sep 2026 20:45:01 +0900"
-    },
-    {
-     "title": "フィリピン西部フェリー火災 死者76人に 捜索活動続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49951",
-     "pubDate": "Sun, 13 Sep 2026 11:48:00 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月13日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46990",
-     "pubDate": "Sun, 13 Sep 2026 11:26:10 +0900"
-    },
-    {
-     "title": "米アンソロピックCEO“AI開発ペース減速させる必要”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49934",
-     "pubDate": "Sun, 13 Sep 2026 17:24:03 +0900"
-    },
-    {
-     "title": "ベネチア国際映画祭 日本の2作品は最優秀賞ならず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49909",
-     "pubDate": "Sun, 13 Sep 2026 06:56:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "浜岡原発 再稼働の申請取り下げ",
-     "link": "https://news.yahoo.co.jp/pickup/6595258?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 05:27:50 GMT"
+     "title": "中部電の不正 経産相が厳しく批判",
+     "link": "https://news.yahoo.co.jp/pickup/6595291?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 11:19:16 GMT"
     },
     {
-     "title": "ガソスタ廃業加速 自治体どう支援",
-     "link": "https://news.yahoo.co.jp/pickup/6595231?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 04:03:52 GMT"
+     "title": "25年の災害で学習中断の子1.7億人",
+     "link": "https://news.yahoo.co.jp/pickup/6595274?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 07:57:45 GMT"
     },
     {
-     "title": "沖縄知事選 得票差に古謝氏驚き",
-     "link": "https://news.yahoo.co.jp/pickup/6595254?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 04:44:37 GMT"
+     "title": "やまゆり園職員が入所者虐待 認定",
+     "link": "https://news.yahoo.co.jp/pickup/6595288?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 10:50:13 GMT"
     },
     {
-     "title": "ダウン症の子6年の生涯 CMに反響",
-     "link": "https://news.yahoo.co.jp/pickup/6595245?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 03:36:35 GMT"
+     "title": "光通信 レオパレス21にTOB実施",
+     "link": "https://news.yahoo.co.jp/pickup/6595298?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 12:51:42 GMT"
     },
     {
-     "title": "ロマンスカーとコンバインが衝突",
-     "link": "https://news.yahoo.co.jp/pickup/6595256?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 04:53:49 GMT"
+     "title": "タイ 邦人のビザなし滞在期間短縮",
+     "link": "https://news.yahoo.co.jp/pickup/6595293?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 12:03:59 GMT"
     },
     {
-     "title": "渡辺元智さんお別れ会 筒香ら弔問",
-     "link": "https://news.yahoo.co.jp/pickup/6595255?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 04:57:22 GMT"
+     "title": "中日投手・マラー 4打点&初完封",
+     "link": "https://news.yahoo.co.jp/pickup/6595297?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 12:52:07 GMT"
     },
     {
-     "title": "24hマラソンに乱入者 日テレ言及",
-     "link": "https://news.yahoo.co.jp/pickup/6595259?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 06:08:41 GMT"
+     "title": "俳優・中村ゆりさん死去 44歳",
+     "link": "https://news.yahoo.co.jp/pickup/6595295?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 12:18:14 GMT"
     },
     {
-     "title": "松原のぶえさん死去 今月番組参加",
-     "link": "https://news.yahoo.co.jp/pickup/6595249?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 03:58:30 GMT"
+     "title": "霊長類最強 吉田沙保里さん歌手に",
+     "link": "https://news.yahoo.co.jp/pickup/6595289?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 10:44:46 GMT"
     }
    ]
   }
