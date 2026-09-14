@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-14T13:11:01.444Z",
+ "updatedAt": "2026-09-14T18:44:35.565Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -11,11 +11,6 @@
      "title": "秋雨前線停滞で大気不安定 兵庫で記録的短時間大雨 安全確保を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50014",
      "pubDate": "Mon, 14 Sep 2026 20:43:06 +0900"
-    },
-    {
-     "title": "兵庫県たつの市付近 「記録的短時間大雨」の気象防災速報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50182",
-     "pubDate": "Mon, 14 Sep 2026 20:09:00 +0900"
     },
     {
      "title": "中部電力“浜岡原発 3・4号機 審査申請取り下げ”【会見詳細】",
@@ -33,14 +28,19 @@
      "pubDate": "Mon, 14 Sep 2026 22:05:52 +0900"
     },
     {
-     "title": "江崎グリコ アーモンド飲料 約10万本自主回収 細菌混入で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50180",
-     "pubDate": "Mon, 14 Sep 2026 20:32:41 +0900"
+     "title": "日中友好議連の若手議員が中国外務省幹部と会談“意思疎通を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50195",
+     "pubDate": "Mon, 14 Sep 2026 21:46:00 +0900"
     },
     {
-     "title": "社会保険料抑える違法行為 厚労省指導で１万人余が資格喪失",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50173",
-     "pubDate": "Mon, 14 Sep 2026 21:01:04 +0900"
+     "title": "ネイリスト殺害事件初公判 被害者 事件前AIにストーカー相談か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50150",
+     "pubDate": "Mon, 14 Sep 2026 21:18:06 +0900"
+    },
+    {
+     "title": "フィリピン ミンダナオ島 自治政府樹立へ初の議会選挙",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50198",
+     "pubDate": "Mon, 14 Sep 2026 22:39:00 +0900"
     }
    ]
   },
@@ -105,9 +105,9 @@
      "pubDate": "Mon, 14 Sep 2026 16:34:00 +0900"
     },
     {
-     "title": "熊本地震 爆発のイオンモール 一般向け献花台 きょうまで",
+     "title": "熊本地震 爆発のイオンモール 一般向け献花台設置終了で悼む姿",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50136",
-     "pubDate": "Mon, 14 Sep 2026 16:16:00 +0900"
+     "pubDate": "Mon, 14 Sep 2026 22:19:29 +0900"
     },
     {
      "title": "福岡空港 全日空旅客機に地上の車両が接触 けが人なし",
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ネパール土石流 現地で活動のNGO“被災者への長期的支援を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50197",
+     "pubDate": "Mon, 14 Sep 2026 22:45:57 +0900"
+    },
+    {
+     "title": "フィリピン ミンダナオ島 自治政府樹立へ初の議会選挙",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50198",
+     "pubDate": "Mon, 14 Sep 2026 22:39:00 +0900"
+    },
+    {
      "title": "日中友好議連の若手議員が中国外務省幹部と会談“意思疎通を”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50195",
      "pubDate": "Mon, 14 Sep 2026 21:46:00 +0900"
@@ -244,7 +254,7 @@
      "pubDate": "Mon, 14 Sep 2026 15:32:20 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月14日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（9月14日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de46991",
      "pubDate": "Mon, 14 Sep 2026 15:29:00 +0900"
     },
@@ -277,16 +287,6 @@
      "title": "ウクライナとポーランド結ぶ旅客列車にロシアが無人機攻撃",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50007",
      "pubDate": "Mon, 14 Sep 2026 07:02:00 +0900"
-    },
-    {
-     "title": "ウクライナ ロシアのジェットエンジン搭載無人機への対策急ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49999",
-     "pubDate": "Mon, 14 Sep 2026 06:40:30 +0900"
-    },
-    {
-     "title": "ホルムズ海峡めぐるイランと湾岸諸国の会合延期に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50008",
-     "pubDate": "Mon, 14 Sep 2026 06:05:54 +0900"
     }
    ]
   },
@@ -296,19 +296,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "中部電の不正 経産相が厳しく批判",
-     "link": "https://news.yahoo.co.jp/pickup/6595291?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 11:19:16 GMT"
+     "title": "高市氏の人事調整 林氏の処遇焦点",
+     "link": "https://news.yahoo.co.jp/pickup/6595302?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 13:41:47 GMT"
     },
     {
-     "title": "25年の災害で学習中断の子1.7億人",
-     "link": "https://news.yahoo.co.jp/pickup/6595274?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 07:57:45 GMT"
+     "title": "AIの開発ペース「減速」は可能?",
+     "link": "https://news.yahoo.co.jp/pickup/6595300?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 13:32:01 GMT"
     },
     {
-     "title": "やまゆり園職員が入所者虐待 認定",
-     "link": "https://news.yahoo.co.jp/pickup/6595288?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 10:50:13 GMT"
+     "title": "辺野古転覆 引率教師語る「胸中」",
+     "link": "https://news.yahoo.co.jp/pickup/6595299?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 13:00:10 GMT"
     },
     {
      "title": "光通信 レオパレス21にTOB実施",
@@ -326,14 +326,14 @@
      "pubDate": "Mon, 14 Sep 2026 12:52:07 GMT"
     },
     {
-     "title": "俳優・中村ゆりさん死去 44歳",
-     "link": "https://news.yahoo.co.jp/pickup/6595295?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 12:18:14 GMT"
+     "title": "中村ゆりさん死去 MARIが追悼",
+     "link": "https://news.yahoo.co.jp/pickup/6595303?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 14:14:18 GMT"
     },
     {
-     "title": "霊長類最強 吉田沙保里さん歌手に",
-     "link": "https://news.yahoo.co.jp/pickup/6595289?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 10:44:46 GMT"
+     "title": "すっかり広島県民 枡田アナは今",
+     "link": "https://news.yahoo.co.jp/pickup/6595294?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 12:32:51 GMT"
     }
    ]
   }
