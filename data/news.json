@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-14T01:15:28.879Z",
+ "updatedAt": "2026-09-14T06:30:06.583Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "沖縄県知事選挙 新人の古謝玄太氏が初当選 現職ら抑える",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260907de48826",
-     "pubDate": "Mon, 14 Sep 2026 08:06:55 +0900"
+     "title": "【ライブ】中部電力“浜岡原発 3・4号機の審査申請取り下げ”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50053",
+     "pubDate": "Mon, 14 Sep 2026 15:28:17 +0900"
     },
     {
-     "title": "前線停滞 日本海側中心に激しい雨のおそれ 土砂災害など警戒",
+     "title": "【詳細】中部電力 調査委報告書“原因に経営層の理解の欠如”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50027",
+     "pubDate": "Mon, 14 Sep 2026 15:23:47 +0900"
+    },
+    {
+     "title": "沖縄県知事選 初当選の古謝氏が一夜明け抱負",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50046",
+     "pubDate": "Mon, 14 Sep 2026 13:39:02 +0900"
+    },
+    {
+     "title": "秋田市の住宅地で道路冠水 水につかって動かなくなる車も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50077",
+     "pubDate": "Mon, 14 Sep 2026 13:34:00 +0900"
+    },
+    {
+     "title": "秋雨前線停滞 日本海側中心に非常に激しい雨 土砂災害に警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50014",
-     "pubDate": "Mon, 14 Sep 2026 06:32:32 +0900"
+     "pubDate": "Mon, 14 Sep 2026 14:52:14 +0900"
     },
     {
-     "title": "ウクライナとポーランド結ぶ旅客列車にロシアが無人機攻撃",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50007",
-     "pubDate": "Mon, 14 Sep 2026 07:02:36 +0900"
+     "title": "秋篠宮さま 悠仁さま 気仙沼でかつおの水揚げ視察",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50057",
+     "pubDate": "Mon, 14 Sep 2026 13:10:00 +0900"
     },
     {
-     "title": "中部電力きょう会見へ 林社長 勝野会長が辞意固める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49991",
-     "pubDate": "Mon, 14 Sep 2026 04:36:46 +0900"
-    },
-    {
-     "title": "JR埼京線 大崎～大宮間 湘南新宿ライン全線 運転見合わせ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50023",
-     "pubDate": "Mon, 14 Sep 2026 08:54:20 +0900"
-    },
-    {
-     "title": "山梨 富士山での遭難防止へ対策案まとまる 防災ヘリ有料化も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50016",
-     "pubDate": "Mon, 14 Sep 2026 07:47:14 +0900"
-    },
-    {
-     "title": "千葉豪雨“屋外での移動危険”避難所開設しない判断の自治体も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de50000",
-     "pubDate": "Mon, 14 Sep 2026 05:45:01 +0900"
+     "title": "演歌歌手 松原のぶえさん死去「おんなの出船」などのヒット曲",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50079",
+     "pubDate": "Mon, 14 Sep 2026 13:30:08 +0900"
     }
    ]
   },
@@ -50,19 +50,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "JR埼京線 大崎～大宮間 湘南新宿ライン全線 運転見合わせ",
+     "title": "【ライブ】中部電力“浜岡原発 3・4号機の審査申請取り下げ”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50053",
+     "pubDate": "Mon, 14 Sep 2026 15:28:17 +0900"
+    },
+    {
+     "title": "演歌歌手 松原のぶえさん死去「おんなの出船」などのヒット曲",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50079",
+     "pubDate": "Mon, 14 Sep 2026 13:30:08 +0900"
+    },
+    {
+     "title": "秋篠宮さま 悠仁さま 気仙沼でかつおの水揚げ視察",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50057",
+     "pubDate": "Mon, 14 Sep 2026 13:10:00 +0900"
+    },
+    {
+     "title": "東京女子医大背任事件 元職員と建築士に猶予付き有罪判決",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50056",
+     "pubDate": "Mon, 14 Sep 2026 13:06:00 +0900"
+    },
+    {
+     "title": "JR埼京線 大崎～大宮間 湘南新宿ライン全線 運転再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50023",
-     "pubDate": "Mon, 14 Sep 2026 08:54:20 +0900"
+     "pubDate": "Mon, 14 Sep 2026 10:24:30 +0900"
     },
     {
      "title": "山梨 富士山での遭難防止へ対策案まとまる 防災ヘリ有料化も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50016",
-     "pubDate": "Mon, 14 Sep 2026 07:47:14 +0900"
+     "pubDate": "Mon, 14 Sep 2026 07:47:00 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（9月14日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49986",
-     "pubDate": "Mon, 14 Sep 2026 06:55:45 +0900"
+     "pubDate": "Mon, 14 Sep 2026 14:22:17 +0900"
     },
     {
      "title": "秋篠宮さま悠仁さま 気仙沼の震災伝承施設訪問",
@@ -103,26 +123,6 @@
      "title": "救急隊への妨害行為 5年で107件 東京消防庁が協力呼びかけ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49910",
      "pubDate": "Sun, 13 Sep 2026 05:39:00 +0900"
-    },
-    {
-     "title": "千葉豪雨の発生から1か月 死者13人 住宅被害7000棟超える",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49920",
-     "pubDate": "Sun, 13 Sep 2026 05:13:47 +0900"
-    },
-    {
-     "title": "京都 陸上競技場で28人搬送 “同じ種類の弁当を食べていた”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49921",
-     "pubDate": "Sun, 13 Sep 2026 05:12:00 +0900"
-    },
-    {
-     "title": "環境省 再生プラ製造の大規模拠点設置を支援 ナフサ代替目指す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49812",
-     "pubDate": "Sun, 13 Sep 2026 05:10:21 +0900"
-    },
-    {
-     "title": "埼玉 寄居町の治療院兼住宅で火事 男女2人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49922",
-     "pubDate": "Sun, 13 Sep 2026 00:33:00 +0900"
     }
    ]
   },
@@ -132,9 +132,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "【詳細】中部電力 調査委報告書“原因に経営層の理解の欠如”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50027",
+     "pubDate": "Mon, 14 Sep 2026 15:23:47 +0900"
+    },
+    {
      "title": "ミュンヘン国際音楽コンクール 日本の弦楽四重奏グループ３位",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50002",
-     "pubDate": "Mon, 14 Sep 2026 07:16:54 +0900"
+     "pubDate": "Mon, 14 Sep 2026 07:16:00 +0900"
     },
     {
      "title": "日本の火星衛星探査機「MMX」プロジェクトの研究者が講演会",
@@ -200,11 +205,6 @@
      "title": "歌舞伎批評の第一人者 演劇評論家 渡辺保さん死去",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49612",
      "pubDate": "Fri, 11 Sep 2026 01:01:00 +0900"
-    },
-    {
-     "title": "米政府機関「中国企業が産業規模で米AI蒸留」非難 中国は反発",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260910de49492",
-     "pubDate": "Thu, 10 Sep 2026 14:32:00 +0900"
     }
    ]
   },
@@ -214,19 +214,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月14日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46991",
+     "pubDate": "Mon, 14 Sep 2026 15:29:10 +0900"
+    },
+    {
+     "title": "カナダ EUと経済協力で新構想検討か 米有力紙報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50072",
+     "pubDate": "Mon, 14 Sep 2026 13:03:00 +0900"
+    },
+    {
+     "title": "トランプ大統領 アイルランド産ウイスキー関税撤廃の方針表明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50035",
+     "pubDate": "Mon, 14 Sep 2026 11:30:00 +0900"
+    },
+    {
+     "title": "北朝鮮 弾道ミサイルなど発射訓練 防空システム無力化ねらいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50030",
+     "pubDate": "Mon, 14 Sep 2026 11:21:00 +0900"
+    },
+    {
      "title": "中国の首都 北京でドローン保有禁止へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50012",
-     "pubDate": "Mon, 14 Sep 2026 07:28:44 +0900"
+     "pubDate": "Mon, 14 Sep 2026 07:28:00 +0900"
     },
     {
      "title": "ミュンヘン国際音楽コンクール 日本の弦楽四重奏グループ３位",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50002",
-     "pubDate": "Mon, 14 Sep 2026 07:16:54 +0900"
+     "pubDate": "Mon, 14 Sep 2026 07:16:00 +0900"
     },
     {
      "title": "ウクライナとポーランド結ぶ旅客列車にロシアが無人機攻撃",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50007",
-     "pubDate": "Mon, 14 Sep 2026 07:02:36 +0900"
+     "pubDate": "Mon, 14 Sep 2026 07:02:00 +0900"
     },
     {
      "title": "ウクライナ ロシアのジェットエンジン搭載無人機への対策急ぐ",
@@ -267,26 +287,6 @@
      "title": "ベネチア国際映画祭 日本の2作品は最優秀賞ならず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260912de49909",
      "pubDate": "Sun, 13 Sep 2026 06:56:00 +0900"
-    },
-    {
-     "title": "陸上女子やり投げ 北口榛花 68メートル92の日本新記録",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49941",
-     "pubDate": "Sun, 13 Sep 2026 15:48:14 +0900"
-    },
-    {
-     "title": "サウジアラビア パイプライン損壊 トランプ氏“イラン関与か”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260912de49908",
-     "pubDate": "Sun, 13 Sep 2026 05:59:00 +0900"
-    },
-    {
-     "title": "トランプ大統領「統一されたアイルランド見たい」英国で非難も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49937",
-     "pubDate": "Sun, 13 Sep 2026 05:55:00 +0900"
-    },
-    {
-     "title": "ゼレンスキー大統領 ロシアとの首脳会談に前向き 米国で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49936",
-     "pubDate": "Sun, 13 Sep 2026 05:44:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "千葉豪雨 車両1万5000台が被害か",
-     "link": "https://news.yahoo.co.jp/pickup/6595220?source=rss",
-     "pubDate": "Sun, 13 Sep 2026 23:46:52 GMT"
+     "title": "浜岡原発 再稼働の申請取り下げ",
+     "link": "https://news.yahoo.co.jp/pickup/6595258?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 05:27:50 GMT"
     },
     {
-     "title": "沖縄知事選 古謝氏が過去最多得票",
-     "link": "https://news.yahoo.co.jp/pickup/6595213?source=rss",
-     "pubDate": "Sun, 13 Sep 2026 22:52:30 GMT"
+     "title": "ガソスタ廃業加速 自治体どう支援",
+     "link": "https://news.yahoo.co.jp/pickup/6595231?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 04:03:52 GMT"
     },
     {
-     "title": "維新・中司幹事長の入閣調整",
-     "link": "https://news.yahoo.co.jp/pickup/6595207?source=rss",
-     "pubDate": "Sun, 13 Sep 2026 22:16:13 GMT"
+     "title": "沖縄知事選 得票差に古謝氏驚き",
+     "link": "https://news.yahoo.co.jp/pickup/6595254?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 04:44:37 GMT"
     },
     {
-     "title": "NY原油が上昇 供給停滞に懸念",
-     "link": "https://news.yahoo.co.jp/pickup/6595222?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 00:09:21 GMT"
+     "title": "ダウン症の子6年の生涯 CMに反響",
+     "link": "https://news.yahoo.co.jp/pickup/6595245?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 03:36:35 GMT"
     },
     {
-     "title": "ケーキ店主の死因 熱傷性ショック",
-     "link": "https://news.yahoo.co.jp/pickup/6595208?source=rss",
-     "pubDate": "Sun, 13 Sep 2026 22:16:28 GMT"
+     "title": "ロマンスカーとコンバインが衝突",
+     "link": "https://news.yahoo.co.jp/pickup/6595256?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 04:53:49 GMT"
     },
     {
-     "title": "浦和レッズ 複数の体調不良者発生",
-     "link": "https://news.yahoo.co.jp/pickup/6595225?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 00:42:58 GMT"
+     "title": "渡辺元智さんお別れ会 筒香ら弔問",
+     "link": "https://news.yahoo.co.jp/pickup/6595255?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 04:57:22 GMT"
     },
     {
-     "title": "テニスVの瞬間に選手が気づかず",
-     "link": "https://news.yahoo.co.jp/pickup/6595221?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 00:07:48 GMT"
+     "title": "24hマラソンに乱入者 日テレ言及",
+     "link": "https://news.yahoo.co.jp/pickup/6595259?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 06:08:41 GMT"
     },
     {
-     "title": "VIVANT人気声優6人起用 告知なし",
-     "link": "https://news.yahoo.co.jp/pickup/6595227?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 00:51:00 GMT"
+     "title": "松原のぶえさん死去 今月番組参加",
+     "link": "https://news.yahoo.co.jp/pickup/6595249?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 03:58:30 GMT"
     }
    ]
   }
