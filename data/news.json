@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-15T05:31:07.574Z",
+ "updatedAt": "2026-09-15T10:32:43.750Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "前線南下で激しい雨のおそれ 熱帯低気圧の動向にも注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50211",
-     "pubDate": "Tue, 15 Sep 2026 13:47:33 +0900"
+     "title": "大型無人偵察機グローバルホーク 航空自衛隊が墜落推定と発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50355",
+     "pubDate": "Tue, 15 Sep 2026 19:17:00 +0900"
     },
     {
-     "title": "ゾンビたばこ密輸疑い逮捕 世界規模“運び屋”闇バイトか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50273",
-     "pubDate": "Tue, 15 Sep 2026 11:23:00 +0900"
+     "title": "食料品消費税減税の大綱 閣議決定 来年4月から2年間 税率1％に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50259",
+     "pubDate": "Tue, 15 Sep 2026 18:39:56 +0900"
     },
     {
-     "title": "睡眠時無呼吸症候群治療やめ運転 事故か 危険運転致死罪で起訴",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50266",
-     "pubDate": "Tue, 15 Sep 2026 14:14:22 +0900"
+     "title": "自民党役員人事固まる 副総裁 幹事長ら留任 総務会長に梶山氏",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50391",
+     "pubDate": "Tue, 15 Sep 2026 19:26:54 +0900"
     },
     {
-     "title": "トランプ大統領「AI安全は政府が担保可能」脅威論けん制",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50223",
-     "pubDate": "Tue, 15 Sep 2026 12:56:25 +0900"
-    },
-    {
-     "title": "無人の自動運転タクシー 日本でサービス開始の計画",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50316",
-     "pubDate": "Tue, 15 Sep 2026 14:11:00 +0900"
-    },
-    {
-     "title": "「米留学ビザ4年上限は根拠が乏しい」連邦地裁が一時差し止め",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50310",
-     "pubDate": "Tue, 15 Sep 2026 14:16:26 +0900"
-    },
-    {
-     "title": "東京メトロ東西線 架線切れ運転見合わせ 運転再開は夕方か",
+     "title": "東京メトロ東西線 運転再開 約8時間にわたり運転見合わせる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50291",
-     "pubDate": "Tue, 15 Sep 2026 12:01:00 +0900"
+     "pubDate": "Tue, 15 Sep 2026 18:08:00 +0900"
+    },
+    {
+     "title": "福岡県議会5議員 パリ訪問中に1人20万円の夕食会参加 県が負担",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50409",
+     "pubDate": "Tue, 15 Sep 2026 18:54:51 +0900"
+    },
+    {
+     "title": "アメリカ軍が宇宙に兵器配備“政府高官が初めて認める”米報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50416",
+     "pubDate": "Tue, 15 Sep 2026 19:09:01 +0900"
+    },
+    {
+     "title": "“ジャッキー吉川とブルー・コメッツ”三原綱木さん死去",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50371",
+     "pubDate": "Tue, 15 Sep 2026 16:40:00 +0900"
     }
    ]
   },
@@ -50,6 +50,71 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "豚肉の小売価格が過去最高 食肉や卵の高止まり続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50413",
+     "pubDate": "Tue, 15 Sep 2026 19:29:37 +0900"
+    },
+    {
+     "title": "栃木強盗殺人事件 リクルーター役高校生初公判 起訴内容認める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50414",
+     "pubDate": "Tue, 15 Sep 2026 19:27:14 +0900"
+    },
+    {
+     "title": "福岡県議会5議員 パリ訪問中に1人20万円の夕食会参加 県が負担",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50409",
+     "pubDate": "Tue, 15 Sep 2026 18:54:51 +0900"
+    },
+    {
+     "title": "辺野古沖転覆事故 遺族「学校は自分たちのことばで説明を」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50332",
+     "pubDate": "Tue, 15 Sep 2026 18:34:02 +0900"
+    },
+    {
+     "title": "5歳男児がマンション11階から転落し死亡 東京 北区",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50401",
+     "pubDate": "Tue, 15 Sep 2026 18:11:00 +0900"
+    },
+    {
+     "title": "リニア談合事件 大成建設・鹿島建設の元幹部と法人 有罪確定へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50403",
+     "pubDate": "Tue, 15 Sep 2026 18:07:22 +0900"
+    },
+    {
+     "title": "タイ国籍少女に性的サービスさせた罪 店の経営者に拘禁刑5年",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50390",
+     "pubDate": "Tue, 15 Sep 2026 17:37:00 +0900"
+    },
+    {
+     "title": "きょうから大学入学共通テストのオンライン出願が始まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50373",
+     "pubDate": "Tue, 15 Sep 2026 16:27:00 +0900"
+    },
+    {
+     "title": "政府が“人身取引\"の対策強化へ新たな行動計画案",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50338",
+     "pubDate": "Tue, 15 Sep 2026 16:13:00 +0900"
+    },
+    {
+     "title": "長崎 雲仙市の小学校で火事 7月の火事との関連調べ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50314",
+     "pubDate": "Tue, 15 Sep 2026 16:07:00 +0900"
+    },
+    {
+     "title": "最高裁判所の新しい判事に山元裕史氏",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50347",
+     "pubDate": "Tue, 15 Sep 2026 15:59:15 +0900"
+    },
+    {
+     "title": "大型無人偵察機グローバルホーク 航空自衛隊が墜落推定と発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50355",
+     "pubDate": "Tue, 15 Sep 2026 19:17:00 +0900"
+    },
+    {
+     "title": "福島 いわき 1人死亡のアンダーパスで予防的通行止め実施へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50323",
+     "pubDate": "Tue, 15 Sep 2026 14:39:00 +0900"
+    },
+    {
      "title": "無人の自動運転タクシー 日本でサービス開始の計画",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50316",
      "pubDate": "Tue, 15 Sep 2026 14:11:00 +0900"
@@ -58,71 +123,6 @@
      "title": "100歳以上の高齢者10万7000人余 初の10万人超え 厚労省まとめ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50299",
      "pubDate": "Tue, 15 Sep 2026 13:20:23 +0900"
-    },
-    {
-     "title": "東京メトロ東西線 架線切れ運転見合わせ 運転再開は夕方か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50291",
-     "pubDate": "Tue, 15 Sep 2026 12:01:00 +0900"
-    },
-    {
-     "title": "睡眠時無呼吸症候群治療やめ運転 事故か 危険運転致死罪で起訴",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50266",
-     "pubDate": "Tue, 15 Sep 2026 14:14:22 +0900"
-    },
-    {
-     "title": "ゾンビたばこ密輸疑い逮捕 世界規模“運び屋”闇バイトか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50273",
-     "pubDate": "Tue, 15 Sep 2026 11:23:00 +0900"
-    },
-    {
-     "title": "新潟 関越道で3台関係する事故 2人死亡 2人重軽傷",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50247",
-     "pubDate": "Tue, 15 Sep 2026 10:29:00 +0900"
-    },
-    {
-     "title": "OTC類似薬の追加負担 18歳までの子どもと生活保護対象外に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50245",
-     "pubDate": "Tue, 15 Sep 2026 10:23:00 +0900"
-    },
-    {
-     "title": "ゾンビたばこ密輸疑い逮捕 世界規模“運び屋”闇バイトか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50249",
-     "pubDate": "Tue, 15 Sep 2026 10:15:00 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（9月15日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50179",
-     "pubDate": "Tue, 15 Sep 2026 14:01:09 +0900"
-    },
-    {
-     "title": "熊本地震 公費解体本格化前に人材バンクで人員派遣強化 環境省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50205",
-     "pubDate": "Tue, 15 Sep 2026 06:31:00 +0900"
-    },
-    {
-     "title": "浜岡原発データ不正 規制委が立ち入り検査結果取りまとめへ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50216",
-     "pubDate": "Tue, 15 Sep 2026 05:14:29 +0900"
-    },
-    {
-     "title": "木原官房長官 皇室典範改正受け有識者会議メンバーに謝意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50189",
-     "pubDate": "Mon, 14 Sep 2026 21:04:41 +0900"
-    },
-    {
-     "title": "社会保険料抑える違法行為 厚労省指導で１万人余が資格喪失",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50173",
-     "pubDate": "Mon, 14 Sep 2026 21:01:04 +0900"
-    },
-    {
-     "title": "民事裁判の“証拠”どう扱う？民事訴訟法改正の検討始まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50045",
-     "pubDate": "Mon, 14 Sep 2026 22:05:52 +0900"
-    },
-    {
-     "title": "東海道・山陽新幹線 運転再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50174",
-     "pubDate": "Mon, 14 Sep 2026 20:12:03 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "“ジャッキー吉川とブルー・コメッツ”三原綱木さん死去",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50371",
+     "pubDate": "Tue, 15 Sep 2026 16:40:00 +0900"
+    },
+    {
+     "title": "エミー賞 ヒロ・ムライさんがアジア系初コメディー部門監督賞",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50369",
+     "pubDate": "Tue, 15 Sep 2026 16:16:00 +0900"
+    },
     {
      "title": "「米留学ビザ4年上限は根拠が乏しい」連邦地裁が一時差し止め",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50310",
@@ -195,16 +205,6 @@
      "title": "資金流用受け東大関連法人「総合研究奨励会」が年度末に解散へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49710",
      "pubDate": "Fri, 11 Sep 2026 15:50:00 +0900"
-    },
-    {
-     "title": "インフルエンザの患者数 前週比2倍近くに増加",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49708",
-     "pubDate": "Fri, 11 Sep 2026 15:44:00 +0900"
-    },
-    {
-     "title": "博物館資料 文化庁策定の収集管理考え方に意見書提出 学術団体",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49697",
-     "pubDate": "Fri, 11 Sep 2026 15:12:00 +0900"
     }
    ]
   },
@@ -213,6 +213,46 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "アメリカ軍が宇宙に兵器配備“政府高官が初めて認める”米報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50416",
+     "pubDate": "Tue, 15 Sep 2026 19:09:01 +0900"
+    },
+    {
+     "title": "タイ国籍少女に性的サービスさせた罪 店の経営者に拘禁刑5年",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50390",
+     "pubDate": "Tue, 15 Sep 2026 17:37:00 +0900"
+    },
+    {
+     "title": "ネパールにDNA型鑑定機材を供与へ 茂木外相が発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50370",
+     "pubDate": "Tue, 15 Sep 2026 17:08:16 +0900"
+    },
+    {
+     "title": "中国 8月の小売売上高 前年同月比＋0.4％も消費停滞続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50353",
+     "pubDate": "Tue, 15 Sep 2026 16:54:25 +0900"
+    },
+    {
+     "title": "エミー賞 ヒロ・ムライさんがアジア系初コメディー部門監督賞",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50369",
+     "pubDate": "Tue, 15 Sep 2026 16:16:00 +0900"
+    },
+    {
+     "title": "米最高裁 トランプ大統領が求める郵便投票制限を差し止め",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50319",
+     "pubDate": "Tue, 15 Sep 2026 16:06:36 +0900"
+    },
+    {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月15日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46992",
+     "pubDate": "Tue, 15 Sep 2026 15:58:00 +0900"
+    },
+    {
+     "title": "国連人権高等弁務官がAI統治の枠組みづくり呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50315",
+     "pubDate": "Tue, 15 Sep 2026 14:32:36 +0900"
+    },
     {
      "title": "「米留学ビザ4年上限は根拠が乏しい」連邦地裁が一時差し止め",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50310",
@@ -236,7 +276,7 @@
     {
      "title": "IAEA総会 イラン原子力長官入国できず 米との対立鮮明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50230",
-     "pubDate": "Tue, 15 Sep 2026 07:47:45 +0900"
+     "pubDate": "Tue, 15 Sep 2026 07:47:00 +0900"
     },
     {
      "title": "スウェーデン総選挙接戦 反移民政党の入閣方針裏目か",
@@ -247,46 +287,6 @@
      "title": "中国 アンソロピックCEOの主張に反発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50220",
      "pubDate": "Tue, 15 Sep 2026 06:05:21 +0900"
-    },
-    {
-     "title": "トランプ大統領「AI安全は政府が担保可能」脅威論けん制",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50223",
-     "pubDate": "Tue, 15 Sep 2026 12:56:25 +0900"
-    },
-    {
-     "title": "トランプ大統領「ウクライナ ロシア エネルギー施設攻撃せず」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50224",
-     "pubDate": "Tue, 15 Sep 2026 10:45:58 +0900"
-    },
-    {
-     "title": "ウクライナでポーランド結ぶ鉄道攻撃 ロシアは侵攻継続方針",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50222",
-     "pubDate": "Tue, 15 Sep 2026 05:31:32 +0900"
-    },
-    {
-     "title": "損壊したサウジのパイプライン“復旧までに3～5週間” 報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50212",
-     "pubDate": "Tue, 15 Sep 2026 05:25:18 +0900"
-    },
-    {
-     "title": "アメリカ長期金利5％台 原油先物上昇で 2023年10月以来高水準",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50221",
-     "pubDate": "Tue, 15 Sep 2026 05:20:00 +0900"
-    },
-    {
-     "title": "中国が出入国管理の新規定施行 先端技術の流出防ぐねらいか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50207",
-     "pubDate": "Tue, 15 Sep 2026 05:18:00 +0900"
-    },
-    {
-     "title": "ネパール土石流 現地で活動のNGO“被災者への長期的支援を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50197",
-     "pubDate": "Mon, 14 Sep 2026 22:45:57 +0900"
-    },
-    {
-     "title": "フィリピン ミンダナオ島 自治政府樹立へ初の議会選挙",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50198",
-     "pubDate": "Mon, 14 Sep 2026 22:39:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "100歳以上 全国で初の10万人超",
-     "link": "https://news.yahoo.co.jp/pickup/6595353?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 03:07:33 GMT"
+     "title": "自民役員人事 高市氏が陣容固める",
+     "link": "https://news.yahoo.co.jp/pickup/6595392?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 09:01:51 GMT"
     },
     {
-     "title": "沖縄知事選 広がっていた対立疲れ",
-     "link": "https://news.yahoo.co.jp/pickup/6595343?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 02:26:27 GMT"
+     "title": "新党名は民主改革の会 小川氏方針",
+     "link": "https://news.yahoo.co.jp/pickup/6595399?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 10:10:11 GMT"
     },
     {
-     "title": "米MS 行動規範で「AIより人間」",
-     "link": "https://news.yahoo.co.jp/pickup/6595359?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 04:36:49 GMT"
+     "title": "通信途絶えた無人機の一部か 発見",
+     "link": "https://news.yahoo.co.jp/pickup/6595389?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 09:12:02 GMT"
     },
     {
-     "title": "シルバーウィーク 台風動向に注意",
-     "link": "https://news.yahoo.co.jp/pickup/6595351?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 03:01:39 GMT"
+     "title": "マンション11階から5歳転落 死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6595377?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 07:46:18 GMT"
     },
     {
-     "title": "金融庁 ソニー生命に立ち入り検査",
-     "link": "https://news.yahoo.co.jp/pickup/6595362?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 05:09:46 GMT"
+     "title": "家族全員が結核感染 20代女性語る",
+     "link": "https://news.yahoo.co.jp/pickup/6595381?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 08:22:14 GMT"
     },
     {
-     "title": "鉄塔転落死の男性社員が遺書 調査",
-     "link": "https://news.yahoo.co.jp/pickup/6595356?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 04:04:24 GMT"
+     "title": "JRA最年長ジョッキー 引退を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6595393?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 09:34:21 GMT"
     },
     {
-     "title": "日生 CM熱演の中村ゆりさん追悼",
-     "link": "https://news.yahoo.co.jp/pickup/6595358?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 04:35:43 GMT"
+     "title": "ロゴ無断使用横行 ドリカムが警告",
+     "link": "https://news.yahoo.co.jp/pickup/6595400?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 10:12:49 GMT"
     },
     {
-     "title": "夏帆が結婚 お相手は甫木元空氏",
-     "link": "https://news.yahoo.co.jp/pickup/6595355?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 03:38:26 GMT"
+     "title": "夏帆との結婚報告 甫木元空が感謝",
+     "link": "https://news.yahoo.co.jp/pickup/6595383?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 08:13:52 GMT"
     }
    ]
   }
