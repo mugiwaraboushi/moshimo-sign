@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-15T10:32:43.750Z",
+ "updatedAt": "2026-09-15T15:18:22.279Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "大型無人偵察機グローバルホーク 航空自衛隊が墜落推定と発表",
+     "title": "前線南下 16日にかけ大気不安定 熱帯低気圧の動向にも注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50399",
+     "pubDate": "Tue, 15 Sep 2026 20:44:00 +0900"
+    },
+    {
+     "title": "大型無人偵察機グローバルホーク 航空自衛隊“墜落と推定”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50355",
-     "pubDate": "Tue, 15 Sep 2026 19:17:00 +0900"
+     "pubDate": "Tue, 15 Sep 2026 20:09:00 +0900"
     },
     {
      "title": "食料品消費税減税の大綱 閣議決定 来年4月から2年間 税率1％に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50259",
-     "pubDate": "Tue, 15 Sep 2026 18:39:56 +0900"
+     "pubDate": "Tue, 15 Sep 2026 20:03:00 +0900"
+    },
+    {
+     "title": "地価調査 全国で5年連続上昇 住宅地商業地とも需要堅調の中で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50254",
+     "pubDate": "Tue, 15 Sep 2026 20:10:33 +0900"
     },
     {
      "title": "自民党役員人事固まる 副総裁 幹事長ら留任 総務会長に梶山氏",
@@ -23,19 +33,9 @@
      "pubDate": "Tue, 15 Sep 2026 19:26:54 +0900"
     },
     {
-     "title": "東京メトロ東西線 運転再開 約8時間にわたり運転見合わせる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50291",
-     "pubDate": "Tue, 15 Sep 2026 18:08:00 +0900"
-    },
-    {
      "title": "福岡県議会5議員 パリ訪問中に1人20万円の夕食会参加 県が負担",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50409",
      "pubDate": "Tue, 15 Sep 2026 18:54:51 +0900"
-    },
-    {
-     "title": "アメリカ軍が宇宙に兵器配備“政府高官が初めて認める”米報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50416",
-     "pubDate": "Tue, 15 Sep 2026 19:09:01 +0900"
     },
     {
      "title": "“ジャッキー吉川とブルー・コメッツ”三原綱木さん死去",
@@ -50,6 +50,31 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "陸自使用のUSBにマルウエア 正規手続き経ず隊員が持ち込み",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50449",
+     "pubDate": "Tue, 15 Sep 2026 22:28:00 +0900"
+    },
+    {
+     "title": "政府 外国人などによる土地や建物の所有状況を初公表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50448",
+     "pubDate": "Tue, 15 Sep 2026 22:27:37 +0900"
+    },
+    {
+     "title": "広島 福山 会社役員宅から2億円余相当盗んだか 7人逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50427",
+     "pubDate": "Tue, 15 Sep 2026 20:47:07 +0900"
+    },
+    {
+     "title": "山口 山陽小野田 サルに襲われ70代女性2人がけが",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50419",
+     "pubDate": "Tue, 15 Sep 2026 19:51:55 +0900"
+    },
+    {
+     "title": "四国電力送配電社員が鉄塔から転落し死亡 遺書とみられる文書",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50417",
+     "pubDate": "Tue, 15 Sep 2026 19:50:00 +0900"
+    },
+    {
      "title": "豚肉の小売価格が過去最高 食肉や卵の高止まり続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50413",
      "pubDate": "Tue, 15 Sep 2026 19:29:37 +0900"
@@ -57,7 +82,7 @@
     {
      "title": "栃木強盗殺人事件 リクルーター役高校生初公判 起訴内容認める",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50414",
-     "pubDate": "Tue, 15 Sep 2026 19:27:14 +0900"
+     "pubDate": "Tue, 15 Sep 2026 19:27:00 +0900"
     },
     {
      "title": "福岡県議会5議員 パリ訪問中に1人20万円の夕食会参加 県が負担",
@@ -67,7 +92,7 @@
     {
      "title": "辺野古沖転覆事故 遺族「学校は自分たちのことばで説明を」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50332",
-     "pubDate": "Tue, 15 Sep 2026 18:34:02 +0900"
+     "pubDate": "Tue, 15 Sep 2026 18:34:00 +0900"
     },
     {
      "title": "5歳男児がマンション11階から転落し死亡 東京 北区",
@@ -77,7 +102,7 @@
     {
      "title": "リニア談合事件 大成建設・鹿島建設の元幹部と法人 有罪確定へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50403",
-     "pubDate": "Tue, 15 Sep 2026 18:07:22 +0900"
+     "pubDate": "Tue, 15 Sep 2026 18:07:00 +0900"
     },
     {
      "title": "タイ国籍少女に性的サービスさせた罪 店の経営者に拘禁刑5年",
@@ -98,31 +123,6 @@
      "title": "長崎 雲仙市の小学校で火事 7月の火事との関連調べ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50314",
      "pubDate": "Tue, 15 Sep 2026 16:07:00 +0900"
-    },
-    {
-     "title": "最高裁判所の新しい判事に山元裕史氏",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50347",
-     "pubDate": "Tue, 15 Sep 2026 15:59:15 +0900"
-    },
-    {
-     "title": "大型無人偵察機グローバルホーク 航空自衛隊が墜落推定と発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50355",
-     "pubDate": "Tue, 15 Sep 2026 19:17:00 +0900"
-    },
-    {
-     "title": "福島 いわき 1人死亡のアンダーパスで予防的通行止め実施へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50323",
-     "pubDate": "Tue, 15 Sep 2026 14:39:00 +0900"
-    },
-    {
-     "title": "無人の自動運転タクシー 日本でサービス開始の計画",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50316",
-     "pubDate": "Tue, 15 Sep 2026 14:11:00 +0900"
-    },
-    {
-     "title": "100歳以上の高齢者10万7000人余 初の10万人超え 厚労省まとめ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50299",
-     "pubDate": "Tue, 15 Sep 2026 13:20:23 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "ビル・ゲイツ氏がAIリスクに危機感 習国家主席とも会談へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50436",
+     "pubDate": "Tue, 15 Sep 2026 20:49:33 +0900"
+    },
     {
      "title": "“ジャッキー吉川とブルー・コメッツ”三原綱木さん死去",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50371",
@@ -200,11 +205,6 @@
      "title": "バンド演奏用の楽譜“模倣され無料公開”賠償責任は？",
      "link": "https://news.web.nhk/newsweb/na/nd-20260911de49721",
      "pubDate": "Fri, 11 Sep 2026 17:34:25 +0900"
-    },
-    {
-     "title": "資金流用受け東大関連法人「総合研究奨励会」が年度末に解散へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260911de49710",
-     "pubDate": "Fri, 11 Sep 2026 15:50:00 +0900"
     }
    ]
   },
@@ -213,6 +213,26 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "絶滅危惧種ヒメウミガメの貴重な産卵映像 気候変動が脅威に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50446",
+     "pubDate": "Tue, 15 Sep 2026 22:29:39 +0900"
+    },
+    {
+     "title": "中国外務省幹部「台湾めぐる誤った発言が問題」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50445",
+     "pubDate": "Tue, 15 Sep 2026 21:57:00 +0900"
+    },
+    {
+     "title": "ビル・ゲイツ氏がAIリスクに危機感 習国家主席とも会談へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50436",
+     "pubDate": "Tue, 15 Sep 2026 20:49:33 +0900"
+    },
+    {
+     "title": "タイとカンボジアの海域境界めぐる調停委員会の初会合始まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50433",
+     "pubDate": "Tue, 15 Sep 2026 20:20:31 +0900"
+    },
     {
      "title": "アメリカ軍が宇宙に兵器配備“政府高官が初めて認める”米報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50416",
@@ -267,26 +287,6 @@
      "title": "マイクロソフト AI開発の新行動規範を公表し意見募集",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50293",
      "pubDate": "Tue, 15 Sep 2026 12:20:00 +0900"
-    },
-    {
-     "title": "フィンランド 仏核抑止力構想に参加を表明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50231",
-     "pubDate": "Tue, 15 Sep 2026 07:52:00 +0900"
-    },
-    {
-     "title": "IAEA総会 イラン原子力長官入国できず 米との対立鮮明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50230",
-     "pubDate": "Tue, 15 Sep 2026 07:47:00 +0900"
-    },
-    {
-     "title": "スウェーデン総選挙接戦 反移民政党の入閣方針裏目か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50219",
-     "pubDate": "Tue, 15 Sep 2026 06:24:50 +0900"
-    },
-    {
-     "title": "中国 アンソロピックCEOの主張に反発",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50220",
-     "pubDate": "Tue, 15 Sep 2026 06:05:21 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "自民役員人事 高市氏が陣容固める",
-     "link": "https://news.yahoo.co.jp/pickup/6595392?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 09:01:51 GMT"
+     "title": "16日にかけ雨強まる 冠水など注意",
+     "link": "https://news.yahoo.co.jp/pickup/6595403?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 11:01:13 GMT"
     },
     {
-     "title": "新党名は民主改革の会 小川氏方針",
-     "link": "https://news.yahoo.co.jp/pickup/6595399?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 10:10:11 GMT"
+     "title": "空自 大型無人偵察機は墜落と推定",
+     "link": "https://news.yahoo.co.jp/pickup/6595411?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 12:43:12 GMT"
     },
     {
-     "title": "通信途絶えた無人機の一部か 発見",
-     "link": "https://news.yahoo.co.jp/pickup/6595389?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 09:12:02 GMT"
+     "title": "マンションで5歳死亡 転落経緯は",
+     "link": "https://news.yahoo.co.jp/pickup/6595407?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 11:22:52 GMT"
     },
     {
-     "title": "マンション11階から5歳転落 死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6595377?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 07:46:18 GMT"
+     "title": "福岡県議1人20万円夕食会 県負担",
+     "link": "https://news.yahoo.co.jp/pickup/6595422?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 15:08:36 GMT"
     },
     {
-     "title": "家族全員が結核感染 20代女性語る",
-     "link": "https://news.yahoo.co.jp/pickup/6595381?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 08:22:14 GMT"
+     "title": "森衆院議長 ウの議会で異例の演説",
+     "link": "https://news.yahoo.co.jp/pickup/6595415?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 14:00:40 GMT"
     },
     {
-     "title": "JRA最年長ジョッキー 引退を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6595393?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 09:34:21 GMT"
+     "title": "山本美憂52歳 ボクシング初勝利",
+     "link": "https://news.yahoo.co.jp/pickup/6595416?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 14:04:17 GMT"
     },
     {
-     "title": "ロゴ無断使用横行 ドリカムが警告",
-     "link": "https://news.yahoo.co.jp/pickup/6595400?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 10:12:49 GMT"
+     "title": "J2仙台マスコット 異例の謹慎処分",
+     "link": "https://news.yahoo.co.jp/pickup/6595410?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 12:22:31 GMT"
     },
     {
-     "title": "夏帆との結婚報告 甫木元空が感謝",
-     "link": "https://news.yahoo.co.jp/pickup/6595383?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 08:13:52 GMT"
+     "title": "声優上坂すみれ SNS発信当面休止",
+     "link": "https://news.yahoo.co.jp/pickup/6595420?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 14:04:23 GMT"
     }
    ]
   }
