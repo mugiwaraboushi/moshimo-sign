@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-15T15:18:22.279Z",
+ "updatedAt": "2026-09-15T19:06:13.306Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -301,9 +301,9 @@
      "pubDate": "Tue, 15 Sep 2026 11:01:13 GMT"
     },
     {
-     "title": "空自 大型無人偵察機は墜落と推定",
-     "link": "https://news.yahoo.co.jp/pickup/6595411?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 12:43:12 GMT"
+     "title": "墜落推定の無人機 空自「任務中」",
+     "link": "https://news.yahoo.co.jp/pickup/6595421?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 14:33:55 GMT"
     },
     {
      "title": "マンションで5歳死亡 転落経緯は",
