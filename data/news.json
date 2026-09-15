@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-14T22:09:17.137Z",
+ "updatedAt": "2026-09-15T00:43:41.795Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -20,12 +20,12 @@
     {
      "title": "政府 消費税減税の大綱 閣議決定へ 臨時国会で法案成立目指す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50209",
-     "pubDate": "Tue, 15 Sep 2026 04:59:30 +0900"
+     "pubDate": "Tue, 15 Sep 2026 04:59:00 +0900"
     },
     {
      "title": "自民党役員人事 内閣改造 政策推進でポスト詰めの調整",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50208",
-     "pubDate": "Tue, 15 Sep 2026 04:56:55 +0900"
+     "pubDate": "Tue, 15 Sep 2026 04:56:00 +0900"
     },
     {
      "title": "子育て世帯「フラット35」金利引き下げ拡大を検討へ 国交省",
@@ -38,9 +38,9 @@
      "pubDate": "Tue, 15 Sep 2026 05:00:59 +0900"
     },
     {
-     "title": "熊本地震 公費解体本格化前に人材バンクで人員派遣強化 環境省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50205",
-     "pubDate": "Tue, 15 Sep 2026 06:31:22 +0900"
+     "title": "ドジャース大谷翔平 15日から打撃練習再開へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50237",
+     "pubDate": "Tue, 15 Sep 2026 08:52:33 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "フィンランド 仏核抑止力構想に参加を表明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50231",
+     "pubDate": "Tue, 15 Sep 2026 07:52:23 +0900"
+    },
+    {
+     "title": "IAEA総会 イラン原子力長官入国できず 米との対立鮮明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50230",
+     "pubDate": "Tue, 15 Sep 2026 07:47:45 +0900"
+    },
+    {
      "title": "スウェーデン総選挙接戦 反移民政党の入閣方針裏目か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50219",
      "pubDate": "Tue, 15 Sep 2026 06:24:50 +0900"
@@ -277,16 +287,6 @@
      "title": "超党派議連 ICC制裁受け政府に要請“抗議と即時撤回要求を”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50175",
      "pubDate": "Mon, 14 Sep 2026 20:26:38 +0900"
-    },
-    {
-     "title": "LNGの緊急融通の枠組みなど構築へ 経済産業省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50123",
-     "pubDate": "Mon, 14 Sep 2026 16:35:13 +0900"
-    },
-    {
-     "title": "森衆院議長 ウクライナ訪問へ 議長の訪問はロシア侵攻後初",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50120",
-     "pubDate": "Mon, 14 Sep 2026 16:30:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "維新入閣 内閣府特命担当相で調整",
-     "link": "https://news.yahoo.co.jp/pickup/6595308?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 21:59:14 GMT"
+     "title": "マンション浸水 地下設備が弱点に",
+     "link": "https://news.yahoo.co.jp/pickup/6595322?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 23:25:14 GMT"
     },
     {
-     "title": "AIの開発ペース「減速」は可能?",
-     "link": "https://news.yahoo.co.jp/pickup/6595300?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 13:32:01 GMT"
+     "title": "サウジ パイプライン復旧に3～5週",
+     "link": "https://news.yahoo.co.jp/pickup/6595326?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 00:11:52 GMT"
     },
     {
-     "title": "ケーキ店火災「腹殴られた」証言",
-     "link": "https://news.yahoo.co.jp/pickup/6595305?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 21:09:10 GMT"
+     "title": "6歳男児不明 最後の足取りたどる",
+     "link": "https://news.yahoo.co.jp/pickup/6595324?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 23:59:32 GMT"
     },
     {
-     "title": "プルデンシャル 顧客情報漏えい",
-     "link": "https://news.yahoo.co.jp/pickup/6595306?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 21:23:15 GMT"
+     "title": "「カスハラ」市民を提訴へ 大阪市",
+     "link": "https://news.yahoo.co.jp/pickup/6595312?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 22:36:22 GMT"
     },
     {
-     "title": "光通信 レオパレス21にTOB実施",
-     "link": "https://news.yahoo.co.jp/pickup/6595298?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 12:51:42 GMT"
+     "title": "刺激求める「ドパガキ」生む背景",
+     "link": "https://news.yahoo.co.jp/pickup/6595323?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 23:53:14 GMT"
     },
     {
-     "title": "タイ 邦人のビザなし滞在期間短縮",
-     "link": "https://news.yahoo.co.jp/pickup/6595293?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 12:03:59 GMT"
+     "title": "マンジャロで体重激減 恐怖語る",
+     "link": "https://news.yahoo.co.jp/pickup/6595330?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 00:21:15 GMT"
     },
     {
-     "title": "織田裕二「踊る」青島はマブダチ",
-     "link": "https://news.yahoo.co.jp/pickup/6595307?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 21:34:37 GMT"
+     "title": "直腸がん 多くの著名人も患い死去",
+     "link": "https://news.yahoo.co.jp/pickup/6595315?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 22:38:46 GMT"
     },
     {
-     "title": "中村ゆりさん死去 8月に余命宣告",
-     "link": "https://news.yahoo.co.jp/pickup/6595304?source=rss",
-     "pubDate": "Mon, 14 Sep 2026 21:03:23 GMT"
+     "title": "平原綾香「私は28歳」と決めた訳",
+     "link": "https://news.yahoo.co.jp/pickup/6595316?source=rss",
+     "pubDate": "Mon, 14 Sep 2026 22:54:00 GMT"
     }
    ]
   }
