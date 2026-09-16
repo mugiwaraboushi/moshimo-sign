@@ -113,7 +113,11 @@ cp firmware/moshimo_sign/config.example.h firmware/moshimo_sign/config.h
 ```
 
 コンパイル検証だけなら `WIFI_SSID` / `WIFI_PASS` はダミー値のままでよい。
-実機に書き込む前に実際の値へ差し替えること。
+
+v17以降は、実機へ書き込む前に実際の値へ差し替える代わりに、
+**`config.h` は空文字 `""` のままにして認証情報をシリアルから投入できる**
+(下記「認証情報の投入 (v17〜)」)。公開する `.bin` に SSID/パスワードを埋めないため、
+リリース用のビルドはこちらを使う。
 
 `PLAYLIST_URL` は `https://mugiwaraboushi.github.io/moshimo-sign/playlist.json` を指定する
 (仕様は [`playlist-spec.md`](playlist-spec.md))。
@@ -178,10 +182,96 @@ arduino-cli board list                       # ポート確認
 arduino-cli upload -p COM3 --fqbn "esp32:esp32:esp32:PartitionScheme=min_spiffs" firmware/moshimo_sign
 ```
 
+**ボタン操作は要らない。** もしもPC (Linux / CH340) では DTR・RTS による自動リセットが効くので、
+`Connecting....` からそのまま書き込みに入る。LOAD (BOOT) や RST を押す必要はない。
+
+**書き込み中はボタンに触らないこと。** `Writing at 0x...` が進んでいる最中に RST を押すと
+転送が切れて `No more data to read from the serial port` で止まる。アプリ領域が中途半端に
+書かれた状態になるので**その時点では起動しない**が、そのまま焼き直せば復旧する (実機は壊れない)。
+
+同じ理由で、**書き込み中はシリアルモニタを開かないこと**。Linux は同じ tty を複数プロセスが
+開けてしまうため、`arduino-cli monitor` や `miniterm` が横から読むと握手のバイトを取られて失敗する。
+
 ### OTA経由 (2回目以降・同一LAN内)
 
 `.ino` が `ArduinoOTA` を有効にしているため、初回のUSB書き込み以降はWiFi経由で更新できる。
-ホスト名 `moshimo-sign` / パスワードは `config.h` の `OTA_PASSWORD`。
+ホスト名 `moshimo-sign` / パスワードは NVS の `ota`、無ければ `config.h` の `OTA_PASSWORD`。
+
+**パスワードがどちらにも無いときは OTA を起動しない** (v17〜)。起動ログに
+`[ota] disabled (no password)` と出る。認証情報を `.bin` に入れない構成では
+`config.h` の `OTA_PASSWORD` が `""` になるため、そのままだと「同一LANの誰でも
+パスワード無しで実機を書き換えられる」状態になってしまう。OTAを使いたいなら
+手順8で `cfg set ota …` を投入すること。
+
+---
+
+## 8. 認証情報の投入 (v17〜)
+
+v16まではWiFiのSSID/パスワードとOTAパスワードが `config.h` 経由で `.bin` に埋め込まれていた。
+`.bin` は公開リポジトリに置いてあるので、誰でも取り出せる状態だった。
+
+v17からは、これらを実機の **NVS (Preferences, namespace `cfg`)** に置ける。
+実機は起動時にまずNVSを見て、値が無いときだけ `config.h` の値へ戻る。
+投入は**USBで繋いだシリアルからのみ**で、ネットワーク経由で設定を変える手段は用意していない。
+
+### 手順 (ファームウェア担当向け)
+
+1. 実機をUSBで繋ぎ、**115200 bps** でシリアルモニタを開く。
+
+   ```bash
+   arduino-cli monitor -p /dev/ttyUSB0 --config baudrate=115200
+   ```
+
+2. 次の行を1行ずつ打つ (`<…>` は実際の値に置き換える。値は行末まで読まれるので空白を含んでよい)。
+
+   ```
+   cfg set ssid <メインのSSID>
+   cfg set pass <メインのパスワード>
+   cfg set ssid2 <予備のSSID>        ← 使わないなら打たなくてよい
+   cfg set pass2 <予備のパスワード>
+   cfg set ota <OTAパスワード>
+   ```
+
+   保存されると `[cfg] saved ssid (12文字)` のように**文字数だけ**返る (値は返さない)。
+
+3. `cfg show` で入っているか確認する。ここでも値は出ず、有無と文字数だけが出る。
+
+   ```
+   ssid: set (12)
+   pass: set (16)
+   ssid2: unset
+   pass2: unset
+   ota: set (7)
+   ```
+
+4. `cfg reboot` で再起動し、起動ログに次の2行が出ることを確認する。
+
+   ```
+   [cfg] wifi: NVS
+   [cfg] ota: NVS
+   ```
+
+   `config.h` と出ていたらNVSが読めていない。手順2からやり直す。
+
+### コマンド一覧
+
+| コマンド | 動き |
+| --- | --- |
+| `cfg set <key> <value>` | `key` は `ssid` / `pass` / `ssid2` / `pass2` / `ota` の5つのみ。値は行末まで |
+| `cfg show` | 各キーの設定有無と文字数を出す (値は出さない) |
+| `cfg clear` | 5キーを全部消す (次の起動から `config.h` の値に戻る) |
+| `cfg reboot` | 再起動 |
+
+`cfg` で始まらない行・上記以外の行は黙って捨てる。
+
+### 注意
+
+- `cfg set` は保存するだけで、いま繋いでいるWiFiは切り替わらない。`cfg reboot` して反映する。
+- WiFiの4キーは**まとめて**切り替わる。`ssid` がNVSにあれば `pass` / `ssid2` / `pass2` もNVSから読む
+  (ssidだけNVS・passは `config.h`、という混ざり方をすると繋がらないため)。
+- **実際のSSID・パスワードはこのリポジトリのどのファイルにも書かない。**
+- `cfg clear` してNVSを空にしたまま、`config.h` も空の `.bin` を書き込むとWiFiに繋がらなくなる。
+  OTAも効かないのでUSBでの復旧が要る。消すなら投入とセットで行うこと。
 
 ---
 
@@ -193,6 +283,9 @@ arduino-cli upload -p COM3 --fqbn "esp32:esp32:esp32:PartitionScheme=min_spiffs"
 - **展開中に `not enough space on the disk`** → 手順0/2。ダウンロードは成功していても展開で落ちる。
 - **`text section exceeds available space in board`** → 手順6。`PartitionScheme=min_spiffs` を付け忘れている。
 - **`config.h: No such file`** → 手順5。`config.example.h` はコピー元であってビルドには使われない。
+- **起動ログが `[cfg] wifi: config.h` のまま** → 手順8。`cfg set ssid …` が通っていないか、`cfg reboot` していない。
+- **書き込みが途中で `No more data to read from the serial port`** → 手順7。書き込み中にRSTを押したか、シリアルモニタが開いていた。焼き直せば直る。
+- **OTAが応答しない / 起動ログに `[ota] disabled (no password)`** → 手順8で `cfg set ota …` を投入する。
 
 ---
 
