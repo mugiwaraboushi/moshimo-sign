@@ -9,7 +9,7 @@
 | キー | 型 | 意味 | 例 |
 |---|---|---|---|
 | `topText` | string | 上段の固定文言 (時計と交互表示) | `"営業中"` |
-| `mode` | string | `"dual"`=2段 / `"scroll"`=1行スクロール / `"frames"`=ドット絵 | `"dual"` |
+| `mode` | string | `"dual"`=2段 / `"scroll"`=1行スクロール / `"frames"`=ドット絵 / `"event"`=イベント中はコメントだけを下段に流す (コメント0件なら `messages` を流す。見た目は `dual` と同じ。v15) | `"dual"` |
 | `brightness` | int | 輝度 8-255 | `96` |
 | `speed` | number | スクロール速度 dot/秒 (5-200) | `45` |
 | `colorTop` | string | 上段の色 (RGB 16進6桁、#なし) | `"FF9C00"` |
@@ -171,6 +171,55 @@ Actions 側の自動書き換えはそのまま残す (二重化。同じカレ�
 > `.github/workflows/open-closed.yml` としてコミットすると動きはじめる
 > (GitHubのWeb画面から Add file → Create new file でも入れられる)。
 > 入れるまでは自動切り替えは動かず、`topText` は手で変えたままになる。
+
+### イベント告知の自動出し入れ (当日だけ流す)
+
+「その日だけ流したい一言」(ボードゲーム会など) は、`messages` を手で足し引きせずに
+**イベントカレンダーに書いておけば当日だけ自動で出て、終われば自動で消える**。
+
+| ファイル | 役割 |
+|---|---|
+| [`data/events.json`](../data/events.json) | イベントカレンダー本体。**人が手で編集する**のはここだけ |
+| [`scripts/update-event-message.py`](../scripts/update-event-message.py) | 当日のイベントを見て `messages` に1行出し入れする |
+| `.github/workflows/events.yml` | 上を定期実行する (JST 12〜20時台に10分おき)。中身は [`docs/examples/events.workflow.yml`](examples/events.workflow.yml) |
+| `.event-line.json` | 自分が入れた行の控え。**ジョブが自動で commit する**ので手で触らない |
+
+`data/events.json` の書き方:
+
+```json
+{
+  "events": [
+    {
+      "date": "2026-09-22",
+      "start": "15:00",
+      "end": "17:00",
+      "before": "本日15:00から ボードゲーム会 おしゃべり好きな方も大歓迎",
+      "during": "ボードゲーム会やってます 途中からでもどうぞ"
+    }
+  ]
+}
+```
+
+- 時刻はすべて**日本時間**。1日に1件まで
+- `before` = 開始前の文言、`during` = 開催中の文言 (省略すると `before` のまま)
+- 告知を出す帯は既定で **開始の2時間前 〜 `end`**。変えたいときだけ `from` / `to` を書く
+- 終わったイベントの行は消してよい。消し忘れても当日を過ぎれば掲示板には出ない
+
+**手で足した文言は巻き込まない。** 自分が入れた行を `.event-line.json` に控えておき、
+それと一致する行だけを消す作りになっている (雨の行 `scripts/update-rain-message.py` と同じ流儀)。
+そのため控えのファイルも `playlist.json` と一緒に commit される。
+
+動きを確かめたいときは、時刻を仮定して空回しできる:
+
+```
+python3 scripts/update-event-message.py --now 2026-09-22T15:30 --dry-run
+```
+
+> ワークフローの追加だけは `workflow` 権限のあるトークンが要るため、Claude からは push できない。
+> [`docs/examples/events.workflow.yml`](examples/events.workflow.yml) を
+> `.github/workflows/events.yml` としてコミットすると動きはじめる
+> (GitHubのWeb画面から Add file → Create new file でも入れられる)。
+> 入れるまでは自動では出ないので、当日に `playlist.json` の `messages` へ手で足すことになる。
 
 ## 更新時の注意 (Claude向け・人間向け共通)
 
