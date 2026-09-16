@@ -536,7 +536,10 @@ static bool readBody(HTTPClient &http, String &out) {
   return false;
 }
 
-static String httpGetString(const String &url, int &code, bool wait = false) {
+// timeoutMs は**ヘッダが返ってくるまでの待ち時間** (HTTPClient の _tcpTimeout)。
+// 本文の締め切りは readBodyWithDeadline 側が別に持っている (v15)。
+static String httpGetString(const String &url, int &code, bool wait = false,
+                            unsigned long timeoutMs = 5000) {
   HTTPClient http;
   String out;
   code = -1;
@@ -544,7 +547,7 @@ static String httpGetString(const String &url, int &code, bool wait = false) {
     code = -2;   // 別の取得が進行中
     return out;
   }
-  http.setTimeout(5000);
+  http.setTimeout(timeoutMs);
   // Transfer-Encoding は自前の本文読み出し (readBody) がチャンクかどうかを見るのに使う。
   const char *hdrs[] = {"Transfer-Encoding"};
   http.collectHeaders(hdrs, 1);
@@ -1132,7 +1135,10 @@ static bool fetchCommentsOnce(String &body) {
   url += (url.indexOf('?') >= 0 ? "&t=" : "?t=") + String(millis());
   int code;
   // 別タスクなので、他の取得が終わるのを待ってよい (待っても表示は止まらない)
-  String out = httpGetString(url, code, fetchAsync);   // 1行1コメントのプレーンテキスト
+  // ヘッダ待ちは10秒 (v16)。GASはコールドスタートだと応答が5秒を超えることがあり、
+  // 既定の5秒だとヘッダが返る前に打ち切って -11 になるのを実機で確認した。
+  // 本文の締め切り (readBodyWithDeadline) は据え置き。
+  String out = httpGetString(url, code, fetchAsync, 10000);   // 1行1コメントのプレーンテキスト
   if (code != 200) {
     Serial.printf("[comments] fetch failed (%d)\n", code);
     return false;   // 通信断で表示中のコメントが消えないよう、失敗時は前回の内容を残す
