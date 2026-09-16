@@ -461,6 +461,7 @@ static bool readBodyWithDeadline(NetworkClient *s, int total, bool chunked, Stri
       if (crlf.length()) return false;               // 本体の直後がCRLFでない = 不正
     }
   }
+  if (total == 0) return true;   // Content-Length: 0 は空本文で成功 (getString と同じ)
   if (total > 0) {
     if ((unsigned long)total > BODY_MAX_BYTES) return false;
     out.reserve(total);
