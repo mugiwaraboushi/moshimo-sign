@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-16T21:48:12.701Z",
+ "updatedAt": "2026-09-16T23:55:48.761Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,17 +10,22 @@
     {
      "title": "高市首相きょう内閣改造 政権の骨格維持 維新は中司氏初入閣へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50695",
-     "pubDate": "Thu, 17 Sep 2026 04:59:08 +0900"
+     "pubDate": "Thu, 17 Sep 2026 07:05:36 +0900"
     },
     {
-     "title": "【台風25号 情報】小笠原諸島では18日以降 雨風強まるおそれ",
+     "title": "【台風25号】小笠原諸島では18日以降 雨風が強まるおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50715",
-     "pubDate": "Thu, 17 Sep 2026 05:11:00 +0900"
+     "pubDate": "Thu, 17 Sep 2026 07:09:26 +0900"
     },
     {
      "title": "米 FRB 0.25％の利上げ決定 利上げは約3年ぶり",
      "link": "https://news.web.nhk/newsweb/na/nd-20260916de50687",
-     "pubDate": "Thu, 17 Sep 2026 04:12:00 +0900"
+     "pubDate": "Thu, 17 Sep 2026 06:53:00 +0900"
+    },
+    {
+     "title": "NY市場 ダウ一時900ドル超の下落 外国為替市場は1ドル156円台",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50718",
+     "pubDate": "Thu, 17 Sep 2026 06:49:10 +0900"
     },
     {
      "title": "ゼレンスキー大統領「北朝鮮は安い値段で現代戦を経験」",
@@ -33,14 +38,9 @@
      "pubDate": "Wed, 16 Sep 2026 20:40:00 +0900"
     },
     {
-     "title": "コソボ元大統領に禁錮25年の実刑判決 戦争犯罪の責任認定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50709",
-     "pubDate": "Thu, 17 Sep 2026 06:27:31 +0900"
-    },
-    {
-     "title": "アメリカでAI開発の規制求め政敵が“共闘” 議論活発に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50702",
-     "pubDate": "Thu, 17 Sep 2026 06:21:08 +0900"
+     "title": "国連グテーレス事務総長 AI開発競争 国際的な規制必要と訴える",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50717",
+     "pubDate": "Thu, 17 Sep 2026 06:58:07 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（9月17日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50616",
+     "pubDate": "Thu, 17 Sep 2026 07:02:41 +0900"
+    },
     {
      "title": "アルツハイマー病治療薬「レカネマブ」皮下注射型が正式承認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50703",
@@ -93,11 +98,6 @@
      "title": "分電盤の点検商法 相談5倍に急増 注意を 国民生活センター",
      "link": "https://news.web.nhk/newsweb/na/nd-20260916de50619",
      "pubDate": "Wed, 16 Sep 2026 19:40:00 +0900"
-    },
-    {
-     "title": "米エヌビディアCEO AI開発に「新たな規制必要ない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50638",
-     "pubDate": "Wed, 16 Sep 2026 19:22:11 +0900"
     },
     {
      "title": "生徒と一緒に窃盗未遂の疑い 都立高校教諭を逮捕",
@@ -214,6 +214,36 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "エド・シーランさんのツアーでパレスチナ解放訴えラッパー降板",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50725",
+     "pubDate": "Thu, 17 Sep 2026 08:40:12 +0900"
+    },
+    {
+     "title": "香港リンゴ日報 創業者の息子がアメリカ議会で父の釈放を訴え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50723",
+     "pubDate": "Thu, 17 Sep 2026 08:17:16 +0900"
+    },
+    {
+     "title": "米エヌビディアCEO AI開発に「新たな規制必要ない」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50638",
+     "pubDate": "Wed, 16 Sep 2026 19:22:00 +0900"
+    },
+    {
+     "title": "プーチン大統領 議会選挙で侵攻継続への支持示すよう呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50711",
+     "pubDate": "Thu, 17 Sep 2026 07:20:00 +0900"
+    },
+    {
+     "title": "国連グテーレス事務総長 AI開発競争 国際的な規制必要と訴える",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50717",
+     "pubDate": "Thu, 17 Sep 2026 06:58:07 +0900"
+    },
+    {
+     "title": "NY市場 ダウ一時900ドル超の下落 外国為替市場は1ドル156円台",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50718",
+     "pubDate": "Thu, 17 Sep 2026 06:49:10 +0900"
+    },
+    {
      "title": "コソボ元大統領に禁錮25年の実刑判決 戦争犯罪の責任認定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50709",
      "pubDate": "Thu, 17 Sep 2026 06:27:31 +0900"
@@ -256,37 +286,7 @@
     {
      "title": "米 FRB 0.25％の利上げ決定 利上げは約3年ぶり",
      "link": "https://news.web.nhk/newsweb/na/nd-20260916de50687",
-     "pubDate": "Thu, 17 Sep 2026 04:12:00 +0900"
-    },
-    {
-     "title": "ロシア外務次官 日本大使に反ロシア的政策が対話阻害と主張",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50688",
-     "pubDate": "Thu, 17 Sep 2026 00:42:38 +0900"
-    },
-    {
-     "title": "中国とイラン 外相会談 米中首脳会談を前に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50686",
-     "pubDate": "Wed, 16 Sep 2026 23:41:00 +0900"
-    },
-    {
-     "title": "北朝鮮 17か国に労働者派遣 制裁監視チームが報告書",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50673",
-     "pubDate": "Wed, 16 Sep 2026 21:48:00 +0900"
-    },
-    {
-     "title": "男女平等調査 日本は117位 依然として低評価",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50669",
-     "pubDate": "Wed, 16 Sep 2026 21:24:04 +0900"
-    },
-    {
-     "title": "ネパール土石流 親を失い孤立する子どもたち 心のケア課題",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50602",
-     "pubDate": "Wed, 16 Sep 2026 20:46:08 +0900"
-    },
-    {
-     "title": "香港政府が初の5か年計画を発表 中国経済を後押しへ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50639",
-     "pubDate": "Wed, 16 Sep 2026 20:12:41 +0900"
+     "pubDate": "Thu, 17 Sep 2026 06:53:00 +0900"
     }
    ]
   },
@@ -296,14 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "米FRB 3年2カ月ぶり利上げ決定",
-     "link": "https://news.yahoo.co.jp/pickup/6595533?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 21:08:22 GMT"
+     "title": "トランプ氏 FRBに迅速利下げ要求",
+     "link": "https://news.yahoo.co.jp/pickup/6595545?source=rss",
+     "pubDate": "Wed, 16 Sep 2026 23:36:45 GMT"
     },
     {
-     "title": "党役員と閣僚人事 首相の狙いは",
-     "link": "https://news.yahoo.co.jp/pickup/6595534?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 21:21:19 GMT"
+     "title": "内閣改造 赤沢氏と城内氏が続投へ",
+     "link": "https://news.yahoo.co.jp/pickup/6595541?source=rss",
+     "pubDate": "Wed, 16 Sep 2026 22:47:49 GMT"
     },
     {
      "title": "台風25号 21日ごろに関東最接近か",
@@ -311,29 +311,29 @@
      "pubDate": "Wed, 16 Sep 2026 21:28:50 GMT"
     },
     {
-     "title": "よど号事件 赤木容疑者が死亡か",
-     "link": "https://news.yahoo.co.jp/pickup/6595520?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 12:10:11 GMT"
+     "title": "戦後最長の景気拡大か 実感乏しく",
+     "link": "https://news.yahoo.co.jp/pickup/6595539?source=rss",
+     "pubDate": "Wed, 16 Sep 2026 22:19:58 GMT"
     },
     {
-     "title": "フィジー HIV拡大で非常事態宣言",
-     "link": "https://news.yahoo.co.jp/pickup/6595522?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 12:51:44 GMT"
+     "title": "子どものSNS制限 EUが新法提案へ",
+     "link": "https://news.yahoo.co.jp/pickup/6595537?source=rss",
+     "pubDate": "Wed, 16 Sep 2026 21:55:43 GMT"
     },
     {
-     "title": "東京・高尾山の登山道にクマ出没",
-     "link": "https://news.yahoo.co.jp/pickup/6595530?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 14:09:18 GMT"
+     "title": "酒離れ進む韓国 日本酒ブームの訳",
+     "link": "https://news.yahoo.co.jp/pickup/6595540?source=rss",
+     "pubDate": "Wed, 16 Sep 2026 22:24:17 GMT"
     },
     {
-     "title": "日ハム 新庄監督に来季続投要請へ",
-     "link": "https://news.yahoo.co.jp/pickup/6595536?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 21:40:30 GMT"
+     "title": "速報ドジャース 地区優勝なるか",
+     "link": "https://news.yahoo.co.jp/pickup/6595543?source=rss",
+     "pubDate": "Wed, 16 Sep 2026 23:10:01 GMT"
     },
     {
-     "title": "福澤克雄氏 助監督骨折させていた",
-     "link": "https://news.yahoo.co.jp/pickup/6595516?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 11:13:04 GMT"
+     "title": "リヨン中村敬斗 初先発で初ゴール",
+     "link": "https://news.yahoo.co.jp/pickup/6595538?source=rss",
+     "pubDate": "Wed, 16 Sep 2026 22:16:09 GMT"
     }
    ]
   }
