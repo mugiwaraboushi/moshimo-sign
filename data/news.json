@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-15T22:21:15.033Z",
+ "updatedAt": "2026-09-16T00:32:51.055Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "高市首相 党役員人事 執行部ほぼ留任固める 政権安定狙いか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50454",
-     "pubDate": "Wed, 16 Sep 2026 05:59:00 +0900"
+     "title": "自民党役員人事決定へ 執行部ほぼ留任 総務梶山氏 国対村井氏",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50478",
+     "pubDate": "Wed, 16 Sep 2026 08:29:00 +0900"
     },
     {
      "title": "消費税減税 小規模事業者が税率変化に対応できるか課題",
@@ -28,9 +28,9 @@
      "pubDate": "Tue, 15 Sep 2026 20:44:00 +0900"
     },
     {
-     "title": "地価調査 全国で5年連続上昇 住宅地商業地とも需要堅調の中で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50254",
-     "pubDate": "Tue, 15 Sep 2026 20:10:33 +0900"
+     "title": "アメリカ長期金利が19年ぶりの高水準 インフレ懸念背景に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50462",
+     "pubDate": "Wed, 16 Sep 2026 07:28:41 +0900"
     },
     {
      "title": "福岡県議会 金銭授受問題調査の第三者委員会 17日に設置へ",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "「ヤマトリノ」名乗り活動する27歳女 コカイン所持疑いで逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50483",
+     "pubDate": "Wed, 16 Sep 2026 09:31:37 +0900"
+    },
     {
      "title": "【動画】Pickup NEWS（9月16日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50430",
@@ -118,11 +123,6 @@
      "title": "タイ国籍少女に性的サービスさせた罪 店の経営者に拘禁刑5年",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50390",
      "pubDate": "Tue, 15 Sep 2026 17:37:00 +0900"
-    },
-    {
-     "title": "きょうから大学入学共通テストのオンライン出願が始まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50373",
-     "pubDate": "Tue, 15 Sep 2026 16:27:00 +0900"
     }
    ]
   },
@@ -214,12 +214,37 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ロシア国防省 ウクライナ西部の国境検問所など攻撃の映像公開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50475",
+     "pubDate": "Wed, 16 Sep 2026 09:22:36 +0900"
+    },
+    {
+     "title": "ロシア外相 国連総会で米国務長官と会談へ 米の出方見極めか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50473",
+     "pubDate": "Wed, 16 Sep 2026 09:21:24 +0900"
+    },
+    {
+     "title": "ニューヨーク原油 1バレル＝106ドル台で約4か月ぶり高値水準",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50468",
+     "pubDate": "Wed, 16 Sep 2026 09:20:24 +0900"
+    },
+    {
+     "title": "IAEA総会 原子力庁長官欠席 イラン「子どもじみた行為」と非難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50476",
+     "pubDate": "Wed, 16 Sep 2026 09:19:14 +0900"
+    },
+    {
+     "title": "アメリカ長期金利が19年ぶりの高水準 インフレ懸念背景に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50462",
+     "pubDate": "Wed, 16 Sep 2026 07:28:41 +0900"
+    },
+    {
      "title": "デンマーク軍のヘリにロシア艦船がフレア使用 NATOが非難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260916de50471",
      "pubDate": "Wed, 16 Sep 2026 06:40:33 +0900"
     },
     {
-     "title": "森衆議院議長 ウクライナ議会で演説「尊敬と連帯変わらず」",
+     "title": "ゼレンスキー大統領 森衆議院議長と会談 キーウ訪問に謝意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260916de50464",
      "pubDate": "Wed, 16 Sep 2026 06:07:00 +0900"
     },
@@ -262,31 +287,6 @@
      "title": "アメリカ軍が宇宙に兵器配備“政府高官が初めて認める”米報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50416",
      "pubDate": "Tue, 15 Sep 2026 19:09:01 +0900"
-    },
-    {
-     "title": "タイ国籍少女に性的サービスさせた罪 店の経営者に拘禁刑5年",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50390",
-     "pubDate": "Tue, 15 Sep 2026 17:37:00 +0900"
-    },
-    {
-     "title": "ネパールにDNA型鑑定機材を供与へ 茂木外相が発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50370",
-     "pubDate": "Tue, 15 Sep 2026 17:08:16 +0900"
-    },
-    {
-     "title": "中国 8月の小売売上高 前年同月比＋0.4％も消費停滞続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50353",
-     "pubDate": "Tue, 15 Sep 2026 16:54:25 +0900"
-    },
-    {
-     "title": "エミー賞 ヒロ・ムライさんがアジア系初コメディー部門監督賞",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50369",
-     "pubDate": "Tue, 15 Sep 2026 16:16:00 +0900"
-    },
-    {
-     "title": "米最高裁 トランプ大統領が求める郵便投票制限を差し止め",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50319",
-     "pubDate": "Tue, 15 Sep 2026 16:06:36 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "熊本県で震度4 津波の心配なし",
-     "link": "https://news.yahoo.co.jp/pickup/6595424?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 21:18:40 GMT"
+     "title": "東海・関東甲信 警報級大雨の恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6595434?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 22:44:57 GMT"
     },
     {
-     "title": "墜落推定の無人機 空自「任務中」",
-     "link": "https://news.yahoo.co.jp/pickup/6595421?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 14:33:55 GMT"
+     "title": "給付制度導入 市町村は事務に不安",
+     "link": "https://news.yahoo.co.jp/pickup/6595433?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 22:46:00 GMT"
     },
     {
-     "title": "福岡県議1人20万円夕食会 県負担",
-     "link": "https://news.yahoo.co.jp/pickup/6595422?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 15:08:36 GMT"
+     "title": "サウジ西岸の港 原油積み込み停止",
+     "link": "https://news.yahoo.co.jp/pickup/6595428?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 22:19:51 GMT"
     },
     {
-     "title": "森衆院議長 ウの議会で異例の演説",
-     "link": "https://news.yahoo.co.jp/pickup/6595415?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 14:00:40 GMT"
+     "title": "ドコモ 個人情報34万人分無断提供",
+     "link": "https://news.yahoo.co.jp/pickup/6595432?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 22:37:30 GMT"
     },
     {
-     "title": "金の延べ棒35kg 兵庫県に匿名寄付",
-     "link": "https://news.yahoo.co.jp/pickup/6595423?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 21:11:32 GMT"
+     "title": "めじるしアクセ 販売停止が相次ぐ",
+     "link": "https://news.yahoo.co.jp/pickup/6595438?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 23:17:26 GMT"
     },
     {
-     "title": "ロス五輪中の公式戦中断検討 NPB",
-     "link": "https://news.yahoo.co.jp/pickup/6595426?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 21:43:07 GMT"
+     "title": "メルカリ 30thポケカ一時出品禁止",
+     "link": "https://news.yahoo.co.jp/pickup/6595431?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 22:25:41 GMT"
     },
     {
-     "title": "櫻坂46・田村保乃 卒業を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6595425?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 21:28:33 GMT"
+     "title": "フンで競歩コース白く タカで撃退",
+     "link": "https://news.yahoo.co.jp/pickup/6595440?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 23:54:31 GMT"
     },
     {
-     "title": "声優上坂すみれ SNS発信当面休止",
-     "link": "https://news.yahoo.co.jp/pickup/6595420?source=rss",
-     "pubDate": "Tue, 15 Sep 2026 14:04:23 GMT"
+     "title": "朗希が救援へ配置転換か 監督示唆",
+     "link": "https://news.yahoo.co.jp/pickup/6595437?source=rss",
+     "pubDate": "Tue, 15 Sep 2026 23:16:00 GMT"
     }
    ]
   }
