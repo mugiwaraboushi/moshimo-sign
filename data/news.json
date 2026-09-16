@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-16T10:05:59.870Z",
+ "updatedAt": "2026-09-16T15:03:03.871Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【台風情報】熱帯低気圧は台風に発達へ 連休天気に影響か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50498",
-     "pubDate": "Wed, 16 Sep 2026 17:23:41 +0900"
+     "title": "【台風情報】台風25号が発生 連休の天気影響か 最新情報に注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50674",
+     "pubDate": "Wed, 16 Sep 2026 22:43:51 +0900"
     },
     {
      "title": "自民党役員人事決定 高市首相“重要な政策転換 実現向け総力”",
@@ -20,27 +20,27 @@
     {
      "title": "【QA解説】10月1日 酒税改正 ビール系飲料 価格どう変わる？",
      "link": "https://news.web.nhk/newsweb/na/nd-20260916de50512",
-     "pubDate": "Wed, 16 Sep 2026 18:37:00 +0900"
+     "pubDate": "Wed, 16 Sep 2026 20:11:47 +0900"
     },
     {
-     "title": "「ヤマトリノ」名乗り活動する27歳女 コカイン所持疑いで逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50483",
-     "pubDate": "Wed, 16 Sep 2026 09:31:00 +0900"
+     "title": "山形 酒田 6歳男児行方不明で警察が防犯カメラ映像を公開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50658",
+     "pubDate": "Wed, 16 Sep 2026 20:40:28 +0900"
     },
     {
-     "title": "大阪 高校でスプレーまき男子生徒逮捕“遊び感覚が大ごとに”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50525",
-     "pubDate": "Wed, 16 Sep 2026 16:09:00 +0900"
+     "title": "中国とイラン 外相会談 米中首脳会談を前に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50686",
+     "pubDate": "Wed, 16 Sep 2026 23:41:00 +0900"
     },
     {
-     "title": "十勝岳「マグマ噴火発生の可能性も今後の活動注意」火山調査委",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50622",
-     "pubDate": "Wed, 16 Sep 2026 18:22:39 +0900"
+     "title": "男女平等調査 日本は117位 依然として低評価",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50669",
+     "pubDate": "Wed, 16 Sep 2026 21:24:04 +0900"
     },
     {
-     "title": "マダニ感染症 北海道に新たな系統のウイルス 以前から定着か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50597",
-     "pubDate": "Wed, 16 Sep 2026 18:04:32 +0900"
+     "title": "分電盤の点検商法 相談5倍に急増 注意を 国民生活センター",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50619",
+     "pubDate": "Wed, 16 Sep 2026 19:40:00 +0900"
     }
    ]
   },
@@ -50,9 +50,44 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "無人偵察機墜落 青森県三沢市が「飛行停止」を要請",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50665",
+     "pubDate": "Wed, 16 Sep 2026 21:20:00 +0900"
+    },
+    {
+     "title": "山形 酒田 6歳男児行方不明で警察が防犯カメラ映像を公開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50658",
+     "pubDate": "Wed, 16 Sep 2026 20:40:28 +0900"
+    },
+    {
+     "title": "日朝首脳会談から24年 家族はすべての拉致被害者の帰国求める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50654",
+     "pubDate": "Wed, 16 Sep 2026 20:27:30 +0900"
+    },
+    {
+     "title": "空自無人偵察機 機体の捜索続く 訓練飛行見合わせも任務継続",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50650",
+     "pubDate": "Wed, 16 Sep 2026 19:52:50 +0900"
+    },
+    {
+     "title": "OTC類似薬の追加負担 来年3月開始へ 対象外も明示 厚労省",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50647",
+     "pubDate": "Wed, 16 Sep 2026 19:50:49 +0900"
+    },
+    {
+     "title": "分電盤の点検商法 相談5倍に急増 注意を 国民生活センター",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50619",
+     "pubDate": "Wed, 16 Sep 2026 19:40:00 +0900"
+    },
+    {
+     "title": "米エヌビディアCEO AI開発に「新たな規制必要ない」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50638",
+     "pubDate": "Wed, 16 Sep 2026 19:22:11 +0900"
+    },
+    {
      "title": "生徒と一緒に窃盗未遂の疑い 都立高校教諭を逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20260916de50635",
-     "pubDate": "Wed, 16 Sep 2026 18:43:43 +0900"
+     "pubDate": "Wed, 16 Sep 2026 18:43:00 +0900"
     },
     {
      "title": "高校生の就職活動 採用試験始まる 「売り手市場」続く",
@@ -88,41 +123,6 @@
      "title": "日経新聞 広告冊子の発行部数を水増し 広告料不正受領",
      "link": "https://news.web.nhk/newsweb/na/nd-20260916de50520",
      "pubDate": "Wed, 16 Sep 2026 13:11:38 +0900"
-    },
-    {
-     "title": "辺野古沖転覆事故から半年 死亡船長の団体幹部が献花",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50531",
-     "pubDate": "Wed, 16 Sep 2026 12:59:41 +0900"
-    },
-    {
-     "title": "“ジャーナリスト侮辱” 旧統一教会元顧問弁護士に無罪判決",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50529",
-     "pubDate": "Wed, 16 Sep 2026 15:28:26 +0900"
-    },
-    {
-     "title": "東京五輪談合事件 イベント制作会社に罰金1億5000万円の判決",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50522",
-     "pubDate": "Wed, 16 Sep 2026 12:13:00 +0900"
-    },
-    {
-     "title": "大阪 高校でスプレーまき男子生徒逮捕“遊び感覚が大ごとに”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50525",
-     "pubDate": "Wed, 16 Sep 2026 16:09:00 +0900"
-    },
-    {
-     "title": "スポーツメーカーの販促イベント会社 脱税で告発 東京国税局",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50517",
-     "pubDate": "Wed, 16 Sep 2026 11:56:42 +0900"
-    },
-    {
-     "title": "「ヤマトリノ」名乗り活動する27歳女 コカイン所持疑いで逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50483",
-     "pubDate": "Wed, 16 Sep 2026 09:31:00 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（9月16日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50430",
-     "pubDate": "Wed, 16 Sep 2026 13:52:53 +0900"
     }
    ]
   },
@@ -214,6 +214,46 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "中国とイラン 外相会談 米中首脳会談を前に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50686",
+     "pubDate": "Wed, 16 Sep 2026 23:41:00 +0900"
+    },
+    {
+     "title": "北朝鮮 17か国に労働者派遣 制裁監視チームが報告書",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50673",
+     "pubDate": "Wed, 16 Sep 2026 21:48:00 +0900"
+    },
+    {
+     "title": "男女平等調査 日本は117位 依然として低評価",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50669",
+     "pubDate": "Wed, 16 Sep 2026 21:24:04 +0900"
+    },
+    {
+     "title": "ネパール土石流 親を失い孤立する子どもたち 心のケア課題",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50602",
+     "pubDate": "Wed, 16 Sep 2026 20:46:08 +0900"
+    },
+    {
+     "title": "香港政府が初の5か年計画を発表 中国経済を後押しへ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50639",
+     "pubDate": "Wed, 16 Sep 2026 20:12:41 +0900"
+    },
+    {
+     "title": "中国主催の安保会議 国防相が日本念頭に「軍国主義に警戒を」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50642",
+     "pubDate": "Wed, 16 Sep 2026 19:57:24 +0900"
+    },
+    {
+     "title": "中国で戦時中強制連行めぐり遺族が日本企業に賠償求め訴状提出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50636",
+     "pubDate": "Wed, 16 Sep 2026 19:42:28 +0900"
+    },
+    {
+     "title": "ネパール土石流から3週間 1400人超死亡 5000人超行方不明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50533",
+     "pubDate": "Wed, 16 Sep 2026 19:16:00 +0900"
+    },
+    {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月16日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de46993",
      "pubDate": "Wed, 16 Sep 2026 15:48:05 +0900"
@@ -247,46 +287,6 @@
      "title": "ニューヨーク原油 1バレル＝106ドル台で約4か月ぶり高値水準",
      "link": "https://news.web.nhk/newsweb/na/nd-20260916de50468",
      "pubDate": "Wed, 16 Sep 2026 09:20:24 +0900"
-    },
-    {
-     "title": "IAEA総会 原子力庁長官欠席 イラン「子どもじみた行為」と非難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50476",
-     "pubDate": "Wed, 16 Sep 2026 09:19:14 +0900"
-    },
-    {
-     "title": "アメリカ長期金利が19年ぶりの高水準 インフレ懸念背景に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50462",
-     "pubDate": "Wed, 16 Sep 2026 07:28:41 +0900"
-    },
-    {
-     "title": "デンマーク軍のヘリにロシア艦船がフレア使用 NATOが非難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50471",
-     "pubDate": "Wed, 16 Sep 2026 06:40:33 +0900"
-    },
-    {
-     "title": "ゼレンスキー大統領 森衆議院議長と会談 キーウ訪問に謝意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50464",
-     "pubDate": "Wed, 16 Sep 2026 06:07:00 +0900"
-    },
-    {
-     "title": "米 ベッセント財務長官 国債買い戻し増額「成功だった」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50470",
-     "pubDate": "Wed, 16 Sep 2026 05:37:00 +0900"
-    },
-    {
-     "title": "米 国防総省報告書“イラン軍事作戦で弾薬の戦略備蓄が低下”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50463",
-     "pubDate": "Wed, 16 Sep 2026 05:32:00 +0900"
-    },
-    {
-     "title": "イラン高官「海峡の情勢は変化」 米との協議応じない姿勢",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50459",
-     "pubDate": "Wed, 16 Sep 2026 05:30:00 +0900"
-    },
-    {
-     "title": "絶滅危惧種ヒメウミガメの貴重な産卵映像 気候変動が脅威に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50446",
-     "pubDate": "Tue, 15 Sep 2026 22:29:39 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "男女平等 日本は145カ国中の117位",
-     "link": "https://news.yahoo.co.jp/pickup/6595505?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 08:39:30 GMT"
+     "title": "台風25号発生 発達しながら北上へ",
+     "link": "https://news.yahoo.co.jp/pickup/6595529?source=rss",
+     "pubDate": "Wed, 16 Sep 2026 13:38:24 GMT"
     },
     {
-     "title": "愛媛の射殺事件 男に懲役30年求刑",
-     "link": "https://news.yahoo.co.jp/pickup/6595500?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 08:06:38 GMT"
+     "title": "3カ月ごと利上げ? やや期待先行",
+     "link": "https://news.yahoo.co.jp/pickup/6595525?source=rss",
+     "pubDate": "Wed, 16 Sep 2026 12:58:09 GMT"
     },
     {
-     "title": "赤い羽根募金 さらに7000万円不明",
-     "link": "https://news.yahoo.co.jp/pickup/6595501?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 08:03:44 GMT"
+     "title": "よど号事件 赤木容疑者が死亡か",
+     "link": "https://news.yahoo.co.jp/pickup/6595520?source=rss",
+     "pubDate": "Wed, 16 Sep 2026 12:10:11 GMT"
     },
     {
-     "title": "10年前に性的暴行疑い 容疑者逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6595509?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 09:25:26 GMT"
+     "title": "フィジー HIV拡大で非常事態宣言",
+     "link": "https://news.yahoo.co.jp/pickup/6595522?source=rss",
+     "pubDate": "Wed, 16 Sep 2026 12:51:44 GMT"
     },
     {
-     "title": "市立小で集合写真廃止 保護者反発",
-     "link": "https://news.yahoo.co.jp/pickup/6595503?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 08:16:30 GMT"
+     "title": "メルカリ株大幅安 1カ月で3割下落",
+     "link": "https://news.yahoo.co.jp/pickup/6595521?source=rss",
+     "pubDate": "Wed, 16 Sep 2026 12:13:23 GMT"
     },
     {
-     "title": "1人20万円夕食会 参加した県議は",
-     "link": "https://news.yahoo.co.jp/pickup/6595499?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 07:41:05 GMT"
+     "title": "東京・高尾山の登山道にクマ出没",
+     "link": "https://news.yahoo.co.jp/pickup/6595530?source=rss",
+     "pubDate": "Wed, 16 Sep 2026 14:09:18 GMT"
     },
     {
-     "title": "ドクターイエローを保存へ JR西",
-     "link": "https://news.yahoo.co.jp/pickup/6595506?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 08:34:20 GMT"
+     "title": "Gyazoに不正アクセス 情報漏えい",
+     "link": "https://news.yahoo.co.jp/pickup/6595526?source=rss",
+     "pubDate": "Wed, 16 Sep 2026 13:13:23 GMT"
     },
     {
-     "title": "榮倉奈々 100人超に衣服差し入れ",
-     "link": "https://news.yahoo.co.jp/pickup/6595507?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 09:03:07 GMT"
+     "title": "福澤克雄氏 助監督骨折させていた",
+     "link": "https://news.yahoo.co.jp/pickup/6595516?source=rss",
+     "pubDate": "Wed, 16 Sep 2026 11:13:04 GMT"
     }
    ]
   }
