@@ -1,0 +1,56 @@
+name: イベント告知を当日だけ掲示板に流す
+
+# data/events.json に書いた当日のイベントを見て、playlist.json の下段に告知を
+# 1行だけ出し入れする。実機は playlist.json を約60秒ごとに取りに来るので、
+# ここが commit されれば1〜2分で掲示板に出る/消える。
+#
+# 自分が入れた行は .event-line.json に控えて、それと一致する行だけを消す。
+# 手で足した文言を巻き込まないための作りなので、この控えも一緒に commit する。
+on:
+  schedule:
+    # JST 12:00〜20:59 を10分おき。営業カレンダーのジョブ (*/5) と分をずらして
+    # playlist.json の push がぶつかりにくいようにしている。
+    - cron: "3,13,23,33,43,53 3-11 * * *"
+  workflow_dispatch:           # 手動実行もできる
+
+permissions:
+  contents: write
+
+concurrency:
+  group: events
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0     # push がぶつかったとき rebase して押し直すため
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 当日のイベントを見て playlist.json を更新
+        run: python3 scripts/update-event-message.py
+
+      - name: 変更があればコミット
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add playlist.json
+          if [ -f .event-line.json ]; then git add .event-line.json; fi
+          if git diff --staged --quiet; then
+            echo "告知に変化はありません。コミットしません。"
+            exit 0
+          fi
+          git commit -m "playlist: イベント告知を切り替え [skip ci]"
+          # 営業カレンダーのジョブと push がぶつかったら、取り込み直して押し直す
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "push がぶつかりました。取り込み直して再試行します ($i/3)"
+            git pull --rebase
+          done
+          echo "push に失敗しました" >&2
+          exit 1
