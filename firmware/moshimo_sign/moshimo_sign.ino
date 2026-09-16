@@ -74,7 +74,7 @@
 // このビルドのバージョン。リリースごとに +1 する (手順: docs/firmware-release.md)。
 // **公開する .bin はこの値を上げてビルドしたものであること。** manifest の version だけ
 // 上げて .bin が古いままだと、実機は「更新したのにまだ古い」を延々繰り返す。
-#define FW_VERSION 14
+#define FW_VERSION 15
 
 // ---- イベントコメント (v0.10) ----
 // 取得先は playlist.json の "commentsUrl" でも指定できる。config.h の値は初期値。
@@ -267,8 +267,11 @@ static String plCommentsUrl = COMMENTS_URL;   // commentsUrl で差し替え可�
 // 詳細は「ネットワーク取得タスク」の節。
 static SemaphoreHandle_t fetchMutex = nullptr;
 
-// mode: "dual" / "scroll" / "frames" (v0.5)
-enum DisplayMode { MODE_DUAL, MODE_SCROLL, MODE_FRAMES };
+// mode: "dual" / "scroll" / "frames" (v0.5) / "event" (v15)
+// MODE_EVENT の見た目は MODE_DUAL と同じ (上段topText + 下段スクロール)。
+// 違うのは流す中身だけで、コメントがあるときは plMessages を出さずコメントだけを流す
+// (rebuildMarquee を見ること)。
+enum DisplayMode { MODE_DUAL, MODE_SCROLL, MODE_FRAMES, MODE_EVENT };
 static DisplayMode plMode = MODE_DUAL;
 
 // frames: ドット絵の静止画 (v0.5)。hold秒ごとに次の絵へ切り替えて先頭に戻る
@@ -312,14 +315,28 @@ static String marqueeText;
 
 static void rebuildMarquee() {
   String t;
-  // playlistのメッセージ + コメントを ◆ で連結して流す
-  for (int i = 0; i < plMsgCount; i++) {
-    if (t.length()) t += "　◆　";
-    t += plMessages[i];
-  }
-  for (int i = 0; i < commentCount; i++) {
-    if (t.length()) t += "　◆　";
-    t += comments[i];
+  if (plMode == MODE_EVENT && commentCount > 0) {
+    // イベント中 (v15): コメントだけを流す。通常メッセージは混ぜない。
+    for (int i = 0; i < commentCount; i++) {
+      if (t.length()) t += "　◆　";
+      t += comments[i];
+    }
+  } else if (plMode == MODE_EVENT) {
+    // イベント中でもコメントがまだ0件のときは通常メッセージを流す (パネルを空にしない)
+    for (int i = 0; i < plMsgCount; i++) {
+      if (t.length()) t += "　◆　";
+      t += plMessages[i];
+    }
+  } else {
+    // playlistのメッセージ + コメントを ◆ で連結して流す
+    for (int i = 0; i < plMsgCount; i++) {
+      if (t.length()) t += "　◆　";
+      t += plMessages[i];
+    }
+    for (int i = 0; i < commentCount; i++) {
+      if (t.length()) t += "　◆　";
+      t += comments[i];
+    }
   }
   if (!t.length()) t = DEFAULT_MESSAGE;
   // 中身が同じなら何もしない (v0.10)。組み直すと scrollX が右端に戻るため、
@@ -603,7 +620,9 @@ static bool applyPlaylistBody(const String &body) {
     const char *m = doc["mode"];
     plMode = (strcmp(m, "scroll") == 0) ? MODE_SCROLL
            : (strcmp(m, "frames") == 0) ? MODE_FRAMES
+           : (strcmp(m, "event")  == 0) ? MODE_EVENT
                                         : MODE_DUAL;
+    Serial.printf("[playlist] mode=%s\n", m);
   }
   if (doc["speed"].is<float>())          plSpeed = constrain((float)doc["speed"], 5.0f, 200.0f);
   if (doc["brightness"].is<int>())       display->setBrightness8(constrain((int)doc["brightness"], 8, 255));
