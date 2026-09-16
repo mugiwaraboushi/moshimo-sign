@@ -28,6 +28,9 @@
  *  - 営業カレンダー: data/hours.json を実機が直接読んで OPEN/CLOSED を自分で判定 (v16)
  *    → playlist.json の "hoursUrl" で取得先を指定する。空文字なら従来どおり
  *    → GitHub Actions 側の自動書き換えも残す (二重化。判定ルールは同じなので矛盾しない)
+ *  - 認証情報をNVSへ: WiFi/OTAの認証情報を .bin に埋めず Preferences から読む (v17)
+ *    → 公開している .bin から SSID/パスワードが取り出せてしまう状態をやめるため
+ *    → NVSに無ければ config.h に戻る移行版。投入はUSBのシリアルから (手順: docs/firmware-build.md)
  *
  * 配線 (HUB75標準ピン割当はライブラリ既定値を使用):
  *   https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA を参照
@@ -42,6 +45,7 @@
 #include "esp_task_wdt.h"
 #include <ArduinoJson.h>
 #include <Update.h>
+#include <Preferences.h>
 #include <time.h>
 #include <ESP32-HUB75-MatrixPanel-I2S-DMA.h>
 #include "config.h"
@@ -77,7 +81,7 @@
 // このビルドのバージョン。リリースごとに +1 する (手順: docs/firmware-release.md)。
 // **公開する .bin はこの値を上げてビルドしたものであること。** manifest の version だけ
 // 上げて .bin が古いままだと、実機は「更新したのにまだ古い」を延々繰り返す。
-#define FW_VERSION 16
+#define FW_VERSION 17
 
 // ---- イベントコメント (v0.10) ----
 // 取得先は playlist.json の "commentsUrl" でも指定できる。config.h の値は初期値。
@@ -139,6 +143,118 @@ struct HoursDay {
 // ---------------- パネル ----------------
 MatrixPanel_I2S_DMA *display = nullptr;
 
+// ---------------- 認証情報 (v17) ----------------
+// WiFi/OTA の認証情報は NVS (Preferences, namespace "cfg") に置き、.bin には埋めない。
+// 公開している .bin から SSID/パスワードが読み出せてしまう状態をやめるため。
+// NVS に値が無いときだけ config.h の値へ戻る (v16以前と同じ挙動。移行のための後方互換)。
+// 投入はUSBで物理接続したシリアルからのみ。値そのものは絶対にログへ出さない
+// (出所と文字数だけを出す)。
+static Preferences cfgPrefs;
+static const char *CFG_NS = "cfg";
+static const char *CFG_KEYS[] = {"ssid", "pass", "ssid2", "pass2", "ota"};
+static const int CFG_KEY_COUNT = sizeof(CFG_KEYS) / sizeof(CFG_KEYS[0]);
+
+// wifiMulti.addAP() / ArduinoOTA.setPassword() には c_str() を渡すので、一時オブジェクトでは
+// なく寿命がプログラム全体の String に持たせる (解放済みの領域を渡して接続に失敗するのを防ぐ)。
+static String cfgSsid, cfgPass, cfgSsid2, cfgPass2, cfgOta;
+
+static bool cfgIsKey(const String &k) {
+  for (int i = 0; i < CFG_KEY_COUNT; i++) {
+    if (k == CFG_KEYS[i]) return true;
+  }
+  return false;
+}
+
+// NVSから1つ読む。namespaceが未作成でもキーが無くても空文字を返す。
+static String cfgReadNvs(const char *key) {
+  String v;
+  if (cfgPrefs.begin(CFG_NS, true)) {   // 読み取り専用。未作成なら false
+    v = cfgPrefs.getString(key, "");
+    cfgPrefs.end();
+  }
+  return v;
+}
+
+static void cfgLoad() {
+  // WiFiの4つはまとめて切り替える。ssidはNVS・passはconfig.hのような混ざり方をすると
+  // 繋がらないため、出所は「4つともNVS」か「4つともconfig.h」の二択にする。
+  String s = cfgReadNvs("ssid");
+  if (s.length()) {
+    cfgSsid  = s;
+    cfgPass  = cfgReadNvs("pass");
+    cfgSsid2 = cfgReadNvs("ssid2");
+    cfgPass2 = cfgReadNvs("pass2");
+    Serial.println("[cfg] wifi: NVS");
+  } else {
+    cfgSsid  = WIFI_SSID;
+    cfgPass  = WIFI_PASS;
+    cfgSsid2 = WIFI_SSID2;
+    cfgPass2 = WIFI_PASS2;
+    Serial.println("[cfg] wifi: config.h");
+  }
+
+  String o = cfgReadNvs("ota");
+  if (o.length()) {
+    cfgOta = o;
+    Serial.println("[cfg] ota: NVS");
+  } else {
+    cfgOta = OTA_PASSWORD;
+    Serial.println("[cfg] ota: config.h");
+  }
+}
+
+// シリアル (115200) からの投入。USBで物理接続した者しか使えない。
+// ネットワーク経由の設定変更は用意しない (playlist等から触れる経路は作らない)。
+//   cfg set <key> <value>   key は CFG_KEYS の5つのみ。value は行末まで (空白可)
+//   cfg show                設定の有無と文字数だけを返す (値は返さない)
+//   cfg clear               5キーを全部消す
+//   cfg reboot              再起動して投入した値で繋ぎ直す
+// 上記以外の行は黙って捨てる (ログも出さない)。
+// loop() から毎回呼ぶが、届いている分を読むだけでブロックしない。
+static void cfgSerialPoll() {
+  static String line;
+  while (Serial.available()) {
+    char c = (char)Serial.read();
+    if (c == '\r') continue;
+    if (c != '\n') {
+      if (line.length() < 192) line += c;   // 長すぎる行は頭だけ残す (コマンドとして落ちる)
+      continue;
+    }
+    String cmd = line;
+    line = "";
+    if (!cmd.startsWith("cfg ")) continue;
+    String rest = cmd.substring(4);
+
+    if (rest.startsWith("set ")) {
+      String kv = rest.substring(4);
+      int sp = kv.indexOf(' ');
+      if (sp <= 0) continue;
+      String key = kv.substring(0, sp);
+      String val = kv.substring(sp + 1);    // 行末まで = 空白を含むパスワードも通る
+      if (!cfgIsKey(key)) continue;
+      if (!cfgPrefs.begin(CFG_NS, false)) continue;
+      cfgPrefs.putString(key.c_str(), val);
+      cfgPrefs.end();
+      Serial.printf("[cfg] saved %s (%d文字)\n", key.c_str(), (int)val.length());
+    } else if (rest == "show") {
+      for (int i = 0; i < CFG_KEY_COUNT; i++) {
+        String v = cfgReadNvs(CFG_KEYS[i]);
+        if (v.length()) Serial.printf("%s: set (%d)\n", CFG_KEYS[i], (int)v.length());
+        else            Serial.printf("%s: unset\n", CFG_KEYS[i]);
+      }
+    } else if (rest == "clear") {
+      if (!cfgPrefs.begin(CFG_NS, false)) continue;
+      for (int i = 0; i < CFG_KEY_COUNT; i++) cfgPrefs.remove(CFG_KEYS[i]);
+      cfgPrefs.end();
+      Serial.println("[cfg] cleared");
+    } else if (rest == "reboot") {
+      Serial.println("[cfg] reboot");
+      Serial.flush();
+      ESP.restart();
+    }
+  }
+}
+
 // ---------------- WiFi ----------------
 // 登録したAPのうち電波の届く方に自動接続する
 static WiFiMulti wifiMulti;
@@ -149,8 +265,8 @@ static void wifiSetup() {
   // この掲示板は常時給電なので節電の必要がない。切っておくと OTA の取りこぼしが減り、
   // playlist/コメント取得の初回応答も安定する (スリープ復帰待ちが挟まらなくなる)。
   WiFi.setSleep(false);
-  wifiMulti.addAP(WIFI_SSID, WIFI_PASS);
-  if (strlen(WIFI_SSID2)) wifiMulti.addAP(WIFI_SSID2, WIFI_PASS2);
+  wifiMulti.addAP(cfgSsid.c_str(), cfgPass.c_str());
+  if (cfgSsid2.length()) wifiMulti.addAP(cfgSsid2.c_str(), cfgPass2.c_str());
   wifiMulti.run(10000);  // 最大10秒待つ
 }
 
@@ -1357,12 +1473,13 @@ void setup() {
   unsigned long bootShownAt = millis();
   Serial.printf("[boot] moshimo-sign FW_VERSION=%d\n", FW_VERSION);
 
+  cfgLoad();          // 認証情報の出所を決める (v17)。WiFi接続より前に読む
   wifiSetup();
 
   configTime(9 * 3600, 0, "ntp.nict.jp", "pool.ntp.org");  // JST
 
   ArduinoOTA.setHostname(OTA_HOSTNAME);
-  if (strlen(OTA_PASSWORD)) ArduinoOTA.setPassword(OTA_PASSWORD);
+  if (cfgOta.length()) ArduinoOTA.setPassword(cfgOta.c_str());
   ArduinoOTA.begin();
 
   fetchSetup();       // 受け渡しの入れ物を作る (v0.10 / 名前と役割を v0.12 で整理)
@@ -1377,6 +1494,7 @@ void setup() {
 
 void loop() {
   ArduinoOTA.handle();
+  cfgSerialPoll();    // 認証情報の投入 (v17)。届いている分を読むだけで待たない
 
   unsigned long ms = millis();
 

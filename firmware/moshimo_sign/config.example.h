@@ -5,15 +5,25 @@
 #define PANEL_H 32
 #define BRIGHTNESS 96          // 0-255 (室内なら96程度で十分明るい)
 
+// ---- 認証情報の置き場所 (v17〜) ----
+// WiFi と OTA の認証情報は、ここに書かず実機の NVS (Preferences) に置くことができる。
+// ここに書いた値は .bin にそのまま埋まるため、公開している .bin から誰でも取り出せる。
+// **公開用のビルドでは下の4つ + OTA_PASSWORD を空文字 "" のままにして、実機へは
+//   USBのシリアルから `cfg set …` で投入する** (手順: docs/firmware-build.md)。
+// 実機は起動時にまず NVS を見て、値が無いときだけここの値へ戻る。
+// 手元の検証用ビルドなら、これまでどおりここに書いてしまっても動く。
+
 // ---- WiFi ----
 // 2つまで登録でき、電波の届く方に自動で繋がる (WiFiMulti)。
 // 2つ目は任意。使わないなら SSID2 を空文字のままにしておく。
+// NVS に投入する運用なら4つとも "" でよい (NVSキー: ssid / pass / ssid2 / pass2)。
 #define WIFI_SSID "YOUR_WIFI_SSID"
 #define WIFI_PASS "YOUR_WIFI_PASSWORD"
 #define WIFI_SSID2 ""          // 例: もしもの会場WiFi (空なら登録しない)
 #define WIFI_PASS2 ""
 
 // ---- OTA (WiFi経由アップデート) ----
+// OTA_PASSWORD も NVS に置ける (NVSキー: ota)。NVS に投入する運用なら "" でよい。
 #define OTA_HOSTNAME "moshimo-sign"
 #define OTA_PASSWORD "moshimo"     // 空文字列でパスワード無し
 
