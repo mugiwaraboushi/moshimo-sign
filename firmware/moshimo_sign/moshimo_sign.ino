@@ -1478,9 +1478,17 @@ void setup() {
 
   configTime(9 * 3600, 0, "ntp.nict.jp", "pool.ntp.org");  // JST
 
-  ArduinoOTA.setHostname(OTA_HOSTNAME);
-  if (cfgOta.length()) ArduinoOTA.setPassword(cfgOta.c_str());
-  ArduinoOTA.begin();
+  // パスワードが無いときは OTA を上げない (v17)。認証情報を .bin に入れない構成では
+  // config.h の OTA_PASSWORD が "" になるため、NVS に ota が入っていない実機が
+  // 「同一LANの誰でもパスワード無しで書き換えられる」状態になってしまうのを防ぐ。
+  // ArduinoOTA.handle() は begin() を呼んでいなければ即 return するので loop() 側は変更不要。
+  if (cfgOta.length()) {
+    ArduinoOTA.setHostname(OTA_HOSTNAME);
+    ArduinoOTA.setPassword(cfgOta.c_str());
+    ArduinoOTA.begin();
+  } else {
+    Serial.println("[ota] disabled (no password)");
+  }
 
   fetchSetup();       // 受け渡しの入れ物を作る (v0.10 / 名前と役割を v0.12 で整理)
   fetchTaskStart();   // playlist+コメントの取得タスクを起こす (v0.12)

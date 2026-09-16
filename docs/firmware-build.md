@@ -182,10 +182,26 @@ arduino-cli board list                       # ポート確認
 arduino-cli upload -p COM3 --fqbn "esp32:esp32:esp32:PartitionScheme=min_spiffs" firmware/moshimo_sign
 ```
 
+**ボタン操作は要らない。** もしもPC (Linux / CH340) では DTR・RTS による自動リセットが効くので、
+`Connecting....` からそのまま書き込みに入る。LOAD (BOOT) や RST を押す必要はない。
+
+**書き込み中はボタンに触らないこと。** `Writing at 0x...` が進んでいる最中に RST を押すと
+転送が切れて `No more data to read from the serial port` で止まる。アプリ領域が中途半端に
+書かれた状態になるので**その時点では起動しない**が、そのまま焼き直せば復旧する (実機は壊れない)。
+
+同じ理由で、**書き込み中はシリアルモニタを開かないこと**。Linux は同じ tty を複数プロセスが
+開けてしまうため、`arduino-cli monitor` や `miniterm` が横から読むと握手のバイトを取られて失敗する。
+
 ### OTA経由 (2回目以降・同一LAN内)
 
 `.ino` が `ArduinoOTA` を有効にしているため、初回のUSB書き込み以降はWiFi経由で更新できる。
 ホスト名 `moshimo-sign` / パスワードは NVS の `ota`、無ければ `config.h` の `OTA_PASSWORD`。
+
+**パスワードがどちらにも無いときは OTA を起動しない** (v17〜)。起動ログに
+`[ota] disabled (no password)` と出る。認証情報を `.bin` に入れない構成では
+`config.h` の `OTA_PASSWORD` が `""` になるため、そのままだと「同一LANの誰でも
+パスワード無しで実機を書き換えられる」状態になってしまう。OTAを使いたいなら
+手順8で `cfg set ota …` を投入すること。
 
 ---
 
@@ -268,6 +284,8 @@ v17からは、これらを実機の **NVS (Preferences, namespace `cfg`)** に�
 - **`text section exceeds available space in board`** → 手順6。`PartitionScheme=min_spiffs` を付け忘れている。
 - **`config.h: No such file`** → 手順5。`config.example.h` はコピー元であってビルドには使われない。
 - **起動ログが `[cfg] wifi: config.h` のまま** → 手順8。`cfg set ssid …` が通っていないか、`cfg reboot` していない。
+- **書き込みが途中で `No more data to read from the serial port`** → 手順7。書き込み中にRSTを押したか、シリアルモニタが開いていた。焼き直せば直る。
+- **OTAが応答しない / 起動ログに `[ota] disabled (no password)`** → 手順8で `cfg set ota …` を投入する。
 
 ---
 
