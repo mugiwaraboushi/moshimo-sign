@@ -365,6 +365,121 @@ struct NetLock {
   ~NetLock() { if (held) xSemaphoreGive(netMutex); }
 };
 
+// ---- 本文読み出し (v15) ----
+// Arduinoコアの HTTPClient::getString() は writeToStreamDataBlock() を通るが、
+// この関数は **全体の締め切りを持たない** (HTTPClient.cpp:1318 の
+// while (connected() && (len > 0 || len == -1)))。さらに Content-Length が
+// 分かっているときは available() を見ずに毎周期 delay(0) しか挟まない
+// (同 1321 / 1393。無通信時の delay(1) は len < 0 のときしか通らない)。
+// delay(0) は vTaskDelay(0) で、同優先度のタスクには譲らない。
+// fetchタスクは tskIDLE_PRIORITY の core0 固定なので、TLSの本文が途中で止まると
+// IDLE0 が回らず、60秒でタスクWDTが発火して再起動していた (v15で実測)。
+// そこで getString() を使わず、締め切り付き + 毎周期 vTaskDelay(1) で自前に読む。
+static const unsigned long BODY_TOTAL_TIMEOUT_MS = 20000;   // 本文全体の締め切り
+static const unsigned long BODY_STALL_TIMEOUT_MS = 5000;    // 最後に受信してからの無通信
+static const size_t        BODY_MAX_BYTES        = 48 * 1024;
+
+// 締め切りを過ぎたか。millis()の巻き返しに耐えるよう符号付きで比べる。
+static inline bool bodyExpired(unsigned long tEnd, unsigned long lastData) {
+  return (long)(millis() - tEnd) >= 0
+      || (long)(millis() - (lastData + BODY_STALL_TIMEOUT_MS)) >= 0;
+}
+
+// need バイトを dst に読む。need < 0 = 接続が閉じるまで読む。
+// データが無い周回では必ず vTaskDelay(1) して IDLE を回す (yield/delay(0)では足りない)。
+static bool bodyReadN(NetworkClient *s, int need, String &dst,
+                      unsigned long tEnd, unsigned long &lastData) {
+  uint8_t buf[512];
+  for (;;) {
+    if (need == 0) return true;
+    int avail = s->available();
+    if (avail > 0) {
+      int want = (int)sizeof(buf);
+      if (need > 0 && need < want) want = need;
+      if (avail < want) want = avail;
+      int r = s->read(buf, want);
+      if (r > 0) {
+        if (dst.length() + (unsigned int)r > BODY_MAX_BYTES) return false;
+        if (!dst.concat((const char *)buf, (unsigned int)r)) return false;   // メモリ不足
+        lastData = millis();
+        if (need > 0) need -= r;
+        continue;
+      }
+    } else if (!s->connected()) {
+      return need < 0;   // 閉じるまで読む指定なら、閉じたところで正常終了
+    }
+    if (bodyExpired(tEnd, lastData)) return false;
+    vTaskDelay(1);
+  }
+}
+
+// 1行読む (CR/LFは含めずに返す)。チャンクのサイズ行と本体直後のCRLFに使う。
+static bool bodyReadLine(NetworkClient *s, String &line,
+                         unsigned long tEnd, unsigned long &lastData) {
+  line = "";
+  for (;;) {
+    if (s->available() > 0) {
+      int c = s->read();
+      if (c >= 0) {
+        lastData = millis();
+        if (c == '\n') return true;
+        if (c != '\r' && line.length() < 32) line += (char)c;   // 32文字で頭打ち
+        continue;
+      }
+    } else if (!s->connected()) {
+      return false;
+    }
+    if (bodyExpired(tEnd, lastData)) return false;
+    vTaskDelay(1);
+  }
+}
+
+// http.getString() の代わり。成功なら true。
+// 締め切り超過 / Content-Length 未達 / チャンク不正 / 48KB超 は false。
+static bool readBodyWithDeadline(NetworkClient *s, int total, bool chunked, String &out) {
+  out = "";
+  if (!s) return false;
+  const unsigned long tEnd = millis() + BODY_TOTAL_TIMEOUT_MS;
+  unsigned long lastData = millis();
+
+  if (chunked) {
+    // 最小限のチャンク復号: 16進のサイズ行 → 本体 → CRLF。サイズ0で終わり。
+    for (;;) {
+      String sz;
+      if (!bodyReadLine(s, sz, tEnd, lastData)) return false;
+      if (!sz.length()) continue;                    // 余分な空行は読み飛ばす
+      int semi = sz.indexOf(';');                    // チャンク拡張は捨てる
+      if (semi >= 0) sz = sz.substring(0, semi);
+      char *endp = nullptr;
+      long n = strtol(sz.c_str(), &endp, 16);
+      if (endp == sz.c_str() || n < 0) return false;             // 16進として読めない
+      if (n == 0) return true;                                   // 最終チャンク
+      if (out.length() + (unsigned long)n > BODY_MAX_BYTES) return false;
+      if (!bodyReadN(s, (int)n, out, tEnd, lastData)) return false;
+      String crlf;
+      if (!bodyReadLine(s, crlf, tEnd, lastData)) return false;
+      if (crlf.length()) return false;               // 本体の直後がCRLFでない = 不正
+    }
+  }
+  if (total > 0) {
+    if ((unsigned long)total > BODY_MAX_BYTES) return false;
+    out.reserve(total);
+    return bodyReadN(s, total, out, tEnd, lastData);
+  }
+  return bodyReadN(s, -1, out, tEnd, lastData);   // 長さ不明 = 閉じるまで読む
+}
+
+// 200のときの本文取得。失敗時は out を空にして false (呼び手が code = -2 にする)。
+static bool readBody(HTTPClient &http, String &out) {
+  NetworkClient *s = http.getStreamPtr();
+  int total = http.getSize();                        // 不明 / chunked なら -1
+  bool chunked = http.header("Transfer-Encoding").indexOf("chunked") >= 0;
+  if (readBodyWithDeadline(s, total, chunked, out)) return true;
+  Serial.printf("[http] body timeout/incomplete (%d/%d bytes)\n", (int)out.length(), total);
+  out = "";
+  return false;
+}
+
 static String httpGetString(const String &url, int &code, bool wait = false) {
   HTTPClient http;
   String out;
@@ -374,6 +489,9 @@ static String httpGetString(const String &url, int &code, bool wait = false) {
     return out;
   }
   http.setTimeout(5000);
+  // Transfer-Encoding は自前の本文読み出し (readBody) がチャンクかどうかを見るのに使う。
+  const char *hdrs[] = {"Transfer-Encoding"};
+  http.collectHeaders(hdrs, 1);
   // リダイレクト追従 (v0.10)。GASの /exec は script.googleusercontent.com への302を返すので、
   // 追わないと本文が取れない。302(FOUND)はSTRICTでも追われるのでこれで足りる。
   // リダイレクト先が別ホストでも、プロトコルが同じ(https→https)なら HTTPClient::setURL が通す。
@@ -385,14 +503,14 @@ static String httpGetString(const String &url, int &code, bool wait = false) {
     if (http.begin(client, url)) {
       http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
       code = http.GET();
-      if (code == 200) out = http.getString();
+      if (code == 200 && !readBody(http, out)) code = -2;   // 本文が読み切れなかった
       http.end();
     }
   } else {
     if (http.begin(url)) {
       http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
       code = http.GET();
-      if (code == 200) out = http.getString();
+      if (code == 200 && !readBody(http, out)) code = -2;   // 本文が読み切れなかった
       http.end();
     }
   }
