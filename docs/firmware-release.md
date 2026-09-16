@@ -61,9 +61,57 @@ else echo "OK"; fi
 
 `OK` 以外が出たら**絶対に公開しない**。ビルドしたPCの `config.h` を見直してやり直す。
 
-- 前半 (`YOUR_WIFI_*` が無いこと) … 認証情報が本物か
+- 前半 (`YOUR_WIFI_*` が無いこと) … `config.example.h` のままビルドしていないか
+  (v16以前は「認証情報が本物か」の確認も兼ねていたが、v17以降は下記のとおり
+  認証情報そのものが `.bin` に入らないので、この項目だけでは判定できない)
 - 後半 (`playlist.json` があること) … `PLAYLIST_URL` が入っているか。
   ここが空だと、たとえWiFiが繋がっても遠隔で表示を戻せなくなる
+
+#### 公開前チェック: `.bin` に認証情報が入っていないこと (v17〜)
+
+v16以前は、公開している `.bin` に WiFi の SSID/パスワードと OTA パスワードが
+そのまま埋まっていた。公開リポジトリに置いてあるので誰でも取り出せる状態だった。
+
+**v17以降、公開用ビルドは `config.h` の WiFi/OTA の5値を空文字 `""` にしてビルドする。**
+
+```c
+#define WIFI_SSID ""
+#define WIFI_PASS ""
+#define WIFI_SSID2 ""
+#define WIFI_PASS2 ""
+#define OTA_PASSWORD ""
+```
+
+実機は起動時に NVS から認証情報を読むので、これで動く
+(投入手順は [`firmware-build.md`](firmware-build.md) の手順8)。
+
+そのうえで、**公開前チェックに「実際の SSID・パスワードが `.bin` に含まれない」を追加する。**
+このチェックは**ビルドしたPCの操作者が自分の手で行う** (値を他者やツールに渡さないため)。
+実値を退避したファイル (git管理外・リポジトリ外に置く) を使い、**文字数と件数だけを出す**:
+
+```bash
+BIN=build/moshimo_sign/moshimo_sign.ino.bin
+# ~/moshimo-cred.txt … 1行1値で実値を書いたファイル。リポジトリ外に置き、絶対にコミットしない
+while IFS= read -r v; do
+  [ -z "$v" ] && continue
+  printf '%s文字: %s件\n' "${#v}" "$(grep -ac -- "$v" "$BIN")"
+done < ~/moshimo-cred.txt
+```
+
+**全部 `0件` でなければ公開しない。** 画面には文字数と件数しか出ないので、
+結果をそのまま他人に見せたりチャットに貼っても実値は漏れない。
+逆に `grep -a` (件数指定なし) は**マッチ行の中身を表示してしまう**ので使わないこと。
+
+#### NVS 未投入の実機に入れてはいけない
+
+認証情報ゼロの `.bin` は、**NVS に `cfg set` 済みの実機でしか動かない**。
+未投入の実機に入れると WiFi に繋がらず、OTA も上がらない (`[ota] disabled (no password)`)
+ので、playlist.json でもOTAでも復旧できず**USB書き込みでしか戻せなくなる**。
+
+新しい実機や NVS を消した実機に入れるときは、**必ず先にUSBで `cfg set` を済ませる**
+(手順は [`firmware-build.md`](firmware-build.md) の手順8)。書き込み後の起動ログで
+`[cfg] wifi: NVS` / `[cfg] ota: NVS` が出ることを確認する。`config.h` と出たら
+認証情報がどこにも無い状態なので、その場でUSBから投入し直すこと。
 
 ### ② (実機が手元にある間は) espota で直接テスト
 
