@@ -52,10 +52,12 @@ playlist.json での遠隔復旧もできず、USB書き込みでしか戻せな
 
 ```bash
 BIN=build/moshimo_sign/moshimo_sign.ino.bin
-if   grep -q 'YOUR_WIFI_SSID\|YOUR_WIFI_PASSWORD' "$BIN"; then echo "NG: プレースホルダ入り"
-elif ! grep -q 'playlist.json' "$BIN";                     then echo "NG: PLAYLIST_URLが空"
+if   grep -aq 'YOUR_WIFI_SSID\|YOUR_WIFI_PASSWORD' "$BIN"; then echo "NG: プレースホルダ入り"
+elif ! grep -aq 'playlist.json' "$BIN";                     then echo "NG: PLAYLIST_URLが空"
 else echo "OK"; fi
 ```
+
+`-a` が無いとバイナリ判定で誤った OK/NG が出ることがある (v14リリース時に確認)。
 
 `OK` 以外が出たら**絶対に公開しない**。ビルドしたPCの `config.h` を見直してやり直す。
 
