@@ -25,6 +25,9 @@
  *    → 60秒ごとにスクロールが止まって表示がリセットされて見える問題を解消
  *    → 1本のタスクで playlist(60秒) と コメント(15秒) を回す
  *  - WiFiモデムスリープ停止: 常時給電なのでOTAと応答を優先する (v0.12)
+ *  - 営業カレンダー: data/hours.json を実機が直接読んで OPEN/CLOSED を自分で判定 (v16)
+ *    → playlist.json の "hoursUrl" で取得先を指定する。空文字なら従来どおり
+ *    → GitHub Actions 側の自動書き換えも残す (二重化。判定ルールは同じなので矛盾しない)
  *
  * 配線 (HUB75標準ピン割当はライブラリ既定値を使用):
  *   https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA を参照
@@ -74,7 +77,7 @@
 // このビルドのバージョン。リリースごとに +1 する (手順: docs/firmware-release.md)。
 // **公開する .bin はこの値を上げてビルドしたものであること。** manifest の version だけ
 // 上げて .bin が古いままだと、実機は「更新したのにまだ古い」を延々繰り返す。
-#define FW_VERSION 15
+#define FW_VERSION 16
 
 // ---- イベントコメント (v0.10) ----
 // 取得先は playlist.json の "commentsUrl" でも指定できる。config.h の値は初期値。
@@ -90,6 +93,40 @@
 #ifndef COMMENTS_URL_PREFIX
 #define COMMENTS_URL_PREFIX "https://script.google.com/macros/"
 #endif
+
+// ---- 営業カレンダー (v16) ----
+// 取得先は playlist.json の "hoursUrl" で指定する。config.h の値は初期値。
+// 空文字なら機能ごとOFF (緊急停止弁。そのときは従来どおり playlist の topText をそのまま出す)。
+#ifndef HOURS_URL
+#define HOURS_URL ""
+#endif
+
+// commentsUrl と同じ考え方で、受け付けるURLの頭を絞る (公開ファイル経由で実機に任意の
+// ホストを叩かせない)。カレンダーの置き場はこのリポジトリの GitHub Pages なので、
+// COMMENTS_URL_PREFIX (Google Apps Script) とは別の頭になる。
+#ifndef HOURS_URL_PREFIX
+#define HOURS_URL_PREFIX "https://mugiwaraboushi.github.io/moshimo-sign/"
+#endif
+
+// カレンダー取得の周期。日付と曜日しか見ないので頻繁に取る必要はない。
+#ifndef HOURS_INTERVAL_MS
+#define HOURS_INTERVAL_MS (10UL * 60UL * 1000UL)   // 10分
+#endif
+
+// 実機側で保持する量の上限。RAMの都合であって仕様上の上限ではない。
+// 現行の data/hours.json は1か月ぶん (15件程度) なので余裕がある。
+#define HOURS_MAX_DATES  40   // dates の日数
+#define HOURS_MAX_RANGES 3    // 1日あたりの時間帯の数 ("11:00-13:00,15:00-19:00" で2)
+
+// 1日ぶんの営業時間。文字列のまま持つとヒープが断片化するので、時間帯は分単位の int に直す。
+// count == 0 は「終日CLOSED」(null・空文字・曜日キーが無い場合も同じ扱い)。
+// **型の定義がここにあるのは、Arduino が関数プロトタイプを最初の関数の直前に挿し込むため。**
+// 状態の実体は下の「表示状態」の節にある。
+struct HoursDay {
+  int8_t  count;
+  int16_t from[HOURS_MAX_RANGES];
+  int16_t to[HOURS_MAX_RANGES];
+};
 
 // 古い config.h でもビルドが通るように既定値を用意する。
 #ifndef SELFUPDATE_MANIFEST_URL
@@ -263,9 +300,27 @@ static uint16_t plColorTop = COLOR_TOP;
 static uint16_t plColorScroll = COLOR_BOTTOM;
 static bool plRainbow = false;   // colorScroll:"rainbow" で虹色スクロール (v0.4)
 static String plCommentsUrl = COMMENTS_URL;   // commentsUrl で差し替え可能 (v0.10)
-// plCommentsUrl と受け渡し用バッファは取得タスクと共有する。
+static String plHoursUrl = HOURS_URL;         // hoursUrl で差し替え可能 (v16)
+static volatile bool hoursUrlChanged = false; // 取得先が変わった → 次の取得を待たずに行う
+// plCommentsUrl / plHoursUrl と受け渡し用バッファは取得タスクと共有する。
 // 詳細は「ネットワーク取得タスク」の節。
 static SemaphoreHandle_t fetchMutex = nullptr;
+
+// ---- 営業カレンダー (v16) ----
+// data/hours.json を実機が直接読んで OPEN / CLOSED を自分で判定する。
+// 判定ルールは scripts/update-open-closed.mjs と同じ (docs/playlist-spec.md 参照)。
+static HoursDay hoursWeekly[7];                     // 0=日曜 … 6=土曜 (tm_wday と同じ並び)
+static char     hoursDateKey[HOURS_MAX_DATES][11];  // "YYYY-MM-DD"
+static HoursDay hoursDates[HOURS_MAX_DATES];
+static int      hoursDateCount = 0;
+static String   hoursOpenText   = "OPEN";
+static String   hoursClosedText = "CLOSED";
+static bool     hoursValid = false;   // 一度でもカレンダーを読めたか (false = 判定しない)
+
+// 判定結果で置き換える上段の文言。空 = 置き換えない (plTopText をそのまま出す)。
+static String hoursTopText;
+// 直前の判定 (-1=未判定 / 0=CLOSED / 1=OPEN / 2=手動文言)。ログを1回だけ出すための控え。
+static int hoursLastState = -1;
 
 // mode: "dual" / "scroll" / "frames" (v0.5) / "event" (v15)
 // MODE_EVENT の見た目は MODE_DUAL と同じ (上段topText + 下段スクロール)。
@@ -615,7 +670,15 @@ static bool applyPlaylistBody(const String &body) {
   }
   lastAppliedPlaylist = body;
   lastFwPing = doc["fwPing"].is<int>() ? (int)doc["fwPing"] : 0;
-  if (doc["topText"].is<const char*>())  plTopText = String((const char*)doc["topText"]);
+  if (doc["topText"].is<const char*>()) {
+    String t = String((const char*)doc["topText"]);
+    if (t != plTopText) {
+      plTopText = t;
+      // 上段の文言が変わった = 営業カレンダーで上書きしてよいかの前提が変わった。
+      // 次の1分判定までは plTopText をそのまま出す (v16)。
+      hoursTopText = "";
+    }
+  }
   if (doc["mode"].is<const char*>()) {
     const char *m = doc["mode"];
     plMode = (strcmp(m, "scroll") == 0) ? MODE_SCROLL
@@ -648,6 +711,28 @@ static bool applyPlaylistBody(const String &body) {
       }
     } else {
       Serial.println("[comments] commentsUrl rejected (prefix mismatch)");
+    }
+  }
+  // hoursUrl (v16): 営業カレンダーの取得先。commentsUrl と同じ扱いで、
+  // 空文字なら機能OFF (緊急停止弁)、頭が HOURS_URL_PREFIX と違うものは無視する。
+  if (doc["hoursUrl"].is<const char*>()) {
+    String u = String((const char*)doc["hoursUrl"]);
+    if (u.length() == 0 || u.startsWith(HOURS_URL_PREFIX)) {
+      if (u != plHoursUrl) {
+        // 取得タスクが同じ String を読んでいるので、書き換えはmutexの中で行う
+        if (fetchMutex) xSemaphoreTake(fetchMutex, portMAX_DELAY);
+        plHoursUrl = u;
+        hoursUrlChanged = true;   // 10分周期を待たず次の取得を即時にする
+        if (fetchMutex) xSemaphoreGive(fetchMutex);
+        // 取得先が変わったので前のカレンダーは持ち越さない。
+        // 空にしたときはこれで従来どおり plTopText がそのまま出る。
+        hoursValid = false;
+        hoursTopText = "";
+        hoursLastState = -1;
+        Serial.printf("[hours] url set (%d文字)\n", (int)u.length());
+      }
+    } else {
+      Serial.println("[hours] hoursUrl rejected (prefix mismatch)");
     }
   }
   if (doc["messages"].is<JsonArray>()) {
@@ -697,6 +782,161 @@ static bool applyPlaylistBody(const String &body) {
   return true;
 }
 
+// ---------------- 営業カレンダー (v16) ----------------
+// data/hours.json を読んで OPEN / CLOSED を実機が自分で決める。
+// **判定ルールは scripts/update-open-closed.mjs と完全に同じにすること。**
+// GitHub Actions 側も同じカレンダーを見て playlist.json を書き換え続けるので、
+// ルールがずれると「実機の表示」と「playlist の topText」が食い違う。
+//
+// 取得先は playlist.json の "hoursUrl"。取れなかったときは前回の内容を保持する
+// (通信断で表示が CLOSED に倒れないように)。
+
+// "13:00" → 780。書き方が不正なら false。
+// mjs 側の /^(\d{1,2}):(\d{2})$/ (trim後) と同じ条件にしてある。
+static bool hoursParseHhmm(const char *s, int len, int &outMin) {
+  int i = 0;
+  while (i < len && (s[i] == ' ' || s[i] == '\t')) i++;
+  int h = 0, hd = 0;
+  while (i < len && s[i] >= '0' && s[i] <= '9' && hd < 2) { h = h * 10 + (s[i] - '0'); i++; hd++; }
+  if (hd == 0 || i >= len || s[i] != ':') return false;
+  i++;
+  int m = 0, md = 0;
+  while (i < len && s[i] >= '0' && s[i] <= '9' && md < 2) { m = m * 10 + (s[i] - '0'); i++; md++; }
+  if (md != 2) return false;
+  while (i < len && (s[i] == ' ' || s[i] == '\t')) i++;
+  if (i != len) return false;
+  outMin = h * 60 + m;
+  return true;
+}
+
+// "13:00-17:00,18:00-19:00" を分単位の区間に分解する。
+// mjs は書き方が不正だと例外で止まるが、実機は止められないので**その区間だけ捨てて進む**。
+// (壊れた1行のせいで終日 CLOSED になるより、読めた区間で動くほうが害が小さい)
+static void hoursParseSpec(const char *spec, HoursDay &day) {
+  day.count = 0;
+  if (!spec) return;                       // null = 終日CLOSED
+  const char *p = spec;
+  while (*p && day.count < HOURS_MAX_RANGES) {
+    const char *comma  = strchr(p, ',');
+    const char *segEnd = comma ? comma : p + strlen(p);
+    const char *dash   = (const char *)memchr(p, '-', segEnd - p);
+    int from, to;
+    if (dash && hoursParseHhmm(p, dash - p, from)
+             && hoursParseHhmm(dash + 1, segEnd - dash - 1, to)) {
+      day.from[day.count] = (int16_t)from;
+      day.to[day.count]   = (int16_t)to;
+      day.count++;
+    }
+    if (!comma) break;
+    p = comma + 1;
+  }
+}
+
+// 本文をパースして保持する。呼ぶのは loop() 側だけ (ヒープを触るため)。
+static bool applyHoursBody(const String &body) {
+  JsonDocument doc;
+  if (deserializeJson(doc, body)) {
+    Serial.println("[hours] parse error");
+    return false;   // 前回の内容をそのまま使い続ける
+  }
+
+  // "tz" は見ない。実機の時計は configTime で JST 固定なので localtime_r がそのまま日本時間。
+  // "datesUntil" "_note" "_howto" も実機には要らない。
+  const char *ot = doc["openText"]   | "";
+  const char *ct = doc["closedText"] | "";
+  hoursOpenText   = strlen(ot) ? String(ot) : String("OPEN");
+  hoursClosedText = strlen(ct) ? String(ct) : String("CLOSED");
+
+  // weekly: 曜日キーが無い / null は終日CLOSED (mjs の (spec ?? "") と同じ)
+  static const char *const dowKeys[7] = { "sun", "mon", "tue", "wed", "thu", "fri", "sat" };
+  for (int i = 0; i < 7; i++) {
+    hoursWeekly[i].count = 0;
+    JsonVariant v = doc["weekly"][dowKeys[i]];
+    if (v.is<const char *>()) hoursParseSpec(v.as<const char *>(), hoursWeekly[i]);
+  }
+
+  // dates: 日付キーが**存在すれば**(値が null でも) weekly より優先される。
+  // 過ぎた日付は判定に効かないので入れない。HOURS_MAX_DATES を超えるぶんは捨てる
+  // (現行のカレンダーは1か月ぶんなので届かない。溢れた日は weekly で判定される)。
+  char today[11] = "";
+  {
+    time_t now = time(nullptr);
+    struct tm tmv;
+    localtime_r(&now, &tmv);
+    if (tmv.tm_year > 100)
+      snprintf(today, sizeof(today), "%04d-%02d-%02d", tmv.tm_year + 1900, tmv.tm_mon + 1, tmv.tm_mday);
+  }
+  hoursDateCount = 0;
+  for (JsonPair kv : doc["dates"].as<JsonObject>()) {
+    if (hoursDateCount >= HOURS_MAX_DATES) break;
+    const char *k = kv.key().c_str();
+    if (strlen(k) != 10) continue;                  // "YYYY-MM-DD" 以外は無視
+    if (today[0] && strcmp(k, today) < 0) continue; // 過去の日付は持たない
+    strncpy(hoursDateKey[hoursDateCount], k, 10);
+    hoursDateKey[hoursDateCount][10] = '\0';
+    HoursDay &d = hoursDates[hoursDateCount];
+    d.count = 0;
+    if (kv.value().is<const char *>()) hoursParseSpec(kv.value().as<const char *>(), d);
+    hoursDateCount++;
+  }
+
+  hoursValid = true;
+  Serial.printf("[hours] applied (dates=%d)\n", hoursDateCount);
+  return true;
+}
+
+// いま営業中か。ok=false は「判定できない」(カレンダー未取得 / NTP未同期)。
+// ルールは mjs と同じ: dates にキーがあればそれ、無ければ曜日。
+// **開店時刻は含み、閉店時刻は含まない** (19:00 ちょうどは CLOSED)。
+static bool hoursIsOpenNow(bool &ok) {
+  ok = false;
+  if (!hoursValid) return false;
+  time_t now = time(nullptr);
+  struct tm tmv;
+  localtime_r(&now, &tmv);
+  if (tmv.tm_year <= 100) return false;   // 上段の時計表示と同じ判定 (2000年より前 = NTP未同期)
+
+  char key[11];
+  snprintf(key, sizeof(key), "%04d-%02d-%02d", tmv.tm_year + 1900, tmv.tm_mon + 1, tmv.tm_mday);
+  const HoursDay *day = nullptr;
+  for (int i = 0; i < hoursDateCount; i++) {
+    if (strcmp(hoursDateKey[i], key) == 0) { day = &hoursDates[i]; break; }
+  }
+  if (!day) day = &hoursWeekly[tmv.tm_wday];
+
+  int nowMin = tmv.tm_hour * 60 + tmv.tm_min;
+  ok = true;
+  for (int i = 0; i < day->count; i++) {
+    if (nowMin >= day->from[i] && nowMin < day->to[i]) return true;
+  }
+  return false;
+}
+
+// 判定して、上段に出す文言を決める。呼ぶのは loop() 側だけ (1分ごと + 本文の適用直後)。
+static void hoursUpdateDecision() {
+  bool ok = false;
+  bool open = hoursIsOpenNow(ok);
+  if (!ok) { hoursTopText = ""; return; }   // 未取得 / NTP未同期 → plTopText をそのまま出す
+
+  // **自動管理の文言のときだけ置き換える。** plTopText が openText / closedText 以外
+  // (イベント中に「イベント中」を出しているときなど) は一切触らない。
+  // update-open-closed.mjs の「OPEN/CLOSED 以外は黙る」と同じ約束。
+  if (plTopText != hoursOpenText && plTopText != hoursClosedText) {
+    hoursTopText = "";
+    if (hoursLastState != 2) {
+      hoursLastState = 2;
+      Serial.println("[hours] manual topText, skip");
+    }
+    return;
+  }
+  hoursTopText = open ? hoursOpenText : hoursClosedText;
+  int state = open ? 1 : 0;
+  if (state != hoursLastState) {
+    hoursLastState = state;
+    Serial.println(open ? "[hours] OPEN" : "[hours] CLOSED");
+  }
+}
+
 // 上段: 営業中/時計 交互
 static void drawTopLine() {
   time_t now = time(nullptr);
@@ -707,7 +947,9 @@ static void drawTopLine() {
   if (clockPhase && tmv.tm_year > 100) {
     snprintf(buf, sizeof(buf), "%02d%s%02d", tmv.tm_hour, (tmv.tm_sec % 2) ? "：" : "　", tmv.tm_min);
   } else {
-    snprintf(buf, sizeof(buf), "%s", plTopText.c_str());
+    // hoursTopText は営業カレンダーの判定結果 (v16)。空なら playlist の topText をそのまま出す。
+    const String &top = hoursTopText.length() ? hoursTopText : plTopText;
+    snprintf(buf, sizeof(buf), "%s", top.c_str());
   }
   static uint16_t cps[16];
   int n = decodeUtf8(String(buf), cps, 16);
@@ -733,6 +975,8 @@ static String fetchedBody;                 // コメント本文 (mutexの中で
 static volatile bool fetchedReady = false; // 未反映のコメント本文がある
 static String fetchedPlBody;               // playlist本文 (mutexの中でだけ触る)
 static volatile bool fetchedPlReady = false;// 未反映のplaylist本文がある
+static String fetchedHoursBody;            // 営業カレンダー本文 (mutexの中でだけ触る) (v16)
+static volatile bool fetchedHoursReady = false; // 未反映のカレンダー本文がある
 static volatile bool fetchAsync = false;   // タスクが動いている (falseならloop()側で取る)
 
 // 受け取った本文を comments[] に展開する。呼ぶのは loop() 側だけ。
@@ -778,6 +1022,27 @@ static bool fetchCommentsOnce(String &body) {
   return true;
 }
 
+// 営業カレンダーの取得 (v16)。コメントと同じ経路・同じ作法。
+// 取得できたら true を返し、body に本文を入れる。
+static bool fetchHoursOnce(String &body) {
+  String url;
+  if (fetchMutex) xSemaphoreTake(fetchMutex, portMAX_DELAY);
+  url = plHoursUrl;
+  if (fetchMutex) xSemaphoreGive(fetchMutex);
+  if (url.length() == 0) return false;   // 機能OFF (緊急停止弁)
+  if (WiFi.status() != WL_CONNECTED) return false;
+  // GitHub Pages のCDNが古い内容を返さないようキャッシュ回避のクエリを付ける
+  url += (url.indexOf('?') >= 0 ? "&t=" : "?t=") + String(millis());
+  int code;
+  String out = httpGetString(url, code, fetchAsync);
+  if (code != 200 || !out.length()) {
+    Serial.printf("[hours] fetch failed (%d)\n", code);
+    return false;   // 通信断で CLOSED に倒れないよう、失敗時は前回の内容を保持する
+  }
+  body = out;
+  return true;
+}
+
 // 取得タスク本体。コメント (15秒) と playlist (60秒 / 失敗時3秒) を1本で回す。
 // ここでやるのは **HTTPと受け渡しだけ**。パースも表示も触らない。
 static void fetchTask(void *arg) {
@@ -786,6 +1051,7 @@ static void fetchTask(void *arg) {
   // playlist を先に置くのは、commentsUrl と表示設定がそこから来るため。
   unsigned long nextPlaylist = 0;
   unsigned long nextComments = 0;
+  unsigned long nextHours = 0;
   const bool havePlaylistUrl = strlen(PLAYLIST_URL) > 0;
 
   for (;;) {
@@ -825,6 +1091,21 @@ static void fetchTask(void *arg) {
       nextComments = millis() + FETCH_INTERVAL_MS;
     }
 
+    // ---- 営業カレンダー (v16) ----
+    // plHoursUrl が空のときは通信しない (commentsUrl と同じ緊急停止弁)。
+    // 日付と曜日しか見ないので10分おきで足り、切り替わりの判定は loop() 側が1分ごとに行う。
+    if (hoursUrlChanged || (long)(ms - nextHours) >= 0) {
+      hoursUrlChanged = false;   // 取得先が変わった直後は周期を待たずに取りに行く
+      String body;
+      if (fetchHoursOnce(body)) {
+        xSemaphoreTake(fetchMutex, portMAX_DELAY);
+        fetchedHoursBody = body;
+        fetchedHoursReady = true;
+        xSemaphoreGive(fetchMutex);
+      }
+      nextHours = millis() + HOURS_INTERVAL_MS;
+    }
+
     vTaskDelay(pdMS_TO_TICKS(100));   // 次の予定を見に行くだけの間隔
   }
 }
@@ -854,11 +1135,29 @@ static void applyFetchedPlaylist() {
   applyPlaylistBody(body);
 }
 
+// loop() から呼ぶ。タスクが持ってきた営業カレンダーがあればパースして反映する (v16)。
+static void applyFetchedHours() {
+  if (!fetchedHoursReady) return;
+  String body;
+  xSemaphoreTake(fetchMutex, portMAX_DELAY);
+  body = fetchedHoursBody;
+  fetchedHoursBody = "";   // 持ち回らない (カレンダー本文は1〜2KBある)
+  fetchedHoursReady = false;
+  xSemaphoreGive(fetchMutex);
+  if (applyHoursBody(body)) hoursUpdateDecision();   // 適用した直後に判定する
+}
+
 // タスクを作れなかったときの退路。従来どおり loop() の中で取りに行く
 // (2〜3秒止まるが、表示が更新できないよりはよい)。
 static void fetchCommentsBlocking() {
   String body;
   if (fetchCommentsOnce(body)) applyCommentsBody(body);
+}
+
+// 同上 (v16)。
+static void fetchHoursBlocking() {
+  String body;
+  if (fetchHoursOnce(body) && applyHoursBody(body)) hoursUpdateDecision();
 }
 
 // 同上。戻り値は「次を60秒後にしてよいか」(false なら3秒後に再挑戦)。
@@ -970,10 +1269,17 @@ void loop() {
   if (fetchAsync) {
     applyFetchedComments();
     applyFetchedPlaylist();
+    applyFetchedHours();
   } else {
     if (plCommentsUrl.length() && ms - lastFetch > FETCH_INTERVAL_MS) {
       lastFetch = ms;
       fetchCommentsBlocking();
+    }
+    // 営業カレンダー (v16)。取得タスクが無いときはここで取りに行く (10分ごとなので影響は小さい)
+    static unsigned long nextHoursAt = 0;
+    if (plHoursUrl.length() && (long)(ms - nextHoursAt) >= 0) {
+      nextHoursAt = ms + HOURS_INTERVAL_MS;
+      fetchHoursBlocking();
     }
     // 取れなかったときは3秒後に再挑戦する (v0.10)。他の取得と重なって見送った場合に
     // 60秒待つと、「実機に1〜2分で反映」が守れなくなるため。
@@ -982,6 +1288,19 @@ void loop() {
     if ((long)(ms - nextPlaylistAt) >= 0) {
       bool ok = fetchPlaylistBlocking();
       nextPlaylistAt = ms + (ok ? PLAYLIST_INTERVAL_MS : 3000);
+    }
+  }
+
+  // 営業カレンダーの判定 (v16): 分が変わったときだけ見る。
+  // 取得は10分おきでも、OPEN/CLOSED の切り替わりは分単位で合う。
+  {
+    static int lastJudgedMin = -1;
+    time_t now = time(nullptr);
+    struct tm tmv;
+    localtime_r(&now, &tmv);
+    if (tmv.tm_min != lastJudgedMin) {
+      lastJudgedMin = tmv.tm_min;
+      hoursUpdateDecision();
     }
   }
 
