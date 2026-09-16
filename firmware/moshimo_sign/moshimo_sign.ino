@@ -74,7 +74,7 @@
 // このビルドのバージョン。リリースごとに +1 する (手順: docs/firmware-release.md)。
 // **公開する .bin はこの値を上げてビルドしたものであること。** manifest の version だけ
 // 上げて .bin が古いままだと、実機は「更新したのにまだ古い」を延々繰り返す。
-#define FW_VERSION 13
+#define FW_VERSION 14
 
 // ---- イベントコメント (v0.10) ----
 // 取得先は playlist.json の "commentsUrl" でも指定できる。config.h の値は初期値。
@@ -364,6 +364,7 @@ static String httpGetString(const String &url, int &code, bool wait = false) {
     NetworkClientSecure client;
     client.setInsecure();  // GitHub Pages等の証明書検証を省略 (表示内容のみなので許容)
     client.setHandshakeTimeout(10);
+    client.setTimeout(5);   // 本文読み出しが止まったまま吊られないよう5秒で諦める (v14)
     if (http.begin(client, url)) {
       http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
       code = http.GET();
@@ -864,8 +865,8 @@ static void fetchTaskStart() {
   fetchTaskTried = true;
   if (!fetchMutex) return;   // 入れ物が無い。loop()側の従来経路で取る
   // スタックはTLSハンドシェイクぶんに余裕を見て20KB。WiFiと同じcore 0、
-  // 優先度は loopTask と同じ1にして描画を邪魔しない。
-  BaseType_t ok = xTaskCreatePinnedToCore(fetchTask, "fetch", 20480, nullptr, 1, nullptr, 0);
+  // 優先度は IDLE にして、core 0 の WiFi/TCP スタックを絶対に待たせない (v14)。
+  BaseType_t ok = xTaskCreatePinnedToCore(fetchTask, "fetch", 20480, nullptr, tskIDLE_PRIORITY, nullptr, 0);
   if (ok != pdPASS) {
     Serial.println("[fetch] タスク作成に失敗。loop()側で取得する");
     return;
