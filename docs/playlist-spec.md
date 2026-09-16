@@ -155,6 +155,17 @@ URLから手で切り出す場合は、`#s=1&c=0&d=XXXX` の **`d=` 以降がそ
 分単位でぴったり合わせたい場合は、実機側で時刻を見る `schedule` (下記 v2.2 ドラフト) の
 実装が要る。
 
+**v16 以降は実機も `data/hours.json` を直接読む。** `playlist.json` に
+`"hoursUrl": "https://mugiwaraboushi.github.io/moshimo-sign/data/hours.json"` を入れると有効になり、
+実機が10分おきにカレンダーを取りに行って、自分の時計 (NTP / 日本時間) で1分ごとに
+OPEN / CLOSED を判定する。判定ルールは `update-open-closed.mjs` と同じで、
+`topText` が `OPEN` / `CLOSED` 以外のときは触らないという約束も同じ。
+これで GitHub Actions の定期実行が遅れても切り替わりが時刻ちょうどに合う。
+Actions 側の自動書き換えはそのまま残す (二重化。同じカレンダーを同じルールで見るので矛盾しない)。
+`"hoursUrl": ""` にすると実機側の判定は止まり、`topText` をそのまま出す従来の動きに戻る。
+取得先は GitHub Pages の `https://mugiwaraboushi.github.io/moshimo-sign/` 配下のみ受け付ける
+(`commentsUrl` と同じく、公開ファイル経由で実機に任意のホストを叩かせないため)。
+
 > ワークフローの追加だけは `workflow` 権限のあるトークンが要るため、Claude からは push できない。
 > [`docs/examples/open-closed.workflow.yml`](examples/open-closed.workflow.yml) を
 > `.github/workflows/open-closed.yml` としてコミットすると動きはじめる
