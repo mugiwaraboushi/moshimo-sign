@@ -1,6 +1,6 @@
 {
   "topText": "OPEN",
-  "mode": "dual",
+  "mode": "event",
   "brightness": 180,
   "speed": 45,
   "colorTop": "FF9C00",
