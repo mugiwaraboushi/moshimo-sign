@@ -9,7 +9,7 @@
 | キー | 型 | 意味 | 例 |
 |---|---|---|---|
 | `topText` | string | 上段の固定文言 (時計と交互表示) | `"営業中"` |
-| `mode` | string | `"dual"`=2段 / `"scroll"`=1行スクロール / `"frames"`=ドット絵 | `"dual"` |
+| `mode` | string | `"dual"`=2段 / `"scroll"`=1行スクロール / `"frames"`=ドット絵 / `"event"`=イベント中はコメントだけを下段に流す (コメント0件なら `messages` を流す。見た目は `dual` と同じ。v15) | `"dual"` |
 | `brightness` | int | 輝度 8-255 | `96` |
 | `speed` | number | スクロール速度 dot/秒 (5-200) | `45` |
 | `colorTop` | string | 上段の色 (RGB 16進6桁、#なし) | `"FF9C00"` |
