@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-17T20:24:30.436Z",
+ "updatedAt": "2026-09-17T22:55:30.242Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "九州新幹線 52日ぶりに全線で運行再開へ",
+     "title": "台風25号 小笠原に接近へ 連休の東日本太平洋側大雨おそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50946",
+     "pubDate": "Fri, 18 Sep 2026 06:26:00 +0900"
+    },
+    {
+     "title": "第2次高市改造内閣発足 食料品の消費税減税など政策推進が課題",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50937",
+     "pubDate": "Fri, 18 Sep 2026 05:37:42 +0900"
+    },
+    {
+     "title": "ラスカー賞 筑波大柳沢教授 中外製薬研究者らにトロフィー",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50948",
+     "pubDate": "Fri, 18 Sep 2026 07:25:17 +0900"
+    },
+    {
+     "title": "九州新幹線 52日ぶりに全線で運行再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50932",
-     "pubDate": "Fri, 18 Sep 2026 05:05:47 +0900"
+     "pubDate": "Fri, 18 Sep 2026 06:29:00 +0900"
     },
     {
-     "title": "関電の美浜原発3号配管から水滴落下 原子炉を手動停止へ 福井",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50928",
-     "pubDate": "Thu, 17 Sep 2026 23:40:11 +0900"
+     "title": "日銀 金融政策決定会合 政策金利1.25％程度へ引き上げの見通し",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50935",
+     "pubDate": "Fri, 18 Sep 2026 05:44:58 +0900"
     },
     {
-     "title": "第2次高市改造内閣発足 首相“強い経済へ 実行力重視で人選”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50695",
-     "pubDate": "Thu, 17 Sep 2026 22:52:01 +0900"
+     "title": "ジャガイモ輸入解禁めぐり アメリカが手続き加速を要求",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50925",
+     "pubDate": "Fri, 18 Sep 2026 05:51:03 +0900"
     },
     {
-     "title": "台風25号 小笠原諸島接近へ 東日本は連休中の天気に影響も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50715",
-     "pubDate": "Thu, 17 Sep 2026 19:21:00 +0900"
-    },
-    {
-     "title": "プロ野球 ソフトバンクがパ・リーグ優勝 3年連続22回目",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50909",
-     "pubDate": "Thu, 17 Sep 2026 21:14:00 +0900"
-    },
-    {
-     "title": "関西電力 電気料金を過大請求 総額最大1400万円 原価算定ミス",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50940",
-     "pubDate": "Fri, 18 Sep 2026 04:59:25 +0900"
-    },
-    {
-     "title": "ロシア ウクライナ侵攻開始後初の議会下院選挙始まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50926",
-     "pubDate": "Fri, 18 Sep 2026 05:09:06 +0900"
+     "title": "トランプ政権がアッバス議長を入国拒否 国連総会が遺憾の決議",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50952",
+     "pubDate": "Fri, 18 Sep 2026 07:32:14 +0900"
     }
    ]
   },
@@ -50,14 +50,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "【動画】Pickup NEWS（9月18日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50900",
+     "pubDate": "Fri, 18 Sep 2026 06:59:27 +0900"
+    },
+    {
+     "title": "在留カード作成プリンター 有効に活用されず 会計検査院が指摘",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50914",
+     "pubDate": "Fri, 18 Sep 2026 05:30:11 +0900"
+    },
+    {
      "title": "ドクターヘリ安定運航へ広域連携強化 中間とりまとめ案 厚労省",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de50934",
      "pubDate": "Fri, 18 Sep 2026 05:13:47 +0900"
     },
     {
-     "title": "関電の美浜原発3号配管から水滴落下 原子炉を手動停止へ 福井",
+     "title": "関電の美浜原発3号配管から水滴落下 原子炉を手動停止 福井",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50928",
-     "pubDate": "Thu, 17 Sep 2026 23:40:11 +0900"
+     "pubDate": "Fri, 18 Sep 2026 05:26:03 +0900"
     },
     {
      "title": "北朝鮮籍の貨物船がえい航の船 沈没 海に4人転落 1人意識不明",
@@ -113,16 +123,6 @@
      "title": "冠水の危険性高いアンダーパス事前通行止め 全国22か所に拡大",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50793",
      "pubDate": "Thu, 17 Sep 2026 14:57:00 +0900"
-    },
-    {
-     "title": "静岡県 議員の“お出迎え”見直し 福岡県議会問題受け",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50803",
-     "pubDate": "Thu, 17 Sep 2026 14:01:00 +0900"
-    },
-    {
-     "title": "洋菓子店4人死亡事件 現場の刃物は死亡役員持参か 書類送検へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50812",
-     "pubDate": "Thu, 17 Sep 2026 13:57:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "ラスカー賞 筑波大柳沢教授 中外製薬研究者らにトロフィー",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50948",
+     "pubDate": "Fri, 18 Sep 2026 07:25:17 +0900"
+    },
     {
      "title": "「東京ゲームショウ」が開幕 異業種企業の出展も盛んに",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50881",
@@ -200,11 +205,6 @@
      "title": "万博のミャクミャクがヘリで空を大移動 新たな展示場所へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260914de50146",
      "pubDate": "Mon, 14 Sep 2026 19:41:25 +0900"
-    },
-    {
-     "title": "大河ドラマ「豊臣兄弟！」 特別展を前に内覧会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260914de50144",
-     "pubDate": "Mon, 14 Sep 2026 16:50:00 +0900"
     }
    ]
   },
@@ -213,6 +213,46 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "トランプ政権がアッバス議長を入国拒否 国連総会が遺憾の決議",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50952",
+     "pubDate": "Fri, 18 Sep 2026 07:32:14 +0900"
+    },
+    {
+     "title": "イエメン国内避難10万人 2千人超は対岸アフリカ側に避難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50950",
+     "pubDate": "Fri, 18 Sep 2026 07:11:47 +0900"
+    },
+    {
+     "title": "中国王毅外相と米ルビオ国務長官が電話会談 首脳会談へ調整か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50938",
+     "pubDate": "Fri, 18 Sep 2026 07:03:29 +0900"
+    },
+    {
+     "title": "ウクライナ国境付近で再攻撃 住民に避難呼びかけ ポーランド",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50942",
+     "pubDate": "Fri, 18 Sep 2026 06:46:06 +0900"
+    },
+    {
+     "title": "スウェーデン総選挙 中道左派が過半数制す 4年ぶり政権交代へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50939",
+     "pubDate": "Fri, 18 Sep 2026 06:40:57 +0900"
+    },
+    {
+     "title": "フランス防衛企業がAIシステム発表“欧州は米国に依存せず”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50941",
+     "pubDate": "Fri, 18 Sep 2026 06:36:08 +0900"
+    },
+    {
+     "title": "カナダ カーニー首相がEUと連携強調 米との対立背景に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50936",
+     "pubDate": "Fri, 18 Sep 2026 05:55:25 +0900"
+    },
+    {
+     "title": "ジャガイモ輸入解禁めぐり アメリカが手続き加速を要求",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50925",
+     "pubDate": "Fri, 18 Sep 2026 05:51:03 +0900"
+    },
     {
      "title": "中国 日本人学校男児死亡事件から2年 安全への懸念 今も拭えず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50915",
@@ -247,46 +287,6 @@
      "title": "米オープンAI 人間の意図に沿わないAI動作を早期公表へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50855",
      "pubDate": "Thu, 17 Sep 2026 17:46:00 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月17日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46994",
-     "pubDate": "Thu, 17 Sep 2026 15:49:00 +0900"
-    },
-    {
-     "title": "米下院 ロシア原油輸入国に100％関税の法案可決 成立へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50824",
-     "pubDate": "Thu, 17 Sep 2026 14:56:17 +0900"
-    },
-    {
-     "title": "北朝鮮キム総書記妹、IAEA総会での指摘「雑音に過ぎない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50790",
-     "pubDate": "Thu, 17 Sep 2026 13:43:30 +0900"
-    },
-    {
-     "title": "イラン作戦参加の沖縄駐留海兵隊“常に新たな対応に迫られた”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50785",
-     "pubDate": "Thu, 17 Sep 2026 13:23:44 +0900"
-    },
-    {
-     "title": "“アメリカ当局者がフーシ派と先週末に会談か”ロイター通信",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50794",
-     "pubDate": "Thu, 17 Sep 2026 13:22:00 +0900"
-    },
-    {
-     "title": "エド・シーランさんのツアーでパレスチナ解放訴えラッパー降板",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50725",
-     "pubDate": "Thu, 17 Sep 2026 08:40:12 +0900"
-    },
-    {
-     "title": "香港リンゴ日報 創業者の息子がアメリカ議会で父の釈放を訴え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50723",
-     "pubDate": "Thu, 17 Sep 2026 08:17:00 +0900"
-    },
-    {
-     "title": "米エヌビディアCEO AI開発に「新たな規制必要ない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50638",
-     "pubDate": "Wed, 16 Sep 2026 19:22:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "第2次改造内閣 林芳正氏なぜ閣外",
-     "link": "https://news.yahoo.co.jp/pickup/6595637?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 14:10:12 GMT"
-    },
-    {
      "title": "大型の台風25号 離れた所も注意",
      "link": "https://news.yahoo.co.jp/pickup/6595639?source=rss",
      "pubDate": "Thu, 17 Sep 2026 14:18:58 GMT"
     },
     {
-     "title": "中国企業に営業秘密流出疑い 逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6595640?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 14:51:52 GMT"
+     "title": "九州新幹線 52日ぶり全線運転",
+     "link": "https://news.yahoo.co.jp/pickup/6595645?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 21:48:34 GMT"
     },
     {
-     "title": "SBI 「因縁」超えライブドア買収",
-     "link": "https://news.yahoo.co.jp/pickup/6595625?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 11:26:35 GMT"
+     "title": "日産 新型スカイライン12月発表へ",
+     "link": "https://news.yahoo.co.jp/pickup/6595646?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 21:59:43 GMT"
     },
     {
-     "title": "四国初の「マリオット」開業へ",
-     "link": "https://news.yahoo.co.jp/pickup/6595615?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 09:54:23 GMT"
+     "title": "目を疑った 練馬区にキツネの姿",
+     "link": "https://news.yahoo.co.jp/pickup/6595652?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 22:47:49 GMT"
     },
     {
-     "title": "米で進む子宮移植 出産し何を思う",
-     "link": "https://news.yahoo.co.jp/pickup/6595609?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 09:25:06 GMT"
+     "title": "カビが一斉に繁殖 雨続く秋に注意",
+     "link": "https://news.yahoo.co.jp/pickup/6595648?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 22:25:10 GMT"
     },
     {
-     "title": "青山通り街路樹にキクラゲ? 取材",
-     "link": "https://news.yahoo.co.jp/pickup/6595623?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 10:58:24 GMT"
+     "title": "ウルフ氏死去 西武が「哀悼の意」",
+     "link": "https://news.yahoo.co.jp/pickup/6595650?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 22:37:50 GMT"
     },
     {
-     "title": "トンツカタン森本 改名を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6595628?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 11:45:43 GMT"
+     "title": "ドジャース 地区5連覇を達成",
+     "link": "https://news.yahoo.co.jp/pickup/6595642?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 21:21:42 GMT"
+    },
+    {
+     "title": "神木隆之介&菅田将暉 auCMコラボ",
+     "link": "https://news.yahoo.co.jp/pickup/6595649?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 22:30:16 GMT"
     }
    ]
   }
