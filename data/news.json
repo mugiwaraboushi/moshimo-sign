@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-17T17:19:36.019Z",
+ "updatedAt": "2026-09-17T20:24:30.436Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "九州新幹線 52日ぶりに全線で運行再開へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50932",
+     "pubDate": "Fri, 18 Sep 2026 05:05:47 +0900"
+    },
     {
      "title": "関電の美浜原発3号配管から水滴落下 原子炉を手動停止へ 福井",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50928",
@@ -28,19 +33,14 @@
      "pubDate": "Thu, 17 Sep 2026 21:14:00 +0900"
     },
     {
-     "title": "北朝鮮籍の貨物船がえい航の船 沈没 海に4人転落 1人意識不明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50924",
-     "pubDate": "Thu, 17 Sep 2026 22:48:14 +0900"
+     "title": "関西電力 電気料金を過大請求 総額最大1400万円 原価算定ミス",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50940",
+     "pubDate": "Fri, 18 Sep 2026 04:59:25 +0900"
     },
     {
-     "title": "日銀 金融政策決定会合始まる 政策金利引き上げあす最終判断へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50876",
-     "pubDate": "Thu, 17 Sep 2026 18:48:00 +0900"
-    },
-    {
-     "title": "中学校でクマよけスプレー噴射か 生徒逮捕 11人搬送 岩手 北上",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50887",
-     "pubDate": "Thu, 17 Sep 2026 19:44:00 +0900"
+     "title": "ロシア ウクライナ侵攻開始後初の議会下院選挙始まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50926",
+     "pubDate": "Fri, 18 Sep 2026 05:09:06 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "ドクターヘリ安定運航へ広域連携強化 中間とりまとめ案 厚労省",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50934",
+     "pubDate": "Fri, 18 Sep 2026 05:13:47 +0900"
+    },
     {
      "title": "関電の美浜原発3号配管から水滴落下 原子炉を手動停止へ 福井",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50928",
@@ -118,11 +123,6 @@
      "title": "洋菓子店4人死亡事件 現場の刃物は死亡役員持参か 書類送検へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50812",
      "pubDate": "Thu, 17 Sep 2026 13:57:00 +0900"
-    },
-    {
-     "title": "東京 北区 刃物で男性2人刺し けがさせたか 女の容疑者を逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50777",
-     "pubDate": "Thu, 17 Sep 2026 14:40:00 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "中国 日本人学校男児死亡事件から2年 安全への懸念 今も拭えず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50915",
+     "pubDate": "Fri, 18 Sep 2026 05:21:18 +0900"
+    },
+    {
+     "title": "ロシア ウクライナ侵攻開始後初の議会下院選挙始まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50926",
+     "pubDate": "Fri, 18 Sep 2026 05:09:06 +0900"
+    },
+    {
      "title": "熊本地震の被災地支援 台湾で14億円以上の寄付金集まる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50931",
      "pubDate": "Fri, 18 Sep 2026 00:22:28 +0900"
@@ -277,16 +287,6 @@
      "title": "米エヌビディアCEO AI開発に「新たな規制必要ない」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260916de50638",
      "pubDate": "Wed, 16 Sep 2026 19:22:00 +0900"
-    },
-    {
-     "title": "プーチン大統領 議会選挙で侵攻継続への支持示すよう呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50711",
-     "pubDate": "Thu, 17 Sep 2026 07:20:00 +0900"
-    },
-    {
-     "title": "国連グテーレス事務総長 AI開発競争 国際的な規制必要と訴える",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50717",
-     "pubDate": "Thu, 17 Sep 2026 06:58:00 +0900"
     }
    ]
   },
