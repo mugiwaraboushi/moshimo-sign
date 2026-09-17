@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-16T23:55:48.761Z",
+ "updatedAt": "2026-09-17T02:11:21.341Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "高市首相きょう内閣改造 政権の骨格維持 維新は中司氏初入閣へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50695",
-     "pubDate": "Thu, 17 Sep 2026 07:05:36 +0900"
-    },
-    {
      "title": "【台風25号】小笠原諸島では18日以降 雨風が強まるおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50715",
-     "pubDate": "Thu, 17 Sep 2026 07:09:26 +0900"
+     "pubDate": "Thu, 17 Sep 2026 07:09:00 +0900"
     },
     {
-     "title": "米 FRB 0.25％の利上げ決定 利上げは約3年ぶり",
+     "title": "このあと臨時閣議で閣僚の辞表とりまとめ 午後に内閣改造へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50695",
+     "pubDate": "Thu, 17 Sep 2026 11:08:52 +0900"
+    },
+    {
+     "title": "米 FRB 0.25％の利上げ決定 年内追加利上げに踏み切るか焦点に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260916de50687",
-     "pubDate": "Thu, 17 Sep 2026 06:53:00 +0900"
-    },
-    {
-     "title": "NY市場 ダウ一時900ドル超の下落 外国為替市場は1ドル156円台",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50718",
-     "pubDate": "Thu, 17 Sep 2026 06:49:10 +0900"
+     "pubDate": "Thu, 17 Sep 2026 10:29:00 +0900"
     },
     {
      "title": "ゼレンスキー大統領「北朝鮮は安い値段で現代戦を経験」",
@@ -33,14 +28,19 @@
      "pubDate": "Thu, 17 Sep 2026 05:19:35 +0900"
     },
     {
+     "title": "「核のごみ」処分地調査 常陸大宮市議は反対5賛成4 表明せずも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50714",
+     "pubDate": "Thu, 17 Sep 2026 09:07:00 +0900"
+    },
+    {
+     "title": "「よど号」グループの赤木志郎容疑者が北朝鮮で死亡か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50704",
+     "pubDate": "Thu, 17 Sep 2026 03:24:00 +0900"
+    },
+    {
      "title": "山形 酒田 6歳男児行方不明で警察が防犯カメラ映像を公開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260916de50658",
      "pubDate": "Wed, 16 Sep 2026 20:40:00 +0900"
-    },
-    {
-     "title": "国連グテーレス事務総長 AI開発競争 国際的な規制必要と訴える",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50717",
-     "pubDate": "Thu, 17 Sep 2026 06:58:07 +0900"
     }
    ]
   },
@@ -50,9 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "「核のごみ」処分地調査 常陸大宮市議は反対5賛成4 表明せずも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50714",
+     "pubDate": "Thu, 17 Sep 2026 09:07:00 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（9月17日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260916de50616",
-     "pubDate": "Thu, 17 Sep 2026 07:02:41 +0900"
+     "pubDate": "Thu, 17 Sep 2026 09:47:51 +0900"
     },
     {
      "title": "アルツハイマー病治療薬「レカネマブ」皮下注射型が正式承認",
@@ -62,12 +67,12 @@
     {
      "title": "「よど号」グループの赤木志郎容疑者が北朝鮮で死亡か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50704",
-     "pubDate": "Thu, 17 Sep 2026 03:24:52 +0900"
+     "pubDate": "Thu, 17 Sep 2026 03:24:00 +0900"
     },
     {
      "title": "自衛隊がインドネシアの森林火災で消火活動を開始",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50694",
-     "pubDate": "Thu, 17 Sep 2026 03:18:01 +0900"
+     "pubDate": "Thu, 17 Sep 2026 03:18:00 +0900"
     },
     {
      "title": "無人偵察機墜落 青森県三沢市が「飛行停止」を要請",
@@ -118,11 +123,6 @@
      "title": "鳥取県 平井知事 無人偵察機墜落“事故に関する情報共有を”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260916de50606",
      "pubDate": "Wed, 16 Sep 2026 16:41:02 +0900"
-    },
-    {
-     "title": "警備業の外国人材活用で有識者会議初会合",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50590",
-     "pubDate": "Wed, 16 Sep 2026 14:48:06 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "「核のごみ」処分地調査 常陸大宮市議は反対5賛成4 表明せずも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50714",
+     "pubDate": "Thu, 17 Sep 2026 09:07:00 +0900"
+    },
     {
      "title": "アメリカでAI開発の規制求め政敵が“共闘” 議論活発に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50702",
@@ -200,11 +205,6 @@
      "title": "日本の火星衛星探査機「MMX」プロジェクトの研究者が講演会",
      "link": "https://news.web.nhk/newsweb/na/nd-20260913de49974",
      "pubDate": "Sun, 13 Sep 2026 17:54:00 +0900"
-    },
-    {
-     "title": "米アンソロピックCEO“AI開発ペース減速させる必要”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260913de49934",
-     "pubDate": "Sun, 13 Sep 2026 17:24:03 +0900"
     }
    ]
   },
@@ -256,7 +256,7 @@
     {
      "title": "ガザ地区で避難民暮らす建物倒壊 20人以上死亡か 現地メディア",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50708",
-     "pubDate": "Thu, 17 Sep 2026 06:14:33 +0900"
+     "pubDate": "Thu, 17 Sep 2026 06:14:00 +0900"
     },
     {
      "title": "北朝鮮国防省 大量破壊兵器への米韓の対応協議を非難",
@@ -281,12 +281,12 @@
     {
      "title": "自衛隊がインドネシアの森林火災で消火活動を開始",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50694",
-     "pubDate": "Thu, 17 Sep 2026 03:18:01 +0900"
+     "pubDate": "Thu, 17 Sep 2026 03:18:00 +0900"
     },
     {
-     "title": "米 FRB 0.25％の利上げ決定 利上げは約3年ぶり",
+     "title": "米 FRB 0.25％の利上げ決定 年内追加利上げに踏み切るか焦点に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260916de50687",
-     "pubDate": "Thu, 17 Sep 2026 06:53:00 +0900"
+     "pubDate": "Thu, 17 Sep 2026 10:29:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "トランプ氏 FRBに迅速利下げ要求",
-     "link": "https://news.yahoo.co.jp/pickup/6595545?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 23:36:45 GMT"
+     "title": "台風接近 気圧低下による頭痛注意",
+     "link": "https://news.yahoo.co.jp/pickup/6595561?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 02:01:38 GMT"
     },
     {
-     "title": "内閣改造 赤沢氏と城内氏が続投へ",
-     "link": "https://news.yahoo.co.jp/pickup/6595541?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 22:47:49 GMT"
+     "title": "ガザで損壊建物が倒壊 20人超死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6595549?source=rss",
+     "pubDate": "Wed, 16 Sep 2026 23:48:30 GMT"
     },
     {
-     "title": "台風25号 21日ごろに関東最接近か",
-     "link": "https://news.yahoo.co.jp/pickup/6595535?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 21:28:50 GMT"
+     "title": "教員の大学奨学金 返還免除検討へ",
+     "link": "https://news.yahoo.co.jp/pickup/6595554?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 00:37:19 GMT"
     },
     {
-     "title": "戦後最長の景気拡大か 実感乏しく",
-     "link": "https://news.yahoo.co.jp/pickup/6595539?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 22:19:58 GMT"
+     "title": "「高市流」人事 党内から不満の声",
+     "link": "https://news.yahoo.co.jp/pickup/6595556?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 00:56:03 GMT"
     },
     {
-     "title": "子どものSNS制限 EUが新法提案へ",
-     "link": "https://news.yahoo.co.jp/pickup/6595537?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 21:55:43 GMT"
+     "title": "列車でモバイル電池発火 乗客搬送",
+     "link": "https://news.yahoo.co.jp/pickup/6595559?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 01:33:24 GMT"
     },
     {
-     "title": "酒離れ進む韓国 日本酒ブームの訳",
-     "link": "https://news.yahoo.co.jp/pickup/6595540?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 22:24:17 GMT"
+     "title": "元店長自死 遺族がかっぱ寿司提訴",
+     "link": "https://news.yahoo.co.jp/pickup/6595557?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 00:55:02 GMT"
     },
     {
-     "title": "速報ドジャース 地区優勝なるか",
-     "link": "https://news.yahoo.co.jp/pickup/6595543?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 23:10:01 GMT"
+     "title": "元日ハム投手のウルフ氏死去 45歳",
+     "link": "https://news.yahoo.co.jp/pickup/6595553?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 00:33:20 GMT"
     },
     {
-     "title": "リヨン中村敬斗 初先発で初ゴール",
-     "link": "https://news.yahoo.co.jp/pickup/6595538?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 22:16:09 GMT"
+     "title": "ド軍激震 先発が19球で緊急降板",
+     "link": "https://news.yahoo.co.jp/pickup/6595555?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 00:36:30 GMT"
     }
    ]
   }
