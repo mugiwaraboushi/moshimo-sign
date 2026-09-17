@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-17T12:48:57.919Z",
+ "updatedAt": "2026-09-17T17:19:36.019Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風25号 小笠原諸島接近へ 東日本は連休中の天気に影響も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50715",
-     "pubDate": "Thu, 17 Sep 2026 19:21:00 +0900"
+     "title": "関電の美浜原発3号配管から水滴落下 原子炉を手動停止へ 福井",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50928",
+     "pubDate": "Thu, 17 Sep 2026 23:40:11 +0900"
     },
     {
      "title": "第2次高市改造内閣発足 首相“強い経済へ 実行力重視で人選”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50695",
-     "pubDate": "Thu, 17 Sep 2026 19:06:00 +0900"
+     "pubDate": "Thu, 17 Sep 2026 22:52:01 +0900"
+    },
+    {
+     "title": "台風25号 小笠原諸島接近へ 東日本は連休中の天気に影響も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50715",
+     "pubDate": "Thu, 17 Sep 2026 19:21:00 +0900"
     },
     {
      "title": "プロ野球 ソフトバンクがパ・リーグ優勝 3年連続22回目",
@@ -23,24 +28,19 @@
      "pubDate": "Thu, 17 Sep 2026 21:14:00 +0900"
     },
     {
+     "title": "北朝鮮籍の貨物船がえい航の船 沈没 海に4人転落 1人意識不明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50924",
+     "pubDate": "Thu, 17 Sep 2026 22:48:14 +0900"
+    },
+    {
      "title": "日銀 金融政策決定会合始まる 政策金利引き上げあす最終判断へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50876",
      "pubDate": "Thu, 17 Sep 2026 18:48:00 +0900"
     },
     {
-     "title": "高級時計窃盗事件 容疑者にイタリア行き航空券 逃亡手助けか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50851",
-     "pubDate": "Thu, 17 Sep 2026 18:36:00 +0900"
-    },
-    {
-     "title": "中部電力 浜岡原発データ不正 内部通報問題など確認へ 規制委",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50889",
-     "pubDate": "Thu, 17 Sep 2026 20:11:36 +0900"
-    },
-    {
      "title": "中学校でクマよけスプレー噴射か 生徒逮捕 11人搬送 岩手 北上",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50887",
-     "pubDate": "Thu, 17 Sep 2026 19:44:31 +0900"
+     "pubDate": "Thu, 17 Sep 2026 19:44:00 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "関電の美浜原発3号配管から水滴落下 原子炉を手動停止へ 福井",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50928",
+     "pubDate": "Thu, 17 Sep 2026 23:40:11 +0900"
+    },
+    {
+     "title": "北朝鮮籍の貨物船がえい航の船 沈没 海に4人転落 1人意識不明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50924",
+     "pubDate": "Thu, 17 Sep 2026 22:48:14 +0900"
+    },
+    {
+     "title": "静岡 熱海の土石流 賠償請求の民事裁判 判決は来年3月19日に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50913",
+     "pubDate": "Thu, 17 Sep 2026 21:49:15 +0900"
+    },
     {
      "title": "防衛産業への投融資 全銀協・加藤会長「個別に判断」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50888",
@@ -62,7 +77,7 @@
     {
      "title": "中学校でクマよけスプレー噴射か 生徒逮捕 11人搬送 岩手 北上",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50887",
-     "pubDate": "Thu, 17 Sep 2026 19:44:31 +0900"
+     "pubDate": "Thu, 17 Sep 2026 19:44:00 +0900"
     },
     {
      "title": "知床沖観光船沈没事故の民事裁判 来年2月に判決 札幌地裁",
@@ -108,21 +123,6 @@
      "title": "東京 北区 刃物で男性2人刺し けがさせたか 女の容疑者を逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50777",
      "pubDate": "Thu, 17 Sep 2026 14:40:00 +0900"
-    },
-    {
-     "title": "東京五輪スケートボード日本代表選手が大麻所持か 書類送検",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50752",
-     "pubDate": "Thu, 17 Sep 2026 12:09:00 +0900"
-    },
-    {
-     "title": "奈良 LPガス容器扱う会社で爆発 けが人なし 周辺住民が避難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50763",
-     "pubDate": "Thu, 17 Sep 2026 12:07:00 +0900"
-    },
-    {
-     "title": "東京 高尾山の登山道付近でクマ1頭出没 八王子市が注意喚起",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50747",
-     "pubDate": "Thu, 17 Sep 2026 11:57:00 +0900"
     }
    ]
   },
@@ -134,7 +134,7 @@
     {
      "title": "「東京ゲームショウ」が開幕 異業種企業の出展も盛んに",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50881",
-     "pubDate": "Thu, 17 Sep 2026 19:42:43 +0900"
+     "pubDate": "Thu, 17 Sep 2026 19:42:00 +0900"
     },
     {
      "title": "連続テレビ小説「風、薫る」から「ブラッサム」へバトンタッチ",
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "熊本地震の被災地支援 台湾で14億円以上の寄付金集まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50931",
+     "pubDate": "Fri, 18 Sep 2026 00:22:28 +0900"
+    },
+    {
      "title": "北朝鮮の閣僚が来日 8年ぶりか アジア大会の開幕を前に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50908",
      "pubDate": "Thu, 17 Sep 2026 21:21:45 +0900"
@@ -282,11 +287,6 @@
      "title": "国連グテーレス事務総長 AI開発競争 国際的な規制必要と訴える",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50717",
      "pubDate": "Thu, 17 Sep 2026 06:58:00 +0900"
-    },
-    {
-     "title": "NY市場 ダウ一時900ドル超の下落 外国為替市場は1ドル156円台",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50718",
-     "pubDate": "Thu, 17 Sep 2026 06:49:10 +0900"
     }
    ]
   },
@@ -296,39 +296,39 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "内閣改造 高市首相「実行力重視」",
-     "link": "https://news.yahoo.co.jp/pickup/6595618?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 10:14:50 GMT"
+     "title": "第2次改造内閣 林芳正氏なぜ閣外",
+     "link": "https://news.yahoo.co.jp/pickup/6595637?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 14:10:12 GMT"
     },
     {
-     "title": "細野豪志氏「宿命」 復興相に就任",
-     "link": "https://news.yahoo.co.jp/pickup/6595613?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 09:33:40 GMT"
+     "title": "大型の台風25号 離れた所も注意",
+     "link": "https://news.yahoo.co.jp/pickup/6595639?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 14:18:58 GMT"
     },
     {
-     "title": "店で従業員刺され死亡 元夫を逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6595627?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 11:30:19 GMT"
+     "title": "中国企業に営業秘密流出疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6595640?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 14:51:52 GMT"
     },
     {
-     "title": "インフルエンザ 注意報を都が発表",
-     "link": "https://news.yahoo.co.jp/pickup/6595622?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 10:55:51 GMT"
+     "title": "SBI 「因縁」超えライブドア買収",
+     "link": "https://news.yahoo.co.jp/pickup/6595625?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 11:26:35 GMT"
     },
     {
-     "title": "好調な「つるとんたん」なぜ売却",
-     "link": "https://news.yahoo.co.jp/pickup/6595619?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 10:38:03 GMT"
+     "title": "四国初の「マリオット」開業へ",
+     "link": "https://news.yahoo.co.jp/pickup/6595615?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 09:54:23 GMT"
     },
     {
-     "title": "アジア大会の宿舎 選手らから苦情",
-     "link": "https://news.yahoo.co.jp/pickup/6595621?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 10:39:51 GMT"
+     "title": "米で進む子宮移植 出産し何を思う",
+     "link": "https://news.yahoo.co.jp/pickup/6595609?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 09:25:06 GMT"
     },
     {
-     "title": "ソフトバンクがリーグ3連覇",
-     "link": "https://news.yahoo.co.jp/pickup/6595630?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 12:20:26 GMT"
+     "title": "青山通り街路樹にキクラゲ? 取材",
+     "link": "https://news.yahoo.co.jp/pickup/6595623?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 10:58:24 GMT"
     },
     {
      "title": "トンツカタン森本 改名を発表",
