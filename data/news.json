@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-17T02:11:21.341Z",
+ "updatedAt": "2026-09-17T07:49:58.721Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【台風25号】小笠原諸島では18日以降 雨風が強まるおそれ",
+     "title": "台風25号 あす以降小笠原諸島近海 本州は連休中の天気に影響も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50715",
-     "pubDate": "Thu, 17 Sep 2026 07:09:00 +0900"
+     "pubDate": "Thu, 17 Sep 2026 16:44:47 +0900"
     },
     {
-     "title": "このあと臨時閣議で閣僚の辞表とりまとめ 午後に内閣改造へ",
+     "title": "第2次高市改造内閣が発足 午後6時半から記者会見",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50695",
-     "pubDate": "Thu, 17 Sep 2026 11:08:52 +0900"
+     "pubDate": "Thu, 17 Sep 2026 16:42:05 +0900"
     },
     {
-     "title": "米 FRB 0.25％の利上げ決定 年内追加利上げに踏み切るか焦点に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50687",
-     "pubDate": "Thu, 17 Sep 2026 10:29:00 +0900"
+     "title": "林総務相 入閣見送り“地域に貢献 一議員で何できるか考える”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50811",
+     "pubDate": "Thu, 17 Sep 2026 16:08:27 +0900"
     },
     {
-     "title": "ゼレンスキー大統領「北朝鮮は安い値段で現代戦を経験」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50707",
-     "pubDate": "Thu, 17 Sep 2026 05:19:35 +0900"
+     "title": "冠水の危険性高いアンダーパス事前通行止め 全国22か所に拡大",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50793",
+     "pubDate": "Thu, 17 Sep 2026 14:57:00 +0900"
     },
     {
-     "title": "「核のごみ」処分地調査 常陸大宮市議は反対5賛成4 表明せずも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50714",
-     "pubDate": "Thu, 17 Sep 2026 09:07:00 +0900"
+     "title": "静岡県 議員の“お出迎え”見直し 福岡県議会問題受け",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50803",
+     "pubDate": "Thu, 17 Sep 2026 14:01:07 +0900"
     },
     {
-     "title": "「よど号」グループの赤木志郎容疑者が北朝鮮で死亡か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50704",
-     "pubDate": "Thu, 17 Sep 2026 03:24:00 +0900"
+     "title": "アジア大会 井上康生団長「過去最高水準のメダル数を」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50840",
+     "pubDate": "Thu, 17 Sep 2026 16:39:13 +0900"
     },
     {
-     "title": "山形 酒田 6歳男児行方不明で警察が防犯カメラ映像を公開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50658",
-     "pubDate": "Wed, 16 Sep 2026 20:40:00 +0900"
+     "title": "東京五輪スケートボード日本代表選手が大麻所持か 書類送検",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50752",
+     "pubDate": "Thu, 17 Sep 2026 12:09:00 +0900"
     }
    ]
   },
@@ -50,6 +50,61 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "日朝首脳会談から24年 横田めぐみさんの母・早紀江さんが訴え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50844",
+     "pubDate": "Thu, 17 Sep 2026 16:46:03 +0900"
+    },
+    {
+     "title": "冠水の危険性高いアンダーパス事前通行止め 全国22か所に拡大",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50793",
+     "pubDate": "Thu, 17 Sep 2026 14:57:00 +0900"
+    },
+    {
+     "title": "静岡県 議員の“お出迎え”見直し 福岡県議会問題受け",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50803",
+     "pubDate": "Thu, 17 Sep 2026 14:01:07 +0900"
+    },
+    {
+     "title": "洋菓子店4人死亡事件 現場の刃物は死亡役員持参か 書類送検へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50812",
+     "pubDate": "Thu, 17 Sep 2026 13:57:00 +0900"
+    },
+    {
+     "title": "東京 北区 マンション敷地内で刃物持った女が暴れる 2人がけが",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50777",
+     "pubDate": "Thu, 17 Sep 2026 14:40:07 +0900"
+    },
+    {
+     "title": "東京五輪スケートボード日本代表選手が大麻所持か 書類送検",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50752",
+     "pubDate": "Thu, 17 Sep 2026 12:09:00 +0900"
+    },
+    {
+     "title": "奈良 LPガス容器扱う会社で爆発 けが人なし 周辺住民が避難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50763",
+     "pubDate": "Thu, 17 Sep 2026 12:07:00 +0900"
+    },
+    {
+     "title": "東京 高尾山の登山道付近でクマ1頭出没 八王子市が注意喚起",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50747",
+     "pubDate": "Thu, 17 Sep 2026 11:57:00 +0900"
+    },
+    {
+     "title": "水戸ネイリスト殺人事件 被告「出会う前に戻ってリセット」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50754",
+     "pubDate": "Thu, 17 Sep 2026 16:03:35 +0900"
+    },
+    {
+     "title": "高級時計窃盗事件 「スペイン語話せる男に3本渡した」と供述",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50740",
+     "pubDate": "Thu, 17 Sep 2026 11:48:00 +0900"
+    },
+    {
+     "title": "検察庁の幹部会議で検事総長が訓示「国民の信頼が基盤」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50750",
+     "pubDate": "Thu, 17 Sep 2026 11:47:00 +0900"
+    },
+    {
      "title": "「核のごみ」処分地調査 常陸大宮市議は反対5賛成4 表明せずも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50714",
      "pubDate": "Thu, 17 Sep 2026 09:07:00 +0900"
@@ -57,7 +112,7 @@
     {
      "title": "【動画】Pickup NEWS（9月17日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260916de50616",
-     "pubDate": "Thu, 17 Sep 2026 09:47:51 +0900"
+     "pubDate": "Thu, 17 Sep 2026 13:44:16 +0900"
     },
     {
      "title": "アルツハイマー病治療薬「レカネマブ」皮下注射型が正式承認",
@@ -68,61 +123,6 @@
      "title": "「よど号」グループの赤木志郎容疑者が北朝鮮で死亡か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50704",
      "pubDate": "Thu, 17 Sep 2026 03:24:00 +0900"
-    },
-    {
-     "title": "自衛隊がインドネシアの森林火災で消火活動を開始",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50694",
-     "pubDate": "Thu, 17 Sep 2026 03:18:00 +0900"
-    },
-    {
-     "title": "無人偵察機墜落 青森県三沢市が「飛行停止」を要請",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50665",
-     "pubDate": "Wed, 16 Sep 2026 21:20:00 +0900"
-    },
-    {
-     "title": "山形 酒田 6歳男児行方不明で警察が防犯カメラ映像を公開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50658",
-     "pubDate": "Wed, 16 Sep 2026 20:40:00 +0900"
-    },
-    {
-     "title": "日朝首脳会談から24年 家族はすべての拉致被害者の帰国求める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50654",
-     "pubDate": "Wed, 16 Sep 2026 20:27:30 +0900"
-    },
-    {
-     "title": "空自無人偵察機 機体の捜索続く 訓練飛行見合わせも任務継続",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50650",
-     "pubDate": "Wed, 16 Sep 2026 19:52:50 +0900"
-    },
-    {
-     "title": "OTC類似薬の追加負担 来年3月開始へ 対象外も明示 厚労省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50647",
-     "pubDate": "Wed, 16 Sep 2026 19:50:49 +0900"
-    },
-    {
-     "title": "分電盤の点検商法 相談5倍に急増 注意を 国民生活センター",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50619",
-     "pubDate": "Wed, 16 Sep 2026 19:40:00 +0900"
-    },
-    {
-     "title": "生徒と一緒に窃盗未遂の疑い 都立高校教諭を逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50635",
-     "pubDate": "Wed, 16 Sep 2026 18:43:00 +0900"
-    },
-    {
-     "title": "高校生の就職活動 採用試験始まる 「売り手市場」続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50620",
-     "pubDate": "Wed, 16 Sep 2026 18:40:36 +0900"
-    },
-    {
-     "title": "マダニ感染症 北海道に新たな系統のウイルス 以前から定着か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50597",
-     "pubDate": "Wed, 16 Sep 2026 18:04:32 +0900"
-    },
-    {
-     "title": "鳥取県 平井知事 無人偵察機墜落“事故に関する情報共有を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50606",
-     "pubDate": "Wed, 16 Sep 2026 16:41:02 +0900"
     }
    ]
   },
@@ -214,6 +214,31 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月17日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46994",
+     "pubDate": "Thu, 17 Sep 2026 15:49:00 +0900"
+    },
+    {
+     "title": "米下院 ロシア原油輸入国に100％関税の法案可決 成立へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50824",
+     "pubDate": "Thu, 17 Sep 2026 14:56:17 +0900"
+    },
+    {
+     "title": "北朝鮮キム総書記妹、IAEA総会での指摘「雑音に過ぎない」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50790",
+     "pubDate": "Thu, 17 Sep 2026 13:43:30 +0900"
+    },
+    {
+     "title": "イラン作戦参加の沖縄駐留海兵隊“常に新たな対応に迫られた”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50785",
+     "pubDate": "Thu, 17 Sep 2026 13:23:44 +0900"
+    },
+    {
+     "title": "“アメリカ当局者がフーシ派と先週末に会談か”ロイター通信",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50794",
+     "pubDate": "Thu, 17 Sep 2026 13:22:00 +0900"
+    },
+    {
      "title": "エド・シーランさんのツアーでパレスチナ解放訴えラッパー降板",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50725",
      "pubDate": "Thu, 17 Sep 2026 08:40:12 +0900"
@@ -221,7 +246,7 @@
     {
      "title": "香港リンゴ日報 創業者の息子がアメリカ議会で父の釈放を訴え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50723",
-     "pubDate": "Thu, 17 Sep 2026 08:17:16 +0900"
+     "pubDate": "Thu, 17 Sep 2026 08:17:00 +0900"
     },
     {
      "title": "米エヌビディアCEO AI開発に「新たな規制必要ない」",
@@ -236,7 +261,7 @@
     {
      "title": "国連グテーレス事務総長 AI開発競争 国際的な規制必要と訴える",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50717",
-     "pubDate": "Thu, 17 Sep 2026 06:58:07 +0900"
+     "pubDate": "Thu, 17 Sep 2026 06:58:00 +0900"
     },
     {
      "title": "NY市場 ダウ一時900ドル超の下落 外国為替市場は1ドル156円台",
@@ -262,31 +287,6 @@
      "title": "北朝鮮国防省 大量破壊兵器への米韓の対応協議を非難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50697",
      "pubDate": "Thu, 17 Sep 2026 06:02:49 +0900"
-    },
-    {
-     "title": "サウジアラビア“紅海側で原油の積み出し停止”報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50693",
-     "pubDate": "Thu, 17 Sep 2026 05:43:09 +0900"
-    },
-    {
-     "title": "EU 15歳未満の子ども SNSの利用を制限する法案 加盟国に提案へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50700",
-     "pubDate": "Thu, 17 Sep 2026 05:26:26 +0900"
-    },
-    {
-     "title": "ゼレンスキー大統領「北朝鮮は安い値段で現代戦を経験」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50707",
-     "pubDate": "Thu, 17 Sep 2026 05:19:35 +0900"
-    },
-    {
-     "title": "自衛隊がインドネシアの森林火災で消火活動を開始",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50694",
-     "pubDate": "Thu, 17 Sep 2026 03:18:00 +0900"
-    },
-    {
-     "title": "米 FRB 0.25％の利上げ決定 年内追加利上げに踏み切るか焦点に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50687",
-     "pubDate": "Thu, 17 Sep 2026 10:29:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風接近 気圧低下による頭痛注意",
-     "link": "https://news.yahoo.co.jp/pickup/6595561?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 02:01:38 GMT"
+     "title": "高市改造内閣 閣僚名簿を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6595582?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 05:01:30 GMT"
     },
     {
-     "title": "ガザで損壊建物が倒壊 20人超死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6595549?source=rss",
-     "pubDate": "Wed, 16 Sep 2026 23:48:30 GMT"
+     "title": "ネパール土石流 行方不明6150人に",
+     "link": "https://news.yahoo.co.jp/pickup/6595586?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 05:59:38 GMT"
     },
     {
-     "title": "教員の大学奨学金 返還免除検討へ",
-     "link": "https://news.yahoo.co.jp/pickup/6595554?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 00:37:19 GMT"
+     "title": "東京・北区で2人刺される 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6595580?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 04:57:04 GMT"
     },
     {
-     "title": "「高市流」人事 党内から不満の声",
-     "link": "https://news.yahoo.co.jp/pickup/6595556?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 00:56:03 GMT"
+     "title": "水戸女性殺害 動機は「リセット」",
+     "link": "https://news.yahoo.co.jp/pickup/6595591?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 07:05:01 GMT"
     },
     {
-     "title": "列車でモバイル電池発火 乗客搬送",
-     "link": "https://news.yahoo.co.jp/pickup/6595559?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 01:33:24 GMT"
+     "title": "高圧ガス容器の再検査工場で爆発",
+     "link": "https://news.yahoo.co.jp/pickup/6595587?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 06:00:35 GMT"
     },
     {
-     "title": "元店長自死 遺族がかっぱ寿司提訴",
-     "link": "https://news.yahoo.co.jp/pickup/6595557?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 00:55:02 GMT"
+     "title": "すぐに本貸さない図書館 なぜ計画",
+     "link": "https://news.yahoo.co.jp/pickup/6595584?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 05:29:02 GMT"
     },
     {
-     "title": "元日ハム投手のウルフ氏死去 45歳",
-     "link": "https://news.yahoo.co.jp/pickup/6595553?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 00:33:20 GMT"
+     "title": "異例のインフル早期流行 原因は",
+     "link": "https://news.yahoo.co.jp/pickup/6595590?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 06:54:55 GMT"
     },
     {
-     "title": "ド軍激震 先発が19球で緊急降板",
-     "link": "https://news.yahoo.co.jp/pickup/6595555?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 00:36:30 GMT"
+     "title": "キタニタツヤ ヨルシカの活動卒業",
+     "link": "https://news.yahoo.co.jp/pickup/6595588?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 06:34:02 GMT"
     }
    ]
   }
