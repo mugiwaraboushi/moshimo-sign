@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-18T19:46:11.809Z",
+ "updatedAt": "2026-09-18T21:58:55.579Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "台風25号 小笠原暴風警戒 あす以降伊豆諸島 関東近づくおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51158",
+     "pubDate": "Sat, 19 Sep 2026 05:42:32 +0900"
+    },
+    {
+     "title": "日銀 どう物価安定図るか 今後の利上げも難しい判断",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51165",
+     "pubDate": "Sat, 19 Sep 2026 05:45:25 +0900"
+    },
+    {
+     "title": "高市首相 日米首脳会談を調整 対中認識のすりあわせ図る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51163",
+     "pubDate": "Sat, 19 Sep 2026 05:07:07 +0900"
+    },
+    {
      "title": "日銀が「レートチェック」を実施 円安けん制か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51169",
      "pubDate": "Sat, 19 Sep 2026 03:43:25 +0900"
     },
     {
-     "title": "宮崎で線状降水帯直前予測 氾濫や土砂災害など厳重警戒",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51166",
-     "pubDate": "Sat, 19 Sep 2026 02:52:00 +0900"
+     "title": "パキスタン“警察施設で自爆テロか 21人死亡”地元メディア",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51175",
+     "pubDate": "Sat, 19 Sep 2026 05:25:38 +0900"
     },
     {
-     "title": "台風25号 小笠原暴風など警戒 伊豆諸島 関東など近づくおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51158",
-     "pubDate": "Sat, 19 Sep 2026 02:13:00 +0900"
+     "title": "都市部の内水氾濫 国交省の検討会 年内めどに対策とりまとめ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51153",
+     "pubDate": "Sat, 19 Sep 2026 05:48:58 +0900"
     },
     {
-     "title": "【台風】空の便やJR在来線に影響のおそれ 最新情報確認を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51068",
-     "pubDate": "Fri, 18 Sep 2026 20:35:00 +0900"
-    },
-    {
-     "title": "小泉防衛相 米国防長官と電話会談 安全保障協力推進で一致",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51167",
-     "pubDate": "Sat, 19 Sep 2026 02:25:44 +0900"
-    },
-    {
-     "title": "家族葬 実際の費用はCMの約3倍 消費者庁が運営会社に措置命令",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51106",
-     "pubDate": "Sat, 19 Sep 2026 01:48:34 +0900"
-    },
-    {
-     "title": "空自の大型無人偵察機墜落 機体の一部の写真 自衛隊が公表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51071",
-     "pubDate": "Sat, 19 Sep 2026 00:08:00 +0900"
+     "title": "ロシア下院選挙 プーチン大統領も投票 ウクライナは厳しく非難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51182",
+     "pubDate": "Sat, 19 Sep 2026 06:00:58 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "動画】Pickup NEWS（9月19日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51062",
+     "pubDate": "Sat, 19 Sep 2026 06:53:17 +0900"
+    },
     {
      "title": "デイサービス送迎後に転倒死亡事故 介護施設側に賠償命令",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51152",
@@ -118,11 +123,6 @@
      "title": "性別変更した男性 子どもとの親子関係求める訴え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51056",
      "pubDate": "Fri, 18 Sep 2026 16:29:00 +0900"
-    },
-    {
-     "title": "ジャガイモ輸入解禁手続きで説明会 生産者「やっていけない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51050",
-     "pubDate": "Fri, 18 Sep 2026 19:59:34 +0900"
     }
    ]
   },
@@ -214,6 +214,26 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ロシア下院選挙 プーチン大統領も投票 ウクライナは厳しく非難",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51182",
+     "pubDate": "Sat, 19 Sep 2026 06:00:58 +0900"
+    },
+    {
+     "title": "次期国連事務総長を選ぶ3回目の投票 常任理事国の意向が焦点に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51177",
+     "pubDate": "Sat, 19 Sep 2026 05:33:02 +0900"
+    },
+    {
+     "title": "パキスタン“警察施設で自爆テロか 21人死亡”地元メディア",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51175",
+     "pubDate": "Sat, 19 Sep 2026 05:25:38 +0900"
+    },
+    {
+     "title": "高市首相 日米首脳会談を調整 対中認識のすりあわせ図る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51163",
+     "pubDate": "Sat, 19 Sep 2026 05:07:07 +0900"
+    },
+    {
      "title": "小泉防衛相 米国防長官と電話会談 安全保障協力推進で一致",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51167",
      "pubDate": "Sat, 19 Sep 2026 02:25:44 +0900"
@@ -267,26 +287,6 @@
      "title": "ネパール土石流 温暖化や高温 過去の地震など複合要因か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51075",
      "pubDate": "Fri, 18 Sep 2026 18:26:49 +0900"
-    },
-    {
-     "title": "韓国 イ大統領が記者会見 支持率低下「私の至らなさ」と謝罪",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51080",
-     "pubDate": "Fri, 18 Sep 2026 18:16:04 +0900"
-    },
-    {
-     "title": "「ヒト脳オルガノイド」をマウス移植で神経回路を形成",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51067",
-     "pubDate": "Fri, 18 Sep 2026 17:56:33 +0900"
-    },
-    {
-     "title": "ヨーロッパ駐留の米軍 数万人規模で削減か 米報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51030",
-     "pubDate": "Fri, 18 Sep 2026 14:39:00 +0900"
-    },
-    {
-     "title": "北朝鮮キム・ヨジョン氏 多国間訓練を非難し対抗措置示唆",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51021",
-     "pubDate": "Fri, 18 Sep 2026 13:24:00 +0900"
     }
    ]
   },
