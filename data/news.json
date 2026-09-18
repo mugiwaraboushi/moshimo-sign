@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-18T21:58:55.579Z",
+ "updatedAt": "2026-09-18T23:51:36.324Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,12 @@
     {
      "title": "台風25号 小笠原暴風警戒 あす以降伊豆諸島 関東近づくおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51158",
-     "pubDate": "Sat, 19 Sep 2026 05:42:32 +0900"
+     "pubDate": "Sat, 19 Sep 2026 07:21:07 +0900"
+    },
+    {
+     "title": "トランプ大統領「グリーンランド安全保障 米に恒久管理 合意」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51190",
+     "pubDate": "Sat, 19 Sep 2026 08:17:19 +0900"
     },
     {
      "title": "日銀 どう物価安定図るか 今後の利上げも難しい判断",
@@ -28,19 +33,14 @@
      "pubDate": "Sat, 19 Sep 2026 03:43:25 +0900"
     },
     {
-     "title": "パキスタン“警察施設で自爆テロか 21人死亡”地元メディア",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51175",
-     "pubDate": "Sat, 19 Sep 2026 05:25:38 +0900"
+     "title": "“投資の神様”バフェット氏会長退任「時の流れに逆らえない」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51202",
+     "pubDate": "Sat, 19 Sep 2026 08:23:09 +0900"
     },
     {
      "title": "都市部の内水氾濫 国交省の検討会 年内めどに対策とりまとめ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51153",
      "pubDate": "Sat, 19 Sep 2026 05:48:58 +0900"
-    },
-    {
-     "title": "ロシア下院選挙 プーチン大統領も投票 ウクライナは厳しく非難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51182",
-     "pubDate": "Sat, 19 Sep 2026 06:00:58 +0900"
     }
    ]
   },
@@ -214,6 +214,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米新興AI企業 最新モデルを生命科学分野で提供 安全対策も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51203",
+     "pubDate": "Sat, 19 Sep 2026 08:26:38 +0900"
+    },
+    {
+     "title": "“投資の神様”バフェット氏会長退任「時の流れに逆らえない」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51202",
+     "pubDate": "Sat, 19 Sep 2026 08:23:09 +0900"
+    },
+    {
+     "title": "トランプ大統領「グリーンランド安全保障 米に恒久管理 合意」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51190",
+     "pubDate": "Sat, 19 Sep 2026 08:17:19 +0900"
+    },
+    {
      "title": "ロシア下院選挙 プーチン大統領も投票 ウクライナは厳しく非難",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51182",
      "pubDate": "Sat, 19 Sep 2026 06:00:58 +0900"
@@ -272,21 +287,6 @@
      "title": "台湾がフィリピンに初の巡視船供与へ 対中国で連携か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51088",
      "pubDate": "Fri, 18 Sep 2026 19:24:59 +0900"
-    },
-    {
-     "title": "ツタンカーメン王墓の奥に“未発見の部屋？”ネイチャーが報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51097",
-     "pubDate": "Fri, 18 Sep 2026 19:08:14 +0900"
-    },
-    {
-     "title": "中国と北朝鮮を結ぶ国境の橋 10月にも開通か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51087",
-     "pubDate": "Fri, 18 Sep 2026 18:54:42 +0900"
-    },
-    {
-     "title": "ネパール土石流 温暖化や高温 過去の地震など複合要因か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51075",
-     "pubDate": "Fri, 18 Sep 2026 18:26:49 +0900"
     }
    ]
   },
@@ -296,39 +296,39 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "コメ価格2年ぶり2000円台 懸念も",
-     "link": "https://news.yahoo.co.jp/pickup/6595741?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 12:50:41 GMT"
+     "title": "台風 21日夕方〜夜に関東最接近か",
+     "link": "https://news.yahoo.co.jp/pickup/6595755?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 22:13:30 GMT"
     },
     {
-     "title": "日販 Anthropicに書籍大量販売か",
-     "link": "https://news.yahoo.co.jp/pickup/6595748?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 13:43:22 GMT"
+     "title": "米 グリーンランド安保で「合意」",
+     "link": "https://news.yahoo.co.jp/pickup/6595770?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 23:30:16 GMT"
     },
     {
-     "title": "中道への交付金「納得」11% 読売",
-     "link": "https://news.yahoo.co.jp/pickup/6595749?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 13:53:11 GMT"
+     "title": "円急騰 政府日銀が円買い介入準備",
+     "link": "https://news.yahoo.co.jp/pickup/6595754?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 22:15:45 GMT"
     },
     {
-     "title": "新米1トンパックの下敷きに 死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6595753?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 14:43:06 GMT"
+     "title": "露下院選 帰還兵180人超が立候補",
+     "link": "https://news.yahoo.co.jp/pickup/6595760?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 22:37:35 GMT"
     },
     {
-     "title": "交番で夫殺され 崩れた幸せな日々",
-     "link": "https://news.yahoo.co.jp/pickup/6595737?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 12:10:16 GMT"
+     "title": "ダイアナ元妃の復讐ドレス 出品へ",
+     "link": "https://news.yahoo.co.jp/pickup/6595758?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 22:24:26 GMT"
     },
     {
-     "title": "岩田明子さん 難病診断されるまで",
-     "link": "https://news.yahoo.co.jp/pickup/6595744?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 13:05:49 GMT"
+     "title": "ヤンキースのジャッジ 再びIL入り",
+     "link": "https://news.yahoo.co.jp/pickup/6595767?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 23:07:06 GMT"
     },
     {
-     "title": "DeNA松尾 折れたバットが頭直撃",
-     "link": "https://news.yahoo.co.jp/pickup/6595745?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 13:12:57 GMT"
+     "title": "ZIP!の小泉氏巡る報道 日テレ謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6595769?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 23:32:36 GMT"
     },
     {
      "title": "佐野雄大が活動休止 療養を最優先",
