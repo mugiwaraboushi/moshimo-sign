@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-18T13:55:46.909Z",
+ "updatedAt": "2026-09-18T17:20:46.502Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "宮崎で危険警報 氾濫や土砂災害 低い土地の浸水に厳重警戒を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51124",
-     "pubDate": "Fri, 18 Sep 2026 22:50:09 +0900"
+     "title": "宮崎県南部平野部に「線状降水帯直前予測」（0:49）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51166",
+     "pubDate": "Sat, 19 Sep 2026 00:59:57 +0900"
     },
     {
-     "title": "台風25号は小笠原に接近 連休は伊豆諸島 関東甲信大雨のおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50946",
-     "pubDate": "Fri, 18 Sep 2026 21:09:28 +0900"
+     "title": "台風25号 小笠原暴風など警戒 伊豆諸島 関東など近づくおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51158",
+     "pubDate": "Sat, 19 Sep 2026 02:13:27 +0900"
     },
     {
      "title": "【台風】空の便やJR在来線に影響のおそれ 最新情報確認を",
@@ -23,24 +23,24 @@
      "pubDate": "Fri, 18 Sep 2026 20:35:00 +0900"
     },
     {
-     "title": "アジア大会ホッケー男子 韓国国歌でなく北朝鮮国歌流れるミス",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51129",
-     "pubDate": "Fri, 18 Sep 2026 20:41:48 +0900"
+     "title": "宮崎で危険警報 氾濫や土砂災害 低い土地の浸水に厳重警戒を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51124",
+     "pubDate": "Fri, 18 Sep 2026 22:50:00 +0900"
     },
     {
-     "title": "コメ平均価格5キロ2971円 約2年ぶりに2000円台に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51070",
-     "pubDate": "Fri, 18 Sep 2026 20:39:00 +0900"
+     "title": "空自の大型無人偵察機墜落 機体の一部の写真 自衛隊が公表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51071",
+     "pubDate": "Sat, 19 Sep 2026 00:08:00 +0900"
     },
     {
-     "title": "南シナ海でフィリピン当局船と中国海警局の船が衝突",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51143",
-     "pubDate": "Fri, 18 Sep 2026 22:09:10 +0900"
+     "title": "デイサービス送迎後に転倒死亡事故 介護施設側に賠償命令",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51152",
+     "pubDate": "Fri, 18 Sep 2026 22:41:47 +0900"
     },
     {
-     "title": "家族葬 実際の費用ＣＭの約３倍 消費者庁が運営会社に措置命令",
+     "title": "家族葬 実際の費用はCMの約3倍 消費者庁が運営会社に措置命令",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51106",
-     "pubDate": "Fri, 18 Sep 2026 20:43:54 +0900"
+     "pubDate": "Sat, 19 Sep 2026 01:48:34 +0900"
     }
    ]
   },
@@ -60,9 +60,9 @@
      "pubDate": "Fri, 18 Sep 2026 21:17:42 +0900"
     },
     {
-     "title": "家族葬 実際の費用ＣＭの約３倍 消費者庁が運営会社に措置命令",
+     "title": "家族葬 実際の費用はCMの約3倍 消費者庁が運営会社に措置命令",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51106",
-     "pubDate": "Fri, 18 Sep 2026 20:43:54 +0900"
+     "pubDate": "Sat, 19 Sep 2026 01:48:34 +0900"
     },
     {
      "title": "介護保険制度見直しへ議論 自己負担2割拡大など 専門家部会",
@@ -95,9 +95,9 @@
      "pubDate": "Fri, 18 Sep 2026 18:01:00 +0900"
     },
     {
-     "title": "空自の大型無人偵察機墜落 統合幕僚長「重く受け止めている」",
+     "title": "空自の大型無人偵察機墜落 機体の一部の写真 自衛隊が公表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51071",
-     "pubDate": "Fri, 18 Sep 2026 17:59:00 +0900"
+     "pubDate": "Sat, 19 Sep 2026 00:08:00 +0900"
     },
     {
      "title": "政策金利引き上げ 私たちの生活はどう変わる？【詳しく】",
@@ -296,24 +296,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風 東海ｰ東北は大雨など警戒を",
-     "link": "https://news.yahoo.co.jp/pickup/6595740?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 12:46:32 GMT"
+     "title": "コメ価格2年ぶり2000円台 懸念も",
+     "link": "https://news.yahoo.co.jp/pickup/6595741?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 12:50:41 GMT"
     },
     {
-     "title": "立憲系結集頓挫 泉氏ら入党見送り",
-     "link": "https://news.yahoo.co.jp/pickup/6595746?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 13:29:40 GMT"
+     "title": "日販 Anthropicに書籍大量販売か",
+     "link": "https://news.yahoo.co.jp/pickup/6595748?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 13:43:22 GMT"
     },
     {
-     "title": "日銀利上げ 金利との付き合い方は",
-     "link": "https://news.yahoo.co.jp/pickup/6595732?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 10:41:42 GMT"
+     "title": "中道への交付金「納得」11% 読売",
+     "link": "https://news.yahoo.co.jp/pickup/6595749?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 13:53:11 GMT"
     },
     {
-     "title": "プルデンシャル フルコミ制変更へ",
-     "link": "https://news.yahoo.co.jp/pickup/6595747?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 13:25:47 GMT"
+     "title": "新米1トンパックの下敷きに 死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6595753?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 14:43:06 GMT"
     },
     {
      "title": "交番で夫殺され 崩れた幸せな日々",
@@ -326,14 +326,14 @@
      "pubDate": "Fri, 18 Sep 2026 13:05:49 GMT"
     },
     {
-     "title": "新種の甲殻類 祖母にちなみ命名",
-     "link": "https://news.yahoo.co.jp/pickup/6595721?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 09:23:48 GMT"
-    },
-    {
      "title": "DeNA松尾 折れたバットが頭直撃",
      "link": "https://news.yahoo.co.jp/pickup/6595745?source=rss",
      "pubDate": "Fri, 18 Sep 2026 13:12:57 GMT"
+    },
+    {
+     "title": "佐野雄大が活動休止 療養を最優先",
+     "link": "https://news.yahoo.co.jp/pickup/6595751?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 14:25:32 GMT"
     }
    ]
   }
