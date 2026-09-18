@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-17T22:55:30.242Z",
+ "updatedAt": "2026-09-18T00:51:55.490Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,14 +18,19 @@
      "pubDate": "Fri, 18 Sep 2026 05:37:42 +0900"
     },
     {
-     "title": "ラスカー賞 筑波大柳沢教授 中外製薬研究者らにトロフィー",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50948",
-     "pubDate": "Fri, 18 Sep 2026 07:25:17 +0900"
-    },
-    {
-     "title": "九州新幹線 52日ぶりに全線で運行再開",
+     "title": "九州新幹線 52日ぶりに全線で運行再開で乗客からは安どの声",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50932",
      "pubDate": "Fri, 18 Sep 2026 06:29:00 +0900"
+    },
+    {
+     "title": "8月消費者物価指数は前年同月比+1.7％",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50959",
+     "pubDate": "Fri, 18 Sep 2026 09:05:24 +0900"
+    },
+    {
+     "title": "ドジャースが5年連続の地区優勝",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50949",
+     "pubDate": "Fri, 18 Sep 2026 08:11:00 +0900"
     },
     {
      "title": "日銀 金融政策決定会合 政策金利1.25％程度へ引き上げの見通し",
@@ -36,11 +41,6 @@
      "title": "ジャガイモ輸入解禁めぐり アメリカが手続き加速を要求",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50925",
      "pubDate": "Fri, 18 Sep 2026 05:51:03 +0900"
-    },
-    {
-     "title": "トランプ政権がアッバス議長を入国拒否 国連総会が遺憾の決議",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50952",
-     "pubDate": "Fri, 18 Sep 2026 07:32:14 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "国連報告書 イラン・ミナブの小学校への攻撃は「戦争犯罪」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50958",
+     "pubDate": "Fri, 18 Sep 2026 09:21:26 +0900"
+    },
+    {
+     "title": "トランプ政権 サウジアラビアにF35の売却承認 48機",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50954",
+     "pubDate": "Fri, 18 Sep 2026 08:18:19 +0900"
+    },
+    {
      "title": "トランプ政権がアッバス議長を入国拒否 国連総会が遺憾の決議",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de50952",
      "pubDate": "Fri, 18 Sep 2026 07:32:14 +0900"
@@ -277,16 +287,6 @@
      "title": "北朝鮮国防次官 「北京香山フォーラム」7年ぶり出席",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50892",
      "pubDate": "Thu, 17 Sep 2026 21:07:23 +0900"
-    },
-    {
-     "title": "バンコクの高級住宅で日本人4人拘束、特殊詐欺に関与か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50845",
-     "pubDate": "Thu, 17 Sep 2026 18:37:00 +0900"
-    },
-    {
-     "title": "米オープンAI 人間の意図に沿わないAI動作を早期公表へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50855",
-     "pubDate": "Thu, 17 Sep 2026 17:46:00 +0900"
     }
    ]
   },
@@ -296,19 +296,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "大型の台風25号 離れた所も注意",
-     "link": "https://news.yahoo.co.jp/pickup/6595639?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 14:18:58 GMT"
+     "title": "改造内閣 非主流派結集のリスクも",
+     "link": "https://news.yahoo.co.jp/pickup/6595651?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 23:00:45 GMT"
     },
     {
-     "title": "九州新幹線 52日ぶり全線運転",
-     "link": "https://news.yahoo.co.jp/pickup/6595645?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 21:48:34 GMT"
+     "title": "台風25号 接近前から大雨の恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6595654?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 23:08:38 GMT"
     },
     {
-     "title": "日産 新型スカイライン12月発表へ",
-     "link": "https://news.yahoo.co.jp/pickup/6595646?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 21:59:43 GMT"
+     "title": "ケーキ店死傷 店主らと口論か",
+     "link": "https://news.yahoo.co.jp/pickup/6595657?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 23:20:35 GMT"
+    },
+    {
+     "title": "ポプラ社 インドに現地法人設立へ",
+     "link": "https://news.yahoo.co.jp/pickup/6595664?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 00:27:41 GMT"
     },
     {
      "title": "目を疑った 練馬区にキツネの姿",
@@ -316,24 +321,19 @@
      "pubDate": "Thu, 17 Sep 2026 22:47:49 GMT"
     },
     {
-     "title": "カビが一斉に繁殖 雨続く秋に注意",
-     "link": "https://news.yahoo.co.jp/pickup/6595648?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 22:25:10 GMT"
+     "title": "iPhone18Pro発売 21万9800円から",
+     "link": "https://news.yahoo.co.jp/pickup/6595660?source=rss",
+     "pubDate": "Thu, 17 Sep 2026 23:49:58 GMT"
     },
     {
-     "title": "ウルフ氏死去 西武が「哀悼の意」",
-     "link": "https://news.yahoo.co.jp/pickup/6595650?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 22:37:50 GMT"
+     "title": "中日・大島洋平40歳 現役続行へ",
+     "link": "https://news.yahoo.co.jp/pickup/6595665?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 00:36:26 GMT"
     },
     {
-     "title": "ドジャース 地区5連覇を達成",
-     "link": "https://news.yahoo.co.jp/pickup/6595642?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 21:21:42 GMT"
-    },
-    {
-     "title": "神木隆之介&菅田将暉 auCMコラボ",
-     "link": "https://news.yahoo.co.jp/pickup/6595649?source=rss",
-     "pubDate": "Thu, 17 Sep 2026 22:30:16 GMT"
+     "title": "村上宗隆が32号3ラン 本拠地熱狂",
+     "link": "https://news.yahoo.co.jp/pickup/6595663?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 00:30:06 GMT"
     }
    ]
   }
