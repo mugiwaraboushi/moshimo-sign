@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-18T17:20:46.502Z",
+ "updatedAt": "2026-09-18T19:46:11.809Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "宮崎県南部平野部に「線状降水帯直前予測」（0:49）",
+     "title": "日銀が「レートチェック」を実施 円安けん制か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51169",
+     "pubDate": "Sat, 19 Sep 2026 03:43:25 +0900"
+    },
+    {
+     "title": "宮崎で線状降水帯直前予測 氾濫や土砂災害など厳重警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51166",
-     "pubDate": "Sat, 19 Sep 2026 00:59:57 +0900"
+     "pubDate": "Sat, 19 Sep 2026 02:52:00 +0900"
     },
     {
      "title": "台風25号 小笠原暴風など警戒 伊豆諸島 関東など近づくおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51158",
-     "pubDate": "Sat, 19 Sep 2026 02:13:27 +0900"
+     "pubDate": "Sat, 19 Sep 2026 02:13:00 +0900"
     },
     {
      "title": "【台風】空の便やJR在来線に影響のおそれ 最新情報確認を",
@@ -23,24 +28,19 @@
      "pubDate": "Fri, 18 Sep 2026 20:35:00 +0900"
     },
     {
-     "title": "宮崎で危険警報 氾濫や土砂災害 低い土地の浸水に厳重警戒を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51124",
-     "pubDate": "Fri, 18 Sep 2026 22:50:00 +0900"
-    },
-    {
-     "title": "空自の大型無人偵察機墜落 機体の一部の写真 自衛隊が公表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51071",
-     "pubDate": "Sat, 19 Sep 2026 00:08:00 +0900"
-    },
-    {
-     "title": "デイサービス送迎後に転倒死亡事故 介護施設側に賠償命令",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51152",
-     "pubDate": "Fri, 18 Sep 2026 22:41:47 +0900"
+     "title": "小泉防衛相 米国防長官と電話会談 安全保障協力推進で一致",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51167",
+     "pubDate": "Sat, 19 Sep 2026 02:25:44 +0900"
     },
     {
      "title": "家族葬 実際の費用はCMの約3倍 消費者庁が運営会社に措置命令",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51106",
      "pubDate": "Sat, 19 Sep 2026 01:48:34 +0900"
+    },
+    {
+     "title": "空自の大型無人偵察機墜落 機体の一部の写真 自衛隊が公表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51071",
+     "pubDate": "Sat, 19 Sep 2026 00:08:00 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "小泉防衛相 米国防長官と電話会談 安全保障協力推進で一致",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51167",
+     "pubDate": "Sat, 19 Sep 2026 02:25:44 +0900"
+    },
+    {
      "title": "南シナ海でフィリピン当局船と中国海警局の船が衝突",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51143",
      "pubDate": "Fri, 18 Sep 2026 22:09:10 +0900"
@@ -282,11 +287,6 @@
      "title": "北朝鮮キム・ヨジョン氏 多国間訓練を非難し対抗措置示唆",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51021",
      "pubDate": "Fri, 18 Sep 2026 13:24:00 +0900"
-    },
-    {
-     "title": "英国王“AI 破滅的な結果もたらすことがないよう対策必要”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50989",
-     "pubDate": "Fri, 18 Sep 2026 12:31:00 +0900"
     }
    ]
   },
