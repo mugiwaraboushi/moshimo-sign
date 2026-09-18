@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-18T09:54:43.139Z",
+ "updatedAt": "2026-09-18T13:55:46.909Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "大型の台風25号 小笠原に接近 連休の東日本太平洋側大雨おそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50946",
-     "pubDate": "Fri, 18 Sep 2026 17:20:31 +0900"
+     "title": "宮崎で危険警報 氾濫や土砂災害 低い土地の浸水に厳重警戒を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51124",
+     "pubDate": "Fri, 18 Sep 2026 22:50:09 +0900"
     },
     {
-     "title": "第2次高市改造内閣 副大臣27人決まる 維新からは2人起用",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51063",
-     "pubDate": "Fri, 18 Sep 2026 18:02:00 +0900"
+     "title": "台風25号は小笠原に接近 連休は伊豆諸島 関東甲信大雨のおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50946",
+     "pubDate": "Fri, 18 Sep 2026 21:09:28 +0900"
+    },
+    {
+     "title": "【台風】空の便やJR在来線に影響のおそれ 最新情報確認を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51068",
+     "pubDate": "Fri, 18 Sep 2026 20:35:00 +0900"
+    },
+    {
+     "title": "アジア大会ホッケー男子 韓国国歌でなく北朝鮮国歌流れるミス",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51129",
+     "pubDate": "Fri, 18 Sep 2026 20:41:48 +0900"
     },
     {
      "title": "コメ平均価格5キロ2971円 約2年ぶりに2000円台に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51070",
-     "pubDate": "Fri, 18 Sep 2026 17:39:15 +0900"
+     "pubDate": "Fri, 18 Sep 2026 20:39:00 +0900"
     },
     {
-     "title": "円安進む 日銀利上げペース示唆せずの見方",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51089",
-     "pubDate": "Fri, 18 Sep 2026 18:20:09 +0900"
+     "title": "南シナ海でフィリピン当局船と中国海警局の船が衝突",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51143",
+     "pubDate": "Fri, 18 Sep 2026 22:09:10 +0900"
     },
     {
-     "title": "日銀 利上げ決定 政策金利1.25％程度へと引き上げ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50968",
-     "pubDate": "Fri, 18 Sep 2026 18:45:30 +0900"
-    },
-    {
-     "title": "インフルエンザ患者数 1.7倍に増加",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51072",
-     "pubDate": "Fri, 18 Sep 2026 18:24:00 +0900"
-    },
-    {
-     "title": "ネパール土石流 温暖化や高温 過去の地震など複合要因か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51075",
-     "pubDate": "Fri, 18 Sep 2026 18:26:49 +0900"
+     "title": "家族葬 実際の費用ＣＭの約３倍 消費者庁が運営会社に措置命令",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51106",
+     "pubDate": "Fri, 18 Sep 2026 20:43:54 +0900"
     }
    ]
   },
@@ -50,9 +50,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "デイサービス送迎後に転倒死亡事故 介護施設側に賠償命令",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51152",
+     "pubDate": "Fri, 18 Sep 2026 22:41:47 +0900"
+    },
+    {
+     "title": "裁判官が同じ事件を担当 大阪高裁がやり直し命じる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51127",
+     "pubDate": "Fri, 18 Sep 2026 21:17:42 +0900"
+    },
+    {
+     "title": "家族葬 実際の費用ＣＭの約３倍 消費者庁が運営会社に措置命令",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51106",
+     "pubDate": "Fri, 18 Sep 2026 20:43:54 +0900"
+    },
+    {
+     "title": "介護保険制度見直しへ議論 自己負担2割拡大など 専門家部会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51077",
+     "pubDate": "Fri, 18 Sep 2026 20:15:35 +0900"
+    },
+    {
+     "title": "石川 珠洲 地震被害 国道のトンネル通行再開 観光関係者が期待",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51095",
+     "pubDate": "Fri, 18 Sep 2026 19:15:49 +0900"
+    },
+    {
      "title": "「まんじゅうや」票訴訟 茨城 神栖市長 木内氏が上告",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51093",
-     "pubDate": "Fri, 18 Sep 2026 18:50:15 +0900"
+     "pubDate": "Fri, 18 Sep 2026 18:50:00 +0900"
     },
     {
      "title": "福岡県議会 金銭授受問題の第三者委員会“来年3月までに報告”",
@@ -62,7 +87,7 @@
     {
      "title": "使用済み核燃料の中間貯蔵施設 関電・東北電も搬入の計画案",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51078",
-     "pubDate": "Fri, 18 Sep 2026 18:32:48 +0900"
+     "pubDate": "Fri, 18 Sep 2026 18:32:00 +0900"
     },
     {
      "title": "福島 猪苗代湖ボート3人死傷事故 最高裁で弁論",
@@ -77,12 +102,12 @@
     {
      "title": "政策金利引き上げ 私たちの生活はどう変わる？【詳しく】",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de50967",
-     "pubDate": "Fri, 18 Sep 2026 18:54:15 +0900"
+     "pubDate": "Fri, 18 Sep 2026 19:46:43 +0900"
     },
     {
      "title": "コメ平均価格5キロ2971円 約2年ぶりに2000円台に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51070",
-     "pubDate": "Fri, 18 Sep 2026 17:39:15 +0900"
+     "pubDate": "Fri, 18 Sep 2026 20:39:00 +0900"
     },
     {
      "title": "“隣家から自宅見られ不安”2審も窓に目隠し設置命じる",
@@ -97,32 +122,7 @@
     {
      "title": "ジャガイモ輸入解禁手続きで説明会 生産者「やっていけない」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51050",
-     "pubDate": "Fri, 18 Sep 2026 16:02:00 +0900"
-    },
-    {
-     "title": "5人死傷鉄骨落下事故で大林組の社員2人を書類送検 警視庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51052",
-     "pubDate": "Fri, 18 Sep 2026 15:47:00 +0900"
-    },
-    {
-     "title": "国交省 内水氾濫防ぐため排水目標の引き上げを検討",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51044",
-     "pubDate": "Fri, 18 Sep 2026 15:02:00 +0900"
-    },
-    {
-     "title": "北朝鮮サイバー攻撃組織の活動明らかに 日本でなりすましも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51012",
-     "pubDate": "Fri, 18 Sep 2026 15:00:00 +0900"
-    },
-    {
-     "title": "新潟 十日町市 無人の車が園児の列に突っ込み5人けが",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51046",
-     "pubDate": "Fri, 18 Sep 2026 14:59:00 +0900"
-    },
-    {
-     "title": "セブン＆アイ・HD名誉顧問 鈴木敏文氏の「お別れの会」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51039",
-     "pubDate": "Fri, 18 Sep 2026 14:45:00 +0900"
+     "pubDate": "Fri, 18 Sep 2026 19:59:34 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "国立美術館6施設で観覧料金値上げへ 来月以降2倍から3倍に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51116",
+     "pubDate": "Fri, 18 Sep 2026 20:52:29 +0900"
+    },
+    {
+     "title": "ツタンカーメン王墓の奥に“未発見の部屋？”ネイチャーが報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51097",
+     "pubDate": "Fri, 18 Sep 2026 19:08:14 +0900"
+    },
     {
      "title": "インフルエンザ患者数 1.7倍に増加",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51072",
@@ -195,16 +205,6 @@
      "title": "ビル・ゲイツ氏がAIリスクに危機感 習国家主席とも会談へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260915de50436",
      "pubDate": "Tue, 15 Sep 2026 20:49:33 +0900"
-    },
-    {
-     "title": "“ジャッキー吉川とブルー・コメッツ”三原綱木さん死去",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50371",
-     "pubDate": "Tue, 15 Sep 2026 16:40:00 +0900"
-    },
-    {
-     "title": "エミー賞 ヒロ・ムライさんがアジア系初コメディー部門監督賞",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50369",
-     "pubDate": "Tue, 15 Sep 2026 16:16:00 +0900"
     }
    ]
   },
@@ -213,6 +213,51 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "南シナ海でフィリピン当局船と中国海警局の船が衝突",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51143",
+     "pubDate": "Fri, 18 Sep 2026 22:09:10 +0900"
+    },
+    {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月18日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46995",
+     "pubDate": "Fri, 18 Sep 2026 21:57:26 +0900"
+    },
+    {
+     "title": "フィリピンの学校で銃撃事件 生徒ら3人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51130",
+     "pubDate": "Fri, 18 Sep 2026 21:03:14 +0900"
+    },
+    {
+     "title": "円安進む 1ドル＝158円台に 日銀植田総裁の発言受け",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51120",
+     "pubDate": "Fri, 18 Sep 2026 20:47:43 +0900"
+    },
+    {
+     "title": "アジア大会ホッケー男子 韓国国歌でなく北朝鮮国歌流れるミス",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51129",
+     "pubDate": "Fri, 18 Sep 2026 20:41:48 +0900"
+    },
+    {
+     "title": "ロシア軍ジェットエンジン搭載無人機 3か月で6倍超か 報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51104",
+     "pubDate": "Fri, 18 Sep 2026 19:26:29 +0900"
+    },
+    {
+     "title": "台湾がフィリピンに初の巡視船供与へ 対中国で連携か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51088",
+     "pubDate": "Fri, 18 Sep 2026 19:24:59 +0900"
+    },
+    {
+     "title": "ツタンカーメン王墓の奥に“未発見の部屋？”ネイチャーが報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51097",
+     "pubDate": "Fri, 18 Sep 2026 19:08:14 +0900"
+    },
+    {
+     "title": "中国と北朝鮮を結ぶ国境の橋 10月にも開通か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51087",
+     "pubDate": "Fri, 18 Sep 2026 18:54:42 +0900"
+    },
     {
      "title": "ネパール土石流 温暖化や高温 過去の地震など複合要因か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51075",
@@ -242,51 +287,6 @@
      "title": "英国王“AI 破滅的な結果もたらすことがないよう対策必要”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de50989",
      "pubDate": "Fri, 18 Sep 2026 12:31:00 +0900"
-    },
-    {
-     "title": "高市首相 来週トランプ大統領と会談を調整 中国で意見交換か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50983",
-     "pubDate": "Fri, 18 Sep 2026 17:25:14 +0900"
-    },
-    {
-     "title": "「AI開発競争をやめよ」アメリカで若者が集まりデモ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50974",
-     "pubDate": "Fri, 18 Sep 2026 11:36:00 +0900"
-    },
-    {
-     "title": "国連報告書 イラン・ミナブの小学校への攻撃は「戦争犯罪」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50958",
-     "pubDate": "Fri, 18 Sep 2026 09:21:26 +0900"
-    },
-    {
-     "title": "トランプ政権 サウジアラビアにF35の売却承認 48機",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50954",
-     "pubDate": "Fri, 18 Sep 2026 08:18:19 +0900"
-    },
-    {
-     "title": "トランプ政権がアッバス議長を入国拒否 国連総会が遺憾の決議",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50952",
-     "pubDate": "Fri, 18 Sep 2026 07:32:00 +0900"
-    },
-    {
-     "title": "イエメン国内避難10万人 2千人超は対岸アフリカ側に避難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50950",
-     "pubDate": "Fri, 18 Sep 2026 07:11:47 +0900"
-    },
-    {
-     "title": "中国王毅外相と米ルビオ国務長官が電話会談 首脳会談へ調整か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50938",
-     "pubDate": "Fri, 18 Sep 2026 07:03:00 +0900"
-    },
-    {
-     "title": "ウクライナ国境付近で再攻撃 住民に避難呼びかけ ポーランド",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50942",
-     "pubDate": "Fri, 18 Sep 2026 06:46:00 +0900"
-    },
-    {
-     "title": "スウェーデン総選挙 中道左派が過半数制す 4年ぶり政権交代へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50939",
-     "pubDate": "Fri, 18 Sep 2026 06:40:57 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風 関東は20-21日大雨など恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6595699?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 06:09:27 GMT"
+     "title": "台風 東海ｰ東北は大雨など警戒を",
+     "link": "https://news.yahoo.co.jp/pickup/6595740?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 12:46:32 GMT"
     },
     {
-     "title": "日銀総裁 会見で利上げペース言及",
-     "link": "https://news.yahoo.co.jp/pickup/6595713?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 08:22:23 GMT"
+     "title": "立憲系結集頓挫 泉氏ら入党見送り",
+     "link": "https://news.yahoo.co.jp/pickup/6595746?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 13:29:40 GMT"
     },
     {
-     "title": "副大臣に今井絵理子氏ら 名簿発表",
-     "link": "https://news.yahoo.co.jp/pickup/6595712?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 07:53:50 GMT"
+     "title": "日銀利上げ 金利との付き合い方は",
+     "link": "https://news.yahoo.co.jp/pickup/6595732?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 10:41:42 GMT"
     },
     {
-     "title": "ヘルメットさせず子死亡 親の後悔",
-     "link": "https://news.yahoo.co.jp/pickup/6595723?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 09:13:50 GMT"
+     "title": "プルデンシャル フルコミ制変更へ",
+     "link": "https://news.yahoo.co.jp/pickup/6595747?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 13:25:47 GMT"
     },
     {
-     "title": "クリアアサヒをビールに転換 発表",
-     "link": "https://news.yahoo.co.jp/pickup/6595715?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 09:03:47 GMT"
+     "title": "交番で夫殺され 崩れた幸せな日々",
+     "link": "https://news.yahoo.co.jp/pickup/6595737?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 12:10:16 GMT"
     },
     {
-     "title": "おかきの播磨屋本店 廃業の方針",
-     "link": "https://news.yahoo.co.jp/pickup/6595709?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 07:47:32 GMT"
+     "title": "岩田明子さん 難病診断されるまで",
+     "link": "https://news.yahoo.co.jp/pickup/6595744?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 13:05:49 GMT"
     },
     {
-     "title": "アジア大会の行事に豊臣秀吉 抗議",
-     "link": "https://news.yahoo.co.jp/pickup/6595714?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 08:37:57 GMT"
+     "title": "新種の甲殻類 祖母にちなみ命名",
+     "link": "https://news.yahoo.co.jp/pickup/6595721?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 09:23:48 GMT"
     },
     {
-     "title": "INI・佐野雄大 活動休止を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6595725?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 09:22:26 GMT"
+     "title": "DeNA松尾 折れたバットが頭直撃",
+     "link": "https://news.yahoo.co.jp/pickup/6595745?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 13:12:57 GMT"
     }
    ]
   }
