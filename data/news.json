@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-18T23:51:36.324Z",
+ "updatedAt": "2026-09-19T01:49:27.248Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風25号 小笠原暴風警戒 あす以降伊豆諸島 関東近づくおそれ",
+     "title": "大型の台風25号 あす以降 伊豆諸島・関東などに接近のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51158",
-     "pubDate": "Sat, 19 Sep 2026 07:21:07 +0900"
+     "pubDate": "Sat, 19 Sep 2026 10:23:03 +0900"
+    },
+    {
+     "title": "【気象予報士解説】台風25号 今後の進路は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51215",
+     "pubDate": "Sat, 19 Sep 2026 10:36:31 +0900"
+    },
+    {
+     "title": "宮崎 大雨の日南市 高齢女性が土砂に巻き込まれ死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51211",
+     "pubDate": "Sat, 19 Sep 2026 09:57:00 +0900"
     },
     {
      "title": "トランプ大統領「グリーンランド安全保障 米に恒久管理 合意」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51190",
-     "pubDate": "Sat, 19 Sep 2026 08:17:19 +0900"
+     "pubDate": "Sat, 19 Sep 2026 09:59:00 +0900"
     },
     {
-     "title": "日銀 どう物価安定図るか 今後の利上げも難しい判断",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51165",
-     "pubDate": "Sat, 19 Sep 2026 05:45:25 +0900"
+     "title": "トランプ大統領 一部メディアに“ホワイトハウスで取材禁止”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51209",
+     "pubDate": "Sat, 19 Sep 2026 10:25:39 +0900"
     },
     {
-     "title": "高市首相 日米首脳会談を調整 対中認識のすりあわせ図る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51163",
-     "pubDate": "Sat, 19 Sep 2026 05:07:07 +0900"
+     "title": "イランで徹底抗戦を強調する大規模集会 国民の団結ねらいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51212",
+     "pubDate": "Sat, 19 Sep 2026 10:40:20 +0900"
     },
     {
-     "title": "日銀が「レートチェック」を実施 円安けん制か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51169",
-     "pubDate": "Sat, 19 Sep 2026 03:43:25 +0900"
-    },
-    {
-     "title": "“投資の神様”バフェット氏会長退任「時の流れに逆らえない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51202",
-     "pubDate": "Sat, 19 Sep 2026 08:23:09 +0900"
-    },
-    {
-     "title": "都市部の内水氾濫 国交省の検討会 年内めどに対策とりまとめ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51153",
-     "pubDate": "Sat, 19 Sep 2026 05:48:58 +0900"
+     "title": "米新興AI企業 最新モデルを生命科学分野で提供 安全対策も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51203",
+     "pubDate": "Sat, 19 Sep 2026 08:26:38 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "イランで徹底抗戦を強調する大規模集会 国民の団結ねらいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51212",
+     "pubDate": "Sat, 19 Sep 2026 10:40:20 +0900"
+    },
+    {
+     "title": "トランプ大統領 一部メディアに“ホワイトハウスで取材禁止”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51209",
+     "pubDate": "Sat, 19 Sep 2026 10:25:39 +0900"
+    },
+    {
      "title": "米新興AI企業 最新モデルを生命科学分野で提供 安全対策も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51203",
      "pubDate": "Sat, 19 Sep 2026 08:26:38 +0900"
@@ -226,7 +236,7 @@
     {
      "title": "トランプ大統領「グリーンランド安全保障 米に恒久管理 合意」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51190",
-     "pubDate": "Sat, 19 Sep 2026 08:17:19 +0900"
+     "pubDate": "Sat, 19 Sep 2026 09:59:00 +0900"
     },
     {
      "title": "ロシア下院選挙 プーチン大統領も投票 ウクライナは厳しく非難",
@@ -246,7 +256,7 @@
     {
      "title": "高市首相 日米首脳会談を調整 対中認識のすりあわせ図る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51163",
-     "pubDate": "Sat, 19 Sep 2026 05:07:07 +0900"
+     "pubDate": "Sat, 19 Sep 2026 05:07:00 +0900"
     },
     {
      "title": "小泉防衛相 米国防長官と電話会談 安全保障協力推進で一致",
@@ -277,16 +287,6 @@
      "title": "アジア大会ホッケー男子 韓国国歌でなく北朝鮮国歌流れるミス",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51129",
      "pubDate": "Fri, 18 Sep 2026 20:41:48 +0900"
-    },
-    {
-     "title": "ロシア軍ジェットエンジン搭載無人機 3か月で6倍超か 報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51104",
-     "pubDate": "Fri, 18 Sep 2026 19:26:29 +0900"
-    },
-    {
-     "title": "台湾がフィリピンに初の巡視船供与へ 対中国で連携か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51088",
-     "pubDate": "Fri, 18 Sep 2026 19:24:59 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風 21日夕方〜夜に関東最接近か",
-     "link": "https://news.yahoo.co.jp/pickup/6595755?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 22:13:30 GMT"
+     "title": "台風25号 21日に関東に最接近か",
+     "link": "https://news.yahoo.co.jp/pickup/6595783?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 00:58:49 GMT"
     },
     {
-     "title": "米 グリーンランド安保で「合意」",
-     "link": "https://news.yahoo.co.jp/pickup/6595770?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 23:30:16 GMT"
+     "title": "習氏訪米 異例の経済代表団同行へ",
+     "link": "https://news.yahoo.co.jp/pickup/6595766?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 23:10:01 GMT"
     },
     {
-     "title": "円急騰 政府日銀が円買い介入準備",
-     "link": "https://news.yahoo.co.jp/pickup/6595754?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 22:15:45 GMT"
+     "title": "日米首脳会談 22日に米NYで開催",
+     "link": "https://news.yahoo.co.jp/pickup/6595772?source=rss",
+     "pubDate": "Fri, 18 Sep 2026 23:39:04 GMT"
     },
     {
-     "title": "露下院選 帰還兵180人超が立候補",
-     "link": "https://news.yahoo.co.jp/pickup/6595760?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 22:37:35 GMT"
+     "title": "散弾銃3丁など盗まれる 警察捜査",
+     "link": "https://news.yahoo.co.jp/pickup/6595784?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 01:12:48 GMT"
     },
     {
-     "title": "ダイアナ元妃の復讐ドレス 出品へ",
-     "link": "https://news.yahoo.co.jp/pickup/6595758?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 22:24:26 GMT"
+     "title": "車道真ん中に2歳児 保護した男性",
+     "link": "https://news.yahoo.co.jp/pickup/6595781?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 00:53:36 GMT"
     },
     {
-     "title": "ヤンキースのジャッジ 再びIL入り",
-     "link": "https://news.yahoo.co.jp/pickup/6595767?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 23:07:06 GMT"
+     "title": "露 金獅子賞監督を「スパイ」指定",
+     "link": "https://news.yahoo.co.jp/pickup/6595778?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 00:22:00 GMT"
+    },
+    {
+     "title": "フォーエバーヤング 米G1で勝利",
+     "link": "https://news.yahoo.co.jp/pickup/6595780?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 00:48:22 GMT"
     },
     {
      "title": "ZIP!の小泉氏巡る報道 日テレ謝罪",
      "link": "https://news.yahoo.co.jp/pickup/6595769?source=rss",
      "pubDate": "Fri, 18 Sep 2026 23:32:36 GMT"
-    },
-    {
-     "title": "佐野雄大が活動休止 療養を最優先",
-     "link": "https://news.yahoo.co.jp/pickup/6595751?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 14:25:32 GMT"
     }
    ]
   }
