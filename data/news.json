@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-19T01:49:27.248Z",
+ "updatedAt": "2026-09-19T06:45:06.660Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,37 +10,37 @@
     {
      "title": "大型の台風25号 あす以降 伊豆諸島・関東などに接近のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51158",
-     "pubDate": "Sat, 19 Sep 2026 10:23:03 +0900"
+     "pubDate": "Sat, 19 Sep 2026 13:03:00 +0900"
+    },
+    {
+     "title": "米カリフォルニア州 AIに「キルスイッチ」導入義務化検討へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51235",
+     "pubDate": "Sat, 19 Sep 2026 14:43:46 +0900"
+    },
+    {
+     "title": "北朝鮮 キム総書記が軍需工場を視察 兵器にAI導入拡大を指示",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51237",
+     "pubDate": "Sat, 19 Sep 2026 15:03:24 +0900"
+    },
+    {
+     "title": "グーグルの生成AI サイバー能力試験中に他社のシステムに侵入",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51229",
+     "pubDate": "Sat, 19 Sep 2026 12:55:00 +0900"
     },
     {
      "title": "【気象予報士解説】台風25号 今後の進路は",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51215",
-     "pubDate": "Sat, 19 Sep 2026 10:36:31 +0900"
+     "pubDate": "Sat, 19 Sep 2026 12:05:34 +0900"
     },
     {
-     "title": "宮崎 大雨の日南市 高齢女性が土砂に巻き込まれ死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51211",
-     "pubDate": "Sat, 19 Sep 2026 09:57:00 +0900"
+     "title": "ドジャース大谷翔平 復帰を前に実戦形式で調整の方針",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51240",
+     "pubDate": "Sat, 19 Sep 2026 15:11:44 +0900"
     },
     {
-     "title": "トランプ大統領「グリーンランド安全保障 米に恒久管理 合意」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51190",
-     "pubDate": "Sat, 19 Sep 2026 09:59:00 +0900"
-    },
-    {
-     "title": "トランプ大統領 一部メディアに“ホワイトハウスで取材禁止”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51209",
-     "pubDate": "Sat, 19 Sep 2026 10:25:39 +0900"
-    },
-    {
-     "title": "イランで徹底抗戦を強調する大規模集会 国民の団結ねらいか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51212",
-     "pubDate": "Sat, 19 Sep 2026 10:40:20 +0900"
-    },
-    {
-     "title": "米新興AI企業 最新モデルを生命科学分野で提供 安全対策も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51203",
-     "pubDate": "Sat, 19 Sep 2026 08:26:38 +0900"
+     "title": "埼玉 羽生 空き巣で住宅から散弾銃3丁と実弾125発盗まれる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51222",
+     "pubDate": "Sat, 19 Sep 2026 11:57:00 +0900"
     }
    ]
   },
@@ -50,9 +50,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "動画】Pickup NEWS（9月19日）",
+     "title": "秋の連休 ボランティアが被災地で片づけ 熊本 八代",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51219",
+     "pubDate": "Sat, 19 Sep 2026 12:01:42 +0900"
+    },
+    {
+     "title": "埼玉 羽生 空き巣で住宅から散弾銃3丁と実弾125発盗まれる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51222",
+     "pubDate": "Sat, 19 Sep 2026 11:57:00 +0900"
+    },
+    {
+     "title": "秋の連休初日 台風の影響心配も交通機関は混雑",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51221",
+     "pubDate": "Sat, 19 Sep 2026 11:53:00 +0900"
+    },
+    {
+     "title": "台風25号に備える 八丈島の酒蔵で雨風対策 静岡県の漁港でも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51220",
+     "pubDate": "Sat, 19 Sep 2026 11:39:00 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（9月19日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51062",
-     "pubDate": "Sat, 19 Sep 2026 06:53:17 +0900"
+     "pubDate": "Sat, 19 Sep 2026 13:44:00 +0900"
     },
     {
      "title": "デイサービス送迎後に転倒死亡事故 介護施設側に賠償命令",
@@ -103,26 +123,6 @@
      "title": "空自の大型無人偵察機墜落 機体の一部の写真 自衛隊が公表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51071",
      "pubDate": "Sat, 19 Sep 2026 00:08:00 +0900"
-    },
-    {
-     "title": "政策金利引き上げ 私たちの生活はどう変わる？【詳しく】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de50967",
-     "pubDate": "Fri, 18 Sep 2026 19:46:43 +0900"
-    },
-    {
-     "title": "コメ平均価格5キロ2971円 約2年ぶりに2000円台に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51070",
-     "pubDate": "Fri, 18 Sep 2026 20:39:00 +0900"
-    },
-    {
-     "title": "“隣家から自宅見られ不安”2審も窓に目隠し設置命じる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51057",
-     "pubDate": "Fri, 18 Sep 2026 16:44:00 +0900"
-    },
-    {
-     "title": "性別変更した男性 子どもとの親子関係求める訴え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51056",
-     "pubDate": "Fri, 18 Sep 2026 16:29:00 +0900"
     }
    ]
   },
@@ -131,6 +131,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "米カリフォルニア州 AIに「キルスイッチ」導入義務化検討へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51235",
+     "pubDate": "Sat, 19 Sep 2026 14:43:46 +0900"
+    },
+    {
+     "title": "グーグルの生成AI サイバー能力試験中に他社のシステムに侵入",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51229",
+     "pubDate": "Sat, 19 Sep 2026 12:55:00 +0900"
+    },
+    {
+     "title": "キトラ古墳の極彩色壁画 初めて3つ同時公開 奈良 明日香村",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51228",
+     "pubDate": "Sat, 19 Sep 2026 12:49:00 +0900"
+    },
     {
      "title": "国立美術館6施設で観覧料金値上げへ 来月以降2倍から3倍に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51116",
@@ -190,21 +205,6 @@
      "title": "アルツハイマー病治療薬「レカネマブ」皮下注射型が正式承認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50703",
      "pubDate": "Thu, 17 Sep 2026 03:28:21 +0900"
-    },
-    {
-     "title": "マダニ感染症 北海道に新たな系統のウイルス 以前から定着か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50597",
-     "pubDate": "Wed, 16 Sep 2026 18:04:32 +0900"
-    },
-    {
-     "title": "国産AIプロジェクトで開発のロボット試作機公開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260916de50572",
-     "pubDate": "Wed, 16 Sep 2026 14:18:00 +0900"
-    },
-    {
-     "title": "ビル・ゲイツ氏がAIリスクに危機感 習国家主席とも会談へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260915de50436",
-     "pubDate": "Tue, 15 Sep 2026 20:49:33 +0900"
     }
    ]
   },
@@ -214,6 +214,41 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "北朝鮮 キム総書記が軍需工場を視察 兵器にAI導入拡大を指示",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51237",
+     "pubDate": "Sat, 19 Sep 2026 15:03:24 +0900"
+    },
+    {
+     "title": "米カリフォルニア州 AIに「キルスイッチ」導入義務化検討へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51235",
+     "pubDate": "Sat, 19 Sep 2026 14:43:46 +0900"
+    },
+    {
+     "title": "グーグルの生成AI サイバー能力試験中に他社のシステムに侵入",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51229",
+     "pubDate": "Sat, 19 Sep 2026 12:55:00 +0900"
+    },
+    {
+     "title": "米政府高官“日米首脳会談は22日 米中首脳会談はAIなど議論”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51218",
+     "pubDate": "Sat, 19 Sep 2026 12:09:00 +0900"
+    },
+    {
+     "title": "アメリカ中間選挙の期日前投票 一部の州で始まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51216",
+     "pubDate": "Sat, 19 Sep 2026 11:23:00 +0900"
+    },
+    {
+     "title": "仏大統領が警戒感「ロシアの攻撃性と脅威は性質が変化」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51210",
+     "pubDate": "Sat, 19 Sep 2026 10:57:50 +0900"
+    },
+    {
+     "title": "ゼレンスキー大統領“ジェット無人機の迎撃試験に成功”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51213",
+     "pubDate": "Sat, 19 Sep 2026 10:53:27 +0900"
+    },
+    {
      "title": "イランで徹底抗戦を強調する大規模集会 国民の団結ねらいか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51212",
      "pubDate": "Sat, 19 Sep 2026 10:40:20 +0900"
@@ -221,17 +256,17 @@
     {
      "title": "トランプ大統領 一部メディアに“ホワイトハウスで取材禁止”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51209",
-     "pubDate": "Sat, 19 Sep 2026 10:25:39 +0900"
+     "pubDate": "Sat, 19 Sep 2026 10:25:00 +0900"
     },
     {
      "title": "米新興AI企業 最新モデルを生命科学分野で提供 安全対策も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51203",
-     "pubDate": "Sat, 19 Sep 2026 08:26:38 +0900"
+     "pubDate": "Sat, 19 Sep 2026 08:26:00 +0900"
     },
     {
      "title": "“投資の神様”バフェット氏会長退任「時の流れに逆らえない」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51202",
-     "pubDate": "Sat, 19 Sep 2026 08:23:09 +0900"
+     "pubDate": "Sat, 19 Sep 2026 08:23:00 +0900"
     },
     {
      "title": "トランプ大統領「グリーンランド安全保障 米に恒久管理 合意」",
@@ -252,41 +287,6 @@
      "title": "パキスタン“警察施設で自爆テロか 21人死亡”地元メディア",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51175",
      "pubDate": "Sat, 19 Sep 2026 05:25:38 +0900"
-    },
-    {
-     "title": "高市首相 日米首脳会談を調整 対中認識のすりあわせ図る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51163",
-     "pubDate": "Sat, 19 Sep 2026 05:07:00 +0900"
-    },
-    {
-     "title": "小泉防衛相 米国防長官と電話会談 安全保障協力推進で一致",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51167",
-     "pubDate": "Sat, 19 Sep 2026 02:25:44 +0900"
-    },
-    {
-     "title": "南シナ海でフィリピン当局船と中国海警局の船が衝突",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51143",
-     "pubDate": "Fri, 18 Sep 2026 22:09:10 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月18日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46995",
-     "pubDate": "Fri, 18 Sep 2026 21:57:26 +0900"
-    },
-    {
-     "title": "フィリピンの学校で銃撃事件 生徒ら3人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51130",
-     "pubDate": "Fri, 18 Sep 2026 21:03:14 +0900"
-    },
-    {
-     "title": "円安進む 1ドル＝158円台に 日銀植田総裁の発言受け",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51120",
-     "pubDate": "Fri, 18 Sep 2026 20:47:43 +0900"
-    },
-    {
-     "title": "アジア大会ホッケー男子 韓国国歌でなく北朝鮮国歌流れるミス",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51129",
-     "pubDate": "Fri, 18 Sep 2026 20:41:48 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風25号 21日に関東に最接近か",
-     "link": "https://news.yahoo.co.jp/pickup/6595783?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 00:58:49 GMT"
+     "title": "台風 太平洋側で道路への影響予想",
+     "link": "https://news.yahoo.co.jp/pickup/6595810?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 06:28:06 GMT"
     },
     {
-     "title": "習氏訪米 異例の経済代表団同行へ",
-     "link": "https://news.yahoo.co.jp/pickup/6595766?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 23:10:01 GMT"
+     "title": "対露制裁法が成立 トランプ氏署名",
+     "link": "https://news.yahoo.co.jp/pickup/6595796?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 04:42:39 GMT"
     },
     {
-     "title": "日米首脳会談 22日に米NYで開催",
-     "link": "https://news.yahoo.co.jp/pickup/6595772?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 23:39:04 GMT"
+     "title": "OpenAI 安保理でAI安全策説明へ",
+     "link": "https://news.yahoo.co.jp/pickup/6595800?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 05:01:46 GMT"
     },
     {
-     "title": "散弾銃3丁など盗まれる 警察捜査",
-     "link": "https://news.yahoo.co.jp/pickup/6595784?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 01:12:48 GMT"
+     "title": "呼吸器材外れる ダイビング客死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6595794?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 04:07:53 GMT"
     },
     {
-     "title": "車道真ん中に2歳児 保護した男性",
-     "link": "https://news.yahoo.co.jp/pickup/6595781?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 00:53:36 GMT"
+     "title": "timelesz猪俣周杜容疑者を逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6595790?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 03:22:18 GMT"
     },
     {
-     "title": "露 金獅子賞監督を「スパイ」指定",
-     "link": "https://news.yahoo.co.jp/pickup/6595778?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 00:22:00 GMT"
+     "title": "力士の体重差100kg超 圧巻の一番",
+     "link": "https://news.yahoo.co.jp/pickup/6595811?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 06:31:23 GMT"
     },
     {
-     "title": "フォーエバーヤング 米G1で勝利",
-     "link": "https://news.yahoo.co.jp/pickup/6595780?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 00:48:22 GMT"
+     "title": "酒井法子 熊本の被災地で炊き出し",
+     "link": "https://news.yahoo.co.jp/pickup/6595798?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 04:44:33 GMT"
     },
     {
-     "title": "ZIP!の小泉氏巡る報道 日テレ謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6595769?source=rss",
-     "pubDate": "Fri, 18 Sep 2026 23:32:36 GMT"
+     "title": "YOSHIKI過労で倒れる 今は回復中",
+     "link": "https://news.yahoo.co.jp/pickup/6595806?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 05:54:09 GMT"
     }
    ]
   }
