@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-19T19:39:13.515Z",
+ "updatedAt": "2026-09-19T21:49:46.340Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,34 +8,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風25号 21～22日ごろ関東などに接近予想 勢力強まる見込み",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51158",
-     "pubDate": "Sat, 19 Sep 2026 23:04:29 +0900"
+     "title": "台風25号 21日から関東など接近へ 大雨や暴風に備えを",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51282",
+     "pubDate": "Sun, 20 Sep 2026 06:39:51 +0900"
     },
     {
-     "title": "“サウジアラビア首都 国際空港近くの燃料タンク炎上”報道",
+     "title": "トランプ大統領「AIフォース」創設と発表 安全性懸念の中",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51300",
+     "pubDate": "Sun, 20 Sep 2026 06:28:47 +0900"
+    },
+    {
+     "title": "フーシ派“サウジ首都攻撃に成功”主張 空港近くで火災",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51286",
-     "pubDate": "Sun, 20 Sep 2026 01:20:09 +0900"
+     "pubDate": "Sun, 20 Sep 2026 06:42:11 +0900"
+    },
+    {
+     "title": "電動車いす 転落などで死亡事故10年間で34件 NITE注意呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51291",
+     "pubDate": "Sun, 20 Sep 2026 05:24:48 +0900"
+    },
+    {
+     "title": "ドイツ 首都と北東部の州で議会選挙へ「極右」が支持伸ばすか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51287",
+     "pubDate": "Sun, 20 Sep 2026 04:56:00 +0900"
     },
     {
      "title": "timeleszの猪俣周杜容疑者を逮捕 知人女性に暴行か 活動休止に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51225",
      "pubDate": "Sat, 19 Sep 2026 23:46:26 +0900"
-    },
-    {
-     "title": "八王子の交番で10代の警察官が拳銃で自殺を図ったか 意識不明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51281",
-     "pubDate": "Sat, 19 Sep 2026 23:21:57 +0900"
-    },
-    {
-     "title": "パラメダリスト 車いす練習中 車に追突され意識不明 沖縄",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51262",
-     "pubDate": "Sat, 19 Sep 2026 20:41:25 +0900"
-    },
-    {
-     "title": "ラグビー 日本がフィジーに勝ち国際大会優勝 W杯へ成長示す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51284",
-     "pubDate": "Sun, 20 Sep 2026 00:36:39 +0900"
     },
     {
      "title": "上方漫才「中田カウス・ボタン」の中田ボタンさん死去 78歳",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "電動車いす 転落などで死亡事故10年間で34件 NITE注意呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51291",
+     "pubDate": "Sun, 20 Sep 2026 05:24:48 +0900"
+    },
     {
      "title": "宮城 気仙沼「戻りかつお祭り」にぎわう",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51295",
@@ -118,11 +123,6 @@
      "title": "台風25号に備える 八丈島の酒蔵で雨風対策 静岡県の漁港でも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51220",
      "pubDate": "Sat, 19 Sep 2026 19:14:34 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（9月19日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51062",
-     "pubDate": "Sat, 19 Sep 2026 19:55:29 +0900"
     }
    ]
   },
@@ -214,9 +214,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "“サウジアラビア首都 国際空港近くの燃料タンク炎上”報道",
+     "title": "トランプ大統領「AIフォース」創設と発表 安全性懸念の中",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51300",
+     "pubDate": "Sun, 20 Sep 2026 06:28:47 +0900"
+    },
+    {
+     "title": "ドイツ 世界最大のビールの祭典「オクトーバーフェスト」開幕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51288",
+     "pubDate": "Sun, 20 Sep 2026 05:15:00 +0900"
+    },
+    {
+     "title": "ドイツ 首都と北東部の州で議会選挙へ「極右」が支持伸ばすか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51287",
+     "pubDate": "Sun, 20 Sep 2026 04:56:00 +0900"
+    },
+    {
+     "title": "フーシ派“サウジ首都攻撃に成功”主張 空港近くで火災",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51286",
-     "pubDate": "Sun, 20 Sep 2026 01:20:09 +0900"
+     "pubDate": "Sun, 20 Sep 2026 06:42:11 +0900"
     },
     {
      "title": "マレーシアで日本人6人拘束 特殊詐欺に関与か",
@@ -272,21 +287,6 @@
      "title": "トランプ大統領 一部メディアに“ホワイトハウスで取材禁止”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51209",
      "pubDate": "Sat, 19 Sep 2026 10:25:00 +0900"
-    },
-    {
-     "title": "米新興AI企業 最新モデルを生命科学分野で提供 安全対策も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51203",
-     "pubDate": "Sat, 19 Sep 2026 08:26:00 +0900"
-    },
-    {
-     "title": "“投資の神様”バフェット氏会長退任「時の流れに逆らえない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51202",
-     "pubDate": "Sat, 19 Sep 2026 08:23:00 +0900"
-    },
-    {
-     "title": "トランプ大統領「グリーンランド安全保障 米に恒久管理 合意」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51190",
-     "pubDate": "Sat, 19 Sep 2026 09:59:00 +0900"
     }
    ]
   },
