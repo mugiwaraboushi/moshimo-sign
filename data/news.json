@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-19T11:39:38.262Z",
+ "updatedAt": "2026-09-19T14:53:32.977Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,37 +10,37 @@
     {
      "title": "台風25号 21～22日ごろ関東などに接近予想 勢力強まる見込み",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51158",
-     "pubDate": "Sat, 19 Sep 2026 19:20:31 +0900"
+     "pubDate": "Sat, 19 Sep 2026 23:04:29 +0900"
     },
     {
-     "title": "日銀 利上げ 専門家「今後も金利上昇続くこと見越して対応を」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51243",
-     "pubDate": "Sat, 19 Sep 2026 19:32:29 +0900"
+     "title": "愛知・名古屋アジア大会開幕 天皇陛下が開会を宣言",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51267",
+     "pubDate": "Sat, 19 Sep 2026 23:17:00 +0900"
     },
     {
-     "title": "米カリフォルニア州 AIに「キルスイッチ」導入義務化検討へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51235",
-     "pubDate": "Sat, 19 Sep 2026 14:43:46 +0900"
-    },
-    {
-     "title": "timeleszの猪俣周杜容疑者を傷害疑いで逮捕 知人女性に暴行か",
+     "title": "timeleszの猪俣周杜容疑者を逮捕 知人女性に暴行か 活動休止に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51225",
-     "pubDate": "Sat, 19 Sep 2026 19:01:15 +0900"
+     "pubDate": "Sat, 19 Sep 2026 23:46:26 +0900"
+    },
+    {
+     "title": "八王子の交番で10代の警察官が拳銃で自殺を図ったか 意識不明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51281",
+     "pubDate": "Sat, 19 Sep 2026 23:21:57 +0900"
+    },
+    {
+     "title": "パラメダリスト 車いす練習中 車に追突され意識不明 沖縄",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51262",
+     "pubDate": "Sat, 19 Sep 2026 20:41:25 +0900"
+    },
+    {
+     "title": "サッカーJ1 第8節 サンフレッチェ広島とFC東京が勝ち点17に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51280",
+     "pubDate": "Sat, 19 Sep 2026 23:22:59 +0900"
     },
     {
      "title": "【気象予報士解説】台風25号 今後の進路は",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51215",
      "pubDate": "Sat, 19 Sep 2026 19:31:47 +0900"
-    },
-    {
-     "title": "“貴婦人”C57が6年ぶり復活へ JR山口線で報道向けSL試乗会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51247",
-     "pubDate": "Sat, 19 Sep 2026 16:45:00 +0900"
-    },
-    {
-     "title": "マレーシアで日本人6人拘束 特殊詐欺に関与か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51244",
-     "pubDate": "Sat, 19 Sep 2026 16:19:11 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "八王子の交番で10代の警察官が拳銃で自殺を図ったか 意識不明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51281",
+     "pubDate": "Sat, 19 Sep 2026 23:21:57 +0900"
+    },
+    {
+     "title": "パラメダリスト 車いす練習中 車に追突され意識不明 沖縄",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51262",
+     "pubDate": "Sat, 19 Sep 2026 20:41:25 +0900"
+    },
     {
      "title": "300年以上続く伝統の「岸和田だんじり祭」始まる 大阪",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51256",
@@ -65,9 +75,9 @@
      "pubDate": "Sat, 19 Sep 2026 16:19:11 +0900"
     },
     {
-     "title": "timeleszの猪俣周杜容疑者を傷害疑いで逮捕 知人女性に暴行か",
+     "title": "timeleszの猪俣周杜容疑者を逮捕 知人女性に暴行か 活動休止に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51225",
-     "pubDate": "Sat, 19 Sep 2026 19:01:15 +0900"
+     "pubDate": "Sat, 19 Sep 2026 23:46:26 +0900"
     },
     {
      "title": "秋の連休 大雨被害の富山 氷見市に多くのボランティア",
@@ -113,16 +123,6 @@
      "title": "裁判官が同じ事件を担当 大阪高裁がやり直し命じる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51127",
      "pubDate": "Fri, 18 Sep 2026 21:17:42 +0900"
-    },
-    {
-     "title": "家族葬 実際の費用はCMの約3倍 消費者庁が運営会社に措置命令",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51106",
-     "pubDate": "Sat, 19 Sep 2026 01:48:34 +0900"
-    },
-    {
-     "title": "介護保険制度見直しへ議論 自己負担2割拡大など 専門家部会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51077",
-     "pubDate": "Fri, 18 Sep 2026 20:15:35 +0900"
     }
    ]
   },
@@ -132,9 +132,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
-     "title": "timeleszの猪俣周杜容疑者を傷害疑いで逮捕 知人女性に暴行か",
+     "title": "timeleszの猪俣周杜容疑者を逮捕 知人女性に暴行か 活動休止に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51225",
-     "pubDate": "Sat, 19 Sep 2026 19:01:15 +0900"
+     "pubDate": "Sat, 19 Sep 2026 23:46:26 +0900"
     },
     {
      "title": "米カリフォルニア州 AIに「キルスイッチ」導入義務化検討へ",
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "中田ボタンさん死去 肺がんで闘病",
-     "link": "https://news.yahoo.co.jp/pickup/6595838?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 11:11:06 GMT"
+     "title": "大型の台風25号「強い」勢力に",
+     "link": "https://news.yahoo.co.jp/pickup/6595854?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 14:14:50 GMT"
     },
     {
-     "title": "台風 21日～22日に関東など接近",
-     "link": "https://news.yahoo.co.jp/pickup/6595834?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 10:43:12 GMT"
+     "title": "「人工視細胞」を開発 遺伝研など",
+     "link": "https://news.yahoo.co.jp/pickup/6595841?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 11:52:44 GMT"
     },
     {
-     "title": "連休のイベント中止続出 台風影響",
-     "link": "https://news.yahoo.co.jp/pickup/6595824?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 08:45:28 GMT"
+     "title": "10代巡査が拳銃自殺図ったか 重体",
+     "link": "https://news.yahoo.co.jp/pickup/6595846?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 12:52:03 GMT"
     },
     {
-     "title": "衰弱死の16歳少女 訴え続けた無実",
-     "link": "https://news.yahoo.co.jp/pickup/6595817?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 08:11:13 GMT"
+     "title": "生後7日で命の危機 手術受けた娘",
+     "link": "https://news.yahoo.co.jp/pickup/6595852?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 14:00:20 GMT"
     },
     {
-     "title": "外務省テロ訓練 衣装への批判続く",
-     "link": "https://news.yahoo.co.jp/pickup/6595821?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 08:29:17 GMT"
+     "title": "クジラ漂着 台風接近で撤去見送り",
+     "link": "https://news.yahoo.co.jp/pickup/6595843?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 12:10:11 GMT"
     },
     {
-     "title": "Geminiが他社システムに侵入",
-     "link": "https://news.yahoo.co.jp/pickup/6595827?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 09:18:46 GMT"
+     "title": "DeNA牧 7回に逆転満塁ホームラン",
+     "link": "https://news.yahoo.co.jp/pickup/6595847?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 13:13:35 GMT"
     },
     {
-     "title": "中日大敗 14年連続でCS進出逃す",
-     "link": "https://news.yahoo.co.jp/pickup/6595836?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 11:14:20 GMT"
+     "title": "中田ボタン氏死去 吐血しつつ舞台",
+     "link": "https://news.yahoo.co.jp/pickup/6595850?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 13:53:47 GMT"
     },
     {
-     "title": "猪俣容疑者逮捕 各社対応追われる",
-     "link": "https://news.yahoo.co.jp/pickup/6595829?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 09:26:05 GMT"
+     "title": "timelesz猪俣周杜容疑者 活動休止",
+     "link": "https://news.yahoo.co.jp/pickup/6595848?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 13:13:44 GMT"
     }
    ]
   }
