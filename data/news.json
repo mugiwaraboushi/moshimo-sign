@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-19T17:31:29.416Z",
+ "updatedAt": "2026-09-19T19:39:13.515Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "宮城 気仙沼「戻りかつお祭り」にぎわう",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51295",
+     "pubDate": "Sun, 20 Sep 2026 04:27:19 +0900"
+    },
     {
      "title": "上方漫才「中田カウス・ボタン」の中田ボタンさん死去 78歳",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51285",
@@ -118,11 +123,6 @@
      "title": "【動画】Pickup NEWS（9月19日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51062",
      "pubDate": "Sat, 19 Sep 2026 19:55:29 +0900"
-    },
-    {
-     "title": "デイサービス送迎後に転倒死亡事故 介護施設側に賠償命令",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51152",
-     "pubDate": "Fri, 18 Sep 2026 22:41:47 +0900"
     }
    ]
   },
