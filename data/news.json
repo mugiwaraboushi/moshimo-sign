@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-20T21:39:37.590Z",
+ "updatedAt": "2026-09-20T23:37:59.030Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,12 +10,22 @@
     {
      "title": "台風25号は伊豆諸島や関東甲信に 大雨・暴風など厳重警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51478",
-     "pubDate": "Mon, 21 Sep 2026 06:35:47 +0900"
+     "pubDate": "Mon, 21 Sep 2026 07:23:00 +0900"
     },
     {
-     "title": "【台風25号】交通影響まとめ 鉄道・空の便・道路",
+     "title": "【台風25号】交通影響まとめ 鉄道・空の便・道路・フェリー",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51512",
-     "pubDate": "Mon, 21 Sep 2026 06:13:58 +0900"
+     "pubDate": "Mon, 21 Sep 2026 07:47:29 +0900"
+    },
+    {
+     "title": "【気象予報士解説】台風25号 大雨や暴風 今後の見通しは？",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51523",
+     "pubDate": "Mon, 21 Sep 2026 07:24:27 +0900"
+    },
+    {
+     "title": "千葉 習志野市にレベル4土砂災害危険警報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51550",
+     "pubDate": "Mon, 21 Sep 2026 08:22:14 +0900"
     },
     {
      "title": "千葉 佐倉 土砂が崩れ住宅の窓割れる",
@@ -23,24 +33,14 @@
      "pubDate": "Mon, 21 Sep 2026 05:57:05 +0900"
     },
     {
-     "title": "【気象予報士解説】台風25号 大雨や暴風 今後の見通しは？",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51523",
-     "pubDate": "Mon, 21 Sep 2026 05:55:40 +0900"
-    },
-    {
      "title": "千葉市中央区でマンホールから水が噴き出す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51497",
      "pubDate": "Mon, 21 Sep 2026 04:59:18 +0900"
     },
     {
-     "title": "停電 関東中心に1700軒余（午前5時）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51495",
-     "pubDate": "Mon, 21 Sep 2026 05:41:44 +0900"
-    },
-    {
-     "title": "ロシア首都などにウクライナの大規模攻撃 下院選挙狙ったか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51479",
-     "pubDate": "Mon, 21 Sep 2026 04:22:03 +0900"
+     "title": "トランプ政権 ICCへの広範な制裁検討か 米メディア報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51541",
+     "pubDate": "Mon, 21 Sep 2026 08:00:00 +0900"
     }
    ]
   },
@@ -214,6 +214,26 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "トランプ政権 ICCへの広範な制裁検討か 米メディア報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51541",
+     "pubDate": "Mon, 21 Sep 2026 08:00:00 +0900"
+    },
+    {
+     "title": "ドイツ北東部の州議会選挙で「極右」第1党に躍進の見通し",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51516",
+     "pubDate": "Mon, 21 Sep 2026 06:59:29 +0900"
+    },
+    {
+     "title": "ロシア下院選挙開票進む 政権与党リード",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51530",
+     "pubDate": "Mon, 21 Sep 2026 07:32:45 +0900"
+    },
+    {
+     "title": "ゼレンスキー大統領 訪米でトランプ大統領と会談",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51458",
+     "pubDate": "Mon, 21 Sep 2026 06:41:13 +0900"
+    },
+    {
      "title": "ロシア首都などにウクライナの大規模攻撃 下院選挙狙ったか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51479",
      "pubDate": "Mon, 21 Sep 2026 04:22:03 +0900"
@@ -267,26 +287,6 @@
      "title": "トランプ大統領「AIフォース」創設と発表 安全性懸念の中",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51300",
      "pubDate": "Sun, 20 Sep 2026 06:28:00 +0900"
-    },
-    {
-     "title": "ドイツ 世界最大のビールの祭典「オクトーバーフェスト」開幕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51288",
-     "pubDate": "Sun, 20 Sep 2026 05:15:00 +0900"
-    },
-    {
-     "title": "ドイツ 首都と北東部の州で議会選挙へ「極右」が支持伸ばすか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51287",
-     "pubDate": "Sun, 20 Sep 2026 04:56:00 +0900"
-    },
-    {
-     "title": "フーシ派“サウジ首都攻撃に成功”主張 空港近くで火災",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51286",
-     "pubDate": "Sun, 20 Sep 2026 06:42:11 +0900"
-    },
-    {
-     "title": "マレーシアで日本人6人拘束 特殊詐欺に関与か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51244",
-     "pubDate": "Sat, 19 Sep 2026 16:19:11 +0900"
     }
    ]
   },
@@ -296,19 +296,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "関東南部など線状降水帯発生恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6595970?source=rss",
-     "pubDate": "Sun, 20 Sep 2026 14:52:14 GMT"
+     "title": "台風21日午後に関東最接近 警戒を",
+     "link": "https://news.yahoo.co.jp/pickup/6595971?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 22:07:13 GMT"
     },
     {
-     "title": "65歳以上の割合が29.6% 最高更新",
-     "link": "https://news.yahoo.co.jp/pickup/6595928?source=rss",
-     "pubDate": "Sun, 20 Sep 2026 08:46:28 GMT"
+     "title": "首相が国連初演説へ ICC言及焦点",
+     "link": "https://news.yahoo.co.jp/pickup/6595975?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 22:35:28 GMT"
     },
     {
-     "title": "インドネシアの島 奴隷制の実態",
-     "link": "https://news.yahoo.co.jp/pickup/6595960?source=rss",
-     "pubDate": "Sun, 20 Sep 2026 13:09:01 GMT"
+     "title": "子どもを追い込む指導 悩む教員",
+     "link": "https://news.yahoo.co.jp/pickup/6595977?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 23:01:55 GMT"
+    },
+    {
+     "title": "渋谷で若者離れ? 人流データ分析",
+     "link": "https://news.yahoo.co.jp/pickup/6595978?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 23:05:01 GMT"
     },
     {
      "title": "眼鏡を拾おうと川に入る 16歳死亡",
@@ -316,24 +321,19 @@
      "pubDate": "Sun, 20 Sep 2026 14:02:06 GMT"
     },
     {
-     "title": "大会中に単独事故 公道ラリー中止",
-     "link": "https://news.yahoo.co.jp/pickup/6595954?source=rss",
-     "pubDate": "Sun, 20 Sep 2026 12:07:41 GMT"
+     "title": "オリ山田修義 今季限りで引退へ",
+     "link": "https://news.yahoo.co.jp/pickup/6595972?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 22:20:35 GMT"
     },
     {
-     "title": "妊娠中にがん発覚 母になり旅立つ",
-     "link": "https://news.yahoo.co.jp/pickup/6595961?source=rss",
-     "pubDate": "Sun, 20 Sep 2026 13:05:26 GMT"
+     "title": "救命病棟24時 院長役に沢村一樹",
+     "link": "https://news.yahoo.co.jp/pickup/6595973?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 22:36:59 GMT"
     },
     {
-     "title": "timeleszが謝罪「言葉失った」",
-     "link": "https://news.yahoo.co.jp/pickup/6595968?source=rss",
-     "pubDate": "Sun, 20 Sep 2026 13:56:01 GMT"
-    },
-    {
-     "title": "ニアジョイ藤沢 バセドウ病を公表",
-     "link": "https://news.yahoo.co.jp/pickup/6595964?source=rss",
-     "pubDate": "Sun, 20 Sep 2026 13:36:32 GMT"
+     "title": "猪俣周杜容疑者 映画でも各所対応",
+     "link": "https://news.yahoo.co.jp/pickup/6595974?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 22:34:33 GMT"
     }
    ]
   }
