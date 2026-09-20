@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-19T23:41:38.932Z",
+ "updatedAt": "2026-09-20T01:52:23.334Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,22 +10,22 @@
     {
      "title": "台風25号 21日から22日ごろ関東など接近へ 大雨など厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51282",
-     "pubDate": "Sun, 20 Sep 2026 07:33:08 +0900"
+     "pubDate": "Sun, 20 Sep 2026 08:49:00 +0900"
     },
     {
-     "title": "【気象予報士解説】台風25号 今後の見通しは？",
+     "title": "【気象予報士解説】台風25号 今後の見通しは？（7時台）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51299",
-     "pubDate": "Sun, 20 Sep 2026 07:50:00 +0900"
+     "pubDate": "Sun, 20 Sep 2026 09:45:37 +0900"
     },
     {
      "title": "【台風25号】鉄道・空の便・道路は（20日朝の時点）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51297",
-     "pubDate": "Sun, 20 Sep 2026 07:43:07 +0900"
+     "pubDate": "Sun, 20 Sep 2026 07:43:00 +0900"
     },
     {
-     "title": "電動車いす 転落などで死亡事故10年間で34件 NITE注意呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51291",
-     "pubDate": "Sun, 20 Sep 2026 06:49:39 +0900"
+     "title": "イラン高官「協議再開の7つの条件をアメリカ政府に伝達」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51305",
+     "pubDate": "Sun, 20 Sep 2026 09:20:10 +0900"
     },
     {
      "title": "トランプ大統領「AIフォース」創設と発表 安全性懸念の中",
@@ -33,14 +33,14 @@
      "pubDate": "Sun, 20 Sep 2026 06:28:00 +0900"
     },
     {
-     "title": "timeleszの猪俣周杜容疑者を逮捕 知人女性に暴行か 活動休止に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51225",
-     "pubDate": "Sat, 19 Sep 2026 23:46:26 +0900"
+     "title": "フーシ派“サウジ首都攻撃に成功”主張 空港近くで火災",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51286",
+     "pubDate": "Sun, 20 Sep 2026 06:42:11 +0900"
     },
     {
-     "title": "上方漫才「中田カウス・ボタン」の中田ボタンさん死去 78歳",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51285",
-     "pubDate": "Sun, 20 Sep 2026 00:26:00 +0900"
+     "title": "ドイツ 世界最大のビールの祭典「オクトーバーフェスト」開幕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51288",
+     "pubDate": "Sun, 20 Sep 2026 05:15:00 +0900"
     }
    ]
   },
@@ -67,7 +67,7 @@
     {
      "title": "宮城 気仙沼「戻りかつお祭り」にぎわう",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51295",
-     "pubDate": "Sun, 20 Sep 2026 04:27:19 +0900"
+     "pubDate": "Sun, 20 Sep 2026 04:27:00 +0900"
     },
     {
      "title": "上方漫才「中田カウス・ボタン」の中田ボタンさん死去 78歳",
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "イラン高官「協議再開の7つの条件をアメリカ政府に伝達」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51305",
+     "pubDate": "Sun, 20 Sep 2026 09:20:10 +0900"
+    },
+    {
      "title": "トランプ大統領「AIフォース」創設と発表 安全性懸念の中",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51300",
      "pubDate": "Sun, 20 Sep 2026 06:28:00 +0900"
@@ -239,9 +244,9 @@
      "pubDate": "Sat, 19 Sep 2026 16:19:11 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月19日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（9月19日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de46997",
-     "pubDate": "Sat, 19 Sep 2026 15:46:42 +0900"
+     "pubDate": "Sat, 19 Sep 2026 15:46:00 +0900"
     },
     {
      "title": "北朝鮮 キム総書記が軍需工場を視察 兵器にAI導入拡大を指示",
@@ -282,11 +287,6 @@
      "title": "イランで徹底抗戦を強調する大規模集会 国民の団結ねらいか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51212",
      "pubDate": "Sat, 19 Sep 2026 10:40:20 +0900"
-    },
-    {
-     "title": "トランプ大統領 一部メディアに“ホワイトハウスで取材禁止”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51209",
-     "pubDate": "Sat, 19 Sep 2026 10:25:00 +0900"
     }
    ]
   },
@@ -296,19 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "大型で強い台風 21日に関東最接近",
-     "link": "https://news.yahoo.co.jp/pickup/6595856?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 22:17:16 GMT"
+     "title": "関東と東海 今夜道路冠水の恐れも",
+     "link": "https://news.yahoo.co.jp/pickup/6595884?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 01:29:51 GMT"
     },
     {
-     "title": "最高裁調査官の報告書 見つかる",
-     "link": "https://news.yahoo.co.jp/pickup/6595860?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 22:43:23 GMT"
-    },
-    {
-     "title": "フーシ派 サウジ首都攻撃と主張",
-     "link": "https://news.yahoo.co.jp/pickup/6595859?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 22:36:45 GMT"
+     "title": "犬猫の保護依頼増 飼い主が高齢化",
+     "link": "https://news.yahoo.co.jp/pickup/6595865?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 23:17:48 GMT"
     },
     {
      "title": "6歳行方不明 現場の警察官の執念",
@@ -316,19 +311,24 @@
      "pubDate": "Sat, 19 Sep 2026 23:27:02 GMT"
     },
     {
-     "title": "クジラ漂着 台風接近で撤去見送り",
-     "link": "https://news.yahoo.co.jp/pickup/6595843?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 12:10:11 GMT"
+     "title": "今年11カ所で花火大会中止 物価高",
+     "link": "https://news.yahoo.co.jp/pickup/6595871?source=rss",
+     "pubDate": "Sat, 19 Sep 2026 23:54:27 GMT"
     },
     {
-     "title": "鈴木彩艶 好セーブ連発&得点演出",
-     "link": "https://news.yahoo.co.jp/pickup/6595861?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 22:42:16 GMT"
+     "title": "4年でケアマネ300人以上減 新潟県",
+     "link": "https://news.yahoo.co.jp/pickup/6595874?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 00:18:30 GMT"
     },
     {
-     "title": "中日・福敬登が今季限りで退団へ",
-     "link": "https://news.yahoo.co.jp/pickup/6595857?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 22:17:11 GMT"
+     "title": "中日 サノーと来季契約で大筋合意",
+     "link": "https://news.yahoo.co.jp/pickup/6595880?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 01:00:02 GMT"
+    },
+    {
+     "title": "ニッポンの社長辻 唐突に結婚発表",
+     "link": "https://news.yahoo.co.jp/pickup/6595873?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 00:00:55 GMT"
     },
     {
      "title": "timelesz 7人での活動は継続",
