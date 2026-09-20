@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-20T01:52:23.334Z",
+ "updatedAt": "2026-09-20T07:09:47.223Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風25号 21日から22日ごろ関東など接近へ 大雨など厳重警戒を",
+     "title": "台風25号 あすから関東などに接近へ 連休中の交通機関に影響も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51282",
-     "pubDate": "Sun, 20 Sep 2026 08:49:00 +0900"
+     "pubDate": "Sun, 20 Sep 2026 15:17:41 +0900"
     },
     {
-     "title": "【気象予報士解説】台風25号 今後の見通しは？（7時台）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51299",
-     "pubDate": "Sun, 20 Sep 2026 09:45:37 +0900"
-    },
-    {
-     "title": "【台風25号】鉄道・空の便・道路は（20日朝の時点）",
+     "title": "【台風25号】交通影響まとめ 鉄道・空の便・道路・フェリー",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51297",
-     "pubDate": "Sun, 20 Sep 2026 07:43:00 +0900"
+     "pubDate": "Sun, 20 Sep 2026 11:51:00 +0900"
     },
     {
-     "title": "イラン高官「協議再開の7つの条件をアメリカ政府に伝達」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51305",
-     "pubDate": "Sun, 20 Sep 2026 09:20:10 +0900"
+     "title": "北朝鮮 弾道ミサイルの可能性あるもの発射 EEZ外に落下か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51353",
+     "pubDate": "Sun, 20 Sep 2026 15:52:06 +0900"
     },
     {
-     "title": "トランプ大統領「AIフォース」創設と発表 安全性懸念の中",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51300",
-     "pubDate": "Sun, 20 Sep 2026 06:28:00 +0900"
+     "title": "JR長野駅 エスカレーターで複数人が転倒 2人けが",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51349",
+     "pubDate": "Sun, 20 Sep 2026 15:26:07 +0900"
     },
     {
-     "title": "フーシ派“サウジ首都攻撃に成功”主張 空港近くで火災",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51286",
-     "pubDate": "Sun, 20 Sep 2026 06:42:11 +0900"
+     "title": "福岡 車とバイク3台絡む事故 近くにいた男児が巻き込まれ重体",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51330",
+     "pubDate": "Sun, 20 Sep 2026 14:50:00 +0900"
     },
     {
-     "title": "ドイツ 世界最大のビールの祭典「オクトーバーフェスト」開幕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51288",
-     "pubDate": "Sun, 20 Sep 2026 05:15:00 +0900"
+     "title": "墜落した空自の大型無人偵察機 機体の一部を回収",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51332",
+     "pubDate": "Sun, 20 Sep 2026 12:19:00 +0900"
+    },
+    {
+     "title": "山形で「日本一の芋煮会」里芋3.2トン用意 ショベルカーも登場",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51339",
+     "pubDate": "Sun, 20 Sep 2026 15:29:00 +0900"
     }
    ]
   },
@@ -50,9 +50,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "JR長野駅 エスカレーターで複数人が転倒 2人けが",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51349",
+     "pubDate": "Sun, 20 Sep 2026 15:26:07 +0900"
+    },
+    {
+     "title": "北朝鮮 弾道ミサイルの可能性あるもの発射 EEZ外に落下か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51353",
+     "pubDate": "Sun, 20 Sep 2026 15:52:06 +0900"
+    },
+    {
+     "title": "福岡 車とバイク3台絡む事故 近くにいた男児が巻き込まれ重体",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51330",
+     "pubDate": "Sun, 20 Sep 2026 14:50:00 +0900"
+    },
+    {
+     "title": "墜落した空自の大型無人偵察機 機体の一部を回収",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51332",
+     "pubDate": "Sun, 20 Sep 2026 12:19:00 +0900"
+    },
+    {
+     "title": "台風25号接近 東京湾フェリー きょう午後以降に計画運休へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51312",
+     "pubDate": "Sun, 20 Sep 2026 11:08:00 +0900"
+    },
+    {
+     "title": "相模原 高校生暴行受け死亡の事件 少年4人を殺人容疑で再逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51325",
+     "pubDate": "Sun, 20 Sep 2026 12:00:00 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（9月20日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51264",
-     "pubDate": "Sun, 20 Sep 2026 07:37:23 +0900"
+     "pubDate": "Sun, 20 Sep 2026 14:30:26 +0900"
     },
     {
      "title": "環境省 温暖化影響指摘の「代替フロン」事業者支援で対策強化",
@@ -93,36 +123,6 @@
      "title": "“貴婦人”C57が6年ぶり復活へ JR山口線で報道向けSL試乗会",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51247",
      "pubDate": "Sat, 19 Sep 2026 16:45:00 +0900"
-    },
-    {
-     "title": "マレーシアで日本人6人拘束 特殊詐欺に関与か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51244",
-     "pubDate": "Sat, 19 Sep 2026 16:19:11 +0900"
-    },
-    {
-     "title": "timeleszの猪俣周杜容疑者を逮捕 知人女性に暴行か 活動休止に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51225",
-     "pubDate": "Sat, 19 Sep 2026 23:46:26 +0900"
-    },
-    {
-     "title": "秋の連休 大雨被害の富山 氷見市に多くのボランティア",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51241",
-     "pubDate": "Sat, 19 Sep 2026 15:59:00 +0900"
-    },
-    {
-     "title": "名古屋上空をブルーインパルスが飛行 アジア大会開幕にあわせ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51242",
-     "pubDate": "Sat, 19 Sep 2026 15:52:57 +0900"
-    },
-    {
-     "title": "秋の連休 ボランティアが被災地で片づけ 熊本 八代",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51219",
-     "pubDate": "Sat, 19 Sep 2026 12:01:00 +0900"
-    },
-    {
-     "title": "埼玉 羽生 空き巣で住宅から散弾銃3丁と実弾125発盗まれる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51222",
-     "pubDate": "Sat, 19 Sep 2026 11:57:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "台風接近の影響 千葉で開催の野外音楽イベント 21日の開催中止",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51358",
+     "pubDate": "Sun, 20 Sep 2026 15:38:39 +0900"
+    },
     {
      "title": "timeleszの猪俣周杜容疑者を逮捕 知人女性に暴行か 活動休止に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51225",
@@ -200,11 +205,6 @@
      "title": "「核のごみ」処分地調査 常陸大宮市議は反対5賛成4 表明せずも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50714",
      "pubDate": "Thu, 17 Sep 2026 09:07:00 +0900"
-    },
-    {
-     "title": "アメリカでAI開発の規制求め政敵が“共闘” 議論活発に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50702",
-     "pubDate": "Thu, 17 Sep 2026 06:21:08 +0900"
     }
    ]
   },
@@ -214,9 +214,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ロシア ウクライナ侵攻以降で初の議会下院選挙 政権のねらいは",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51340",
+     "pubDate": "Sun, 20 Sep 2026 13:01:00 +0900"
+    },
+    {
+     "title": "サウジとフーシ派の対立激化 米“急激悪化”懸念で警戒を通知",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51327",
+     "pubDate": "Sun, 20 Sep 2026 12:18:00 +0900"
+    },
+    {
      "title": "イラン高官「協議再開の7つの条件をアメリカ政府に伝達」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51305",
-     "pubDate": "Sun, 20 Sep 2026 09:20:10 +0900"
+     "pubDate": "Sun, 20 Sep 2026 09:20:00 +0900"
     },
     {
      "title": "トランプ大統領「AIフォース」創設と発表 安全性懸念の中",
@@ -277,16 +287,6 @@
      "title": "仏大統領が警戒感「ロシアの攻撃性と脅威は性質が変化」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51210",
      "pubDate": "Sat, 19 Sep 2026 10:57:50 +0900"
-    },
-    {
-     "title": "ゼレンスキー大統領“ジェット無人機の迎撃試験に成功”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51213",
-     "pubDate": "Sat, 19 Sep 2026 10:53:27 +0900"
-    },
-    {
-     "title": "イランで徹底抗戦を強調する大規模集会 国民の団結ねらいか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51212",
-     "pubDate": "Sat, 19 Sep 2026 10:40:20 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "関東と東海 今夜道路冠水の恐れも",
-     "link": "https://news.yahoo.co.jp/pickup/6595884?source=rss",
-     "pubDate": "Sun, 20 Sep 2026 01:29:51 GMT"
+     "title": "北朝鮮のミサイルEEZ外に落下か",
+     "link": "https://news.yahoo.co.jp/pickup/6595915?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 06:46:30 GMT"
     },
     {
-     "title": "犬猫の保護依頼増 飼い主が高齢化",
-     "link": "https://news.yahoo.co.jp/pickup/6595865?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 23:17:48 GMT"
+     "title": "台風が21日関東接近 氾濫など警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6595904?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 05:37:28 GMT"
     },
     {
-     "title": "6歳行方不明 現場の警察官の執念",
-     "link": "https://news.yahoo.co.jp/pickup/6595870?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 23:27:02 GMT"
+     "title": "台風影響 21日のイベ中止相次ぐ",
+     "link": "https://news.yahoo.co.jp/pickup/6595913?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 06:30:00 GMT"
     },
     {
-     "title": "今年11カ所で花火大会中止 物価高",
-     "link": "https://news.yahoo.co.jp/pickup/6595871?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 23:54:27 GMT"
+     "title": "岡田克也氏 新党への参加を明言",
+     "link": "https://news.yahoo.co.jp/pickup/6595906?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 05:37:09 GMT"
     },
     {
-     "title": "4年でケアマネ300人以上減 新潟県",
-     "link": "https://news.yahoo.co.jp/pickup/6595874?source=rss",
-     "pubDate": "Sun, 20 Sep 2026 00:18:30 GMT"
+     "title": "自転車がひき逃げ 80代女性死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6595909?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 05:59:09 GMT"
     },
     {
-     "title": "中日 サノーと来季契約で大筋合意",
-     "link": "https://news.yahoo.co.jp/pickup/6595880?source=rss",
-     "pubDate": "Sun, 20 Sep 2026 01:00:02 GMT"
+     "title": "香取慎吾ブランド コラボ巡り声明",
+     "link": "https://news.yahoo.co.jp/pickup/6595905?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 05:34:33 GMT"
     },
     {
-     "title": "ニッポンの社長辻 唐突に結婚発表",
-     "link": "https://news.yahoo.co.jp/pickup/6595873?source=rss",
-     "pubDate": "Sun, 20 Sep 2026 00:00:55 GMT"
+     "title": "アジア大会 国歌演奏を一時中止か",
+     "link": "https://news.yahoo.co.jp/pickup/6595914?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 06:58:26 GMT"
     },
     {
-     "title": "timelesz 7人での活動は継続",
-     "link": "https://news.yahoo.co.jp/pickup/6595858?source=rss",
-     "pubDate": "Sat, 19 Sep 2026 22:24:00 GMT"
+     "title": "希良梨が活動再開 昨年に引退発表",
+     "link": "https://news.yahoo.co.jp/pickup/6595901?source=rss",
+     "pubDate": "Sun, 20 Sep 2026 05:13:32 GMT"
     }
    ]
   }
