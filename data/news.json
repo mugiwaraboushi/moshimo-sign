@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-20T19:06:40.791Z",
+ "updatedAt": "2026-09-20T21:39:37.590Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風25号 きょう関東甲信などにかなり接近 記録的大雨のおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51282",
-     "pubDate": "Mon, 21 Sep 2026 01:55:34 +0900"
+     "title": "台風25号は伊豆諸島や関東甲信に 大雨・暴風など厳重警戒",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51478",
+     "pubDate": "Mon, 21 Sep 2026 06:35:47 +0900"
     },
     {
-     "title": "【台風25号】交通影響まとめ 鉄道・空の便・道路・フェリー",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51297",
-     "pubDate": "Mon, 21 Sep 2026 01:57:49 +0900"
+     "title": "【台風25号】交通影響まとめ 鉄道・空の便・道路",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51512",
+     "pubDate": "Mon, 21 Sep 2026 06:13:58 +0900"
     },
     {
-     "title": "千葉 佐倉市の土砂災害警戒区域・特別警戒区域に緊急安全確保",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51481",
-     "pubDate": "Mon, 21 Sep 2026 02:53:33 +0900"
+     "title": "千葉 佐倉 土砂が崩れ住宅の窓割れる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51522",
+     "pubDate": "Mon, 21 Sep 2026 05:57:05 +0900"
     },
     {
-     "title": "千葉 館山市にレベル4土砂災害危険警報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51490",
-     "pubDate": "Mon, 21 Sep 2026 03:42:52 +0900"
+     "title": "【気象予報士解説】台風25号 大雨や暴風 今後の見通しは？",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51523",
+     "pubDate": "Mon, 21 Sep 2026 05:55:40 +0900"
     },
     {
-     "title": "財務省のフェンスにタクシーが衝突 4人けが",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51467",
-     "pubDate": "Mon, 21 Sep 2026 02:22:26 +0900"
+     "title": "千葉市中央区でマンホールから水が噴き出す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51497",
+     "pubDate": "Mon, 21 Sep 2026 04:59:18 +0900"
     },
     {
-     "title": "福岡 男児が事故で意識不明 危険運転傷害の疑いで容疑者逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51330",
-     "pubDate": "Sun, 20 Sep 2026 22:40:12 +0900"
+     "title": "停電 関東中心に1700軒余（午前5時）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51495",
+     "pubDate": "Mon, 21 Sep 2026 05:41:44 +0900"
     },
     {
-     "title": "“江戸の謎の漂着船”「うつろ舟」新資料 国立公文書館で確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51311",
-     "pubDate": "Sun, 20 Sep 2026 19:02:00 +0900"
+     "title": "ロシア首都などにウクライナの大規模攻撃 下院選挙狙ったか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51479",
+     "pubDate": "Mon, 21 Sep 2026 04:22:03 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ロシア首都などにウクライナの大規模攻撃 下院選挙狙ったか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51479",
+     "pubDate": "Mon, 21 Sep 2026 04:22:03 +0900"
+    },
+    {
+     "title": "イラン“米軍基地など攻撃対象に” アメリカを強くけん制",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51477",
+     "pubDate": "Mon, 21 Sep 2026 04:13:07 +0900"
+    },
+    {
      "title": "韓国軍「北が2回にわたり短距離弾道ミサイル発射」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51400",
      "pubDate": "Sun, 20 Sep 2026 21:59:00 +0900"
@@ -277,16 +287,6 @@
      "title": "マレーシアで日本人6人拘束 特殊詐欺に関与か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51244",
      "pubDate": "Sat, 19 Sep 2026 16:19:11 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（9月19日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46997",
-     "pubDate": "Sat, 19 Sep 2026 15:46:00 +0900"
-    },
-    {
-     "title": "北朝鮮 キム総書記が軍需工場を視察 兵器にAI導入拡大を指示",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51237",
-     "pubDate": "Sat, 19 Sep 2026 15:03:00 +0900"
     }
    ]
   },
