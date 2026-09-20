@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-20T16:33:12.985Z",
+ "updatedAt": "2026-09-20T19:06:40.791Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,32 +10,32 @@
     {
      "title": "台風25号 きょう関東甲信などにかなり接近 記録的大雨のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51282",
-     "pubDate": "Mon, 21 Sep 2026 00:02:00 +0900"
+     "pubDate": "Mon, 21 Sep 2026 01:55:34 +0900"
     },
     {
      "title": "【台風25号】交通影響まとめ 鉄道・空の便・道路・フェリー",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51297",
-     "pubDate": "Mon, 21 Sep 2026 01:13:15 +0900"
+     "pubDate": "Mon, 21 Sep 2026 01:57:49 +0900"
     },
     {
-     "title": "千葉市にレベル4大雨危険警報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51452",
-     "pubDate": "Mon, 21 Sep 2026 01:27:04 +0900"
+     "title": "千葉 佐倉市の土砂災害警戒区域・特別警戒区域に緊急安全確保",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51481",
+     "pubDate": "Mon, 21 Sep 2026 02:53:33 +0900"
     },
     {
-     "title": "東京 善福寺川に「レベル4氾濫危険警報」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51404",
-     "pubDate": "Sun, 20 Sep 2026 22:03:22 +0900"
+     "title": "千葉 館山市にレベル4土砂災害危険警報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51490",
+     "pubDate": "Mon, 21 Sep 2026 03:42:52 +0900"
+    },
+    {
+     "title": "財務省のフェンスにタクシーが衝突 4人けが",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51467",
+     "pubDate": "Mon, 21 Sep 2026 02:22:26 +0900"
     },
     {
      "title": "福岡 男児が事故で意識不明 危険運転傷害の疑いで容疑者逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51330",
      "pubDate": "Sun, 20 Sep 2026 22:40:12 +0900"
-    },
-    {
-     "title": "JR長野駅 エスカレーターで少なくとも7人転倒 2人けが",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51349",
-     "pubDate": "Sun, 20 Sep 2026 18:30:00 +0900"
     },
     {
      "title": "“江戸の謎の漂着船”「うつろ舟」新資料 国立公文書館で確認",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "財務省のフェンスにタクシーが衝突 4人けが",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51467",
+     "pubDate": "Mon, 21 Sep 2026 02:22:26 +0900"
+    },
     {
      "title": "北九州 川で遊んでいた男性が溺れ死亡 めがね拾おうとしたか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51366",
@@ -118,11 +123,6 @@
      "title": "上方漫才「中田カウス・ボタン」の中田ボタンさん死去 78歳",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51285",
      "pubDate": "Sun, 20 Sep 2026 00:26:00 +0900"
-    },
-    {
-     "title": "八王子の交番で10代の警察官が拳銃で自殺を図ったか 意識不明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51281",
-     "pubDate": "Sat, 19 Sep 2026 23:21:57 +0900"
     }
    ]
   },
