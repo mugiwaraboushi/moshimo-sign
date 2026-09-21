@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-21T01:52:56.689Z",
+ "updatedAt": "2026-09-21T07:18:56.158Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風25号は伊豆諸島や関東甲信に 大雨・暴風など厳重警戒",
+     "title": "【台風25号】伊豆諸島 大島町にレベル5土砂災害特別警報",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51478",
-     "pubDate": "Mon, 21 Sep 2026 10:35:03 +0900"
+     "pubDate": "Mon, 21 Sep 2026 15:24:38 +0900"
+    },
+    {
+     "title": "【気象庁会見 詳細】 伊豆諸島大島町に特別警報 警戒点は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51617",
+     "pubDate": "Mon, 21 Sep 2026 15:11:03 +0900"
+    },
+    {
+     "title": "伊豆諸島 御蔵島村付近で猛烈な雨か「記録的短時間大雨」発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51654",
+     "pubDate": "Mon, 21 Sep 2026 15:34:38 +0900"
+    },
+    {
+     "title": "【台風25号】被害まとめ 千葉県や神奈川県で住宅被害",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51522",
+     "pubDate": "Mon, 21 Sep 2026 15:33:36 +0900"
     },
     {
      "title": "【台風25号】交通影響まとめ 鉄道・空の便・道路・フェリー",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51512",
-     "pubDate": "Mon, 21 Sep 2026 07:47:00 +0900"
+     "pubDate": "Mon, 21 Sep 2026 15:13:50 +0900"
     },
     {
-     "title": "【気象予報士解説】台風25号 大雨や暴風 今後の見通しは？",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51523",
-     "pubDate": "Mon, 21 Sep 2026 10:19:00 +0900"
+     "title": "福岡 3歳男児死亡事故 危険運転逮捕の容疑者2倍近いアルコール",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51637",
+     "pubDate": "Mon, 21 Sep 2026 15:14:00 +0900"
     },
     {
-     "title": "JR中央線 快速電車がオーバーラン 雨で車輪滑ったか 豊田駅",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51580",
-     "pubDate": "Mon, 21 Sep 2026 10:11:07 +0900"
-    },
-    {
-     "title": "千葉 佐倉 住宅の裏山崩れる けが人なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51522",
-     "pubDate": "Mon, 21 Sep 2026 05:57:00 +0900"
-    },
-    {
-     "title": "トランプ政権 ICCへの広範な制裁検討か 米メディア報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51541",
-     "pubDate": "Mon, 21 Sep 2026 08:00:00 +0900"
-    },
-    {
-     "title": "ロシア首都などにウクライナの大規模攻撃 下院選挙狙ったか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51479",
-     "pubDate": "Mon, 21 Sep 2026 04:22:03 +0900"
+     "title": "サッカーJ1 FC東京 40歳の長友佑都 右ひざ前十字じん帯損傷",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51641",
+     "pubDate": "Mon, 21 Sep 2026 15:49:56 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "福岡 3歳男児死亡事故 危険運転逮捕の容疑者2倍近いアルコール",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51637",
+     "pubDate": "Mon, 21 Sep 2026 15:14:00 +0900"
+    },
+    {
+     "title": "能登の豪雨災害2年 15人犠牲の輪島市で多くの人が献花に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51627",
+     "pubDate": "Mon, 21 Sep 2026 14:30:20 +0900"
+    },
     {
      "title": "JR中央線 快速電車がオーバーラン 雨で車輪滑ったか 豊田駅",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51580",
@@ -113,16 +123,6 @@
      "title": "【動画】Pickup NEWS（9月20日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51264",
      "pubDate": "Sun, 20 Sep 2026 19:47:54 +0900"
-    },
-    {
-     "title": "環境省 温暖化影響指摘の「代替フロン」事業者支援で対策強化",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51302",
-     "pubDate": "Sun, 20 Sep 2026 07:07:04 +0900"
-    },
-    {
-     "title": "電動車いす 転落などで死亡事故10年間で34件 NITE注意呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51291",
-     "pubDate": "Sun, 20 Sep 2026 06:49:39 +0900"
     }
    ]
   },
@@ -214,6 +214,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "国連総会 22日から各国首脳による一般討論演説",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51573",
+     "pubDate": "Mon, 21 Sep 2026 13:43:13 +0900"
+    },
+    {
+     "title": "米財務長官と中国副首相 首脳会談前にAIなど協議",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51614",
+     "pubDate": "Mon, 21 Sep 2026 13:38:37 +0900"
+    },
+    {
+     "title": "拉致被害者家族が訪米し協力訴え 各国首脳会談へ期待も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51620",
+     "pubDate": "Mon, 21 Sep 2026 13:37:05 +0900"
+    },
+    {
      "title": "トランプ政権 ICCへの広範な制裁検討か 米メディア報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51541",
      "pubDate": "Mon, 21 Sep 2026 08:00:00 +0900"
@@ -221,7 +236,7 @@
     {
      "title": "ドイツ北東部州議選「極右」第1党 首相の政党は議席失う",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51516",
-     "pubDate": "Mon, 21 Sep 2026 09:29:14 +0900"
+     "pubDate": "Mon, 21 Sep 2026 09:29:00 +0900"
     },
     {
      "title": "ロシア下院選挙開票進む 政権与党リード",
@@ -272,21 +287,6 @@
      "title": "ロシア ウクライナ侵攻以降初めての議会下院選挙 投票進む",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51340",
      "pubDate": "Mon, 21 Sep 2026 01:10:47 +0900"
-    },
-    {
-     "title": "サウジとフーシ派の対立激化 米“急激悪化”懸念で警戒を通知",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51327",
-     "pubDate": "Sun, 20 Sep 2026 18:39:33 +0900"
-    },
-    {
-     "title": "イラン高官「協議再開の7つの条件をアメリカ政府に伝達」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51305",
-     "pubDate": "Sun, 20 Sep 2026 09:20:00 +0900"
-    },
-    {
-     "title": "トランプ大統領「AIフォース」創設と発表 安全性懸念の中",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51300",
-     "pubDate": "Sun, 20 Sep 2026 06:28:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風 太平洋側は大雨や暴風に警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6595987?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 00:24:21 GMT"
+     "title": "東京・大島町に土砂災害特別警報",
+     "link": "https://news.yahoo.co.jp/pickup/6596012?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 04:44:03 GMT"
     },
     {
-     "title": "台風25号 空の便にも大きな影響",
-     "link": "https://news.yahoo.co.jp/pickup/6595992?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 01:27:12 GMT"
+     "title": "気象庁「22日明け方まで警戒を」",
+     "link": "https://news.yahoo.co.jp/pickup/6596025?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 06:43:25 GMT"
     },
     {
-     "title": "富士山頂の混雑で転倒懸念 検証へ",
-     "link": "https://news.yahoo.co.jp/pickup/6595990?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 00:53:00 GMT"
+     "title": "台風25号 今後の見通しや最新情報",
+     "link": "https://news.yahoo.co.jp/pickup/6596016?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 05:08:33 GMT"
     },
     {
-     "title": "改造内閣「革命的人事」の舞台裏",
-     "link": "https://news.yahoo.co.jp/pickup/6595988?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 00:32:23 GMT"
+     "title": "横須賀で土砂崩れ 1人生き埋めか",
+     "link": "https://news.yahoo.co.jp/pickup/6596029?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 07:13:42 GMT"
     },
     {
-     "title": "中高年男性の耳毛 なぜ太く伸びる",
-     "link": "https://news.yahoo.co.jp/pickup/6595989?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 00:57:17 GMT"
+     "title": "事故に巻き込まれ 3歳男児が死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6596020?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 05:40:21 GMT"
     },
     {
-     "title": "朗希POはリリーフに 監督が明言",
-     "link": "https://news.yahoo.co.jp/pickup/6595982?source=rss",
-     "pubDate": "Sun, 20 Sep 2026 23:54:47 GMT"
+     "title": "琵琶湖で3人不明 湖に水上バイク",
+     "link": "https://news.yahoo.co.jp/pickup/6596028?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 07:10:06 GMT"
     },
     {
-     "title": "音楽フェス 台風で30組超出演辞退",
-     "link": "https://news.yahoo.co.jp/pickup/6595993?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 01:46:15 GMT"
+     "title": "食事も「キャンセル」若者の実態",
+     "link": "https://news.yahoo.co.jp/pickup/6596013?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 05:19:58 GMT"
     },
     {
-     "title": "映画踊る 示したシリーズ原点回帰",
-     "link": "https://news.yahoo.co.jp/pickup/6595986?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 00:24:21 GMT"
+     "title": "長友佑都 関節前十字じん帯を損傷",
+     "link": "https://news.yahoo.co.jp/pickup/6596021?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 06:13:40 GMT"
     }
    ]
   }
