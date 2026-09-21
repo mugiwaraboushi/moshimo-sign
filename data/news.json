@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-21T19:36:18.652Z",
+ "updatedAt": "2026-09-21T22:52:46.125Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "【上空映像】台風25号 記録的大雨 きょうも土砂災害に厳重警戒",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51748",
+     "pubDate": "Tue, 22 Sep 2026 06:50:55 +0900"
+    },
+    {
      "title": "【台風25号 被害】神奈川と千葉で2人死亡4人不明 捜索続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51778",
-     "pubDate": "Tue, 22 Sep 2026 03:34:06 +0900"
+     "pubDate": "Tue, 22 Sep 2026 03:34:00 +0900"
     },
     {
-     "title": "台風25号 大島町の特別警報は危険警報に 関東は暴風域抜ける",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51748",
-     "pubDate": "Tue, 22 Sep 2026 02:51:00 +0900"
+     "title": "【動画】台風25号 千葉 神奈川 一夜明けた各地の被害は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51808",
+     "pubDate": "Tue, 22 Sep 2026 07:51:38 +0900"
     },
     {
-     "title": "【台風25号】交通影響まとめ 関東の鉄道 22日の運転見合わせも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51512",
-     "pubDate": "Mon, 21 Sep 2026 20:50:00 +0900"
+     "title": "【台風25号】交通影響続く 首都圏の鉄道 運転見合わせ【22日】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51800",
+     "pubDate": "Tue, 22 Sep 2026 06:46:00 +0900"
     },
     {
-     "title": "悠仁さま アジア大会で伝統競技の試合を観戦",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51687",
-     "pubDate": "Mon, 21 Sep 2026 18:54:48 +0900"
+     "title": "大英図書館の再開発事業で着工式 日本の不動産会社が参画",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51804",
+     "pubDate": "Tue, 22 Sep 2026 07:18:10 +0900"
     },
     {
-     "title": "高市首相 国連総会出席で米に出発 国連演説で日本の決意表明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51763",
-     "pubDate": "Tue, 22 Sep 2026 00:08:58 +0900"
+     "title": "中国軍制服組トップなど務めた2人が巨額賄賂などで党籍はく奪",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51785",
+     "pubDate": "Tue, 22 Sep 2026 05:56:57 +0900"
     },
     {
      "title": "「トランプ大統領 イエメン空爆で方針転換」米報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51710",
      "pubDate": "Mon, 21 Sep 2026 20:09:09 +0900"
-    },
-    {
-     "title": "ロシア下院選挙で与党圧勝 8割近い議席獲得へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51726",
-     "pubDate": "Mon, 21 Sep 2026 22:48:58 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（9月22日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51718",
+     "pubDate": "Tue, 22 Sep 2026 06:54:09 +0900"
+    },
     {
      "title": "【動画】Pickup NEWS（9月21日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51378",
@@ -118,11 +123,6 @@
      "title": "福岡 男児が事故で意識不明 危険運転傷害の疑いで容疑者逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51330",
      "pubDate": "Sun, 20 Sep 2026 22:40:12 +0900"
-    },
-    {
-     "title": "墜落した空自の大型無人偵察機 機体の一部を回収",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51332",
-     "pubDate": "Sun, 20 Sep 2026 12:19:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "アメリカと中国 AI重大事案で意思疎通の手段を構築へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51793",
+     "pubDate": "Tue, 22 Sep 2026 05:47:45 +0900"
+    },
     {
      "title": "“江戸の謎の漂着船”「うつろ舟」新資料 国立公文書館で確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51311",
@@ -200,11 +205,6 @@
      "title": "連続テレビ小説「風、薫る」から「ブラッサム」へバトンタッチ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50868",
      "pubDate": "Thu, 17 Sep 2026 18:32:09 +0900"
-    },
-    {
-     "title": "ノーベル賞“有力候補”に九州大学の研究者も 英学術情報会社",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50860",
-     "pubDate": "Thu, 17 Sep 2026 17:51:40 +0900"
     }
    ]
   },
@@ -213,6 +213,46 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "大英図書館の再開発事業で着工式 日本の不動産会社が参画",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51804",
+     "pubDate": "Tue, 22 Sep 2026 07:18:10 +0900"
+    },
+    {
+     "title": "日米韓外相 北朝鮮の完全な非核化へ協力の方針 改めて確認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51790",
+     "pubDate": "Tue, 22 Sep 2026 06:02:13 +0900"
+    },
+    {
+     "title": "中国軍制服組トップなど務めた2人が巨額賄賂などで党籍はく奪",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51785",
+     "pubDate": "Tue, 22 Sep 2026 05:56:57 +0900"
+    },
+    {
+     "title": "ホワイトハウスでの取材禁止 CNNなど3社が差し止め求め提訴",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51788",
+     "pubDate": "Tue, 22 Sep 2026 05:49:58 +0900"
+    },
+    {
+     "title": "アメリカと中国 AI重大事案で意思疎通の手段を構築へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51793",
+     "pubDate": "Tue, 22 Sep 2026 05:47:45 +0900"
+    },
+    {
+     "title": "ドイツ メルツ首相 続投姿勢改めて強調 州議会選挙で議席失う",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51787",
+     "pubDate": "Tue, 22 Sep 2026 05:46:04 +0900"
+    },
+    {
+     "title": "日米首脳会談へ トランプ大統領と中国への対応など意見交換か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51786",
+     "pubDate": "Tue, 22 Sep 2026 05:43:46 +0900"
+    },
+    {
+     "title": "国連総会 きょうから各国首脳の一般討論演説 気候変動やAIも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51782",
+     "pubDate": "Tue, 22 Sep 2026 05:28:00 +0900"
+    },
     {
      "title": "高市首相 国連総会出席で米に出発 国連演説で日本の決意表明",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51763",
@@ -247,46 +287,6 @@
      "title": "国連総会 22日から各国首脳による一般討論演説",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51573",
      "pubDate": "Mon, 21 Sep 2026 13:43:00 +0900"
-    },
-    {
-     "title": "米財務長官と中国副首相 首脳会談前にAIなど協議",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51614",
-     "pubDate": "Mon, 21 Sep 2026 13:38:37 +0900"
-    },
-    {
-     "title": "拉致被害者家族が訪米し協力訴え 各国首脳会談へ期待も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51620",
-     "pubDate": "Mon, 21 Sep 2026 13:37:05 +0900"
-    },
-    {
-     "title": "トランプ政権 ICCへの広範な制裁検討か 米メディア報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51541",
-     "pubDate": "Mon, 21 Sep 2026 08:00:00 +0900"
-    },
-    {
-     "title": "ドイツ北東部州議選「極右」第1党 首相の政党は議席失う",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51516",
-     "pubDate": "Mon, 21 Sep 2026 09:29:00 +0900"
-    },
-    {
-     "title": "ロシア下院選挙開票進む 政権与党リード",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51530",
-     "pubDate": "Mon, 21 Sep 2026 07:32:45 +0900"
-    },
-    {
-     "title": "ゼレンスキー大統領 訪米でトランプ大統領と会談",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51458",
-     "pubDate": "Mon, 21 Sep 2026 06:41:13 +0900"
-    },
-    {
-     "title": "ロシア首都などにウクライナの大規模攻撃 下院選挙狙ったか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51479",
-     "pubDate": "Mon, 21 Sep 2026 04:22:03 +0900"
-    },
-    {
-     "title": "イラン“米軍基地など攻撃対象に” アメリカを強くけん制",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51477",
-     "pubDate": "Mon, 21 Sep 2026 04:13:07 +0900"
     }
    ]
   },
@@ -296,34 +296,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "大島町 土砂災害危険警報に切替",
-     "link": "https://news.yahoo.co.jp/pickup/6596081?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 14:14:43 GMT"
+     "title": "台風の爪痕残る 川や崖など注意を",
+     "link": "https://news.yahoo.co.jp/pickup/6596089?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 22:36:09 GMT"
     },
     {
-     "title": "三浦半島 土砂崩れ相次ぎ1人死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6596085?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 15:19:58 GMT"
-    },
-    {
-     "title": "台風が連休直撃 観光客からため息",
-     "link": "https://news.yahoo.co.jp/pickup/6596075?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 13:52:51 GMT"
-    },
-    {
-     "title": "神奈川県 自衛隊に災害派遣要請",
-     "link": "https://news.yahoo.co.jp/pickup/6596083?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 14:44:31 GMT"
-    },
-    {
-     "title": "高滝ダム緊急放流 見合わせる方向",
-     "link": "https://news.yahoo.co.jp/pickup/6596080?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 14:25:11 GMT"
+     "title": "台風被害 土砂崩れ相次ぎ2人死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6596092?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 22:46:14 GMT"
     },
     {
      "title": "東京・目黒区の住宅街 擁壁崩れる",
      "link": "https://news.yahoo.co.jp/pickup/6596076?source=rss",
      "pubDate": "Mon, 21 Sep 2026 13:53:04 GMT"
+    },
+    {
+     "title": "コロナ自宅待機1年半で自死 労災",
+     "link": "https://news.yahoo.co.jp/pickup/6596090?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 22:42:04 GMT"
     },
     {
      "title": "22歳死亡 発見時豚が覆いかぶさる",
@@ -334,6 +324,16 @@
      "title": "40歳・長友佑都 大怪我に「衝撃」",
      "link": "https://news.yahoo.co.jp/pickup/6596054?source=rss",
      "pubDate": "Mon, 21 Sep 2026 10:36:21 GMT"
+    },
+    {
+     "title": "原田夏希 第4子を出産していた",
+     "link": "https://news.yahoo.co.jp/pickup/6596088?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 22:25:24 GMT"
+    },
+    {
+     "title": "メンバー逮捕 timelesz個々に謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6596086?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 22:21:46 GMT"
     }
    ]
   }
