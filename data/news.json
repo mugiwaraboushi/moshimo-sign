@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-21T07:18:56.158Z",
+ "updatedAt": "2026-09-21T14:22:24.997Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【台風25号】伊豆諸島 大島町にレベル5土砂災害特別警報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51478",
-     "pubDate": "Mon, 21 Sep 2026 15:24:38 +0900"
+     "title": "伊豆諸島大島町の土砂災害特別警報 レベル4危険警報に切り替え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51748",
+     "pubDate": "Mon, 21 Sep 2026 23:03:25 +0900"
     },
     {
-     "title": "【気象庁会見 詳細】 伊豆諸島大島町に特別警報 警戒点は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51617",
-     "pubDate": "Mon, 21 Sep 2026 15:11:03 +0900"
+     "title": "千葉県内 各地の川で氾濫の危険性 「緊急安全確保」を発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51669",
+     "pubDate": "Mon, 21 Sep 2026 20:44:38 +0900"
     },
     {
-     "title": "伊豆諸島 御蔵島村付近で猛烈な雨か「記録的短時間大雨」発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51654",
-     "pubDate": "Mon, 21 Sep 2026 15:34:38 +0900"
+     "title": "千葉 佐倉市の高崎川で「氾濫発生情報」（21:15）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51734",
+     "pubDate": "Mon, 21 Sep 2026 22:08:45 +0900"
     },
     {
-     "title": "【台風25号】被害まとめ 千葉県や神奈川県で住宅被害",
+     "title": "【地震情報】大分 宮崎で震度3 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51750",
+     "pubDate": "Mon, 21 Sep 2026 23:08:27 +0900"
+    },
+    {
+     "title": "【台風25号】関東各地の被害",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51522",
-     "pubDate": "Mon, 21 Sep 2026 15:33:36 +0900"
+     "pubDate": "Mon, 21 Sep 2026 20:54:41 +0900"
     },
     {
-     "title": "【台風25号】交通影響まとめ 鉄道・空の便・道路・フェリー",
+     "title": "【台風25号】交通影響まとめ 関東の鉄道 22日の運転見合わせも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51512",
-     "pubDate": "Mon, 21 Sep 2026 15:13:50 +0900"
+     "pubDate": "Mon, 21 Sep 2026 20:50:00 +0900"
     },
     {
-     "title": "福岡 3歳男児死亡事故 危険運転逮捕の容疑者2倍近いアルコール",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51637",
-     "pubDate": "Mon, 21 Sep 2026 15:14:00 +0900"
-    },
-    {
-     "title": "サッカーJ1 FC東京 40歳の長友佑都 右ひざ前十字じん帯損傷",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51641",
-     "pubDate": "Mon, 21 Sep 2026 15:49:56 +0900"
+     "title": "「トランプ大統領 イエメン空爆で方針転換」米報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51710",
+     "pubDate": "Mon, 21 Sep 2026 20:09:09 +0900"
     }
    ]
   },
@@ -50,6 +50,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "【動画】Pickup NEWS（9月21日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51378",
+     "pubDate": "Mon, 21 Sep 2026 19:52:34 +0900"
+    },
+    {
+     "title": "悠仁さま アジア大会で伝統競技の試合を観戦",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51687",
+     "pubDate": "Mon, 21 Sep 2026 18:54:48 +0900"
+    },
+    {
+     "title": "大津 びわ湖 水上オートバイの男性3人不明 2人見つかる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51668",
+     "pubDate": "Mon, 21 Sep 2026 16:58:00 +0900"
+    },
+    {
      "title": "福岡 3歳男児死亡事故 危険運転逮捕の容疑者2倍近いアルコール",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51637",
      "pubDate": "Mon, 21 Sep 2026 15:14:00 +0900"
@@ -57,7 +72,7 @@
     {
      "title": "能登の豪雨災害2年 15人犠牲の輪島市で多くの人が献花に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51627",
-     "pubDate": "Mon, 21 Sep 2026 14:30:20 +0900"
+     "pubDate": "Mon, 21 Sep 2026 14:30:00 +0900"
     },
     {
      "title": "JR中央線 快速電車がオーバーラン 雨で車輪滑ったか 豊田駅",
@@ -108,21 +123,6 @@
      "title": "墜落した空自の大型無人偵察機 機体の一部を回収",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51332",
      "pubDate": "Sun, 20 Sep 2026 12:19:00 +0900"
-    },
-    {
-     "title": "台風25号接近 東京湾フェリー きょう午後以降に計画運休へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51312",
-     "pubDate": "Sun, 20 Sep 2026 11:08:00 +0900"
-    },
-    {
-     "title": "高校生暴行死 殺人容疑で少年4人再逮捕 “鈍器”で殴ったか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51325",
-     "pubDate": "Sun, 20 Sep 2026 17:45:37 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（9月20日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51264",
-     "pubDate": "Sun, 20 Sep 2026 19:47:54 +0900"
     }
    ]
   },
@@ -214,6 +214,31 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ウクライナ 森衆院議長に北朝鮮製ミサイル部品を公開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51739",
+     "pubDate": "Mon, 21 Sep 2026 22:24:14 +0900"
+    },
+    {
+     "title": "アメリカ中間選挙を前に トランプ大統領の足元に迫る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51725",
+     "pubDate": "Mon, 21 Sep 2026 22:20:04 +0900"
+    },
+    {
+     "title": "ロシア下院選挙で与党圧勝 8割近い議席獲得へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51726",
+     "pubDate": "Mon, 21 Sep 2026 22:48:58 +0900"
+    },
+    {
+     "title": "習主席が23日から訪米 トランプ大統領と会談へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51724",
+     "pubDate": "Mon, 21 Sep 2026 21:02:54 +0900"
+    },
+    {
+     "title": "「トランプ大統領 イエメン空爆で方針転換」米報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51710",
+     "pubDate": "Mon, 21 Sep 2026 20:09:09 +0900"
+    },
+    {
      "title": "国連総会 22日から各国首脳による一般討論演説",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51573",
      "pubDate": "Mon, 21 Sep 2026 13:43:13 +0900"
@@ -262,31 +287,6 @@
      "title": "韓国軍「北が2回にわたり短距離弾道ミサイル発射」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51400",
      "pubDate": "Sun, 20 Sep 2026 21:59:00 +0900"
-    },
-    {
-     "title": "ドイツ 首都と北東部の州で議会選挙の投票始まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51399",
-     "pubDate": "Sun, 20 Sep 2026 21:57:08 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月20日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de46998",
-     "pubDate": "Sun, 20 Sep 2026 19:45:48 +0900"
-    },
-    {
-     "title": "北朝鮮 弾道ミサイル続けて発射 いずれもEEZ外に落下か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51353",
-     "pubDate": "Sun, 20 Sep 2026 20:59:05 +0900"
-    },
-    {
-     "title": "北朝鮮労働者がロシアで軍事用無人機製造か 監視のチーム指摘",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51376",
-     "pubDate": "Sun, 20 Sep 2026 18:53:47 +0900"
-    },
-    {
-     "title": "ロシア ウクライナ侵攻以降初めての議会下院選挙 投票進む",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51340",
-     "pubDate": "Mon, 21 Sep 2026 01:10:47 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "東京・大島町に土砂災害特別警報",
-     "link": "https://news.yahoo.co.jp/pickup/6596012?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 04:44:03 GMT"
+     "title": "大島町 土砂災害危険警報に切替",
+     "link": "https://news.yahoo.co.jp/pickup/6596081?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 14:14:43 GMT"
     },
     {
-     "title": "気象庁「22日明け方まで警戒を」",
-     "link": "https://news.yahoo.co.jp/pickup/6596025?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 06:43:25 GMT"
+     "title": "台風 最新情報や避難のポイント",
+     "link": "https://news.yahoo.co.jp/pickup/6596048?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 10:02:36 GMT"
     },
     {
-     "title": "台風25号 今後の見通しや最新情報",
-     "link": "https://news.yahoo.co.jp/pickup/6596016?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 05:08:33 GMT"
+     "title": "台風が連休直撃 観光客からため息",
+     "link": "https://news.yahoo.co.jp/pickup/6596075?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 13:52:51 GMT"
     },
     {
-     "title": "横須賀で土砂崩れ 1人生き埋めか",
-     "link": "https://news.yahoo.co.jp/pickup/6596029?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 07:13:42 GMT"
+     "title": "8月に続き「またか」千葉で嘆き",
+     "link": "https://news.yahoo.co.jp/pickup/6596061?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 12:14:38 GMT"
     },
     {
-     "title": "事故に巻き込まれ 3歳男児が死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6596020?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 05:40:21 GMT"
+     "title": "東京・目黒区の住宅街 擁壁崩れる",
+     "link": "https://news.yahoo.co.jp/pickup/6596076?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 13:53:04 GMT"
     },
     {
-     "title": "琵琶湖で3人不明 湖に水上バイク",
-     "link": "https://news.yahoo.co.jp/pickup/6596028?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 07:10:06 GMT"
+     "title": "中国 軍制服組トップら2人を処分",
+     "link": "https://news.yahoo.co.jp/pickup/6596064?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 12:51:54 GMT"
     },
     {
-     "title": "食事も「キャンセル」若者の実態",
-     "link": "https://news.yahoo.co.jp/pickup/6596013?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 05:19:58 GMT"
+     "title": "バレー女子 48年ぶり金メダル王手",
+     "link": "https://news.yahoo.co.jp/pickup/6596068?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 12:58:37 GMT"
     },
     {
-     "title": "長友佑都 関節前十字じん帯を損傷",
-     "link": "https://news.yahoo.co.jp/pickup/6596021?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 06:13:40 GMT"
+     "title": "40歳・長友佑都 大怪我に「衝撃」",
+     "link": "https://news.yahoo.co.jp/pickup/6596054?source=rss",
+     "pubDate": "Mon, 21 Sep 2026 10:36:21 GMT"
     }
    ]
   }
