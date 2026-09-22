@@ -38,6 +38,13 @@
   .qr { background:#fff; padding:9px; border-radius:9px; display:inline-block; margin-top:10px; }
   .qr svg { display:block; width:132px; height:132px; }
 
+  /* 起こしかたの実際の画面 (2026-09-22 追加) */
+  .shots { margin:14px 0 0; }
+  .shot { margin:0 0 14px; }
+  .shot img { display:block; width:100%; height:auto; border-radius:9px; border:1px solid var(--line); }
+  .shot figcaption { font-size:12px; color:var(--dim); margin-top:5px; }
+  .shot figcaption b { color:var(--fg); }
+
   /* ---- フローチャート (インラインSVG) ---- */
   .flow { margin:14px 0 4px; }
   .flow svg { display:block; width:100%; max-width:520px; height:auto; margin:0 auto;
@@ -170,6 +177,37 @@
       </svg>
       <figcaption>同じことを図で。上から順にたどるだけです。</figcaption>
     </figure>
+
+    <div class="shots">
+      <p class="dim">実際の画面はこう見えます（赤い印が押すところ）:</p>
+      <figure class="shot">
+        <img src="img/step1-launcher.jpg" alt="Chromebookのデスクトップ。左下の丸いボタンに赤い矢印" loading="lazy">
+        <figcaption><b>2.</b> 画面左下の丸いボタンがランチャー</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="img/step2-terminal.jpg" alt="ランチャーのアプリ一覧。ターミナルのアイコンに赤い丸" loading="lazy">
+        <figcaption><b>2.</b> 一覧の中の「ターミナル」を開く（見つからなければ上の検索に「ターミナル」と打つ）</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="img/step3-penguin.jpg" alt="ターミナルの最初の画面。penguin の行に赤い枠" loading="lazy">
+        <figcaption><b>3.</b> 「penguin」の行をクリック</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="img/step4-bot.jpg" alt="黒い画面に bot と入力したところ。Enterキーを押す" loading="lazy">
+        <figcaption><b>4.</b> 黒い画面に半角で <b>bot</b> と打って Enter</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="img/step5-started.jpg" alt="Claude Code が起動した画面。Channels の表示と Discord プラグインの行が出ている" loading="lazy">
+        <figcaption><b>✓</b> こんな画面になれば起動中。1〜2分待つとDiscordでオンラインになります。この画面は閉じずにそのまま</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="img/step6-discord.jpg" alt="Discordの電光掲示板くんチャンネル。メンバー一覧のオンラインに電光掲示板くん（アプリ）が出ている" loading="lazy">
+        <figcaption><b>✓</b> Discordの「#電光掲示板くん」チャンネルを開いて、右のメンバー一覧の<b>オンライン</b>に「電光掲示板くん」が出ていれば出勤完了</figcaption>
+      </figure>
+    </div>
+
+    <p><b>Discordで「電光掲示板くん」がオンラインになっていれば使えます！</b></p>
+    <p>うまくいかない場合は、PCを再起動してはじめからやり直しましょう！ それでもだめなら管理者へ。</p>
 
     <div class="note">
       <b>作業の途中で「これ、やっていいですか?」と聞かれることがあります。</b>これは起動のときではなく、
