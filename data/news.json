@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-22T01:18:59.909Z",
+ "updatedAt": "2026-09-22T06:23:25.738Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【上空映像】台風25号 記録的大雨 きょうも土砂災害に厳重警戒",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51748",
-     "pubDate": "Tue, 22 Sep 2026 09:33:59 +0900"
+     "title": "【上空映像】台風25号被害 神奈川と千葉で4人死亡6人不明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51778",
+     "pubDate": "Tue, 22 Sep 2026 14:57:08 +0900"
     },
     {
-     "title": "【台風25号 被害】神奈川と千葉で2人死亡4人不明 捜索続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51778",
-     "pubDate": "Tue, 22 Sep 2026 03:34:00 +0900"
+     "title": "福岡 3歳児死亡事故 容疑者「前夜に飲酒し 朝また飲んで車に」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51846",
+     "pubDate": "Tue, 22 Sep 2026 13:38:49 +0900"
+    },
+    {
+     "title": "台風25号 関東や伊豆諸島で記録的大雨 土砂災害に引き続き警戒",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51748",
+     "pubDate": "Tue, 22 Sep 2026 12:43:07 +0900"
     },
     {
      "title": "【動画】台風25号 千葉 神奈川 一夜明けた各地の被害は",
@@ -23,9 +28,9 @@
      "pubDate": "Tue, 22 Sep 2026 07:51:00 +0900"
     },
     {
-     "title": "【台風25号】交通影響続く 首都圏の鉄道 運転見合わせ【22日】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51800",
-     "pubDate": "Tue, 22 Sep 2026 06:46:00 +0900"
+     "title": "日米首脳会談 日本時間23日開催を発表 日本政府",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51835",
+     "pubDate": "Tue, 22 Sep 2026 14:45:55 +0900"
     },
     {
      "title": "「トランプ大統領 イエメン空爆で方針転換」米報道",
@@ -33,14 +38,9 @@
      "pubDate": "Mon, 21 Sep 2026 20:09:09 +0900"
     },
     {
-     "title": "大英図書館の再開発事業で着工式 日本の不動産会社が参画",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51804",
-     "pubDate": "Tue, 22 Sep 2026 07:18:10 +0900"
-    },
-    {
-     "title": "中国軍制服組トップなど務めた2人が巨額賄賂などで党籍はく奪",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51785",
-     "pubDate": "Tue, 22 Sep 2026 05:56:57 +0900"
+     "title": "NY株式市場 ナスダック株価指数 約3か月半ぶりに最高値を更新",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51819",
+     "pubDate": "Tue, 22 Sep 2026 09:25:00 +0900"
     }
    ]
   },
@@ -50,9 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "福岡 3歳児死亡事故 容疑者「前夜に飲酒し 朝また飲んで車に」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51846",
+     "pubDate": "Tue, 22 Sep 2026 13:38:49 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（9月22日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51718",
-     "pubDate": "Tue, 22 Sep 2026 06:54:09 +0900"
+     "pubDate": "Tue, 22 Sep 2026 14:17:45 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（9月21日）",
@@ -118,11 +123,6 @@
      "title": "北朝鮮 弾道ミサイル続けて発射 いずれもEEZ外に落下か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51353",
      "pubDate": "Sun, 20 Sep 2026 20:59:05 +0900"
-    },
-    {
-     "title": "福岡 男児が事故で意識不明 危険運転傷害の疑いで容疑者逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51330",
-     "pubDate": "Sun, 20 Sep 2026 22:40:12 +0900"
     }
    ]
   },
@@ -132,9 +132,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "オープンAI “安全なAI開発進めるため 世界的な取り組み必要”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51837",
+     "pubDate": "Tue, 22 Sep 2026 12:12:00 +0900"
+    },
+    {
      "title": "アメリカと中国 AI重大事案で意思疎通の手段を構築へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51793",
-     "pubDate": "Tue, 22 Sep 2026 05:47:45 +0900"
+     "pubDate": "Tue, 22 Sep 2026 05:47:00 +0900"
     },
     {
      "title": "“江戸の謎の漂着船”「うつろ舟」新資料 国立公文書館で確認",
@@ -200,11 +205,6 @@
      "title": "「東京ゲームショウ」が開幕 異業種企業の出展も盛んに",
      "link": "https://news.web.nhk/newsweb/na/nd-20260917de50881",
      "pubDate": "Thu, 17 Sep 2026 19:42:00 +0900"
-    },
-    {
-     "title": "連続テレビ小説「風、薫る」から「ブラッサム」へバトンタッチ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50868",
-     "pubDate": "Thu, 17 Sep 2026 18:32:09 +0900"
     }
    ]
   },
@@ -214,19 +214,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "オープンAI “安全なAI開発進めるため 世界的な取り組み必要”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51837",
+     "pubDate": "Tue, 22 Sep 2026 12:12:00 +0900"
+    },
+    {
+     "title": "日米首脳会談 日本時間23日開催を発表 日本政府",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51835",
+     "pubDate": "Tue, 22 Sep 2026 14:45:55 +0900"
+    },
+    {
+     "title": "北朝鮮 “新型兵器の試験成功” ミサイル発射の写真公開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51828",
+     "pubDate": "Tue, 22 Sep 2026 11:22:00 +0900"
+    },
+    {
      "title": "NY株式市場 ナスダック株価指数 約3か月半ぶりに最高値を更新",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51819",
-     "pubDate": "Tue, 22 Sep 2026 09:25:40 +0900"
+     "pubDate": "Tue, 22 Sep 2026 09:25:00 +0900"
     },
     {
      "title": "大英図書館の再開発事業で着工式 日本の不動産会社が参画",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51804",
-     "pubDate": "Tue, 22 Sep 2026 07:18:10 +0900"
+     "pubDate": "Tue, 22 Sep 2026 07:18:00 +0900"
     },
     {
      "title": "日米韓外相 北朝鮮の完全な非核化へ協力の方針 改めて確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51790",
-     "pubDate": "Tue, 22 Sep 2026 10:15:04 +0900"
+     "pubDate": "Tue, 22 Sep 2026 10:15:00 +0900"
     },
     {
      "title": "中国軍制服組トップなど務めた2人が巨額賄賂などで党籍はく奪",
@@ -236,12 +251,12 @@
     {
      "title": "ホワイトハウスでの取材禁止 CNNなど3社が差し止め求め提訴",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51788",
-     "pubDate": "Tue, 22 Sep 2026 09:23:29 +0900"
+     "pubDate": "Tue, 22 Sep 2026 09:23:00 +0900"
     },
     {
      "title": "アメリカと中国 AI重大事案で意思疎通の手段を構築へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51793",
-     "pubDate": "Tue, 22 Sep 2026 05:47:45 +0900"
+     "pubDate": "Tue, 22 Sep 2026 05:47:00 +0900"
     },
     {
      "title": "ドイツ メルツ首相 続投姿勢改めて強調 州議会選挙で議席失う",
@@ -272,21 +287,6 @@
      "title": "アメリカ中間選挙を前に トランプ大統領の足元に迫る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51725",
      "pubDate": "Mon, 21 Sep 2026 22:20:04 +0900"
-    },
-    {
-     "title": "ロシア下院選挙で与党圧勝 8割近い議席獲得へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51726",
-     "pubDate": "Mon, 21 Sep 2026 22:48:58 +0900"
-    },
-    {
-     "title": "習主席が23日から訪米 トランプ大統領と会談へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51724",
-     "pubDate": "Mon, 21 Sep 2026 21:02:54 +0900"
-    },
-    {
-     "title": "「トランプ大統領 イエメン空爆で方針転換」米報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51710",
-     "pubDate": "Mon, 21 Sep 2026 20:09:09 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風一過 関東など急な暑さに注意",
-     "link": "https://news.yahoo.co.jp/pickup/6596109?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 01:01:37 GMT"
+     "title": "冠水の佐倉市 帰宅できず住民落胆",
+     "link": "https://news.yahoo.co.jp/pickup/6596136?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 05:25:48 GMT"
     },
     {
-     "title": "千葉県 22日朝も5万軒近く停電",
-     "link": "https://news.yahoo.co.jp/pickup/6596110?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 01:13:58 GMT"
+     "title": "「解党」の中道に交付金満額 批判",
+     "link": "https://news.yahoo.co.jp/pickup/6596140?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 05:55:37 GMT"
     },
     {
-     "title": "重要資源代替の研究力強化へ 政府",
-     "link": "https://news.yahoo.co.jp/pickup/6596100?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 23:39:39 GMT"
+     "title": "トランプ氏支持率32% 過去最低",
+     "link": "https://news.yahoo.co.jp/pickup/6596138?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 05:44:18 GMT"
     },
     {
-     "title": "コロナ自宅待機1年半で自死 労災",
-     "link": "https://news.yahoo.co.jp/pickup/6596090?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 22:42:04 GMT"
+     "title": "リトアニア 露が攻撃なら反撃する",
+     "link": "https://news.yahoo.co.jp/pickup/6596133?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 05:02:12 GMT"
     },
     {
-     "title": "婚活サイトに599人分情報 県謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6596094?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 23:10:12 GMT"
+     "title": "3歳死亡事故「前日夜と当日飲酒」",
+     "link": "https://news.yahoo.co.jp/pickup/6596142?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 06:13:46 GMT"
     },
     {
-     "title": "アジア大会 現地入り記者の違和感",
-     "link": "https://news.yahoo.co.jp/pickup/6596096?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 23:11:13 GMT"
+     "title": "アジア大会巡る不手際 運営側反論",
+     "link": "https://news.yahoo.co.jp/pickup/6596139?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 05:49:05 GMT"
     },
     {
-     "title": "スリーアミーゴス 3人で246歳の今",
-     "link": "https://news.yahoo.co.jp/pickup/6596105?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 00:33:30 GMT"
+     "title": "中山忍 美穂さんの遺品整理で涙",
+     "link": "https://news.yahoo.co.jp/pickup/6596134?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 05:15:13 GMT"
     },
     {
-     "title": "原田夏希 第4子を出産していた",
-     "link": "https://news.yahoo.co.jp/pickup/6596088?source=rss",
-     "pubDate": "Mon, 21 Sep 2026 22:25:24 GMT"
+     "title": "とろサ久保田の原画 最高6660万円",
+     "link": "https://news.yahoo.co.jp/pickup/6596130?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 04:25:51 GMT"
     }
    ]
   }
