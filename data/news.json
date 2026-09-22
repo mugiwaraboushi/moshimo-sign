@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-22T15:48:20.205Z",
+ "updatedAt": "2026-09-22T19:18:25.335Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "高市首相と米トランプ大統領の日米首脳会談",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51902",
+     "pubDate": "Wed, 23 Sep 2026 02:51:36 +0900"
+    },
+    {
+     "title": "トランプ大統領 国連総会で演説 ICC加盟国に脱退呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51930",
+     "pubDate": "Wed, 23 Sep 2026 02:47:00 +0900"
+    },
     {
      "title": "【台風被害】千葉と神奈川で7人死亡 5人行方不明 道路崩落も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51778",
@@ -20,7 +30,7 @@
     {
      "title": "国連総会で事務総長“超大国は限界自覚し多国間体制を”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51928",
-     "pubDate": "Wed, 23 Sep 2026 00:19:08 +0900"
+     "pubDate": "Wed, 23 Sep 2026 02:05:00 +0900"
     },
     {
      "title": "大相撲秋場所10日目 関脇 熱海富士は大関 琴櫻破り勝ち越し",
@@ -31,16 +41,6 @@
      "title": "アジア大会でひぼう中傷投稿相次ぐ 削除要請すでに120件超",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51903",
      "pubDate": "Tue, 22 Sep 2026 21:47:57 +0900"
-    },
-    {
-     "title": "ホワイトハウス「トランプTV」開始 主要メディアと対立のなか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51923",
-     "pubDate": "Tue, 22 Sep 2026 22:37:00 +0900"
-    },
-    {
-     "title": "韓国のサッカー協会前会長らを書類送検 監督選考で不正疑い",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51897",
-     "pubDate": "Tue, 22 Sep 2026 21:21:39 +0900"
     }
    ]
   },
@@ -214,9 +214,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "トランプ大統領 国連総会で演説 ICC加盟国に脱退呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51930",
+     "pubDate": "Wed, 23 Sep 2026 02:47:00 +0900"
+    },
+    {
+     "title": "高市首相と米トランプ大統領の日米首脳会談",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51902",
+     "pubDate": "Wed, 23 Sep 2026 02:51:36 +0900"
+    },
+    {
      "title": "国連総会で事務総長“超大国は限界自覚し多国間体制を”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51928",
-     "pubDate": "Wed, 23 Sep 2026 00:19:08 +0900"
+     "pubDate": "Wed, 23 Sep 2026 02:05:00 +0900"
     },
     {
      "title": "ホワイトハウス「トランプTV」開始 主要メディアと対立のなか",
@@ -277,16 +287,6 @@
      "title": "ホワイトハウスでの取材禁止 CNNなど3社が差し止め求め提訴",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51788",
      "pubDate": "Tue, 22 Sep 2026 09:23:00 +0900"
-    },
-    {
-     "title": "アメリカと中国 AI重大事案で意思疎通の手段を構築へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51793",
-     "pubDate": "Tue, 22 Sep 2026 05:47:00 +0900"
-    },
-    {
-     "title": "ドイツ メルツ首相 続投姿勢改めて強調 州議会選挙で議席失う",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51787",
-     "pubDate": "Tue, 22 Sep 2026 05:46:00 +0900"
     }
    ]
   },
