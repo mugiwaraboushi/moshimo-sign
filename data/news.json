@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-22T11:53:33.859Z",
+ "updatedAt": "2026-09-22T15:48:20.205Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【台風被害】千葉と神奈川で6人死亡6人行方不明 道路崩落も",
+     "title": "【台風被害】千葉と神奈川で7人死亡 5人行方不明 道路崩落も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51778",
-     "pubDate": "Tue, 22 Sep 2026 20:35:48 +0900"
+     "pubDate": "Tue, 22 Sep 2026 23:43:37 +0900"
     },
     {
      "title": "【動画】 道路崩れ 各地で冠水 台風25号の被害状況",
@@ -18,29 +18,29 @@
      "pubDate": "Tue, 22 Sep 2026 18:39:48 +0900"
     },
     {
-     "title": "日米首脳会談 日本時間23日開催を発表 日本政府",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51835",
-     "pubDate": "Tue, 22 Sep 2026 20:04:38 +0900"
+     "title": "国連総会で事務総長“超大国は限界自覚し多国間体制を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51928",
+     "pubDate": "Wed, 23 Sep 2026 00:19:08 +0900"
     },
     {
      "title": "大相撲秋場所10日目 関脇 熱海富士は大関 琴櫻破り勝ち越し",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51889",
-     "pubDate": "Tue, 22 Sep 2026 20:04:25 +0900"
+     "pubDate": "Tue, 22 Sep 2026 22:14:12 +0900"
     },
     {
-     "title": "秋の大型連休 各地でUターンラッシュピーク",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51870",
-     "pubDate": "Tue, 22 Sep 2026 17:25:00 +0900"
+     "title": "アジア大会でひぼう中傷投稿相次ぐ 削除要請すでに120件超",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51903",
+     "pubDate": "Tue, 22 Sep 2026 21:47:57 +0900"
     },
     {
-     "title": "アジア大会 国歌取り違えで組織委が韓国選手団に謝罪",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51872",
-     "pubDate": "Tue, 22 Sep 2026 17:32:21 +0900"
+     "title": "ホワイトハウス「トランプTV」開始 主要メディアと対立のなか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51923",
+     "pubDate": "Tue, 22 Sep 2026 22:37:00 +0900"
     },
     {
-     "title": "北海道 矢臼別演習場で陸自と米陸軍が共同射撃訓練",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51887",
-     "pubDate": "Tue, 22 Sep 2026 19:12:02 +0900"
+     "title": "韓国のサッカー協会前会長らを書類送検 監督選考で不正疑い",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51897",
+     "pubDate": "Tue, 22 Sep 2026 21:21:39 +0900"
     }
    ]
   },
@@ -214,6 +214,26 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "国連総会で事務総長“超大国は限界自覚し多国間体制を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51928",
+     "pubDate": "Wed, 23 Sep 2026 00:19:08 +0900"
+    },
+    {
+     "title": "ホワイトハウス「トランプTV」開始 主要メディアと対立のなか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51923",
+     "pubDate": "Tue, 22 Sep 2026 22:37:00 +0900"
+    },
+    {
+     "title": "国連総会 トランプ大統領が演説へ 国際情勢の行方は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51898",
+     "pubDate": "Tue, 22 Sep 2026 22:08:38 +0900"
+    },
+    {
+     "title": "韓国のサッカー協会前会長らを書類送検 監督選考で不正疑い",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51897",
+     "pubDate": "Tue, 22 Sep 2026 21:21:39 +0900"
+    },
+    {
      "title": "北海道 矢臼別演習場で陸自と米陸軍が共同射撃訓練",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51887",
      "pubDate": "Tue, 22 Sep 2026 19:12:02 +0900"
@@ -267,26 +287,6 @@
      "title": "ドイツ メルツ首相 続投姿勢改めて強調 州議会選挙で議席失う",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51787",
      "pubDate": "Tue, 22 Sep 2026 05:46:00 +0900"
-    },
-    {
-     "title": "日米首脳会談へ トランプ大統領と中国への対応など意見交換か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51786",
-     "pubDate": "Tue, 22 Sep 2026 05:43:00 +0900"
-    },
-    {
-     "title": "国連総会 きょうから各国首脳の一般討論演説 気候変動やAIも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51782",
-     "pubDate": "Tue, 22 Sep 2026 05:28:00 +0900"
-    },
-    {
-     "title": "高市首相 国連総会出席で米に出発 国連演説で日本の決意表明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51763",
-     "pubDate": "Tue, 22 Sep 2026 00:08:58 +0900"
-    },
-    {
-     "title": "ウクライナ 森衆院議長に北朝鮮製ミサイル部品を公開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51739",
-     "pubDate": "Mon, 21 Sep 2026 22:24:14 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風 千葉・神奈川で死者計6人に",
-     "link": "https://news.yahoo.co.jp/pickup/6596171?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 10:21:50 GMT"
+     "title": "今年3度目の大雨被害 千葉に爪痕",
+     "link": "https://news.yahoo.co.jp/pickup/6596183?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 12:24:25 GMT"
     },
     {
-     "title": "G7外相 フーシ派の攻撃強く非難",
-     "link": "https://news.yahoo.co.jp/pickup/6596159?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 08:29:59 GMT"
+     "title": "AI搭載の人型ロボ 防衛活用研究へ",
+     "link": "https://news.yahoo.co.jp/pickup/6596184?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 12:38:00 GMT"
     },
     {
-     "title": "事故巻き添えで3歳死亡 両親心境",
-     "link": "https://news.yahoo.co.jp/pickup/6596173?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 10:54:20 GMT"
+     "title": "琵琶湖で3人捜しに出た男性 死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6596193?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 14:21:28 GMT"
     },
     {
-     "title": "博士号授与されず 学生が大学提訴",
-     "link": "https://news.yahoo.co.jp/pickup/6596164?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 09:01:09 GMT"
+     "title": "SUPに2人乗りし落ちたか 1人死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6596181?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 12:18:12 GMT"
     },
     {
-     "title": "3歳娘が白血病に 闘う姿から教え",
-     "link": "https://news.yahoo.co.jp/pickup/6596168?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 09:53:00 GMT"
+     "title": "配偶者と性行為つらい 向き合い方",
+     "link": "https://news.yahoo.co.jp/pickup/6596150?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 07:28:35 GMT"
     },
     {
-     "title": "巨人痛恨 延長11回にサヨナラ負け",
-     "link": "https://news.yahoo.co.jp/pickup/6596175?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 11:23:39 GMT"
+     "title": "地方のキャバクラ 経営「四重苦」",
+     "link": "https://news.yahoo.co.jp/pickup/6596192?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 14:01:34 GMT"
     },
     {
-     "title": "速報バレー女子決勝 日本vs中国",
-     "link": "https://news.yahoo.co.jp/pickup/6596170?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 10:17:33 GMT"
+     "title": "DF板倉 川口春奈との結婚に言及",
+     "link": "https://news.yahoo.co.jp/pickup/6596178?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 11:58:20 GMT"
     },
     {
-     "title": "田口淳之介 結婚&第1子誕生を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6596169?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 10:20:50 GMT"
+     "title": "田口淳之介 年下の一般女性と結婚",
+     "link": "https://news.yahoo.co.jp/pickup/6596195?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 14:54:15 GMT"
     }
    ]
   }
