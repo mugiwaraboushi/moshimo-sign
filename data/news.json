@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-22T06:23:25.738Z",
+ "updatedAt": "2026-09-22T11:53:33.859Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【上空映像】台風25号被害 神奈川と千葉で4人死亡6人不明",
+     "title": "【台風被害】千葉と神奈川で6人死亡6人行方不明 道路崩落も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51778",
-     "pubDate": "Tue, 22 Sep 2026 14:57:08 +0900"
+     "pubDate": "Tue, 22 Sep 2026 20:35:48 +0900"
     },
     {
-     "title": "福岡 3歳児死亡事故 容疑者「前夜に飲酒し 朝また飲んで車に」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51846",
-     "pubDate": "Tue, 22 Sep 2026 13:38:49 +0900"
-    },
-    {
-     "title": "台風25号 関東や伊豆諸島で記録的大雨 土砂災害に引き続き警戒",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51748",
-     "pubDate": "Tue, 22 Sep 2026 12:43:07 +0900"
-    },
-    {
-     "title": "【動画】台風25号 千葉 神奈川 一夜明けた各地の被害は",
+     "title": "【動画】 道路崩れ 各地で冠水 台風25号の被害状況",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51808",
-     "pubDate": "Tue, 22 Sep 2026 07:51:00 +0900"
+     "pubDate": "Tue, 22 Sep 2026 18:39:48 +0900"
     },
     {
      "title": "日米首脳会談 日本時間23日開催を発表 日本政府",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51835",
-     "pubDate": "Tue, 22 Sep 2026 14:45:55 +0900"
+     "pubDate": "Tue, 22 Sep 2026 20:04:38 +0900"
     },
     {
-     "title": "「トランプ大統領 イエメン空爆で方針転換」米報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51710",
-     "pubDate": "Mon, 21 Sep 2026 20:09:09 +0900"
+     "title": "大相撲秋場所10日目 関脇 熱海富士は大関 琴櫻破り勝ち越し",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51889",
+     "pubDate": "Tue, 22 Sep 2026 20:04:25 +0900"
     },
     {
-     "title": "NY株式市場 ナスダック株価指数 約3か月半ぶりに最高値を更新",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51819",
-     "pubDate": "Tue, 22 Sep 2026 09:25:00 +0900"
+     "title": "秋の大型連休 各地でUターンラッシュピーク",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51870",
+     "pubDate": "Tue, 22 Sep 2026 17:25:00 +0900"
+    },
+    {
+     "title": "アジア大会 国歌取り違えで組織委が韓国選手団に謝罪",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51872",
+     "pubDate": "Tue, 22 Sep 2026 17:32:21 +0900"
+    },
+    {
+     "title": "北海道 矢臼別演習場で陸自と米陸軍が共同射撃訓練",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51887",
+     "pubDate": "Tue, 22 Sep 2026 19:12:02 +0900"
     }
    ]
   },
@@ -50,14 +50,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "北海道 矢臼別演習場で陸自と米陸軍が共同射撃訓練",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51887",
+     "pubDate": "Tue, 22 Sep 2026 19:12:02 +0900"
+    },
+    {
+     "title": "青森 深浦町 住宅全焼の火事 男性2人の遺体見つかる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51877",
+     "pubDate": "Tue, 22 Sep 2026 17:48:00 +0900"
+    },
+    {
+     "title": "秋の大型連休 各地でUターンラッシュピーク",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51870",
+     "pubDate": "Tue, 22 Sep 2026 17:25:00 +0900"
+    },
+    {
      "title": "福岡 3歳児死亡事故 容疑者「前夜に飲酒し 朝また飲んで車に」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51846",
-     "pubDate": "Tue, 22 Sep 2026 13:38:49 +0900"
+     "pubDate": "Tue, 22 Sep 2026 13:38:00 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（9月22日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51718",
-     "pubDate": "Tue, 22 Sep 2026 14:17:45 +0900"
+     "pubDate": "Tue, 22 Sep 2026 19:38:24 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（9月21日）",
@@ -108,21 +123,6 @@
      "title": "両陛下 アジア大会バスケットボール観戦 ジブリパークも訪問",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51363",
      "pubDate": "Sun, 20 Sep 2026 17:26:12 +0900"
-    },
-    {
-     "title": "高齢者の割合 総人口の29.6％で過去最高 総務省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51359",
-     "pubDate": "Sun, 20 Sep 2026 17:09:00 +0900"
-    },
-    {
-     "title": "JR長野駅 エスカレーターで少なくとも7人転倒 2人けが",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51349",
-     "pubDate": "Sun, 20 Sep 2026 18:30:00 +0900"
-    },
-    {
-     "title": "北朝鮮 弾道ミサイル続けて発射 いずれもEEZ外に落下か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260920de51353",
-     "pubDate": "Sun, 20 Sep 2026 20:59:05 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "北海道 矢臼別演習場で陸自と米陸軍が共同射撃訓練",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51887",
+     "pubDate": "Tue, 22 Sep 2026 19:12:02 +0900"
+    },
+    {
      "title": "オープンAI “安全なAI開発進めるため 世界的な取り組み必要”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51837",
      "pubDate": "Tue, 22 Sep 2026 12:12:00 +0900"
@@ -221,12 +226,12 @@
     {
      "title": "日米首脳会談 日本時間23日開催を発表 日本政府",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51835",
-     "pubDate": "Tue, 22 Sep 2026 14:45:55 +0900"
+     "pubDate": "Tue, 22 Sep 2026 20:04:38 +0900"
     },
     {
-     "title": "北朝鮮 “新型兵器の試験成功” ミサイル発射の写真公開",
+     "title": "北朝鮮ミサイルは約1000キロ飛行 日本の一部も射程内の可能性",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51828",
-     "pubDate": "Tue, 22 Sep 2026 11:22:00 +0900"
+     "pubDate": "Tue, 22 Sep 2026 15:51:00 +0900"
     },
     {
      "title": "NY株式市場 ナスダック株価指数 約3か月半ぶりに最高値を更新",
@@ -282,11 +287,6 @@
      "title": "ウクライナ 森衆院議長に北朝鮮製ミサイル部品を公開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51739",
      "pubDate": "Mon, 21 Sep 2026 22:24:14 +0900"
-    },
-    {
-     "title": "アメリカ中間選挙を前に トランプ大統領の足元に迫る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51725",
-     "pubDate": "Mon, 21 Sep 2026 22:20:04 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "冠水の佐倉市 帰宅できず住民落胆",
-     "link": "https://news.yahoo.co.jp/pickup/6596136?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 05:25:48 GMT"
+     "title": "台風 千葉・神奈川で死者計6人に",
+     "link": "https://news.yahoo.co.jp/pickup/6596171?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 10:21:50 GMT"
     },
     {
-     "title": "「解党」の中道に交付金満額 批判",
-     "link": "https://news.yahoo.co.jp/pickup/6596140?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 05:55:37 GMT"
+     "title": "G7外相 フーシ派の攻撃強く非難",
+     "link": "https://news.yahoo.co.jp/pickup/6596159?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 08:29:59 GMT"
     },
     {
-     "title": "トランプ氏支持率32% 過去最低",
-     "link": "https://news.yahoo.co.jp/pickup/6596138?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 05:44:18 GMT"
+     "title": "事故巻き添えで3歳死亡 両親心境",
+     "link": "https://news.yahoo.co.jp/pickup/6596173?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 10:54:20 GMT"
     },
     {
-     "title": "リトアニア 露が攻撃なら反撃する",
-     "link": "https://news.yahoo.co.jp/pickup/6596133?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 05:02:12 GMT"
+     "title": "博士号授与されず 学生が大学提訴",
+     "link": "https://news.yahoo.co.jp/pickup/6596164?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 09:01:09 GMT"
     },
     {
-     "title": "3歳死亡事故「前日夜と当日飲酒」",
-     "link": "https://news.yahoo.co.jp/pickup/6596142?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 06:13:46 GMT"
+     "title": "3歳娘が白血病に 闘う姿から教え",
+     "link": "https://news.yahoo.co.jp/pickup/6596168?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 09:53:00 GMT"
     },
     {
-     "title": "アジア大会巡る不手際 運営側反論",
-     "link": "https://news.yahoo.co.jp/pickup/6596139?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 05:49:05 GMT"
+     "title": "巨人痛恨 延長11回にサヨナラ負け",
+     "link": "https://news.yahoo.co.jp/pickup/6596175?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 11:23:39 GMT"
     },
     {
-     "title": "中山忍 美穂さんの遺品整理で涙",
-     "link": "https://news.yahoo.co.jp/pickup/6596134?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 05:15:13 GMT"
+     "title": "速報バレー女子決勝 日本vs中国",
+     "link": "https://news.yahoo.co.jp/pickup/6596170?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 10:17:33 GMT"
     },
     {
-     "title": "とろサ久保田の原画 最高6660万円",
-     "link": "https://news.yahoo.co.jp/pickup/6596130?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 04:25:51 GMT"
+     "title": "田口淳之介 結婚&第1子誕生を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6596169?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 10:20:50 GMT"
     }
    ]
   }
