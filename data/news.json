@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-23T00:44:54.969Z",
+ "updatedAt": "2026-09-23T05:19:01.596Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,37 +10,37 @@
     {
      "title": "日米首脳 中国めぐる諸課題を意見交換 高市首相からICCに言及",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51902",
-     "pubDate": "Wed, 23 Sep 2026 08:22:34 +0900"
+     "pubDate": "Wed, 23 Sep 2026 12:25:00 +0900"
     },
     {
-     "title": "トランプ大統領 国連総会で演説 ICC加盟国に脱退呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51930",
-     "pubDate": "Wed, 23 Sep 2026 06:40:00 +0900"
+     "title": "高市首相 記者会見“日米同盟関係さらに揺るぎのないものに”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51965",
+     "pubDate": "Wed, 23 Sep 2026 13:45:20 +0900"
     },
     {
-     "title": "台風25号 千葉と神奈川で7人死亡 5人不明 浸水被害相次ぐ",
+     "title": "台風25号 千葉と神奈川で9人死亡 4人行方不明 住宅被害相次ぐ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51926",
-     "pubDate": "Wed, 23 Sep 2026 06:43:00 +0900"
+     "pubDate": "Wed, 23 Sep 2026 13:47:16 +0900"
     },
     {
-     "title": "福岡 3歳児死亡事故 容疑者“当日の朝は焼酎を飲んだ”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51927",
-     "pubDate": "Wed, 23 Sep 2026 05:03:00 +0900"
-    },
-    {
-     "title": "トランプ大統領 グリーンランドに米軍基地設置の協定に署名",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51941",
-     "pubDate": "Wed, 23 Sep 2026 08:09:47 +0900"
-    },
-    {
-     "title": "国連総会にイラン出席で米との協議再開につながるか注目",
+     "title": "米とイラン代表が協議 事態の打開につながるかが焦点",
      "link": "https://news.web.nhk/newsweb/na/nd-20260923de51933",
-     "pubDate": "Wed, 23 Sep 2026 07:19:42 +0900"
+     "pubDate": "Wed, 23 Sep 2026 12:28:20 +0900"
     },
     {
-     "title": "故ダイアナ元妃の弟が回顧録でチャールズ国王を批判し物議",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51931",
-     "pubDate": "Wed, 23 Sep 2026 08:35:53 +0900"
+     "title": "高市首相 “法の支配に基づく国際秩序に貢献”国連総会演説",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51969",
+     "pubDate": "Wed, 23 Sep 2026 11:48:00 +0900"
+    },
+    {
+     "title": "茂木外相“CTBT早期発効へ力の限り取り組む”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51968",
+     "pubDate": "Wed, 23 Sep 2026 12:01:41 +0900"
+    },
+    {
+     "title": "大谷翔平 日本時間24日復帰へ 監督「ラインナップに入る予定」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51966",
+     "pubDate": "Wed, 23 Sep 2026 11:54:47 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "秋の連休最終日 交通機関は混雑",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51975",
+     "pubDate": "Wed, 23 Sep 2026 12:32:53 +0900"
+    },
+    {
+     "title": "日ウクライナ首脳会談 “各国結束して支援が重要”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51944",
+     "pubDate": "Wed, 23 Sep 2026 09:46:00 +0900"
+    },
     {
      "title": "【動画】Pickup NEWS（9月23日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51892",
@@ -113,16 +123,6 @@
      "title": "JR中央線 快速電車がオーバーラン 雨で車輪滑ったか 豊田駅",
      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51580",
      "pubDate": "Mon, 21 Sep 2026 10:11:07 +0900"
-    },
-    {
-     "title": "郡山受験生死亡事故 母親が亡き娘へ思い“飲酒運転厳罰化を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51488",
-     "pubDate": "Mon, 21 Sep 2026 09:59:54 +0900"
-    },
-    {
-     "title": "財務省のフェンスにタクシーが衝突 4人けが",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260921de51467",
-     "pubDate": "Mon, 21 Sep 2026 02:22:26 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "引用回数多い論文の数 日本は4年連続で13位 低迷続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51980",
+     "pubDate": "Wed, 23 Sep 2026 13:21:11 +0900"
+    },
     {
      "title": "オープンAI “安全なAI開発進めるため 世界的な取り組み必要”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51837",
@@ -200,11 +205,6 @@
      "title": "ラスカー賞 筑波大柳沢教授 中外製薬研究者らにトロフィー",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de50948",
      "pubDate": "Fri, 18 Sep 2026 07:25:00 +0900"
-    },
-    {
-     "title": "「東京ゲームショウ」が開幕 異業種企業の出展も盛んに",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260917de50881",
-     "pubDate": "Thu, 17 Sep 2026 19:42:00 +0900"
     }
    ]
   },
@@ -213,6 +213,56 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "韓国イ大統領“米朝対話の早期再開に期待” 国連総会で演説",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51981",
+     "pubDate": "Wed, 23 Sep 2026 13:11:15 +0900"
+    },
+    {
+     "title": "仏マクロン大統領 米中へのAI依存脱却へ協力の枠組み呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51978",
+     "pubDate": "Wed, 23 Sep 2026 12:53:11 +0900"
+    },
+    {
+     "title": "高市首相 記者会見“日米同盟関係さらに揺るぎのないものに”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51965",
+     "pubDate": "Wed, 23 Sep 2026 13:45:20 +0900"
+    },
+    {
+     "title": "茂木外相“CTBT早期発効へ力の限り取り組む”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51968",
+     "pubDate": "Wed, 23 Sep 2026 12:01:41 +0900"
+    },
+    {
+     "title": "高市首相 “法の支配に基づく国際秩序に貢献”国連総会演説",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51969",
+     "pubDate": "Wed, 23 Sep 2026 11:48:00 +0900"
+    },
+    {
+     "title": "日トルコ首脳会談 イラン情勢めぐり意見交換 経済など協力確認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51967",
+     "pubDate": "Wed, 23 Sep 2026 11:32:00 +0900"
+    },
+    {
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（9月22日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47010",
+     "pubDate": "Wed, 23 Sep 2026 11:25:56 +0900"
+    },
+    {
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（9月21日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47009",
+     "pubDate": "Wed, 23 Sep 2026 11:06:33 +0900"
+    },
+    {
+     "title": "「スター・ウォーズ」監督が創設の美術館がオープン",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51960",
+     "pubDate": "Wed, 23 Sep 2026 10:50:08 +0900"
+    },
+    {
+     "title": "日ウクライナ首脳会談 “各国結束して支援が重要”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51944",
+     "pubDate": "Wed, 23 Sep 2026 09:46:00 +0900"
+    },
     {
      "title": "故ダイアナ元妃の弟が回顧録でチャールズ国王を批判し物議",
      "link": "https://news.web.nhk/newsweb/na/nd-20260923de51931",
@@ -237,56 +287,6 @@
      "title": "ダウ平均株価は下落もナスダック最高値更新 半導体に買い注文",
      "link": "https://news.web.nhk/newsweb/na/nd-20260923de51940",
      "pubDate": "Wed, 23 Sep 2026 06:59:52 +0900"
-    },
-    {
-     "title": "損壊したサウジアラビアのパイプライン操業再開と報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51932",
-     "pubDate": "Wed, 23 Sep 2026 05:59:00 +0900"
-    },
-    {
-     "title": "国連総会にイラン出席で米との協議再開につながるか注目",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51933",
-     "pubDate": "Wed, 23 Sep 2026 07:19:42 +0900"
-    },
-    {
-     "title": "中国 上海で技能五輪国際大会 若い技術者たちが仕事の技能競う",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51935",
-     "pubDate": "Wed, 23 Sep 2026 05:54:00 +0900"
-    },
-    {
-     "title": "トランプ大統領 国連総会で演説 ICC加盟国に脱退呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51930",
-     "pubDate": "Wed, 23 Sep 2026 06:40:00 +0900"
-    },
-    {
-     "title": "日米首脳 中国めぐる諸課題を意見交換 高市首相からICCに言及",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51902",
-     "pubDate": "Wed, 23 Sep 2026 08:22:34 +0900"
-    },
-    {
-     "title": "国連総会で事務総長“超大国は限界自覚し多国間体制を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51928",
-     "pubDate": "Wed, 23 Sep 2026 02:05:00 +0900"
-    },
-    {
-     "title": "ホワイトハウス「トランプTV」開始 主要メディアと対立のなか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51923",
-     "pubDate": "Tue, 22 Sep 2026 22:37:00 +0900"
-    },
-    {
-     "title": "国連総会 トランプ大統領が演説へ 国際情勢の行方は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51898",
-     "pubDate": "Tue, 22 Sep 2026 22:08:38 +0900"
-    },
-    {
-     "title": "韓国のサッカー協会前会長らを書類送検 監督選考で不正疑い",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51897",
-     "pubDate": "Tue, 22 Sep 2026 21:21:39 +0900"
-    },
-    {
-     "title": "北海道 矢臼別演習場で陸自と米陸軍が共同射撃訓練",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51887",
-     "pubDate": "Tue, 22 Sep 2026 19:12:02 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風25号の死者9人に 4人行方不明",
-     "link": "https://news.yahoo.co.jp/pickup/6596221?source=rss",
-     "pubDate": "Wed, 23 Sep 2026 00:43:06 GMT"
+     "title": "関東は24日朝まで雨 土砂災害注意",
+     "link": "https://news.yahoo.co.jp/pickup/6596227?source=rss",
+     "pubDate": "Wed, 23 Sep 2026 01:38:39 GMT"
     },
     {
-     "title": "新たな台風発生へ 27日沖縄の南に",
-     "link": "https://news.yahoo.co.jp/pickup/6596202?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 22:30:11 GMT"
+     "title": "5連休最終日 Uターンで交通混雑",
+     "link": "https://news.yahoo.co.jp/pickup/6596238?source=rss",
+     "pubDate": "Wed, 23 Sep 2026 03:32:07 GMT"
     },
     {
-     "title": "AIは「SI」に改称 米大統領宣言",
-     "link": "https://news.yahoo.co.jp/pickup/6596201?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 22:30:01 GMT"
+     "title": "「疲れた」1カ月余りで店3度被災",
+     "link": "https://news.yahoo.co.jp/pickup/6596243?source=rss",
+     "pubDate": "Wed, 23 Sep 2026 04:19:23 GMT"
     },
     {
-     "title": "とび職に逆風 倒産過去最多ペース",
-     "link": "https://news.yahoo.co.jp/pickup/6596209?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 23:20:05 GMT"
+     "title": "JCOMで障害 ネット利用できず",
+     "link": "https://news.yahoo.co.jp/pickup/6596246?source=rss",
+     "pubDate": "Wed, 23 Sep 2026 04:53:24 GMT"
     },
     {
-     "title": "クジラが千葉漂着 爆発の危険性も",
-     "link": "https://news.yahoo.co.jp/pickup/6596217?source=rss",
-     "pubDate": "Wed, 23 Sep 2026 00:05:33 GMT"
+     "title": "エルニーニョで雨 チリ砂漠に花畑",
+     "link": "https://news.yahoo.co.jp/pickup/6596235?source=rss",
+     "pubDate": "Wed, 23 Sep 2026 03:08:20 GMT"
     },
     {
-     "title": "「ダチョウが徘徊」と通報 滋賀",
-     "link": "https://news.yahoo.co.jp/pickup/6596215?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 23:47:02 GMT"
+     "title": "波紋 大食い動画の収益停止相次ぐ",
+     "link": "https://news.yahoo.co.jp/pickup/6596210?source=rss",
+     "pubDate": "Tue, 22 Sep 2026 23:23:24 GMT"
     },
     {
-     "title": "キツネが玄関先にモグラ置く なぜ",
-     "link": "https://news.yahoo.co.jp/pickup/6596204?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 22:47:54 GMT"
+     "title": "小林悠が引退決意 1週間泣いた妻",
+     "link": "https://news.yahoo.co.jp/pickup/6596240?source=rss",
+     "pubDate": "Wed, 23 Sep 2026 03:54:04 GMT"
     },
     {
-     "title": "波乱 卓球世界8位が275位に敗れる",
-     "link": "https://news.yahoo.co.jp/pickup/6596211?source=rss",
-     "pubDate": "Tue, 22 Sep 2026 23:28:55 GMT"
+     "title": "朗希が今季初リリーフ登板 大歓声",
+     "link": "https://news.yahoo.co.jp/pickup/6596239?source=rss",
+     "pubDate": "Wed, 23 Sep 2026 03:35:47 GMT"
     }
    ]
   }
