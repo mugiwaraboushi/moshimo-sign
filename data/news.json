@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-24T05:33:52.562Z",
+ "updatedAt": "2026-09-24T10:35:19.224Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風25号 千葉と神奈川で10人死亡4人不明 北印旛沼周辺で浸水",
+     "title": "台風25号 千葉と神奈川で11人死亡3人不明 北印旛沼で堤防決壊",
      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52072",
-     "pubDate": "Thu, 24 Sep 2026 12:59:15 +0900"
+     "pubDate": "Thu, 24 Sep 2026 19:12:02 +0900"
+    },
+    {
+     "title": "競泳 17歳の大橋信選手 世界新記録 アジア大会 男子200m平泳ぎ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52207",
+     "pubDate": "Thu, 24 Sep 2026 19:06:09 +0900"
     },
     {
      "title": "台風25号 千葉 印旛沼付近 水につかった太陽光発電施設で火事",
@@ -18,29 +23,24 @@
      "pubDate": "Thu, 24 Sep 2026 14:30:28 +0900"
     },
     {
-     "title": "台風26号発生 沖縄の南の海上へ進む可能性 今後の情報に注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de52066",
-     "pubDate": "Thu, 24 Sep 2026 11:32:39 +0900"
+     "title": "トクリュウのスマホ遠隔解析 有識者「早急な導入が必要」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52184",
+     "pubDate": "Thu, 24 Sep 2026 19:23:33 +0900"
     },
     {
-     "title": "長期金利 3.075％まで上昇 1996年8月以来の高水準",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52101",
-     "pubDate": "Thu, 24 Sep 2026 13:31:00 +0900"
+     "title": "ペット避妊手術後に後遺症 動物病院と解決金300万円で和解",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52216",
+     "pubDate": "Thu, 24 Sep 2026 19:30:23 +0900"
     },
     {
-     "title": "中国 習近平主席がアメリカに到着 米中首脳会談へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52079",
-     "pubDate": "Thu, 24 Sep 2026 14:25:42 +0900"
+     "title": "イオン サーキュレーター自主回収へ 長期間使用で発火のおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52204",
+     "pubDate": "Thu, 24 Sep 2026 18:23:00 +0900"
     },
     {
-     "title": "ジャングリア沖縄 親会社が173億円余の赤字",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de52050",
-     "pubDate": "Thu, 24 Sep 2026 05:47:00 +0900"
-    },
-    {
-     "title": "8月の中古マンション価格 東京都が2年4か月ぶり下落",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52110",
-     "pubDate": "Thu, 24 Sep 2026 13:10:00 +0900"
+     "title": "神戸 第二神明道路 トレーラーなど10台絡む事故 複数のけが人",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52197",
+     "pubDate": "Thu, 24 Sep 2026 17:45:00 +0900"
     }
    ]
   },
@@ -50,14 +50,54 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "トクリュウのスマホ遠隔解析 有識者「早急な導入が必要」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52184",
+     "pubDate": "Thu, 24 Sep 2026 19:23:33 +0900"
+    },
+    {
+     "title": "旧ジャニーズに性被害申告の男性 賠償求めた訴え退ける",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52212",
+     "pubDate": "Thu, 24 Sep 2026 18:41:34 +0900"
+    },
+    {
+     "title": "元弁護士 預かり金など1億6000万円横領の罪 懲役6年の判決",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52220",
+     "pubDate": "Thu, 24 Sep 2026 18:38:00 +0900"
+    },
+    {
+     "title": "ペット避妊手術後に後遺症 動物病院と解決金300万円で和解",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52216",
+     "pubDate": "Thu, 24 Sep 2026 19:30:23 +0900"
+    },
+    {
+     "title": "警察署改修工事かたり1400万円余を詐取か 設計会社役員ら逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52206",
+     "pubDate": "Thu, 24 Sep 2026 18:28:01 +0900"
+    },
+    {
+     "title": "イオン サーキュレーター自主回収へ 長期間使用で発火のおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52204",
+     "pubDate": "Thu, 24 Sep 2026 18:23:00 +0900"
+    },
+    {
+     "title": "天皇皇后両陛下 国民文化祭と全国障害者芸術・文化祭で高知へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52200",
+     "pubDate": "Thu, 24 Sep 2026 17:56:00 +0900"
+    },
+    {
+     "title": "神戸 第二神明道路 トレーラーなど10台絡む事故 複数のけが人",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52197",
+     "pubDate": "Thu, 24 Sep 2026 17:45:00 +0900"
+    },
+    {
      "title": "資金難の「国立映画アーカイブ」 1億5000万円あまり寄付集まる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52163",
-     "pubDate": "Thu, 24 Sep 2026 14:26:50 +0900"
+     "pubDate": "Thu, 24 Sep 2026 14:26:00 +0900"
     },
     {
      "title": "JR 千葉県内の一部区間 復旧に数か月程度かかる見込み",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52138",
-     "pubDate": "Thu, 24 Sep 2026 12:45:59 +0900"
+     "pubDate": "Thu, 24 Sep 2026 19:34:11 +0900"
     },
     {
      "title": "北朝鮮 拉致被害者の家族がアメリカで解決に向けた協力訴える",
@@ -80,49 +120,9 @@
      "pubDate": "Thu, 24 Sep 2026 05:45:00 +0900"
     },
     {
-     "title": "台風25号 千葉と神奈川で10人死亡4人不明 北印旛沼周辺で浸水",
+     "title": "台風25号 千葉と神奈川で11人死亡3人不明 北印旛沼で堤防決壊",
      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52072",
-     "pubDate": "Thu, 24 Sep 2026 12:59:15 +0900"
-    },
-    {
-     "title": "カンボジア 特殊詐欺対策で国際会議 協力強化で成果文書採択へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de52069",
-     "pubDate": "Thu, 24 Sep 2026 00:30:25 +0900"
-    },
-    {
-     "title": "JR貨物社員逮捕 業務発注で便宜図る見返りに賄賂受け取ったか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de52067",
-     "pubDate": "Thu, 24 Sep 2026 00:04:35 +0900"
-    },
-    {
-     "title": "全日空機乗客 那覇空港で緊急脱出 3人けが エンジントラブルか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de52071",
-     "pubDate": "Thu, 24 Sep 2026 04:25:00 +0900"
-    },
-    {
-     "title": "新宿駅前のビルに入る焼き肉店で火災 男女4人搬送",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de52054",
-     "pubDate": "Thu, 24 Sep 2026 02:42:00 +0900"
-    },
-    {
-     "title": "「富良野・美瑛ノロッコ号」ラストラン 28年の歴史に幕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de52041",
-     "pubDate": "Wed, 23 Sep 2026 20:28:00 +0900"
-    },
-    {
-     "title": "熊本 宇城市内で初の仮設住宅完成 入居の被災者に鍵の引き渡し",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de52042",
-     "pubDate": "Wed, 23 Sep 2026 20:23:00 +0900"
-    },
-    {
-     "title": "【台風25号】交通影響 JR一部区間で復旧に1週間以上か（23日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de51938",
-     "pubDate": "Wed, 23 Sep 2026 18:48:00 +0900"
-    },
-    {
-     "title": "滋賀 施設からエミュー逃げ出す 約2時間後に捕獲 けが人なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de52024",
-     "pubDate": "Wed, 23 Sep 2026 18:22:45 +0900"
+     "pubDate": "Thu, 24 Sep 2026 19:12:02 +0900"
     }
    ]
   },
@@ -132,9 +132,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "火星衛星探査機「MMX」 来月の打ち上げを前に管制室を公開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52199",
+     "pubDate": "Thu, 24 Sep 2026 17:53:00 +0900"
+    },
+    {
+     "title": "米中のゆずれない戦い AIインフラ競争の行方は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52167",
+     "pubDate": "Thu, 24 Sep 2026 17:38:00 +0900"
+    },
+    {
      "title": "資金難の「国立映画アーカイブ」 1億5000万円あまり寄付集まる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52163",
-     "pubDate": "Thu, 24 Sep 2026 14:26:50 +0900"
+     "pubDate": "Thu, 24 Sep 2026 14:26:00 +0900"
     },
     {
      "title": "JCOM ネット接続サービス障害が復旧",
@@ -195,16 +205,6 @@
      "title": "ツタンカーメン王墓の奥に“未発見の部屋？”ネイチャーが報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20260918de51097",
      "pubDate": "Fri, 18 Sep 2026 19:08:14 +0900"
-    },
-    {
-     "title": "インフルエンザ患者数 1.7倍に増加",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51072",
-     "pubDate": "Fri, 18 Sep 2026 18:24:00 +0900"
-    },
-    {
-     "title": "「ヒト脳オルガノイド」をマウス移植で神経回路を形成",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51067",
-     "pubDate": "Fri, 18 Sep 2026 17:56:33 +0900"
     }
    ]
   },
@@ -213,6 +213,31 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "タイで拘束 日本人ら特殊詐欺グループ AI顔加工でビデオ通話か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52218",
+     "pubDate": "Thu, 24 Sep 2026 19:09:28 +0900"
+    },
+    {
+     "title": "米中のゆずれない戦い AIインフラ競争の行方は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52167",
+     "pubDate": "Thu, 24 Sep 2026 17:38:00 +0900"
+    },
+    {
+     "title": "北朝鮮外相 日米韓外相の共同声明に反発「実現不可能な妄想」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52177",
+     "pubDate": "Thu, 24 Sep 2026 16:31:00 +0900"
+    },
+    {
+     "title": "イラン大統領 米に屈しない姿勢強調も“対話準備できている”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52165",
+     "pubDate": "Thu, 24 Sep 2026 15:55:48 +0900"
+    },
+    {
+     "title": "米連邦地裁 メディアのホワイトハウス取材禁止 差し止め命じる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52168",
+     "pubDate": "Thu, 24 Sep 2026 18:21:00 +0900"
+    },
     {
      "title": "北朝鮮 改良型多連装ロケット砲の発射実験を実施",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52154",
@@ -251,7 +276,7 @@
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月24日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47012",
-     "pubDate": "Thu, 24 Sep 2026 09:45:12 +0900"
+     "pubDate": "Thu, 24 Sep 2026 09:45:00 +0900"
     },
     {
      "title": "ゼレンスキー大統領 国連総会でロシアの資金源断つこと訴える",
@@ -262,31 +287,6 @@
      "title": "OECD 物価上昇率予測 来年3.6％に引き上げ エネルギー高騰受け",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52090",
      "pubDate": "Thu, 24 Sep 2026 08:50:00 +0900"
-    },
-    {
-     "title": "フランスで若者の志願による新たな兵役制度 射撃訓練など公開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52078",
-     "pubDate": "Thu, 24 Sep 2026 08:49:00 +0900"
-    },
-    {
-     "title": "茂木外相 米中首脳会談直前の日米首脳会談 意義は非常に大きい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52088",
-     "pubDate": "Thu, 24 Sep 2026 07:23:51 +0900"
-    },
-    {
-     "title": "米ロ外相が会談 米は限定的な攻撃停止への関与に意欲",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52084",
-     "pubDate": "Thu, 24 Sep 2026 05:51:07 +0900"
-    },
-    {
-     "title": "NY市場 1ドル158円台 3週間ぶり円安 米長期金利19年ぶり高水準",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52083",
-     "pubDate": "Thu, 24 Sep 2026 04:56:44 +0900"
-    },
-    {
-     "title": "中国 習近平主席がアメリカに到着 米中首脳会談へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52079",
-     "pubDate": "Thu, 24 Sep 2026 14:25:42 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "印旛沼周辺 水が引かず住民不安",
-     "link": "https://news.yahoo.co.jp/pickup/6596352?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 03:30:05 GMT"
+     "title": "新党・民主改革の会 18人が入党へ",
+     "link": "https://news.yahoo.co.jp/pickup/6596393?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 09:36:33 GMT"
     },
     {
-     "title": "円安進行 レートチェック効果相殺",
-     "link": "https://news.yahoo.co.jp/pickup/6596356?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 04:20:49 GMT"
+     "title": "防災庁 もし熊本地震前にあったら",
+     "link": "https://news.yahoo.co.jp/pickup/6596373?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 09:15:18 GMT"
     },
     {
-     "title": "37年前不明の子に失踪宣告 母手紙",
-     "link": "https://news.yahoo.co.jp/pickup/6596353?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 03:34:08 GMT"
+     "title": "匿名投稿で攻撃 林泰輔県議が釈明",
+     "link": "https://news.yahoo.co.jp/pickup/6596390?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 09:00:21 GMT"
     },
     {
-     "title": "中学生10人に追われ観念 男を逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6596363?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 05:16:59 GMT"
+     "title": "印旛沼近く ウナギ5万匹流される",
+     "link": "https://news.yahoo.co.jp/pickup/6596389?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 09:04:35 GMT"
     },
     {
-     "title": "東京都の中古マンション 価格下落",
-     "link": "https://news.yahoo.co.jp/pickup/6596346?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 02:48:51 GMT"
+     "title": "ジャングリア親会社 173億円赤字",
+     "link": "https://news.yahoo.co.jp/pickup/6596367?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 05:49:43 GMT"
     },
     {
-     "title": "速報ドジャース 大谷翔平が復帰",
-     "link": "https://news.yahoo.co.jp/pickup/6596345?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 02:23:40 GMT"
+     "title": "速報・森保ジャパンvs.ウルグアイ",
+     "link": "https://news.yahoo.co.jp/pickup/6596376?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 09:57:22 GMT"
     },
     {
-     "title": "the GazettEのRUKI 救急搬送",
-     "link": "https://news.yahoo.co.jp/pickup/6596357?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 04:33:38 GMT"
+     "title": "WEST解散 2人脱退発表から1カ月",
+     "link": "https://news.yahoo.co.jp/pickup/6596398?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 10:28:58 GMT"
     },
     {
-     "title": "WEST. 今月末で活動終了",
-     "link": "https://news.yahoo.co.jp/pickup/6596358?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 04:11:26 GMT"
+     "title": "俳優・白木万理さん 3年前に死去",
+     "link": "https://news.yahoo.co.jp/pickup/6596382?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 08:15:15 GMT"
     }
    ]
   }
