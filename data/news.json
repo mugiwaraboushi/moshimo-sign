@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-24T19:32:13.663Z",
+ "updatedAt": "2026-09-24T22:45:28.968Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【随時更新】米中首脳会談 終わる 台湾やAIについての議論は",
+     "title": "米中首脳会談終了 習主席「アメリカは『台湾独立』に反対を」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52268",
-     "pubDate": "Fri, 25 Sep 2026 03:20:00 +0900"
+     "pubDate": "Fri, 25 Sep 2026 06:32:55 +0900"
     },
     {
-     "title": "台風26号 沖縄の南の海上へ進む可能性 最新の情報確認を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de52066",
-     "pubDate": "Fri, 25 Sep 2026 03:56:05 +0900"
+     "title": "台風26号 あす以降沖縄の南を北上見込み 今後の情報に注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52272",
+     "pubDate": "Fri, 25 Sep 2026 07:02:00 +0900"
     },
     {
-     "title": "富士山閉山期遭難対策 静岡もヘリ救助有料化検討 山梨方針受け",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52234",
-     "pubDate": "Fri, 25 Sep 2026 00:32:52 +0900"
+     "title": "ホワイトハウス CNNなど取材禁止措置解除も米中報道に影響",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52280",
+     "pubDate": "Fri, 25 Sep 2026 07:26:04 +0900"
     },
     {
-     "title": "ペット避妊手術後に後遺症 動物病院と解決金300万円で和解",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52216",
-     "pubDate": "Thu, 24 Sep 2026 19:30:23 +0900"
+     "title": "ICC脱退をナウルが表明 米国による圧力で同調広がるか焦点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52277",
+     "pubDate": "Fri, 25 Sep 2026 05:21:00 +0900"
     },
     {
-     "title": "ふるさと納税「越前がに」で不正表示 福井県越前町に措置命令",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52245",
-     "pubDate": "Thu, 24 Sep 2026 20:39:15 +0900"
+     "title": "ポーランドの「スターリンク」関連施設で火災 ロシア関与か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52282",
+     "pubDate": "Fri, 25 Sep 2026 05:44:04 +0900"
+    },
+    {
+     "title": "円相場1ドル＝159円台に下落 米30年債利回り22年ぶり高水準",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52281",
+     "pubDate": "Fri, 25 Sep 2026 05:55:07 +0900"
     },
     {
      "title": "競泳 17歳の大橋信選手 世界新で金 アジア大会 男子200m平泳ぎ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52207",
      "pubDate": "Thu, 24 Sep 2026 23:38:52 +0900"
-    },
-    {
-     "title": "アジア大会卓球男子団体 日本が中国破り60年ぶり金メダル",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52255",
-     "pubDate": "Thu, 24 Sep 2026 22:53:49 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（9月25日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52211",
+     "pubDate": "Fri, 25 Sep 2026 06:48:35 +0900"
+    },
     {
      "title": "富士山閉山期遭難対策 静岡もヘリ救助有料化検討 山梨方針受け",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52234",
@@ -118,11 +123,6 @@
      "title": "JR 千葉県内の一部区間 復旧に数か月程度かかる見込み",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52138",
      "pubDate": "Thu, 24 Sep 2026 19:34:00 +0900"
-    },
-    {
-     "title": "北朝鮮 拉致被害者の家族がアメリカで解決に向けた協力訴える",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52125",
-     "pubDate": "Thu, 24 Sep 2026 12:04:00 +0900"
     }
    ]
   },
@@ -204,14 +204,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "茂木外相 「二国家解決」実現目指し 積極外交を強調",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52286",
+     "pubDate": "Fri, 25 Sep 2026 06:46:18 +0900"
+    },
+    {
+     "title": "ホワイトハウス CNNなど取材禁止措置解除も米中報道に影響",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52280",
+     "pubDate": "Fri, 25 Sep 2026 07:26:04 +0900"
+    },
+    {
+     "title": "円相場1ドル＝159円台に下落 米30年債利回り22年ぶり高水準",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52281",
+     "pubDate": "Fri, 25 Sep 2026 05:55:07 +0900"
+    },
+    {
+     "title": "ポーランドの「スターリンク」関連施設で火災 ロシア関与か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52282",
+     "pubDate": "Fri, 25 Sep 2026 05:44:04 +0900"
+    },
+    {
+     "title": "ICC脱退をナウルが表明 米国による圧力で同調広がるか焦点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52277",
+     "pubDate": "Fri, 25 Sep 2026 05:21:00 +0900"
+    },
+    {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月25日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47013",
      "pubDate": "Fri, 25 Sep 2026 00:45:09 +0900"
     },
     {
-     "title": "【随時更新】米中首脳会談 終わる 台湾やAIについての議論は",
+     "title": "米中首脳会談終了 習主席「アメリカは『台湾独立』に反対を」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52268",
-     "pubDate": "Fri, 25 Sep 2026 03:20:00 +0900"
+     "pubDate": "Fri, 25 Sep 2026 06:32:55 +0900"
     },
     {
      "title": "世界が注目 まもなく米中首脳会談 双方の思惑や狙いは",
@@ -252,31 +277,6 @@
      "title": "米連邦地裁 メディアのホワイトハウス取材禁止 差し止め命じる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52168",
      "pubDate": "Thu, 24 Sep 2026 18:21:00 +0900"
-    },
-    {
-     "title": "北朝鮮 改良型多連装ロケット砲の発射実験を実施",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52154",
-     "pubDate": "Thu, 24 Sep 2026 13:53:00 +0900"
-    },
-    {
-     "title": "ベネズエラ暫定大統領「選挙実施される」と明言も時期不明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52142",
-     "pubDate": "Thu, 24 Sep 2026 13:18:00 +0900"
-    },
-    {
-     "title": "オープンAIのAIモデル 豪医療統計関連サイトに不正アクセス",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52128",
-     "pubDate": "Thu, 24 Sep 2026 12:05:00 +0900"
-    },
-    {
-     "title": "北朝鮮 拉致被害者の家族がアメリカで解決に向けた協力訴える",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52125",
-     "pubDate": "Thu, 24 Sep 2026 12:04:00 +0900"
-    },
-    {
-     "title": "国連安保理 AI制御不能リスクで企業トップが国際連携訴え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52118",
-     "pubDate": "Thu, 24 Sep 2026 11:42:00 +0900"
     }
    ]
   },
@@ -286,19 +286,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "政府 米中首脳会談の動向を注視",
-     "link": "https://news.yahoo.co.jp/pickup/6596412?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 12:54:41 GMT"
+     "title": "台風26号 強い勢力で沖縄に接近へ",
+     "link": "https://news.yahoo.co.jp/pickup/6596432?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 21:52:57 GMT"
     },
     {
-     "title": "週末は関東各地で雨の予報 注意",
-     "link": "https://news.yahoo.co.jp/pickup/6596394?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 09:40:17 GMT"
+     "title": "習氏 米に台湾独立への反対求める",
+     "link": "https://news.yahoo.co.jp/pickup/6596431?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 21:36:38 GMT"
     },
     {
-     "title": "飯塚事件 3回目の再審請求へ",
-     "link": "https://news.yahoo.co.jp/pickup/6596425?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 14:29:36 GMT"
+     "title": "北海道で今季全国初 氷点下を観測",
+     "link": "https://news.yahoo.co.jp/pickup/6596433?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 22:11:47 GMT"
+    },
+    {
+     "title": "米住宅ローン金利7%超 30年固定",
+     "link": "https://news.yahoo.co.jp/pickup/6596435?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 22:33:21 GMT"
     },
     {
      "title": "崖崩落で死亡 夫が過去に対応要求",
@@ -306,24 +311,19 @@
      "pubDate": "Thu, 24 Sep 2026 12:42:39 GMT"
     },
     {
-     "title": "小林製薬 株式の非公開化を検討",
-     "link": "https://news.yahoo.co.jp/pickup/6596426?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 14:41:20 GMT"
+     "title": "鈴木誠也26号 カブスPO進出決定",
+     "link": "https://news.yahoo.co.jp/pickup/6596434?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 22:12:51 GMT"
     },
     {
-     "title": "男子団体で金 張本「中国超えた」",
-     "link": "https://news.yahoo.co.jp/pickup/6596423?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 14:20:59 GMT"
+     "title": "阪神・西勇輝 今季限りで現役引退",
+     "link": "https://news.yahoo.co.jp/pickup/6596429?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 21:16:39 GMT"
     },
     {
      "title": "WEST.ファンと対面イベなく解散",
      "link": "https://news.yahoo.co.jp/pickup/6596427?source=rss",
      "pubDate": "Thu, 24 Sep 2026 15:00:27 GMT"
-    },
-    {
-     "title": "海原雄山役 父から大塚明夫が継ぐ",
-     "link": "https://news.yahoo.co.jp/pickup/6596422?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 14:06:10 GMT"
     }
    ]
   }
