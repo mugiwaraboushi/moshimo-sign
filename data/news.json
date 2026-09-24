@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-24T15:32:15.181Z",
+ "updatedAt": "2026-09-24T19:32:13.663Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【随時更新】習主席がホワイトハウスに到着 米中首脳会談へ",
+     "title": "【随時更新】米中首脳会談 終わる 台湾やAIについての議論は",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52268",
-     "pubDate": "Thu, 24 Sep 2026 23:32:00 +0900"
-    },
-    {
-     "title": "世界が注目 まもなく米中首脳会談 双方の思惑や狙いは",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52232",
-     "pubDate": "Thu, 24 Sep 2026 22:10:06 +0900"
+     "pubDate": "Fri, 25 Sep 2026 03:20:00 +0900"
     },
     {
      "title": "台風26号 沖縄の南の海上へ進む可能性 最新の情報確認を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52066",
-     "pubDate": "Fri, 25 Sep 2026 00:17:43 +0900"
+     "pubDate": "Fri, 25 Sep 2026 03:56:05 +0900"
+    },
+    {
+     "title": "富士山閉山期遭難対策 静岡もヘリ救助有料化検討 山梨方針受け",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52234",
+     "pubDate": "Fri, 25 Sep 2026 00:32:52 +0900"
     },
     {
      "title": "ペット避妊手術後に後遺症 動物病院と解決金300万円で和解",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "富士山閉山期遭難対策 静岡もヘリ救助有料化検討 山梨方針受け",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52234",
+     "pubDate": "Fri, 25 Sep 2026 00:32:52 +0900"
+    },
     {
      "title": "JR貨物汚職事件 贈賄側会社役員はJR貨物OB 収賄側社員の知人か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52233",
@@ -118,11 +123,6 @@
      "title": "北朝鮮 拉致被害者の家族がアメリカで解決に向けた協力訴える",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52125",
      "pubDate": "Thu, 24 Sep 2026 12:04:00 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（9月24日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de52044",
-     "pubDate": "Thu, 24 Sep 2026 19:41:08 +0900"
     }
    ]
   },
@@ -195,16 +195,6 @@
      "title": "キトラ古墳の極彩色壁画 初めて3つ同時公開 奈良 明日香村",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51228",
      "pubDate": "Sat, 19 Sep 2026 12:49:00 +0900"
-    },
-    {
-     "title": "国立美術館6施設で観覧料金値上げへ 来月以降2倍から3倍に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51116",
-     "pubDate": "Fri, 18 Sep 2026 20:52:29 +0900"
-    },
-    {
-     "title": "ツタンカーメン王墓の奥に“未発見の部屋？”ネイチャーが報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260918de51097",
-     "pubDate": "Fri, 18 Sep 2026 19:08:14 +0900"
     }
    ]
   },
@@ -214,9 +204,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "【随時更新】習主席がホワイトハウスに到着 米中首脳会談へ",
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月25日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47013",
+     "pubDate": "Fri, 25 Sep 2026 00:45:09 +0900"
+    },
+    {
+     "title": "【随時更新】米中首脳会談 終わる 台湾やAIについての議論は",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52268",
-     "pubDate": "Thu, 24 Sep 2026 23:32:00 +0900"
+     "pubDate": "Fri, 25 Sep 2026 03:20:00 +0900"
     },
     {
      "title": "世界が注目 まもなく米中首脳会談 双方の思惑や狙いは",
@@ -282,11 +277,6 @@
      "title": "国連安保理 AI制御不能リスクで企業トップが国際連携訴え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52118",
      "pubDate": "Thu, 24 Sep 2026 11:42:00 +0900"
-    },
-    {
-     "title": "日フィジー外相 来夏の「太平洋・島サミット」成功へ緊密連携",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52107",
-     "pubDate": "Thu, 24 Sep 2026 10:09:00 +0900"
     }
    ]
   },
