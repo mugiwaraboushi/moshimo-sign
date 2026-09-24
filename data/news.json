@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-24T10:35:19.224Z",
+ "updatedAt": "2026-09-24T15:32:15.181Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風25号 千葉と神奈川で11人死亡3人不明 北印旛沼で堤防決壊",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de52072",
-     "pubDate": "Thu, 24 Sep 2026 19:12:02 +0900"
+     "title": "【随時更新】習主席がホワイトハウスに到着 米中首脳会談へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52268",
+     "pubDate": "Thu, 24 Sep 2026 23:32:00 +0900"
     },
     {
-     "title": "競泳 17歳の大橋信選手 世界新記録 アジア大会 男子200m平泳ぎ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52207",
-     "pubDate": "Thu, 24 Sep 2026 19:06:09 +0900"
+     "title": "世界が注目 まもなく米中首脳会談 双方の思惑や狙いは",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52232",
+     "pubDate": "Thu, 24 Sep 2026 22:10:06 +0900"
     },
     {
-     "title": "台風25号 千葉 印旛沼付近 水につかった太陽光発電施設で火事",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52122",
-     "pubDate": "Thu, 24 Sep 2026 14:30:28 +0900"
-    },
-    {
-     "title": "トクリュウのスマホ遠隔解析 有識者「早急な導入が必要」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52184",
-     "pubDate": "Thu, 24 Sep 2026 19:23:33 +0900"
+     "title": "台風26号 沖縄の南の海上へ進む可能性 最新の情報確認を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260923de52066",
+     "pubDate": "Fri, 25 Sep 2026 00:17:43 +0900"
     },
     {
      "title": "ペット避妊手術後に後遺症 動物病院と解決金300万円で和解",
@@ -33,14 +28,19 @@
      "pubDate": "Thu, 24 Sep 2026 19:30:23 +0900"
     },
     {
-     "title": "イオン サーキュレーター自主回収へ 長期間使用で発火のおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52204",
-     "pubDate": "Thu, 24 Sep 2026 18:23:00 +0900"
+     "title": "ふるさと納税「越前がに」で不正表示 福井県越前町に措置命令",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52245",
+     "pubDate": "Thu, 24 Sep 2026 20:39:15 +0900"
     },
     {
-     "title": "神戸 第二神明道路 トレーラーなど10台絡む事故 複数のけが人",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52197",
-     "pubDate": "Thu, 24 Sep 2026 17:45:00 +0900"
+     "title": "競泳 17歳の大橋信選手 世界新で金 アジア大会 男子200m平泳ぎ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52207",
+     "pubDate": "Thu, 24 Sep 2026 23:38:52 +0900"
+    },
+    {
+     "title": "アジア大会卓球男子団体 日本が中国破り60年ぶり金メダル",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52255",
+     "pubDate": "Thu, 24 Sep 2026 22:53:49 +0900"
     }
    ]
   },
@@ -50,9 +50,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "JR貨物汚職事件 贈賄側会社役員はJR貨物OB 収賄側社員の知人か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52233",
+     "pubDate": "Thu, 24 Sep 2026 20:59:00 +0900"
+    },
+    {
+     "title": "ふるさと納税「越前がに」で不正表示 福井県越前町に措置命令",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52245",
+     "pubDate": "Thu, 24 Sep 2026 20:39:15 +0900"
+    },
+    {
+     "title": "土砂崩れで倒壊した住宅から救助された夫婦",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52210",
+     "pubDate": "Thu, 24 Sep 2026 20:29:40 +0900"
+    },
+    {
      "title": "トクリュウのスマホ遠隔解析 有識者「早急な導入が必要」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52184",
-     "pubDate": "Thu, 24 Sep 2026 19:23:33 +0900"
+     "pubDate": "Thu, 24 Sep 2026 19:23:00 +0900"
     },
     {
      "title": "旧ジャニーズに性被害申告の男性 賠償求めた訴え退ける",
@@ -97,7 +112,7 @@
     {
      "title": "JR 千葉県内の一部区間 復旧に数か月程度かかる見込み",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52138",
-     "pubDate": "Thu, 24 Sep 2026 19:34:11 +0900"
+     "pubDate": "Thu, 24 Sep 2026 19:34:00 +0900"
     },
     {
      "title": "北朝鮮 拉致被害者の家族がアメリカで解決に向けた協力訴える",
@@ -107,22 +122,7 @@
     {
      "title": "【動画】Pickup NEWS（9月24日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52044",
-     "pubDate": "Thu, 24 Sep 2026 13:45:22 +0900"
-    },
-    {
-     "title": "シールで落とし物を返却 新たな仕組み開発 警視庁などと連携へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de52064",
-     "pubDate": "Thu, 24 Sep 2026 05:56:00 +0900"
-    },
-    {
-     "title": "飯塚事件 「DNA型不一致の新証拠」 3回目の再審請求へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de52068",
-     "pubDate": "Thu, 24 Sep 2026 05:45:00 +0900"
-    },
-    {
-     "title": "台風25号 千葉と神奈川で11人死亡3人不明 北印旛沼で堤防決壊",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260923de52072",
-     "pubDate": "Thu, 24 Sep 2026 19:12:02 +0900"
+     "pubDate": "Thu, 24 Sep 2026 19:41:08 +0900"
     }
    ]
   },
@@ -214,6 +214,26 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【随時更新】習主席がホワイトハウスに到着 米中首脳会談へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52268",
+     "pubDate": "Thu, 24 Sep 2026 23:32:00 +0900"
+    },
+    {
+     "title": "世界が注目 まもなく米中首脳会談 双方の思惑や狙いは",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52232",
+     "pubDate": "Thu, 24 Sep 2026 22:10:06 +0900"
+    },
+    {
+     "title": "日中の経済交流正常化に向け 岩屋前外相率いる代表団が訪中へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52261",
+     "pubDate": "Thu, 24 Sep 2026 22:02:16 +0900"
+    },
+    {
+     "title": "ネパール土石流 災害当局「住民の高台移転など進める方針」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52237",
+     "pubDate": "Thu, 24 Sep 2026 21:46:28 +0900"
+    },
+    {
      "title": "タイで拘束 日本人ら特殊詐欺グループ AI顔加工でビデオ通話か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52218",
      "pubDate": "Thu, 24 Sep 2026 19:09:28 +0900"
@@ -267,26 +287,6 @@
      "title": "日フィジー外相 来夏の「太平洋・島サミット」成功へ緊密連携",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52107",
      "pubDate": "Thu, 24 Sep 2026 10:09:00 +0900"
-    },
-    {
-     "title": "平和評議会がガザ地区復興などに向けた計画発表 実現は不透明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52100",
-     "pubDate": "Thu, 24 Sep 2026 10:00:00 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月24日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47012",
-     "pubDate": "Thu, 24 Sep 2026 09:45:00 +0900"
-    },
-    {
-     "title": "ゼレンスキー大統領 国連総会でロシアの資金源断つこと訴える",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52093",
-     "pubDate": "Thu, 24 Sep 2026 09:31:00 +0900"
-    },
-    {
-     "title": "OECD 物価上昇率予測 来年3.6％に引き上げ エネルギー高騰受け",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52090",
-     "pubDate": "Thu, 24 Sep 2026 08:50:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "新党・民主改革の会 18人が入党へ",
-     "link": "https://news.yahoo.co.jp/pickup/6596393?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 09:36:33 GMT"
+     "title": "政府 米中首脳会談の動向を注視",
+     "link": "https://news.yahoo.co.jp/pickup/6596412?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 12:54:41 GMT"
     },
     {
-     "title": "防災庁 もし熊本地震前にあったら",
-     "link": "https://news.yahoo.co.jp/pickup/6596373?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 09:15:18 GMT"
+     "title": "週末は関東各地で雨の予報 注意",
+     "link": "https://news.yahoo.co.jp/pickup/6596394?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 09:40:17 GMT"
     },
     {
-     "title": "匿名投稿で攻撃 林泰輔県議が釈明",
-     "link": "https://news.yahoo.co.jp/pickup/6596390?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 09:00:21 GMT"
+     "title": "飯塚事件 3回目の再審請求へ",
+     "link": "https://news.yahoo.co.jp/pickup/6596425?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 14:29:36 GMT"
     },
     {
-     "title": "印旛沼近く ウナギ5万匹流される",
-     "link": "https://news.yahoo.co.jp/pickup/6596389?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 09:04:35 GMT"
+     "title": "崖崩落で死亡 夫が過去に対応要求",
+     "link": "https://news.yahoo.co.jp/pickup/6596413?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 12:42:39 GMT"
     },
     {
-     "title": "ジャングリア親会社 173億円赤字",
-     "link": "https://news.yahoo.co.jp/pickup/6596367?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 05:49:43 GMT"
+     "title": "小林製薬 株式の非公開化を検討",
+     "link": "https://news.yahoo.co.jp/pickup/6596426?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 14:41:20 GMT"
     },
     {
-     "title": "速報・森保ジャパンvs.ウルグアイ",
-     "link": "https://news.yahoo.co.jp/pickup/6596376?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 09:57:22 GMT"
+     "title": "男子団体で金 張本「中国超えた」",
+     "link": "https://news.yahoo.co.jp/pickup/6596423?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 14:20:59 GMT"
     },
     {
-     "title": "WEST解散 2人脱退発表から1カ月",
-     "link": "https://news.yahoo.co.jp/pickup/6596398?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 10:28:58 GMT"
+     "title": "WEST.ファンと対面イベなく解散",
+     "link": "https://news.yahoo.co.jp/pickup/6596427?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 15:00:27 GMT"
     },
     {
-     "title": "俳優・白木万理さん 3年前に死去",
-     "link": "https://news.yahoo.co.jp/pickup/6596382?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 08:15:15 GMT"
+     "title": "海原雄山役 父から大塚明夫が継ぐ",
+     "link": "https://news.yahoo.co.jp/pickup/6596422?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 14:06:10 GMT"
     }
    ]
   }
