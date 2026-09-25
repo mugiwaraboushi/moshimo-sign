@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-25T00:57:08.487Z",
+ "updatedAt": "2026-09-25T05:39:26.266Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "全東信破綻で未回収の売上金 10月中にも飲食店などに支払いへ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52300",
-     "pubDate": "Fri, 25 Sep 2026 09:56:24 +0900"
-    },
-    {
-     "title": "米中首脳会談終了 習主席「アメリカは『台湾独立』に反対を」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52268",
-     "pubDate": "Fri, 25 Sep 2026 06:32:00 +0900"
-    },
-    {
-     "title": "ホワイトハウス CNNなど取材禁止措置解除も米中報道に影響",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52280",
-     "pubDate": "Fri, 25 Sep 2026 07:26:00 +0900"
-    },
-    {
-     "title": "台風26号 あす以降沖縄の南を北上見込み 今後の情報に注意を",
+     "title": "台風26号 沖縄の南を北上見込み 沖縄では27日以降大しけか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52272",
-     "pubDate": "Fri, 25 Sep 2026 07:02:00 +0900"
+     "pubDate": "Fri, 25 Sep 2026 12:13:32 +0900"
     },
     {
-     "title": "イスラエル首相 国連演説で「イラン体制いずれ倒れる」と主張",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52297",
-     "pubDate": "Fri, 25 Sep 2026 09:26:53 +0900"
+     "title": "米大統領主催の晩さん会で習主席「日本の軍国主義と戦った」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52268",
+     "pubDate": "Fri, 25 Sep 2026 12:19:00 +0900"
     },
     {
-     "title": "ICC脱退をナウルが表明 米国による圧力で同調広がるか焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52277",
-     "pubDate": "Fri, 25 Sep 2026 05:21:00 +0900"
+     "title": "小泉防衛相 北朝鮮のミサイル発射“新型の可能性含め分析中”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52365",
+     "pubDate": "Fri, 25 Sep 2026 14:30:18 +0900"
     },
     {
-     "title": "ホワイトソックス村上 3試合連続安打 5年ぶりポストシーズンへ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52292",
-     "pubDate": "Fri, 25 Sep 2026 07:59:13 +0900"
+     "title": "群馬 太田 住宅で女性刃物で刺されたか死亡 男が逃走",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52372",
+     "pubDate": "Fri, 25 Sep 2026 14:25:30 +0900"
+    },
+    {
+     "title": "宇宙飛行士の諏訪理さん 来年3月以降に民間宇宙船で初飛行へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52338",
+     "pubDate": "Fri, 25 Sep 2026 13:56:16 +0900"
+    },
+    {
+     "title": "デリバリー配達員が届け先で女児にわいせつ疑い逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52340",
+     "pubDate": "Fri, 25 Sep 2026 13:24:37 +0900"
+    },
+    {
+     "title": "極めて希少なトカゲを違法譲り受け疑い逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52344",
+     "pubDate": "Fri, 25 Sep 2026 13:31:22 +0900"
     }
    ]
   },
@@ -50,9 +50,49 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "中司規制改革相 市長時代に金銭授受の報道“事実ない”と否定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52361",
+     "pubDate": "Fri, 25 Sep 2026 14:39:05 +0900"
+    },
+    {
+     "title": "JFE 豪雨と台風で製鉄所の設備被害 生産影響長期化の見通し",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52342",
+     "pubDate": "Fri, 25 Sep 2026 14:32:15 +0900"
+    },
+    {
+     "title": "群馬 太田 住宅で女性刃物で刺されたか死亡 男が逃走",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52372",
+     "pubDate": "Fri, 25 Sep 2026 14:25:30 +0900"
+    },
+    {
+     "title": "「トラ・トラ・トラ！」映画監督の舛田利雄さん死去",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52336",
+     "pubDate": "Fri, 25 Sep 2026 13:50:00 +0900"
+    },
+    {
+     "title": "極めて希少なトカゲを違法譲り受け疑い逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52344",
+     "pubDate": "Fri, 25 Sep 2026 13:31:22 +0900"
+    },
+    {
+     "title": "デリバリー配達員が届け先で女児にわいせつ疑い逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52340",
+     "pubDate": "Fri, 25 Sep 2026 13:24:37 +0900"
+    },
+    {
+     "title": "小林製薬 日英の投資ファンドから非上場化に向けた提案受ける",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52325",
+     "pubDate": "Fri, 25 Sep 2026 13:21:00 +0900"
+    },
+    {
+     "title": "天皇皇后両陛下 29日に熊本地震の被災地を訪問へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52308",
+     "pubDate": "Fri, 25 Sep 2026 11:21:00 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（9月25日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52211",
-     "pubDate": "Fri, 25 Sep 2026 06:48:35 +0900"
+     "pubDate": "Fri, 25 Sep 2026 13:51:43 +0900"
     },
     {
      "title": "富士山閉山期遭難対策 静岡もヘリ救助有料化検討 山梨方針受け",
@@ -83,46 +123,6 @@
      "title": "旧ジャニーズに性被害申告の男性 賠償求めた訴え退ける",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52212",
      "pubDate": "Thu, 24 Sep 2026 18:41:34 +0900"
-    },
-    {
-     "title": "元弁護士 預かり金など1億6000万円横領の罪 懲役6年の判決",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52220",
-     "pubDate": "Thu, 24 Sep 2026 18:38:00 +0900"
-    },
-    {
-     "title": "ペット避妊手術後に後遺症 動物病院と解決金300万円で和解",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52216",
-     "pubDate": "Thu, 24 Sep 2026 19:30:23 +0900"
-    },
-    {
-     "title": "警察署改修工事かたり1400万円余を詐取か 設計会社役員ら逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52206",
-     "pubDate": "Thu, 24 Sep 2026 18:28:01 +0900"
-    },
-    {
-     "title": "イオン サーキュレーター自主回収へ 長期間使用で発火のおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52204",
-     "pubDate": "Thu, 24 Sep 2026 18:23:00 +0900"
-    },
-    {
-     "title": "天皇皇后両陛下 国民文化祭と全国障害者芸術・文化祭で高知へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52200",
-     "pubDate": "Thu, 24 Sep 2026 17:56:00 +0900"
-    },
-    {
-     "title": "神戸 第二神明道路 トレーラーなど10台絡む事故 複数のけが人",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52197",
-     "pubDate": "Thu, 24 Sep 2026 17:45:00 +0900"
-    },
-    {
-     "title": "資金難の「国立映画アーカイブ」 1億5000万円あまり寄付集まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52163",
-     "pubDate": "Thu, 24 Sep 2026 14:26:00 +0900"
-    },
-    {
-     "title": "JR 千葉県内の一部区間 復旧に数か月程度かかる見込み",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52138",
-     "pubDate": "Thu, 24 Sep 2026 19:34:00 +0900"
     }
    ]
   },
@@ -131,6 +131,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "「トラ・トラ・トラ！」映画監督の舛田利雄さん死去",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52336",
+     "pubDate": "Fri, 25 Sep 2026 13:50:00 +0900"
+    },
+    {
+     "title": "宇宙飛行士の諏訪理さん 来年3月以降に民間宇宙船で初飛行へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52338",
+     "pubDate": "Fri, 25 Sep 2026 13:56:16 +0900"
+    },
+    {
+     "title": "iPS細胞の特許 2031年まで5年延長決まる 京都大学",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52317",
+     "pubDate": "Fri, 25 Sep 2026 11:56:11 +0900"
+    },
     {
      "title": "火星衛星探査機「MMX」 来月の打ち上げを前に管制室を公開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52199",
@@ -190,11 +205,6 @@
      "title": "グーグルの生成AI サイバー能力試験中に他社のシステムに侵入",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51229",
      "pubDate": "Sat, 19 Sep 2026 12:55:00 +0900"
-    },
-    {
-     "title": "キトラ古墳の極彩色壁画 初めて3つ同時公開 奈良 明日香村",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51228",
-     "pubDate": "Sat, 19 Sep 2026 12:49:00 +0900"
     }
    ]
   },
@@ -204,19 +214,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "小泉防衛相 北朝鮮のミサイル発射“新型の可能性含め分析中”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52365",
+     "pubDate": "Fri, 25 Sep 2026 14:30:18 +0900"
+    },
+    {
+     "title": "親米政権発足のコロンビア イランと国交断絶発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52322",
+     "pubDate": "Fri, 25 Sep 2026 12:43:00 +0900"
+    },
+    {
+     "title": "財務相“日米首脳会談でトランプ大統領から円安懸念示された”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52321",
+     "pubDate": "Fri, 25 Sep 2026 12:11:00 +0900"
+    },
+    {
+     "title": "“ロシア数か月以内にNATO加盟国へ軍事攻撃の危険増す”報告書",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52307",
+     "pubDate": "Fri, 25 Sep 2026 11:16:01 +0900"
+    },
+    {
      "title": "イスラエル首相 国連演説で「イラン体制いずれ倒れる」と主張",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52297",
-     "pubDate": "Fri, 25 Sep 2026 09:26:53 +0900"
+     "pubDate": "Fri, 25 Sep 2026 10:39:00 +0900"
     },
     {
      "title": "ホワイトソックス村上 3試合連続安打 5年ぶりポストシーズンへ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52292",
-     "pubDate": "Fri, 25 Sep 2026 07:59:13 +0900"
+     "pubDate": "Fri, 25 Sep 2026 13:28:00 +0900"
     },
     {
      "title": "茂木外相 「二国家解決」実現目指し 積極外交を強調",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52286",
-     "pubDate": "Fri, 25 Sep 2026 06:46:18 +0900"
+     "pubDate": "Fri, 25 Sep 2026 06:46:00 +0900"
     },
     {
      "title": "ホワイトハウス CNNなど取材禁止措置解除も米中報道に影響",
@@ -231,7 +261,7 @@
     {
      "title": "ポーランドの「スターリンク」関連施設で火災 ロシア関与か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52282",
-     "pubDate": "Fri, 25 Sep 2026 05:44:04 +0900"
+     "pubDate": "Fri, 25 Sep 2026 05:44:00 +0900"
     },
     {
      "title": "ICC脱退をナウルが表明 米国による圧力で同調広がるか焦点",
@@ -244,9 +274,9 @@
      "pubDate": "Fri, 25 Sep 2026 00:45:09 +0900"
     },
     {
-     "title": "米中首脳会談終了 習主席「アメリカは『台湾独立』に反対を」",
+     "title": "米大統領主催の晩さん会で習主席「日本の軍国主義と戦った」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52268",
-     "pubDate": "Fri, 25 Sep 2026 06:32:00 +0900"
+     "pubDate": "Fri, 25 Sep 2026 12:19:00 +0900"
     },
     {
      "title": "世界が注目 まもなく米中首脳会談 双方の思惑や狙いは",
@@ -257,26 +287,6 @@
      "title": "日中の経済交流正常化に向け 岩屋前外相率いる代表団が訪中へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52261",
      "pubDate": "Thu, 24 Sep 2026 22:02:16 +0900"
-    },
-    {
-     "title": "ネパール土石流 災害当局「住民の高台移転など進める方針」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52237",
-     "pubDate": "Thu, 24 Sep 2026 21:46:28 +0900"
-    },
-    {
-     "title": "タイで拘束 日本人ら特殊詐欺グループ AI顔加工でビデオ通話か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52218",
-     "pubDate": "Thu, 24 Sep 2026 19:09:28 +0900"
-    },
-    {
-     "title": "米中のゆずれない戦い AIインフラ競争の行方は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52167",
-     "pubDate": "Thu, 24 Sep 2026 17:38:00 +0900"
-    },
-    {
-     "title": "北朝鮮外相 日米韓外相の共同声明に反発「実現不可能な妄想」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52177",
-     "pubDate": "Thu, 24 Sep 2026 16:31:00 +0900"
     }
    ]
   },
@@ -286,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "米中首脳 ワインで友好ムード演出",
-     "link": "https://news.yahoo.co.jp/pickup/6596444?source=rss",
-     "pubDate": "Fri, 25 Sep 2026 00:00:19 GMT"
+     "title": "トランプ氏が円安けん制 会談で",
+     "link": "https://news.yahoo.co.jp/pickup/6596467?source=rss",
+     "pubDate": "Fri, 25 Sep 2026 02:49:28 GMT"
     },
     {
-     "title": "意図せず資金移動 楽天証券不具合",
-     "link": "https://news.yahoo.co.jp/pickup/6596439?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 23:09:30 GMT"
+     "title": "10/2頃まで 雨の日多くなる予想",
+     "link": "https://news.yahoo.co.jp/pickup/6596473?source=rss",
+     "pubDate": "Fri, 25 Sep 2026 03:41:21 GMT"
     },
     {
-     "title": "ICC脱退呼びかけ呼応 ナウルだけ",
-     "link": "https://news.yahoo.co.jp/pickup/6596446?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 23:58:18 GMT"
+     "title": "印旛沼の決壊堤防 緊急復旧に着手",
+     "link": "https://news.yahoo.co.jp/pickup/6596477?source=rss",
+     "pubDate": "Fri, 25 Sep 2026 04:34:55 GMT"
     },
     {
-     "title": "スマホで撮影され合鍵複製 防衛策",
-     "link": "https://news.yahoo.co.jp/pickup/6596443?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 23:27:01 GMT"
+     "title": "配達先で少女にわいせつ疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6596474?source=rss",
+     "pubDate": "Fri, 25 Sep 2026 03:54:19 GMT"
     },
     {
-     "title": "ファミマ「バイト改革」なぜ今",
-     "link": "https://news.yahoo.co.jp/pickup/6596440?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 22:57:39 GMT"
+     "title": "熱帯性ウミガメ 米加州海岸で産卵",
+     "link": "https://news.yahoo.co.jp/pickup/6596480?source=rss",
+     "pubDate": "Fri, 25 Sep 2026 04:55:09 GMT"
     },
     {
-     "title": "村上宗隆絶叫 アイムジャパニーズ",
-     "link": "https://news.yahoo.co.jp/pickup/6596448?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 23:53:47 GMT"
+     "title": "作新学院 野球部監督が不適切指導",
+     "link": "https://news.yahoo.co.jp/pickup/6596472?source=rss",
+     "pubDate": "Fri, 25 Sep 2026 03:18:49 GMT"
     },
     {
-     "title": "声優・上坂すみれ 脅迫受け被害届",
-     "link": "https://news.yahoo.co.jp/pickup/6596441?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 23:12:59 GMT"
+     "title": "神木隆之介がド軍で始球式 歓声",
+     "link": "https://news.yahoo.co.jp/pickup/6596483?source=rss",
+     "pubDate": "Fri, 25 Sep 2026 05:24:24 GMT"
     },
     {
-     "title": "「風、薫る」が最終回 SNSの反応",
-     "link": "https://news.yahoo.co.jp/pickup/6596442?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 23:15:36 GMT"
+     "title": "パパイヤ鈴木療養 公演出演見送り",
+     "link": "https://news.yahoo.co.jp/pickup/6596481?source=rss",
+     "pubDate": "Fri, 25 Sep 2026 04:57:59 GMT"
     }
    ]
   }
