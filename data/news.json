@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-25T15:36:00.502Z",
+ "updatedAt": "2026-09-25T19:36:29.632Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,14 +13,14 @@
      "pubDate": "Fri, 25 Sep 2026 20:06:42 +0900"
     },
     {
-     "title": "群馬 太田 女性死亡事件 逃走の男は娘の元夫か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52508",
-     "pubDate": "Fri, 25 Sep 2026 23:32:36 +0900"
+     "title": "円相場1ドル＝156円台に値上がり 介入警戒強まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52516",
+     "pubDate": "Sat, 26 Sep 2026 00:48:00 +0900"
     },
     {
      "title": "片山財務相がベッセント長官と電話会談 日米協力強化を確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52509",
-     "pubDate": "Fri, 25 Sep 2026 23:51:13 +0900"
+     "pubDate": "Fri, 25 Sep 2026 23:51:00 +0900"
     },
     {
      "title": "世界が注目した米中首脳会談 日本や世界への影響は",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "政治団体NHK党 立花党首 兵庫県議への脅迫容疑改めて不起訴",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52517",
+     "pubDate": "Sat, 26 Sep 2026 01:15:45 +0900"
+    },
     {
      "title": "群馬 太田 女性死亡事件 逃走の男は娘の元夫か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52508",
@@ -118,11 +123,6 @@
      "title": "中部電力 浜岡原発の再稼働に向けた審査申請を取り下げ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52370",
      "pubDate": "Fri, 25 Sep 2026 18:28:00 +0900"
-    },
-    {
-     "title": "本名以外のアカウントで批判投稿 福岡県議に問責決議案",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52377",
-     "pubDate": "Fri, 25 Sep 2026 15:13:36 +0900"
     }
    ]
   },
@@ -195,16 +195,6 @@
      "title": "台風接近の影響 千葉で開催の野外音楽イベント 21日の開催中止",
      "link": "https://news.web.nhk/newsweb/na/nd-20260920de51358",
      "pubDate": "Sun, 20 Sep 2026 15:38:39 +0900"
-    },
-    {
-     "title": "timeleszの猪俣周杜容疑者を逮捕 知人女性に暴行か 活動休止に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51225",
-     "pubDate": "Sat, 19 Sep 2026 23:46:26 +0900"
-    },
-    {
-     "title": "米カリフォルニア州 AIに「キルスイッチ」導入義務化検討へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51235",
-     "pubDate": "Sat, 19 Sep 2026 14:43:46 +0900"
     }
    ]
   },
@@ -214,9 +204,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "円相場1ドル＝156円台に値上がり 介入警戒強まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52516",
+     "pubDate": "Sat, 26 Sep 2026 00:48:00 +0900"
+    },
+    {
      "title": "片山財務相がベッセント長官と電話会談 日米協力強化を確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52509",
-     "pubDate": "Fri, 25 Sep 2026 23:51:13 +0900"
+     "pubDate": "Fri, 25 Sep 2026 23:51:00 +0900"
     },
     {
      "title": "世界が注目した米中首脳会談 日本や世界への影響は",
@@ -282,11 +277,6 @@
      "title": "ホワイトハウス CNNなど取材禁止措置解除も米中報道に影響",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52280",
      "pubDate": "Fri, 25 Sep 2026 07:26:00 +0900"
-    },
-    {
-     "title": "円相場1ドル＝159円台に下落 米30年債利回り22年ぶり高水準",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52281",
-     "pubDate": "Fri, 25 Sep 2026 05:55:07 +0900"
     }
    ]
   },
