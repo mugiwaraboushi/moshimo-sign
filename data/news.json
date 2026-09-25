@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-25T05:39:26.266Z",
+ "updatedAt": "2026-09-25T10:38:42.036Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風26号 沖縄の南を北上見込み 沖縄では27日以降大しけか",
+     "title": "台風26号 沖縄に近づく見込み 沖縄では27日大しけに 高波警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52272",
-     "pubDate": "Fri, 25 Sep 2026 12:13:32 +0900"
+     "pubDate": "Fri, 25 Sep 2026 19:14:01 +0900"
     },
     {
      "title": "米大統領主催の晩さん会で習主席「日本の軍国主義と戦った」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52268",
-     "pubDate": "Fri, 25 Sep 2026 12:19:00 +0900"
+     "pubDate": "Fri, 25 Sep 2026 18:56:56 +0900"
     },
     {
-     "title": "小泉防衛相 北朝鮮のミサイル発射“新型の可能性含め分析中”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52365",
-     "pubDate": "Fri, 25 Sep 2026 14:30:18 +0900"
+     "title": "18歳未満の選挙運動禁止規定は憲法違反の初判断 東京地裁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52402",
+     "pubDate": "Fri, 25 Sep 2026 19:10:00 +0900"
     },
     {
-     "title": "群馬 太田 住宅で女性刃物で刺されたか死亡 男が逃走",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52372",
-     "pubDate": "Fri, 25 Sep 2026 14:25:30 +0900"
+     "title": "「timelesz」の猪俣周杜メンバーを釈放 傷害の疑いで逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52413",
+     "pubDate": "Fri, 25 Sep 2026 16:50:21 +0900"
     },
     {
-     "title": "宇宙飛行士の諏訪理さん 来年3月以降に民間宇宙船で初飛行へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52338",
-     "pubDate": "Fri, 25 Sep 2026 13:56:16 +0900"
+     "title": "NTTドコモも料金プラン値上げ 物価高や設備投資増などで",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52440",
+     "pubDate": "Fri, 25 Sep 2026 19:34:17 +0900"
     },
     {
-     "title": "デリバリー配達員が届け先で女児にわいせつ疑い逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52340",
-     "pubDate": "Fri, 25 Sep 2026 13:24:37 +0900"
+     "title": "【動画】北印旛沼が決壊し孤立していた子猫 警察官が救助",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52451",
+     "pubDate": "Fri, 25 Sep 2026 18:45:14 +0900"
     },
     {
-     "title": "極めて希少なトカゲを違法譲り受け疑い逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52344",
-     "pubDate": "Fri, 25 Sep 2026 13:31:22 +0900"
+     "title": "大相撲秋場所13日目 横綱 大の里 大関 霧島に敗れ２敗目",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52364",
+     "pubDate": "Fri, 25 Sep 2026 19:23:02 +0900"
     }
    ]
   },
@@ -50,6 +50,61 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "墜落の空自無人偵察機 海底で機体の一部とみられるもの発見",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52450",
+     "pubDate": "Fri, 25 Sep 2026 18:56:05 +0900"
+    },
+    {
+     "title": "四国電力社長 子会社社員の転落死受け“適切な調査へ指導”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52433",
+     "pubDate": "Fri, 25 Sep 2026 18:37:18 +0900"
+    },
+    {
+     "title": "全日空機の緊急脱出 国の運輸安全委が現地で機体を調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52427",
+     "pubDate": "Fri, 25 Sep 2026 18:19:35 +0900"
+    },
+    {
+     "title": "台風で土砂流入 20代女性連絡取れず 夫「妻の姿が見たい」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52418",
+     "pubDate": "Fri, 25 Sep 2026 18:08:03 +0900"
+    },
+    {
+     "title": "「timelesz」の猪俣周杜メンバーを釈放 傷害の疑いで逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52413",
+     "pubDate": "Fri, 25 Sep 2026 16:50:21 +0900"
+    },
+    {
+     "title": "18歳未満の選挙運動禁止規定は憲法違反の初判断 東京地裁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52402",
+     "pubDate": "Fri, 25 Sep 2026 19:10:00 +0900"
+    },
+    {
+     "title": "兵庫 たつの市母娘殺害事件 死亡の容疑者を書類送検",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52375",
+     "pubDate": "Fri, 25 Sep 2026 15:51:27 +0900"
+    },
+    {
+     "title": "ふるさと納税「越前がに」に水ガニ カニ関連は返礼品から除外",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52378",
+     "pubDate": "Fri, 25 Sep 2026 15:47:00 +0900"
+    },
+    {
+     "title": "中部電力 浜岡原発の再稼働に向けた審査申請を取り下げ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52370",
+     "pubDate": "Fri, 25 Sep 2026 18:28:00 +0900"
+    },
+    {
+     "title": "本名以外のアカウントで批判投稿 福岡県議に問責決議案",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52377",
+     "pubDate": "Fri, 25 Sep 2026 15:13:36 +0900"
+    },
+    {
+     "title": "ＪＲ貨物九州支社贈収賄事件 3月下旬以降に現金30万円要求か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52373",
+     "pubDate": "Fri, 25 Sep 2026 15:09:00 +0900"
+    },
+    {
      "title": "中司規制改革相 市長時代に金銭授受の報道“事実ない”と否定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52361",
      "pubDate": "Fri, 25 Sep 2026 14:39:05 +0900"
@@ -57,72 +112,17 @@
     {
      "title": "JFE 豪雨と台風で製鉄所の設備被害 生産影響長期化の見通し",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52342",
-     "pubDate": "Fri, 25 Sep 2026 14:32:15 +0900"
+     "pubDate": "Fri, 25 Sep 2026 14:32:00 +0900"
     },
     {
-     "title": "群馬 太田 住宅で女性刃物で刺されたか死亡 男が逃走",
+     "title": "群馬 太田 住宅で女性死亡 刃物で刺されたか 30代男が逃走",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52372",
-     "pubDate": "Fri, 25 Sep 2026 14:25:30 +0900"
+     "pubDate": "Fri, 25 Sep 2026 19:29:09 +0900"
     },
     {
      "title": "「トラ・トラ・トラ！」映画監督の舛田利雄さん死去",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52336",
      "pubDate": "Fri, 25 Sep 2026 13:50:00 +0900"
-    },
-    {
-     "title": "極めて希少なトカゲを違法譲り受け疑い逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52344",
-     "pubDate": "Fri, 25 Sep 2026 13:31:22 +0900"
-    },
-    {
-     "title": "デリバリー配達員が届け先で女児にわいせつ疑い逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52340",
-     "pubDate": "Fri, 25 Sep 2026 13:24:37 +0900"
-    },
-    {
-     "title": "小林製薬 日英の投資ファンドから非上場化に向けた提案受ける",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52325",
-     "pubDate": "Fri, 25 Sep 2026 13:21:00 +0900"
-    },
-    {
-     "title": "天皇皇后両陛下 29日に熊本地震の被災地を訪問へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52308",
-     "pubDate": "Fri, 25 Sep 2026 11:21:00 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（9月25日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52211",
-     "pubDate": "Fri, 25 Sep 2026 13:51:43 +0900"
-    },
-    {
-     "title": "富士山閉山期遭難対策 静岡もヘリ救助有料化検討 山梨方針受け",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52234",
-     "pubDate": "Fri, 25 Sep 2026 00:32:52 +0900"
-    },
-    {
-     "title": "JR貨物汚職事件 贈賄側会社役員はJR貨物OB 収賄側社員の知人か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52233",
-     "pubDate": "Thu, 24 Sep 2026 20:59:00 +0900"
-    },
-    {
-     "title": "ふるさと納税「越前がに」で不正表示 福井県越前町に措置命令",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52245",
-     "pubDate": "Thu, 24 Sep 2026 20:39:15 +0900"
-    },
-    {
-     "title": "土砂崩れで倒壊した住宅から救助された夫婦",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52210",
-     "pubDate": "Thu, 24 Sep 2026 20:29:40 +0900"
-    },
-    {
-     "title": "トクリュウのスマホ遠隔解析 有識者「早急な導入が必要」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52184",
-     "pubDate": "Thu, 24 Sep 2026 19:23:00 +0900"
-    },
-    {
-     "title": "旧ジャニーズに性被害申告の男性 賠償求めた訴え退ける",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52212",
-     "pubDate": "Thu, 24 Sep 2026 18:41:34 +0900"
     }
    ]
   },
@@ -132,6 +132,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "中部電力 浜岡原発の再稼働に向けた審査申請を取り下げ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52370",
+     "pubDate": "Fri, 25 Sep 2026 18:28:00 +0900"
+    },
+    {
      "title": "「トラ・トラ・トラ！」映画監督の舛田利雄さん死去",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52336",
      "pubDate": "Fri, 25 Sep 2026 13:50:00 +0900"
@@ -139,7 +144,7 @@
     {
      "title": "宇宙飛行士の諏訪理さん 来年3月以降に民間宇宙船で初飛行へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52338",
-     "pubDate": "Fri, 25 Sep 2026 13:56:16 +0900"
+     "pubDate": "Fri, 25 Sep 2026 13:56:00 +0900"
     },
     {
      "title": "iPS細胞の特許 2031年まで5年延長決まる 京都大学",
@@ -200,11 +205,6 @@
      "title": "米カリフォルニア州 AIに「キルスイッチ」導入義務化検討へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51235",
      "pubDate": "Sat, 19 Sep 2026 14:43:46 +0900"
-    },
-    {
-     "title": "グーグルの生成AI サイバー能力試験中に他社のシステムに侵入",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260919de51229",
-     "pubDate": "Sat, 19 Sep 2026 12:55:00 +0900"
     }
    ]
   },
@@ -213,6 +213,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "“イラン外相 米側に戦闘終結に向けた提案”欧米メディア報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52362",
+     "pubDate": "Fri, 25 Sep 2026 17:25:53 +0900"
+    },
+    {
+     "title": "アメリカで住宅ローン金利が7％超え 住宅購入の負担増",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52397",
+     "pubDate": "Fri, 25 Sep 2026 16:25:19 +0900"
+    },
+    {
+     "title": "モンゴル首相来週来日 高市首相と首脳会談へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52363",
+     "pubDate": "Fri, 25 Sep 2026 14:44:00 +0900"
+    },
     {
      "title": "小泉防衛相 北朝鮮のミサイル発射“新型の可能性含め分析中”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52365",
@@ -271,22 +286,7 @@
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月25日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47013",
-     "pubDate": "Fri, 25 Sep 2026 00:45:09 +0900"
-    },
-    {
-     "title": "米大統領主催の晩さん会で習主席「日本の軍国主義と戦った」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52268",
-     "pubDate": "Fri, 25 Sep 2026 12:19:00 +0900"
-    },
-    {
-     "title": "世界が注目 まもなく米中首脳会談 双方の思惑や狙いは",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52232",
-     "pubDate": "Thu, 24 Sep 2026 22:10:06 +0900"
-    },
-    {
-     "title": "日中の経済交流正常化に向け 岩屋前外相率いる代表団が訪中へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52261",
-     "pubDate": "Thu, 24 Sep 2026 22:02:16 +0900"
+     "pubDate": "Fri, 25 Sep 2026 00:45:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "トランプ氏が円安けん制 会談で",
-     "link": "https://news.yahoo.co.jp/pickup/6596467?source=rss",
-     "pubDate": "Fri, 25 Sep 2026 02:49:28 GMT"
+     "title": "印旛沼の応急復旧 1週間程度めど",
+     "link": "https://news.yahoo.co.jp/pickup/6596520?source=rss",
+     "pubDate": "Fri, 25 Sep 2026 09:12:19 GMT"
     },
     {
-     "title": "10/2頃まで 雨の日多くなる予想",
-     "link": "https://news.yahoo.co.jp/pickup/6596473?source=rss",
-     "pubDate": "Fri, 25 Sep 2026 03:41:21 GMT"
+     "title": "行方不明から10年 娘の帰り待つ父",
+     "link": "https://news.yahoo.co.jp/pickup/6596513?source=rss",
+     "pubDate": "Fri, 25 Sep 2026 08:58:56 GMT"
     },
     {
-     "title": "印旛沼の決壊堤防 緊急復旧に着手",
-     "link": "https://news.yahoo.co.jp/pickup/6596477?source=rss",
-     "pubDate": "Fri, 25 Sep 2026 04:34:55 GMT"
+     "title": "離島に子の遺体 事件性疑う傷なし",
+     "link": "https://news.yahoo.co.jp/pickup/6596525?source=rss",
+     "pubDate": "Fri, 25 Sep 2026 09:39:55 GMT"
     },
     {
-     "title": "配達先で少女にわいせつ疑い 逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6596474?source=rss",
-     "pubDate": "Fri, 25 Sep 2026 03:54:19 GMT"
+     "title": "ahamo「大盛りオプション」終了へ",
+     "link": "https://news.yahoo.co.jp/pickup/6596506?source=rss",
+     "pubDate": "Fri, 25 Sep 2026 08:05:50 GMT"
     },
     {
-     "title": "熱帯性ウミガメ 米加州海岸で産卵",
-     "link": "https://news.yahoo.co.jp/pickup/6596480?source=rss",
-     "pubDate": "Fri, 25 Sep 2026 04:55:09 GMT"
+     "title": "ボンカレーなど値上げへ 大塚食品",
+     "link": "https://news.yahoo.co.jp/pickup/6596528?source=rss",
+     "pubDate": "Fri, 25 Sep 2026 10:09:00 GMT"
     },
     {
-     "title": "作新学院 野球部監督が不適切指導",
-     "link": "https://news.yahoo.co.jp/pickup/6596472?source=rss",
-     "pubDate": "Fri, 25 Sep 2026 03:18:49 GMT"
+     "title": "公安調査庁 初の公式キャラ誕生",
+     "link": "https://news.yahoo.co.jp/pickup/6596526?source=rss",
+     "pubDate": "Fri, 25 Sep 2026 09:43:30 GMT"
     },
     {
-     "title": "神木隆之介がド軍で始球式 歓声",
-     "link": "https://news.yahoo.co.jp/pickup/6596483?source=rss",
-     "pubDate": "Fri, 25 Sep 2026 05:24:24 GMT"
+     "title": "珍事 リプレー検証システム不具合",
+     "link": "https://news.yahoo.co.jp/pickup/6596529?source=rss",
+     "pubDate": "Fri, 25 Sep 2026 10:12:58 GMT"
     },
     {
-     "title": "パパイヤ鈴木療養 公演出演見送り",
-     "link": "https://news.yahoo.co.jp/pickup/6596481?source=rss",
-     "pubDate": "Fri, 25 Sep 2026 04:57:59 GMT"
+     "title": "猪俣さん釈放 STARTOがコメント",
+     "link": "https://news.yahoo.co.jp/pickup/6596514?source=rss",
+     "pubDate": "Fri, 25 Sep 2026 08:56:20 GMT"
     }
    ]
   }
