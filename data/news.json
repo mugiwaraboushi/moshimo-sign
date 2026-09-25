@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-24T22:45:28.968Z",
+ "updatedAt": "2026-09-25T00:57:08.487Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "全東信破綻で未回収の売上金 10月中にも飲食店などに支払いへ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52300",
+     "pubDate": "Fri, 25 Sep 2026 09:56:24 +0900"
+    },
+    {
      "title": "米中首脳会談終了 習主席「アメリカは『台湾独立』に反対を」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52268",
-     "pubDate": "Fri, 25 Sep 2026 06:32:55 +0900"
+     "pubDate": "Fri, 25 Sep 2026 06:32:00 +0900"
+    },
+    {
+     "title": "ホワイトハウス CNNなど取材禁止措置解除も米中報道に影響",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52280",
+     "pubDate": "Fri, 25 Sep 2026 07:26:00 +0900"
     },
     {
      "title": "台風26号 あす以降沖縄の南を北上見込み 今後の情報に注意を",
@@ -18,9 +28,9 @@
      "pubDate": "Fri, 25 Sep 2026 07:02:00 +0900"
     },
     {
-     "title": "ホワイトハウス CNNなど取材禁止措置解除も米中報道に影響",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52280",
-     "pubDate": "Fri, 25 Sep 2026 07:26:04 +0900"
+     "title": "イスラエル首相 国連演説で「イラン体制いずれ倒れる」と主張",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52297",
+     "pubDate": "Fri, 25 Sep 2026 09:26:53 +0900"
     },
     {
      "title": "ICC脱退をナウルが表明 米国による圧力で同調広がるか焦点",
@@ -28,19 +38,9 @@
      "pubDate": "Fri, 25 Sep 2026 05:21:00 +0900"
     },
     {
-     "title": "ポーランドの「スターリンク」関連施設で火災 ロシア関与か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52282",
-     "pubDate": "Fri, 25 Sep 2026 05:44:04 +0900"
-    },
-    {
-     "title": "円相場1ドル＝159円台に下落 米30年債利回り22年ぶり高水準",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52281",
-     "pubDate": "Fri, 25 Sep 2026 05:55:07 +0900"
-    },
-    {
-     "title": "競泳 17歳の大橋信選手 世界新で金 アジア大会 男子200m平泳ぎ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52207",
-     "pubDate": "Thu, 24 Sep 2026 23:38:52 +0900"
+     "title": "ホワイトソックス村上 3試合連続安打 5年ぶりポストシーズンへ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52292",
+     "pubDate": "Fri, 25 Sep 2026 07:59:13 +0900"
     }
    ]
   },
@@ -204,6 +204,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "イスラエル首相 国連演説で「イラン体制いずれ倒れる」と主張",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52297",
+     "pubDate": "Fri, 25 Sep 2026 09:26:53 +0900"
+    },
+    {
+     "title": "ホワイトソックス村上 3試合連続安打 5年ぶりポストシーズンへ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52292",
+     "pubDate": "Fri, 25 Sep 2026 07:59:13 +0900"
+    },
+    {
      "title": "茂木外相 「二国家解決」実現目指し 積極外交を強調",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52286",
      "pubDate": "Fri, 25 Sep 2026 06:46:18 +0900"
@@ -211,7 +221,7 @@
     {
      "title": "ホワイトハウス CNNなど取材禁止措置解除も米中報道に影響",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52280",
-     "pubDate": "Fri, 25 Sep 2026 07:26:04 +0900"
+     "pubDate": "Fri, 25 Sep 2026 07:26:00 +0900"
     },
     {
      "title": "円相場1ドル＝159円台に下落 米30年債利回り22年ぶり高水準",
@@ -236,7 +246,7 @@
     {
      "title": "米中首脳会談終了 習主席「アメリカは『台湾独立』に反対を」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52268",
-     "pubDate": "Fri, 25 Sep 2026 06:32:55 +0900"
+     "pubDate": "Fri, 25 Sep 2026 06:32:00 +0900"
     },
     {
      "title": "世界が注目 まもなく米中首脳会談 双方の思惑や狙いは",
@@ -267,16 +277,6 @@
      "title": "北朝鮮外相 日米韓外相の共同声明に反発「実現不可能な妄想」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52177",
      "pubDate": "Thu, 24 Sep 2026 16:31:00 +0900"
-    },
-    {
-     "title": "イラン大統領 米に屈しない姿勢強調も“対話準備できている”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52165",
-     "pubDate": "Thu, 24 Sep 2026 15:55:48 +0900"
-    },
-    {
-     "title": "米連邦地裁 メディアのホワイトハウス取材禁止 差し止め命じる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52168",
-     "pubDate": "Thu, 24 Sep 2026 18:21:00 +0900"
     }
    ]
   },
@@ -286,44 +286,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風26号 強い勢力で沖縄に接近へ",
-     "link": "https://news.yahoo.co.jp/pickup/6596432?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 21:52:57 GMT"
+     "title": "米中首脳 ワインで友好ムード演出",
+     "link": "https://news.yahoo.co.jp/pickup/6596444?source=rss",
+     "pubDate": "Fri, 25 Sep 2026 00:00:19 GMT"
     },
     {
-     "title": "習氏 米に台湾独立への反対求める",
-     "link": "https://news.yahoo.co.jp/pickup/6596431?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 21:36:38 GMT"
+     "title": "意図せず資金移動 楽天証券不具合",
+     "link": "https://news.yahoo.co.jp/pickup/6596439?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 23:09:30 GMT"
     },
     {
-     "title": "北海道で今季全国初 氷点下を観測",
-     "link": "https://news.yahoo.co.jp/pickup/6596433?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 22:11:47 GMT"
+     "title": "ICC脱退呼びかけ呼応 ナウルだけ",
+     "link": "https://news.yahoo.co.jp/pickup/6596446?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 23:58:18 GMT"
     },
     {
-     "title": "米住宅ローン金利7%超 30年固定",
-     "link": "https://news.yahoo.co.jp/pickup/6596435?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 22:33:21 GMT"
+     "title": "スマホで撮影され合鍵複製 防衛策",
+     "link": "https://news.yahoo.co.jp/pickup/6596443?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 23:27:01 GMT"
     },
     {
-     "title": "崖崩落で死亡 夫が過去に対応要求",
-     "link": "https://news.yahoo.co.jp/pickup/6596413?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 12:42:39 GMT"
+     "title": "ファミマ「バイト改革」なぜ今",
+     "link": "https://news.yahoo.co.jp/pickup/6596440?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 22:57:39 GMT"
     },
     {
-     "title": "鈴木誠也26号 カブスPO進出決定",
-     "link": "https://news.yahoo.co.jp/pickup/6596434?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 22:12:51 GMT"
+     "title": "村上宗隆絶叫 アイムジャパニーズ",
+     "link": "https://news.yahoo.co.jp/pickup/6596448?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 23:53:47 GMT"
     },
     {
-     "title": "阪神・西勇輝 今季限りで現役引退",
-     "link": "https://news.yahoo.co.jp/pickup/6596429?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 21:16:39 GMT"
+     "title": "声優・上坂すみれ 脅迫受け被害届",
+     "link": "https://news.yahoo.co.jp/pickup/6596441?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 23:12:59 GMT"
     },
     {
-     "title": "WEST.ファンと対面イベなく解散",
-     "link": "https://news.yahoo.co.jp/pickup/6596427?source=rss",
-     "pubDate": "Thu, 24 Sep 2026 15:00:27 GMT"
+     "title": "「風、薫る」が最終回 SNSの反応",
+     "link": "https://news.yahoo.co.jp/pickup/6596442?source=rss",
+     "pubDate": "Thu, 24 Sep 2026 23:15:36 GMT"
     }
    ]
   }
