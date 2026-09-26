@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-26T18:06:57.562Z",
+ "updatedAt": "2026-09-26T21:18:50.303Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風26号 沖縄に接近へ 来週も東～西日本は雨降りやすい見込み",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52529",
-     "pubDate": "Sun, 27 Sep 2026 00:18:38 +0900"
+     "title": "熊本・佐賀・長崎に「線状降水帯直前予測」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52644",
+     "pubDate": "Sun, 27 Sep 2026 06:10:57 +0900"
+    },
+    {
+     "title": "福岡県筑後地方に「線状降水帯直前予測」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52642",
+     "pubDate": "Sun, 27 Sep 2026 05:41:00 +0900"
+    },
+    {
+     "title": "長崎 大村市付近 記録的短時間大雨 災害の危険迫る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52643",
+     "pubDate": "Sun, 27 Sep 2026 06:03:00 +0900"
+    },
+    {
+     "title": "台風26号 あさってにかけ沖縄接近へ 高波に警戒",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52641",
+     "pubDate": "Sun, 27 Sep 2026 05:50:00 +0900"
+    },
+    {
+     "title": "米中合意文書 台湾言及なく 米大統領「習氏は私の考え理解」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52637",
+     "pubDate": "Sun, 27 Sep 2026 05:10:00 +0900"
     },
     {
      "title": "高市首相 米大統領 電話会談“米中首脳会談の内容説明受ける”",
@@ -21,26 +41,6 @@
      "title": "パラ陸上メダリスト 上与那原寛和選手が死去 練習中に交通事故",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52631",
      "pubDate": "Sun, 27 Sep 2026 01:30:12 +0900"
-    },
-    {
-     "title": "タイで大雨続き首都バンコクでも浸水被害広がる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52623",
-     "pubDate": "Sat, 26 Sep 2026 22:25:00 +0900"
-    },
-    {
-     "title": "米中首脳会談 合意点は？AIはSIに変更 台湾言及なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52588",
-     "pubDate": "Sat, 26 Sep 2026 22:52:04 +0900"
-    },
-    {
-     "title": "アジア大会 陸上女子1500m 田中希実が銅 今大会2つ目のメダル",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52632",
-     "pubDate": "Sun, 27 Sep 2026 01:01:10 +0900"
-    },
-    {
-     "title": "群馬女性殺害 元夫「母親 長男殺し自分も死ぬ」長女が警察相談",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52601",
-     "pubDate": "Sat, 26 Sep 2026 19:32:00 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "海底に沈むプラスチックゴミを映像から自動検出するAI開発",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52636",
+     "pubDate": "Sun, 27 Sep 2026 05:06:36 +0900"
+    },
     {
      "title": "パラ陸上メダリスト 上与那原寛和選手が死去 練習中に交通事故",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52631",
@@ -118,11 +123,6 @@
      "title": "政治団体NHK党 立花党首 兵庫県議への脅迫容疑改めて不起訴",
      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52517",
      "pubDate": "Sat, 26 Sep 2026 01:15:45 +0900"
-    },
-    {
-     "title": "群馬 太田 女性死亡事件 逃走した長女の元夫を公開手配",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52508",
-     "pubDate": "Sat, 26 Sep 2026 10:47:00 +0900"
     }
    ]
   },
@@ -204,9 +204,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米中合意文書 台湾言及なく 米大統領「習氏は私の考え理解」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52637",
+     "pubDate": "Sun, 27 Sep 2026 05:10:00 +0900"
+    },
+    {
      "title": "タイで大雨続き首都バンコクでも浸水被害広がる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52623",
-     "pubDate": "Sat, 26 Sep 2026 22:25:00 +0900"
+     "pubDate": "Sun, 27 Sep 2026 05:42:31 +0900"
     },
     {
      "title": "高市首相 米大統領 電話会談“米中首脳会談の内容説明受ける”",
@@ -272,11 +277,6 @@
      "title": "ネパール土石流 1か月 8万人超の被災者 生活再建が課題",
      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52515",
      "pubDate": "Sat, 26 Sep 2026 19:03:44 +0900"
-    },
-    {
-     "title": "米中首脳会談の内容説明を 日米首脳電話会談も 日本政府",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52519",
-     "pubDate": "Sat, 26 Sep 2026 05:33:22 +0900"
     }
    ]
   },
