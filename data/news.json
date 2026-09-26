@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-26T00:59:08.237Z",
+ "updatedAt": "2026-09-26T05:50:30.366Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風26号 沖縄であす非常に強い風 関東中心に土砂災害に注意を",
+     "title": "台風26号 沖縄に接近へ 関東など前線で雨 土砂災害に十分注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52529",
-     "pubDate": "Sat, 26 Sep 2026 07:01:27 +0900"
+     "pubDate": "Sat, 26 Sep 2026 11:49:00 +0900"
     },
     {
-     "title": "習主席 訪米終え帰国へ 年内にあと2回会談の意向示す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52523",
-     "pubDate": "Sat, 26 Sep 2026 06:35:17 +0900"
+     "title": "名古屋市 栄のテレビ塔 展望台付近で火事 けが人の情報なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52560",
+     "pubDate": "Sat, 26 Sep 2026 13:02:00 +0900"
     },
     {
-     "title": "群馬 太田 女性死亡事件 逃走した長女の元夫を公開手配",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52508",
-     "pubDate": "Sat, 26 Sep 2026 05:47:56 +0900"
+     "title": "岐阜 自宅マンション6階から娘2人投げ落とした疑いで父親逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52546",
+     "pubDate": "Sat, 26 Sep 2026 11:59:10 +0900"
     },
     {
-     "title": "ネパール土石流発生から1か月 生活再建踏み出せず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52515",
-     "pubDate": "Sat, 26 Sep 2026 05:57:11 +0900"
+     "title": "群馬 太田 女性殺害事件 長女が事件前 元夫のDVを警察に相談",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52557",
+     "pubDate": "Sat, 26 Sep 2026 13:02:00 +0900"
     },
     {
-     "title": "ゼレンスキー大統領 米が3か国協議を提案と明らかに",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52520",
-     "pubDate": "Sat, 26 Sep 2026 08:29:14 +0900"
+     "title": "東京拘置所で矯正展 EXILEメンバーらが一日所長",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52564",
+     "pubDate": "Sat, 26 Sep 2026 13:51:16 +0900"
     },
     {
-     "title": "ローマ教皇 AIが日常を侵食と警告 フランス訪問で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52537",
-     "pubDate": "Sat, 26 Sep 2026 08:52:13 +0900"
+     "title": "開発中のAIモデルがまた“逸脱行動” 53件の画像流出も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52569",
+     "pubDate": "Sat, 26 Sep 2026 13:37:51 +0900"
     },
     {
-     "title": "米制裁でイラン航空会社の発着便停止が近隣諸国で拡大",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52522",
-     "pubDate": "Sat, 26 Sep 2026 08:32:40 +0900"
+     "title": "ホワイトソックス村上宗隆 1試合2HR 今季日本選手の単独トップ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52565",
+     "pubDate": "Sat, 26 Sep 2026 13:57:48 +0900"
     }
    ]
   },
@@ -50,9 +50,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "東京拘置所で矯正展 EXILEメンバーらが一日所長",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52564",
+     "pubDate": "Sat, 26 Sep 2026 13:51:16 +0900"
+    },
+    {
+     "title": "名古屋市 栄のテレビ塔 展望台付近で火事 けが人の情報なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52560",
+     "pubDate": "Sat, 26 Sep 2026 13:02:00 +0900"
+    },
+    {
+     "title": "群馬 太田 女性殺害事件 長女が事件前 元夫のDVを警察に相談",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52557",
+     "pubDate": "Sat, 26 Sep 2026 13:02:00 +0900"
+    },
+    {
+     "title": "岐阜 自宅マンション6階から娘2人投げ落とした疑いで父親逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52546",
+     "pubDate": "Sat, 26 Sep 2026 11:59:10 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（9月26日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52484",
-     "pubDate": "Sat, 26 Sep 2026 07:01:19 +0900"
+     "pubDate": "Sat, 26 Sep 2026 14:08:22 +0900"
     },
     {
      "title": "政治団体NHK党 立花党首 兵庫県議への脅迫容疑改めて不起訴",
@@ -62,7 +82,7 @@
     {
      "title": "群馬 太田 女性死亡事件 逃走した長女の元夫を公開手配",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52508",
-     "pubDate": "Sat, 26 Sep 2026 05:47:56 +0900"
+     "pubDate": "Sat, 26 Sep 2026 10:47:00 +0900"
     },
     {
      "title": "「オンチェーン金融」の環境整備へ 銀行などが団体設立",
@@ -103,26 +123,6 @@
      "title": "台風で土砂流入 20代女性連絡取れず 夫「妻の姿が見たい」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52418",
      "pubDate": "Fri, 25 Sep 2026 18:08:03 +0900"
-    },
-    {
-     "title": "「timelesz」の猪俣周杜メンバーを釈放 傷害の疑いで逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52413",
-     "pubDate": "Fri, 25 Sep 2026 16:50:21 +0900"
-    },
-    {
-     "title": "18歳未満の選挙運動禁止規定は憲法違反の初判断 東京地裁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52402",
-     "pubDate": "Fri, 25 Sep 2026 19:10:00 +0900"
-    },
-    {
-     "title": "兵庫 たつの市母娘殺害事件 死亡の容疑者を書類送検",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52375",
-     "pubDate": "Fri, 25 Sep 2026 15:51:27 +0900"
-    },
-    {
-     "title": "ふるさと納税「越前がに」に水ガニ カニ関連は返礼品から除外",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52378",
-     "pubDate": "Fri, 25 Sep 2026 15:47:00 +0900"
     }
    ]
   },
@@ -132,9 +132,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "戦国武将 嶋左近が高野山金剛峯寺と交渉の書状写し発見",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52545",
+     "pubDate": "Sat, 26 Sep 2026 11:08:00 +0900"
+    },
+    {
      "title": "ローマ教皇 AIが日常を侵食と警告 フランス訪問で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52537",
-     "pubDate": "Sat, 26 Sep 2026 08:52:13 +0900"
+     "pubDate": "Sat, 26 Sep 2026 08:52:00 +0900"
     },
     {
      "title": "中部電力 浜岡原発の再稼働に向けた審査申請を取り下げ",
@@ -209,9 +214,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ホルムズ開放に向けたイラン提案 トランプ大統領が拒否の報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52568",
+     "pubDate": "Sat, 26 Sep 2026 13:43:05 +0900"
+    },
+    {
+     "title": "開発中のAIモデルがまた“逸脱行動” 53件の画像流出も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52569",
+     "pubDate": "Sat, 26 Sep 2026 13:37:51 +0900"
+    },
+    {
      "title": "ローマ教皇 AIが日常を侵食と警告 フランス訪問で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52537",
-     "pubDate": "Sat, 26 Sep 2026 08:52:13 +0900"
+     "pubDate": "Sat, 26 Sep 2026 08:52:00 +0900"
     },
     {
      "title": "米制裁でイラン航空会社の発着便停止が近隣諸国で拡大",
@@ -226,7 +241,7 @@
     {
      "title": "ホルムズ封鎖で食料危機懸念 国連が早期解決を訴え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52533",
-     "pubDate": "Sat, 26 Sep 2026 08:04:30 +0900"
+     "pubDate": "Sat, 26 Sep 2026 08:04:00 +0900"
     },
     {
      "title": "ローヤリティー諸島震源 M7.0の地震 日本に津波影響なし",
@@ -236,12 +251,12 @@
     {
      "title": "習主席 訪米終え帰国へ 年内にあと2回会談の意向示す",
      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52523",
-     "pubDate": "Sat, 26 Sep 2026 06:35:17 +0900"
+     "pubDate": "Sat, 26 Sep 2026 10:52:00 +0900"
     },
     {
      "title": "ネパール土石流発生から1か月 生活再建踏み出せず",
      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52515",
-     "pubDate": "Sat, 26 Sep 2026 05:57:11 +0900"
+     "pubDate": "Sat, 26 Sep 2026 05:57:00 +0900"
     },
     {
      "title": "米中首脳会談の内容説明を 日米首脳電話会談も 日本政府",
@@ -272,16 +287,6 @@
      "title": "“イラン外相 米側に戦闘終結に向けた提案”欧米メディア報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52362",
      "pubDate": "Fri, 25 Sep 2026 17:25:53 +0900"
-    },
-    {
-     "title": "アメリカで住宅ローン金利が7％超え 住宅購入の負担増",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52397",
-     "pubDate": "Fri, 25 Sep 2026 16:25:19 +0900"
-    },
-    {
-     "title": "モンゴル首相来週来日 高市首相と首脳会談へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52363",
-     "pubDate": "Fri, 25 Sep 2026 14:44:00 +0900"
     }
    ]
   },
@@ -291,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "関東 昼頃にかけ激しい雨降る所も",
-     "link": "https://news.yahoo.co.jp/pickup/6596566?source=rss",
-     "pubDate": "Fri, 25 Sep 2026 22:41:50 GMT"
+     "title": "台風が沖縄へ接近 影響長期化恐れ",
+     "link": "https://news.yahoo.co.jp/pickup/6596591?source=rss",
+     "pubDate": "Sat, 26 Sep 2026 03:00:22 GMT"
     },
     {
-     "title": "外国人の起業 制度厳格化で急減",
-     "link": "https://news.yahoo.co.jp/pickup/6596569?source=rss",
-     "pubDate": "Fri, 25 Sep 2026 23:40:16 GMT"
+     "title": "「名代」茂木氏 首脳外交を補完",
+     "link": "https://news.yahoo.co.jp/pickup/6596590?source=rss",
+     "pubDate": "Sat, 26 Sep 2026 02:36:42 GMT"
     },
     {
-     "title": "群馬女性死亡 娘の元夫を公開手配",
-     "link": "https://news.yahoo.co.jp/pickup/6596563?source=rss",
-     "pubDate": "Fri, 25 Sep 2026 22:20:14 GMT"
+     "title": "習氏厚遇「やり過ぎ」米議員批判",
+     "link": "https://news.yahoo.co.jp/pickup/6596603?source=rss",
+     "pubDate": "Sat, 26 Sep 2026 04:37:52 GMT"
     },
     {
-     "title": "印旛沼決壊 ウナギ「全滅だろう」",
-     "link": "https://news.yahoo.co.jp/pickup/6596567?source=rss",
-     "pubDate": "Fri, 25 Sep 2026 23:25:28 GMT"
+     "title": "ふるさと納税10月規制強化 影響は",
+     "link": "https://news.yahoo.co.jp/pickup/6596604?source=rss",
+     "pubDate": "Sat, 26 Sep 2026 05:06:55 GMT"
     },
     {
-     "title": "川におむつ大量投棄疑い 書類送検",
-     "link": "https://news.yahoo.co.jp/pickup/6596574?source=rss",
-     "pubDate": "Sat, 26 Sep 2026 00:17:47 GMT"
+     "title": "名古屋テレビ塔で火災 30人が避難",
+     "link": "https://news.yahoo.co.jp/pickup/6596605?source=rss",
+     "pubDate": "Sat, 26 Sep 2026 05:19:19 GMT"
     },
     {
-     "title": "マラソン・山下一貴が金メダル",
-     "link": "https://news.yahoo.co.jp/pickup/6596578?source=rss",
-     "pubDate": "Sat, 26 Sep 2026 00:46:49 GMT"
+     "title": "死亡女性の娘 元夫巡り警察に相談",
+     "link": "https://news.yahoo.co.jp/pickup/6596597?source=rss",
+     "pubDate": "Sat, 26 Sep 2026 04:18:52 GMT"
     },
     {
-     "title": "マラソンでアクシデント 矢田転倒",
-     "link": "https://news.yahoo.co.jp/pickup/6596576?source=rss",
-     "pubDate": "Sat, 26 Sep 2026 00:34:09 GMT"
+     "title": "野球部員乗せたバス事故 8人搬送",
+     "link": "https://news.yahoo.co.jp/pickup/6596601?source=rss",
+     "pubDate": "Sat, 26 Sep 2026 04:21:41 GMT"
     },
     {
-     "title": "村上が菅野から34号 本拠地熱狂",
-     "link": "https://news.yahoo.co.jp/pickup/6596577?source=rss",
-     "pubDate": "Sat, 26 Sep 2026 00:41:32 GMT"
+     "title": "ぷよぷよ11歳の栗原悠輝 金メダル",
+     "link": "https://news.yahoo.co.jp/pickup/6596599?source=rss",
+     "pubDate": "Sat, 26 Sep 2026 03:56:22 GMT"
     }
    ]
   }
