@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-26T10:22:24.952Z",
+ "updatedAt": "2026-09-26T14:35:23.280Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "高市首相 米大統領 電話会談“米中首脳会談の内容説明受ける”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52606",
+     "pubDate": "Sat, 26 Sep 2026 22:50:21 +0900"
+    },
+    {
      "title": "台風26号 沖縄に接近へ 来週も東～西日本は雨降りやすい見込み",
      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52529",
      "pubDate": "Sat, 26 Sep 2026 19:05:00 +0900"
     },
     {
-     "title": "アジア大会 組織委事務総長がミス謝罪 競技への影響はなし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52585",
-     "pubDate": "Sat, 26 Sep 2026 16:50:13 +0900"
+     "title": "タイで大雨続き首都バンコクでも浸水被害広がる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52623",
+     "pubDate": "Sat, 26 Sep 2026 22:25:00 +0900"
     },
     {
-     "title": "三重 県立高校野球部のマイクロバスが事故 生徒6人けが",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52590",
-     "pubDate": "Sat, 26 Sep 2026 17:42:00 +0900"
+     "title": "米中首脳会談 合意点は？AIはSIに変更 台湾言及なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52588",
+     "pubDate": "Sat, 26 Sep 2026 22:52:04 +0900"
     },
     {
-     "title": "名古屋 栄のテレビ塔 展望台付近で火事 30人避難もけが人なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52560",
-     "pubDate": "Sat, 26 Sep 2026 16:31:35 +0900"
+     "title": "群馬女性殺害 元夫「母親 長男殺し自分も死ぬ」長女が警察相談",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52601",
+     "pubDate": "Sat, 26 Sep 2026 19:32:00 +0900"
     },
     {
-     "title": "岐阜 自宅マンション6階から娘2人投げ落とした疑いで父親逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52546",
-     "pubDate": "Sat, 26 Sep 2026 15:19:04 +0900"
+     "title": "アジア大会サッカー男子 日本は北朝鮮に競り勝ち準決勝へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52625",
+     "pubDate": "Sat, 26 Sep 2026 23:12:37 +0900"
     },
     {
-     "title": "不漁続く中で 「根室さんま祭り」 つかみ取りも 北海道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52595",
-     "pubDate": "Sat, 26 Sep 2026 18:09:00 +0900"
-    },
-    {
-     "title": "東京で「日韓交流おまつり」 韓国の食文化などを楽しむ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52591",
-     "pubDate": "Sat, 26 Sep 2026 18:22:49 +0900"
+     "title": "プロ野球 セ・リーグ首位の阪神がDeNAに勝利",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52624",
+     "pubDate": "Sat, 26 Sep 2026 22:36:00 +0900"
     }
    ]
   },
@@ -49,6 +49,26 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "電動キックボードなど対象に警視庁が飲酒運転の検問",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52615",
+     "pubDate": "Sat, 26 Sep 2026 21:48:00 +0900"
+    },
+    {
+     "title": "袴田さん無罪から2年 姉のひで子さんが再審制度見直し訴え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52605",
+     "pubDate": "Sat, 26 Sep 2026 21:06:00 +0900"
+    },
+    {
+     "title": "プロ野球 広島“矢野選手と前川選手が書類送検”薬物事件巡り",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52604",
+     "pubDate": "Sat, 26 Sep 2026 20:01:00 +0900"
+    },
+    {
+     "title": "群馬女性殺害 元夫「母親 長男殺し自分も死ぬ」長女が警察相談",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52601",
+     "pubDate": "Sat, 26 Sep 2026 19:32:00 +0900"
+    },
     {
      "title": "三重 県立高校野球部のマイクロバスが事故 生徒6人けが",
      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52590",
@@ -82,12 +102,12 @@
     {
      "title": "岐阜 自宅マンション6階から娘2人投げ落とした疑いで父親逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52546",
-     "pubDate": "Sat, 26 Sep 2026 15:19:04 +0900"
+     "pubDate": "Sat, 26 Sep 2026 15:19:00 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（9月26日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52484",
-     "pubDate": "Sat, 26 Sep 2026 14:08:22 +0900"
+     "pubDate": "Sat, 26 Sep 2026 20:06:48 +0900"
     },
     {
      "title": "政治団体NHK党 立花党首 兵庫県議への脅迫容疑改めて不起訴",
@@ -103,26 +123,6 @@
      "title": "「オンチェーン金融」の環境整備へ 銀行などが団体設立",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52459",
      "pubDate": "Fri, 25 Sep 2026 20:51:05 +0900"
-    },
-    {
-     "title": "大分 五條堀美咲さん行方不明から10年を前に情報提供呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52425",
-     "pubDate": "Fri, 25 Sep 2026 20:23:04 +0900"
-    },
-    {
-     "title": "愛子さま 世界医学検査学会の開会式に出席",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52429",
-     "pubDate": "Fri, 25 Sep 2026 19:49:54 +0900"
-    },
-    {
-     "title": "JR九州 SBIと提携し金融サービス進出へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52447",
-     "pubDate": "Fri, 25 Sep 2026 19:39:00 +0900"
-    },
-    {
-     "title": "墜落の空自無人偵察機 海底で機体の一部とみられるもの発見",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52450",
-     "pubDate": "Fri, 25 Sep 2026 18:56:00 +0900"
     }
    ]
   },
@@ -214,9 +214,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "タイで大雨続き首都バンコクでも浸水被害広がる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52623",
+     "pubDate": "Sat, 26 Sep 2026 22:25:00 +0900"
+    },
+    {
+     "title": "高市首相 米大統領 電話会談“米中首脳会談の内容説明受ける”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52606",
+     "pubDate": "Sat, 26 Sep 2026 22:50:21 +0900"
+    },
+    {
+     "title": "米中首脳会談 合意点は？AIはSIに変更 台湾言及なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52588",
+     "pubDate": "Sat, 26 Sep 2026 22:52:04 +0900"
+    },
+    {
      "title": "東京で「日韓交流おまつり」 韓国の食文化などを楽しむ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52591",
-     "pubDate": "Sat, 26 Sep 2026 18:22:49 +0900"
+     "pubDate": "Sat, 26 Sep 2026 18:22:00 +0900"
     },
     {
      "title": "アンソロピックのリスク指定措置 米控訴裁は「政権支持」",
@@ -272,21 +287,6 @@
      "title": "米中首脳会談の内容説明を 日米首脳電話会談も 日本政府",
      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52519",
      "pubDate": "Sat, 26 Sep 2026 05:33:22 +0900"
-    },
-    {
-     "title": "円相場1ドル＝156円台に上昇 1日で2円余円高に 介入警戒強まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52516",
-     "pubDate": "Sat, 26 Sep 2026 04:50:14 +0900"
-    },
-    {
-     "title": "片山財務相がベッセント長官と電話会談 日米協力強化を確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52509",
-     "pubDate": "Fri, 25 Sep 2026 23:51:00 +0900"
-    },
-    {
-     "title": "世界が注目した米中首脳会談 日本や世界への影響は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52482",
-     "pubDate": "Fri, 25 Sep 2026 22:18:55 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "内閣支持は微増 改造の効果限定的",
-     "link": "https://news.yahoo.co.jp/pickup/6596626?source=rss",
-     "pubDate": "Sat, 26 Sep 2026 08:15:59 GMT"
+     "title": "首相 米と電話会談で「連携確認」",
+     "link": "https://news.yahoo.co.jp/pickup/6596665?source=rss",
+     "pubDate": "Sat, 26 Sep 2026 13:45:00 GMT"
     },
     {
-     "title": "コメ下落「大盛り」値下げの動き",
-     "link": "https://news.yahoo.co.jp/pickup/6596619?source=rss",
-     "pubDate": "Sat, 26 Sep 2026 07:25:45 GMT"
+     "title": "合同結婚 在韓女性債権申し立てへ",
+     "link": "https://news.yahoo.co.jp/pickup/6596652?source=rss",
+     "pubDate": "Sat, 26 Sep 2026 12:31:14 GMT"
     },
     {
-     "title": "10月値上げラッシュ 家計負担重く",
-     "link": "https://news.yahoo.co.jp/pickup/6596639?source=rss",
-     "pubDate": "Sat, 26 Sep 2026 09:54:34 GMT"
+     "title": "米中300億ドル規模関税引き下げへ",
+     "link": "https://news.yahoo.co.jp/pickup/6596642?source=rss",
+     "pubDate": "Sat, 26 Sep 2026 10:41:21 GMT"
     },
     {
-     "title": "群馬の女性 死因は出血性ショック",
-     "link": "https://news.yahoo.co.jp/pickup/6596632?source=rss",
-     "pubDate": "Sat, 26 Sep 2026 08:56:49 GMT"
+     "title": "群馬殺人 事件前日に娘へ避難指導",
+     "link": "https://news.yahoo.co.jp/pickup/6596664?source=rss",
+     "pubDate": "Sat, 26 Sep 2026 13:59:09 GMT"
     },
     {
-     "title": "福岡の寺院が二重価格導入 効果は",
-     "link": "https://news.yahoo.co.jp/pickup/6596640?source=rss",
-     "pubDate": "Sat, 26 Sep 2026 10:14:12 GMT"
+     "title": "がん社内公表の役員 自ら平社員に",
+     "link": "https://news.yahoo.co.jp/pickup/6596655?source=rss",
+     "pubDate": "Sat, 26 Sep 2026 12:42:56 GMT"
     },
     {
-     "title": "張本智和ぼう然 世界344位に敗退",
-     "link": "https://news.yahoo.co.jp/pickup/6596641?source=rss",
-     "pubDate": "Sat, 26 Sep 2026 10:19:05 GMT"
+     "title": "陸上の泉谷 予選でアキレス腱断裂",
+     "link": "https://news.yahoo.co.jp/pickup/6596663?source=rss",
+     "pubDate": "Sat, 26 Sep 2026 13:47:54 GMT"
     },
     {
-     "title": "ぷよぷよ栗原 報奨金出ない見通し",
-     "link": "https://news.yahoo.co.jp/pickup/6596628?source=rss",
-     "pubDate": "Sat, 26 Sep 2026 08:39:14 GMT"
+     "title": "パラ銀メダリスト 追突事故で死去",
+     "link": "https://news.yahoo.co.jp/pickup/6596668?source=rss",
+     "pubDate": "Sat, 26 Sep 2026 14:06:55 GMT"
     },
     {
-     "title": "町田啓太&玄理 第1子誕生を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6596637?source=rss",
-     "pubDate": "Sat, 26 Sep 2026 09:31:18 GMT"
+     "title": "北朝鮮が整列拒否 サッカー男子",
+     "link": "https://news.yahoo.co.jp/pickup/6596660?source=rss",
+     "pubDate": "Sat, 26 Sep 2026 13:11:25 GMT"
     }
    ]
   }
