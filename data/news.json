@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-27T14:07:28.713Z",
+ "updatedAt": "2026-09-27T18:31:47.440Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,9 +18,19 @@
      "pubDate": "Sun, 27 Sep 2026 16:27:18 +0900"
     },
     {
-     "title": "南アフリカ 銃撃事件相次ぎ27人死亡 武装集団が酒場などで発砲",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52737",
-     "pubDate": "Sun, 27 Sep 2026 22:07:30 +0900"
+     "title": "ボクシング世界戦 井上拓真が那須川天心に再び勝ち2回目の防衛",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52747",
+     "pubDate": "Mon, 28 Sep 2026 00:13:19 +0900"
+    },
+    {
+     "title": "\"見えない避難者\"約2000世帯 熊本地震2か月 八代市調査で判明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52715",
+     "pubDate": "Mon, 28 Sep 2026 00:03:24 +0900"
+    },
+    {
+     "title": "熊本地震2か月 避難生活が長期化 住まいの確保が課題に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52689",
+     "pubDate": "Mon, 28 Sep 2026 00:01:00 +0900"
     },
     {
      "title": "群馬女性殺害事件 長女の元夫逮捕 高崎市内のパチンコ店で確保",
@@ -28,19 +38,9 @@
      "pubDate": "Sun, 27 Sep 2026 21:40:04 +0900"
     },
     {
-     "title": "アジア大会 コンテナハウス公開 不満の声受け改善点説明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52693",
-     "pubDate": "Sun, 27 Sep 2026 19:21:00 +0900"
-    },
-    {
-     "title": "アジア大会陸上女子100mハードル 福部真子が金 中島ひとみが銀",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52722",
-     "pubDate": "Sun, 27 Sep 2026 22:15:34 +0900"
-    },
-    {
-     "title": "アジア大会 陸上女子やり投げ 北口榛花が銀 武本紗栄が銅",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52743",
-     "pubDate": "Sun, 27 Sep 2026 22:27:37 +0900"
+     "title": "南アフリカ 銃撃事件相次ぎ27人死亡 武装集団が酒場などで発砲",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52737",
+     "pubDate": "Sun, 27 Sep 2026 22:07:30 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "熊本地震2か月 避難生活が長期化 住まいの確保が課題に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52689",
+     "pubDate": "Mon, 28 Sep 2026 00:01:00 +0900"
+    },
     {
      "title": "競技用に改造されたラリーカーや最新の電気自動車が登場 滋賀",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52728",
@@ -118,11 +123,6 @@
      "title": "海底に沈むプラスチックゴミを映像から自動検出するAI開発",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52636",
      "pubDate": "Sun, 27 Sep 2026 05:06:00 +0900"
-    },
-    {
-     "title": "パラ陸上メダリスト 上与那原寛和選手が死去 練習中に交通事故",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52631",
-     "pubDate": "Sun, 27 Sep 2026 01:30:12 +0900"
     }
    ]
   },
@@ -296,24 +296,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "熊本地震2カ月 避難所に1500人超",
-     "link": "https://news.yahoo.co.jp/pickup/6596761?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 11:05:45 GMT"
-    },
-    {
      "title": "内閣支持率45%に上昇 毎日調査",
      "link": "https://news.yahoo.co.jp/pickup/6596760?source=rss",
      "pubDate": "Sun, 27 Sep 2026 10:43:46 GMT"
     },
     {
+     "title": "スイス中立厳格化 国民投票で否決",
+     "link": "https://news.yahoo.co.jp/pickup/6596771?source=rss",
+     "pubDate": "Sun, 27 Sep 2026 12:44:06 GMT"
+    },
+    {
+     "title": "原発事故時の拠点病院BCP策定4割",
+     "link": "https://news.yahoo.co.jp/pickup/6596768?source=rss",
+     "pubDate": "Sun, 27 Sep 2026 12:21:59 GMT"
+    },
+    {
      "title": "刺されたか 横浜で流血の男性死亡",
      "link": "https://news.yahoo.co.jp/pickup/6596769?source=rss",
      "pubDate": "Sun, 27 Sep 2026 12:16:17 GMT"
-    },
-    {
-     "title": "雪崩事故巡り スキーヤー書類送検",
-     "link": "https://news.yahoo.co.jp/pickup/6596772?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 12:43:07 GMT"
     },
     {
      "title": "34歳脳梗塞 若くて介護保険使えず",
@@ -326,9 +326,9 @@
      "pubDate": "Sun, 27 Sep 2026 13:54:05 GMT"
     },
     {
-     "title": "すごく悔しい 北口榛花は涙の銀",
-     "link": "https://news.yahoo.co.jp/pickup/6596785?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 14:02:47 GMT"
+     "title": "日本 ポケモンユナイトで金メダル",
+     "link": "https://news.yahoo.co.jp/pickup/6596786?source=rss",
+     "pubDate": "Sun, 27 Sep 2026 14:37:11 GMT"
     },
     {
      "title": "ベッキー涙 10年ぶりイッテQ出演",
