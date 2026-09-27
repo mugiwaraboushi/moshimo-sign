@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-27T08:22:35.521Z",
+ "updatedAt": "2026-09-27T14:07:28.713Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "前線停滞で九州北部大雨に 土砂災害など厳重警戒を 台風26号も",
+     "title": "前線停滞 九州北部で記録的大雨も 台風26号 沖縄・奄美接近へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52641",
-     "pubDate": "Sun, 27 Sep 2026 15:05:12 +0900"
-    },
-    {
-     "title": "群馬女性殺害事件 長女の元夫逮捕 高崎市内のパチンコ店で確保",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52686",
-     "pubDate": "Sun, 27 Sep 2026 16:44:00 +0900"
+     "pubDate": "Sun, 27 Sep 2026 22:57:27 +0900"
     },
     {
      "title": "台風25号 土砂崩れのアパートで遺体発見 住人女性か 神奈川",
@@ -23,24 +18,29 @@
      "pubDate": "Sun, 27 Sep 2026 16:27:18 +0900"
     },
     {
-     "title": "東京メトロ 不正アクセスでメールアドレス 約5万9000件流出か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52694",
-     "pubDate": "Sun, 27 Sep 2026 15:48:53 +0900"
+     "title": "南アフリカ 銃撃事件相次ぎ27人死亡 武装集団が酒場などで発砲",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52737",
+     "pubDate": "Sun, 27 Sep 2026 22:07:30 +0900"
     },
     {
-     "title": "【気象予報士解説】前線停滞で九州北部大雨に 台風26号も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52650",
-     "pubDate": "Sun, 27 Sep 2026 12:53:56 +0900"
+     "title": "群馬女性殺害事件 長女の元夫逮捕 高崎市内のパチンコ店で確保",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52686",
+     "pubDate": "Sun, 27 Sep 2026 21:40:04 +0900"
     },
     {
-     "title": "御嶽山噴火から12年 遺族や気象庁長官が追悼 教訓の継承課題に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52674",
-     "pubDate": "Sun, 27 Sep 2026 12:45:56 +0900"
+     "title": "アジア大会 コンテナハウス公開 不満の声受け改善点説明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52693",
+     "pubDate": "Sun, 27 Sep 2026 19:21:00 +0900"
     },
     {
-     "title": "パラ陸上メダリスト 上与那原寛和選手が死去 練習中に交通事故",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52631",
-     "pubDate": "Sun, 27 Sep 2026 01:30:12 +0900"
+     "title": "アジア大会陸上女子100mハードル 福部真子が金 中島ひとみが銀",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52722",
+     "pubDate": "Sun, 27 Sep 2026 22:15:34 +0900"
+    },
+    {
+     "title": "アジア大会 陸上女子やり投げ 北口榛花が銀 武本紗栄が銅",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52743",
+     "pubDate": "Sun, 27 Sep 2026 22:27:37 +0900"
     }
    ]
   },
@@ -50,6 +50,36 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "競技用に改造されたラリーカーや最新の電気自動車が登場 滋賀",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52728",
+     "pubDate": "Sun, 27 Sep 2026 21:59:40 +0900"
+    },
+    {
+     "title": "富山 氷見 8月の大雨で被災 特産のハトムギ畑で収穫体験会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52727",
+     "pubDate": "Sun, 27 Sep 2026 21:54:43 +0900"
+    },
+    {
+     "title": "富士山のふもと ススキの巨大迷路に親子連れが挑戦 静岡 富士",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52729",
+     "pubDate": "Sun, 27 Sep 2026 21:52:09 +0900"
+    },
+    {
+     "title": "トキの生息に配慮した農法の認証米 店頭販売始まる 石川 羽咋",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52726",
+     "pubDate": "Sun, 27 Sep 2026 21:49:23 +0900"
+    },
+    {
+     "title": "熊本 人吉 弾道ミサイル想定し避難訓練",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52720",
+     "pubDate": "Sun, 27 Sep 2026 21:18:35 +0900"
+    },
+    {
+     "title": "大阪 箕面 不発弾の撤去完了 信管が残った状態の「1トン爆弾」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52721",
+     "pubDate": "Sun, 27 Sep 2026 21:00:27 +0900"
+    },
+    {
      "title": "JR山手線 全線で運転再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52698",
      "pubDate": "Sun, 27 Sep 2026 17:05:26 +0900"
@@ -57,12 +87,12 @@
     {
      "title": "群馬女性殺害事件 長女の元夫逮捕 高崎市内のパチンコ店で確保",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52686",
-     "pubDate": "Sun, 27 Sep 2026 16:44:00 +0900"
+     "pubDate": "Sun, 27 Sep 2026 21:40:04 +0900"
     },
     {
      "title": "御嶽山噴火から12年 遺族や気象庁長官が追悼 教訓の継承課題に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52674",
-     "pubDate": "Sun, 27 Sep 2026 12:45:56 +0900"
+     "pubDate": "Sun, 27 Sep 2026 12:45:00 +0900"
     },
     {
      "title": "熊本 八代 被災地でボランティア減少懸念 継続的支援呼びかけ",
@@ -93,36 +123,6 @@
      "title": "パラ陸上メダリスト 上与那原寛和選手が死去 練習中に交通事故",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52631",
      "pubDate": "Sun, 27 Sep 2026 01:30:12 +0900"
-    },
-    {
-     "title": "電動キックボードなど対象に警視庁が飲酒運転の検問",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52615",
-     "pubDate": "Sat, 26 Sep 2026 21:48:00 +0900"
-    },
-    {
-     "title": "袴田さん無罪から2年 姉のひで子さんが再審制度見直し訴え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52605",
-     "pubDate": "Sat, 26 Sep 2026 21:06:00 +0900"
-    },
-    {
-     "title": "プロ野球 広島“矢野選手と前川選手が書類送検”薬物事件巡り",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52604",
-     "pubDate": "Sat, 26 Sep 2026 20:01:00 +0900"
-    },
-    {
-     "title": "群馬女性殺害 元夫「母親 長男殺し自分も死ぬ」長女が警察相談",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52601",
-     "pubDate": "Sat, 26 Sep 2026 19:32:00 +0900"
-    },
-    {
-     "title": "三重 県立高校野球部のマイクロバスが事故 生徒6人けが",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52590",
-     "pubDate": "Sat, 26 Sep 2026 17:42:00 +0900"
-    },
-    {
-     "title": "熊本 宇城 り災証明書の申請 行政書士がサポート",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52586",
-     "pubDate": "Sat, 26 Sep 2026 16:54:54 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "日本学術会議 法人化前に元会長らがシンポジウムで講演",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52725",
+     "pubDate": "Sun, 27 Sep 2026 21:33:10 +0900"
+    },
+    {
+     "title": "「ペア碁」の国際大会 井山裕太九段は囲碁AIとペアに 名古屋",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52724",
+     "pubDate": "Sun, 27 Sep 2026 21:26:20 +0900"
+    },
     {
      "title": "戦国武将 嶋左近が高野山金剛峯寺と交渉の書状写し発見",
      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52545",
@@ -204,9 +214,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "南アフリカ 銃撃事件相次ぎ27人死亡 武装集団が酒場などで発砲",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52737",
+     "pubDate": "Sun, 27 Sep 2026 22:07:30 +0900"
+    },
+    {
+     "title": "ゼレンスキー大統領“ジェット無人機の迎撃率55％”と危機感",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52709",
+     "pubDate": "Sun, 27 Sep 2026 18:26:48 +0900"
+    },
+    {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月27日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47015",
-     "pubDate": "Sun, 27 Sep 2026 14:39:46 +0900"
+     "pubDate": "Sun, 27 Sep 2026 19:12:54 +0900"
     },
     {
      "title": "【詳細】ロシア ウクライナに軍事侵攻（9月26日の動き）",
@@ -267,16 +287,6 @@
      "title": "東京で「日韓交流おまつり」 韓国の食文化などを楽しむ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52591",
      "pubDate": "Sat, 26 Sep 2026 18:22:00 +0900"
-    },
-    {
-     "title": "アンソロピックのリスク指定措置 米控訴裁は「政権支持」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52577",
-     "pubDate": "Sat, 26 Sep 2026 14:50:56 +0900"
-    },
-    {
-     "title": "ホルムズ開放に向けたイラン提案 トランプ大統領が拒否の報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52568",
-     "pubDate": "Sat, 26 Sep 2026 13:43:05 +0900"
     }
    ]
   },
@@ -286,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風25号の土砂崩れ現場 1人死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6596725?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 06:30:58 GMT"
+     "title": "熊本地震2カ月 避難所に1500人超",
+     "link": "https://news.yahoo.co.jp/pickup/6596761?source=rss",
+     "pubDate": "Sun, 27 Sep 2026 11:05:45 GMT"
     },
     {
-     "title": "東京メトロ メアド5.9万件漏洩か",
-     "link": "https://news.yahoo.co.jp/pickup/6596712?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 05:34:11 GMT"
+     "title": "内閣支持率45%に上昇 毎日調査",
+     "link": "https://news.yahoo.co.jp/pickup/6596760?source=rss",
+     "pubDate": "Sun, 27 Sep 2026 10:43:46 GMT"
     },
     {
-     "title": "群馬殺人事件 公開手配の男を逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6596718?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 05:47:02 GMT"
+     "title": "刺されたか 横浜で流血の男性死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6596769?source=rss",
+     "pubDate": "Sun, 27 Sep 2026 12:16:17 GMT"
     },
     {
-     "title": "日本語能力試験 応募増で運営困難",
-     "link": "https://news.yahoo.co.jp/pickup/6596738?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 08:10:46 GMT"
+     "title": "雪崩事故巡り スキーヤー書類送検",
+     "link": "https://news.yahoo.co.jp/pickup/6596772?source=rss",
+     "pubDate": "Sun, 27 Sep 2026 12:43:07 GMT"
     },
     {
-     "title": "声優業界 AI無断模倣の被害深刻",
-     "link": "https://news.yahoo.co.jp/pickup/6596724?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 06:43:02 GMT"
+     "title": "34歳脳梗塞 若くて介護保険使えず",
+     "link": "https://news.yahoo.co.jp/pickup/6596773?source=rss",
+     "pubDate": "Sun, 27 Sep 2026 12:56:18 GMT"
     },
     {
-     "title": "構想外の藤浪 来季NPBプレー希望",
-     "link": "https://news.yahoo.co.jp/pickup/6596737?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 08:07:53 GMT"
+     "title": "天心は涙止まらず 拓真にまた敗北",
+     "link": "https://news.yahoo.co.jp/pickup/6596782?source=rss",
+     "pubDate": "Sun, 27 Sep 2026 13:54:05 GMT"
     },
     {
-     "title": "張本智和・篠塚組 大逆転で金王手",
-     "link": "https://news.yahoo.co.jp/pickup/6596715?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 05:52:40 GMT"
+     "title": "すごく悔しい 北口榛花は涙の銀",
+     "link": "https://news.yahoo.co.jp/pickup/6596785?source=rss",
+     "pubDate": "Sun, 27 Sep 2026 14:02:47 GMT"
     },
     {
-     "title": "K-POPイベで論争 悪意集まるSNS",
-     "link": "https://news.yahoo.co.jp/pickup/6596735?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 07:47:05 GMT"
+     "title": "ベッキー涙 10年ぶりイッテQ出演",
+     "link": "https://news.yahoo.co.jp/pickup/6596779?source=rss",
+     "pubDate": "Sun, 27 Sep 2026 13:36:44 GMT"
     }
    ]
   }
