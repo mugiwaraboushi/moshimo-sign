@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-27T18:31:47.440Z",
+ "updatedAt": "2026-09-27T21:41:08.717Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "前線停滞 九州北部で記録的大雨も 台風26号 沖縄・奄美接近へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52641",
-     "pubDate": "Sun, 27 Sep 2026 22:57:27 +0900"
+     "title": "台風26号 沖縄・奄美に接近 北～西日本では局地的に激しい雨も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52761",
+     "pubDate": "Mon, 28 Sep 2026 06:09:00 +0900"
     },
     {
-     "title": "台風25号 土砂崩れのアパートで遺体発見 住人女性か 神奈川",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52700",
-     "pubDate": "Sun, 27 Sep 2026 16:27:18 +0900"
+     "title": "群馬女性殺害事件 逮捕の元夫 逃走中に服を着替え靴履いたか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52752",
+     "pubDate": "Mon, 28 Sep 2026 05:31:53 +0900"
     },
     {
-     "title": "ボクシング世界戦 井上拓真が那須川天心に再び勝ち2回目の防衛",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52747",
-     "pubDate": "Mon, 28 Sep 2026 00:13:19 +0900"
+     "title": "技能五輪 日本は金2個含むメダル10個獲得 2年後は愛知県で開催",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52753",
+     "pubDate": "Mon, 28 Sep 2026 06:26:08 +0900"
+    },
+    {
+     "title": "米軍使用のイギリス空軍基地近くでテロ準備などの疑い 5人逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52760",
+     "pubDate": "Mon, 28 Sep 2026 06:20:47 +0900"
+    },
+    {
+     "title": "台風25号の記録的大雨から1週間 千葉と神奈川で13人が死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52757",
+     "pubDate": "Mon, 28 Sep 2026 05:46:44 +0900"
     },
     {
      "title": "\"見えない避難者\"約2000世帯 熊本地震2か月 八代市調査で判明",
@@ -31,16 +41,6 @@
      "title": "熊本地震2か月 避難生活が長期化 住まいの確保が課題に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52689",
      "pubDate": "Mon, 28 Sep 2026 00:01:00 +0900"
-    },
-    {
-     "title": "群馬女性殺害事件 長女の元夫逮捕 高崎市内のパチンコ店で確保",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52686",
-     "pubDate": "Sun, 27 Sep 2026 21:40:04 +0900"
-    },
-    {
-     "title": "南アフリカ 銃撃事件相次ぎ27人死亡 武装集団が酒場などで発砲",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52737",
-     "pubDate": "Sun, 27 Sep 2026 22:07:30 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "群馬女性殺害事件 逮捕の元夫 逃走中に服を着替え靴履いたか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52752",
+     "pubDate": "Mon, 28 Sep 2026 05:31:53 +0900"
+    },
     {
      "title": "熊本地震2か月 避難生活が長期化 住まいの確保が課題に",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52689",
@@ -118,11 +123,6 @@
      "title": "パキスタン北西部で爆発12人死亡 自爆テロとみて捜査",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52647",
      "pubDate": "Sun, 27 Sep 2026 07:49:00 +0900"
-    },
-    {
-     "title": "海底に沈むプラスチックゴミを映像から自動検出するAI開発",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52636",
-     "pubDate": "Sun, 27 Sep 2026 05:06:00 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "人型ロボット事業 中国に拠点開設や現地企業と協業の動き",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52740",
+     "pubDate": "Mon, 28 Sep 2026 06:28:07 +0900"
+    },
+    {
+     "title": "技能五輪 日本は金2個含むメダル10個獲得 2年後は愛知県で開催",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52753",
+     "pubDate": "Mon, 28 Sep 2026 06:26:08 +0900"
+    },
     {
      "title": "日本学術会議 法人化前に元会長らがシンポジウムで講演",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52725",
@@ -195,16 +205,6 @@
      "title": "引用回数多い論文の数 日本は4年連続で13位 低迷続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20260923de51980",
      "pubDate": "Wed, 23 Sep 2026 13:21:11 +0900"
-    },
-    {
-     "title": "オープンAI “安全なAI開発進めるため 世界的な取り組み必要”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51837",
-     "pubDate": "Tue, 22 Sep 2026 12:12:00 +0900"
-    },
-    {
-     "title": "アメリカと中国 AI重大事案で意思疎通の手段を構築へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260922de51793",
-     "pubDate": "Tue, 22 Sep 2026 05:47:00 +0900"
     }
    ]
   },
@@ -213,6 +213,31 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "米軍使用のイギリス空軍基地近くでテロ準備などの疑い 5人逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52760",
+     "pubDate": "Mon, 28 Sep 2026 06:20:47 +0900"
+    },
+    {
+     "title": "米トランプ大統領 今週イランと協議の見通し示す 米報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52755",
+     "pubDate": "Mon, 28 Sep 2026 06:17:24 +0900"
+    },
+    {
+     "title": "中国のパンダ2頭がアメリカ到着 習主席が訪米中に言及",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52754",
+     "pubDate": "Mon, 28 Sep 2026 05:44:08 +0900"
+    },
+    {
+     "title": "プーチン大統領“選挙期間中に攻撃”和平交渉の再開に慎重姿勢",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52745",
+     "pubDate": "Mon, 28 Sep 2026 05:12:03 +0900"
+    },
+    {
+     "title": "イスラエル 総選挙まで1か月 世論調査で与野党の勢力きっ抗",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52742",
+     "pubDate": "Mon, 28 Sep 2026 05:09:16 +0900"
+    },
     {
      "title": "南アフリカ 銃撃事件相次ぎ27人死亡 武装集団が酒場などで発砲",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52737",
@@ -262,31 +287,6 @@
      "title": "ロシア外相「欧州が交渉妨げ」欧米にくさび打つねらいか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52640",
      "pubDate": "Sun, 27 Sep 2026 06:18:00 +0900"
-    },
-    {
-     "title": "米中合意文書 台湾言及なく 米大統領「習氏は私の考え理解」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52637",
-     "pubDate": "Sun, 27 Sep 2026 05:10:00 +0900"
-    },
-    {
-     "title": "タイで大雨続き首都バンコクでも浸水被害広がる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52623",
-     "pubDate": "Sun, 27 Sep 2026 05:42:31 +0900"
-    },
-    {
-     "title": "高市首相 米大統領 電話会談“米中首脳会談の内容説明受ける”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52606",
-     "pubDate": "Sat, 26 Sep 2026 22:50:00 +0900"
-    },
-    {
-     "title": "米中首脳会談 合意点は？AIはSIに変更 台湾言及なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52588",
-     "pubDate": "Sat, 26 Sep 2026 22:52:04 +0900"
-    },
-    {
-     "title": "東京で「日韓交流おまつり」 韓国の食文化などを楽しむ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52591",
-     "pubDate": "Sat, 26 Sep 2026 18:22:00 +0900"
     }
    ]
   },
@@ -296,14 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "台風接近 沖縄奄美は高波強風続く",
+     "link": "https://news.yahoo.co.jp/pickup/6596789?source=rss",
+     "pubDate": "Sun, 27 Sep 2026 21:32:49 GMT"
+    },
+    {
      "title": "内閣支持率45%に上昇 毎日調査",
      "link": "https://news.yahoo.co.jp/pickup/6596760?source=rss",
      "pubDate": "Sun, 27 Sep 2026 10:43:46 GMT"
-    },
-    {
-     "title": "スイス中立厳格化 国民投票で否決",
-     "link": "https://news.yahoo.co.jp/pickup/6596771?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 12:44:06 GMT"
     },
     {
      "title": "原発事故時の拠点病院BCP策定4割",
@@ -321,14 +321,14 @@
      "pubDate": "Sun, 27 Sep 2026 12:56:18 GMT"
     },
     {
+     "title": "大谷は「無冠」シーズン成績確定",
+     "link": "https://news.yahoo.co.jp/pickup/6596788?source=rss",
+     "pubDate": "Sun, 27 Sep 2026 21:26:00 GMT"
+    },
+    {
      "title": "天心は涙止まらず 拓真にまた敗北",
      "link": "https://news.yahoo.co.jp/pickup/6596782?source=rss",
      "pubDate": "Sun, 27 Sep 2026 13:54:05 GMT"
-    },
-    {
-     "title": "日本 ポケモンユナイトで金メダル",
-     "link": "https://news.yahoo.co.jp/pickup/6596786?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 14:37:11 GMT"
     },
     {
      "title": "ベッキー涙 10年ぶりイッテQ出演",
