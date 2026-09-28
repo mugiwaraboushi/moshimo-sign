@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-28T12:06:32.119Z",
+ "updatedAt": "2026-09-28T19:44:06.633Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "衆院議員定数あり方など\"10月末に結論得るよう努力\" 与野党",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52948",
+     "pubDate": "Mon, 28 Sep 2026 22:28:54 +0900"
+    },
+    {
+     "title": "福岡県議会 海外活動は原則エコノミーに 基準案まとめる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52942",
+     "pubDate": "Mon, 28 Sep 2026 22:29:36 +0900"
+    },
+    {
      "title": "台風26号 進路や前線への影響に注意 広く大気不安定で激しい雨",
      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52761",
      "pubDate": "Mon, 28 Sep 2026 20:21:55 +0900"
-    },
-    {
-     "title": "印旛沼で堤防の応急復旧工事 住民は片づけ「全然終わらない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52876",
-     "pubDate": "Mon, 28 Sep 2026 19:34:10 +0900"
     },
     {
      "title": "「北の国から」脚本家の倉本聰さん死去 91歳",
@@ -23,24 +28,19 @@
      "pubDate": "Mon, 28 Sep 2026 19:05:09 +0900"
     },
     {
-     "title": "住宅地にもリスク 台風25号で目黒区の擁壁崩壊 原因や対策は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52880",
-     "pubDate": "Mon, 28 Sep 2026 20:33:19 +0900"
+     "title": "作家原田マハさん初監督「無用の人」がスペインの映画祭で受賞",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52929",
+     "pubDate": "Mon, 28 Sep 2026 21:14:14 +0900"
     },
     {
-     "title": "東武列車事故 安全管理のミス重なったか 原因解明へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52910",
-     "pubDate": "Mon, 28 Sep 2026 20:30:55 +0900"
+     "title": "九州ふっこう応援割の予約影響か 長崎県で一時電話つながらず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52941",
+     "pubDate": "Mon, 28 Sep 2026 21:18:17 +0900"
     },
     {
-     "title": "群馬女性殺害 逮捕の長女元夫が女性殺害への関与ほのめかす",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52874",
-     "pubDate": "Mon, 28 Sep 2026 20:06:54 +0900"
-    },
-    {
-     "title": "“スーパーエルニーニョ”も間接的に大雨影響か 専門家が指摘",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52913",
-     "pubDate": "Mon, 28 Sep 2026 19:27:30 +0900"
+     "title": "米前国務副長官“中国は日米の結束弱めるねらい”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52940",
+     "pubDate": "Mon, 28 Sep 2026 21:10:50 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "九州ふっこう応援割の予約影響か 長崎県で一時電話つながらず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52941",
+     "pubDate": "Mon, 28 Sep 2026 21:18:17 +0900"
+    },
     {
      "title": "東武列車事故 安全管理のミス重なったか 原因解明へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52910",
@@ -62,7 +67,7 @@
     {
      "title": "東京 八王子 畑のわなにクマ 市が緊急銃猟 都内では初めて",
      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52927",
-     "pubDate": "Mon, 28 Sep 2026 20:30:28 +0900"
+     "pubDate": "Mon, 28 Sep 2026 20:30:00 +0900"
     },
     {
      "title": "北海道 森町 ゴーカート死傷事故の刑事裁判 被告ら無罪主張",
@@ -118,11 +123,6 @@
      "title": "札幌 病院の薬局公募めぐる入札妨害事件 元取締役の有罪確定へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52863",
      "pubDate": "Mon, 28 Sep 2026 20:27:59 +0900"
-    },
-    {
-     "title": "群馬女性殺害 “包丁を事前に準備し訪れた”趣旨の供述",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52804",
-     "pubDate": "Mon, 28 Sep 2026 12:29:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "作家原田マハさん初監督「無用の人」がスペインの映画祭で受賞",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52929",
+     "pubDate": "Mon, 28 Sep 2026 21:14:14 +0900"
+    },
     {
      "title": "ノーベル賞の研究成果を新たな治療法開発に 阪大が拠点設置へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52895",
@@ -200,11 +205,6 @@
      "title": "火星衛星探査機「MMX」 来月の打ち上げを前に管制室を公開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52199",
      "pubDate": "Thu, 24 Sep 2026 17:53:00 +0900"
-    },
-    {
-     "title": "米中のゆずれない戦い AIインフラ競争の行方は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260924de52167",
-     "pubDate": "Thu, 24 Sep 2026 17:38:00 +0900"
     }
    ]
   },
@@ -213,6 +213,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "作家原田マハさん初監督「無用の人」がスペインの映画祭で受賞",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52929",
+     "pubDate": "Mon, 28 Sep 2026 21:14:14 +0900"
+    },
+    {
+     "title": "米前国務副長官“中国は日米の結束弱めるねらい”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52940",
+     "pubDate": "Mon, 28 Sep 2026 21:10:50 +0900"
+    },
     {
      "title": "イエメン情勢で対岸ジブチに避難する人も 人道状況の悪化懸念",
      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52935",
@@ -241,7 +251,7 @@
     {
      "title": "米軍使用のイギリス空軍基地近くでテロ準備などの疑い 5人逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52760",
-     "pubDate": "Mon, 28 Sep 2026 06:20:47 +0900"
+     "pubDate": "Mon, 28 Sep 2026 22:40:41 +0900"
     },
     {
      "title": "米トランプ大統領 今週イランと協議の見通し示す 米報道",
@@ -277,16 +287,6 @@
      "title": "【詳細】ロシア ウクライナに軍事侵攻（9月27日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47015",
      "pubDate": "Sun, 27 Sep 2026 19:12:00 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（9月26日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47014",
-     "pubDate": "Sat, 26 Sep 2026 13:50:00 +0900"
-    },
-    {
-     "title": "イラン外相 トランプ大統領の反応認識も仲介国待ち対応判断",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52673",
-     "pubDate": "Sun, 27 Sep 2026 11:40:00 +0900"
     }
    ]
   },
@@ -296,24 +296,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風26号 1日に関東接近のおそれ",
-     "link": "https://news.yahoo.co.jp/pickup/6596872?source=rss",
-     "pubDate": "Mon, 28 Sep 2026 09:20:55 GMT"
+     "title": "衆院選制度見直し 10月末めど結論",
+     "link": "https://news.yahoo.co.jp/pickup/6596884?source=rss",
+     "pubDate": "Mon, 28 Sep 2026 12:32:28 GMT"
     },
     {
-     "title": "談合対象マンション名 なぜ公表",
-     "link": "https://news.yahoo.co.jp/pickup/6596878?source=rss",
-     "pubDate": "Mon, 28 Sep 2026 10:56:02 GMT"
+     "title": "生命維持治療終了の新指針 4学会",
+     "link": "https://news.yahoo.co.jp/pickup/6596895?source=rss",
+     "pubDate": "Mon, 28 Sep 2026 14:09:29 GMT"
     },
     {
-     "title": "ゴーカート2歳死亡事故 無罪主張",
-     "link": "https://news.yahoo.co.jp/pickup/6596877?source=rss",
-     "pubDate": "Mon, 28 Sep 2026 10:26:49 GMT"
+     "title": "八王子市でクマ緊急銃猟 都内で初",
+     "link": "https://news.yahoo.co.jp/pickup/6596889?source=rss",
+     "pubDate": "Mon, 28 Sep 2026 13:16:40 GMT"
     },
     {
-     "title": "車と歩行者絡む事故 1人心肺停止",
-     "link": "https://news.yahoo.co.jp/pickup/6596880?source=rss",
-     "pubDate": "Mon, 28 Sep 2026 11:32:38 GMT"
+     "title": "車が停車中の車に追突 女性が死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6596899?source=rss",
+     "pubDate": "Mon, 28 Sep 2026 15:37:22 GMT"
     },
     {
      "title": "天皇陛下のスマホで撮影 写真公開",
@@ -321,19 +321,19 @@
      "pubDate": "Mon, 28 Sep 2026 11:10:35 GMT"
     },
     {
-     "title": "「iDeCo貧乏」 NISAより注意必要",
-     "link": "https://news.yahoo.co.jp/pickup/6596876?source=rss",
-     "pubDate": "Mon, 28 Sep 2026 09:57:56 GMT"
+     "title": "東大総長に藤垣裕子教授 初の女性",
+     "link": "https://news.yahoo.co.jp/pickup/6596892?source=rss",
+     "pubDate": "Mon, 28 Sep 2026 13:47:04 GMT"
     },
     {
-     "title": "代表デビュー 熊坂8分で負傷交代",
-     "link": "https://news.yahoo.co.jp/pickup/6596881?source=rss",
-     "pubDate": "Mon, 28 Sep 2026 11:47:54 GMT"
+     "title": "楽天が酒居ら戦力外 異例の夜発表",
+     "link": "https://news.yahoo.co.jp/pickup/6596898?source=rss",
+     "pubDate": "Mon, 28 Sep 2026 15:13:33 GMT"
     },
     {
-     "title": "速報 森保ジャパンvs.ベネズエラ",
-     "link": "https://news.yahoo.co.jp/pickup/6596873?source=rss",
-     "pubDate": "Mon, 28 Sep 2026 10:27:49 GMT"
+     "title": "PK獲得判定一転 ベネズエラ激怒",
+     "link": "https://news.yahoo.co.jp/pickup/6596896?source=rss",
+     "pubDate": "Mon, 28 Sep 2026 14:30:49 GMT"
     }
    ]
   }
