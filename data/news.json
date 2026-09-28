@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-28T00:03:19.137Z",
+ "updatedAt": "2026-09-28T05:36:32.194Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風26号 沖縄・奄美に接近 北～西日本では非常に激しい雨も",
+     "title": "台風26号 大東島地方暴風など警戒 広く大気不安定で激しい雨",
      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52761",
-     "pubDate": "Mon, 28 Sep 2026 07:00:00 +0900"
+     "pubDate": "Mon, 28 Sep 2026 14:07:31 +0900"
     },
     {
-     "title": "米軍使用のイギリス空軍基地近くでテロ準備などの疑い 5人逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52760",
-     "pubDate": "Mon, 28 Sep 2026 06:20:47 +0900"
+     "title": "「北の国から」脚本家の倉本聰さん死去 91歳",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52785",
+     "pubDate": "Mon, 28 Sep 2026 13:14:00 +0900"
     },
     {
-     "title": "技能五輪 日本は金2個含むメダル10個獲得 2年後は愛知県で開催",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52753",
-     "pubDate": "Mon, 28 Sep 2026 06:26:08 +0900"
+     "title": "不正会計など不適切行為相次ぐ「ニデック」 社長ら交代検討",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52811",
+     "pubDate": "Mon, 28 Sep 2026 13:17:53 +0900"
     },
     {
-     "title": "群馬女性殺害事件 逮捕の元夫 逃走中に服を着替え靴履いたか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52752",
-     "pubDate": "Mon, 28 Sep 2026 05:31:53 +0900"
+     "title": "群馬女性殺害 “包丁を事前に準備し訪れた”趣旨の供述",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52804",
+     "pubDate": "Mon, 28 Sep 2026 12:29:00 +0900"
     },
     {
      "title": "台風25号の記録的大雨から1週間 千葉と神奈川で13人が死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52757",
-     "pubDate": "Mon, 28 Sep 2026 05:46:44 +0900"
+     "pubDate": "Mon, 28 Sep 2026 12:28:56 +0900"
     },
     {
-     "title": "\"見えない避難者\"約2000世帯 熊本地震2か月 八代市調査で判明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52715",
-     "pubDate": "Mon, 28 Sep 2026 00:03:00 +0900"
+     "title": "男子ゴルフ団体対抗 世界選抜 松山 久常 ともに敗れ逆転負け",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52823",
+     "pubDate": "Mon, 28 Sep 2026 13:23:57 +0900"
     },
     {
-     "title": "熊本地震2か月 避難生活が長期化 住まいの確保が課題に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52689",
-     "pubDate": "Mon, 28 Sep 2026 00:01:00 +0900"
+     "title": "ボージョレ・ヌーボー 熱波の影響で1か月早く羽田空港に到着",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52792",
+     "pubDate": "Mon, 28 Sep 2026 11:27:00 +0900"
     }
    ]
   },
@@ -50,19 +50,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "群馬女性殺害 “包丁を事前に準備し訪れた”趣旨の供述",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52804",
+     "pubDate": "Mon, 28 Sep 2026 12:29:00 +0900"
+    },
+    {
+     "title": "「北の国から」脚本家の倉本聰さん死去 91歳",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52785",
+     "pubDate": "Mon, 28 Sep 2026 13:14:00 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（9月28日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52716",
-     "pubDate": "Mon, 28 Sep 2026 06:42:54 +0900"
+     "pubDate": "Mon, 28 Sep 2026 13:42:45 +0900"
     },
     {
      "title": "群馬女性殺害事件 逮捕の元夫 逃走中に服を着替え靴履いたか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52752",
-     "pubDate": "Mon, 28 Sep 2026 05:31:53 +0900"
+     "pubDate": "Mon, 28 Sep 2026 05:31:00 +0900"
     },
     {
-     "title": "熊本地震2か月 避難生活が長期化 住まいの確保が課題に",
+     "title": "熊本地震2か月 被災自治体の復旧・復興に向け支援チーム設置へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52689",
-     "pubDate": "Mon, 28 Sep 2026 00:01:00 +0900"
+     "pubDate": "Mon, 28 Sep 2026 12:39:00 +0900"
     },
     {
      "title": "競技用に改造されたラリーカーや最新の電気自動車が登場 滋賀",
@@ -113,16 +123,6 @@
      "title": "熊本 八代 被災地でボランティア減少懸念 継続的支援呼びかけ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52676",
      "pubDate": "Sun, 27 Sep 2026 12:16:00 +0900"
-    },
-    {
-     "title": "群馬女性殺害事件 現場近くで長女の元夫の車発見 行方捜査続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52675",
-     "pubDate": "Sun, 27 Sep 2026 12:02:00 +0900"
-    },
-    {
-     "title": "群馬女性殺害事件 DVめぐり警察が元夫に事件前に2回口頭指導",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52651",
-     "pubDate": "Sun, 27 Sep 2026 08:16:00 +0900"
     }
    ]
   },
@@ -139,7 +139,7 @@
     {
      "title": "技能五輪 日本は金2個含むメダル10個獲得 2年後は愛知県で開催",
      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52753",
-     "pubDate": "Mon, 28 Sep 2026 06:26:08 +0900"
+     "pubDate": "Mon, 28 Sep 2026 06:26:00 +0900"
     },
     {
      "title": "日本学術会議 法人化前に元会長らがシンポジウムで講演",
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ボージョレ・ヌーボー 熱波の影響で1か月早く羽田空港に到着",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52792",
+     "pubDate": "Mon, 28 Sep 2026 11:27:00 +0900"
+    },
+    {
      "title": "米軍使用のイギリス空軍基地近くでテロ準備などの疑い 5人逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52760",
      "pubDate": "Mon, 28 Sep 2026 06:20:47 +0900"
@@ -231,12 +236,12 @@
     {
      "title": "プーチン大統領“選挙期間中に攻撃”和平交渉の再開に慎重姿勢",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52745",
-     "pubDate": "Mon, 28 Sep 2026 05:12:03 +0900"
+     "pubDate": "Mon, 28 Sep 2026 05:12:00 +0900"
     },
     {
      "title": "イスラエル 総選挙まで1か月 世論調査で与野党の勢力きっ抗",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52742",
-     "pubDate": "Mon, 28 Sep 2026 05:09:16 +0900"
+     "pubDate": "Mon, 28 Sep 2026 05:09:00 +0900"
     },
     {
      "title": "南アフリカ 銃撃事件相次ぎ27人死亡 武装集団が酒場などで発砲",
@@ -282,11 +287,6 @@
      "title": "トランプ大統領 イラン側の提案“受け入れられない”と拒否",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52638",
      "pubDate": "Sun, 27 Sep 2026 06:19:16 +0900"
-    },
-    {
-     "title": "ロシア外相「欧州が交渉妨げ」欧米にくさび打つねらいか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52640",
-     "pubDate": "Sun, 27 Sep 2026 06:18:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風接近 沖縄奄美は高波強風続く",
-     "link": "https://news.yahoo.co.jp/pickup/6596789?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 21:32:49 GMT"
+     "title": "東海-関東沿岸部は激しい雨 警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6596822?source=rss",
+     "pubDate": "Mon, 28 Sep 2026 02:43:51 GMT"
     },
     {
-     "title": "裏金議員を要職「問題」61% 毎日",
-     "link": "https://news.yahoo.co.jp/pickup/6596797?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 23:14:07 GMT"
+     "title": "ウ侵攻「黒海海運」の麻痺深刻化",
+     "link": "https://news.yahoo.co.jp/pickup/6596826?source=rss",
+     "pubDate": "Mon, 28 Sep 2026 04:33:22 GMT"
     },
     {
-     "title": "熊本地震2カ月 井戸の復旧進まず",
-     "link": "https://news.yahoo.co.jp/pickup/6596792?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 22:17:44 GMT"
+     "title": "東京で33日連続の雨観測 最長タイ",
+     "link": "https://news.yahoo.co.jp/pickup/6596833?source=rss",
+     "pubDate": "Mon, 28 Sep 2026 04:25:48 GMT"
     },
     {
-     "title": "辞職の山中氏 横浜市長選に出馬へ",
-     "link": "https://news.yahoo.co.jp/pickup/6596798?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 23:17:20 GMT"
+     "title": "英基地付近でテロ準備疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6596814?source=rss",
+     "pubDate": "Mon, 28 Sep 2026 01:58:46 GMT"
     },
     {
-     "title": "ユニクロ好調も国内の店舗減 なぜ",
-     "link": "https://news.yahoo.co.jp/pickup/6596796?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 23:12:07 GMT"
+     "title": "パパ活面接称し性的暴行疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6596824?source=rss",
+     "pubDate": "Mon, 28 Sep 2026 03:11:57 GMT"
     },
     {
-     "title": "ド軍100勝到達 朗希が完ぺき救援",
-     "link": "https://news.yahoo.co.jp/pickup/6596800?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 23:44:10 GMT"
+     "title": "競歩女子で波乱 1位が翌日に失格",
+     "link": "https://news.yahoo.co.jp/pickup/6596834?source=rss",
+     "pubDate": "Mon, 28 Sep 2026 04:39:09 GMT"
     },
     {
-     "title": "大谷は「無冠」シーズン成績確定",
-     "link": "https://news.yahoo.co.jp/pickup/6596788?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 21:26:00 GMT"
+     "title": "「風、薫る」最終回視聴率14.5%",
+     "link": "https://news.yahoo.co.jp/pickup/6596827?source=rss",
+     "pubDate": "Mon, 28 Sep 2026 03:27:09 GMT"
     },
     {
-     "title": "ドリカム「救命病棟」主題歌担当",
-     "link": "https://news.yahoo.co.jp/pickup/6596791?source=rss",
-     "pubDate": "Sun, 27 Sep 2026 22:06:02 GMT"
+     "title": "倉本聰さん死去 芸能界から悼む声",
+     "link": "https://news.yahoo.co.jp/pickup/6596823?source=rss",
+     "pubDate": "Mon, 28 Sep 2026 03:07:03 GMT"
     }
    ]
   }
