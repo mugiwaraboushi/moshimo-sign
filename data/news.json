@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-29T04:37:38.196Z",
+ "updatedAt": "2026-09-29T10:56:50.944Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風26号 伊豆諸島に近づく見込み 今後の情報に注意を",
+     "title": "台風26号 伊豆諸島に近づく見込み 高波に警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52959",
-     "pubDate": "Tue, 29 Sep 2026 12:01:36 +0900"
+     "pubDate": "Tue, 29 Sep 2026 19:19:56 +0900"
     },
     {
-     "title": "セイコーマート 不正アクセスで約57万アカウント漏えいか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53020",
-     "pubDate": "Tue, 29 Sep 2026 13:11:21 +0900"
+     "title": "電気料金が「過去最高」の水準へ この冬はどうなる？【Q＆A】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52999",
+     "pubDate": "Tue, 29 Sep 2026 18:13:00 +0900"
     },
     {
-     "title": "「シャオシャオ」と「レイレイ」中国返還後初の一般公開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53022",
-     "pubDate": "Tue, 29 Sep 2026 13:08:01 +0900"
+     "title": "東京大学の新総長に藤垣裕子氏 女性の総長は大学創立以来初",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53079",
+     "pubDate": "Tue, 29 Sep 2026 18:33:00 +0900"
     },
     {
-     "title": "千葉市 国道で車がトラックと正面衝突して炎上 3人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52982",
-     "pubDate": "Tue, 29 Sep 2026 12:39:13 +0900"
+     "title": "タイムズカー免許証画像など流出 専門家“なりすまし警戒を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53160",
+     "pubDate": "Tue, 29 Sep 2026 19:03:09 +0900"
     },
     {
-     "title": "東京都心 34日連続で雨を観測 統計開始以来最長に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52997",
-     "pubDate": "Tue, 29 Sep 2026 12:31:00 +0900"
+     "title": "日本の人口 1億2297万人余に 減少幅は過去最大 国勢調査確定値",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53106",
+     "pubDate": "Tue, 29 Sep 2026 19:35:01 +0900"
     },
     {
-     "title": "スペースX大型宇宙船 初の地球周回軌道投入に成功",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52969",
-     "pubDate": "Tue, 29 Sep 2026 07:16:00 +0900"
+     "title": "茂木外相「旧敵国条項」引き合いに出す余地なし 中国念頭に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53130",
+     "pubDate": "Tue, 29 Sep 2026 16:57:54 +0900"
     },
     {
-     "title": "群馬太田女性殺人 現場周辺で別の包丁見つかる 複数刃物使用か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53039",
-     "pubDate": "Tue, 29 Sep 2026 12:59:49 +0900"
+     "title": "インフルエンザ患者数 前週の約1.5倍 マスク着用など対策を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53102",
+     "pubDate": "Tue, 29 Sep 2026 18:51:27 +0900"
     }
    ]
   },
@@ -50,79 +50,79 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "去年の平均給与486万円余で過去最高更新 国税庁調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53155",
+     "pubDate": "Tue, 29 Sep 2026 19:54:53 +0900"
+    },
+    {
+     "title": "天皇皇后両陛下 来年3月に岩手・宮城訪問で調整",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53172",
+     "pubDate": "Tue, 29 Sep 2026 19:46:40 +0900"
+    },
+    {
+     "title": "タイムズカー免許証画像など流出 専門家“なりすまし警戒を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53160",
+     "pubDate": "Tue, 29 Sep 2026 19:03:09 +0900"
+    },
+    {
+     "title": "インフルエンザ患者数 前週の約1.5倍 マスク着用など対策を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53102",
+     "pubDate": "Tue, 29 Sep 2026 18:51:27 +0900"
+    },
+    {
+     "title": "マレーシアで日本人9人拘束 特殊詐欺に関わったか 摘発相次ぐ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53153",
+     "pubDate": "Tue, 29 Sep 2026 18:47:00 +0900"
+    },
+    {
+     "title": "日米の大規模実動演習実施へ 長射程ミサイル展開も予定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53169",
+     "pubDate": "Tue, 29 Sep 2026 18:40:43 +0900"
+    },
+    {
+     "title": "東京大学の新総長に藤垣裕子氏 女性の総長は大学創立以来初",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53079",
+     "pubDate": "Tue, 29 Sep 2026 18:33:00 +0900"
+    },
+    {
+     "title": "健保連決算見込み 2年連続黒字も保険料負担は過去最高更新",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53161",
+     "pubDate": "Tue, 29 Sep 2026 18:24:02 +0900"
+    },
+    {
+     "title": "ジャニー喜多川氏からの性被害訴える男性「人生を破壊」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53157",
+     "pubDate": "Tue, 29 Sep 2026 19:06:36 +0900"
+    },
+    {
+     "title": "墜落の大型無人偵察機 10月2日から引き揚げのための作業開始へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53149",
+     "pubDate": "Tue, 29 Sep 2026 17:55:53 +0900"
+    },
+    {
+     "title": "美容クリニック運営グループの元幹部を背任疑いで逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53108",
+     "pubDate": "Tue, 29 Sep 2026 16:11:33 +0900"
+    },
+    {
+     "title": "青森 五所川原 突風で車20台超にも被害 気象台が現地調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53085",
+     "pubDate": "Tue, 29 Sep 2026 15:05:00 +0900"
+    },
+    {
+     "title": "群馬 飲酒運転3人死亡事故 2審で弁護側「過失運転」主張",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53043",
+     "pubDate": "Tue, 29 Sep 2026 13:43:15 +0900"
+    },
+    {
      "title": "群馬太田女性殺人 現場周辺で別の包丁見つかる 複数刃物使用か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53039",
-     "pubDate": "Tue, 29 Sep 2026 12:59:49 +0900"
+     "pubDate": "Tue, 29 Sep 2026 12:59:00 +0900"
     },
     {
      "title": "セイコーマート 不正アクセスで約57万アカウント漏えいか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53020",
      "pubDate": "Tue, 29 Sep 2026 13:11:21 +0900"
-    },
-    {
-     "title": "台風25号 被災した小学校がオンラインで授業再開 千葉",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53015",
-     "pubDate": "Tue, 29 Sep 2026 11:57:00 +0900"
-    },
-    {
-     "title": "厚生労働白書“医療・介護人手不足でロボット・AI活用を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52996",
-     "pubDate": "Tue, 29 Sep 2026 11:06:40 +0900"
-    },
-    {
-     "title": "天皇皇后両陛下 熊本地震の被災地訪問 天候不良で30日に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52993",
-     "pubDate": "Tue, 29 Sep 2026 10:22:00 +0900"
-    },
-    {
-     "title": "群馬女性殺害事件 元夫の車の窓ガラス割れた状態",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52981",
-     "pubDate": "Tue, 29 Sep 2026 07:24:00 +0900"
-    },
-    {
-     "title": "千葉市 国道で車がトラックと正面衝突して炎上 3人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52982",
-     "pubDate": "Tue, 29 Sep 2026 12:39:13 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（9月29日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52878",
-     "pubDate": "Tue, 29 Sep 2026 10:15:28 +0900"
-    },
-    {
-     "title": "核のごみ文献調査 茨城 常陸大宮市長が赤澤大臣と面会し判断へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52954",
-     "pubDate": "Tue, 29 Sep 2026 06:40:00 +0900"
-    },
-    {
-     "title": "エヌビディアがAI逸脱防止策 自社株買い23兆円余り増額",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52958",
-     "pubDate": "Tue, 29 Sep 2026 06:25:00 +0900"
-    },
-    {
-     "title": "「20年前から」証言も マンション修繕工事談合",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52960",
-     "pubDate": "Tue, 29 Sep 2026 05:48:00 +0900"
-    },
-    {
-     "title": "九州ふっこう応援割の予約影響か 長崎県で一時電話つながらず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52941",
-     "pubDate": "Mon, 28 Sep 2026 21:18:17 +0900"
-    },
-    {
-     "title": "東武列車事故 安全管理のミス重なったか 原因解明へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52910",
-     "pubDate": "Mon, 28 Sep 2026 20:30:55 +0900"
-    },
-    {
-     "title": "山形 海岸で見つかった子どもの遺体は行方不明6歳男児と確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52923",
-     "pubDate": "Mon, 28 Sep 2026 19:45:49 +0900"
-    },
-    {
-     "title": "東京 八王子 畑のわなにクマ 市が緊急銃猟 都内では初めて",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52927",
-     "pubDate": "Mon, 28 Sep 2026 20:30:00 +0900"
     }
    ]
   },
@@ -132,14 +132,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
-     "title": "赤澤経産相 核のごみ 文献調査めぐり常陸大宮市長と面会へ",
+     "title": "iPS心筋細胞シート 承認後初の手術実施 大阪けいさつ病院",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53038",
+     "pubDate": "Tue, 29 Sep 2026 17:43:04 +0900"
+    },
+    {
+     "title": "核のごみ 常陸大宮市長と赤澤経産相が面会 懸念は「ほぼ解消」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53030",
-     "pubDate": "Tue, 29 Sep 2026 12:43:22 +0900"
+     "pubDate": "Tue, 29 Sep 2026 18:29:00 +0900"
     },
     {
      "title": "「シャオシャオ」と「レイレイ」中国返還後初の一般公開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53022",
-     "pubDate": "Tue, 29 Sep 2026 13:08:01 +0900"
+     "pubDate": "Tue, 29 Sep 2026 15:12:14 +0900"
     },
     {
      "title": "スペースX大型宇宙船 初の地球周回軌道投入に成功",
@@ -200,11 +205,6 @@
      "title": "中部電力 浜岡原発の再稼働に向けた審査申請を取り下げ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52370",
      "pubDate": "Fri, 25 Sep 2026 18:28:00 +0900"
-    },
-    {
-     "title": "「トラ・トラ・トラ！」映画監督の舛田利雄さん死去",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52336",
-     "pubDate": "Fri, 25 Sep 2026 13:50:00 +0900"
     }
    ]
   },
@@ -214,14 +214,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月29日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47017",
+     "pubDate": "Tue, 29 Sep 2026 19:09:27 +0900"
+    },
+    {
+     "title": "マレーシアで日本人9人拘束 特殊詐欺に関わったか 摘発相次ぐ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53153",
+     "pubDate": "Tue, 29 Sep 2026 18:47:00 +0900"
+    },
+    {
+     "title": "マレーシアがミャンマー避難民の送還開始 人権団体懸念も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53156",
+     "pubDate": "Tue, 29 Sep 2026 18:20:00 +0900"
+    },
+    {
+     "title": "陸上自衛隊のトップが17年ぶりに韓国公式訪問",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53140",
+     "pubDate": "Tue, 29 Sep 2026 18:00:00 +0900"
+    },
+    {
      "title": "オープンAI 次期モデルの公開中止か 安全性の懸念で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53016",
-     "pubDate": "Tue, 29 Sep 2026 13:27:05 +0900"
+     "pubDate": "Tue, 29 Sep 2026 13:27:00 +0900"
     },
     {
      "title": "「シャオシャオ」と「レイレイ」中国返還後初の一般公開",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53022",
-     "pubDate": "Tue, 29 Sep 2026 13:08:01 +0900"
+     "pubDate": "Tue, 29 Sep 2026 15:12:14 +0900"
     },
     {
      "title": "北朝鮮外務次官 国連演説で“わが国は核保有国だ”と主張",
@@ -246,7 +266,7 @@
     {
      "title": "岩屋前外相が中国王毅外相と会談 日中関係悪化のなか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52968",
-     "pubDate": "Tue, 29 Sep 2026 13:18:32 +0900"
+     "pubDate": "Tue, 29 Sep 2026 19:14:43 +0900"
     },
     {
      "title": "エヌビディアがAI逸脱防止策 自社株買い23兆円余り増額",
@@ -267,26 +287,6 @@
      "title": "作家原田マハさん初監督「無用の人」がスペインの映画祭で受賞",
      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52929",
      "pubDate": "Mon, 28 Sep 2026 21:14:14 +0900"
-    },
-    {
-     "title": "米前国務副長官“中国は日米の結束弱めるねらい”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52940",
-     "pubDate": "Mon, 28 Sep 2026 21:10:50 +0900"
-    },
-    {
-     "title": "イエメン情勢で対岸ジブチに避難する人も 人道状況の悪化懸念",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52935",
-     "pubDate": "Mon, 28 Sep 2026 20:52:56 +0900"
-    },
-    {
-     "title": "「習近平」という店名の中華料理店襲撃される 韓国",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52900",
-     "pubDate": "Mon, 28 Sep 2026 18:46:00 +0900"
-    },
-    {
-     "title": "中国も貿易摩擦「休戦」延長発表 米は関税引き下げリスト公表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52866",
-     "pubDate": "Mon, 28 Sep 2026 16:15:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "ネット中傷 賠償額の見直しを検討",
-     "link": "https://news.yahoo.co.jp/pickup/6596938?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 02:53:08 GMT"
+     "title": "ニデック岸田社長が辞任 不正巡り",
+     "link": "https://news.yahoo.co.jp/pickup/6596980?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 09:59:59 GMT"
     },
     {
-     "title": "医療ロボ導入に7割賛意 厚労白書",
-     "link": "https://news.yahoo.co.jp/pickup/6596930?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 01:50:48 GMT"
+     "title": "アンソロ社 AIの人類存亡危機警告",
+     "link": "https://news.yahoo.co.jp/pickup/6596968?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 08:26:24 GMT"
     },
     {
-     "title": "内田受刑者の公判に乱入 有罪判決",
-     "link": "https://news.yahoo.co.jp/pickup/6596932?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 02:17:06 GMT"
+     "title": "教職員7万人の性犯歴確認へ 東京",
+     "link": "https://news.yahoo.co.jp/pickup/6596979?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 10:04:21 GMT"
     },
     {
-     "title": "部活バス事故 顧問のみ運転常態化",
-     "link": "https://news.yahoo.co.jp/pickup/6596941?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 03:24:06 GMT"
+     "title": "伊藤園 株主優待制度を廃止",
+     "link": "https://news.yahoo.co.jp/pickup/6596978?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 10:02:58 GMT"
     },
     {
-     "title": "セコマ 57万件の個人情報漏えいか",
-     "link": "https://news.yahoo.co.jp/pickup/6596936?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 02:53:35 GMT"
+     "title": "グーグル Gemini「Gems」終了へ",
+     "link": "https://news.yahoo.co.jp/pickup/6596966?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 08:23:29 GMT"
     },
     {
-     "title": "高橋塁 藍との対話契機にゲイ自認",
-     "link": "https://news.yahoo.co.jp/pickup/6596950?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 04:30:03 GMT"
+     "title": "「Yahoo!きっず」12/4サイト終了",
+     "link": "https://news.yahoo.co.jp/pickup/6596976?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 10:17:07 GMT"
     },
     {
-     "title": "ヤクルト田口麗斗ら6選手を戦力外",
-     "link": "https://news.yahoo.co.jp/pickup/6596946?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 03:46:33 GMT"
+     "title": "元和牛・水田信二 離婚を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6596974?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 09:02:56 GMT"
     },
     {
-     "title": "timelesz寺西 猪俣周杜の騒動謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6596940?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 03:11:02 GMT"
+     "title": "眞島秀和が撮影で負傷 ドラマ降板",
+     "link": "https://news.yahoo.co.jp/pickup/6596977?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 09:29:12 GMT"
     }
    ]
   }
