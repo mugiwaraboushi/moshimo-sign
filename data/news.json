@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-29T10:56:50.944Z",
+ "updatedAt": "2026-09-29T16:41:56.952Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "台風26号 伊豆諸島に近づく見込み 高波に警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52959",
-     "pubDate": "Tue, 29 Sep 2026 19:19:56 +0900"
+     "pubDate": "Tue, 29 Sep 2026 19:19:00 +0900"
     },
     {
      "title": "電気料金が「過去最高」の水準へ この冬はどうなる？【Q＆A】",
@@ -23,9 +23,9 @@
      "pubDate": "Tue, 29 Sep 2026 18:33:00 +0900"
     },
     {
-     "title": "タイムズカー免許証画像など流出 専門家“なりすまし警戒を”",
+     "title": "タイムズカー 運転免許画像などの漏えいは160万件 どうすれば",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53160",
-     "pubDate": "Tue, 29 Sep 2026 19:03:09 +0900"
+     "pubDate": "Tue, 29 Sep 2026 22:54:00 +0900"
     },
     {
      "title": "日本の人口 1億2297万人余に 減少幅は過去最大 国勢調査確定値",
@@ -33,14 +33,14 @@
      "pubDate": "Tue, 29 Sep 2026 19:35:01 +0900"
     },
     {
-     "title": "茂木外相「旧敵国条項」引き合いに出す余地なし 中国念頭に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53130",
-     "pubDate": "Tue, 29 Sep 2026 16:57:54 +0900"
+     "title": "ニデック 再建に向け電子部品子会社を売却へ 1000億円規模か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53227",
+     "pubDate": "Wed, 30 Sep 2026 01:21:10 +0900"
     },
     {
      "title": "インフルエンザ患者数 前週の約1.5倍 マスク着用など対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53102",
-     "pubDate": "Tue, 29 Sep 2026 18:51:27 +0900"
+     "pubDate": "Tue, 29 Sep 2026 18:51:00 +0900"
     }
    ]
   },
@@ -50,24 +50,49 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "YKK AP “経費不正の額は約1億3300万円”調査結果公表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53211",
+     "pubDate": "Tue, 29 Sep 2026 23:16:42 +0900"
+    },
+    {
+     "title": "地震で損傷の南九州道妙見第一橋 復旧見込みは2028年末と発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53209",
+     "pubDate": "Tue, 29 Sep 2026 22:02:00 +0900"
+    },
+    {
+     "title": "青森 五所川原の突風 気象台“最大約65メートルの強さと推定”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53186",
+     "pubDate": "Tue, 29 Sep 2026 21:23:20 +0900"
+    },
+    {
+     "title": "ヒアリ国内確認 過去最多 笹川環境相“監視体制強化を検討”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53185",
+     "pubDate": "Tue, 29 Sep 2026 20:21:57 +0900"
+    },
+    {
+     "title": "ヒグマの侵入防止のため円山動物園に電気柵を設置 札幌",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53180",
+     "pubDate": "Tue, 29 Sep 2026 20:12:29 +0900"
+    },
+    {
      "title": "去年の平均給与486万円余で過去最高更新 国税庁調査",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53155",
-     "pubDate": "Tue, 29 Sep 2026 19:54:53 +0900"
+     "pubDate": "Tue, 29 Sep 2026 19:54:00 +0900"
     },
     {
      "title": "天皇皇后両陛下 来年3月に岩手・宮城訪問で調整",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53172",
-     "pubDate": "Tue, 29 Sep 2026 19:46:40 +0900"
+     "pubDate": "Tue, 29 Sep 2026 19:46:00 +0900"
     },
     {
-     "title": "タイムズカー免許証画像など流出 専門家“なりすまし警戒を”",
+     "title": "タイムズカー 運転免許画像などの漏えいは160万件 どうすれば",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53160",
-     "pubDate": "Tue, 29 Sep 2026 19:03:09 +0900"
+     "pubDate": "Tue, 29 Sep 2026 22:54:00 +0900"
     },
     {
      "title": "インフルエンザ患者数 前週の約1.5倍 マスク着用など対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53102",
-     "pubDate": "Tue, 29 Sep 2026 18:51:27 +0900"
+     "pubDate": "Tue, 29 Sep 2026 18:51:00 +0900"
     },
     {
      "title": "マレーシアで日本人9人拘束 特殊詐欺に関わったか 摘発相次ぐ",
@@ -98,31 +123,6 @@
      "title": "墜落の大型無人偵察機 10月2日から引き揚げのための作業開始へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53149",
      "pubDate": "Tue, 29 Sep 2026 17:55:53 +0900"
-    },
-    {
-     "title": "美容クリニック運営グループの元幹部を背任疑いで逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53108",
-     "pubDate": "Tue, 29 Sep 2026 16:11:33 +0900"
-    },
-    {
-     "title": "青森 五所川原 突風で車20台超にも被害 気象台が現地調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53085",
-     "pubDate": "Tue, 29 Sep 2026 15:05:00 +0900"
-    },
-    {
-     "title": "群馬 飲酒運転3人死亡事故 2審で弁護側「過失運転」主張",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53043",
-     "pubDate": "Tue, 29 Sep 2026 13:43:15 +0900"
-    },
-    {
-     "title": "群馬太田女性殺人 現場周辺で別の包丁見つかる 複数刃物使用か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53039",
-     "pubDate": "Tue, 29 Sep 2026 12:59:00 +0900"
-    },
-    {
-     "title": "セイコーマート 不正アクセスで約57万アカウント漏えいか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53020",
-     "pubDate": "Tue, 29 Sep 2026 13:11:21 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "関係悪化のなか 中国で日本のシティポップの音楽イベント",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53200",
+     "pubDate": "Tue, 29 Sep 2026 21:45:00 +0900"
+    },
     {
      "title": "iPS心筋細胞シート 承認後初の手術実施 大阪けいさつ病院",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53038",
@@ -200,11 +205,6 @@
      "title": "ローマ教皇 AIが日常を侵食と警告 フランス訪問で",
      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52537",
      "pubDate": "Sat, 26 Sep 2026 08:52:00 +0900"
-    },
-    {
-     "title": "中部電力 浜岡原発の再稼働に向けた審査申請を取り下げ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52370",
-     "pubDate": "Fri, 25 Sep 2026 18:28:00 +0900"
     }
    ]
   },
@@ -213,6 +213,31 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "三菱商事 カナダのLNG生産事業に追加投資",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53221",
+     "pubDate": "Wed, 30 Sep 2026 01:15:16 +0900"
+    },
+    {
+     "title": "ネタニヤフ首相がUAE訪問 総選挙前に報道否定を要請か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53204",
+     "pubDate": "Tue, 29 Sep 2026 21:52:00 +0900"
+    },
+    {
+     "title": "関係悪化のなか 中国で日本のシティポップの音楽イベント",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53200",
+     "pubDate": "Tue, 29 Sep 2026 21:45:00 +0900"
+    },
+    {
+     "title": "サウジアラビア原油パイプライン 輸送能力半分まで回復 米報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53201",
+     "pubDate": "Tue, 29 Sep 2026 21:36:00 +0900"
+    },
+    {
+     "title": "ICC締約国会議の開催地変更を決定 アメリカからオランダに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53208",
+     "pubDate": "Tue, 29 Sep 2026 21:28:00 +0900"
+    },
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月29日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47017",
@@ -262,31 +287,6 @@
      "title": "プーチン大統領が政党党首らと面会 侵攻継続支持を強調",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52970",
      "pubDate": "Tue, 29 Sep 2026 06:33:27 +0900"
-    },
-    {
-     "title": "岩屋前外相が中国王毅外相と会談 日中関係悪化のなか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52968",
-     "pubDate": "Tue, 29 Sep 2026 19:14:43 +0900"
-    },
-    {
-     "title": "エヌビディアがAI逸脱防止策 自社株買い23兆円余り増額",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52958",
-     "pubDate": "Tue, 29 Sep 2026 06:25:00 +0900"
-    },
-    {
-     "title": "米イラン協議をカタール仲介か イランの提案修正が焦点か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52966",
-     "pubDate": "Tue, 29 Sep 2026 12:54:06 +0900"
-    },
-    {
-     "title": "内戦状態のミャンマー 軍空爆で市民ら33人死亡か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52957",
-     "pubDate": "Tue, 29 Sep 2026 05:59:26 +0900"
-    },
-    {
-     "title": "作家原田マハさん初監督「無用の人」がスペインの映画祭で受賞",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52929",
-     "pubDate": "Mon, 28 Sep 2026 21:14:14 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "ニデック岸田社長が辞任 不正巡り",
-     "link": "https://news.yahoo.co.jp/pickup/6596980?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 09:59:59 GMT"
+     "title": "30日も関東は雨続く 台風の進路は",
+     "link": "https://news.yahoo.co.jp/pickup/6596973?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 09:12:33 GMT"
     },
     {
-     "title": "アンソロ社 AIの人類存亡危機警告",
-     "link": "https://news.yahoo.co.jp/pickup/6596968?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 08:26:24 GMT"
+     "title": "修繕談合で再発防止を要請 国交省",
+     "link": "https://news.yahoo.co.jp/pickup/6597000?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 14:44:40 GMT"
     },
     {
-     "title": "教職員7万人の性犯歴確認へ 東京",
-     "link": "https://news.yahoo.co.jp/pickup/6596979?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 10:04:21 GMT"
+     "title": "ドンキ トイザらス日本事業買収へ",
+     "link": "https://news.yahoo.co.jp/pickup/6596995?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 13:41:00 GMT"
     },
     {
-     "title": "伊藤園 株主優待制度を廃止",
-     "link": "https://news.yahoo.co.jp/pickup/6596978?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 10:02:58 GMT"
+     "title": "千葉支援 都営バスと運転手を派遣",
+     "link": "https://news.yahoo.co.jp/pickup/6596996?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 14:12:51 GMT"
     },
     {
-     "title": "グーグル Gemini「Gems」終了へ",
-     "link": "https://news.yahoo.co.jp/pickup/6596966?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 08:23:29 GMT"
+     "title": "出向の朝日新聞社員逮捕 傷害容疑",
+     "link": "https://news.yahoo.co.jp/pickup/6596998?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 14:14:32 GMT"
     },
     {
-     "title": "「Yahoo!きっず」12/4サイト終了",
-     "link": "https://news.yahoo.co.jp/pickup/6596976?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 10:17:07 GMT"
+     "title": "批判350通に返事 せんとくん作者",
+     "link": "https://news.yahoo.co.jp/pickup/6596994?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 13:57:45 GMT"
     },
     {
-     "title": "元和牛・水田信二 離婚を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6596974?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 09:02:56 GMT"
+     "title": "ルヴァン杯2回戦 J1勢3チーム敗退",
+     "link": "https://news.yahoo.co.jp/pickup/6596997?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 14:08:27 GMT"
     },
     {
-     "title": "眞島秀和が撮影で負傷 ドラマ降板",
-     "link": "https://news.yahoo.co.jp/pickup/6596977?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 09:29:12 GMT"
+     "title": "山本裕典が結婚 相手は一般女性",
+     "link": "https://news.yahoo.co.jp/pickup/6596999?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 14:34:09 GMT"
     }
    ]
   }
