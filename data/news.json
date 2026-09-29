@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-29T16:41:56.952Z",
+ "updatedAt": "2026-09-29T21:06:24.137Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,34 +13,34 @@
      "pubDate": "Tue, 29 Sep 2026 19:19:00 +0900"
     },
     {
-     "title": "電気料金が「過去最高」の水準へ この冬はどうなる？【Q＆A】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52999",
-     "pubDate": "Tue, 29 Sep 2026 18:13:00 +0900"
+     "title": "政府 成長戦略実行に向け建設分野の労働力不足の対応策検討へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53230",
+     "pubDate": "Wed, 30 Sep 2026 02:16:28 +0900"
     },
     {
-     "title": "東京大学の新総長に藤垣裕子氏 女性の総長は大学創立以来初",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53079",
-     "pubDate": "Tue, 29 Sep 2026 18:33:00 +0900"
+     "title": "核のごみ文献調査 茨城 常陸大宮市長が判断表明へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53229",
+     "pubDate": "Wed, 30 Sep 2026 02:05:14 +0900"
     },
     {
-     "title": "タイムズカー 運転免許画像などの漏えいは160万件 どうすれば",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53160",
-     "pubDate": "Tue, 29 Sep 2026 22:54:00 +0900"
+     "title": "政府・与党 臨時国会で消費税法案成立を 野党は論戦の構え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53231",
+     "pubDate": "Wed, 30 Sep 2026 04:07:30 +0900"
+    },
+    {
+     "title": "日本の教員 労働時間が長く給与満足度はOECD平均を下回る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53228",
+     "pubDate": "Wed, 30 Sep 2026 04:16:33 +0900"
+    },
+    {
+     "title": "岩屋前外相が中国副首相と会談 中国高官との会談は2日連続",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53225",
+     "pubDate": "Wed, 30 Sep 2026 01:59:28 +0900"
     },
     {
      "title": "日本の人口 1億2297万人余に 減少幅は過去最大 国勢調査確定値",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53106",
      "pubDate": "Tue, 29 Sep 2026 19:35:01 +0900"
-    },
-    {
-     "title": "ニデック 再建に向け電子部品子会社を売却へ 1000億円規模か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53227",
-     "pubDate": "Wed, 30 Sep 2026 01:21:10 +0900"
-    },
-    {
-     "title": "インフルエンザ患者数 前週の約1.5倍 マスク着用など対策を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53102",
-     "pubDate": "Tue, 29 Sep 2026 18:51:00 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "日本の教員 労働時間が長く給与満足度はOECD平均を下回る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53228",
+     "pubDate": "Wed, 30 Sep 2026 04:16:33 +0900"
+    },
+    {
+     "title": "市街地で「緊急銃猟」の訓練 鳥取 倉吉",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53214",
+     "pubDate": "Wed, 30 Sep 2026 01:44:07 +0900"
+    },
     {
      "title": "YKK AP “経費不正の額は約1億3300万円”調査結果公表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53211",
@@ -113,16 +123,6 @@
      "title": "健保連決算見込み 2年連続黒字も保険料負担は過去最高更新",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53161",
      "pubDate": "Tue, 29 Sep 2026 18:24:02 +0900"
-    },
-    {
-     "title": "ジャニー喜多川氏からの性被害訴える男性「人生を破壊」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53157",
-     "pubDate": "Tue, 29 Sep 2026 19:06:36 +0900"
-    },
-    {
-     "title": "墜落の大型無人偵察機 10月2日から引き揚げのための作業開始へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53149",
-     "pubDate": "Tue, 29 Sep 2026 17:55:53 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "核のごみ文献調査 茨城 常陸大宮市長が判断表明へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53229",
+     "pubDate": "Wed, 30 Sep 2026 02:05:14 +0900"
+    },
     {
      "title": "関係悪化のなか 中国で日本のシティポップの音楽イベント",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53200",
@@ -200,11 +205,6 @@
      "title": "戦国武将 嶋左近が高野山金剛峯寺と交渉の書状写し発見",
      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52545",
      "pubDate": "Sat, 26 Sep 2026 11:08:00 +0900"
-    },
-    {
-     "title": "ローマ教皇 AIが日常を侵食と警告 フランス訪問で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260926de52537",
-     "pubDate": "Sat, 26 Sep 2026 08:52:00 +0900"
     }
    ]
   },
@@ -213,6 +213,36 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "アメリカ・イラン 間接協議、双方とも妥協しない姿勢",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53236",
+     "pubDate": "Wed, 30 Sep 2026 05:12:25 +0900"
+    },
+    {
+     "title": "英首相「EU離脱は恩恵より弊害の方が大きかった」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53235",
+     "pubDate": "Wed, 30 Sep 2026 04:59:12 +0900"
+    },
+    {
+     "title": "エストニア防衛企業への放火は「破壊工作」 ロシアは関与否定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53234",
+     "pubDate": "Wed, 30 Sep 2026 04:31:00 +0900"
+    },
+    {
+     "title": "トランプ大統領 AI規制に消極的な考え 中国とは競争の姿勢",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53233",
+     "pubDate": "Wed, 30 Sep 2026 03:53:52 +0900"
+    },
+    {
+     "title": "岩屋前外相が中国副首相と会談 中国高官との会談は2日連続",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53225",
+     "pubDate": "Wed, 30 Sep 2026 01:59:28 +0900"
+    },
+    {
+     "title": "ゼレンスキー大統領「北朝鮮軍がロシアに1万人の派兵準備」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53222",
+     "pubDate": "Wed, 30 Sep 2026 01:48:20 +0900"
+    },
     {
      "title": "三菱商事 カナダのLNG生産事業に追加投資",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53221",
@@ -257,36 +287,6 @@
      "title": "陸上自衛隊のトップが17年ぶりに韓国公式訪問",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53140",
      "pubDate": "Tue, 29 Sep 2026 18:00:00 +0900"
-    },
-    {
-     "title": "オープンAI 次期モデルの公開中止か 安全性の懸念で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53016",
-     "pubDate": "Tue, 29 Sep 2026 13:27:00 +0900"
-    },
-    {
-     "title": "「シャオシャオ」と「レイレイ」中国返還後初の一般公開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53022",
-     "pubDate": "Tue, 29 Sep 2026 15:12:14 +0900"
-    },
-    {
-     "title": "北朝鮮外務次官 国連演説で“わが国は核保有国だ”と主張",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52988",
-     "pubDate": "Tue, 29 Sep 2026 08:46:00 +0900"
-    },
-    {
-     "title": "スペースX大型宇宙船 初の地球周回軌道投入に成功",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52969",
-     "pubDate": "Tue, 29 Sep 2026 07:16:00 +0900"
-    },
-    {
-     "title": "南北境界線付近で韓国軍将兵負傷「北朝鮮の地雷の可能性高い」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52961",
-     "pubDate": "Tue, 29 Sep 2026 06:46:00 +0900"
-    },
-    {
-     "title": "プーチン大統領が政党党首らと面会 侵攻継続支持を強調",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52970",
-     "pubDate": "Tue, 29 Sep 2026 06:33:27 +0900"
     }
    ]
   },
