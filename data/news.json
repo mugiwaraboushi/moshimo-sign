@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-29T00:00:12.227Z",
+ "updatedAt": "2026-09-29T04:37:38.196Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風26号 日本の南の海上を北東へ 最新の気象情報確認を",
+     "title": "台風26号 伊豆諸島に近づく見込み 今後の情報に注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52959",
-     "pubDate": "Tue, 29 Sep 2026 07:00:20 +0900"
+     "pubDate": "Tue, 29 Sep 2026 12:01:36 +0900"
     },
     {
-     "title": "「20年前から」証言も マンション修繕工事談合",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52960",
-     "pubDate": "Tue, 29 Sep 2026 05:48:00 +0900"
+     "title": "セイコーマート 不正アクセスで約57万アカウント漏えいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53020",
+     "pubDate": "Tue, 29 Sep 2026 13:11:21 +0900"
     },
     {
-     "title": "核のごみ文献調査 茨城 常陸大宮市長が赤澤大臣と面会し判断へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52954",
-     "pubDate": "Tue, 29 Sep 2026 06:40:45 +0900"
+     "title": "「シャオシャオ」と「レイレイ」中国返還後初の一般公開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53022",
+     "pubDate": "Tue, 29 Sep 2026 13:08:01 +0900"
     },
     {
-     "title": "北朝鮮外務次官 国連演説で“わが国は核保有国だ”と主張",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52988",
-     "pubDate": "Tue, 29 Sep 2026 08:46:44 +0900"
-    },
-    {
-     "title": "千葉市中央区でトラックと乗用車が衝突 乗用車の3人死亡",
+     "title": "千葉市 国道で車がトラックと正面衝突して炎上 3人死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52982",
-     "pubDate": "Tue, 29 Sep 2026 07:19:00 +0900"
+     "pubDate": "Tue, 29 Sep 2026 12:39:13 +0900"
     },
     {
-     "title": "ニデック30日決算発表 巨額損失計上へ 岸田社長など交代検討",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52956",
-     "pubDate": "Tue, 29 Sep 2026 06:23:00 +0900"
+     "title": "東京都心 34日連続で雨を観測 統計開始以来最長に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52997",
+     "pubDate": "Tue, 29 Sep 2026 12:31:00 +0900"
     },
     {
      "title": "スペースX大型宇宙船 初の地球周回軌道投入に成功",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52969",
-     "pubDate": "Tue, 29 Sep 2026 07:16:36 +0900"
+     "pubDate": "Tue, 29 Sep 2026 07:16:00 +0900"
+    },
+    {
+     "title": "群馬太田女性殺人 現場周辺で別の包丁見つかる 複数刃物使用か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53039",
+     "pubDate": "Tue, 29 Sep 2026 12:59:49 +0900"
     }
    ]
   },
@@ -50,29 +50,54 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "群馬太田女性殺人 現場周辺で別の包丁見つかる 複数刃物使用か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53039",
+     "pubDate": "Tue, 29 Sep 2026 12:59:49 +0900"
+    },
+    {
+     "title": "セイコーマート 不正アクセスで約57万アカウント漏えいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53020",
+     "pubDate": "Tue, 29 Sep 2026 13:11:21 +0900"
+    },
+    {
+     "title": "台風25号 被災した小学校がオンラインで授業再開 千葉",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53015",
+     "pubDate": "Tue, 29 Sep 2026 11:57:00 +0900"
+    },
+    {
+     "title": "厚生労働白書“医療・介護人手不足でロボット・AI活用を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52996",
+     "pubDate": "Tue, 29 Sep 2026 11:06:40 +0900"
+    },
+    {
+     "title": "天皇皇后両陛下 熊本地震の被災地訪問 天候不良で30日に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52993",
+     "pubDate": "Tue, 29 Sep 2026 10:22:00 +0900"
+    },
+    {
      "title": "群馬女性殺害事件 元夫の車の窓ガラス割れた状態",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52981",
      "pubDate": "Tue, 29 Sep 2026 07:24:00 +0900"
     },
     {
-     "title": "千葉市中央区でトラックと乗用車が衝突 乗用車の3人死亡",
+     "title": "千葉市 国道で車がトラックと正面衝突して炎上 3人死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52982",
-     "pubDate": "Tue, 29 Sep 2026 07:19:00 +0900"
+     "pubDate": "Tue, 29 Sep 2026 12:39:13 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（9月29日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52878",
-     "pubDate": "Tue, 29 Sep 2026 07:01:32 +0900"
+     "pubDate": "Tue, 29 Sep 2026 10:15:28 +0900"
     },
     {
      "title": "核のごみ文献調査 茨城 常陸大宮市長が赤澤大臣と面会し判断へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52954",
-     "pubDate": "Tue, 29 Sep 2026 06:40:45 +0900"
+     "pubDate": "Tue, 29 Sep 2026 06:40:00 +0900"
     },
     {
      "title": "エヌビディアがAI逸脱防止策 自社株買い23兆円余り増額",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52958",
-     "pubDate": "Tue, 29 Sep 2026 06:25:50 +0900"
+     "pubDate": "Tue, 29 Sep 2026 06:25:00 +0900"
     },
     {
      "title": "「20年前から」証言も マンション修繕工事談合",
@@ -98,31 +123,6 @@
      "title": "東京 八王子 畑のわなにクマ 市が緊急銃猟 都内では初めて",
      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52927",
      "pubDate": "Mon, 28 Sep 2026 20:30:00 +0900"
-    },
-    {
-     "title": "北海道 森町 ゴーカート死傷事故の刑事裁判 被告ら無罪主張",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52906",
-     "pubDate": "Mon, 28 Sep 2026 19:12:08 +0900"
-    },
-    {
-     "title": "東京 府中 追突事故で1人死亡 20代の容疑者を逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52909",
-     "pubDate": "Mon, 28 Sep 2026 20:49:50 +0900"
-    },
-    {
-     "title": "関東地方のマンション大規模修繕工事めぐる談合で排除措置命令",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52859",
-     "pubDate": "Mon, 28 Sep 2026 20:02:28 +0900"
-    },
-    {
-     "title": "天皇皇后両陛下の「ジブリパーク」での写真を公開 宮内庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52889",
-     "pubDate": "Mon, 28 Sep 2026 17:56:41 +0900"
-    },
-    {
-     "title": "パーク24 不正アクセスで会員の個人情報660万件漏えい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52885",
-     "pubDate": "Mon, 28 Sep 2026 17:32:00 +0900"
     }
    ]
   },
@@ -132,9 +132,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "赤澤経産相 核のごみ 文献調査めぐり常陸大宮市長と面会へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53030",
+     "pubDate": "Tue, 29 Sep 2026 12:43:22 +0900"
+    },
+    {
+     "title": "「シャオシャオ」と「レイレイ」中国返還後初の一般公開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53022",
+     "pubDate": "Tue, 29 Sep 2026 13:08:01 +0900"
+    },
+    {
      "title": "スペースX大型宇宙船 初の地球周回軌道投入に成功",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52969",
-     "pubDate": "Tue, 29 Sep 2026 07:16:36 +0900"
+     "pubDate": "Tue, 29 Sep 2026 07:16:00 +0900"
     },
     {
      "title": "作家原田マハさん初監督「無用の人」がスペインの映画祭で受賞",
@@ -195,16 +205,6 @@
      "title": "「トラ・トラ・トラ！」映画監督の舛田利雄さん死去",
      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52336",
      "pubDate": "Fri, 25 Sep 2026 13:50:00 +0900"
-    },
-    {
-     "title": "宇宙飛行士の諏訪理さん 来年3月以降に民間宇宙船で初飛行へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52338",
-     "pubDate": "Fri, 25 Sep 2026 13:56:00 +0900"
-    },
-    {
-     "title": "iPS細胞の特許 2031年まで5年延長決まる 京都大学",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260925de52317",
-     "pubDate": "Fri, 25 Sep 2026 11:56:11 +0900"
     }
    ]
   },
@@ -214,19 +214,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "オープンAI 次期モデルの公開中止か 安全性の懸念で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53016",
+     "pubDate": "Tue, 29 Sep 2026 13:27:05 +0900"
+    },
+    {
+     "title": "「シャオシャオ」と「レイレイ」中国返還後初の一般公開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53022",
+     "pubDate": "Tue, 29 Sep 2026 13:08:01 +0900"
+    },
+    {
      "title": "北朝鮮外務次官 国連演説で“わが国は核保有国だ”と主張",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52988",
-     "pubDate": "Tue, 29 Sep 2026 08:46:44 +0900"
+     "pubDate": "Tue, 29 Sep 2026 08:46:00 +0900"
     },
     {
      "title": "スペースX大型宇宙船 初の地球周回軌道投入に成功",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52969",
-     "pubDate": "Tue, 29 Sep 2026 07:16:36 +0900"
+     "pubDate": "Tue, 29 Sep 2026 07:16:00 +0900"
     },
     {
      "title": "南北境界線付近で韓国軍将兵負傷「北朝鮮の地雷の可能性高い」",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52961",
-     "pubDate": "Tue, 29 Sep 2026 06:46:04 +0900"
+     "pubDate": "Tue, 29 Sep 2026 06:46:00 +0900"
     },
     {
      "title": "プーチン大統領が政党党首らと面会 侵攻継続支持を強調",
@@ -236,17 +246,17 @@
     {
      "title": "岩屋前外相が中国王毅外相と会談 日中関係悪化のなか",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52968",
-     "pubDate": "Tue, 29 Sep 2026 06:26:50 +0900"
+     "pubDate": "Tue, 29 Sep 2026 13:18:32 +0900"
     },
     {
      "title": "エヌビディアがAI逸脱防止策 自社株買い23兆円余り増額",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52958",
-     "pubDate": "Tue, 29 Sep 2026 06:25:50 +0900"
+     "pubDate": "Tue, 29 Sep 2026 06:25:00 +0900"
     },
     {
-     "title": "米イラン協議をカタール仲介か イランの提案修正が焦点と報道",
+     "title": "米イラン協議をカタール仲介か イランの提案修正が焦点か",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52966",
-     "pubDate": "Tue, 29 Sep 2026 06:16:59 +0900"
+     "pubDate": "Tue, 29 Sep 2026 12:54:06 +0900"
     },
     {
      "title": "内戦状態のミャンマー 軍空爆で市民ら33人死亡か",
@@ -277,16 +287,6 @@
      "title": "中国も貿易摩擦「休戦」延長発表 米は関税引き下げリスト公表",
      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52866",
      "pubDate": "Mon, 28 Sep 2026 16:15:00 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月28日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47016",
-     "pubDate": "Mon, 28 Sep 2026 15:18:00 +0900"
-    },
-    {
-     "title": "ボージョレ・ヌーボー 熱波の影響で1か月早く羽田空港に到着",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52792",
-     "pubDate": "Mon, 28 Sep 2026 11:27:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風26号接近へ 関東への影響注意",
-     "link": "https://news.yahoo.co.jp/pickup/6596912?source=rss",
-     "pubDate": "Mon, 28 Sep 2026 22:47:10 GMT"
+     "title": "ネット中傷 賠償額の見直しを検討",
+     "link": "https://news.yahoo.co.jp/pickup/6596938?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 02:53:08 GMT"
     },
     {
-     "title": "マンション修繕談合 コンサル謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6596906?source=rss",
-     "pubDate": "Mon, 28 Sep 2026 21:41:02 GMT"
+     "title": "医療ロボ導入に7割賛意 厚労白書",
+     "link": "https://news.yahoo.co.jp/pickup/6596930?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 01:50:48 GMT"
     },
     {
-     "title": "中国 首相の「台湾発言」是正要求",
-     "link": "https://news.yahoo.co.jp/pickup/6596903?source=rss",
-     "pubDate": "Mon, 28 Sep 2026 21:16:09 GMT"
+     "title": "内田受刑者の公判に乱入 有罪判決",
+     "link": "https://news.yahoo.co.jp/pickup/6596932?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 02:17:06 GMT"
     },
     {
-     "title": "トラックと衝突し炎上 車に3遺体",
-     "link": "https://news.yahoo.co.jp/pickup/6596913?source=rss",
-     "pubDate": "Mon, 28 Sep 2026 23:01:02 GMT"
+     "title": "部活バス事故 顧問のみ運転常態化",
+     "link": "https://news.yahoo.co.jp/pickup/6596941?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 03:24:06 GMT"
     },
     {
-     "title": "中野でも事件「窃盗ツーリズム」",
-     "link": "https://news.yahoo.co.jp/pickup/6596910?source=rss",
-     "pubDate": "Mon, 28 Sep 2026 22:29:33 GMT"
+     "title": "セコマ 57万件の個人情報漏えいか",
+     "link": "https://news.yahoo.co.jp/pickup/6596936?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 02:53:35 GMT"
     },
     {
-     "title": "「ベランダ」なしの新築増 背景は",
-     "link": "https://news.yahoo.co.jp/pickup/6596914?source=rss",
-     "pubDate": "Mon, 28 Sep 2026 23:04:58 GMT"
+     "title": "高橋塁 藍との対話契機にゲイ自認",
+     "link": "https://news.yahoo.co.jp/pickup/6596950?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 04:30:03 GMT"
     },
     {
-     "title": "オールMLB 日本選手5人候補入り",
-     "link": "https://news.yahoo.co.jp/pickup/6596908?source=rss",
-     "pubDate": "Mon, 28 Sep 2026 22:16:40 GMT"
+     "title": "ヤクルト田口麗斗ら6選手を戦力外",
+     "link": "https://news.yahoo.co.jp/pickup/6596946?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 03:46:33 GMT"
     },
     {
-     "title": "森保J 試合後に3人が病院直行",
-     "link": "https://news.yahoo.co.jp/pickup/6596902?source=rss",
-     "pubDate": "Mon, 28 Sep 2026 21:08:42 GMT"
+     "title": "timelesz寺西 猪俣周杜の騒動謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6596940?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 03:11:02 GMT"
     }
    ]
   }
