@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-30T12:48:40.427Z",
+ "updatedAt": "2026-09-30T18:10:31.477Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風26号 今夜遅く伊豆諸島に接近 千葉であす雨強まるおそれも",
+     "title": "台風26号 明け方にかけ伊豆諸島に接近 千葉で雨強まるおそれも",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53237",
-     "pubDate": "Wed, 30 Sep 2026 19:13:00 +0900"
+     "pubDate": "Thu, 01 Oct 2026 00:19:00 +0900"
     },
     {
-     "title": "富山市国勢調査人口水増し疑い 地方交付税が約2億円多く交付か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53460",
-     "pubDate": "Wed, 30 Sep 2026 20:27:23 +0900"
+     "title": "ふるさと納税 寄付募集経費上限引き下げ ルール厳格化 総務省",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53499",
+     "pubDate": "Thu, 01 Oct 2026 01:04:52 +0900"
     },
     {
-     "title": "兵庫 尼崎 妻の遺体損壊し川に遺棄か 医師の夫を逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53465",
-     "pubDate": "Wed, 30 Sep 2026 21:15:00 +0900"
+     "title": "外国人の在留許可に関する手数料 10月1日から引き上げ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53503",
+     "pubDate": "Thu, 01 Oct 2026 01:58:16 +0900"
     },
     {
-     "title": "【動画】ヒグマが停止中の車に襲いかかる 北海道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53426",
-     "pubDate": "Wed, 30 Sep 2026 20:01:35 +0900"
+     "title": "中国で「国慶節」大型連休始まる 日本への旅行者は減少見通し",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53487",
+     "pubDate": "Thu, 01 Oct 2026 03:04:44 +0900"
     },
     {
-     "title": "「核のごみ」文献調査 茨城 常陸大宮市長が受け入れを表明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53229",
-     "pubDate": "Wed, 30 Sep 2026 19:59:09 +0900"
+     "title": "中国の習近平国家主席 台湾統一に意欲示す 建国祝う行事で演説",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53502",
+     "pubDate": "Thu, 01 Oct 2026 02:15:23 +0900"
     },
     {
-     "title": "高市首相 来年度予算案編成に向け\"財政規模を精査”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53453",
-     "pubDate": "Wed, 30 Sep 2026 20:15:57 +0900"
+     "title": "イラン提案めぐり米から回答受け取る 双方に隔たりの報道も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53504",
+     "pubDate": "Thu, 01 Oct 2026 02:10:00 +0900"
     },
     {
-     "title": "OTC類似薬 患者追加負担 来年3月導入へ 厚労省が通知 対象薬は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53373",
-     "pubDate": "Wed, 30 Sep 2026 19:24:55 +0900"
+     "title": "西武渋谷店 58年の歴史に幕 デザイナーが語る“過去”“未来”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53266",
+     "pubDate": "Wed, 30 Sep 2026 22:31:00 +0900"
     }
    ]
   },
@@ -50,9 +50,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "茨城 常陸大宮市“核のごみ”文献調査受け入れ 地元理解が課題",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53507",
+     "pubDate": "Thu, 01 Oct 2026 02:53:36 +0900"
+    },
+    {
+     "title": "恋愛装い60代男性から1300万円余り詐取か 36歳女の容疑者逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53495",
+     "pubDate": "Thu, 01 Oct 2026 00:44:10 +0900"
+    },
+    {
+     "title": "賠償額引き上げ視野に見直し検討開始 法務省の研究会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53478",
+     "pubDate": "Wed, 30 Sep 2026 22:29:53 +0900"
+    },
+    {
+     "title": "ジャガイモ 害虫に強い「抵抗性品種」 食品大手で採用進む",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53420",
+     "pubDate": "Wed, 30 Sep 2026 22:22:11 +0900"
+    },
+    {
+     "title": "北海道大学 組織的なアカハラを認定 事実は公表せず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53440",
+     "pubDate": "Wed, 30 Sep 2026 22:05:04 +0900"
+    },
+    {
      "title": "中司大臣 旧優生保護法で謝罪“被害者補償に取り組む”",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53436",
-     "pubDate": "Wed, 30 Sep 2026 21:29:48 +0900"
+     "pubDate": "Wed, 30 Sep 2026 21:29:00 +0900"
     },
     {
      "title": "兵庫 尼崎 妻の遺体損壊し川に遺棄か 医師の夫を逮捕",
@@ -98,31 +123,6 @@
      "title": "全国学力テスト 平均正答率に大差なく下位層に地域差",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53369",
      "pubDate": "Wed, 30 Sep 2026 17:03:00 +0900"
-    },
-    {
-     "title": "屋内音楽イベント混雑事故“ヒヤリハット”40%余 消費者事故調",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53401",
-     "pubDate": "Wed, 30 Sep 2026 16:40:00 +0900"
-    },
-    {
-     "title": "岡山市の「裸祭り」の死亡事故受け来年の宝木争奪戦中止の方針",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53395",
-     "pubDate": "Wed, 30 Sep 2026 16:18:00 +0900"
-    },
-    {
-     "title": "ドラッグストアで医薬品窃盗疑いで逮捕 トクリュウ指示役か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53389",
-     "pubDate": "Wed, 30 Sep 2026 16:16:00 +0900"
-    },
-    {
-     "title": "声の無断使用は「パブリシティ権の侵害」の初判断",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53277",
-     "pubDate": "Wed, 30 Sep 2026 18:31:54 +0900"
-    },
-    {
-     "title": "水戸 ネイリスト殺害事件 元交際相手の被告に拘禁刑20年の判決",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53383",
-     "pubDate": "Wed, 30 Sep 2026 16:36:00 +0900"
     }
    ]
   },
@@ -214,6 +214,36 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "英首相 “EU再加盟検討もありうる”との考え示す 英メディアに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53490",
+     "pubDate": "Thu, 01 Oct 2026 02:21:50 +0900"
+    },
+    {
+     "title": "中国の習近平国家主席 台湾統一に意欲示す 建国祝う行事で演説",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53502",
+     "pubDate": "Thu, 01 Oct 2026 02:15:23 +0900"
+    },
+    {
+     "title": "イラン提案めぐり米から回答受け取る 双方に隔たりの報道も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53504",
+     "pubDate": "Thu, 01 Oct 2026 02:10:00 +0900"
+    },
+    {
+     "title": "タイ 大雨影響続き24人死亡 空港で荷物が滞留も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53434",
+     "pubDate": "Wed, 30 Sep 2026 22:46:00 +0900"
+    },
+    {
+     "title": "中国で「国慶節」大型連休始まる 日本への旅行者は減少見通し",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53487",
+     "pubDate": "Thu, 01 Oct 2026 03:04:44 +0900"
+    },
+    {
+     "title": "イスラエル行き旅客機が緊急着陸「当局はテロ事件として対応」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53443",
+     "pubDate": "Wed, 30 Sep 2026 22:10:00 +0900"
+    },
+    {
      "title": "中国の製造業の景況感指数PMI 3か月ぶりに「50」上回る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53385",
      "pubDate": "Wed, 30 Sep 2026 15:45:00 +0900"
@@ -257,36 +287,6 @@
      "title": "アメリカとイランの間接協議 双方とも妥協しない姿勢",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53236",
      "pubDate": "Wed, 30 Sep 2026 05:12:00 +0900"
-    },
-    {
-     "title": "英首相「EU離脱は恩恵より弊害の方が大きかった」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53235",
-     "pubDate": "Wed, 30 Sep 2026 04:59:00 +0900"
-    },
-    {
-     "title": "エストニア防衛企業への放火は「破壊工作」 ロシアは関与否定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53234",
-     "pubDate": "Wed, 30 Sep 2026 04:31:00 +0900"
-    },
-    {
-     "title": "トランプ大統領 AI規制に消極的な考え 中国とは競争の姿勢",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53233",
-     "pubDate": "Wed, 30 Sep 2026 03:53:00 +0900"
-    },
-    {
-     "title": "岩屋前外相が中国副首相と会談 中国高官との会談は2日連続",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53225",
-     "pubDate": "Wed, 30 Sep 2026 01:59:00 +0900"
-    },
-    {
-     "title": "ゼレンスキー大統領「北朝鮮軍がロシアに1万人の派兵準備」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53222",
-     "pubDate": "Wed, 30 Sep 2026 01:48:20 +0900"
-    },
-    {
-     "title": "三菱商事 カナダのLNG生産事業に追加投資",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53221",
-     "pubDate": "Wed, 30 Sep 2026 01:15:00 +0900"
     }
    ]
   },
@@ -296,39 +296,39 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風 30日夜から伊豆諸島に接近へ",
-     "link": "https://news.yahoo.co.jp/pickup/6597104?source=rss",
-     "pubDate": "Wed, 30 Sep 2026 10:49:32 GMT"
+     "title": "米軍 IS巡るイラクでの任務を終了",
+     "link": "https://news.yahoo.co.jp/pickup/6597112?source=rss",
+     "pubDate": "Wed, 30 Sep 2026 13:02:02 GMT"
     },
     {
-     "title": "25年度の介護費用 高齢化で最大に",
-     "link": "https://news.yahoo.co.jp/pickup/6597098?source=rss",
-     "pubDate": "Wed, 30 Sep 2026 09:48:54 GMT"
+     "title": "明治大 アラスカ先住民の遺骨返還",
+     "link": "https://news.yahoo.co.jp/pickup/6597095?source=rss",
+     "pubDate": "Wed, 30 Sep 2026 09:17:24 GMT"
     },
     {
-     "title": "麻生氏 土地3カ所の資産報告せず",
-     "link": "https://news.yahoo.co.jp/pickup/6597105?source=rss",
-     "pubDate": "Wed, 30 Sep 2026 11:14:59 GMT"
+     "title": "神戸発砲事件 死亡男性は会社役員",
+     "link": "https://news.yahoo.co.jp/pickup/6597119?source=rss",
+     "pubDate": "Wed, 30 Sep 2026 15:02:19 GMT"
     },
     {
-     "title": "8.2億円相当の暗号資産 詐欺被害",
-     "link": "https://news.yahoo.co.jp/pickup/6597089?source=rss",
-     "pubDate": "Wed, 30 Sep 2026 09:05:12 GMT"
+     "title": "世界大学ランキング 東北大に注目",
+     "link": "https://news.yahoo.co.jp/pickup/6597092?source=rss",
+     "pubDate": "Wed, 30 Sep 2026 14:37:27 GMT"
     },
     {
-     "title": "ゾウの「マック」死ぬ 王子動物園",
-     "link": "https://news.yahoo.co.jp/pickup/6597079?source=rss",
-     "pubDate": "Wed, 30 Sep 2026 08:07:43 GMT"
+     "title": "映画オデュッセイアの天候を考察",
+     "link": "https://news.yahoo.co.jp/pickup/6597117?source=rss",
+     "pubDate": "Wed, 30 Sep 2026 14:05:46 GMT"
     },
     {
-     "title": "オリ野上士耀さん死去 事件性なし",
-     "link": "https://news.yahoo.co.jp/pickup/6597107?source=rss",
-     "pubDate": "Wed, 30 Sep 2026 11:55:55 GMT"
+     "title": "オリ野上さん急逝 球団本部長が涙",
+     "link": "https://news.yahoo.co.jp/pickup/6597118?source=rss",
+     "pubDate": "Wed, 30 Sep 2026 15:03:35 GMT"
     },
     {
-     "title": "速報サッカー男子 日本vsウズベク",
-     "link": "https://news.yahoo.co.jp/pickup/6597103?source=rss",
-     "pubDate": "Wed, 30 Sep 2026 10:32:37 GMT"
+     "title": "サッカー男子 PK戦制し決勝進出",
+     "link": "https://news.yahoo.co.jp/pickup/6597115?source=rss",
+     "pubDate": "Wed, 30 Sep 2026 13:33:47 GMT"
     },
     {
      "title": "BRAHMAN・TOSHI-LOW がん公表",
