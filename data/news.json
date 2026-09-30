@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-29T21:06:24.137Z",
+ "updatedAt": "2026-09-30T00:35:41.589Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,29 +8,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風26号 伊豆諸島に近づく見込み 高波に警戒を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de52959",
-     "pubDate": "Tue, 29 Sep 2026 19:19:00 +0900"
+     "title": "台風26号 きょう夕方～あすにかけ伊豆諸島接近 千葉なども注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53237",
+     "pubDate": "Wed, 30 Sep 2026 07:03:00 +0900"
     },
     {
      "title": "政府 成長戦略実行に向け建設分野の労働力不足の対応策検討へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53230",
-     "pubDate": "Wed, 30 Sep 2026 02:16:28 +0900"
+     "pubDate": "Wed, 30 Sep 2026 02:16:00 +0900"
     },
     {
      "title": "核のごみ文献調査 茨城 常陸大宮市長が判断表明へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53229",
-     "pubDate": "Wed, 30 Sep 2026 02:05:14 +0900"
+     "pubDate": "Wed, 30 Sep 2026 02:05:00 +0900"
     },
     {
      "title": "政府・与党 臨時国会で消費税法案成立を 野党は論戦の構え",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53231",
-     "pubDate": "Wed, 30 Sep 2026 04:07:30 +0900"
+     "pubDate": "Wed, 30 Sep 2026 04:07:00 +0900"
     },
     {
      "title": "日本の教員 労働時間が長く給与満足度はOECD平均を下回る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53228",
-     "pubDate": "Wed, 30 Sep 2026 04:16:33 +0900"
+     "pubDate": "Wed, 30 Sep 2026 04:16:00 +0900"
     },
     {
      "title": "岩屋前外相が中国副首相と会談 中国高官との会談は2日連続",
@@ -50,9 +50,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "東京メトロ東西線 運転再開 葛西駅～茅場町駅",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53239",
+     "pubDate": "Wed, 30 Sep 2026 07:20:07 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（9月30日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53181",
+     "pubDate": "Wed, 30 Sep 2026 06:54:09 +0900"
+    },
+    {
      "title": "日本の教員 労働時間が長く給与満足度はOECD平均を下回る",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53228",
-     "pubDate": "Wed, 30 Sep 2026 04:16:33 +0900"
+     "pubDate": "Wed, 30 Sep 2026 04:16:00 +0900"
     },
     {
      "title": "市街地で「緊急銃猟」の訓練 鳥取 倉吉",
@@ -113,16 +123,6 @@
      "title": "日米の大規模実動演習実施へ 長射程ミサイル展開も予定",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53169",
      "pubDate": "Tue, 29 Sep 2026 18:40:43 +0900"
-    },
-    {
-     "title": "東京大学の新総長に藤垣裕子氏 女性の総長は大学創立以来初",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53079",
-     "pubDate": "Tue, 29 Sep 2026 18:33:00 +0900"
-    },
-    {
-     "title": "健保連決算見込み 2年連続黒字も保険料負担は過去最高更新",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53161",
-     "pubDate": "Tue, 29 Sep 2026 18:24:02 +0900"
     }
    ]
   },
@@ -134,7 +134,7 @@
     {
      "title": "核のごみ文献調査 茨城 常陸大宮市長が判断表明へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53229",
-     "pubDate": "Wed, 30 Sep 2026 02:05:14 +0900"
+     "pubDate": "Wed, 30 Sep 2026 02:05:00 +0900"
     },
     {
      "title": "関係悪化のなか 中国で日本のシティポップの音楽イベント",
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "国連で核廃絶会議 事務総長「冷戦終結後 最も危険な局面」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53243",
+     "pubDate": "Wed, 30 Sep 2026 09:19:53 +0900"
+    },
+    {
      "title": "アメリカ・イラン 間接協議、双方とも妥協しない姿勢",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53236",
      "pubDate": "Wed, 30 Sep 2026 05:12:25 +0900"
@@ -282,11 +287,6 @@
      "title": "マレーシアがミャンマー避難民の送還開始 人権団体懸念も",
      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53156",
      "pubDate": "Tue, 29 Sep 2026 18:20:00 +0900"
-    },
-    {
-     "title": "陸上自衛隊のトップが17年ぶりに韓国公式訪問",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53140",
-     "pubDate": "Tue, 29 Sep 2026 18:00:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "30日も関東は雨続く 台風の進路は",
-     "link": "https://news.yahoo.co.jp/pickup/6596973?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 09:12:33 GMT"
+     "title": "台風 あす八丈島など直撃見込み",
+     "link": "https://news.yahoo.co.jp/pickup/6597015?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 23:10:32 GMT"
     },
     {
-     "title": "修繕談合で再発防止を要請 国交省",
-     "link": "https://news.yahoo.co.jp/pickup/6597000?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 14:44:40 GMT"
+     "title": "北朝鮮 地雷爆発は韓国の自作自演",
+     "link": "https://news.yahoo.co.jp/pickup/6597020?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 23:54:35 GMT"
     },
     {
-     "title": "ドンキ トイザらス日本事業買収へ",
-     "link": "https://news.yahoo.co.jp/pickup/6596995?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 13:41:00 GMT"
+     "title": "道路でクマが車に複数回突進 破損",
+     "link": "https://news.yahoo.co.jp/pickup/6597005?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 21:58:58 GMT"
     },
     {
-     "title": "千葉支援 都営バスと運転手を派遣",
-     "link": "https://news.yahoo.co.jp/pickup/6596996?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 14:12:51 GMT"
+     "title": "早朝の高速バス乗り場に行列 千葉",
+     "link": "https://news.yahoo.co.jp/pickup/6597019?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 23:38:14 GMT"
     },
     {
-     "title": "出向の朝日新聞社員逮捕 傷害容疑",
-     "link": "https://news.yahoo.co.jp/pickup/6596998?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 14:14:32 GMT"
+     "title": "熱中症で娘倒れ寝たきり 父の訴え",
+     "link": "https://news.yahoo.co.jp/pickup/6597007?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 22:26:59 GMT"
     },
     {
-     "title": "批判350通に返事 せんとくん作者",
-     "link": "https://news.yahoo.co.jp/pickup/6596994?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 13:57:45 GMT"
+     "title": "ノジマ バイト大学生2人を店長に",
+     "link": "https://news.yahoo.co.jp/pickup/6597003?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 21:43:47 GMT"
     },
     {
-     "title": "ルヴァン杯2回戦 J1勢3チーム敗退",
-     "link": "https://news.yahoo.co.jp/pickup/6596997?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 14:08:27 GMT"
+     "title": "Wソックス ローマ教皇から手紙",
+     "link": "https://news.yahoo.co.jp/pickup/6597024?source=rss",
+     "pubDate": "Wed, 30 Sep 2026 00:25:30 GMT"
     },
     {
-     "title": "山本裕典が結婚 相手は一般女性",
-     "link": "https://news.yahoo.co.jp/pickup/6596999?source=rss",
-     "pubDate": "Tue, 29 Sep 2026 14:34:09 GMT"
+     "title": "巨人・板東湧梧 今季限りで引退へ",
+     "link": "https://news.yahoo.co.jp/pickup/6597018?source=rss",
+     "pubDate": "Tue, 29 Sep 2026 23:31:58 GMT"
     }
    ]
   }
