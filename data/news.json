@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-30T22:24:52.948Z",
+ "updatedAt": "2026-10-01T01:21:17.325Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風26号 伊豆諸島は強風 高波 落雷に注意 千葉で強い雨おそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53516",
-     "pubDate": "Thu, 01 Oct 2026 07:08:04 +0900"
+     "title": "日銀短観 大企業製造業の景気判断 6期連続で改善",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53527",
+     "pubDate": "Thu, 01 Oct 2026 08:54:28 +0900"
     },
     {
-     "title": "台風27号が発生 今後の情報に注意",
+     "title": "台風26号 伊豆諸島は強風 高波 落雷に注意 千葉で強い雨おそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53516",
+     "pubDate": "Thu, 01 Oct 2026 08:41:00 +0900"
+    },
+    {
+     "title": "台風27号が発生 日本のはるか南を北上見込み 今後の情報に注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53515",
-     "pubDate": "Thu, 01 Oct 2026 04:58:00 +0900"
+     "pubDate": "Thu, 01 Oct 2026 07:32:45 +0900"
     },
     {
      "title": "沖縄 宜野湾 女性殺害事件 首や周辺に複数の刺し傷",
@@ -23,19 +28,14 @@
      "pubDate": "Thu, 01 Oct 2026 03:16:00 +0900"
     },
     {
-     "title": "旅客機緊急着陸 イスラエル首相 「操縦士の1人が墜落企てた」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53511",
-     "pubDate": "Thu, 01 Oct 2026 04:13:00 +0900"
+     "title": "米FRB 本部改修工事めぐり 監察機関 “法律違反は確認されず”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53533",
+     "pubDate": "Thu, 01 Oct 2026 09:14:39 +0900"
     },
     {
      "title": "三島由紀夫 米出版社にあてた手紙多数発見 自身の作品売り込む",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53497",
      "pubDate": "Thu, 01 Oct 2026 05:35:00 +0900"
-    },
-    {
-     "title": "外国人材「育成就労制度」まで半年 日本語教育担い手確保課題",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53498",
-     "pubDate": "Thu, 01 Oct 2026 06:42:46 +0900"
     },
     {
      "title": "イラク駐留の米軍が撤退完了 治安悪化への懸念残る",
@@ -50,9 +50,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "【動画】Pickup NEWS（１０月１日）",
+     "title": "【通行止め】東京湾アクアライン上り線 複数の車が絡む事故で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53536",
+     "pubDate": "Thu, 01 Oct 2026 09:26:21 +0900"
+    },
+    {
+     "title": "神戸 連続発砲 現場近くで拳銃押収 元暴力団員が2事件に関与か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53522",
+     "pubDate": "Thu, 01 Oct 2026 08:17:22 +0900"
+    },
+    {
+     "title": "兵庫 尼崎 死体損壊事件 逮捕の夫 「かばんに入れて運んだ」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53519",
+     "pubDate": "Thu, 01 Oct 2026 08:05:44 +0900"
+    },
+    {
+     "title": "世界遺産 二条城の観覧料 京都市が「二重価格」導入方針固める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53517",
+     "pubDate": "Thu, 01 Oct 2026 07:59:51 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（10月1日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53441",
-     "pubDate": "Thu, 01 Oct 2026 07:00:21 +0900"
+     "pubDate": "Thu, 01 Oct 2026 10:14:35 +0900"
     },
     {
      "title": "外国人材「育成就労制度」まで半年 日本語教育担い手確保課題",
@@ -72,7 +92,7 @@
     {
      "title": "茨城 常陸大宮市“核のごみ”文献調査受け入れ 地元理解が課題",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53507",
-     "pubDate": "Thu, 01 Oct 2026 02:53:36 +0900"
+     "pubDate": "Thu, 01 Oct 2026 02:53:00 +0900"
     },
     {
      "title": "恋愛装い60代男性から1300万円余り詐取か 36歳女の容疑者逮捕",
@@ -103,26 +123,6 @@
      "title": "兵庫 尼崎 妻の遺体損壊し川に遺棄か 医師の夫を逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53465",
      "pubDate": "Wed, 30 Sep 2026 21:15:00 +0900"
-    },
-    {
-     "title": "大阪 道頓堀ビル火災 たばこポイ捨てで元従業員在宅起訴",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53464",
-     "pubDate": "Wed, 30 Sep 2026 20:42:00 +0900"
-    },
-    {
-     "title": "【動画】ヒグマが停止中の車に襲いかかる 北海道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53426",
-     "pubDate": "Wed, 30 Sep 2026 20:01:35 +0900"
-    },
-    {
-     "title": "熊本 氷川町 2階建ての仮設住宅整備 用地確保の課題に対応",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53425",
-     "pubDate": "Wed, 30 Sep 2026 19:58:00 +0900"
-    },
-    {
-     "title": "沖縄 宜野湾 23歳女性死亡 元交際相手のストーカー被害を相談",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53437",
-     "pubDate": "Wed, 30 Sep 2026 19:09:00 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米FRB 本部改修工事めぐり 監察機関 “法律違反は確認されず”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53533",
+     "pubDate": "Thu, 01 Oct 2026 09:14:39 +0900"
+    },
+    {
+     "title": "アメリカ長期金利が一時5.3％台に 約19年ぶりの高い水準",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53530",
+     "pubDate": "Thu, 01 Oct 2026 08:33:35 +0900"
+    },
+    {
      "title": "プーチン大統領 領土めぐり譲歩せず侵攻続ける姿勢 議会演説で",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53512",
      "pubDate": "Thu, 01 Oct 2026 05:24:00 +0900"
@@ -264,7 +274,7 @@
      "pubDate": "Wed, 30 Sep 2026 15:45:00 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月30日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（9月30日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260828de47018",
      "pubDate": "Wed, 30 Sep 2026 15:43:00 +0900"
     },
@@ -277,16 +287,6 @@
      "title": "世界大学ランキング アジアの存在感増す一方 東大は順位下げる",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53347",
      "pubDate": "Wed, 30 Sep 2026 14:32:00 +0900"
-    },
-    {
-     "title": "北朝鮮 キム・ヨジョン氏 韓国兵負傷の地雷爆発は“自作自演”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53327",
-     "pubDate": "Wed, 30 Sep 2026 13:07:00 +0900"
-    },
-    {
-     "title": "米トランプ大統領 北朝鮮のキム総書記との関係良好と強調",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53273",
-     "pubDate": "Wed, 30 Sep 2026 11:38:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風が関東接近へ 千葉は大雨恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6597124?source=rss",
-     "pubDate": "Wed, 30 Sep 2026 21:42:46 GMT"
+     "title": "農相 地元自治体の予算カット発言",
+     "link": "https://news.yahoo.co.jp/pickup/6597135?source=rss",
+     "pubDate": "Wed, 30 Sep 2026 23:44:32 GMT"
     },
     {
-     "title": "米軍 IS巡るイラクでの任務を終了",
-     "link": "https://news.yahoo.co.jp/pickup/6597112?source=rss",
-     "pubDate": "Wed, 30 Sep 2026 13:02:02 GMT"
+     "title": "首相の所信表明演説 原案が判明",
+     "link": "https://news.yahoo.co.jp/pickup/6597134?source=rss",
+     "pubDate": "Wed, 30 Sep 2026 23:38:27 GMT"
     },
     {
-     "title": "テルアビブ便 副操縦士が機長刺す",
-     "link": "https://news.yahoo.co.jp/pickup/6597126?source=rss",
-     "pubDate": "Wed, 30 Sep 2026 22:17:08 GMT"
+     "title": "テルアビブ便 乗客らが襲撃者制圧",
+     "link": "https://news.yahoo.co.jp/pickup/6597138?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 00:33:56 GMT"
     },
     {
-     "title": "神戸発砲事件 死亡男性は会社役員",
-     "link": "https://news.yahoo.co.jp/pickup/6597119?source=rss",
-     "pubDate": "Wed, 30 Sep 2026 15:02:19 GMT"
+     "title": "トヨタ 祝日勤務の業界慣行見直し",
+     "link": "https://news.yahoo.co.jp/pickup/6597133?source=rss",
+     "pubDate": "Wed, 30 Sep 2026 23:21:00 GMT"
     },
     {
-     "title": "世界大学ランキング 東北大に注目",
-     "link": "https://news.yahoo.co.jp/pickup/6597092?source=rss",
-     "pubDate": "Wed, 30 Sep 2026 14:37:27 GMT"
+     "title": "NTT東西 固定電話の通話料値上げ",
+     "link": "https://news.yahoo.co.jp/pickup/6597140?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 00:53:03 GMT"
     },
     {
-     "title": "オリ野上さん急逝 球団本部長が涙",
-     "link": "https://news.yahoo.co.jp/pickup/6597118?source=rss",
-     "pubDate": "Wed, 30 Sep 2026 15:03:35 GMT"
+     "title": "飼い犬発見し車外へ はねられ重体",
+     "link": "https://news.yahoo.co.jp/pickup/6597137?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 00:31:21 GMT"
     },
     {
-     "title": "ハチミツ二郎が会見 笑い絶えず",
-     "link": "https://news.yahoo.co.jp/pickup/6597125?source=rss",
-     "pubDate": "Wed, 30 Sep 2026 22:12:27 GMT"
+     "title": "Wソックス連勝 地区シリーズ進出",
+     "link": "https://news.yahoo.co.jp/pickup/6597142?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 01:08:24 GMT"
     },
     {
-     "title": "おぼっちゃまくん 35年ぶり復活へ",
-     "link": "https://news.yahoo.co.jp/pickup/6597122?source=rss",
-     "pubDate": "Wed, 30 Sep 2026 21:23:46 GMT"
+     "title": "timelesz猪俣氏 事務所が契約解除",
+     "link": "https://news.yahoo.co.jp/pickup/6597139?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 00:26:17 GMT"
     }
    ]
   }
