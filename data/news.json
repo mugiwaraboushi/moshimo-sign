@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-01T01:21:17.325Z",
+ "updatedAt": "2026-10-01T07:17:28.049Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "日銀短観 大企業製造業の景気判断 6期連続で改善",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53527",
-     "pubDate": "Thu, 01 Oct 2026 08:54:28 +0900"
+     "title": "【ライブ中】ニデック 戒田理夫新社長らが記者会見",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53606",
+     "pubDate": "Thu, 01 Oct 2026 16:00:00 +0900"
     },
     {
-     "title": "台風26号 伊豆諸島は強風 高波 落雷に注意 千葉で強い雨おそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53516",
-     "pubDate": "Thu, 01 Oct 2026 08:41:00 +0900"
+     "title": "広島 4選手と来季契約結ばず 球団「信頼関係築くのが難しい」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53613",
+     "pubDate": "Thu, 01 Oct 2026 14:57:00 +0900"
     },
     {
-     "title": "台風27号が発生 日本のはるか南を北上見込み 今後の情報に注意",
+     "title": "台風27号が発生 日本のはるか南 進路予報に幅も最新情報確認を",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53515",
-     "pubDate": "Thu, 01 Oct 2026 07:32:45 +0900"
+     "pubDate": "Thu, 01 Oct 2026 12:02:00 +0900"
     },
     {
-     "title": "沖縄 宜野湾 女性殺害事件 首や周辺に複数の刺し傷",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53508",
-     "pubDate": "Thu, 01 Oct 2026 03:16:00 +0900"
+     "title": "東京湾アクアライン 車4台が関係する事故 2人死亡3人けが",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53536",
+     "pubDate": "Thu, 01 Oct 2026 15:32:27 +0900"
     },
     {
-     "title": "米FRB 本部改修工事めぐり 監察機関 “法律違反は確認されず”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53533",
-     "pubDate": "Thu, 01 Oct 2026 09:14:39 +0900"
+     "title": "イスラエル行き旅客機 緊急着陸 副操縦士が機長を刺したか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53581",
+     "pubDate": "Thu, 01 Oct 2026 12:59:00 +0900"
     },
     {
-     "title": "三島由紀夫 米出版社にあてた手紙多数発見 自身の作品売り込む",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53497",
-     "pubDate": "Thu, 01 Oct 2026 05:35:00 +0900"
+     "title": "「timelesz」猪俣周杜メンバーの契約解除 所属事務所が発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53556",
+     "pubDate": "Thu, 01 Oct 2026 11:38:13 +0900"
     },
     {
-     "title": "イラク駐留の米軍が撤退完了 治安悪化への懸念残る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53501",
-     "pubDate": "Thu, 01 Oct 2026 06:01:00 +0900"
+     "title": "TBSテレビ ドラマ「VIVANT」監督をパワハラで処分",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53513",
+     "pubDate": "Thu, 01 Oct 2026 05:05:00 +0900"
     }
    ]
   },
@@ -50,9 +50,64 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "【通行止め】東京湾アクアライン上り線 複数の車が絡む事故で",
+     "title": "東京地検特捜部検事の取り調べめぐる国賠訴訟 判決は来年1月",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53639",
+     "pubDate": "Thu, 01 Oct 2026 16:15:40 +0900"
+    },
+    {
+     "title": "東京国税局で初の内定式 国税専門官の魅力伝える",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53617",
+     "pubDate": "Thu, 01 Oct 2026 15:49:00 +0900"
+    },
+    {
+     "title": "中部電力新社長が御前崎市役所訪問「信頼回復を最優先」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53607",
+     "pubDate": "Thu, 01 Oct 2026 14:30:49 +0900"
+    },
+    {
+     "title": "日本GHGセンター発足 気候変動対策を後押し",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53590",
+     "pubDate": "Thu, 01 Oct 2026 14:07:23 +0900"
+    },
+    {
+     "title": "ソフトバンク子会社の元常務を逮捕 1億7000万円着服か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53598",
+     "pubDate": "Thu, 01 Oct 2026 13:11:10 +0900"
+    },
+    {
+     "title": "沖縄 古謝知事就任に伴い「辺野古新基地建設問題対策課」廃止",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53579",
+     "pubDate": "Thu, 01 Oct 2026 12:43:34 +0900"
+    },
+    {
+     "title": "公証人による遺言などの無料電話相談 受け付け始まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53573",
+     "pubDate": "Thu, 01 Oct 2026 12:13:00 +0900"
+    },
+    {
+     "title": "東京メトロ 車両の混雑状況を床に投影でラッシュ緩和へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53564",
+     "pubDate": "Thu, 01 Oct 2026 11:55:00 +0900"
+    },
+    {
+     "title": "中国大使館侵入事件 元自衛官 侵入など認め脅迫は無罪主張",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53561",
+     "pubDate": "Thu, 01 Oct 2026 12:47:57 +0900"
+    },
+    {
+     "title": "「timelesz」猪俣周杜メンバーの契約解除 所属事務所が発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53556",
+     "pubDate": "Thu, 01 Oct 2026 11:38:13 +0900"
+    },
+    {
+     "title": "カスハラ対策を企業に義務づけ 就活生などへのセクハラ対策も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53500",
+     "pubDate": "Thu, 01 Oct 2026 10:32:17 +0900"
+    },
+    {
+     "title": "東京湾アクアライン 車4台が関係する事故 2人死亡3人けが",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53536",
-     "pubDate": "Thu, 01 Oct 2026 09:26:21 +0900"
+     "pubDate": "Thu, 01 Oct 2026 15:32:27 +0900"
     },
     {
      "title": "神戸 連続発砲 現場近くで拳銃押収 元暴力団員が2事件に関与か",
@@ -60,69 +115,14 @@
      "pubDate": "Thu, 01 Oct 2026 08:17:22 +0900"
     },
     {
-     "title": "兵庫 尼崎 死体損壊事件 逮捕の夫 「かばんに入れて運んだ」",
+     "title": "兵庫 尼崎 遺体損壊事件 逮捕の夫 「かばんに入れて運んだ」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53519",
-     "pubDate": "Thu, 01 Oct 2026 08:05:44 +0900"
+     "pubDate": "Thu, 01 Oct 2026 08:05:00 +0900"
     },
     {
      "title": "世界遺産 二条城の観覧料 京都市が「二重価格」導入方針固める",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53517",
      "pubDate": "Thu, 01 Oct 2026 07:59:51 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（10月1日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53441",
-     "pubDate": "Thu, 01 Oct 2026 10:14:35 +0900"
-    },
-    {
-     "title": "外国人材「育成就労制度」まで半年 日本語教育担い手確保課題",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53498",
-     "pubDate": "Thu, 01 Oct 2026 06:42:46 +0900"
-    },
-    {
-     "title": "TBSテレビ ドラマ「VIVANT」監督をパワハラで処分",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53513",
-     "pubDate": "Thu, 01 Oct 2026 05:05:00 +0900"
-    },
-    {
-     "title": "沖縄 宜野湾 女性殺害事件 首や周辺に複数の刺し傷",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53508",
-     "pubDate": "Thu, 01 Oct 2026 03:16:00 +0900"
-    },
-    {
-     "title": "茨城 常陸大宮市“核のごみ”文献調査受け入れ 地元理解が課題",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53507",
-     "pubDate": "Thu, 01 Oct 2026 02:53:00 +0900"
-    },
-    {
-     "title": "恋愛装い60代男性から1300万円余り詐取か 36歳女の容疑者逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53495",
-     "pubDate": "Thu, 01 Oct 2026 00:44:10 +0900"
-    },
-    {
-     "title": "賠償額引き上げ視野に見直し検討開始 法務省の研究会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53478",
-     "pubDate": "Wed, 30 Sep 2026 22:29:53 +0900"
-    },
-    {
-     "title": "ジャガイモ 害虫に強い「抵抗性品種」 食品大手で採用進む",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53420",
-     "pubDate": "Wed, 30 Sep 2026 22:22:11 +0900"
-    },
-    {
-     "title": "北海道大学 組織的なアカハラを認定 事実は公表せず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53440",
-     "pubDate": "Wed, 30 Sep 2026 22:05:04 +0900"
-    },
-    {
-     "title": "中司大臣 旧優生保護法で謝罪“被害者補償に取り組む”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53436",
-     "pubDate": "Wed, 30 Sep 2026 21:29:00 +0900"
-    },
-    {
-     "title": "兵庫 尼崎 妻の遺体損壊し川に遺棄か 医師の夫を逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53465",
-     "pubDate": "Wed, 30 Sep 2026 21:15:00 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "日本GHGセンター発足 気候変動対策を後押し",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53590",
+     "pubDate": "Thu, 01 Oct 2026 14:07:23 +0900"
+    },
+    {
+     "title": "ノーベル賞 5日から発表 日本から“3年連続受賞”なるか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53274",
+     "pubDate": "Thu, 01 Oct 2026 12:36:25 +0900"
+    },
     {
      "title": "三島由紀夫 米出版社にあてた手紙多数発見 自身の作品売り込む",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53497",
@@ -195,16 +205,6 @@
      "title": "人型ロボット事業 中国に拠点開設や現地企業と協業の動き",
      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52740",
      "pubDate": "Mon, 28 Sep 2026 06:28:07 +0900"
-    },
-    {
-     "title": "技能五輪 日本は金2個含むメダル10個獲得 2年後は愛知県で開催",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260928de52753",
-     "pubDate": "Mon, 28 Sep 2026 06:26:00 +0900"
-    },
-    {
-     "title": "日本学術会議 法人化前に元会長らがシンポジウムで講演",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260927de52725",
-     "pubDate": "Sun, 27 Sep 2026 21:33:10 +0900"
     }
    ]
   },
@@ -213,6 +213,41 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "韓国大統領 地雷被害で北朝鮮批判避ける 対抗措置求める声も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53618",
+     "pubDate": "Thu, 01 Oct 2026 15:22:00 +0900"
+    },
+    {
+     "title": "イスラエル行き旅客機 緊急着陸 副操縦士が機長を刺したか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53581",
+     "pubDate": "Thu, 01 Oct 2026 12:59:00 +0900"
+    },
+    {
+     "title": "ノーベル賞 5日から発表 日本から“3年連続受賞”なるか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53274",
+     "pubDate": "Thu, 01 Oct 2026 12:36:25 +0900"
+    },
+    {
+     "title": "BMW管理職20％削減 ドイツ自動車大手で人員削減相次ぐ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53565",
+     "pubDate": "Thu, 01 Oct 2026 11:49:00 +0900"
+    },
+    {
+     "title": "中国大使館侵入事件 元自衛官 侵入など認め脅迫は無罪主張",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53561",
+     "pubDate": "Thu, 01 Oct 2026 12:47:57 +0900"
+    },
+    {
+     "title": "米国防総省 マスク氏らを招き将来の戦闘について検討へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53555",
+     "pubDate": "Thu, 01 Oct 2026 11:32:00 +0900"
+    },
+    {
+     "title": "トランプ大統領 韓国のアラスカ投資発表 韓国側と認識に違いか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53557",
+     "pubDate": "Thu, 01 Oct 2026 11:31:00 +0900"
+    },
     {
      "title": "米FRB 本部改修工事めぐり 監察機関 “法律違反は確認されず”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53533",
@@ -252,41 +287,6 @@
      "title": "イラン提案めぐり米から回答受け取る 双方に隔たりの報道も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53504",
      "pubDate": "Thu, 01 Oct 2026 02:10:00 +0900"
-    },
-    {
-     "title": "タイ 大雨影響続き24人死亡 空港で荷物が滞留も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53434",
-     "pubDate": "Wed, 30 Sep 2026 22:46:00 +0900"
-    },
-    {
-     "title": "中国で「国慶節」大型連休始まる 日本への旅行者は減少見通し",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53487",
-     "pubDate": "Thu, 01 Oct 2026 03:04:44 +0900"
-    },
-    {
-     "title": "イスラエル行き旅客機が緊急着陸「当局はテロ事件として対応」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53443",
-     "pubDate": "Wed, 30 Sep 2026 22:10:00 +0900"
-    },
-    {
-     "title": "中国の製造業の景況感指数PMI 3か月ぶりに「50」上回る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53385",
-     "pubDate": "Wed, 30 Sep 2026 15:45:00 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（9月30日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260828de47018",
-     "pubDate": "Wed, 30 Sep 2026 15:43:00 +0900"
-    },
-    {
-     "title": "オープンAI 社内で安全性懸念の警告あるも会社側が無視 米報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53376",
-     "pubDate": "Wed, 30 Sep 2026 15:29:18 +0900"
-    },
-    {
-     "title": "世界大学ランキング アジアの存在感増す一方 東大は順位下げる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53347",
-     "pubDate": "Wed, 30 Sep 2026 14:32:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "農相 地元自治体の予算カット発言",
-     "link": "https://news.yahoo.co.jp/pickup/6597135?source=rss",
-     "pubDate": "Wed, 30 Sep 2026 23:44:32 GMT"
+     "title": "中継 ニデック新社長らが記者会見",
+     "link": "https://news.yahoo.co.jp/pickup/6597174?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 07:00:01 GMT"
     },
     {
-     "title": "首相の所信表明演説 原案が判明",
-     "link": "https://news.yahoo.co.jp/pickup/6597134?source=rss",
-     "pubDate": "Wed, 30 Sep 2026 23:38:27 GMT"
+     "title": "食料品の消費減税法案 概要判明",
+     "link": "https://news.yahoo.co.jp/pickup/6597165?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 05:20:06 GMT"
     },
     {
-     "title": "テルアビブ便 乗客らが襲撃者制圧",
-     "link": "https://news.yahoo.co.jp/pickup/6597138?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 00:33:56 GMT"
+     "title": "アクアラインで多重事故 2人死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6597171?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 06:22:08 GMT"
     },
     {
-     "title": "トヨタ 祝日勤務の業界慣行見直し",
-     "link": "https://news.yahoo.co.jp/pickup/6597133?source=rss",
-     "pubDate": "Wed, 30 Sep 2026 23:21:00 GMT"
+     "title": "病院でチューブ誤挿入 意識不明",
+     "link": "https://news.yahoo.co.jp/pickup/6597160?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 04:00:03 GMT"
     },
     {
-     "title": "NTT東西 固定電話の通話料値上げ",
-     "link": "https://news.yahoo.co.jp/pickup/6597140?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 00:53:03 GMT"
+     "title": "「ヴァンビ」 白井容疑者を逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6597167?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 05:39:27 GMT"
     },
     {
-     "title": "飼い犬発見し車外へ はねられ重体",
-     "link": "https://news.yahoo.co.jp/pickup/6597137?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 00:31:21 GMT"
+     "title": "広島 小園・矢野ら4選手を戦力外",
+     "link": "https://news.yahoo.co.jp/pickup/6597166?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 05:04:39 GMT"
     },
     {
-     "title": "Wソックス連勝 地区シリーズ進出",
-     "link": "https://news.yahoo.co.jp/pickup/6597142?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 01:08:24 GMT"
+     "title": "野上さん急逝受け オリ自主練習に",
+     "link": "https://news.yahoo.co.jp/pickup/6597163?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 04:45:18 GMT"
     },
     {
-     "title": "timelesz猪俣氏 事務所が契約解除",
-     "link": "https://news.yahoo.co.jp/pickup/6597139?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 00:26:17 GMT"
+     "title": "伊東四朗 来年6月で芸能活動引退",
+     "link": "https://news.yahoo.co.jp/pickup/6597162?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 04:23:15 GMT"
     }
    ]
   }
