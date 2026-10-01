@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-01T14:36:39.537Z",
+ "updatedAt": "2026-10-01T19:56:07.384Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,29 +18,29 @@
      "pubDate": "Thu, 01 Oct 2026 22:05:49 +0900"
     },
     {
-     "title": "出産無償化へ 厚労省検討会初会合 ことし12月めどにとりまとめ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53728",
-     "pubDate": "Thu, 01 Oct 2026 20:56:58 +0900"
+     "title": "【地震速報】鹿児島 十島村で震度3 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53192",
+     "pubDate": "Fri, 02 Oct 2026 04:51:54 +0900"
     },
     {
-     "title": "青森みちのく銀行 岩手銀行 秋田銀行が経営統合協議へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53731",
-     "pubDate": "Thu, 01 Oct 2026 22:29:31 +0900"
+     "title": "佐川急便に不正アクセス 住所など個人情報が漏えいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53762",
+     "pubDate": "Fri, 02 Oct 2026 00:37:58 +0900"
     },
     {
-     "title": "ふるさと納税返礼品の牛肉等級を偽装か 元取締役再逮捕 鹿児島",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53694",
-     "pubDate": "Thu, 01 Oct 2026 19:20:00 +0900"
+     "title": "「副首都」要件案判明 人口全国の1.2％以上など 4市満たす",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53765",
+     "pubDate": "Fri, 02 Oct 2026 02:30:40 +0900"
     },
     {
-     "title": "米タイム誌“次世代の100人”に産休取得の京都 八幡市長",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53691",
-     "pubDate": "Thu, 01 Oct 2026 19:09:00 +0900"
+     "title": "パキスタンがアフガニスタン攻撃 対立の激化懸念",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53735",
+     "pubDate": "Thu, 01 Oct 2026 21:47:00 +0900"
     },
     {
-     "title": "【地震速報】茨城県と千葉県で震度3",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53739",
-     "pubDate": "Thu, 01 Oct 2026 22:02:26 +0900"
+     "title": "ICC赤根所長への制裁撤回求める17万筆余の署名を提出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53764",
+     "pubDate": "Fri, 02 Oct 2026 00:46:10 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ICC赤根所長への制裁撤回求める17万筆余の署名を提出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53764",
+     "pubDate": "Fri, 02 Oct 2026 00:46:10 +0900"
+    },
+    {
      "title": "パキスタンがアフガニスタン攻撃 対立の激化懸念",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53735",
      "pubDate": "Thu, 01 Oct 2026 21:47:00 +0900"
@@ -234,9 +239,9 @@
      "pubDate": "Thu, 01 Oct 2026 19:09:00 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月1日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（10月1日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53263",
-     "pubDate": "Thu, 01 Oct 2026 20:38:53 +0900"
+     "pubDate": "Thu, 01 Oct 2026 20:38:00 +0900"
     },
     {
      "title": "ドイツ首相来日前に 両政府 有事の国民退避で協力強化の覚書",
@@ -282,11 +287,6 @@
      "title": "米FRB 本部改修工事めぐり 監察機関 “法律違反は確認されず”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53533",
      "pubDate": "Thu, 01 Oct 2026 09:14:39 +0900"
-    },
-    {
-     "title": "アメリカ長期金利が一時5.3％台に 約19年ぶりの高い水準",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53530",
-     "pubDate": "Thu, 01 Oct 2026 08:33:35 +0900"
     }
    ]
   },
@@ -301,9 +301,14 @@
      "pubDate": "Thu, 01 Oct 2026 11:19:26 GMT"
     },
     {
-     "title": "ビール類の税率一本化 競争激化へ",
-     "link": "https://news.yahoo.co.jp/pickup/6597199?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 10:02:01 GMT"
+     "title": "早紀江さん 拉致巡り「いらだち」",
+     "link": "https://news.yahoo.co.jp/pickup/6597193?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 09:08:46 GMT"
+    },
+    {
+     "title": "男性が首刺される 隣人の男を逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6597221?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 14:55:44 GMT"
     },
     {
      "title": "無許可でモスク建設 市が撤去命令",
@@ -311,9 +316,9 @@
      "pubDate": "Thu, 01 Oct 2026 11:37:03 GMT"
     },
     {
-     "title": "「果樹カメムシ類」巡り警報 静岡",
-     "link": "https://news.yahoo.co.jp/pickup/6597217?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 14:02:02 GMT"
+     "title": "スイス氷河 過去5年で2割消失",
+     "link": "https://news.yahoo.co.jp/pickup/6597220?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 14:38:16 GMT"
     },
     {
      "title": "マックのドナルド 「ロナルド」に",
@@ -321,14 +326,9 @@
      "pubDate": "Thu, 01 Oct 2026 12:24:25 GMT"
     },
     {
-     "title": "PK止めた鈴木彩艶 大声援に感謝",
-     "link": "https://news.yahoo.co.jp/pickup/6597218?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 14:13:34 GMT"
-    },
-    {
-     "title": "猪狩ともか 仮面女子から卒業発表",
-     "link": "https://news.yahoo.co.jp/pickup/6597219?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 14:22:58 GMT"
+     "title": "こめお「割烹こめを」閉店を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6597202?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 10:28:28 GMT"
     },
     {
      "title": "芸能界 活動進退の報告が相次ぐ",
