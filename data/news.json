@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-01T19:56:07.384Z",
+ "updatedAt": "2026-10-01T23:33:09.759Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風27号 勢力を強めながら日曜日ごろ小笠原近海へ進む見込み",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53515",
-     "pubDate": "Thu, 01 Oct 2026 18:50:46 +0900"
+     "title": "「副首都」要件案判明 人口全国の1.2％以上など 4市満たす",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53765",
+     "pubDate": "Fri, 02 Oct 2026 02:30:40 +0900"
     },
     {
      "title": "イスラエル行き旅客機 緊急着陸 副操縦士が機長を刺したか",
@@ -18,9 +18,14 @@
      "pubDate": "Thu, 01 Oct 2026 22:05:49 +0900"
     },
     {
-     "title": "【地震速報】鹿児島 十島村で震度3 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260929de53192",
-     "pubDate": "Fri, 02 Oct 2026 04:51:54 +0900"
+     "title": "台風27号 4日には小笠原近海へ進む見込み 今後の情報に注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53779",
+     "pubDate": "Fri, 02 Oct 2026 07:16:20 +0900"
+    },
+    {
+     "title": "イスラエル首相「副操縦士はイスラム過激思想に洗脳」主張",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53772",
+     "pubDate": "Fri, 02 Oct 2026 06:42:44 +0900"
     },
     {
      "title": "佐川急便に不正アクセス 住所など個人情報が漏えいか",
@@ -28,19 +33,14 @@
      "pubDate": "Fri, 02 Oct 2026 00:37:58 +0900"
     },
     {
-     "title": "「副首都」要件案判明 人口全国の1.2％以上など 4市満たす",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53765",
-     "pubDate": "Fri, 02 Oct 2026 02:30:40 +0900"
+     "title": "相次ぐ不祥事受け社長交代のニデック 上場維持できるかが焦点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53755",
+     "pubDate": "Fri, 02 Oct 2026 05:33:22 +0900"
     },
     {
-     "title": "パキスタンがアフガニスタン攻撃 対立の激化懸念",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53735",
-     "pubDate": "Thu, 01 Oct 2026 21:47:00 +0900"
-    },
-    {
-     "title": "ICC赤根所長への制裁撤回求める17万筆余の署名を提出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53764",
-     "pubDate": "Fri, 02 Oct 2026 00:46:10 +0900"
+     "title": "ロシア 飛び地めぐりNATOに警告文書「核兵器使用も辞さない」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53773",
+     "pubDate": "Fri, 02 Oct 2026 05:30:30 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "8月の有効求人倍率 全国平均で1.18倍 前月と同水準",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53744",
+     "pubDate": "Fri, 02 Oct 2026 08:32:07 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（10月2日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53690",
+     "pubDate": "Fri, 02 Oct 2026 07:02:38 +0900"
+    },
     {
      "title": "注目の再生プラスチックなど 最新リサイクル技術の展示会",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53747",
@@ -113,16 +123,6 @@
      "title": "新種カイミジンコに「ヒゲじい」の名 NHK“ダーウィン”で発見",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53648",
      "pubDate": "Thu, 01 Oct 2026 18:43:00 +0900"
-    },
-    {
-     "title": "最低賃金 1日から順次引き上げ 全国最高の東京は時給1280円に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53677",
-     "pubDate": "Thu, 01 Oct 2026 18:10:00 +0900"
-    },
-    {
-     "title": "ＪＲ内房線 台風25号で運休の一部区間 都営バスが支援運行開始",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53665",
-     "pubDate": "Thu, 01 Oct 2026 17:58:33 +0900"
     }
    ]
   },
@@ -214,6 +214,41 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月2日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53290",
+     "pubDate": "Fri, 02 Oct 2026 08:21:38 +0900"
+    },
+    {
+     "title": "プーチン大統領 日ロは困難を乗り越えたあと互恵的関係に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53774",
+     "pubDate": "Fri, 02 Oct 2026 08:23:14 +0900"
+    },
+    {
+     "title": "イエメン戦闘激化 ジブチで避難民増加 国連機関が支援物資訴え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53766",
+     "pubDate": "Fri, 02 Oct 2026 07:50:05 +0900"
+    },
+    {
+     "title": "小野寺元防衛相がウクライナ訪問 ゼレンスキー大統領と会談",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53778",
+     "pubDate": "Fri, 02 Oct 2026 07:28:18 +0900"
+    },
+    {
+     "title": "ロシア 飛び地めぐりNATOに警告文書「核兵器使用も辞さない」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53773",
+     "pubDate": "Fri, 02 Oct 2026 05:30:30 +0900"
+    },
+    {
+     "title": "ドイツ・ウクライナの合弁会社が無人機生産 NHKに初公開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53771",
+     "pubDate": "Fri, 02 Oct 2026 05:21:30 +0900"
+    },
+    {
+     "title": "イスラエル首相「副操縦士はイスラム過激思想に洗脳」主張",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53772",
+     "pubDate": "Fri, 02 Oct 2026 06:42:44 +0900"
+    },
+    {
      "title": "ICC赤根所長への制裁撤回求める17万筆余の署名を提出",
      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53764",
      "pubDate": "Fri, 02 Oct 2026 00:46:10 +0900"
@@ -252,41 +287,6 @@
      "title": "韓国大統領 地雷被害で北朝鮮批判避ける 対抗措置求める声も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53618",
      "pubDate": "Thu, 01 Oct 2026 15:22:00 +0900"
-    },
-    {
-     "title": "イスラエル行き旅客機 緊急着陸 副操縦士が機長を刺したか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53581",
-     "pubDate": "Thu, 01 Oct 2026 22:05:49 +0900"
-    },
-    {
-     "title": "ノーベル賞 5日から発表 日本から“3年連続受賞”なるか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53274",
-     "pubDate": "Thu, 01 Oct 2026 12:36:00 +0900"
-    },
-    {
-     "title": "BMW管理職20％削減 ドイツ自動車大手で人員削減相次ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53565",
-     "pubDate": "Thu, 01 Oct 2026 11:49:00 +0900"
-    },
-    {
-     "title": "中国大使館侵入事件 元自衛官 侵入など認め脅迫は無罪主張",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53561",
-     "pubDate": "Thu, 01 Oct 2026 12:47:57 +0900"
-    },
-    {
-     "title": "米国防総省 マスク氏らを招き将来の戦闘について検討へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53555",
-     "pubDate": "Thu, 01 Oct 2026 11:32:00 +0900"
-    },
-    {
-     "title": "トランプ大統領 韓国のアラスカ投資発表 韓国側と認識に違いか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53557",
-     "pubDate": "Thu, 01 Oct 2026 11:31:00 +0900"
-    },
-    {
-     "title": "米FRB 本部改修工事めぐり 監察機関 “法律違反は確認されず”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53533",
-     "pubDate": "Thu, 01 Oct 2026 09:14:39 +0900"
     }
    ]
   },
@@ -296,39 +296,39 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "統一地方選 4月11・25日投票へ",
-     "link": "https://news.yahoo.co.jp/pickup/6597206?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 11:19:26 GMT"
+     "title": "トランプ氏 習氏へ日中対話促す",
+     "link": "https://news.yahoo.co.jp/pickup/6597227?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 22:11:42 GMT"
     },
     {
-     "title": "早紀江さん 拉致巡り「いらだち」",
-     "link": "https://news.yahoo.co.jp/pickup/6597193?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 09:08:46 GMT"
+     "title": "台風27号 4日～小笠原近海北上か",
+     "link": "https://news.yahoo.co.jp/pickup/6597225?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 21:57:13 GMT"
     },
     {
-     "title": "男性が首刺される 隣人の男を逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6597221?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 14:55:44 GMT"
+     "title": "男性切りつけられる 隣人の男逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6597232?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 22:50:47 GMT"
     },
     {
-     "title": "無許可でモスク建設 市が撤去命令",
-     "link": "https://news.yahoo.co.jp/pickup/6597207?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 11:37:03 GMT"
+     "title": "米死刑囚への刑執行が「失敗」",
+     "link": "https://news.yahoo.co.jp/pickup/6597226?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 22:00:25 GMT"
     },
     {
-     "title": "スイス氷河 過去5年で2割消失",
-     "link": "https://news.yahoo.co.jp/pickup/6597220?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 14:38:16 GMT"
+     "title": "ブルーカラー人気 背景に人手不足",
+     "link": "https://news.yahoo.co.jp/pickup/6597230?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 22:39:17 GMT"
     },
     {
-     "title": "マックのドナルド 「ロナルド」に",
-     "link": "https://news.yahoo.co.jp/pickup/6597212?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 12:24:25 GMT"
+     "title": "FW塩貝 PK巡り森保監督に尋ねる",
+     "link": "https://news.yahoo.co.jp/pickup/6597223?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 21:30:45 GMT"
     },
     {
-     "title": "こめお「割烹こめを」閉店を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6597202?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 10:28:28 GMT"
+     "title": "5h超試合 終電前の阪神ファン走る",
+     "link": "https://news.yahoo.co.jp/pickup/6597222?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 21:12:44 GMT"
     },
     {
      "title": "芸能界 活動進退の報告が相次ぐ",
