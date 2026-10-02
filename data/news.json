@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-02T15:53:38.518Z",
+ "updatedAt": "2026-10-02T20:11:47.573Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,26 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "「副首都」要件案を公表 4道府県に指定可能性",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de53995",
+     "pubDate": "Sat, 03 Oct 2026 00:50:59 +0900"
+    },
+    {
+     "title": "津市で4人死亡の火災 住人男性と知人女性 出火当時不在か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54001",
+     "pubDate": "Sat, 03 Oct 2026 04:53:01 +0900"
+    },
+    {
+     "title": "アメリカ中間選挙まで1か月 共和党と民主党の選挙戦激化",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54002",
+     "pubDate": "Sat, 03 Oct 2026 04:50:50 +0900"
+    },
+    {
+     "title": "G7首脳会議 軽油など石油備蓄1億バレル 4か月間で放出へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54004",
+     "pubDate": "Sat, 03 Oct 2026 02:33:00 +0900"
+    },
     {
      "title": "金融庁 プルデンシャル生命に業務停止命令を検討",
      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53976",
@@ -18,29 +38,9 @@
      "pubDate": "Fri, 02 Oct 2026 23:28:41 +0900"
     },
     {
-     "title": "津市で住宅火災 4人の遺体見つかる 子ども4人と連絡取れず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53924",
-     "pubDate": "Fri, 02 Oct 2026 20:18:00 +0900"
-    },
-    {
-     "title": "台風27号 4日に小笠原近海へ進む見込み 今後の情報に注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53779",
-     "pubDate": "Fri, 02 Oct 2026 19:19:21 +0900"
-    },
-    {
-     "title": "簗農相が会見「国交省に問い合わせ 党支部会合で報告」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53817",
-     "pubDate": "Fri, 02 Oct 2026 19:10:00 +0900"
-    },
-    {
-     "title": "アジア大会 レスリング 須崎優衣と鏡優翔が金メダル獲得",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de53994",
-     "pubDate": "Sat, 03 Oct 2026 00:40:13 +0900"
-    },
-    {
-     "title": "アジア大会サッカー女子 日本はPK戦で勝利し大会3連覇",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53993",
-     "pubDate": "Sat, 03 Oct 2026 00:15:51 +0900"
+     "title": "井林国交相 アンダーパス対策で自治体向けマニュアル作成へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54006",
+     "pubDate": "Sat, 03 Oct 2026 05:01:25 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "クビアカツヤカミキリ対策 自民プロジェクトチームが緊急決議",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53991",
+     "pubDate": "Sat, 03 Oct 2026 04:55:12 +0900"
+    },
+    {
+     "title": "津市で4人死亡の火災 住人男性と知人女性 出火当時不在か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54001",
+     "pubDate": "Sat, 03 Oct 2026 04:53:01 +0900"
+    },
     {
      "title": "宮崎 巨人選手への執ようなつきまとい疑いで逮捕 容疑否認",
      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53970",
@@ -113,16 +123,6 @@
      "title": "サプリメントの偽物販売か 中国籍の会社役員を逮捕 容疑否認",
      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53901",
      "pubDate": "Fri, 02 Oct 2026 16:58:00 +0900"
-    },
-    {
-     "title": "津市で住宅火災 4人の遺体見つかる 子ども4人と連絡取れず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53924",
-     "pubDate": "Fri, 02 Oct 2026 20:18:00 +0900"
-    },
-    {
-     "title": "核のごみ文献調査 茨城県知事“次の調査に進む場合同意せず”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53897",
-     "pubDate": "Fri, 02 Oct 2026 21:43:55 +0900"
     }
    ]
   },
@@ -214,9 +214,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "アメリカ中間選挙まで1か月 共和党と民主党の選挙戦激化",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54002",
+     "pubDate": "Sat, 03 Oct 2026 04:50:50 +0900"
+    },
+    {
+     "title": "G7首脳会議 軽油など石油備蓄1億バレル 4か月間で放出へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54004",
+     "pubDate": "Sat, 03 Oct 2026 02:33:00 +0900"
+    },
+    {
+     "title": "タイとミャンマー国境付近で日本人2人を保護 詐欺拠点滞在か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54003",
+     "pubDate": "Sat, 03 Oct 2026 02:07:57 +0900"
+    },
+    {
+     "title": "アメリカ就業者数 市場予想大幅に下回る FRB利上げ観測が後退",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de53999",
+     "pubDate": "Sat, 03 Oct 2026 01:19:01 +0900"
+    },
+    {
      "title": "イスラエル 一部メディア報道「単独犯の可能性」フライドバイ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53988",
-     "pubDate": "Fri, 02 Oct 2026 23:48:03 +0900"
+     "pubDate": "Sat, 03 Oct 2026 05:03:21 +0900"
     },
     {
      "title": "北朝鮮キム・ヨジョン氏「地雷爆発は言いがかり」新たな談話",
@@ -231,7 +251,7 @@
     {
      "title": "インド人機長「多くの命を救った」モディ首相も電話で称賛",
      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53986",
-     "pubDate": "Fri, 02 Oct 2026 22:54:35 +0900"
+     "pubDate": "Fri, 02 Oct 2026 22:54:00 +0900"
     },
     {
      "title": "米国が売却した新型のF16V戦闘機が台湾に到着",
@@ -267,26 +287,6 @@
      "title": "アメリカ国防総省が中東地域に新たに空母派遣へ 米紙報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53832",
      "pubDate": "Fri, 02 Oct 2026 12:17:00 +0900"
-    },
-    {
-     "title": "米長期金利 24年ぶりの高水準に 住宅ローンは7％台前半",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53787",
-     "pubDate": "Fri, 02 Oct 2026 08:46:00 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月2日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53290",
-     "pubDate": "Fri, 02 Oct 2026 20:25:21 +0900"
-    },
-    {
-     "title": "プーチン大統領 日ロは困難を乗り越えたあと互恵的関係に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53774",
-     "pubDate": "Fri, 02 Oct 2026 19:40:33 +0900"
-    },
-    {
-     "title": "イエメン戦闘激化 ジブチで避難民増加 国連機関が支援物資訴え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53766",
-     "pubDate": "Fri, 02 Oct 2026 10:40:00 +0900"
     }
    ]
   },
