@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-01T23:33:09.759Z",
+ "updatedAt": "2026-10-02T02:43:08.131Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "「副首都」要件案判明 人口全国の1.2％以上など 4市満たす",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53765",
-     "pubDate": "Fri, 02 Oct 2026 02:30:40 +0900"
+     "title": "東海汽船の飲酒乗務問題 船舶使用停止命令の方針示す 国交大臣",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53794",
+     "pubDate": "Fri, 02 Oct 2026 10:19:00 +0900"
     },
     {
-     "title": "イスラエル行き旅客機 緊急着陸 副操縦士が機長を刺したか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53581",
-     "pubDate": "Thu, 01 Oct 2026 22:05:49 +0900"
+     "title": "福岡県議会 元議長が就任前にゴルフ会費用負担を証言",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53802",
+     "pubDate": "Fri, 02 Oct 2026 11:03:00 +0900"
+    },
+    {
+     "title": "北海道 大雪山系旭岳で初冠雪観測 全国で今シーズン最も早く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53783",
+     "pubDate": "Fri, 02 Oct 2026 11:23:26 +0900"
+    },
+    {
+     "title": "簗農相 道路予算発言報道「大臣としてのコメント控える」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53817",
+     "pubDate": "Fri, 02 Oct 2026 11:35:30 +0900"
+    },
+    {
+     "title": "日米演習で与那国島に米軍の新型地対艦ミサイル初展開へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53784",
+     "pubDate": "Fri, 02 Oct 2026 10:08:24 +0900"
+    },
+    {
+     "title": "プーチン大統領 日ロは困難を乗り越えたあと互恵的関係に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53774",
+     "pubDate": "Fri, 02 Oct 2026 08:23:14 +0900"
     },
     {
      "title": "台風27号 4日には小笠原近海へ進む見込み 今後の情報に注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53779",
-     "pubDate": "Fri, 02 Oct 2026 07:16:20 +0900"
-    },
-    {
-     "title": "イスラエル首相「副操縦士はイスラム過激思想に洗脳」主張",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53772",
-     "pubDate": "Fri, 02 Oct 2026 06:42:44 +0900"
-    },
-    {
-     "title": "佐川急便に不正アクセス 住所など個人情報が漏えいか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53762",
-     "pubDate": "Fri, 02 Oct 2026 00:37:58 +0900"
-    },
-    {
-     "title": "相次ぐ不祥事受け社長交代のニデック 上場維持できるかが焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53755",
-     "pubDate": "Fri, 02 Oct 2026 05:33:22 +0900"
-    },
-    {
-     "title": "ロシア 飛び地めぐりNATOに警告文書「核兵器使用も辞さない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53773",
-     "pubDate": "Fri, 02 Oct 2026 05:30:30 +0900"
+     "pubDate": "Fri, 02 Oct 2026 07:16:00 +0900"
     }
    ]
   },
@@ -50,14 +50,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "北海道 大雪山系旭岳で初冠雪観測 全国で今シーズン最も早く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53783",
+     "pubDate": "Fri, 02 Oct 2026 11:23:26 +0900"
+    },
+    {
+     "title": "福岡県議会 元議長が就任前にゴルフ会費用負担を証言",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53802",
+     "pubDate": "Fri, 02 Oct 2026 11:03:00 +0900"
+    },
+    {
+     "title": "東海汽船の飲酒乗務問題 船舶使用停止命令の方針示す 国交大臣",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53794",
+     "pubDate": "Fri, 02 Oct 2026 10:19:00 +0900"
+    },
+    {
+     "title": "日米演習で与那国島に米軍の新型地対艦ミサイル初展開へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53784",
+     "pubDate": "Fri, 02 Oct 2026 10:08:24 +0900"
+    },
+    {
+     "title": "完全失業率 8月は2.5％ 前月より0.1ポイント悪化 総務省",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53785",
+     "pubDate": "Fri, 02 Oct 2026 10:27:18 +0900"
+    },
+    {
      "title": "8月の有効求人倍率 全国平均で1.18倍 前月と同水準",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53744",
-     "pubDate": "Fri, 02 Oct 2026 08:32:07 +0900"
+     "pubDate": "Fri, 02 Oct 2026 08:58:00 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（10月2日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53690",
-     "pubDate": "Fri, 02 Oct 2026 07:02:38 +0900"
+     "pubDate": "Fri, 02 Oct 2026 10:20:59 +0900"
     },
     {
      "title": "注目の再生プラスチックなど 最新リサイクル技術の展示会",
@@ -98,31 +123,6 @@
      "title": "熊本地震後の観光需要回復を 「九州ふっこう応援割」スタート",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53699",
      "pubDate": "Thu, 01 Oct 2026 19:50:00 +0900"
-    },
-    {
-     "title": "沖縄 宜野湾 女性殺害事件 警察命令後は直接連絡確認されず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53698",
-     "pubDate": "Thu, 01 Oct 2026 19:40:00 +0900"
-    },
-    {
-     "title": "ふるさと納税返礼品の牛肉等級を偽装か 元取締役再逮捕 鹿児島",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53694",
-     "pubDate": "Thu, 01 Oct 2026 19:20:00 +0900"
-    },
-    {
-     "title": "熊本県出身の男性の水俣病認定命じる判決 大阪地裁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53681",
-     "pubDate": "Thu, 01 Oct 2026 19:02:00 +0900"
-    },
-    {
-     "title": "福島 猪苗代湖 ボート3人死傷事故 10月16日に最高裁判決へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53688",
-     "pubDate": "Thu, 01 Oct 2026 18:46:00 +0900"
-    },
-    {
-     "title": "新種カイミジンコに「ヒゲじい」の名 NHK“ダーウィン”で発見",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53648",
-     "pubDate": "Thu, 01 Oct 2026 18:43:00 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米長期金利 24年ぶりの高水準に 住宅ローンは7％台前半",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53787",
+     "pubDate": "Fri, 02 Oct 2026 08:46:50 +0900"
+    },
+    {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月2日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53290",
      "pubDate": "Fri, 02 Oct 2026 08:21:38 +0900"
@@ -226,7 +231,7 @@
     {
      "title": "イエメン戦闘激化 ジブチで避難民増加 国連機関が支援物資訴え",
      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53766",
-     "pubDate": "Fri, 02 Oct 2026 07:50:05 +0900"
+     "pubDate": "Fri, 02 Oct 2026 10:40:39 +0900"
     },
     {
      "title": "小野寺元防衛相がウクライナ訪問 ゼレンスキー大統領と会談",
@@ -282,11 +287,6 @@
      "title": "ドイツ首相来日前に 両政府 有事の国民退避で協力強化の覚書",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53651",
      "pubDate": "Thu, 01 Oct 2026 16:46:37 +0900"
-    },
-    {
-     "title": "韓国大統領 地雷被害で北朝鮮批判避ける 対抗措置求める声も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261001de53618",
-     "pubDate": "Thu, 01 Oct 2026 15:22:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "トランプ氏 習氏へ日中対話促す",
-     "link": "https://news.yahoo.co.jp/pickup/6597227?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 22:11:42 GMT"
+     "title": "首相 減税は価格反映されると認識",
+     "link": "https://news.yahoo.co.jp/pickup/6597247?source=rss",
+     "pubDate": "Fri, 02 Oct 2026 00:59:28 GMT"
     },
     {
-     "title": "台風27号 4日～小笠原近海北上か",
-     "link": "https://news.yahoo.co.jp/pickup/6597225?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 21:57:13 GMT"
+     "title": "G20貿易相 過剰生産巡り意見対立",
+     "link": "https://news.yahoo.co.jp/pickup/6597234?source=rss",
+     "pubDate": "Thu, 01 Oct 2026 23:09:20 GMT"
     },
     {
-     "title": "男性切りつけられる 隣人の男逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6597232?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 22:50:47 GMT"
+     "title": "死刑失敗の米死刑囚重体 救命治療",
+     "link": "https://news.yahoo.co.jp/pickup/6597251?source=rss",
+     "pubDate": "Fri, 02 Oct 2026 02:28:33 GMT"
     },
     {
-     "title": "米死刑囚への刑執行が「失敗」",
-     "link": "https://news.yahoo.co.jp/pickup/6597226?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 22:00:25 GMT"
+     "title": "今季初 北海道の旭岳で「初冠雪」",
+     "link": "https://news.yahoo.co.jp/pickup/6597243?source=rss",
+     "pubDate": "Fri, 02 Oct 2026 00:37:16 GMT"
     },
     {
-     "title": "ブルーカラー人気 背景に人手不足",
-     "link": "https://news.yahoo.co.jp/pickup/6597230?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 22:39:17 GMT"
+     "title": "飲酒事故で3人死亡 運転手を提訴",
+     "link": "https://news.yahoo.co.jp/pickup/6597246?source=rss",
+     "pubDate": "Fri, 02 Oct 2026 01:00:04 GMT"
     },
     {
-     "title": "FW塩貝 PK巡り森保監督に尋ねる",
-     "link": "https://news.yahoo.co.jp/pickup/6597223?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 21:30:45 GMT"
+     "title": "G選手に執拗な撮影要求疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6597250?source=rss",
+     "pubDate": "Fri, 02 Oct 2026 01:57:33 GMT"
     },
     {
-     "title": "5h超試合 終電前の阪神ファン走る",
-     "link": "https://news.yahoo.co.jp/pickup/6597222?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 21:12:44 GMT"
+     "title": "阪神ベンチで及川涙 ドリスが慰め",
+     "link": "https://news.yahoo.co.jp/pickup/6597248?source=rss",
+     "pubDate": "Fri, 02 Oct 2026 01:15:17 GMT"
     },
     {
-     "title": "芸能界 活動進退の報告が相次ぐ",
-     "link": "https://news.yahoo.co.jp/pickup/6597215?source=rss",
-     "pubDate": "Thu, 01 Oct 2026 13:22:30 GMT"
+     "title": "橋之助の妻・能條愛未 第1子妊娠",
+     "link": "https://news.yahoo.co.jp/pickup/6597249?source=rss",
+     "pubDate": "Fri, 02 Oct 2026 01:35:10 GMT"
     }
    ]
   }
