@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-03T20:15:44.676Z",
+ "updatedAt": "2026-10-03T23:11:07.015Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "那覇ホテル強盗殺人 アメリカ海兵隊普天間基地の上等兵を逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54164",
+     "pubDate": "Sun, 04 Oct 2026 07:58:33 +0900"
+    },
+    {
+     "title": "台風27号 あすからあさって小笠原諸島に接近 高波警戒",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54159",
+     "pubDate": "Sun, 04 Oct 2026 06:57:58 +0900"
+    },
+    {
      "title": "サザン関口和之氏の著作権管理会社 5億8000万円余の申告漏れ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54104",
-     "pubDate": "Sun, 04 Oct 2026 05:11:24 +0900"
+     "pubDate": "Sun, 04 Oct 2026 05:11:00 +0900"
     },
     {
-     "title": "ホワイトソックス 地区シリーズで先勝 村上が先制HR",
+     "title": "津 4人死亡の火事 4人は寝室とリビングで見つかる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54129",
+     "pubDate": "Sun, 04 Oct 2026 07:14:21 +0900"
+    },
+    {
+     "title": "米大統領“選挙勝利で5000ドル支給”重ねて主張 選挙戦激しく",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54158",
+     "pubDate": "Sun, 04 Oct 2026 06:40:40 +0900"
+    },
+    {
+     "title": "ホワイトソックス 地区シリーズで先勝 村上が先制ホームラン",
      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54148",
-     "pubDate": "Sun, 04 Oct 2026 05:09:37 +0900"
+     "pubDate": "Sun, 04 Oct 2026 07:37:09 +0900"
     },
     {
-     "title": "阪神が2年連続優勝 球団初セ・リーグ連覇【選手談話も詳しく】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54054",
-     "pubDate": "Sun, 04 Oct 2026 03:43:18 +0900"
-    },
-    {
-     "title": "ブラジル大統領選挙 投票へ 現職と前大統領の息子が接戦",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54142",
-     "pubDate": "Sun, 04 Oct 2026 05:02:10 +0900"
-    },
-    {
-     "title": "ロシア ウクライナ駐在外交官らに報復攻撃巻き添えを警告",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54144",
-     "pubDate": "Sun, 04 Oct 2026 05:06:00 +0900"
-    },
-    {
-     "title": "台風27号 4日以降 小笠原近海に 高波に警戒 今後の情報に注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54005",
-     "pubDate": "Sat, 03 Oct 2026 18:52:00 +0900"
-    },
-    {
-     "title": "簗農相が熊本地震の被災地を視察 予算配分発言への言及避ける",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54127",
-     "pubDate": "Sat, 03 Oct 2026 23:55:47 +0900"
+     "title": "ドジャースが地区シリーズ先勝 大谷翔平は1安打",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54157",
+     "pubDate": "Sun, 04 Oct 2026 08:05:52 +0900"
     }
    ]
   },
@@ -50,9 +50,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "那覇ホテル強盗殺人 アメリカ海兵隊普天間基地の上等兵を逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54164",
+     "pubDate": "Sun, 04 Oct 2026 07:58:33 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（10月4日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54071",
+     "pubDate": "Sun, 04 Oct 2026 06:48:30 +0900"
+    },
+    {
+     "title": "津 4人死亡の火事 4人は寝室とリビングで見つかる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54129",
+     "pubDate": "Sun, 04 Oct 2026 07:14:21 +0900"
+    },
+    {
      "title": "サザン関口和之氏の著作権管理会社 5億8000万円余の申告漏れ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54104",
-     "pubDate": "Sun, 04 Oct 2026 05:11:24 +0900"
+     "pubDate": "Sun, 04 Oct 2026 05:11:00 +0900"
     },
     {
      "title": "ことしの秋のクマ出没どうなる？「どんぐり」の実りは",
@@ -108,21 +123,6 @@
      "title": "「共同親権」の子は24％あまり 4月に導入後初の統計",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54021",
      "pubDate": "Sat, 03 Oct 2026 10:51:00 +0900"
-    },
-    {
-     "title": "富山市の国勢調査 人口水増し問題で市役所を捜索 富山県警",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54022",
-     "pubDate": "Sat, 03 Oct 2026 15:59:00 +0900"
-    },
-    {
-     "title": "福島 双葉町 原発事故 特定帰還居住区域の一部 12月解除へ調整",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54019",
-     "pubDate": "Sat, 03 Oct 2026 09:11:00 +0900"
-    },
-    {
-     "title": "初入閣 井林国土交通相に聞く 記録的な大雨などへの対策は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54013",
-     "pubDate": "Sat, 03 Oct 2026 07:46:00 +0900"
     }
    ]
   },
@@ -214,6 +214,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米大統領“選挙勝利で5000ドル支給”重ねて主張 選挙戦激しく",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54158",
+     "pubDate": "Sun, 04 Oct 2026 06:40:40 +0900"
+    },
+    {
+     "title": "スペイン南東部の町で大雨による洪水 1人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54156",
+     "pubDate": "Sun, 04 Oct 2026 06:16:19 +0900"
+    },
+    {
+     "title": "サウジアラビアと隣国イエメンの反政府勢力フーシ派 対立続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54153",
+     "pubDate": "Sun, 04 Oct 2026 06:14:53 +0900"
+    },
+    {
      "title": "ロシア ウクライナ駐在外交官らに報復攻撃巻き添えを警告",
      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54144",
      "pubDate": "Sun, 04 Oct 2026 05:06:00 +0900"
@@ -272,21 +287,6 @@
      "title": "ドラマ「八月の声を運ぶ男」がイタリア賞受賞",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54011",
      "pubDate": "Sat, 03 Oct 2026 06:24:00 +0900"
-    },
-    {
-     "title": "アメリカ中間選挙まで1か月 共和党と民主党の選挙戦激化",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54002",
-     "pubDate": "Sat, 03 Oct 2026 04:50:00 +0900"
-    },
-    {
-     "title": "G7首脳会議 軽油など石油備蓄1億バレル 4か月間で放出へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54004",
-     "pubDate": "Sat, 03 Oct 2026 07:36:00 +0900"
-    },
-    {
-     "title": "タイとミャンマー国境付近で日本人2人を保護 詐欺拠点滞在か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54003",
-     "pubDate": "Sat, 03 Oct 2026 02:07:57 +0900"
     }
    ]
   },
@@ -296,14 +296,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風27号 小笠原諸島で高波警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6597449?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 13:23:55 GMT"
+     "title": "高市早苗氏 自民総裁選出から1年",
+     "link": "https://news.yahoo.co.jp/pickup/6597465?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 23:05:33 GMT"
     },
     {
-     "title": "米政府のAI 都合の悪い質問を拒否",
-     "link": "https://news.yahoo.co.jp/pickup/6597451?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 13:35:42 GMT"
+     "title": "台風27号 小笠原諸島の近海へ北上",
+     "link": "https://news.yahoo.co.jp/pickup/6597463?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 22:52:50 GMT"
+    },
+    {
+     "title": "那覇遺体 強殺疑いで米兵を逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6597462?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 22:35:39 GMT"
+    },
+    {
+     "title": "釣り中の9歳が海に転落 心肺停止",
+     "link": "https://news.yahoo.co.jp/pickup/6597459?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 22:17:36 GMT"
     },
     {
      "title": "23階転落 母が「転落しそう」通報",
@@ -311,29 +321,19 @@
      "pubDate": "Sat, 03 Oct 2026 11:37:54 GMT"
     },
     {
-     "title": "だんじりが横転し7人けが 転落か",
-     "link": "https://news.yahoo.co.jp/pickup/6597447?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 13:05:29 GMT"
+     "title": "サザン関口氏会社5.8億円申告漏れ",
+     "link": "https://news.yahoo.co.jp/pickup/6597461?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 22:35:32 GMT"
     },
     {
-     "title": "米国産ジャガイモ解禁 前倒し浮上",
-     "link": "https://news.yahoo.co.jp/pickup/6597453?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 13:57:57 GMT"
+     "title": "久保建英の結婚 板倉「うれしい」",
+     "link": "https://news.yahoo.co.jp/pickup/6597466?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 23:03:58 GMT"
     },
     {
-     "title": "韓国サッカー男子V 国旗揚がらず",
-     "link": "https://news.yahoo.co.jp/pickup/6597458?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 14:51:27 GMT"
-    },
-    {
-     "title": "阪神V2 監督が涙「苦しかった」",
-     "link": "https://news.yahoo.co.jp/pickup/6597455?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 14:18:10 GMT"
-    },
-    {
-     "title": "キンプリ・髙橋海人 ソロ活動開始",
-     "link": "https://news.yahoo.co.jp/pickup/6597433?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 11:15:17 GMT"
+     "title": "村上宗隆がPS1号 雄たけび確信弾",
+     "link": "https://news.yahoo.co.jp/pickup/6597460?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 22:17:21 GMT"
     }
    ]
   }
