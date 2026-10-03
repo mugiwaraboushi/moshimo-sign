@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-03T17:39:35.456Z",
+ "updatedAt": "2026-10-03T20:15:44.676Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "サザン関口和之氏の著作権管理会社 5億8000万円余の申告漏れ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54104",
+     "pubDate": "Sun, 04 Oct 2026 05:11:24 +0900"
+    },
+    {
+     "title": "ホワイトソックス 地区シリーズで先勝 村上が先制HR",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54148",
+     "pubDate": "Sun, 04 Oct 2026 05:09:37 +0900"
+    },
+    {
      "title": "阪神が2年連続優勝 球団初セ・リーグ連覇【選手談話も詳しく】",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54054",
-     "pubDate": "Sun, 04 Oct 2026 02:09:44 +0900"
+     "pubDate": "Sun, 04 Oct 2026 03:43:18 +0900"
     },
     {
-     "title": "ことしの秋のクマ出没どうなる？「どんぐり」の実りは",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54083",
-     "pubDate": "Sat, 03 Oct 2026 22:31:00 +0900"
+     "title": "ブラジル大統領選挙 投票へ 現職と前大統領の息子が接戦",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54142",
+     "pubDate": "Sun, 04 Oct 2026 05:02:10 +0900"
     },
     {
-     "title": "簗農相が熊本地震の被災地を視察 予算配分発言への言及避ける",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54127",
-     "pubDate": "Sat, 03 Oct 2026 23:55:47 +0900"
+     "title": "ロシア ウクライナ駐在外交官らに報復攻撃巻き添えを警告",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54144",
+     "pubDate": "Sun, 04 Oct 2026 05:06:00 +0900"
     },
     {
      "title": "台風27号 4日以降 小笠原近海に 高波に警戒 今後の情報に注意",
@@ -28,19 +38,9 @@
      "pubDate": "Sat, 03 Oct 2026 18:52:00 +0900"
     },
     {
-     "title": "プロ野球 現役最年長 ヤクルト石川雅規 25年の現役に別れ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54109",
-     "pubDate": "Sat, 03 Oct 2026 23:15:03 +0900"
-    },
-    {
-     "title": "アジア大会 サッカー男子 日本は決勝で韓国に敗れる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54098",
-     "pubDate": "Sat, 03 Oct 2026 22:52:14 +0900"
-    },
-    {
-     "title": "那覇市のホテルで女性遺体 強盗殺人事件として捜査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54044",
-     "pubDate": "Sat, 03 Oct 2026 20:49:12 +0900"
+     "title": "簗農相が熊本地震の被災地を視察 予算配分発言への言及避ける",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54127",
+     "pubDate": "Sat, 03 Oct 2026 23:55:47 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "サザン関口和之氏の著作権管理会社 5億8000万円余の申告漏れ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54104",
+     "pubDate": "Sun, 04 Oct 2026 05:11:24 +0900"
+    },
     {
      "title": "ことしの秋のクマ出没どうなる？「どんぐり」の実りは",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54083",
@@ -118,11 +123,6 @@
      "title": "初入閣 井林国土交通相に聞く 記録的な大雨などへの対策は",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54013",
      "pubDate": "Sat, 03 Oct 2026 07:46:00 +0900"
-    },
-    {
-     "title": "北朝鮮が弾道ミサイル発射 日本のEEZの外側に落下か 防衛省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54012",
-     "pubDate": "Sat, 03 Oct 2026 10:55:34 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ロシア ウクライナ駐在外交官らに報復攻撃巻き添えを警告",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54144",
+     "pubDate": "Sun, 04 Oct 2026 05:06:00 +0900"
+    },
+    {
+     "title": "ブラジル大統領選挙 投票へ 現職と前大統領の息子が接戦",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54142",
+     "pubDate": "Sun, 04 Oct 2026 05:02:10 +0900"
+    },
+    {
      "title": "ウクライナ首都でロシアが橋を連日攻撃 生活への影響拡大懸念",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54094",
      "pubDate": "Sat, 03 Oct 2026 22:02:21 +0900"
@@ -249,9 +259,9 @@
      "pubDate": "Sat, 03 Oct 2026 11:07:00 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月3日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（10月3日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53291",
-     "pubDate": "Sat, 03 Oct 2026 10:06:17 +0900"
+     "pubDate": "Sun, 04 Oct 2026 04:06:37 +0900"
     },
     {
      "title": "テスラ 世界の新車販売台数減少“去年の駆け込み需要の反動”",
@@ -277,16 +287,6 @@
      "title": "タイとミャンマー国境付近で日本人2人を保護 詐欺拠点滞在か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54003",
      "pubDate": "Sat, 03 Oct 2026 02:07:57 +0900"
-    },
-    {
-     "title": "アメリカ就業者数 市場予想大幅に下回る FRB利上げ観測が後退",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de53999",
-     "pubDate": "Sat, 03 Oct 2026 01:19:01 +0900"
-    },
-    {
-     "title": "イスラエル 一部メディア報道「単独犯の可能性」フライドバイ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53988",
-     "pubDate": "Sat, 03 Oct 2026 05:03:21 +0900"
     }
    ]
   },
