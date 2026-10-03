@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-03T08:26:28.230Z",
+ "updatedAt": "2026-10-03T13:33:38.440Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "富山市の国勢調査 人口水増し問題で市役所を捜索 富山県警",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54022",
-     "pubDate": "Sat, 03 Oct 2026 15:59:04 +0900"
-    },
-    {
-     "title": "津市の4人死亡火事 当時現場で複数回の爆発音のような大きな音",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54036",
-     "pubDate": "Sat, 03 Oct 2026 12:13:35 +0900"
+     "title": "阪神が2年連続8回目のセ・リーグ優勝 球団史上初のリーグ連覇",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54054",
+     "pubDate": "Sat, 03 Oct 2026 21:53:54 +0900"
     },
     {
      "title": "台風27号 あす以降 小笠原近海に 高波に警戒 今後の情報に注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54005",
-     "pubDate": "Sat, 03 Oct 2026 11:10:00 +0900"
+     "pubDate": "Sat, 03 Oct 2026 18:52:00 +0900"
     },
     {
-     "title": "ドジャース 大谷翔平 地区シリーズへ「期待とわくわく感」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54033",
-     "pubDate": "Sat, 03 Oct 2026 13:49:00 +0900"
+     "title": "肥満症薬 急激な減量で救急搬送相次ぐ 学会が注意呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54074",
+     "pubDate": "Sat, 03 Oct 2026 19:52:15 +0900"
     },
     {
-     "title": "レスリング女子 藤波朱理 公式戦の連勝が「155」で止まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54049",
-     "pubDate": "Sat, 03 Oct 2026 16:10:00 +0900"
+     "title": "北朝鮮キム・ヨジョン氏“中距離戦略ミサイルを発射”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54093",
+     "pubDate": "Sat, 03 Oct 2026 21:26:14 +0900"
     },
     {
-     "title": "公明 岡本新代表“与野党垣根なく連携 政界再編軸に”党大会で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54053",
-     "pubDate": "Sat, 03 Oct 2026 15:52:46 +0900"
+     "title": "那覇市のホテルで女性遺体 強盗殺人事件として捜査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54044",
+     "pubDate": "Sat, 03 Oct 2026 20:49:12 +0900"
     },
     {
-     "title": "老舗の「パラマウント」と「ワーナー」の社名が買収で消失へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54032",
-     "pubDate": "Sat, 03 Oct 2026 11:17:00 +0900"
+     "title": "東京 八丈島 ダイビングで一時行方不明の8人救助 全員意識あり",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54066",
+     "pubDate": "Sat, 03 Oct 2026 19:14:12 +0900"
+    },
+    {
+     "title": "アーチェリー 中西絢哉がアジア大会銀 ロス五輪出場枠獲得",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54080",
+     "pubDate": "Sat, 03 Oct 2026 21:28:43 +0900"
     }
    ]
   },
@@ -49,6 +49,31 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "ことしの秋のクマ出没どうなる？「どんぐり」の実りは",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54083",
+     "pubDate": "Sat, 03 Oct 2026 22:31:19 +0900"
+    },
+    {
+     "title": "熊本 長射程ミサイルの配備をめぐり住民を対象に説明会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54063",
+     "pubDate": "Sat, 03 Oct 2026 19:30:00 +0900"
+    },
+    {
+     "title": "9歳男児がタワマン23階のベランダから転落し死亡 東京 中央区",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54069",
+     "pubDate": "Sat, 03 Oct 2026 18:03:00 +0900"
+    },
+    {
+     "title": "「ふぞろいの林檎たち」脚本家 山田太一さんの書斎再現 神奈川",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54062",
+     "pubDate": "Sat, 03 Oct 2026 17:48:00 +0900"
+    },
+    {
+     "title": "東京 八丈島 ダイビングで一時行方不明の8人救助 全員意識あり",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54066",
+     "pubDate": "Sat, 03 Oct 2026 19:14:12 +0900"
+    },
     {
      "title": "天皇ご一家 アジア大会の馬術競技を観戦",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54060",
@@ -60,14 +85,14 @@
      "pubDate": "Sat, 03 Oct 2026 13:30:00 +0900"
     },
     {
-     "title": "那覇 ホテルで女性死亡 事件か 立ち去った人物の行方捜査",
+     "title": "那覇市のホテルで女性遺体 強盗殺人事件として捜査",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54044",
-     "pubDate": "Sat, 03 Oct 2026 13:27:38 +0900"
+     "pubDate": "Sat, 03 Oct 2026 20:49:12 +0900"
     },
     {
-     "title": "津市の4人死亡火事 当時現場で複数回の爆発音のような大きな音",
+     "title": "津市4人死亡火事 住宅南側の玄関付近が激しく燃える 火元か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54036",
-     "pubDate": "Sat, 03 Oct 2026 12:13:35 +0900"
+     "pubDate": "Sat, 03 Oct 2026 12:13:00 +0900"
     },
     {
      "title": "「年収106万円の壁」正式撤廃 週20時間労働の要件は継続",
@@ -82,7 +107,7 @@
     {
      "title": "富山市の国勢調査 人口水増し問題で市役所を捜索 富山県警",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54022",
-     "pubDate": "Sat, 03 Oct 2026 15:59:04 +0900"
+     "pubDate": "Sat, 03 Oct 2026 15:59:00 +0900"
     },
     {
      "title": "福島 双葉町 原発事故 特定帰還居住区域の一部 12月解除へ調整",
@@ -98,31 +123,6 @@
      "title": "北朝鮮が弾道ミサイル発射 日本のEEZの外側に落下か 防衛省",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54012",
      "pubDate": "Sat, 03 Oct 2026 10:55:34 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（10月3日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53962",
-     "pubDate": "Sat, 03 Oct 2026 14:06:20 +0900"
-    },
-    {
-     "title": "船舶使用停止命令の東海汽船 “慣習踏襲の社内風土に問題”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54007",
-     "pubDate": "Sat, 03 Oct 2026 05:28:00 +0900"
-    },
-    {
-     "title": "クビアカツヤカミキリ対策 自民プロジェクトチームが緊急決議",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53991",
-     "pubDate": "Sat, 03 Oct 2026 04:55:12 +0900"
-    },
-    {
-     "title": "津市で4人死亡の火災 住人男性と知人女性 出火当時不在か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54001",
-     "pubDate": "Sat, 03 Oct 2026 04:53:00 +0900"
-    },
-    {
-     "title": "宮崎 巨人選手への執ようなつきまとい疑いで逮捕 容疑否認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53970",
-     "pubDate": "Fri, 02 Oct 2026 20:57:27 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "肥満症薬 急激な減量で救急搬送相次ぐ 学会が注意呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54074",
+     "pubDate": "Sat, 03 Oct 2026 19:52:15 +0900"
+    },
     {
      "title": "法隆寺の「金堂壁画」 限定公開始まる 奈良",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54056",
@@ -200,11 +205,6 @@
      "title": "声の無断使用は「パブリシティ権の侵害」の初判断",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53277",
      "pubDate": "Wed, 30 Sep 2026 18:31:54 +0900"
-    },
-    {
-     "title": "「核のごみ」文献調査 茨城 常陸大宮市長が受け入れを表明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53229",
-     "pubDate": "Wed, 30 Sep 2026 19:59:09 +0900"
     }
    ]
   },
@@ -214,9 +214,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "副操縦士 オマーンで過激思想懸念で飛行禁止か 米報道",
+     "title": "ウクライナ首都でロシアが橋を連日攻撃 生活への影響拡大懸念",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54094",
+     "pubDate": "Sat, 03 Oct 2026 22:02:21 +0900"
+    },
+    {
+     "title": "北朝鮮キム・ヨジョン氏“中距離戦略ミサイルを発射”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54093",
+     "pubDate": "Sat, 03 Oct 2026 21:26:14 +0900"
+    },
+    {
+     "title": "フランスで高校生が教育環境の改善訴えデモ 約5000人拘束",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54065",
+     "pubDate": "Sat, 03 Oct 2026 17:51:00 +0900"
+    },
+    {
+     "title": "副操縦士がテロ実行しようとしたか UAEの国営通信が報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54041",
-     "pubDate": "Sat, 03 Oct 2026 12:57:00 +0900"
+     "pubDate": "Sat, 03 Oct 2026 19:07:00 +0900"
     },
     {
      "title": "国連で拉致問題めぐり日本と北朝鮮が応酬",
@@ -272,21 +287,6 @@
      "title": "イスラエル 一部メディア報道「単独犯の可能性」フライドバイ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53988",
      "pubDate": "Sat, 03 Oct 2026 05:03:21 +0900"
-    },
-    {
-     "title": "北朝鮮キム・ヨジョン氏「地雷爆発は言いがかり」新たな談話",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53987",
-     "pubDate": "Fri, 02 Oct 2026 23:42:55 +0900"
-    },
-    {
-     "title": "ユーロ圏 消費者物価9月は3.8％上昇 3年ぶりの高水準",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53985",
-     "pubDate": "Fri, 02 Oct 2026 22:56:03 +0900"
-    },
-    {
-     "title": "インド人機長「多くの命を救った」モディ首相も電話で称賛",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53986",
-     "pubDate": "Fri, 02 Oct 2026 22:54:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "ダイビングの8人行方不明 捜索中",
-     "link": "https://news.yahoo.co.jp/pickup/6597408?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 07:55:07 GMT"
+     "title": "4人死亡の火災 玄関付近が火元か",
+     "link": "https://news.yahoo.co.jp/pickup/6597434?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 11:41:07 GMT"
     },
     {
-     "title": "富山市捜索 市長「改めておわび」",
-     "link": "https://news.yahoo.co.jp/pickup/6597397?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 07:10:14 GMT"
+     "title": "MacのOSを修正へ AIリスク対策",
+     "link": "https://news.yahoo.co.jp/pickup/6597441?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 12:52:45 GMT"
     },
     {
-     "title": "流産後の休養「足りない」の声",
-     "link": "https://news.yahoo.co.jp/pickup/6597398?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 07:15:08 GMT"
+     "title": "23階転落 母が「転落しそう」通報",
+     "link": "https://news.yahoo.co.jp/pickup/6597435?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 11:37:54 GMT"
     },
     {
-     "title": "都内タワマン23階から子転落 死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6597402?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 07:39:55 GMT"
+     "title": "だんじりが横転し7人けが 転落か",
+     "link": "https://news.yahoo.co.jp/pickup/6597447?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 13:05:29 GMT"
     },
     {
-     "title": "市が毎年更衣室解体 6年で7千万円",
-     "link": "https://news.yahoo.co.jp/pickup/6597400?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 07:25:34 GMT"
+     "title": "マンジャロ使用巡り 肥満学会声明",
+     "link": "https://news.yahoo.co.jp/pickup/6597438?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 12:08:56 GMT"
     },
     {
-     "title": "悪質な「名古屋ライド」SNS拡散",
-     "link": "https://news.yahoo.co.jp/pickup/6597392?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 06:38:53 GMT"
+     "title": "阪神がセ・リーグ連覇 球団史上初",
+     "link": "https://news.yahoo.co.jp/pickup/6597446?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 12:41:20 GMT"
     },
     {
-     "title": "速報プロ野球 広島vs.M1の阪神",
-     "link": "https://news.yahoo.co.jp/pickup/6597405?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 07:40:32 GMT"
+     "title": "サッカー男子 韓国に敗れ銀メダル",
+     "link": "https://news.yahoo.co.jp/pickup/6597443?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 12:29:22 GMT"
     },
     {
-     "title": "福原遥と結婚 久保の左手に指輪",
-     "link": "https://news.yahoo.co.jp/pickup/6597409?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 07:59:15 GMT"
+     "title": "元清水商監督 大瀧雅良さん死去",
+     "link": "https://news.yahoo.co.jp/pickup/6597436?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 11:47:12 GMT"
     }
    ]
   }
