@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-03T13:33:38.440Z",
+ "updatedAt": "2026-10-03T17:39:35.456Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "阪神が2年連続8回目のセ・リーグ優勝 球団史上初のリーグ連覇",
+     "title": "阪神が2年連続優勝 球団初セ・リーグ連覇【選手談話も詳しく】",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54054",
-     "pubDate": "Sat, 03 Oct 2026 21:53:54 +0900"
+     "pubDate": "Sun, 04 Oct 2026 02:09:44 +0900"
     },
     {
-     "title": "台風27号 あす以降 小笠原近海に 高波に警戒 今後の情報に注意",
+     "title": "ことしの秋のクマ出没どうなる？「どんぐり」の実りは",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54083",
+     "pubDate": "Sat, 03 Oct 2026 22:31:00 +0900"
+    },
+    {
+     "title": "簗農相が熊本地震の被災地を視察 予算配分発言への言及避ける",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54127",
+     "pubDate": "Sat, 03 Oct 2026 23:55:47 +0900"
+    },
+    {
+     "title": "台風27号 4日以降 小笠原近海に 高波に警戒 今後の情報に注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54005",
      "pubDate": "Sat, 03 Oct 2026 18:52:00 +0900"
     },
     {
-     "title": "肥満症薬 急激な減量で救急搬送相次ぐ 学会が注意呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54074",
-     "pubDate": "Sat, 03 Oct 2026 19:52:15 +0900"
+     "title": "プロ野球 現役最年長 ヤクルト石川雅規 25年の現役に別れ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54109",
+     "pubDate": "Sat, 03 Oct 2026 23:15:03 +0900"
     },
     {
-     "title": "北朝鮮キム・ヨジョン氏“中距離戦略ミサイルを発射”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54093",
-     "pubDate": "Sat, 03 Oct 2026 21:26:14 +0900"
+     "title": "アジア大会 サッカー男子 日本は決勝で韓国に敗れる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54098",
+     "pubDate": "Sat, 03 Oct 2026 22:52:14 +0900"
     },
     {
      "title": "那覇市のホテルで女性遺体 強盗殺人事件として捜査",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54044",
      "pubDate": "Sat, 03 Oct 2026 20:49:12 +0900"
-    },
-    {
-     "title": "東京 八丈島 ダイビングで一時行方不明の8人救助 全員意識あり",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54066",
-     "pubDate": "Sat, 03 Oct 2026 19:14:12 +0900"
-    },
-    {
-     "title": "アーチェリー 中西絢哉がアジア大会銀 ロス五輪出場枠獲得",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54080",
-     "pubDate": "Sat, 03 Oct 2026 21:28:43 +0900"
     }
    ]
   },
@@ -52,7 +52,7 @@
     {
      "title": "ことしの秋のクマ出没どうなる？「どんぐり」の実りは",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54083",
-     "pubDate": "Sat, 03 Oct 2026 22:31:19 +0900"
+     "pubDate": "Sat, 03 Oct 2026 22:31:00 +0900"
     },
     {
      "title": "熊本 長射程ミサイルの配備をめぐり住民を対象に説明会",
@@ -296,14 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "4人死亡の火災 玄関付近が火元か",
-     "link": "https://news.yahoo.co.jp/pickup/6597434?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 11:41:07 GMT"
+     "title": "台風27号 小笠原諸島で高波警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6597449?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 13:23:55 GMT"
     },
     {
-     "title": "MacのOSを修正へ AIリスク対策",
-     "link": "https://news.yahoo.co.jp/pickup/6597441?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 12:52:45 GMT"
+     "title": "米政府のAI 都合の悪い質問を拒否",
+     "link": "https://news.yahoo.co.jp/pickup/6597451?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 13:35:42 GMT"
     },
     {
      "title": "23階転落 母が「転落しそう」通報",
@@ -316,24 +316,24 @@
      "pubDate": "Sat, 03 Oct 2026 13:05:29 GMT"
     },
     {
-     "title": "マンジャロ使用巡り 肥満学会声明",
-     "link": "https://news.yahoo.co.jp/pickup/6597438?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 12:08:56 GMT"
+     "title": "米国産ジャガイモ解禁 前倒し浮上",
+     "link": "https://news.yahoo.co.jp/pickup/6597453?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 13:57:57 GMT"
     },
     {
-     "title": "阪神がセ・リーグ連覇 球団史上初",
-     "link": "https://news.yahoo.co.jp/pickup/6597446?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 12:41:20 GMT"
+     "title": "韓国サッカー男子V 国旗揚がらず",
+     "link": "https://news.yahoo.co.jp/pickup/6597458?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 14:51:27 GMT"
     },
     {
-     "title": "サッカー男子 韓国に敗れ銀メダル",
-     "link": "https://news.yahoo.co.jp/pickup/6597443?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 12:29:22 GMT"
+     "title": "阪神V2 監督が涙「苦しかった」",
+     "link": "https://news.yahoo.co.jp/pickup/6597455?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 14:18:10 GMT"
     },
     {
-     "title": "元清水商監督 大瀧雅良さん死去",
-     "link": "https://news.yahoo.co.jp/pickup/6597436?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 11:47:12 GMT"
+     "title": "キンプリ・髙橋海人 ソロ活動開始",
+     "link": "https://news.yahoo.co.jp/pickup/6597433?source=rss",
+     "pubDate": "Sat, 03 Oct 2026 11:15:17 GMT"
     }
    ]
   }
