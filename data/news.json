@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-04T14:27:49.873Z",
+ "updatedAt": "2026-10-04T18:15:36.920Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,24 +13,24 @@
      "pubDate": "Sun, 04 Oct 2026 21:30:36 +0900"
     },
     {
-     "title": "ゴルフ 日本女子オープン シン・ジエ初優勝 国内メジャー4冠初",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54320",
-     "pubDate": "Sun, 04 Oct 2026 22:18:39 +0900"
-    },
-    {
      "title": "那覇市ホテル強盗殺人事件 死因は窒息 逮捕の米海兵隊員は否認",
      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54164",
      "pubDate": "Sun, 04 Oct 2026 23:13:24 +0900"
     },
     {
-     "title": "簗農相“予算カット”発言への言及避け「現場主義で対応」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54280",
-     "pubDate": "Sun, 04 Oct 2026 20:33:54 +0900"
+     "title": "ウクライナ キーウの橋にまた無人機攻撃 市民に心理的圧力か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54373",
+     "pubDate": "Sun, 04 Oct 2026 23:45:31 +0900"
     },
     {
-     "title": "サッカー日本代表 ニュージーランド戦へ最終調整",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54361",
-     "pubDate": "Sun, 04 Oct 2026 22:37:47 +0900"
+     "title": "ゴルフ 日本女子オープン シン・ジエ初優勝 国内メジャー4冠初",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54320",
+     "pubDate": "Sun, 04 Oct 2026 22:18:39 +0900"
+    },
+    {
+     "title": "競馬 凱旋門賞 日本馬は11着と14着 初優勝ならず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54386",
+     "pubDate": "Mon, 05 Oct 2026 00:41:53 +0900"
     },
     {
      "title": "台風27号 あさってにかけ小笠原近海を北上の見込み 高波に警戒",
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ウクライナ キーウの橋にまた無人機攻撃 市民に心理的圧力か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54373",
+     "pubDate": "Sun, 04 Oct 2026 23:45:31 +0900"
+    },
+    {
      "title": "ブラジル大統領選挙 投票始まる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54192",
      "pubDate": "Sun, 04 Oct 2026 22:02:46 +0900"
@@ -229,9 +234,9 @@
      "pubDate": "Sun, 04 Oct 2026 13:11:00 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月4日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（10月4日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53292",
-     "pubDate": "Sun, 04 Oct 2026 11:06:40 +0900"
+     "pubDate": "Sun, 04 Oct 2026 23:49:22 +0900"
     },
     {
      "title": "米大統領“選挙勝利で5000ドル支給”重ねて主張 選挙戦激しく",
@@ -282,11 +287,6 @@
      "title": "国連で拉致問題めぐり日本と北朝鮮が応酬",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54031",
      "pubDate": "Sat, 03 Oct 2026 11:22:00 +0900"
-    },
-    {
-     "title": "老舗の「パラマウント」と「ワーナー」の社名が買収で消失へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54032",
-     "pubDate": "Sat, 03 Oct 2026 11:17:00 +0900"
     }
    ]
   },
@@ -301,14 +301,14 @@
      "pubDate": "Sun, 04 Oct 2026 12:34:33 GMT"
     },
     {
-     "title": "沖縄 米兵の飲酒運転事件が相次ぐ",
-     "link": "https://news.yahoo.co.jp/pickup/6597537?source=rss",
-     "pubDate": "Sun, 04 Oct 2026 10:14:46 GMT"
+     "title": "台風被害の千葉 なぜ盛り土崩落",
+     "link": "https://news.yahoo.co.jp/pickup/6597557?source=rss",
+     "pubDate": "Sun, 04 Oct 2026 14:43:58 GMT"
     },
     {
-     "title": "故意に車を対向車に衝突疑い 逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6597540?source=rss",
-     "pubDate": "Sun, 04 Oct 2026 10:20:58 GMT"
+     "title": "ブラジル大統領選 決選投票の公算",
+     "link": "https://news.yahoo.co.jp/pickup/6597553?source=rss",
+     "pubDate": "Sun, 04 Oct 2026 12:54:18 GMT"
     },
     {
      "title": "遮断器ない踏切 15歳はねられ死亡",
