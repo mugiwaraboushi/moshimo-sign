@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-04T02:45:55.117Z",
+ "updatedAt": "2026-10-04T08:53:23.248Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "那覇ホテルで女性殺害 米海兵隊の上等兵を強盗殺人容疑で逮捕",
+     "title": "那覇ホテルで女性殺害 米海兵隊の上等兵を逮捕 容疑を否認",
      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54164",
-     "pubDate": "Sun, 04 Oct 2026 10:06:00 +0900"
+     "pubDate": "Sun, 04 Oct 2026 17:21:00 +0900"
     },
     {
      "title": "台風27号 あすからあさって小笠原諸島に接近 高波警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54159",
-     "pubDate": "Sun, 04 Oct 2026 11:37:40 +0900"
+     "pubDate": "Sun, 04 Oct 2026 15:54:49 +0900"
     },
     {
-     "title": "大島元衆院議長 川端元衆院副議長“議論戦わせ合意形成を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54195",
-     "pubDate": "Sun, 04 Oct 2026 11:38:09 +0900"
+     "title": "フライドバイ機長“祈りの間 見ないようにしていたら襲撃”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54216",
+     "pubDate": "Sun, 04 Oct 2026 13:11:00 +0900"
     },
     {
-     "title": "サザン関口和之氏の著作権管理会社 5億8000万円余の申告漏れ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54104",
-     "pubDate": "Sun, 04 Oct 2026 05:11:00 +0900"
+     "title": "アジア大会閉幕へ 組織委会長“競技運営 基本的に順調”と評価",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54249",
+     "pubDate": "Sun, 04 Oct 2026 17:00:00 +0900"
     },
     {
-     "title": "政府 安保上重要土地の取得規制強化「許可制」導入法案提出へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54185",
-     "pubDate": "Sun, 04 Oct 2026 10:35:00 +0900"
+     "title": "淡路島 釣りの男児が海に転落し重体 助けに入った知人男性死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54174",
+     "pubDate": "Sun, 04 Oct 2026 16:37:00 +0900"
     },
     {
-     "title": "津 4人死亡の火事 4人は寝室とリビングで見つかる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54129",
-     "pubDate": "Sun, 04 Oct 2026 07:14:21 +0900"
+     "title": "自民 小林政調会長 消費税減税法案成立へ野党に働きかけ強める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54277",
+     "pubDate": "Sun, 04 Oct 2026 16:43:40 +0900"
     },
     {
-     "title": "ホワイトソックス 地区シリーズで先勝 村上が先制ホームラン",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54148",
-     "pubDate": "Sun, 04 Oct 2026 07:37:09 +0900"
+     "title": "ドジャースが地区シリーズ先勝 大谷翔平は1安打",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54157",
+     "pubDate": "Sun, 04 Oct 2026 14:57:23 +0900"
     }
    ]
   },
@@ -50,24 +50,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "阪神リーグ連覇を記念して大阪のデパートでセール始まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54232",
+     "pubDate": "Sun, 04 Oct 2026 14:46:22 +0900"
+    },
+    {
+     "title": "台風25号被害のJR成田線一部区間 きょうから運転再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54194",
+     "pubDate": "Sun, 04 Oct 2026 12:22:00 +0900"
+    },
+    {
      "title": "政府 安保上重要土地の取得規制強化「許可制」導入法案提出へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54185",
      "pubDate": "Sun, 04 Oct 2026 10:35:00 +0900"
     },
     {
-     "title": "淡路島で釣りの9歳男児 海に転落し重体 救助向かった知人不明",
+     "title": "淡路島 釣りの男児が海に転落し重体 助けに入った知人男性死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54174",
-     "pubDate": "Sun, 04 Oct 2026 08:27:00 +0900"
+     "pubDate": "Sun, 04 Oct 2026 16:37:00 +0900"
     },
     {
-     "title": "那覇ホテルで女性殺害 米海兵隊の上等兵を強盗殺人容疑で逮捕",
+     "title": "那覇ホテルで女性殺害 米海兵隊の上等兵を逮捕 容疑を否認",
      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54164",
-     "pubDate": "Sun, 04 Oct 2026 10:06:00 +0900"
+     "pubDate": "Sun, 04 Oct 2026 17:21:00 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（10月4日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54071",
-     "pubDate": "Sun, 04 Oct 2026 06:48:30 +0900"
+     "pubDate": "Sun, 04 Oct 2026 14:03:54 +0900"
     },
     {
      "title": "津 4人死亡の火事 4人は寝室とリビングで見つかる",
@@ -113,16 +123,6 @@
      "title": "震度6強の美里町に初めての仮設住宅 入居開始",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54043",
      "pubDate": "Sat, 03 Oct 2026 13:30:00 +0900"
-    },
-    {
-     "title": "那覇市のホテルで女性遺体 強盗殺人事件として捜査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54044",
-     "pubDate": "Sat, 03 Oct 2026 20:49:12 +0900"
-    },
-    {
-     "title": "津市4人死亡火事 住宅南側の玄関付近が激しく燃える 火元か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54036",
-     "pubDate": "Sat, 03 Oct 2026 12:13:00 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "北朝鮮メディア“3日に発射の中距離ミサイルは1000キロ飛行”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54215",
+     "pubDate": "Sun, 04 Oct 2026 13:17:00 +0900"
+    },
+    {
+     "title": "フライドバイ機長“祈りの間 見ないようにしていたら襲撃”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54216",
+     "pubDate": "Sun, 04 Oct 2026 13:11:00 +0900"
+    },
+    {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月4日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53292",
      "pubDate": "Sun, 04 Oct 2026 11:06:40 +0900"
@@ -226,12 +236,12 @@
     {
      "title": "スペイン南東部の町で大雨による洪水 1人死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54156",
-     "pubDate": "Sun, 04 Oct 2026 06:16:19 +0900"
+     "pubDate": "Sun, 04 Oct 2026 06:16:00 +0900"
     },
     {
      "title": "サウジアラビアと隣国イエメンの反政府勢力フーシ派 対立続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54153",
-     "pubDate": "Sun, 04 Oct 2026 09:18:22 +0900"
+     "pubDate": "Sun, 04 Oct 2026 09:18:00 +0900"
     },
     {
      "title": "ロシア ウクライナ駐在外交官らに報復攻撃巻き添えを警告",
@@ -277,16 +287,6 @@
      "title": "トランプ大統領 アラスカLNGの事業めぐり韓国に受け入れ迫る",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54030",
      "pubDate": "Sat, 03 Oct 2026 11:07:00 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（10月3日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53291",
-     "pubDate": "Sun, 04 Oct 2026 04:06:37 +0900"
-    },
-    {
-     "title": "テスラ 世界の新車販売台数減少“去年の駆け込み需要の反動”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54014",
-     "pubDate": "Sat, 03 Oct 2026 08:16:42 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "横浜市長選が告示 7人が立候補",
-     "link": "https://news.yahoo.co.jp/pickup/6597482?source=rss",
-     "pubDate": "Sun, 04 Oct 2026 01:24:33 GMT"
+     "title": "岩屋氏を異例の厚遇 中国側思惑は",
+     "link": "https://news.yahoo.co.jp/pickup/6597518?source=rss",
+     "pubDate": "Sun, 04 Oct 2026 07:34:16 GMT"
     },
     {
-     "title": "独大統領 反移民の極右台頭に警告",
-     "link": "https://news.yahoo.co.jp/pickup/6597473?source=rss",
-     "pubDate": "Sun, 04 Oct 2026 00:15:55 GMT"
+     "title": "大阪の2市合併検討へ 副首都視野",
+     "link": "https://news.yahoo.co.jp/pickup/6597517?source=rss",
+     "pubDate": "Sun, 04 Oct 2026 07:24:58 GMT"
     },
     {
-     "title": "死刑執行失敗 州矯正局長が辞任",
-     "link": "https://news.yahoo.co.jp/pickup/6597480?source=rss",
-     "pubDate": "Sun, 04 Oct 2026 01:24:45 GMT"
+     "title": "那覇強殺 米海兵隊側コメント発表",
+     "link": "https://news.yahoo.co.jp/pickup/6597525?source=rss",
+     "pubDate": "Sun, 04 Oct 2026 08:42:42 GMT"
     },
     {
-     "title": "夫婦の性行為は義務? 法学者見解",
-     "link": "https://news.yahoo.co.jp/pickup/6597485?source=rss",
-     "pubDate": "Sun, 04 Oct 2026 01:44:31 GMT"
+     "title": "片山さつき財務相 事前運動の疑い",
+     "link": "https://news.yahoo.co.jp/pickup/6597502?source=rss",
+     "pubDate": "Sun, 04 Oct 2026 05:52:09 GMT"
     },
     {
-     "title": "子3人育てる母 27歳で乳がん診断",
-     "link": "https://news.yahoo.co.jp/pickup/6597474?source=rss",
-     "pubDate": "Sun, 04 Oct 2026 00:38:46 GMT"
+     "title": "米大統領 対立議員の電話番号公開",
+     "link": "https://news.yahoo.co.jp/pickup/6597522?source=rss",
+     "pubDate": "Sun, 04 Oct 2026 08:07:45 GMT"
     },
     {
-     "title": "阪神祝福の岡田氏 巨人2位に仰天",
-     "link": "https://news.yahoo.co.jp/pickup/6597470?source=rss",
-     "pubDate": "Sat, 03 Oct 2026 23:52:26 GMT"
+     "title": "不倫バラすとの相手言動 法的問題",
+     "link": "https://news.yahoo.co.jp/pickup/6597526?source=rss",
+     "pubDate": "Sun, 04 Oct 2026 08:45:51 GMT"
     },
     {
-     "title": "鈴井貴之 脳梗塞診断に「マジ?」",
-     "link": "https://news.yahoo.co.jp/pickup/6597488?source=rss",
-     "pubDate": "Sun, 04 Oct 2026 02:23:39 GMT"
+     "title": "オリックス コーチ2人の退団発表",
+     "link": "https://news.yahoo.co.jp/pickup/6597524?source=rss",
+     "pubDate": "Sun, 04 Oct 2026 08:36:10 GMT"
     },
     {
-     "title": "檜山沙耶 退社の経緯や結婚を語る",
-     "link": "https://news.yahoo.co.jp/pickup/6597486?source=rss",
-     "pubDate": "Sun, 04 Oct 2026 01:54:27 GMT"
+     "title": "猪俣氏契約解除 なぜ取締役会決定",
+     "link": "https://news.yahoo.co.jp/pickup/6597521?source=rss",
+     "pubDate": "Sun, 04 Oct 2026 08:05:30 GMT"
     }
    ]
   }
