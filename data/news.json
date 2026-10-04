@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-04T18:15:36.920Z",
+ "updatedAt": "2026-10-04T21:40:57.308Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "日経新聞サイバー攻撃で情報漏えいか なりすましメールが送信",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54358",
-     "pubDate": "Sun, 04 Oct 2026 21:30:36 +0900"
+     "title": "米兵逮捕の強盗殺人事件 被害女性の首にコードのようなものか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54384",
+     "pubDate": "Mon, 05 Oct 2026 06:02:54 +0900"
     },
     {
-     "title": "那覇市ホテル強盗殺人事件 死因は窒息 逮捕の米海兵隊員は否認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54164",
-     "pubDate": "Sun, 04 Oct 2026 23:13:24 +0900"
+     "title": "臨時国会きょう召集 消費税減税法案などで論戦へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54388",
+     "pubDate": "Mon, 05 Oct 2026 04:54:04 +0900"
     },
     {
-     "title": "ウクライナ キーウの橋にまた無人機攻撃 市民に心理的圧力か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54373",
-     "pubDate": "Sun, 04 Oct 2026 23:45:31 +0900"
+     "title": "台風27号 あすにかけて小笠原近海を北上 高波に警戒を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54402",
+     "pubDate": "Mon, 05 Oct 2026 05:45:35 +0900"
     },
     {
-     "title": "ゴルフ 日本女子オープン シン・ジエ初優勝 国内メジャー4冠初",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54320",
-     "pubDate": "Sun, 04 Oct 2026 22:18:39 +0900"
+     "title": "柔道世界選手権 女子48キロ 古賀若菜が初の金メダル",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54396",
+     "pubDate": "Mon, 05 Oct 2026 05:17:37 +0900"
     },
     {
-     "title": "競馬 凱旋門賞 日本馬は11着と14着 初優勝ならず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54386",
-     "pubDate": "Mon, 05 Oct 2026 00:41:53 +0900"
+     "title": "18歳未満の選挙運動禁止めぐる裁判 原告側控訴の方針",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54360",
+     "pubDate": "Mon, 05 Oct 2026 05:14:06 +0900"
     },
     {
-     "title": "台風27号 あさってにかけ小笠原近海を北上の見込み 高波に警戒",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54159",
-     "pubDate": "Sun, 04 Oct 2026 19:42:08 +0900"
+     "title": "トランプ大統領 AI政策を調整する司令塔組織を設立",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54399",
+     "pubDate": "Mon, 05 Oct 2026 06:35:39 +0900"
     },
     {
-     "title": "ノーベル賞 5日から発表 日本から“3年連続受賞”なるか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53274",
-     "pubDate": "Fri, 02 Oct 2026 19:24:18 +0900"
+     "title": "ノーベル賞 5日は生理学・医学賞の発表日",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54368",
+     "pubDate": "Mon, 05 Oct 2026 04:49:04 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "米兵逮捕の強盗殺人事件 被害女性の首にコードのようなものか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54384",
+     "pubDate": "Mon, 05 Oct 2026 06:02:54 +0900"
+    },
+    {
+     "title": "横田めぐみさん62歳に 母親の早紀江さん「悔しさといらだち」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54222",
+     "pubDate": "Mon, 05 Oct 2026 05:31:13 +0900"
+    },
+    {
+     "title": "18歳未満の選挙運動禁止めぐる裁判 原告側控訴の方針",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54360",
+     "pubDate": "Mon, 05 Oct 2026 05:14:06 +0900"
+    },
     {
      "title": "米兵逮捕の強盗殺人事件受け 那覇で緊急の抗議集会",
      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54366",
@@ -108,21 +123,6 @@
      "title": "津 4人死亡の火事 4人は寝室とリビングで見つかる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54129",
      "pubDate": "Sun, 04 Oct 2026 07:14:21 +0900"
-    },
-    {
-     "title": "サザン関口和之氏の著作権管理会社 5億8000万円余の申告漏れ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54104",
-     "pubDate": "Sun, 04 Oct 2026 05:11:00 +0900"
-    },
-    {
-     "title": "ことしの秋のクマ出没どうなる？「どんぐり」の実りは",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54083",
-     "pubDate": "Sat, 03 Oct 2026 22:31:00 +0900"
-    },
-    {
-     "title": "熊本 長射程ミサイルの配備をめぐり住民を対象に説明会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54063",
-     "pubDate": "Sat, 03 Oct 2026 19:30:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "ノーベル賞 5日は生理学・医学賞の発表日",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54368",
+     "pubDate": "Mon, 05 Oct 2026 04:49:04 +0900"
+    },
     {
      "title": "肥満症薬 急激な減量で救急搬送相次ぐ 学会が注意呼びかけ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54074",
@@ -200,11 +205,6 @@
      "title": "三島由紀夫 米出版社にあてた手紙多数発見 自身の作品売り込む",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53497",
      "pubDate": "Thu, 01 Oct 2026 05:35:00 +0900"
-    },
-    {
-     "title": "声の無断使用は「パブリシティ権の侵害」の初判断",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53277",
-     "pubDate": "Wed, 30 Sep 2026 18:31:54 +0900"
     }
    ]
   },
@@ -213,6 +213,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "イラン「米は核問題提示」 間接協議に具体的な進展みられず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54374",
+     "pubDate": "Mon, 05 Oct 2026 06:38:15 +0900"
+    },
+    {
+     "title": "トランプ大統領 AI政策を調整する司令塔組織を設立",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54399",
+     "pubDate": "Mon, 05 Oct 2026 06:35:39 +0900"
+    },
+    {
+     "title": "ブラジル大統領選挙投票締め切り 開票始まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54401",
+     "pubDate": "Mon, 05 Oct 2026 06:06:50 +0900"
+    },
     {
      "title": "ウクライナ キーウの橋にまた無人機攻撃 市民に心理的圧力か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54373",
@@ -272,21 +287,6 @@
      "title": "北朝鮮キム・ヨジョン氏“中距離戦略ミサイルを発射”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54093",
      "pubDate": "Sat, 03 Oct 2026 21:26:14 +0900"
-    },
-    {
-     "title": "フランスで高校生が教育環境の改善訴えデモ 約5000人拘束",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54065",
-     "pubDate": "Sat, 03 Oct 2026 17:51:00 +0900"
-    },
-    {
-     "title": "副操縦士がテロ実行しようとしたか UAEの国営通信が報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54041",
-     "pubDate": "Sat, 03 Oct 2026 19:07:00 +0900"
-    },
-    {
-     "title": "国連で拉致問題めぐり日本と北朝鮮が応酬",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54031",
-     "pubDate": "Sat, 03 Oct 2026 11:22:00 +0900"
     }
    ]
   },
@@ -311,14 +311,14 @@
      "pubDate": "Sun, 04 Oct 2026 12:54:18 GMT"
     },
     {
-     "title": "遮断器ない踏切 15歳はねられ死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6597556?source=rss",
-     "pubDate": "Sun, 04 Oct 2026 13:30:39 GMT"
+     "title": "知人女性の腹刺した疑い 男を逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6597560?source=rss",
+     "pubDate": "Sun, 04 Oct 2026 21:11:35 GMT"
     },
     {
-     "title": "ごみ収集車で頭巻き込まれる 死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6597547?source=rss",
-     "pubDate": "Sun, 04 Oct 2026 11:33:46 GMT"
+     "title": "駐車場で親子3人に車衝突 父重傷",
+     "link": "https://news.yahoo.co.jp/pickup/6597561?source=rss",
+     "pubDate": "Sun, 04 Oct 2026 21:19:27 GMT"
     },
     {
      "title": "愛知県知事 アジア大会を巡り謝罪",
@@ -326,14 +326,14 @@
      "pubDate": "Sun, 04 Oct 2026 13:00:47 GMT"
     },
     {
+     "title": "オリ 前楽天監督・三木氏招へいへ",
+     "link": "https://news.yahoo.co.jp/pickup/6597562?source=rss",
+     "pubDate": "Sun, 04 Oct 2026 21:32:58 GMT"
+    },
+    {
      "title": "凱旋門賞 武豊12度目挑戦も夢散",
      "link": "https://news.yahoo.co.jp/pickup/6597559?source=rss",
      "pubDate": "Sun, 04 Oct 2026 14:16:34 GMT"
-    },
-    {
-     "title": "ロッテ一條力真 通算1試合で引退",
-     "link": "https://news.yahoo.co.jp/pickup/6597555?source=rss",
-     "pubDate": "Sun, 04 Oct 2026 13:25:26 GMT"
     }
    ]
   }
