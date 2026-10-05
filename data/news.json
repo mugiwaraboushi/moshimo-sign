@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-05T13:06:59.469Z",
+ "updatedAt": "2026-10-05T21:19:45.118Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "ノーベル生理学・医学賞に「光遺伝学」の基礎築いた米独研究者",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54368",
-     "pubDate": "Mon, 05 Oct 2026 21:29:37 +0900"
+     "title": "台風27号 小笠原・伊豆・関東海上で大しけ 高波警戒を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261006de54955",
+     "pubDate": "Tue, 06 Oct 2026 06:02:08 +0900"
     },
     {
-     "title": "台風27号 小笠原近海を北上 28号29号発生で“トリプル台風”に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54402",
-     "pubDate": "Mon, 05 Oct 2026 19:59:09 +0900"
+     "title": "高市首相 消費税減税に理解求める 野党は財源や効果ただす方針",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261006de54928",
+     "pubDate": "Tue, 06 Oct 2026 05:22:31 +0900"
     },
     {
-     "title": "沖縄 逮捕の米兵 事件前に被害女性とタクシーや繁華街で行動か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54855",
-     "pubDate": "Mon, 05 Oct 2026 19:55:00 +0900"
+     "title": "ノーベル賞 6日は物理学賞の発表日",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54668",
+     "pubDate": "Tue, 06 Oct 2026 05:26:30 +0900"
     },
     {
-     "title": "「元検事性被害はうそ」告訴された副検事の“不起訴は妥当”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54853",
-     "pubDate": "Mon, 05 Oct 2026 20:09:00 +0900"
+     "title": "「皇居ラン」のマナー違反受け 千代田区が実態調査へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261006de54956",
+     "pubDate": "Tue, 06 Oct 2026 05:40:43 +0900"
     },
     {
-     "title": "「焼肉きんぐ」運営会社 1000万件余のユーザー情報が漏えい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54760",
-     "pubDate": "Mon, 05 Oct 2026 19:13:08 +0900"
+     "title": "柔道世界選手権 阿部一二三と阿部詩 きょうだいで金メダル",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261006de54944",
+     "pubDate": "Tue, 06 Oct 2026 02:38:00 +0900"
     },
     {
-     "title": "大起水産 不正アクセスで約17万5000人分の個人情報漏えいか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54848",
-     "pubDate": "Mon, 05 Oct 2026 19:44:18 +0900"
+     "title": "トルコと日本が協力 科学技術を学ぶ大学が開校",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261006de54946",
+     "pubDate": "Tue, 06 Oct 2026 05:48:35 +0900"
     },
     {
-     "title": "簗農相 地元の道路“予算カット”発言撤回 「深く反省」陳謝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54586",
-     "pubDate": "Mon, 05 Oct 2026 21:56:18 +0900"
+     "title": "イエメン暫定政権軍「大規模作戦開始」海峡近くも衝突か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261006de54947",
+     "pubDate": "Tue, 06 Oct 2026 05:17:27 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "「皇居ラン」のマナー違反受け 千代田区が実態調査へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261006de54956",
+     "pubDate": "Tue, 06 Oct 2026 05:40:43 +0900"
+    },
+    {
+     "title": "“日本被団協は被爆2世や3世中心に存続を”広島県被団協",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54912",
+     "pubDate": "Tue, 06 Oct 2026 05:03:00 +0900"
+    },
     {
      "title": "福井 記録的大雨で一部運休のJR九頭竜線 全線で運転再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54884",
@@ -113,16 +123,6 @@
      "title": "ことし8月9月の記録的大雨 地球温暖化影響で大雨リスク上昇か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54596",
      "pubDate": "Mon, 05 Oct 2026 15:19:06 +0900"
-    },
-    {
-     "title": "大和証券 委託先サーバー不正アクセス 個人情報11万人分流出か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54568",
-     "pubDate": "Mon, 05 Oct 2026 15:24:00 +0900"
-    },
-    {
-     "title": "プルデンシャル生命 第三者委の報告書を受領 8日に会見へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54553",
-     "pubDate": "Mon, 05 Oct 2026 13:02:00 +0900"
     }
    ]
   },
@@ -132,6 +132,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "ノーベル賞 6日は物理学賞の発表日",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54668",
+     "pubDate": "Tue, 06 Oct 2026 05:26:30 +0900"
+    },
+    {
      "title": "ノーベル賞ってなに？もらうとどうなるの？",
      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53842",
      "pubDate": "Mon, 05 Oct 2026 12:18:07 +0900"
@@ -139,7 +144,7 @@
     {
      "title": "ノーベル生理学・医学賞に「光遺伝学」の基礎築いた米独研究者",
      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54368",
-     "pubDate": "Mon, 05 Oct 2026 21:29:37 +0900"
+     "pubDate": "Tue, 06 Oct 2026 00:02:09 +0900"
     },
     {
      "title": "肥満症薬 急激な減量で救急搬送相次ぐ 学会が注意呼びかけ",
@@ -200,11 +205,6 @@
      "title": "日本GHGセンター発足 気候変動対策を後押し",
      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53590",
      "pubDate": "Thu, 01 Oct 2026 14:07:23 +0900"
-    },
-    {
-     "title": "ノーベル賞 日本から“3年連続受賞”なるか 6日は物理学賞発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53274",
-     "pubDate": "Mon, 05 Oct 2026 21:34:51 +0900"
     }
    ]
   },
@@ -213,6 +213,41 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "ナスダックが最高値更新 長期金利上昇でもハイテク銘柄に買い",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261006de54963",
+     "pubDate": "Tue, 06 Oct 2026 06:09:41 +0900"
+    },
+    {
+     "title": "トルコと日本が協力 科学技術を学ぶ大学が開校",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261006de54946",
+     "pubDate": "Tue, 06 Oct 2026 05:48:35 +0900"
+    },
+    {
+     "title": "ノーベル賞 6日は物理学賞の発表日",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54668",
+     "pubDate": "Tue, 06 Oct 2026 05:26:30 +0900"
+    },
+    {
+     "title": "スペイン サンチェス首相が議会解散発表 来月総選挙へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261006de54943",
+     "pubDate": "Tue, 06 Oct 2026 05:18:02 +0900"
+    },
+    {
+     "title": "イエメン暫定政権軍「大規模作戦開始」海峡近くも衝突か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261006de54947",
+     "pubDate": "Tue, 06 Oct 2026 05:17:27 +0900"
+    },
+    {
+     "title": "ネパール土石流 被災地での捜索・救助が原則打ち切り",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261006de54940",
+     "pubDate": "Tue, 06 Oct 2026 05:16:35 +0900"
+    },
+    {
+     "title": "ネパール土石流 専門家「経済復興と災害リスク軽減が課題」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54910",
+     "pubDate": "Mon, 05 Oct 2026 23:44:28 +0900"
+    },
     {
      "title": "南北の非武装地帯で爆発 “北朝鮮が埋めた地雷が原因”韓国軍",
      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54896",
@@ -244,49 +279,14 @@
      "pubDate": "Mon, 05 Oct 2026 18:30:34 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月5日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（10月5日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53293",
-     "pubDate": "Mon, 05 Oct 2026 16:41:47 +0900"
+     "pubDate": "Mon, 05 Oct 2026 22:32:00 +0900"
     },
     {
      "title": "英の空軍基地から米軍爆撃機が撤収 “新たな脅威のため”米紙",
      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54633",
      "pubDate": "Mon, 05 Oct 2026 15:51:00 +0900"
-    },
-    {
-     "title": "ドイツの交響楽団首席指揮者 山田和樹さんが初公演",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54625",
-     "pubDate": "Mon, 05 Oct 2026 15:27:00 +0900"
-    },
-    {
-     "title": "ブラジル大統領選挙 10月25日に決選投票へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54416",
-     "pubDate": "Mon, 05 Oct 2026 20:35:13 +0900"
-    },
-    {
-     "title": "ドイツ ウクライナにロシア軍の無人機攻撃対策など支援",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54400",
-     "pubDate": "Mon, 05 Oct 2026 06:50:57 +0900"
-    },
-    {
-     "title": "イラン「米は核問題提示」 間接協議に具体的な進展みられず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54374",
-     "pubDate": "Mon, 05 Oct 2026 06:38:00 +0900"
-    },
-    {
-     "title": "トランプ大統領 AI政策を調整する司令塔組織を設立",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54399",
-     "pubDate": "Mon, 05 Oct 2026 06:35:00 +0900"
-    },
-    {
-     "title": "ブラジル大統領選挙投票締め切り 開票始まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54401",
-     "pubDate": "Mon, 05 Oct 2026 06:06:50 +0900"
-    },
-    {
-     "title": "ウクライナ キーウの橋にまた無人機攻撃 市民に心理的圧力か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261004de54373",
-     "pubDate": "Sun, 04 Oct 2026 23:45:31 +0900"
     }
    ]
   },
@@ -296,14 +296,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "土石流の捜索打ち切り ネパール",
-     "link": "https://news.yahoo.co.jp/pickup/6597668?source=rss",
-     "pubDate": "Mon, 05 Oct 2026 11:59:58 GMT"
-    },
-    {
-     "title": "「没入型」新感覚の防災訓練 狙い",
-     "link": "https://news.yahoo.co.jp/pickup/6597660?source=rss",
-     "pubDate": "Mon, 05 Oct 2026 11:01:40 GMT"
+     "title": "首相所信表明 野党から批判相次ぐ",
+     "link": "https://news.yahoo.co.jp/pickup/6597677?source=rss",
+     "pubDate": "Mon, 05 Oct 2026 13:18:57 GMT"
     },
     {
      "title": "フジパン熊本工場 生産再開を断念",
@@ -311,29 +306,34 @@
      "pubDate": "Mon, 05 Oct 2026 11:58:26 GMT"
     },
     {
-     "title": "稼ぎより家族 時短選んだ父の不安",
-     "link": "https://news.yahoo.co.jp/pickup/6597646?source=rss",
-     "pubDate": "Mon, 05 Oct 2026 09:08:13 GMT"
+     "title": "ハッカー集団メンバー 日本で拘束",
+     "link": "https://news.yahoo.co.jp/pickup/6597688?source=rss",
+     "pubDate": "Mon, 05 Oct 2026 21:09:03 GMT"
     },
     {
-     "title": "焼肉きんぐ 1078万人分の情報流出",
-     "link": "https://news.yahoo.co.jp/pickup/6597644?source=rss",
-     "pubDate": "Mon, 05 Oct 2026 08:43:10 GMT"
+     "title": "妻子殺害疑い 死亡の夫を書類送検",
+     "link": "https://news.yahoo.co.jp/pickup/6597680?source=rss",
+     "pubDate": "Mon, 05 Oct 2026 13:49:00 GMT"
     },
     {
-     "title": "森保J 15年ぶりキリンカップ優勝",
-     "link": "https://news.yahoo.co.jp/pickup/6597671?source=rss",
-     "pubDate": "Mon, 05 Oct 2026 12:34:13 GMT"
+     "title": "トラックの資材落下 12台絡む事故",
+     "link": "https://news.yahoo.co.jp/pickup/6597686?source=rss",
+     "pubDate": "Mon, 05 Oct 2026 14:38:13 GMT"
     },
     {
-     "title": "福原遥 夫・久保建英を現地応援",
-     "link": "https://news.yahoo.co.jp/pickup/6597662?source=rss",
-     "pubDate": "Mon, 05 Oct 2026 11:31:08 GMT"
+     "title": "塩野義 米バイオ医薬品企業買収へ",
+     "link": "https://news.yahoo.co.jp/pickup/6597685?source=rss",
+     "pubDate": "Mon, 05 Oct 2026 14:24:10 GMT"
     },
     {
-     "title": "トム・クルーズ来日 ギャルピース",
-     "link": "https://news.yahoo.co.jp/pickup/6597676?source=rss",
-     "pubDate": "Mon, 05 Oct 2026 12:55:22 GMT"
+     "title": "久保建英 妻の観戦初めてじゃない",
+     "link": "https://news.yahoo.co.jp/pickup/6597687?source=rss",
+     "pubDate": "Mon, 05 Oct 2026 14:50:44 GMT"
+    },
+    {
+     "title": "DeNA大量の戦力外通告 驚きの声",
+     "link": "https://news.yahoo.co.jp/pickup/6597683?source=rss",
+     "pubDate": "Mon, 05 Oct 2026 13:52:11 GMT"
     }
    ]
   }
