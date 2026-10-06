@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-06T15:18:58.662Z",
+ "updatedAt": "2026-10-06T20:25:15.085Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "タイムズカー情報漏えい 業界団体に対策の点検を要請 国交省",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261006de55582",
+     "pubDate": "Wed, 07 Oct 2026 05:04:00 +0900"
+    },
+    {
+     "title": "きょうから代表質問 消費税 定数削減 農相発言などで論戦",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55598",
+     "pubDate": "Wed, 07 Oct 2026 04:51:00 +0900"
+    },
+    {
      "title": "簗農相「予算は選挙結果ではなく公平適切に対応」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55039",
      "pubDate": "Tue, 06 Oct 2026 19:50:50 +0900"
-    },
-    {
-     "title": "企業への不正アクセス被害相次ぐ 個人情報の大規模流出も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261006de55532",
-     "pubDate": "Tue, 06 Oct 2026 20:53:33 +0900"
-    },
-    {
-     "title": "個人情報流出なぜ相次ぐ?“異様な状況”AI悪用可能性の指摘も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261006de55037",
-     "pubDate": "Tue, 06 Oct 2026 20:08:00 +0900"
     },
     {
      "title": "ノーベル物理学賞に米大学教授 「IceCube」でニュートリノ観測",
@@ -38,9 +38,9 @@
      "pubDate": "Tue, 06 Oct 2026 20:30:00 +0900"
     },
     {
-     "title": "川崎重工 造船向けのフィジカルAI活用ロボット 試作機を公開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261006de55161",
-     "pubDate": "Tue, 06 Oct 2026 19:49:00 +0900"
+     "title": "旭化成子会社 個人情報55万人余 漏えいの可能性と発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55592",
+     "pubDate": "Wed, 07 Oct 2026 00:53:39 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "タイムズカー情報漏えい 業界団体に対策の点検を要請 国交省",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261006de55582",
+     "pubDate": "Wed, 07 Oct 2026 05:04:00 +0900"
+    },
     {
      "title": "女性遺体遺棄事件 自宅前で車からスーツケース下ろす",
      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55566",
@@ -72,7 +77,7 @@
     {
      "title": "防災庁発足見据え 自治体の防災計画の「弱点」見つける研修会",
      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55552",
-     "pubDate": "Tue, 06 Oct 2026 21:53:38 +0900"
+     "pubDate": "Tue, 06 Oct 2026 21:53:00 +0900"
     },
     {
      "title": "企業への不正アクセス被害相次ぐ 個人情報の大規模流出も",
@@ -118,11 +123,6 @@
      "title": "クビアカツヤカミキリ対策に予備費32億円支出決定",
      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55198",
      "pubDate": "Tue, 06 Oct 2026 15:03:00 +0900"
-    },
-    {
-     "title": "関文科相“東大総長選の判断 丁寧に説明していくことが重要”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261006de55167",
-     "pubDate": "Tue, 06 Oct 2026 14:33:33 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "ノーベル賞 7日は化学賞の発表日",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261006de55098",
+     "pubDate": "Wed, 07 Oct 2026 05:20:41 +0900"
+    },
     {
      "title": "関文科相“東大総長選の判断 丁寧に説明していくことが重要”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55167",
@@ -200,11 +205,6 @@
      "title": "核のごみ文献調査 茨城県知事“次の調査に進む場合同意せず”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53897",
      "pubDate": "Fri, 02 Oct 2026 21:43:55 +0900"
-    },
-    {
-     "title": "福島第一原発 核燃料デブリの試験取り出しに向け内部調査開始",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53867",
-     "pubDate": "Fri, 02 Oct 2026 14:42:00 +0900"
     }
    ]
   },
@@ -214,9 +214,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "パレスチナ ガザ地区 戦闘開始から3年 厳しい人道状況続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55611",
+     "pubDate": "Wed, 07 Oct 2026 05:22:03 +0900"
+    },
+    {
+     "title": "ノーベル賞 7日は化学賞の発表日",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261006de55098",
+     "pubDate": "Wed, 07 Oct 2026 05:20:41 +0900"
+    },
+    {
      "title": "韓国 金融機関で個人情報漏えい相次ぐ AI悪用のサイバー攻撃か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55577",
-     "pubDate": "Tue, 06 Oct 2026 23:53:48 +0900"
+     "pubDate": "Tue, 06 Oct 2026 23:53:00 +0900"
     },
     {
      "title": "イエメンとジブチに合計1000万ドルの人道支援 茂木外相が発表",
@@ -277,16 +287,6 @@
      "title": "サウジなど3か国「部隊展開へ必要な措置」フーシ派をけん制",
      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55059",
      "pubDate": "Tue, 06 Oct 2026 12:21:00 +0900"
-    },
-    {
-     "title": "英ベストセラー作家 ジェフリー・アーチャーさん死去",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261006de55068",
-     "pubDate": "Tue, 06 Oct 2026 12:14:00 +0900"
-    },
-    {
-     "title": "トランプ大統領“脅威の情報把握”英空軍基地から爆撃機撤収で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261006de54999",
-     "pubDate": "Tue, 06 Oct 2026 11:03:00 +0900"
     }
    ]
   },
