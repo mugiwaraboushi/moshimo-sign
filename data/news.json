@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-07T16:42:14.640Z",
+ "updatedAt": "2026-10-07T21:39:31.714Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "ノーベル化学賞に東京理科大学名誉教授",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261006de55098",
-     "pubDate": "Wed, 07 Oct 2026 22:58:40 +0900"
+     "title": "ノーベル化学賞に東京理科大学名誉教授 会見で喜びの声",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56220",
+     "pubDate": "Thu, 08 Oct 2026 05:08:44 +0900"
     },
     {
-     "title": "ノーベル化学賞 受賞決定を受け東京理科大学で記者会見",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54630",
-     "pubDate": "Thu, 08 Oct 2026 00:20:05 +0900"
+     "title": "大手ビールメーカー4社 出荷価格の一覧表“裏会”で示し協議か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56219",
+     "pubDate": "Thu, 08 Oct 2026 05:26:00 +0900"
     },
     {
-     "title": "「伝説の教授」「昔の学者肌」「研究一筋」各地で喜びの声",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56145",
-     "pubDate": "Wed, 07 Oct 2026 22:39:47 +0900"
+     "title": "参院できょうから代表質問 消費税減税など論戦 農相発言追及も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56201",
+     "pubDate": "Thu, 08 Oct 2026 05:35:00 +0900"
     },
     {
-     "title": "南海トラフ巨大地震 定例の評価検討会「特段の変化なし」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56204",
-     "pubDate": "Thu, 08 Oct 2026 01:20:21 +0900"
+     "title": "ローカル線に続き「幹線」も 鉄道網見直しへ新たな議論",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56192",
+     "pubDate": "Thu, 08 Oct 2026 05:30:00 +0900"
     },
     {
-     "title": "沖縄 女性殺害事件 元交際相手を逮捕 女性はストーカー被害",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56187",
-     "pubDate": "Thu, 08 Oct 2026 01:10:30 +0900"
+     "title": "特殊詐欺の金を暗号資産に交換し資金洗浄か 6人逮捕 警視庁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56189",
+     "pubDate": "Thu, 08 Oct 2026 05:36:00 +0900"
     },
     {
-     "title": "介護団体が事業所の経営環境改善へ 介護報酬引き上げなど訴え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56202",
-     "pubDate": "Thu, 08 Oct 2026 01:18:59 +0900"
+     "title": "国際ハッカー集団 ドイツ当局「約4000の企業など攻撃」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56224",
+     "pubDate": "Thu, 08 Oct 2026 05:47:42 +0900"
     },
     {
-     "title": "原子力人材確保へ 官民が共同で新団体を設立",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56174",
-     "pubDate": "Wed, 07 Oct 2026 23:55:00 +0900"
+     "title": "ロシアがウクライナにあるJT子会社の工場を攻撃",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56215",
+     "pubDate": "Thu, 08 Oct 2026 05:41:00 +0900"
     }
    ]
   },
@@ -49,6 +49,26 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "特殊詐欺の金を暗号資産に交換し資金洗浄か 6人逮捕 警視庁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56189",
+     "pubDate": "Thu, 08 Oct 2026 05:36:00 +0900"
+    },
+    {
+     "title": "ローカル線に続き「幹線」も 鉄道網見直しへ新たな議論",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56192",
+     "pubDate": "Thu, 08 Oct 2026 05:30:00 +0900"
+    },
+    {
+     "title": "大手ビールメーカー4社 出荷価格の一覧表“裏会”で示し協議か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56219",
+     "pubDate": "Thu, 08 Oct 2026 05:26:00 +0900"
+    },
+    {
+     "title": "ノーベル化学賞に東京理科大学名誉教授 会見で喜びの声",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56220",
+     "pubDate": "Thu, 08 Oct 2026 05:08:44 +0900"
+    },
     {
      "title": "介護団体が事業所の経営環境改善へ 介護報酬引き上げなど訴え",
      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56202",
@@ -103,26 +123,6 @@
      "title": "横浜ラーメン店 強盗殺人事件 元従業員の無期懲役確定へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55974",
      "pubDate": "Wed, 07 Oct 2026 18:01:00 +0900"
-    },
-    {
-     "title": "マツコ・デラックスさん 1日警察署長 詐欺などに注意呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55965",
-     "pubDate": "Wed, 07 Oct 2026 17:52:00 +0900"
-    },
-    {
-     "title": "クマと人の生活圏分ける「緩衝林帯」整備進む 岩手 滝沢",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55876",
-     "pubDate": "Wed, 07 Oct 2026 17:20:00 +0900"
-    },
-    {
-     "title": "「モームリ」から退職希望者紹介 弁護士に猶予付き有罪判決",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55926",
-     "pubDate": "Wed, 07 Oct 2026 17:18:57 +0900"
-    },
-    {
-     "title": "18歳未満の選挙運動禁止めぐる裁判 原告側が控訴",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55924",
-     "pubDate": "Wed, 07 Oct 2026 17:10:00 +0900"
     }
    ]
   },
@@ -132,14 +132,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
-     "title": "ノーベル化学賞 受賞決定を受け東京理科大学で記者会見",
+     "title": "ノーベル賞 きょうは文学賞の発表 村上春樹さんの受賞に期待も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55972",
+     "pubDate": "Thu, 08 Oct 2026 05:44:07 +0900"
+    },
+    {
+     "title": "ノーベル化学賞に東京理科大学名誉教授 会見で喜びの声",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56220",
+     "pubDate": "Thu, 08 Oct 2026 05:08:44 +0900"
+    },
+    {
+     "title": "ノーベル化学賞 受賞決定受け そ※合憲三名誉教授 大学で会見",
      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54630",
-     "pubDate": "Thu, 08 Oct 2026 00:20:05 +0900"
+     "pubDate": "Thu, 08 Oct 2026 00:20:00 +0900"
     },
     {
      "title": "「伝説の教授」「昔の学者肌」「研究一筋」各地で喜びの声",
      "link": "https://news.web.nhk/newsweb/na/nd-20261007de56145",
-     "pubDate": "Wed, 07 Oct 2026 22:39:47 +0900"
+     "pubDate": "Wed, 07 Oct 2026 22:39:00 +0900"
     },
     {
      "title": "デンマーク 人口上回る880万人分の個人情報に不正アクセス",
@@ -154,7 +164,7 @@
     {
      "title": "ノーベル化学賞に東京理科大学名誉教授",
      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55098",
-     "pubDate": "Wed, 07 Oct 2026 22:58:40 +0900"
+     "pubDate": "Wed, 07 Oct 2026 22:58:00 +0900"
     },
     {
      "title": "関文科相“東大総長選の判断 丁寧に説明していくことが重要”",
@@ -195,16 +205,6 @@
      "title": "法隆寺の「金堂壁画」 限定公開始まる 奈良",
      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54056",
      "pubDate": "Sat, 03 Oct 2026 16:20:47 +0900"
-    },
-    {
-     "title": "ドラマ「八月の声を運ぶ男」がイタリア賞受賞",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261003de54011",
-     "pubDate": "Sat, 03 Oct 2026 06:24:00 +0900"
-    },
-    {
-     "title": "サッカー日本代表 久保建英選手と俳優 福原遥さんが結婚を発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53982",
-     "pubDate": "Fri, 02 Oct 2026 23:28:41 +0900"
     }
    ]
   },
@@ -213,6 +213,26 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "国際ハッカー集団 ドイツ当局「約4000の企業など攻撃」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56224",
+     "pubDate": "Thu, 08 Oct 2026 05:47:42 +0900"
+    },
+    {
+     "title": "ノーベル賞 きょうは文学賞の発表 村上春樹さんの受賞に期待も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55972",
+     "pubDate": "Thu, 08 Oct 2026 05:44:07 +0900"
+    },
+    {
+     "title": "ロシアがウクライナにあるJT子会社の工場を攻撃",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56215",
+     "pubDate": "Thu, 08 Oct 2026 05:41:00 +0900"
+    },
+    {
+     "title": "柔道世界選手権 女子63キロ級は嘉重春樺が2連覇",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56218",
+     "pubDate": "Thu, 08 Oct 2026 04:57:50 +0900"
+    },
     {
      "title": "インド中央銀行が3年8か月ぶり利上げ 中東情勢背景に",
      "link": "https://news.web.nhk/newsweb/na/nd-20261007de56183",
@@ -267,26 +287,6 @@
      "title": "ウクライナ キーウ 1000人収容の巨大シェルターで子どもが勉強",
      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55605",
      "pubDate": "Wed, 07 Oct 2026 07:51:22 +0900"
-    },
-    {
-     "title": "ウクライナ世論調査「ロシアに勝利できる」およそ8割",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55615",
-     "pubDate": "Wed, 07 Oct 2026 07:47:00 +0900"
-    },
-    {
-     "title": "パリで「オストメイト」をモデル起用のファッションショー開催",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55634",
-     "pubDate": "Wed, 07 Oct 2026 07:46:17 +0900"
-    },
-    {
-     "title": "高校生のデモ続くフランスで大規模集会 全国で25万人超",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55612",
-     "pubDate": "Wed, 07 Oct 2026 07:43:00 +0900"
-    },
-    {
-     "title": "ケニアでエボラ出血熱に感染の男性死亡 感染拡大に警戒強める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55603",
-     "pubDate": "Wed, 07 Oct 2026 07:40:00 +0900"
     }
    ]
   },
@@ -296,14 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "立憲 食料品消費税ゼロから転換",
-     "link": "https://news.yahoo.co.jp/pickup/6597930?source=rss",
-     "pubDate": "Wed, 07 Oct 2026 14:33:39 GMT"
+     "title": "千葉県で震度4 津波の心配なし",
+     "link": "https://news.yahoo.co.jp/pickup/6597936?source=rss",
+     "pubDate": "Wed, 07 Oct 2026 19:25:19 GMT"
     },
     {
-     "title": "硤合氏ら化学賞 1世紀超え謎解く",
-     "link": "https://news.yahoo.co.jp/pickup/6597926?source=rss",
-     "pubDate": "Wed, 07 Oct 2026 14:16:51 GMT"
+     "title": "硤合氏発見 不斉自己触媒作用とは",
+     "link": "https://news.yahoo.co.jp/pickup/6597938?source=rss",
+     "pubDate": "Wed, 07 Oct 2026 21:30:20 GMT"
     },
     {
      "title": "簗農相 衆院選巡り公選法違反疑い",
@@ -331,9 +331,9 @@
      "pubDate": "Wed, 07 Oct 2026 13:44:42 GMT"
     },
     {
-     "title": "西勇輝引退 山本由伸がメッセージ",
-     "link": "https://news.yahoo.co.jp/pickup/6597935?source=rss",
-     "pubDate": "Wed, 07 Oct 2026 14:55:39 GMT"
+     "title": "工藤公康氏 中日監督就任が決定的",
+     "link": "https://news.yahoo.co.jp/pickup/6597937?source=rss",
+     "pubDate": "Wed, 07 Oct 2026 21:10:37 GMT"
     }
    ]
   }
