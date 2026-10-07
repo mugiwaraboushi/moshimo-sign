@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-07T09:25:33.897Z",
+ "updatedAt": "2026-10-07T16:42:14.640Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "大手ビールメーカー4社を強制調査 価格カルテル疑い 公取委",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55664",
-     "pubDate": "Wed, 07 Oct 2026 17:56:29 +0900"
-    },
-    {
-     "title": "【ライブ予定 18:45以降】 ノーベル化学賞発表へ",
+     "title": "ノーベル化学賞に東京理科大学名誉教授",
      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55098",
-     "pubDate": "Wed, 07 Oct 2026 18:17:27 +0900"
+     "pubDate": "Wed, 07 Oct 2026 22:58:40 +0900"
     },
     {
-     "title": "米海兵隊員逮捕の強盗殺人 軍関係者資格持つカードで支払いか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56022",
-     "pubDate": "Wed, 07 Oct 2026 18:18:31 +0900"
+     "title": "ノーベル化学賞 受賞決定を受け東京理科大学で記者会見",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54630",
+     "pubDate": "Thu, 08 Oct 2026 00:20:05 +0900"
     },
     {
-     "title": "新潟 6人死亡菓子工場火災 三幸製菓の当時の幹部4人在宅起訴",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55856",
-     "pubDate": "Wed, 07 Oct 2026 18:14:32 +0900"
+     "title": "「伝説の教授」「昔の学者肌」「研究一筋」各地で喜びの声",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56145",
+     "pubDate": "Wed, 07 Oct 2026 22:39:47 +0900"
     },
     {
-     "title": "高市首相“消費税減税 最善の方法”“道路予算 適切配分徹底”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55662",
-     "pubDate": "Wed, 07 Oct 2026 18:21:24 +0900"
+     "title": "南海トラフ巨大地震 定例の評価検討会「特段の変化なし」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56204",
+     "pubDate": "Thu, 08 Oct 2026 01:20:21 +0900"
     },
     {
-     "title": "簗農相「法令に従い適正に処理」シャトルバス報道受け",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55847",
-     "pubDate": "Wed, 07 Oct 2026 15:14:00 +0900"
+     "title": "沖縄 女性殺害事件 元交際相手を逮捕 女性はストーカー被害",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56187",
+     "pubDate": "Thu, 08 Oct 2026 01:10:30 +0900"
     },
     {
-     "title": "損保ジャパン のべ6万件の顧客情報が流出か 不正アクセス",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55973",
-     "pubDate": "Wed, 07 Oct 2026 18:08:49 +0900"
+     "title": "介護団体が事業所の経営環境改善へ 介護報酬引き上げなど訴え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56202",
+     "pubDate": "Thu, 08 Oct 2026 01:18:59 +0900"
+    },
+    {
+     "title": "原子力人材確保へ 官民が共同で新団体を設立",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56174",
+     "pubDate": "Wed, 07 Oct 2026 23:55:00 +0900"
     }
    ]
   },
@@ -50,14 +50,54 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "介護団体が事業所の経営環境改善へ 介護報酬引き上げなど訴え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56202",
+     "pubDate": "Thu, 08 Oct 2026 01:18:59 +0900"
+    },
+    {
+     "title": "沖縄 女性殺害事件 元交際相手を逮捕 女性はストーカー被害",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56187",
+     "pubDate": "Thu, 08 Oct 2026 01:10:30 +0900"
+    },
+    {
+     "title": "原子力人材確保へ 官民が共同で新団体を設立",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56174",
+     "pubDate": "Wed, 07 Oct 2026 23:55:00 +0900"
+    },
+    {
+     "title": "ドイツ情報機関元トップらをスパイ容疑などで逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56154",
+     "pubDate": "Wed, 07 Oct 2026 21:32:48 +0900"
+    },
+    {
+     "title": "三重母娘遺体遺棄事件 母親への殺人容疑で交際相手再逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56138",
+     "pubDate": "Wed, 07 Oct 2026 21:16:44 +0900"
+    },
+    {
+     "title": "被団協70年式典 代表委員「政府は核兵器廃絶のリーダーに」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56044",
+     "pubDate": "Wed, 07 Oct 2026 19:24:00 +0900"
+    },
+    {
+     "title": "沖縄駐留米軍人の活動制限措置始まる 基地周辺では",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56097",
+     "pubDate": "Wed, 07 Oct 2026 19:12:03 +0900"
+    },
+    {
+     "title": "小泉防衛相 スタートアップ企業に防衛産業への参入呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56103",
+     "pubDate": "Wed, 07 Oct 2026 19:10:00 +0900"
+    },
+    {
      "title": "米海兵隊員逮捕の強盗殺人 軍関係者資格持つカードで支払いか",
      "link": "https://news.web.nhk/newsweb/na/nd-20261007de56022",
-     "pubDate": "Wed, 07 Oct 2026 18:18:31 +0900"
+     "pubDate": "Wed, 07 Oct 2026 18:18:00 +0900"
     },
     {
      "title": "損保ジャパン のべ6万件の顧客情報が流出か 不正アクセス",
      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55973",
-     "pubDate": "Wed, 07 Oct 2026 18:08:49 +0900"
+     "pubDate": "Wed, 07 Oct 2026 18:08:00 +0900"
     },
     {
      "title": "横浜ラーメン店 強盗殺人事件 元従業員の無期懲役確定へ",
@@ -67,7 +107,7 @@
     {
      "title": "マツコ・デラックスさん 1日警察署長 詐欺などに注意呼びかけ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55965",
-     "pubDate": "Wed, 07 Oct 2026 17:52:09 +0900"
+     "pubDate": "Wed, 07 Oct 2026 17:52:00 +0900"
     },
     {
      "title": "クマと人の生活圏分ける「緩衝林帯」整備進む 岩手 滝沢",
@@ -82,47 +122,7 @@
     {
      "title": "18歳未満の選挙運動禁止めぐる裁判 原告側が控訴",
      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55924",
-     "pubDate": "Wed, 07 Oct 2026 17:10:18 +0900"
-    },
-    {
-     "title": "去年7月の参院選の1票の格差めぐる裁判 最高裁大法廷で弁論",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55905",
-     "pubDate": "Wed, 07 Oct 2026 16:44:00 +0900"
-    },
-    {
-     "title": "7月の生活保護申請 2万5000件余 直近10年の同月で2番目の多さ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55881",
-     "pubDate": "Wed, 07 Oct 2026 16:36:42 +0900"
-    },
-    {
-     "title": "「ちぃたん☆」めぐる裁判 高知 須崎市に2審も賠償命令",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55869",
-     "pubDate": "Wed, 07 Oct 2026 18:11:46 +0900"
-    },
-    {
-     "title": "新潟 6人死亡菓子工場火災 三幸製菓の当時の幹部4人在宅起訴",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55856",
-     "pubDate": "Wed, 07 Oct 2026 18:14:32 +0900"
-    },
-    {
-     "title": "80歳暴力団員を海岸法違反疑いで逮捕 18年前から海の家営業か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55816",
-     "pubDate": "Wed, 07 Oct 2026 14:50:53 +0900"
-    },
-    {
-     "title": "吉原の同系列風俗店を摘発 9人逮捕 47億円余売り上げか 警視庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55830",
-     "pubDate": "Wed, 07 Oct 2026 14:46:48 +0900"
-    },
-    {
-     "title": "万博背任事件 竹中工務店元社員を再逮捕 別工事でも水増しか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55780",
-     "pubDate": "Wed, 07 Oct 2026 12:58:00 +0900"
-    },
-    {
-     "title": "立花孝志党首襲撃事件 被告に懲役12年を求刑",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55732",
-     "pubDate": "Wed, 07 Oct 2026 12:00:13 +0900"
+     "pubDate": "Wed, 07 Oct 2026 17:10:00 +0900"
     }
    ]
   },
@@ -132,14 +132,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "ノーベル化学賞 受賞決定を受け東京理科大学で記者会見",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261005de54630",
+     "pubDate": "Thu, 08 Oct 2026 00:20:05 +0900"
+    },
+    {
+     "title": "「伝説の教授」「昔の学者肌」「研究一筋」各地で喜びの声",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56145",
+     "pubDate": "Wed, 07 Oct 2026 22:39:47 +0900"
+    },
+    {
+     "title": "デンマーク 人口上回る880万人分の個人情報に不正アクセス",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56148",
+     "pubDate": "Wed, 07 Oct 2026 21:19:08 +0900"
+    },
+    {
      "title": "米アンソロピックがAIモデル「ミュトス」の提供先を拡大",
      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55853",
      "pubDate": "Wed, 07 Oct 2026 15:24:00 +0900"
     },
     {
-     "title": "【ライブ予定 18:45以降】 ノーベル化学賞発表へ",
+     "title": "ノーベル化学賞に東京理科大学名誉教授",
      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55098",
-     "pubDate": "Wed, 07 Oct 2026 18:17:27 +0900"
+     "pubDate": "Wed, 07 Oct 2026 22:58:40 +0900"
     },
     {
      "title": "関文科相“東大総長選の判断 丁寧に説明していくことが重要”",
@@ -159,7 +174,7 @@
     {
      "title": "ノーベル物理学賞に米大学教授 「IceCube」でニュートリノ観測",
      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54668",
-     "pubDate": "Tue, 06 Oct 2026 22:16:00 +0900"
+     "pubDate": "Wed, 07 Oct 2026 18:25:36 +0900"
     },
     {
      "title": "ノーベル賞ってなに？もらうとどうなるの？",
@@ -169,7 +184,7 @@
     {
      "title": "ノーベル生理学・医学賞に「光遺伝学」の基礎築いた米独研究者",
      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54368",
-     "pubDate": "Tue, 06 Oct 2026 00:02:09 +0900"
+     "pubDate": "Wed, 07 Oct 2026 18:30:12 +0900"
     },
     {
      "title": "肥満症薬 急激な減量で救急搬送相次ぐ 学会が注意呼びかけ",
@@ -190,21 +205,6 @@
      "title": "サッカー日本代表 久保建英選手と俳優 福原遥さんが結婚を発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53982",
      "pubDate": "Fri, 02 Oct 2026 23:28:41 +0900"
-    },
-    {
-     "title": "太宰治 師と仰いでいた佐藤春夫に送った手紙 新たに見つかる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53868",
-     "pubDate": "Fri, 02 Oct 2026 18:55:43 +0900"
-    },
-    {
-     "title": "はやぶさ2 エンジンすべて故障 装置つないで再生し飛行継続へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53905",
-     "pubDate": "Fri, 02 Oct 2026 18:15:40 +0900"
-    },
-    {
-     "title": "○○課長 さん付け 正直ベースで あなたの職場ではどうですか?",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53820",
-     "pubDate": "Fri, 02 Oct 2026 17:44:00 +0900"
     }
    ]
   },
@@ -214,6 +214,31 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "インド中央銀行が3年8か月ぶり利上げ 中東情勢背景に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56183",
+     "pubDate": "Wed, 07 Oct 2026 23:58:00 +0900"
+    },
+    {
+     "title": "ドイツ情報機関元トップらをスパイ容疑などで逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56154",
+     "pubDate": "Wed, 07 Oct 2026 21:32:48 +0900"
+    },
+    {
+     "title": "デンマーク 人口上回る880万人分の個人情報に不正アクセス",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56148",
+     "pubDate": "Wed, 07 Oct 2026 21:19:08 +0900"
+    },
+    {
+     "title": "“AI主権”のあり方は シンガポールで大規模な国際会議",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56122",
+     "pubDate": "Wed, 07 Oct 2026 19:56:00 +0900"
+    },
+    {
+     "title": "ロシア軍 プーチン大統領の誕生日に大規模攻撃 12人以上死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de56090",
+     "pubDate": "Wed, 07 Oct 2026 18:50:00 +0900"
+    },
+    {
      "title": "米バンス副大統領“イランはウラン濃縮能力削減に応じるべき”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55829",
      "pubDate": "Wed, 07 Oct 2026 16:47:36 +0900"
@@ -221,7 +246,7 @@
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月7日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53295",
-     "pubDate": "Wed, 07 Oct 2026 16:39:47 +0900"
+     "pubDate": "Wed, 07 Oct 2026 19:22:59 +0900"
     },
     {
      "title": "米アンソロピックがAIモデル「ミュトス」の提供先を拡大",
@@ -262,31 +287,6 @@
      "title": "ケニアでエボラ出血熱に感染の男性死亡 感染拡大に警戒強める",
      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55603",
      "pubDate": "Wed, 07 Oct 2026 07:40:00 +0900"
-    },
-    {
-     "title": "ドイツで戦後初めて「極右」政党から州議会議長を選出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55625",
-     "pubDate": "Wed, 07 Oct 2026 07:37:00 +0900"
-    },
-    {
-     "title": "アメリカと中国が核関連施設の相互訪問協議か 米メディア報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55632",
-     "pubDate": "Wed, 07 Oct 2026 07:34:00 +0900"
-    },
-    {
-     "title": "パレスチナ ガザ地区 戦闘開始から3年 厳しい人道状況続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55611",
-     "pubDate": "Wed, 07 Oct 2026 05:22:00 +0900"
-    },
-    {
-     "title": "【ライブ予定 18:45以降】 ノーベル化学賞発表へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261006de55098",
-     "pubDate": "Wed, 07 Oct 2026 18:17:27 +0900"
-    },
-    {
-     "title": "韓国 金融機関で個人情報漏えい相次ぐ AI悪用のサイバー攻撃か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261006de55577",
-     "pubDate": "Tue, 06 Oct 2026 23:53:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "簗氏が別会合でも同様の発言 証言",
-     "link": "https://news.yahoo.co.jp/pickup/6597882?source=rss",
-     "pubDate": "Wed, 07 Oct 2026 07:33:46 GMT"
+     "title": "立憲 食料品消費税ゼロから転換",
+     "link": "https://news.yahoo.co.jp/pickup/6597930?source=rss",
+     "pubDate": "Wed, 07 Oct 2026 14:33:39 GMT"
     },
     {
-     "title": "HIS 旅券情報627人分が流出の恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6597900?source=rss",
-     "pubDate": "Wed, 07 Oct 2026 09:04:21 GMT"
+     "title": "硤合氏ら化学賞 1世紀超え謎解く",
+     "link": "https://news.yahoo.co.jp/pickup/6597926?source=rss",
+     "pubDate": "Wed, 07 Oct 2026 14:16:51 GMT"
     },
     {
-     "title": "選挙運動巡る判決 高校生らが控訴",
-     "link": "https://news.yahoo.co.jp/pickup/6597895?source=rss",
-     "pubDate": "Wed, 07 Oct 2026 08:31:02 GMT"
+     "title": "簗農相 衆院選巡り公選法違反疑い",
+     "link": "https://news.yahoo.co.jp/pickup/6597934?source=rss",
+     "pubDate": "Wed, 07 Oct 2026 14:47:39 GMT"
     },
     {
-     "title": "三幸製菓火災 元CEOらを在宅起訴",
-     "link": "https://news.yahoo.co.jp/pickup/6597897?source=rss",
-     "pubDate": "Wed, 07 Oct 2026 08:37:17 GMT"
+     "title": "サンケイビル売却 入札額1兆円超",
+     "link": "https://news.yahoo.co.jp/pickup/6597933?source=rss",
+     "pubDate": "Wed, 07 Oct 2026 14:33:48 GMT"
     },
     {
-     "title": "琵琶湖に転落し心肺停止 10代か",
-     "link": "https://news.yahoo.co.jp/pickup/6597903?source=rss",
-     "pubDate": "Wed, 07 Oct 2026 09:08:25 GMT"
+     "title": "愛知・大村知事の発言 タイで波紋",
+     "link": "https://news.yahoo.co.jp/pickup/6597927?source=rss",
+     "pubDate": "Wed, 07 Oct 2026 13:23:29 GMT"
     },
     {
-     "title": "「〇〇レディー」呼称 変化広がり",
-     "link": "https://news.yahoo.co.jp/pickup/6597879?source=rss",
-     "pubDate": "Wed, 07 Oct 2026 06:46:34 GMT"
+     "title": "宜野湾で女性殺害疑い 男を逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6597924?source=rss",
+     "pubDate": "Wed, 07 Oct 2026 12:17:12 GMT"
     },
     {
-     "title": "マンジャロ求め訪日 韓国で広がり",
-     "link": "https://news.yahoo.co.jp/pickup/6597871?source=rss",
-     "pubDate": "Wed, 07 Oct 2026 05:38:04 GMT"
+     "title": "複数の自治体など HP閲覧できず",
+     "link": "https://news.yahoo.co.jp/pickup/6597928?source=rss",
+     "pubDate": "Wed, 07 Oct 2026 13:44:42 GMT"
     },
     {
-     "title": "侍J 阪神・オリックスから選出0",
-     "link": "https://news.yahoo.co.jp/pickup/6597906?source=rss",
-     "pubDate": "Wed, 07 Oct 2026 09:06:55 GMT"
+     "title": "西勇輝引退 山本由伸がメッセージ",
+     "link": "https://news.yahoo.co.jp/pickup/6597935?source=rss",
+     "pubDate": "Wed, 07 Oct 2026 14:55:39 GMT"
     }
    ]
   }
