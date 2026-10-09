@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-09T13:54:19.473Z",
+ "updatedAt": "2026-10-09T19:06:10.570Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "スカイチケット ブックオフでも…情報漏えい相次ぐ【対策は】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57123",
-     "pubDate": "Fri, 09 Oct 2026 22:00:36 +0900"
+     "title": "パナマでM7.6の地震 日本で若干の海面変動も被害の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57543",
+     "pubDate": "Sat, 10 Oct 2026 04:03:13 +0900"
     },
     {
-     "title": "JR東日本とビューカード 最大600万件余の会員情報漏えいか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57177",
-     "pubDate": "Fri, 09 Oct 2026 16:12:00 +0900"
+     "title": "米トランプ政権 ICC＝国際刑事裁判所を制裁対象に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57527",
+     "pubDate": "Sat, 10 Oct 2026 03:43:00 +0900"
     },
     {
      "title": "ノーベル平和賞にナビ・ピレイ氏 国連人権高等弁務官など歴任",
      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55783",
-     "pubDate": "Fri, 09 Oct 2026 22:11:55 +0900"
+     "pubDate": "Sat, 10 Oct 2026 03:11:27 +0900"
     },
     {
-     "title": "茂木外相 ロシアのペスト対策研究所の職員死亡で現地対策本部",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57475",
-     "pubDate": "Fri, 09 Oct 2026 20:35:33 +0900"
+     "title": "宿泊予約管理システム「手間いらず」最大445万人情報漏えいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57536",
+     "pubDate": "Sat, 10 Oct 2026 01:18:27 +0900"
     },
     {
-     "title": "監視委のインサイダー勧告に「事実認めず」の異例決定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57511",
-     "pubDate": "Fri, 09 Oct 2026 22:33:27 +0900"
+     "title": "スカイチケット ブックオフでも…情報漏えい相次ぐ【対策は】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57123",
+     "pubDate": "Sat, 10 Oct 2026 02:54:09 +0900"
     },
     {
-     "title": "ホンダ 三菱自動車からピックアップトラックの供給受ける検討",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57464",
-     "pubDate": "Fri, 09 Oct 2026 21:51:42 +0900"
+     "title": "簗農相 バス無料送迎報道「事実関係を整理でき次第説明」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261009de56980",
+     "pubDate": "Sat, 10 Oct 2026 00:15:27 +0900"
     },
     {
-     "title": "靖国神社の内部文書初開示 A級戦犯合祀の詳細が明らかに",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57462",
-     "pubDate": "Fri, 09 Oct 2026 20:16:42 +0900"
+     "title": "「バイトル」会員メールアドレス 388万件余漏えいのおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57499",
+     "pubDate": "Fri, 09 Oct 2026 22:49:32 +0900"
     }
    ]
   },
@@ -117,7 +117,7 @@
     {
      "title": "スカイチケット ブックオフでも…情報漏えい相次ぐ【対策は】",
      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57123",
-     "pubDate": "Fri, 09 Oct 2026 22:00:36 +0900"
+     "pubDate": "Sat, 10 Oct 2026 02:54:09 +0900"
     },
     {
      "title": "大阪 羽曳野 高齢者グループホームでプロレス技などの虐待行為",
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "宿泊予約管理システム「手間いらず」最大445万人情報漏えいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57536",
+     "pubDate": "Sat, 10 Oct 2026 01:18:27 +0900"
+    },
+    {
+     "title": "JR九州 最大130万件のメールアドレス漏えいの可能性",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57525",
+     "pubDate": "Fri, 09 Oct 2026 23:41:18 +0900"
+    },
     {
      "title": "輸入禁止の肉製品販売した店に動物検疫所が初の立ち入り検査",
      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57425",
@@ -195,16 +205,6 @@
      "title": "ノーベル賞の発見とは 生命起源の研究に重要な役割",
      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56555",
      "pubDate": "Thu, 08 Oct 2026 21:25:14 +0900"
-    },
-    {
-     "title": "事故で運動まひの患者に脳の神経再生促す国内初の治療 北大",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56643",
-     "pubDate": "Thu, 08 Oct 2026 17:26:00 +0900"
-    },
-    {
-     "title": "受賞から一夜明け “どうなるかわからない研究含め支援を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56371",
-     "pubDate": "Thu, 08 Oct 2026 13:59:56 +0900"
     }
    ]
   },
@@ -213,6 +213,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "米トランプ政権 ICC＝国際刑事裁判所を制裁対象に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57527",
+     "pubDate": "Sat, 10 Oct 2026 03:43:00 +0900"
+    },
     {
      "title": "ホンダ 三菱自動車からピックアップトラックの供給受ける検討",
      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57464",
@@ -282,11 +287,6 @@
      "title": "ロシアの攻撃相次ぐウクライナ 首都キーウで計画停電開始",
      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56969",
      "pubDate": "Fri, 09 Oct 2026 11:03:10 +0900"
-    },
-    {
-     "title": "日本のうなぎ文化に理解を バチカンで「かば焼き」ふるまう",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de56970",
-     "pubDate": "Fri, 09 Oct 2026 10:52:20 +0900"
     }
    ]
   },
@@ -296,9 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "個人情報巡る対策 政府が緊急要請",
-     "link": "https://news.yahoo.co.jp/pickup/6598186?source=rss",
-     "pubDate": "Fri, 09 Oct 2026 13:13:04 GMT"
+     "title": "米 ICC本体を制裁対象⁠に指定",
+     "link": "https://news.yahoo.co.jp/pickup/6598196?source=rss",
+     "pubDate": "Fri, 09 Oct 2026 15:07:57 GMT"
+    },
+    {
+     "title": "文科相 議員会館内でパーティーか",
+     "link": "https://news.yahoo.co.jp/pickup/6598193?source=rss",
+     "pubDate": "Fri, 09 Oct 2026 14:22:04 GMT"
     },
     {
      "title": "簗氏「国交省にやらせる」 24年に",
@@ -306,14 +311,9 @@
      "pubDate": "Fri, 09 Oct 2026 12:19:46 GMT"
     },
     {
-     "title": "簗大臣お支えチーム 農水省新設",
-     "link": "https://news.yahoo.co.jp/pickup/6598189?source=rss",
-     "pubDate": "Fri, 09 Oct 2026 13:40:33 GMT"
-    },
-    {
-     "title": "屋外授業で女児死亡 父親が市提訴",
-     "link": "https://news.yahoo.co.jp/pickup/6598176?source=rss",
-     "pubDate": "Fri, 09 Oct 2026 11:28:41 GMT"
+     "title": "ビール4社担当者 価格協議認める",
+     "link": "https://news.yahoo.co.jp/pickup/6598192?source=rss",
+     "pubDate": "Fri, 09 Oct 2026 14:20:52 GMT"
     },
     {
      "title": "イオン系食品スーパー100店閉店へ",
@@ -321,19 +321,19 @@
      "pubDate": "Fri, 09 Oct 2026 13:39:49 GMT"
     },
     {
+     "title": "個人情報巡る対策 政府が緊急要請",
+     "link": "https://news.yahoo.co.jp/pickup/6598186?source=rss",
+     "pubDate": "Fri, 09 Oct 2026 13:13:04 GMT"
+    },
+    {
      "title": "白菜高騰「鍋できない」と客困惑",
      "link": "https://news.yahoo.co.jp/pickup/6598187?source=rss",
      "pubDate": "Fri, 09 Oct 2026 13:29:23 GMT"
     },
     {
-     "title": "クーリッシュに血液 原因は未特定",
-     "link": "https://news.yahoo.co.jp/pickup/6598172?source=rss",
-     "pubDate": "Fri, 09 Oct 2026 11:03:27 GMT"
-    },
-    {
-     "title": "試合数短縮などMLB改革案 狙いは",
-     "link": "https://news.yahoo.co.jp/pickup/6598182?source=rss",
-     "pubDate": "Fri, 09 Oct 2026 12:29:07 GMT"
+     "title": "最大のペンギンコロニー 称号失う",
+     "link": "https://news.yahoo.co.jp/pickup/6598194?source=rss",
+     "pubDate": "Fri, 09 Oct 2026 14:30:05 GMT"
     }
    ]
   }
