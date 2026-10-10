@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-09T23:20:59.386Z",
+ "updatedAt": "2026-10-10T02:27:29.807Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,9 @@
      "pubDate": "Sat, 10 Oct 2026 05:11:00 +0900"
     },
     {
-     "title": "ノーベル平和賞にナビ・ピレイ氏 ICCの裁判官など歴任",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55783",
-     "pubDate": "Sat, 10 Oct 2026 03:11:00 +0900"
+     "title": "トランプ大統領“ロシアから軽油供給 プーチン大統領に感謝”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57567",
+     "pubDate": "Sat, 10 Oct 2026 10:27:59 +0900"
     },
     {
      "title": "政府 相次ぐ不正アクセス受け 官民問わず対策の徹底求める",
@@ -23,14 +23,14 @@
      "pubDate": "Sat, 10 Oct 2026 05:14:16 +0900"
     },
     {
+     "title": "ノーベル平和賞にナビ・ピレイ氏 ICCの裁判官など歴任",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55783",
+     "pubDate": "Sat, 10 Oct 2026 03:11:00 +0900"
+    },
+    {
      "title": "簗農相 バス無料送迎報道で出納責任者「違法という認識ない」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57496",
      "pubDate": "Sat, 10 Oct 2026 07:37:30 +0900"
-    },
-    {
-     "title": "パナマでM7.6の地震 日本で若干の海面変動も被害の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57543",
-     "pubDate": "Sat, 10 Oct 2026 06:15:05 +0900"
     },
     {
      "title": "日英伊の次期戦闘機 イタリアに新たな開発拠点設置で式典",
@@ -38,9 +38,9 @@
      "pubDate": "Sat, 10 Oct 2026 07:50:02 +0900"
     },
     {
-     "title": "除染土の再生利用 理解醸成を進めるため国立公園で情報発信",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57552",
-     "pubDate": "Sat, 10 Oct 2026 07:33:14 +0900"
+     "title": "ホワイトソックス 最終第5戦へ 監督「すべてを懸ける」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57573",
+     "pubDate": "Sat, 10 Oct 2026 10:45:00 +0900"
     }
    ]
   },
@@ -52,7 +52,7 @@
     {
      "title": "ビールメーカー4社 缶チューハイ価格も協議か 一部担当者説明",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57551",
-     "pubDate": "Sat, 10 Oct 2026 06:57:37 +0900"
+     "pubDate": "Sat, 10 Oct 2026 06:57:00 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（10月10日）",
@@ -134,7 +134,7 @@
     {
      "title": "除染土の再生利用 理解醸成を進めるため国立公園で情報発信",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57552",
-     "pubDate": "Sat, 10 Oct 2026 07:33:14 +0900"
+     "pubDate": "Sat, 10 Oct 2026 07:33:00 +0900"
     },
     {
      "title": "宿泊予約管理システム「手間いらず」最大445万人情報漏えいか",
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "トランプ大統領“ロシアから軽油供給 プーチン大統領に感謝”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57567",
+     "pubDate": "Sat, 10 Oct 2026 10:27:59 +0900"
+    },
+    {
      "title": "日英伊の次期戦闘機 イタリアに新たな開発拠点設置で式典",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57531",
      "pubDate": "Sat, 10 Oct 2026 07:50:02 +0900"
@@ -282,11 +287,6 @@
      "title": "チリ首都サンティアゴで大規模洪水 エルニーニョ現象影響か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57243",
      "pubDate": "Fri, 09 Oct 2026 16:32:58 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（10月9日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53298",
-     "pubDate": "Fri, 09 Oct 2026 14:43:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "制裁対象指定 ICC赤根所長が声明",
-     "link": "https://news.yahoo.co.jp/pickup/6598208?source=rss",
-     "pubDate": "Fri, 09 Oct 2026 23:06:25 GMT"
+     "title": "露 米や世界向けの軽油供給開始へ",
+     "link": "https://news.yahoo.co.jp/pickup/6598216?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 00:09:39 GMT"
     },
     {
-     "title": "パナマでM7.7 ホテルなど倒壊か",
-     "link": "https://news.yahoo.co.jp/pickup/6598202?source=rss",
-     "pubDate": "Fri, 09 Oct 2026 22:39:46 GMT"
+     "title": "簗氏巡り 自民に辞任不可避の声も",
+     "link": "https://news.yahoo.co.jp/pickup/6598223?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 01:11:28 GMT"
     },
     {
-     "title": "露軍航空機 北方領土の領空を侵犯",
-     "link": "https://news.yahoo.co.jp/pickup/6598199?source=rss",
-     "pubDate": "Fri, 09 Oct 2026 22:12:07 GMT"
+     "title": "米軍の銃殺刑生配信計画 非難殺到",
+     "link": "https://news.yahoo.co.jp/pickup/6598221?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 00:59:23 GMT"
     },
     {
-     "title": "画像流出 免許再交付の負担に不満",
-     "link": "https://news.yahoo.co.jp/pickup/6598207?source=rss",
-     "pubDate": "Fri, 09 Oct 2026 23:07:39 GMT"
+     "title": "工場の洗濯機に巻き込みか 死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6598229?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 01:40:16 GMT"
     },
     {
-     "title": "キノコ採りに山へ 長野の町長死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6598197?source=rss",
-     "pubDate": "Fri, 09 Oct 2026 22:21:27 GMT"
+     "title": "精神疾患 発症のピークは14.5歳",
+     "link": "https://news.yahoo.co.jp/pickup/6598233?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 02:09:18 GMT"
     },
     {
-     "title": "いのちの党・木村英子氏が離党届",
-     "link": "https://news.yahoo.co.jp/pickup/6598204?source=rss",
-     "pubDate": "Fri, 09 Oct 2026 22:47:41 GMT"
+     "title": "産後に妻の夫への愛情減る? 理由",
+     "link": "https://news.yahoo.co.jp/pickup/6598226?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 01:38:09 GMT"
     },
     {
-     "title": "オリックス 藤浪晋太郎の獲得調査",
-     "link": "https://news.yahoo.co.jp/pickup/6598198?source=rss",
-     "pubDate": "Fri, 09 Oct 2026 22:16:24 GMT"
+     "title": "96歳ギリヤーク尼ヶ崎の生き様",
+     "link": "https://news.yahoo.co.jp/pickup/6598234?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 02:05:09 GMT"
     },
     {
-     "title": "霜降りせいや 体調不良でANN早退",
-     "link": "https://news.yahoo.co.jp/pickup/6598200?source=rss",
-     "pubDate": "Fri, 09 Oct 2026 22:28:59 GMT"
+     "title": "元AKB48・内田眞由美 結婚を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6598228?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 01:35:21 GMT"
     }
    ]
   }
