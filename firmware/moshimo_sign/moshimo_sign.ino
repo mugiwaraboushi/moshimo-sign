@@ -306,25 +306,35 @@ static int decodeUtf8(const String &s, uint16_t *out, int maxLen) {
   return n;
 }
 
+// 文字の拡大率と太字 (v18)。scale=2 で16pxフォントを縦横2倍 (32px高) に引き伸ばす。
+// bold は点灯ドットを右へ1dot太らせる (横線はそのまま・縦線が1dot太くなる)。
+// 太らせたぶん隣の文字に食い込まないよう、1文字ごとの送り幅も +1 する。
+// 既定 (scale=1, bold=false) の描画結果は v17 以前と1ドットも変わらない。
+
+// 1文字の送り幅 (拡大・太字込み)
+static int glyphAdvance(uint16_t cp, int scale, bool bold) {
+  int gi = glyphIndex(cp);
+  int w = (gi < 0) ? 16 : pgm_read_byte(&FONT16_DATA[gi * 33]);
+  return w * scale + (bold ? 1 : 0);
+}
+
 // テキストのピクセル幅
-static int textWidth(const uint16_t *cps, int n) {
+static int textWidth(const uint16_t *cps, int n, int scale = 1, bool bold = false) {
   int w = 0;
-  for (int i = 0; i < n; i++) {
-    int gi = glyphIndex(cps[i]);
-    w += (gi < 0) ? 16 : pgm_read_byte(&FONT16_DATA[gi * 33]);
-  }
+  for (int i = 0; i < n; i++) w += glyphAdvance(cps[i], scale, bold);
   return w;
 }
 
-// 1文字描画 (x,y=左上)。クリッピングあり。戻り値=文字幅
-static int drawGlyph(uint16_t cp, int x, int y, uint16_t color) {
+// 1文字描画 (x,y=左上)。クリッピングあり。戻り値=送り幅
+static int drawGlyph(uint16_t cp, int x, int y, uint16_t color, int scale = 1, bool bold = false) {
   int gi = glyphIndex(cp);
   int w = 16;
   if (gi >= 0) w = pgm_read_byte(&FONT16_DATA[gi * 33]);
-  if (x + w < 0 || x >= PANEL_W) return w;
+  const int adv = w * scale + (bold ? 1 : 0);
+  if (x + adv < 0 || x >= PANEL_W) return adv;
+  // 1ドットを scale×scale の四角で描く。太字なら横幅だけ +1 (右隣と重なってよい)
+  const int dotW = scale + (bold ? 1 : 0);
   for (int r = 0; r < 16; r++) {
-    int py = y + r;
-    if (py < 0 || py >= PANEL_H) continue;
     uint16_t bits;
     if (gi >= 0) {
       bits = ((uint16_t)pgm_read_byte(&FONT16_DATA[gi * 33 + 1 + r * 2]) << 8)
@@ -332,18 +342,26 @@ static int drawGlyph(uint16_t cp, int x, int y, uint16_t color) {
     } else {
       bits = (r == 1 || r == 14) ? 0x7FFE : (r > 1 && r < 14) ? 0x4002 : 0; // 豆腐
     }
-    for (int i = 0; i < w; i++) {
-      if ((bits >> (15 - i)) & 1) {
-        int px = x + i;
-        if (px >= 0 && px < PANEL_W) display->drawPixel(px, py, color);
+    if (!bits) continue;
+    for (int sy = 0; sy < scale; sy++) {
+      int py = y + r * scale + sy;
+      if (py < 0 || py >= PANEL_H) continue;
+      for (int i = 0; i < w; i++) {
+        if (!((bits >> (15 - i)) & 1)) continue;
+        int px0 = x + i * scale;
+        for (int sx = 0; sx < dotW; sx++) {
+          int px = px0 + sx;
+          if (px >= 0 && px < PANEL_W) display->drawPixel(px, py, color);
+        }
       }
     }
   }
-  return w;
+  return adv;
 }
 
-static void drawText(const uint16_t *cps, int n, int x, int y, uint16_t color) {
-  for (int i = 0; i < n; i++) x += drawGlyph(cps[i], x, y, color);
+static void drawText(const uint16_t *cps, int n, int x, int y, uint16_t color,
+                     int scale = 1, bool bold = false) {
+  for (int i = 0; i < n; i++) x += drawGlyph(cps[i], x, y, color, scale, bold);
 }
 
 // ---------------- ビットマップ描画 (v0.5) ----------------
@@ -404,6 +422,9 @@ static uint16_t marqueeCps[1024];
 static int marqueeLen = 0;
 static int marqueeW = 0;
 static float scrollX = PANEL_W;
+// marqueeW をどの拡大率・太字で測ったかの控え (v18)。-1 = 測り直しが必要
+static int  marqueeWScale = -1;
+static bool marqueeWBold = false;
 static String comments[MAX_COMMENTS];
 static int commentCount = 0;
 
@@ -415,6 +436,8 @@ static float plSpeed = SCROLL_SPEED;
 static uint16_t plColorTop = COLOR_TOP;
 static uint16_t plColorScroll = COLOR_BOTTOM;
 static bool plRainbow = false;   // colorScroll:"rainbow" で虹色スクロール (v0.4)
+static int  plScrollScale = 1;   // scrollScale: 1=16px / 2=32px。2 は mode:"scroll" のときだけ効く (v18)
+static bool plScrollBold = false; // scrollBold: スクロール文字を太字にする (v18)
 static String plCommentsUrl = COMMENTS_URL;   // commentsUrl で差し替え可能 (v0.10)
 static String plHoursUrl = HOURS_URL;         // hoursUrl で差し替え可能 (v16)
 static volatile bool hoursUrlChanged = false; // 取得先が変わった → 次の取得を待たずに行う
@@ -473,11 +496,12 @@ static uint16_t hsvToColor565(int h) {
 
 // 1文字ごとに色相を24°ずつ進めた虹色で描画。基準色相は millis()/20 で回る
 // (約7.2秒で一周)。v0.4では周期・回転速度のパラメータ化はしない(将来拡張)
-static void drawTextRainbow(const uint16_t *cps, int n, int x, int y) {
+static void drawTextRainbow(const uint16_t *cps, int n, int x, int y,
+                            int scale = 1, bool bold = false) {
   int hueBase = (int)((millis() / 20) % 360);
   for (int i = 0; i < n; i++) {
     uint16_t col = hsvToColor565(hueBase + i * 24);
-    x += drawGlyph(cps[i], x, y, col);
+    x += drawGlyph(cps[i], x, y, col, scale, bold);
   }
 }
 
@@ -516,7 +540,7 @@ static void rebuildMarquee() {
   if (t == marqueeText) return;
   marqueeText = t;
   marqueeLen = decodeUtf8("　" + t, marqueeCps, 1024);
-  marqueeW = textWidth(marqueeCps, marqueeLen);
+  marqueeWScale = -1;   // 幅は loop() 側で今の拡大率・太字に合わせて測る (v18)
   scrollX = PANEL_W;
 }
 
@@ -933,6 +957,11 @@ static bool applyPlaylistBody(const String &body) {
     plRainbow = (strcmp(cs, "rainbow") == 0);
     if (!plRainbow) plColorScroll = hexToColor565(cs);
   }
+  // scrollScale / scrollBold (v18)。キーが無いときは既定 (1 / false) に戻す。
+  // 他のキーは「省略 = 現在値を維持」だが、この2つはイベント用の一時設定なので、
+  // playlist.json から消せば元の見た目に戻るほうが事故が少ない。
+  plScrollScale = doc["scrollScale"].is<int>() ? constrain((int)doc["scrollScale"], 1, 2) : 1;
+  plScrollBold  = doc["scrollBold"].is<bool>() ? (bool)doc["scrollBold"] : false;
   // commentsUrl (v0.10): イベントコメントの取得先。空文字なら取得を止める。
   // 頭が COMMENTS_URL_PREFIX と違うものは無視する (公開ファイル経由で任意のホストを
   // 叩かせないため)。既定は Google Apps Script のみ。
@@ -1600,17 +1629,30 @@ void loop() {
   if (dt > 0.1f) dt = 0.1f;
   lastFrame = ms;
 
+  // 2段表示の下段は16px高しかないので、拡大は1行スクロールのときだけ効かせる (v18)。
+  // 太字は高さが変わらないのでどちらでも効く。
+  const bool twoRows = (plMode != MODE_SCROLL && PANEL_H >= 32);
+  int scale = (!twoRows && 16 * plScrollScale <= PANEL_H) ? plScrollScale : 1;
+  const bool bold = plScrollBold;
+  // 本文・拡大率・太字のどれかが変わったときだけ幅を測り直す
+  // (拡大・太字は playlist 取得で変わりうるが、rebuildMarquee は本文が変わったときしか走らない)。
+  if (scale != marqueeWScale || bold != marqueeWBold) {
+    marqueeW = textWidth(marqueeCps, marqueeLen, scale, bold);
+    marqueeWScale = scale;
+    marqueeWBold = bold;
+  }
+
   scrollX -= plSpeed * dt;
   if (scrollX < -marqueeW) scrollX = PANEL_W;
 
   display->clearScreen();
-  if (plMode != MODE_SCROLL && PANEL_H >= 32) {
+  if (twoRows) {
     drawTopLine();
-    if (plRainbow) drawTextRainbow(marqueeCps, marqueeLen, (int)scrollX, 16);
-    else           drawText(marqueeCps, marqueeLen, (int)scrollX, 16, plColorScroll);
+    if (plRainbow) drawTextRainbow(marqueeCps, marqueeLen, (int)scrollX, 16, 1, bold);
+    else           drawText(marqueeCps, marqueeLen, (int)scrollX, 16, plColorScroll, 1, bold);
   } else {
-    const int y = (PANEL_H - 16) / 2;
-    if (plRainbow) drawTextRainbow(marqueeCps, marqueeLen, (int)scrollX, y);
-    else           drawText(marqueeCps, marqueeLen, (int)scrollX, y, plColorScroll);
+    const int y = (PANEL_H - 16 * scale) / 2;
+    if (plRainbow) drawTextRainbow(marqueeCps, marqueeLen, (int)scrollX, y, scale, bold);
+    else           drawText(marqueeCps, marqueeLen, (int)scrollX, y, plColorScroll, scale, bold);
   }
 }

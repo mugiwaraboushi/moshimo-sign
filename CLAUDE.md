@@ -61,6 +61,7 @@ Discord経由でメンバーからの依頼を受けてプロトタイプを作�
 - prototypes/board/ にURLパラメータを付けるだけ。新しいHTMLを作る必要はない:
   https://mugiwaraboushi.github.io/moshimo-sign/prototypes/board/?text=文言をURLエンコード
   パラメータ: text(◆区切りで複数可) / top(上段固定) / clock=1(時計) / color / speed / w / h
+  / scale=2(1行表示で文字2倍) / bold=1(太字)
 - 新しい「動き・仕組み」が必要なときだけ prototypes/<slug>/ に専用プロトタイプを作る
   (ビューアで済むものに新規HTMLを作らない)。
 
