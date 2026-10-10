@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-10T02:27:29.807Z",
+ "updatedAt": "2026-10-10T08:44:54.016Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【詳しく】米トランプ政権 ICC＝国際刑事裁判所を制裁対象に",
+     "title": "将棋の西山朋佳女流四冠 女性初のプロ棋士編入の権利獲得",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57697",
+     "pubDate": "Sat, 10 Oct 2026 17:39:00 +0900"
+    },
+    {
+     "title": "不正アクセス 高知県が会員サイトで情報漏えいと発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57670",
+     "pubDate": "Sat, 10 Oct 2026 17:03:57 +0900"
+    },
+    {
+     "title": "大阪 泉佐野のだんじり祭りで事故 １人死亡 複数人けがの情報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57626",
+     "pubDate": "Sat, 10 Oct 2026 14:26:00 +0900"
+    },
+    {
+     "title": "米トランプ政権 ICC＝国際刑事裁判所を制裁対象に【詳しく】",
      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57527",
-     "pubDate": "Sat, 10 Oct 2026 05:11:00 +0900"
+     "pubDate": "Sat, 10 Oct 2026 11:47:00 +0900"
     },
     {
-     "title": "トランプ大統領“ロシアから軽油供給 プーチン大統領に感謝”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57567",
-     "pubDate": "Sat, 10 Oct 2026 10:27:59 +0900"
+     "title": "サイバー攻撃急増 セキュリティー企業は作業急ぐ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57651",
+     "pubDate": "Sat, 10 Oct 2026 15:12:29 +0900"
     },
     {
-     "title": "政府 相次ぐ不正アクセス受け 官民問わず対策の徹底求める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57529",
-     "pubDate": "Sat, 10 Oct 2026 05:14:16 +0900"
+     "title": "韓国ソウルで日韓交流のイベント 友好ムード演出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57655",
+     "pubDate": "Sat, 10 Oct 2026 15:40:07 +0900"
     },
     {
-     "title": "ノーベル平和賞にナビ・ピレイ氏 ICCの裁判官など歴任",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261007de55783",
-     "pubDate": "Sat, 10 Oct 2026 03:11:00 +0900"
-    },
-    {
-     "title": "簗農相 バス無料送迎報道で出納責任者「違法という認識ない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57496",
-     "pubDate": "Sat, 10 Oct 2026 07:37:30 +0900"
-    },
-    {
-     "title": "日英伊の次期戦闘機 イタリアに新たな開発拠点設置で式典",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57531",
-     "pubDate": "Sat, 10 Oct 2026 07:50:02 +0900"
-    },
-    {
-     "title": "ホワイトソックス 最終第5戦へ 監督「すべてを懸ける」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57573",
-     "pubDate": "Sat, 10 Oct 2026 10:45:00 +0900"
+     "title": "台湾総統「中国が現状変更」 防衛力強化強調し連携呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57680",
+     "pubDate": "Sat, 10 Oct 2026 17:05:54 +0900"
     }
    ]
   },
@@ -50,6 +50,51 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "天皇皇后両陛下 青森で国民スポーツ大会の開会式に出席",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57687",
+     "pubDate": "Sat, 10 Oct 2026 17:43:28 +0900"
+    },
+    {
+     "title": "将棋の西山朋佳女流四冠 女性初のプロ棋士編入の権利獲得",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57697",
+     "pubDate": "Sat, 10 Oct 2026 17:39:00 +0900"
+    },
+    {
+     "title": "不正アクセス 高知県が会員サイトで情報漏えいと発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57670",
+     "pubDate": "Sat, 10 Oct 2026 17:03:57 +0900"
+    },
+    {
+     "title": "サイバー攻撃急増 セキュリティー企業は作業急ぐ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57651",
+     "pubDate": "Sat, 10 Oct 2026 15:12:29 +0900"
+    },
+    {
+     "title": "世界メンタルヘルスデー 心のケア学ぶイベント",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57631",
+     "pubDate": "Sat, 10 Oct 2026 14:54:00 +0900"
+    },
+    {
+     "title": "江東区のショッピングセンターで天井裏焼ける火事 けが人なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57643",
+     "pubDate": "Sat, 10 Oct 2026 14:51:59 +0900"
+    },
+    {
+     "title": "大阪 泉佐野のだんじり祭りで事故 １人死亡 複数人けがの情報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57626",
+     "pubDate": "Sat, 10 Oct 2026 14:26:00 +0900"
+    },
+    {
+     "title": "目黒のさんま祭 不漁で去年水揚げのサンマ提供へ 11日開催",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57574",
+     "pubDate": "Sat, 10 Oct 2026 12:27:19 +0900"
+    },
+    {
+     "title": "熊本地震以来約2か月半ぶり JR鹿児島本線 宇土～八代 運行再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57591",
+     "pubDate": "Sat, 10 Oct 2026 11:47:00 +0900"
+    },
+    {
      "title": "ビールメーカー4社 缶チューハイ価格も協議か 一部担当者説明",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57551",
      "pubDate": "Sat, 10 Oct 2026 06:57:00 +0900"
@@ -57,7 +102,7 @@
     {
      "title": "【動画】Pickup NEWS（10月10日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57476",
-     "pubDate": "Sat, 10 Oct 2026 06:43:11 +0900"
+     "pubDate": "Sat, 10 Oct 2026 14:02:45 +0900"
     },
     {
      "title": "沖縄強殺事件 深夜外出禁止最初の週末 基地周辺の繁華街は閑散",
@@ -78,51 +123,6 @@
      "title": "監視委のインサイダー勧告に「事実認めず」の異例決定",
      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57511",
      "pubDate": "Fri, 09 Oct 2026 22:33:27 +0900"
-    },
-    {
-     "title": "金ほしさに SNSの“怪しい求人”に応募した結末は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57498",
-     "pubDate": "Fri, 09 Oct 2026 22:04:39 +0900"
-    },
-    {
-     "title": "日本学生野球協会 作新学院の監督が体罰で謹慎処分",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57482",
-     "pubDate": "Fri, 09 Oct 2026 20:48:03 +0900"
-    },
-    {
-     "title": "三菱商事の元社員がインサイダー取引で課徴金勧告",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57481",
-     "pubDate": "Fri, 09 Oct 2026 20:37:04 +0900"
-    },
-    {
-     "title": "各地の大雨災害 “激甚災害”対象に道路や河川復旧事業も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57468",
-     "pubDate": "Fri, 09 Oct 2026 20:24:14 +0900"
-    },
-    {
-     "title": "空襲被害者らが集会 救済法制定を「私たちが生きている間に」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57467",
-     "pubDate": "Fri, 09 Oct 2026 20:20:23 +0900"
-    },
-    {
-     "title": "靖国神社の内部文書初開示 A級戦犯合祀の詳細が明らかに",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57462",
-     "pubDate": "Fri, 09 Oct 2026 20:16:42 +0900"
-    },
-    {
-     "title": "徳島 四国電力子会社社員死亡めぐり遺族が民事裁判準備進める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57453",
-     "pubDate": "Fri, 09 Oct 2026 19:43:28 +0900"
-    },
-    {
-     "title": "介護報酬改定に向けて議論本格化 処遇の改善などが課題",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57454",
-     "pubDate": "Fri, 09 Oct 2026 19:31:08 +0900"
-    },
-    {
-     "title": "バンドスコア模倣し無料公開 賠償命令が確定 最高裁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57441",
-     "pubDate": "Fri, 09 Oct 2026 19:21:00 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "将棋の西山朋佳女流四冠 女性初のプロ棋士編入の権利獲得",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57697",
+     "pubDate": "Sat, 10 Oct 2026 17:39:00 +0900"
+    },
+    {
+     "title": "ナビ・ピレイ氏が学んだ大学関係者「賞は米へのメッセージ」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57585",
+     "pubDate": "Sat, 10 Oct 2026 12:24:42 +0900"
+    },
     {
      "title": "除染土の再生利用 理解醸成を進めるため国立公園で情報発信",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57552",
@@ -195,16 +205,6 @@
      "title": "ノーベル化学賞 インタビュー 「よい研究人生で悔いはない」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56892",
      "pubDate": "Fri, 09 Oct 2026 05:33:00 +0900"
-    },
-    {
-     "title": "声優などの団体 声の生成AIガイドライン初作成“事前許諾を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de56922",
-     "pubDate": "Fri, 09 Oct 2026 05:13:00 +0900"
-    },
-    {
-     "title": "大学や母校 地元で…受賞決定に祝福の声続々と",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56606",
-     "pubDate": "Thu, 08 Oct 2026 21:11:28 +0900"
     }
    ]
   },
@@ -214,14 +214,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "台湾総統「中国が現状変更」 防衛力強化強調し連携呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57680",
+     "pubDate": "Sat, 10 Oct 2026 17:05:54 +0900"
+    },
+    {
+     "title": "韓国ソウルで日韓交流のイベント 友好ムード演出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57655",
+     "pubDate": "Sat, 10 Oct 2026 15:40:07 +0900"
+    },
+    {
+     "title": "ロシア外交評論家 ウクライナへの軍事攻撃は一段と激化の見方",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57618",
+     "pubDate": "Sat, 10 Oct 2026 13:54:26 +0900"
+    },
+    {
+     "title": "米ホワイトハウス 委員会でＦＲＢ理事の“不正疑惑”調査へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57615",
+     "pubDate": "Sat, 10 Oct 2026 13:48:00 +0900"
+    },
+    {
+     "title": "ナビ・ピレイ氏が学んだ大学関係者「賞は米へのメッセージ」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57585",
+     "pubDate": "Sat, 10 Oct 2026 12:24:42 +0900"
+    },
+    {
      "title": "トランプ大統領“ロシアから軽油供給 プーチン大統領に感謝”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57567",
-     "pubDate": "Sat, 10 Oct 2026 10:27:59 +0900"
+     "pubDate": "Sat, 10 Oct 2026 10:27:00 +0900"
     },
     {
      "title": "日英伊の次期戦闘機 イタリアに新たな開発拠点設置で式典",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57531",
-     "pubDate": "Sat, 10 Oct 2026 07:50:02 +0900"
+     "pubDate": "Sat, 10 Oct 2026 07:50:00 +0900"
     },
     {
      "title": "貿易摩擦の中国とEUが協議 EU「中国からの輸出抑制へ」",
@@ -241,12 +266,12 @@
     {
      "title": "サウジアラビア空港への攻撃で3人死亡 攻撃の応酬激化懸念",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57540",
-     "pubDate": "Sat, 10 Oct 2026 04:42:48 +0900"
+     "pubDate": "Sat, 10 Oct 2026 04:42:00 +0900"
     },
     {
-     "title": "【詳しく】米トランプ政権 ICC＝国際刑事裁判所を制裁対象に",
+     "title": "米トランプ政権 ICC＝国際刑事裁判所を制裁対象に【詳しく】",
      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57527",
-     "pubDate": "Sat, 10 Oct 2026 05:11:00 +0900"
+     "pubDate": "Sat, 10 Oct 2026 11:47:00 +0900"
     },
     {
      "title": "ホンダ 三菱自動車からピックアップトラックの供給受ける検討",
@@ -262,31 +287,6 @@
      "title": "茂木外相 ロシアのペスト対策研究所の職員死亡で現地対策本部",
      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57475",
      "pubDate": "Fri, 09 Oct 2026 20:35:33 +0900"
-    },
-    {
-     "title": "「エルニーニョ現象」海面水温 平年差4.0度 統計開始以降最大",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57424",
-     "pubDate": "Fri, 09 Oct 2026 20:59:00 +0900"
-    },
-    {
-     "title": "アメリカ 運転免許証などの情報 1億5000万件以上が漏えいか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57294",
-     "pubDate": "Fri, 09 Oct 2026 17:10:00 +0900"
-    },
-    {
-     "title": "自民 古屋氏 中国の制裁受け高市首相から「名誉ある制裁」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57223",
-     "pubDate": "Fri, 09 Oct 2026 16:42:00 +0900"
-    },
-    {
-     "title": "米 旅客機と軍のヘリ衝突し67人死亡事故 米軍が報告書公表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57229",
-     "pubDate": "Fri, 09 Oct 2026 16:40:21 +0900"
-    },
-    {
-     "title": "チリ首都サンティアゴで大規模洪水 エルニーニョ現象影響か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57243",
-     "pubDate": "Fri, 09 Oct 2026 16:32:58 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "露 米や世界向けの軽油供給開始へ",
-     "link": "https://news.yahoo.co.jp/pickup/6598216?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 00:09:39 GMT"
+     "title": "日本版DOGE強化 減税財源確保へ",
+     "link": "https://news.yahoo.co.jp/pickup/6598256?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 05:56:09 GMT"
     },
     {
-     "title": "簗氏巡り 自民に辞任不可避の声も",
-     "link": "https://news.yahoo.co.jp/pickup/6598223?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 01:11:28 GMT"
+     "title": "ウ大統領 米露の軽油巡る合意非難",
+     "link": "https://news.yahoo.co.jp/pickup/6598262?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 06:57:39 GMT"
     },
     {
-     "title": "米軍の銃殺刑生配信計画 非難殺到",
-     "link": "https://news.yahoo.co.jp/pickup/6598221?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 00:59:23 GMT"
+     "title": "だんじりの横転相次ぐ 計2人死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6598275?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 08:19:06 GMT"
     },
     {
-     "title": "工場の洗濯機に巻き込みか 死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6598229?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 01:40:16 GMT"
+     "title": "女性が頭部を刺されけが 男逃走",
+     "link": "https://news.yahoo.co.jp/pickup/6598273?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 08:07:55 GMT"
     },
     {
-     "title": "精神疾患 発症のピークは14.5歳",
-     "link": "https://news.yahoo.co.jp/pickup/6598233?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 02:09:18 GMT"
+     "title": "住宅に遺体 世帯主の息子と判明",
+     "link": "https://news.yahoo.co.jp/pickup/6598266?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 07:38:23 GMT"
     },
     {
-     "title": "産後に妻の夫への愛情減る? 理由",
-     "link": "https://news.yahoo.co.jp/pickup/6598226?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 01:38:09 GMT"
+     "title": "ゴルフ女子 打球が木に挟まる珍事",
+     "link": "https://news.yahoo.co.jp/pickup/6598270?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 07:52:24 GMT"
     },
     {
-     "title": "96歳ギリヤーク尼ヶ崎の生き様",
-     "link": "https://news.yahoo.co.jp/pickup/6598234?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 02:05:09 GMT"
+     "title": "DeNA勝利 CSファイナルSに王手",
+     "link": "https://news.yahoo.co.jp/pickup/6598268?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 07:56:00 GMT"
     },
     {
-     "title": "元AKB48・内田眞由美 結婚を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6598228?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 01:35:21 GMT"
+     "title": "やっくんさん事故死 同乗者が語る",
+     "link": "https://news.yahoo.co.jp/pickup/6598250?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 04:45:57 GMT"
     }
    ]
   }
