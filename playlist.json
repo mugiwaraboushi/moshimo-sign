@@ -5,6 +5,8 @@
   "speed": 45,
   "colorTop": "FF9C00",
   "colorScroll": "FF9C00",
+  "scrollScale": 2,
+  "scrollBold": true,
   "messages": [
     "小中高生向けの研究体験ワークショップを開催中！"
   ],
