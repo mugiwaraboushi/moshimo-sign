@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-10T08:44:54.016Z",
+ "updatedAt": "2026-10-10T14:51:14.308Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "将棋の西山朋佳女流四冠 女性初のプロ棋士編入の権利獲得",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57697",
-     "pubDate": "Sat, 10 Oct 2026 17:39:00 +0900"
-    },
-    {
-     "title": "不正アクセス 高知県が会員サイトで情報漏えいと発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57670",
-     "pubDate": "Sat, 10 Oct 2026 17:03:57 +0900"
-    },
-    {
-     "title": "大阪 泉佐野のだんじり祭りで事故 １人死亡 複数人けがの情報",
+     "title": "大阪 伝統のだんじり祭りで横転事故相次ぐ 2人死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57626",
-     "pubDate": "Sat, 10 Oct 2026 14:26:00 +0900"
+     "pubDate": "Sat, 10 Oct 2026 19:05:00 +0900"
     },
     {
-     "title": "米トランプ政権 ICC＝国際刑事裁判所を制裁対象に【詳しく】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57527",
-     "pubDate": "Sat, 10 Oct 2026 11:47:00 +0900"
+     "title": "ノーベル化学賞 そ※合さん 東京理科大が「栄誉教授」授与決定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57761",
+     "pubDate": "Sat, 10 Oct 2026 21:04:58 +0900"
     },
     {
-     "title": "サイバー攻撃急増 セキュリティー企業は作業急ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57651",
-     "pubDate": "Sat, 10 Oct 2026 15:12:29 +0900"
+     "title": "インド“ゴキブリ人民党”創設者 抗議活動前に拘束",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57783",
+     "pubDate": "Sat, 10 Oct 2026 23:20:28 +0900"
     },
     {
-     "title": "韓国ソウルで日韓交流のイベント 友好ムード演出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57655",
-     "pubDate": "Sat, 10 Oct 2026 15:40:07 +0900"
+     "title": "トランプ大統領 ホワイトハウスの新しい報道官を発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57620",
+     "pubDate": "Sat, 10 Oct 2026 20:15:52 +0900"
     },
     {
-     "title": "台湾総統「中国が現状変更」 防衛力強化強調し連携呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57680",
-     "pubDate": "Sat, 10 Oct 2026 17:05:54 +0900"
+     "title": "将棋の西山朋佳女流四冠 女性初のプロ棋士権利獲得",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57697",
+     "pubDate": "Sat, 10 Oct 2026 19:41:00 +0900"
+    },
+    {
+     "title": "米アンソロピック AIが警察に殺人事件の架空情報送信",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57716",
+     "pubDate": "Sat, 10 Oct 2026 19:03:00 +0900"
+    },
+    {
+     "title": "柔道世界選手権 男子100キロ超と女子78キロ超メダル獲得ならず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57774",
+     "pubDate": "Sat, 10 Oct 2026 22:24:54 +0900"
     }
    ]
   },
@@ -50,14 +50,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "私がオーバードーズする理由【20代女性アルバイト】やしろさん",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57504",
+     "pubDate": "Sat, 10 Oct 2026 19:15:00 +0900"
+    },
+    {
+     "title": "私がオーバードーズする理由【高校2年生】ゆいさんの場合",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56487",
+     "pubDate": "Sat, 10 Oct 2026 19:12:00 +0900"
+    },
+    {
+     "title": "ゲレンデを駆け上がる！ 恐竜着ぐるみレース 福井 勝山",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57725",
+     "pubDate": "Sat, 10 Oct 2026 18:48:45 +0900"
+    },
+    {
      "title": "天皇皇后両陛下 青森で国民スポーツ大会の開会式に出席",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57687",
      "pubDate": "Sat, 10 Oct 2026 17:43:28 +0900"
     },
     {
-     "title": "将棋の西山朋佳女流四冠 女性初のプロ棋士編入の権利獲得",
+     "title": "将棋の西山朋佳女流四冠 女性初のプロ棋士権利獲得",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57697",
-     "pubDate": "Sat, 10 Oct 2026 17:39:00 +0900"
+     "pubDate": "Sat, 10 Oct 2026 19:41:00 +0900"
     },
     {
      "title": "不正アクセス 高知県が会員サイトで情報漏えいと発表",
@@ -77,12 +92,12 @@
     {
      "title": "江東区のショッピングセンターで天井裏焼ける火事 けが人なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57643",
-     "pubDate": "Sat, 10 Oct 2026 14:51:59 +0900"
+     "pubDate": "Sat, 10 Oct 2026 14:51:00 +0900"
     },
     {
-     "title": "大阪 泉佐野のだんじり祭りで事故 １人死亡 複数人けがの情報",
+     "title": "大阪 伝統のだんじり祭りで横転事故相次ぐ 2人死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57626",
-     "pubDate": "Sat, 10 Oct 2026 14:26:00 +0900"
+     "pubDate": "Sat, 10 Oct 2026 19:05:00 +0900"
     },
     {
      "title": "目黒のさんま祭 不漁で去年水揚げのサンマ提供へ 11日開催",
@@ -102,27 +117,12 @@
     {
      "title": "【動画】Pickup NEWS（10月10日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57476",
-     "pubDate": "Sat, 10 Oct 2026 14:02:45 +0900"
+     "pubDate": "Sat, 10 Oct 2026 20:04:22 +0900"
     },
     {
      "title": "沖縄強殺事件 深夜外出禁止最初の週末 基地周辺の繁華街は閑散",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57542",
      "pubDate": "Sat, 10 Oct 2026 05:25:00 +0900"
-    },
-    {
-     "title": "簗農相 バス無料送迎報道で出納責任者「違法という認識ない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57496",
-     "pubDate": "Sat, 10 Oct 2026 07:37:30 +0900"
-    },
-    {
-     "title": "「バイトル」会員メールアドレス 388万件余漏えいのおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57499",
-     "pubDate": "Fri, 09 Oct 2026 22:49:00 +0900"
-    },
-    {
-     "title": "監視委のインサイダー勧告に「事実認めず」の異例決定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57511",
-     "pubDate": "Fri, 09 Oct 2026 22:33:27 +0900"
     }
    ]
   },
@@ -132,9 +132,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
-     "title": "将棋の西山朋佳女流四冠 女性初のプロ棋士編入の権利獲得",
+     "title": "ノーベル化学賞 そ※合さん 東京理科大が「栄誉教授」授与決定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57761",
+     "pubDate": "Sat, 10 Oct 2026 21:04:58 +0900"
+    },
+    {
+     "title": "将棋の西山朋佳女流四冠 女性初のプロ棋士権利獲得",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57697",
-     "pubDate": "Sat, 10 Oct 2026 17:39:00 +0900"
+     "pubDate": "Sat, 10 Oct 2026 19:41:00 +0900"
     },
     {
      "title": "ナビ・ピレイ氏が学んだ大学関係者「賞は米へのメッセージ」",
@@ -200,11 +205,6 @@
      "title": "紅白歌合戦 司会に芦田愛菜さん 堺雅人さん 二宮和也さん",
      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56895",
      "pubDate": "Fri, 09 Oct 2026 06:00:00 +0900"
-    },
-    {
-     "title": "ノーベル化学賞 インタビュー 「よい研究人生で悔いはない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56892",
-     "pubDate": "Fri, 09 Oct 2026 05:33:00 +0900"
     }
    ]
   },
@@ -214,9 +214,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "インド“ゴキブリ人民党”創設者 抗議活動前に拘束",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57783",
+     "pubDate": "Sat, 10 Oct 2026 23:20:28 +0900"
+    },
+    {
+     "title": "トランプ大統領 ホワイトハウスの新しい報道官を発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57620",
+     "pubDate": "Sat, 10 Oct 2026 20:15:52 +0900"
+    },
+    {
+     "title": "米アンソロピック AIが警察に殺人事件の架空情報送信",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57716",
+     "pubDate": "Sat, 10 Oct 2026 19:03:00 +0900"
+    },
+    {
      "title": "台湾総統「中国が現状変更」 防衛力強化強調し連携呼びかけ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57680",
-     "pubDate": "Sat, 10 Oct 2026 17:05:54 +0900"
+     "pubDate": "Sat, 10 Oct 2026 17:05:00 +0900"
     },
     {
      "title": "韓国ソウルで日韓交流のイベント 友好ムード演出",
@@ -272,21 +287,6 @@
      "title": "米トランプ政権 ICC＝国際刑事裁判所を制裁対象に【詳しく】",
      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57527",
      "pubDate": "Sat, 10 Oct 2026 11:47:00 +0900"
-    },
-    {
-     "title": "ホンダ 三菱自動車からピックアップトラックの供給受ける検討",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57464",
-     "pubDate": "Fri, 09 Oct 2026 21:51:42 +0900"
-    },
-    {
-     "title": "米カリフォルニア州に世界最大級「野生生物のための橋」開通へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57456",
-     "pubDate": "Fri, 09 Oct 2026 21:00:16 +0900"
-    },
-    {
-     "title": "茂木外相 ロシアのペスト対策研究所の職員死亡で現地対策本部",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57475",
-     "pubDate": "Fri, 09 Oct 2026 20:35:33 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "日本版DOGE強化 減税財源確保へ",
-     "link": "https://news.yahoo.co.jp/pickup/6598256?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 05:56:09 GMT"
+     "title": "外相 赤根・ルビオ両氏と電話協議",
+     "link": "https://news.yahoo.co.jp/pickup/6598307?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 13:59:00 GMT"
     },
     {
-     "title": "ウ大統領 米露の軽油巡る合意非難",
-     "link": "https://news.yahoo.co.jp/pickup/6598262?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 06:57:39 GMT"
+     "title": "ICCに制裁 ピレイ氏「悲しい日」",
+     "link": "https://news.yahoo.co.jp/pickup/6598300?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 13:09:20 GMT"
     },
     {
-     "title": "だんじりの横転相次ぐ 計2人死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6598275?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 08:19:06 GMT"
+     "title": "カルテル疑惑 卸売業者が実態証言",
+     "link": "https://news.yahoo.co.jp/pickup/6598291?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 10:58:38 GMT"
     },
     {
-     "title": "女性が頭部を刺されけが 男逃走",
-     "link": "https://news.yahoo.co.jp/pickup/6598273?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 08:07:55 GMT"
+     "title": "車と衝突 義父が用水路に落ち死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6598304?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 13:30:01 GMT"
     },
     {
-     "title": "住宅に遺体 世帯主の息子と判明",
-     "link": "https://news.yahoo.co.jp/pickup/6598266?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 07:38:23 GMT"
+     "title": "少女成長の証 13年伸ばした髪提供",
+     "link": "https://news.yahoo.co.jp/pickup/6598297?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 12:19:12 GMT"
     },
     {
-     "title": "ゴルフ女子 打球が木に挟まる珍事",
-     "link": "https://news.yahoo.co.jp/pickup/6598270?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 07:52:24 GMT"
+     "title": "卓球・佐藤瞳が快進撃 決勝に進出",
+     "link": "https://news.yahoo.co.jp/pickup/6598306?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 13:47:45 GMT"
     },
     {
-     "title": "DeNA勝利 CSファイナルSに王手",
-     "link": "https://news.yahoo.co.jp/pickup/6598268?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 07:56:00 GMT"
+     "title": "FRUITS ZIPPER仲川瑠夏 活動休止",
+     "link": "https://news.yahoo.co.jp/pickup/6598299?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 12:17:08 GMT"
     },
     {
-     "title": "やっくんさん事故死 同乗者が語る",
-     "link": "https://news.yahoo.co.jp/pickup/6598250?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 04:45:57 GMT"
+     "title": "てんちむ出産 第2子は「青汁似」",
+     "link": "https://news.yahoo.co.jp/pickup/6598308?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 14:05:25 GMT"
     }
    ]
   }
