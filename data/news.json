@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-10T18:59:03.341Z",
+ "updatedAt": "2026-10-10T22:12:25.403Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,12 +10,12 @@
     {
      "title": "ICC締約国議長団 アメリカに制裁の撤回を求める声明を発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57809",
-     "pubDate": "Sun, 11 Oct 2026 03:51:57 +0900"
+     "pubDate": "Sun, 11 Oct 2026 03:51:00 +0900"
     },
     {
-     "title": "茂木外相 米国ルビオ国務長官にICC制裁への日本の立場伝達",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57789",
-     "pubDate": "Sat, 10 Oct 2026 23:41:00 +0900"
+     "title": "アルツハイマー病の原因物質減らす マウスで実験成功 東大など",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57813",
+     "pubDate": "Sun, 11 Oct 2026 05:50:00 +0900"
     },
     {
      "title": "大阪 伝統のだんじり祭りで横転事故相次ぐ 2人死亡",
@@ -23,14 +23,14 @@
      "pubDate": "Sat, 10 Oct 2026 19:05:00 +0900"
     },
     {
-     "title": "ノーベル化学賞 そ※合さん 東京理科大が「栄誉教授」授与決定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57761",
-     "pubDate": "Sat, 10 Oct 2026 21:04:58 +0900"
+     "title": "ノーベル平和賞 ピレイ氏「ICCの存続に緊張と不安」危機感示す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57808",
+     "pubDate": "Sun, 11 Oct 2026 05:09:17 +0900"
     },
     {
-     "title": "インド“ゴキブリ人民党”創設者 抗議活動前に拘束",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57783",
-     "pubDate": "Sat, 10 Oct 2026 23:20:28 +0900"
+     "title": "茂木外相 米 ルビオ国務長官にICC制裁への日本の立場伝達",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57789",
+     "pubDate": "Sat, 10 Oct 2026 23:41:00 +0900"
     },
     {
      "title": "将棋の西山朋佳女流四冠 女性初のプロ棋士権利獲得",
@@ -38,9 +38,9 @@
      "pubDate": "Sat, 10 Oct 2026 19:41:00 +0900"
     },
     {
-     "title": "米アンソロピック AIが警察に殺人事件の架空情報送信",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57716",
-     "pubDate": "Sat, 10 Oct 2026 19:03:00 +0900"
+     "title": "サウジ首都の国際空港がまた攻撃受ける けが人複数 緊張高まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57816",
+     "pubDate": "Sun, 11 Oct 2026 06:19:59 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（10月11日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57622",
+     "pubDate": "Sun, 11 Oct 2026 06:49:48 +0900"
+    },
+    {
+     "title": "ＮＨＫ全国学校音楽コンクール 高校の部が開催",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57727",
+     "pubDate": "Sun, 11 Oct 2026 05:05:44 +0900"
+    },
     {
      "title": "私がオーバードーズする理由【20代女性アルバイト】やしろさん",
      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57504",
@@ -113,16 +123,6 @@
      "title": "ビールメーカー4社 缶チューハイ価格も協議か 一部担当者説明",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57551",
      "pubDate": "Sat, 10 Oct 2026 06:57:00 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（10月10日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57476",
-     "pubDate": "Sat, 10 Oct 2026 20:04:22 +0900"
-    },
-    {
-     "title": "沖縄強殺事件 深夜外出禁止最初の週末 基地周辺の繁華街は閑散",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57542",
-     "pubDate": "Sat, 10 Oct 2026 05:25:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "アルツハイマー病の原因物質減らす マウスで実験成功 東大など",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57813",
+     "pubDate": "Sun, 11 Oct 2026 05:50:00 +0900"
+    },
     {
      "title": "ノーベル化学賞 そ※合さん 東京理科大が「栄誉教授」授与決定",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57761",
@@ -200,11 +205,6 @@
      "title": "ブックオフ 不正アクセスで最大643万件の会員情報漏えいか",
      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56955",
      "pubDate": "Fri, 09 Oct 2026 12:25:00 +0900"
-    },
-    {
-     "title": "紅白歌合戦 司会に芦田愛菜さん 堺雅人さん 二宮和也さん",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261008de56895",
-     "pubDate": "Fri, 09 Oct 2026 06:00:00 +0900"
     }
    ]
   },
@@ -214,9 +214,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ウクライナ ロシア軍の攻撃で子ども含む20人以上死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57814",
+     "pubDate": "Sun, 11 Oct 2026 06:35:49 +0900"
+    },
+    {
+     "title": "サウジ首都の国際空港がまた攻撃受ける けが人複数 緊張高まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57816",
+     "pubDate": "Sun, 11 Oct 2026 06:19:59 +0900"
+    },
+    {
+     "title": "ノーベル平和賞 ピレイ氏「ICCの存続に緊張と不安」危機感示す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57808",
+     "pubDate": "Sun, 11 Oct 2026 05:09:17 +0900"
+    },
+    {
+     "title": "米 ルビオ国務長官 茂木外相にICC制裁の必要性を伝達",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57812",
+     "pubDate": "Sun, 11 Oct 2026 05:08:00 +0900"
+    },
+    {
      "title": "ICC締約国議長団 アメリカに制裁の撤回を求める声明を発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57809",
-     "pubDate": "Sun, 11 Oct 2026 03:51:57 +0900"
+     "pubDate": "Sun, 11 Oct 2026 03:51:00 +0900"
     },
     {
      "title": "インド“ゴキブリ人民党”創設者 抗議活動前に拘束",
@@ -267,26 +287,6 @@
      "title": "日英伊の次期戦闘機 イタリアに新たな開発拠点設置で式典",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57531",
      "pubDate": "Sat, 10 Oct 2026 07:50:00 +0900"
-    },
-    {
-     "title": "貿易摩擦の中国とEUが協議 EU「中国からの輸出抑制へ」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57546",
-     "pubDate": "Sat, 10 Oct 2026 05:36:00 +0900"
-    },
-    {
-     "title": "沖縄強殺事件 深夜外出禁止最初の週末 基地周辺の繁華街は閑散",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57542",
-     "pubDate": "Sat, 10 Oct 2026 05:25:00 +0900"
-    },
-    {
-     "title": "【詳しく】ガザ停戦1年 イスラエル軍攻撃続く 厳しい人道状況",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57532",
-     "pubDate": "Sat, 10 Oct 2026 05:20:56 +0900"
-    },
-    {
-     "title": "サウジアラビア空港への攻撃で3人死亡 攻撃の応酬激化懸念",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57540",
-     "pubDate": "Sat, 10 Oct 2026 04:42:00 +0900"
     }
    ]
   },
