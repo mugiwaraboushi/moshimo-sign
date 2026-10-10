@@ -14,6 +14,8 @@
 | `speed` | number | スクロール速度 dot/秒 (5-200) | `45` |
 | `colorTop` | string | 上段の色 (RGB 16進6桁、#なし) | `"FF9C00"` |
 | `colorScroll` | string | 下段スクロールの色。RGB 16進6桁、または特殊値 `"rainbow"` | `"FF9C00"` / `"rainbow"` |
+| `scrollScale` | int | 流れる文字の拡大率。`1`=16px / `2`=32px (パネルいっぱい)。**`2` は `mode:"scroll"` のときだけ効く** (v18) | `2` |
+| `scrollBold` | bool | 流れる文字を太字にする。2段表示の下段にも効く (v18) | `true` |
 | `messages` | string[] | スクロールで流す文言 (最大10件、◆で連結される) | |
 | `frames` | object[] | ドット絵の静止画 (最大24枚)。`mode:"frames"` のときだけ使われる | |
 | `commentsUrl` | string | イベントコメントの取得先 (v0.10〜)。空文字で取得を止める。詳細は下記 | `"https://script.google.com/macros/s/…/exec?action=text"` |
@@ -42,6 +44,28 @@
 
 > 設計メモ: 当初案は `colorMode` + `rainbowCycle` / `rainbowSpin` という新規フィールドだったが、
 > 仕様の追加面積を最小にするため既存 `colorScroll` の特殊値として実装した。
+
+### 大きな文字・太字 scrollScale / scrollBold (v18〜)
+
+遠くから読ませたいとき (イベントの呼び込みなど) に、流れる文字を大きく・太くする。
+
+```json
+{ "mode": "scroll", "scrollScale": 2, "scrollBold": true }
+```
+
+- `scrollScale: 2` は16pxフォントを縦横2倍に引き伸ばし、32px高でパネルいっぱいに流す。
+  1文字32dot幅なので**画面に見えるのは全角2文字ずつ**。1周にかかる時間も2倍になるので、
+  読みにくければ `speed` を上げる (60〜90 くらい)
+- **`scrollScale: 2` は `mode:"scroll"` のときだけ効く。** 2段表示 (`dual` / `event`) の
+  下段は16px高しかないので、指定しても16pxのまま流れる
+- `scrollBold: true` は点灯ドットを右へ1dot太らせる (縦線が太くなる)。
+  太らせたぶん1文字ごとの間隔も1dot広がる。2段表示の下段にも効く。上段 (`topText`・時計) は対象外
+- `colorScroll: "rainbow"` と組み合わせてよい
+- **この2つは「省略 = 既定に戻る」。** 他のキーは省略すると現在値を維持するが、
+  この2つはイベント用の一時設定なので、`playlist.json` から消すだけで通常の16px・細字に戻る
+- 範囲外の `scrollScale` は 1〜2 に丸める
+- 見た目の確認はビューアで: `prototypes/board/?text=…&scale=2&bold=1`
+- v17以前の実機はこの2つを無視する (16px・細字のまま流れる)
 
 ### イベントコメント commentsUrl (v0.10〜)
 

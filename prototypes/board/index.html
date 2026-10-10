@@ -43,17 +43,22 @@ const GLYPHS = new Map();
 })();
 const TOFU = {w:16, rows:Uint16Array.from({length:16},(_,r)=> (r===1||r===14)?0x7FFE:(r>1&&r<14)?0x4002:0)};
 function glyph(ch){ return GLYPHS.get(ch) || TOFU; }
-function renderText(text){
+// scale=2 で縦横2倍 (32px高)、bold で点灯ドットを右へ1dot太らせ送り幅も+1。
+// 実機ファームウェア v18 の scrollScale / scrollBold と同じ描き方。
+function renderText(text, scale=1, bold=false){
   const gs = [...text].map(glyph);
-  const w = Math.max(gs.reduce((a,g)=>a+g.w, 0), 1);
-  const bm = { w, rows: Array.from({length:16},()=>new Uint8Array(w)) };
+  const ext = bold ? 1 : 0;
+  const w = Math.max(gs.reduce((a,g)=>a+g.w*scale+ext, 0), 1);
+  const bm = { w, rows: Array.from({length:16*scale},()=>new Uint8Array(w)) };
   let x = 0;
   for (const g of gs) {
     for (let r=0;r<16;r++){
       const v = g.rows[r];
-      for (let i=0;i<g.w;i++) if ((v>>(g.w-1-i))&1) bm.rows[r][x+i] = 1;
+      for (let i=0;i<g.w;i++) if ((v>>(g.w-1-i))&1)
+        for (let sy=0;sy<scale;sy++) for (let sx=0;sx<scale+ext;sx++)
+          bm.rows[r*scale+sy][x+i*scale+sx] = 1;
     }
-    x += g.w;
+    x += g.w*scale+ext;
   }
   return bm;
 }
@@ -62,6 +67,7 @@ function renderText(text){
 // ?text=流す文言(必須。「◆」や「||」区切りで複数可)
 // &top=上段の固定文言(指定すると2段表示) &clock=1(上段を時計と交互に)
 // &color=FF9C00 &topcolor=FF9C00 &speed=45 &w=64 &h=32
+// &scale=2(1行表示のとき文字を2倍に) &bold=1(流れる文字を太字に)
 const q = new URLSearchParams(location.search);
 // アプリ間でURLを受け渡すとエンコードが二重になることがある。
 // そのままだと "%20" などが文字として流れてしまうので、残っていたらもう一度だけ戻す。
@@ -78,8 +84,12 @@ const P = {
   speed: Math.min(Math.max(parseFloat(q.get("speed")) || 45, 5), 200),
   w: parseInt(q.get("w")) || 64,
   h: parseInt(q.get("h")) || 32,
+  scale: q.get("scale") === "2" ? 2 : 1,
+  bold: q.get("bold") === "1",
 };
 const dual = (P.top || P.clock) && P.h >= 32;
+// 2段表示の下段は16px高しかないので、拡大は1行表示のときだけ (実機と同じ)
+const scale = (!dual && 16*P.scale <= P.h) ? P.scale : 1;
 const msgs = P.text.split(/\|\||◆/).map(s=>s.trim()).filter(Boolean);
 const marqueeText = "　" + msgs.join("　◆　");
 
@@ -89,7 +99,7 @@ const DOT = 10;
 cv.width = P.w*DOT; cv.height = P.h*DOT;
 // 画面幅に対する実表示サイズ調整はCSS(width:100%)に任せる
 
-const marquee = renderText(marqueeText);
+const marquee = renderText(marqueeText, scale, P.bold);
 let scrollX = P.w;
 let topBm = null, topKey = "";
 function refreshTop(){
@@ -114,7 +124,7 @@ function frame(ts){
 
   const fb = new Uint8Array(P.w*P.h);
   function blit(bm, ox, oy){
-    for (let r=0;r<16;r++){
+    for (let r=0;r<bm.rows.length;r++){
       const y = oy+r; if (y<0||y>=P.h) continue;
       const row = bm.rows[r];
       for (let x=0;x<bm.w;x++){
@@ -136,7 +146,7 @@ function frame(ts){
     }
     blit(marquee, Math.round(scrollX), 16);
   } else {
-    blit(marquee, Math.round(scrollX), Math.floor((P.h-16)/2));
+    blit(marquee, Math.round(scrollX), Math.floor((P.h-16*scale)/2));
   }
 
   ctx.fillStyle = "#000"; ctx.fillRect(0,0,cv.width,cv.height);
