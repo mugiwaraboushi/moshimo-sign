@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-10T14:51:14.308Z",
+ "updatedAt": "2026-10-10T18:59:03.341Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "ICC締約国議長団 アメリカに制裁の撤回を求める声明を発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57809",
+     "pubDate": "Sun, 11 Oct 2026 03:51:57 +0900"
+    },
+    {
+     "title": "茂木外相 米国ルビオ国務長官にICC制裁への日本の立場伝達",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57789",
+     "pubDate": "Sat, 10 Oct 2026 23:41:00 +0900"
+    },
     {
      "title": "大阪 伝統のだんじり祭りで横転事故相次ぐ 2人死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57626",
@@ -23,11 +33,6 @@
      "pubDate": "Sat, 10 Oct 2026 23:20:28 +0900"
     },
     {
-     "title": "トランプ大統領 ホワイトハウスの新しい報道官を発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57620",
-     "pubDate": "Sat, 10 Oct 2026 20:15:52 +0900"
-    },
-    {
      "title": "将棋の西山朋佳女流四冠 女性初のプロ棋士権利獲得",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57697",
      "pubDate": "Sat, 10 Oct 2026 19:41:00 +0900"
@@ -36,11 +41,6 @@
      "title": "米アンソロピック AIが警察に殺人事件の架空情報送信",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57716",
      "pubDate": "Sat, 10 Oct 2026 19:03:00 +0900"
-    },
-    {
-     "title": "柔道世界選手権 男子100キロ超と女子78キロ超メダル獲得ならず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57774",
-     "pubDate": "Sat, 10 Oct 2026 22:24:54 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ICC締約国議長団 アメリカに制裁の撤回を求める声明を発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57809",
+     "pubDate": "Sun, 11 Oct 2026 03:51:57 +0900"
+    },
+    {
      "title": "インド“ゴキブリ人民党”創設者 抗議活動前に拘束",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57783",
      "pubDate": "Sat, 10 Oct 2026 23:20:28 +0900"
@@ -282,11 +287,6 @@
      "title": "サウジアラビア空港への攻撃で3人死亡 攻撃の応酬激化懸念",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57540",
      "pubDate": "Sat, 10 Oct 2026 04:42:00 +0900"
-    },
-    {
-     "title": "米トランプ政権 ICC＝国際刑事裁判所を制裁対象に【詳しく】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57527",
-     "pubDate": "Sat, 10 Oct 2026 11:47:00 +0900"
     }
    ]
   },
@@ -301,9 +301,9 @@
      "pubDate": "Sat, 10 Oct 2026 13:59:00 GMT"
     },
     {
-     "title": "ICCに制裁 ピレイ氏「悲しい日」",
-     "link": "https://news.yahoo.co.jp/pickup/6598300?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 13:09:20 GMT"
+     "title": "パレスチナ議会選 来年9月に延期",
+     "link": "https://news.yahoo.co.jp/pickup/6598309?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 14:19:20 GMT"
     },
     {
      "title": "カルテル疑惑 卸売業者が実態証言",
@@ -316,9 +316,9 @@
      "pubDate": "Sat, 10 Oct 2026 13:30:01 GMT"
     },
     {
-     "title": "少女成長の証 13年伸ばした髪提供",
-     "link": "https://news.yahoo.co.jp/pickup/6598297?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 12:19:12 GMT"
+     "title": "年収2千万円ざら 稼ぐミカン農家",
+     "link": "https://news.yahoo.co.jp/pickup/6598278?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 09:10:38 GMT"
     },
     {
      "title": "卓球・佐藤瞳が快進撃 決勝に進出",
