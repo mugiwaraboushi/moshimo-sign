@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-10T22:12:25.403Z",
+ "updatedAt": "2026-10-11T01:04:36.354Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "ICC締約国議長団 アメリカに制裁の撤回を求める声明を発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57809",
-     "pubDate": "Sun, 11 Oct 2026 03:51:00 +0900"
+     "title": "トランプ大統領「ウクライナは新たな大統領を迎える時」と発言",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57828",
+     "pubDate": "Sun, 11 Oct 2026 09:53:27 +0900"
+    },
+    {
+     "title": "サウジ首都の国際空港に攻撃 12人死亡 けが人300人以上",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57816",
+     "pubDate": "Sun, 11 Oct 2026 08:13:00 +0900"
+    },
+    {
+     "title": "茂木外相 米 ルビオ国務長官にICC制裁への日本の立場伝達",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57789",
+     "pubDate": "Sun, 11 Oct 2026 07:31:10 +0900"
     },
     {
      "title": "アルツハイマー病の原因物質減らす マウスで実験成功 東大など",
@@ -18,29 +28,19 @@
      "pubDate": "Sun, 11 Oct 2026 05:50:00 +0900"
     },
     {
-     "title": "大阪 伝統のだんじり祭りで横転事故相次ぐ 2人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57626",
-     "pubDate": "Sat, 10 Oct 2026 19:05:00 +0900"
+     "title": "ICC締約国議長団 アメリカに制裁の撤回を求める声明を発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57809",
+     "pubDate": "Sun, 11 Oct 2026 03:51:00 +0900"
     },
     {
      "title": "ノーベル平和賞 ピレイ氏「ICCの存続に緊張と不安」危機感示す",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57808",
-     "pubDate": "Sun, 11 Oct 2026 05:09:17 +0900"
+     "pubDate": "Sun, 11 Oct 2026 05:09:00 +0900"
     },
     {
-     "title": "茂木外相 米 ルビオ国務長官にICC制裁への日本の立場伝達",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57789",
-     "pubDate": "Sat, 10 Oct 2026 23:41:00 +0900"
-    },
-    {
-     "title": "将棋の西山朋佳女流四冠 女性初のプロ棋士権利獲得",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57697",
-     "pubDate": "Sat, 10 Oct 2026 19:41:00 +0900"
-    },
-    {
-     "title": "サウジ首都の国際空港がまた攻撃受ける けが人複数 緊張高まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57816",
-     "pubDate": "Sun, 11 Oct 2026 06:19:59 +0900"
+     "title": "ウクライナ ロシア軍の攻撃で子ども含む20人以上死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57814",
+     "pubDate": "Sun, 11 Oct 2026 06:35:49 +0900"
     }
    ]
   },
@@ -214,19 +214,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "トランプ大統領「ウクライナは新たな大統領を迎える時」と発言",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57828",
+     "pubDate": "Sun, 11 Oct 2026 09:53:27 +0900"
+    },
+    {
      "title": "ウクライナ ロシア軍の攻撃で子ども含む20人以上死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57814",
      "pubDate": "Sun, 11 Oct 2026 06:35:49 +0900"
     },
     {
-     "title": "サウジ首都の国際空港がまた攻撃受ける けが人複数 緊張高まる",
+     "title": "サウジ首都の国際空港に攻撃 12人死亡 けが人300人以上",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57816",
-     "pubDate": "Sun, 11 Oct 2026 06:19:59 +0900"
+     "pubDate": "Sun, 11 Oct 2026 08:13:00 +0900"
     },
     {
      "title": "ノーベル平和賞 ピレイ氏「ICCの存続に緊張と不安」危機感示す",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57808",
-     "pubDate": "Sun, 11 Oct 2026 05:09:17 +0900"
+     "pubDate": "Sun, 11 Oct 2026 05:09:00 +0900"
     },
     {
      "title": "米 ルビオ国務長官 茂木外相にICC制裁の必要性を伝達",
@@ -282,11 +287,6 @@
      "title": "トランプ大統領“ロシアから軽油供給 プーチン大統領に感謝”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57567",
      "pubDate": "Sat, 10 Oct 2026 10:27:00 +0900"
-    },
-    {
-     "title": "日英伊の次期戦闘機 イタリアに新たな開発拠点設置で式典",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57531",
-     "pubDate": "Sat, 10 Oct 2026 07:50:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "外相 赤根・ルビオ両氏と電話協議",
-     "link": "https://news.yahoo.co.jp/pickup/6598307?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 13:59:00 GMT"
+     "title": "米で銃撃 子どもや妊婦ら8人死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6598319?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 23:02:36 GMT"
     },
     {
-     "title": "パレスチナ議会選 来年9月に延期",
-     "link": "https://news.yahoo.co.jp/pickup/6598309?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 14:19:20 GMT"
+     "title": "サウジ首都の空港に攻撃 12人死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6598321?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 23:10:14 GMT"
     },
     {
-     "title": "カルテル疑惑 卸売業者が実態証言",
-     "link": "https://news.yahoo.co.jp/pickup/6598291?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 10:58:38 GMT"
+     "title": "農相 当選重ねるごと「態度変化」",
+     "link": "https://news.yahoo.co.jp/pickup/6598332?source=rss",
+     "pubDate": "Sun, 11 Oct 2026 00:19:45 GMT"
     },
     {
-     "title": "車と衝突 義父が用水路に落ち死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6598304?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 13:30:01 GMT"
+     "title": "銃殺刑の配信 トランプ氏が判断へ",
+     "link": "https://news.yahoo.co.jp/pickup/6598331?source=rss",
+     "pubDate": "Sun, 11 Oct 2026 00:05:45 GMT"
     },
     {
-     "title": "年収2千万円ざら 稼ぐミカン農家",
-     "link": "https://news.yahoo.co.jp/pickup/6598278?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 09:10:38 GMT"
+     "title": "幼児の新幹線自由席利用 広報見解",
+     "link": "https://news.yahoo.co.jp/pickup/6598337?source=rss",
+     "pubDate": "Sun, 11 Oct 2026 00:49:02 GMT"
     },
     {
-     "title": "卓球・佐藤瞳が快進撃 決勝に進出",
-     "link": "https://news.yahoo.co.jp/pickup/6598306?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 13:47:45 GMT"
+     "title": "速報 Wソックスvsガーディアンズ",
+     "link": "https://news.yahoo.co.jp/pickup/6598323?source=rss",
+     "pubDate": "Sat, 10 Oct 2026 23:56:38 GMT"
     },
     {
-     "title": "FRUITS ZIPPER仲川瑠夏 活動休止",
-     "link": "https://news.yahoo.co.jp/pickup/6598299?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 12:17:08 GMT"
+     "title": "ロッテ・西岡剛コーチ 1年で退団",
+     "link": "https://news.yahoo.co.jp/pickup/6598333?source=rss",
+     "pubDate": "Sun, 11 Oct 2026 00:37:08 GMT"
     },
     {
-     "title": "てんちむ出産 第2子は「青汁似」",
-     "link": "https://news.yahoo.co.jp/pickup/6598308?source=rss",
-     "pubDate": "Sat, 10 Oct 2026 14:05:25 GMT"
+     "title": "生放送中に名探偵津田が始動 話題",
+     "link": "https://news.yahoo.co.jp/pickup/6598335?source=rss",
+     "pubDate": "Sun, 11 Oct 2026 00:30:00 GMT"
     }
    ]
   }
