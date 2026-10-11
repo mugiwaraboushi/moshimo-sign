@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-11T14:13:08.843Z",
+ "updatedAt": "2026-10-11T19:01:47.722Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,6 +18,11 @@
      "pubDate": "Sun, 11 Oct 2026 22:17:19 +0900"
     },
     {
+     "title": "愛知 豊田 住宅の玄関先でクマに襲われ男性大けが",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de58011",
+     "pubDate": "Sun, 11 Oct 2026 21:58:23 +0900"
+    },
+    {
      "title": "サウジ首都空港に攻撃 12人死亡 攻撃の応酬激化のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57816",
      "pubDate": "Sun, 11 Oct 2026 18:59:00 +0900"
@@ -31,11 +36,6 @@
      "title": "米 ICCを制裁対象に指定 非難や撤回を求める声相次ぐ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57845",
      "pubDate": "Sun, 11 Oct 2026 17:22:00 +0900"
-    },
-    {
-     "title": "北朝鮮が韓国との境界付近を「要塞化」？いったい何が",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57841",
-     "pubDate": "Sun, 11 Oct 2026 19:47:00 +0900"
     },
     {
      "title": "ベトナムのドクさん 鹿児島で水俣病の被害者らと意見交換",
@@ -296,14 +296,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "エネルギー停戦発表 ウは「初耳」",
+     "link": "https://news.yahoo.co.jp/pickup/6598444?source=rss",
+     "pubDate": "Sun, 11 Oct 2026 15:18:09 GMT"
+    },
+    {
      "title": "定数削減 自民幹事長の腹案に波紋",
      "link": "https://news.yahoo.co.jp/pickup/6598430?source=rss",
      "pubDate": "Sun, 11 Oct 2026 13:14:12 GMT"
     },
     {
-     "title": "ローマ教皇手術へ 肺のしこり切除",
-     "link": "https://news.yahoo.co.jp/pickup/6598431?source=rss",
-     "pubDate": "Sun, 11 Oct 2026 13:29:31 GMT"
+     "title": "ネパールで再び土石流 5人不明",
+     "link": "https://news.yahoo.co.jp/pickup/6598442?source=rss",
+     "pubDate": "Sun, 11 Oct 2026 14:36:25 GMT"
     },
     {
      "title": "玄関先でクマに襲われる 眼球破裂",
@@ -311,19 +316,14 @@
      "pubDate": "Sun, 11 Oct 2026 11:08:01 GMT"
     },
     {
-     "title": "停車前にTXドア開く 客が操作か",
-     "link": "https://news.yahoo.co.jp/pickup/6598435?source=rss",
-     "pubDate": "Sun, 11 Oct 2026 13:42:08 GMT"
+     "title": "電車で心臓発作 8分の救命リレー",
+     "link": "https://news.yahoo.co.jp/pickup/6598441?source=rss",
+     "pubDate": "Sun, 11 Oct 2026 14:24:37 GMT"
     },
     {
-     "title": "譲渡会前に保護ネコ妊娠 ボラ葛藤",
-     "link": "https://news.yahoo.co.jp/pickup/6598408?source=rss",
-     "pubDate": "Sun, 11 Oct 2026 09:45:24 GMT"
-    },
-    {
-     "title": "松島輝空が快挙 WTT最高峰大会V",
-     "link": "https://news.yahoo.co.jp/pickup/6598419?source=rss",
-     "pubDate": "Sun, 11 Oct 2026 11:49:55 GMT"
+     "title": "鎌田大地 待望のプレミア初ゴール",
+     "link": "https://news.yahoo.co.jp/pickup/6598440?source=rss",
+     "pubDate": "Sun, 11 Oct 2026 14:23:10 GMT"
     },
     {
      "title": "藤田ニコル 不妊治療の裏側を語る",
