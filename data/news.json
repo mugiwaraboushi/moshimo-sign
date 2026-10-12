@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-11T22:59:36.144Z",
+ "updatedAt": "2026-10-12T02:04:08.045Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "北朝鮮 相次ぎ“弾道ミサイル”発射 いずれもEEZ外に落下か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58077",
+     "pubDate": "Mon, 12 Oct 2026 10:42:21 +0900"
+    },
+    {
+     "title": "【速報中】ドジャース ナショナルリーグ優勝決定シリーズ第1戦",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de58022",
+     "pubDate": "Mon, 12 Oct 2026 10:46:51 +0900"
+    },
+    {
      "title": "“ロシアのグーグル”に無人機攻撃 一部サービス利用できず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58066",
-     "pubDate": "Mon, 12 Oct 2026 06:29:35 +0900"
+     "pubDate": "Mon, 12 Oct 2026 06:29:00 +0900"
     },
     {
      "title": "巨人一筋20年の坂本勇人 来季も現役続行の見通し",
@@ -18,19 +28,9 @@
      "pubDate": "Mon, 12 Oct 2026 05:10:07 +0900"
     },
     {
-     "title": "“ガザ停戦”から１年経過 イスラエル軍の攻撃で死者相次ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de58041",
-     "pubDate": "Mon, 12 Oct 2026 04:50:03 +0900"
-    },
-    {
      "title": "フーシ派 リヤドの国際空港攻撃と主張 緊張高まり懸念",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58042",
-     "pubDate": "Mon, 12 Oct 2026 04:37:43 +0900"
-    },
-    {
-     "title": "トランプ大統領 ウクライナ ロシア“エネルギー停戦”合意投稿",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58065",
-     "pubDate": "Mon, 12 Oct 2026 06:19:56 +0900"
+     "pubDate": "Mon, 12 Oct 2026 04:37:00 +0900"
     },
     {
      "title": "ネパールで土石流が発生 軍が救助活動 土砂が川をせき止める",
@@ -40,7 +40,7 @@
     {
      "title": "連休最終日も広く晴れ 太平洋沿岸は高波注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58040",
-     "pubDate": "Mon, 12 Oct 2026 06:02:13 +0900"
+     "pubDate": "Mon, 12 Oct 2026 06:02:00 +0900"
     }
    ]
   },
@@ -50,6 +50,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "北朝鮮 相次ぎ“弾道ミサイル”発射 いずれもEEZ外に落下か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58077",
+     "pubDate": "Mon, 12 Oct 2026 10:42:21 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（10月12日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58008",
      "pubDate": "Mon, 12 Oct 2026 06:29:21 +0900"
@@ -57,7 +62,7 @@
     {
      "title": "「ブラッサム」モデル宇野千代の特別展 直筆原稿など展示",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58036",
-     "pubDate": "Mon, 12 Oct 2026 04:44:35 +0900"
+     "pubDate": "Mon, 12 Oct 2026 04:44:00 +0900"
     },
     {
      "title": "愛知 豊田 住宅の玄関先でクマに襲われ男性大けが",
@@ -118,11 +123,6 @@
      "title": "NHK全国学校音楽コンクール 高校の部は福島県立会津が初の金賞",
      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57727",
      "pubDate": "Sun, 11 Oct 2026 05:05:00 +0900"
-    },
-    {
-     "title": "私がオーバードーズする理由【20代女性アルバイト】やしろさん",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57504",
-     "pubDate": "Sat, 10 Oct 2026 19:15:00 +0900"
     }
    ]
   },
@@ -139,12 +139,12 @@
     {
      "title": "生成AIの安全性評価するシステム開発",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58038",
-     "pubDate": "Mon, 12 Oct 2026 04:47:32 +0900"
+     "pubDate": "Mon, 12 Oct 2026 04:47:00 +0900"
     },
     {
      "title": "NHK全国学校音楽コンクール 東京 日野市立平山小学校が金賞",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57999",
-     "pubDate": "Sun, 11 Oct 2026 21:18:43 +0900"
+     "pubDate": "Sun, 11 Oct 2026 21:18:00 +0900"
     },
     {
      "title": "アルツハイマー病の原因物質減らす マウスで実験成功 東大など",
@@ -214,24 +214,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "北朝鮮 相次ぎ“弾道ミサイル”発射 いずれもEEZ外に落下か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58077",
+     "pubDate": "Mon, 12 Oct 2026 10:42:21 +0900"
+    },
+    {
+     "title": "ノーベル経済学賞 きょう発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57272",
+     "pubDate": "Mon, 12 Oct 2026 09:59:25 +0900"
+    },
+    {
      "title": "“ロシアのグーグル”に無人機攻撃 一部サービス利用できず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58066",
-     "pubDate": "Mon, 12 Oct 2026 06:29:35 +0900"
+     "pubDate": "Mon, 12 Oct 2026 06:29:00 +0900"
     },
     {
      "title": "トランプ大統領 ウクライナ ロシア“エネルギー停戦”合意投稿",
      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58065",
-     "pubDate": "Mon, 12 Oct 2026 06:19:56 +0900"
+     "pubDate": "Mon, 12 Oct 2026 06:19:00 +0900"
     },
     {
      "title": "“ガザ停戦”から１年経過 イスラエル軍の攻撃で死者相次ぐ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58041",
-     "pubDate": "Mon, 12 Oct 2026 04:50:03 +0900"
+     "pubDate": "Mon, 12 Oct 2026 04:50:00 +0900"
     },
     {
      "title": "フーシ派 リヤドの国際空港攻撃と主張 緊張高まり懸念",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58042",
-     "pubDate": "Mon, 12 Oct 2026 04:37:43 +0900"
+     "pubDate": "Mon, 12 Oct 2026 04:37:00 +0900"
     },
     {
      "title": "ネパールで土石流が発生 軍が救助活動 土砂が川をせき止める",
@@ -277,16 +287,6 @@
      "title": "トランプ大統領 死刑執行ライブ配信めぐり「私が決める」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57837",
      "pubDate": "Sun, 11 Oct 2026 10:15:00 +0900"
-    },
-    {
-     "title": "トランプ大統領「ウクライナは新たな大統領を迎える時」と発言",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57828",
-     "pubDate": "Sun, 11 Oct 2026 09:53:00 +0900"
-    },
-    {
-     "title": "ウクライナ ロシア軍の攻撃で子ども含む20人以上死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57814",
-     "pubDate": "Sun, 11 Oct 2026 06:35:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "エネルギー停戦発表 ウは「初耳」",
-     "link": "https://news.yahoo.co.jp/pickup/6598444?source=rss",
-     "pubDate": "Sun, 11 Oct 2026 15:18:09 GMT"
+     "title": "北が2度ミサイル EEZ外に落下か",
+     "link": "https://news.yahoo.co.jp/pickup/6598471?source=rss",
+     "pubDate": "Mon, 12 Oct 2026 01:19:09 GMT"
     },
     {
-     "title": "重要医療機器の備蓄 企業に補助へ",
-     "link": "https://news.yahoo.co.jp/pickup/6598448?source=rss",
-     "pubDate": "Sun, 11 Oct 2026 22:28:20 GMT"
+     "title": "サウジの安保が悪化 米国支援鈍く",
+     "link": "https://news.yahoo.co.jp/pickup/6598456?source=rss",
+     "pubDate": "Sun, 11 Oct 2026 23:18:03 GMT"
     },
     {
-     "title": "ネパールで再び土石流 5人不明",
-     "link": "https://news.yahoo.co.jp/pickup/6598442?source=rss",
-     "pubDate": "Sun, 11 Oct 2026 14:36:25 GMT"
+     "title": "中野窃盗 被告は国際的窃盗団か",
+     "link": "https://news.yahoo.co.jp/pickup/6598475?source=rss",
+     "pubDate": "Mon, 12 Oct 2026 01:42:07 GMT"
     },
     {
-     "title": "モトクロスバイク3台転倒 2人骨折",
-     "link": "https://news.yahoo.co.jp/pickup/6598450?source=rss",
-     "pubDate": "Sun, 11 Oct 2026 22:35:46 GMT"
+     "title": "縛られた遺体 窃盗疑いの妹関与か",
+     "link": "https://news.yahoo.co.jp/pickup/6598462?source=rss",
+     "pubDate": "Sun, 11 Oct 2026 23:55:20 GMT"
     },
     {
-     "title": "玄関先でクマに襲われる 眼球破裂",
-     "link": "https://news.yahoo.co.jp/pickup/6598416?source=rss",
-     "pubDate": "Sun, 11 Oct 2026 11:08:01 GMT"
+     "title": "アシックスとナイキ なぜ「明暗」",
+     "link": "https://news.yahoo.co.jp/pickup/6598467?source=rss",
+     "pubDate": "Mon, 12 Oct 2026 01:03:13 GMT"
     },
     {
-     "title": "巨人 阿部前監督に球団復帰を要請",
-     "link": "https://news.yahoo.co.jp/pickup/6598445?source=rss",
-     "pubDate": "Sun, 11 Oct 2026 22:22:45 GMT"
+     "title": "速報 ドジャースvs.ブリュワーズ",
+     "link": "https://news.yahoo.co.jp/pickup/6598461?source=rss",
+     "pubDate": "Mon, 12 Oct 2026 00:11:07 GMT"
     },
     {
-     "title": "救命病棟 風間俊介が13年ぶり出演",
-     "link": "https://news.yahoo.co.jp/pickup/6598447?source=rss",
-     "pubDate": "Sun, 11 Oct 2026 22:20:34 GMT"
+     "title": "駅伝1区で北大に異変 苦悶の表情",
+     "link": "https://news.yahoo.co.jp/pickup/6598473?source=rss",
+     "pubDate": "Mon, 12 Oct 2026 01:32:11 GMT"
     },
     {
-     "title": "藤田ニコル 不妊治療の裏側を語る",
-     "link": "https://news.yahoo.co.jp/pickup/6598436?source=rss",
-     "pubDate": "Sun, 11 Oct 2026 13:58:25 GMT"
+     "title": "ナルト新作 なぜ米コミコンで発表",
+     "link": "https://news.yahoo.co.jp/pickup/6598463?source=rss",
+     "pubDate": "Mon, 12 Oct 2026 00:03:56 GMT"
     }
    ]
   }
