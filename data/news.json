@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-12T02:04:08.045Z",
+ "updatedAt": "2026-10-12T09:27:40.583Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "北朝鮮 相次ぎ“弾道ミサイル”発射 いずれもEEZ外に落下か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58077",
-     "pubDate": "Mon, 12 Oct 2026 10:42:21 +0900"
+     "title": "【ライブ配信】ノーベル経済学賞 発表へ 午後6時45分以降",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57272",
+     "pubDate": "Mon, 12 Oct 2026 18:23:44 +0900"
     },
     {
-     "title": "【速報中】ドジャース ナショナルリーグ優勝決定シリーズ第1戦",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de58022",
-     "pubDate": "Mon, 12 Oct 2026 10:46:51 +0900"
+     "title": "栃木 那珂川町 工場火災 鎮火のめど立たず 夜間も消火活動へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58117",
+     "pubDate": "Mon, 12 Oct 2026 18:10:54 +0900"
     },
     {
-     "title": "“ロシアのグーグル”に無人機攻撃 一部サービス利用できず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58066",
-     "pubDate": "Mon, 12 Oct 2026 06:29:00 +0900"
+     "title": "「やりがい感じるけど…」どうなる介護報酬 現場は？",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58129",
+     "pubDate": "Mon, 12 Oct 2026 17:52:27 +0900"
     },
     {
-     "title": "巨人一筋20年の坂本勇人 来季も現役続行の見通し",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58051",
-     "pubDate": "Mon, 12 Oct 2026 05:10:07 +0900"
-    },
-    {
-     "title": "フーシ派 リヤドの国際空港攻撃と主張 緊張高まり懸念",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de58042",
-     "pubDate": "Mon, 12 Oct 2026 04:37:00 +0900"
-    },
-    {
-     "title": "ネパールで土石流が発生 軍が救助活動 土砂が川をせき止める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de58027",
-     "pubDate": "Sun, 11 Oct 2026 22:17:00 +0900"
-    },
-    {
-     "title": "連休最終日も広く晴れ 太平洋沿岸は高波注意",
+     "title": "連休最終日 九州などで真夏日に 14日以降は北日本などで荒天も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58040",
-     "pubDate": "Mon, 12 Oct 2026 06:02:00 +0900"
+     "pubDate": "Mon, 12 Oct 2026 17:51:40 +0900"
+    },
+    {
+     "title": "プロ野球 パ・リーグCS 日本ハムがファイナルステージ進出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58196",
+     "pubDate": "Mon, 12 Oct 2026 17:25:00 +0900"
+    },
+    {
+     "title": "中国 9月の新車輸出が6割増 ガソリン高もEV需要を後押しか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58202",
+     "pubDate": "Mon, 12 Oct 2026 18:19:28 +0900"
+    },
+    {
+     "title": "ドジャースは黒星スタート リーグ優勝決定シリーズ【詳報】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de58022",
+     "pubDate": "Mon, 12 Oct 2026 17:21:21 +0900"
     }
    ]
   },
@@ -50,14 +50,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "北朝鮮 相次ぎ“弾道ミサイル”発射 いずれもEEZ外に落下か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58077",
-     "pubDate": "Mon, 12 Oct 2026 10:42:21 +0900"
+     "title": "「やりがい感じるけど…」どうなる介護報酬 現場は？",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58129",
+     "pubDate": "Mon, 12 Oct 2026 17:52:27 +0900"
     },
     {
-     "title": "【動画】Pickup NEWS（10月12日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de58008",
-     "pubDate": "Mon, 12 Oct 2026 06:29:21 +0900"
+     "title": "愛子さま 青森で国民スポーツ大会の軟式野球を観戦",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58183",
+     "pubDate": "Mon, 12 Oct 2026 17:22:00 +0900"
+    },
+    {
+     "title": "東北新幹線 運転再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58180",
+     "pubDate": "Mon, 12 Oct 2026 17:00:30 +0900"
+    },
+    {
+     "title": "JR山手線 内回りも運転再開 湘南新宿ラインと埼京線も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58142",
+     "pubDate": "Mon, 12 Oct 2026 15:23:04 +0900"
+    },
+    {
+     "title": "コカイン所持などの疑いで5人逮捕 密輸組織の“運び屋”か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58112",
+     "pubDate": "Mon, 12 Oct 2026 12:20:00 +0900"
+    },
+    {
+     "title": "栃木 那珂川町 工場火災 鎮火のめど立たず 夜間も消火活動へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58117",
+     "pubDate": "Mon, 12 Oct 2026 18:10:54 +0900"
+    },
+    {
+     "title": "北朝鮮 弾道ミサイル少なくとも2発発射 EEZへの飛来確認されず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58077",
+     "pubDate": "Mon, 12 Oct 2026 13:42:18 +0900"
     },
     {
      "title": "「ブラッサム」モデル宇野千代の特別展 直筆原稿など展示",
@@ -98,31 +123,6 @@
      "title": "大阪・関西万博閉幕から1周年イベント 多くの人でにぎわう",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57938",
      "pubDate": "Sun, 11 Oct 2026 18:27:00 +0900"
-    },
-    {
-     "title": "佳子さま ガールスカウトの活動 表彰するイベントに出席",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57931",
-     "pubDate": "Sun, 11 Oct 2026 17:49:00 +0900"
-    },
-    {
-     "title": "両陛下 青森で国民スポーツ大会 観戦 青森ねぶた祭 施設なども",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57868",
-     "pubDate": "Sun, 11 Oct 2026 18:05:00 +0900"
-    },
-    {
-     "title": "目黒のさんま祭 不漁で解凍のサンマも人気",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57863",
-     "pubDate": "Sun, 11 Oct 2026 12:24:00 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（10月11日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57622",
-     "pubDate": "Sun, 11 Oct 2026 19:59:53 +0900"
-    },
-    {
-     "title": "NHK全国学校音楽コンクール 高校の部は福島県立会津が初の金賞",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261010de57727",
-     "pubDate": "Sun, 11 Oct 2026 05:05:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（10月12日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261011de58008",
+     "pubDate": "Mon, 12 Oct 2026 13:53:18 +0900"
+    },
     {
      "title": "二葉亭四迷の直筆原稿を初公開 東京 北区",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58043",
@@ -200,11 +205,6 @@
      "title": "台湾企業 北海道で2028年めどにロケット打ち上げを計画",
      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57153",
      "pubDate": "Fri, 09 Oct 2026 14:55:49 +0900"
-    },
-    {
-     "title": "不正アクセス受けたニッスイの物流会社 全拠点で一部業務再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57136",
-     "pubDate": "Fri, 09 Oct 2026 14:26:02 +0900"
     }
    ]
   },
@@ -214,14 +214,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "北朝鮮 相次ぎ“弾道ミサイル”発射 いずれもEEZ外に落下か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58077",
-     "pubDate": "Mon, 12 Oct 2026 10:42:21 +0900"
+     "title": "中国 9月の新車輸出が6割増 ガソリン高もEV需要を後押しか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58202",
+     "pubDate": "Mon, 12 Oct 2026 18:19:28 +0900"
     },
     {
-     "title": "ノーベル経済学賞 きょう発表",
+     "title": "APEC首脳会議前に中国と香港間の新たな出入境施設が完成",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58151",
+     "pubDate": "Mon, 12 Oct 2026 15:19:00 +0900"
+    },
+    {
+     "title": "【動画】200年続くパリの移動遊園地",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53933",
+     "pubDate": "Mon, 12 Oct 2026 13:47:51 +0900"
+    },
+    {
+     "title": "移民乗せたイエメン行きの船がジブチ沖で転覆 139人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58100",
+     "pubDate": "Mon, 12 Oct 2026 11:57:00 +0900"
+    },
+    {
+     "title": "北朝鮮 弾道ミサイル少なくとも2発発射 EEZへの飛来確認されず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58077",
+     "pubDate": "Mon, 12 Oct 2026 13:42:18 +0900"
+    },
+    {
+     "title": "【ライブ配信】ノーベル経済学賞 発表へ 午後6時45分以降",
      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57272",
-     "pubDate": "Mon, 12 Oct 2026 09:59:25 +0900"
+     "pubDate": "Mon, 12 Oct 2026 18:23:44 +0900"
     },
     {
      "title": "“ロシアのグーグル”に無人機攻撃 一部サービス利用できず",
@@ -239,9 +259,9 @@
      "pubDate": "Mon, 12 Oct 2026 04:50:00 +0900"
     },
     {
-     "title": "フーシ派 リヤドの国際空港攻撃と主張 緊張高まり懸念",
+     "title": "サウジアラビア 首都の国際空港に攻撃相次ぐ 緊張の高まり懸念",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58042",
-     "pubDate": "Mon, 12 Oct 2026 04:37:00 +0900"
+     "pubDate": "Mon, 12 Oct 2026 11:29:00 +0900"
     },
     {
      "title": "ネパールで土石流が発生 軍が救助活動 土砂が川をせき止める",
@@ -267,26 +287,6 @@
      "title": "アメリカ テネシー州で死刑執行も生存 死刑制度めぐり議論に",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57965",
      "pubDate": "Sun, 11 Oct 2026 18:47:00 +0900"
-    },
-    {
-     "title": "米 ICCを制裁対象に指定 非難や撤回を求める声相次ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57845",
-     "pubDate": "Sun, 11 Oct 2026 17:22:00 +0900"
-    },
-    {
-     "title": "【動画】中国伝統の気功を現代風に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53931",
-     "pubDate": "Sun, 11 Oct 2026 15:51:03 +0900"
-    },
-    {
-     "title": "自民 古屋前選対委員長 台湾訪問 頼総統と会談",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57877",
-     "pubDate": "Sun, 11 Oct 2026 14:09:29 +0900"
-    },
-    {
-     "title": "トランプ大統領 死刑執行ライブ配信めぐり「私が決める」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57837",
-     "pubDate": "Sun, 11 Oct 2026 10:15:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "北が2度ミサイル EEZ外に落下か",
-     "link": "https://news.yahoo.co.jp/pickup/6598471?source=rss",
-     "pubDate": "Mon, 12 Oct 2026 01:19:09 GMT"
+     "title": "英首相 EU離脱投票「露が干渉」",
+     "link": "https://news.yahoo.co.jp/pickup/6598522?source=rss",
+     "pubDate": "Mon, 12 Oct 2026 07:49:37 GMT"
     },
     {
-     "title": "サウジの安保が悪化 米国支援鈍く",
-     "link": "https://news.yahoo.co.jp/pickup/6598456?source=rss",
-     "pubDate": "Sun, 11 Oct 2026 23:18:03 GMT"
+     "title": "休校いつまで クマ対応に学校苦慮",
+     "link": "https://news.yahoo.co.jp/pickup/6598517?source=rss",
+     "pubDate": "Mon, 12 Oct 2026 07:18:06 GMT"
     },
     {
-     "title": "中野窃盗 被告は国際的窃盗団か",
-     "link": "https://news.yahoo.co.jp/pickup/6598475?source=rss",
-     "pubDate": "Mon, 12 Oct 2026 01:42:07 GMT"
+     "title": "工場火災 10h超も鎮火めど立たず",
+     "link": "https://news.yahoo.co.jp/pickup/6598523?source=rss",
+     "pubDate": "Mon, 12 Oct 2026 08:10:11 GMT"
     },
     {
-     "title": "縛られた遺体 窃盗疑いの妹関与か",
-     "link": "https://news.yahoo.co.jp/pickup/6598462?source=rss",
-     "pubDate": "Sun, 11 Oct 2026 23:55:20 GMT"
+     "title": "ハチの巣駆除が原因か 2棟燃える",
+     "link": "https://news.yahoo.co.jp/pickup/6598525?source=rss",
+     "pubDate": "Mon, 12 Oct 2026 08:36:41 GMT"
     },
     {
-     "title": "アシックスとナイキ なぜ「明暗」",
-     "link": "https://news.yahoo.co.jp/pickup/6598467?source=rss",
-     "pubDate": "Mon, 12 Oct 2026 01:03:13 GMT"
+     "title": "江東花火大会 保険巡り開催ピンチ",
+     "link": "https://news.yahoo.co.jp/pickup/6598524?source=rss",
+     "pubDate": "Mon, 12 Oct 2026 08:15:06 GMT"
     },
     {
-     "title": "速報 ドジャースvs.ブリュワーズ",
-     "link": "https://news.yahoo.co.jp/pickup/6598461?source=rss",
-     "pubDate": "Mon, 12 Oct 2026 00:11:07 GMT"
+     "title": "銀座で地べた座る観光客 警察困惑",
+     "link": "https://news.yahoo.co.jp/pickup/6598529?source=rss",
+     "pubDate": "Mon, 12 Oct 2026 09:10:15 GMT"
     },
     {
-     "title": "駅伝1区で北大に異変 苦悶の表情",
-     "link": "https://news.yahoo.co.jp/pickup/6598473?source=rss",
-     "pubDate": "Mon, 12 Oct 2026 01:32:11 GMT"
+     "title": "日ハム 3年連続CSファイナル進出",
+     "link": "https://news.yahoo.co.jp/pickup/6598527?source=rss",
+     "pubDate": "Mon, 12 Oct 2026 08:35:56 GMT"
     },
     {
-     "title": "ナルト新作 なぜ米コミコンで発表",
-     "link": "https://news.yahoo.co.jp/pickup/6598463?source=rss",
-     "pubDate": "Mon, 12 Oct 2026 00:03:56 GMT"
+     "title": "青学大敗 監督「駅伝力なかった」",
+     "link": "https://news.yahoo.co.jp/pickup/6598511?source=rss",
+     "pubDate": "Mon, 12 Oct 2026 06:07:00 GMT"
     }
    ]
   }
