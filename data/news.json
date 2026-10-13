@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-13T01:28:24.042Z",
+ "updatedAt": "2026-10-13T08:01:20.429Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "ドジャース×ブルワーズ ドジャース2連敗",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58219",
-     "pubDate": "Tue, 13 Oct 2026 09:35:00 +0900"
-    },
-    {
-     "title": "きょうから予算委 消費税 経済政策 簗農相発言で論戦",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58277",
-     "pubDate": "Tue, 13 Oct 2026 05:01:00 +0900"
-    },
-    {
-     "title": "9月の企業物価指数 昨年同月比 6.8%上昇",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58340",
-     "pubDate": "Tue, 13 Oct 2026 09:09:00 +0900"
-    },
-    {
-     "title": "日経平均株価 一時1500円超下落 東京株式市場",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58344",
-     "pubDate": "Tue, 13 Oct 2026 09:40:00 +0900"
-    },
-    {
-     "title": "九州新幹線 架線点検のため全線運転見合わせ 再開見通し遅れる",
+     "title": "九州新幹線 博多～熊本 下り 運転再開 熊本以南は終日見合わせ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58310",
-     "pubDate": "Tue, 13 Oct 2026 10:16:00 +0900"
+     "pubDate": "Tue, 13 Oct 2026 16:55:27 +0900"
     },
     {
-     "title": "栃木県那珂川町の工場火災 24時間以上経過も鎮火せず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58321",
-     "pubDate": "Tue, 13 Oct 2026 07:32:00 +0900"
+     "title": "韓国インチョンで切りつけ事件 8人けが うち1人心肺停止",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58547",
+     "pubDate": "Tue, 13 Oct 2026 16:21:00 +0900"
     },
     {
-     "title": "片山財務相 IMF・世銀の合同開発委員会次期議長に指名",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58295",
-     "pubDate": "Tue, 13 Oct 2026 00:30:00 +0900"
+     "title": "簗農相「説明尽くし真摯に対応」問責決議案提出の動きに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58352",
+     "pubDate": "Tue, 13 Oct 2026 14:58:00 +0900"
+    },
+    {
+     "title": "CEATEC開幕 フィジカルAIの出展相次ぐ サイバー攻撃への対応も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58370",
+     "pubDate": "Tue, 13 Oct 2026 11:55:58 +0900"
+    },
+    {
+     "title": "福岡県議会 金銭授受問題や海外視察めぐり百条委議案を提出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58517",
+     "pubDate": "Tue, 13 Oct 2026 14:06:00 +0900"
+    },
+    {
+     "title": "奈良 香芝 こども園で園児が凍ったゼリー詰まらせ死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58502",
+     "pubDate": "Tue, 13 Oct 2026 13:26:00 +0900"
+    },
+    {
+     "title": "原油の調達多角化に向けた法案を閣議決定 今国会に提出へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58562",
+     "pubDate": "Tue, 13 Oct 2026 15:45:00 +0900"
     }
    ]
   },
@@ -50,19 +50,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "熊本 肥薩おれんじ鉄道 全線で再開 鉄道運行への地震影響解消",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58510",
+     "pubDate": "Tue, 13 Oct 2026 13:36:00 +0900"
+    },
+    {
+     "title": "奈良 香芝 こども園で園児が凍ったゼリー詰まらせ死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58502",
+     "pubDate": "Tue, 13 Oct 2026 13:26:00 +0900"
+    },
+    {
+     "title": "関文科相 同志社国際高めぐり“学校法人の取り組み注視”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58488",
+     "pubDate": "Tue, 13 Oct 2026 13:03:44 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（10月13日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58230",
-     "pubDate": "Tue, 13 Oct 2026 07:00:00 +0900"
+     "pubDate": "Tue, 13 Oct 2026 13:46:43 +0900"
     },
     {
-     "title": "栃木県那珂川町の工場火災 24時間以上経過も鎮火せず",
+     "title": "栃木県那珂川町の工場火災 1日以上経過して鎮圧",
      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58321",
-     "pubDate": "Tue, 13 Oct 2026 07:32:00 +0900"
+     "pubDate": "Tue, 13 Oct 2026 11:54:00 +0900"
     },
     {
-     "title": "九州新幹線 架線点検のため全線運転見合わせ 再開見通し遅れる",
+     "title": "九州新幹線 博多～熊本 下り 運転再開 熊本以南は終日見合わせ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58310",
-     "pubDate": "Tue, 13 Oct 2026 10:16:00 +0900"
+     "pubDate": "Tue, 13 Oct 2026 16:55:27 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（10月12日）",
@@ -108,21 +123,6 @@
      "title": "「ブラッサム」モデル宇野千代の特別展 直筆原稿など展示",
      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58036",
      "pubDate": "Mon, 12 Oct 2026 04:44:00 +0900"
-    },
-    {
-     "title": "愛知 豊田 住宅の玄関先でクマに襲われ男性大けが",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de58011",
-     "pubDate": "Sun, 11 Oct 2026 21:58:23 +0900"
-    },
-    {
-     "title": "ベトナムのドクさん 鹿児島で水俣病の被害者らと意見交換",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de58003",
-     "pubDate": "Sun, 11 Oct 2026 20:19:06 +0900"
-    },
-    {
-     "title": "熊本地震で診療所が閉院した地域で支援の医師らが健康相談",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de57998",
-     "pubDate": "Sun, 11 Oct 2026 20:15:03 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "一連の不正アクセスは“AIエージェント悪用の可能性”解析で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58380",
+     "pubDate": "Tue, 13 Oct 2026 16:56:08 +0900"
+    },
+    {
+     "title": "CEATEC開幕 フィジカルAIの出展相次ぐ サイバー攻撃への対応も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58370",
+     "pubDate": "Tue, 13 Oct 2026 11:55:58 +0900"
+    },
     {
      "title": "NHK全国学校音楽コンクール中学校の部 名古屋 滝ノ水中が金賞",
      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58270",
@@ -195,16 +205,6 @@
      "title": "輸入禁止の肉製品販売した店に動物検疫所が初の立ち入り検査",
      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57425",
      "pubDate": "Fri, 09 Oct 2026 18:46:00 +0900"
-    },
-    {
-     "title": "バンドスコア模倣し無料公開 賠償命令が確定 最高裁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57441",
-     "pubDate": "Fri, 09 Oct 2026 19:21:00 +0900"
-    },
-    {
-     "title": "スズキ 交流サイトが不正アクセスでサービス停止に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261009de57258",
-     "pubDate": "Fri, 09 Oct 2026 16:49:49 +0900"
     }
    ]
   },
@@ -213,6 +213,56 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "NBA クリッパーズが河村勇輝との契約解除",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58566",
+     "pubDate": "Tue, 13 Oct 2026 16:32:06 +0900"
+    },
+    {
+     "title": "原油の調達多角化に向けた法案を閣議決定 今国会に提出へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58562",
+     "pubDate": "Tue, 13 Oct 2026 15:45:00 +0900"
+    },
+    {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月13日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53319",
+     "pubDate": "Tue, 13 Oct 2026 15:26:00 +0900"
+    },
+    {
+     "title": "韓国インチョンで切りつけ事件 8人けが うち1人心肺停止",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58547",
+     "pubDate": "Tue, 13 Oct 2026 16:21:00 +0900"
+    },
+    {
+     "title": "中国とロシアが北極海航路など海洋協力の強化を確認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58518",
+     "pubDate": "Tue, 13 Oct 2026 14:03:00 +0900"
+    },
+    {
+     "title": "北朝鮮キム・ジョンウン総書記 ICBM級展示の博物館視察",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58513",
+     "pubDate": "Tue, 13 Oct 2026 13:43:00 +0900"
+    },
+    {
+     "title": "IMF 経済成長率引き上げも AIで“二極化”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58500",
+     "pubDate": "Tue, 13 Oct 2026 13:22:07 +0900"
+    },
+    {
+     "title": "全日空 ボーイング「737MAX」 導入前に製造中の機体の検査公開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58423",
+     "pubDate": "Tue, 13 Oct 2026 13:13:00 +0900"
+    },
+    {
+     "title": "ノーベル平和賞のピレイ氏がICC訪問 赤根所長らと面会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58445",
+     "pubDate": "Tue, 13 Oct 2026 12:07:00 +0900"
+    },
+    {
+     "title": "トランプ大統領 アジア訪問で“北朝鮮キム総書記と会うかも”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58372",
+     "pubDate": "Tue, 13 Oct 2026 11:02:00 +0900"
+    },
     {
      "title": "“民主党オマル下院議員宅を捜索”トランプ政権批判",
      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58335",
@@ -226,7 +276,7 @@
     {
      "title": "北朝鮮「戦術弾道ミサイルの発射実験を実施した」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58337",
-     "pubDate": "Tue, 13 Oct 2026 09:52:12 +0900"
+     "pubDate": "Tue, 13 Oct 2026 16:51:44 +0900"
     },
     {
      "title": "英基地のテロ計画疑い 首相“イラン革命防衛隊の可能性高い”",
@@ -236,57 +286,7 @@
     {
      "title": "フーシ派幹部「アメリカが関与すれば厳しい報復を行う」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58317",
-     "pubDate": "Tue, 13 Oct 2026 05:51:03 +0900"
-    },
-    {
-     "title": "ゼレンスキー氏\"エネルギー停戦\"発表後もロシアは攻撃と非難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58308",
-     "pubDate": "Tue, 13 Oct 2026 06:05:00 +0900"
-    },
-    {
-     "title": "エジプト「日本式」学校で日本語の授業始まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58283",
-     "pubDate": "Tue, 13 Oct 2026 05:04:45 +0900"
-    },
-    {
-     "title": "バリ島テロから24年で追悼式 日本人の遺族も参列",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58285",
-     "pubDate": "Tue, 13 Oct 2026 05:02:00 +0900"
-    },
-    {
-     "title": "トランプ大統領 関税の成果強調 専門家からは疑問視も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58239",
-     "pubDate": "Mon, 12 Oct 2026 20:44:43 +0900"
-    },
-    {
-     "title": "サウジアラビア 首都の国際空港に攻撃相次ぐ 緊張の高まり懸念",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58223",
-     "pubDate": "Mon, 12 Oct 2026 19:33:58 +0900"
-    },
-    {
-     "title": "中国 9月の新車輸出が6割増 ガソリン高もEV需要を後押しか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58202",
-     "pubDate": "Mon, 12 Oct 2026 18:19:28 +0900"
-    },
-    {
-     "title": "APEC首脳会議前に中国と香港間の新たな出入境施設が完成",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58151",
-     "pubDate": "Mon, 12 Oct 2026 15:19:00 +0900"
-    },
-    {
-     "title": "【動画】200年続くパリの移動遊園地",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261002de53933",
-     "pubDate": "Mon, 12 Oct 2026 13:47:51 +0900"
-    },
-    {
-     "title": "移民乗せたイエメン行きの船がジブチ沖で転覆 139人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58100",
-     "pubDate": "Mon, 12 Oct 2026 11:57:00 +0900"
-    },
-    {
-     "title": "北朝鮮 弾道ミサイル少なくとも2発発射 EEZへの飛来確認されず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58077",
-     "pubDate": "Mon, 12 Oct 2026 13:42:18 +0900"
+     "pubDate": "Tue, 13 Oct 2026 05:51:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "正恩氏と「会うかも」トランプ氏",
-     "link": "https://news.yahoo.co.jp/pickup/6598577?source=rss",
-     "pubDate": "Mon, 12 Oct 2026 23:27:12 GMT"
+     "title": "九州新幹線 一部は終日見合わせに",
+     "link": "https://news.yahoo.co.jp/pickup/6598624?source=rss",
+     "pubDate": "Tue, 13 Oct 2026 06:54:30 GMT"
     },
     {
-     "title": "英基地事件はイラン関与 共同声明",
-     "link": "https://news.yahoo.co.jp/pickup/6598574?source=rss",
-     "pubDate": "Mon, 12 Oct 2026 23:10:20 GMT"
+     "title": "韓国で切り付け事件 1人心肺停止",
+     "link": "https://news.yahoo.co.jp/pickup/6598625?source=rss",
+     "pubDate": "Tue, 13 Oct 2026 07:13:32 GMT"
     },
     {
-     "title": "米スタバ チポトレ買収を否定",
-     "link": "https://news.yahoo.co.jp/pickup/6598572?source=rss",
-     "pubDate": "Mon, 12 Oct 2026 22:40:14 GMT"
+     "title": "首相 簗氏発言は「本当にダサイ」",
+     "link": "https://news.yahoo.co.jp/pickup/6598627?source=rss",
+     "pubDate": "Tue, 13 Oct 2026 07:44:11 GMT"
     },
     {
-     "title": "九州新幹線が全線運休 再開は午後",
-     "link": "https://news.yahoo.co.jp/pickup/6598582?source=rss",
-     "pubDate": "Tue, 13 Oct 2026 00:05:57 GMT"
+     "title": "死刑配信 米共和党からも出る批判",
+     "link": "https://news.yahoo.co.jp/pickup/6598607?source=rss",
+     "pubDate": "Tue, 13 Oct 2026 05:45:49 GMT"
     },
     {
-     "title": "熟年離婚 修復経ず別れるケース増",
-     "link": "https://news.yahoo.co.jp/pickup/6598584?source=rss",
-     "pubDate": "Tue, 13 Oct 2026 00:33:55 GMT"
+     "title": "こども園でゼリー詰まらせ4歳死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6598617?source=rss",
+     "pubDate": "Tue, 13 Oct 2026 05:03:24 GMT"
     },
     {
-     "title": "5年前から閉鎖 東大「赤門」は今",
-     "link": "https://news.yahoo.co.jp/pickup/6598585?source=rss",
-     "pubDate": "Tue, 13 Oct 2026 00:48:04 GMT"
+     "title": "JR東など7社 磁気乗車券を廃止へ",
+     "link": "https://news.yahoo.co.jp/pickup/6598621?source=rss",
+     "pubDate": "Tue, 13 Oct 2026 06:22:05 GMT"
     },
     {
-     "title": "ドジャース2連敗 2戦連続逆転負け",
-     "link": "https://news.yahoo.co.jp/pickup/6598583?source=rss",
-     "pubDate": "Tue, 13 Oct 2026 00:32:22 GMT"
+     "title": "星野&新垣に第1子 連名発表の全文",
+     "link": "https://news.yahoo.co.jp/pickup/6598623?source=rss",
+     "pubDate": "Tue, 13 Oct 2026 06:40:38 GMT"
     },
     {
-     "title": "漫画家・わたなべまさこさん死去",
-     "link": "https://news.yahoo.co.jp/pickup/6598587?source=rss",
-     "pubDate": "Tue, 13 Oct 2026 01:07:44 GMT"
+     "title": "星野&新垣に第1子 逃げ恥作者祝福",
+     "link": "https://news.yahoo.co.jp/pickup/6598622?source=rss",
+     "pubDate": "Tue, 13 Oct 2026 06:28:57 GMT"
     }
    ]
   }
