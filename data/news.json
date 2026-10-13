@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-13T16:09:03.940Z",
+ "updatedAt": "2026-10-13T21:21:47.070Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "ロシアが北海道新聞記者をスパイ容疑で拘束 国営タス通信",
+     "title": "ロシアが北海道新聞記者をスパイ容疑で拘束 治安機関が発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58917",
-     "pubDate": "Wed, 14 Oct 2026 01:07:02 +0900"
+     "pubDate": "Wed, 14 Oct 2026 04:27:00 +0900"
     },
     {
-     "title": "高市首相“簗農相が行政運営にあたるのがいいか 熟慮”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58352",
-     "pubDate": "Tue, 13 Oct 2026 20:49:00 +0900"
+     "title": "簗農相 与党から続投困難の声も 高市首相 説明踏まえ判断へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58923",
+     "pubDate": "Wed, 14 Oct 2026 05:05:00 +0900"
     },
     {
-     "title": "自治体防災メール 不正アクセスでアドレス300万件など漏えいか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58789",
-     "pubDate": "Tue, 13 Oct 2026 21:54:35 +0900"
+     "title": "個人情報の流出「不安感じる」77％ NHK世論調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58351",
+     "pubDate": "Wed, 14 Oct 2026 05:01:49 +0900"
     },
     {
-     "title": "ベトナム語の運転免許試験の問題 画像が漏えいか 千葉県警",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58907",
-     "pubDate": "Tue, 13 Oct 2026 23:46:54 +0900"
+     "title": "新潟 6人死亡火災 元幹部らの起訴受け経営トップが遺族に謝罪",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58921",
+     "pubDate": "Wed, 14 Oct 2026 05:38:35 +0900"
     },
     {
-     "title": "中国の企業関係者らが北方領土の択捉島を訪問",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58873",
-     "pubDate": "Tue, 13 Oct 2026 21:36:00 +0900"
+     "title": "ホワイトハウスの新しい報道官 初会見はわずか15分で終了",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58937",
+     "pubDate": "Wed, 14 Oct 2026 05:36:00 +0900"
     },
     {
-     "title": "一連の不正アクセスは“AIエージェント悪用の可能性”解析で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58380",
-     "pubDate": "Tue, 13 Oct 2026 19:49:24 +0900"
+     "title": "フランスの高校生 教育環境悪化に抗議し再び大規模集会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58939",
+     "pubDate": "Wed, 14 Oct 2026 05:36:02 +0900"
     },
     {
-     "title": "北海道でマフグの漁獲量増加 一方で養殖ホタテに被害か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58896",
-     "pubDate": "Tue, 13 Oct 2026 23:28:44 +0900"
+     "title": "なでしこジャパン 強豪ドイツに逆転負け",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58933",
+     "pubDate": "Wed, 14 Oct 2026 04:13:52 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "新潟 6人死亡火災 元幹部らの起訴受け経営トップが遺族に謝罪",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58921",
+     "pubDate": "Wed, 14 Oct 2026 05:38:35 +0900"
+    },
     {
      "title": "ベトナム語の運転免許試験の問題 画像が漏えいか 千葉県警",
      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58907",
@@ -118,11 +123,6 @@
      "title": "熊本 肥薩おれんじ鉄道 全線で再開 鉄道運行への地震影響解消",
      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58510",
      "pubDate": "Tue, 13 Oct 2026 13:36:00 +0900"
-    },
-    {
-     "title": "奈良 香芝 こども園で園児が凍ったゼリー詰まらせ死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58502",
-     "pubDate": "Tue, 13 Oct 2026 18:32:00 +0900"
     }
    ]
   },
@@ -214,9 +214,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "ロシアが北海道新聞記者をスパイ容疑で拘束 国営タス通信",
+     "title": "ホワイトハウスの新しい報道官 初会見はわずか15分で終了",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58937",
+     "pubDate": "Wed, 14 Oct 2026 05:36:00 +0900"
+    },
+    {
+     "title": "フランスの高校生 教育環境悪化に抗議し再び大規模集会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58939",
+     "pubDate": "Wed, 14 Oct 2026 05:36:02 +0900"
+    },
+    {
+     "title": "ロシアが北海道新聞記者をスパイ容疑で拘束 治安機関が発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58917",
-     "pubDate": "Wed, 14 Oct 2026 01:07:02 +0900"
+     "pubDate": "Wed, 14 Oct 2026 04:27:00 +0900"
     },
     {
      "title": "ロシア警告の中 NATO核抑止の定例の演習始まる",
@@ -226,7 +236,7 @@
     {
      "title": "中国の企業関係者らが北方領土の択捉島を訪問",
      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58873",
-     "pubDate": "Tue, 13 Oct 2026 21:36:00 +0900"
+     "pubDate": "Wed, 14 Oct 2026 02:43:21 +0900"
     },
     {
      "title": "フランスの冷凍庫管理システムにサイバー攻撃 食品に被害",
@@ -277,16 +287,6 @@
      "title": "北朝鮮キム・ジョンウン総書記 ICBM級展示の博物館視察",
      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58513",
      "pubDate": "Tue, 13 Oct 2026 13:43:00 +0900"
-    },
-    {
-     "title": "IMF 経済成長率引き上げも AIで“二極化”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58500",
-     "pubDate": "Tue, 13 Oct 2026 13:22:07 +0900"
-    },
-    {
-     "title": "全日空 ボーイング「737MAX」 導入前に製造中の機体の検査公開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58423",
-     "pubDate": "Tue, 13 Oct 2026 13:13:00 +0900"
     }
    ]
   },
@@ -296,9 +296,9 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "道新記者をサハリンで拘束 露報道",
-     "link": "https://news.yahoo.co.jp/pickup/6598669?source=rss",
-     "pubDate": "Tue, 13 Oct 2026 15:47:05 GMT"
+     "title": "道新記者をサハリンで拘束 露当局",
+     "link": "https://news.yahoo.co.jp/pickup/6598670?source=rss",
+     "pubDate": "Tue, 13 Oct 2026 20:57:07 GMT"
     },
     {
      "title": "首相 14日に簗氏と面会する意向",
