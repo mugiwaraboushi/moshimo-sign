@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-13T21:21:47.070Z",
+ "updatedAt": "2026-10-14T00:24:09.456Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -18,29 +18,29 @@
      "pubDate": "Wed, 14 Oct 2026 05:05:00 +0900"
     },
     {
-     "title": "個人情報の流出「不安感じる」77％ NHK世論調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58351",
-     "pubDate": "Wed, 14 Oct 2026 05:01:49 +0900"
+     "title": "急発達する低気圧 北海道で暴風警戒 全国的に大気不安定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58942",
+     "pubDate": "Wed, 14 Oct 2026 09:14:08 +0900"
     },
     {
-     "title": "新潟 6人死亡火災 元幹部らの起訴受け経営トップが遺族に謝罪",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58921",
-     "pubDate": "Wed, 14 Oct 2026 05:38:35 +0900"
+     "title": "ノーベル平和賞ピレイ氏 アメリカの対応「非常に悲しい」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58934",
+     "pubDate": "Wed, 14 Oct 2026 06:32:36 +0900"
+    },
+    {
+     "title": "九州新幹線 14日は始発から通常運行",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58945",
+     "pubDate": "Wed, 14 Oct 2026 06:41:23 +0900"
+    },
+    {
+     "title": "「ボイスフィッシング」被害金洗浄か グループを摘発",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58876",
+     "pubDate": "Wed, 14 Oct 2026 09:02:37 +0900"
     },
     {
      "title": "ホワイトハウスの新しい報道官 初会見はわずか15分で終了",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58937",
      "pubDate": "Wed, 14 Oct 2026 05:36:00 +0900"
-    },
-    {
-     "title": "フランスの高校生 教育環境悪化に抗議し再び大規模集会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58939",
-     "pubDate": "Wed, 14 Oct 2026 05:36:02 +0900"
-    },
-    {
-     "title": "なでしこジャパン 強豪ドイツに逆転負け",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58933",
-     "pubDate": "Wed, 14 Oct 2026 04:13:52 +0900"
     }
    ]
   },
@@ -50,9 +50,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "「ボイスフィッシング」被害金洗浄か グループを摘発",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58876",
+     "pubDate": "Wed, 14 Oct 2026 09:02:37 +0900"
+    },
+    {
+     "title": "クビアカツヤカミキリ被害を「見える化」環境省が投稿呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58941",
+     "pubDate": "Wed, 14 Oct 2026 07:40:18 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（10月14日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58747",
+     "pubDate": "Wed, 14 Oct 2026 06:47:38 +0900"
+    },
+    {
+     "title": "九州新幹線 14日は始発から通常運行",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58945",
+     "pubDate": "Wed, 14 Oct 2026 06:41:23 +0900"
+    },
+    {
      "title": "新潟 6人死亡火災 元幹部らの起訴受け経営トップが遺族に謝罪",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58921",
-     "pubDate": "Wed, 14 Oct 2026 05:38:35 +0900"
+     "pubDate": "Wed, 14 Oct 2026 05:38:00 +0900"
     },
     {
      "title": "ベトナム語の運転免許試験の問題 画像が漏えいか 千葉県警",
@@ -103,26 +123,6 @@
      "title": "千葉豪雨2か月 浸水被害の山王病院 復旧進むも課題残る",
      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58714",
      "pubDate": "Tue, 13 Oct 2026 18:36:47 +0900"
-    },
-    {
-     "title": "“地球上最悪の侵略的植物”拡散か 大雨で堤防決壊 印旛沼から",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58529",
-     "pubDate": "Tue, 13 Oct 2026 18:34:57 +0900"
-    },
-    {
-     "title": "愛子さま 青森でフェンシング観戦と小学生の学習発表視察",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58640",
-     "pubDate": "Tue, 13 Oct 2026 17:33:00 +0900"
-    },
-    {
-     "title": "デジタル教科書 検定方針案まとまる 動画は1本3分程度までに",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58647",
-     "pubDate": "Tue, 13 Oct 2026 17:31:39 +0900"
-    },
-    {
-     "title": "熊本 肥薩おれんじ鉄道 全線で再開 鉄道運行への地震影響解消",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58510",
-     "pubDate": "Tue, 13 Oct 2026 13:36:00 +0900"
     }
    ]
   },
@@ -214,6 +214,26 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "タイ大雨 影響は農業にも バジルやオクラなどの野菜価格高騰",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58890",
+     "pubDate": "Wed, 14 Oct 2026 07:48:05 +0900"
+    },
+    {
+     "title": "サウジ側フーシ派双方が退避通告 攻撃の応酬の激化懸念",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58936",
+     "pubDate": "Wed, 14 Oct 2026 07:25:22 +0900"
+    },
+    {
+     "title": "ブルガリア沖で民間貨物船が沈没 ロシア大使に懸念伝える",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58935",
+     "pubDate": "Wed, 14 Oct 2026 07:23:00 +0900"
+    },
+    {
+     "title": "ノーベル平和賞ピレイ氏 アメリカの対応「非常に悲しい」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58934",
+     "pubDate": "Wed, 14 Oct 2026 06:32:36 +0900"
+    },
+    {
      "title": "ホワイトハウスの新しい報道官 初会見はわずか15分で終了",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58937",
      "pubDate": "Wed, 14 Oct 2026 05:36:00 +0900"
@@ -221,7 +241,7 @@
     {
      "title": "フランスの高校生 教育環境悪化に抗議し再び大規模集会",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58939",
-     "pubDate": "Wed, 14 Oct 2026 05:36:02 +0900"
+     "pubDate": "Wed, 14 Oct 2026 05:36:00 +0900"
     },
     {
      "title": "ロシアが北海道新聞記者をスパイ容疑で拘束 治安機関が発表",
@@ -267,26 +287,6 @@
      "title": "原油の調達多角化に向けた法案を閣議決定 今国会に提出へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58562",
      "pubDate": "Tue, 13 Oct 2026 15:45:00 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月13日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53319",
-     "pubDate": "Tue, 13 Oct 2026 15:26:00 +0900"
-    },
-    {
-     "title": "韓国インチョンで切りつけ事件 8人けが うち1人心肺停止",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58547",
-     "pubDate": "Tue, 13 Oct 2026 17:56:00 +0900"
-    },
-    {
-     "title": "中国とロシアが北極海航路など海洋協力の強化を確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58518",
-     "pubDate": "Tue, 13 Oct 2026 14:03:00 +0900"
-    },
-    {
-     "title": "北朝鮮キム・ジョンウン総書記 ICBM級展示の博物館視察",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58513",
-     "pubDate": "Tue, 13 Oct 2026 13:43:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "道新記者をサハリンで拘束 露当局",
-     "link": "https://news.yahoo.co.jp/pickup/6598670?source=rss",
-     "pubDate": "Tue, 13 Oct 2026 20:57:07 GMT"
+     "title": "農相の進退 首相が14日にも判断へ",
+     "link": "https://news.yahoo.co.jp/pickup/6598682?source=rss",
+     "pubDate": "Tue, 13 Oct 2026 23:28:06 GMT"
     },
     {
-     "title": "首相 14日に簗氏と面会する意向",
-     "link": "https://news.yahoo.co.jp/pickup/6598668?source=rss",
-     "pubDate": "Tue, 13 Oct 2026 15:09:03 GMT"
+     "title": "横浜市で住宅火災 2遺体見つかる",
+     "link": "https://news.yahoo.co.jp/pickup/6598689?source=rss",
+     "pubDate": "Wed, 14 Oct 2026 00:16:12 GMT"
     },
     {
-     "title": "日本のGDP 来年世界6位の見込み",
-     "link": "https://news.yahoo.co.jp/pickup/6598666?source=rss",
-     "pubDate": "Tue, 13 Oct 2026 14:25:23 GMT"
+     "title": "ロッククライミング中に滑落 死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6598675?source=rss",
+     "pubDate": "Tue, 13 Oct 2026 22:37:16 GMT"
     },
     {
-     "title": "無免許運転か 車突っ込み男性死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6598663?source=rss",
-     "pubDate": "Tue, 13 Oct 2026 13:44:13 GMT"
+     "title": "停止義務ないのに違反に ミス63件",
+     "link": "https://news.yahoo.co.jp/pickup/6598679?source=rss",
+     "pubDate": "Tue, 13 Oct 2026 23:31:21 GMT"
     },
     {
-     "title": "列車撮影目的か 往来危険疑い逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6598662?source=rss",
-     "pubDate": "Tue, 13 Oct 2026 13:40:52 GMT"
+     "title": "道頓堀グリコサイン 来春7代目に",
+     "link": "https://news.yahoo.co.jp/pickup/6598673?source=rss",
+     "pubDate": "Tue, 13 Oct 2026 22:23:24 GMT"
     },
     {
-     "title": "Apple 新端末「HomeView」発表",
-     "link": "https://news.yahoo.co.jp/pickup/6598667?source=rss",
-     "pubDate": "Tue, 13 Oct 2026 14:54:47 GMT"
+     "title": "横浜・織田翔希 極秘渡米していた",
+     "link": "https://news.yahoo.co.jp/pickup/6598676?source=rss",
+     "pubDate": "Tue, 13 Oct 2026 23:04:06 GMT"
     },
     {
-     "title": "シャンプーハット恋さん がん公表",
-     "link": "https://news.yahoo.co.jp/pickup/6598654?source=rss",
-     "pubDate": "Tue, 13 Oct 2026 12:46:25 GMT"
+     "title": "見上愛 朝ドラ主演後初仕事は声優",
+     "link": "https://news.yahoo.co.jp/pickup/6598687?source=rss",
+     "pubDate": "Tue, 13 Oct 2026 23:55:07 GMT"
     },
     {
-     "title": "鈴村健一の事務所 来年3月に解散",
-     "link": "https://news.yahoo.co.jp/pickup/6598661?source=rss",
-     "pubDate": "Tue, 13 Oct 2026 13:39:28 GMT"
+     "title": "国仲涼子 長男から「くそばばあ」",
+     "link": "https://news.yahoo.co.jp/pickup/6598678?source=rss",
+     "pubDate": "Tue, 13 Oct 2026 23:00:45 GMT"
     }
    ]
   }
