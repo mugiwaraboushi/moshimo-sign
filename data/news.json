@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-14T15:15:42.147Z",
+ "updatedAt": "2026-10-14T19:30:43.626Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -216,7 +216,7 @@
     {
      "title": "旧統一教会が最上位機関新設 責任者にハン総裁の孫を任命",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59487",
-     "pubDate": "Wed, 14 Oct 2026 23:14:56 +0900"
+     "pubDate": "Wed, 14 Oct 2026 23:14:00 +0900"
     },
     {
      "title": "パキスタン北西部の非常事態宣言めぐり野党支持者と警察が衝突",
@@ -224,9 +224,9 @@
      "pubDate": "Wed, 14 Oct 2026 23:13:58 +0900"
     },
     {
-     "title": "米 消費者物価上昇率3.7％ 市場予想上回る",
+     "title": "米 9月の消費者物価 3.7％上昇 早期利上げ観測いくぶん高まる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59486",
-     "pubDate": "Wed, 14 Oct 2026 23:08:38 +0900"
+     "pubDate": "Thu, 15 Oct 2026 00:40:43 +0900"
     },
     {
      "title": "中国軍の空母が太平洋に向けて航行 戦闘機の発着も",
@@ -249,7 +249,7 @@
      "pubDate": "Wed, 14 Oct 2026 18:17:06 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月14日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（10月14日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53320",
      "pubDate": "Wed, 14 Oct 2026 15:41:00 +0900"
     },
@@ -316,9 +316,9 @@
      "pubDate": "Wed, 14 Oct 2026 13:01:56 GMT"
     },
     {
-     "title": "阪急電鉄 中吊広告を来年4月終了",
-     "link": "https://news.yahoo.co.jp/pickup/6598751?source=rss",
-     "pubDate": "Wed, 14 Oct 2026 08:53:13 GMT"
+     "title": "万博未払い アンゴラ異例対応の訳",
+     "link": "https://news.yahoo.co.jp/pickup/6598795?source=rss",
+     "pubDate": "Wed, 14 Oct 2026 15:20:27 GMT"
     },
     {
      "title": "がんでカツラ 1人で遺影撮った妻",
