@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-14T10:21:51.024Z",
+ "updatedAt": "2026-10-14T15:15:42.147Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,34 +8,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【速報中】 簗農相 辞表提出 道路予算発言など問題指摘の中",
+     "title": "【詳細】簗農相 辞表提出 道路予算発言など問題指摘の中",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59049",
-     "pubDate": "Wed, 14 Oct 2026 19:12:18 +0900"
+     "pubDate": "Wed, 14 Oct 2026 22:02:00 +0900"
     },
     {
      "title": "投稿動画で会社元代表の名誉を毀損か ユーチューバー逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59291",
-     "pubDate": "Wed, 14 Oct 2026 17:43:00 +0900"
+     "pubDate": "Wed, 14 Oct 2026 20:12:00 +0900"
     },
     {
-     "title": "ロシアが北海道新聞記者をスパイ容疑で拘束 長期化の懸念も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58917",
-     "pubDate": "Wed, 14 Oct 2026 12:03:00 +0900"
+     "title": "止まらない個人情報漏えい 警察でも漏えいの可能性明らかに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59388",
+     "pubDate": "Wed, 14 Oct 2026 22:47:32 +0900"
     },
     {
-     "title": "埼玉 「大樹生命」元営業職員を顧客への詐欺容疑で逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59353",
-     "pubDate": "Wed, 14 Oct 2026 18:13:14 +0900"
+     "title": "国内初 遠隔で手術ロボット操作し支援 弘前大など",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59458",
+     "pubDate": "Wed, 14 Oct 2026 22:34:28 +0900"
     },
     {
-     "title": "渋谷区マンション建設 工事停止の申し立て 2審は退ける",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59164",
-     "pubDate": "Wed, 14 Oct 2026 19:01:04 +0900"
+     "title": "中国軍の空母が太平洋に向けて航行 戦闘機の発着も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59475",
+     "pubDate": "Wed, 14 Oct 2026 22:20:33 +0900"
     },
     {
-     "title": "北海道大樹町で新たなロケット発射場の土台部分完成",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59308",
-     "pubDate": "Wed, 14 Oct 2026 18:11:04 +0900"
+     "title": "共同創業者 単独インタで語った“AIの未来”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59160",
+     "pubDate": "Wed, 14 Oct 2026 20:25:00 +0900"
     },
     {
      "title": "ドジャース大谷翔平 第3戦先発へ「信じてくれる人のために」",
@@ -50,14 +50,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "中国軍の空母が太平洋に向けて航行 戦闘機の発着も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59475",
+     "pubDate": "Wed, 14 Oct 2026 22:20:33 +0900"
+    },
+    {
+     "title": "核のごみ文献調査 東京 小笠原村で交付金の使途議論へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59446",
+     "pubDate": "Wed, 14 Oct 2026 21:15:29 +0900"
+    },
+    {
+     "title": "中小企業向けのセキュリティー対策セミナー",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59442",
+     "pubDate": "Wed, 14 Oct 2026 20:27:03 +0900"
+    },
+    {
+     "title": "受刑者の選挙権制限めぐり最高裁大法廷で弁論",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59416",
+     "pubDate": "Wed, 14 Oct 2026 19:26:57 +0900"
+    },
+    {
+     "title": "止まらない個人情報漏えい 警察でも漏えいの可能性明らかに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59388",
+     "pubDate": "Wed, 14 Oct 2026 22:47:32 +0900"
+    },
+    {
      "title": "共同創業者 単独インタで語った“AIの未来”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59160",
-     "pubDate": "Wed, 14 Oct 2026 19:19:55 +0900"
+     "pubDate": "Wed, 14 Oct 2026 20:25:00 +0900"
     },
     {
      "title": "渋谷区マンション建設 工事停止の申し立て 2審は退ける",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59164",
-     "pubDate": "Wed, 14 Oct 2026 19:01:04 +0900"
+     "pubDate": "Wed, 14 Oct 2026 19:25:27 +0900"
     },
     {
      "title": "埼玉 「大樹生命」元営業職員を顧客への詐欺容疑で逮捕",
@@ -67,7 +92,7 @@
     {
      "title": "投稿動画で会社元代表の名誉を毀損か ユーチューバー逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59291",
-     "pubDate": "Wed, 14 Oct 2026 17:43:00 +0900"
+     "pubDate": "Wed, 14 Oct 2026 20:12:00 +0900"
     },
     {
      "title": "誤った信号無視の取り締まり 警視庁が60件余繰り返す",
@@ -92,37 +117,12 @@
     {
      "title": "【動画】Pickup NEWS（10月14日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58747",
-     "pubDate": "Wed, 14 Oct 2026 13:45:38 +0900"
+     "pubDate": "Wed, 14 Oct 2026 20:00:01 +0900"
     },
     {
      "title": "九州新幹線 14日は始発から通常運行",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58945",
      "pubDate": "Wed, 14 Oct 2026 06:41:23 +0900"
-    },
-    {
-     "title": "新潟 6人死亡火災 元幹部らの起訴受け経営トップが遺族に謝罪",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58921",
-     "pubDate": "Wed, 14 Oct 2026 05:38:00 +0900"
-    },
-    {
-     "title": "ベトナム語の運転免許試験の問題 画像が漏えいか 千葉県警",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58907",
-     "pubDate": "Tue, 13 Oct 2026 23:46:54 +0900"
-    },
-    {
-     "title": "北海道でマフグの漁獲量増加 一方で養殖ホタテに被害か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58896",
-     "pubDate": "Tue, 13 Oct 2026 23:28:44 +0900"
-    },
-    {
-     "title": "都営地下鉄の保守工事談合で工事会社に排除措置命令へ 公取委",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58875",
-     "pubDate": "Tue, 13 Oct 2026 21:39:39 +0900"
-    },
-    {
-     "title": "静岡 約1億7000万円着服容疑で逮捕 “推し活”などに使ったか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58864",
-     "pubDate": "Tue, 13 Oct 2026 21:34:00 +0900"
     }
    ]
   },
@@ -131,6 +131,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "国内初 遠隔で手術ロボット操作し支援 弘前大など",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59458",
+     "pubDate": "Wed, 14 Oct 2026 22:34:28 +0900"
+    },
+    {
+     "title": "AIがもたらすのは希望か脅威か アンソロピック創業者に問う",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59452",
+     "pubDate": "Wed, 14 Oct 2026 22:17:53 +0900"
+    },
+    {
+     "title": "「内向の世代」を代表する作家 黒井千次さん死去",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59427",
+     "pubDate": "Wed, 14 Oct 2026 19:49:05 +0900"
+    },
     {
      "title": "北海道大樹町で新たなロケット発射場の土台部分完成",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59308",
@@ -190,21 +205,6 @@
      "title": "CEATEC開幕 フィジカルAIの出展相次ぐ サイバー攻撃への対応も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58370",
      "pubDate": "Tue, 13 Oct 2026 17:06:20 +0900"
-    },
-    {
-     "title": "NHK全国学校音楽コンクール中学校の部 名古屋 滝ノ水中が金賞",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58270",
-     "pubDate": "Tue, 13 Oct 2026 05:07:00 +0900"
-    },
-    {
-     "title": "経営者に戦略のアドバイスも 経営の中枢でAI活用の動き相次ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261012de58173",
-     "pubDate": "Mon, 12 Oct 2026 19:46:14 +0900"
-    },
-    {
-     "title": "二葉亭四迷の直筆原稿を初公開 東京 北区",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de58043",
-     "pubDate": "Mon, 12 Oct 2026 05:38:59 +0900"
     }
    ]
   },
@@ -214,9 +214,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "旧統一教会が最上位機関新設 責任者にハン総裁の孫を任命",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59487",
+     "pubDate": "Wed, 14 Oct 2026 23:14:56 +0900"
+    },
+    {
+     "title": "パキスタン北西部の非常事態宣言めぐり野党支持者と警察が衝突",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59488",
+     "pubDate": "Wed, 14 Oct 2026 23:13:58 +0900"
+    },
+    {
+     "title": "米 消費者物価上昇率3.7％ 市場予想上回る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59486",
+     "pubDate": "Wed, 14 Oct 2026 23:08:38 +0900"
+    },
+    {
+     "title": "中国軍の空母が太平洋に向けて航行 戦闘機の発着も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59475",
+     "pubDate": "Wed, 14 Oct 2026 22:20:33 +0900"
+    },
+    {
+     "title": "AIがもたらすのは希望か脅威か アンソロピック創業者に問う",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59452",
+     "pubDate": "Wed, 14 Oct 2026 22:17:53 +0900"
+    },
+    {
      "title": "共同創業者 単独インタで語った“AIの未来”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59160",
-     "pubDate": "Wed, 14 Oct 2026 19:19:55 +0900"
+     "pubDate": "Wed, 14 Oct 2026 20:25:00 +0900"
     },
     {
      "title": "中国と北朝鮮を結ぶ橋が15日に開通 両国貿易拡大の可能性も",
@@ -244,9 +269,9 @@
      "pubDate": "Wed, 14 Oct 2026 13:12:00 +0900"
     },
     {
-     "title": "サウジアラビア国営石油会社に攻撃 フーシ派と双方で攻撃続く",
+     "title": "サウジアラビア国営石油会社に攻撃 フーシ派は攻撃継続主張",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59083",
-     "pubDate": "Wed, 14 Oct 2026 12:38:21 +0900"
+     "pubDate": "Wed, 14 Oct 2026 22:16:06 +0900"
     },
     {
      "title": "オープンAI従業員を逮捕 役員会議室に録音機設置か",
@@ -262,31 +287,6 @@
      "title": "タイ大雨 影響は農業にも バジルやオクラなどの野菜価格高騰",
      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58890",
      "pubDate": "Wed, 14 Oct 2026 07:48:05 +0900"
-    },
-    {
-     "title": "サウジ側フーシ派双方が退避通告 攻撃の応酬の激化懸念",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58936",
-     "pubDate": "Wed, 14 Oct 2026 07:25:22 +0900"
-    },
-    {
-     "title": "ブルガリア沖で民間貨物船が沈没 ロシア大使に懸念伝える",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58935",
-     "pubDate": "Wed, 14 Oct 2026 07:23:00 +0900"
-    },
-    {
-     "title": "ノーベル平和賞ピレイ氏 アメリカの対応「非常に悲しい」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58934",
-     "pubDate": "Wed, 14 Oct 2026 06:32:36 +0900"
-    },
-    {
-     "title": "ホワイトハウスの新しい報道官 初会見はわずか15分で終了",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58937",
-     "pubDate": "Wed, 14 Oct 2026 05:36:00 +0900"
-    },
-    {
-     "title": "フランスの高校生 教育環境悪化に抗議し再び大規模集会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58939",
-     "pubDate": "Wed, 14 Oct 2026 05:36:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "簗農相が辞表提出 事実上の更迭か",
-     "link": "https://news.yahoo.co.jp/pickup/6598765?source=rss",
-     "pubDate": "Wed, 14 Oct 2026 10:01:47 GMT"
+     "title": "農相辞表 内閣改造後わずか1カ月",
+     "link": "https://news.yahoo.co.jp/pickup/6598790?source=rss",
+     "pubDate": "Wed, 14 Oct 2026 14:12:54 GMT"
     },
     {
-     "title": "幼い娘が偏食 追い詰められた母親",
-     "link": "https://news.yahoo.co.jp/pickup/6598758?source=rss",
-     "pubDate": "Wed, 14 Oct 2026 08:55:59 GMT"
+     "title": "海峡で機雷接触の貨物船沈没 報道",
+     "link": "https://news.yahoo.co.jp/pickup/6598794?source=rss",
+     "pubDate": "Wed, 14 Oct 2026 15:05:35 GMT"
     },
     {
-     "title": "プール授業中に溺死 元担任も有罪",
-     "link": "https://news.yahoo.co.jp/pickup/6598763?source=rss",
-     "pubDate": "Wed, 14 Oct 2026 10:14:38 GMT"
+     "title": "道新記者の拘束 日本政府に衝撃",
+     "link": "https://news.yahoo.co.jp/pickup/6598791?source=rss",
+     "pubDate": "Wed, 14 Oct 2026 14:34:55 GMT"
     },
     {
-     "title": "給食に「貧相すぎ」と批判 市回答",
-     "link": "https://news.yahoo.co.jp/pickup/6598715?source=rss",
-     "pubDate": "Wed, 14 Oct 2026 03:11:33 GMT"
+     "title": "新宿109KENZO 池田容疑者を逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6598783?source=rss",
+     "pubDate": "Wed, 14 Oct 2026 13:01:56 GMT"
     },
     {
-     "title": "ウインナー なぜ2袋セットで販売",
-     "link": "https://news.yahoo.co.jp/pickup/6598731?source=rss",
-     "pubDate": "Wed, 14 Oct 2026 05:51:34 GMT"
+     "title": "阪急電鉄 中吊広告を来年4月終了",
+     "link": "https://news.yahoo.co.jp/pickup/6598751?source=rss",
+     "pubDate": "Wed, 14 Oct 2026 08:53:13 GMT"
     },
     {
-     "title": "BOOKOFF「本売るなら」から変身",
-     "link": "https://news.yahoo.co.jp/pickup/6598750?source=rss",
-     "pubDate": "Wed, 14 Oct 2026 08:33:40 GMT"
+     "title": "がんでカツラ 1人で遺影撮った妻",
+     "link": "https://news.yahoo.co.jp/pickup/6598775?source=rss",
+     "pubDate": "Wed, 14 Oct 2026 11:22:42 GMT"
     },
     {
-     "title": "速報CS ソフトバンクvs.日本ハム",
-     "link": "https://news.yahoo.co.jp/pickup/6598743?source=rss",
-     "pubDate": "Wed, 14 Oct 2026 09:02:24 GMT"
+     "title": "阪神・村上 ベンチでうなだれる",
+     "link": "https://news.yahoo.co.jp/pickup/6598787?source=rss",
+     "pubDate": "Wed, 14 Oct 2026 13:47:42 GMT"
     },
     {
-     "title": "速報CSファイナル 阪神vs.DeNA",
-     "link": "https://news.yahoo.co.jp/pickup/6598742?source=rss",
-     "pubDate": "Wed, 14 Oct 2026 09:02:24 GMT"
+     "title": "我が家・杉山の謹慎を事務所発表",
+     "link": "https://news.yahoo.co.jp/pickup/6598766?source=rss",
+     "pubDate": "Wed, 14 Oct 2026 10:25:23 GMT"
     }
    ]
   }
