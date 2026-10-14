@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-14T19:30:43.626Z",
+ "updatedAt": "2026-10-14T22:44:39.497Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【詳細】簗農相 辞表提出 道路予算発言など問題指摘の中",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59049",
-     "pubDate": "Wed, 14 Oct 2026 22:02:00 +0900"
+     "title": "簗農相辞表提出 首相きょう後任決定方針 野党は任命責任追及へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59520",
+     "pubDate": "Thu, 15 Oct 2026 04:40:28 +0900"
     },
     {
-     "title": "投稿動画で会社元代表の名誉を毀損か ユーチューバー逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59291",
-     "pubDate": "Wed, 14 Oct 2026 20:12:00 +0900"
+     "title": "北海道新聞記者の拘束受けて状況などの確認急ぐ 日本政府",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59523",
+     "pubDate": "Thu, 15 Oct 2026 04:52:09 +0900"
     },
     {
-     "title": "止まらない個人情報漏えい 警察でも漏えいの可能性明らかに",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59388",
-     "pubDate": "Wed, 14 Oct 2026 22:47:32 +0900"
+     "title": "ドジャース×ブルワーズ リーグ優勝決定S 第3戦見どころ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59178",
+     "pubDate": "Thu, 15 Oct 2026 07:00:57 +0900"
     },
     {
-     "title": "国内初 遠隔で手術ロボット操作し支援 弘前大など",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59458",
-     "pubDate": "Wed, 14 Oct 2026 22:34:28 +0900"
+     "title": "G20 財務相・中央銀行総裁会議 15日開幕へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59525",
+     "pubDate": "Thu, 15 Oct 2026 06:43:48 +0900"
     },
     {
-     "title": "中国軍の空母が太平洋に向けて航行 戦闘機の発着も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59475",
-     "pubDate": "Wed, 14 Oct 2026 22:20:33 +0900"
+     "title": "警察庁 米マイクロソフトと連携しネット犯罪サービスを無害化",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59421",
+     "pubDate": "Thu, 15 Oct 2026 06:47:14 +0900"
     },
     {
-     "title": "共同創業者 単独インタで語った“AIの未来”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59160",
-     "pubDate": "Wed, 14 Oct 2026 20:25:00 +0900"
+     "title": "秋の園遊会 招待者決まる 宮部みゆきさんや吉田鋼太郎さんなど",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59522",
+     "pubDate": "Thu, 15 Oct 2026 05:40:43 +0900"
     },
     {
-     "title": "ドジャース大谷翔平 第3戦先発へ「信じてくれる人のために」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58989",
-     "pubDate": "Wed, 14 Oct 2026 14:10:00 +0900"
+     "title": "訪問介護の介護報酬の枠組み 抜本的見直しで検討 厚生労働省",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59521",
+     "pubDate": "Thu, 15 Oct 2026 05:39:46 +0900"
     }
    ]
   },
@@ -49,6 +49,36 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "警察庁 米マイクロソフトと連携しネット犯罪サービスを無害化",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59421",
+     "pubDate": "Thu, 15 Oct 2026 06:47:14 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（10月15日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59277",
+     "pubDate": "Thu, 15 Oct 2026 06:24:11 +0900"
+    },
+    {
+     "title": "拉致被害者帰国から24年 曽我ひとみさん“他被害国と連携を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59435",
+     "pubDate": "Thu, 15 Oct 2026 05:58:22 +0900"
+    },
+    {
+     "title": "秋の園遊会 招待者決まる 宮部みゆきさんや吉田鋼太郎さんなど",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59522",
+     "pubDate": "Thu, 15 Oct 2026 05:40:43 +0900"
+    },
+    {
+     "title": "訪問介護の介護報酬の枠組み 抜本的見直しで検討 厚生労働省",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59521",
+     "pubDate": "Thu, 15 Oct 2026 05:39:46 +0900"
+    },
+    {
+     "title": "漫画家が出版社を提訴 “出版権は消滅”確認を求める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59459",
+     "pubDate": "Thu, 15 Oct 2026 05:18:53 +0900"
+    },
     {
      "title": "中国軍の空母が太平洋に向けて航行 戦闘機の発着も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59475",
@@ -72,7 +102,7 @@
     {
      "title": "止まらない個人情報漏えい 警察でも漏えいの可能性明らかに",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59388",
-     "pubDate": "Wed, 14 Oct 2026 22:47:32 +0900"
+     "pubDate": "Thu, 15 Oct 2026 04:32:58 +0900"
     },
     {
      "title": "共同創業者 単独インタで語った“AIの未来”",
@@ -93,36 +123,6 @@
      "title": "投稿動画で会社元代表の名誉を毀損か ユーチューバー逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59291",
      "pubDate": "Wed, 14 Oct 2026 20:12:00 +0900"
-    },
-    {
-     "title": "誤った信号無視の取り締まり 警視庁が60件余繰り返す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59211",
-     "pubDate": "Wed, 14 Oct 2026 16:09:14 +0900"
-    },
-    {
-     "title": "10月14日は「鉄道の日」 各地の動き",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59081",
-     "pubDate": "Wed, 14 Oct 2026 18:13:30 +0900"
-    },
-    {
-     "title": "「ボイスフィッシング」被害金洗浄か グループを摘発",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58876",
-     "pubDate": "Wed, 14 Oct 2026 09:02:37 +0900"
-    },
-    {
-     "title": "クビアカツヤカミキリ被害を「見える化」環境省が投稿呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58941",
-     "pubDate": "Wed, 14 Oct 2026 07:40:18 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（10月14日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58747",
-     "pubDate": "Wed, 14 Oct 2026 20:00:01 +0900"
-    },
-    {
-     "title": "九州新幹線 14日は始発から通常運行",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58945",
-     "pubDate": "Wed, 14 Oct 2026 06:41:23 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "漫画家が出版社を提訴 “出版権は消滅”確認を求める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59459",
+     "pubDate": "Thu, 15 Oct 2026 05:18:53 +0900"
+    },
     {
      "title": "国内初 遠隔で手術ロボット操作し支援 弘前大など",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59458",
@@ -200,11 +205,6 @@
      "title": "一連の不正アクセスは“AIエージェント悪用の可能性”解析で",
      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58380",
      "pubDate": "Tue, 13 Oct 2026 19:49:00 +0900"
-    },
-    {
-     "title": "CEATEC開幕 フィジカルAIの出展相次ぐ サイバー攻撃への対応も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58370",
-     "pubDate": "Tue, 13 Oct 2026 17:06:20 +0900"
     }
    ]
   },
@@ -213,6 +213,61 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "ノルドストリーム爆発事件関与で起訴の被告 ドイツで初公判",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59547",
+     "pubDate": "Thu, 15 Oct 2026 07:39:15 +0900"
+    },
+    {
+     "title": "ウクライナ側“スターリンクの利用一部制限 迎撃など支障”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59537",
+     "pubDate": "Thu, 15 Oct 2026 07:37:48 +0900"
+    },
+    {
+     "title": "フランスの教育環境めぐるデモ ヨーロッパ各地に拡大",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59531",
+     "pubDate": "Thu, 15 Oct 2026 07:19:16 +0900"
+    },
+    {
+     "title": "米半導体企業 最大3兆円規模で新工場建設へ 日米合意に基づき",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59529",
+     "pubDate": "Thu, 15 Oct 2026 07:18:04 +0900"
+    },
+    {
+     "title": "警察庁 米マイクロソフトと連携しネット犯罪サービスを無害化",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59421",
+     "pubDate": "Thu, 15 Oct 2026 06:47:14 +0900"
+    },
+    {
+     "title": "G20 財務相・中央銀行総裁会議 15日開幕へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59525",
+     "pubDate": "Thu, 15 Oct 2026 06:43:48 +0900"
+    },
+    {
+     "title": "NY市場 円相場 一時1ドル＝158円台後半も 荒い値動きに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59540",
+     "pubDate": "Thu, 15 Oct 2026 06:15:11 +0900"
+    },
+    {
+     "title": "FRB経済報告“物価上昇ペース加速地区も” 追加利上げ時期焦点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59538",
+     "pubDate": "Thu, 15 Oct 2026 06:13:52 +0900"
+    },
+    {
+     "title": "EU 米のICCへの制裁対象指定を受け 「ブロッキング規則」調整",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59536",
+     "pubDate": "Thu, 15 Oct 2026 06:01:02 +0900"
+    },
+    {
+     "title": "拉致被害者帰国から24年 曽我ひとみさん“他被害国と連携を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59435",
+     "pubDate": "Thu, 15 Oct 2026 05:58:22 +0900"
+    },
+    {
+     "title": "北海道新聞記者の拘束受けて状況などの確認急ぐ 日本政府",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59523",
+     "pubDate": "Thu, 15 Oct 2026 04:52:09 +0900"
+    },
     {
      "title": "旧統一教会が最上位機関新設 責任者にハン総裁の孫を任命",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59487",
@@ -232,61 +287,6 @@
      "title": "中国軍の空母が太平洋に向けて航行 戦闘機の発着も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59475",
      "pubDate": "Wed, 14 Oct 2026 22:20:33 +0900"
-    },
-    {
-     "title": "AIがもたらすのは希望か脅威か アンソロピック創業者に問う",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59452",
-     "pubDate": "Wed, 14 Oct 2026 22:17:53 +0900"
-    },
-    {
-     "title": "共同創業者 単独インタで語った“AIの未来”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59160",
-     "pubDate": "Wed, 14 Oct 2026 20:25:00 +0900"
-    },
-    {
-     "title": "中国と北朝鮮を結ぶ橋が15日に開通 両国貿易拡大の可能性も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59181",
-     "pubDate": "Wed, 14 Oct 2026 18:17:06 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（10月14日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53320",
-     "pubDate": "Wed, 14 Oct 2026 15:41:00 +0900"
-    },
-    {
-     "title": "中国 9月消費者物価指数 前月比やや拡大も3か月連続1％下回る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59167",
-     "pubDate": "Wed, 14 Oct 2026 14:35:00 +0900"
-    },
-    {
-     "title": "中国軍 空母「遼寧」が西太平洋で訓練を行うと発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59124",
-     "pubDate": "Wed, 14 Oct 2026 13:31:00 +0900"
-    },
-    {
-     "title": "米駐ギリシャ大使が辞意 トランプ大統領“身内”を解任か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59035",
-     "pubDate": "Wed, 14 Oct 2026 13:12:00 +0900"
-    },
-    {
-     "title": "サウジアラビア国営石油会社に攻撃 フーシ派は攻撃継続主張",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59083",
-     "pubDate": "Wed, 14 Oct 2026 22:16:06 +0900"
-    },
-    {
-     "title": "オープンAI従業員を逮捕 役員会議室に録音機設置か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59061",
-     "pubDate": "Wed, 14 Oct 2026 12:21:00 +0900"
-    },
-    {
-     "title": "ローマ教皇の手術成功 肺腺がん確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de58969",
-     "pubDate": "Wed, 14 Oct 2026 10:16:00 +0900"
-    },
-    {
-     "title": "タイ大雨 影響は農業にも バジルやオクラなどの野菜価格高騰",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261013de58890",
-     "pubDate": "Wed, 14 Oct 2026 07:48:05 +0900"
     }
    ]
   },
@@ -301,14 +301,19 @@
      "pubDate": "Wed, 14 Oct 2026 14:12:54 GMT"
     },
     {
-     "title": "海峡で機雷接触の貨物船沈没 報道",
-     "link": "https://news.yahoo.co.jp/pickup/6598794?source=rss",
-     "pubDate": "Wed, 14 Oct 2026 15:05:35 GMT"
+     "title": "農相辞任「当然」地元有権者怒り",
+     "link": "https://news.yahoo.co.jp/pickup/6598798?source=rss",
+     "pubDate": "Wed, 14 Oct 2026 21:38:41 GMT"
     },
     {
-     "title": "道新記者の拘束 日本政府に衝撃",
-     "link": "https://news.yahoo.co.jp/pickup/6598791?source=rss",
-     "pubDate": "Wed, 14 Oct 2026 14:34:55 GMT"
+     "title": "米上場の半導体株 下落止まらず",
+     "link": "https://news.yahoo.co.jp/pickup/6598805?source=rss",
+     "pubDate": "Wed, 14 Oct 2026 22:37:50 GMT"
+    },
+    {
+     "title": "ネトフリ 従業員約1000人を削減へ",
+     "link": "https://news.yahoo.co.jp/pickup/6598797?source=rss",
+     "pubDate": "Wed, 14 Oct 2026 21:20:35 GMT"
     },
     {
      "title": "新宿109KENZO 池田容疑者を逮捕",
@@ -321,19 +326,14 @@
      "pubDate": "Wed, 14 Oct 2026 15:20:27 GMT"
     },
     {
-     "title": "がんでカツラ 1人で遺影撮った妻",
-     "link": "https://news.yahoo.co.jp/pickup/6598775?source=rss",
-     "pubDate": "Wed, 14 Oct 2026 11:22:42 GMT"
+     "title": "大谷は昨夜遅くまで練習 監督言及",
+     "link": "https://news.yahoo.co.jp/pickup/6598803?source=rss",
+     "pubDate": "Wed, 14 Oct 2026 22:24:23 GMT"
     },
     {
-     "title": "阪神・村上 ベンチでうなだれる",
-     "link": "https://news.yahoo.co.jp/pickup/6598787?source=rss",
-     "pubDate": "Wed, 14 Oct 2026 13:47:42 GMT"
-    },
-    {
-     "title": "我が家・杉山の謹慎を事務所発表",
-     "link": "https://news.yahoo.co.jp/pickup/6598766?source=rss",
-     "pubDate": "Wed, 14 Oct 2026 10:25:23 GMT"
+     "title": "織田翔希 MLB挑戦の意向固めたか",
+     "link": "https://news.yahoo.co.jp/pickup/6598796?source=rss",
+     "pubDate": "Wed, 14 Oct 2026 21:09:36 GMT"
     }
    ]
   }
