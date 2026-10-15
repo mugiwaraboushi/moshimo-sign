@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-15T15:09:28.693Z",
+ "updatedAt": "2026-10-15T19:16:13.486Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,11 +13,6 @@
      "pubDate": "Thu, 15 Oct 2026 21:55:07 +0900"
     },
     {
-     "title": "相次ぐ不正アクセス “AIエージェント”使用の証拠見つかる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59790",
-     "pubDate": "Thu, 15 Oct 2026 19:30:00 +0900"
-    },
-    {
      "title": "自民“消費税法案20日審議入り”民改“首相出席し審議充実を”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60104",
      "pubDate": "Thu, 15 Oct 2026 22:53:00 +0900"
@@ -28,19 +23,24 @@
      "pubDate": "Thu, 15 Oct 2026 21:18:00 +0900"
     },
     {
-     "title": "声優の野沢雅子さん “声の生成AI利用”について語る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59778",
-     "pubDate": "Thu, 15 Oct 2026 18:55:00 +0900"
+     "title": "滋賀 日野町事件の再審に向け検察が証拠57点開示の意向",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60112",
+     "pubDate": "Fri, 16 Oct 2026 00:24:34 +0900"
     },
     {
-     "title": "訪問介護の関係団体が国に報酬引き上げなど要望",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60105",
-     "pubDate": "Thu, 15 Oct 2026 22:39:00 +0900"
+     "title": "パキスタンの学校の屋根崩落 子どもなど33人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60119",
+     "pubDate": "Fri, 16 Oct 2026 00:13:00 +0900"
     },
     {
-     "title": "中国と北朝鮮を結ぶ橋が開通 現地で式典 本体工事完了は12年前",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60111",
-     "pubDate": "Thu, 15 Oct 2026 22:58:22 +0900"
+     "title": "「くまの子ウーフ」児童文学作家の神沢利子さん死去",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60137",
+     "pubDate": "Fri, 16 Oct 2026 01:35:16 +0900"
+    },
+    {
+     "title": "脊髄損傷の再生医療製品 条件付きから初の本承認へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60116",
+     "pubDate": "Fri, 16 Oct 2026 01:50:37 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "滋賀 日野町事件の再審に向け検察が証拠57点開示の意向",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60112",
+     "pubDate": "Fri, 16 Oct 2026 00:24:34 +0900"
+    },
     {
      "title": "訪問介護の関係団体が国に報酬引き上げなど要望",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60105",
@@ -118,11 +123,6 @@
      "title": "ストーカー加害者にGPS機器 来週から有識者会議で議論 警察庁",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59718",
      "pubDate": "Thu, 15 Oct 2026 13:43:00 +0900"
-    },
-    {
-     "title": "睡眠薬無許可で販売疑いで逮捕「トー横」の未成年への供給元か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59683",
-     "pubDate": "Thu, 15 Oct 2026 12:47:00 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "脊髄損傷の再生医療製品 条件付きから初の本承認へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60116",
+     "pubDate": "Fri, 16 Oct 2026 01:50:37 +0900"
+    },
+    {
+     "title": "「くまの子ウーフ」児童文学作家の神沢利子さん死去",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60137",
+     "pubDate": "Fri, 16 Oct 2026 01:35:16 +0900"
+    },
     {
      "title": "「コミックシーモア」がサービス停止 不正アクセスか",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60114",
@@ -195,16 +205,6 @@
      "title": "古墳時代研究の第一人者 白石太一郎さん死去 87歳",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59780",
      "pubDate": "Thu, 15 Oct 2026 15:48:00 +0900"
-    },
-    {
-     "title": "漫画家が出版社を提訴 “出版権は消滅”確認を求める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59459",
-     "pubDate": "Thu, 15 Oct 2026 05:18:53 +0900"
-    },
-    {
-     "title": "国内初 遠隔で手術ロボット操作し支援 弘前大など",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59458",
-     "pubDate": "Wed, 14 Oct 2026 22:34:28 +0900"
     }
    ]
   },
@@ -213,6 +213,26 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "片山財務相 日韓通貨スワップ延長で合意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60139",
+     "pubDate": "Fri, 16 Oct 2026 02:12:25 +0900"
+    },
+    {
+     "title": "台湾TSMC過去最高益「需要減速の兆候なし」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60118",
+     "pubDate": "Fri, 16 Oct 2026 00:54:12 +0900"
+    },
+    {
+     "title": "アメリカ小売売上高9月は＋0.8％底堅さ示す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60121",
+     "pubDate": "Fri, 16 Oct 2026 00:33:29 +0900"
+    },
+    {
+     "title": "パキスタンの学校の屋根崩落 子どもなど33人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60119",
+     "pubDate": "Fri, 16 Oct 2026 00:13:00 +0900"
+    },
     {
      "title": "中国と北朝鮮を結ぶ橋が開通 現地で式典 本体工事完了は12年前",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60111",
@@ -267,26 +287,6 @@
      "title": "NY市場 ナスダック株価指数大幅安 AI関連企業資金調達など懸念",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59561",
      "pubDate": "Thu, 15 Oct 2026 10:11:58 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月15日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53321",
-     "pubDate": "Thu, 15 Oct 2026 09:39:04 +0900"
-    },
-    {
-     "title": "日本の名目GDP 来年 世界6位に インドとイギリスに抜かれ IMF",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59559",
-     "pubDate": "Thu, 15 Oct 2026 09:27:34 +0900"
-    },
-    {
-     "title": "拉致被害者帰国から24年 蓮池薫さん 一刻も早い帰国実現を訴え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59485",
-     "pubDate": "Thu, 15 Oct 2026 08:50:00 +0900"
-    },
-    {
-     "title": "フーシ派“サウジアラビア首都リヤドの空港など攻撃”主張",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59546",
-     "pubDate": "Thu, 15 Oct 2026 08:46:00 +0900"
     }
    ]
   },
