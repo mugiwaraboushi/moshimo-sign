@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-15T10:25:44.627Z",
+ "updatedAt": "2026-10-15T15:09:28.693Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "ソースネクスト 顧客情報 約2251万件が情報漏えいか",
+     "title": "ソースネクスト 約2251万件の個人情報が流出か 不正アクセスで",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60043",
-     "pubDate": "Thu, 15 Oct 2026 19:24:33 +0900"
-    },
-    {
-     "title": "声優の野沢雅子さん “声の生成AI利用”について語る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59778",
-     "pubDate": "Thu, 15 Oct 2026 18:55:54 +0900"
+     "pubDate": "Thu, 15 Oct 2026 21:55:07 +0900"
     },
     {
      "title": "相次ぐ不正アクセス “AIエージェント”使用の証拠見つかる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59790",
-     "pubDate": "Thu, 15 Oct 2026 19:01:02 +0900"
+     "pubDate": "Thu, 15 Oct 2026 19:30:00 +0900"
     },
     {
-     "title": "パナソニック ドラム式洗濯機64万台をリコール",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59971",
-     "pubDate": "Thu, 15 Oct 2026 18:18:00 +0900"
-    },
-    {
-     "title": "産婦人科向けシステムに不正アクセス 医療機関は対応追われる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59731",
-     "pubDate": "Thu, 15 Oct 2026 18:38:02 +0900"
+     "title": "自民“消費税法案20日審議入り”民改“首相出席し審議充実を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60104",
+     "pubDate": "Thu, 15 Oct 2026 22:53:00 +0900"
     },
     {
      "title": "武部氏 認証式を経て農相に就任 辞表提出の簗氏の後任に",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59560",
-     "pubDate": "Thu, 15 Oct 2026 18:46:00 +0900"
+     "pubDate": "Thu, 15 Oct 2026 21:18:00 +0900"
     },
     {
-     "title": "JR3社「不正アクセスに伴う個人情報漏えい 確認されず」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59844",
-     "pubDate": "Thu, 15 Oct 2026 19:15:35 +0900"
+     "title": "声優の野沢雅子さん “声の生成AI利用”について語る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59778",
+     "pubDate": "Thu, 15 Oct 2026 18:55:00 +0900"
+    },
+    {
+     "title": "訪問介護の関係団体が国に報酬引き上げなど要望",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60105",
+     "pubDate": "Thu, 15 Oct 2026 22:39:00 +0900"
+    },
+    {
+     "title": "中国と北朝鮮を結ぶ橋が開通 現地で式典 本体工事完了は12年前",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60111",
+     "pubDate": "Thu, 15 Oct 2026 22:58:22 +0900"
     }
    ]
   },
@@ -50,14 +50,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "訪問介護の関係団体が国に報酬引き上げなど要望",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60105",
+     "pubDate": "Thu, 15 Oct 2026 22:39:00 +0900"
+    },
+    {
+     "title": "神戸 交差点死傷事故 過失運転致死傷の疑いで会社役員を逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60099",
+     "pubDate": "Thu, 15 Oct 2026 22:35:00 +0900"
+    },
+    {
+     "title": "受刑者死亡めぐる裁判 国が対応は「不適切」と認め遺族と和解",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60031",
+     "pubDate": "Thu, 15 Oct 2026 19:49:00 +0900"
+    },
+    {
+     "title": "ひぼう中傷動画投稿疑いで逮捕のユーチューバーらを遺族が提訴",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60021",
+     "pubDate": "Thu, 15 Oct 2026 19:45:20 +0900"
+    },
+    {
      "title": "上野厚労相 来年度の介護報酬引き上げへ予算確保に意欲",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59932",
-     "pubDate": "Thu, 15 Oct 2026 19:02:16 +0900"
+     "pubDate": "Thu, 15 Oct 2026 19:02:00 +0900"
     },
     {
      "title": "声優の野沢雅子さん “声の生成AI利用”について語る",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59778",
-     "pubDate": "Thu, 15 Oct 2026 18:55:54 +0900"
+     "pubDate": "Thu, 15 Oct 2026 18:55:00 +0900"
     },
     {
      "title": "東芝 不正会計問題めぐる裁判 会社側の敗訴が確定",
@@ -103,26 +123,6 @@
      "title": "睡眠薬無許可で販売疑いで逮捕「トー横」の未成年への供給元か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59683",
      "pubDate": "Thu, 15 Oct 2026 12:47:00 +0900"
-    },
-    {
-     "title": "凍ったゼリーで男児死亡 民間の認定こども園に監査 奈良 香芝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59577",
-     "pubDate": "Thu, 15 Oct 2026 15:08:00 +0900"
-    },
-    {
-     "title": "拉致被害者帰国から24年 蓮池薫さん 一刻も早い帰国実現を訴え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59485",
-     "pubDate": "Thu, 15 Oct 2026 08:50:00 +0900"
-    },
-    {
-     "title": "警察庁 米マイクロソフトと連携しネット犯罪サービスを無害化",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59421",
-     "pubDate": "Thu, 15 Oct 2026 06:47:00 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（10月15日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59277",
-     "pubDate": "Thu, 15 Oct 2026 13:41:50 +0900"
     }
    ]
   },
@@ -132,9 +132,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
-     "title": "ソースネクスト 顧客情報 約2251万件が情報漏えいか",
+     "title": "「コミックシーモア」がサービス停止 不正アクセスか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60114",
+     "pubDate": "Thu, 15 Oct 2026 23:39:45 +0900"
+    },
+    {
+     "title": "ドイツ 13歳未満の子ども SNS利用を原則禁止へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60075",
+     "pubDate": "Thu, 15 Oct 2026 20:43:55 +0900"
+    },
+    {
+     "title": "SNS偽広告で詐欺被害 メタ社に賠償求めた訴え退ける 横浜地裁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60042",
+     "pubDate": "Thu, 15 Oct 2026 19:53:54 +0900"
+    },
+    {
+     "title": "ひぼう中傷動画投稿疑いで逮捕のユーチューバーらを遺族が提訴",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60021",
+     "pubDate": "Thu, 15 Oct 2026 19:45:20 +0900"
+    },
+    {
+     "title": "ソースネクスト 約2251万件の個人情報が流出か 不正アクセスで",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60043",
-     "pubDate": "Thu, 15 Oct 2026 19:24:33 +0900"
+     "pubDate": "Thu, 15 Oct 2026 21:55:07 +0900"
     },
     {
      "title": "ローソン社長 不正アクセスによる個人情報漏えいを謝罪",
@@ -149,17 +169,17 @@
     {
      "title": "声優の野沢雅子さん “声の生成AI利用”について語る",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59778",
-     "pubDate": "Thu, 15 Oct 2026 18:55:54 +0900"
+     "pubDate": "Thu, 15 Oct 2026 18:55:00 +0900"
     },
     {
      "title": "相次ぐ不正アクセス “AIエージェント”使用の証拠見つかる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59790",
-     "pubDate": "Thu, 15 Oct 2026 19:01:02 +0900"
+     "pubDate": "Thu, 15 Oct 2026 19:30:00 +0900"
     },
     {
      "title": "自治体システム運営 大阪のIT関連会社 サーバー復旧を発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59824",
-     "pubDate": "Thu, 15 Oct 2026 18:13:00 +0900"
+     "pubDate": "Thu, 15 Oct 2026 19:48:47 +0900"
     },
     {
      "title": "JR3社「不正アクセスに伴う個人情報漏えい 確認されず」",
@@ -185,26 +205,6 @@
      "title": "国内初 遠隔で手術ロボット操作し支援 弘前大など",
      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59458",
      "pubDate": "Wed, 14 Oct 2026 22:34:28 +0900"
-    },
-    {
-     "title": "AIがもたらすのは希望か脅威か アンソロピック創業者に問う",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59452",
-     "pubDate": "Wed, 14 Oct 2026 22:17:53 +0900"
-    },
-    {
-     "title": "「内向の世代」を代表する作家 黒井千次さん死去",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59427",
-     "pubDate": "Wed, 14 Oct 2026 19:49:05 +0900"
-    },
-    {
-     "title": "北海道大樹町で新たなロケット発射場の土台部分完成",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59308",
-     "pubDate": "Wed, 14 Oct 2026 18:11:04 +0900"
-    },
-    {
-     "title": "「ブラッサム」モデル宇野千代の特別展 直筆原稿など展示",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261011de58036",
-     "pubDate": "Mon, 12 Oct 2026 04:44:00 +0900"
     }
    ]
   },
@@ -213,6 +213,41 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "中国と北朝鮮を結ぶ橋が開通 現地で式典 本体工事完了は12年前",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60111",
+     "pubDate": "Thu, 15 Oct 2026 22:58:22 +0900"
+    },
+    {
+     "title": "プーチン大統領らを裁く特別法廷の設置を訴え ウクライナ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60103",
+     "pubDate": "Thu, 15 Oct 2026 22:30:00 +0900"
+    },
+    {
+     "title": "超党派議連 ICC制裁“歴史にない暴挙 制裁撤回働きかけを”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60102",
+     "pubDate": "Thu, 15 Oct 2026 22:23:00 +0900"
+    },
+    {
+     "title": "ドイツ 13歳未満の子ども SNS利用を原則禁止へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60075",
+     "pubDate": "Thu, 15 Oct 2026 20:43:55 +0900"
+    },
+    {
+     "title": "韓国与党「共に民主党」代表 日本との関係強化に意欲",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60060",
+     "pubDate": "Thu, 15 Oct 2026 20:16:00 +0900"
+    },
+    {
+     "title": "茂木外相 サウジアラビア外相に日本人保護への協力要請",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60071",
+     "pubDate": "Thu, 15 Oct 2026 20:15:00 +0900"
+    },
+    {
+     "title": "ホルムズ海峡で船舶攻撃増 米中間選挙前にイランが攻撃強化か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60025",
+     "pubDate": "Thu, 15 Oct 2026 19:30:00 +0900"
+    },
     {
      "title": "イスラエル情報機関の前長官 ネタニヤフ首相を提訴",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59826",
@@ -252,41 +287,6 @@
      "title": "フーシ派“サウジアラビア首都リヤドの空港など攻撃”主張",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59546",
      "pubDate": "Thu, 15 Oct 2026 08:46:00 +0900"
-    },
-    {
-     "title": "ネットフリックスが人員約1000人削減方針か 米報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59528",
-     "pubDate": "Thu, 15 Oct 2026 08:25:00 +0900"
-    },
-    {
-     "title": "ノルドストリーム爆発事件関与で起訴の被告 ドイツで初公判",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59547",
-     "pubDate": "Thu, 15 Oct 2026 07:39:00 +0900"
-    },
-    {
-     "title": "ウクライナ側“スターリンクの利用一部制限 迎撃など支障”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59537",
-     "pubDate": "Thu, 15 Oct 2026 08:11:00 +0900"
-    },
-    {
-     "title": "フランスの教育環境めぐるデモ ヨーロッパ各地に拡大",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59531",
-     "pubDate": "Thu, 15 Oct 2026 07:19:00 +0900"
-    },
-    {
-     "title": "米半導体企業 最大3兆円規模で新工場建設へ 日米合意に基づき",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59529",
-     "pubDate": "Thu, 15 Oct 2026 14:34:54 +0900"
-    },
-    {
-     "title": "警察庁 米マイクロソフトと連携しネット犯罪サービスを無害化",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261014de59421",
-     "pubDate": "Thu, 15 Oct 2026 06:47:00 +0900"
-    },
-    {
-     "title": "G20 財務相・中央銀行総裁会議 世界経済やAIへの対応を議論",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59525",
-     "pubDate": "Thu, 15 Oct 2026 18:15:14 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "常陸大宮市 核ごみ文献調査開始",
-     "link": "https://news.yahoo.co.jp/pickup/6598871?source=rss",
-     "pubDate": "Thu, 15 Oct 2026 05:53:53 GMT"
+     "title": "うるう秒廃止 うるう時の導入決定",
+     "link": "https://news.yahoo.co.jp/pickup/6598933?source=rss",
+     "pubDate": "Thu, 15 Oct 2026 14:27:01 GMT"
     },
     {
-     "title": "露拘束 WSJ記者の過去事例がカギ",
-     "link": "https://news.yahoo.co.jp/pickup/6598908?source=rss",
-     "pubDate": "Thu, 15 Oct 2026 10:10:23 GMT"
+     "title": "タクシーやバス カスハラ客拒否へ",
+     "link": "https://news.yahoo.co.jp/pickup/6598926?source=rss",
+     "pubDate": "Thu, 15 Oct 2026 13:12:11 GMT"
     },
     {
-     "title": "麻生氏 簗氏の更迭「大変遺憾」",
-     "link": "https://news.yahoo.co.jp/pickup/6598898?source=rss",
-     "pubDate": "Thu, 15 Oct 2026 09:15:09 GMT"
+     "title": "洗濯機が発火恐れ パナがリコール",
+     "link": "https://news.yahoo.co.jp/pickup/6598928?source=rss",
+     "pubDate": "Thu, 15 Oct 2026 13:37:32 GMT"
     },
     {
-     "title": "検事が「ガキ」発言 国の賠償確定",
-     "link": "https://news.yahoo.co.jp/pickup/6598904?source=rss",
-     "pubDate": "Thu, 15 Oct 2026 09:49:19 GMT"
+     "title": "動画を苦に自殺 YouTuberを提訴",
+     "link": "https://news.yahoo.co.jp/pickup/6598927?source=rss",
+     "pubDate": "Thu, 15 Oct 2026 13:50:30 GMT"
     },
     {
-     "title": "バスと車衝突し73歳死亡 孫が重体",
-     "link": "https://news.yahoo.co.jp/pickup/6598906?source=rss",
-     "pubDate": "Thu, 15 Oct 2026 09:58:07 GMT"
+     "title": "ヤンバルクイナの人工授精 初成功",
+     "link": "https://news.yahoo.co.jp/pickup/6598918?source=rss",
+     "pubDate": "Thu, 15 Oct 2026 12:02:28 GMT"
     },
     {
-     "title": "「あけろ」文京区の督促状が物議",
-     "link": "https://news.yahoo.co.jp/pickup/6598857?source=rss",
-     "pubDate": "Thu, 15 Oct 2026 03:49:54 GMT"
+     "title": "コミックシーモア 一時停止を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6598934?source=rss",
+     "pubDate": "Thu, 15 Oct 2026 14:53:05 GMT"
     },
     {
-     "title": "速報CSファイナル 阪神vs.DeNA",
-     "link": "https://news.yahoo.co.jp/pickup/6598895?source=rss",
-     "pubDate": "Thu, 15 Oct 2026 08:57:32 GMT"
+     "title": "元代表MF三浦淳宏氏 イベで重傷",
+     "link": "https://news.yahoo.co.jp/pickup/6598930?source=rss",
+     "pubDate": "Thu, 15 Oct 2026 14:00:00 GMT"
     },
     {
-     "title": "元AKB大盛さん 一般企業の広報に",
-     "link": "https://news.yahoo.co.jp/pickup/6598894?source=rss",
-     "pubDate": "Thu, 15 Oct 2026 08:57:29 GMT"
+     "title": "櫻井翔 難民報道ディレクター就任",
+     "link": "https://news.yahoo.co.jp/pickup/6598923?source=rss",
+     "pubDate": "Thu, 15 Oct 2026 12:51:20 GMT"
     }
    ]
   }
