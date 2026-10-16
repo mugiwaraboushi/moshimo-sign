@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-16T18:13:53.369Z",
+ "updatedAt": "2026-10-16T21:25:23.234Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "緊急地震速報の過大推定 「過去の対策が機能せず」気象庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60368",
-     "pubDate": "Fri, 16 Oct 2026 23:48:00 +0900"
-    },
-    {
-     "title": "NTTドコモ 緊急地震速報が利用者に配信されず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60749",
-     "pubDate": "Fri, 16 Oct 2026 21:00:54 +0900"
-    },
-    {
-     "title": "コミックシーモアが不正アクセス確認 会員情報が漏えい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60740",
-     "pubDate": "Fri, 16 Oct 2026 20:58:50 +0900"
-    },
-    {
-     "title": "ソースネクスト パスワード暗号化がない状態で流出 再設定を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60556",
-     "pubDate": "Fri, 16 Oct 2026 17:56:43 +0900"
-    },
-    {
-     "title": "日銀植田総裁 今後も利上げ進める 2％の物価安定がより重要",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60782",
-     "pubDate": "Sat, 17 Oct 2026 01:30:39 +0900"
-    },
-    {
-     "title": "ヤマト運輸 個人情報530万件余の外部流出を確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60395",
-     "pubDate": "Fri, 16 Oct 2026 15:02:54 +0900"
+     "title": "緊急地震速報の過大推定 過去の対策が機能せず 気象庁は調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60797",
+     "pubDate": "Sat, 17 Oct 2026 05:29:02 +0900"
     },
     {
      "title": "個人情報漏えい のべ1億6500万人分余に 利用者の対策は?",
      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60239",
      "pubDate": "Fri, 16 Oct 2026 21:29:50 +0900"
+    },
+    {
+     "title": "台風30号 非常に強い勢力に発達する見込み 今後の情報に注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60802",
+     "pubDate": "Sat, 17 Oct 2026 05:10:06 +0900"
+    },
+    {
+     "title": "消費税減税法案来週審議入り 与党 成立図る 野党 支援金明示を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60791",
+     "pubDate": "Sat, 17 Oct 2026 05:08:25 +0900"
+    },
+    {
+     "title": "消費減税 農家などに売り上げ5％程度の給付金検討",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60762",
+     "pubDate": "Sat, 17 Oct 2026 05:05:46 +0900"
+    },
+    {
+     "title": "福岡県議会「百条委」議案可決 金銭授受問題や海外視察調査へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60805",
+     "pubDate": "Sat, 17 Oct 2026 06:03:23 +0900"
+    },
+    {
+     "title": "“餃子の王将”社長殺害事件で無罪 捜査の進展も問われる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60800",
+     "pubDate": "Sat, 17 Oct 2026 06:00:03 +0900"
     }
    ]
   },
@@ -49,6 +49,36 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "避難民医療支援のミャンマー人医師が講演 人権尊重訴え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60781",
+     "pubDate": "Sat, 17 Oct 2026 06:05:19 +0900"
+    },
+    {
+     "title": "“餃子の王将”社長殺害事件で無罪 捜査の進展も問われる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60800",
+     "pubDate": "Sat, 17 Oct 2026 06:00:03 +0900"
+    },
+    {
+     "title": "大学病院の医師 半数以上が「将来 大学病院以外で勤務したい」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60765",
+     "pubDate": "Sat, 17 Oct 2026 05:56:07 +0900"
+    },
+    {
+     "title": "福岡県議会「百条委」議案可決 金銭授受問題や海外視察調査へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60805",
+     "pubDate": "Sat, 17 Oct 2026 06:03:23 +0900"
+    },
+    {
+     "title": "東京大学の総長選考「藤垣氏は選考会議の最多の支持」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60801",
+     "pubDate": "Sat, 17 Oct 2026 05:32:08 +0900"
+    },
+    {
+     "title": "緊急地震速報の過大推定 過去の対策が機能せず 気象庁は調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60797",
+     "pubDate": "Sat, 17 Oct 2026 05:29:02 +0900"
+    },
     {
      "title": "NTTドコモ 緊急地震速報が利用者に配信されず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60749",
@@ -93,36 +123,6 @@
      "title": "インフルエンザ患者数わずかに増加 厚労省が注意呼びかけ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60515",
      "pubDate": "Fri, 16 Oct 2026 17:25:10 +0900"
-    },
-    {
-     "title": "新聞協会賞 Nスペ「ヒグマ 異変の海に生きる」が表彰",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60448",
-     "pubDate": "Fri, 16 Oct 2026 16:05:00 +0900"
-    },
-    {
-     "title": "緊急地震速報取り消し 驚きや正確な情報求める声 北海道・東北",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60369",
-     "pubDate": "Fri, 16 Oct 2026 17:51:18 +0900"
-    },
-    {
-     "title": "猪苗代湖ボート3人死傷事故 無罪取り消し 有罪確定へ 最高裁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60234",
-     "pubDate": "Fri, 16 Oct 2026 18:55:00 +0900"
-    },
-    {
-     "title": "米のICC制裁受け 人権団体など“日本が米と協議を”訴え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60353",
-     "pubDate": "Fri, 16 Oct 2026 14:13:00 +0900"
-    },
-    {
-     "title": "トクリュウの通信内容を遠隔把握の新手法 改正法案閣議決定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60330",
-     "pubDate": "Fri, 16 Oct 2026 14:05:52 +0900"
-    },
-    {
-     "title": "女性に風俗店勤務させ売り上げ貢献要求した疑い 元ホスト逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60344",
-     "pubDate": "Fri, 16 Oct 2026 13:42:17 +0900"
     }
    ]
   },
@@ -214,6 +214,41 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ロシアが拘束した北海道新聞記者への領事面会は実現せず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60807",
+     "pubDate": "Sat, 17 Oct 2026 06:21:47 +0900"
+    },
+    {
+     "title": "プーチン大統領が戦果強調 トランプ氏引き寄せるねらいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60813",
+     "pubDate": "Sat, 17 Oct 2026 06:16:14 +0900"
+    },
+    {
+     "title": "トルコの沖合で“世界最古の沈没船”の痕跡見つかる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60798",
+     "pubDate": "Sat, 17 Oct 2026 06:10:19 +0900"
+    },
+    {
+     "title": "NY原油1バレル100ドルを再び突破 ホルムズ攻撃など懸念",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60803",
+     "pubDate": "Sat, 17 Oct 2026 06:07:45 +0900"
+    },
+    {
+     "title": "避難民医療支援のミャンマー人医師が講演 人権尊重訴え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60781",
+     "pubDate": "Sat, 17 Oct 2026 06:05:19 +0900"
+    },
+    {
+     "title": "テスラが“空飛ぶクルマ”を発表 マスク氏「AIではない」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60784",
+     "pubDate": "Sat, 17 Oct 2026 05:53:28 +0900"
+    },
+    {
+     "title": "戦闘続くウクライナで7年ぶりに日本語弁論大会開催",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60796",
+     "pubDate": "Sat, 17 Oct 2026 05:23:17 +0900"
+    },
+    {
      "title": "米アンソロピック共同創業者を直撃「AIがAIを開発する」とは？",
      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60399",
      "pubDate": "Fri, 16 Oct 2026 21:12:40 +0900"
@@ -252,41 +287,6 @@
      "title": "米空母「セオドア・ルーズベルト」横須賀に入港 中東に展開か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60340",
      "pubDate": "Fri, 16 Oct 2026 13:52:00 +0900"
-    },
-    {
-     "title": "国連安保理が議長声明 フーシ派を非難 サウジへの連帯を表明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60305",
-     "pubDate": "Fri, 16 Oct 2026 13:46:00 +0900"
-    },
-    {
-     "title": "カムチャツカ半島 M6.9の地震観測 USGS＝アメリカ地質調査所",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60373",
-     "pubDate": "Fri, 16 Oct 2026 13:09:49 +0900"
-    },
-    {
-     "title": "米国の8つの州がオープンAIを提訴 “子どもに危険な設計”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60299",
-     "pubDate": "Fri, 16 Oct 2026 12:28:00 +0900"
-    },
-    {
-     "title": "木原長官 記者拘束\"領事通報あり 健康状態確認働きかけ\"",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60303",
-     "pubDate": "Fri, 16 Oct 2026 12:00:00 +0900"
-    },
-    {
-     "title": "フランス抗議活動 無関係映像で“移民が暴動”偽情報拡散",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60286",
-     "pubDate": "Fri, 16 Oct 2026 11:47:58 +0900"
-    },
-    {
-     "title": "ルーマニア沖の黒海でタンカーに無人機攻撃 7人行方不明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60206",
-     "pubDate": "Fri, 16 Oct 2026 09:26:00 +0900"
-    },
-    {
-     "title": "G7「チョルノービリ原発修復へ460億円拠出」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60202",
-     "pubDate": "Fri, 16 Oct 2026 08:49:00 +0900"
     }
    ]
   },
