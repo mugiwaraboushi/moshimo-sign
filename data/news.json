@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-15T22:29:49.674Z",
+ "updatedAt": "2026-10-16T00:34:33.661Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -7,6 +7,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
+    {
+     "title": "アメリカ西部オレゴン州の小学校で銃撃 複数死傷",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60199",
+     "pubDate": "Fri, 16 Oct 2026 09:22:30 +0900"
+    },
     {
      "title": "台風30号 今後の情報に注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60169",
@@ -18,14 +23,14 @@
      "pubDate": "Fri, 16 Oct 2026 05:22:35 +0900"
     },
     {
-     "title": "「うるう秒」廃止決定 秒の新定義も検討へ 国際度量衡総会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60174",
-     "pubDate": "Fri, 16 Oct 2026 06:38:34 +0900"
-    },
-    {
      "title": "トランプ大統領“死刑執行のライブ配信は中止”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60166",
      "pubDate": "Fri, 16 Oct 2026 06:18:02 +0900"
+    },
+    {
+     "title": "【速報中】ドジャース×ブルワーズ 第4戦 大谷翔平1番・DH",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60061",
+     "pubDate": "Fri, 16 Oct 2026 09:28:29 +0900"
     },
     {
      "title": "ドイツ市場開拓へ デパートで日本産のコメを試験販売",
@@ -33,14 +38,9 @@
      "pubDate": "Fri, 16 Oct 2026 07:18:19 +0900"
     },
     {
-     "title": "“王将”社長射殺事件 暴力団幹部にきょう判決 京都地裁",
+     "title": "“餃子の王将”社長射殺事件 暴力団幹部にきょう判決 京都地裁",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60144",
-     "pubDate": "Fri, 16 Oct 2026 05:10:23 +0900"
-    },
-    {
-     "title": "EU、中国製ハイブリッド車などの輸入大幅制限へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60165",
-     "pubDate": "Fri, 16 Oct 2026 06:26:36 +0900"
+     "pubDate": "Fri, 16 Oct 2026 05:10:00 +0900"
     }
    ]
   },
@@ -65,9 +65,9 @@
      "pubDate": "Fri, 16 Oct 2026 06:04:19 +0900"
     },
     {
-     "title": "“王将”社長射殺事件 暴力団幹部にきょう判決 京都地裁",
+     "title": "“餃子の王将”社長射殺事件 暴力団幹部にきょう判決 京都地裁",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60144",
-     "pubDate": "Fri, 16 Oct 2026 05:10:23 +0900"
+     "pubDate": "Fri, 16 Oct 2026 05:10:00 +0900"
     },
     {
      "title": "福島 猪苗代湖 3人死傷のボート事故 きょう最高裁判決",
@@ -214,6 +214,26 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ルーマニア沖の黒海でタンカーに無人機攻撃 7人行方不明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60206",
+     "pubDate": "Fri, 16 Oct 2026 09:26:53 +0900"
+    },
+    {
+     "title": "G7「チョルノービリ原発修復へ460億円拠出」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60202",
+     "pubDate": "Fri, 16 Oct 2026 08:49:05 +0900"
+    },
+    {
+     "title": "ロシア国防省が自国損害を異例の発表 アメリカへのアピールか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60200",
+     "pubDate": "Fri, 16 Oct 2026 09:19:34 +0900"
+    },
+    {
+     "title": "アメリカ西部オレゴン州の小学校で銃撃 複数死傷",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60199",
+     "pubDate": "Fri, 16 Oct 2026 09:22:30 +0900"
+    },
+    {
      "title": "ナスダック指数上昇に転じるもAI企業の債務懸念くすぶる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60184",
      "pubDate": "Fri, 16 Oct 2026 07:25:08 +0900"
@@ -236,7 +256,7 @@
     {
      "title": "「うるう秒」廃止決定 秒の新定義も検討へ 国際度量衡総会",
      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60174",
-     "pubDate": "Fri, 16 Oct 2026 06:38:34 +0900"
+     "pubDate": "Fri, 16 Oct 2026 06:38:00 +0900"
     },
     {
      "title": "EU、中国製ハイブリッド車などの輸入大幅制限へ",
@@ -267,26 +287,6 @@
      "title": "片山財務相 日韓通貨スワップ延長で合意",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60139",
      "pubDate": "Fri, 16 Oct 2026 02:12:25 +0900"
-    },
-    {
-     "title": "台湾TSMC過去最高益「需要減速の兆候なし」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60118",
-     "pubDate": "Fri, 16 Oct 2026 00:54:12 +0900"
-    },
-    {
-     "title": "アメリカ小売売上高9月は＋0.8％底堅さ示す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60121",
-     "pubDate": "Fri, 16 Oct 2026 00:33:29 +0900"
-    },
-    {
-     "title": "パキスタンの学校の屋根崩落 子どもなど33人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60119",
-     "pubDate": "Fri, 16 Oct 2026 00:13:00 +0900"
-    },
-    {
-     "title": "中国と北朝鮮を結ぶ橋が開通 現地で式典 本体工事完了は12年前",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60111",
-     "pubDate": "Thu, 15 Oct 2026 22:58:22 +0900"
     }
    ]
   },
@@ -296,24 +296,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "うるう秒廃止 うるう時の導入決定",
-     "link": "https://news.yahoo.co.jp/pickup/6598933?source=rss",
-     "pubDate": "Thu, 15 Oct 2026 14:27:01 GMT"
+     "title": "防衛費 米要求の3.5%明示見送りへ",
+     "link": "https://news.yahoo.co.jp/pickup/6598944?source=rss",
+     "pubDate": "Thu, 15 Oct 2026 22:39:39 GMT"
     },
     {
-     "title": "タクシーやバス カスハラ客拒否へ",
-     "link": "https://news.yahoo.co.jp/pickup/6598926?source=rss",
-     "pubDate": "Thu, 15 Oct 2026 13:12:11 GMT"
+     "title": "小学校銃撃で子ら4人死亡 米報道",
+     "link": "https://news.yahoo.co.jp/pickup/6598946?source=rss",
+     "pubDate": "Thu, 15 Oct 2026 23:12:00 GMT"
     },
     {
-     "title": "トランプ氏 銃殺刑の配信計画中止",
-     "link": "https://news.yahoo.co.jp/pickup/6598936?source=rss",
-     "pubDate": "Thu, 15 Oct 2026 21:21:48 GMT"
+     "title": "2児殺害 母「状況覚えていない」",
+     "link": "https://news.yahoo.co.jp/pickup/6598951?source=rss",
+     "pubDate": "Thu, 15 Oct 2026 23:56:00 GMT"
     },
     {
-     "title": "動画を苦に自殺 YouTuberを提訴",
-     "link": "https://news.yahoo.co.jp/pickup/6598927?source=rss",
-     "pubDate": "Thu, 15 Oct 2026 13:50:30 GMT"
+     "title": "男性市議からセクハラ 申し立て",
+     "link": "https://news.yahoo.co.jp/pickup/6598948?source=rss",
+     "pubDate": "Thu, 15 Oct 2026 23:27:43 GMT"
     },
     {
      "title": "風俗店勤務要求疑い 元ホスト逮捕",
@@ -321,19 +321,19 @@
      "pubDate": "Thu, 15 Oct 2026 22:06:01 GMT"
     },
     {
-     "title": "コミックシーモア 一時停止を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6598934?source=rss",
-     "pubDate": "Thu, 15 Oct 2026 14:53:05 GMT"
+     "title": "ソニー 93万円のウォークマン発表",
+     "link": "https://news.yahoo.co.jp/pickup/6598952?source=rss",
+     "pubDate": "Fri, 16 Oct 2026 00:05:49 GMT"
     },
     {
-     "title": "大谷を1番起用 本人に監督伝えず",
-     "link": "https://news.yahoo.co.jp/pickup/6598941?source=rss",
-     "pubDate": "Thu, 15 Oct 2026 22:24:27 GMT"
+     "title": "速報 ドジャースvs.ブリュワーズ",
+     "link": "https://news.yahoo.co.jp/pickup/6598949?source=rss",
+     "pubDate": "Thu, 15 Oct 2026 23:57:39 GMT"
     },
     {
-     "title": "阪神監督 負傷交代の森下に言及",
-     "link": "https://news.yahoo.co.jp/pickup/6598938?source=rss",
-     "pubDate": "Thu, 15 Oct 2026 21:44:16 GMT"
+     "title": "中学新記録 バトンパス練習は3回",
+     "link": "https://news.yahoo.co.jp/pickup/6598947?source=rss",
+     "pubDate": "Thu, 15 Oct 2026 23:25:25 GMT"
     }
    ]
   }
