@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-16T14:26:59.113Z",
+ "updatedAt": "2026-10-16T18:13:53.369Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "緊急地震速報の過大推定 過去の対策が機能せず 気象庁",
+     "title": "緊急地震速報の過大推定 「過去の対策が機能せず」気象庁",
      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60368",
-     "pubDate": "Fri, 16 Oct 2026 23:20:00 +0900"
+     "pubDate": "Fri, 16 Oct 2026 23:48:00 +0900"
     },
     {
      "title": "NTTドコモ 緊急地震速報が利用者に配信されず",
@@ -28,9 +28,9 @@
      "pubDate": "Fri, 16 Oct 2026 17:56:43 +0900"
     },
     {
-     "title": "“餃子の王将”社長殺害事件 暴力団幹部に無罪判決 京都地裁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de60144",
-     "pubDate": "Fri, 16 Oct 2026 20:25:38 +0900"
+     "title": "日銀植田総裁 今後も利上げ進める 2％の物価安定がより重要",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60782",
+     "pubDate": "Sat, 17 Oct 2026 01:30:39 +0900"
     },
     {
      "title": "ヤマト運輸 個人情報530万件余の外部流出を確認",
@@ -301,19 +301,19 @@
      "pubDate": "Fri, 16 Oct 2026 11:50:10 GMT"
     },
     {
-     "title": "生活文化分野で人間国宝 初認定へ",
-     "link": "https://news.yahoo.co.jp/pickup/6599014?source=rss",
-     "pubDate": "Fri, 16 Oct 2026 09:27:31 GMT"
-    },
-    {
      "title": "緊急地震速報取り消し 2つの要因",
      "link": "https://news.yahoo.co.jp/pickup/6599044?source=rss",
      "pubDate": "Fri, 16 Oct 2026 13:54:50 GMT"
     },
     {
-     "title": "ニデック 永守氏らへの訴訟を検討",
-     "link": "https://news.yahoo.co.jp/pickup/6599040?source=rss",
-     "pubDate": "Fri, 16 Oct 2026 13:20:06 GMT"
+     "title": "猪苗代湖事故 判決受け両親が心境",
+     "link": "https://news.yahoo.co.jp/pickup/6599047?source=rss",
+     "pubDate": "Fri, 16 Oct 2026 14:34:32 GMT"
+    },
+    {
+     "title": "流出個人情報を売買 闇サイト実態",
+     "link": "https://news.yahoo.co.jp/pickup/6599033?source=rss",
+     "pubDate": "Fri, 16 Oct 2026 12:53:16 GMT"
     },
     {
      "title": "ショップサーブの流出 2335万人分",
@@ -321,9 +321,9 @@
      "pubDate": "Fri, 16 Oct 2026 13:04:45 GMT"
     },
     {
-     "title": "ゴルフ鶴岡果恋 第1子妊娠を報告",
-     "link": "https://news.yahoo.co.jp/pickup/6599041?source=rss",
-     "pubDate": "Fri, 16 Oct 2026 13:48:09 GMT"
+     "title": "テスラ新型車 空を飛び宙返り実演",
+     "link": "https://news.yahoo.co.jp/pickup/6599049?source=rss",
+     "pubDate": "Fri, 16 Oct 2026 15:17:22 GMT"
     },
     {
      "title": "阪神悪夢 死球の前川右京は骨折",
