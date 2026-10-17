@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-17T01:44:55.661Z",
+ "updatedAt": "2026-10-17T06:17:46.209Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "緊急地震速報の過大推定 過去の対策が機能せず 気象庁は調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60797",
-     "pubDate": "Sat, 17 Oct 2026 05:29:00 +0900"
+     "title": "スカイチケット運営会社 クレカ情報も最大6000人余流出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60862",
+     "pubDate": "Sat, 17 Oct 2026 11:58:00 +0900"
     },
     {
-     "title": "台風30号 非常に強い勢力に発達する見込み 今後の情報に注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60802",
-     "pubDate": "Sat, 17 Oct 2026 10:34:01 +0900"
-    },
-    {
-     "title": "高市首相 靖国神社の秋の例大祭にあわせ「真榊」奉納",
+     "title": "靖国神社秋の例大祭 高市首相が「真榊」 城内成長戦略相は参拝",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60815",
-     "pubDate": "Sat, 17 Oct 2026 08:49:00 +0900"
+     "pubDate": "Sat, 17 Oct 2026 12:24:17 +0900"
+    },
+    {
+     "title": "高市首相 自衛隊殉職隊員を追悼“犠牲無にせず遺志受け継ぐ”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60875",
+     "pubDate": "Sat, 17 Oct 2026 12:54:37 +0900"
     },
     {
      "title": "ホワイトハウス新報道官 就任からわずか5日で辞任と報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60818",
-     "pubDate": "Sat, 17 Oct 2026 07:47:09 +0900"
+     "pubDate": "Sat, 17 Oct 2026 07:47:00 +0900"
     },
     {
-     "title": "埼玉県議会「ばか」発言 双方が陳謝する事態に 翌朝閉会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60837",
-     "pubDate": "Sat, 17 Oct 2026 10:31:49 +0900"
+     "title": "台風30号 非常に強い勢力に発達する見込み 今後の情報に注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60802",
+     "pubDate": "Sat, 17 Oct 2026 10:34:00 +0900"
     },
     {
-     "title": "ロシアが拘束した北海道新聞記者への領事面会は実現せず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60807",
-     "pubDate": "Sat, 17 Oct 2026 06:21:00 +0900"
+     "title": "AIリスク議論 サイバー攻撃 システムぜい弱性検出後数秒で悪用",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60854",
+     "pubDate": "Sat, 17 Oct 2026 11:22:15 +0900"
     },
     {
-     "title": "東京大学の総長選考「藤垣氏は選考会議の最多の支持」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60801",
-     "pubDate": "Sat, 17 Oct 2026 05:32:00 +0900"
+     "title": "福岡県議会「百条委」議案可決 金銭授受問題や海外視察調査へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60805",
+     "pubDate": "Sat, 17 Oct 2026 07:04:00 +0900"
     }
    ]
   },
@@ -50,6 +50,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "親頼れない若者 お金払えず治療できないケースも 支援団体調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60838",
+     "pubDate": "Sat, 17 Oct 2026 12:43:13 +0900"
+    },
+    {
      "title": "東急新横浜線 運転再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60824",
      "pubDate": "Sat, 17 Oct 2026 08:25:55 +0900"
@@ -57,12 +62,12 @@
     {
      "title": "ニデック 永守重信氏ら歴代経営トップに損害賠償請求を検討へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60817",
-     "pubDate": "Sat, 17 Oct 2026 07:22:08 +0900"
+     "pubDate": "Sat, 17 Oct 2026 07:22:00 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（10月17日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60703",
-     "pubDate": "Sat, 17 Oct 2026 06:44:30 +0900"
+     "pubDate": "Sat, 17 Oct 2026 13:59:55 +0900"
     },
     {
      "title": "避難民医療支援のミャンマー人医師が講演 人権尊重訴え",
@@ -77,7 +82,7 @@
     {
      "title": "大学病院の医師 半数以上が「将来 大学病院以外で勤務したい」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60765",
-     "pubDate": "Sat, 17 Oct 2026 05:56:07 +0900"
+     "pubDate": "Sat, 17 Oct 2026 05:56:00 +0900"
     },
     {
      "title": "福岡県議会「百条委」議案可決 金銭授受問題や海外視察調査へ",
@@ -118,11 +123,6 @@
      "title": "「検察なめんな」は“軽々しく扱わないでという意図”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60707",
      "pubDate": "Fri, 16 Oct 2026 19:57:04 +0900"
-    },
-    {
-     "title": "福島第一原発事故 浪江町津島地区訴訟 2審は国の責任認めず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60650",
-     "pubDate": "Fri, 16 Oct 2026 18:40:27 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "AIリスク議論 サイバー攻撃 システムぜい弱性検出後数秒で悪用",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60854",
+     "pubDate": "Sat, 17 Oct 2026 11:22:15 +0900"
+    },
+    {
      "title": "国連事務総長選び 6回目の投票も常任理事国の反対で難航",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60833",
      "pubDate": "Sat, 17 Oct 2026 10:15:04 +0900"
@@ -226,7 +231,7 @@
     {
      "title": "ホワイトハウス新報道官 就任からわずか5日で辞任と報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60818",
-     "pubDate": "Sat, 17 Oct 2026 07:47:09 +0900"
+     "pubDate": "Sat, 17 Oct 2026 07:47:00 +0900"
     },
     {
      "title": "ナスダック株価指数2％超下落 AI関連企業の債務などに懸念",
@@ -246,7 +251,7 @@
     {
      "title": "ウクライナ映画祭 都内で開会式 戦時の社会や暮らしなど描く",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60812",
-     "pubDate": "Sat, 17 Oct 2026 06:35:16 +0900"
+     "pubDate": "Sat, 17 Oct 2026 06:35:00 +0900"
     },
     {
      "title": "ロシアが拘束した北海道新聞記者への領事面会は実現せず",
@@ -281,12 +286,7 @@
     {
      "title": "戦闘続くウクライナで7年ぶりに日本語弁論大会開催",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60796",
-     "pubDate": "Sat, 17 Oct 2026 05:23:17 +0900"
-    },
-    {
-     "title": "米アンソロピック共同創業者を直撃「AIがAIを開発する」とは？",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60399",
-     "pubDate": "Fri, 16 Oct 2026 21:12:40 +0900"
+     "pubDate": "Sat, 17 Oct 2026 05:23:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "高市首相 靖国神社に真榊を奉納",
-     "link": "https://news.yahoo.co.jp/pickup/6599075?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 00:44:46 GMT"
+     "title": "「高市離れ」男性も加速 時事調査",
+     "link": "https://news.yahoo.co.jp/pickup/6599110?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 05:53:03 GMT"
     },
     {
-     "title": "地震速報 データの使用時に誤動作",
-     "link": "https://news.yahoo.co.jp/pickup/6599068?source=rss",
-     "pubDate": "Fri, 16 Oct 2026 23:58:11 GMT"
+     "title": "ローマ教皇 プーチン氏に停戦要請",
+     "link": "https://news.yahoo.co.jp/pickup/6599108?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 05:46:19 GMT"
     },
     {
-     "title": "米大統領報道官 わずか5日で解任",
-     "link": "https://news.yahoo.co.jp/pickup/6599054?source=rss",
-     "pubDate": "Fri, 16 Oct 2026 22:35:11 GMT"
+     "title": "車にトラック追突 1人死亡1人重体",
+     "link": "https://news.yahoo.co.jp/pickup/6599092?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 03:27:05 GMT"
     },
     {
-     "title": "タイムズカー 免許画像すぐ削除へ",
-     "link": "https://news.yahoo.co.jp/pickup/6599073?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 00:53:22 GMT"
+     "title": "住宅ローン金利上昇 今できること",
+     "link": "https://news.yahoo.co.jp/pickup/6599104?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 04:52:59 GMT"
     },
     {
-     "title": "県議「ばか」発言巡り朝まで審議",
-     "link": "https://news.yahoo.co.jp/pickup/6599067?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 00:03:08 GMT"
+     "title": "「隠れ教育費」にモヤモヤ 親の声",
+     "link": "https://news.yahoo.co.jp/pickup/6599101?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 04:18:51 GMT"
     },
     {
-     "title": "伐採中ショベルカーにひかれ死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6599074?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 00:46:07 GMT"
+     "title": "子ども食堂巡る投稿賛否 店主真意",
+     "link": "https://news.yahoo.co.jp/pickup/6599107?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 05:28:45 GMT"
     },
     {
-     "title": "サイゼ値上げ「安さの王者」異変",
-     "link": "https://news.yahoo.co.jp/pickup/6599078?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 01:01:46 GMT"
+     "title": "台湾に進出 沖縄そば1杯2000円",
+     "link": "https://news.yahoo.co.jp/pickup/6599100?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 04:22:46 GMT"
     },
     {
-     "title": "レアル ラ・リーガ会長に辞任要求",
-     "link": "https://news.yahoo.co.jp/pickup/6599076?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 00:59:36 GMT"
+     "title": "速報CSファイナル 阪神vs.DeNA",
+     "link": "https://news.yahoo.co.jp/pickup/6599103?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 04:54:47 GMT"
     }
    ]
   }
