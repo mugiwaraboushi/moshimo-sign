@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-17T06:17:46.209Z",
+ "updatedAt": "2026-10-17T10:59:06.266Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "スカイチケット運営会社 クレカ情報も最大6000人余流出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60862",
-     "pubDate": "Sat, 17 Oct 2026 11:58:00 +0900"
+     "title": "茨城 ひたちなか 高齢の男女2人海で溺れる 搬送時意識なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60962",
+     "pubDate": "Sat, 17 Oct 2026 18:59:00 +0900"
     },
     {
-     "title": "靖国神社秋の例大祭 高市首相が「真榊」 城内成長戦略相は参拝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60815",
-     "pubDate": "Sat, 17 Oct 2026 12:24:17 +0900"
-    },
-    {
-     "title": "高市首相 自衛隊殉職隊員を追悼“犠牲無にせず遺志受け継ぐ”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60875",
-     "pubDate": "Sat, 17 Oct 2026 12:54:37 +0900"
-    },
-    {
-     "title": "ホワイトハウス新報道官 就任からわずか5日で辞任と報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60818",
-     "pubDate": "Sat, 17 Oct 2026 07:47:00 +0900"
-    },
-    {
-     "title": "台風30号 非常に強い勢力に発達する見込み 今後の情報に注意",
+     "title": "非常に強い台風30号 急速に発達 来週後半に沖縄南海上の予想",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60802",
-     "pubDate": "Sat, 17 Oct 2026 10:34:00 +0900"
+     "pubDate": "Sat, 17 Oct 2026 19:05:41 +0900"
     },
     {
-     "title": "AIリスク議論 サイバー攻撃 システムぜい弱性検出後数秒で悪用",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60854",
-     "pubDate": "Sat, 17 Oct 2026 11:22:15 +0900"
+     "title": "奨学金受給の高校生 約2割が進学断念や変更を検討 物価高影響",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60940",
+     "pubDate": "Sat, 17 Oct 2026 18:23:00 +0900"
     },
     {
-     "title": "福岡県議会「百条委」議案可決 金銭授受問題や海外視察調査へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60805",
-     "pubDate": "Sat, 17 Oct 2026 07:04:00 +0900"
+     "title": "DeNAが2年ぶり日本シリーズ進出 CSファイナル 阪神に4連勝",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60916",
+     "pubDate": "Sat, 17 Oct 2026 19:25:09 +0900"
+    },
+    {
+     "title": "靖国神社秋の例大祭 高市首相が「真榊」 城内成長戦略相ら参拝",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60815",
+     "pubDate": "Sat, 17 Oct 2026 18:18:48 +0900"
+    },
+    {
+     "title": "愛子さま 鳥取で防災推進国民大会に出席",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60971",
+     "pubDate": "Sat, 17 Oct 2026 19:12:00 +0900"
+    },
+    {
+     "title": "自民 小林政調会長 消費税減税法案成立へ多くの野党に働きかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60929",
+     "pubDate": "Sat, 17 Oct 2026 17:30:00 +0900"
     }
    ]
   },
@@ -50,9 +50,54 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "沖縄 辺野古事故の遺族 古謝知事に修学旅行の安全確保求める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de61000",
+     "pubDate": "Sat, 17 Oct 2026 19:43:36 +0900"
+    },
+    {
+     "title": "消防から地震が起きた際の対応学ぶイベント 東京 新宿",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60957",
+     "pubDate": "Sat, 17 Oct 2026 18:24:18 +0900"
+    },
+    {
+     "title": "奨学金受給の高校生 約2割が進学断念や変更を検討 物価高影響",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60940",
+     "pubDate": "Sat, 17 Oct 2026 18:23:00 +0900"
+    },
+    {
+     "title": "愛子さま 鳥取で防災推進国民大会に出席",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60971",
+     "pubDate": "Sat, 17 Oct 2026 19:12:00 +0900"
+    },
+    {
+     "title": "茨城 ひたちなか 高齢の男女2人海で溺れる 搬送時意識なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60962",
+     "pubDate": "Sat, 17 Oct 2026 18:59:00 +0900"
+    },
+    {
+     "title": "トランプ大統領 新たな対ロシア制裁の大半を除外の大統領令",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60905",
+     "pubDate": "Sat, 17 Oct 2026 16:24:00 +0900"
+    },
+    {
+     "title": "ローマ教皇がプーチン大統領と電話会談 停戦を要請",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60909",
+     "pubDate": "Sat, 17 Oct 2026 15:58:41 +0900"
+    },
+    {
+     "title": "福岡 久山町 廃棄車両集積場所の火事鎮圧 けが人の情報なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60886",
+     "pubDate": "Sat, 17 Oct 2026 18:22:00 +0900"
+    },
+    {
+     "title": "トランプ大統領が中間選挙前に連日各地で演説",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60900",
+     "pubDate": "Sat, 17 Oct 2026 15:39:37 +0900"
+    },
+    {
      "title": "親頼れない若者 お金払えず治療できないケースも 支援団体調査",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60838",
-     "pubDate": "Sat, 17 Oct 2026 12:43:13 +0900"
+     "pubDate": "Sat, 17 Oct 2026 12:43:00 +0900"
     },
     {
      "title": "東急新横浜線 運転再開",
@@ -67,7 +112,7 @@
     {
      "title": "【動画】Pickup NEWS（10月17日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60703",
-     "pubDate": "Sat, 17 Oct 2026 13:59:55 +0900"
+     "pubDate": "Sat, 17 Oct 2026 19:58:17 +0900"
     },
     {
      "title": "避難民医療支援のミャンマー人医師が講演 人権尊重訴え",
@@ -78,51 +123,6 @@
      "title": "“餃子の王将”社長殺害事件で無罪 捜査の進展も問われる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60800",
      "pubDate": "Sat, 17 Oct 2026 06:00:00 +0900"
-    },
-    {
-     "title": "大学病院の医師 半数以上が「将来 大学病院以外で勤務したい」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60765",
-     "pubDate": "Sat, 17 Oct 2026 05:56:00 +0900"
-    },
-    {
-     "title": "福岡県議会「百条委」議案可決 金銭授受問題や海外視察調査へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60805",
-     "pubDate": "Sat, 17 Oct 2026 07:04:00 +0900"
-    },
-    {
-     "title": "東京大学の総長選考「藤垣氏は選考会議の最多の支持」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60801",
-     "pubDate": "Sat, 17 Oct 2026 05:32:00 +0900"
-    },
-    {
-     "title": "緊急地震速報の過大推定 過去の対策が機能せず 気象庁は調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60797",
-     "pubDate": "Sat, 17 Oct 2026 05:29:00 +0900"
-    },
-    {
-     "title": "NTTドコモ 緊急地震速報が利用者に配信されず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60749",
-     "pubDate": "Fri, 16 Oct 2026 21:00:54 +0900"
-    },
-    {
-     "title": "コミックシーモアが不正アクセス確認 会員情報が漏えい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60740",
-     "pubDate": "Fri, 16 Oct 2026 20:58:50 +0900"
-    },
-    {
-     "title": "ECサイトシステム運営会社の情報漏えい 2335万件を確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60742",
-     "pubDate": "Fri, 16 Oct 2026 20:43:00 +0900"
-    },
-    {
-     "title": "中学部活動 外部指導員導入後も 教員も一緒に指導 会計検査院",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60688",
-     "pubDate": "Fri, 16 Oct 2026 20:13:45 +0900"
-    },
-    {
-     "title": "「検察なめんな」は“軽々しく扱わないでという意図”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60707",
-     "pubDate": "Fri, 16 Oct 2026 19:57:04 +0900"
     }
    ]
   },
@@ -214,9 +214,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "トランプ大統領 新たな対ロシア制裁の大半を除外の大統領令",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60905",
+     "pubDate": "Sat, 17 Oct 2026 16:24:00 +0900"
+    },
+    {
+     "title": "北朝鮮メディア AI搭載の新型魚雷の発射実験を実施と報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60903",
+     "pubDate": "Sat, 17 Oct 2026 16:21:00 +0900"
+    },
+    {
+     "title": "ローマ教皇がプーチン大統領と電話会談 停戦を要請",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60909",
+     "pubDate": "Sat, 17 Oct 2026 15:58:41 +0900"
+    },
+    {
+     "title": "トランプ大統領が中間選挙前に連日各地で演説",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60900",
+     "pubDate": "Sat, 17 Oct 2026 15:39:37 +0900"
+    },
+    {
      "title": "AIリスク議論 サイバー攻撃 システムぜい弱性検出後数秒で悪用",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60854",
-     "pubDate": "Sat, 17 Oct 2026 11:22:15 +0900"
+     "pubDate": "Sat, 17 Oct 2026 11:22:00 +0900"
     },
     {
      "title": "国連事務総長選び 6回目の投票も常任理事国の反対で難航",
@@ -267,26 +287,6 @@
      "title": "トルコの沖合で“世界最古の沈没船”の痕跡見つかる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60798",
      "pubDate": "Sat, 17 Oct 2026 06:10:19 +0900"
-    },
-    {
-     "title": "NY原油1バレル100ドルを再び突破 ホルムズ攻撃など懸念",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60803",
-     "pubDate": "Sat, 17 Oct 2026 06:07:45 +0900"
-    },
-    {
-     "title": "避難民医療支援のミャンマー人医師が講演 人権尊重訴え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60781",
-     "pubDate": "Sat, 17 Oct 2026 06:05:19 +0900"
-    },
-    {
-     "title": "テスラが“空飛ぶクルマ”を発表 マスク氏「AIではない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60784",
-     "pubDate": "Sat, 17 Oct 2026 05:53:28 +0900"
-    },
-    {
-     "title": "戦闘続くウクライナで7年ぶりに日本語弁論大会開催",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60796",
-     "pubDate": "Sat, 17 Oct 2026 05:23:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "「高市離れ」男性も加速 時事調査",
-     "link": "https://news.yahoo.co.jp/pickup/6599110?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 05:53:03 GMT"
+     "title": "新給付制度巡り平均3万円案 政府",
+     "link": "https://news.yahoo.co.jp/pickup/6599130?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 08:10:40 GMT"
     },
     {
-     "title": "ローマ教皇 プーチン氏に停戦要請",
-     "link": "https://news.yahoo.co.jp/pickup/6599108?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 05:46:19 GMT"
+     "title": "誤報の地震速報 ぞっとした被災者",
+     "link": "https://news.yahoo.co.jp/pickup/6599128?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 08:07:34 GMT"
     },
     {
-     "title": "車にトラック追突 1人死亡1人重体",
-     "link": "https://news.yahoo.co.jp/pickup/6599092?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 03:27:05 GMT"
+     "title": "ソニー生命 50人を営業活動停止に",
+     "link": "https://news.yahoo.co.jp/pickup/6599146?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 09:42:34 GMT"
     },
     {
-     "title": "住宅ローン金利上昇 今できること",
-     "link": "https://news.yahoo.co.jp/pickup/6599104?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 04:52:59 GMT"
+     "title": "中国車 ノルウェー軍情報を記録",
+     "link": "https://news.yahoo.co.jp/pickup/6599145?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 10:01:54 GMT"
     },
     {
-     "title": "「隠れ教育費」にモヤモヤ 親の声",
-     "link": "https://news.yahoo.co.jp/pickup/6599101?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 04:18:51 GMT"
+     "title": "冷凍食品 高級化に異業種の参入",
+     "link": "https://news.yahoo.co.jp/pickup/6599149?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 10:08:50 GMT"
     },
     {
-     "title": "子ども食堂巡る投稿賛否 店主真意",
-     "link": "https://news.yahoo.co.jp/pickup/6599107?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 05:28:45 GMT"
+     "title": "ONEで波乱 注目カード相次ぎ消滅",
+     "link": "https://news.yahoo.co.jp/pickup/6599116?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 06:28:47 GMT"
     },
     {
-     "title": "台湾に進出 沖縄そば1杯2000円",
-     "link": "https://news.yahoo.co.jp/pickup/6599100?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 04:22:46 GMT"
+     "title": "阪神終戦 あと1球コールから悲劇",
+     "link": "https://news.yahoo.co.jp/pickup/6599141?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 09:32:31 GMT"
     },
     {
-     "title": "速報CSファイナル 阪神vs.DeNA",
-     "link": "https://news.yahoo.co.jp/pickup/6599103?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 04:54:47 GMT"
+     "title": "キングオブコント決勝 SNSの反応",
+     "link": "https://news.yahoo.co.jp/pickup/6599137?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 09:00:42 GMT"
     }
    ]
   }
