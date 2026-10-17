@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-16T23:43:02.762Z",
+ "updatedAt": "2026-10-17T01:44:55.661Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,37 +10,37 @@
     {
      "title": "緊急地震速報の過大推定 過去の対策が機能せず 気象庁は調査",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60797",
-     "pubDate": "Sat, 17 Oct 2026 05:29:02 +0900"
-    },
-    {
-     "title": "個人情報漏えい のべ1億6500万人分余に 利用者の対策は?",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60239",
-     "pubDate": "Fri, 16 Oct 2026 21:29:50 +0900"
+     "pubDate": "Sat, 17 Oct 2026 05:29:00 +0900"
     },
     {
      "title": "台風30号 非常に強い勢力に発達する見込み 今後の情報に注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60802",
-     "pubDate": "Sat, 17 Oct 2026 07:13:52 +0900"
-    },
-    {
-     "title": "ロシアが拘束した北海道新聞記者への領事面会は実現せず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60807",
-     "pubDate": "Sat, 17 Oct 2026 06:21:47 +0900"
+     "pubDate": "Sat, 17 Oct 2026 10:34:01 +0900"
     },
     {
      "title": "高市首相 靖国神社の秋の例大祭にあわせ「真榊」奉納",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60815",
-     "pubDate": "Sat, 17 Oct 2026 06:46:12 +0900"
+     "pubDate": "Sat, 17 Oct 2026 08:49:00 +0900"
+    },
+    {
+     "title": "ホワイトハウス新報道官 就任からわずか5日で辞任と報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60818",
+     "pubDate": "Sat, 17 Oct 2026 07:47:09 +0900"
+    },
+    {
+     "title": "埼玉県議会「ばか」発言 双方が陳謝する事態に 翌朝閉会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60837",
+     "pubDate": "Sat, 17 Oct 2026 10:31:49 +0900"
+    },
+    {
+     "title": "ロシアが拘束した北海道新聞記者への領事面会は実現せず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60807",
+     "pubDate": "Sat, 17 Oct 2026 06:21:00 +0900"
     },
     {
      "title": "東京大学の総長選考「藤垣氏は選考会議の最多の支持」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60801",
-     "pubDate": "Sat, 17 Oct 2026 05:32:08 +0900"
-    },
-    {
-     "title": "“餃子の王将”社長殺害事件で無罪 捜査の進展も問われる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60800",
-     "pubDate": "Sat, 17 Oct 2026 06:00:03 +0900"
+     "pubDate": "Sat, 17 Oct 2026 05:32:00 +0900"
     }
    ]
   },
@@ -72,7 +72,7 @@
     {
      "title": "“餃子の王将”社長殺害事件で無罪 捜査の進展も問われる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60800",
-     "pubDate": "Sat, 17 Oct 2026 06:00:03 +0900"
+     "pubDate": "Sat, 17 Oct 2026 06:00:00 +0900"
     },
     {
      "title": "大学病院の医師 半数以上が「将来 大学病院以外で勤務したい」",
@@ -82,17 +82,17 @@
     {
      "title": "福岡県議会「百条委」議案可決 金銭授受問題や海外視察調査へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60805",
-     "pubDate": "Sat, 17 Oct 2026 07:04:10 +0900"
+     "pubDate": "Sat, 17 Oct 2026 07:04:00 +0900"
     },
     {
      "title": "東京大学の総長選考「藤垣氏は選考会議の最多の支持」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60801",
-     "pubDate": "Sat, 17 Oct 2026 05:32:08 +0900"
+     "pubDate": "Sat, 17 Oct 2026 05:32:00 +0900"
     },
     {
      "title": "緊急地震速報の過大推定 過去の対策が機能せず 気象庁は調査",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60797",
-     "pubDate": "Sat, 17 Oct 2026 05:29:02 +0900"
+     "pubDate": "Sat, 17 Oct 2026 05:29:00 +0900"
     },
     {
      "title": "NTTドコモ 緊急地震速報が利用者に配信されず",
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "国連事務総長選び 6回目の投票も常任理事国の反対で難航",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60833",
+     "pubDate": "Sat, 17 Oct 2026 10:15:04 +0900"
+    },
+    {
      "title": "アメリカの財政赤字314兆円 過去3番目 利払い費増加などで",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60820",
      "pubDate": "Sat, 17 Oct 2026 08:41:09 +0900"
@@ -246,7 +251,7 @@
     {
      "title": "ロシアが拘束した北海道新聞記者への領事面会は実現せず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60807",
-     "pubDate": "Sat, 17 Oct 2026 06:21:47 +0900"
+     "pubDate": "Sat, 17 Oct 2026 06:21:00 +0900"
     },
     {
      "title": "プーチン大統領が戦果強調 トランプ氏引き寄せるねらいか",
@@ -282,11 +287,6 @@
      "title": "米アンソロピック共同創業者を直撃「AIがAIを開発する」とは？",
      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60399",
      "pubDate": "Fri, 16 Oct 2026 21:12:40 +0900"
-    },
-    {
-     "title": "ロシアで収容された経験 米有力紙記者が振り返る 現地の状況",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60397",
-     "pubDate": "Fri, 16 Oct 2026 19:40:50 +0900"
     }
    ]
   },
@@ -296,14 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "福岡県 AM4時に百条委設置案可決",
-     "link": "https://news.yahoo.co.jp/pickup/6599057?source=rss",
-     "pubDate": "Fri, 16 Oct 2026 22:46:30 GMT"
+     "title": "高市首相 靖国神社に真榊を奉納",
+     "link": "https://news.yahoo.co.jp/pickup/6599075?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 00:44:46 GMT"
     },
     {
-     "title": "露拘束の記者と領事面会できず",
-     "link": "https://news.yahoo.co.jp/pickup/6599059?source=rss",
-     "pubDate": "Fri, 16 Oct 2026 23:01:18 GMT"
+     "title": "地震速報 データの使用時に誤動作",
+     "link": "https://news.yahoo.co.jp/pickup/6599068?source=rss",
+     "pubDate": "Fri, 16 Oct 2026 23:58:11 GMT"
     },
     {
      "title": "米大統領報道官 わずか5日で解任",
@@ -311,29 +311,29 @@
      "pubDate": "Fri, 16 Oct 2026 22:35:11 GMT"
     },
     {
-     "title": "荷物用エレベーターに挟まれ死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6599053?source=rss",
-     "pubDate": "Fri, 16 Oct 2026 22:20:23 GMT"
+     "title": "タイムズカー 免許画像すぐ削除へ",
+     "link": "https://news.yahoo.co.jp/pickup/6599073?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 00:53:22 GMT"
     },
     {
-     "title": "「警察車両が幅寄せ」拡散 調査へ",
-     "link": "https://news.yahoo.co.jp/pickup/6599055?source=rss",
-     "pubDate": "Fri, 16 Oct 2026 22:43:59 GMT"
+     "title": "県議「ばか」発言巡り朝まで審議",
+     "link": "https://news.yahoo.co.jp/pickup/6599067?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 00:03:08 GMT"
     },
     {
-     "title": "20代なのに「足の握力」80代 なぜ",
-     "link": "https://news.yahoo.co.jp/pickup/6599064?source=rss",
-     "pubDate": "Fri, 16 Oct 2026 23:29:15 GMT"
+     "title": "伐採中ショベルカーにひかれ死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6599074?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 00:46:07 GMT"
     },
     {
-     "title": "日本ハムに朗報 レイエス残留へ",
-     "link": "https://news.yahoo.co.jp/pickup/6599060?source=rss",
-     "pubDate": "Fri, 16 Oct 2026 22:57:05 GMT"
+     "title": "サイゼ値上げ「安さの王者」異変",
+     "link": "https://news.yahoo.co.jp/pickup/6599078?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 01:01:46 GMT"
     },
     {
-     "title": "ビリー・ジョエル 脳疾患治療の今",
-     "link": "https://news.yahoo.co.jp/pickup/6599063?source=rss",
-     "pubDate": "Fri, 16 Oct 2026 23:19:32 GMT"
+     "title": "レアル ラ・リーガ会長に辞任要求",
+     "link": "https://news.yahoo.co.jp/pickup/6599076?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 00:59:36 GMT"
     }
    ]
   }
