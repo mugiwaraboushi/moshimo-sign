@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-17T14:03:23.426Z",
+ "updatedAt": "2026-10-17T17:21:17.239Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,19 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "愛媛 西条まつり 太鼓台の下敷きで担ぎ手の西条市副市長が死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61058",
+     "pubDate": "Sun, 18 Oct 2026 02:01:28 +0900"
+    },
+    {
      "title": "墜落した空自「グローバルホーク」機体の一部海底から引き揚げ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61020",
-     "pubDate": "Sat, 17 Oct 2026 22:00:56 +0900"
-    },
-    {
-     "title": "DeNAが2年ぶり日本シリーズ進出 CSファイナル 阪神に4連勝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60916",
-     "pubDate": "Sat, 17 Oct 2026 22:42:04 +0900"
-    },
-    {
-     "title": "阪神 佐藤輝明 大リーグ挑戦について“何も言えない”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de61014",
-     "pubDate": "Sat, 17 Oct 2026 22:26:11 +0900"
+     "pubDate": "Sat, 17 Oct 2026 22:00:00 +0900"
     },
     {
      "title": "非常に強い台風30号 急速に発達 来週後半に沖縄南海上の予想",
@@ -28,19 +23,24 @@
      "pubDate": "Sat, 17 Oct 2026 19:05:41 +0900"
     },
     {
-     "title": "茨城 ひたちなか 高齢の男女2人海で溺れる 搬送時意識なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60962",
-     "pubDate": "Sat, 17 Oct 2026 21:04:12 +0900"
-    },
-    {
      "title": "靖国神社秋の例大祭 高市首相が「真榊」 城内成長戦略相ら参拝",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60815",
-     "pubDate": "Sat, 17 Oct 2026 18:18:48 +0900"
+     "pubDate": "Sun, 18 Oct 2026 01:25:11 +0900"
     },
     {
-     "title": "岡山 倉敷 素隠居まつり「じじ」「ばば」のお面かぶり幸せ願う",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de61023",
-     "pubDate": "Sat, 17 Oct 2026 22:51:04 +0900"
+     "title": "インドネシア森林火災 煙が周辺国へ拡散し影響広がる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de61042",
+     "pubDate": "Sun, 18 Oct 2026 00:44:18 +0900"
+    },
+    {
+     "title": "DeNAが2年ぶり日本シリーズ進出 CSファイナル 阪神に4連勝",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60916",
+     "pubDate": "Sun, 18 Oct 2026 01:47:32 +0900"
+    },
+    {
+     "title": "阪神 佐藤輝明 大リーグ挑戦について“何も言えない”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de61014",
+     "pubDate": "Sat, 17 Oct 2026 22:26:11 +0900"
     }
    ]
   },
@@ -50,6 +50,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "愛媛 西条まつり 太鼓台の下敷きで担ぎ手の西条市副市長が死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61058",
+     "pubDate": "Sun, 18 Oct 2026 02:01:28 +0900"
+    },
+    {
      "title": "岡山 倉敷 素隠居まつり「じじ」「ばば」のお面かぶり幸せ願う",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61023",
      "pubDate": "Sat, 17 Oct 2026 22:51:04 +0900"
@@ -57,7 +62,7 @@
     {
      "title": "墜落した空自「グローバルホーク」機体の一部海底から引き揚げ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61020",
-     "pubDate": "Sat, 17 Oct 2026 22:00:56 +0900"
+     "pubDate": "Sat, 17 Oct 2026 22:00:00 +0900"
     },
     {
      "title": "山之内すずさんが「1日防犯アンバサダー」 防犯対策を呼びかけ",
@@ -118,11 +123,6 @@
      "title": "東急新横浜線 運転再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60824",
      "pubDate": "Sat, 17 Oct 2026 08:25:55 +0900"
-    },
-    {
-     "title": "ニデック 永守重信氏ら歴代経営トップに損害賠償請求を検討へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60817",
-     "pubDate": "Sat, 17 Oct 2026 07:22:00 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "インドネシア森林火災 煙が周辺国へ拡散し影響広がる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de61042",
+     "pubDate": "Sun, 18 Oct 2026 00:44:18 +0900"
+    },
+    {
      "title": "トランプ大統領 新たな対ロシア制裁の大半を除外の大統領令",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60905",
      "pubDate": "Sat, 17 Oct 2026 16:24:00 +0900"
@@ -282,11 +287,6 @@
      "title": "プーチン大統領が戦果強調 トランプ氏引き寄せるねらいか",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60813",
      "pubDate": "Sat, 17 Oct 2026 06:16:14 +0900"
-    },
-    {
-     "title": "トルコの沖合で“世界最古の沈没船”の痕跡見つかる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60798",
-     "pubDate": "Sat, 17 Oct 2026 06:10:19 +0900"
     }
    ]
   },
@@ -301,34 +301,34 @@
      "pubDate": "Sat, 17 Oct 2026 12:13:39 GMT"
     },
     {
-     "title": "ドコモの緊急地震速報 不具合解消",
-     "link": "https://news.yahoo.co.jp/pickup/6599170?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 13:11:40 GMT"
+     "title": "高まる反移民感情 在留外国人最多",
+     "link": "https://news.yahoo.co.jp/pickup/6599175?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 13:58:09 GMT"
     },
     {
-     "title": "「簗前農相の圧力」の検証 困難に",
-     "link": "https://news.yahoo.co.jp/pickup/6599160?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 12:01:26 GMT"
+     "title": "ITシステムの弱点 世界で発見急増",
+     "link": "https://news.yahoo.co.jp/pickup/6599176?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 13:50:29 GMT"
     },
     {
-     "title": "母親を蹴り死なせた疑い 男を逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6599159?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 11:50:16 GMT"
+     "title": "関東で今季初の冬日 栃木県日光市",
+     "link": "https://news.yahoo.co.jp/pickup/6599179?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 14:31:41 GMT"
     },
     {
-     "title": "米報道官が退任 働けて光栄だった",
-     "link": "https://news.yahoo.co.jp/pickup/6599164?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 12:20:05 GMT"
+     "title": "祭りで太鼓台の下敷き 副市長死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6599181?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 14:59:55 GMT"
     },
     {
-     "title": "「緑に見える星」初めて発見 研究",
-     "link": "https://news.yahoo.co.jp/pickup/6599171?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 13:29:36 GMT"
+     "title": "プロレスで観客流血 主催者が謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6599177?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 14:10:04 GMT"
     },
     {
-     "title": "タイガー・J・シンが客殴る 流血",
-     "link": "https://news.yahoo.co.jp/pickup/6599162?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 12:14:37 GMT"
+     "title": "阪神終戦 あと1球コールから悲劇",
+     "link": "https://news.yahoo.co.jp/pickup/6599141?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 09:32:31 GMT"
     },
     {
      "title": "ジェラードンV 元相方に呼びかけ",
