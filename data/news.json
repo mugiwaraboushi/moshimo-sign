@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T17:41:39.499Z",
+ "updatedAt": "2026-10-18T19:44:17.788Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,7 +10,7 @@
     {
      "title": "横浜市長選挙 新人の原澤敦美氏が初当選",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59772",
-     "pubDate": "Mon, 19 Oct 2026 02:32:21 +0900"
+     "pubDate": "Mon, 19 Oct 2026 02:58:11 +0900"
     },
     {
      "title": "横浜市長選挙 出口調査の結果は",
