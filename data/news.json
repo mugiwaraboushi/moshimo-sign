@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T21:57:56.844Z",
+ "updatedAt": "2026-10-18T23:51:48.676Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,24 +8,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "横浜市長選挙 新人の原澤敦美氏が初当選",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59772",
-     "pubDate": "Mon, 19 Oct 2026 05:37:47 +0900"
-    },
-    {
      "title": "非常に強い台風30号 週半ば以降 沖縄・奄美に影響のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61331",
-     "pubDate": "Mon, 19 Oct 2026 05:33:41 +0900"
+     "pubDate": "Mon, 19 Oct 2026 06:59:00 +0900"
+    },
+    {
+     "title": "井林国交相が靖国神社に参拝",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61344",
+     "pubDate": "Mon, 19 Oct 2026 08:39:00 +0900"
+    },
+    {
+     "title": "自民 梶山氏 靖国神社に参拝 高市首相の総裁としての玉串料も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61342",
+     "pubDate": "Mon, 19 Oct 2026 08:36:10 +0900"
+    },
+    {
+     "title": "横浜市長選挙 新人の原澤敦美氏が初当選",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59772",
+     "pubDate": "Mon, 19 Oct 2026 05:37:00 +0900"
     },
     {
      "title": "あすにかけ西日本や東日本中心に大気非常に不安定",
      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61334",
      "pubDate": "Mon, 19 Oct 2026 06:31:00 +0900"
-    },
-    {
-     "title": "消費税減税関連法案 あす審議入り 与野党の議論本格化へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61305",
-     "pubDate": "Mon, 19 Oct 2026 05:31:29 +0900"
     },
     {
      "title": "フランス デモに乗じた暴動“店舗1500以上被害か”小売店団体",
@@ -36,11 +41,6 @@
      "title": "ロシア第2の都市にウクライナの攻撃 石油関連施設などに被害",
      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61332",
      "pubDate": "Mon, 19 Oct 2026 06:28:23 +0900"
-    },
-    {
-     "title": "世田谷 三軒茶屋 女性はねられ両足大けが 荷物積み下ろし中か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61090",
-     "pubDate": "Sun, 18 Oct 2026 17:24:20 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（10月19日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61265",
+     "pubDate": "Mon, 19 Oct 2026 07:00:05 +0900"
+    },
     {
      "title": "日本サッカー協会 公式アプリに不正アクセス“影響調査中”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61320",
@@ -118,11 +123,6 @@
      "title": "秋田 奈良 クマに襲われけが人相次ぐ 警察などが注意呼びかけ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61063",
      "pubDate": "Sun, 18 Oct 2026 05:39:57 +0900"
-    },
-    {
-     "title": "東京 調布の道路陥没から6年 補修8割終わるも完了のめど立たず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de61038",
-     "pubDate": "Sun, 18 Oct 2026 05:06:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "内閣支持率ほぼ横ばい57% 読売",
-     "link": "https://news.yahoo.co.jp/pickup/6599288?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 13:21:29 GMT"
+     "title": "逮捕状の「電子令状」4都県から",
+     "link": "https://news.yahoo.co.jp/pickup/6599313?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 23:13:34 GMT"
     },
     {
-     "title": "辺野古転覆 高校生の遺族が献花",
-     "link": "https://news.yahoo.co.jp/pickup/6599293?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 14:55:38 GMT"
+     "title": "米中間選挙 争点にデータセンター",
+     "link": "https://news.yahoo.co.jp/pickup/6599311?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 22:39:58 GMT"
     },
     {
-     "title": "カーセンサーの利用停止 復旧未定",
-     "link": "https://news.yahoo.co.jp/pickup/6599294?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 13:44:18 GMT"
+     "title": "横浜前市長 パワハラに厳しい審判",
+     "link": "https://news.yahoo.co.jp/pickup/6599310?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 22:36:29 GMT"
     },
     {
-     "title": "コミックシーモア 再開見通せず",
-     "link": "https://news.yahoo.co.jp/pickup/6599287?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 13:16:19 GMT"
+     "title": "サイバー攻撃 なぜ日本が狙われる",
+     "link": "https://news.yahoo.co.jp/pickup/6599306?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 22:16:37 GMT"
     },
     {
-     "title": "新品畳に子が「臭い」畳店の思い",
-     "link": "https://news.yahoo.co.jp/pickup/6599303?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 21:46:09 GMT"
+     "title": "オートバイの男性死亡 ひき逃げか",
+     "link": "https://news.yahoo.co.jp/pickup/6599316?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 23:40:50 GMT"
+    },
+    {
+     "title": "東芝 難関大生から再評価される今",
+     "link": "https://news.yahoo.co.jp/pickup/6599312?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 23:04:39 GMT"
+    },
+    {
+     "title": "中村敬斗ぼう然 9分で一発レッド",
+     "link": "https://news.yahoo.co.jp/pickup/6599309?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 22:37:08 GMT"
     },
     {
      "title": "阪神に激震 藤本総合コーチが退団",
      "link": "https://news.yahoo.co.jp/pickup/6599302?source=rss",
      "pubDate": "Sun, 18 Oct 2026 21:26:30 GMT"
-    },
-    {
-     "title": "久保建英ついに復活 今季初ゴール",
-     "link": "https://news.yahoo.co.jp/pickup/6599298?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 21:09:00 GMT"
-    },
-    {
-     "title": "吉川晃司61歳 シンバルキック3発",
-     "link": "https://news.yahoo.co.jp/pickup/6599299?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 21:14:25 GMT"
     }
    ]
   }
