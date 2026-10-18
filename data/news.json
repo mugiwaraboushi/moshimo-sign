@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-17T23:32:50.533Z",
+ "updatedAt": "2026-10-18T01:42:06.921Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,29 +13,29 @@
      "pubDate": "Sun, 18 Oct 2026 07:30:05 +0900"
     },
     {
-     "title": "火星の衛星から砂持ち帰る計画 探査機「MMX」20日打ち上げへ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de61034",
-     "pubDate": "Sun, 18 Oct 2026 07:41:25 +0900"
-    },
-    {
      "title": "愛媛 西条まつり 太鼓台の下敷きで担ぎ手の西条市副市長が死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61058",
      "pubDate": "Sun, 18 Oct 2026 07:10:14 +0900"
     },
     {
-     "title": "インド ヒンドゥー教の祭典で大勢の人倒れ少なくとも17人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61074",
-     "pubDate": "Sun, 18 Oct 2026 08:02:26 +0900"
+     "title": "東京 調布の道路陥没から6年 補修8割終わるも完了のめど立たず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261017de61038",
+     "pubDate": "Sun, 18 Oct 2026 05:06:00 +0900"
+    },
+    {
+     "title": "米カンザス州 サッカー試合会場に車突っ込み2人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61075",
+     "pubDate": "Sun, 18 Oct 2026 09:42:34 +0900"
     },
     {
      "title": "パレスチナでユダヤ人入植者が欧州外交官を襲撃と報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61073",
-     "pubDate": "Sun, 18 Oct 2026 07:52:14 +0900"
+     "pubDate": "Sun, 18 Oct 2026 07:52:00 +0900"
     },
     {
-     "title": "秋田 奈良 クマに襲われけが人相次ぐ 警察などが注意呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61063",
-     "pubDate": "Sun, 18 Oct 2026 05:39:57 +0900"
+     "title": "フランス 物価高対策など訴え大規模デモ 放火など混乱も広がる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61062",
+     "pubDate": "Sun, 18 Oct 2026 07:06:34 +0900"
     },
     {
      "title": "東京 福生 男性が刃物で刺され死亡 知人の行方捜査",
@@ -67,7 +67,7 @@
     {
      "title": "東京 調布の道路陥没から6年 補修8割終わるも完了のめど立たず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61038",
-     "pubDate": "Sun, 18 Oct 2026 05:06:51 +0900"
+     "pubDate": "Sun, 18 Oct 2026 05:06:00 +0900"
     },
     {
      "title": "銅製の電源ケーブル50m盗難か 国交省の水位観測所で 宮城 大崎",
@@ -134,7 +134,7 @@
     {
      "title": "火星の衛星から砂持ち帰る計画 探査機「MMX」20日打ち上げへ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61034",
-     "pubDate": "Sun, 18 Oct 2026 07:41:25 +0900"
+     "pubDate": "Sun, 18 Oct 2026 08:46:26 +0900"
     },
     {
      "title": "総合スーパー展開のイズミ“情報の流出なしの報告受けた”",
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米カンザス州 サッカー試合会場に車突っ込み2人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61075",
+     "pubDate": "Sun, 18 Oct 2026 09:42:34 +0900"
+    },
+    {
      "title": "インド ヒンドゥー教の祭典で大勢の人倒れ少なくとも17人死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61074",
      "pubDate": "Sun, 18 Oct 2026 08:02:26 +0900"
@@ -221,7 +226,7 @@
     {
      "title": "パレスチナでユダヤ人入植者が欧州外交官を襲撃と報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61073",
-     "pubDate": "Sun, 18 Oct 2026 07:52:14 +0900"
+     "pubDate": "Sun, 18 Oct 2026 07:52:00 +0900"
     },
     {
      "title": "ゼレンスキー氏「衛星通信制限で支障」トランプ氏関与否定",
@@ -282,11 +287,6 @@
      "title": "ホワイトハウス新報道官 就任からわずか5日で辞任と報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60818",
      "pubDate": "Sat, 17 Oct 2026 07:47:00 +0900"
-    },
-    {
-     "title": "ナスダック株価指数2％超下落 AI関連企業の債務などに懸念",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60816",
-     "pubDate": "Sat, 17 Oct 2026 07:45:57 +0900"
     }
    ]
   },
@@ -296,24 +296,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "閣僚更迭「高市1強」の弱点露呈",
-     "link": "https://news.yahoo.co.jp/pickup/6599190?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 22:58:09 GMT"
+     "title": "米の対露制裁見送り ウ大統領反発",
+     "link": "https://news.yahoo.co.jp/pickup/6599194?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 23:32:57 GMT"
     },
     {
-     "title": "ITシステムの弱点 世界で発見急増",
-     "link": "https://news.yahoo.co.jp/pickup/6599176?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 13:50:29 GMT"
+     "title": "通販に未認証のチャイルドシート",
+     "link": "https://news.yahoo.co.jp/pickup/6599187?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 22:37:30 GMT"
     },
     {
-     "title": "東京・福生で男性刺され死亡 逃走",
-     "link": "https://news.yahoo.co.jp/pickup/6599183?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 22:11:30 GMT"
-    },
-    {
-     "title": "死亡事故 無車検の車運転疑い逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6599192?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 23:07:41 GMT"
+     "title": "シカ衝突し停車 追突され女性死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6599195?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 23:30:31 GMT"
     },
     {
      "title": "祭りで副市長が死亡 市長「痛恨」",
@@ -321,19 +316,24 @@
      "pubDate": "Sat, 17 Oct 2026 22:36:26 GMT"
     },
     {
-     "title": "息子が赤ランドセル希望 母の不安",
-     "link": "https://news.yahoo.co.jp/pickup/6599185?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 22:35:05 GMT"
+     "title": "海で「溺れている」通報 2人死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6599197?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 23:50:24 GMT"
     },
     {
-     "title": "佐藤輝明のメジャー移籍 容認へ",
-     "link": "https://news.yahoo.co.jp/pickup/6599184?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 22:19:31 GMT"
+     "title": "亀田和毅 世界戦中止に「悔しい」",
+     "link": "https://news.yahoo.co.jp/pickup/6599209?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 01:12:26 GMT"
     },
     {
-     "title": "亀田和毅の世界戦 試合当日に中止",
-     "link": "https://news.yahoo.co.jp/pickup/6599182?source=rss",
-     "pubDate": "Sat, 17 Oct 2026 22:12:50 GMT"
+     "title": "阪神 才木のMLB挑戦認めない方針",
+     "link": "https://news.yahoo.co.jp/pickup/6599205?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 00:42:39 GMT"
+    },
+    {
+     "title": "ネルソンズ1点 KOC芸人審査物議",
+     "link": "https://news.yahoo.co.jp/pickup/6599193?source=rss",
+     "pubDate": "Sat, 17 Oct 2026 23:24:48 GMT"
     }
    ]
   }
