@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T14:57:05.879Z",
+ "updatedAt": "2026-10-18T17:41:39.499Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "横浜市長選挙 新人の原澤敦美氏が初めての当選確実",
+     "title": "横浜市長選挙 新人の原澤敦美氏が初当選",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59772",
-     "pubDate": "Sun, 18 Oct 2026 21:07:00 +0900"
+     "pubDate": "Mon, 19 Oct 2026 02:32:21 +0900"
     },
     {
      "title": "横浜市長選挙 出口調査の結果は",
@@ -38,9 +38,9 @@
      "pubDate": "Sun, 18 Oct 2026 19:29:48 +0900"
     },
     {
-     "title": "SUBARU 車の衝突実験を“実機ではなくデジタルで”なぜ?【QA】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61149",
-     "pubDate": "Sun, 18 Oct 2026 19:31:26 +0900"
+     "title": "日本サッカー協会 公式アプリに不正アクセス“影響調査中”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61320",
+     "pubDate": "Mon, 19 Oct 2026 01:27:20 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "日本サッカー協会 公式アプリに不正アクセス“影響調査中”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61320",
+     "pubDate": "Mon, 19 Oct 2026 01:27:20 +0900"
+    },
     {
      "title": "墜落のグローバルホーク 作業船に引き揚げの機体か 作業続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61254",
@@ -118,11 +123,6 @@
      "title": "東京 調布の道路陥没から6年 補修8割終わるも完了のめど立たず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61038",
      "pubDate": "Sun, 18 Oct 2026 05:06:00 +0900"
-    },
-    {
-     "title": "銅製の電源ケーブル50m盗難か 国交省の水位観測所で 宮城 大崎",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61061",
-     "pubDate": "Sun, 18 Oct 2026 04:57:43 +0900"
     }
    ]
   },
@@ -301,14 +301,14 @@
      "pubDate": "Sun, 18 Oct 2026 13:21:29 GMT"
     },
     {
+     "title": "辺野古転覆 高校生の遺族が献花",
+     "link": "https://news.yahoo.co.jp/pickup/6599293?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 14:55:38 GMT"
+    },
+    {
      "title": "ローマ教皇 退院後初の集会で感謝",
      "link": "https://news.yahoo.co.jp/pickup/6599295?source=rss",
      "pubDate": "Sun, 18 Oct 2026 14:14:55 GMT"
-    },
-    {
-     "title": "横浜市長選で当確 原沢氏どんな人",
-     "link": "https://news.yahoo.co.jp/pickup/6599283?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 12:10:18 GMT"
     },
     {
      "title": "民家に夫婦の車突っ込む 夫が死亡",
