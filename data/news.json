@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T06:41:20.598Z",
+ "updatedAt": "2026-10-18T11:48:18.448Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "世田谷 三軒茶屋 女性はねられ意識不明 荷物積み下ろし中か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61090",
-     "pubDate": "Sun, 18 Oct 2026 12:11:00 +0900"
+     "title": "横浜市長選挙 出口調査の結果は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59773",
+     "pubDate": "Sun, 18 Oct 2026 20:02:54 +0900"
     },
     {
-     "title": "報道官退任 “中間選挙控え重要な広報ポスト空席に” 米NBC",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61125",
-     "pubDate": "Sun, 18 Oct 2026 14:35:18 +0900"
+     "title": "横浜市長選挙 新人の原澤敦美氏が初めての当選確実",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59772",
+     "pubDate": "Sun, 18 Oct 2026 20:12:00 +0900"
     },
     {
      "title": "台風30号 22日ごろ沖縄の南海上に達する予想 今後の情報に注意",
      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61065",
-     "pubDate": "Sun, 18 Oct 2026 10:52:00 +0900"
+     "pubDate": "Sun, 18 Oct 2026 19:04:10 +0900"
     },
     {
-     "title": "愛知 新東名 シカと衝突し停車中の車にトラックが追突 1人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61091",
-     "pubDate": "Sun, 18 Oct 2026 11:11:00 +0900"
+     "title": "世田谷 三軒茶屋 女性はねられ両足大けが 荷物積み下ろし中か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61090",
+     "pubDate": "Sun, 18 Oct 2026 17:24:20 +0900"
     },
     {
-     "title": "フランス 物価高対策など訴え大規模デモ 放火など混乱も広がる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61062",
-     "pubDate": "Sun, 18 Oct 2026 15:12:12 +0900"
+     "title": "プロ野球 阪神 藤川球児監督が会見 来シーズンへの決意語る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61151",
+     "pubDate": "Sun, 18 Oct 2026 19:29:48 +0900"
     },
     {
-     "title": "愛媛 西条まつり 太鼓台の下敷きで担ぎ手の西条市副市長が死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61058",
-     "pubDate": "Sun, 18 Oct 2026 07:10:14 +0900"
+     "title": "カナダ 軍事基地で火災 少なくとも7人死亡 数十人けがの情報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61247",
+     "pubDate": "Sun, 18 Oct 2026 20:29:42 +0900"
     },
     {
-     "title": "小泉防衛相 インドネシアで消火活動の部隊を慰労",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61121",
-     "pubDate": "Sun, 18 Oct 2026 13:02:00 +0900"
+     "title": "SUBARU 車の衝突実験を“実機ではなくデジタルで”なぜ?【QA】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61149",
+     "pubDate": "Sun, 18 Oct 2026 19:31:26 +0900"
     }
    ]
   },
@@ -50,9 +50,44 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "世田谷 三軒茶屋 女性はねられ意識不明 荷物積み下ろし中か",
+     "title": "墜落のグローバルホーク 作業船に引き揚げの機体か 作業続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61254",
+     "pubDate": "Sun, 18 Oct 2026 19:15:00 +0900"
+    },
+    {
+     "title": "熊本地震の「地表地震断層」を専門家がドローンなどで調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61194",
+     "pubDate": "Sun, 18 Oct 2026 18:25:56 +0900"
+    },
+    {
+     "title": "沖縄 辺野古沖事故の遺族が現場近くの海岸で献花",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61179",
+     "pubDate": "Sun, 18 Oct 2026 18:22:34 +0900"
+    },
+    {
+     "title": "愛子さま 鳥取で倉吉白壁土蔵群を視察",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61215",
+     "pubDate": "Sun, 18 Oct 2026 18:08:00 +0900"
+    },
+    {
+     "title": "ビールカルテル 去年出荷価格引き上げの際各社横並びか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61206",
+     "pubDate": "Sun, 18 Oct 2026 17:51:00 +0900"
+    },
+    {
+     "title": "長射程ミサイル 大規模演習に向け熊本市の駐屯地から搬出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61184",
+     "pubDate": "Sun, 18 Oct 2026 17:45:58 +0900"
+    },
+    {
+     "title": "佳子さま 京都で中途失聴者・難聴者福祉大会に出席",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61183",
+     "pubDate": "Sun, 18 Oct 2026 17:30:00 +0900"
+    },
+    {
+     "title": "世田谷 三軒茶屋 女性はねられ両足大けが 荷物積み下ろし中か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61090",
-     "pubDate": "Sun, 18 Oct 2026 12:11:00 +0900"
+     "pubDate": "Sun, 18 Oct 2026 17:24:20 +0900"
     },
     {
      "title": "愛子さま 鳥取で避難所運営考えるカードゲームを体験",
@@ -67,12 +102,12 @@
     {
      "title": "【動画】Pickup NEWS（10月18日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61008",
-     "pubDate": "Sun, 18 Oct 2026 13:51:58 +0900"
+     "pubDate": "Sun, 18 Oct 2026 19:41:28 +0900"
     },
     {
-     "title": "東京 福生 男性が刃物で刺され死亡 知人の行方捜査",
+     "title": "東京 福生 40代男性が刃物で刺され死亡 逃走した男の身柄確保",
      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61068",
-     "pubDate": "Sun, 18 Oct 2026 06:43:27 +0900"
+     "pubDate": "Sun, 18 Oct 2026 18:41:34 +0900"
     },
     {
      "title": "秋田 奈良 クマに襲われけが人相次ぐ 警察などが注意呼びかけ",
@@ -88,41 +123,6 @@
      "title": "銅製の電源ケーブル50m盗難か 国交省の水位観測所で 宮城 大崎",
      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61061",
      "pubDate": "Sun, 18 Oct 2026 04:57:43 +0900"
-    },
-    {
-     "title": "愛媛 西条まつり 太鼓台の下敷きで担ぎ手の西条市副市長が死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61058",
-     "pubDate": "Sun, 18 Oct 2026 07:10:14 +0900"
-    },
-    {
-     "title": "岡山 倉敷 素隠居まつり「じじ」「ばば」のお面かぶり幸せ願う",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de61023",
-     "pubDate": "Sat, 17 Oct 2026 22:51:04 +0900"
-    },
-    {
-     "title": "墜落した空自「グローバルホーク」機体の一部海底から引き揚げ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de61020",
-     "pubDate": "Sat, 17 Oct 2026 22:00:00 +0900"
-    },
-    {
-     "title": "山之内すずさんが「1日防犯アンバサダー」 防犯対策を呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de61016",
-     "pubDate": "Sat, 17 Oct 2026 21:41:24 +0900"
-    },
-    {
-     "title": "沖縄 辺野古事故の遺族 古謝知事に修学旅行の安全確保求める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de61000",
-     "pubDate": "Sat, 17 Oct 2026 19:43:36 +0900"
-    },
-    {
-     "title": "消防から地震の対応学ぶイベント 東京六大学野球の合間に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60957",
-     "pubDate": "Sat, 17 Oct 2026 20:58:33 +0900"
-    },
-    {
-     "title": "奨学金受給の高校生 約2割が進学断念や変更を検討 物価高影響",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60940",
-     "pubDate": "Sat, 17 Oct 2026 18:23:00 +0900"
     }
    ]
   },
@@ -134,7 +134,7 @@
     {
      "title": "火星の衛星から砂持ち帰る計画 探査機「MMX」20日打ち上げへ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61034",
-     "pubDate": "Sun, 18 Oct 2026 08:46:26 +0900"
+     "pubDate": "Sun, 18 Oct 2026 17:50:56 +0900"
     },
     {
      "title": "総合スーパー展開のイズミ“情報の流出なしの報告受けた”",
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "カナダ 軍事基地で火災 少なくとも7人死亡 数十人けがの情報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61247",
+     "pubDate": "Sun, 18 Oct 2026 20:29:42 +0900"
+    },
+    {
      "title": "報道官退任 “中間選挙控え重要な広報ポスト空席に” 米NBC",
      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61125",
      "pubDate": "Sun, 18 Oct 2026 14:35:18 +0900"
@@ -231,7 +236,7 @@
     {
      "title": "インド ヒンドゥー教の祭典で大勢の人倒れ少なくとも17人死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61074",
-     "pubDate": "Sun, 18 Oct 2026 08:02:26 +0900"
+     "pubDate": "Sun, 18 Oct 2026 08:02:00 +0900"
     },
     {
      "title": "パレスチナでユダヤ人入植者が欧州外交官を襲撃と報道",
@@ -251,7 +256,7 @@
     {
      "title": "フランス 物価高対策など訴え大規模デモ 放火など混乱も広がる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61062",
-     "pubDate": "Sun, 18 Oct 2026 15:12:12 +0900"
+     "pubDate": "Sun, 18 Oct 2026 19:12:00 +0900"
     },
     {
      "title": "インドネシア森林火災 煙が周辺国へ拡散し影響広がる",
@@ -282,11 +287,6 @@
      "title": "AIリスク議論 サイバー攻撃 システムぜい弱性検出後数秒で悪用",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60854",
      "pubDate": "Sat, 17 Oct 2026 11:22:00 +0900"
-    },
-    {
-     "title": "国連事務総長選び 6回目の投票も常任理事国の反対で難航",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261017de60833",
-     "pubDate": "Sat, 17 Oct 2026 10:15:04 +0900"
     }
    ]
   },
@@ -296,39 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "消費減税法案 自民が譲歩に含み",
-     "link": "https://news.yahoo.co.jp/pickup/6599227?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 04:25:22 GMT"
+     "title": "19日大気不安定 激しい雨など注意",
+     "link": "https://news.yahoo.co.jp/pickup/6599277?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 10:52:59 GMT"
     },
     {
-     "title": "福生市で男性刺され死亡 男を確保",
-     "link": "https://news.yahoo.co.jp/pickup/6599233?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 05:12:15 GMT"
+     "title": "漏えい急増は中国製LLM起因 指摘",
+     "link": "https://news.yahoo.co.jp/pickup/6599269?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 09:47:35 GMT"
     },
     {
-     "title": "図書館で車が2人はねる 57歳死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6599231?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 04:46:41 GMT"
+     "title": "横浜市長選 原沢敦美氏が当選確実",
+     "link": "https://news.yahoo.co.jp/pickup/6599278?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 11:09:32 GMT"
     },
     {
-     "title": "井脇ノブ子氏 ピンクスーツは47着",
-     "link": "https://news.yahoo.co.jp/pickup/6599241?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 06:09:35 GMT"
+     "title": "SUBARU 20年代後半にSDV投入へ",
+     "link": "https://news.yahoo.co.jp/pickup/6599267?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 09:34:26 GMT"
     },
     {
-     "title": "女子駅伝選手倒れ棄権 熱中症疑い",
-     "link": "https://news.yahoo.co.jp/pickup/6599240?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 05:50:10 GMT"
+     "title": "福生市で男性刺され死亡 男を逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6599276?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 10:51:28 GMT"
     },
     {
-     "title": "観客を襲撃 シン「逃げればいい」",
-     "link": "https://news.yahoo.co.jp/pickup/6599226?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 04:11:47 GMT"
+     "title": "傾いていた住宅が倒壊 86歳死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6599266?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 09:12:16 GMT"
     },
     {
-     "title": "仲里依紗が渋谷を闊歩 通行人驚き",
-     "link": "https://news.yahoo.co.jp/pickup/6599243?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 06:23:53 GMT"
+     "title": "クマがドア開け車内荒らしたか",
+     "link": "https://news.yahoo.co.jp/pickup/6599271?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 09:55:19 GMT"
+    },
+    {
+     "title": "のん&橋本愛ユニット 久慈で復活",
+     "link": "https://news.yahoo.co.jp/pickup/6599274?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 10:37:06 GMT"
     }
    ]
   }
