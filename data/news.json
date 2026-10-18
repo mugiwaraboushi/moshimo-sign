@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T11:48:18.448Z",
+ "updatedAt": "2026-10-18T14:57:05.879Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "横浜市長選挙 新人の原澤敦美氏が初めての当選確実",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59772",
+     "pubDate": "Sun, 18 Oct 2026 21:07:00 +0900"
+    },
+    {
      "title": "横浜市長選挙 出口調査の結果は",
      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59773",
      "pubDate": "Sun, 18 Oct 2026 20:02:54 +0900"
-    },
-    {
-     "title": "横浜市長選挙 新人の原澤敦美氏が初めての当選確実",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261015de59772",
-     "pubDate": "Sun, 18 Oct 2026 20:12:00 +0900"
     },
     {
      "title": "台風30号 22日ごろ沖縄の南海上に達する予想 今後の情報に注意",
@@ -28,14 +28,14 @@
      "pubDate": "Sun, 18 Oct 2026 17:24:20 +0900"
     },
     {
+     "title": "声や肖像 不正競争防止法の対象として明記検討へ 経済産業省",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61309",
+     "pubDate": "Sun, 18 Oct 2026 23:44:18 +0900"
+    },
+    {
      "title": "プロ野球 阪神 藤川球児監督が会見 来シーズンへの決意語る",
      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61151",
      "pubDate": "Sun, 18 Oct 2026 19:29:48 +0900"
-    },
-    {
-     "title": "カナダ 軍事基地で火災 少なくとも7人死亡 数十人けがの情報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61247",
-     "pubDate": "Sun, 18 Oct 2026 20:29:42 +0900"
     },
     {
      "title": "SUBARU 車の衝突実験を“実機ではなくデジタルで”なぜ?【QA】",
@@ -105,9 +105,9 @@
      "pubDate": "Sun, 18 Oct 2026 19:41:28 +0900"
     },
     {
-     "title": "東京 福生 40代男性が刃物で刺され死亡 逃走した男の身柄確保",
+     "title": "東京 福生 男性刺され死亡 50歳の容疑者を殺人の疑いで逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61068",
-     "pubDate": "Sun, 18 Oct 2026 18:41:34 +0900"
+     "pubDate": "Sun, 18 Oct 2026 22:26:25 +0900"
     },
     {
      "title": "秋田 奈良 クマに襲われけが人相次ぐ 警察などが注意呼びかけ",
@@ -216,7 +216,7 @@
     {
      "title": "カナダ 軍事基地で火災 少なくとも7人死亡 数十人けがの情報",
      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61247",
-     "pubDate": "Sun, 18 Oct 2026 20:29:42 +0900"
+     "pubDate": "Sun, 18 Oct 2026 20:29:00 +0900"
     },
     {
      "title": "報道官退任 “中間選挙控え重要な広報ポスト空席に” 米NBC",
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "19日大気不安定 激しい雨など注意",
-     "link": "https://news.yahoo.co.jp/pickup/6599277?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 10:52:59 GMT"
+     "title": "内閣支持率ほぼ横ばい57% 読売",
+     "link": "https://news.yahoo.co.jp/pickup/6599288?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 13:21:29 GMT"
     },
     {
-     "title": "漏えい急増は中国製LLM起因 指摘",
-     "link": "https://news.yahoo.co.jp/pickup/6599269?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 09:47:35 GMT"
+     "title": "ローマ教皇 退院後初の集会で感謝",
+     "link": "https://news.yahoo.co.jp/pickup/6599295?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 14:14:55 GMT"
     },
     {
-     "title": "横浜市長選 原沢敦美氏が当選確実",
-     "link": "https://news.yahoo.co.jp/pickup/6599278?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 11:09:32 GMT"
+     "title": "横浜市長選で当確 原沢氏どんな人",
+     "link": "https://news.yahoo.co.jp/pickup/6599283?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 12:10:18 GMT"
     },
     {
-     "title": "SUBARU 20年代後半にSDV投入へ",
-     "link": "https://news.yahoo.co.jp/pickup/6599267?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 09:34:26 GMT"
+     "title": "民家に夫婦の車突っ込む 夫が死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6599289?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 13:23:25 GMT"
     },
     {
-     "title": "福生市で男性刺され死亡 男を逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6599276?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 10:51:28 GMT"
+     "title": "カーセンサーの利用停止 復旧未定",
+     "link": "https://news.yahoo.co.jp/pickup/6599294?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 13:44:18 GMT"
     },
     {
-     "title": "傾いていた住宅が倒壊 86歳死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6599266?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 09:12:16 GMT"
+     "title": "コミックシーモア 再開見通せず",
+     "link": "https://news.yahoo.co.jp/pickup/6599287?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 13:16:19 GMT"
     },
     {
-     "title": "クマがドア開け車内荒らしたか",
-     "link": "https://news.yahoo.co.jp/pickup/6599271?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 09:55:19 GMT"
+     "title": "「県1位校」相次ぎ敗退 高校野球",
+     "link": "https://news.yahoo.co.jp/pickup/6599296?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 14:27:10 GMT"
     },
     {
-     "title": "のん&橋本愛ユニット 久慈で復活",
-     "link": "https://news.yahoo.co.jp/pickup/6599274?source=rss",
-     "pubDate": "Sun, 18 Oct 2026 10:37:06 GMT"
+     "title": "橋本愛とユニット復活 のんが希望",
+     "link": "https://news.yahoo.co.jp/pickup/6599286?source=rss",
+     "pubDate": "Sun, 18 Oct 2026 12:37:50 GMT"
     }
    ]
   }
