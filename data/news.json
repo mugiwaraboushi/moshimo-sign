@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T20:16:19.547Z",
+ "updatedAt": "2026-10-19T23:49:11.318Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,34 +8,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "火星衛星探査機「MMX」 種子島宇宙センターから打ち上げ",
+     "title": "火星衛星探査機「MMX」 火星へ向かう軌道に 打ち上げ成功",
      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61814",
-     "pubDate": "Tue, 20 Oct 2026 04:54:00 +0900"
+     "pubDate": "Tue, 20 Oct 2026 08:25:39 +0900"
+    },
+    {
+     "title": "トランプ大統領と距離置く共和党の候補相次ぐ いったいなぜ？",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61784",
+     "pubDate": "Tue, 20 Oct 2026 07:24:17 +0900"
+    },
+    {
+     "title": "不正アクセス 「中国系AIの使用確認」 情報セキュリティー会社",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61888",
+     "pubDate": "Tue, 20 Oct 2026 07:48:38 +0900"
+    },
+    {
+     "title": "食料品の消費税減税関連法案 きょう衆議院で審議入り",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61870",
+     "pubDate": "Tue, 20 Oct 2026 05:10:00 +0900"
+    },
+    {
+     "title": "東・西日本で大気不安定に 台風30号の最新情報 確認を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61878",
+     "pubDate": "Tue, 20 Oct 2026 07:38:25 +0900"
     },
     {
      "title": "上皇后さま 92歳の誕生日",
      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61822",
      "pubDate": "Tue, 20 Oct 2026 00:00:50 +0900"
-    },
-    {
-     "title": "盛岡 東北道で車6台絡む事故 1台が炎上 1人死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61903",
-     "pubDate": "Tue, 20 Oct 2026 05:09:05 +0900"
-    },
-    {
-     "title": "米国務長官は和平目指す姿勢強調もウクライナは不満表明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61898",
-     "pubDate": "Tue, 20 Oct 2026 04:52:57 +0900"
-    },
-    {
-     "title": "WFP“資金不足でガザの約50万人 食料支援が受けられなくなる”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61895",
-     "pubDate": "Tue, 20 Oct 2026 04:51:54 +0900"
-    },
-    {
-     "title": "不正アクセス 「中国系AIの使用確認」 情報セキュリティー会社",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61888",
-     "pubDate": "Tue, 20 Oct 2026 05:01:02 +0900"
     },
     {
      "title": "世界最大級ファンド「ブラックストーン」 日本に約6兆円投資へ",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（10月20日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61704",
+     "pubDate": "Tue, 20 Oct 2026 06:37:44 +0900"
+    },
     {
      "title": "盛岡 東北道で車6台絡む事故 1台が炎上 1人死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20261020de61903",
@@ -118,11 +123,6 @@
      "title": "愛子さま 鳥取市で3年前台風被害の地域を訪問",
      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61434",
      "pubDate": "Mon, 19 Oct 2026 12:32:00 +0900"
-    },
-    {
-     "title": "台風25号で一部運休のJR総武本線が全線運転再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61377",
-     "pubDate": "Mon, 19 Oct 2026 11:41:00 +0900"
     }
    ]
   },
@@ -134,12 +134,12 @@
     {
      "title": "不正アクセス 「中国系AIの使用確認」 情報セキュリティー会社",
      "link": "https://news.web.nhk/newsweb/na/nd-20261020de61888",
-     "pubDate": "Tue, 20 Oct 2026 05:01:02 +0900"
+     "pubDate": "Tue, 20 Oct 2026 07:48:38 +0900"
     },
     {
-     "title": "火星衛星探査機「MMX」 種子島宇宙センターから打ち上げ",
+     "title": "火星衛星探査機「MMX」 火星へ向かう軌道に 打ち上げ成功",
      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61814",
-     "pubDate": "Tue, 20 Oct 2026 04:54:00 +0900"
+     "pubDate": "Tue, 20 Oct 2026 08:25:39 +0900"
     },
     {
      "title": "超低出生体重児の大動脈の血管へのステント治療成功 静岡",
@@ -214,6 +214,41 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "トランプ大統領と距離置く共和党の候補相次ぐ いったいなぜ？",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61784",
+     "pubDate": "Tue, 20 Oct 2026 07:24:17 +0900"
+    },
+    {
+     "title": "英スコットランドで日本メーカーの海底ケーブル工場の開所式",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61912",
+     "pubDate": "Tue, 20 Oct 2026 07:19:13 +0900"
+    },
+    {
+     "title": "攻撃の応酬続きサウジアラビアの“砂漠のダボス会議”延期に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61908",
+     "pubDate": "Tue, 20 Oct 2026 06:38:33 +0900"
+    },
+    {
+     "title": "米 中間選挙まで2週間 下院は民主党過半数うかがう 上院は接戦",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61904",
+     "pubDate": "Tue, 20 Oct 2026 05:37:00 +0900"
+    },
+    {
+     "title": "エチオピア情勢悪化 紅海の不安定化の懸念強まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61884",
+     "pubDate": "Tue, 20 Oct 2026 05:28:41 +0900"
+    },
+    {
+     "title": "フランスでデモ乗じた暴動受け一部の都市で外出禁止令",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61899",
+     "pubDate": "Tue, 20 Oct 2026 07:56:21 +0900"
+    },
+    {
+     "title": "ロシアによる記者拘束から1週間 政府「領事面会」強く求める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61872",
+     "pubDate": "Tue, 20 Oct 2026 05:18:11 +0900"
+    },
+    {
      "title": "世界最大級ファンド「ブラックストーン」 日本に約6兆円投資へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61876",
      "pubDate": "Tue, 20 Oct 2026 05:03:42 +0900"
@@ -221,7 +256,7 @@
     {
      "title": "米国務長官は和平目指す姿勢強調もウクライナは不満表明",
      "link": "https://news.web.nhk/newsweb/na/nd-20261020de61898",
-     "pubDate": "Tue, 20 Oct 2026 04:52:57 +0900"
+     "pubDate": "Tue, 20 Oct 2026 06:34:56 +0900"
     },
     {
      "title": "WFP“資金不足でガザの約50万人 食料支援が受けられなくなる”",
@@ -252,41 +287,6 @@
      "title": "パレスチナ選挙延期“極めて残念” 中曽根外務副大臣が伝達",
      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61687",
      "pubDate": "Mon, 19 Oct 2026 17:17:00 +0900"
-    },
-    {
-     "title": "三菱電機 自動車部品子会社にホンハイの出資受け入れで会見",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61602",
-     "pubDate": "Mon, 19 Oct 2026 15:56:00 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月19日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53325",
-     "pubDate": "Mon, 19 Oct 2026 15:46:00 +0900"
-    },
-    {
-     "title": "ブラジル大統領決選投票まで1週間 支持率きっ抗激しい選挙戦",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61514",
-     "pubDate": "Mon, 19 Oct 2026 14:41:00 +0900"
-    },
-    {
-     "title": "トランプ大統領とゼレンスキー大統領 ロシアめぐり溝浮き彫り",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61430",
-     "pubDate": "Mon, 19 Oct 2026 12:23:00 +0900"
-    },
-    {
-     "title": "中国GDP ＋4.5％ 内需停滞で伸び悩む 7ー9月期",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61389",
-     "pubDate": "Mon, 19 Oct 2026 19:17:00 +0900"
-    },
-    {
-     "title": "トランプ大統領 イスラエル総選挙前にネタニヤフ首相支持表明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61347",
-     "pubDate": "Mon, 19 Oct 2026 09:22:00 +0900"
-    },
-    {
-     "title": "ロシア第2の都市にウクライナの攻撃 石油関連施設などに被害",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61332",
-     "pubDate": "Mon, 19 Oct 2026 06:28:23 +0900"
     }
    ]
   },
@@ -296,24 +296,29 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "仏首相 一部に夜間外出禁止令要請",
-     "link": "https://news.yahoo.co.jp/pickup/6599406?source=rss",
-     "pubDate": "Mon, 19 Oct 2026 14:05:17 GMT"
+     "title": "トランプ氏 米露中会談に前向き",
+     "link": "https://news.yahoo.co.jp/pickup/6599417?source=rss",
+     "pubDate": "Mon, 19 Oct 2026 22:19:09 GMT"
     },
     {
-     "title": "特定技能「給食」受け入れ再開へ",
-     "link": "https://news.yahoo.co.jp/pickup/6599400?source=rss",
-     "pubDate": "Mon, 19 Oct 2026 13:32:39 GMT"
+     "title": "上皇后さま92歳に 穏やかな日々",
+     "link": "https://news.yahoo.co.jp/pickup/6599423?source=rss",
+     "pubDate": "Mon, 19 Oct 2026 23:37:14 GMT"
     },
     {
-     "title": "ウ軍 ドローンで空から負傷兵救出",
-     "link": "https://news.yahoo.co.jp/pickup/6599410?source=rss",
-     "pubDate": "Mon, 19 Oct 2026 14:55:38 GMT"
+     "title": "H3ロケット10号機 打ち上げ成功",
+     "link": "https://news.yahoo.co.jp/pickup/6599414?source=rss",
+     "pubDate": "Mon, 19 Oct 2026 21:20:36 GMT"
     },
     {
-     "title": "ユニクロ ソックス3点990円終了へ",
-     "link": "https://news.yahoo.co.jp/pickup/6599375?source=rss",
-     "pubDate": "Mon, 19 Oct 2026 09:36:29 GMT"
+     "title": "東北道で複数台絡む事故 2人死傷",
+     "link": "https://news.yahoo.co.jp/pickup/6599419?source=rss",
+     "pubDate": "Mon, 19 Oct 2026 22:38:09 GMT"
+    },
+    {
+     "title": "スイミングスクール 80代溺れ搬送",
+     "link": "https://news.yahoo.co.jp/pickup/6599420?source=rss",
+     "pubDate": "Mon, 19 Oct 2026 23:05:48 GMT"
     },
     {
      "title": "JAL便に小動物 サイズは猫以下か",
@@ -321,19 +326,14 @@
      "pubDate": "Mon, 19 Oct 2026 15:06:45 GMT"
     },
     {
-     "title": "ALS原因タンパク質 除去に新経路",
-     "link": "https://news.yahoo.co.jp/pickup/6599408?source=rss",
-     "pubDate": "Mon, 19 Oct 2026 14:38:48 GMT"
+     "title": "「あと1球コール」阪神OBの見解",
+     "link": "https://news.yahoo.co.jp/pickup/6599426?source=rss",
+     "pubDate": "Mon, 19 Oct 2026 23:47:16 GMT"
     },
     {
-     "title": "佐藤輝明 今オフに争奪戦勃発か",
-     "link": "https://news.yahoo.co.jp/pickup/6599411?source=rss",
-     "pubDate": "Mon, 19 Oct 2026 14:53:32 GMT"
-    },
-    {
-     "title": "工藤新監督 ドラフト会議は欠席",
-     "link": "https://news.yahoo.co.jp/pickup/6599404?source=rss",
-     "pubDate": "Mon, 19 Oct 2026 13:53:58 GMT"
+     "title": "妻夫木 憧れのハイスタと名曲熱唱",
+     "link": "https://news.yahoo.co.jp/pickup/6599424?source=rss",
+     "pubDate": "Mon, 19 Oct 2026 23:42:55 GMT"
     }
    ]
   }
