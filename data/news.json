@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T14:47:45.024Z",
+ "updatedAt": "2026-10-19T20:16:19.547Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "「ふるさとチョイス」で不正アクセス疑い 阪急阪神百貨店でも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61442",
-     "pubDate": "Mon, 19 Oct 2026 19:23:00 +0900"
+     "title": "火星衛星探査機「MMX」 種子島宇宙センターから打ち上げ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61814",
+     "pubDate": "Tue, 20 Oct 2026 04:54:00 +0900"
     },
     {
-     "title": "サッカー マンチェスターシティーの財務規則違反を認定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61598",
-     "pubDate": "Mon, 19 Oct 2026 19:46:03 +0900"
+     "title": "上皇后さま 92歳の誕生日",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61822",
+     "pubDate": "Tue, 20 Oct 2026 00:00:50 +0900"
     },
     {
-     "title": "高校無償化でも“私立は選べず”約3割 低所得世帯にNGO調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61526",
-     "pubDate": "Mon, 19 Oct 2026 19:27:00 +0900"
+     "title": "盛岡 東北道で車6台絡む事故 1台が炎上 1人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61903",
+     "pubDate": "Tue, 20 Oct 2026 05:09:05 +0900"
     },
     {
-     "title": "超低出生体重児の大動脈の血管へのステント治療成功 静岡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61864",
-     "pubDate": "Mon, 19 Oct 2026 23:17:16 +0900"
+     "title": "米国務長官は和平目指す姿勢強調もウクライナは不満表明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61898",
+     "pubDate": "Tue, 20 Oct 2026 04:52:57 +0900"
     },
     {
-     "title": "“簗氏 事務員報酬支払い”報道 大学教授が宇都宮地検に告発状",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61832",
-     "pubDate": "Mon, 19 Oct 2026 20:50:00 +0900"
+     "title": "WFP“資金不足でガザの約50万人 食料支援が受けられなくなる”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61895",
+     "pubDate": "Tue, 20 Oct 2026 04:51:54 +0900"
     },
     {
-     "title": "旅客機の操縦席に小動物が見つかり欠航 福岡空港",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61850",
-     "pubDate": "Mon, 19 Oct 2026 21:53:00 +0900"
+     "title": "不正アクセス 「中国系AIの使用確認」 情報セキュリティー会社",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61888",
+     "pubDate": "Tue, 20 Oct 2026 05:01:02 +0900"
     },
     {
-     "title": "企業・自治体のメール配信会社に不正アクセス 900万件流出か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61855",
-     "pubDate": "Mon, 19 Oct 2026 22:39:13 +0900"
+     "title": "世界最大級ファンド「ブラックストーン」 日本に約6兆円投資へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61876",
+     "pubDate": "Tue, 20 Oct 2026 05:03:42 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "盛岡 東北道で車6台絡む事故 1台が炎上 1人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61903",
+     "pubDate": "Tue, 20 Oct 2026 05:09:05 +0900"
+    },
+    {
+     "title": "上皇后さま 92歳の誕生日",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61822",
+     "pubDate": "Tue, 20 Oct 2026 00:00:50 +0900"
+    },
     {
      "title": "超低出生体重児の大動脈の血管へのステント治療成功 静岡",
      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61864",
@@ -113,16 +123,6 @@
      "title": "台風25号で一部運休のJR総武本線が全線運転再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61377",
      "pubDate": "Mon, 19 Oct 2026 11:41:00 +0900"
-    },
-    {
-     "title": "ごみ袋が大幅値上げ 4.5倍の1735円に いったいなぜ？",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61378",
-     "pubDate": "Mon, 19 Oct 2026 11:21:00 +0900"
-    },
-    {
-     "title": "神奈川 藤沢 乗用車がバスなど次々に衝突1人死亡13人けが",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61387",
-     "pubDate": "Mon, 19 Oct 2026 19:18:00 +0900"
     }
    ]
   },
@@ -132,14 +132,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "不正アクセス 「中国系AIの使用確認」 情報セキュリティー会社",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61888",
+     "pubDate": "Tue, 20 Oct 2026 05:01:02 +0900"
+    },
+    {
+     "title": "火星衛星探査機「MMX」 種子島宇宙センターから打ち上げ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61814",
+     "pubDate": "Tue, 20 Oct 2026 04:54:00 +0900"
+    },
+    {
      "title": "超低出生体重児の大動脈の血管へのステント治療成功 静岡",
      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61864",
      "pubDate": "Mon, 19 Oct 2026 23:17:16 +0900"
     },
     {
-     "title": "火星の衛星から砂持ち帰る計画 探査機「MMX」あす早朝打ち上げ",
+     "title": "火星の衛星から砂持ち帰る計画 探査機「MMX」早朝に打ち上げ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61034",
-     "pubDate": "Mon, 19 Oct 2026 20:12:51 +0900"
+     "pubDate": "Mon, 19 Oct 2026 20:12:00 +0900"
     },
     {
      "title": "総合スーパー展開のイズミ“情報の流出なしの報告受けた”",
@@ -195,16 +205,6 @@
      "title": "日本郵便 不正アクセスで国際郵便利用者の情報 一時閲覧可能に",
      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60543",
      "pubDate": "Fri, 16 Oct 2026 17:38:06 +0900"
-    },
-    {
-     "title": "イエローハット およそ180万人分の個人情報漏えいを確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60437",
-     "pubDate": "Fri, 16 Oct 2026 16:28:20 +0900"
-    },
-    {
-     "title": "火星衛星探査機「MMX」 技術の獲得へ期待感 関文科相",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60406",
-     "pubDate": "Fri, 16 Oct 2026 16:13:08 +0900"
     }
    ]
   },
@@ -213,6 +213,26 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "世界最大級ファンド「ブラックストーン」 日本に約6兆円投資へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61876",
+     "pubDate": "Tue, 20 Oct 2026 05:03:42 +0900"
+    },
+    {
+     "title": "米国務長官は和平目指す姿勢強調もウクライナは不満表明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61898",
+     "pubDate": "Tue, 20 Oct 2026 04:52:57 +0900"
+    },
+    {
+     "title": "WFP“資金不足でガザの約50万人 食料支援が受けられなくなる”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61895",
+     "pubDate": "Tue, 20 Oct 2026 04:51:54 +0900"
+    },
+    {
+     "title": "拘束続くスー・チー氏に英国王からの本や書簡と政権側が発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61893",
+     "pubDate": "Tue, 20 Oct 2026 04:50:31 +0900"
+    },
     {
      "title": "北朝鮮 キム・ヨジョン氏 韓国へ拡声機放送再開などを警告",
      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61865",
@@ -267,26 +287,6 @@
      "title": "ロシア第2の都市にウクライナの攻撃 石油関連施設などに被害",
      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61332",
      "pubDate": "Mon, 19 Oct 2026 06:28:23 +0900"
-    },
-    {
-     "title": "フランス デモに乗じた暴動で店舗1500以上被害か イタリアでも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61330",
-     "pubDate": "Mon, 19 Oct 2026 19:08:52 +0900"
-    },
-    {
-     "title": "カナダ 軍事基地で火災 少なくとも7人死亡 数十人けがの情報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61247",
-     "pubDate": "Sun, 18 Oct 2026 20:29:00 +0900"
-    },
-    {
-     "title": "報道官退任 “中間選挙控え重要な広報ポスト空席に” 米NBC",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61125",
-     "pubDate": "Sun, 18 Oct 2026 14:35:18 +0900"
-    },
-    {
-     "title": "米中間選挙 全米各地で期日前投票呼びかける集会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261018de61089",
-     "pubDate": "Sun, 18 Oct 2026 13:30:53 +0900"
     }
    ]
   },
@@ -306,29 +306,29 @@
      "pubDate": "Mon, 19 Oct 2026 13:32:39 GMT"
     },
     {
-     "title": "部屋に遺体 包丁所持疑いで女逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6599402?source=rss",
-     "pubDate": "Mon, 19 Oct 2026 13:55:38 GMT"
+     "title": "ウ軍 ドローンで空から負傷兵救出",
+     "link": "https://news.yahoo.co.jp/pickup/6599410?source=rss",
+     "pubDate": "Mon, 19 Oct 2026 14:55:38 GMT"
     },
     {
-     "title": "ユニクロが値上げ 11商品を11月に",
-     "link": "https://news.yahoo.co.jp/pickup/6599401?source=rss",
-     "pubDate": "Mon, 19 Oct 2026 13:41:25 GMT"
+     "title": "ユニクロ ソックス3点990円終了へ",
+     "link": "https://news.yahoo.co.jp/pickup/6599375?source=rss",
+     "pubDate": "Mon, 19 Oct 2026 09:36:29 GMT"
     },
     {
-     "title": "研修にブラインドサッカー 企業増",
-     "link": "https://news.yahoo.co.jp/pickup/6599409?source=rss",
-     "pubDate": "Mon, 19 Oct 2026 14:42:59 GMT"
-    },
-    {
-     "title": "JAL機内に小動物 見つからず欠航",
-     "link": "https://news.yahoo.co.jp/pickup/6599368?source=rss",
-     "pubDate": "Mon, 19 Oct 2026 08:16:01 GMT"
+     "title": "JAL便に小動物 サイズは猫以下か",
+     "link": "https://news.yahoo.co.jp/pickup/6599413?source=rss",
+     "pubDate": "Mon, 19 Oct 2026 15:06:45 GMT"
     },
     {
      "title": "ALS原因タンパク質 除去に新経路",
      "link": "https://news.yahoo.co.jp/pickup/6599408?source=rss",
      "pubDate": "Mon, 19 Oct 2026 14:38:48 GMT"
+    },
+    {
+     "title": "佐藤輝明 今オフに争奪戦勃発か",
+     "link": "https://news.yahoo.co.jp/pickup/6599411?source=rss",
+     "pubDate": "Mon, 19 Oct 2026 14:53:32 GMT"
     },
     {
      "title": "工藤新監督 ドラフト会議は欠席",
