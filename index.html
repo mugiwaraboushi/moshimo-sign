@@ -58,8 +58,13 @@
   </a>
 
   <a class="card" href="prototypes/event-comments/">
-    <div class="name">イベントコメント（投稿・選別・実機出力）</div>
-    <div class="desc">参加者がスマホから質問・つぶやきを送り、管理者が見て掲示板に出すものを決める。自動判定は理由を付けて未確認に積むだけで捨てない。承認したものは <code>playlist.json</code> の <code>commentsUrl</code> 経由で実機に流れ、ログはCSV/JSONで保存できる。</div>
+    <div class="name">イベントコメント（参加者用）</div>
+    <div class="desc">参加者がスマホから質問・つぶやきを送るページ。タイトル・説明文・大きな入力欄・「送る」だけ。文言と色は管理者用ページから変えられる。本番は配布URL・QRから開く。</div>
+  </a>
+
+  <a class="card" href="prototypes/event-comments-admin/">
+    <div class="name">イベントコメント（管理者用）</div>
+    <div class="desc">届いたコメントを見て掲示板に出すものを決める。自動判定は理由を付けて未確認に積むだけで捨てない。参加者ページの文言と色、イベントの保存・切り替え（前回のコメントを退避して空にする）、参加者用QRもここ。管理キーが要る。</div>
   </a>
 
   <a class="card" href="prototypes/rainbow/">

@@ -1,18 +1,32 @@
 # イベントコメントの置き場をつくる (GAS)
 
 イベント中に参加者のスマホから届いたコメントを、管理者が選別して電光掲示板に流すための
-サーバ側の作り方。画面は [`prototypes/event-comments/`](../prototypes/event-comments/)、
-コードは [`tools/event-comments-gas/Code.gs`](../tools/event-comments-gas/Code.gs)。
+サーバ側の作り方。コードは [`tools/event-comments-gas/Code.gs`](../tools/event-comments-gas/Code.gs)。
+
+画面は2つに分かれている:
+
+| | URL | 使う人 |
+|---|---|---|
+| 参加者用 | [`prototypes/event-comments/`](../prototypes/event-comments/)`?gas=<デプロイID>` | QRから開いて1件送るだけ。管理画面へのリンクは無い |
+| 管理者用 | [`prototypes/event-comments-admin/`](../prototypes/event-comments-admin/) | 選別・イベント設定・イベントの切り替え・QR表示。`ADMIN_KEY` が要る |
+
+参加者用ページのタイトル・説明文・色・入力欄のヒントは、管理者用ページの「参加者ページの文言と色」
+から変えられる (GAS の `settings` シートに入る)。参加者ページは開いたときにこれを読み、
+読めなければ既定の文言で出る。
 
 ## 全体の流れ
 
 ```
-参加者のスマホ            管理者のPC                     実機
-  投稿フォーム  ──add──▶  スプレッドシート  ◀──list──  選別画面
-                          (GAS Webアプリ)   ──state──▶
-                                 │
-                                 └── action=text ──▶ ESP32 が15秒ごとに取得
-                                     (承認済みだけ・1行1件・最大20件)
+参加者のスマホ                 管理者のPC                        実機
+  event-comments/  ──add──────▶  スプレッドシート  ◀──list─────  event-comments-admin/
+                   ◀─settings──  (GAS Webアプリ)    ──state────▶
+                                  comments          ──settings──▶ (文言と色)
+                                  settings          ──event_*───▶ (イベントの保存・切替)
+                                  events
+                                  archive_…
+                                       │
+                                       └── action=text ──▶ ESP32 が15秒ごとに取得
+                                           (承認済みだけ・1行1件・最大20件)
 ```
 
 - **自動では何も捨てない。** 自動判定はNGワード等に理由を付けて「未確認」に積むだけで、
@@ -25,7 +39,7 @@
 ### 1. スプレッドシートを作る
 
 Googleドライブで新規スプレッドシートを作る。名前は何でもよい（例: `もしも イベントコメント`）。
-シートは空のままでよい（`comments` シートは初回アクセス時に自動で作られる）。
+シートは空のままでよい（`comments` / `settings` / `events` シートは初回アクセス時に自動で作られる）。
 
 ### 2. Apps Script を貼る
 
@@ -61,7 +75,7 @@ Apps Script の左メニュー **プロジェクトの設定 → スクリプト
 
 ### 5. 管理画面につなぐ
 
-[管理画面](../prototypes/event-comments/?role=admin) を開き、「つなぎ先（GAS）」に
+[管理者用ページ](../prototypes/event-comments-admin/) を開き、「つなぎ先（GAS）」に
 さきほどのURLと `ADMIN_KEY` を入れて「保存してつなぐ」。
 上部の帯が「GASにつながっています」になれば成功。
 
@@ -75,7 +89,8 @@ Apps Script の左メニュー **プロジェクトの設定 → スクリプト
 
 同じカードに**参加者用URLとQRコード**が出るので、それを会場で見せる。
 
-参加者用URLは `…/prototypes/event-comments/?role=post&gas=<デプロイID>` の形。
+参加者用URLは `…/prototypes/event-comments/?role=post&gas=<デプロイID>` の形
+(`role=post` は2ページに分ける前に配ったQRと同じURLにするため残している。参加者ページは `role` を見ない)。
 GASのURLをまるごと `?api=` に入れる古い形も動くが、URLエンコードで長くなりQRが密になって
 読み取りづらいので、いまは短い `gas=` を出している。QRが出ないときは理由がその場に表示される
 (ライブラリが読めていない等)。**URLをコピーして配るだけでも運用できる。**
@@ -107,6 +122,17 @@ GASのURLをまるごと `?api=` に入れる古い形も動くが、URLエン�
 | `GET ?action=list&key=…` | 全件を JSON で返す（管理画面用）。**鍵が要る** |
 | `POST {"action":"add","text":"..."}` | 1件足す。状態は `pending` |
 | `POST {"action":"state","id":1,"state":"approved","key":"..."}` | 状態を変える。`key` 必須 |
+| `GET ?action=settings` | 参加者ページの文言と色 `{ok, settings:{title, lead, color, placeholder}}`。鍵不要。空の項目は既定値で埋めて返す |
+| `POST {"action":"settings","key":"...","title":"...","lead":"...","color":"...","placeholder":"..."}` | 文言と色を保存。`key` 必須。送らなかった項目はそのまま、空文字は既定に戻す。`color` は `FF9C00` / `#ff9c00` どちらでもよい |
+| `GET ?action=events&key=…` | 保存済みイベントの一覧 `{ok, events:[{name, title, lead, color, placeholder, savedAt}]}`。`key` 必須 |
+| `POST {"action":"event_save","key":"...","name":"..."}` | いまの文言と色をその名前で `events` シートに保存。同名は上書き |
+| `POST {"action":"event_load","key":"...","name":"..."}` | その名前の文言と色をいまの設定にする。無ければ `not found` |
+| `POST {"action":"event_start","key":"...","name":"..."}` | 新しいイベントを始める。`comments` を `archive_<yyyyMMdd>_<name>` シートに写してから空にし、その名前の設定があれば読み込む（無ければ設定はそのまま）。応答 `{ok, archived, moved, loaded, settings}` |
+
+- シートは `comments`（id / ts / text / state）、`settings`（key / value）、
+  `events`（name / title / lead / color / placeholder / savedAt）、退避先の `archive_…`
+- `event_start` のあとは `comments` が空になるので、実機の `action=text` も空になる
+  (event モードの実機は、コメントが0件のあいだ常設メッセージを流す)。id は 1 から振り直し
 
 - **`Code.gs` を貼り替えたら、必ずデプロイし直すこと**（「デプロイを管理」→ 既存のデプロイを鉛筆で編集 →
   バージョンを「新しいバージョン」にして更新）。貼っただけでは公開中のURLは古いコードのまま。
@@ -122,12 +148,18 @@ GASのURLをまるごと `?api=` に入れる古い形も動くが、URLエン�
 
 ## 当日の運びかた
 
-1. 管理画面をPCで開いてGASにつなぐ。QRを会場に出す
-2. 開始前に**自分のスマホから1件投稿して、実機に出るところまで通す**
+1. **イベントを始める。** 管理者用ページをPCで開いてGASにつなぎ、「イベント」カードで
+   名前を選んで（または入れて）「このイベントを始める」。前回のコメントは `archive_…` シートに退避されて空になり、
+   保存してあればそのイベントの文言と色が参加者ページに入る。初めてのイベントなら
+   「参加者ページの文言と色」を書いて保存 → 「いまの設定をこの名前で保存」しておくと次から使い回せる
+2. **実機をイベントモードにする。** Discordで「イベントモードにして」と頼む
+   (`mode:"event"` と `commentsUrl` が入る。約1〜2分で反映)
+3. **QRを出す。** 管理者用ページの「つなぎ先（GAS）」に出る参加者用QRを会場に見せる
+4. 開始前に**自分のスマホから1件投稿して、実機に出るところまで通す**
    （承認から実機まで15秒。ここで出なければ `commentsUrl` の設定か実機の版を疑う）
-3. 「未確認」タブを見ながら、出すものを押していく
-4. 終わったら **CSVで保存**（振り返り用。元のログはスプレッドシートにも残る）
-5. イベント後は `playlist.json` を通常表示に戻し、`commentsUrl` を `""` にする
+5. 「未確認」タブを見ながら、出すものを押していく
+6. 終わったら **CSVで保存**（振り返り用。元のログはスプレッドシートにも、次に「始める」と `archive_…` にも残る）
+7. **通常に戻す。** Discordで「通常に戻して」と頼む (`mode:"dual"`、`commentsUrl:""` に戻る)
 
 ## 注意
 

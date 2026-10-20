@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>イベントコメント管理</title>
+<style>
+  :root { --accent:#ff9c00; --bg:#0d0f12; --card:#14171b; --line:#22262c; --dim:#8a8f98; }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body { margin:0; background:var(--bg); color:#e8e6e0;
+    font-family:'Hiragino Sans','Noto Sans JP',sans-serif; font-size:14px; line-height:1.7; }
+  .wrap { max-width:760px; margin:0 auto; padding:16px 14px 60px; }
+  h1 { font-size:16px; font-weight:600; letter-spacing:.1em; margin:4px 0 2px; }
+  h2 { font-size:12px; font-weight:600; color:var(--dim); letter-spacing:.1em;
+    margin:22px 0 8px; padding-bottom:6px; border-bottom:1px solid var(--line); }
+  .sub { font-size:11px; color:var(--dim); margin-bottom:14px; }
+  label.f { display:block; font-size:11px; color:var(--dim); margin:10px 0 4px; }
+  .swatch { display:inline-block; width:22px; height:22px; border-radius:6px; vertical-align:middle;
+    border:1px solid #2c3138; margin-left:6px; }
+  input[type=color] { width:44px; height:40px; padding:2px; border:1px solid #2c3138; border-radius:9px; background:#0f1216; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px; margin-bottom:12px; }
+  textarea, input[type=text] { width:100%; background:#0f1216; color:#e8e6e0; border:1px solid #2c3138;
+    border-radius:9px; padding:11px; font:inherit; font-size:16px; resize:vertical; }
+  textarea { min-height:88px; }
+  button { font:inherit; font-size:13px; border-radius:9px; padding:10px 14px; border:1px solid #2c3138;
+    background:#171a1f; color:#c9cdd3; }
+  button.primary { background:var(--accent); color:#000; border-color:var(--accent); font-weight:700; width:100%; padding:13px; }
+  button.tiny { font-size:11px; padding:5px 10px; border-radius:14px; }
+  button:disabled { opacity:.4; }
+  .row { display:flex; gap:6px; flex-wrap:wrap; }
+  .counter { font-size:11px; color:var(--dim); text-align:right; margin-top:5px; }
+  .msg { font-size:12px; margin-top:10px; padding:9px 11px; border-radius:8px; }
+  .msg.ok { background:#132a19; color:#8fe0a6; }
+  .msg.hold { background:#2a2413; color:#e0cc8f; }
+  .msg.err { background:#2a1616; color:#ff9a8f; }
+  .tabs { display:flex; gap:6px; margin-bottom:10px; }
+  .tabs button.on { background:var(--accent); color:#000; border-color:var(--accent); font-weight:700; }
+  .item { border:1px solid var(--line); border-radius:10px; padding:11px 12px; margin-bottom:8px; background:#111418; }
+  .item .meta { font-size:10px; color:#6b7280; display:flex; gap:8px; margin-bottom:5px; align-items:center; flex-wrap:wrap; }
+  .item .body { font-size:14px; word-break:break-word; margin-bottom:9px; }
+  .tag { font-size:10px; padding:2px 7px; border-radius:10px; border:1px solid; }
+  .tag.pending  { color:#e0cc8f; border-color:#5c4f22; }
+  .tag.approved { color:#8fe0a6; border-color:#245c34; }
+  .tag.rejected { color:#8a8f98; border-color:#3a3f47; }
+  .tag.flag { color:#ff9a8f; border-color:#6b2f2a; }
+  .empty { color:#4b525b; font-size:12px; text-align:center; padding:26px 0; }
+  pre { background:#0f1216; border:1px solid #2c3138; border-radius:9px; padding:11px;
+    font-size:12px; overflow-x:auto; white-space:pre-wrap; word-break:break-all; color:#c9cdd3; }
+  code { font-size:11px; color:#c9a227; background:#1c2026; padding:1px 4px; border-radius:4px; }
+  .note { border-left:3px solid #c9a227; padding:11px 13px; font-size:12px; color:#b6bcc4;
+    background:var(--card); border-radius:8px; margin-bottom:12px; }
+  .note b { color:var(--accent); }
+  details { font-size:12px; color:#b6bcc4; }
+  summary { cursor:pointer; color:var(--dim); font-size:12px; padding:4px 0; }
+  .foot { font-size:10px; color:#4b525b; margin-top:26px; line-height:1.8; }
+  .foot a { color:#8a6a2f; }
+  .stat { display:flex; gap:14px; font-size:11px; color:var(--dim); margin-bottom:10px; }
+  .stat b { color:var(--accent); font-size:15px; }
+  .conn { font-size:11px; padding:7px 11px; border-radius:8px; margin-bottom:12px; }
+  .conn.live  { background:#132a19; color:#8fe0a6; }
+  .conn.local { background:#1c2026; color:#8a8f98; }
+  .conn.err   { background:#2a1616; color:#ff9a8f; }
+  #qr { background:#fff; padding:10px; border-radius:9px; display:inline-block; margin-top:10px; }
+  #qr svg, #qr img, #qr canvas { display:block; width:200px; height:200px; max-width:100%; }
+  .link { font-size:11px; color:#8a6a2f; word-break:break-all; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>コメント選別（管理）</h1>
+  <div class="sub">届いたコメントを見て、掲示板に出すものを決めます。自動判定は理由を付けるだけで、捨てはしません。</div>
+
+  <div class="conn" id="conn"></div>
+  <div id="view"></div>
+
+  <div class="foot">
+    もしも まちと未来の実験室 ／ <a href="../../">プロトタイプ一覧</a><br>
+    参加者用ページ: <a href="../event-comments/">prototypes/event-comments/</a><br>
+    実機の受け口: <code>playlist.json</code> の <code>commentsUrl</code>（1行1コメントのプレーンテキスト・15秒ごと取得・最大20件・ファームウェア v0.10〜）<br>
+    サーバ側: <code>tools/event-comments-gas/Code.gs</code> ／ 手順: <code>docs/event-comments.md</code>
+  </div>
+</div>
+
+<!--
+  QRコード生成 (qrcode-generator 1.4.4 / MIT / Kazuhiko Arase)
+  https://github.com/kazuhikoarase/qrcode-generator
+  **CDNから読まずにページに埋め込んである。** 会場のネットワークやブロッカーで
+  CDNが落ちると、QRだけが出ない状態になるため。描画はSVG (canvas→imgの方式は
+  端末によって白い四角のまま残ることがある)。
+-->
+<script>
+var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=new Array(t),e=0;e<t;e+=1){r[e]=new Array(t);for(var n=0;n<t;n+=1)r[e][n]=null}return r}(l=4*u+17),e(0,0),e(l-7,0),e(0,l-7),i(),o(),v(t,r),7<=u&&h(t),null==n&&(n=w(u,f,c)),d(n,r)}var u=t,f=y[r],g=null,l=0,n=null,c=[],s={},e=function(t,r){for(var e=-1;e<=7;e+=1)if(!(t+e<=-1||l<=t+e))for(var n=-1;n<=7;n+=1)r+n<=-1||l<=r+n||(g[t+e][r+n]=0<=e&&e<=6&&(0==n||6==n)||0<=n&&n<=6&&(0==e||6==e)||2<=e&&e<=4&&2<=n&&n<=4)},o=function(){for(var t=8;t<l-8;t+=1)null==g[t][6]&&(g[t][6]=t%2==0);for(var r=8;r<l-8;r+=1)null==g[6][r]&&(g[6][r]=r%2==0)},i=function(){for(var t=B.getPatternPosition(u),r=0;r<t.length;r+=1)for(var e=0;e<t.length;e+=1){var n=t[r],o=t[e];if(null==g[n][o])for(var i=-2;i<=2;i+=1)for(var a=-2;a<=2;a+=1)g[n+i][o+a]=-2==i||2==i||-2==a||2==a||0==i&&0==a}},h=function(t){for(var r=B.getBCHTypeNumber(u),e=0;e<18;e+=1){var n=!t&&1==(r>>e&1);g[Math.floor(e/3)][e%3+l-8-3]=n}for(e=0;e<18;e+=1){n=!t&&1==(r>>e&1);g[e%3+l-8-3][Math.floor(e/3)]=n}},v=function(t,r){for(var e=f<<3|r,n=B.getBCHTypeInfo(e),o=0;o<15;o+=1){var i=!t&&1==(n>>o&1);o<6?g[o][8]=i:o<8?g[o+1][8]=i:g[l-15+o][8]=i}for(o=0;o<15;o+=1){i=!t&&1==(n>>o&1);o<8?g[8][l-o-1]=i:o<9?g[8][15-o-1+1]=i:g[8][15-o-1]=i}g[l-8][8]=!t},d=function(t,r){for(var e=-1,n=l-1,o=7,i=0,a=B.getMaskFunction(r),u=l-1;0<u;u-=2)for(6==u&&(u-=1);;){for(var f=0;f<2;f+=1)if(null==g[n][u-f]){var c=!1;i<t.length&&(c=1==(t[i]>>>o&1)),a(n,u-f)&&(c=!c),g[n][u-f]=c,-1==(o-=1)&&(i+=1,o=7)}if((n+=e)<0||l<=n){n-=e,e=-e;break}}},w=function(t,r,e){for(var n=b.getRSBlocks(t,r),o=M(),i=0;i<e.length;i+=1){var a=e[i];o.put(a.getMode(),4),o.put(a.getLength(),B.getLengthInBits(a.getMode(),t)),a.write(o)}var u=0;for(i=0;i<n.length;i+=1)u+=n[i].dataCount;if(o.getLengthInBits()>8*u)throw"code length overflow. ("+o.getLengthInBits()+">"+8*u+")";for(o.getLengthInBits()+4<=8*u&&o.put(0,4);o.getLengthInBits()%8!=0;)o.putBit(!1);for(;!(o.getLengthInBits()>=8*u||(o.put(236,8),o.getLengthInBits()>=8*u));)o.put(17,8);return function(t,r){for(var e=0,n=0,o=0,i=new Array(r.length),a=new Array(r.length),u=0;u<r.length;u+=1){var f=r[u].dataCount,c=r[u].totalCount-f;n=Math.max(n,f),o=Math.max(o,c),i[u]=new Array(f);for(var g=0;g<i[u].length;g+=1)i[u][g]=255&t.getBuffer()[g+e];e+=f;var l=B.getErrorCorrectPolynomial(c),h=C(i[u],l.getLength()-1).mod(l);a[u]=new Array(l.getLength()-1);for(g=0;g<a[u].length;g+=1){var s=g+h.getLength()-a[u].length;a[u][g]=0<=s?h.getAt(s):0}}var v=0;for(g=0;g<r.length;g+=1)v+=r[g].totalCount;var d=new Array(v),w=0;for(g=0;g<n;g+=1)for(u=0;u<r.length;u+=1)g<i[u].length&&(d[w]=i[u][g],w+=1);for(g=0;g<o;g+=1)for(u=0;u<r.length;u+=1)g<a[u].length&&(d[w]=a[u][g],w+=1);return d}(o,n)};s.addData=function(t,r){var e=null;switch(r=r||"Byte"){case"Numeric":e=x(t);break;case"Alphanumeric":e=m(t);break;case"Byte":e=L(t);break;case"Kanji":e=D(t);break;default:throw"mode:"+r}c.push(e),n=null},s.isDark=function(t,r){if(t<0||l<=t||r<0||l<=r)throw t+","+r;return g[t][r]},s.getModuleCount=function(){return l},s.make=function(){if(u<1){for(var t=1;t<40;t++){for(var r=b.getRSBlocks(t,f),e=M(),n=0;n<c.length;n++){var o=c[n];e.put(o.getMode(),4),e.put(o.getLength(),B.getLengthInBits(o.getMode(),t)),o.write(e)}var i=0;for(n=0;n<r.length;n++)i+=r[n].dataCount;if(e.getLengthInBits()<=8*i)break}u=t}a(!1,function(){for(var t=0,r=0,e=0;e<8;e+=1){a(!0,e);var n=B.getLostPoint(s);(0==e||n<t)&&(t=n,r=e)}return r}())},s.createTableTag=function(t,r){t=t||2;var e="";e+='<table style="',e+=" border-width: 0px; border-style: none;",e+=" border-collapse: collapse;",e+=" padding: 0px; margin: "+(r=void 0===r?4*t:r)+"px;",e+='">',e+="<tbody>";for(var n=0;n<s.getModuleCount();n+=1){e+="<tr>";for(var o=0;o<s.getModuleCount();o+=1)e+='<td style="',e+=" border-width: 0px; border-style: none;",e+=" border-collapse: collapse;",e+=" padding: 0px; margin: 0px;",e+=" width: "+t+"px;",e+=" height: "+t+"px;",e+=" background-color: ",e+=s.isDark(n,o)?"#000000":"#ffffff",e+=";",e+='"/>';e+="</tr>"}return e+="</tbody>",e+="</table>"},s.createSvgTag=function(t,r,e,n){var o={};"object"==typeof t&&(t=(o=t).cellSize,r=o.margin,e=o.alt,n=o.title),t=t||2,r=void 0===r?4*t:r,(e="string"==typeof e?{text:e}:e||{}).text=e.text||null,e.id=e.text?e.id||"qrcode-description":null,(n="string"==typeof n?{text:n}:n||{}).text=n.text||null,n.id=n.text?n.id||"qrcode-title":null;var i,a,u,f,c=s.getModuleCount()*t+2*r,g="";for(f="l"+t+",0 0,"+t+" -"+t+",0 0,-"+t+"z ",g+='<svg version="1.1" xmlns="http://www.w3.org/2000/svg"',g+=o.scalable?"":' width="'+c+'px" height="'+c+'px"',g+=' viewBox="0 0 '+c+" "+c+'" ',g+=' preserveAspectRatio="xMinYMin meet"',g+=n.text||e.text?' role="img" aria-labelledby="'+p([n.id,e.id].join(" ").trim())+'"':"",g+=">",g+=n.text?'<title id="'+p(n.id)+'">'+p(n.text)+"</title>":"",g+=e.text?'<description id="'+p(e.id)+'">'+p(e.text)+"</description>":"",g+='<rect width="100%" height="100%" fill="white" cx="0" cy="0"/>',g+='<path d="',a=0;a<s.getModuleCount();a+=1)for(u=a*t+r,i=0;i<s.getModuleCount();i+=1)s.isDark(a,i)&&(g+="M"+(i*t+r)+","+u+f);return g+='" stroke="transparent" fill="black"/>',g+="</svg>"},s.createDataURL=function(o,t){o=o||2,t=void 0===t?4*o:t;var r=s.getModuleCount()*o+2*t,i=t,a=r-t;return I(r,r,function(t,r){if(i<=t&&t<a&&i<=r&&r<a){var e=Math.floor((t-i)/o),n=Math.floor((r-i)/o);return s.isDark(n,e)?0:1}return 1})},s.createImgTag=function(t,r,e){t=t||2,r=void 0===r?4*t:r;var n=s.getModuleCount()*t+2*r,o="";return o+="<img",o+=' src="',o+=s.createDataURL(t,r),o+='"',o+=' width="',o+=n,o+='"',o+=' height="',o+=n,o+='"',e&&(o+=' alt="',o+=p(e),o+='"'),o+="/>"};var p=function(t){for(var r="",e=0;e<t.length;e+=1){var n=t.charAt(e);switch(n){case"<":r+="&lt;";break;case">":r+="&gt;";break;case"&":r+="&amp;";break;case'"':r+="&quot;";break;default:r+=n}}return r};return s.createASCII=function(t,r){if((t=t||1)<2)return function(t){t=void 0===t?2:t;var r,e,n,o,i,a=1*s.getModuleCount()+2*t,u=t,f=a-t,c={"██":"█","█ ":"▀"," █":"▄","  ":" "},g={"██":"▀","█ ":"▀"," █":" ","  ":" "},l="";for(r=0;r<a;r+=2){for(n=Math.floor((r-u)/1),o=Math.floor((r+1-u)/1),e=0;e<a;e+=1)i="█",u<=e&&e<f&&u<=r&&r<f&&s.isDark(n,Math.floor((e-u)/1))&&(i=" "),u<=e&&e<f&&u<=r+1&&r+1<f&&s.isDark(o,Math.floor((e-u)/1))?i+=" ":i+="█",l+=t<1&&f<=r+1?g[i]:c[i];l+="\n"}return a%2&&0<t?l.substring(0,l.length-a-1)+Array(1+a).join("▀"):l.substring(0,l.length-1)}(r);t-=1,r=void 0===r?2*t:r;var e,n,o,i,a=s.getModuleCount()*t+2*r,u=r,f=a-r,c=Array(t+1).join("██"),g=Array(t+1).join("  "),l="",h="";for(e=0;e<a;e+=1){for(o=Math.floor((e-u)/t),h="",n=0;n<a;n+=1)i=1,u<=n&&n<f&&u<=e&&e<f&&s.isDark(o,Math.floor((n-u)/t))&&(i=0),h+=i?c:g;for(o=0;o<t;o+=1)l+=h+"\n"}return l.substring(0,l.length-1)},s.renderTo2dContext=function(t,r){r=r||2;for(var e=s.getModuleCount(),n=0;n<e;n++)for(var o=0;o<e;o++)t.fillStyle=s.isDark(n,o)?"black":"white",t.fillRect(n*r,o*r,r,r)},s}i.stringToBytes=(i.stringToBytesFuncs={default:function(t){for(var r=[],e=0;e<t.length;e+=1){var n=t.charCodeAt(e);r.push(255&n)}return r}}).default,i.createStringToBytes=function(u,f){var i=function(){function t(){var t=r.read();if(-1==t)throw"eof";return t}for(var r=S(u),e=0,n={};;){var o=r.read();if(-1==o)break;var i=t(),a=t()<<8|t();n[String.fromCharCode(o<<8|i)]=a,e+=1}if(e!=f)throw e+" != "+f;return n}(),a="?".charCodeAt(0);return function(t){for(var r=[],e=0;e<t.length;e+=1){var n=t.charCodeAt(e);if(n<128)r.push(n);else{var o=i[t.charAt(e)];"number"==typeof o?(255&o)==o?r.push(o):(r.push(o>>>8),r.push(255&o)):r.push(a)}}return r}};var r,t,a=1,u=2,o=4,f=8,y={L:1,M:0,Q:3,H:2},e=0,n=1,c=2,g=3,l=4,h=5,s=6,v=7,B=(r=[[],[6,18],[6,22],[6,26],[6,30],[6,34],[6,22,38],[6,24,42],[6,26,46],[6,28,50],[6,30,54],[6,32,58],[6,34,62],[6,26,46,66],[6,26,48,70],[6,26,50,74],[6,30,54,78],[6,30,56,82],[6,30,58,86],[6,34,62,90],[6,28,50,72,94],[6,26,50,74,98],[6,30,54,78,102],[6,28,54,80,106],[6,32,58,84,110],[6,30,58,86,114],[6,34,62,90,118],[6,26,50,74,98,122],[6,30,54,78,102,126],[6,26,52,78,104,130],[6,30,56,82,108,134],[6,34,60,86,112,138],[6,30,58,86,114,142],[6,34,62,90,118,146],[6,30,54,78,102,126,150],[6,24,50,76,102,128,154],[6,28,54,80,106,132,158],[6,32,58,84,110,136,162],[6,26,54,82,110,138,166],[6,30,58,86,114,142,170]],(t={}).getBCHTypeInfo=function(t){for(var r=t<<10;0<=d(r)-d(1335);)r^=1335<<d(r)-d(1335);return 21522^(t<<10|r)},t.getBCHTypeNumber=function(t){for(var r=t<<12;0<=d(r)-d(7973);)r^=7973<<d(r)-d(7973);return t<<12|r},t.getPatternPosition=function(t){return r[t-1]},t.getMaskFunction=function(t){switch(t){case e:return function(t,r){return(t+r)%2==0};case n:return function(t,r){return t%2==0};case c:return function(t,r){return r%3==0};case g:return function(t,r){return(t+r)%3==0};case l:return function(t,r){return(Math.floor(t/2)+Math.floor(r/3))%2==0};case h:return function(t,r){return t*r%2+t*r%3==0};case s:return function(t,r){return(t*r%2+t*r%3)%2==0};case v:return function(t,r){return(t*r%3+(t+r)%2)%2==0};default:throw"bad maskPattern:"+t}},t.getErrorCorrectPolynomial=function(t){for(var r=C([1],0),e=0;e<t;e+=1)r=r.multiply(C([1,w.gexp(e)],0));return r},t.getLengthInBits=function(t,r){if(1<=r&&r<10)switch(t){case a:return 10;case u:return 9;case o:case f:return 8;default:throw"mode:"+t}else if(r<27)switch(t){case a:return 12;case u:return 11;case o:return 16;case f:return 10;default:throw"mode:"+t}else{if(!(r<41))throw"type:"+r;switch(t){case a:return 14;case u:return 13;case o:return 16;case f:return 12;default:throw"mode:"+t}}},t.getLostPoint=function(t){for(var r=t.getModuleCount(),e=0,n=0;n<r;n+=1)for(var o=0;o<r;o+=1){for(var i=0,a=t.isDark(n,o),u=-1;u<=1;u+=1)if(!(n+u<0||r<=n+u))for(var f=-1;f<=1;f+=1)o+f<0||r<=o+f||0==u&&0==f||a==t.isDark(n+u,o+f)&&(i+=1);5<i&&(e+=3+i-5)}for(n=0;n<r-1;n+=1)for(o=0;o<r-1;o+=1){var c=0;t.isDark(n,o)&&(c+=1),t.isDark(n+1,o)&&(c+=1),t.isDark(n,o+1)&&(c+=1),t.isDark(n+1,o+1)&&(c+=1),0!=c&&4!=c||(e+=3)}for(n=0;n<r;n+=1)for(o=0;o<r-6;o+=1)t.isDark(n,o)&&!t.isDark(n,o+1)&&t.isDark(n,o+2)&&t.isDark(n,o+3)&&t.isDark(n,o+4)&&!t.isDark(n,o+5)&&t.isDark(n,o+6)&&(e+=40);for(o=0;o<r;o+=1)for(n=0;n<r-6;n+=1)t.isDark(n,o)&&!t.isDark(n+1,o)&&t.isDark(n+2,o)&&t.isDark(n+3,o)&&t.isDark(n+4,o)&&!t.isDark(n+5,o)&&t.isDark(n+6,o)&&(e+=40);var g=0;for(o=0;o<r;o+=1)for(n=0;n<r;n+=1)t.isDark(n,o)&&(g+=1);return e+=Math.abs(100*g/r/r-50)/5*10},t);function d(t){for(var r=0;0!=t;)r+=1,t>>>=1;return r}var w=function(){for(var r=new Array(256),e=new Array(256),t=0;t<8;t+=1)r[t]=1<<t;for(t=8;t<256;t+=1)r[t]=r[t-4]^r[t-5]^r[t-6]^r[t-8];for(t=0;t<255;t+=1)e[r[t]]=t;var n={glog:function(t){if(t<1)throw"glog("+t+")";return e[t]},gexp:function(t){for(;t<0;)t+=255;for(;256<=t;)t-=255;return r[t]}};return n}();function C(n,o){if(void 0===n.length)throw n.length+"/"+o;var r=function(){for(var t=0;t<n.length&&0==n[t];)t+=1;for(var r=new Array(n.length-t+o),e=0;e<n.length-t;e+=1)r[e]=n[e+t];return r}(),i={getAt:function(t){return r[t]},getLength:function(){return r.length},multiply:function(t){for(var r=new Array(i.getLength()+t.getLength()-1),e=0;e<i.getLength();e+=1)for(var n=0;n<t.getLength();n+=1)r[e+n]^=w.gexp(w.glog(i.getAt(e))+w.glog(t.getAt(n)));return C(r,0)},mod:function(t){if(i.getLength()-t.getLength()<0)return i;for(var r=w.glog(i.getAt(0))-w.glog(t.getAt(0)),e=new Array(i.getLength()),n=0;n<i.getLength();n+=1)e[n]=i.getAt(n);for(n=0;n<t.getLength();n+=1)e[n]^=w.gexp(w.glog(t.getAt(n))+r);return C(e,0).mod(t)}};return i}function p(){var e=[],o={writeByte:function(t){e.push(255&t)},writeShort:function(t){o.writeByte(t),o.writeByte(t>>>8)},writeBytes:function(t,r,e){r=r||0,e=e||t.length;for(var n=0;n<e;n+=1)o.writeByte(t[n+r])},writeString:function(t){for(var r=0;r<t.length;r+=1)o.writeByte(t.charCodeAt(r))},toByteArray:function(){return e},toString:function(){var t="";t+="[";for(var r=0;r<e.length;r+=1)0<r&&(t+=","),t+=e[r];return t+="]"}};return o}var k,A,b=(k=[[1,26,19],[1,26,16],[1,26,13],[1,26,9],[1,44,34],[1,44,28],[1,44,22],[1,44,16],[1,70,55],[1,70,44],[2,35,17],[2,35,13],[1,100,80],[2,50,32],[2,50,24],[4,25,9],[1,134,108],[2,67,43],[2,33,15,2,34,16],[2,33,11,2,34,12],[2,86,68],[4,43,27],[4,43,19],[4,43,15],[2,98,78],[4,49,31],[2,32,14,4,33,15],[4,39,13,1,40,14],[2,121,97],[2,60,38,2,61,39],[4,40,18,2,41,19],[4,40,14,2,41,15],[2,146,116],[3,58,36,2,59,37],[4,36,16,4,37,17],[4,36,12,4,37,13],[2,86,68,2,87,69],[4,69,43,1,70,44],[6,43,19,2,44,20],[6,43,15,2,44,16],[4,101,81],[1,80,50,4,81,51],[4,50,22,4,51,23],[3,36,12,8,37,13],[2,116,92,2,117,93],[6,58,36,2,59,37],[4,46,20,6,47,21],[7,42,14,4,43,15],[4,133,107],[8,59,37,1,60,38],[8,44,20,4,45,21],[12,33,11,4,34,12],[3,145,115,1,146,116],[4,64,40,5,65,41],[11,36,16,5,37,17],[11,36,12,5,37,13],[5,109,87,1,110,88],[5,65,41,5,66,42],[5,54,24,7,55,25],[11,36,12,7,37,13],[5,122,98,1,123,99],[7,73,45,3,74,46],[15,43,19,2,44,20],[3,45,15,13,46,16],[1,135,107,5,136,108],[10,74,46,1,75,47],[1,50,22,15,51,23],[2,42,14,17,43,15],[5,150,120,1,151,121],[9,69,43,4,70,44],[17,50,22,1,51,23],[2,42,14,19,43,15],[3,141,113,4,142,114],[3,70,44,11,71,45],[17,47,21,4,48,22],[9,39,13,16,40,14],[3,135,107,5,136,108],[3,67,41,13,68,42],[15,54,24,5,55,25],[15,43,15,10,44,16],[4,144,116,4,145,117],[17,68,42],[17,50,22,6,51,23],[19,46,16,6,47,17],[2,139,111,7,140,112],[17,74,46],[7,54,24,16,55,25],[34,37,13],[4,151,121,5,152,122],[4,75,47,14,76,48],[11,54,24,14,55,25],[16,45,15,14,46,16],[6,147,117,4,148,118],[6,73,45,14,74,46],[11,54,24,16,55,25],[30,46,16,2,47,17],[8,132,106,4,133,107],[8,75,47,13,76,48],[7,54,24,22,55,25],[22,45,15,13,46,16],[10,142,114,2,143,115],[19,74,46,4,75,47],[28,50,22,6,51,23],[33,46,16,4,47,17],[8,152,122,4,153,123],[22,73,45,3,74,46],[8,53,23,26,54,24],[12,45,15,28,46,16],[3,147,117,10,148,118],[3,73,45,23,74,46],[4,54,24,31,55,25],[11,45,15,31,46,16],[7,146,116,7,147,117],[21,73,45,7,74,46],[1,53,23,37,54,24],[19,45,15,26,46,16],[5,145,115,10,146,116],[19,75,47,10,76,48],[15,54,24,25,55,25],[23,45,15,25,46,16],[13,145,115,3,146,116],[2,74,46,29,75,47],[42,54,24,1,55,25],[23,45,15,28,46,16],[17,145,115],[10,74,46,23,75,47],[10,54,24,35,55,25],[19,45,15,35,46,16],[17,145,115,1,146,116],[14,74,46,21,75,47],[29,54,24,19,55,25],[11,45,15,46,46,16],[13,145,115,6,146,116],[14,74,46,23,75,47],[44,54,24,7,55,25],[59,46,16,1,47,17],[12,151,121,7,152,122],[12,75,47,26,76,48],[39,54,24,14,55,25],[22,45,15,41,46,16],[6,151,121,14,152,122],[6,75,47,34,76,48],[46,54,24,10,55,25],[2,45,15,64,46,16],[17,152,122,4,153,123],[29,74,46,14,75,47],[49,54,24,10,55,25],[24,45,15,46,46,16],[4,152,122,18,153,123],[13,74,46,32,75,47],[48,54,24,14,55,25],[42,45,15,32,46,16],[20,147,117,4,148,118],[40,75,47,7,76,48],[43,54,24,22,55,25],[10,45,15,67,46,16],[19,148,118,6,149,119],[18,75,47,31,76,48],[34,54,24,34,55,25],[20,45,15,61,46,16]],(A={}).getRSBlocks=function(t,r){var e=function(t,r){switch(r){case y.L:return k[4*(t-1)+0];case y.M:return k[4*(t-1)+1];case y.Q:return k[4*(t-1)+2];case y.H:return k[4*(t-1)+3];default:return}}(t,r);if(void 0===e)throw"bad rs block @ typeNumber:"+t+"/errorCorrectionLevel:"+r;for(var n,o,i=e.length/3,a=[],u=0;u<i;u+=1)for(var f=e[3*u+0],c=e[3*u+1],g=e[3*u+2],l=0;l<f;l+=1)a.push((n=g,o=void 0,(o={}).totalCount=c,o.dataCount=n,o));return a},A),M=function(){var e=[],n=0,o={getBuffer:function(){return e},getAt:function(t){var r=Math.floor(t/8);return 1==(e[r]>>>7-t%8&1)},put:function(t,r){for(var e=0;e<r;e+=1)o.putBit(1==(t>>>r-e-1&1))},getLengthInBits:function(){return n},putBit:function(t){var r=Math.floor(n/8);e.length<=r&&e.push(0),t&&(e[r]|=128>>>n%8),n+=1}};return o},x=function(t){var r=a,n=t,e={getMode:function(){return r},getLength:function(t){return n.length},write:function(t){for(var r=n,e=0;e+2<r.length;)t.put(o(r.substring(e,e+3)),10),e+=3;e<r.length&&(r.length-e==1?t.put(o(r.substring(e,e+1)),4):r.length-e==2&&t.put(o(r.substring(e,e+2)),7))}},o=function(t){for(var r=0,e=0;e<t.length;e+=1)r=10*r+i(t.charAt(e));return r},i=function(t){if("0"<=t&&t<="9")return t.charCodeAt(0)-"0".charCodeAt(0);throw"illegal char :"+t};return e},m=function(t){var r=u,n=t,e={getMode:function(){return r},getLength:function(t){return n.length},write:function(t){for(var r=n,e=0;e+1<r.length;)t.put(45*o(r.charAt(e))+o(r.charAt(e+1)),11),e+=2;e<r.length&&t.put(o(r.charAt(e)),6)}},o=function(t){if("0"<=t&&t<="9")return t.charCodeAt(0)-"0".charCodeAt(0);if("A"<=t&&t<="Z")return t.charCodeAt(0)-"A".charCodeAt(0)+10;switch(t){case" ":return 36;case"$":return 37;case"%":return 38;case"*":return 39;case"+":return 40;case"-":return 41;case".":return 42;case"/":return 43;case":":return 44;default:throw"illegal char :"+t}};return e},L=function(t){var r=o,e=i.stringToBytes(t),n={getMode:function(){return r},getLength:function(t){return e.length},write:function(t){for(var r=0;r<e.length;r+=1)t.put(e[r],8)}};return n},D=function(t){var r=f,e=i.stringToBytesFuncs.SJIS;if(!e)throw"sjis not supported.";!function(){var t=e("友");if(2!=t.length||38726!=(t[0]<<8|t[1]))throw"sjis not supported."}();var o=e(t),n={getMode:function(){return r},getLength:function(t){return~~(o.length/2)},write:function(t){for(var r=o,e=0;e+1<r.length;){var n=(255&r[e])<<8|255&r[e+1];if(33088<=n&&n<=40956)n-=33088;else{if(!(57408<=n&&n<=60351))throw"illegal char at "+(e+1)+"/"+n;n-=49472}n=192*(n>>>8&255)+(255&n),t.put(n,13),e+=2}if(e<r.length)throw"illegal char at "+(e+1)}};return n},S=function(t){var e=t,n=0,o=0,i=0,r={read:function(){for(;i<8;){if(n>=e.length){if(0==i)return-1;throw"unexpected end of file./"+i}var t=e.charAt(n);if(n+=1,"="==t)return i=0,-1;t.match(/^\s$/)||(o=o<<6|a(t.charCodeAt(0)),i+=6)}var r=o>>>i-8&255;return i-=8,r}},a=function(t){if(65<=t&&t<=90)return t-65;if(97<=t&&t<=122)return t-97+26;if(48<=t&&t<=57)return t-48+52;if(43==t)return 62;if(47==t)return 63;throw"c:"+t};return r},I=function(t,r,e){for(var n=function(t,r){var n=t,o=r,l=new Array(t*r),e={setPixel:function(t,r,e){l[r*n+t]=e},write:function(t){t.writeString("GIF87a"),t.writeShort(n),t.writeShort(o),t.writeByte(128),t.writeByte(0),t.writeByte(0),t.writeByte(0),t.writeByte(0),t.writeByte(0),t.writeByte(255),t.writeByte(255),t.writeByte(255),t.writeString(","),t.writeShort(0),t.writeShort(0),t.writeShort(n),t.writeShort(o),t.writeByte(0);var r=i(2);t.writeByte(2);for(var e=0;255<r.length-e;)t.writeByte(255),t.writeBytes(r,e,255),e+=255;t.writeByte(r.length-e),t.writeBytes(r,e,r.length-e),t.writeByte(0),t.writeString(";")}},i=function(t){for(var r=1<<t,e=1+(1<<t),n=t+1,o=h(),i=0;i<r;i+=1)o.add(String.fromCharCode(i));o.add(String.fromCharCode(r)),o.add(String.fromCharCode(e));var a=p(),u=function(t){var e=t,n=0,o=0,r={write:function(t,r){if(t>>>r!=0)throw"length over";for(;8<=n+r;)e.writeByte(255&(t<<n|o)),r-=8-n,t>>>=8-n,n=o=0;o|=t<<n,n+=r},flush:function(){0<n&&e.writeByte(o)}};return r}(a);u.write(r,n);var f=0,c=String.fromCharCode(l[f]);for(f+=1;f<l.length;){var g=String.fromCharCode(l[f]);f+=1,o.contains(c+g)?c+=g:(u.write(o.indexOf(c),n),o.size()<4095&&(o.size()==1<<n&&(n+=1),o.add(c+g)),c=g)}return u.write(o.indexOf(c),n),u.write(e,n),u.flush(),a.toByteArray()},h=function(){var r={},e=0,n={add:function(t){if(n.contains(t))throw"dup key:"+t;r[t]=e,e+=1},size:function(){return e},indexOf:function(t){return r[t]},contains:function(t){return void 0!==r[t]}};return n};return e}(t,r),o=0;o<r;o+=1)for(var i=0;i<t;i+=1)n.setPixel(i,o,e(i,o));var a=p();n.write(a);for(var u=function(){function e(t){a+=String.fromCharCode(r(63&t))}var n=0,o=0,i=0,a="",t={},r=function(t){if(t<0);else{if(t<26)return 65+t;if(t<52)return t-26+97;if(t<62)return t-52+48;if(62==t)return 43;if(63==t)return 47}throw"n:"+t};return t.writeByte=function(t){for(n=n<<8|255&t,o+=8,i+=1;6<=o;)e(n>>>o-6),o-=6},t.flush=function(){if(0<o&&(e(n<<6-o),o=n=0),i%3!=0)for(var t=3-i%3,r=0;r<t;r+=1)a+="="},t.toString=function(){return a},t}(),f=a.toByteArray(),c=0;c<f.length;c+=1)u.writeByte(f[c]);return u.flush(),"data:image/gif;base64,"+u};return i}();qrcode.stringToBytesFuncs["UTF-8"]=function(t){return function(t){for(var r=[],e=0;e<t.length;e++){var n=t.charCodeAt(e);n<128?r.push(n):n<2048?r.push(192|n>>6,128|63&n):n<55296||57344<=n?r.push(224|n>>12,128|n>>6&63,128|63&n):(e++,n=65536+((1023&n)<<10|1023&t.charCodeAt(e)),r.push(240|n>>18,128|n>>12&63,128|n>>6&63,128|63&n))}return r}(t)},function(t){"function"==typeof define&&define.amd?define([],t):"object"==typeof exports&&(module.exports=t())}(function(){return qrcode});
+</script>
+<script>
+// =====================================================================
+// 管理者用。参加者がスマホから投稿 → 自動で理由を付けて保留 → ここで選別
+// → 承認したものだけが実機に流れる。ログはCSV/JSONで保存できる。
+// 参加者用ページは ../event-comments/ (こちらへのリンクは置いていない)。
+// 参加者ページの文言・色 (イベント設定) と、イベントの保存・切り替えもここから行う。
+//
+// 置き場は2つある:
+//   ローカル … このブラウザの中だけ。別タブとは即同期する（1台で通し確認する用）
+//   GAS      … 管理画面でURLを入れると、そちらに切り替わる（本番）
+// GAS側の実装は tools/event-comments-gas/Code.gs
+// =====================================================================
+
+const KEY = "moshimo-event-comments";
+const MAX_LEN = 60;          // 実機は64dot幅。長い文は流れきるまで時間がかかる
+const MAX_TO_DEVICE = 20;    // firmware の MAX_COMMENTS
+
+const q = new URLSearchParams(location.search);
+
+// ---------------- 接続先の設定 ----------------
+// 参加者はURLで受け取る。管理者は画面で入れて端末に保存する。
+// 参加者用URLは ?gas=<デプロイID> の短い形を使う。GASのURLをまるごと ?api= に入れると
+// URLエンコードで倍近くに膨らみ、QRコードが作れる長さを超えてしまうため。
+// ?api= も従来どおり受け付ける（配布済みのURLを壊さない）。
+const GAS_PREFIX = "https://script.google.com/macros/s/", GAS_SUFFIX = "/exec";
+const gasId = u => {
+  const m = /^https:\/\/script\.google\.com\/macros\/s\/([\w-]+)\/exec$/.exec(String(u || ""));
+  return m ? m[1] : "";
+};
+const CONF = {
+  get api(){
+    const id = q.get("gas");
+    if (id && /^[\w-]+$/.test(id)) return GAS_PREFIX + id + GAS_SUFFIX;
+    return q.get("api") || localStorage.getItem(KEY+":api") || "";
+  },
+  set api(v){ v ? localStorage.setItem(KEY+":api", v) : localStorage.removeItem(KEY+":api"); },
+  get key(){ return localStorage.getItem(KEY+":key") || ""; },
+  set key(v){ v ? localStorage.setItem(KEY+":key", v) : localStorage.removeItem(KEY+":key"); },
+};
+const online = () => !!CONF.api;
+
+// ---------------- 自動フィルタ ----------------
+// 方針: 自動では**捨てない**。理由を付けて未確認に積むだけ。最後は必ず人が決める。
+// 表示のたびに計算しているので、ことばを足すと過去の分にも遡って効く。
+const SEED_NG = ["死ね", "殺す", "きもい", "ブス", "バカ", "アホ", "クズ"];
+function ngWords(){
+  try { return JSON.parse(localStorage.getItem(KEY+":ng")) || SEED_NG; } catch { return SEED_NG; }
+}
+function setNgWords(list){ localStorage.setItem(KEY+":ng", JSON.stringify(list)); }
+
+function screen(text){
+  const flags = [], t = String(text).trim();
+  const hit = ngWords().filter(w => w && t.includes(w));
+  if (hit.length) flags.push({ code:"ng", label:"NGワード（" + hit.join("・") + "）" });
+  if (/https?:\/\/|www\./i.test(t))         flags.push({ code:"url",  label:"URLが入っている" });
+  if (/0\d{1,4}-?\d{2,4}-?\d{3,4}/.test(t)) flags.push({ code:"tel",  label:"電話番号らしき数字" });
+  if (/[\w.+-]+@[\w-]+\.[\w.]+/.test(t))    flags.push({ code:"mail", label:"メールアドレスらしき文字列" });
+  if ([...t].length > MAX_LEN)              flags.push({ code:"long", label:"長すぎる（" + [...t].length + "文字）" });
+  if (/(.)\1{9,}/.test(t))                  flags.push({ code:"rep",  label:"同じ文字の連打" });
+  if (!t.length)                            flags.push({ code:"empty",label:"空" });
+  return flags;
+}
+
+// ---------------- 置き場 ----------------
+let CACHE = [];       // 画面はここだけを見る。中身は {id, ts, text, state}
+let CONN = "local";   // local | live | err
+
+const bc = ("BroadcastChannel" in self) ? new BroadcastChannel(KEY) : null;
+
+const LOCAL = {
+  load(){ try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch { return []; } },
+  save(list){ localStorage.setItem(KEY, JSON.stringify(list)); bc && bc.postMessage("changed"); },
+  async list(){ return this.load(); },
+  async add(text){
+    const list = this.load();
+    const id = list.length ? Math.max(...list.map(c=>c.id)) + 1 : 1;
+    list.push({ id, ts:new Date().toISOString(), text:String(text).trim(), state:"pending" });
+    this.save(list);
+  },
+  async setState(id, state){
+    const list = this.load();
+    const c = list.find(x => x.id === id);
+    if (c) { c.state = state; this.save(list); }
+  },
+};
+
+const REMOTE = {
+  async get(action, params){
+    let u = CONF.api + (CONF.api.includes("?") ? "&" : "?") + "action=" + action;
+    for (const [k, v] of Object.entries(params || {})) u += "&" + k + "=" + encodeURIComponent(v);
+    const r = await fetch(u);
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return r.json();
+  },
+  async post(obj){
+    // GASは text/plain にしておくとプリフライト(OPTIONS)が飛ばずに済む
+    const r = await fetch(CONF.api, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify(obj),
+    });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error || "エラー");
+    return j;
+  },
+  // 鍵を持っている端末（管理者）だけが全件を読める。参加者は承認済みだけ (action=public)。
+  // 参加者用URLにはGASのURLが入っているので、鍵なしで全件読めると
+  // 「見送ったことば」まで会場の全員に見えてしまう。
+  async list(){
+    if (CONF.key) {
+      const j = await this.get("list", { key: CONF.key });
+      if (!j.ok) throw new Error(j.error === "forbidden" ? "管理キーが違います" : (j.error || "エラー"));
+      return j.comments || [];
+    }
+    let j = await this.get("public");
+    if (!j.ok && j.error === "unknown action") {
+      // 旧いGASがデプロイされたまま。動きは止めないが、承認前のことばも参加者に見えている
+      LEGACY_GAS = true;
+      j = await this.get("list");
+    }
+    if (!j.ok) throw new Error(j.error || "エラー");
+    return j.comments || [];
+  },
+  async add(text){ await this.post({ action:"add", text }); },
+  async setState(id, state){ await this.post({ action:"state", id, state, key: CONF.key }); },
+};
+
+const store = () => online() ? REMOTE : LOCAL;
+let LEGACY_GAS = false;   // 旧いCode.gsのまま動いている（action=public が無い）
+
+async function refresh(){
+  try {
+    CACHE = await store().list();
+    CONN = online() ? "live" : "local";
+    if (online() && CONF.key && SET.cur === null && !SET.loading) loadEventStuff();
+  } catch (e) {
+    CONN = "err"; CACHE = CACHE || [];
+    console.warn("[event-comments]", e.message);
+  }
+  render();
+}
+bc && (bc.onmessage = () => { if (!online()) refresh(); });
+addEventListener("storage", e => { if (e.key === KEY && !online()) refresh(); });
+
+const esc = s => String(s).replace(/[&<>"]/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+const hhmm = iso => { const d = new Date(iso);
+  return isNaN(d) ? "--:--" : String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0"); };
+const $ = id => document.getElementById(id);
+const view = $("view");
+
+// ---------------- 管理（選別）----------------
+let tab = "pending";
+
+// GASにつないでいるときは、管理キーを入れるまで中身を出さない。
+// 管理画面のURLを知っているだけでは選別画面に入れないようにする。
+// (キーが無ければ承認・見送りはGAS側で弾かれるが、未確認・見送りの一覧そのものを見せない)
+function renderLocked(){
+  view.innerHTML = `
+    <div class="card">
+      <h2 style="margin:0 0 8px">管理キーを入れてください</h2>
+      <div style="font-size:12px;color:var(--dim);line-height:1.6;margin-bottom:10px">
+        この画面は運営用です。Apps Script のスクリプトプロパティに入れた
+        <code>ADMIN_KEY</code> を入れると開きます。<br>
+        コメントを送りたい方は <a href="${esc(postUrlFor())}">送信画面</a> へどうぞ。
+      </div>
+      <input type="text" id="keybox" placeholder="管理キー（ADMIN_KEY）" value="">
+      <div class="row" style="margin-top:8px">
+        <button class="tiny primary" id="keysave">開く</button>
+        <button class="tiny" id="keyoff">つなぎ先を変える</button>
+      </div>
+      <div id="keyerr"></div>
+    </div>`;
+  $("keysave").onclick = async () => {
+    const v = $("keybox").value.trim();
+    if (!v) return;
+    try {
+      const j = await REMOTE.get("list", { key: v });
+      if (!j.ok) throw new Error(j.error === "forbidden" ? "管理キーが違います" : (j.error || "エラー"));
+      CONF.key = v;
+      refresh();
+    } catch (e) {
+      $("keyerr").innerHTML = `<div class="msg err">開けませんでした（${esc(e.message)}）。</div>`;
+    }
+  };
+  $("keyoff").onclick = () => { CONF.api = ""; CONF.key = ""; resetSet(); refresh(); };
+}
+
+// ---------------- イベント設定・イベント ----------------
+// 参加者ページの文言と色 (GASの settings シート) と、名前を付けて保存したイベント (events シート)。
+// 入力中の値は SET.draft に持つ。5秒ごとの描き直しで入力が消えないようにするため。
+const SET = { cur:null, draft:null, events:null, name:"", msg:"", err:"", legacy:false, loading:false };
+const FIELDS = [
+  ["title", "タイトル", "コメントを送る"],
+  ["lead", "説明文", "いま思ったことを送ってください。運営が確認したものが電光掲示板に流れます。"],
+  ["placeholder", "入力欄のヒント", "質問・コメント・つぶやき、なんでも"],
+  ["color", "アクセント色（16進）", "FF9C00"],
+];
+const hex6 = v => { const m = /^#?([0-9a-f]{6})$/i.exec(String(v || "").trim()); return m ? m[1].toUpperCase() : ""; };
+const resetSet = () => Object.assign(SET, { cur:null, draft:null, events:null, msg:"", err:"", legacy:false });
+const dirty = () => SET.cur && SET.draft && FIELDS.some(([k]) =>
+  String(SET.draft[k] ?? "").trim() !== String(SET.cur[k] ?? ""));
+
+async function loadEventStuff(){
+  SET.loading = true;
+  try {
+    const j = await REMOTE.get("settings");
+    if (!j.ok && j.error === "unknown action") { SET.legacy = true; SET.cur = {}; return; }
+    if (!j.ok) throw new Error(j.error || "エラー");
+    SET.cur = j.settings; SET.draft = { ...j.settings }; SET.err = "";
+    const e = await REMOTE.get("events", { key: CONF.key });
+    if (!e.ok) throw new Error(e.error || "エラー");
+    SET.events = e.events || [];
+  } catch (e) {
+    SET.err = "イベント設定を読めませんでした（" + e.message + "）";
+  } finally {
+    SET.loading = false;
+    render();
+  }
+}
+
+// 管理者だけの操作。結果は SET.msg / SET.err に出す
+async function eventAction(obj, okMsg){
+  SET.msg = ""; SET.err = "";
+  try {
+    const j = await REMOTE.post({ ...obj, key: CONF.key });
+    if (j.settings) { SET.cur = j.settings; SET.draft = { ...j.settings }; }
+    if (j.events) SET.events = j.events;
+    else if (obj.action !== "settings") {
+      const e = await REMOTE.get("events", { key: CONF.key });
+      if (e.ok) SET.events = e.events || [];
+    }
+    SET.msg = typeof okMsg === "function" ? okMsg(j) : okMsg;
+    return j;
+  } catch (e) {
+    SET.err = ({ "not found":"その名前のイベントは保存されていません", "bad color":"色は 6 桁の16進（例 FF9C00）で入れてください",
+      "empty name":"イベントの名前を入れてください", forbidden:"管理キーが違います" })[e.message] || e.message;
+  } finally {
+    await refresh();
+  }
+}
+
+function eventCards(){
+  if (!online() || !CONF.key) return `
+    <h2>イベント・参加者ページの文言</h2>
+    <div class="card" style="font-size:12px;color:var(--dim)">GASにつなぐと、参加者ページのタイトル・説明文・色を変えたり、イベントを保存して使い回せます。</div>`;
+  if (SET.legacy) return `
+    <h2>イベント・参加者ページの文言</h2>
+    <div class="msg err">GASが古いままで、イベント設定が使えません。<code>tools/event-comments-gas/Code.gs</code> を貼り直して
+      <b>デプロイを更新</b>してください（デプロイを管理 → 鉛筆 → バージョン「新しいバージョン」→ 更新）。</div>`;
+  if (!SET.draft) return `<h2>イベント・参加者ページの文言</h2>
+    <div class="card"><div class="empty">${SET.err ? esc(SET.err) : "読み込み中…"}</div></div>`;
+  const d = SET.draft, color = hex6(d.color) || "FF9C00";
+  const evs = SET.events || [];
+  return `
+    <h2>イベント</h2>
+    <div class="card">
+      ${evs.length ? evs.map(ev => `
+        <div class="item">
+          <div class="meta"><span class="swatch" style="background:#${esc(hex6(ev.color) || "FF9C00")};margin:0;width:12px;height:12px"></span>
+            <span>${esc(ev.savedAt ? new Date(ev.savedAt).toLocaleString("ja-JP") : "")}</span></div>
+          <div class="body"><b>${esc(ev.name)}</b> <span style="color:var(--dim);font-size:12px">— ${esc(ev.title)}</span></div>
+          <div class="row">
+            <button class="tiny" data-evload="${esc(ev.name)}">読み込む</button>
+            <button class="tiny" data-evstart="${esc(ev.name)}">このイベントを始める</button>
+          </div>
+        </div>`).join("") : `<div class="empty">保存したイベントはまだありません</div>`}
+      <label class="f" for="evname">イベントの名前</label>
+      <input type="text" id="evname" maxlength="40" placeholder="例: 秋のさんままつり" value="${esc(SET.name)}">
+      <div class="row" style="margin-top:8px">
+        <button class="tiny" id="evsave">いまの設定をこの名前で保存</button>
+        <button class="tiny" id="evstartnew">この名前でイベントを始める</button>
+      </div>
+      <div style="font-size:11px;color:var(--dim);margin-top:9px">
+        「始める」と、いまのコメントをスプレッドシートの <code>archive_日付_名前</code> シートに退避してから空にします。
+        その名前で保存した設定があれば読み込みます（無ければ設定はそのまま）。
+      </div>
+    </div>
+
+    <h2>参加者ページの文言と色</h2>
+    <div class="card">
+      ${FIELDS.map(([k, label, ph]) => k === "lead" ? `
+        <label class="f" for="set-${k}">${label}</label>
+        <textarea id="set-${k}" data-set="${k}" maxlength="200" style="min-height:64px" placeholder="${esc(ph)}">${esc(d[k] ?? "")}</textarea>`
+      : k === "color" ? `
+        <label class="f" for="set-${k}">${label}</label>
+        <div class="row" style="align-items:center;flex-wrap:nowrap">
+          <input type="color" id="set-colorpick" value="#${esc(color)}">
+          <input type="text" id="set-${k}" data-set="${k}" maxlength="7" placeholder="${esc(ph)}" value="${esc(d[k] ?? "")}">
+        </div>`
+      : `
+        <label class="f" for="set-${k}">${label}</label>
+        <input type="text" id="set-${k}" data-set="${k}" maxlength="${k === "title" ? 40 : 60}" placeholder="${esc(ph)}" value="${esc(d[k] ?? "")}">`).join("")}
+      <div class="row" style="margin-top:10px">
+        <button class="tiny primary" id="setsave" style="width:auto">保存</button>
+        <button class="tiny" id="setopen">参加者ページで見る</button>
+      </div>
+      <div style="font-size:11px;color:var(--dim);margin-top:9px">
+        保存すると参加者ページに反映されます（開いている人は開き直すと見えます）。空にした項目は既定の文言に戻ります。
+        ${dirty() ? `<br><b style="color:var(--accent)">まだ保存していない変更があります。</b>` : ``}
+      </div>
+    </div>
+    ${SET.msg ? `<div class="msg ok" style="margin-bottom:12px">${esc(SET.msg)}</div>` : ``}
+    ${SET.err ? `<div class="msg err" style="margin-bottom:12px">${esc(SET.err)}</div>` : ``}`;
+}
+
+function bindEventCards(){
+  if (!$("setsave")) return;
+  view.querySelectorAll("[data-set]").forEach(el => el.oninput = () => {
+    SET.draft[el.dataset.set] = el.value;
+    if (el.dataset.set === "color" && hex6(el.value)) $("set-colorpick").value = "#" + hex6(el.value);
+  });
+  $("set-colorpick").oninput = e => { SET.draft.color = e.target.value.slice(1).toUpperCase(); $("set-color").value = SET.draft.color; };
+  $("evname").oninput = e => { SET.name = e.target.value; };
+  $("setsave").onclick = () => {
+    const body = { action:"settings" };
+    FIELDS.forEach(([k]) => body[k] = String(SET.draft[k] ?? "").trim());
+    eventAction(body, "保存しました。参加者ページを開き直すと反映されています。");
+  };
+  $("setopen").onclick = () => open(postUrlFor(), "_blank");
+  const name = () => SET.name.trim();
+  $("evsave").onclick = () => {
+    if (!name()) { SET.err = "イベントの名前を入れてください"; return render(); }
+    if (dirty() && !confirm("参加者ページの文言にまだ保存していない変更があります。\n保存済みの設定のほうをイベントとして保存します。よろしいですか?")) return;
+    const exists = (SET.events || []).some(ev => ev.name === name());
+    if (exists && !confirm("「" + name() + "」はもう保存されています。上書きしますか?")) return;
+    eventAction({ action:"event_save", name:name() }, "「" + name() + "」として保存しました。");
+  };
+  const start = n => {
+    const has = (SET.events || []).some(ev => ev.name === n);
+    if (!confirm("「" + n + "」を始めます。\n\nいまのコメント（" + CACHE.length + "件）を退避して空にします。"
+      + "掲示板に流れているコメントも消えます。\n"
+      + (has ? "保存してある「" + n + "」の文言と色を読み込みます。" : "保存した設定が無いので、文言と色はいまのままです。")
+      + "\n\nよろしいですか?")) return;
+    eventAction({ action:"event_start", name:n }, j =>
+      "「" + n + "」を始めました。" + j.moved + "件を「" + j.archived + "」に退避しました。"
+      + (j.loaded ? "設定も読み込みました。" : ""));
+  };
+  $("evstartnew").onclick = () => name() ? start(name()) : (SET.err = "イベントの名前を入れてください", render());
+  view.querySelectorAll("[data-evstart]").forEach(b => b.onclick = () => start(b.dataset.evstart));
+  view.querySelectorAll("[data-evload]").forEach(b => b.onclick = () => {
+    const n = b.dataset.evload;
+    if (dirty() && !confirm("まだ保存していない変更は消えます。読み込みますか?")) return;
+    eventAction({ action:"event_load", name:n }, "「" + n + "」の設定を読み込みました。参加者ページに反映されています。");
+  });
+}
+
+// 参加者に配るURL。印刷済みのQRと同じになるよう、分割前と同じ ?role=post&gas=… の形を保つ
+// (参加者ページは role を見ないので、付いていても害はない)
+function postUrlFor(){
+  const id = gasId(CONF.api);
+  return new URL("../event-comments/", location.href).href + "?role=post"
+    + (CONF.api ? (id ? "&gas=" + id : "&api=" + encodeURIComponent(CONF.api)) : "");
+}
+
+function renderAdmin(){
+  if (online() && !CONF.key) return renderLocked();
+  const all = CACHE.map(c => ({ ...c, flags: screen(c.text) }));   // 判定は毎回やり直す
+  const n = s => all.filter(c => c.state === s).length;
+  const shown = tab === "all" ? all : all.filter(c => c.state === tab);
+  const approved = all.filter(c => c.state === "approved");
+  const deviceText = approved.slice(-MAX_TO_DEVICE).map(c => c.text).join("\n");
+  const postUrl = postUrlFor();
+  // playlist.json の commentsUrl に入れる値。実機はこのURLを15秒ごとに見る
+  const deviceUrl = CONF.api ? CONF.api + (CONF.api.includes("?") ? "&" : "?") + "action=text" : "";
+
+  view.innerHTML = `
+    ${LEGACY_GAS ? `<div class="msg err" style="margin-bottom:12px">
+      <b>GASが古いままです。</b>いま参加者の画面から「未確認」「見送り」のことばまで読めてしまいます。<br>
+      <code>tools/event-comments-gas/Code.gs</code> を貼り直して、<b>デプロイを更新</b>してください
+      （デプロイを管理 → 鉛筆 → バージョン「新しいバージョン」→ 更新）。
+    </div>` : ``}
+    <div class="card">
+      <div class="stat">
+        <span><b>${n("pending")}</b> 未確認</span>
+        <span><b>${n("approved")}</b> 表示中</span>
+        <span><b>${n("rejected")}</b> 見送り</span>
+        <span><b>${all.length}</b> 合計</span>
+      </div>
+      <div class="tabs">
+        ${[["pending","未確認"],["approved","表示中"],["rejected","見送り"],["all","全部"]]
+          .map(([k,l]) => `<button class="tiny ${tab===k?"on":""}" data-tab="${k}">${l}</button>`).join("")}
+      </div>
+      <div>${shown.length ? shown.slice().reverse().map(c => `
+        <div class="item">
+          <div class="meta">
+            <span>${hhmm(c.ts)}</span>
+            <span class="tag ${c.state}">${{pending:"未確認",approved:"表示中",rejected:"見送り"}[c.state] || c.state}</span>
+            ${c.flags.map(f => `<span class="tag flag">${esc(f.label)}</span>`).join("")}
+          </div>
+          <div class="body">${esc(c.text)}</div>
+          <div class="row">
+            ${c.state !== "approved" ? `<button class="tiny" data-ok="${c.id}">掲示板に出す</button>` : ""}
+            ${c.state !== "rejected" ? `<button class="tiny" data-ng="${c.id}">見送る</button>` : ""}
+            ${c.state !== "pending"  ? `<button class="tiny" data-un="${c.id}">未確認に戻す</button>` : ""}
+          </div>
+        </div>`).join("") : `<div class="empty">ありません</div>`}</div>
+    </div>
+
+    <h2>実機に送るテキスト（${approved.length > MAX_TO_DEVICE
+      ? "新しい" + MAX_TO_DEVICE + "件" : approved.length + "件"}）</h2>
+    <div class="card">
+      <pre>${deviceText ? esc(deviceText) : "（まだ承認されたコメントがありません）"}</pre>
+      <div class="row">
+        <button class="tiny" id="copy">コピー</button>
+        <button class="tiny" id="dl-txt">comments.txt</button>
+        <button class="tiny" id="preview" ${deviceText ? "" : "disabled"}>掲示板で見る</button>
+      </div>
+      <div style="font-size:11px;color:var(--dim);margin-top:9px">
+        ${online()
+          ? `GASにつながっているので、<b>承認した時点で実機に届きます</b>（15秒以内）。手で置く必要はありません。`
+          : `GASにつなぐと、承認した時点で実機に届くようになります（15秒以内）。つながっていない間は、この文面を書き出して渡す形になります。`}
+      </div>
+    </div>
+
+    ${eventCards()}
+
+    <h2>つなぎ先（GAS）</h2>
+    <div class="card">
+      <input type="text" id="apibox" placeholder="https://script.google.com/macros/s/.../exec" value="${esc(CONF.api)}">
+      <div style="margin-top:6px">
+        <input type="text" id="keybox" placeholder="管理キー（スクリプトプロパティの ADMIN_KEY）" value="${esc(CONF.key)}">
+      </div>
+      <div class="row" style="margin-top:8px">
+        <button class="tiny" id="apisave">保存してつなぐ</button>
+        <button class="tiny" id="apiclear">切ってローカルに戻す</button>
+      </div>
+      <div style="font-size:11px;color:var(--dim);margin-top:9px">
+        入れるとこの端末に保存されます。空ならこのブラウザの中だけで動きます。<br>
+        作り方は <code>docs/event-comments.md</code>、コードは <code>tools/event-comments-gas/Code.gs</code>。
+      </div>
+      ${online() ? `
+        <div style="margin-top:14px">
+          <div style="font-size:11px;color:var(--dim)">参加者に見せるURL（この画面のQRを撮ってもらう）</div>
+          <div class="link">${esc(postUrl)}</div>
+          <div id="qr"></div>
+          <div class="row" style="margin-top:8px"><button class="tiny" id="copylink">URLをコピー</button></div>
+        </div>
+        <div style="margin-top:14px">
+          <div style="font-size:11px;color:var(--dim)">実機につなぐURL（<code>playlist.json</code> の <code>commentsUrl</code> に入れる値）</div>
+          <div class="link">${esc(deviceUrl)}</div>
+          <div class="row" style="margin-top:8px"><button class="tiny" id="copydev">コピー</button></div>
+          <div style="font-size:11px;color:var(--dim);margin-top:6px">
+            これをDiscordに貼れば、こちらで <code>playlist.json</code> に入れます（反映は約1〜2分）。<br>
+            ファームウェア v0.10以上が必要です。
+          </div>
+        </div>` : ``}
+    </div>
+
+    <h2>ログの保存</h2>
+    <div class="card">
+      <div class="row">
+        <button class="tiny" id="dl-csv">CSVで保存</button>
+        <button class="tiny" id="dl-json">JSONで保存</button>
+        ${online() ? `` : `<button class="tiny" id="wipe">全部消す</button>`}
+      </div>
+      <div style="font-size:11px;color:var(--dim);margin-top:9px">
+        時刻・本文・状態・自動判定の理由まで残ります。${online()
+          ? `GAS接続中は元のログがスプレッドシートにも残ります。`
+          : `イベント後の振り返り用。`}
+      </div>
+    </div>
+
+    <h2>自動判定のことば</h2>
+    <div class="card">
+      <input type="text" id="ngbox" value="${esc(ngWords().join("、"))}">
+      <div class="row" style="margin-top:8px">
+        <button class="tiny" id="ngsave">保存</button>
+        <button class="tiny" id="ngreset">初期値に戻す</button>
+      </div>
+      <div style="font-size:11px;color:var(--dim);margin-top:9px">
+        「、」区切り。この端末にだけ保存されます（リポジトリには載りません）。<br>
+        引っかかっても<b>自動では捨てません</b>。理由が付いて未確認に積まれるだけです。
+      </div>
+    </div>`;
+
+  view.querySelectorAll("[data-tab]").forEach(b => b.onclick = () => { tab = b.dataset.tab; render(); });
+  bindEventCards();
+  const act = (attr, state) => view.querySelectorAll(`[data-${attr}]`).forEach(b => b.onclick = async () => {
+    b.disabled = true;
+    try { await store().setState(+b.dataset[attr], state); }
+    catch (e) { alert("変更できませんでした: " + e.message); }
+    refresh();
+  });
+  act("ok", "approved"); act("ng", "rejected"); act("un", "pending");
+
+  $("copy").onclick = () => navigator.clipboard?.writeText(deviceText)
+    .then(() => { $("copy").textContent = "コピーしました"; setTimeout(()=>$("copy").textContent="コピー", 1400); });
+  $("dl-txt").onclick  = () => download("comments.txt", deviceText, "text/plain");
+  $("dl-json").onclick = () => download("comments-log.json", JSON.stringify(all, null, 2), "application/json");
+  $("dl-csv").onclick  = () => download("comments-log.csv", toCsv(all), "text/csv");
+  $("preview").onclick = () => open("../board/?speed=45&text="
+    + encodeURIComponent(approved.slice(-MAX_TO_DEVICE).map(c=>c.text).join("◆")), "_blank");
+  if ($("wipe")) $("wipe").onclick = () => {
+    if (confirm("ログを全部消します。よろしいですか?")) { LOCAL.save([]); refresh(); } };
+
+  $("apisave").onclick = () => { CONF.api = $("apibox").value.trim(); CONF.key = $("keybox").value.trim(); resetSet(); refresh(); };
+  $("apiclear").onclick = () => { CONF.api = ""; resetSet(); refresh(); };
+  if ($("copylink")) $("copylink").onclick = () => navigator.clipboard?.writeText(postUrl)
+    .then(() => { $("copylink").textContent = "コピーしました"; setTimeout(()=>$("copylink").textContent="URLをコピー", 1400); });
+  if ($("copydev")) $("copydev").onclick = () => navigator.clipboard?.writeText(deviceUrl)
+    .then(() => { $("copydev").textContent = "コピーしました"; setTimeout(()=>$("copydev").textContent="コピー", 1400); });
+  // QRはSVGで描く。作れなかったときは黙って白い四角を残さず、理由を出す
+  if ($("qr")) {
+    try {
+      if (typeof qrcode !== "function") throw new Error("QRの部品が読み込めていません");
+      const qr = qrcode(0, "M");      // 0 = 長さに合わせて自動
+      qr.addData(postUrl);
+      qr.make();
+      $("qr").innerHTML = qr.createSvgTag({ cellSize: 4, margin: 1, scalable: true });
+      // 出したつもりで空、が一番困る。中身を確かめて、駄目なら理由を出す
+      const svg = $("qr").querySelector("svg");
+      if (!svg || !svg.querySelector("path,rect,use")) throw new Error("描けませんでした");
+    } catch (e) {
+      $("qr").innerHTML = `<div style="color:#333;font-size:11px;line-height:1.5;max-width:168px;padding:2px">
+        QRを作れませんでした（${esc(e.message)}）。<br>上のURLをコピーして配ってください。</div>`;
+    }
+  }
+
+  $("ngsave").onclick = () => { setNgWords($("ngbox").value.split(/[、,]/).map(s=>s.trim()).filter(Boolean)); render(); };
+  $("ngreset").onclick = () => { setNgWords(SEED_NG); render(); };
+}
+
+// ---------------- 保存まわり ----------------
+function toCsv(list){
+  const cell = v => `"${String(v).replace(/"/g,'""')}"`;
+  const head = ["時刻","本文","状態","自動判定"].map(cell).join(",");
+  const rows = list.map(c => [
+    new Date(c.ts).toLocaleString("ja-JP"),
+    c.text,
+    {pending:"未確認",approved:"表示中",rejected:"見送り"}[c.state] || c.state,
+    (c.flags || screen(c.text)).map(f=>f.label).join(" / "),
+  ].map(cell).join(","));
+  return "﻿" + [head, ...rows].join("\r\n");   // BOM付き(Excelで文字化けしない)
+}
+function download(name, text, mime){
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([text], {type: mime + ";charset=utf-8"}));
+  a.download = name; a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+
+// ---------------- 画面切替 ----------------
+// 入力中は描き直さない。5秒ごとの自動更新が view.innerHTML を差し替えるため、
+// 何もしないと打っている途中の文字が消える (日本語入力だと変換中の分ごと消える)。
+// 入力欄から離れたときに、溜まっていた更新をまとめて反映する。
+let composing = false, deferred = false;
+const typing = () => composing ||
+  !!(document.activeElement && view.contains(document.activeElement) &&
+     /^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName));
+addEventListener("compositionstart", () => { composing = true; });
+addEventListener("compositionend",   () => { composing = false; });
+addEventListener("focusout", () => setTimeout(() => {
+  if (deferred && !typing()) { deferred = false; render(); }
+}, 0));
+
+function render(){
+  if (typing()) { deferred = true; return; }
+  const conn = $("conn");
+  conn.className = "conn " + CONN;
+  conn.textContent = CONN === "live" ? "GASにつながっています（参加者のスマホからも届きます）"
+    : CONN === "err" ? "つなぎ先に届きません。URLと公開設定を確認してください。"
+    : "このブラウザの中だけで動いています（別タブとは同期します）";
+  renderAdmin();
+}
+
+refresh();
+setInterval(() => { if (online()) refresh(); }, 5000);   // GAS接続中は5秒ごとに取り直す
+</script>
+</body>
+</html>

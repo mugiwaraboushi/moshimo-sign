@@ -96,6 +96,20 @@ Discord経由でメンバーからの依頼を受けてプロトタイプを作�
 依頼者には「ファームウェアの変更が要るので、レビューを経て反映されます」と伝える
 (表示だけの変更のように1〜2分では反映されない)。
 
+## 「イベントモードにして」「通常に戻して」と言われたとき
+
+イベントコメント (参加者用 `prototypes/event-comments/` / 管理者用 `prototypes/event-comments-admin/`、
+手順は [`docs/event-comments.md`](docs/event-comments.md)) を実機に流す / 止める切り替え。
+手順は上の playlist 更新と同じ (JSON検証 → commit + push、コミットに依頼者の表示名)。
+
+- **「イベントモードにして」** → `playlist.json` の `mode` を `"event"`、`commentsUrl` を GAS の
+  text 用URL (`…/exec?action=text`) にする。**GAS のURLは `CLAUDE.local.md` を見る**
+  (公開ファイル・コミットメッセージ・Discordの返答には書かない)。他のキーは触らない
+- **「通常に戻して」** → `mode` を `"dual"`、`commentsUrl` を `""` に戻す。他のキーは触らない
+- どちらも実行後に「1〜2分で実機に反映されます」と返す
+- 「イベント中は大きい字で」のような文字サイズの依頼は、v18 (`scrollScale`) が公開される
+  (`firmware/manifest.json` の `version` が18以上になる) までは「次のファーム版から対応」と返す
+
 ## 実機について
 
 - 実機は**現在設置準備中**。設置場所・ネットワーク構成は公開情報にしないため、
