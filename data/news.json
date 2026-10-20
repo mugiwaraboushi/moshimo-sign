@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T18:02:21.586Z",
+ "updatedAt": "2026-10-20T21:44:39.084Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "岩井コスモ証券 不正アクセスで顧客が意図しない売買注文",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62520",
-     "pubDate": "Wed, 21 Oct 2026 00:26:19 +0900"
+     "title": "消費税減税法案 野党からは対案も 与党は成立へ歩み寄り模索",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de62512",
+     "pubDate": "Wed, 21 Oct 2026 05:48:00 +0900"
     },
     {
-     "title": "神奈川 藤沢14人死傷事故 運転手「驚いてアクセル踏み込んだ」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261020de62515",
-     "pubDate": "Wed, 21 Oct 2026 00:04:24 +0900"
+     "title": "台風30号 先島諸島に23日から接近か きょうは広範囲で激しい雨",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62549",
+     "pubDate": "Wed, 21 Oct 2026 06:02:00 +0900"
+    },
+    {
+     "title": "体操世界選手権男子団体 日本は金メダルで五輪出場権獲得",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62550",
+     "pubDate": "Wed, 21 Oct 2026 05:55:49 +0900"
+    },
+    {
+     "title": "フランス各地で夜間外出禁止令続く 今週末もデモ 警備強化へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62533",
+     "pubDate": "Wed, 21 Oct 2026 05:28:00 +0900"
+    },
+    {
+     "title": "高市内閣発足1年 消費税減税法案成立に全力 安保3文書取り組む",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de62511",
+     "pubDate": "Wed, 21 Oct 2026 04:48:00 +0900"
     },
     {
      "title": "国の省エネ住宅事業で2万3000件超の情報漏えいのおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261020de62509",
-     "pubDate": "Tue, 20 Oct 2026 23:39:19 +0900"
+     "pubDate": "Tue, 20 Oct 2026 23:39:00 +0900"
     },
     {
      "title": "ふるさとチョイス 445万件の個人情報流出を発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20261020de62437",
-     "pubDate": "Tue, 20 Oct 2026 20:18:53 +0900"
-    },
-    {
-     "title": "探査機「MMX」 火星へ向かう軌道に 衛星「フォボス」探査へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61814",
-     "pubDate": "Tue, 20 Oct 2026 20:04:00 +0900"
-    },
-    {
-     "title": "台風30号 先島諸島に23日から接近見込み 西日本に影響可能性も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61985",
-     "pubDate": "Tue, 20 Oct 2026 22:17:00 +0900"
-    },
-    {
-     "title": "あす北～西日本で激しい雨か 北日本は荒天に 季節外れの暑さも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61878",
-     "pubDate": "Tue, 20 Oct 2026 19:08:00 +0900"
+     "pubDate": "Tue, 20 Oct 2026 20:18:00 +0900"
     }
    ]
   },
@@ -60,7 +60,7 @@
      "pubDate": "Tue, 20 Oct 2026 22:06:16 +0900"
     },
     {
-     "title": "「布団乾燥機でダニ死滅」根拠なし 消費者庁が措置命令",
+     "title": "布団乾燥機を販売の東京の事業者に消費者庁が措置命令",
      "link": "https://news.web.nhk/newsweb/na/nd-20261020de62467",
      "pubDate": "Tue, 20 Oct 2026 21:04:00 +0900"
     },
@@ -72,7 +72,7 @@
     {
      "title": "ふるさとチョイス 445万件の個人情報流出を発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20261020de62437",
-     "pubDate": "Tue, 20 Oct 2026 20:18:53 +0900"
+     "pubDate": "Tue, 20 Oct 2026 20:18:00 +0900"
     },
     {
      "title": "木原長官“サイバー攻撃実態解明努める”中国系AI使用見解受け",
@@ -132,7 +132,7 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
-     "title": "「布団乾燥機でダニ死滅」根拠なし 消費者庁が措置命令",
+     "title": "布団乾燥機を販売の東京の事業者に消費者庁が措置命令",
      "link": "https://news.web.nhk/newsweb/na/nd-20261020de62467",
      "pubDate": "Tue, 20 Oct 2026 21:04:00 +0900"
     },
@@ -214,6 +214,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米国務長官 ウクライナへのミサイル納入遅れに政治的意図ない",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62527",
+     "pubDate": "Wed, 21 Oct 2026 06:40:52 +0900"
+    },
+    {
+     "title": "フランス各地で夜間外出禁止令続く 今週末もデモ 警備強化へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62533",
+     "pubDate": "Wed, 21 Oct 2026 05:28:00 +0900"
+    },
+    {
+     "title": "フォルクスワーゲン 2030年まで賃上げを凍結か 労組側は反発",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de62516",
+     "pubDate": "Wed, 21 Oct 2026 04:55:00 +0900"
+    },
+    {
      "title": "韓国 駐ウクライナ大使館員の一部を撤収へ 関係悪化懸念",
      "link": "https://news.web.nhk/newsweb/na/nd-20261020de62435",
      "pubDate": "Tue, 20 Oct 2026 20:03:00 +0900"
@@ -272,21 +287,6 @@
      "title": "英スコットランドで日本メーカーの海底ケーブル工場の開所式",
      "link": "https://news.web.nhk/newsweb/na/nd-20261020de61912",
      "pubDate": "Tue, 20 Oct 2026 07:19:00 +0900"
-    },
-    {
-     "title": "攻撃の応酬続きサウジアラビアの“砂漠のダボス会議”延期に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61908",
-     "pubDate": "Tue, 20 Oct 2026 06:38:33 +0900"
-    },
-    {
-     "title": "米 中間選挙まで2週間 下院は民主党過半数うかがう 上院は接戦",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61904",
-     "pubDate": "Tue, 20 Oct 2026 05:37:00 +0900"
-    },
-    {
-     "title": "エチオピア情勢悪化 紅海の不安定化の懸念強まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61884",
-     "pubDate": "Tue, 20 Oct 2026 05:28:41 +0900"
     }
    ]
   },
@@ -301,16 +301,6 @@
      "pubDate": "Tue, 20 Oct 2026 14:45:20 GMT"
     },
     {
-     "title": "6人死亡事故判決 遺族複雑な思い",
-     "link": "https://news.yahoo.co.jp/pickup/6599497?source=rss",
-     "pubDate": "Tue, 20 Oct 2026 09:36:43 GMT"
-    },
-    {
-     "title": "武部農相 献金巡り公選法違反疑い",
-     "link": "https://news.yahoo.co.jp/pickup/6599528?source=rss",
-     "pubDate": "Tue, 20 Oct 2026 14:56:15 GMT"
-    },
-    {
      "title": "台風30号 本州付近に来週接近恐れ",
      "link": "https://news.yahoo.co.jp/pickup/6599518?source=rss",
      "pubDate": "Tue, 20 Oct 2026 13:29:05 GMT"
@@ -321,19 +311,29 @@
      "pubDate": "Tue, 20 Oct 2026 13:57:57 GMT"
     },
     {
+     "title": "武部農相 献金巡り公選法違反疑い",
+     "link": "https://news.yahoo.co.jp/pickup/6599528?source=rss",
+     "pubDate": "Tue, 20 Oct 2026 14:56:15 GMT"
+    },
+    {
      "title": "フラット35 全国で不適正利用64件",
      "link": "https://news.yahoo.co.jp/pickup/6599514?source=rss",
      "pubDate": "Tue, 20 Oct 2026 12:57:14 GMT"
     },
     {
-     "title": "GSで灯油にガソリン混入か 釧路",
-     "link": "https://news.yahoo.co.jp/pickup/6599529?source=rss",
-     "pubDate": "Tue, 20 Oct 2026 15:28:22 GMT"
+     "title": "ホテルに女性遺体 死因は失血死",
+     "link": "https://news.yahoo.co.jp/pickup/6599530?source=rss",
+     "pubDate": "Tue, 20 Oct 2026 21:08:17 GMT"
     },
     {
-     "title": "土田大さん死去 心不全の症状とは",
-     "link": "https://news.yahoo.co.jp/pickup/6599484?source=rss",
-     "pubDate": "Tue, 20 Oct 2026 08:22:13 GMT"
+     "title": "世界体操の男子団体 日本が連覇",
+     "link": "https://news.yahoo.co.jp/pickup/6599533?source=rss",
+     "pubDate": "Tue, 20 Oct 2026 21:35:33 GMT"
+    },
+    {
+     "title": "土田大さん死去 ディズニーが追悼",
+     "link": "https://news.yahoo.co.jp/pickup/6599531?source=rss",
+     "pubDate": "Tue, 20 Oct 2026 21:21:44 GMT"
     }
    ]
   }
