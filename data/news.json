@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T19:24:03.235Z",
+ "updatedAt": "2026-10-21T22:30:45.802Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,37 +10,37 @@
     {
      "title": "“PHPでぜい弱性確認 速やかな対応を”情報処理推進機構",
      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63209",
-     "pubDate": "Thu, 22 Oct 2026 02:11:00 +0900"
+     "pubDate": "Thu, 22 Oct 2026 05:14:00 +0900"
     },
     {
-     "title": "猛烈な台風30号 先島諸島23日接近 西日本に影響の可能性も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62549",
-     "pubDate": "Wed, 21 Oct 2026 20:19:31 +0900"
-    },
-    {
-     "title": "秋田 子吉川で一時 氾濫特別警報 引き続き周囲の状況確認を",
+     "title": "秋田 子吉川 氾濫特別警報は注意報に 危険な場所に近づかない",
      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63227",
-     "pubDate": "Thu, 22 Oct 2026 02:41:00 +0900"
+     "pubDate": "Thu, 22 Oct 2026 06:52:24 +0900"
     },
     {
-     "title": "【動画】道路まで水あふれる 子吉川沿い 秋田 由利本荘市",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63212",
-     "pubDate": "Wed, 21 Oct 2026 22:55:41 +0900"
+     "title": "猛烈な台風30号 あす先島諸島接近 早めに対策を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63248",
+     "pubDate": "Thu, 22 Oct 2026 07:06:00 +0900"
     },
     {
-     "title": "不正アクセス“金融機関が狙われる段階に変わってきた可能性”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62921",
-     "pubDate": "Wed, 21 Oct 2026 22:35:59 +0900"
+     "title": "消費税減税法案 与党“審議重ね法案通過”野党“充実審議を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63246",
+     "pubDate": "Thu, 22 Oct 2026 06:08:00 +0900"
     },
     {
-     "title": "「ちぃたん☆」訴訟 2審で賠償命じられた須崎市が上告",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63220",
-     "pubDate": "Wed, 21 Oct 2026 23:50:31 +0900"
+     "title": "アメリカ メタ大幅増益 AIなど巨額の設備投資続ける見通し",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63277",
+     "pubDate": "Thu, 22 Oct 2026 06:27:57 +0900"
     },
     {
-     "title": "中国AI発展に向けデータ事業担う国有企業を設立",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63217",
-     "pubDate": "Thu, 22 Oct 2026 00:55:50 +0900"
+     "title": "ネパールのヒマラヤで登山中だった日本人2人が行方不明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63265",
+     "pubDate": "Thu, 22 Oct 2026 04:37:11 +0900"
+    },
+    {
+     "title": "体操 世界選手権 女子団体 日本は銅メダルで五輪出場権獲得",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63274",
+     "pubDate": "Thu, 22 Oct 2026 05:42:22 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（10月22日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63042",
+     "pubDate": "Thu, 22 Oct 2026 06:52:42 +0900"
+    },
+    {
+     "title": "岩手 大槌町の山林火災から半年 焼けた木の活用が課題",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63238",
+     "pubDate": "Thu, 22 Oct 2026 05:27:24 +0900"
+    },
+    {
+     "title": "EVなどの補助金を来年1月から減額へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63222",
+     "pubDate": "Thu, 22 Oct 2026 05:16:54 +0900"
+    },
     {
      "title": "「ちぃたん☆」訴訟 2審で賠償命じられた須崎市が上告",
      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63220",
@@ -62,7 +77,7 @@
     {
      "title": "“PHPでぜい弱性確認 速やかな対応を”情報処理推進機構",
      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63209",
-     "pubDate": "Thu, 22 Oct 2026 02:11:00 +0900"
+     "pubDate": "Thu, 22 Oct 2026 05:14:00 +0900"
     },
     {
      "title": "【交通影響】秋田のJR 大雨や河川増水の影響で運転取りやめも",
@@ -108,21 +123,6 @@
      "title": "全国20府県の警察官などの個人情報 不正アクセスで漏えいか",
      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62966",
      "pubDate": "Wed, 21 Oct 2026 17:27:21 +0900"
-    },
-    {
-     "title": "埼玉 八潮陥没事故 死亡のトラックの運転手遺族が県を提訴",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62856",
-     "pubDate": "Wed, 21 Oct 2026 16:16:00 +0900"
-    },
-    {
-     "title": "iPS心筋シート承認後1例目の手術 医師会見「患者の経過良好」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62811",
-     "pubDate": "Wed, 21 Oct 2026 15:35:17 +0900"
-    },
-    {
-     "title": "16歳女性が衰弱死 国賠訴訟で県や国は争う姿勢 神戸地裁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62789",
-     "pubDate": "Wed, 21 Oct 2026 14:59:00 +0900"
     }
    ]
   },
@@ -214,9 +214,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "アメリカ メタ大幅増益 AIなど巨額の設備投資続ける見通し",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63277",
+     "pubDate": "Thu, 22 Oct 2026 06:27:57 +0900"
+    },
+    {
+     "title": "北朝鮮キム・ヨジョン氏「今月中に心理戦拡声機が稼働状態」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63256",
+     "pubDate": "Thu, 22 Oct 2026 05:23:30 +0900"
+    },
+    {
+     "title": "韓国 イ大統領“AIに聞いた”内容をSNSに投稿し物議",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63228",
+     "pubDate": "Thu, 22 Oct 2026 05:10:06 +0900"
+    },
+    {
+     "title": "トルコ カタール パキスタン インドネシアが防衛協力で覚書",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63267",
+     "pubDate": "Thu, 22 Oct 2026 05:06:22 +0900"
+    },
+    {
+     "title": "ネパールのヒマラヤで登山中だった日本人2人が行方不明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63265",
+     "pubDate": "Thu, 22 Oct 2026 04:37:11 +0900"
+    },
+    {
      "title": "“PHPでぜい弱性確認 速やかな対応を”情報処理推進機構",
      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63209",
-     "pubDate": "Thu, 22 Oct 2026 02:11:00 +0900"
+     "pubDate": "Thu, 22 Oct 2026 05:14:00 +0900"
     },
     {
      "title": "中国AI発展に向けデータ事業担う国有企業を設立",
@@ -262,31 +287,6 @@
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月21日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53354",
      "pubDate": "Wed, 21 Oct 2026 14:35:00 +0900"
-    },
-    {
-     "title": "マスク氏がウクライナ軍利用の通信サービス制限指示か 米報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62759",
-     "pubDate": "Wed, 21 Oct 2026 13:26:55 +0900"
-    },
-    {
-     "title": "【きょうのおはBiz 10月21日(水)】SNS活用で販路拡大 韓国農家",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62612",
-     "pubDate": "Wed, 21 Oct 2026 12:42:33 +0900"
-    },
-    {
-     "title": "日米豪印 クアッド首脳会合を来月マニラで開催 米国務長官",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62586",
-     "pubDate": "Wed, 21 Oct 2026 08:53:00 +0900"
-    },
-    {
-     "title": "アメリカ政府 民生部門で中国AIのディープシーク利用禁止に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62564",
-     "pubDate": "Wed, 21 Oct 2026 07:57:00 +0900"
-    },
-    {
-     "title": "外務省局長がロシア外務省幹部と会談 記者の即時解放強く要請",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62531",
-     "pubDate": "Wed, 21 Oct 2026 12:58:05 +0900"
     }
    ]
   },
@@ -311,29 +311,29 @@
      "pubDate": "Wed, 21 Oct 2026 13:52:02 GMT"
     },
     {
+     "title": "PHPに欠陥 欧州各国でサイト遮断",
+     "link": "https://news.yahoo.co.jp/pickup/6599650?source=rss",
+     "pubDate": "Wed, 21 Oct 2026 21:57:25 GMT"
+    },
+    {
+     "title": "コミックシーモア最大420万件流出",
+     "link": "https://news.yahoo.co.jp/pickup/6599646?source=rss",
+     "pubDate": "Wed, 21 Oct 2026 21:22:20 GMT"
+    },
+    {
      "title": "88歳の父死亡 傷害疑いで娘を逮捕",
      "link": "https://news.yahoo.co.jp/pickup/6599636?source=rss",
      "pubDate": "Wed, 21 Oct 2026 17:45:27 GMT"
     },
     {
-     "title": "「MMX」探査機 機能正常を確認",
-     "link": "https://news.yahoo.co.jp/pickup/6599628?source=rss",
-     "pubDate": "Wed, 21 Oct 2026 17:44:30 GMT"
+     "title": "大谷は手術回避へ 編成本部長明言",
+     "link": "https://news.yahoo.co.jp/pickup/6599647?source=rss",
+     "pubDate": "Wed, 21 Oct 2026 21:35:56 GMT"
     },
     {
-     "title": "床はう患者を職員が撮影 病院謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6599631?source=rss",
-     "pubDate": "Wed, 21 Oct 2026 13:13:19 GMT"
-    },
-    {
-     "title": "マック390円セット 全国販売開始",
-     "link": "https://news.yahoo.co.jp/pickup/6599592?source=rss",
-     "pubDate": "Wed, 21 Oct 2026 07:48:42 GMT"
-    },
-    {
-     "title": "パンサー向井 交際質問にタジタジ",
-     "link": "https://news.yahoo.co.jp/pickup/6599640?source=rss",
-     "pubDate": "Wed, 21 Oct 2026 14:32:07 GMT"
+     "title": "異例 阪神・上本打撃コーチが退団",
+     "link": "https://news.yahoo.co.jp/pickup/6599645?source=rss",
+     "pubDate": "Wed, 21 Oct 2026 21:12:38 GMT"
     }
    ]
   }
