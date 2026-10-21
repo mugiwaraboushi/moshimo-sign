@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T21:44:39.084Z",
+ "updatedAt": "2026-10-21T00:12:16.735Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "消費税減税法案 野党からは対案も 与党は成立へ歩み寄り模索",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261020de62512",
-     "pubDate": "Wed, 21 Oct 2026 05:48:00 +0900"
+     "title": "今年度上半期の貿易統計 2兆8000億円の赤字 昨年比98.8％拡大",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62600",
+     "pubDate": "Wed, 21 Oct 2026 09:03:09 +0900"
+    },
+    {
+     "title": "アメリカ政府 民生部門で中国AIのディープシーク利用禁止に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62564",
+     "pubDate": "Wed, 21 Oct 2026 07:57:55 +0900"
     },
     {
      "title": "台風30号 先島諸島に23日から接近か きょうは広範囲で激しい雨",
@@ -18,29 +23,24 @@
      "pubDate": "Wed, 21 Oct 2026 06:02:00 +0900"
     },
     {
-     "title": "体操世界選手権男子団体 日本は金メダルで五輪出場権獲得",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62550",
-     "pubDate": "Wed, 21 Oct 2026 05:55:49 +0900"
+     "title": "イーロン・マスク氏 スペースXとテスラの統合を特別委で議論",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62558",
+     "pubDate": "Wed, 21 Oct 2026 07:11:00 +0900"
     },
     {
-     "title": "フランス各地で夜間外出禁止令続く 今週末もデモ 警備強化へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62533",
-     "pubDate": "Wed, 21 Oct 2026 05:28:00 +0900"
+     "title": "外務省局長がロシア外務省幹部と会談 記者の即時解放強く要請",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62531",
+     "pubDate": "Wed, 21 Oct 2026 07:44:00 +0900"
     },
     {
-     "title": "高市内閣発足1年 消費税減税法案成立に全力 安保3文書取り組む",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261020de62511",
-     "pubDate": "Wed, 21 Oct 2026 04:48:00 +0900"
+     "title": "ゼレンスキー大統領 米特使と会談「3か国の首脳会談目指す」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62563",
+     "pubDate": "Wed, 21 Oct 2026 07:24:16 +0900"
     },
     {
-     "title": "国の省エネ住宅事業で2万3000件超の情報漏えいのおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261020de62509",
-     "pubDate": "Tue, 20 Oct 2026 23:39:00 +0900"
-    },
-    {
-     "title": "ふるさとチョイス 445万件の個人情報流出を発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261020de62437",
-     "pubDate": "Tue, 20 Oct 2026 20:18:00 +0900"
+     "title": "消費税減税法案 野党からは対案も 与党は成立へ歩み寄り模索",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de62512",
+     "pubDate": "Wed, 21 Oct 2026 05:48:00 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（10月21日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261020de62408",
+     "pubDate": "Wed, 21 Oct 2026 06:46:18 +0900"
+    },
     {
      "title": "神奈川 藤沢14人死傷事故 運転手「驚いてアクセル踏み込んだ」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261020de62515",
@@ -118,11 +123,6 @@
      "title": "新名神高速6人死亡事故 被告に拘禁刑7年の判決 津地裁",
      "link": "https://news.web.nhk/newsweb/na/nd-20261020de61968",
      "pubDate": "Tue, 20 Oct 2026 19:51:00 +0900"
-    },
-    {
-     "title": "大阪地裁前で男性刺される 逮捕の容疑者 金銭に関する不満か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61997",
-     "pubDate": "Tue, 20 Oct 2026 17:59:00 +0900"
     }
    ]
   },
@@ -214,6 +214,36 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "日米豪印 クアッド首脳会合を来月マニラで開催 米国務長官",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62586",
+     "pubDate": "Wed, 21 Oct 2026 08:53:20 +0900"
+    },
+    {
+     "title": "アメリカ政府 民生部門で中国AIのディープシーク利用禁止に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62564",
+     "pubDate": "Wed, 21 Oct 2026 07:57:55 +0900"
+    },
+    {
+     "title": "外務省局長がロシア外務省幹部と会談 記者の即時解放強く要請",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62531",
+     "pubDate": "Wed, 21 Oct 2026 07:44:00 +0900"
+    },
+    {
+     "title": "サウジアラビア防衛のためイギリスやエジプトが軍事支援を表明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62530",
+     "pubDate": "Wed, 21 Oct 2026 07:26:39 +0900"
+    },
+    {
+     "title": "ゼレンスキー大統領 米特使と会談「3か国の首脳会談目指す」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62563",
+     "pubDate": "Wed, 21 Oct 2026 07:24:16 +0900"
+    },
+    {
+     "title": "イーロン・マスク氏 スペースXとテスラの統合を特別委で議論",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62558",
+     "pubDate": "Wed, 21 Oct 2026 07:11:00 +0900"
+    },
+    {
      "title": "米国務長官 ウクライナへのミサイル納入遅れに政治的意図ない",
      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62527",
      "pubDate": "Wed, 21 Oct 2026 06:40:52 +0900"
@@ -257,36 +287,6 @@
      "title": "高市首相 比大統領と電話会談 ASEAN首脳会議向け協力確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20261020de62258",
      "pubDate": "Tue, 20 Oct 2026 17:20:00 +0900"
-    },
-    {
-     "title": "高市首相 国連難民高等弁務官と会談 緊密連携で難民支援",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261020de62261",
-     "pubDate": "Tue, 20 Oct 2026 16:59:00 +0900"
-    },
-    {
-     "title": "トランプ大統領 接戦の農業州で農家に支援約束",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261020de62212",
-     "pubDate": "Tue, 20 Oct 2026 16:28:20 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月20日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53326",
-     "pubDate": "Tue, 20 Oct 2026 21:02:34 +0900"
-    },
-    {
-     "title": "トランプ大統領 習主席・プーチン大統領との3者会談実現に意欲",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61930",
-     "pubDate": "Tue, 20 Oct 2026 18:16:16 +0900"
-    },
-    {
-     "title": "トランプ大統領と距離置く共和党の候補相次ぐ いったいなぜ？",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261019de61784",
-     "pubDate": "Tue, 20 Oct 2026 07:24:17 +0900"
-    },
-    {
-     "title": "英スコットランドで日本メーカーの海底ケーブル工場の開所式",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261020de61912",
-     "pubDate": "Tue, 20 Oct 2026 07:19:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "高市政権1年 高支持率維持の背景",
-     "link": "https://news.yahoo.co.jp/pickup/6599527?source=rss",
-     "pubDate": "Tue, 20 Oct 2026 14:45:20 GMT"
+     "title": "大阪・名古屋・東京 30℃以上予想",
+     "link": "https://news.yahoo.co.jp/pickup/6599539?source=rss",
+     "pubDate": "Tue, 20 Oct 2026 22:50:56 GMT"
     },
     {
-     "title": "台風30号 本州付近に来週接近恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6599518?source=rss",
-     "pubDate": "Tue, 20 Oct 2026 13:29:05 GMT"
+     "title": "支援金の対象者の案 首相が答弁",
+     "link": "https://news.yahoo.co.jp/pickup/6599541?source=rss",
+     "pubDate": "Tue, 20 Oct 2026 22:57:20 GMT"
     },
     {
-     "title": "岩井コスモ証券にサイバー攻撃",
-     "link": "https://news.yahoo.co.jp/pickup/6599523?source=rss",
-     "pubDate": "Tue, 20 Oct 2026 13:57:57 GMT"
+     "title": "SpaceXとテスラ 経営統合を検討",
+     "link": "https://news.yahoo.co.jp/pickup/6599543?source=rss",
+     "pubDate": "Tue, 20 Oct 2026 23:22:38 GMT"
     },
     {
-     "title": "武部農相 献金巡り公選法違反疑い",
-     "link": "https://news.yahoo.co.jp/pickup/6599528?source=rss",
-     "pubDate": "Tue, 20 Oct 2026 14:56:15 GMT"
+     "title": "車が歩道に突っ込む 歩行者が死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6599538?source=rss",
+     "pubDate": "Tue, 20 Oct 2026 22:39:29 GMT"
     },
     {
-     "title": "フラット35 全国で不適正利用64件",
-     "link": "https://news.yahoo.co.jp/pickup/6599514?source=rss",
-     "pubDate": "Tue, 20 Oct 2026 12:57:14 GMT"
+     "title": "重機吊り上げ中に車に挟まれ 死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6599545?source=rss",
+     "pubDate": "Tue, 20 Oct 2026 23:42:18 GMT"
     },
     {
-     "title": "ホテルに女性遺体 死因は失血死",
-     "link": "https://news.yahoo.co.jp/pickup/6599530?source=rss",
-     "pubDate": "Tue, 20 Oct 2026 21:08:17 GMT"
+     "title": "北海道職員が「就活セクハラ」か",
+     "link": "https://news.yahoo.co.jp/pickup/6599546?source=rss",
+     "pubDate": "Tue, 20 Oct 2026 23:44:29 GMT"
     },
     {
-     "title": "世界体操の男子団体 日本が連覇",
-     "link": "https://news.yahoo.co.jp/pickup/6599533?source=rss",
-     "pubDate": "Tue, 20 Oct 2026 21:35:33 GMT"
+     "title": "巨人・浅野翔吾 悲壮な覚悟明かす",
+     "link": "https://news.yahoo.co.jp/pickup/6599542?source=rss",
+     "pubDate": "Tue, 20 Oct 2026 23:19:52 GMT"
     },
     {
-     "title": "土田大さん死去 ディズニーが追悼",
-     "link": "https://news.yahoo.co.jp/pickup/6599531?source=rss",
-     "pubDate": "Tue, 20 Oct 2026 21:21:44 GMT"
+     "title": "粗品 大晦日に「ツッコミスター」",
+     "link": "https://news.yahoo.co.jp/pickup/6599536?source=rss",
+     "pubDate": "Tue, 20 Oct 2026 22:25:24 GMT"
     }
    ]
   }
