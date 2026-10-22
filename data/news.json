@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T17:22:10.694Z",
+ "updatedAt": "2026-10-22T20:37:57.882Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "ドラフト 織田翔希は巨人 菰田は日本ハムが交渉権【全名簿】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63461",
-     "pubDate": "Fri, 23 Oct 2026 00:17:00 +0900"
+     "title": "沖縄の先島諸島 暴風大雨厳重警戒 西日本・東日本も大雨おそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63968",
+     "pubDate": "Fri, 23 Oct 2026 05:21:14 +0900"
     },
     {
-     "title": "【ドラフト反応】横浜高校織田投手「アメリカ挑戦全くぶれず」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63462",
-     "pubDate": "Thu, 22 Oct 2026 21:44:00 +0900"
+     "title": "自民 定数31議席削減案提示 野党には異論も 来週再協議へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63953",
+     "pubDate": "Fri, 23 Oct 2026 04:58:44 +0900"
+    },
+    {
+     "title": "旧姓通称使用拡大法案 政府・与党内で今国会提出困難の見方",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63954",
+     "pubDate": "Fri, 23 Oct 2026 05:27:09 +0900"
     },
     {
      "title": "ドラフト 巨人“史上最年少14歳”の中学3年生を育成5位で指名",
@@ -23,19 +28,14 @@
      "pubDate": "Thu, 22 Oct 2026 23:42:20 +0900"
     },
     {
+     "title": "道新記者に差し入れ 引き続き「領事面会」と即時解放働きかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63959",
+     "pubDate": "Fri, 23 Oct 2026 04:04:00 +0900"
+    },
+    {
      "title": "経産省「ホワイトハッカー」のチーム立ち上げへ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63664",
      "pubDate": "Thu, 22 Oct 2026 17:33:00 +0900"
-    },
-    {
-     "title": "台風30号 先島諸島が暴風域 西～東日本 接近前から大雨も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63248",
-     "pubDate": "Fri, 23 Oct 2026 01:11:37 +0900"
-    },
-    {
-     "title": "サイバー攻撃ぜい弱性悪用の猶予期間4分の1に 研究グループ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63896",
-     "pubDate": "Thu, 22 Oct 2026 22:00:34 +0900"
     },
     {
      "title": "福岡県議会 現職議員が証言「農水委員長でゴルフ費用等負担」",
@@ -52,7 +52,7 @@
     {
      "title": "デジタル教科書 “紙とデジタル”基本に 文科省指針案",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63547",
-     "pubDate": "Thu, 22 Oct 2026 19:25:28 +0900"
+     "pubDate": "Thu, 22 Oct 2026 19:25:00 +0900"
     },
     {
      "title": "新宿 歌舞伎町のビルで火災 けが人なし",
@@ -204,14 +204,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "道新記者に差し入れ 引き続き「領事面会」と即時解放働きかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63959",
+     "pubDate": "Fri, 23 Oct 2026 04:04:00 +0900"
+    },
+    {
+     "title": "モンゴル自然保護区で大規模火災 日本の通信大手が謝罪",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63949",
+     "pubDate": "Fri, 23 Oct 2026 02:34:30 +0900"
+    },
+    {
      "title": "「長征」から90年 習主席が中国共産党の結束呼びかけ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de63930",
      "pubDate": "Fri, 23 Oct 2026 01:40:14 +0900"
     },
     {
-     "title": "チベット自治区でM7.0の地震 日本への津波の心配なし",
+     "title": "中国 チベット自治区でM7.0の地震 死者の情報も 国営メディア",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de63932",
-     "pubDate": "Fri, 23 Oct 2026 00:32:26 +0900"
+     "pubDate": "Fri, 23 Oct 2026 03:33:44 +0900"
     },
     {
      "title": "ホンダ 三菱自動車からピックアップトラックの供給受ける覚書",
@@ -267,16 +277,6 @@
      "title": "ウクライナの冬 生活悪化なら「4割が住まい離れる」検討",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63305",
      "pubDate": "Thu, 22 Oct 2026 09:14:00 +0900"
-    },
-    {
-     "title": "ロシア ウクライナ アメリカの3か国高官協議 11月再開か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63271",
-     "pubDate": "Thu, 22 Oct 2026 08:52:00 +0900"
-    },
-    {
-     "title": "ジョン万次郎とアメリカ人船長のきずな受け継ぐ交流行事始まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63307",
-     "pubDate": "Thu, 22 Oct 2026 08:46:00 +0900"
     }
    ]
   },
