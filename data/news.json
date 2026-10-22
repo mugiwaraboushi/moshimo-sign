@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T20:37:57.882Z",
+ "updatedAt": "2026-10-22T23:42:41.801Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "沖縄の先島諸島 暴風大雨厳重警戒 西日本・東日本も大雨おそれ",
+     "title": "【QA】PHPにぜい弱性発見 AI時代に求められる対応とは?",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63922",
+     "pubDate": "Fri, 23 Oct 2026 07:12:00 +0900"
+    },
+    {
+     "title": "台風 先島諸島 暴風大雨厳重警戒 西日本・東日本も大雨おそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de63968",
-     "pubDate": "Fri, 23 Oct 2026 05:21:14 +0900"
+     "pubDate": "Fri, 23 Oct 2026 07:20:30 +0900"
     },
     {
-     "title": "自民 定数31議席削減案提示 野党には異論も 来週再協議へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63953",
-     "pubDate": "Fri, 23 Oct 2026 04:58:44 +0900"
+     "title": "マイクロソフト「中国系ハッカー集団が大規模サイバー攻撃」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63956",
+     "pubDate": "Fri, 23 Oct 2026 08:30:00 +0900"
     },
     {
-     "title": "旧姓通称使用拡大法案 政府・与党内で今国会提出困難の見方",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63954",
-     "pubDate": "Fri, 23 Oct 2026 05:27:09 +0900"
+     "title": "体操 世界選手権 男子個人総合 橋本大輝が4連覇",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63973",
+     "pubDate": "Fri, 23 Oct 2026 06:36:21 +0900"
+    },
+    {
+     "title": "ナスダック指数一時2.9％下落 AI投資への懸念が再燃",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63980",
+     "pubDate": "Fri, 23 Oct 2026 07:58:34 +0900"
+    },
+    {
+     "title": "仏 マクロン大統領「正当な理由ないデモ認めず」 デモ参加者は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63966",
+     "pubDate": "Fri, 23 Oct 2026 08:01:50 +0900"
     },
     {
      "title": "ドラフト 巨人“史上最年少14歳”の中学3年生を育成5位で指名",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63890",
      "pubDate": "Thu, 22 Oct 2026 23:42:20 +0900"
-    },
-    {
-     "title": "道新記者に差し入れ 引き続き「領事面会」と即時解放働きかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63959",
-     "pubDate": "Fri, 23 Oct 2026 04:04:00 +0900"
-    },
-    {
-     "title": "経産省「ホワイトハッカー」のチーム立ち上げへ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63664",
-     "pubDate": "Thu, 22 Oct 2026 17:33:00 +0900"
-    },
-    {
-     "title": "福岡県議会 現職議員が証言「農水委員長でゴルフ費用等負担」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63876",
-     "pubDate": "Thu, 22 Oct 2026 21:24:00 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（10月23日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63667",
+     "pubDate": "Fri, 23 Oct 2026 07:02:26 +0900"
+    },
     {
      "title": "デジタル教科書 “紙とデジタル”基本に 文科省指針案",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63547",
@@ -118,11 +123,6 @@
      "title": "神奈川県警 廃棄すべき運転免許証 警備部門の捜査などに流用か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63326",
      "pubDate": "Thu, 22 Oct 2026 19:35:17 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（10月22日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63042",
-     "pubDate": "Thu, 22 Oct 2026 19:44:06 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "【QA】PHPにぜい弱性発見 AI時代に求められる対応とは?",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63922",
+     "pubDate": "Fri, 23 Oct 2026 07:12:00 +0900"
+    },
+    {
+     "title": "マイクロソフト「中国系ハッカー集団が大規模サイバー攻撃」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63956",
+     "pubDate": "Fri, 23 Oct 2026 08:30:00 +0900"
+    },
     {
      "title": "サイバー攻撃ぜい弱性悪用の猶予期間4分の1に 研究グループ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63896",
@@ -204,14 +214,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ナスダック指数一時2.9％下落 AI投資への懸念が再燃",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63980",
+     "pubDate": "Fri, 23 Oct 2026 07:58:34 +0900"
+    },
+    {
+     "title": "仏 マクロン大統領「正当な理由ないデモ認めず」 デモ参加者は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63966",
+     "pubDate": "Fri, 23 Oct 2026 08:01:50 +0900"
+    },
+    {
+     "title": "ウクライナにロシア軍が大規模攻撃 2人死亡 30人以上けが",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63951",
+     "pubDate": "Fri, 23 Oct 2026 06:10:12 +0900"
+    },
+    {
+     "title": "マイクロソフト「中国系ハッカー集団が大規模サイバー攻撃」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63956",
+     "pubDate": "Fri, 23 Oct 2026 08:30:00 +0900"
+    },
+    {
+     "title": "フィンランド 「核のごみ」最終処分場に政府が操業許可",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63931",
+     "pubDate": "Fri, 23 Oct 2026 05:39:00 +0900"
+    },
+    {
      "title": "道新記者に差し入れ 引き続き「領事面会」と即時解放働きかけ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de63959",
      "pubDate": "Fri, 23 Oct 2026 04:04:00 +0900"
     },
     {
-     "title": "モンゴル自然保護区で大規模火災 日本の通信大手が謝罪",
+     "title": "モンゴル自然保護区で大規模火災 通信大手KDDIが謝罪",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de63949",
-     "pubDate": "Fri, 23 Oct 2026 02:34:30 +0900"
+     "pubDate": "Fri, 23 Oct 2026 02:34:00 +0900"
     },
     {
      "title": "「長征」から90年 習主席が中国共産党の結束呼びかけ",
@@ -252,31 +287,6 @@
      "title": "米とイスラエルが中間選挙後のイラン再攻撃計画策定か 米報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63478",
      "pubDate": "Thu, 22 Oct 2026 13:59:00 +0900"
-    },
-    {
-     "title": "サウジアラビア東部で攻撃相次ぎ3人死亡 米国務省は退避命令",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63386",
-     "pubDate": "Thu, 22 Oct 2026 23:58:02 +0900"
-    },
-    {
-     "title": "メタに約3兆9000億円の制裁金 消費者保護法違反など",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63349",
-     "pubDate": "Thu, 22 Oct 2026 11:26:00 +0900"
-    },
-    {
-     "title": "北海道新聞の記者拘束 アメリカ有力紙がロシアを厳しく批判",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63325",
-     "pubDate": "Thu, 22 Oct 2026 11:07:39 +0900"
-    },
-    {
-     "title": "テスラが43%の大幅減益 AI開発などへの先行投資で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63327",
-     "pubDate": "Thu, 22 Oct 2026 10:55:00 +0900"
-    },
-    {
-     "title": "ウクライナの冬 生活悪化なら「4割が住まい離れる」検討",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63305",
-     "pubDate": "Thu, 22 Oct 2026 09:14:00 +0900"
     }
    ]
   },
@@ -286,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "初の核最終処分場の操業決定 北欧",
-     "link": "https://news.yahoo.co.jp/pickup/6599748?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 14:28:24 GMT"
+     "title": "台風30号が先島諸島接近へ 警戒を",
+     "link": "https://news.yahoo.co.jp/pickup/6599757?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 21:30:26 GMT"
     },
     {
-     "title": "免税制度変更へ「転売ヤー」防ぐ",
-     "link": "https://news.yahoo.co.jp/pickup/6599745?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 13:50:19 GMT"
+     "title": "ANAが追加出資検討 中堅航空2社",
+     "link": "https://news.yahoo.co.jp/pickup/6599762?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 22:36:33 GMT"
     },
     {
-     "title": "三菱自 ホンダに車両供給で合意",
-     "link": "https://news.yahoo.co.jp/pickup/6599746?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 14:06:31 GMT"
+     "title": "大成建設・鹿島 国交省が処分方針",
+     "link": "https://news.yahoo.co.jp/pickup/6599759?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 22:16:08 GMT"
     },
     {
-     "title": "ゴルフで80万円負担 福岡県議証言",
-     "link": "https://news.yahoo.co.jp/pickup/6599750?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 14:54:19 GMT"
+     "title": "生活保護利用者の車保有 緩和検討",
+     "link": "https://news.yahoo.co.jp/pickup/6599765?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 22:49:45 GMT"
     },
     {
-     "title": "大阪で14歳が行方不明 14日朝から",
-     "link": "https://news.yahoo.co.jp/pickup/6599744?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 13:43:09 GMT"
+     "title": "シャモンダウイルス 仏でヒト感染",
+     "link": "https://news.yahoo.co.jp/pickup/6599754?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 21:12:14 GMT"
     },
     {
-     "title": "モンゴル火災 日系企業幹部が謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6599749?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 14:43:02 GMT"
+     "title": "米大統領 レブロン「無礼」と批判",
+     "link": "https://news.yahoo.co.jp/pickup/6599769?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 23:26:38 GMT"
     },
     {
-     "title": "強行指名の織田翔希 気持ちぶれず",
-     "link": "https://news.yahoo.co.jp/pickup/6599752?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 14:59:46 GMT"
+     "title": "一発レッドの中村敬斗 処分が決定",
+     "link": "https://news.yahoo.co.jp/pickup/6599758?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 21:41:46 GMT"
     },
     {
-     "title": "14歳を指名 巨人が育成プラン説明",
-     "link": "https://news.yahoo.co.jp/pickup/6599747?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 14:10:09 GMT"
+     "title": "阪神激震 梵コーチも辞意申し入れ",
+     "link": "https://news.yahoo.co.jp/pickup/6599753?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 21:05:29 GMT"
     }
    ]
   }
