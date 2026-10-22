@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T12:08:19.397Z",
+ "updatedAt": "2026-10-22T17:22:10.694Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,12 +10,17 @@
     {
      "title": "ドラフト 織田翔希は巨人 菰田は日本ハムが交渉権【全名簿】",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63461",
-     "pubDate": "Thu, 22 Oct 2026 20:40:06 +0900"
+     "pubDate": "Fri, 23 Oct 2026 00:17:00 +0900"
     },
     {
      "title": "【ドラフト反応】横浜高校織田投手「アメリカ挑戦全くぶれず」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63462",
-     "pubDate": "Thu, 22 Oct 2026 20:56:57 +0900"
+     "pubDate": "Thu, 22 Oct 2026 21:44:00 +0900"
+    },
+    {
+     "title": "ドラフト 巨人“史上最年少14歳”の中学3年生を育成5位で指名",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63890",
+     "pubDate": "Thu, 22 Oct 2026 23:42:20 +0900"
     },
     {
      "title": "経産省「ホワイトハッカー」のチーム立ち上げへ",
@@ -23,24 +28,19 @@
      "pubDate": "Thu, 22 Oct 2026 17:33:00 +0900"
     },
     {
-     "title": "台風30号 先島諸島一部が暴風域 西～東日本 接近前から大雨も",
+     "title": "台風30号 先島諸島が暴風域 西～東日本 接近前から大雨も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63248",
-     "pubDate": "Thu, 22 Oct 2026 19:16:00 +0900"
+     "pubDate": "Fri, 23 Oct 2026 01:11:37 +0900"
     },
     {
-     "title": "ことしのヨーロッパ議会人権賞「サハロフ賞」にICC",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63864",
-     "pubDate": "Thu, 22 Oct 2026 20:54:39 +0900"
+     "title": "サイバー攻撃ぜい弱性悪用の猶予期間4分の1に 研究グループ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63896",
+     "pubDate": "Thu, 22 Oct 2026 22:00:34 +0900"
     },
     {
-     "title": "生のジャガイモ解禁 野党“米との協議は慎重な姿勢で”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63826",
-     "pubDate": "Thu, 22 Oct 2026 20:00:41 +0900"
-    },
-    {
-     "title": "「カプコン」全世界の会員メールアドレスなど約1177万件漏えい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63460",
-     "pubDate": "Thu, 22 Oct 2026 18:27:00 +0900"
+     "title": "福岡県議会 現職議員が証言「農水委員長でゴルフ費用等負担」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63876",
+     "pubDate": "Thu, 22 Oct 2026 21:24:00 +0900"
     }
    ]
   },
@@ -132,6 +132,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "サイバー攻撃ぜい弱性悪用の猶予期間4分の1に 研究グループ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63896",
+     "pubDate": "Thu, 22 Oct 2026 22:00:34 +0900"
+    },
+    {
+     "title": "血液などでがん調べる自費の検査 学会が意義と限界まとめ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63888",
+     "pubDate": "Thu, 22 Oct 2026 21:26:04 +0900"
+    },
+    {
      "title": "すき家 JR 証券会社も “PHP”対応でサービス一時停止相次ぐ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63324",
      "pubDate": "Thu, 22 Oct 2026 19:38:00 +0900"
@@ -185,26 +195,6 @@
      "title": "火星の衛星から砂持ち帰る計画 探査機「MMX」早朝に打ち上げ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61034",
      "pubDate": "Mon, 19 Oct 2026 20:12:00 +0900"
-    },
-    {
-     "title": "総合スーパー展開のイズミ“情報の流出なしの報告受けた”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60773",
-     "pubDate": "Fri, 16 Oct 2026 23:18:24 +0900"
-    },
-    {
-     "title": "米アンソロピック共同創業者を直撃「AIがAIを開発する」とは？",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60399",
-     "pubDate": "Fri, 16 Oct 2026 21:12:40 +0900"
-    },
-    {
-     "title": "コミックシーモアが不正アクセス確認 会員情報が漏えい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60740",
-     "pubDate": "Fri, 16 Oct 2026 20:58:50 +0900"
-    },
-    {
-     "title": "ECサイトシステム運営会社の情報漏えい 2335万件を確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60742",
-     "pubDate": "Fri, 16 Oct 2026 20:43:00 +0900"
     }
    ]
   },
@@ -213,6 +203,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "「長征」から90年 習主席が中国共産党の結束呼びかけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63930",
+     "pubDate": "Fri, 23 Oct 2026 01:40:14 +0900"
+    },
+    {
+     "title": "チベット自治区でM7.0の地震 日本への津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63932",
+     "pubDate": "Fri, 23 Oct 2026 00:32:26 +0900"
+    },
+    {
+     "title": "ホンダ 三菱自動車からピックアップトラックの供給受ける覚書",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63910",
+     "pubDate": "Thu, 22 Oct 2026 22:39:00 +0900"
+    },
     {
      "title": "ことしのヨーロッパ議会人権賞「サハロフ賞」にICC",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63864",
@@ -241,7 +246,7 @@
     {
      "title": "サウジアラビア東部で攻撃相次ぎ3人死亡 米国務省は退避命令",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63386",
-     "pubDate": "Thu, 22 Oct 2026 12:10:00 +0900"
+     "pubDate": "Thu, 22 Oct 2026 23:58:02 +0900"
     },
     {
      "title": "メタに約3兆9000億円の制裁金 消費者保護法違反など",
@@ -272,21 +277,6 @@
      "title": "ジョン万次郎とアメリカ人船長のきずな受け継ぐ交流行事始まる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63307",
      "pubDate": "Thu, 22 Oct 2026 08:46:00 +0900"
-    },
-    {
-     "title": "イギリス政府 北海のガス田採掘を承認 環境団体は批判",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63294",
-     "pubDate": "Thu, 22 Oct 2026 08:36:20 +0900"
-    },
-    {
-     "title": "ロシアの米国民解放 トランプ大統領「引き換え何も与えず」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63309",
-     "pubDate": "Thu, 22 Oct 2026 08:27:00 +0900"
-    },
-    {
-     "title": "アメリカ メタ大幅増益 AIなど巨額の設備投資続ける見通し",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63277",
-     "pubDate": "Thu, 22 Oct 2026 12:17:00 +0900"
     }
    ]
   },
@@ -296,44 +286,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風30号 非常に強い勢力で沖縄へ",
-     "link": "https://news.yahoo.co.jp/pickup/6599718?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 09:04:33 GMT"
+     "title": "初の核最終処分場の操業決定 北欧",
+     "link": "https://news.yahoo.co.jp/pickup/6599748?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 14:28:24 GMT"
     },
     {
-     "title": "発足1年の高市政権 麻生氏が評価",
-     "link": "https://news.yahoo.co.jp/pickup/6599724?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 10:11:06 GMT"
+     "title": "免税制度変更へ「転売ヤー」防ぐ",
+     "link": "https://news.yahoo.co.jp/pickup/6599745?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 13:50:19 GMT"
     },
     {
-     "title": "カプコン 1177万件の情報漏えい",
-     "link": "https://news.yahoo.co.jp/pickup/6599723?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 09:54:24 GMT"
+     "title": "三菱自 ホンダに車両供給で合意",
+     "link": "https://news.yahoo.co.jp/pickup/6599746?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 14:06:31 GMT"
     },
     {
-     "title": "不登校のほぼ半数 学校健診受けず",
-     "link": "https://news.yahoo.co.jp/pickup/6599714?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 08:51:58 GMT"
+     "title": "ゴルフで80万円負担 福岡県議証言",
+     "link": "https://news.yahoo.co.jp/pickup/6599750?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 14:54:19 GMT"
     },
     {
-     "title": "関東でスガキヤ行列 愛知県民驚き",
-     "link": "https://news.yahoo.co.jp/pickup/6599726?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 10:44:31 GMT"
+     "title": "大阪で14歳が行方不明 14日朝から",
+     "link": "https://news.yahoo.co.jp/pickup/6599744?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 13:43:09 GMT"
     },
     {
-     "title": "漢字検定X「祭」の漢字間違える",
-     "link": "https://news.yahoo.co.jp/pickup/6599733?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 11:37:31 GMT"
+     "title": "モンゴル火災 日系企業幹部が謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6599749?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 14:43:02 GMT"
     },
     {
-     "title": "巨人 14歳の中学生を育成5位指名",
-     "link": "https://news.yahoo.co.jp/pickup/6599736?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 11:48:11 GMT"
+     "title": "強行指名の織田翔希 気持ちぶれず",
+     "link": "https://news.yahoo.co.jp/pickup/6599752?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 14:59:46 GMT"
     },
     {
-     "title": "指名にどよめき 織田表情変えず",
-     "link": "https://news.yahoo.co.jp/pickup/6599725?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 10:25:47 GMT"
+     "title": "14歳を指名 巨人が育成プラン説明",
+     "link": "https://news.yahoo.co.jp/pickup/6599747?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 14:10:09 GMT"
     }
    ]
   }
