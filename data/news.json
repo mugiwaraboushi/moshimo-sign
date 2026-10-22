@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T01:01:37.573Z",
+ "updatedAt": "2026-10-22T06:11:49.474Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "“PHPでぜい弱性確認 速やかな対応を”情報処理推進機構",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63209",
-     "pubDate": "Thu, 22 Oct 2026 05:14:00 +0900"
+     "title": "すき家 JR 証券会社も “PHP”対応でサービス一時停止相次ぐ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63324",
+     "pubDate": "Thu, 22 Oct 2026 14:10:00 +0900"
     },
     {
-     "title": "秋田 子吉川に一時氾濫特別警報 川の増水など注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63227",
-     "pubDate": "Thu, 22 Oct 2026 09:05:00 +0900"
+     "title": "神奈川県警 廃棄すべき運転免許証 警備部門の捜査などに流用か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63326",
+     "pubDate": "Thu, 22 Oct 2026 14:38:08 +0900"
     },
     {
-     "title": "【ドローン動画】一夜明けた子吉川は 秋田 由利本荘",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63278",
-     "pubDate": "Thu, 22 Oct 2026 09:38:55 +0900"
+     "title": "免許証画像など漏えいし闇サイトで販売か 沖縄の会社から",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63353",
+     "pubDate": "Thu, 22 Oct 2026 11:54:00 +0900"
     },
     {
      "title": "猛烈な台風30号 あす先島諸島接近 早めに対策を",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63248",
-     "pubDate": "Thu, 22 Oct 2026 07:06:00 +0900"
+     "pubDate": "Thu, 22 Oct 2026 12:44:00 +0900"
     },
     {
-     "title": "消費税減税法案 与党“審議重ね法案通過”野党“充実審議を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63246",
-     "pubDate": "Thu, 22 Oct 2026 06:08:00 +0900"
+     "title": "米とイスラエルが中間選挙後のイラン再攻撃計画策定か 米報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63478",
+     "pubDate": "Thu, 22 Oct 2026 13:59:50 +0900"
     },
     {
-     "title": "ロシア ウクライナ アメリカの3か国高官協議 11月再開か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63271",
-     "pubDate": "Thu, 22 Oct 2026 08:52:26 +0900"
+     "title": "交通違反の反則金納付 キャッシュレス決済を来年導入へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63453",
+     "pubDate": "Thu, 22 Oct 2026 13:02:00 +0900"
     },
     {
-     "title": "体操 世界選手権 女子団体 日本は銅メダルで五輪出場権獲得",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63274",
-     "pubDate": "Thu, 22 Oct 2026 05:42:00 +0900"
+     "title": "「コミックシーモア」流出はメールアドレスなど最大420万件に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63460",
+     "pubDate": "Thu, 22 Oct 2026 13:15:27 +0900"
     }
    ]
   },
@@ -50,9 +50,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "社会人は教員免許を１年以内に取得 新課程を創設へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63483",
+     "pubDate": "Thu, 22 Oct 2026 14:10:00 +0900"
+    },
+    {
+     "title": "「コミックシーモア」流出はメールアドレスなど最大420万件に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63460",
+     "pubDate": "Thu, 22 Oct 2026 13:15:27 +0900"
+    },
+    {
+     "title": "交通違反の反則金納付 キャッシュレス決済を来年導入へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63453",
+     "pubDate": "Thu, 22 Oct 2026 13:02:00 +0900"
+    },
+    {
+     "title": "鉄筋圧接業者を約7800万円脱税の疑いで告発 東京国税局",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63377",
+     "pubDate": "Thu, 22 Oct 2026 12:11:07 +0900"
+    },
+    {
+     "title": "免許証画像など漏えいし闇サイトで販売か 沖縄の会社から",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63353",
+     "pubDate": "Thu, 22 Oct 2026 11:54:00 +0900"
+    },
+    {
+     "title": "神奈川県警 廃棄すべき運転免許証 警備部門の捜査などに流用か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63326",
+     "pubDate": "Thu, 22 Oct 2026 14:38:08 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（10月22日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63042",
-     "pubDate": "Thu, 22 Oct 2026 06:52:42 +0900"
+     "pubDate": "Thu, 22 Oct 2026 13:56:20 +0900"
     },
     {
      "title": "岩手 大槌町の山林火災から半年 焼けた木の活用が課題",
@@ -93,36 +123,6 @@
      "title": "気象庁長官 緊急地震速報を誤発表「非常に遺憾 対策検討」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63069",
      "pubDate": "Wed, 21 Oct 2026 18:29:35 +0900"
-    },
-    {
-     "title": "天皇皇后両陛下 海づくり大会で大阪へ サイバー攻撃で日程変更",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63065",
-     "pubDate": "Wed, 21 Oct 2026 18:27:00 +0900"
-    },
-    {
-     "title": "陸自の地対艦ミサイル インドでの発射訓練検討で担当者派遣",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63036",
-     "pubDate": "Wed, 21 Oct 2026 18:17:00 +0900"
-    },
-    {
-     "title": "timeleszの猪俣周杜・元メンバー 起訴猶予に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63027",
-     "pubDate": "Wed, 21 Oct 2026 18:11:00 +0900"
-    },
-    {
-     "title": "不正アクセス“金融機関が狙われる段階に変わってきた可能性”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62921",
-     "pubDate": "Wed, 21 Oct 2026 22:35:59 +0900"
-    },
-    {
-     "title": "ハロウィーン衣装のペンギンが散歩 松江のテーマパーク",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63014",
-     "pubDate": "Wed, 21 Oct 2026 18:00:10 +0900"
-    },
-    {
-     "title": "全国20府県の警察官などの個人情報 不正アクセスで漏えいか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62966",
-     "pubDate": "Wed, 21 Oct 2026 17:27:21 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "すき家 JR 証券会社も “PHP”対応でサービス一時停止相次ぐ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63324",
+     "pubDate": "Thu, 22 Oct 2026 14:10:00 +0900"
+    },
     {
      "title": "打ち上げ成功のＭＭＸ 太陽電池パドル展開し順調に飛行",
      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63191",
@@ -200,11 +205,6 @@
      "title": "ECサイトシステム運営会社の情報漏えい 2335万件を確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60742",
      "pubDate": "Fri, 16 Oct 2026 20:43:00 +0900"
-    },
-    {
-     "title": "山中教授 iPS保険適用後初の手術「世界初で大きな一歩」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261016de60674",
-     "pubDate": "Fri, 16 Oct 2026 19:28:00 +0900"
     }
    ]
   },
@@ -214,14 +214,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米とイスラエルが中間選挙後のイラン再攻撃計画策定か 米報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63478",
+     "pubDate": "Thu, 22 Oct 2026 13:59:50 +0900"
+    },
+    {
+     "title": "サウジアラビア東部で攻撃相次ぎ3人死亡 米国務省は退避命令",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63386",
+     "pubDate": "Thu, 22 Oct 2026 12:10:00 +0900"
+    },
+    {
+     "title": "メタに約3兆9000億円の制裁金 消費者保護法違反など",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63349",
+     "pubDate": "Thu, 22 Oct 2026 11:26:00 +0900"
+    },
+    {
+     "title": "北海道新聞の記者拘束 アメリカ有力紙がロシアを厳しく批判",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63325",
+     "pubDate": "Thu, 22 Oct 2026 11:07:39 +0900"
+    },
+    {
+     "title": "テスラが43%の大幅減益 AI開発などへの先行投資で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63327",
+     "pubDate": "Thu, 22 Oct 2026 10:55:00 +0900"
+    },
+    {
      "title": "ウクライナの冬 生活悪化なら「4割が住まい離れる」検討",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63305",
-     "pubDate": "Thu, 22 Oct 2026 09:14:17 +0900"
+     "pubDate": "Thu, 22 Oct 2026 09:14:00 +0900"
     },
     {
      "title": "ロシア ウクライナ アメリカの3か国高官協議 11月再開か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63271",
-     "pubDate": "Thu, 22 Oct 2026 08:52:26 +0900"
+     "pubDate": "Thu, 22 Oct 2026 08:52:00 +0900"
     },
     {
      "title": "ジョン万次郎とアメリカ人船長のきずな受け継ぐ交流行事始まる",
@@ -236,12 +261,12 @@
     {
      "title": "ロシアの米国民解放 トランプ大統領「引き換え何も与えず」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63309",
-     "pubDate": "Thu, 22 Oct 2026 08:27:51 +0900"
+     "pubDate": "Thu, 22 Oct 2026 08:27:00 +0900"
     },
     {
      "title": "アメリカ メタ大幅増益 AIなど巨額の設備投資続ける見通し",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63277",
-     "pubDate": "Thu, 22 Oct 2026 06:27:57 +0900"
+     "pubDate": "Thu, 22 Oct 2026 12:17:00 +0900"
     },
     {
      "title": "北朝鮮キム・ヨジョン氏「今月中に心理戦拡声機が稼働状態」",
@@ -256,37 +281,12 @@
     {
      "title": "トルコ カタール パキスタン インドネシアが防衛協力で覚書",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63267",
-     "pubDate": "Thu, 22 Oct 2026 05:06:22 +0900"
+     "pubDate": "Thu, 22 Oct 2026 05:06:00 +0900"
     },
     {
      "title": "ネパールのヒマラヤで登山中だった日本人2人が行方不明",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63265",
      "pubDate": "Thu, 22 Oct 2026 04:37:11 +0900"
-    },
-    {
-     "title": "“PHPでぜい弱性確認 速やかな対応を”情報処理推進機構",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63209",
-     "pubDate": "Thu, 22 Oct 2026 05:14:00 +0900"
-    },
-    {
-     "title": "中国AI発展に向けデータ事業担う国有企業を設立",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63217",
-     "pubDate": "Thu, 22 Oct 2026 00:55:50 +0900"
-    },
-    {
-     "title": "フランス10年もの国債利回り5％に 24年ぶりの高水準",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63221",
-     "pubDate": "Thu, 22 Oct 2026 00:04:29 +0900"
-    },
-    {
-     "title": "北朝鮮キム・ヨジョン氏 軍事境界線付近の「要塞化工事」視察",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63216",
-     "pubDate": "Wed, 21 Oct 2026 23:42:00 +0900"
-    },
-    {
-     "title": "米トランプ大統領“ロシアが拘束していたアメリカ人を解放”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63215",
-     "pubDate": "Wed, 21 Oct 2026 23:36:03 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "社会人向け新教職課程 創設の方針",
-     "link": "https://news.yahoo.co.jp/pickup/6599664?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 00:35:34 GMT"
+     "title": "高市氏 自民内から再選支持相次ぐ",
+     "link": "https://news.yahoo.co.jp/pickup/6599693?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 04:56:22 GMT"
     },
     {
-     "title": "情報抜き取りに15秒 悪用指摘のAI",
-     "link": "https://news.yahoo.co.jp/pickup/6599661?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 00:04:11 GMT"
+     "title": "PHP問題 政府機関の被害報告なし",
+     "link": "https://news.yahoo.co.jp/pickup/6599683?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 03:24:45 GMT"
     },
     {
-     "title": "G7TV会議を首相欠席 与野党波紋",
-     "link": "https://news.yahoo.co.jp/pickup/6599660?source=rss",
-     "pubDate": "Wed, 21 Oct 2026 23:55:48 GMT"
+     "title": "マンジャロを不正販売の疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6599691?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 05:21:49 GMT"
     },
     {
-     "title": "PHPの脆弱性 米OpenAIのAIで発見",
-     "link": "https://news.yahoo.co.jp/pickup/6599651?source=rss",
-     "pubDate": "Wed, 21 Oct 2026 22:32:08 GMT"
+     "title": "負傷した脚自ら切断 ウ兵士の決断",
+     "link": "https://news.yahoo.co.jp/pickup/6599696?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 05:44:05 GMT"
     },
     {
-     "title": "メタに約4兆円支払い命令 米地裁",
-     "link": "https://news.yahoo.co.jp/pickup/6599658?source=rss",
-     "pubDate": "Wed, 21 Oct 2026 23:28:40 GMT"
+     "title": "しんじょう君巡る裁判 市が上告",
+     "link": "https://news.yahoo.co.jp/pickup/6599685?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 04:00:11 GMT"
     },
     {
-     "title": "仕事探し困難「通信困窮」の実態",
-     "link": "https://news.yahoo.co.jp/pickup/6599665?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 00:46:20 GMT"
+     "title": "平成の玩具アイロンビーズ 再注目",
+     "link": "https://news.yahoo.co.jp/pickup/6599673?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 02:33:05 GMT"
     },
     {
-     "title": "韓国発大容量カフェ なぜ日本上陸",
-     "link": "https://news.yahoo.co.jp/pickup/6599666?source=rss",
-     "pubDate": "Thu, 22 Oct 2026 00:48:59 GMT"
+     "title": "玉川徹氏 ホームレス巡る発言謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6599690?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 04:54:35 GMT"
     },
     {
-     "title": "高橋塁 ゲイ公表までの葛藤を語る",
-     "link": "https://news.yahoo.co.jp/pickup/6599656?source=rss",
-     "pubDate": "Wed, 21 Oct 2026 23:15:13 GMT"
+     "title": "「あいのり」でっぱりんさん離婚",
+     "link": "https://news.yahoo.co.jp/pickup/6599694?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 05:01:16 GMT"
     }
    ]
   }
