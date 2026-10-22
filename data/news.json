@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T22:30:45.802Z",
+ "updatedAt": "2026-10-22T01:01:37.573Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,14 @@
      "pubDate": "Thu, 22 Oct 2026 05:14:00 +0900"
     },
     {
-     "title": "秋田 子吉川 氾濫特別警報は注意報に 危険な場所に近づかない",
+     "title": "秋田 子吉川に一時氾濫特別警報 川の増水など注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63227",
-     "pubDate": "Thu, 22 Oct 2026 06:52:24 +0900"
+     "pubDate": "Thu, 22 Oct 2026 09:05:00 +0900"
+    },
+    {
+     "title": "【ドローン動画】一夜明けた子吉川は 秋田 由利本荘",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63278",
+     "pubDate": "Thu, 22 Oct 2026 09:38:55 +0900"
     },
     {
      "title": "猛烈な台風30号 あす先島諸島接近 早めに対策を",
@@ -28,19 +33,14 @@
      "pubDate": "Thu, 22 Oct 2026 06:08:00 +0900"
     },
     {
-     "title": "アメリカ メタ大幅増益 AIなど巨額の設備投資続ける見通し",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63277",
-     "pubDate": "Thu, 22 Oct 2026 06:27:57 +0900"
-    },
-    {
-     "title": "ネパールのヒマラヤで登山中だった日本人2人が行方不明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63265",
-     "pubDate": "Thu, 22 Oct 2026 04:37:11 +0900"
+     "title": "ロシア ウクライナ アメリカの3か国高官協議 11月再開か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63271",
+     "pubDate": "Thu, 22 Oct 2026 08:52:26 +0900"
     },
     {
      "title": "体操 世界選手権 女子団体 日本は銅メダルで五輪出場権獲得",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63274",
-     "pubDate": "Thu, 22 Oct 2026 05:42:22 +0900"
+     "pubDate": "Thu, 22 Oct 2026 05:42:00 +0900"
     }
    ]
   },
@@ -57,7 +57,7 @@
     {
      "title": "岩手 大槌町の山林火災から半年 焼けた木の活用が課題",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63238",
-     "pubDate": "Thu, 22 Oct 2026 05:27:24 +0900"
+     "pubDate": "Thu, 22 Oct 2026 05:27:00 +0900"
     },
     {
      "title": "EVなどの補助金を来年1月から減額へ",
@@ -214,6 +214,31 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ウクライナの冬 生活悪化なら「4割が住まい離れる」検討",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63305",
+     "pubDate": "Thu, 22 Oct 2026 09:14:17 +0900"
+    },
+    {
+     "title": "ロシア ウクライナ アメリカの3か国高官協議 11月再開か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63271",
+     "pubDate": "Thu, 22 Oct 2026 08:52:26 +0900"
+    },
+    {
+     "title": "ジョン万次郎とアメリカ人船長のきずな受け継ぐ交流行事始まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63307",
+     "pubDate": "Thu, 22 Oct 2026 08:46:21 +0900"
+    },
+    {
+     "title": "イギリス政府 北海のガス田採掘を承認 環境団体は批判",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63294",
+     "pubDate": "Thu, 22 Oct 2026 08:36:20 +0900"
+    },
+    {
+     "title": "ロシアの米国民解放 トランプ大統領「引き換え何も与えず」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261022de63309",
+     "pubDate": "Thu, 22 Oct 2026 08:27:51 +0900"
+    },
+    {
      "title": "アメリカ メタ大幅増益 AIなど巨額の設備投資続ける見通し",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63277",
      "pubDate": "Thu, 22 Oct 2026 06:27:57 +0900"
@@ -221,7 +246,7 @@
     {
      "title": "北朝鮮キム・ヨジョン氏「今月中に心理戦拡声機が稼働状態」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63256",
-     "pubDate": "Thu, 22 Oct 2026 05:23:30 +0900"
+     "pubDate": "Thu, 22 Oct 2026 05:23:00 +0900"
     },
     {
      "title": "韓国 イ大統領“AIに聞いた”内容をSNSに投稿し物議",
@@ -262,31 +287,6 @@
      "title": "米トランプ大統領“ロシアが拘束していたアメリカ人を解放”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63215",
      "pubDate": "Wed, 21 Oct 2026 23:36:03 +0900"
-    },
-    {
-     "title": "フランス 一部で夜間外出禁止令続く ルーブル美術館は営業再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62788",
-     "pubDate": "Wed, 21 Oct 2026 19:57:32 +0900"
-    },
-    {
-     "title": "茂木外相 ＡＳＥＡＮ事務局長と会談 11月の首脳会議へ緊密連携",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63099",
-     "pubDate": "Wed, 21 Oct 2026 18:46:04 +0900"
-    },
-    {
-     "title": "UNHCRトップ“イエメン情勢は極めて危険な形でエスカレート”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de63018",
-     "pubDate": "Wed, 21 Oct 2026 17:57:25 +0900"
-    },
-    {
-     "title": "サウジアラビア防衛のためイギリスやエジプトが軍事支援を表明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261021de62780",
-     "pubDate": "Wed, 21 Oct 2026 14:44:00 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月21日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53354",
-     "pubDate": "Wed, 21 Oct 2026 14:35:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "秋田・子吉川 氾濫注意報に切替",
-     "link": "https://news.yahoo.co.jp/pickup/6599644?source=rss",
-     "pubDate": "Wed, 21 Oct 2026 17:38:29 GMT"
+     "title": "社会人向け新教職課程 創設の方針",
+     "link": "https://news.yahoo.co.jp/pickup/6599664?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 00:35:34 GMT"
     },
     {
-     "title": "自民 衆院定数の削減幅を31で調整",
-     "link": "https://news.yahoo.co.jp/pickup/6599633?source=rss",
-     "pubDate": "Wed, 21 Oct 2026 17:42:41 GMT"
+     "title": "情報抜き取りに15秒 悪用指摘のAI",
+     "link": "https://news.yahoo.co.jp/pickup/6599661?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 00:04:11 GMT"
     },
     {
-     "title": "PHPに重大欠陥 Webの7割で使用",
-     "link": "https://news.yahoo.co.jp/pickup/6599637?source=rss",
-     "pubDate": "Wed, 21 Oct 2026 13:52:02 GMT"
+     "title": "G7TV会議を首相欠席 与野党波紋",
+     "link": "https://news.yahoo.co.jp/pickup/6599660?source=rss",
+     "pubDate": "Wed, 21 Oct 2026 23:55:48 GMT"
     },
     {
-     "title": "PHPに欠陥 欧州各国でサイト遮断",
-     "link": "https://news.yahoo.co.jp/pickup/6599650?source=rss",
-     "pubDate": "Wed, 21 Oct 2026 21:57:25 GMT"
+     "title": "PHPの脆弱性 米OpenAIのAIで発見",
+     "link": "https://news.yahoo.co.jp/pickup/6599651?source=rss",
+     "pubDate": "Wed, 21 Oct 2026 22:32:08 GMT"
     },
     {
-     "title": "コミックシーモア最大420万件流出",
-     "link": "https://news.yahoo.co.jp/pickup/6599646?source=rss",
-     "pubDate": "Wed, 21 Oct 2026 21:22:20 GMT"
+     "title": "メタに約4兆円支払い命令 米地裁",
+     "link": "https://news.yahoo.co.jp/pickup/6599658?source=rss",
+     "pubDate": "Wed, 21 Oct 2026 23:28:40 GMT"
     },
     {
-     "title": "88歳の父死亡 傷害疑いで娘を逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6599636?source=rss",
-     "pubDate": "Wed, 21 Oct 2026 17:45:27 GMT"
+     "title": "仕事探し困難「通信困窮」の実態",
+     "link": "https://news.yahoo.co.jp/pickup/6599665?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 00:46:20 GMT"
     },
     {
-     "title": "大谷は手術回避へ 編成本部長明言",
-     "link": "https://news.yahoo.co.jp/pickup/6599647?source=rss",
-     "pubDate": "Wed, 21 Oct 2026 21:35:56 GMT"
+     "title": "韓国発大容量カフェ なぜ日本上陸",
+     "link": "https://news.yahoo.co.jp/pickup/6599666?source=rss",
+     "pubDate": "Thu, 22 Oct 2026 00:48:59 GMT"
     },
     {
-     "title": "異例 阪神・上本打撃コーチが退団",
-     "link": "https://news.yahoo.co.jp/pickup/6599645?source=rss",
-     "pubDate": "Wed, 21 Oct 2026 21:12:38 GMT"
+     "title": "高橋塁 ゲイ公表までの葛藤を語る",
+     "link": "https://news.yahoo.co.jp/pickup/6599656?source=rss",
+     "pubDate": "Wed, 21 Oct 2026 23:15:13 GMT"
     }
    ]
   }
