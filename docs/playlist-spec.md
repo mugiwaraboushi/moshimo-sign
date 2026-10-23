@@ -100,6 +100,7 @@
 `mode:"event"` のあいだだけ、`commentsUrl` の応答に同梱した表示設定で見た目を変えられる
 (管理者用ページから色・速さ・大きさ・段数を変えるため。実機は `playlist.json` しか読まないので、
 イベント中だけコメントの応答に相乗りさせる)。応答の本文が `{` で始まると JSON として読む:
+(GAS では `commentsUrl` を `…/exec?action=feed` にする。`action=text` はテキストのまま)
 
 ```json
 { "settings": { "colorScroll": "rainbow", "speed": 60, "scrollScale": 2, "scrollBold": true, "eventLines": 1 },

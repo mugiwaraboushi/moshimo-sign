@@ -151,6 +151,8 @@ GASのURLをまるごと `?api=` に入れる古い形も動くが、URLエン�
 ## 実機の見た目を管理画面から変える (v19〜)
 
 `commentsUrl` の応答を JSON にすると、イベント中だけ実機の見た目を GAS 側から変えられる。
+**`commentsUrl` を `?action=feed` のURLにする** (`?action=text` は従来のテキストなので設定は届かない)。
+値は管理者用ページの「電光掲示板の表示」カード (GAS の `action=display`) で保存する。
 `playlist.json` を push しなくてよい。**要 v19以上** (v18以前は JSON を1行1件のテキストとして読んでしまう)。
 
 ```json
