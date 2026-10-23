@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T12:53:47.013Z",
+ "updatedAt": "2026-10-23T17:31:54.524Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風30号 先島諸島に最接近 暴風や大雨に厳重警戒【ライブ】",
+     "title": "台風30号 先島諸島に最接近 暴風や大雨に厳重警戒【気象解説】",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de63968",
-     "pubDate": "Fri, 23 Oct 2026 21:43:05 +0900"
+     "pubDate": "Sat, 24 Oct 2026 00:07:43 +0900"
     },
     {
      "title": "巨人新監督に就任 松井秀喜氏が会見「新たな黄金時代を」",
@@ -23,6 +23,11 @@
      "pubDate": "Fri, 23 Oct 2026 20:56:22 +0900"
     },
     {
+     "title": "GMO FX取引のサーバーに不正アクセス 口座で不正操作の相談も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64076",
+     "pubDate": "Fri, 23 Oct 2026 22:01:18 +0900"
+    },
+    {
      "title": "アパレル大手「アンドエスティ」客の個人情報約250万件流出か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64499",
      "pubDate": "Fri, 23 Oct 2026 21:47:14 +0900"
@@ -30,17 +35,12 @@
     {
      "title": "モスバーガー 流通済みプリペイドカード情報 約57万件が流出",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64388",
-     "pubDate": "Fri, 23 Oct 2026 21:36:35 +0900"
+     "pubDate": "Fri, 23 Oct 2026 22:13:49 +0900"
     },
     {
      "title": "佐川急便 流出した個人情報は最大5300万件超の可能性",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64285",
      "pubDate": "Fri, 23 Oct 2026 17:01:00 +0900"
-    },
-    {
-     "title": "ネパール ヒマラヤ山脈で2人の遺体見つかる 不明の日本人か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64496",
-     "pubDate": "Fri, 23 Oct 2026 20:35:40 +0900"
     }
    ]
   },
@@ -50,6 +50,46 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "環境省 最大2万2000件漏えいか ブラストメールに不正アクセス",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64630",
+     "pubDate": "Sat, 24 Oct 2026 02:00:19 +0900"
+    },
+    {
+     "title": "高級腕時計買い取り販売会社 不正還付で約5億8000万円追徴課税",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64595",
+     "pubDate": "Sat, 24 Oct 2026 01:36:12 +0900"
+    },
+    {
+     "title": "墜落のグローバルホーク 機体の引き揚げ作業終了",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64620",
+     "pubDate": "Sat, 24 Oct 2026 00:04:51 +0900"
+    },
+    {
+     "title": "全国180本の煙突に損傷 日本製紙の煙突倒壊受け国が調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64615",
+     "pubDate": "Sat, 24 Oct 2026 00:00:56 +0900"
+    },
+    {
+     "title": "長生炭鉱 DNA鑑定結果を公表“身元特定に至らず”日本政府",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64575",
+     "pubDate": "Fri, 23 Oct 2026 23:39:47 +0900"
+    },
+    {
+     "title": "経産省が「核のごみ」文献調査について宮崎県串間市長に説明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64584",
+     "pubDate": "Fri, 23 Oct 2026 22:55:48 +0900"
+    },
+    {
+     "title": "NHK出版 約12万件の個人情報漏えい 不正アクセスで",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64585",
+     "pubDate": "Fri, 23 Oct 2026 22:25:18 +0900"
+    },
+    {
+     "title": "GMO FX取引のサーバーに不正アクセス 口座で不正操作の相談も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64076",
+     "pubDate": "Fri, 23 Oct 2026 22:01:18 +0900"
+    },
+    {
      "title": "アパレル大手「アンドエスティ」客の個人情報約250万件流出か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64499",
      "pubDate": "Fri, 23 Oct 2026 21:47:14 +0900"
@@ -57,7 +97,7 @@
     {
      "title": "モスバーガー 流通済みプリペイドカード情報 約57万件が流出",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64388",
-     "pubDate": "Fri, 23 Oct 2026 21:36:35 +0900"
+     "pubDate": "Fri, 23 Oct 2026 22:13:49 +0900"
     },
     {
      "title": "防衛省の研究費提供制度に過去最多560件の応募 根強い懸念も",
@@ -83,46 +123,6 @@
      "title": "リニア談合めぐり 大成建設と鹿島建設を営業停止処分 国交省",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64380",
      "pubDate": "Fri, 23 Oct 2026 18:54:00 +0900"
-    },
-    {
-     "title": "東武日光線事故受け 国交省 鉄道事業者集め再発防止に向け会議",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64438",
-     "pubDate": "Fri, 23 Oct 2026 18:47:18 +0900"
-    },
-    {
-     "title": "育成就労制度 約36%の機関が“日本語教員確保めど立たず”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64339",
-     "pubDate": "Fri, 23 Oct 2026 17:51:00 +0900"
-    },
-    {
-     "title": "鹿児島 鹿屋 飲食店経営者殺害事件で容疑者を逮捕 容疑否認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64316",
-     "pubDate": "Fri, 23 Oct 2026 16:58:00 +0900"
-    },
-    {
-     "title": "インフルエンザ 患者数減少も各自治体注意呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64258",
-     "pubDate": "Fri, 23 Oct 2026 16:34:00 +0900"
-    },
-    {
-     "title": "核のごみ文献調査 茨城 常陸大宮市長「誘致ないと将来難しい」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64250",
-     "pubDate": "Fri, 23 Oct 2026 16:23:00 +0900"
-    },
-    {
-     "title": "佐川急便 流出した個人情報は最大5300万件超の可能性",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64285",
-     "pubDate": "Fri, 23 Oct 2026 17:01:00 +0900"
-    },
-    {
-     "title": "ソフトバンク 緊急地震速報の配信を一時停止 PHP影響で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64237",
-     "pubDate": "Fri, 23 Oct 2026 17:41:31 +0900"
-    },
-    {
-     "title": "細野復興相 上限超え事務所設置報道 “事務的ミス”報告書訂正",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64175",
-     "pubDate": "Fri, 23 Oct 2026 13:59:00 +0900"
     }
    ]
   },
@@ -197,14 +197,14 @@
      "pubDate": "Fri, 23 Oct 2026 12:02:59 +0900"
     },
     {
-     "title": "GMO FX取引のサーバーに不正アクセス 口座で不正操作の相談も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64076",
-     "pubDate": "Fri, 23 Oct 2026 19:06:00 +0900"
-    },
-    {
      "title": "大阪松竹座11月から解体工事実施へ その後の計画は未定",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64085",
      "pubDate": "Fri, 23 Oct 2026 11:50:00 +0900"
+    },
+    {
+     "title": "PHPぜい弱性 厚労省 31システム一時停止 情報漏えい確認されず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64069",
+     "pubDate": "Fri, 23 Oct 2026 13:27:50 +0900"
     }
    ]
   },
@@ -213,6 +213,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "ボルボ・カー約2500人削減へ 中国販売台数減少など業績不振で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64605",
+     "pubDate": "Fri, 23 Oct 2026 23:25:07 +0900"
+    },
+    {
+     "title": "ドイツのメルツ首相が来週訪日 高市首相と首脳会談へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64591",
+     "pubDate": "Fri, 23 Oct 2026 22:36:11 +0900"
+    },
     {
      "title": "中国 チベット自治区の地震 16人死亡 1万2000人超が避難",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64521",
@@ -277,16 +287,6 @@
      "title": "「シャモンダウイルスのヒトへの感染を初確認」 フランス",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de63995",
      "pubDate": "Fri, 23 Oct 2026 09:28:43 +0900"
-    },
-    {
-     "title": "拘束中のスー・チー氏と電話 次男“生存確認できてよかった”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63992",
-     "pubDate": "Fri, 23 Oct 2026 09:23:01 +0900"
-    },
-    {
-     "title": "日本製鉄傘下のUSスチール 4700億円余の投資計画を発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63999",
-     "pubDate": "Fri, 23 Oct 2026 09:15:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "物価上昇2%到達判断の公算大 日銀",
-     "link": "https://news.yahoo.co.jp/pickup/6599845?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 09:37:44 GMT"
+     "title": "台風 強い勢力のまま先島諸島接近",
+     "link": "https://news.yahoo.co.jp/pickup/6599876?source=rss",
+     "pubDate": "Fri, 23 Oct 2026 14:44:19 GMT"
     },
     {
-     "title": "今夏 欧州都市部の熱波死者が最多",
-     "link": "https://news.yahoo.co.jp/pickup/6599829?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 08:06:26 GMT"
+     "title": "露 ウ南部で一時停戦合意と米発表",
+     "link": "https://news.yahoo.co.jp/pickup/6599879?source=rss",
+     "pubDate": "Fri, 23 Oct 2026 14:42:42 GMT"
     },
     {
-     "title": "高峰登山で不明2邦人か 遺体発見",
-     "link": "https://news.yahoo.co.jp/pickup/6599853?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 10:17:11 GMT"
+     "title": "タイムズカー情報流出 集団訴訟へ",
+     "link": "https://news.yahoo.co.jp/pickup/6599864?source=rss",
+     "pubDate": "Fri, 23 Oct 2026 12:58:20 GMT"
     },
     {
-     "title": "迷惑行為「ショウリンジ」相次ぐ",
-     "link": "https://news.yahoo.co.jp/pickup/6599857?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 11:40:20 GMT"
+     "title": "7歳死亡 法廷で母謝罪も無罪主張",
+     "link": "https://news.yahoo.co.jp/pickup/6599865?source=rss",
+     "pubDate": "Fri, 23 Oct 2026 13:37:32 GMT"
     },
     {
-     "title": "Airbnb「過度な家事要求」禁止へ",
-     "link": "https://news.yahoo.co.jp/pickup/6599839?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 09:15:45 GMT"
+     "title": "元副議長の証言受け 蔵内氏が反論",
+     "link": "https://news.yahoo.co.jp/pickup/6599861?source=rss",
+     "pubDate": "Fri, 23 Oct 2026 12:10:51 GMT"
     },
     {
-     "title": "作家の小林信彦さんが死去 93歳",
-     "link": "https://news.yahoo.co.jp/pickup/6599842?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 09:26:58 GMT"
+     "title": "車ドアと路面に首はさまれ 窒息死",
+     "link": "https://news.yahoo.co.jp/pickup/6599870?source=rss",
+     "pubDate": "Fri, 23 Oct 2026 13:25:37 GMT"
     },
     {
-     "title": "松井氏 長嶋氏との「約束」に言及",
-     "link": "https://news.yahoo.co.jp/pickup/6599862?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 12:29:13 GMT"
+     "title": "車に1歳放置し病院勤務疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6599875?source=rss",
+     "pubDate": "Fri, 23 Oct 2026 13:56:38 GMT"
     },
     {
-     "title": "競歩池田の資格停止処分 取り消し",
-     "link": "https://news.yahoo.co.jp/pickup/6599858?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 11:41:47 GMT"
+     "title": "王貞治氏 松井秀喜新監督にエール",
+     "link": "https://news.yahoo.co.jp/pickup/6599877?source=rss",
+     "pubDate": "Fri, 23 Oct 2026 14:01:02 GMT"
     }
    ]
   }
