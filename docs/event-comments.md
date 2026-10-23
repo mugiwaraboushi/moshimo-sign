@@ -118,18 +118,20 @@ GASのURLをまるごと `?api=` に入れる古い形も動くが、URLエン�
 | | |
 |---|---|
 | `GET ?action=text` | 承認済みを1行1件のプレーンテキストで返す。**実機がこれを見る** |
+| `GET ?action=feed` | 実機向けの JSON 版 `{"settings":{…},"comments":[{"id":12,"text":"…"},…]}`。鍵不要。`comments` は `action=text` と同じ選び方（承認済み・新しい20件）。`settings` は保存済みの表示設定だけ（下の `display` 参照。未保存のキーは入らない）。`action=text` はこれまでどおり残す |
 | `GET ?action=public` | 承認済みを JSON で返す（参加者画面用・鍵不要） |
 | `GET ?action=list&key=…` | 全件を JSON で返す（管理画面用）。**鍵が要る** |
 | `POST {"action":"add","text":"..."}` | 1件足す。状態は `pending` |
 | `POST {"action":"state","id":1,"state":"approved","key":"..."}` | 状態を変える。`key` 必須 |
 | `GET ?action=settings` | 参加者ページの文言と色 `{ok, settings:{title, lead, color, placeholder}}`。鍵不要。空の項目は既定値で埋めて返す |
 | `POST {"action":"settings","key":"...","title":"...","lead":"...","color":"...","placeholder":"..."}` | 文言と色を保存。`key` 必須。送らなかった項目はそのまま、空文字は既定に戻す。`color` は `FF9C00` / `#ff9c00` どちらでもよい |
+| `POST {"action":"display","key":"...","colorScroll":"FF9C00","speed":45,"scrollScale":2,"scrollBold":true,"eventLines":2,"eventFlow":"loop"}` | 実機の表示設定を `settings` シートに `display_<名前>` のキーで保存。`key` 必須。送らなかった項目はそのまま、空文字 `""` はその項目を消す（feed から返さなくなる）。値: `colorScroll` = 16進6桁 か `"rainbow"` / `speed` = 5〜200 / `scrollScale` = 1・2 / `scrollBold` = true・false / `eventLines` = 1・2 / `eventFlow` = `"loop"`・`"once"`（**次のファーム版から有効**）。範囲外は `bad <名前>` で弾く。応答 `{ok, display:{…}}` |
 | `GET ?action=events&key=…` | 保存済みイベントの一覧 `{ok, events:[{name, title, lead, color, placeholder, savedAt}]}`。`key` 必須 |
 | `POST {"action":"event_save","key":"...","name":"..."}` | いまの文言と色をその名前で `events` シートに保存。同名は上書き |
 | `POST {"action":"event_load","key":"...","name":"..."}` | その名前の文言と色をいまの設定にする。無ければ `not found` |
 | `POST {"action":"event_start","key":"...","name":"..."}` | 新しいイベントを始める。`comments` を `archive_<yyyyMMdd>_<name>` シートに写してから空にし、その名前の設定があれば読み込む（無ければ設定はそのまま）。応答 `{ok, archived, moved, loaded, settings}` |
 
-- シートは `comments`（id / ts / text / state）、`settings`（key / value）、
+- シートは `comments`（id / ts / text / state）、`settings`（key / value。参加者ページの文言と、`display_` で始まる実機の表示設定）、
   `events`（name / title / lead / color / placeholder / savedAt）、退避先の `archive_…`
 - `event_start` のあとは `comments` が空になるので、実機の `action=text` も空になる
   (event モードの実機は、コメントが0件のあいだ常設メッセージを流す)。id は 1 から振り直し

@@ -22,6 +22,8 @@
   textarea, input[type=text] { width:100%; background:#0f1216; color:#e8e6e0; border:1px solid #2c3138;
     border-radius:9px; padding:11px; font:inherit; font-size:16px; resize:vertical; }
   textarea { min-height:88px; }
+  select { width:100%; background:#0f1216; color:#e8e6e0; border:1px solid #2c3138;
+    border-radius:9px; padding:10px; font:inherit; font-size:16px; }
   button { font:inherit; font-size:13px; border-radius:9px; padding:10px 14px; border:1px solid #2c3138;
     background:#171a1f; color:#c9cdd3; }
   button.primary { background:var(--accent); color:#000; border-color:var(--accent); font-weight:700; width:100%; padding:13px; }
@@ -289,8 +291,17 @@ const FIELDS = [
   ["placeholder", "入力欄のヒント", "質問・コメント・つぶやき、なんでも"],
   ["color", "アクセント色（16進）", "FF9C00"],
 ];
+// 実機の表示設定 (GAS の settings シートの display_… キー。実機は action=feed で読む)。
+// "" は「未設定」= feed から外し、実機は playlist.json の値か既定値を使う
+const DISP = { cur:null, draft:null, msg:"", err:"", legacy:false };
+const DISP_KEYS = ["colorScroll", "speed", "scrollScale", "scrollBold", "eventLines", "eventFlow"];
+const dispStr = o => Object.fromEntries(DISP_KEYS.map(k => [k, o[k] == null ? "" : String(o[k])]));
+const dispDirty = () => DISP.cur && DISP.draft && DISP_KEYS.some(k => String(DISP.draft[k]).trim() !== DISP.cur[k]);
 const hex6 = v => { const m = /^#?([0-9a-f]{6})$/i.exec(String(v || "").trim()); return m ? m[1].toUpperCase() : ""; };
-const resetSet = () => Object.assign(SET, { cur:null, draft:null, events:null, msg:"", err:"", legacy:false });
+const resetSet = () => {
+  Object.assign(SET, { cur:null, draft:null, events:null, msg:"", err:"", legacy:false });
+  Object.assign(DISP, { cur:null, draft:null, msg:"", err:"", legacy:false });
+};
 const dirty = () => SET.cur && SET.draft && FIELDS.some(([k]) =>
   String(SET.draft[k] ?? "").trim() !== String(SET.cur[k] ?? ""));
 
@@ -306,6 +317,14 @@ async function loadEventStuff(){
     SET.events = e.events || [];
   } catch (e) {
     SET.err = "イベント設定を読めませんでした（" + e.message + "）";
+  }
+  try {
+    const f = await REMOTE.get("feed");
+    if (f.ok === false && f.error === "unknown action") DISP.legacy = true;
+    else if (!f.settings) throw new Error(f.error || "エラー");
+    else { DISP.cur = dispStr(f.settings); DISP.draft = { ...DISP.cur }; DISP.err = ""; }
+  } catch (e) {
+    DISP.err = "表示設定を読めませんでした（" + e.message + "）";
   } finally {
     SET.loading = false;
     render();
@@ -394,7 +413,74 @@ function eventCards(){
       </div>
     </div>
     ${SET.msg ? `<div class="msg ok" style="margin-bottom:12px">${esc(SET.msg)}</div>` : ``}
-    ${SET.err ? `<div class="msg err" style="margin-bottom:12px">${esc(SET.err)}</div>` : ``}`;
+    ${SET.err ? `<div class="msg err" style="margin-bottom:12px">${esc(SET.err)}</div>` : ``}
+    ${displayCard()}`;
+}
+
+function displayCard(){
+  if (DISP.legacy) return `
+    <h2>電光掲示板の表示</h2>
+    <div class="msg err">GASが古いままで、表示設定が使えません。<code>tools/event-comments-gas/Code.gs</code> を貼り直して
+      <b>デプロイを更新</b>してください。</div>`;
+  if (!DISP.draft) return `<h2>電光掲示板の表示</h2>
+    <div class="card"><div class="empty">${DISP.err ? esc(DISP.err) : "読み込み中…"}</div></div>`;
+  const d = DISP.draft, c = String(d.colorScroll).trim();
+  const sel = (k, opts) => `<select id="disp-${k}" data-disp="${k}">${[["", "未設定"], ...opts].map(([v, l]) =>
+    `<option value="${v}" ${String(d[k]) === v ? "selected" : ""}>${l}</option>`).join("")}</select>`;
+  return `
+    <h2>電光掲示板の表示</h2>
+    <div class="card">
+      <label class="f" for="disp-colorScroll">流れる文字の色（16進 または rainbow）</label>
+      <div class="row" style="align-items:center;flex-wrap:nowrap">
+        <input type="color" id="disp-colorpick" value="#${esc(hex6(c) || "FF9C00")}">
+        <input type="text" id="disp-colorScroll" data-disp="colorScroll" maxlength="7" placeholder="未設定（例 FF9C00 / rainbow）" value="${esc(c)}">
+        <button class="tiny" id="disp-rainbow" style="white-space:nowrap">虹色</button>
+      </div>
+      <label class="f" for="disp-speed">速さ（5〜200。小さいほど速い）</label>
+      <input type="text" inputmode="numeric" id="disp-speed" data-disp="speed" maxlength="3" placeholder="未設定（例 45）" value="${esc(d.speed)}">
+      <label class="f" for="disp-scrollScale">文字の大きさ</label>
+      ${sel("scrollScale", [["1", "ふつう（16px）"], ["2", "大きい（32px・1行表示のとき）"]])}
+      <label class="f" for="disp-scrollBold">太字</label>
+      ${sel("scrollBold", [["false", "ふつう"], ["true", "太字"]])}
+      <label class="f" for="disp-eventLines">イベント中の行数</label>
+      ${sel("eventLines", [["1", "1行"], ["2", "2行"]])}
+      <label class="f" for="disp-eventFlow">コメントの流し方 <span style="color:var(--accent)">※次のファーム版から有効</span></label>
+      ${sel("eventFlow", [["loop", "くり返し流す（loop）"], ["once", "1回ずつ流す（once）"]])}
+      <div class="row" style="margin-top:10px">
+        <button class="tiny primary" id="dispsave" style="width:auto">保存</button>
+      </div>
+      <div style="font-size:11px;color:var(--dim);margin-top:9px">
+        「未設定」の項目は実機に渡さず、<code>playlist.json</code> の値か既定値のままになります。
+        実機がこの設定を読むのは、イベントモードの取得先が <code>action=feed</code> になってからです。
+        ${dispDirty() ? `<br><b style="color:var(--accent)">まだ保存していない変更があります。</b>` : ``}
+      </div>
+    </div>
+    ${DISP.msg ? `<div class="msg ok" style="margin-bottom:12px">${esc(DISP.msg)}</div>` : ``}
+    ${DISP.err ? `<div class="msg err" style="margin-bottom:12px">${esc(DISP.err)}</div>` : ``}`;
+}
+
+function bindDisplayCard(){
+  if (!$("dispsave")) return;
+  view.querySelectorAll("[data-disp]").forEach(el => el.oninput = el.onchange = () => {
+    DISP.draft[el.dataset.disp] = el.value;
+    if (el.dataset.disp === "colorScroll" && hex6(el.value)) $("disp-colorpick").value = "#" + hex6(el.value);
+  });
+  $("disp-colorpick").oninput = e => { DISP.draft.colorScroll = e.target.value.slice(1).toUpperCase(); $("disp-colorScroll").value = DISP.draft.colorScroll; };
+  $("disp-rainbow").onclick = () => { DISP.draft.colorScroll = "rainbow"; render(); };
+  $("dispsave").onclick = async () => {
+    DISP.msg = ""; DISP.err = "";
+    const body = { action:"display", key: CONF.key };
+    DISP_KEYS.forEach(k => body[k] = String(DISP.draft[k]).trim());
+    try {
+      const j = await REMOTE.post(body);
+      DISP.cur = dispStr(j.display || {}); DISP.draft = { ...DISP.cur };
+      DISP.msg = "保存しました。";
+    } catch (e) {
+      DISP.err = ({ "bad colorScroll":"色は 6 桁の16進（例 FF9C00）か rainbow で入れてください",
+        "bad speed":"速さは 5〜200 の整数で入れてください", forbidden:"管理キーが違います" })[e.message] || e.message;
+    }
+    render();
+  };
 }
 
 function bindEventCards(){
@@ -569,6 +655,7 @@ function renderAdmin(){
 
   view.querySelectorAll("[data-tab]").forEach(b => b.onclick = () => { tab = b.dataset.tab; render(); });
   bindEventCards();
+  bindDisplayCard();
   const act = (attr, state) => view.querySelectorAll(`[data-${attr}]`).forEach(b => b.onclick = async () => {
     b.disabled = true;
     try { await store().setState(+b.dataset[attr], state); }
@@ -640,7 +727,7 @@ function download(name, text, mime){
 let composing = false, deferred = false;
 const typing = () => composing ||
   !!(document.activeElement && view.contains(document.activeElement) &&
-     /^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName));
+     /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName));
 addEventListener("compositionstart", () => { composing = true; });
 addEventListener("compositionend",   () => { composing = false; });
 addEventListener("focusout", () => setTimeout(() => {
