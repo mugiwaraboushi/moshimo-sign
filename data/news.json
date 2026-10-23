@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T17:31:54.524Z",
+ "updatedAt": "2026-10-23T20:42:00.768Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風30号 先島諸島に最接近 暴風や大雨に厳重警戒【気象解説】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63968",
-     "pubDate": "Sat, 24 Oct 2026 00:07:43 +0900"
+     "title": "台風30号 先島諸島が暴風域に 暴風や大雨などに厳重警戒",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64650",
+     "pubDate": "Sat, 24 Oct 2026 05:17:46 +0900"
+    },
+    {
+     "title": "改正皇室典範 きょう施行",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64625",
+     "pubDate": "Sat, 24 Oct 2026 05:00:08 +0900"
     },
     {
      "title": "巨人新監督に就任 松井秀喜氏が会見「新たな黄金時代を」",
@@ -23,24 +28,19 @@
      "pubDate": "Fri, 23 Oct 2026 20:56:22 +0900"
     },
     {
-     "title": "GMO FX取引のサーバーに不正アクセス 口座で不正操作の相談も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64076",
-     "pubDate": "Fri, 23 Oct 2026 22:01:18 +0900"
+     "title": "台風31号が日本のはるか南東の海上で発生 今後の情報に注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64647",
+     "pubDate": "Sat, 24 Oct 2026 04:40:00 +0900"
+    },
+    {
+     "title": "政府 ガソリン補助見直しも検討 水準や時期など焦点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64636",
+     "pubDate": "Sat, 24 Oct 2026 01:46:03 +0900"
     },
     {
      "title": "アパレル大手「アンドエスティ」客の個人情報約250万件流出か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64499",
      "pubDate": "Fri, 23 Oct 2026 21:47:14 +0900"
-    },
-    {
-     "title": "モスバーガー 流通済みプリペイドカード情報 約57万件が流出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64388",
-     "pubDate": "Fri, 23 Oct 2026 22:13:49 +0900"
-    },
-    {
-     "title": "佐川急便 流出した個人情報は最大5300万件超の可能性",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64285",
-     "pubDate": "Fri, 23 Oct 2026 17:01:00 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "国際業務に特化した初の巡視船「ふじ」12月に就役",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64611",
+     "pubDate": "Sat, 24 Oct 2026 05:40:04 +0900"
+    },
+    {
+     "title": "改正皇室典範 きょう施行",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64625",
+     "pubDate": "Sat, 24 Oct 2026 05:00:08 +0900"
+    },
     {
      "title": "環境省 最大2万2000件漏えいか ブラストメールに不正アクセス",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64630",
@@ -113,16 +123,6 @@
      "title": "岩井コスモ証券会長 不正アクセスで陳謝 不正取引125万株",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64214",
      "pubDate": "Fri, 23 Oct 2026 19:11:05 +0900"
-    },
-    {
-     "title": "改正皇室典範 24日施行 皇族数の確保に向け",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64279",
-     "pubDate": "Fri, 23 Oct 2026 19:42:19 +0900"
-    },
-    {
-     "title": "リニア談合めぐり 大成建設と鹿島建設を営業停止処分 国交省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64380",
-     "pubDate": "Fri, 23 Oct 2026 18:54:00 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "KDDI モンゴル自然保護区の大規模火災の経緯公表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64642",
+     "pubDate": "Sat, 24 Oct 2026 05:20:57 +0900"
+    },
+    {
      "title": "ボルボ・カー約2500人削減へ 中国販売台数減少など業績不振で",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64605",
      "pubDate": "Fri, 23 Oct 2026 23:25:07 +0900"
@@ -254,7 +259,7 @@
      "pubDate": "Fri, 23 Oct 2026 16:56:00 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月23日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（10月23日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53356",
      "pubDate": "Fri, 23 Oct 2026 14:43:00 +0900"
     },
@@ -282,11 +287,6 @@
      "title": "ウクライナ衛星制限 トランプ大統領「マスク氏が元に戻した」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64005",
      "pubDate": "Fri, 23 Oct 2026 09:49:00 +0900"
-    },
-    {
-     "title": "「シャモンダウイルスのヒトへの感染を初確認」 フランス",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de63995",
-     "pubDate": "Fri, 23 Oct 2026 09:28:43 +0900"
     }
    ]
   },
