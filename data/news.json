@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T20:42:00.768Z",
+ "updatedAt": "2026-10-23T23:35:51.508Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風30号 先島諸島が暴風域に 暴風や大雨などに厳重警戒",
+     "title": "台風30号 先島諸島が暴風域に 沖縄で2人がけが",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64650",
-     "pubDate": "Sat, 24 Oct 2026 05:17:46 +0900"
+     "pubDate": "Sat, 24 Oct 2026 07:58:11 +0900"
     },
     {
      "title": "改正皇室典範 きょう施行",
@@ -33,9 +33,9 @@
      "pubDate": "Sat, 24 Oct 2026 04:40:00 +0900"
     },
     {
-     "title": "政府 ガソリン補助見直しも検討 水準や時期など焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64636",
-     "pubDate": "Sat, 24 Oct 2026 01:46:03 +0900"
+     "title": "フランスで再び抗議デモ実施へ パリの街に警戒感広がる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64652",
+     "pubDate": "Sat, 24 Oct 2026 05:47:42 +0900"
     },
     {
      "title": "アパレル大手「アンドエスティ」客の個人情報約250万件流出か",
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（10月24日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64531",
+     "pubDate": "Sat, 24 Oct 2026 06:43:38 +0900"
+    },
+    {
+     "title": "東武野田線 運転再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64660",
+     "pubDate": "Sat, 24 Oct 2026 07:30:49 +0900"
+    },
     {
      "title": "国際業務に特化した初の巡視船「ふじ」12月に就役",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64611",
@@ -113,16 +123,6 @@
      "title": "防衛省の研究費提供制度に過去最多560件の応募 根強い懸念も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64506",
      "pubDate": "Fri, 23 Oct 2026 19:36:00 +0900"
-    },
-    {
-     "title": "小泉防衛相“防衛装備庁所管の研究所を機能別に抜本改編”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64373",
-     "pubDate": "Fri, 23 Oct 2026 19:32:18 +0900"
-    },
-    {
-     "title": "岩井コスモ証券会長 不正アクセスで陳謝 不正取引125万株",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64214",
-     "pubDate": "Fri, 23 Oct 2026 19:11:05 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "秋田大教授らがタジキスタンで脱炭素プロジェクト",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64628",
+     "pubDate": "Sat, 24 Oct 2026 07:15:06 +0900"
+    },
+    {
+     "title": "フランスで再び抗議デモ実施へ パリの街に警戒感広がる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64652",
+     "pubDate": "Sat, 24 Oct 2026 05:47:42 +0900"
+    },
+    {
      "title": "KDDI モンゴル自然保護区の大規模火災の経緯公表",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64642",
      "pubDate": "Sat, 24 Oct 2026 05:20:57 +0900"
@@ -277,16 +287,6 @@
      "title": "中国チベット自治区でM7.0の地震 16人死亡54人けが",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64083",
      "pubDate": "Fri, 23 Oct 2026 12:29:00 +0900"
-    },
-    {
-     "title": "NYセントラルパーク観光馬車 安全性へ懸念 再来年に営業終了へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64028",
-     "pubDate": "Fri, 23 Oct 2026 12:11:06 +0900"
-    },
-    {
-     "title": "ウクライナ衛星制限 トランプ大統領「マスク氏が元に戻した」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64005",
-     "pubDate": "Fri, 23 Oct 2026 09:49:00 +0900"
     }
    ]
   },
@@ -296,29 +296,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風 強い勢力のまま先島諸島接近",
-     "link": "https://news.yahoo.co.jp/pickup/6599876?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 14:44:19 GMT"
+     "title": "強い台風30号は九州へ 警報級大雨",
+     "link": "https://news.yahoo.co.jp/pickup/6599881?source=rss",
+     "pubDate": "Fri, 23 Oct 2026 22:15:15 GMT"
     },
     {
-     "title": "露 ウ南部で一時停戦合意と米発表",
-     "link": "https://news.yahoo.co.jp/pickup/6599879?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 14:42:42 GMT"
+     "title": "ウ南部停戦へ トランプ氏夫人仲介",
+     "link": "https://news.yahoo.co.jp/pickup/6599882?source=rss",
+     "pubDate": "Fri, 23 Oct 2026 22:18:09 GMT"
     },
     {
-     "title": "タイムズカー情報流出 集団訴訟へ",
-     "link": "https://news.yahoo.co.jp/pickup/6599864?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 12:58:20 GMT"
-    },
-    {
-     "title": "7歳死亡 法廷で母謝罪も無罪主張",
-     "link": "https://news.yahoo.co.jp/pickup/6599865?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 13:37:32 GMT"
-    },
-    {
-     "title": "元副議長の証言受け 蔵内氏が反論",
-     "link": "https://news.yahoo.co.jp/pickup/6599861?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 12:10:51 GMT"
+     "title": "県立高で威圧的指導か 精神疾患に",
+     "link": "https://news.yahoo.co.jp/pickup/6599889?source=rss",
+     "pubDate": "Fri, 23 Oct 2026 23:07:02 GMT"
     },
     {
      "title": "車ドアと路面に首はさまれ 窒息死",
@@ -331,9 +321,19 @@
      "pubDate": "Fri, 23 Oct 2026 13:56:38 GMT"
     },
     {
-     "title": "王貞治氏 松井秀喜新監督にエール",
-     "link": "https://news.yahoo.co.jp/pickup/6599877?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 14:01:02 GMT"
+     "title": "パナG従業員情報 外部AIにアップ",
+     "link": "https://news.yahoo.co.jp/pickup/6599885?source=rss",
+     "pubDate": "Fri, 23 Oct 2026 23:14:51 GMT"
+    },
+    {
+     "title": "村上龍さんのすごさ 見城徹氏語る",
+     "link": "https://news.yahoo.co.jp/pickup/6599888?source=rss",
+     "pubDate": "Fri, 23 Oct 2026 23:05:27 GMT"
+    },
+    {
+     "title": "巨人 高橋由伸氏にヘッドCを要請",
+     "link": "https://news.yahoo.co.jp/pickup/6599880?source=rss",
+     "pubDate": "Fri, 23 Oct 2026 22:20:27 GMT"
     }
    ]
   }
