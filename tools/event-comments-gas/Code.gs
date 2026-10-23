@@ -6,6 +6,8 @@
  *   GET  ?action=public                   承認済みだけをJSONで返す（参加者画面用・鍵は不要）
  *   GET  ?action=text                     承認済みだけを1行1件のテキストで返す
  *                                         ← このURLを playlist.json の commentsUrl にする
+ *   GET  ?action=feed                     実機の表示設定と承認済みコメントをJSONで返す（鍵は不要）
+ *                                         {"settings":{…},"comments":[{"id":12,"text":"…"},…]}
  *   GET  ?action=settings                 参加者画面の文言と色をJSONで返す（鍵は不要）
  *   GET  ?action=events&key=…             保存済みイベントの一覧（鍵が要る）
  *   POST {"action":"add","text":"..."}    1件足す（参加者の投稿）
@@ -13,6 +15,9 @@
  *                                         状態を変える（管理者のみ）
  *   POST {"action":"settings","key":"...","title":"...","lead":"...","color":"...","placeholder":"..."}
  *                                         参加者画面の文言と色を保存（管理者のみ）
+ *   POST {"action":"display","key":"...","colorScroll":"...","speed":45,"scrollScale":2,
+ *         "scrollBold":true,"eventLines":2,"eventFlow":"loop"}
+ *                                         実機の表示設定を保存（管理者のみ）
  *   POST {"action":"event_save","key":"...","name":"..."}   いまの設定をその名前で保存（同名は上書き）
  *   POST {"action":"event_load","key":"...","name":"..."}   その名前の設定をいまの設定にする
  *   POST {"action":"event_start","key":"...","name":"..."}  comments を archive_<日付>_<名前> に退避して空にし、
@@ -43,6 +48,11 @@ var SETTING_DEFAULTS = {
 };
 var SETTING_MAX = { title: 40, lead: 200, color: 6, placeholder: 60 };
 var MAX_EVENT_NAME = 40;
+
+// 実機の表示設定 (action=feed で返す)。settings シートに display_<名前> のキーで入れる。
+// 保存されていないキーは返さない (実機は playlist.json の値か既定値を使う)
+var DISPLAY_PREFIX = 'display_';
+var DISPLAY_KEYS = ['colorScroll', 'speed', 'scrollScale', 'scrollBold', 'eventLines', 'eventFlow'];
 
 function adminKey_() {
   return PropertiesService.getScriptProperties().getProperty('ADMIN_KEY') || '';
@@ -142,6 +152,59 @@ function writeSettings_(values) {
   });
 }
 
+// 保存されている表示設定を型付きで返す（空や未保存は入らない）
+function storedDisplay_() {
+  var sh = settingsSheet_();
+  var last = sh.getLastRow();
+  var out = {};
+  if (last < 2) return out;
+  sh.getRange(2, 1, last - 1, 2).getValues().forEach(function (r) {
+    var k = String(r[0]);
+    if (k.indexOf(DISPLAY_PREFIX) !== 0) return;
+    var name = k.slice(DISPLAY_PREFIX.length), v = String(r[1]);
+    if (DISPLAY_KEYS.indexOf(name) < 0 || v === '') return;
+    if (name === 'speed' || name === 'scrollScale' || name === 'eventLines') out[name] = Number(v);
+    else if (name === 'scrollBold') out[name] = v === 'true';
+    else out[name] = v;
+  });
+  return out;
+}
+
+// 送られてきた項目だけ確かめる。空文字 "" はその項目を消す（feed から返さなくなる）
+function cleanDisplay_(src) {
+  var out = {};
+  for (var i = 0; i < DISPLAY_KEYS.length; i++) {
+    var k = DISPLAY_KEYS[i];
+    if (src[k] == null) continue;                 // 送られてこなかった項目は変えない
+    var v = String(src[k]).trim();
+    if (v === '') { out[DISPLAY_PREFIX + k] = ''; continue; }
+    if (k === 'colorScroll') {
+      if (v.toLowerCase() === 'rainbow') v = 'rainbow';
+      else {
+        v = v.replace(/^#/, '').toUpperCase();
+        if (!/^[0-9A-F]{6}$/.test(v)) return { error: 'bad colorScroll' };
+      }
+    } else if (k === 'speed') {
+      if (!/^\d+$/.test(v) || Number(v) < 5 || Number(v) > 200) return { error: 'bad speed' };
+      v = String(Number(v));
+    } else if (k === 'scrollScale' || k === 'eventLines') {
+      if (v !== '1' && v !== '2') return { error: 'bad ' + k };
+    } else if (k === 'scrollBold') {
+      if (v !== 'true' && v !== 'false') return { error: 'bad scrollBold' };
+    } else if (k === 'eventFlow') {
+      if (v !== 'loop' && v !== 'once') return { error: 'bad eventFlow' };
+    }
+    out[DISPLAY_PREFIX + k] = v;
+  }
+  return { values: out };
+}
+
+// 実機に渡す承認済みコメント（action=text と同じ選び方）
+function approvedTail_() {
+  var approved = rows_().filter(function (c) { return c.state === 'approved'; });
+  return approved.slice(Math.max(0, approved.length - MAX_TO_DEVICE));
+}
+
 function eventsSheet_() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var sh = ss.getSheetByName(EVENTS_SHEET);
@@ -212,9 +275,15 @@ function doGet(e) {
 
   if (action === 'text') {
     // 実機が15秒ごとに取りにくる口。承認済みだけを新しい順に MAX_TO_DEVICE 件。
-    var approved = rows_().filter(function (c) { return c.state === 'approved'; });
-    var tail = approved.slice(Math.max(0, approved.length - MAX_TO_DEVICE));
-    return plain_(tail.map(function (c) { return c.text; }).join('\n'));
+    return plain_(approvedTail_().map(function (c) { return c.text; }).join('\n'));
+  }
+
+  if (action === 'feed') {
+    // 実機向けの JSON 版。表示設定とコメントを1回で取れる。text と同じく鍵は要らない
+    return json_({
+      settings: storedDisplay_(),
+      comments: approvedTail_().map(function (c) { return { id: c.id, text: c.text }; })
+    });
   }
 
   if (action === 'public') {
@@ -295,7 +364,7 @@ function doPost(e) {
     }
 
     // ここから下はすべて管理者だけ
-    if (['settings', 'event_save', 'event_load', 'event_start'].indexOf(body.action) >= 0 &&
+    if (['settings', 'display', 'event_save', 'event_load', 'event_start'].indexOf(body.action) >= 0 &&
         !isAdmin_(body.key)) {
       return json_({ ok: false, error: 'forbidden' });
     }
@@ -305,6 +374,13 @@ function doPost(e) {
       if (cleaned.error) return json_({ ok: false, error: cleaned.error });
       writeSettings_(cleaned.values);
       return json_({ ok: true, settings: settings_() });
+    }
+
+    if (body.action === 'display') {
+      var disp = cleanDisplay_(body);
+      if (disp.error) return json_({ ok: false, error: disp.error });
+      writeSettings_(disp.values);
+      return json_({ ok: true, display: storedDisplay_() });
     }
 
     if (body.action === 'event_save') {
