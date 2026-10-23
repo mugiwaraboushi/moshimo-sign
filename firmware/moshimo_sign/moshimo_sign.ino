@@ -31,6 +31,8 @@
  *  - 認証情報をNVSへ: WiFi/OTAの認証情報を .bin に埋めず Preferences から読む (v17)
  *    → 公開している .bin から SSID/パスワードが取り出せてしまう状態をやめるため
  *    → NVSに無ければ config.h に戻る移行版。投入はUSBのシリアルから (手順: docs/firmware-build.md)
+ *  - イベント中の表示設定: commentsUrl の JSON 応答の "settings" で色・速さ・大きさ・段数を上書き (v19)
+ *    → mode:"event" のときだけ効く。テキスト応答 (1行1件) は従来どおり読める
  *
  * 配線 (HUB75標準ピン割当はライブラリ既定値を使用):
  *   https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA を参照
@@ -81,7 +83,7 @@
 // このビルドのバージョン。リリースごとに +1 する (手順: docs/firmware-release.md)。
 // **公開する .bin はこの値を上げてビルドしたものであること。** manifest の version だけ
 // 上げて .bin が古いままだと、実機は「更新したのにまだ古い」を延々繰り返す。
-#define FW_VERSION 18
+#define FW_VERSION 19
 
 // ---- イベントコメント (v0.10) ----
 // 取得先は playlist.json の "commentsUrl" でも指定できる。config.h の値は初期値。
@@ -438,6 +440,20 @@ static uint16_t plColorScroll = COLOR_BOTTOM;
 static bool plRainbow = false;   // colorScroll:"rainbow" で虹色スクロール (v0.4)
 static int  plScrollScale = 1;   // scrollScale: 1=16px / 2=32px。2 は mode:"scroll" のときだけ効く (v18)
 static bool plScrollBold = false; // scrollBold: スクロール文字を太字にする (v18)
+// イベント中の表示設定 (v19)。commentsUrl の JSON 応答の "settings" から受け取る。
+// plMode == MODE_EVENT のときだけ、指定のあるキーが上の playlist 由来の値を上書きする
+// (イベント中の優先順位: GAS settings > playlist.json)。has* = false は「指定なし」。
+// pl* 自体は書き換えないので、mode が event 以外になれば何もしなくても playlist の値に戻る。
+struct EventSettings {
+  bool hasColor = false;  bool rainbow = false;  uint16_t color = 0;
+  String colorStr;                         // ログ用 (受け取った文字列そのまま)
+  bool hasSpeed = false;  float speed = 0;
+  bool hasScale = false;  int scale = 1;
+  bool hasBold = false;   bool bold = false;
+  bool hasLines = false;  int lines = 2;
+  String flow;                             // eventFlow: 保持だけ (v20 で使う)
+};
+static EventSettings evSet;
 static String plCommentsUrl = COMMENTS_URL;   // commentsUrl で差し替え可能 (v0.10)
 static String plHoursUrl = HOURS_URL;         // hoursUrl で差し替え可能 (v16)
 static volatile bool hoursUrlChanged = false; // 取得先が変わった → 次の取得を待たずに行う
@@ -463,6 +479,7 @@ static int hoursLastState = -1;
 
 // mode: "dual" / "scroll" / "frames" (v0.5) / "event" (v15)
 // MODE_EVENT の見た目は MODE_DUAL と同じ (上段topText + 下段スクロール)。
+// ただし GAS の settings で eventLines:1 が来ていれば MODE_SCROLL と同じ1段になる (v19)。
 // 違うのは流す中身だけで、コメントがあるときは plMessages を出さずコメントだけを流す
 // (rebuildMarquee を見ること)。
 enum DisplayMode { MODE_DUAL, MODE_SCROLL, MODE_FRAMES, MODE_EVENT };
@@ -974,6 +991,7 @@ static bool applyPlaylistBody(const String &body) {
         plCommentsUrl = u;
         if (fetchMutex) xSemaphoreGive(fetchMutex);
         commentCount = 0;   // 取得先が変わったので前の置き場のコメントは持ち越さない
+        evSet = EventSettings();   // 表示設定も同じ置き場から来たものなので破棄する (v19)
         Serial.printf("[comments] url set (%d文字)\n", (int)u.length());
       }
     } else {
@@ -1246,8 +1264,72 @@ static String fetchedHoursBody;            // 営業カレンダー本文 (mutex
 static volatile bool fetchedHoursReady = false; // 未反映のカレンダー本文がある
 static volatile bool fetchAsync = false;   // タスクが動いている (falseならloop()側で取る)
 
+// イベント中の実効値 (v19)。描画側はここを通して読む。
+static bool evActive() { return plMode == MODE_EVENT; }
+static float effSpeed()     { return (evActive() && evSet.hasSpeed) ? evSet.speed : plSpeed; }
+static bool effRainbow()    { return (evActive() && evSet.hasColor) ? evSet.rainbow : plRainbow; }
+static uint16_t effColor()  { return (evActive() && evSet.hasColor) ? evSet.color : plColorScroll; }
+static int  effScale()      { return (evActive() && evSet.hasScale) ? evSet.scale : plScrollScale; }
+static bool effBold()       { return (evActive() && evSet.hasBold)  ? evSet.bold  : plScrollBold; }
+static int  effEventLines() { return (evActive() && evSet.hasLines) ? evSet.lines : 2; }
+
+// "settings" を evSet に読み込む (v19)。無いキーは「指定なし」、範囲外は丸める。
+// 受け取るたびに丸ごと置き換える (管理画面でキーを消せば playlist の値に戻る)。
+static void applyEventSettings(JsonObject s) {
+  EventSettings n;
+  if (s["colorScroll"].is<const char*>()) {
+    const char *cs = s["colorScroll"];
+    n.hasColor = true;
+    n.colorStr = cs;
+    n.rainbow = (strcmp(cs, "rainbow") == 0);
+    if (!n.rainbow) n.color = hexToColor565(cs);
+  }
+  if (s["speed"].is<float>())    { n.hasSpeed = true; n.speed = constrain((float)s["speed"], 5.0f, 200.0f); }
+  if (s["scrollScale"].is<int>()) { n.hasScale = true; n.scale = constrain((int)s["scrollScale"], 1, 2); }
+  if (s["scrollBold"].is<bool>()) { n.hasBold = true;  n.bold = (bool)s["scrollBold"]; }
+  if (s["eventLines"].is<int>())  { n.hasLines = true; n.lines = constrain((int)s["eventLines"], 1, 2); }
+  if (s["eventFlow"].is<const char*>()) n.flow = (const char*)s["eventFlow"];
+  evSet = n;
+  if (evActive()) {
+    Serial.printf("[comments] settings: lines=%d scale=%d bold=%d speed=%d color=%s flow=%s\n",
+                  effEventLines(), effScale(), (int)effBold(), (int)effSpeed(),
+                  n.hasColor ? n.colorStr.c_str() : "-", n.flow.length() ? n.flow.c_str() : "-");
+  }
+}
+
+// JSON 形式の応答 (v19): {"settings":{...},"comments":[{"id":12,"text":"…"} or "…", …]}
+// 壊れていたら何も変えない (前回のコメント・設定を保持)。
+// "settings" が無ければ前回の設定を保持、"comments" が無ければ前回のコメントを保持。
+static void applyCommentsJson(const String &body) {
+  JsonDocument doc;
+  if (deserializeJson(doc, body)) {
+    Serial.println("[comments] parse error");
+    return;
+  }
+  if (doc["settings"].is<JsonObject>()) applyEventSettings(doc["settings"].as<JsonObject>());
+  if (doc["comments"].is<JsonArray>()) {
+    int newCount = 0;
+    for (JsonVariant v : doc["comments"].as<JsonArray>()) {
+      if (newCount >= MAX_COMMENTS) break;
+      const char *t = v.is<const char*>() ? v.as<const char*>()
+                    : v["text"].is<const char*>() ? v["text"].as<const char*>() : nullptr;
+      if (!t) continue;
+      String line(t);
+      line.trim();
+      if (line.length()) comments[newCount++] = line;
+    }
+    commentCount = newCount;   // 0件でも反映する (テキスト形式と同じ)
+  }
+  rebuildMarquee();
+}
+
 // 受け取った本文を comments[] に展開する。呼ぶのは loop() 側だけ。
+// 先頭が '{' なら JSON 形式 (v19)、それ以外は従来どおり 1 行 1 件のテキスト。
 static void applyCommentsBody(const String &body) {
+  if (body.length() && body[0] == '{') {
+    applyCommentsJson(body);
+    return;
+  }
   int newCount = 0;
   int from = 0;
   while (from < (int)body.length() && newCount < MAX_COMMENTS) {
@@ -1631,9 +1713,15 @@ void loop() {
 
   // 2段表示の下段は16px高しかないので、拡大は1行スクロールのときだけ効かせる (v18)。
   // 太字は高さが変わらないのでどちらでも効く。
-  const bool twoRows = (plMode != MODE_SCROLL && PANEL_H >= 32);
-  int scale = (!twoRows && 16 * plScrollScale <= PANEL_H) ? plScrollScale : 1;
-  const bool bold = plScrollBold;
+  // イベント中は GAS の settings が playlist の値を上書きする (v19、eff* を参照)。
+  // eventLines:1 のときは上段を出さず、MODE_SCROLL と同じ1行の経路で流す。
+  const bool oneRow = (plMode == MODE_SCROLL) || (plMode == MODE_EVENT && effEventLines() == 1);
+  const bool twoRows = (!oneRow && PANEL_H >= 32);
+  const int effScaleNow = effScale();
+  int scale = (!twoRows && 16 * effScaleNow <= PANEL_H) ? effScaleNow : 1;
+  const bool bold = effBold();
+  const bool rainbow = effRainbow();
+  const uint16_t color = effColor();
   // 本文・拡大率・太字のどれかが変わったときだけ幅を測り直す
   // (拡大・太字は playlist 取得で変わりうるが、rebuildMarquee は本文が変わったときしか走らない)。
   if (scale != marqueeWScale || bold != marqueeWBold) {
@@ -1642,17 +1730,17 @@ void loop() {
     marqueeWBold = bold;
   }
 
-  scrollX -= plSpeed * dt;
+  scrollX -= effSpeed() * dt;
   if (scrollX < -marqueeW) scrollX = PANEL_W;
 
   display->clearScreen();
   if (twoRows) {
     drawTopLine();
-    if (plRainbow) drawTextRainbow(marqueeCps, marqueeLen, (int)scrollX, 16, 1, bold);
-    else           drawText(marqueeCps, marqueeLen, (int)scrollX, 16, plColorScroll, 1, bold);
+    if (rainbow) drawTextRainbow(marqueeCps, marqueeLen, (int)scrollX, 16, 1, bold);
+    else         drawText(marqueeCps, marqueeLen, (int)scrollX, 16, color, 1, bold);
   } else {
     const int y = (PANEL_H - 16 * scale) / 2;
-    if (plRainbow) drawTextRainbow(marqueeCps, marqueeLen, (int)scrollX, y, scale, bold);
-    else           drawText(marqueeCps, marqueeLen, (int)scrollX, y, plColorScroll, scale, bold);
+    if (rainbow) drawTextRainbow(marqueeCps, marqueeLen, (int)scrollX, y, scale, bold);
+    else         drawText(marqueeCps, marqueeLen, (int)scrollX, y, color, scale, bold);
   }
 }

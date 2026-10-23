@@ -146,6 +146,30 @@ GASのURLをまるごと `?api=` に入れる古い形も動くが、URLエン�
 - POST の `Content-Type` は `text/plain` にする（GASはプリフライトを返せないため）
 - 1件の上限は100文字、実機に渡すのは新しい20件（`MAX_COMMENTS` に合わせている）
 
+## 実機の見た目を管理画面から変える (v19〜)
+
+`commentsUrl` の応答を JSON にすると、イベント中だけ実機の見た目を GAS 側から変えられる。
+`playlist.json` を push しなくてよい。**要 v19以上** (v18以前は JSON を1行1件のテキストとして読んでしまう)。
+
+```json
+{ "settings": { "colorScroll": "FF9C00", "speed": 60, "scrollScale": 2, "scrollBold": true, "eventLines": 1 },
+  "comments": [ { "id": 12, "text": "こんにちは" } ] }
+```
+
+| キー | 範囲 | 意味 |
+|---|---|---|
+| `colorScroll` | RGB 16進6桁 / `"rainbow"` | 流れる文字の色 |
+| `speed` | 5〜200 (丸める) | スクロール速度 dot/秒 |
+| `scrollScale` | 1 / 2 (丸める) | 拡大率。`2` は `eventLines:1` のときだけ効く |
+| `scrollBold` | true / false | 太字 |
+| `eventLines` | 1 / 2 (丸める、既定 2) | `1` = 上段を出さず1段で流す / `2` = 従来どおり2段 |
+| `eventFlow` | 文字列 | 実機は保持するだけ (v20 で使う予定) |
+
+- **優先順位: GAS の `settings` > `playlist.json`。** 指定のあるキーだけ上書きし、無いキーは `playlist.json` のまま
+- 効くのは `mode:"event"` のあいだだけ。「通常に戻して」で `mode` が戻れば自動で外れる
+- `settings` の無い応答では前回の設定を保持する。`commentsUrl` を `""` にすると設定も破棄
+- 詳しい規則は [`playlist-spec.md`](playlist-spec.md) の「イベント中の表示設定」
+
 ## 当日の運びかた
 
 1. **イベントを始める。** 管理者用ページをPCで開いてGASにつなぎ、「イベント」カードで

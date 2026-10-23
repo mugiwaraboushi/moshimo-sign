@@ -18,7 +18,7 @@
 | `scrollBold` | bool | 流れる文字を太字にする。2段表示の下段にも効く (v18) | `true` |
 | `messages` | string[] | スクロールで流す文言 (最大10件、◆で連結される) | |
 | `frames` | object[] | ドット絵の静止画 (最大24枚)。`mode:"frames"` のときだけ使われる | |
-| `commentsUrl` | string | イベントコメントの取得先 (v0.10〜)。空文字で取得を止める。詳細は下記 | `"https://script.google.com/macros/s/…/exec?action=text"` |
+| `commentsUrl` | string | イベントコメントの取得先 (v0.10〜)。空文字で取得を止める。イベント中の表示設定も応答に同梱できる (v19)。詳細は下記 | `"https://script.google.com/macros/s/…/exec?action=text"` |
 | `fwPing` | int | ファームウェアの版番号。実機より新しい値を書くと、その場で自己アップデートを実行する (v0.7〜)。手順: [`firmware-release.md`](firmware-release.md) | `9` |
 
 - 省略したキーは現在値を維持する
@@ -94,6 +94,40 @@
 > v0.9以前は取得先が `config.h` 固定で、かつ**リダイレクトを追わなかった**。
 > GASの `/exec` は `script.googleusercontent.com` への302を返すため、
 > ファームウェアを書き換えて設定しても本文が取れない状態だった。
+
+### イベント中の表示設定 settings (v19〜)
+
+`mode:"event"` のあいだだけ、`commentsUrl` の応答に同梱した表示設定で見た目を変えられる
+(管理者用ページから色・速さ・大きさ・段数を変えるため。実機は `playlist.json` しか読まないので、
+イベント中だけコメントの応答に相乗りさせる)。応答の本文が `{` で始まると JSON として読む:
+
+```json
+{ "settings": { "colorScroll": "rainbow", "speed": 60, "scrollScale": 2, "scrollBold": true, "eventLines": 1 },
+  "comments": [ { "id": 12, "text": "こんにちは" }, "文字列だけでもよい" ] }
+```
+
+| キー | 型 | 範囲 | 意味 |
+|---|---|---|---|
+| `colorScroll` | string | RGB 16進6桁 / `"rainbow"` | 流れる文字の色 |
+| `speed` | number | 5〜200 (範囲外は丸める) | スクロール速度 dot/秒 |
+| `scrollScale` | int | 1 / 2 (丸める) | 拡大率。`2` は `eventLines:1` のときだけ効く |
+| `scrollBold` | bool | | 太字 |
+| `eventLines` | int | 1 / 2 (丸める)。既定 2 | `1` = 上段 (`topText`・時計) を出さず1段で流す (`mode:"scroll"` と同じ描き方)。`2` = 従来どおり2段 |
+| `eventFlow` | string | | 読んで保持するだけ (v20 で使う予定)。今は表示に影響しない |
+
+**優先順位 (イベント中): GAS の `settings` > `playlist.json`**
+
+- `settings` で**指定のあるキーだけ**が `playlist.json` の値を上書きする。無いキーは `playlist.json` の値のまま
+- 効くのは `mode:"event"` のときだけ。それ以外のモードでは無視する。
+  `mode` を event 以外にした瞬間に上書きは外れ、`playlist.json` の値に戻る
+- `settings` の無い応答 (テキスト形式を含む) が来たら、前回の `settings` を保持する。
+  `settings` が来たら丸ごと置き換える (キーを消せば `playlist.json` の値に戻る)
+- `commentsUrl` を `""` にした (または別のURLに変えた) ときは `settings` も破棄する
+- JSON が壊れていたら、前回のコメントと設定をそのまま残す (シリアルに `[comments] parse error`)
+- `comments` が無い応答では前回のコメントを保持する
+- 本文が `{` で始まらなければ従来どおり**1行1件のテキスト**として読む (v18以前と同じ)。
+  そのため**テキスト形式で1件目のコメントが `{` で始まると JSON とみなされ、壊れた JSON として捨てられる**
+- v18以前の実機は JSON 応答を1行1件のテキストとして読んでしまうので、JSON を返すのは v19 以上にしてから
 
 ### ドット絵 frames (v0.5〜 / playlist v2.0)
 
