@@ -1845,13 +1845,16 @@ static const char SAY_HTML[] PROGMEM = R"rawliteral(<!doctype html>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>もしも掲示板</title>
 <style>
-body{margin:0;padding:16px;font-family:sans-serif;background:#111;color:#eee}
-form{display:flex;gap:8px}
-input{flex:1;min-width:0;font-size:24px;padding:10px;border-radius:6px;border:1px solid #555;background:#000;color:#ff9c00}
-button{font-size:20px;padding:10px 16px;border-radius:6px;border:0;background:#ff9c00;color:#000}
-#s{margin-top:10px;min-height:1.4em;color:#aaa}
+*{box-sizing:border-box}
+body{margin:0;padding:16px;font-family:sans-serif;background:#111;color:#ff9c00}
+#h{margin:0 0 12px;font-size:24px;line-height:1.4}
+form{display:flex;flex-direction:column;gap:12px}
+input{width:100%;font-size:44px;height:1.6em;padding:0 12px;border-radius:16px;border:6px solid #ff9c00;background:#000;color:#ff9c00}
+button{width:100%;font-size:32px;height:calc(44px * 1.6);border-radius:16px;border:0;background:#ff9c00;color:#000;font-weight:bold}
+#s{margin-top:12px;min-height:1.4em;font-size:24px}
 </style></head><body>
-<form id="f"><input id="t" name="text" maxlength="40" autocomplete="off" autofocus><button>送信</button></form>
+<p id="h">ここに ことばを かいて おくる を おしてね</p>
+<form id="f"><input id="t" name="text" maxlength="40" autocomplete="off" autofocus><button>おくる</button></form>
 <div id="s"></div>
 <script>
 var f=document.getElementById('f'),t=document.getElementById('t'),s=document.getElementById('s');
@@ -1861,8 +1864,8 @@ f.addEventListener('submit',function(e){
   t.value='';t.focus();
   if(!v.trim())return;
   fetch('/say',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'text='+encodeURIComponent(v)})
-    .then(function(r){s.textContent=r.status==200?'送りました':r.status==429?'順番待ちがいっぱいです。少し待ってください':'送れませんでした ('+r.status+')';})
-    .catch(function(){s.textContent='送れませんでした';});
+    .then(function(r){s.textContent=r.status==200?'おくったよ':r.status==429?'じゅんばんまち いっぱい。すこし まってね':'おくれなかった';})
+    .catch(function(){s.textContent='おくれなかった';});
 });
 </script></body></html>
 )rawliteral";
