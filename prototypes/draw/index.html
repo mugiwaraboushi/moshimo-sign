@@ -28,6 +28,12 @@
     line-height:1.6; min-height:64px; resize:vertical; }
   .note { font-size:11px; color:#6b7280; margin:8px 2px 0; line-height:1.7; }
   .foot { font-size:10px; color:#4b525b; line-height:1.7; margin-top:22px; }
+  .pick { display:block; position:relative; overflow:hidden; }
+  .pick input { position:absolute; inset:0; opacity:0; width:100%; height:100%; }
+  #impPrev { background:#000; border-radius:8px; margin-top:10px; }
+  .slider { display:flex; align-items:center; gap:10px; font-size:12px; color:#8a8f98; margin-top:10px; }
+  .slider input { flex:1; accent-color:var(--accent); }
+  .slider b { color:#c9cdd3; min-width:2.5em; text-align:right; font-weight:600; }
 </style>
 </head>
 <body>
@@ -56,6 +62,21 @@
       <button class="chip wide" id="clear">全部消す</button>
       <button class="chip wide" id="invert">白黒反転</button>
     </div>
+  </fieldset>
+  <fieldset><legend>写真から取り込み</legend>
+    <label class="chip pick" style="text-align:center">写真を選ぶ・撮る
+      <input type="file" id="impFile" accept="image/*">
+    </label>
+    <div id="impBody" hidden>
+      <canvas id="impPrev"></canvas>
+      <div class="chips" id="impFits" style="margin-top:10px"></div>
+      <div class="slider">明るさのしきい値 <input type="range" id="impTh" min="1" max="254" value="128"> <b id="impThVal">128</b></div>
+      <div class="chips" style="margin-top:10px">
+        <button class="chip wide" id="impInv">反転</button>
+        <button class="chip wide" id="impLoad">キャンバスに読み込む</button>
+      </div>
+    </div>
+    <div class="note" id="impNote">写真や手描きイラストの撮影を、いまのパネル構成の大きさに縮めて白黒にします。読み込んだあと、ペンと消しゴムで直せます。</div>
   </fieldset>
   <fieldset><legend>この絵のURL</legend>
     <textarea class="out" id="url" readonly rows="3"></textarea>
@@ -244,6 +265,7 @@ function render(){
   });
   document.documentElement.style.setProperty("--accent", COLORS[S.color]);
   updatePlNote();
+  impDraw();
   draw(); syncUrl();
 }
 
@@ -300,6 +322,83 @@ document.getElementById("copyPl").onclick = async ()=>{
     btn.textContent = "上の欄からコピーしてください";
   }
   setTimeout(()=>{ btn.textContent = "playlist用をコピー"; }, 1800);
+};
+
+// ---- 写真から取り込み ----
+// 画像をいまの W×H に縮めて、明るさのしきい値で2値化する。既定は「しきい値より暗いところが光る」
+// (白い紙に描いた線をそのまま光らせるため)。読み込みは fb を差し替えるだけなので、
+// そのあとの手直し・URL・playlist用コピーは描いた絵と同じように使える。
+const IMP = { img:null, th:128, inv:false, fit:"contain", bits:null };
+const FITS = [{id:"contain", label:"全体を収める"}, {id:"cover", label:"枠いっぱい"}];
+const impCv = document.getElementById("impPrev"), impCtx = impCv.getContext("2d");
+
+function impCompute(){
+  // 大きな写真をいきなり64×32に縮めると線が消えるので、8倍の大きさを経由して縮める
+  const w = W, h = H, k = 8;
+  const mid = document.createElement("canvas"); mid.width = w*k; mid.height = h*k;
+  const mc = mid.getContext("2d");
+  mc.imageSmoothingQuality = "high";
+  const iw = IMP.img.naturalWidth, ih = IMP.img.naturalHeight;
+  const sc = (IMP.fit === "cover" ? Math.max : Math.min)(w*k/iw, h*k/ih);
+  const dw = iw*sc, dh = ih*sc;
+  mc.drawImage(IMP.img, (w*k-dw)/2, (h*k-dh)/2, dw, dh);
+  const sm = document.createElement("canvas"); sm.width = w; sm.height = h;
+  const sc2 = sm.getContext("2d");
+  sc2.imageSmoothingQuality = "high";
+  sc2.drawImage(mid, 0, 0, w, h);
+  const px = sc2.getImageData(0, 0, w, h).data;
+  const bits = new Uint8Array(w*h);
+  for (let i=0;i<w*h;i++){
+    const a = px[i*4+3];
+    if (a < 128) continue;                 // 余白 (画像の外) は消灯のまま
+    const lum = 0.299*px[i*4] + 0.587*px[i*4+1] + 0.114*px[i*4+2];
+    bits[i] = ((lum < IMP.th) !== IMP.inv) ? 1 : 0;
+  }
+  IMP.bits = bits;
+}
+function impDraw(){
+  if (!IMP.img) return;
+  impCompute();
+  const d = 6;
+  impCv.width = W*d; impCv.height = H*d;
+  impCv.style.width = "100%";
+  impCtx.fillStyle = "#000"; impCtx.fillRect(0,0,impCv.width,impCv.height);
+  impCtx.fillStyle = COLORS[S.color];
+  for (let y=0;y<H;y++) for (let x=0;x<W;x++)
+    if (IMP.bits[y*W+x]) impCtx.fillRect(x*d+.5, y*d+.5, d-1, d-1);
+  chips("impFits", FITS, ()=>IMP.fit, it=>{ IMP.fit = it.id; });
+  document.getElementById("impInv").classList.toggle("on", IMP.inv);
+}
+document.getElementById("impFile").onchange = e => {
+  const file = e.target.files && e.target.files[0];
+  if (!file) return;
+  const url = URL.createObjectURL(file);
+  const img = new Image();
+  img.onload = () => {
+    IMP.img = img;
+    document.getElementById("impBody").hidden = false;
+    document.getElementById("impNote").textContent = "しきい値を動かして、残したい線が光るところに合わせてください。暗いところが光ります（反転で逆）。";
+    impDraw();
+  };
+  img.onerror = () => { document.getElementById("impNote").textContent = "この画像は読み込めませんでした。JPEG か PNG で試してください。"; };
+  img.src = url;
+  e.target.value = "";                     // 同じ写真をもう一度選んでも反応するように
+};
+document.getElementById("impTh").oninput = e => {
+  IMP.th = +e.target.value;
+  document.getElementById("impThVal").textContent = IMP.th;
+  impDraw();
+};
+document.getElementById("impInv").onclick = () => { IMP.inv = !IMP.inv; impDraw(); };
+document.getElementById("impLoad").onclick = () => {
+  if (!IMP.img) return;
+  impCompute();
+  pushUndo();                              // 「ひとつ戻す」で取り込む前に戻れる
+  fb = IMP.bits.slice();
+  draw(); syncUrl();
+  const btn = document.getElementById("impLoad");
+  btn.textContent = "読み込みました";
+  setTimeout(()=>{ btn.textContent = "キャンバスに読み込む"; }, 1500);
 };
 
 document.getElementById("png").onclick = ()=>{

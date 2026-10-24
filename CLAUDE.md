@@ -14,6 +14,7 @@ Discord経由でメンバーからの依頼を受けてプロトタイプを作�
 - `prototypes/<slug>/index.html` — Webプロトタイプ置き場。1プロトタイプ=1フォルダ、自己完結の単一HTML。
 - `prototypes/sim/` — 掲示板シミュレータ(efont 16pxビットマップフォント実データ入り)。新しい表示系プロトタイプはここのエンジンを流用してよい。
 - `firmware/moshimo_sign/` — ESP32ファームウェア。表示ロジックはシミュレータと仕様を揃える。
+- `data/frames/` — playlist.json の `frames` に入れるドット絵のコマ送り (frames の配列をそのままJSONで)。
 - `docs/` — セットアップ手順・設計メモ。
 - `index.html` — プロトタイプ一覧のポータルページ。
 
@@ -105,10 +106,37 @@ Discord経由でメンバーからの依頼を受けてプロトタイプを作�
 - **「イベントモードにして」** → `playlist.json` の `mode` を `"event"`、`commentsUrl` を GAS の
   text 用URL (`…/exec?action=text`) にする。**GAS のURLは `CLAUDE.local.md` を見る**
   (公開ファイル・コミットメッセージ・Discordの返答には書かない)。他のキーは触らない
-- **「通常に戻して」** → `mode` を `"dual"`、`commentsUrl` を `""` に戻す。他のキーは触らない
+- **「通常に戻して」** → `mode` を `"dual"`、`commentsUrl` を `""` に戻す。
+  下の「さんままつりモード」「さんま流しモード」から戻すときも同じ言葉で来るので、あわせて
+  `sayEnabled` を `false` にし、`frames`・`eggFrames`・`interlude` のキーを消す。他のキーは触らない
 - どちらも実行後に「1〜2分で実機に反映されます」と返す
 - 「イベント中は大きい字で」のような文字サイズの依頼は、v18 (`scrollScale`) が公開される
   (`firmware/manifest.json` の `version` が18以上になる) までは「次のファーム版から対応」と返す
+
+## 「さんままつりモードにして」「さんま流しモードにして」と言われたとき
+
+さんままつりのブース用のプリセット。手順は playlist 更新と同じ (JSON検証 → commit + push、
+コミットに依頼者の表示名)。絵は `data/frames/` に置いてあり、
+[`prototypes/frames-preview/`](prototypes/frames-preview/) で再生して確かめられる。
+
+- **「さんままつりモードにして」** (待機画面: さんまが中央を泳ぐ) → `playlist.json` を次のようにする。他のキーは触らない
+  - `mode`: `"frames"`
+  - `frames`: `data/frames/sanma.json` の中身 (配列をそのまま)
+  - `sayEnabled`: `true`
+  - `eggWords`: `["もしも","moshimo","モシモ"]`
+  - `eggFrames`: `data/frames/moshimo-kun.json` の中身 (もしもくん 8 枚。元は playlist.json の frames にあったもの)
+  - `eggMs`: `4000`
+- **「さんま流しモードにして」** (文字が流れ切るたびに さんま が下半分を泳ぐ) → `mode` は `"dual"`
+  (または `"scroll"`) のまま、`interlude` を `{"frames": data/frames/sanma-interlude.json の中身, "every": 1}` にする。
+  他のキーは触らない
+- 戻すときは「通常に戻して」(上の節)
+- **ファームの対応状況を `firmware/manifest.json` の `version` で確かめてから答える**
+  - `sayEnabled` と egg 系 (`eggWords` / `eggFrames` / `eggMs`) は **v20 から**。`version` が 20 未満のうちは、
+    書き込んだうえで「さんまの待機画面はすぐ出ます。もしもくんが出てくる仕掛けは次のファーム版から有効です」と返す
+    (今のファームは知らないキーを読み飛ばすので、書いておいても害はない)
+  - `interlude` も v19 のファームには実装が無い。対応版が公開されるまでは「次のファーム版から」と返す
+  - `frames` は 24 枚まで (`MAX_FRAMES`)。25 枚目以降は実機に出ない
+- 実行後は「1〜2分で実機に反映されます」と添える
 
 ## 実機について
 

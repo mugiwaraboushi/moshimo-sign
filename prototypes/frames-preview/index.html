@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>もしも電光掲示板 frames 再生</title>
+<style>
+  :root { --accent:#ff9c00; }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body { margin:0; background:#0d0f12; color:#e8e6e0; font-family:'Hiragino Sans','Noto Sans JP',sans-serif; }
+  .wrap { max-width:720px; margin:0 auto; padding:16px 14px 40px; }
+  h1 { font-size:16px; font-weight:600; letter-spacing:.12em; margin:4px 0 2px; }
+  .sub { font-size:11px; color:#8a8f98; margin-bottom:14px; line-height:1.7; }
+  .panel-frame { background:#000; border-radius:10px; padding:10px; box-shadow:0 0 0 3px #23262b, 0 10px 30px rgba(0,0,0,.6); }
+  canvas { display:block; width:100%; image-rendering:pixelated; }
+  .meta { display:flex; justify-content:space-between; font-size:11px; color:#6b7280; margin:8px 2px 16px; }
+  fieldset { border:1px solid #22262c; border-radius:10px; margin:0 0 12px; padding:10px 12px 12px; }
+  legend { font-size:11px; color:#8a8f98; padding:0 6px; letter-spacing:.08em; }
+  .chips { display:flex; flex-wrap:wrap; gap:6px; }
+  .chip { background:#171a1f; border:1px solid #2c3138; color:#c9cdd3; border-radius:16px;
+    padding:8px 14px; font-size:12px; font-family:inherit; }
+  .chip.on { background:var(--accent); color:#000; border-color:var(--accent); font-weight:700; }
+  .chip.wide { flex:1; text-align:center; }
+  textarea { width:100%; background:#171a1f; border:1px solid #2c3138; border-radius:8px; color:#8a8f98;
+    padding:10px; font-size:11px; font-family:ui-monospace,Menlo,Consolas,monospace; word-break:break-all;
+    line-height:1.6; min-height:72px; resize:vertical; }
+  .note { font-size:11px; color:#6b7280; margin:8px 2px 0; line-height:1.7; }
+  .err { color:#ff9a8f; }
+  .foot { font-size:10px; color:#4b525b; line-height:1.7; margin-top:22px; }
+  .foot a { color:#8a6a2f; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>frames 再生</h1>
+  <div class="sub">playlist.json の frames（ドット絵・コマ送り）を、実機と同じ間隔で再生して確かめるページです。</div>
+
+  <div class="panel-frame"><canvas id="led"></canvas></div>
+  <div class="meta"><span id="pos">—</span><span id="hold"></span></div>
+
+  <fieldset><legend>再生するもの</legend>
+    <div class="chips" id="srcs"></div>
+    <div class="note" id="srcNote"></div>
+  </fieldset>
+  <fieldset><legend>操作</legend>
+    <div class="chips">
+      <button class="chip wide" id="play">一時停止</button>
+      <button class="chip wide" id="step">1コマ進める</button>
+    </div>
+  </fieldset>
+  <fieldset><legend>JSONを貼って試す</legend>
+    <textarea id="paste" placeholder='[{"d":"…342文字…","color":"FF9C00","holdMs":90}, …] または {"frames":[…]}'></textarea>
+    <div class="chips" style="margin-top:8px"><button class="chip wide" id="usePaste">これを再生</button></div>
+  </fieldset>
+
+  <div class="foot">
+    置き場: <code>data/frames/*.json</code>（frames の配列）。形式は docs/playlist-spec.md の「ドット絵 frames」。<br>
+    1枚の絵を作るなら <a href="../draw/">お絵かき</a>（写真から取り込みもできます）／ <a href="../../">プロトタイプ一覧</a>
+  </div>
+</div>
+
+<script>
+// 再生の規則は実機 (firmware の frames) と同じ:
+//   holdMs (20〜60000) があればそれ、無ければ hold 秒 (1〜60、既定 8)。色は color、無ければ FF9C00
+// ?src=sanma のように data/frames/ のファイル名で開ける。?src=playlist で playlist.json の frames
+const W = 64, H = 32, DOT = 10;
+const SRCS = [
+  { id:"sanma",           label:"さんま（待機画面）",     url:"../../data/frames/sanma.json" },
+  { id:"sanma-interlude", label:"さんま（文字のあと）",   url:"../../data/frames/sanma-interlude.json" },
+  { id:"moshimo-kun",     label:"もしもくん",             url:"../../data/frames/moshimo-kun.json" },
+  { id:"playlist",        label:"いまの playlist.json",   url:"../../playlist.json" },
+];
+const cv = document.getElementById("led"), ctx = cv.getContext("2d");
+cv.width = W*DOT; cv.height = H*DOT;
+
+let frames = [], idx = 0, timer = null, playing = true, cur = "";
+
+function decode(str){
+  const bin = atob(str.replace(/-/g,"+").replace(/_/g,"/"));
+  const out = new Uint8Array(W*H);
+  for (let i=0;i<W*H;i++){
+    const b = bin.charCodeAt(i>>3);
+    if (!isNaN(b) && (b & (0x80 >> (i&7)))) out[i] = 1;
+  }
+  return out;
+}
+const holdOf = f => {
+  if (f.holdMs != null) return Math.min(60000, Math.max(20, +f.holdMs || 0));
+  return Math.min(60, Math.max(1, f.hold != null ? +f.hold : 8)) * 1000;
+};
+const colorOf = f => /^[0-9a-f]{6}$/i.test(f.color || "") ? "#" + f.color : "#FF9C00";
+
+function paint(){
+  ctx.fillStyle = "#000"; ctx.fillRect(0,0,cv.width,cv.height);
+  if (!frames.length) return;
+  const f = frames[idx], bits = f.bits, col = colorOf(f);
+  ctx.fillStyle = "#15171a";
+  for (let y=0;y<H;y++) for (let x=0;x<W;x++)
+    if (!bits[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.32, 0, 7); ctx.fill(); }
+  ctx.fillStyle = col; ctx.globalAlpha = .25;
+  for (let y=0;y<H;y++) for (let x=0;x<W;x++)
+    if (bits[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.62, 0, 7); ctx.fill(); }
+  ctx.globalAlpha = 1;
+  for (let y=0;y<H;y++) for (let x=0;x<W;x++)
+    if (bits[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.38, 0, 7); ctx.fill(); }
+  document.documentElement.style.setProperty("--accent", col);
+  document.getElementById("pos").textContent = `${idx+1} / ${frames.length} 枚`;
+  document.getElementById("hold").textContent = `${holdOf(f)} ms  ${col.toUpperCase()}`;
+}
+function tick(){
+  clearTimeout(timer);
+  paint();
+  if (playing && frames.length > 1) timer = setTimeout(() => { idx = (idx + 1) % frames.length; tick(); }, holdOf(frames[idx]));
+}
+
+// frames の配列 / {frames:[…]} / playlist.json そのもの、のどれでも受ける
+function setFrames(data, label){
+  const list = Array.isArray(data) ? data : (data && data.frames);
+  const note = document.getElementById("srcNote");
+  if (!Array.isArray(list) || !list.length) throw new Error("frames が見つかりません");
+  const bad = list.findIndex(f => !f || typeof f.d !== "string" || f.d.length !== 342);
+  frames = list.filter(f => f && typeof f.d === "string").map(f => ({ ...f, bits: decode(f.d) }));
+  idx = 0;
+  note.className = "note" + (bad >= 0 ? " err" : "");
+  note.textContent = label + " — " + list.length + " 枚"
+    + (list.length > 24 ? "（実機は24枚まで。25枚目以降は出ません）" : "")
+    + (bad >= 0 ? `（${bad+1}枚目の d が342文字ではありません）` : "");
+  tick();
+}
+
+async function load(id){
+  const s = SRCS.find(x => x.id === id) || SRCS[0];
+  cur = s.id; renderChips();
+  history.replaceState(null, "", "?src=" + s.id);
+  try {
+    const r = await fetch(s.url + "?t=" + Date.now());
+    if (!r.ok) throw new Error(r.status === 404 ? "まだ置かれていません" : "HTTP " + r.status);
+    setFrames(await r.json(), s.label);
+  } catch (e) {
+    frames = []; clearTimeout(timer); paint();
+    document.getElementById("pos").textContent = "—"; document.getElementById("hold").textContent = "";
+    const note = document.getElementById("srcNote");
+    note.className = "note err"; note.textContent = s.label + " を読めませんでした（" + e.message + "）";
+  }
+}
+
+function renderChips(){
+  const el = document.getElementById("srcs"); el.innerHTML = "";
+  SRCS.forEach(s => {
+    const b = document.createElement("button");
+    b.className = "chip" + (s.id === cur ? " on" : ""); b.textContent = s.label;
+    b.onclick = () => load(s.id);
+    el.appendChild(b);
+  });
+}
+
+document.getElementById("play").onclick = e => {
+  playing = !playing; e.target.textContent = playing ? "一時停止" : "再生"; tick();
+};
+document.getElementById("step").onclick = () => {
+  if (!frames.length) return;
+  playing = false; document.getElementById("play").textContent = "再生";
+  idx = (idx + 1) % frames.length; tick();
+};
+document.getElementById("usePaste").onclick = () => {
+  try { cur = ""; renderChips(); setFrames(JSON.parse(document.getElementById("paste").value), "貼り付けたJSON"); }
+  catch (e) { const n = document.getElementById("srcNote"); n.className = "note err"; n.textContent = "読めませんでした（" + e.message + "）"; }
+};
+
+load(new URLSearchParams(location.search).get("src") || "sanma");
+</script>
+</body>
+</html>

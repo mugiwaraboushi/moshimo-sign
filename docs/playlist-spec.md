@@ -151,6 +151,9 @@
 | `frames[].hold` | number | 表示秒数 (1〜60) | `8` |
 | `frames[].holdMs` | number | 表示時間をミリ秒で指定 (20〜60000)。**`hold` より優先**。コマ送り用 (v2.1先行) | — |
 
+コマ送りの絵 (複数枚の frames) は `data/frames/<名前>.json` に frames の配列として置く
+(例: `sanma.json` / `sanma-interlude.json` / `moshimo-kun.json`)。[`prototypes/frames-preview/`](../prototypes/frames-preview/) で再生して確かめられる。
+
 #### 描いた絵を載せる手順
 
 1. `prototypes/draw/` で絵を描く (**パネル構成は「64×32（1枚）」を選ぶ**)
