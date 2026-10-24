@@ -64,10 +64,9 @@ Discord経由でメンバーからの依頼を受けてプロトタイプを作�
   パラメータ: text(◆区切りで複数可) / top(上段固定) / clock=1(時計) / color / speed / w / h
   / scale=2(1行表示で文字2倍) / bold=1(太字)
   / 文言の中の `{#RRGGBB}` でそこから先の文字色を変える (`{#}` で元の色)
-- **複数色 (`{#RRGGBB}` と `frames[].layers`) はファームウェアの対応待ち** (ブランチ `feat/multicolor`。
-  v20 が安定してから v21 としてレビューに出す予定)。
-  対応版が公開されるまでは playlist.json に書かない (`{#…}` は今の実機だと文字のまま流れてしまう)。
-  頼まれたらビューアや `prototypes/draw-color/` で見せて「実機は次のファーム版から」と返す
+- **複数色 (`{#RRGGBB}` と `frames[].layers`) は v21 から実機で使える** (2026-10-24 公開)。
+  文字色は messages の中に `{#RRGGBB}`、塗り分けた絵は `prototypes/draw-color/` の「playlist用をコピー」を frames に貼る
+- playlist.json は **24KB 未満**に収める (v21 の実機は playlist を 24KB の置き場に読む)。絵を足したらバイト数を確かめる
 - 新しい「動き・仕組み」が必要なときだけ prototypes/<slug>/ に専用プロトタイプを作る
   (ビューアで済むものに新規HTMLを作らない)。
 
