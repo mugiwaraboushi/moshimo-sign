@@ -1157,6 +1157,7 @@ static bool applyPlaylistBody(char *buf, size_t len, bool fromCache = false) {
   JsonDocument doc;
   if (deserializeJson(doc, (const char *)buf, len)) {
     Serial.println("[playlist] JSON parse error");
+    logMem();   // 計測 (v20)。解析時のメモリ不足 (NoMemory) との切り分け用
     return false;   // 壊れたJSONを3秒ごとに取り直しても直らない。次の周期を待つ
   }
   lastPlValid = true;
