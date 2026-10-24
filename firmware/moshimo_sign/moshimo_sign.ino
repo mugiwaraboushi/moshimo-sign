@@ -33,6 +33,11 @@
  *    → NVSに無ければ config.h に戻る移行版。投入はUSBのシリアルから (手順: docs/firmware-build.md)
  *  - イベント中の表示設定: commentsUrl の JSON 応答の "settings" で色・速さ・大きさ・段数を上書き (v19)
  *    → mode:"event" のときだけ効く。テキスト応答 (1行1件) は従来どおり読める
+ *  - ブース用キーボード入力 (say): sayEnabled のときだけ LAN 内に入力ページを開く (v20)
+ *    → 打った文字を 32px 太字でその場に出す。GAS を通さないので待ちもネットも要らない
+ *    → eggWords に一致した文字は eggFrames の絵に差し替える (裏ルート)
+ *  - インタールード: 流れる文字が一周するたびに絵を挟む (v20、playlist の "interlude")
+ *  - playlist の保存: LittleFS に /playlist.json を置き、ネット無しの再起動でも戻す (v20)
  *
  * 配線 (HUB75標準ピン割当はライブラリ既定値を使用):
  *   https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA を参照
@@ -48,6 +53,8 @@
 #include <ArduinoJson.h>
 #include <Update.h>
 #include <Preferences.h>
+#include <WebServer.h>
+#include <LittleFS.h>
 #include <time.h>
 #include <ESP32-HUB75-MatrixPanel-I2S-DMA.h>
 #include "config.h"
@@ -83,7 +90,7 @@
 // このビルドのバージョン。リリースごとに +1 する (手順: docs/firmware-release.md)。
 // **公開する .bin はこの値を上げてビルドしたものであること。** manifest の version だけ
 // 上げて .bin が古いままだと、実機は「更新したのにまだ古い」を延々繰り返す。
-#define FW_VERSION 19
+#define FW_VERSION 20
 
 // ---- イベントコメント (v0.10) ----
 // 取得先は playlist.json の "commentsUrl" でも指定できる。config.h の値は初期値。
@@ -493,6 +500,32 @@ static int plFrameCount = 0;
 static int frameIdx = 0;
 static unsigned long frameSince = 0;      // 0 = 未開始 (次の描画で現在時刻を入れる)
 static int drawnFrame = -1;               // 今パネルに描いてある絵 (-1 = 要再描画)
+
+// ---- ブース用キーボード入力 (say) と裏ルート (egg) (v20) ----
+// 実機が LAN 内に小さな入力ページを持ち、打った文字をその場で出す。GAS を経由すると
+// 15秒遅れるうえ、ブースのネットは不安定なので、インターネットを通さずに直接受け取る。
+// sayEnabled が true のあいだだけ入力口 (WebServer) を開く。仕組みは「ブース入力」の節。
+#define SAY_QUEUE_MAX 5
+#define SAY_MAX_CHARS 40
+#define EGG_MAX_WORDS 8
+#define EGG_WORD_MAX_CHARS 16
+static bool plSayEnabled = false;
+static int  plSayHoldMs = 5000;           // 中央に静止で出す長さ (1000〜20000)
+static String plEggWords[EGG_MAX_WORDS];  // 照合用に正規化済み (前後の空白を除き、英字は小文字)
+static int  plEggWordCount = 0;
+static uint8_t  plEggData[MAX_FRAMES][FRAME_BYTES];
+static uint16_t plEggColor[MAX_FRAMES];
+static uint16_t plEggHoldMs[MAX_FRAMES];
+static int  plEggFrameCount = 0;
+static int  plEggMs = 4000;               // egg の再生時間 (1000〜20000)
+
+// ---- インタールード (v20) ----
+// 流れる文字が左端まで流れ切った回数が every の倍数になったら、絵を1回だけ挟む。
+static uint8_t  plIlData[MAX_FRAMES][FRAME_BYTES];
+static uint16_t plIlColor[MAX_FRAMES];
+static uint16_t plIlHoldMs[MAX_FRAMES];
+static int  plIlFrameCount = 0;
+static int  plIlEvery = 1;                // 1〜10
 
 // HSV(h:0-359) → RGB565。虹色スクロール用
 static uint16_t hsvToColor565(int h) {
@@ -921,9 +954,71 @@ static bool fetchPlaylistBody(String &body, bool wait) {
 static String lastAppliedPlaylist;
 static int    lastFwPing = 0;
 
+// frames / eggFrames / interlude.frames は同じ形式 (v20 で読み出しを共通化)。
+// 壊れたフレームはそれだけ捨て、残りの枚数を返す。color が無いコマは colorTop の色。
+static int parseFrames(JsonArray arr, uint8_t (*data)[FRAME_BYTES],
+                       uint16_t *color, uint16_t *holdMs) {
+  int n = 0;
+  for (JsonVariant v : arr) {
+    if (n >= MAX_FRAMES) break;
+    if (!v["d"].is<const char*>()) continue;
+    if (b64urlDecode(v["d"], data[n], FRAME_BYTES) != FRAME_BYTES) {
+      Serial.println("[playlist] frame skipped (data size mismatch)");
+      continue;
+    }
+    color[n] = v["color"].is<const char*>() ? hexToColor565(v["color"]) : plColorTop;
+    // holdMs (ミリ秒) が指定されていればそちらを優先し、無ければ hold (秒) を使う。
+    // 下限20msは1コマ50fps相当。これより短い指定はパネルの走査が追いつかない。
+    if (v["holdMs"].is<float>())
+      holdMs[n] = constrain((int)(float)v["holdMs"], 20, 60000);
+    else if (v["hold"].is<float>())
+      holdMs[n] = constrain((int)(float)v["hold"], 1, 60) * 1000;
+    else
+      holdMs[n] = 8000;
+    n++;
+  }
+  return n;
+}
+
+// UTF-8 の文字数 (先頭バイトの数)
+static int utf8Count(const String &s) {
+  int n = 0;
+  for (unsigned int i = 0; i < s.length(); i++) {
+    if (((uint8_t)s[i] & 0xC0) != 0x80) n++;
+  }
+  return n;
+}
+
+// 前後の空白を除く。String::trim() は ASCII の空白しか見ないので、全角空白 (U+3000) も落とす
+// (日本語入力のまま打つと全角空白が付きやすいため)。
+static void trimWide(String &s) {
+  for (;;) {
+    s.trim();
+    if (s.startsWith("　"))    s.remove(0, 3);
+    else if (s.endsWith("　")) s.remove(s.length() - 3);
+    else return;
+  }
+}
+
+// eggWords との照合用の形。前後の空白を除き、英字だけ小文字にする (かな漢字は触らない)。
+static String eggNormalize(const String &in) {
+  String s = in;
+  trimWide(s);
+  for (unsigned int i = 0; i < s.length(); i++) {
+    char c = s[i];
+    if (c >= 'A' && c <= 'Z') s.setCharAt(i, c - 'A' + 'a');
+  }
+  return s;
+}
+
+static void cacheSavePlaylist(const String &body);   // 「playlist の保存」の節
+
 // パースと反映。呼ぶのは loop() 側だけ (表示・フォント・ヒープを触るため)。
+// 例外は setup() の保存済み playlist の読み込み (fromCache = true、取得タスクを起こす前)。
+// fromCache のときは fwPing による自己アップデートを起こさず、保存もしない
+// (保存した古い版番号で更新に走らないため / 読んだものを書き直す意味は無いため)。
 // 戻り値は「取り直す意味があるか」ではなく「JSONとして読めたか」。
-static bool applyPlaylistBody(const String &body) {
+static bool applyPlaylistBody(const String &body, bool fromCache = false) {
   // **中身が1バイトも変わっていないなら、パースも反映もしない (v0.12)。**
   // 通常運転では60秒ごとに同じ本文が返る。それを毎回パースすると、JSONの読み取りと
   // frames のbase64デコード (最大24枚×342文字) で loop() が数十ms止まる。
@@ -1029,37 +1124,44 @@ static bool applyPlaylistBody(const String &body) {
   }
   // frames: 64x32のドット絵 (v0.5)。壊れたフレームはそれだけ捨て、残りは表示する
   if (doc["frames"].is<JsonArray>()) {
-    int n = 0;
-    for (JsonVariant v : doc["frames"].as<JsonArray>()) {
-      if (n >= MAX_FRAMES) break;
-      if (!v["d"].is<const char*>()) continue;
-      if (b64urlDecode(v["d"], plFrameData[n], FRAME_BYTES) != FRAME_BYTES) {
-        Serial.println("[playlist] frame skipped (data size mismatch)");
-        continue;
-      }
-      plFrameColor[n] = v["color"].is<const char*>() ? hexToColor565(v["color"]) : plColorTop;
-      // holdMs (ミリ秒) が指定されていればそちらを優先し、無ければ hold (秒) を使う。
-      // 下限20msは1コマ50fps相当。これより短い指定はパネルの走査が追いつかない。
-      if (v["holdMs"].is<float>())
-        plFrameHoldMs[n] = constrain((int)(float)v["holdMs"], 20, 60000);
-      else if (v["hold"].is<float>())
-        plFrameHoldMs[n] = constrain((int)(float)v["hold"], 1, 60) * 1000;
-      else
-        plFrameHoldMs[n] = 8000;
-      n++;
-    }
-    plFrameCount = n;
+    plFrameCount = parseFrames(doc["frames"].as<JsonArray>(), plFrameData, plFrameColor, plFrameHoldMs);
     if (frameIdx >= plFrameCount) frameIdx = 0;
     frameSince = 0;   // 差し替え直後は先頭からhold秒数え直す
     drawnFrame = -1;  // 絵や色が変わっているので描き直す
   }
+  // ブース用 (v20)。scrollScale と同じく、キーが無ければ既定に戻す
+  // (playlist.json から消せば入力口が閉じ、裏ルートも絵も消える。「通常に戻して」の手順と揃える)。
+  plSayEnabled = doc["sayEnabled"].is<bool>() ? (bool)doc["sayEnabled"] : false;
+  plSayHoldMs  = doc["sayHoldMs"].is<int>() ? constrain((int)doc["sayHoldMs"], 1000, 20000) : 5000;
+  plEggMs      = doc["eggMs"].is<int>() ? constrain((int)doc["eggMs"], 1000, 20000) : 4000;
+  plEggWordCount = 0;
+  if (doc["eggWords"].is<JsonArray>()) {
+    for (JsonVariant v : doc["eggWords"].as<JsonArray>()) {
+      if (plEggWordCount >= EGG_MAX_WORDS) break;
+      if (!v.is<const char*>()) continue;
+      String w = eggNormalize(String((const char*)v));
+      if (!w.length() || utf8Count(w) > EGG_WORD_MAX_CHARS) continue;   // 長すぎる語は丸ごと捨てる
+      plEggWords[plEggWordCount++] = w;
+    }
+  }
+  plEggFrameCount = doc["eggFrames"].is<JsonArray>()
+                  ? parseFrames(doc["eggFrames"].as<JsonArray>(), plEggData, plEggColor, plEggHoldMs) : 0;
+  plIlFrameCount = 0;
+  plIlEvery = 1;
+  if (doc["interlude"]["frames"].is<JsonArray>()) {
+    plIlFrameCount = parseFrames(doc["interlude"]["frames"].as<JsonArray>(), plIlData, plIlColor, plIlHoldMs);
+    if (doc["interlude"]["every"].is<int>()) plIlEvery = constrain((int)doc["interlude"]["every"], 1, 10);
+  }
   rebuildMarquee();
   Serial.println("[playlist] applied");
+  if (!fromCache) cacheSavePlaylist(body);   // 本文が前回と変わったときだけここに来る
 
   // fwPing (v0.7): チャット駆動の即時更新。playlist に自分より新しい番号が書かれていたら
   // 6時間周期を待たずにその場でマニフェストを見に行く。人間の明示的な指示なので
   // quietHours は無視する。実際に更新するかどうかの判断は selfUpdateCheck 側。
-  if (doc["fwPing"].is<int>() && (int)doc["fwPing"] > FW_VERSION) {
+  // 保存済みの playlist (fromCache) では起こさない。ネットから同じ本文が取れたら
+  // 上の「no change」の経路で改めて見る。
+  if (!fromCache && doc["fwPing"].is<int>() && (int)doc["fwPing"] > FW_VERSION) {
     Serial.printf("[selfupdate] fwPing=%d (running v%d) → 即時確認\n",
                   (int)doc["fwPing"], FW_VERSION);
     selfUpdateCheck(true);
@@ -1545,6 +1647,345 @@ static void fetchTaskStart() {
   Serial.println("[fetch] 取得タスクを開始 (core 0 / playlist+コメント)");
 }
 
+// ---------------- playlist の保存 (v20) ----------------
+// 最後に反映した playlist.json を LittleFS (min_spiffs の spiffs 領域、128KB) に置く。
+// ブースのようにネットが無い場所で再起動しても、前回の表示 (sayEnabled も含む) で立ち上がる。
+// ネットが取れた時点で最新に置き換わる。本文は BODY_MAX_BYTES (48KB) 以内なので、
+// 書きかけの一時ファイルと合わせても領域に収まる。
+static bool cacheOk = false;
+static const char *CACHE_PATH = "/playlist.json";
+static const char *CACHE_TMP  = "/playlist.tmp";
+
+// setup() から1回だけ。マウントできなければ1回だけフォーマットして再挑戦する
+// (初回起動や、SPIFFS など別の形式が残っている領域)。それでも駄目なら保存機能ごと止める。
+static void cacheBegin() {
+  if (!LittleFS.begin(false)) {
+    LittleFS.format();
+    if (!LittleFS.begin(false)) {
+      Serial.println("[cache] disabled");
+      return;
+    }
+  }
+  cacheOk = true;
+}
+
+// 書き込みは数十ms。applyPlaylistBody (loop() 側) で本文が変わったときだけ呼ばれる。
+// 一時ファイルに書いてから付け替えるので、書いている最中に電源が落ちても前の版が残る。
+static void cacheSavePlaylist(const String &body) {
+  if (!cacheOk) return;
+  File f = LittleFS.open(CACHE_TMP, "w");
+  if (!f) { Serial.println("[cache] save failed"); return; }
+  size_t w = f.write((const uint8_t *)body.c_str(), body.length());
+  f.close();
+  if (w != body.length()) {
+    LittleFS.remove(CACHE_TMP);
+    Serial.println("[cache] save failed");
+    return;
+  }
+  if (!LittleFS.rename(CACHE_TMP, CACHE_PATH)) {
+    // 付け替え先が既にあると失敗する実装に備えて、消してからもう一度
+    LittleFS.remove(CACHE_PATH);
+    if (!LittleFS.rename(CACHE_TMP, CACHE_PATH)) {
+      LittleFS.remove(CACHE_TMP);
+      Serial.println("[cache] save failed");
+      return;
+    }
+  }
+  Serial.printf("[cache] playlist saved (%d bytes)\n", (int)body.length());
+}
+
+// setup() で WiFi 接続の前に呼ぶ。fwPing は見ない (applyPlaylistBody の fromCache)。
+// commentsUrl / hoursUrl はここで入れてよい (取得タスクが後で使う)。
+static void cacheLoadPlaylist() {
+  if (!cacheOk) return;
+  File f = LittleFS.open(CACHE_PATH, "r");
+  if (!f) return;   // まだ保存したことが無い
+  size_t n = f.size();
+  if (n == 0 || n > BODY_MAX_BYTES) { f.close(); return; }
+  String body;
+  if (!body.reserve(n)) { f.close(); return; }
+  uint8_t buf[512];
+  while (f.available()) {
+    int r = f.read(buf, sizeof(buf));
+    if (r <= 0) break;
+    body.concat((const char *)buf, (unsigned int)r);
+  }
+  f.close();
+  if (body.length() != n) return;   // 読み切れなかったものは使わない
+  Serial.printf("[cache] playlist loaded (%d bytes)\n", (int)n);
+  applyPlaylistBody(body, true);
+}
+
+// ---------------- ブース入力 (say / egg) (v20) ----------------
+// 実機が LAN 内に入力ページを持つ。GET / で入力欄、POST /say で文字を受け取る。
+// 認証は無し (LAN 内限定)。そのかわり playlist.json の sayEnabled で開け閉めする。
+// handleClient() は loop() から呼ぶので、ハンドラも loop() 側で動く (キューに mutex は要らない)。
+// **打たれた文字そのものはログに出さない** (公共の場で打たれた文言をシリアルに残さない)。
+static WebServer sayServer(80);
+static bool sayServerOn = false;
+static bool sayNeedRestart = false;   // 開いているあいだに WiFi が切れた → 繋がり直したら開き直す
+
+static String sayQueue[SAY_QUEUE_MAX];
+static int sayQHead = 0, sayQCount = 0;
+
+static const char SAY_HTML[] PROGMEM = R"rawliteral(<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>もしも掲示板</title>
+<style>
+body{margin:0;padding:16px;font-family:sans-serif;background:#111;color:#eee}
+form{display:flex;gap:8px}
+input{flex:1;min-width:0;font-size:24px;padding:10px;border-radius:6px;border:1px solid #555;background:#000;color:#ff9c00}
+button{font-size:20px;padding:10px 16px;border-radius:6px;border:0;background:#ff9c00;color:#000}
+#s{margin-top:10px;min-height:1.4em;color:#aaa}
+</style></head><body>
+<form id="f"><input id="t" name="text" maxlength="40" autocomplete="off" autofocus><button>送信</button></form>
+<div id="s"></div>
+<script>
+var f=document.getElementById('f'),t=document.getElementById('t'),s=document.getElementById('s');
+f.addEventListener('submit',function(e){
+  e.preventDefault();
+  var v=t.value;
+  t.value='';t.focus();
+  if(!v.trim())return;
+  fetch('/say',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'text='+encodeURIComponent(v)})
+    .then(function(r){s.textContent=r.status==200?'送りました':r.status==429?'順番待ちがいっぱいです。少し待ってください':'送れませんでした ('+r.status+')';})
+    .catch(function(){s.textContent='送れませんでした';});
+});
+</script></body></html>
+)rawliteral";
+
+static void sayHandleRoot() {
+  sayServer.send_P(200, "text/html; charset=utf-8", SAY_HTML);
+}
+
+// trim → 制御文字を除く → 40文字で切る。空なら 400、キューが満杯なら 429。
+static void sayHandlePost() {
+  String raw = sayServer.arg("text");
+  trimWide(raw);
+  String t;
+  t.reserve(raw.length());
+  for (unsigned int i = 0; i < raw.length(); i++) {
+    uint8_t c = (uint8_t)raw[i];
+    if (c < 0x20 || c == 0x7F) continue;   // 改行・タブなども含めて落とす
+    t += (char)c;
+  }
+  // 40文字目までで切る (UTF-8 の途中で切らないよう、41文字目の先頭バイトの手前で切る)
+  int chars = 0;
+  for (unsigned int i = 0; i < t.length(); i++) {
+    if (((uint8_t)t[i] & 0xC0) != 0x80) {
+      if (chars == SAY_MAX_CHARS) { t.remove(i); break; }
+      chars++;
+    }
+  }
+  trimWide(t);   // 切った端に空白が残ったぶん
+  if (!t.length()) { sayServer.send(400, "text/plain", "empty"); return; }
+  if (sayQCount >= SAY_QUEUE_MAX) { sayServer.send(429, "text/plain", "busy"); return; }
+  sayQueue[(sayQHead + sayQCount) % SAY_QUEUE_MAX] = t;
+  sayQCount++;
+  Serial.printf("[say] queued (%d文字)\n", utf8Count(t));
+  sayServer.send(200, "text/plain", "ok");
+}
+
+static void sayHandleNotFound() {
+  sayServer.send(404, "text/plain", "not found");
+}
+
+// setup() から1回。開くのは sayServerSync() (sayEnabled かつ WiFi 接続中のとき)。
+static void saySetup() {
+  sayServer.on("/", HTTP_GET, sayHandleRoot);
+  sayServer.on("/say", HTTP_POST, sayHandlePost);
+  sayServer.onNotFound(sayHandleNotFound);
+}
+
+// loop() から毎回。sayEnabled と WiFi の状態に合わせて入力口を開け閉めする。
+static void sayServerSync() {
+  if (!plSayEnabled) {
+    if (sayServerOn) {
+      sayServer.stop();
+      sayServerOn = false;
+      sayNeedRestart = false;
+      sayQCount = 0;   // 閉じたら、まだ出していないぶんも出さない
+      Serial.println("[say] server off");
+    }
+    return;
+  }
+  if (WiFi.status() != WL_CONNECTED) {
+    if (sayServerOn) sayNeedRestart = true;
+    return;
+  }
+  if (sayServerOn && !sayNeedRestart) return;
+  if (sayServerOn) sayServer.stop();   // WiFi が繋がり直した。待ち受けを張り直す
+  sayServer.begin();
+  sayServerOn = true;
+  sayNeedRestart = false;
+  Serial.printf("[say] server on http://%s/\n", WiFi.localIP().toString().c_str());
+}
+
+// ---- 表示 ----
+// say / egg の表示中は、元の mode の描画 (frames / dual / scroll / event、インタールードも)
+// を止めて差し替える。終わったら止めていた時間ぶん各タイマーをずらし、続きから再開する。
+enum SayState { SAY_IDLE, SAY_STATIC, SAY_SCROLL, SAY_EGG };
+static SayState sayState = SAY_IDLE;
+static uint16_t sayCps[SAY_MAX_CHARS + 1];
+static int sayLen = 0, sayW = 0;
+static float sayX = 0;
+static unsigned long sayStartMs = 0;      // 表示を始めた時刻 (止めていた時間の計算にも使う)
+static unsigned long sayLastFrame = 0;
+static int eggIdx = 0, eggDrawn = -1;
+static unsigned long eggSince = 0;
+
+// インタールードの状態 (v20)
+static bool ilActive = false;
+static int  ilIdx = 0, ilDrawn = -1;
+static unsigned long ilSince = 0;
+static long ilDrawnSec = -1;              // 2段のとき、上段の時計を描いた秒
+static unsigned int ilPasses = 0;         // 本文が流れ切った回数
+
+// いまの mode で文字を2段 (上段 + 下段スクロール) にするか。
+// eventLines:1 のときは上段を出さず、MODE_SCROLL と同じ1行の経路で流す (v19)。
+static bool marqueeTwoRows() {
+  const bool oneRow = (plMode == MODE_SCROLL) || (plMode == MODE_EVENT && effEventLines() == 1);
+  return !oneRow && PANEL_H >= 32;
+}
+
+// キューの先頭を取り出して表示を始める。
+static void sayStartNext(unsigned long ms) {
+  String t = sayQueue[sayQHead];
+  sayQueue[sayQHead] = "";
+  sayQHead = (sayQHead + 1) % SAY_QUEUE_MAX;
+  sayQCount--;
+  sayStartMs = ms;
+  sayLastFrame = ms - 33;   // 最初のコマはすぐ描く
+
+  if (plEggFrameCount > 0) {
+    String key = eggNormalize(t);
+    for (int i = 0; i < plEggWordCount; i++) {
+      if (key != plEggWords[i]) continue;
+      // 出すのは playlist に書いてある語のほう (公開されている文字列なので残してよい)
+      Serial.printf("[say] egg: %s\n", plEggWords[i].c_str());
+      sayState = SAY_EGG;
+      eggIdx = 0;
+      eggDrawn = -1;
+      eggSince = ms;
+      return;
+    }
+  }
+  sayLen = decodeUtf8(t, sayCps, SAY_MAX_CHARS + 1);
+  sayW = textWidth(sayCps, sayLen, 2, true);
+  if (sayW <= PANEL_W) {
+    sayState = SAY_STATIC;
+  } else {
+    sayState = SAY_SCROLL;
+    sayX = PANEL_W;
+  }
+}
+
+// say / egg が終わった。止めていたあいだの時間ぶんタイマーをずらして元の表示に戻す。
+static void sayFinish(unsigned long ms) {
+  unsigned long paused = ms - sayStartMs;
+  sayState = SAY_IDLE;
+  if (frameSince != 0) frameSince += paused;   // frameIdx と残りの hold を保ったまま再開
+  drawnFrame = -1;                              // パネルは上書きされているので描き直す
+  if (ilActive) { ilSince += paused; ilDrawn = -1; ilDrawnSec = -1; }
+}
+
+// say / egg を1回ぶん進める。表示中なら true (= loop() は元の mode を描かない)。
+static bool sayTick(unsigned long ms) {
+  if (sayState == SAY_IDLE) {
+    if (sayQCount == 0) return false;
+    sayStartNext(ms);
+  }
+
+  if (sayState == SAY_EGG) {
+    if (plEggFrameCount == 0 || (long)(ms - (sayStartMs + plEggMs)) >= 0) {
+      sayFinish(ms);
+      return sayQCount > 0 ? sayTick(ms) : false;
+    }
+    if (eggIdx >= plEggFrameCount) { eggIdx = 0; eggDrawn = -1; }   // 再生中に playlist で減った
+    // frames モードと同じ進め方 (溜まった遅れは1周ぶんまで追い、それ以上は諦める)
+    unsigned int guard = 0;
+    while (ms - eggSince >= (unsigned long)plEggHoldMs[eggIdx]) {
+      eggSince += plEggHoldMs[eggIdx];
+      eggIdx = (eggIdx + 1) % plEggFrameCount;
+      if (++guard >= (unsigned int)plEggFrameCount) { eggSince = ms; break; }
+    }
+    if (eggDrawn != eggIdx) {
+      eggDrawn = eggIdx;
+      drawBitmapOpaque(plEggData[eggIdx], FRAME_W, FRAME_H,
+                       (PANEL_W - FRAME_W) / 2, (PANEL_H - FRAME_H) / 2, plEggColor[eggIdx]);
+    }
+    return true;
+  }
+
+  // 文字 (32px 太字)。描画は通常の文字表示と同じく約30fps
+  if (ms - sayLastFrame < 33) return true;
+  float dt = (ms - sayLastFrame) / 1000.0f;
+  if (dt > 0.1f) dt = 0.1f;
+  sayLastFrame = ms;
+
+  if (sayState == SAY_STATIC) {
+    if ((long)(ms - (sayStartMs + plSayHoldMs)) >= 0) {
+      sayFinish(ms);
+      return sayQCount > 0 ? sayTick(ms) : false;
+    }
+  } else {
+    sayX -= max(plSpeed, 40.0f) * dt;
+    if (sayX < -sayW) {   // 右端から左端へ1回だけ流した
+      sayFinish(ms);
+      return sayQCount > 0 ? sayTick(ms) : false;
+    }
+  }
+  const int x = (sayState == SAY_STATIC) ? (PANEL_W - sayW) / 2 : (int)sayX;
+  const int y = (PANEL_H - 32) / 2;
+  display->clearScreen();
+  if (effRainbow()) drawTextRainbow(sayCps, sayLen, x, y, 2, true);
+  else              drawText(sayCps, sayLen, x, y, effColor(), 2, true);
+  return true;
+}
+
+// 本文が左端まで流れ切ったところで呼ぶ。every 回に1回、インタールードを始める。
+static void interludeOnPass(unsigned long ms) {
+  if (plIlFrameCount == 0 || plMode == MODE_FRAMES) return;
+  ilPasses++;
+  if (ilPasses % (unsigned int)plIlEvery != 0) return;
+  ilActive = true;
+  ilIdx = 0;
+  ilDrawn = -1;
+  ilDrawnSec = -1;
+  ilSince = ms;
+}
+
+// インタールードを1回ぶん進める。再生中なら true。
+// 各コマ holdMs で1回だけ流し、最後のコマが終わったら本文を右端から再開する。
+static bool interludeTick(unsigned long ms) {
+  if (!ilActive) return false;
+  if (plIlFrameCount == 0 || plMode == MODE_FRAMES || ilIdx >= plIlFrameCount) {
+    ilActive = false;   // 再生中に playlist で消えた / 減った / frames モードになった
+    return false;
+  }
+  if (ms - ilSince >= (unsigned long)plIlHoldMs[ilIdx]) {
+    ilSince += plIlHoldMs[ilIdx];
+    if (ms - ilSince >= (unsigned long)plIlHoldMs[ilIdx]) ilSince = ms;   // 大きく止まったあとは追わない
+    if (++ilIdx >= plIlFrameCount) {
+      ilActive = false;
+      return false;
+    }
+  }
+  // 2段のときは、コマの上に上段 (文言・時計) を描き直す。絵は下半分に寄せたものを使う前提。
+  // 時計の点滅に追従するため、コマが変わらなくても秒が変わったら描き直す。
+  const bool twoRows = marqueeTwoRows();
+  const long sec = twoRows ? (long)time(nullptr) : -1;
+  if (ilDrawn != ilIdx || sec != ilDrawnSec) {
+    ilDrawn = ilIdx;
+    ilDrawnSec = sec;
+    drawBitmapOpaque(plIlData[ilIdx], FRAME_W, FRAME_H,
+                     (PANEL_W - FRAME_W) / 2, (PANEL_H - FRAME_H) / 2, plIlColor[ilIdx]);
+    if (twoRows) drawTopLine();
+  }
+  return true;
+}
+
 // ---------------- 起動時のバージョン表示 (v0.9) ----------------
 // 実機が今どの版かを「電源を挿し直してパネルを見る」だけで確認できるようにする。
 // 遠隔からバージョンを問い合わせる手段が無いため (v8の検証で分かった)。
@@ -1585,6 +2026,10 @@ void setup() {
   Serial.printf("[boot] moshimo-sign FW_VERSION=%d\n", FW_VERSION);
 
   cfgLoad();          // 認証情報の出所を決める (v17)。WiFi接続より前に読む
+  // 保存済みの playlist (v20)。ネットが無くても前回の表示で立ち上がるよう、WiFi接続より前に読む
+  cacheBegin();
+  cacheLoadPlaylist();
+  saySetup();         // 入力口の道案内だけ。開くのは loop() の sayServerSync() (v20)
   wifiSetup();
 
   configTime(9 * 3600, 0, "ntp.nict.jp", "pool.ntp.org");  // JST
@@ -1614,6 +2059,7 @@ void setup() {
 void loop() {
   ArduinoOTA.handle();
   cfgSerialPoll();    // 認証情報の投入 (v17)。届いている分を読むだけで待たない
+  if (sayServerOn) sayServer.handleClient();   // ブース入力 (v20)
 
   unsigned long ms = millis();
 
@@ -1624,6 +2070,7 @@ void loop() {
     lastWifiRetry = ms;
     wifiMulti.run(5000);
   }
+  sayServerSync();    // sayEnabled と WiFi の状態に合わせて入力口を開け閉めする (v20)
 
   // コメントもplaylistも、取得は別タスク (v0.12)。ここでは持ってきた本文を
   // 反映するだけなので待たない = スクロールが止まらない。
@@ -1682,6 +2129,10 @@ void loop() {
   // 下の「約30fps」の間引きより前に置いてある。間引いた後だと切り替え判定が33ms刻みに
   // 量子化され、holdMs:52 のような指定が 66ms (33の倍数) に丸められて本来の速さで
   // 動かなくなるため。ここは自前で「絵が変わったときだけ描く」ので毎回通っても軽い。
+  // ブース入力 (v20)。say / egg の表示中、インタールードの再生中は元の mode を描かない
+  if (sayTick(ms)) return;
+  if (interludeTick(ms)) return;
+
   if (plMode == MODE_FRAMES && plFrameCount > 0) {
     if (frameSince == 0) frameSince = ms;
     // 溜まった遅れぶんコマを進める。1周分を超えたら追いつくのを諦めて現在時刻に合わせる
@@ -1715,8 +2166,7 @@ void loop() {
   // 太字は高さが変わらないのでどちらでも効く。
   // イベント中は GAS の settings が playlist の値を上書きする (v19、eff* を参照)。
   // eventLines:1 のときは上段を出さず、MODE_SCROLL と同じ1行の経路で流す。
-  const bool oneRow = (plMode == MODE_SCROLL) || (plMode == MODE_EVENT && effEventLines() == 1);
-  const bool twoRows = (!oneRow && PANEL_H >= 32);
+  const bool twoRows = marqueeTwoRows();
   const int effScaleNow = effScale();
   int scale = (!twoRows && 16 * effScaleNow <= PANEL_H) ? effScaleNow : 1;
   const bool bold = effBold();
@@ -1731,7 +2181,12 @@ void loop() {
   }
 
   scrollX -= effSpeed() * dt;
-  if (scrollX < -marqueeW) scrollX = PANEL_W;
+  if (scrollX < -marqueeW) {
+    scrollX = PANEL_W;
+    // インタールード (v20): 流れ切った回数が every の倍数なら、右端から再開する前に絵を挟む
+    interludeOnPass(ms);
+    if (interludeTick(ms)) return;
+  }
 
   display->clearScreen();
   if (twoRows) {
