@@ -141,6 +141,29 @@ struct HoursDay {
   int16_t to[HOURS_MAX_RANGES];
 };
 
+// 本文の受け皿 (v20)。String に足していくか、呼び手が持つ char バッファに詰めるか。
+// playlist は 17KB を超えることがあり、TLS の接続中に同じ大きさの String を確保すると
+// ヒープが割れて取れなくなった (v20 の実機で確認)。そこで playlist だけ静的バッファで受ける。
+// str があれば String、無ければ buf。cap は上限 (String なら BODY_MAX_BYTES、buf なら大きさ)。
+// 使い方は「HTTP取得」の節。型がここにあるのは HoursDay と同じ理由。
+struct BodySink {
+  String *str = nullptr;
+  char   *buf = nullptr;
+  size_t  cap = 0;
+  size_t  len = 0;
+  size_t size() const { return str ? str->length() : len; }
+  bool put(const uint8_t *p, size_t n) {
+    if (size() + n > cap) return false;
+    if (str) return str->concat((const char *)p, (unsigned int)n);   // false = メモリ不足
+    memcpy(buf + len, p, n);
+    len += n;
+    return true;
+  }
+};
+
+// playlist の受け渡しバッファ (plBuf) の持ち主 (v20)。説明は「playlist.json」の節。
+enum PlBufState { PLBUF_FREE, PLBUF_WRITING, PLBUF_READY };
+
 // 古い config.h でもビルドが通るように既定値を用意する。
 #ifndef SELFUPDATE_MANIFEST_URL
 #define SELFUPDATE_MANIFEST_URL "https://mugiwaraboushi.github.io/moshimo-sign/firmware/manifest.json"
@@ -634,7 +657,7 @@ static inline bool bodyExpired(unsigned long tEnd, unsigned long lastData) {
 
 // need バイトを dst に読む。need < 0 = 接続が閉じるまで読む。
 // データが無い周回では必ず vTaskDelay(1) して IDLE を回す (yield/delay(0)では足りない)。
-static bool bodyReadN(NetworkClient *s, int need, String &dst,
+static bool bodyReadN(NetworkClient *s, int need, BodySink &dst,
                       unsigned long tEnd, unsigned long &lastData) {
   uint8_t buf[512];
   for (;;) {
@@ -646,8 +669,7 @@ static bool bodyReadN(NetworkClient *s, int need, String &dst,
       if (avail < want) want = avail;
       int r = s->read(buf, want);
       if (r > 0) {
-        if (dst.length() + (unsigned int)r > BODY_MAX_BYTES) return false;
-        if (!dst.concat((const char *)buf, (unsigned int)r)) return false;   // メモリ不足
+        if (!dst.put(buf, (size_t)r)) return false;   // 上限超え / メモリ不足
         lastData = millis();
         if (need > 0) need -= r;
         continue;
@@ -682,9 +704,9 @@ static bool bodyReadLine(NetworkClient *s, String &line,
 }
 
 // http.getString() の代わり。成功なら true。
-// 締め切り超過 / Content-Length 未達 / チャンク不正 / 48KB超 は false。
-static bool readBodyWithDeadline(NetworkClient *s, int total, bool chunked, String &out) {
-  out = "";
+// 締め切り超過 / Content-Length 未達 / チャンク不正 / 受け皿の上限超え は false。
+// out は空の状態で渡すこと (呼び手が用意する)。
+static bool readBodyWithDeadline(NetworkClient *s, int total, bool chunked, BodySink &out) {
   if (!s) return false;
   const unsigned long tEnd = millis() + BODY_TOTAL_TIMEOUT_MS;
   unsigned long lastData = millis();
@@ -701,7 +723,7 @@ static bool readBodyWithDeadline(NetworkClient *s, int total, bool chunked, Stri
       long n = strtol(sz.c_str(), &endp, 16);
       if (endp == sz.c_str() || n < 0) return false;             // 16進として読めない
       if (n == 0) return true;                                   // 最終チャンク
-      if (out.length() + (unsigned long)n > BODY_MAX_BYTES) return false;
+      if (out.size() + (unsigned long)n > out.cap) return false;
       if (!bodyReadN(s, (int)n, out, tEnd, lastData)) return false;
       String crlf;
       if (!bodyReadLine(s, crlf, tEnd, lastData)) return false;
@@ -710,21 +732,22 @@ static bool readBodyWithDeadline(NetworkClient *s, int total, bool chunked, Stri
   }
   if (total == 0) return true;   // Content-Length: 0 は空本文で成功 (getString と同じ)
   if (total > 0) {
-    if ((unsigned long)total > BODY_MAX_BYTES) return false;
-    out.reserve(total);
+    if ((unsigned long)total > out.cap) return false;
+    if (out.str) out.str->reserve(total);
     return bodyReadN(s, total, out, tEnd, lastData);
   }
   return bodyReadN(s, -1, out, tEnd, lastData);   // 長さ不明 = 閉じるまで読む
 }
 
-// 200のときの本文取得。失敗時は out を空にして false (呼び手が code = -2 にする)。
-static bool readBody(HTTPClient &http, String &out) {
+// 200のときの本文取得。失敗時は受け皿を空にして false (呼び手が code = -2 にする)。
+static bool readBody(HTTPClient &http, BodySink &out) {
   NetworkClient *s = http.getStreamPtr();
   int total = http.getSize();                        // 不明 / chunked なら -1
   bool chunked = http.header("Transfer-Encoding").indexOf("chunked") >= 0;
   if (readBodyWithDeadline(s, total, chunked, out)) return true;
-  Serial.printf("[http] body timeout/incomplete (%d/%d bytes)\n", (int)out.length(), total);
-  out = "";
+  Serial.printf("[http] body timeout/incomplete (%d/%d bytes)\n", (int)out.size(), total);
+  if (out.str) *out.str = "";
+  out.len = 0;
   return false;
 }
 
@@ -735,15 +758,14 @@ static void logMem() {
 
 // timeoutMs は**ヘッダが返ってくるまでの待ち時間** (HTTPClient の _tcpTimeout)。
 // 本文の締め切りは readBodyWithDeadline 側が別に持っている (v15)。
-static String httpGetString(const String &url, int &code, bool wait = false,
-                            unsigned long timeoutMs = 5000) {
+// 接続の手順は httpGetString (String で受ける) と httpGetToBuf (char バッファで受ける) で共通 (v20)。
+static void httpGetInto(const String &url, int &code, bool wait, unsigned long timeoutMs, BodySink &out) {
   logMem();   // 計測 (v20)
   HTTPClient http;
-  String out;
   code = -1;
   if (netMutex && xSemaphoreTake(netMutex, wait ? portMAX_DELAY : 0) != pdTRUE) {
     code = -2;   // 別の取得が進行中
-    return out;
+    return;
   }
   http.setTimeout(timeoutMs);
   // Transfer-Encoding は自前の本文読み出し (readBody) がチャンクかどうかを見るのに使う。
@@ -773,7 +795,29 @@ static String httpGetString(const String &url, int &code, bool wait = false,
   }
   if (netMutex) xSemaphoreGive(netMutex);
   if (code != 200) logMem();   // 計測 (v20)
+}
+
+static String httpGetString(const String &url, int &code, bool wait = false,
+                            unsigned long timeoutMs = 5000) {
+  String out;
+  BodySink sink;
+  sink.str = &out;
+  sink.cap = BODY_MAX_BYTES;
+  httpGetInto(url, code, wait, timeoutMs, sink);
   return out;
+}
+
+// 本文を buf に読む (v20、playlist 用)。戻り値は本文のバイト数 (code != 200 なら 0)。
+// buf には末尾に '\0' を付けるので、本文は cap - 1 バイトまで。超えたら失敗 (code = -2)。
+static size_t httpGetToBuf(const String &url, char *buf, size_t cap, int &code, bool wait = false,
+                           unsigned long timeoutMs = 5000) {
+  BodySink sink;
+  sink.buf = buf;
+  sink.cap = cap - 1;
+  httpGetInto(url, code, wait, timeoutMs, sink);
+  if (code != 200) sink.len = 0;
+  buf[sink.len] = '\0';
+  return sink.len;
 }
 
 // ---------------- playlist.json ----------------
@@ -939,20 +983,49 @@ static void selfUpdateCheck(bool ignoreQuiet) {
 // 止まり、そこで表示がリセットされたように見えていた。これがv12の主目的。
 // 分けたことで、描画を止めるのはパースと反映だけになる。
 
-// HTTPだけ。取れたら true を返し、body に本文を入れる。
+// playlist の本文は String ではなく、この静的バッファで受ける (v20)。
+// TLS の接続中に本文ぶんの String を確保しないため (ヒープが割れて取れなくなるのを防ぐ)。
+// 取得タスクと loop() の受け渡しはこのバッファそのもので行い、コピーしない。
+// 持ち主は plBufState で決める (書き換えは fetchMutex の中で行う):
+//   FREE    … 誰も使っていない。取得タスクだけが WRITING にできる
+//   WRITING … 取得タスクが書いている。loop() は読まない
+//   READY   … 新しい本文がある (plBufLen バイト)。loop() が反映し終えたら FREE に戻す
+// playlist の上限はこの大きさ - 1 になる (コメント等の String 経路は BODY_MAX_BYTES のまま)。
+static char plBuf[24 * 1024];
+static size_t plBufLen = 0;
+static volatile PlBufState plBufState = PLBUF_FREE;
+
+static void plBufSetState(PlBufState st) {
+  if (fetchMutex) xSemaphoreTake(fetchMutex, portMAX_DELAY);
+  plBufState = st;
+  if (fetchMutex) xSemaphoreGive(fetchMutex);
+}
+
+// HTTPだけ。取れたら true を返し、plBuf に本文 (len バイト) が入って READY になる。
 // false = 今回は取れなかった (呼び手が間隔を詰めて再挑戦する)
-static bool fetchPlaylistBody(String &body, bool wait) {
+static bool fetchPlaylistBody(size_t &len, bool wait) {
   if (strlen(PLAYLIST_URL) == 0) return false;
   if (WiFi.status() != WL_CONNECTED) return false;
+  // loop() がまだ前の本文を反映していなければ書かない (すぐ再挑戦してよい)
+  if (fetchMutex) xSemaphoreTake(fetchMutex, portMAX_DELAY);
+  const bool mine = (plBufState == PLBUF_FREE);
+  if (mine) plBufState = PLBUF_WRITING;
+  if (fetchMutex) xSemaphoreGive(fetchMutex);
+  if (!mine) return false;
   // CDNキャッシュ回避のためクエリを付与
   String url = String(PLAYLIST_URL) + "?t=" + String(millis());
   int code;
-  String out = httpGetString(url, code, wait);
-  if (code != 200 || !out.length()) {
+  size_t n = httpGetToBuf(url, plBuf, sizeof(plBuf), code, wait);
+  if (code != 200 || n == 0) {
+    plBufSetState(PLBUF_FREE);
     Serial.printf("[playlist] fetch failed (%d)\n", code);
     return false;   // -2 = 他の取得と重なった。すぐ再挑戦してよい (v0.10)
   }
-  body = out;
+  if (fetchMutex) xSemaphoreTake(fetchMutex, portMAX_DELAY);
+  plBufLen = n;
+  plBufState = PLBUF_READY;
+  if (fetchMutex) xSemaphoreGive(fetchMutex);
+  len = n;
   return true;
 }
 
@@ -965,10 +1038,10 @@ static uint32_t lastPlHash = 0;
 static size_t   lastPlLen = 0;
 static int      lastFwPing = 0;
 
-static uint32_t fnv1a32(const String &s) {
+static uint32_t fnv1a32(const char *p, size_t n) {
   uint32_t h = 2166136261UL;
-  for (unsigned int i = 0; i < s.length(); i++) {
-    h ^= (uint8_t)s[i];
+  for (size_t i = 0; i < n; i++) {
+    h ^= (uint8_t)p[i];
     h *= 16777619UL;
   }
   return h;
@@ -1051,22 +1124,23 @@ static String eggNormalize(const String &in) {
   return s;
 }
 
-static void cacheSavePlaylist(const String &body);   // 「playlist の保存」の節
+static void cacheSavePlaylist(const char *buf, size_t len);   // 「playlist の保存」の節
 
 // パースと反映。呼ぶのは loop() 側だけ (表示・フォント・ヒープを触るため)。
 // 例外は setup() の保存済み playlist の読み込み (fromCache = true、取得タスクを起こす前)。
 // fromCache のときは fwPing による自己アップデートを起こさず、保存もしない
 // (保存した古い版番号で更新に走らないため / 読んだものを書き直す意味は無いため)。
+// 本文は plBuf (取得タスクから受け取ったもの / 保存分を読み込んだもの) をそのまま受ける (v20)。
 // 戻り値は「取り直す意味があるか」ではなく「JSONとして読めたか」。
-static bool applyPlaylistBody(const String &body, bool fromCache = false) {
+static bool applyPlaylistBody(char *buf, size_t len, bool fromCache = false) {
   // **中身が1バイトも変わっていないなら、パースも反映もしない (v0.12)。**
   // 通常運転では60秒ごとに同じ本文が返る。それを毎回パースすると、JSONの読み取りと
   // frames のbase64デコード (最大24枚×342文字) で loop() が数十ms止まる。
   // holdMs:52 のコマ送りでは1〜2コマぶんの引っかかりになって目に見えるため、
   // 変化が無いときは丸ごと省く。取得の非同期化と合わせて、これで60秒周期の
   // 引っかかりが無くなる。
-  const uint32_t bodyHash = fnv1a32(body);
-  if (lastPlValid && body.length() == lastPlLen && bodyHash == lastPlHash) {
+  const uint32_t bodyHash = fnv1a32(buf, len);
+  if (lastPlValid && len == lastPlLen && bodyHash == lastPlHash) {
     // 表示の反映は省くが、fwPing だけは毎回見る。manifest の公開がCDNに行き渡る前に
     // fwPing を拾った場合、ここを省くと次に playlist の中身が変わるまで
     // (最悪6時間の定期確認まで) 更新が始まらなくなるため。v0.11以前と同じ挙動。
@@ -1078,14 +1152,16 @@ static bool applyPlaylistBody(const String &body, bool fromCache = false) {
     return true;
   }
 
+  // ArduinoJson 7 にはゼロコピーが無い (7.0 で廃止) ので、文字列は doc 側に写される。
+  // buf は書き換わらないので、保存は解析に成功してから行う (壊れた JSON で保存分を潰さない)。
   JsonDocument doc;
-  if (deserializeJson(doc, body)) {
+  if (deserializeJson(doc, (const char *)buf, len)) {
     Serial.println("[playlist] JSON parse error");
     return false;   // 壊れたJSONを3秒ごとに取り直しても直らない。次の周期を待つ
   }
   lastPlValid = true;
   lastPlHash = bodyHash;
-  lastPlLen = body.length();
+  lastPlLen = len;
   lastFwPing = doc["fwPing"].is<int>() ? (int)doc["fwPing"] : 0;
   if (doc["topText"].is<const char*>()) {
     String t = String((const char*)doc["topText"]);
@@ -1196,7 +1272,7 @@ static bool applyPlaylistBody(const String &body, bool fromCache = false) {
   rebuildMarquee();
   Serial.println("[playlist] applied");
   logMem();   // 計測 (v20)
-  if (!fromCache) cacheSavePlaylist(body);   // 本文が前回と変わったときだけここに来る
+  if (!fromCache) cacheSavePlaylist(buf, len);   // 本文が前回と変わったときだけここに来る
 
   // fwPing (v0.7): チャット駆動の即時更新。playlist に自分より新しい番号が書かれていたら
   // 6時間周期を待たずにその場でマニフェストを見に行く。人間の明示的な指示なので
@@ -1402,8 +1478,7 @@ static void drawTopLine() {
 static unsigned long lastFetch = 0;
 static String fetchedBody;                 // コメント本文 (mutexの中でだけ触る)
 static volatile bool fetchedReady = false; // 未反映のコメント本文がある
-static String fetchedPlBody;               // playlist本文 (mutexの中でだけ触る)
-static volatile bool fetchedPlReady = false;// 未反映のplaylist本文がある
+// playlist の本文は plBuf / plBufState で受け渡す (v20、「playlist.json」の節)
 static String fetchedHoursBody;            // 営業カレンダー本文 (mutexの中でだけ触る) (v16)
 static volatile bool fetchedHoursReady = false; // 未反映のカレンダー本文がある
 static volatile bool fetchAsync = false;   // タスクが動いている (falseならloop()側で取る)
@@ -1556,14 +1631,8 @@ static void fetchTask(void *arg) {
     // ---- playlist ----
     // 比較を符号付きで行い、millis()が一周しても止まらないようにする。
     if (havePlaylistUrl && (long)(ms - nextPlaylist) >= 0) {
-      String body;
-      bool got = fetchPlaylistBody(body, true);
-      if (got) {
-        xSemaphoreTake(fetchMutex, portMAX_DELAY);
-        fetchedPlBody = body;
-        fetchedPlReady = true;
-        xSemaphoreGive(fetchMutex);
-      }
+      size_t len;
+      bool got = fetchPlaylistBody(len, true);   // 取れたら plBuf が READY になる (コピーしない)
       // 取れなかったときは3秒後に再挑戦する (v0.10の意味論を維持)。
       // 取れた場合は、loop()側でJSONが壊れていても取り直さない —— 壊れたJSONを
       // 3秒ごとに取り直しても直らないので、次の60秒周期に任せる。
@@ -1620,15 +1689,14 @@ static void applyFetchedComments() {
 
 // loop() から呼ぶ。タスクが持ってきた playlist があればパースして反映する (待たない)。
 // fwPing → selfUpdateCheck(true) もこの中 (= loop()側) から呼ばれる。
+// plBuf を直接読む。READY のあいだ取得タスクは書かないので、反映中に中身は変わらない (v20)。
 static void applyFetchedPlaylist() {
-  if (!fetchedPlReady) return;
-  String body;
+  if (plBufState != PLBUF_READY) return;
   xSemaphoreTake(fetchMutex, portMAX_DELAY);
-  body = fetchedPlBody;
-  fetchedPlBody = "";    // 持ち回らない (playlist本文は数KBある)
-  fetchedPlReady = false;
+  size_t len = plBufLen;
   xSemaphoreGive(fetchMutex);
-  applyPlaylistBody(body);
+  applyPlaylistBody(plBuf, len);
+  plBufSetState(PLBUF_FREE);   // 反映し終えた。次の取得で書いてよい
 }
 
 // loop() から呼ぶ。タスクが持ってきた営業カレンダーがあればパースして反映する (v16)。
@@ -1659,9 +1727,10 @@ static void fetchHoursBlocking() {
 // 同上。戻り値は「次を60秒後にしてよいか」(false なら3秒後に再挑戦)。
 static bool fetchPlaylistBlocking() {
   if (strlen(PLAYLIST_URL) == 0) return true;
-  String body;
-  if (!fetchPlaylistBody(body, false)) return false;
-  applyPlaylistBody(body);
+  size_t len;
+  if (!fetchPlaylistBody(len, false)) return false;
+  applyPlaylistBody(plBuf, len);
+  plBufSetState(PLBUF_FREE);
   return true;   // 取得はできている。JSONが壊れていても取り直しは次の周期で
 }
 
@@ -1692,7 +1761,7 @@ static void fetchTaskStart() {
 // ---------------- playlist の保存 (v20) ----------------
 // 最後に反映した playlist.json を LittleFS (min_spiffs の spiffs 領域、128KB) に置く。
 // ブースのようにネットが無い場所で再起動しても、前回の表示 (sayEnabled も含む) で立ち上がる。
-// ネットが取れた時点で最新に置き換わる。本文は BODY_MAX_BYTES (48KB) 以内なので、
+// ネットが取れた時点で最新に置き換わる。本文は plBuf (24KB) 以内なので、
 // 書きかけの一時ファイルと合わせても領域に収まる。
 static bool cacheOk = false;
 static const char *CACHE_PATH = "/playlist.json";
@@ -1713,13 +1782,13 @@ static void cacheBegin() {
 
 // 書き込みは数十ms。applyPlaylistBody (loop() 側) で本文が変わったときだけ呼ばれる。
 // 一時ファイルに書いてから付け替えるので、書いている最中に電源が落ちても前の版が残る。
-static void cacheSavePlaylist(const String &body) {
+static void cacheSavePlaylist(const char *buf, size_t len) {
   if (!cacheOk) return;
   File f = LittleFS.open(CACHE_TMP, "w");
   if (!f) { Serial.println("[cache] save failed"); return; }
-  size_t w = f.write((const uint8_t *)body.c_str(), body.length());
+  size_t w = f.write((const uint8_t *)buf, len);
   f.close();
-  if (w != body.length()) {
+  if (w != len) {
     LittleFS.remove(CACHE_TMP);
     Serial.println("[cache] save failed");
     return;
@@ -1733,29 +1802,29 @@ static void cacheSavePlaylist(const String &body) {
       return;
     }
   }
-  Serial.printf("[cache] playlist saved (%d bytes)\n", (int)body.length());
+  Serial.printf("[cache] playlist saved (%d bytes)\n", (int)len);
 }
 
 // setup() で WiFi 接続の前に呼ぶ。fwPing は見ない (applyPlaylistBody の fromCache)。
 // commentsUrl / hoursUrl はここで入れてよい (取得タスクが後で使う)。
+// 取得タスクを起こす前なので、plBuf はそのまま使ってよい (受け渡しと同じ経路で反映する)。
 static void cacheLoadPlaylist() {
   if (!cacheOk) return;
   File f = LittleFS.open(CACHE_PATH, "r");
   if (!f) return;   // まだ保存したことが無い
   size_t n = f.size();
-  if (n == 0 || n > BODY_MAX_BYTES) { f.close(); return; }
-  String body;
-  if (!body.reserve(n)) { f.close(); return; }
-  uint8_t buf[512];
-  while (f.available()) {
-    int r = f.read(buf, sizeof(buf));
+  if (n == 0 || n > sizeof(plBuf) - 1) { f.close(); return; }
+  size_t got = 0;
+  while (got < n) {
+    int r = f.read((uint8_t *)plBuf + got, n - got);
     if (r <= 0) break;
-    body.concat((const char *)buf, (unsigned int)r);
+    got += (size_t)r;
   }
   f.close();
-  if (body.length() != n) return;   // 読み切れなかったものは使わない
+  if (got != n) return;   // 読み切れなかったものは使わない
+  plBuf[n] = '\0';
   Serial.printf("[cache] playlist loaded (%d bytes)\n", (int)n);
-  applyPlaylistBody(body, true);
+  applyPlaylistBody(plBuf, n, true);
 }
 
 // ---------------- ブース入力 (say / egg) (v20) ----------------
