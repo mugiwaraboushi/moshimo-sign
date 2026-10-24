@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T23:35:51.508Z",
+ "updatedAt": "2026-10-24T02:07:41.358Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "台風30号 先島諸島が暴風域に 沖縄で2人がけが",
+     "title": "沖縄 石垣島地方に「線状降水帯直前予測」 気象庁発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64712",
+     "pubDate": "Sat, 24 Oct 2026 10:38:39 +0900"
+    },
+    {
+     "title": "【最新情報】台風30号 先島諸島が暴風域に 厳重警戒を",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64650",
-     "pubDate": "Sat, 24 Oct 2026 07:58:11 +0900"
+     "pubDate": "Sat, 24 Oct 2026 11:06:09 +0900"
     },
     {
-     "title": "改正皇室典範 きょう施行",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64625",
-     "pubDate": "Sat, 24 Oct 2026 05:00:08 +0900"
+     "title": "台風30号 台湾で1人死亡350人けが 警戒続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64639",
+     "pubDate": "Sat, 24 Oct 2026 10:25:36 +0900"
     },
     {
-     "title": "巨人新監督に就任 松井秀喜氏が会見「新たな黄金時代を」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64015",
-     "pubDate": "Fri, 23 Oct 2026 18:30:20 +0900"
+     "title": "KDDI モンゴル自然保護区の大規模火災の経緯公表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64642",
+     "pubDate": "Sat, 24 Oct 2026 05:20:57 +0900"
     },
     {
-     "title": "作家の村上龍さん死去「コインロッカー・ベイビーズ」 74歳",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64176",
-     "pubDate": "Fri, 23 Oct 2026 20:56:22 +0900"
+     "title": "フィギュアスケート GPシリーズ第1戦 青木祐奈が首位発進",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64681",
+     "pubDate": "Sat, 24 Oct 2026 09:25:02 +0900"
     },
     {
-     "title": "台風31号が日本のはるか南東の海上で発生 今後の情報に注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64647",
-     "pubDate": "Sat, 24 Oct 2026 04:40:00 +0900"
+     "title": "“ウクライナ南部の都市で停戦実現 メラニア夫人仲介”米政権",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64657",
+     "pubDate": "Sat, 24 Oct 2026 09:41:00 +0900"
     },
     {
-     "title": "フランスで再び抗議デモ実施へ パリの街に警戒感広がる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64652",
-     "pubDate": "Sat, 24 Oct 2026 05:47:42 +0900"
-    },
-    {
-     "title": "アパレル大手「アンドエスティ」客の個人情報約250万件流出か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64499",
-     "pubDate": "Fri, 23 Oct 2026 21:47:14 +0900"
+     "title": "仏パリ郊外で次々に銃撃1人死亡5人けが テロ事件とみて捜査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64655",
+     "pubDate": "Sat, 24 Oct 2026 10:00:08 +0900"
     }
    ]
   },
@@ -214,6 +214,41 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "台風30号 台湾で1人死亡350人けが 警戒続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64639",
+     "pubDate": "Sat, 24 Oct 2026 10:25:36 +0900"
+    },
+    {
+     "title": "トランプ政権 対カナダ関税一部除外 接戦州の共和党候補が要請",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64703",
+     "pubDate": "Sat, 24 Oct 2026 10:05:49 +0900"
+    },
+    {
+     "title": "仏パリ郊外で次々に銃撃1人死亡5人けが テロ事件とみて捜査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64655",
+     "pubDate": "Sat, 24 Oct 2026 10:00:08 +0900"
+    },
+    {
+     "title": "フランスとイギリス 核攻撃想定の共同演習を初めて実施",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64645",
+     "pubDate": "Sat, 24 Oct 2026 09:58:52 +0900"
+    },
+    {
+     "title": "ヨルダンの教会で銃撃事件7人死亡 テロ事件として捜査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64643",
+     "pubDate": "Sat, 24 Oct 2026 09:55:38 +0900"
+    },
+    {
+     "title": "中国 チベット自治区の地震 16人死亡1万人超避難 政府支援急ぐ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64631",
+     "pubDate": "Sat, 24 Oct 2026 09:54:10 +0900"
+    },
+    {
+     "title": "“ウクライナ南部の都市で停戦実現 メラニア夫人仲介”米政権",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64657",
+     "pubDate": "Sat, 24 Oct 2026 09:41:00 +0900"
+    },
+    {
      "title": "秋田大教授らがタジキスタンで脱炭素プロジェクト",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64628",
      "pubDate": "Sat, 24 Oct 2026 07:15:06 +0900"
@@ -252,41 +287,6 @@
      "title": "韓国 ソウル市長 政治資金法違反の2審判決は逆転で無罪",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64385",
      "pubDate": "Fri, 23 Oct 2026 19:18:02 +0900"
-    },
-    {
-     "title": "ネパール ヒマラヤ山脈で2人の遺体見つかる 不明の日本人か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64496",
-     "pubDate": "Fri, 23 Oct 2026 20:35:40 +0900"
-    },
-    {
-     "title": "インドネシア 森林などで大規模火災 対策求めるデモ相次ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64338",
-     "pubDate": "Fri, 23 Oct 2026 17:09:00 +0900"
-    },
-    {
-     "title": "南北対立深まる中 韓国国防省 北朝鮮に軍当局間の会談を提案",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64298",
-     "pubDate": "Fri, 23 Oct 2026 16:56:00 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（10月23日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53356",
-     "pubDate": "Fri, 23 Oct 2026 14:43:00 +0900"
-    },
-    {
-     "title": "茂木外相 米中ロ首脳会談 アメリカと緊密に意思疎通し対応",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64178",
-     "pubDate": "Fri, 23 Oct 2026 15:34:22 +0900"
-    },
-    {
-     "title": "ベトナム最高指導者の共産党書記長 来月上旬に訪日へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64173",
-     "pubDate": "Fri, 23 Oct 2026 13:04:00 +0900"
-    },
-    {
-     "title": "中国チベット自治区でM7.0の地震 16人死亡54人けが",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64083",
-     "pubDate": "Fri, 23 Oct 2026 12:29:00 +0900"
     }
    ]
   },
@@ -296,14 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "強い台風30号は九州へ 警報級大雨",
-     "link": "https://news.yahoo.co.jp/pickup/6599881?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 22:15:15 GMT"
+     "title": "仏 抗議活動に警官7万人を動員へ",
+     "link": "https://news.yahoo.co.jp/pickup/6599903?source=rss",
+     "pubDate": "Sat, 24 Oct 2026 01:02:56 GMT"
     },
     {
-     "title": "ウ南部停戦へ トランプ氏夫人仲介",
-     "link": "https://news.yahoo.co.jp/pickup/6599882?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 22:18:09 GMT"
+     "title": "英仏 初めて共同で核演習を実施",
+     "link": "https://news.yahoo.co.jp/pickup/6599904?source=rss",
+     "pubDate": "Sat, 24 Oct 2026 00:59:44 GMT"
     },
     {
      "title": "県立高で威圧的指導か 精神疾患に",
@@ -311,29 +311,29 @@
      "pubDate": "Fri, 23 Oct 2026 23:07:02 GMT"
     },
     {
-     "title": "車ドアと路面に首はさまれ 窒息死",
-     "link": "https://news.yahoo.co.jp/pickup/6599870?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 13:25:37 GMT"
+     "title": "ヒマラヤで邦人2人死亡 遺体収容",
+     "link": "https://news.yahoo.co.jp/pickup/6599905?source=rss",
+     "pubDate": "Sat, 24 Oct 2026 01:14:16 GMT"
     },
     {
-     "title": "車に1歳放置し病院勤務疑い 逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6599875?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 13:56:38 GMT"
+     "title": "サイトでAPIキー丸見え状態 研究",
+     "link": "https://news.yahoo.co.jp/pickup/6599895?source=rss",
+     "pubDate": "Sat, 24 Oct 2026 00:12:02 GMT"
     },
     {
-     "title": "パナG従業員情報 外部AIにアップ",
-     "link": "https://news.yahoo.co.jp/pickup/6599885?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 23:14:51 GMT"
-    },
-    {
-     "title": "村上龍さんのすごさ 見城徹氏語る",
-     "link": "https://news.yahoo.co.jp/pickup/6599888?source=rss",
-     "pubDate": "Fri, 23 Oct 2026 23:05:27 GMT"
+     "title": "免許証流出で見舞金3000円 妥当か",
+     "link": "https://news.yahoo.co.jp/pickup/6599906?source=rss",
+     "pubDate": "Sat, 24 Oct 2026 01:31:55 GMT"
     },
     {
      "title": "巨人 高橋由伸氏にヘッドCを要請",
      "link": "https://news.yahoo.co.jp/pickup/6599880?source=rss",
      "pubDate": "Fri, 23 Oct 2026 22:20:27 GMT"
+    },
+    {
+     "title": "「巨人の星」作者 苦悩と喜び語る",
+     "link": "https://news.yahoo.co.jp/pickup/6599912?source=rss",
+     "pubDate": "Sat, 24 Oct 2026 01:58:50 GMT"
     }
    ]
   }
