@@ -38,6 +38,8 @@
  *    → eggWords に一致した文字は eggFrames の絵に差し替える (裏ルート)
  *  - インタールード: 流れる文字が一周するたびに絵を挟む (v20、playlist の "interlude")
  *  - playlist の保存: LittleFS に /playlist.json を置き、ネット無しの再起動でも戻す (v20)
+ *  - 複数色 (v21): frames[].layers で1枚の絵を色ごとに塗り分ける。
+ *    messages の中に {#RRGGBB} を書くと、そこから先の文字の色が変わる ({#} で元の色に戻す)
  *
  * 配線 (HUB75標準ピン割当はライブラリ既定値を使用):
  *   https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA を参照
@@ -86,11 +88,22 @@
 #define FRAME_H 32
 #define FRAME_BYTES ((FRAME_W * FRAME_H) / 8)  // 256バイト = base64url 342文字
 
+// 塗り分けの重ね絵 (v21、frames[].layers)。関数の引数に使うので、Arduino が関数の宣言を
+// 自動で差し込む位置 (最初の関数の手前) より前に定義しておく。
+#define MAX_FRAME_LAYERS 48          // 1組の合計 (48×256B = 12KB)
+#define MAX_LAYERS_PER_FRAME 7       // 下地と合わせて1枚8色まで
+struct FrameLayers {
+  uint8_t (*data)[FRAME_BYTES] = nullptr;   // malloc。nullptr = 重ね絵なし
+  uint16_t color[MAX_FRAME_LAYERS];
+  uint8_t  start[MAX_FRAMES];
+  uint8_t  count[MAX_FRAMES];               // 0 = 下地だけの絵
+};
+
 // ---- 自己アップデート (v0.7) ----
 // このビルドのバージョン。リリースごとに +1 する (手順: docs/firmware-release.md)。
 // **公開する .bin はこの値を上げてビルドしたものであること。** manifest の version だけ
 // 上げて .bin が古いままだと、実機は「更新したのにまだ古い」を延々繰り返す。
-#define FW_VERSION 20
+#define FW_VERSION 21
 
 // ---- イベントコメント (v0.10) ----
 // 取得先は playlist.json の "commentsUrl" でも指定できる。config.h の値は初期値。
@@ -419,6 +432,29 @@ static void drawBitmapOpaque(const uint8_t *bits, int w, int h, int x, int y, ui
   }
 }
 
+// 塗り分けた絵 (v21)。下地と重ね絵を1パスで合成して描く。
+// 重ね絵ごとに描き足すと、その間をDMAが走査したとき下地の色が一瞬見えるため、
+// ドットごとに「いちばん上で点灯している層の色」を決めてから1回だけ描く。
+static void drawBitmapLayered(const uint8_t *base, uint16_t baseColor,
+                              const uint8_t (*layers)[FRAME_BYTES], const uint16_t *layerColors,
+                              int layerCount, int w, int h, int x, int y) {
+  for (int r = 0; r < h; r++) {
+    int py = y + r;
+    if (py < 0 || py >= PANEL_H) continue;
+    for (int c = 0; c < w; c++) {
+      int px = x + c;
+      if (px < 0 || px >= PANEL_W) continue;
+      int i = r * w + c;
+      const uint8_t mask = 0x80 >> (i & 7);
+      uint16_t col = (base[i >> 3] & mask) ? baseColor : 0;
+      for (int L = layerCount - 1; L >= 0; L--) {
+        if (layers[L][i >> 3] & mask) { col = layerColors[L]; break; }
+      }
+      display->drawPixel(px, py, col);
+    }
+  }
+}
+
 // base64url (パディング無し) をデコードする。戻り値=バイト数、不正なら -1。
 // 不正なフレームは表示せず捨てるため、例外扱いを呼び出し側に返す。
 static int b64Value(char c) {
@@ -451,6 +487,16 @@ static int b64urlDecode(const char *s, uint8_t *out, int outCap) {
 
 // ---------------- 表示状態 ----------------
 static uint16_t marqueeCps[1024];
+// 1文字ごとの色 (v21)。messages の {#RRGGBB} で決まる。
+// RGB565 は 0 (黒) もありうるので、「指定あり」は別のビット列で持つ (int32 で -1 を空きにすると 4KB、これで 2KB)。
+// ビットが立っていない文字は既定の色 (colorScroll / 虹色) のまま。
+static uint16_t marqueeCol[1024];
+static uint8_t  marqueeColSet[1024 / 8];
+static inline void marqueeSetCol(int i, int32_t col) {
+  const uint8_t bit = 1 << (i & 7);
+  if (col >= 0) { marqueeCol[i] = (uint16_t)col; marqueeColSet[i >> 3] |= bit; }
+  else          marqueeColSet[i >> 3] &= ~bit;
+}
 static int marqueeLen = 0;
 static int marqueeW = 0;
 static float scrollX = PANEL_W;
@@ -520,6 +566,11 @@ static uint8_t plFrameData[MAX_FRAMES][FRAME_BYTES];
 static uint16_t plFrameColor[MAX_FRAMES];
 static uint16_t plFrameHoldMs[MAX_FRAMES];  // ミリ秒。hold(秒)もここへ1000倍して入れる
 static int plFrameCount = 0;
+// 塗り分け (v21): frames[].layers の重ね絵。d/color が下地、layers が上に重ねる色ごとの絵
+// (点灯ドットだけを上書き)。layers を知らない v20 以前の実機は下地だけを出す (1色の絵として見える)。
+// 重ね絵の置き場は絵の組 (frames / eggFrames / interlude) ごとに、layers の総数ぶんだけ確保する
+// (FrameLayers。定義はファイル先頭)。静的に持つと常駐が 12KB 増えて TLS の確保ができなくなるため。
+static FrameLayers plFrameLayers;
 static int frameIdx = 0;
 static unsigned long frameSince = 0;      // 0 = 未開始 (次の描画で現在時刻を入れる)
 static int drawnFrame = -1;               // 今パネルに描いてある絵 (-1 = 要再描画)
@@ -541,6 +592,7 @@ static int  plEggWordCount = 0;
 static uint8_t (*plEggData)[FRAME_BYTES] = nullptr;
 static uint16_t plEggColor[MAX_FRAMES];
 static uint16_t plEggHoldMs[MAX_FRAMES];
+static FrameLayers plEggLayers;
 static int  plEggFrameCount = 0;
 static int  plEggMs = 4000;               // egg の再生時間 (1000〜20000)
 
@@ -549,8 +601,19 @@ static int  plEggMs = 4000;               // egg の再生時間 (1000〜20000)
 static uint8_t (*plIlData)[FRAME_BYTES] = nullptr;   // eggFrames と同じく必要なときだけ確保
 static uint16_t plIlColor[MAX_FRAMES];
 static uint16_t plIlHoldMs[MAX_FRAMES];
+static FrameLayers plIlLayers;
 static int  plIlFrameCount = 0;
 static int  plIlEvery = 1;                // 1〜10
+
+// 絵の組の idx 枚目を中央に描く (v21)。重ね絵が無ければ従来の1色描き。
+static void drawFrame(const uint8_t *base, uint16_t baseColor, const FrameLayers &L, int idx) {
+  const int x = (PANEL_W - FRAME_W) / 2, y = (PANEL_H - FRAME_H) / 2;
+  if (!L.data || L.count[idx] == 0)
+    drawBitmapOpaque(base, FRAME_W, FRAME_H, x, y, baseColor);
+  else
+    drawBitmapLayered(base, baseColor, L.data + L.start[idx], L.color + L.start[idx],
+                      L.count[idx], FRAME_W, FRAME_H, x, y);
+}
 
 // HSV(h:0-359) → RGB565。虹色スクロール用
 static uint16_t hsvToColor565(int h) {
@@ -569,14 +632,49 @@ static uint16_t hsvToColor565(int h) {
   return ((r >> 3) << 11) | ((g >> 2) << 5) | (b >> 3);
 }
 
-// 1文字ごとに色相を24°ずつ進めた虹色で描画。基準色相は millis()/20 で回る
-// (約7.2秒で一周)。v0.4では周期・回転速度のパラメータ化はしない(将来拡張)
-static void drawTextRainbow(const uint16_t *cps, int n, int x, int y,
-                            int scale = 1, bool bold = false) {
+// 1文字ごとの色つきで描く (v21)。色の指定が無い文字は従来どおり
+// color (または虹色) で描くので、{#…} を使っていない本文の見た目は v20 と同じ。
+// cols / colSet が nullptr なら全文字が既定の色 (ブース入力の文字など)。
+// 虹色は1文字ごとに色相を24°ずつ進め、基準色相は millis()/20 で回る (約7.2秒で一周。v0.4 から同じ)。
+static void drawTextColored(const uint16_t *cps, const uint16_t *cols, const uint8_t *colSet,
+                            int n, int x, int y,
+                            uint16_t color, bool rainbow, int scale = 1, bool bold = false) {
   int hueBase = (int)((millis() / 20) % 360);
   for (int i = 0; i < n; i++) {
-    uint16_t col = hsvToColor565(hueBase + i * 24);
+    const bool set = colSet && (colSet[i >> 3] & (1 << (i & 7)));
+    uint16_t col = set ? cols[i]
+                 : rainbow ? hsvToColor565(hueBase + i * 24) : color;
     x += drawGlyph(cps[i], x, y, col, scale, bold);
+  }
+}
+
+// 本文の一片を marquee に足す (v21)。tags=true のときだけ {#RRGGBB} / {#} を色の指定として読む。
+// 色の指定は一片ごとに既定色から始まる (前のメッセージの色を次に持ち越さない)。
+// コメント (参加者の投稿) は tags=false で渡すので、書かれた {#…} はそのまま文字として出る。
+static void marqueeAppend(const String &s, bool tags) {
+  int32_t cur = -1;
+  int from = 0;
+  const int len = s.length();
+  while (from < len && marqueeLen < 1024) {
+    int at = tags ? s.indexOf("{#", from) : -1;
+    int end = (at < 0) ? len : at;
+    if (end > from) {
+      int n = decodeUtf8(s.substring(from, end), marqueeCps + marqueeLen, 1024 - marqueeLen);
+      for (int i = 0; i < n; i++) marqueeSetCol(marqueeLen + i, cur);
+      marqueeLen += n;
+    }
+    if (at < 0) break;
+    int close = s.indexOf('}', at);
+    String hex = (close > at) ? s.substring(at + 2, close) : String("x");
+    bool isHex = hex.length() == 6;
+    for (int i = 0; isHex && i < 6; i++) isHex = isxdigit((unsigned char)hex[i]);
+    if (hex.length() == 0) { cur = -1; from = close + 1; }
+    else if (isHex) { cur = hexToColor565(hex.c_str()); from = close + 1; }
+    else {
+      // 色の指定になっていない "{#" はそのまま文字として出す
+      if (marqueeLen < 1024) { marqueeCps[marqueeLen] = '{'; marqueeSetCol(marqueeLen++, cur); }
+      from = at + 1;
+    }
   }
 }
 
@@ -614,7 +712,26 @@ static void rebuildMarquee() {
   // 一周が取得間隔より長い文面は末尾が永久に出てこない。
   if (t == marqueeText) return;
   marqueeText = t;
-  marqueeLen = decodeUtf8("　" + t, marqueeCps, 1024);
+  // 上と同じ並びで、一片ずつ色の指定を読みながら組む (v21)。
+  // 色の指定 {#…} を読むのは playlist の messages だけ。コメントは文字のまま
+  // (区切りの入れ方も上と同じ: それまでに1文字でもあれば ◆ を挟む)
+  marqueeLen = 0;
+  marqueeAppend("　", false);
+  const bool evComments = (plMode == MODE_EVENT && commentCount > 0);
+  const bool withMsgs = !evComments;
+  const bool withComments = (plMode != MODE_EVENT) || evComments;
+  bool any = false;
+  if (withMsgs) for (int i = 0; i < plMsgCount; i++) {
+    if (any) marqueeAppend("　◆　", false);
+    marqueeAppend(plMessages[i], true);
+    any = any || plMessages[i].length();
+  }
+  if (withComments) for (int i = 0; i < commentCount; i++) {
+    if (any) marqueeAppend("　◆　", false);
+    marqueeAppend(comments[i], false);
+    any = any || comments[i].length();
+  }
+  if (!any) marqueeAppend(DEFAULT_MESSAGE, false);
   marqueeWScale = -1;   // 幅は loop() 側で今の拡大率・太字に合わせて測る (v18)
   scrollX = PANEL_W;
 }
@@ -1047,10 +1164,33 @@ static uint32_t fnv1a32(const char *p, size_t n) {
   return h;
 }
 
+// 重ね絵の置き場を放す (v21)。count も 0 に戻すので、以後は下地だけの絵として描かれる。
+static void freeLayers(FrameLayers &L) {
+  free(L.data);
+  L.data = nullptr;
+  memset(L.count, 0, sizeof(L.count));
+}
+
 // frames / eggFrames / interlude.frames は同じ形式 (v20 で読み出しを共通化)。
 // 壊れたフレームはそれだけ捨て、残りの枚数を返す。color が無いコマは colorTop の色。
+// layers (v21): 色ごとの重ね絵。壊れた層はそれだけ捨てる。置き場が尽きたら残りは下地だけ。
+// 置き場は layers の総数ぶんだけ確保し、0 なら持たない。確保できなければ layers を捨てて下地だけ出す。
 static int parseFrames(JsonArray arr, uint8_t (*data)[FRAME_BYTES],
-                       uint16_t *color, uint16_t *holdMs) {
+                       uint16_t *color, uint16_t *holdMs, FrameLayers &layers) {
+  freeLayers(layers);   // 前の置き場は先に放す (確保の山を低くする)
+  size_t want = 0;
+  for (JsonVariant v : arr) {
+    if (!v["layers"].is<JsonArray>()) continue;
+    size_t k = v["layers"].as<JsonArray>().size();
+    want += (k > MAX_LAYERS_PER_FRAME) ? MAX_LAYERS_PER_FRAME : k;
+  }
+  if (want > MAX_FRAME_LAYERS) want = MAX_FRAME_LAYERS;
+  if (want > 0) {
+    layers.data = (uint8_t (*)[FRAME_BYTES])malloc(want * FRAME_BYTES);
+    if (!layers.data) Serial.println("[playlist] layers skipped (no memory)");
+  }
+  const int cap = layers.data ? (int)want : 0;
+  int layerUsed = 0;
   int n = 0;
   for (JsonVariant v : arr) {
     if (n >= MAX_FRAMES) break;
@@ -1060,6 +1200,24 @@ static int parseFrames(JsonArray arr, uint8_t (*data)[FRAME_BYTES],
       continue;
     }
     color[n] = v["color"].is<const char*>() ? hexToColor565(v["color"]) : plColorTop;
+    layers.start[n] = layerUsed;
+    layers.count[n] = 0;
+    if (layers.data && v["layers"].is<JsonArray>()) {
+      for (JsonVariant L : v["layers"].as<JsonArray>()) {
+        if (layers.count[n] >= MAX_LAYERS_PER_FRAME || layerUsed >= cap) {
+          Serial.println("[playlist] layer skipped (too many layers)");
+          break;
+        }
+        if (!L["d"].is<const char*>() ||
+            b64urlDecode(L["d"], layers.data[layerUsed], FRAME_BYTES) != FRAME_BYTES) {
+          Serial.println("[playlist] layer skipped (data size mismatch)");
+          continue;
+        }
+        layers.color[layerUsed] = L["color"].is<const char*>() ? hexToColor565(L["color"]) : color[n];
+        layerUsed++;
+        layers.count[n]++;
+      }
+    }
     // holdMs (ミリ秒) が指定されていればそちらを優先し、無ければ hold (秒) を使う。
     // 下限20msは1コマ50fps相当。これより短い指定はパネルの走査が追いつかない。
     if (v["holdMs"].is<float>())
@@ -1070,15 +1228,23 @@ static int parseFrames(JsonArray arr, uint8_t (*data)[FRAME_BYTES],
       holdMs[n] = 8000;
     n++;
   }
+  // 壊れた層を捨てたぶん、置き場を実際の数に詰める (0 なら放す)
+  if (layerUsed == 0) freeLayers(layers);
+  else if (layerUsed < cap) {
+    void *p = realloc(layers.data, layerUsed * FRAME_BYTES);
+    if (p) layers.data = (uint8_t (*)[FRAME_BYTES])p;
+  }
   return n;
 }
 
 // 絵の置き場を arr の枚数ぶんだけ確保し直して読む (v20、eggFrames / interlude 用)。
 // 前の置き場は先に放す (確保の山を低くする)。0 枚なら何も持たない。
 static int parseFramesAlloc(JsonVariant arr, uint8_t (*&data)[FRAME_BYTES],
-                            uint16_t *color, uint16_t *holdMs, const char *name) {
+                            uint16_t *color, uint16_t *holdMs, FrameLayers &layers,
+                            const char *name) {
   free(data);
   data = nullptr;
+  freeLayers(layers);
   if (!arr.is<JsonArray>()) return 0;
   size_t want = arr.as<JsonArray>().size();
   if (want > MAX_FRAMES) want = MAX_FRAMES;
@@ -1088,8 +1254,8 @@ static int parseFramesAlloc(JsonVariant arr, uint8_t (*&data)[FRAME_BYTES],
     Serial.printf("[playlist] %s skipped (no memory)\n", name);
     return 0;
   }
-  int n = parseFrames(arr.as<JsonArray>(), data, color, holdMs);
-  if (n == 0) { free(data); data = nullptr; }
+  int n = parseFrames(arr.as<JsonArray>(), data, color, holdMs, layers);
+  if (n == 0) { free(data); data = nullptr; freeLayers(layers); }
   return n;
 }
 
@@ -1244,7 +1410,7 @@ static bool applyPlaylistBody(char *buf, size_t len, bool fromCache = false) {
   }
   // frames: 64x32のドット絵 (v0.5)。壊れたフレームはそれだけ捨て、残りは表示する
   if (doc["frames"].is<JsonArray>()) {
-    plFrameCount = parseFrames(doc["frames"].as<JsonArray>(), plFrameData, plFrameColor, plFrameHoldMs);
+    plFrameCount = parseFrames(doc["frames"].as<JsonArray>(), plFrameData, plFrameColor, plFrameHoldMs, plFrameLayers);
     if (frameIdx >= plFrameCount) frameIdx = 0;
     frameSince = 0;   // 差し替え直後は先頭からhold秒数え直す
     drawnFrame = -1;  // 絵や色が変わっているので描き直す
@@ -1266,9 +1432,9 @@ static bool applyPlaylistBody(char *buf, size_t len, bool fromCache = false) {
   }
   // 枚数を先に 0 にしてから置き場を差し替える (描画は同じ loop() 側なので、ここでは割り込まれない)
   plEggFrameCount = 0;
-  plEggFrameCount = parseFramesAlloc(doc["eggFrames"], plEggData, plEggColor, plEggHoldMs, "eggFrames");
+  plEggFrameCount = parseFramesAlloc(doc["eggFrames"], plEggData, plEggColor, plEggHoldMs, plEggLayers, "eggFrames");
   plIlFrameCount = 0;
-  plIlFrameCount = parseFramesAlloc(doc["interlude"]["frames"], plIlData, plIlColor, plIlHoldMs, "interlude");
+  plIlFrameCount = parseFramesAlloc(doc["interlude"]["frames"], plIlData, plIlColor, plIlHoldMs, plIlLayers, "interlude");
   plIlEvery = doc["interlude"]["every"].is<int>() ? constrain((int)doc["interlude"]["every"], 1, 10) : 1;
   rebuildMarquee();
   Serial.println("[playlist] applied");
@@ -2027,8 +2193,7 @@ static bool sayTick(unsigned long ms) {
     }
     if (eggDrawn != eggIdx) {
       eggDrawn = eggIdx;
-      drawBitmapOpaque(plEggData[eggIdx], FRAME_W, FRAME_H,
-                       (PANEL_W - FRAME_W) / 2, (PANEL_H - FRAME_H) / 2, plEggColor[eggIdx]);
+      drawFrame(plEggData[eggIdx], plEggColor[eggIdx], plEggLayers, eggIdx);
     }
     return true;
   }
@@ -2054,8 +2219,7 @@ static bool sayTick(unsigned long ms) {
   const int x = (sayState == SAY_STATIC) ? (PANEL_W - sayW) / 2 : (int)sayX;
   const int y = (PANEL_H - 32) / 2;
   display->clearScreen();
-  if (effRainbow()) drawTextRainbow(sayCps, sayLen, x, y, 2, true);
-  else              drawText(sayCps, sayLen, x, y, effColor(), 2, true);
+  drawTextColored(sayCps, nullptr, nullptr, sayLen, x, y, effColor(), effRainbow(), 2, true);
   return true;
 }
 
@@ -2094,8 +2258,7 @@ static bool interludeTick(unsigned long ms) {
   if (ilDrawn != ilIdx || sec != ilDrawnSec) {
     ilDrawn = ilIdx;
     ilDrawnSec = sec;
-    drawBitmapOpaque(plIlData[ilIdx], FRAME_W, FRAME_H,
-                     (PANEL_W - FRAME_W) / 2, (PANEL_H - FRAME_H) / 2, plIlColor[ilIdx]);
+    drawFrame(plIlData[ilIdx], plIlColor[ilIdx], plIlLayers, ilIdx);
     if (twoRows) drawTopLine();
   }
   return true;
@@ -2262,9 +2425,7 @@ void loop() {
     // (挟むと高速なコマ送りで瞬断が見える)。
     if (drawnFrame != frameIdx) {
       drawnFrame = frameIdx;
-      drawBitmapOpaque(plFrameData[frameIdx], FRAME_W, FRAME_H,
-                       (PANEL_W - FRAME_W) / 2, (PANEL_H - FRAME_H) / 2,
-                       plFrameColor[frameIdx]);
+      drawFrame(plFrameData[frameIdx], plFrameColor[frameIdx], plFrameLayers, frameIdx);
     }
     return;
   }
@@ -2306,11 +2467,9 @@ void loop() {
   display->clearScreen();
   if (twoRows) {
     drawTopLine();
-    if (rainbow) drawTextRainbow(marqueeCps, marqueeLen, (int)scrollX, 16, 1, bold);
-    else         drawText(marqueeCps, marqueeLen, (int)scrollX, 16, color, 1, bold);
+    drawTextColored(marqueeCps, marqueeCol, marqueeColSet, marqueeLen, (int)scrollX, 16, color, rainbow, 1, bold);
   } else {
     const int y = (PANEL_H - 16 * scale) / 2;
-    if (rainbow) drawTextRainbow(marqueeCps, marqueeLen, (int)scrollX, y, scale, bold);
-    else         drawText(marqueeCps, marqueeLen, (int)scrollX, y, color, scale, bold);
+    drawTextColored(marqueeCps, marqueeCol, marqueeColSet, marqueeLen, (int)scrollX, y, color, rainbow, scale, bold);
   }
 }
