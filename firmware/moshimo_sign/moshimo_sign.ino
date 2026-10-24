@@ -513,7 +513,9 @@ static bool plSayEnabled = false;
 static int  plSayHoldMs = 5000;           // 中央に静止で出す長さ (1000〜20000)
 static String plEggWords[EGG_MAX_WORDS];  // 照合用に正規化済み (前後の空白を除き、英字は小文字)
 static int  plEggWordCount = 0;
-static uint8_t  plEggData[MAX_FRAMES][FRAME_BYTES];
+// 絵の置き場は枚数が 1 以上のときだけ確保する (最大 6KB)。v20 の実機で、静的に持つと
+// 常駐が増えて TLS の確保ができなくなったため。nullptr = 0 枚。
+static uint8_t (*plEggData)[FRAME_BYTES] = nullptr;
 static uint16_t plEggColor[MAX_FRAMES];
 static uint16_t plEggHoldMs[MAX_FRAMES];
 static int  plEggFrameCount = 0;
@@ -521,7 +523,7 @@ static int  plEggMs = 4000;               // egg の再生時間 (1000〜20000)
 
 // ---- インタールード (v20) ----
 // 流れる文字が左端まで流れ切った回数が every の倍数になったら、絵を1回だけ挟む。
-static uint8_t  plIlData[MAX_FRAMES][FRAME_BYTES];
+static uint8_t (*plIlData)[FRAME_BYTES] = nullptr;   // eggFrames と同じく必要なときだけ確保
 static uint16_t plIlColor[MAX_FRAMES];
 static uint16_t plIlHoldMs[MAX_FRAMES];
 static int  plIlFrameCount = 0;
@@ -726,10 +728,16 @@ static bool readBody(HTTPClient &http, String &out) {
   return false;
 }
 
+// 空きヒープ (v20)。合計と、一度に確保できる最大の塊。TLS は後者が足りないと張れない。
+static void logMem() {
+  Serial.printf("[mem] free=%u largest=%u\n", (unsigned)ESP.getFreeHeap(), (unsigned)ESP.getMaxAllocHeap());
+}
+
 // timeoutMs は**ヘッダが返ってくるまでの待ち時間** (HTTPClient の _tcpTimeout)。
 // 本文の締め切りは readBodyWithDeadline 側が別に持っている (v15)。
 static String httpGetString(const String &url, int &code, bool wait = false,
                             unsigned long timeoutMs = 5000) {
+  logMem();   // 計測 (v20)
   HTTPClient http;
   String out;
   code = -1;
@@ -764,6 +772,7 @@ static String httpGetString(const String &url, int &code, bool wait = false,
     }
   }
   if (netMutex) xSemaphoreGive(netMutex);
+  if (code != 200) logMem();   // 計測 (v20)
   return out;
 }
 
@@ -947,12 +956,23 @@ static bool fetchPlaylistBody(String &body, bool wait) {
   return true;
 }
 
-// 直前に反映した本文と、そこに書かれていた fwPing (v0.12)。
-// 本文まるごと持つのは数KBのヒープを使うが、frames が最大24枚あると
-// 「変わったかどうか」をハッシュで代用したときの取りこぼし (更新が永久に無視される)
-// のほうが痛い。実機は設置済みで直しに行けないので、確実な一致比較にする。
-static String lastAppliedPlaylist;
-static int    lastFwPing = 0;
+// 直前に反映した本文の指紋 (FNV-1a 32bit + 長さ) と、そこに書かれていた fwPing (v0.12)。
+// v19 までは本文まるごと持って一致比較していたが、v20 で playlist が 17KB を超え、
+// 常駐ぶんと合わせて TLS の確保ができなくなった (実機で確認)。長さも合わせて見るので、
+// 取りこぼし (変わったのに同じと判定される) は 32bit の衝突が起きたときだけになる。
+static bool     lastPlValid = false;
+static uint32_t lastPlHash = 0;
+static size_t   lastPlLen = 0;
+static int      lastFwPing = 0;
+
+static uint32_t fnv1a32(const String &s) {
+  uint32_t h = 2166136261UL;
+  for (unsigned int i = 0; i < s.length(); i++) {
+    h ^= (uint8_t)s[i];
+    h *= 16777619UL;
+  }
+  return h;
+}
 
 // frames / eggFrames / interlude.frames は同じ形式 (v20 で読み出しを共通化)。
 // 壊れたフレームはそれだけ捨て、残りの枚数を返す。color が無いコマは colorTop の色。
@@ -977,6 +997,26 @@ static int parseFrames(JsonArray arr, uint8_t (*data)[FRAME_BYTES],
       holdMs[n] = 8000;
     n++;
   }
+  return n;
+}
+
+// 絵の置き場を arr の枚数ぶんだけ確保し直して読む (v20、eggFrames / interlude 用)。
+// 前の置き場は先に放す (確保の山を低くする)。0 枚なら何も持たない。
+static int parseFramesAlloc(JsonVariant arr, uint8_t (*&data)[FRAME_BYTES],
+                            uint16_t *color, uint16_t *holdMs, const char *name) {
+  free(data);
+  data = nullptr;
+  if (!arr.is<JsonArray>()) return 0;
+  size_t want = arr.as<JsonArray>().size();
+  if (want > MAX_FRAMES) want = MAX_FRAMES;
+  if (want == 0) return 0;
+  data = (uint8_t (*)[FRAME_BYTES])malloc(want * FRAME_BYTES);
+  if (!data) {
+    Serial.printf("[playlist] %s skipped (no memory)\n", name);
+    return 0;
+  }
+  int n = parseFrames(arr.as<JsonArray>(), data, color, holdMs);
+  if (n == 0) { free(data); data = nullptr; }
   return n;
 }
 
@@ -1025,7 +1065,8 @@ static bool applyPlaylistBody(const String &body, bool fromCache = false) {
   // holdMs:52 のコマ送りでは1〜2コマぶんの引っかかりになって目に見えるため、
   // 変化が無いときは丸ごと省く。取得の非同期化と合わせて、これで60秒周期の
   // 引っかかりが無くなる。
-  if (lastAppliedPlaylist.length() && body == lastAppliedPlaylist) {
+  const uint32_t bodyHash = fnv1a32(body);
+  if (lastPlValid && body.length() == lastPlLen && bodyHash == lastPlHash) {
     // 表示の反映は省くが、fwPing だけは毎回見る。manifest の公開がCDNに行き渡る前に
     // fwPing を拾った場合、ここを省くと次に playlist の中身が変わるまで
     // (最悪6時間の定期確認まで) 更新が始まらなくなるため。v0.11以前と同じ挙動。
@@ -1042,7 +1083,9 @@ static bool applyPlaylistBody(const String &body, bool fromCache = false) {
     Serial.println("[playlist] JSON parse error");
     return false;   // 壊れたJSONを3秒ごとに取り直しても直らない。次の周期を待つ
   }
-  lastAppliedPlaylist = body;
+  lastPlValid = true;
+  lastPlHash = bodyHash;
+  lastPlLen = body.length();
   lastFwPing = doc["fwPing"].is<int>() ? (int)doc["fwPing"] : 0;
   if (doc["topText"].is<const char*>()) {
     String t = String((const char*)doc["topText"]);
@@ -1144,16 +1187,15 @@ static bool applyPlaylistBody(const String &body, bool fromCache = false) {
       plEggWords[plEggWordCount++] = w;
     }
   }
-  plEggFrameCount = doc["eggFrames"].is<JsonArray>()
-                  ? parseFrames(doc["eggFrames"].as<JsonArray>(), plEggData, plEggColor, plEggHoldMs) : 0;
+  // 枚数を先に 0 にしてから置き場を差し替える (描画は同じ loop() 側なので、ここでは割り込まれない)
+  plEggFrameCount = 0;
+  plEggFrameCount = parseFramesAlloc(doc["eggFrames"], plEggData, plEggColor, plEggHoldMs, "eggFrames");
   plIlFrameCount = 0;
-  plIlEvery = 1;
-  if (doc["interlude"]["frames"].is<JsonArray>()) {
-    plIlFrameCount = parseFrames(doc["interlude"]["frames"].as<JsonArray>(), plIlData, plIlColor, plIlHoldMs);
-    if (doc["interlude"]["every"].is<int>()) plIlEvery = constrain((int)doc["interlude"]["every"], 1, 10);
-  }
+  plIlFrameCount = parseFramesAlloc(doc["interlude"]["frames"], plIlData, plIlColor, plIlHoldMs, "interlude");
+  plIlEvery = doc["interlude"]["every"].is<int>() ? constrain((int)doc["interlude"]["every"], 1, 10) : 1;
   rebuildMarquee();
   Serial.println("[playlist] applied");
+  logMem();   // 計測 (v20)
   if (!fromCache) cacheSavePlaylist(body);   // 本文が前回と変わったときだけここに来る
 
   // fwPing (v0.7): チャット駆動の即時更新。playlist に自分より新しい番号が書かれていたら
