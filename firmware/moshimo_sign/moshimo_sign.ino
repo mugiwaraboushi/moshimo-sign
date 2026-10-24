@@ -33,6 +33,8 @@
  *    → NVSに無ければ config.h に戻る移行版。投入はUSBのシリアルから (手順: docs/firmware-build.md)
  *  - イベント中の表示設定: commentsUrl の JSON 応答の "settings" で色・速さ・大きさ・段数を上書き (v19)
  *    → mode:"event" のときだけ効く。テキスト応答 (1行1件) は従来どおり読める
+ *  - 複数色 (v20): frames[].layers で1枚の絵を色ごとに塗り分ける。
+ *    messages の中に {#RRGGBB} を書くと、そこから先の文字の色が変わる ({#} で元の色に戻す)
  *
  * 配線 (HUB75標準ピン割当はライブラリ既定値を使用):
  *   https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA を参照
@@ -389,6 +391,29 @@ static void drawBitmapOpaque(const uint8_t *bits, int w, int h, int x, int y, ui
   }
 }
 
+// 塗り分けた絵 (v20)。下地と重ね絵を1パスで合成して描く。
+// 重ね絵ごとに描き足すと、その間をDMAが走査したとき下地の色が一瞬見えるため、
+// ドットごとに「いちばん上で点灯している層の色」を決めてから1回だけ描く。
+static void drawBitmapLayered(const uint8_t *base, uint16_t baseColor,
+                              const uint8_t (*layers)[FRAME_BYTES], const uint16_t *layerColors,
+                              int layerCount, int w, int h, int x, int y) {
+  for (int r = 0; r < h; r++) {
+    int py = y + r;
+    if (py < 0 || py >= PANEL_H) continue;
+    for (int c = 0; c < w; c++) {
+      int px = x + c;
+      if (px < 0 || px >= PANEL_W) continue;
+      int i = r * w + c;
+      const uint8_t mask = 0x80 >> (i & 7);
+      uint16_t col = (base[i >> 3] & mask) ? baseColor : 0;
+      for (int L = layerCount - 1; L >= 0; L--) {
+        if (layers[L][i >> 3] & mask) { col = layerColors[L]; break; }
+      }
+      display->drawPixel(px, py, col);
+    }
+  }
+}
+
 // base64url (パディング無し) をデコードする。戻り値=バイト数、不正なら -1。
 // 不正なフレームは表示せず捨てるため、例外扱いを呼び出し側に返す。
 static int b64Value(char c) {
@@ -421,6 +446,9 @@ static int b64urlDecode(const char *s, uint8_t *out, int outCap) {
 
 // ---------------- 表示状態 ----------------
 static uint16_t marqueeCps[1024];
+// 1文字ごとの色 (v20)。-1 = 既定の色 (colorScroll / 虹色) のまま。
+// messages の {#RRGGBB} で決まる。RGB565 は 0 (黒) もありうるので int32 で -1 を空きに使う
+static int32_t marqueeCol[1024];
 static int marqueeLen = 0;
 static int marqueeW = 0;
 static float scrollX = PANEL_W;
@@ -490,6 +518,15 @@ static uint8_t plFrameData[MAX_FRAMES][FRAME_BYTES];
 static uint16_t plFrameColor[MAX_FRAMES];
 static uint16_t plFrameHoldMs[MAX_FRAMES];  // ミリ秒。hold(秒)もここへ1000倍して入れる
 static int plFrameCount = 0;
+// 塗り分け (v20): frames[].layers の重ね絵。全フレームで共有する置き場から割り当てる。
+// d/color が下地、layers が上に重ねる色ごとの絵 (点灯ドットだけを上書き)。
+// layers を知らない v19 以前の実機は下地だけを出す (1色の絵として見える)。
+#define MAX_FRAME_LAYERS 48          // 全フレーム合計 (48×256B = 12KB)
+#define MAX_LAYERS_PER_FRAME 7       // 下地と合わせて1枚8色まで
+static uint8_t  plLayerData[MAX_FRAME_LAYERS][FRAME_BYTES];
+static uint16_t plLayerColor[MAX_FRAME_LAYERS];
+static uint8_t  plFrameLayerStart[MAX_FRAMES];
+static uint8_t  plFrameLayerCount[MAX_FRAMES];
 static int frameIdx = 0;
 static unsigned long frameSince = 0;      // 0 = 未開始 (次の描画で現在時刻を入れる)
 static int drawnFrame = -1;               // 今パネルに描いてある絵 (-1 = 要再描画)
@@ -511,14 +548,46 @@ static uint16_t hsvToColor565(int h) {
   return ((r >> 3) << 11) | ((g >> 2) << 5) | (b >> 3);
 }
 
-// 1文字ごとに色相を24°ずつ進めた虹色で描画。基準色相は millis()/20 で回る
-// (約7.2秒で一周)。v0.4では周期・回転速度のパラメータ化はしない(将来拡張)
-static void drawTextRainbow(const uint16_t *cps, int n, int x, int y,
-                            int scale = 1, bool bold = false) {
+// 1文字ごとの色つきで描く (v20)。色の指定が無い文字は従来どおり
+// color (または虹色) で描くので、{#…} を使っていない本文の見た目は v19 と同じ。
+// 虹色は1文字ごとに色相を24°ずつ進め、基準色相は millis()/20 で回る (約7.2秒で一周。v0.4 から同じ)。
+static void drawTextColored(const uint16_t *cps, const int32_t *cols, int n, int x, int y,
+                            uint16_t color, bool rainbow, int scale = 1, bool bold = false) {
   int hueBase = (int)((millis() / 20) % 360);
   for (int i = 0; i < n; i++) {
-    uint16_t col = hsvToColor565(hueBase + i * 24);
+    uint16_t col = cols[i] >= 0 ? (uint16_t)cols[i]
+                 : rainbow ? hsvToColor565(hueBase + i * 24) : color;
     x += drawGlyph(cps[i], x, y, col, scale, bold);
+  }
+}
+
+// 本文の一片を marquee に足す (v20)。tags=true のときだけ {#RRGGBB} / {#} を色の指定として読む。
+// 色の指定は一片ごとに既定色から始まる (前のメッセージの色を次に持ち越さない)。
+// コメント (参加者の投稿) は tags=false で渡すので、書かれた {#…} はそのまま文字として出る。
+static void marqueeAppend(const String &s, bool tags) {
+  int32_t cur = -1;
+  int from = 0;
+  const int len = s.length();
+  while (from < len && marqueeLen < 1024) {
+    int at = tags ? s.indexOf("{#", from) : -1;
+    int end = (at < 0) ? len : at;
+    if (end > from) {
+      int n = decodeUtf8(s.substring(from, end), marqueeCps + marqueeLen, 1024 - marqueeLen);
+      for (int i = 0; i < n; i++) marqueeCol[marqueeLen + i] = cur;
+      marqueeLen += n;
+    }
+    if (at < 0) break;
+    int close = s.indexOf('}', at);
+    String hex = (close > at) ? s.substring(at + 2, close) : String("x");
+    bool isHex = hex.length() == 6;
+    for (int i = 0; isHex && i < 6; i++) isHex = isxdigit((unsigned char)hex[i]);
+    if (hex.length() == 0) { cur = -1; from = close + 1; }
+    else if (isHex) { cur = hexToColor565(hex.c_str()); from = close + 1; }
+    else {
+      // 色の指定になっていない "{#" はそのまま文字として出す
+      if (marqueeLen < 1024) { marqueeCps[marqueeLen] = '{'; marqueeCol[marqueeLen++] = cur; }
+      from = at + 1;
+    }
   }
 }
 
@@ -556,7 +625,26 @@ static void rebuildMarquee() {
   // 一周が取得間隔より長い文面は末尾が永久に出てこない。
   if (t == marqueeText) return;
   marqueeText = t;
-  marqueeLen = decodeUtf8("　" + t, marqueeCps, 1024);
+  // 上と同じ並びで、一片ずつ色の指定を読みながら組む (v20)。
+  // 色の指定 {#…} を読むのは playlist の messages だけ。コメントは文字のまま
+  // (区切りの入れ方も上と同じ: それまでに1文字でもあれば ◆ を挟む)
+  marqueeLen = 0;
+  marqueeAppend("　", false);
+  const bool evComments = (plMode == MODE_EVENT && commentCount > 0);
+  const bool withMsgs = !evComments;
+  const bool withComments = (plMode != MODE_EVENT) || evComments;
+  bool any = false;
+  if (withMsgs) for (int i = 0; i < plMsgCount; i++) {
+    if (any) marqueeAppend("　◆　", false);
+    marqueeAppend(plMessages[i], true);
+    any = any || plMessages[i].length();
+  }
+  if (withComments) for (int i = 0; i < commentCount; i++) {
+    if (any) marqueeAppend("　◆　", false);
+    marqueeAppend(comments[i], false);
+    any = any || comments[i].length();
+  }
+  if (!any) marqueeAppend(DEFAULT_MESSAGE, false);
   marqueeWScale = -1;   // 幅は loop() 側で今の拡大率・太字に合わせて測る (v18)
   scrollX = PANEL_W;
 }
@@ -1030,6 +1118,7 @@ static bool applyPlaylistBody(const String &body) {
   // frames: 64x32のドット絵 (v0.5)。壊れたフレームはそれだけ捨て、残りは表示する
   if (doc["frames"].is<JsonArray>()) {
     int n = 0;
+    int layerUsed = 0;
     for (JsonVariant v : doc["frames"].as<JsonArray>()) {
       if (n >= MAX_FRAMES) break;
       if (!v["d"].is<const char*>()) continue;
@@ -1038,6 +1127,25 @@ static bool applyPlaylistBody(const String &body) {
         continue;
       }
       plFrameColor[n] = v["color"].is<const char*>() ? hexToColor565(v["color"]) : plColorTop;
+      // layers (v20): 色ごとの重ね絵。壊れた層はそれだけ捨てる。置き場が尽きたら残りは下地だけ
+      plFrameLayerStart[n] = layerUsed;
+      plFrameLayerCount[n] = 0;
+      if (v["layers"].is<JsonArray>()) {
+        for (JsonVariant L : v["layers"].as<JsonArray>()) {
+          if (plFrameLayerCount[n] >= MAX_LAYERS_PER_FRAME || layerUsed >= MAX_FRAME_LAYERS) {
+            Serial.println("[playlist] layer skipped (too many layers)");
+            break;
+          }
+          if (!L["d"].is<const char*>() ||
+              b64urlDecode(L["d"], plLayerData[layerUsed], FRAME_BYTES) != FRAME_BYTES) {
+            Serial.println("[playlist] layer skipped (data size mismatch)");
+            continue;
+          }
+          plLayerColor[layerUsed] = L["color"].is<const char*>() ? hexToColor565(L["color"]) : plFrameColor[n];
+          layerUsed++;
+          plFrameLayerCount[n]++;
+        }
+      }
       // holdMs (ミリ秒) が指定されていればそちらを優先し、無ければ hold (秒) を使う。
       // 下限20msは1コマ50fps相当。これより短い指定はパネルの走査が追いつかない。
       if (v["holdMs"].is<float>())
@@ -1696,9 +1804,16 @@ void loop() {
     // (挟むと高速なコマ送りで瞬断が見える)。
     if (drawnFrame != frameIdx) {
       drawnFrame = frameIdx;
-      drawBitmapOpaque(plFrameData[frameIdx], FRAME_W, FRAME_H,
-                       (PANEL_W - FRAME_W) / 2, (PANEL_H - FRAME_H) / 2,
-                       plFrameColor[frameIdx]);
+      if (plFrameLayerCount[frameIdx] == 0)
+        drawBitmapOpaque(plFrameData[frameIdx], FRAME_W, FRAME_H,
+                         (PANEL_W - FRAME_W) / 2, (PANEL_H - FRAME_H) / 2,
+                         plFrameColor[frameIdx]);
+      else
+        drawBitmapLayered(plFrameData[frameIdx], plFrameColor[frameIdx],
+                          plLayerData + plFrameLayerStart[frameIdx],
+                          plLayerColor + plFrameLayerStart[frameIdx],
+                          plFrameLayerCount[frameIdx], FRAME_W, FRAME_H,
+                          (PANEL_W - FRAME_W) / 2, (PANEL_H - FRAME_H) / 2);
     }
     return;
   }
@@ -1736,11 +1851,9 @@ void loop() {
   display->clearScreen();
   if (twoRows) {
     drawTopLine();
-    if (rainbow) drawTextRainbow(marqueeCps, marqueeLen, (int)scrollX, 16, 1, bold);
-    else         drawText(marqueeCps, marqueeLen, (int)scrollX, 16, color, 1, bold);
+    drawTextColored(marqueeCps, marqueeCol, marqueeLen, (int)scrollX, 16, color, rainbow, 1, bold);
   } else {
     const int y = (PANEL_H - 16 * scale) / 2;
-    if (rainbow) drawTextRainbow(marqueeCps, marqueeLen, (int)scrollX, y, scale, bold);
-    else         drawText(marqueeCps, marqueeLen, (int)scrollX, y, color, scale, bold);
+    drawTextColored(marqueeCps, marqueeCol, marqueeLen, (int)scrollX, y, color, rainbow, scale, bold);
   }
 }
