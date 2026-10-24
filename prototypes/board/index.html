@@ -45,21 +45,23 @@ const TOFU = {w:16, rows:Uint16Array.from({length:16},(_,r)=> (r===1||r===14)?0x
 function glyph(ch){ return GLYPHS.get(ch) || TOFU; }
 // scale=2 で縦横2倍 (32px高)、bold で点灯ドットを右へ1dot太らせ送り幅も+1。
 // 実機ファームウェア v18 の scrollScale / scrollBold と同じ描き方。
-function renderText(text, scale=1, bold=false){
+// ids: 1文字ごとの色番号 (省略時はすべて 1 = 既定の色)。点灯ドットにはこの番号が入る
+function renderText(text, scale=1, bold=false, ids=null){
   const gs = [...text].map(glyph);
   const ext = bold ? 1 : 0;
   const w = Math.max(gs.reduce((a,g)=>a+g.w*scale+ext, 0), 1);
   const bm = { w, rows: Array.from({length:16*scale},()=>new Uint8Array(w)) };
   let x = 0;
-  for (const g of gs) {
+  gs.forEach((g, k) => {
+    const id = ids ? ids[k] : 1;
     for (let r=0;r<16;r++){
       const v = g.rows[r];
       for (let i=0;i<g.w;i++) if ((v>>(g.w-1-i))&1)
         for (let sy=0;sy<scale;sy++) for (let sx=0;sx<scale+ext;sx++)
-          bm.rows[r*scale+sy][x+i*scale+sx] = 1;
+          bm.rows[r*scale+sy][x+i*scale+sx] = id;
     }
     x += g.w*scale+ext;
-  }
+  });
   return bm;
 }
 
@@ -68,6 +70,7 @@ function renderText(text, scale=1, bold=false){
 // &top=上段の固定文言(指定すると2段表示) &clock=1(上段を時計と交互に)
 // &color=FF9C00 &topcolor=FF9C00 &speed=45 &w=64 &h=32
 // &scale=2(1行表示のとき文字を2倍に) &bold=1(流れる文字を太字に)
+// 文言の中の {#RRGGBB} でそこから先の文字の色が変わる。{#} で元の色に戻る (実機はファームウェア v20 から)
 const q = new URLSearchParams(location.search);
 // アプリ間でURLを受け渡すとエンコードが二重になることがある。
 // そのままだと "%20" などが文字として流れてしまうので、残っていたらもう一度だけ戻す。
@@ -91,7 +94,22 @@ const dual = (P.top || P.clock) && P.h >= 32;
 // 2段表示の下段は16px高しかないので、拡大は1行表示のときだけ (実機と同じ)
 const scale = (!dual && 16*P.scale <= P.h) ? P.scale : 1;
 const msgs = P.text.split(/\|\||◆/).map(s=>s.trim()).filter(Boolean);
-const marqueeText = "　" + msgs.join("　◆　");
+// 1文字ごとの色 (実機の messages と同じ規則: メッセージごとに既定の色から始まる)。
+// 色番号 1 = 既定の色、2 以上 = COLS[番号-2]
+const COLS = [];
+const colId = hex => { hex = "#" + hex.toUpperCase(); let i = COLS.indexOf(hex); if (i < 0){ COLS.push(hex); i = COLS.length-1; } return i + 2; };
+let marqueeText = "", marqueeIds = [];
+function pushText(t, id){ for (const ch of t){ marqueeText += ch; marqueeIds.push(id); } }
+pushText("　", 1);
+msgs.forEach((m, k) => {
+  if (k) pushText("　◆　", 1);
+  let cur = 1;
+  for (const part of m.split(/(\{#(?:[0-9A-Fa-f]{6})?\})/)){
+    if (/^\{#[0-9A-Fa-f]{6}\}$/.test(part)) cur = colId(part.slice(2, 8));
+    else if (part === "{#}") cur = 1;
+    else pushText(part, cur);
+  }
+});
 
 // ---- キャンバス ----
 const cv = document.getElementById("led"), ctx = cv.getContext("2d");
@@ -99,7 +117,7 @@ const DOT = 10;
 cv.width = P.w*DOT; cv.height = P.h*DOT;
 // 画面幅に対する実表示サイズ調整はCSS(width:100%)に任せる
 
-const marquee = renderText(marqueeText, scale, P.bold);
+const marquee = renderText(marqueeText, scale, P.bold, marqueeIds);
 let scrollX = P.w;
 let topBm = null, topKey = "";
 function refreshTop(){
@@ -129,7 +147,7 @@ function frame(ts){
       const row = bm.rows[r];
       for (let x=0;x<bm.w;x++){
         const px = ox+x; if (px<0||px>=P.w) continue;
-        if (row[x]) fb[y*P.w+px] = 1;
+        if (row[x]) fb[y*P.w+px] = row[x];
       }
     }
   }
@@ -157,13 +175,16 @@ function frame(ts){
     }
   }
   function drawLit(buf, col){
-    ctx.fillStyle = col; ctx.globalAlpha = .25;
+    const colOf = v => v === 1 ? col : COLS[v-2];
+    ctx.globalAlpha = .25;
     for (let y=0;y<P.h;y++) for (let x=0;x<P.w;x++){
-      if (buf[y*P.w+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.62, 0, 7); ctx.fill(); }
+      const v = buf[y*P.w+x];
+      if (v){ ctx.fillStyle = colOf(v); ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.62, 0, 7); ctx.fill(); }
     }
     ctx.globalAlpha = 1;
     for (let y=0;y<P.h;y++) for (let x=0;x<P.w;x++){
-      if (buf[y*P.w+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.38, 0, 7); ctx.fill(); }
+      const v = buf[y*P.w+x];
+      if (v){ ctx.fillStyle = colOf(v); ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.38, 0, 7); ctx.fill(); }
     }
   }
   drawLit(fb, P.color);
