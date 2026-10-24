@@ -62,11 +62,14 @@
 <script>
 // 再生の規則は実機 (firmware の frames) と同じ:
 //   holdMs (20〜60000) があればそれ、無ければ hold 秒 (1〜60、既定 8)。色は color、無ければ FF9C00
+//   layers (塗り分け、ファームウェア v21〜) は下地の上に重ね、点灯ドットだけ後ろの層の色で上書きする
 // ?src=sanma のように data/frames/ のファイル名で開ける。?src=playlist で playlist.json の frames
 const W = 64, H = 32, DOT = 10;
 const SRCS = [
   { id:"sanma",           label:"さんま（待機画面）",     url:"../../data/frames/sanma.json" },
   { id:"sanma-interlude", label:"さんま（文字のあと）",   url:"../../data/frames/sanma-interlude.json" },
+  { id:"sanma-color-swim", label:"塗り分けさんま（泳ぐ）", url:"../../data/frames/sanma-color-swim.json" },
+  { id:"sanma-color-interlude", label:"塗り分けさんま（下半分）", url:"../../data/frames/sanma-color-interlude.json" },
   { id:"moshimo-kun",     label:"もしもくん",             url:"../../data/frames/moshimo-kun.json" },
   { id:"playlist",        label:"いまの playlist.json",   url:"../../playlist.json" },
 ];
@@ -94,15 +97,19 @@ function paint(){
   ctx.fillStyle = "#000"; ctx.fillRect(0,0,cv.width,cv.height);
   if (!frames.length) return;
   const f = frames[idx], bits = f.bits, col = colorOf(f);
+  // ドットごとの色。下地 → layers の順に重ね、点灯している最後の層の色にする
+  const px = new Array(W*H).fill(null);
+  for (let i=0;i<W*H;i++) if (bits[i]) px[i] = col;
+  for (const L of f.lbits) for (let i=0;i<W*H;i++) if (L.bits[i]) px[i] = L.col;
   ctx.fillStyle = "#15171a";
   for (let y=0;y<H;y++) for (let x=0;x<W;x++)
-    if (!bits[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.32, 0, 7); ctx.fill(); }
-  ctx.fillStyle = col; ctx.globalAlpha = .25;
+    if (!px[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.32, 0, 7); ctx.fill(); }
+  ctx.globalAlpha = .25;
   for (let y=0;y<H;y++) for (let x=0;x<W;x++)
-    if (bits[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.62, 0, 7); ctx.fill(); }
+    if (px[y*W+x]){ ctx.fillStyle = px[y*W+x]; ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.62, 0, 7); ctx.fill(); }
   ctx.globalAlpha = 1;
   for (let y=0;y<H;y++) for (let x=0;x<W;x++)
-    if (bits[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.38, 0, 7); ctx.fill(); }
+    if (px[y*W+x]){ ctx.fillStyle = px[y*W+x]; ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.38, 0, 7); ctx.fill(); }
   document.documentElement.style.setProperty("--accent", col);
   document.getElementById("pos").textContent = `${idx+1} / ${frames.length} 枚`;
   document.getElementById("hold").textContent = `${holdOf(f)} ms  ${col.toUpperCase()}`;
@@ -119,7 +126,9 @@ function setFrames(data, label){
   const note = document.getElementById("srcNote");
   if (!Array.isArray(list) || !list.length) throw new Error("frames が見つかりません");
   const bad = list.findIndex(f => !f || typeof f.d !== "string" || f.d.length !== 342);
-  frames = list.filter(f => f && typeof f.d === "string").map(f => ({ ...f, bits: decode(f.d) }));
+  frames = list.filter(f => f && typeof f.d === "string").map(f => ({ ...f, bits: decode(f.d),
+    lbits: (Array.isArray(f.layers) ? f.layers : []).filter(L => L && typeof L.d === "string" && L.d.length === 342)
+      .map(L => ({ bits: decode(L.d), col: L.color ? colorOf(L) : colorOf(f) })) }));
   idx = 0;
   note.className = "note" + (bad >= 0 ? " err" : "");
   note.textContent = label + " — " + list.length + " 枚"
