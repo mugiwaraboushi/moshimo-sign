@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T07:26:39.850Z",
+ "updatedAt": "2026-10-24T12:07:09.796Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "【最新情報】台風30号 27日にかけて西～東日本で大雨おそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64650",
+     "pubDate": "Sat, 24 Oct 2026 19:22:00 +0900"
+    },
+    {
      "title": "GMO 不正アクセス問題で政府に「能動的サイバー防御」を要請",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64764",
-     "pubDate": "Sat, 24 Oct 2026 16:00:58 +0900"
+     "pubDate": "Sat, 24 Oct 2026 18:57:00 +0900"
     },
     {
-     "title": "【最新情報】台風30号 東シナ海を北上 西～東日本で大雨おそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64650",
-     "pubDate": "Sat, 24 Oct 2026 15:08:00 +0900"
-    },
-    {
-     "title": "“北朝鮮 キム総書記 中国 丹東に到着”韓国複数メディア",
+     "title": "“北朝鮮 キム総書記 きょう中国訪問”韓国複数メディア",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64810",
      "pubDate": "Sat, 24 Oct 2026 15:45:00 +0900"
     },
     {
-     "title": "ワールドシリーズが開幕 第1戦はブルワーズが勝利",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64775",
-     "pubDate": "Sat, 24 Oct 2026 15:04:28 +0900"
-    },
-    {
-     "title": "台風30号 台湾で1人死亡 500人以上けが 警戒続く",
+     "title": "台風30号 台湾で1人死亡 600人以上けが 日本人学校で門倒れる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64639",
-     "pubDate": "Sat, 24 Oct 2026 11:43:00 +0900"
+     "pubDate": "Sat, 24 Oct 2026 18:36:00 +0900"
     },
     {
-     "title": "ペルーのケイコ・フジモリ大統領初来日へ 高市首相と会談調整",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64758",
-     "pubDate": "Sat, 24 Oct 2026 14:25:00 +0900"
+     "title": "フランスで再び抗議デモ実施へ パリの街に警戒感広がる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64652",
+     "pubDate": "Sat, 24 Oct 2026 18:48:00 +0900"
     },
     {
-     "title": "イランが米政府職員殺害を計画か 米情報機関が警告",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64782",
-     "pubDate": "Sat, 24 Oct 2026 15:23:00 +0900"
+     "title": "【速報中】日本シリーズ ソフトバンクが先制 DeNAとの均衡破る",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64830",
+     "pubDate": "Sat, 24 Oct 2026 20:46:00 +0900"
+    },
+    {
+     "title": "鳥取 琴浦町 発電所の風車から出火 けが人なし【動画】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64864",
+     "pubDate": "Sat, 24 Oct 2026 18:21:31 +0900"
     }
    ]
   },
@@ -50,14 +50,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "鳥取 琴浦町 発電所の風車から出火 けが人なし【動画】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64864",
+     "pubDate": "Sat, 24 Oct 2026 18:21:31 +0900"
+    },
+    {
+     "title": "リニア中央新幹線 地下ホーム初公開 まちはどう変わる？",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64791",
+     "pubDate": "Sat, 24 Oct 2026 18:11:00 +0900"
+    },
+    {
      "title": "GMO 不正アクセス問題で政府に「能動的サイバー防御」を要請",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64764",
-     "pubDate": "Sat, 24 Oct 2026 16:00:58 +0900"
+     "pubDate": "Sat, 24 Oct 2026 18:57:00 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（10月24日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64531",
-     "pubDate": "Sat, 24 Oct 2026 14:10:25 +0900"
+     "pubDate": "Sat, 24 Oct 2026 19:58:06 +0900"
     },
     {
      "title": "東武野田線 運転再開",
@@ -113,16 +123,6 @@
      "title": "GMO FX取引のサーバーに不正アクセス 口座で不正操作の相談も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64076",
      "pubDate": "Fri, 23 Oct 2026 22:01:18 +0900"
-    },
-    {
-     "title": "アパレル大手「アンドエスティ」客の個人情報約250万件流出か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64499",
-     "pubDate": "Fri, 23 Oct 2026 21:47:14 +0900"
-    },
-    {
-     "title": "モスバーガー 流通済みプリペイドカード情報 約57万件が流出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64388",
-     "pubDate": "Fri, 23 Oct 2026 22:13:49 +0900"
     }
    ]
   },
@@ -214,7 +214,7 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "“北朝鮮 キム総書記 中国 丹東に到着”韓国複数メディア",
+     "title": "“北朝鮮 キム総書記 きょう中国訪問”韓国複数メディア",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64810",
      "pubDate": "Sat, 24 Oct 2026 15:45:00 +0900"
     },
@@ -244,9 +244,9 @@
      "pubDate": "Sat, 24 Oct 2026 11:07:49 +0900"
     },
     {
-     "title": "台風30号 台湾で1人死亡 500人以上けが 警戒続く",
+     "title": "台風30号 台湾で1人死亡 600人以上けが 日本人学校で門倒れる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64639",
-     "pubDate": "Sat, 24 Oct 2026 11:43:00 +0900"
+     "pubDate": "Sat, 24 Oct 2026 18:36:00 +0900"
     },
     {
      "title": "トランプ政権 対カナダ関税一部除外 接戦州の共和党候補が要請",
@@ -286,7 +286,7 @@
     {
      "title": "フランスで再び抗議デモ実施へ パリの街に警戒感広がる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64652",
-     "pubDate": "Sat, 24 Oct 2026 05:47:00 +0900"
+     "pubDate": "Sat, 24 Oct 2026 18:48:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "正恩氏が電撃訪中 開通の大橋通り",
-     "link": "https://news.yahoo.co.jp/pickup/6599942?source=rss",
-     "pubDate": "Sat, 24 Oct 2026 07:12:35 GMT"
+     "title": "中国で首相と会談 正恩氏日帰りか",
+     "link": "https://news.yahoo.co.jp/pickup/6599971?source=rss",
+     "pubDate": "Sat, 24 Oct 2026 11:39:51 GMT"
     },
     {
-     "title": "台風30号 26日に九州上陸の恐れ",
-     "link": "https://news.yahoo.co.jp/pickup/6599938?source=rss",
-     "pubDate": "Sat, 24 Oct 2026 06:38:25 GMT"
+     "title": "28日頃北海道で雪 全国的に肌寒く",
+     "link": "https://news.yahoo.co.jp/pickup/6599944?source=rss",
+     "pubDate": "Sat, 24 Oct 2026 07:28:56 GMT"
     },
     {
-     "title": "GMO 攻撃者の金銭要求に応じず",
-     "link": "https://news.yahoo.co.jp/pickup/6599929?source=rss",
-     "pubDate": "Sat, 24 Oct 2026 05:42:24 GMT"
+     "title": "自殺予防にAI 厚労省が効果検証へ",
+     "link": "https://news.yahoo.co.jp/pickup/6599967?source=rss",
+     "pubDate": "Sat, 24 Oct 2026 11:12:10 GMT"
     },
     {
-     "title": "露は「人質外交」解放の米紙記者",
-     "link": "https://news.yahoo.co.jp/pickup/6599926?source=rss",
-     "pubDate": "Sat, 24 Oct 2026 04:50:28 GMT"
+     "title": "モンゴル火災 当局が賠償請求検討",
+     "link": "https://news.yahoo.co.jp/pickup/6599972?source=rss",
+     "pubDate": "Sat, 24 Oct 2026 12:02:23 GMT"
     },
     {
-     "title": "ケニア首都で建設中のビルが倒壊",
-     "link": "https://news.yahoo.co.jp/pickup/6599930?source=rss",
-     "pubDate": "Sat, 24 Oct 2026 05:31:27 GMT"
+     "title": "お茶の飲み方 健康左右する可能性",
+     "link": "https://news.yahoo.co.jp/pickup/6599966?source=rss",
+     "pubDate": "Sat, 24 Oct 2026 10:43:34 GMT"
     },
     {
-     "title": "大阪で行方不明の14歳 無事に発見",
-     "link": "https://news.yahoo.co.jp/pickup/6599935?source=rss",
-     "pubDate": "Sat, 24 Oct 2026 06:24:44 GMT"
+     "title": "槙野監督 判定に「レベル低い」",
+     "link": "https://news.yahoo.co.jp/pickup/6599970?source=rss",
+     "pubDate": "Sat, 24 Oct 2026 11:41:36 GMT"
     },
     {
-     "title": "松井監督が練習視察 オーラ漂わす",
-     "link": "https://news.yahoo.co.jp/pickup/6599940?source=rss",
-     "pubDate": "Sat, 24 Oct 2026 07:00:56 GMT"
+     "title": "日本S速報 DeNAvs.ソフトバンク",
+     "link": "https://news.yahoo.co.jp/pickup/6599954?source=rss",
+     "pubDate": "Sat, 24 Oct 2026 09:27:18 GMT"
     },
     {
-     "title": "山村紅葉 東大に落ち「トラウマ」",
-     "link": "https://news.yahoo.co.jp/pickup/6599936?source=rss",
-     "pubDate": "Sat, 24 Oct 2026 06:27:30 GMT"
+     "title": "ウーマン村本 米で事故に遭い負傷",
+     "link": "https://news.yahoo.co.jp/pickup/6599963?source=rss",
+     "pubDate": "Sat, 24 Oct 2026 10:07:14 GMT"
     }
    ]
   }
