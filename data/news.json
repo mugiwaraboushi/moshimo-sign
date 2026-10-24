@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T18:52:06.195Z",
+ "updatedAt": "2026-10-24T21:16:21.730Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【最新情報】台風30号西日本接近へ 西～東日本で大雨のおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64650",
-     "pubDate": "Sat, 24 Oct 2026 22:48:50 +0900"
+     "title": "【最新情報】台風30号九州に接近へ 前線影響 広範囲大雨おそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64932",
+     "pubDate": "Sun, 25 Oct 2026 05:58:36 +0900"
+    },
+    {
+     "title": "政府に緊急要請のGMO 被害拡大防げるか 利用者に呼びかけ強化",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64946",
+     "pubDate": "Sun, 25 Oct 2026 04:54:25 +0900"
+    },
+    {
+     "title": "ブラジル大統領選挙 決選投票へ 世論調査は接戦予想",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261025de64972",
+     "pubDate": "Sun, 25 Oct 2026 05:00:33 +0900"
+    },
+    {
+     "title": "キム総書記訪中 米朝交渉再開可能性見据え意思疎通のねらいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64966",
+     "pubDate": "Sun, 25 Oct 2026 05:15:25 +0900"
     },
     {
      "title": "日本シリーズ ソフトバンク延長制し先勝 庄子が決勝打【詳報】",
@@ -23,24 +38,9 @@
      "pubDate": "Sat, 24 Oct 2026 21:53:19 +0900"
     },
     {
-     "title": "GMO 不正アクセス問題で政府に「能動的サイバー防御」を要請",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64764",
-     "pubDate": "Sat, 24 Oct 2026 18:57:00 +0900"
-    },
-    {
-     "title": "台風30号 台湾で1人死亡 600人以上けが 日本人学校で門倒れる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64639",
-     "pubDate": "Sat, 24 Oct 2026 22:26:02 +0900"
-    },
-    {
-     "title": "愛知・名古屋アジアパラ大会閉会式 7日間の熱戦に幕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64785",
-     "pubDate": "Sun, 25 Oct 2026 00:04:49 +0900"
-    },
-    {
-     "title": "サッカーJ1 第12節 広島が快勝 浅野拓磨が復帰後初ゴール",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64945",
-     "pubDate": "Sun, 25 Oct 2026 00:13:10 +0900"
+     "title": "海底のプラごみ対策 分解酵素混ぜた新たなプラスチック開発",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64624",
+     "pubDate": "Sun, 25 Oct 2026 05:09:21 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "海底のプラごみ対策 分解酵素混ぜた新たなプラスチック開発",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64624",
+     "pubDate": "Sun, 25 Oct 2026 05:09:21 +0900"
+    },
     {
      "title": "神奈川 秦野の弘法山公園近くでクマ再出没 放獣個体と判明",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64937",
@@ -118,11 +123,6 @@
      "title": "経産省が「核のごみ」文献調査について宮崎県串間市長に説明",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64584",
      "pubDate": "Fri, 23 Oct 2026 22:55:48 +0900"
-    },
-    {
-     "title": "NHK出版 約12万件の個人情報漏えい 不正アクセスで",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64585",
-     "pubDate": "Fri, 23 Oct 2026 22:25:18 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "海底のプラごみ対策 分解酵素混ぜた新たなプラスチック開発",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64624",
+     "pubDate": "Sun, 25 Oct 2026 05:09:21 +0900"
+    },
+    {
+     "title": "政府に緊急要請のGMO 被害拡大防げるか 利用者に呼びかけ強化",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64946",
+     "pubDate": "Sun, 25 Oct 2026 04:54:25 +0900"
+    },
     {
      "title": "西山女流四冠 注目される「プロ入り」の判断【記者解説】",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64340",
@@ -195,16 +205,6 @@
      "title": "愛子さま 来月シンガポール訪問が正式決定",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64070",
      "pubDate": "Fri, 23 Oct 2026 12:02:59 +0900"
-    },
-    {
-     "title": "大阪松竹座11月から解体工事実施へ その後の計画は未定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64085",
-     "pubDate": "Fri, 23 Oct 2026 11:50:00 +0900"
-    },
-    {
-     "title": "PHPぜい弱性 厚労省 31システム一時停止 情報漏えい確認されず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261023de64069",
-     "pubDate": "Fri, 23 Oct 2026 13:27:50 +0900"
     }
    ]
   },
@@ -213,6 +213,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "ウクライナ南部で限定停戦 大統領は人道状況改善に期待示す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261025de64976",
+     "pubDate": "Sun, 25 Oct 2026 06:03:03 +0900"
+    },
+    {
+     "title": "キム総書記訪中 米朝交渉再開可能性見据え意思疎通のねらいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64966",
+     "pubDate": "Sun, 25 Oct 2026 05:15:25 +0900"
+    },
+    {
+     "title": "ブラジル大統領選挙 決選投票へ 世論調査は接戦予想",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261025de64972",
+     "pubDate": "Sun, 25 Oct 2026 05:00:33 +0900"
+    },
     {
      "title": "【詳細】ロシア ウクライナに軍事侵攻（10月24日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53357",
@@ -272,21 +287,6 @@
      "title": "ヨルダンの教会で銃撃事件7人死亡 テロ事件として捜査",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64643",
      "pubDate": "Sat, 24 Oct 2026 09:55:38 +0900"
-    },
-    {
-     "title": "中国 チベット自治区の地震 16人死亡1万人超避難 政府支援急ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64631",
-     "pubDate": "Sat, 24 Oct 2026 09:54:10 +0900"
-    },
-    {
-     "title": "“ウクライナ南部の都市で停戦実現 メラニア夫人仲介”米政権",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64657",
-     "pubDate": "Sat, 24 Oct 2026 09:41:00 +0900"
-    },
-    {
-     "title": "秋田大教授らがタジキスタンで脱炭素プロジェクト",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64628",
-     "pubDate": "Sat, 24 Oct 2026 07:15:06 +0900"
     }
    ]
   },
