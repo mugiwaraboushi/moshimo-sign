@@ -23,6 +23,9 @@
   .chip.wide { flex:1; text-align:center; }
   .swatch { width:34px; height:34px; border-radius:50%; border:2px solid #2c3138; }
   .swatch.on { border-color:#fff; }
+  .picker { position:relative; overflow:hidden; background:conic-gradient(#ff3b30,#ff9c00,#ffe600,#2eff5e,#27e0ff,#3b7bff,#c45bff,#ff3b30); }
+  .picker input { position:absolute; inset:-4px; width:calc(100% + 8px); height:calc(100% + 8px); opacity:0; border:0; padding:0; }
+  .picker.on { background:var(--custom); }
   .out { width:100%; background:#171a1f; border:1px solid #2c3138; border-radius:8px; color:#8a8f98;
     padding:10px; font-size:11px; font-family:ui-monospace,Menlo,Consolas,monospace; word-break:break-all;
     line-height:1.6; min-height:64px; resize:vertical; }
@@ -55,6 +58,7 @@
   </fieldset>
   <fieldset><legend>LEDの色</legend>
     <div class="chips" id="colors"></div>
+    <div class="note">いちばん右の虹色の丸から、好きな色を選べます。</div>
   </fieldset>
   <fieldset><legend>操作</legend>
     <div class="chips">
@@ -109,7 +113,8 @@ const COLORS = ["#ff9c00","#ff3b30","#2eff5e","#27e0ff","#ffffff","#3b7bff"];
 const TOOLS = [{id:"pen", label:"ペン"},{id:"eraser", label:"消しゴム"}];
 const PENS = [{n:1, label:"1ドット"},{n:2, label:"2ドット"},{n:3, label:"3ドット"}];
 
-let S = { size:1, color:0, tool:"pen", pen:2 };
+let S = { size:1, color:0, custom:"", tool:"pen", pen:2 };   // custom は "#rrggbb" (パレットで選んだ色)。空ならCOLORS[color]
+const colorHex = () => S.custom || COLORS[S.color];
 let W = 0, H = 0, fb = null;
 const undoStack = [];
 
@@ -139,7 +144,7 @@ function draw(){
     if (!fb[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.32, 0, 7); ctx.fill(); }
   }
   // 点灯ドット（にじみ＋芯）
-  const col = COLORS[S.color];
+  const col = colorHex();
   ctx.fillStyle = col; ctx.globalAlpha = .25;
   for (let y=0;y<H;y++) for (let x=0;x<W;x++){
     if (fb[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.62, 0, 7); ctx.fill(); }
@@ -227,7 +232,8 @@ function decode(str, w, h){
   return out;
 }
 function syncUrl(){
-  const hash = `#s=${S.size}&c=${S.color}&d=${encode()}`;
+  // c= は色番号 (0〜5) か、パレットで選んだ色の16進6桁
+  const hash = `#s=${S.size}&c=${S.custom ? S.custom.slice(1) : S.color}&d=${encode()}`;
   history.replaceState(null, "", hash);
   document.getElementById("url").value = location.href;
 }
@@ -235,10 +241,11 @@ function loadFromUrl(){
   const m = location.hash.slice(1);
   if (!m) return false;
   const q = new URLSearchParams(m);
-  const si = parseInt(q.get("s"), 10), ci = parseInt(q.get("c"), 10), d = q.get("d");
+  const si = parseInt(q.get("s"), 10), c = q.get("c") || "", d = q.get("d");
   if (!(si >= 0 && si < SIZES.length) || !d) return false;
   setSize(si, false);
-  if (ci >= 0 && ci < COLORS.length) S.color = ci;
+  if (/^\d$/.test(c) && +c < COLORS.length) S.color = +c;
+  else if (/^[0-9a-f]{6}$/i.test(c)) { S.custom = "#" + c.toLowerCase(); S.color = -1; }
   try { fb = decode(d, W, H); } catch(err){ return false; }
   return true;
 }
@@ -260,10 +267,24 @@ function render(){
   chips("pens",  PENS,  ()=>S.pen,  it=>{ S.pen = it.n; });
   chips("sizes", SIZES, ()=>S.size, (_,i)=>{ setSize(i, true); });
   chips("colors", COLORS, ()=>S.color, (_,i)=>{
-    S.color = i;
-    document.documentElement.style.setProperty("--accent", COLORS[i]);
+    S.color = i; S.custom = "";
   });
-  document.documentElement.style.setProperty("--accent", COLORS[S.color]);
+  // パレットから自由に選ぶ丸。選んでいる間は丸がその色になる
+  const pk = document.createElement("label");
+  pk.className = "swatch picker" + (S.custom ? " on" : "");
+  pk.style.setProperty("--custom", S.custom || "#fff");
+  pk.title = "好きな色を選ぶ";
+  pk.innerHTML = `<input type="color" value="${S.custom || COLORS[S.color] || "#ff9c00"}">`;
+  pk.querySelector("input").oninput = e => {
+    S.custom = e.target.value.toLowerCase(); S.color = -1;
+    pk.classList.add("on"); pk.style.setProperty("--custom", S.custom);
+    document.querySelectorAll("#colors .swatch:not(.picker)").forEach(b => b.classList.remove("on"));
+    document.documentElement.style.setProperty("--accent", S.custom);
+    impDraw(); draw();
+  };
+  pk.querySelector("input").onchange = () => render();
+  document.getElementById("colors").appendChild(pk);
+  document.documentElement.style.setProperty("--accent", colorHex());
   updatePlNote();
   impDraw();
   draw(); syncUrl();
@@ -298,7 +319,7 @@ document.getElementById("copy").onclick = async ()=>{
 function playlistEntry(){
   return JSON.stringify({
     d: encode(),
-    color: COLORS[S.color].slice(1).toUpperCase(),
+    color: colorHex().slice(1).toUpperCase(),
     hold: 8
   });
 }
@@ -363,7 +384,7 @@ function impDraw(){
   impCv.width = W*d; impCv.height = H*d;
   impCv.style.width = "100%";
   impCtx.fillStyle = "#000"; impCtx.fillRect(0,0,impCv.width,impCv.height);
-  impCtx.fillStyle = COLORS[S.color];
+  impCtx.fillStyle = colorHex();
   for (let y=0;y<H;y++) for (let x=0;x<W;x++)
     if (IMP.bits[y*W+x]) impCtx.fillRect(x*d+.5, y*d+.5, d-1, d-1);
   chips("impFits", FITS, ()=>IMP.fit, it=>{ IMP.fit = it.id; });
