@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>もしも電光掲示板 塗り分けお絵かき</title>
+<style>
+  :root { --accent:#ff9c00; }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body { margin:0; background:#0d0f12; color:#e8e6e0; font-family:'Hiragino Sans','Noto Sans JP',sans-serif; }
+  .wrap { max-width:720px; margin:0 auto; padding:16px 14px 40px; }
+  h1 { font-size:16px; font-weight:600; letter-spacing:.12em; margin:4px 0 2px; }
+  .sub { font-size:11px; color:#8a8f98; margin-bottom:14px; line-height:1.7; }
+  .panel-frame { background:#000; border-radius:10px; padding:10px; box-shadow:0 0 0 3px #23262b, 0 10px 30px rgba(0,0,0,.6); }
+  canvas { display:block; width:100%; image-rendering:pixelated; touch-action:none; }
+  .meta { display:flex; justify-content:space-between; font-size:11px; color:#6b7280; margin:8px 2px 16px; }
+  fieldset { border:1px solid #22262c; border-radius:10px; margin:0 0 12px; padding:10px 12px 12px; }
+  legend { font-size:11px; color:#8a8f98; padding:0 6px; letter-spacing:.08em; }
+  .chips { display:flex; flex-wrap:wrap; gap:6px; }
+  .chip { background:#171a1f; border:1px solid #2c3138; color:#c9cdd3; border-radius:16px;
+    padding:8px 14px; font-size:12px; }
+  .chip.on { background:var(--accent); color:#000; border-color:var(--accent); font-weight:700; }
+  .chip.wide { flex:1; text-align:center; }
+  .swatch { width:34px; height:34px; border-radius:50%; border:2px solid #2c3138; }
+  .swatch.on { border-color:#fff; }
+  .picker { position:relative; overflow:hidden; background:conic-gradient(#ff3b30,#ff9c00,#ffe600,#2eff5e,#27e0ff,#3b7bff,#c45bff,#ff3b30); }
+  .picker input { position:absolute; inset:-4px; width:calc(100% + 8px); height:calc(100% + 8px); opacity:0; border:0; padding:0; }
+  .picker.on { background:var(--custom); }
+  .out { width:100%; background:#171a1f; border:1px solid #2c3138; border-radius:8px; color:#8a8f98;
+    padding:10px; font-size:11px; font-family:ui-monospace,Menlo,Consolas,monospace; word-break:break-all;
+    line-height:1.6; min-height:64px; resize:vertical; }
+  .note { font-size:11px; color:#6b7280; margin:8px 2px 0; line-height:1.7; }
+  .foot { font-size:10px; color:#4b525b; line-height:1.7; margin-top:22px; }
+  .pick { display:block; position:relative; overflow:hidden; }
+  .pick input { position:absolute; inset:0; opacity:0; width:100%; height:100%; }
+  #impPrev { background:#000; border-radius:8px; margin-top:10px; }
+  .slider { display:flex; align-items:center; gap:10px; font-size:12px; color:#8a8f98; margin-top:10px; }
+  .slider input { flex:1; accent-color:var(--accent); }
+  .note.warn { color:#ff9a8f; }
+  .slider b { color:#c9cdd3; min-width:2.5em; text-align:right; font-weight:600; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>もしも 電光掲示板 塗り分けお絵かき</h1>
+  <div class="sub">色を選んでなぞると、1枚の絵の中で色を塗り分けられます（1枚8色まで）。描いた絵はそのままURLになるので、Discordに貼れば誰でも同じ絵を開けます。1色だけの絵なら <a href="../draw/" style="color:#8a6a2f">お絵かき</a> でも描けます。</div>
+
+  <div class="panel-frame"><canvas id="led"></canvas></div>
+  <div class="meta"><span id="sizeLabel"></span><span id="physLabel"></span></div>
+
+  <fieldset><legend>道具</legend>
+    <div class="chips" id="tools"></div>
+  </fieldset>
+  <fieldset><legend>ペンの太さ</legend>
+    <div class="chips" id="pens"></div>
+  </fieldset>
+  <fieldset><legend>パネル構成</legend>
+    <div class="chips" id="sizes"></div>
+  </fieldset>
+  <fieldset><legend>LEDの色</legend>
+    <div class="chips" id="colors"></div>
+    <div class="note">選んだ色で描けます。いちばん右の虹色の丸から、好きな色を足せます。</div>
+    <div class="note" id="usedNote"></div>
+  </fieldset>
+  <fieldset><legend>操作</legend>
+    <div class="chips">
+      <button class="chip wide" id="undo">ひとつ戻す</button>
+      <button class="chip wide" id="clear">全部消す</button>
+      <button class="chip wide" id="invert">白黒反転</button>
+    </div>
+  </fieldset>
+  <fieldset><legend>写真から取り込み</legend>
+    <label class="chip pick" style="text-align:center">写真を選ぶ・撮る
+      <input type="file" id="impFile" accept="image/*">
+    </label>
+    <div id="impBody" hidden>
+      <canvas id="impPrev"></canvas>
+      <div class="chips" id="impFits" style="margin-top:10px"></div>
+      <div class="slider">明るさのしきい値 <input type="range" id="impTh" min="1" max="254" value="128"> <b id="impThVal">128</b></div>
+      <div class="chips" style="margin-top:10px">
+        <button class="chip wide" id="impInv">反転</button>
+        <button class="chip wide" id="impOver">いまの絵に重ねる</button>
+        <button class="chip wide" id="impLoad">キャンバスに読み込む</button>
+      </div>
+    </div>
+    <div class="note" id="impNote">写真や手描きイラストの撮影を、いまのパネル構成の大きさに縮めて白黒にします。読み込んだあと、ペンと消しゴムで直せます。</div>
+  </fieldset>
+  <fieldset><legend>この絵のURL</legend>
+    <textarea class="out" id="url" readonly rows="3"></textarea>
+    <div class="chips" style="margin-top:8px">
+      <button class="chip wide" id="copy">URLをコピー</button>
+      <button class="chip wide" id="png">PNGで保存</button>
+    </div>
+    <div class="note">このURLを開くと同じ絵が復元されます。実機に出したいときは、このURLをDiscordに貼って「実機に流して」と書いてください。</div>
+    <div class="chips" style="margin-top:10px">
+      <button class="chip wide" id="copyPl">playlist用をコピー</button>
+    </div>
+    <div class="note" id="plNote"></div>
+  </fieldset>
+
+  <div class="foot">
+    実機想定: P4ピッチ HUB75パネル（64×32 = 256mm×128mm）を ESP32-HUB75-MatrixPanel-DMA で駆動<br>
+    塗り分けた絵は、色ごとの1bitの絵（layers）として実機に渡します。ファームウェア v20 から。
+  </div>
+</div>
+
+<script>
+// prototypes/draw/ の塗り分け版。1ドットごとに色を持てる (1枚8色まで)。
+// 実機に出すときは「色ごとの1bitの絵」に分けて frames[].layers にする (v20〜、docs/playlist-spec.md)。
+// いちばん多く使った色が下地 (d/color) になるので、v19 以前の実機ではその色だけの絵として出る。
+
+// ---- 定数 ----
+const SIZES = [
+  {w:64,  h:16, label:"64×16（1枚・小）",  phys:"実寸目安 256×64mm (P4)"},
+  {w:64,  h:32, label:"64×32（1枚）",      phys:"実寸目安 256×128mm (P4)"},
+  {w:128, h:32, label:"128×32（横2枚）",   phys:"実寸目安 512×128mm (P4)"},
+  {w:192, h:32, label:"192×32（横3枚）",   phys:"実寸目安 768×128mm (P4)"},
+];
+const PRESETS = ["#ff9c00","#ff3b30","#2eff5e","#27e0ff","#ffffff","#3b7bff"];
+const TOOLS = [{id:"pen", label:"ペン"},{id:"eraser", label:"消しゴム"},{id:"fill", label:"塗りつぶし"}];
+const PENS = [{n:1, label:"1ドット"},{n:2, label:"2ドット"},{n:3, label:"3ドット"}];
+const MAX_COLORS = 8;                 // 実機は下地+重ね7枚 = 1枚8色まで
+
+// PAL は使える色の一覧。fb の値は 0=消灯、それ以外は PAL の番号+1
+let PAL = PRESETS.slice();
+let S = { size:1, color:0, tool:"pen", pen:2 };
+const colorHex = () => PAL[S.color];
+let W = 0, H = 0, fb = null;
+const undoStack = [];
+
+// ---- キャンバス ----
+const cv = document.getElementById("led"), ctx = cv.getContext("2d");
+const DOT = 10; // 論理ドット描画px
+
+function setSize(i, keep){
+  const old = fb, ow = W, oh = H;
+  S.size = i;
+  W = SIZES[i].w; H = SIZES[i].h;
+  fb = new Uint8Array(W*H);
+  if (keep && old){ // 左上を基準に描いた絵を引き継ぐ
+    for (let y=0;y<Math.min(oh,H);y++)
+      for (let x=0;x<Math.min(ow,W);x++) fb[y*W+x] = old[y*ow+x];
+  }
+  cv.width = W*DOT; cv.height = H*DOT;
+  document.getElementById("sizeLabel").textContent = `${W}×${H} dot`;
+  document.getElementById("physLabel").textContent = SIZES[i].phys;
+}
+
+function draw(){
+  ctx.fillStyle = "#000"; ctx.fillRect(0,0,cv.width,cv.height);
+  ctx.fillStyle = "#15171a";
+  for (let y=0;y<H;y++) for (let x=0;x<W;x++){
+    if (!fb[y*W+x]){ ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*.32, 0, 7); ctx.fill(); }
+  }
+  // 点灯ドット（にじみ＋芯）。色ごとにまとめて塗る
+  for (const pass of [[.25, .62], [1, .38]]){
+    ctx.globalAlpha = pass[0];
+    for (let y=0;y<H;y++) for (let x=0;x<W;x++){
+      const v = fb[y*W+x];
+      if (!v) continue;
+      ctx.fillStyle = PAL[v-1];
+      ctx.beginPath(); ctx.arc(x*DOT+DOT/2, y*DOT+DOT/2, DOT*pass[1], 0, 7); ctx.fill();
+    }
+  }
+  ctx.globalAlpha = 1;
+  updateUsed();
+}
+
+// ---- 描画操作 ----
+function dot(x, y, v){
+  const r = S.pen - 1;
+  for (let dy=-r; dy<=r; dy++) for (let dx=-r; dx<=r; dx++){
+    if (r === 2 && Math.abs(dx) === 2 && Math.abs(dy) === 2) continue; // 3ドットは角を落として丸く
+    const px = x+dx, py = y+dy;
+    if (px<0||px>=W||py<0||py>=H) continue;
+    fb[py*W+px] = v;
+  }
+}
+function line(x0, y0, x1, y1, v){ // 速く動かしても途切れないように補間
+  let dx = Math.abs(x1-x0), dy = Math.abs(y1-y0);
+  const sx = x0<x1?1:-1, sy = y0<y1?1:-1;
+  let err = dx-dy;
+  for(;;){
+    dot(x0, y0, v);
+    if (x0===x1 && y0===y1) break;
+    const e2 = 2*err;
+    if (e2 > -dy){ err -= dy; x0 += sx; }
+    if (e2 < dx){ err += dx; y0 += sy; }
+  }
+}
+// 同じ色でつながっているところを塗る (上下左右)
+function fill(x, y, v){
+  if (x<0||x>=W||y<0||y>=H) return;
+  const from = fb[y*W+x];
+  if (from === v) return;
+  const st = [y*W+x];
+  while (st.length){
+    const i = st.pop();
+    if (fb[i] !== from) continue;
+    fb[i] = v;
+    const px = i % W, py = (i / W) | 0;
+    if (px > 0) st.push(i-1);
+    if (px < W-1) st.push(i+1);
+    if (py > 0) st.push(i-W);
+    if (py < H-1) st.push(i+W);
+  }
+}
+function pushUndo(){
+  undoStack.push({ fb: fb.slice(), pal: PAL.slice() });
+  if (undoStack.length > 30) undoStack.shift();
+}
+const penValue = () => S.tool === "eraser" ? 0 : S.color + 1;
+
+let drawing = false, lastX = 0, lastY = 0;
+function pos(e){
+  const r = cv.getBoundingClientRect();
+  return {
+    x: Math.floor((e.clientX - r.left) / r.width  * W),
+    y: Math.floor((e.clientY - r.top)  / r.height * H),
+  };
+}
+cv.addEventListener("pointerdown", e=>{
+  e.preventDefault();
+  pushUndo();
+  const p = pos(e);
+  if (S.tool === "fill"){ fill(p.x, p.y, S.color + 1); draw(); syncUrl(); return; }
+  cv.setPointerCapture(e.pointerId);
+  drawing = true;
+  lastX = p.x; lastY = p.y;
+  dot(p.x, p.y, penValue());
+  draw(); syncUrl();
+});
+cv.addEventListener("pointermove", e=>{
+  if (!drawing) return;
+  e.preventDefault();
+  const p = pos(e);
+  if (p.x === lastX && p.y === lastY) return;
+  line(lastX, lastY, p.x, p.y, penValue());
+  lastX = p.x; lastY = p.y;
+  draw();
+});
+function endStroke(){ if (!drawing) return; drawing = false; syncUrl(); }
+cv.addEventListener("pointerup", endStroke);
+cv.addEventListener("pointercancel", endStroke);
+cv.addEventListener("pointerleave", endStroke);
+
+// ---- 色ごとの1bitの絵 (prototypes/draw/ と同じ形式: 行優先・MSBが左・base64url) ----
+function encodeBits(pred){
+  const bytes = new Uint8Array(Math.ceil(W*H/8));
+  for (let i=0;i<W*H;i++) if (pred(fb[i])) bytes[i>>3] |= 0x80 >> (i&7);
+  let s = "";
+  for (const b of bytes) s += String.fromCharCode(b);
+  return btoa(s).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");
+}
+function decodeBits(str, w, h){
+  const bin = atob(str.replace(/-/g,"+").replace(/_/g,"/"));
+  const out = new Uint8Array(w*h);
+  for (let i=0;i<w*h;i++){
+    const byte = bin.charCodeAt(i>>3);
+    if (!isNaN(byte) && (byte & (0x80 >> (i&7)))) out[i] = 1;
+  }
+  return out;
+}
+// 使っている色を、多い順に [{v, hex, n}] で返す (先頭が下地になる)
+function usedColors(){
+  const cnt = new Map();
+  for (const v of fb) if (v) cnt.set(v, (cnt.get(v) || 0) + 1);
+  return [...cnt].sort((a, b) => b[1] - a[1]).map(([v, n]) => ({ v, hex: PAL[v-1], n }));
+}
+// URL: #s=サイズ&p=色1.色2…&d=絵1.絵2…  (色と絵は同じ並び。色は16進6桁)
+function syncUrl(){
+  const used = usedColors();
+  const p = used.map(u => u.hex.slice(1)).join(".");
+  const d = used.map(u => encodeBits(x => x === u.v)).join(".");
+  history.replaceState(null, "", `#s=${S.size}&p=${p}&d=${d}`);
+  document.getElementById("url").value = location.href;
+}
+function addColor(hex){
+  hex = hex.toLowerCase();
+  let i = PAL.indexOf(hex);
+  if (i < 0){ PAL.push(hex); i = PAL.length - 1; }
+  return i;
+}
+function loadFromUrl(){
+  const m = location.hash.slice(1);
+  if (!m) return false;
+  const q = new URLSearchParams(m);
+  const si = parseInt(q.get("s"), 10), d = q.get("d");
+  if (!(si >= 0 && si < SIZES.length) || !d) return false;
+  setSize(si, false);
+  try {
+    if (q.get("p") != null){
+      const cols = q.get("p").split(".").filter(Boolean), ds = d.split(".");
+      cols.forEach((c, k) => {
+        if (!/^[0-9a-f]{6}$/i.test(c) || !ds[k]) return;
+        const v = addColor("#" + c) + 1, bits = decodeBits(ds[k], W, H);
+        for (let i=0;i<W*H;i++) if (bits[i]) fb[i] = v;
+      });
+    } else {
+      // prototypes/draw/ の1色のURL (c=色番号 か 16進) もそのまま開ける
+      const c = q.get("c") || "0";
+      const hex = /^[0-9a-f]{6}$/i.test(c) ? "#" + c : PRESETS[+c] || PRESETS[0];
+      const v = addColor(hex) + 1, bits = decodeBits(d, W, H);
+      for (let i=0;i<W*H;i++) if (bits[i]) fb[i] = v;
+    }
+  } catch(err){ return false; }
+  return true;
+}
+
+// ---- UI ----
+function chips(elId, items, get, set){
+  const el = document.getElementById(elId);
+  el.innerHTML = "";
+  items.forEach((it, i)=>{
+    const b = document.createElement("button");
+    if (elId === "colors"){ b.className = "swatch"+(get()===i?" on":""); b.style.background = it; }
+    else { b.className = "chip"+(get()===i||get()===it.id||get()===it.n?" on":""); b.textContent = it.label; }
+    b.onclick = ()=>{ set(it, i); render(); };
+    el.appendChild(b);
+  });
+}
+function render(){
+  chips("tools", TOOLS, ()=>S.tool, it=>{ S.tool = it.id; });
+  chips("pens",  PENS,  ()=>S.pen,  it=>{ S.pen = it.n; });
+  chips("sizes", SIZES, ()=>S.size, (_,i)=>{ setSize(i, true); });
+  chips("colors", PAL, ()=>S.color, (_,i)=>{
+    S.color = i;
+    if (S.tool === "eraser") S.tool = "pen";   // 色を選んだら描けるようにする
+  });
+  // パレットから自由に選ぶ丸。選んだ色は一覧に足される
+  const pk = document.createElement("label");
+  pk.className = "swatch picker";
+  pk.title = "好きな色を選ぶ";
+  pk.innerHTML = `<input type="color" value="${colorHex()}">`;
+  pk.querySelector("input").onchange = e => {
+    S.color = addColor(e.target.value);
+    if (S.tool === "eraser") S.tool = "pen";
+    render();
+  };
+  document.getElementById("colors").appendChild(pk);
+  document.documentElement.style.setProperty("--accent", colorHex());
+  updatePlNote();
+  impDraw();
+  draw(); syncUrl();
+}
+// いま絵に使っている色の数 (実機は8色まで)
+function updateUsed(){
+  const n = usedColors().length;
+  const el = document.getElementById("usedNote");
+  el.className = "note" + (n > MAX_COLORS ? " warn" : "");
+  el.textContent = n > MAX_COLORS
+    ? `いま ${n} 色使っています。実機は1枚 ${MAX_COLORS} 色までなので、少ない色から ${n - MAX_COLORS} 色ぶんは出ません。`
+    : `いま ${n} 色使っています（実機は1枚 ${MAX_COLORS} 色まで）。`;
+}
+
+document.getElementById("undo").onclick = ()=>{
+  const prev = undoStack.pop();
+  if (prev && prev.fb.length === fb.length){ fb = prev.fb; PAL = prev.pal; if (S.color >= PAL.length) S.color = 0; }
+  render();
+};
+document.getElementById("clear").onclick = ()=>{
+  pushUndo(); fb.fill(0); draw(); syncUrl();
+};
+// 反転: 消えているところをいまの色で光らせ、光っているところを消す
+document.getElementById("invert").onclick = ()=>{
+  pushUndo();
+  for (let i=0;i<fb.length;i++) fb[i] = fb[i] ? 0 : S.color + 1;
+  draw(); syncUrl();
+};
+document.getElementById("copy").onclick = async ()=>{
+  const btn = document.getElementById("copy");
+  try {
+    await navigator.clipboard.writeText(location.href);
+    btn.textContent = "コピーしました";
+  } catch(e){
+    const t = document.getElementById("url");
+    t.select(); t.setSelectionRange(0, 99999);
+    btn.textContent = "長押しでコピーしてください";
+  }
+  setTimeout(()=>{ btn.textContent = "URLをコピー"; }, 1800);
+};
+// ---- playlist.json の frames に貼る1枚分 (仕様: docs/playlist-spec.md の layers) ----
+// いちばん多い色が下地 (d/color)、残りを layers に入れる。1色だけなら layers は付けない
+function playlistEntry(){
+  const used = usedColors().slice(0, MAX_COLORS);
+  const hex = u => u.hex.slice(1).toUpperCase();
+  if (!used.length) return JSON.stringify({ d: encodeBits(() => false), color: hex({hex: colorHex()}), hold: 8 });
+  const e = { d: encodeBits(x => x === used[0].v), color: hex(used[0]), hold: 8 };
+  if (used.length > 1) e.layers = used.slice(1).map(u => ({ d: encodeBits(x => x === u.v), color: hex(u) }));
+  return JSON.stringify(e);
+}
+function updatePlNote(){
+  const ok = S.size === 1;                 // 実機のframesは64×32のみ対応
+  const btn = document.getElementById("copyPl");
+  btn.disabled = !ok;
+  btn.style.opacity = ok ? "" : ".45";
+  document.getElementById("plNote").textContent = ok
+    ? 'frames の1枚分をコピーします。塗り分けた色は layers に入ります（ファームウェア v20 から。v19 以前の実機では、いちばん多い色だけの絵として出ます）。'
+    : "実機のドット絵は「64×32（1枚）」のみ対応です。パネル構成を切り替えると使えます。";
+}
+document.getElementById("copyPl").onclick = async ()=>{
+  const btn = document.getElementById("copyPl");
+  const text = playlistEntry();
+  try {
+    await navigator.clipboard.writeText(text);
+    btn.textContent = "コピーしました";
+  } catch(e){
+    document.getElementById("url").value = text;   // クリップボードが使えないときは出力欄に出す
+    btn.textContent = "上の欄からコピーしてください";
+  }
+  setTimeout(()=>{ btn.textContent = "playlist用をコピー"; }, 1800);
+};
+
+// ---- 写真から取り込み ----
+// 画像をいまの W×H に縮めて、明るさのしきい値で2値化し、光るところをいまの色で描く。
+// 既定は「しきい値より暗いところが光る」(白い紙に描いた線をそのまま光らせるため)。
+// 「重ねる」にすると、いまの絵は残したまま光るところだけ上から描く (色ごとに取り込める)。
+const IMP = { img:null, th:128, inv:false, fit:"contain", over:false, bits:null };
+const FITS = [{id:"contain", label:"全体を収める"}, {id:"cover", label:"枠いっぱい"}];
+const impCv = document.getElementById("impPrev"), impCtx = impCv.getContext("2d");
+
+function impCompute(){
+  // 大きな写真をいきなり64×32に縮めると線が消えるので、8倍の大きさを経由して縮める
+  const w = W, h = H, k = 8;
+  const mid = document.createElement("canvas"); mid.width = w*k; mid.height = h*k;
+  const mc = mid.getContext("2d");
+  mc.imageSmoothingQuality = "high";
+  const iw = IMP.img.naturalWidth, ih = IMP.img.naturalHeight;
+  const sc = (IMP.fit === "cover" ? Math.max : Math.min)(w*k/iw, h*k/ih);
+  const dw = iw*sc, dh = ih*sc;
+  mc.drawImage(IMP.img, (w*k-dw)/2, (h*k-dh)/2, dw, dh);
+  const sm = document.createElement("canvas"); sm.width = w; sm.height = h;
+  const sc2 = sm.getContext("2d");
+  sc2.imageSmoothingQuality = "high";
+  sc2.drawImage(mid, 0, 0, w, h);
+  const px = sc2.getImageData(0, 0, w, h).data;
+  const bits = new Uint8Array(w*h);
+  for (let i=0;i<w*h;i++){
+    const a = px[i*4+3];
+    if (a < 128) continue;                 // 余白 (画像の外) は消灯のまま
+    const lum = 0.299*px[i*4] + 0.587*px[i*4+1] + 0.114*px[i*4+2];
+    bits[i] = ((lum < IMP.th) !== IMP.inv) ? 1 : 0;
+  }
+  IMP.bits = bits;
+}
+function impDraw(){
+  if (!IMP.img) return;
+  impCompute();
+  const d = 6;
+  impCv.width = W*d; impCv.height = H*d;
+  impCv.style.width = "100%";
+  impCtx.fillStyle = "#000"; impCtx.fillRect(0,0,impCv.width,impCv.height);
+  impCtx.fillStyle = colorHex();
+  for (let y=0;y<H;y++) for (let x=0;x<W;x++)
+    if (IMP.bits[y*W+x]) impCtx.fillRect(x*d+.5, y*d+.5, d-1, d-1);
+  chips("impFits", FITS, ()=>IMP.fit, it=>{ IMP.fit = it.id; });
+  document.getElementById("impInv").classList.toggle("on", IMP.inv);
+  document.getElementById("impOver").classList.toggle("on", IMP.over);
+}
+document.getElementById("impFile").onchange = e => {
+  const file = e.target.files && e.target.files[0];
+  if (!file) return;
+  const url = URL.createObjectURL(file);
+  const img = new Image();
+  img.onload = () => {
+    IMP.img = img;
+    document.getElementById("impBody").hidden = false;
+    document.getElementById("impNote").textContent = "しきい値を動かして、残したい線が光るところに合わせてください。暗いところが光ります（反転で逆）。光るところはいま選んでいる色になります。";
+    impDraw();
+  };
+  img.onerror = () => { document.getElementById("impNote").textContent = "この画像は読み込めませんでした。JPEG か PNG で試してください。"; };
+  img.src = url;
+  e.target.value = "";                     // 同じ写真をもう一度選んでも反応するように
+};
+document.getElementById("impTh").oninput = e => {
+  IMP.th = +e.target.value;
+  document.getElementById("impThVal").textContent = IMP.th;
+  impDraw();
+};
+document.getElementById("impInv").onclick = () => { IMP.inv = !IMP.inv; impDraw(); };
+document.getElementById("impOver").onclick = () => { IMP.over = !IMP.over; impDraw(); };
+document.getElementById("impLoad").onclick = () => {
+  if (!IMP.img) return;
+  impCompute();
+  pushUndo();                              // 「ひとつ戻す」で取り込む前に戻れる
+  const v = S.color + 1;
+  for (let i=0;i<fb.length;i++){
+    if (IMP.bits[i]) fb[i] = v;
+    else if (!IMP.over) fb[i] = 0;
+  }
+  draw(); syncUrl();
+  const btn = document.getElementById("impLoad");
+  btn.textContent = "読み込みました";
+  setTimeout(()=>{ btn.textContent = "キャンバスに読み込む"; }, 1500);
+};
+
+document.getElementById("png").onclick = ()=>{
+  const a = document.createElement("a");
+  a.href = cv.toDataURL("image/png");
+  a.download = "moshimo-sign.png";
+  a.click();
+};
+
+// ---- 起動 ----
+if (!loadFromUrl()) setSize(1, false);
+render();
+</script>
+</body>
+</html>
