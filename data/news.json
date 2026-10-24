@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T16:06:21.077Z",
+ "updatedAt": "2026-10-24T18:52:06.195Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -15,7 +15,7 @@
     {
      "title": "日本シリーズ ソフトバンク延長制し先勝 庄子が決勝打【詳報】",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64830",
-     "pubDate": "Sun, 25 Oct 2026 00:09:54 +0900"
+     "pubDate": "Sun, 25 Oct 2026 02:37:00 +0900"
     },
     {
      "title": "神奈川 秦野の弘法山公園近くでクマ再出没 放獣個体と判明",
