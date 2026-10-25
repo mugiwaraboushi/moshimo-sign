@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T11:49:11.544Z",
+ "updatedAt": "2026-10-25T15:06:41.183Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【台風30号情報】前線の活動活発に 西・東日本で大雨のおそれ",
+     "title": "台風30号は温帯低気圧に 西～東日本で大雨のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64932",
-     "pubDate": "Sun, 25 Oct 2026 19:07:00 +0900"
+     "pubDate": "Sun, 25 Oct 2026 22:47:39 +0900"
     },
     {
-     "title": "【速報中】日本シリーズ ソフトバンク 庄子の適時打で追加点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65213",
-     "pubDate": "Sun, 25 Oct 2026 20:32:48 +0900"
-    },
-    {
-     "title": "【速報】新潟市長選挙 現職の中原八一氏 3回目の当選確実",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65104",
-     "pubDate": "Sun, 25 Oct 2026 20:44:51 +0900"
-    },
-    {
-     "title": "【速報】那覇市長選挙 現職の知念覚氏 2回目の当選確実",
+     "title": "那覇市長選挙 現職の知念覚氏 2回目の当選",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65105",
-     "pubDate": "Sun, 25 Oct 2026 20:01:00 +0900"
+     "pubDate": "Sun, 25 Oct 2026 23:06:16 +0900"
     },
     {
-     "title": "【速報】福島県知事選挙 出口調査の結果は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65085",
-     "pubDate": "Sun, 25 Oct 2026 20:33:23 +0900"
+     "title": "ソフトバンクが2試合続けて延長制す 川村が決勝HR【詳報】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65213",
+     "pubDate": "Mon, 26 Oct 2026 00:04:19 +0900"
     },
     {
-     "title": "福島県知事選挙 現職の内堀雅雄氏が4回目の当選確実【速報】",
+     "title": "福島県知事選挙 現職の内堀雅雄氏が4回目の当選",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65086",
-     "pubDate": "Sun, 25 Oct 2026 20:40:05 +0900"
+     "pubDate": "Sun, 25 Oct 2026 22:13:55 +0900"
     },
     {
-     "title": "那覇 女性強盗殺人事件 米海兵隊員を起訴",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65279",
-     "pubDate": "Sun, 25 Oct 2026 20:34:00 +0900"
+     "title": "福島県知事選挙 2026 出口調査の結果は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65085",
+     "pubDate": "Sun, 25 Oct 2026 20:33:00 +0900"
+    },
+    {
+     "title": "新潟市長選挙 現職の中原八一氏 3回目の当選",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65104",
+     "pubDate": "Sun, 25 Oct 2026 23:07:40 +0900"
+    },
+    {
+     "title": "GMO社長 能動的サイバー防御「国民生活への影響照らし検討を」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65362",
+     "pubDate": "Sun, 25 Oct 2026 22:07:00 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "長崎 漁港で男性死亡 台風に備え船を見に行ったか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65387",
+     "pubDate": "Sun, 25 Oct 2026 23:59:13 +0900"
+    },
     {
      "title": "那覇 女性強盗殺人事件 米海兵隊員を起訴",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65279",
@@ -118,11 +123,6 @@
      "title": "改正皇室典範 きょう施行",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64625",
      "pubDate": "Sat, 24 Oct 2026 05:00:00 +0900"
-    },
-    {
-     "title": "環境省 最大2万2000件漏えいか ブラストメールに不正アクセス",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64630",
-     "pubDate": "Sat, 24 Oct 2026 02:00:19 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ブラジル大統領選挙 決選投票始まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65338",
+     "pubDate": "Sun, 25 Oct 2026 22:36:00 +0900"
+    },
+    {
      "title": "ゼレンスキー氏“通信は復旧” マスク氏“利用規約に違反”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65295",
      "pubDate": "Sun, 25 Oct 2026 19:24:00 +0900"
@@ -282,11 +287,6 @@
      "title": "ペルーのケイコ・フジモリ大統領初来日へ 高市首相と会談調整",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64758",
      "pubDate": "Sat, 24 Oct 2026 14:25:00 +0900"
-    },
-    {
-     "title": "ネタニヤフ首相「ヘブロンを封鎖」イスラエル総選挙控え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64641",
-     "pubDate": "Sat, 24 Oct 2026 11:07:49 +0900"
     }
    ]
   },
@@ -296,14 +296,19 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "内閣支持率45%で横ばい 毎日調査",
-     "link": "https://news.yahoo.co.jp/pickup/6600099?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 11:05:46 GMT"
+     "title": "台風30号は温帯低気圧に 大雨警戒",
+     "link": "https://news.yahoo.co.jp/pickup/6600115?source=rss",
+     "pubDate": "Sun, 25 Oct 2026 13:45:25 GMT"
     },
     {
-     "title": "那覇市長選 現職知念氏が再選確実",
-     "link": "https://news.yahoo.co.jp/pickup/6600101?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 11:17:28 GMT"
+     "title": "不正アクセス GMO代表が謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6600119?source=rss",
+     "pubDate": "Sun, 25 Oct 2026 14:05:35 GMT"
+    },
+    {
+     "title": "AI投資に巨額マネー 実態と展望",
+     "link": "https://news.yahoo.co.jp/pickup/6600116?source=rss",
+     "pubDate": "Sun, 25 Oct 2026 13:45:23 GMT"
     },
     {
      "title": "イオン爆発犠牲者7人 南側で発見",
@@ -316,19 +321,14 @@
      "pubDate": "Sun, 25 Oct 2026 10:03:42 GMT"
     },
     {
-     "title": "NY大司教区 性的虐待で和解合意",
-     "link": "https://news.yahoo.co.jp/pickup/6600082?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 09:23:57 GMT"
+     "title": "事故で脚切断 25歳諦めていた恋愛",
+     "link": "https://news.yahoo.co.jp/pickup/6600106?source=rss",
+     "pubDate": "Sun, 25 Oct 2026 12:17:50 GMT"
     },
     {
-     "title": "速報・日本S第2戦 DeNA対SB",
-     "link": "https://news.yahoo.co.jp/pickup/6600094?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 10:24:56 GMT"
-    },
-    {
-     "title": "G浅野を自由契約 育成契約打診か",
-     "link": "https://news.yahoo.co.jp/pickup/6600070?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 07:51:28 GMT"
+     "title": "伊東純也 ゴールの内側からゴール",
+     "link": "https://news.yahoo.co.jp/pickup/6600123?source=rss",
+     "pubDate": "Sun, 25 Oct 2026 14:44:26 GMT"
     },
     {
      "title": "今田美桜 公式FC閉鎖の理由説明",
