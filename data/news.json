@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T21:01:45.983Z",
+ "updatedAt": "2026-10-25T23:22:09.958Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,12 +10,17 @@
     {
      "title": "台風30号は温帯低気圧に 西～東日本で非常に激しい雨のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65420",
-     "pubDate": "Mon, 26 Oct 2026 05:53:47 +0900"
+     "pubDate": "Mon, 26 Oct 2026 06:58:00 +0900"
     },
     {
-     "title": "消費税減税法案 与党 通過時期探る 野党 支援金対象明示を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65353",
-     "pubDate": "Mon, 26 Oct 2026 05:46:47 +0900"
+     "title": "ブラジル大統領選挙 決選投票 全土で2時間延長後に終了",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65416",
+     "pubDate": "Mon, 26 Oct 2026 07:10:03 +0900"
+    },
+    {
+     "title": "大相撲九州場所 番付発表 33歳の美ノ海が新三役",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65392",
+     "pubDate": "Mon, 26 Oct 2026 06:04:32 +0900"
     },
     {
      "title": "ソフトバンクが2試合続けて延長制す 川村が決勝HR【詳報】",
@@ -28,19 +33,14 @@
      "pubDate": "Mon, 26 Oct 2026 05:49:10 +0900"
     },
     {
+     "title": "消費税減税法案 与党 通過時期探る 野党 支援金対象明示を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65353",
+     "pubDate": "Mon, 26 Oct 2026 05:46:47 +0900"
+    },
+    {
      "title": "福島県知事選挙 現職の内堀雅雄氏が4回目の当選",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65086",
      "pubDate": "Mon, 26 Oct 2026 05:16:20 +0900"
-    },
-    {
-     "title": "中国共産党の重要会議「五中全会」26日から開催",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65418",
-     "pubDate": "Mon, 26 Oct 2026 05:37:49 +0900"
-    },
-    {
-     "title": "マラソン競歩 川野将虎が世界新記録で優勝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65141",
-     "pubDate": "Sun, 25 Oct 2026 23:00:04 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（10月26日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65309",
+     "pubDate": "Mon, 26 Oct 2026 06:46:10 +0900"
+    },
     {
      "title": "長崎 漁港で男性死亡 台風に備え船を見に行ったか",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65387",
@@ -118,11 +123,6 @@
      "title": "国際業務に特化した初の巡視船「ふじ」12月に就役",
      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64611",
      "pubDate": "Sat, 24 Oct 2026 05:40:00 +0900"
-    },
-    {
-     "title": "改正皇室典範 きょう施行",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64625",
-     "pubDate": "Sat, 24 Oct 2026 05:00:00 +0900"
     }
    ]
   },
@@ -214,6 +214,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ブラジル大統領選挙 決選投票 全土で2時間延長後に終了",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65416",
+     "pubDate": "Mon, 26 Oct 2026 07:10:03 +0900"
+    },
+    {
+     "title": "フーシ派がサウジアラビアへの攻撃主張 原油価格への影響懸念",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65417",
+     "pubDate": "Mon, 26 Oct 2026 06:22:26 +0900"
+    },
+    {
+     "title": "ネパール土石流2か月 国際社会の支援も得て生活再建へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65413",
+     "pubDate": "Mon, 26 Oct 2026 06:11:18 +0900"
+    },
+    {
      "title": "あすイスラエル総選挙 ネタニヤフ首相政権維持できるか焦点",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65348",
      "pubDate": "Mon, 26 Oct 2026 05:49:10 +0900"
@@ -272,21 +287,6 @@
      "title": "【詳細】ロシア ウクライナに軍事侵攻（10月24日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53357",
      "pubDate": "Sun, 25 Oct 2026 00:23:44 +0900"
-    },
-    {
-     "title": "“北朝鮮 キム総書記が中国訪問”中国国営メディアが報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64810",
-     "pubDate": "Sat, 24 Oct 2026 21:31:16 +0900"
-    },
-    {
-     "title": "イランが米政府職員殺害を計画か 米情報機関が警告",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64782",
-     "pubDate": "Sat, 24 Oct 2026 15:23:00 +0900"
-    },
-    {
-     "title": "米国防総省 「孔子学院」を“安全保障上の脅威”と認定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64774",
-     "pubDate": "Sat, 24 Oct 2026 15:21:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "台風30号は温帯低気圧に 大雨警戒",
-     "link": "https://news.yahoo.co.jp/pickup/6600115?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 13:45:25 GMT"
+     "title": "関東-九州激しい雨 夜にピークも",
+     "link": "https://news.yahoo.co.jp/pickup/6600128?source=rss",
+     "pubDate": "Sun, 25 Oct 2026 21:45:08 GMT"
     },
     {
-     "title": "不正アクセス GMO代表が謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6600119?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 14:05:35 GMT"
+     "title": "男性死亡 台風接近前に船を見に",
+     "link": "https://news.yahoo.co.jp/pickup/6600133?source=rss",
+     "pubDate": "Sun, 25 Oct 2026 22:36:09 GMT"
     },
     {
-     "title": "AI投資に巨額マネー 実態と展望",
-     "link": "https://news.yahoo.co.jp/pickup/6600116?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 13:45:23 GMT"
+     "title": "女性殺害 米兵関与一部ほのめかす",
+     "link": "https://news.yahoo.co.jp/pickup/6600136?source=rss",
+     "pubDate": "Sun, 25 Oct 2026 22:57:27 GMT"
     },
     {
-     "title": "イオン爆発犠牲者7人 南側で発見",
-     "link": "https://news.yahoo.co.jp/pickup/6600100?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 11:11:59 GMT"
+     "title": "和菓子店主殺害 逮捕知り遺族号泣",
+     "link": "https://news.yahoo.co.jp/pickup/6600132?source=rss",
+     "pubDate": "Sun, 25 Oct 2026 22:26:53 GMT"
     },
     {
-     "title": "2家族8人乗る車横転 20代の母死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6600091?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 10:03:42 GMT"
+     "title": "チャイルドシートの義務拡大 検討",
+     "link": "https://news.yahoo.co.jp/pickup/6600127?source=rss",
+     "pubDate": "Sun, 25 Oct 2026 21:26:47 GMT"
     },
     {
-     "title": "事故で脚切断 25歳諦めていた恋愛",
-     "link": "https://news.yahoo.co.jp/pickup/6600106?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 12:17:50 GMT"
+     "title": "コニカミノルタ「社内副業」狙い",
+     "link": "https://news.yahoo.co.jp/pickup/6600138?source=rss",
+     "pubDate": "Sun, 25 Oct 2026 23:02:18 GMT"
     },
     {
-     "title": "伊東純也 ゴールの内側からゴール",
-     "link": "https://news.yahoo.co.jp/pickup/6600123?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 14:44:26 GMT"
+     "title": "ソフトバンク秋広優人 来季構想外",
+     "link": "https://news.yahoo.co.jp/pickup/6600135?source=rss",
+     "pubDate": "Sun, 25 Oct 2026 22:34:58 GMT"
     },
     {
-     "title": "今田美桜 公式FC閉鎖の理由説明",
-     "link": "https://news.yahoo.co.jp/pickup/6600090?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 10:19:56 GMT"
+     "title": "VIVANTにダイアン津田登場 話題",
+     "link": "https://news.yahoo.co.jp/pickup/6600137?source=rss",
+     "pubDate": "Sun, 25 Oct 2026 22:49:27 GMT"
     }
    ]
   }
