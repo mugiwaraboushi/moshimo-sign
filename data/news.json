@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T15:06:41.183Z",
+ "updatedAt": "2026-10-25T18:28:00.102Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,19 +13,19 @@
      "pubDate": "Sun, 25 Oct 2026 22:47:39 +0900"
     },
     {
-     "title": "那覇市長選挙 現職の知念覚氏 2回目の当選",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65105",
-     "pubDate": "Sun, 25 Oct 2026 23:06:16 +0900"
-    },
-    {
      "title": "ソフトバンクが2試合続けて延長制す 川村が決勝HR【詳報】",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65213",
-     "pubDate": "Mon, 26 Oct 2026 00:04:19 +0900"
+     "pubDate": "Mon, 26 Oct 2026 01:59:00 +0900"
+    },
+    {
+     "title": "体操世界選手権 種目別鉄棒で岡慎之助が銀メダル",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65415",
+     "pubDate": "Mon, 26 Oct 2026 02:29:04 +0900"
     },
     {
      "title": "福島県知事選挙 現職の内堀雅雄氏が4回目の当選",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65086",
-     "pubDate": "Sun, 25 Oct 2026 22:13:55 +0900"
+     "pubDate": "Mon, 26 Oct 2026 00:27:49 +0900"
     },
     {
      "title": "福島県知事選挙 2026 出口調査の結果は",
@@ -35,12 +35,12 @@
     {
      "title": "新潟市長選挙 現職の中原八一氏 3回目の当選",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65104",
-     "pubDate": "Sun, 25 Oct 2026 23:07:40 +0900"
+     "pubDate": "Mon, 26 Oct 2026 01:02:28 +0900"
     },
     {
-     "title": "GMO社長 能動的サイバー防御「国民生活への影響照らし検討を」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65362",
-     "pubDate": "Sun, 25 Oct 2026 22:07:00 +0900"
+     "title": "那覇市長選挙 現職の知念覚氏 2回目の当選",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65105",
+     "pubDate": "Mon, 26 Oct 2026 01:14:15 +0900"
     }
    ]
   },
