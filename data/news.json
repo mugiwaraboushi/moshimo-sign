@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T23:26:16.549Z",
+ "updatedAt": "2026-10-25T01:21:22.300Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【最新情報】台風30号九州に接近へ 広範囲で大雨おそれ",
+     "title": "【最新情報】台風30号 九州に接近へ 東・西日本で大雨のおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64932",
-     "pubDate": "Sun, 25 Oct 2026 07:29:00 +0900"
+     "pubDate": "Sun, 25 Oct 2026 10:05:09 +0900"
+    },
+    {
+     "title": "【地震速報】熊本 宮崎 鹿児島で震度3 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64916",
+     "pubDate": "Sun, 25 Oct 2026 09:28:16 +0900"
     },
     {
      "title": "政府に緊急要請のGMO 被害拡大防げるか 利用者に呼びかけ強化",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64946",
-     "pubDate": "Sun, 25 Oct 2026 04:54:25 +0900"
+     "pubDate": "Sun, 25 Oct 2026 08:31:26 +0900"
     },
     {
      "title": "【気象予報士解説 動画】台風30号 今後の見通しは",
@@ -23,24 +28,19 @@
      "pubDate": "Sun, 25 Oct 2026 07:25:42 +0900"
     },
     {
-     "title": "フランスで再び大規模なデモ 内相“暴力封じ込めた”強調",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261025de64977",
-     "pubDate": "Sun, 25 Oct 2026 06:17:53 +0900"
-    },
-    {
-     "title": "ウクライナ南部で限定停戦 大統領は人道状況改善に期待示す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261025de64976",
-     "pubDate": "Sun, 25 Oct 2026 08:16:56 +0900"
-    },
-    {
      "title": "フィギュア グランプリシリーズ第1戦 中井亜美が逆転優勝",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de64981",
      "pubDate": "Sun, 25 Oct 2026 06:34:36 +0900"
     },
     {
+     "title": "フランスで再び大規模なデモ 内相“暴力封じ込めた”強調",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261025de64977",
+     "pubDate": "Sun, 25 Oct 2026 06:17:00 +0900"
+    },
+    {
      "title": "海底のプラごみ対策 分解酵素混ぜた新たなプラスチック開発",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64624",
-     "pubDate": "Sun, 25 Oct 2026 05:09:21 +0900"
+     "pubDate": "Sun, 25 Oct 2026 05:09:00 +0900"
     }
    ]
   },
@@ -57,12 +57,12 @@
     {
      "title": "海底のプラごみ対策 分解酵素混ぜた新たなプラスチック開発",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64624",
-     "pubDate": "Sun, 25 Oct 2026 05:09:21 +0900"
+     "pubDate": "Sun, 25 Oct 2026 05:09:00 +0900"
     },
     {
      "title": "神奈川 秦野の弘法山公園近くでクマ再出没 放獣個体と判明",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64937",
-     "pubDate": "Sat, 24 Oct 2026 21:53:19 +0900"
+     "pubDate": "Sun, 25 Oct 2026 09:13:27 +0900"
     },
     {
      "title": "鳥取 琴浦町 発電所の風車から出火 けが人なし【動画】",
@@ -134,12 +134,12 @@
     {
      "title": "海底のプラごみ対策 分解酵素混ぜた新たなプラスチック開発",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64624",
-     "pubDate": "Sun, 25 Oct 2026 05:09:21 +0900"
+     "pubDate": "Sun, 25 Oct 2026 05:09:00 +0900"
     },
     {
      "title": "政府に緊急要請のGMO 被害拡大防げるか 利用者に呼びかけ強化",
      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64946",
-     "pubDate": "Sun, 25 Oct 2026 04:54:25 +0900"
+     "pubDate": "Sun, 25 Oct 2026 08:31:26 +0900"
     },
     {
      "title": "西山女流四冠 注目される「プロ入り」の判断【記者解説】",
@@ -216,17 +216,17 @@
     {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月25日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65011",
-     "pubDate": "Sun, 25 Oct 2026 07:41:53 +0900"
+     "pubDate": "Sun, 25 Oct 2026 07:41:00 +0900"
     },
     {
      "title": "フランスで再び大規模なデモ 内相“暴力封じ込めた”強調",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de64977",
-     "pubDate": "Sun, 25 Oct 2026 06:17:53 +0900"
+     "pubDate": "Sun, 25 Oct 2026 06:17:00 +0900"
     },
     {
      "title": "ウクライナ南部で限定停戦 大統領は人道状況改善に期待示す",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de64976",
-     "pubDate": "Sun, 25 Oct 2026 08:16:56 +0900"
+     "pubDate": "Sun, 25 Oct 2026 08:16:00 +0900"
     },
     {
      "title": "キム総書記訪中 米朝交渉再開可能性見据え意思疎通のねらいか",
@@ -301,9 +301,9 @@
      "pubDate": "Sat, 24 Oct 2026 22:35:53 GMT"
     },
     {
-     "title": "「軍民両用」産業育成へ 年内策定",
-     "link": "https://news.yahoo.co.jp/pickup/6599997?source=rss",
-     "pubDate": "Sat, 24 Oct 2026 22:52:05 GMT"
+     "title": "ブラジル大統領選の決選 接戦予想",
+     "link": "https://news.yahoo.co.jp/pickup/6600005?source=rss",
+     "pubDate": "Sat, 24 Oct 2026 23:58:07 GMT"
     },
     {
      "title": "GMO不正接続 一瞬で119万円消失",
@@ -311,24 +311,24 @@
      "pubDate": "Sat, 24 Oct 2026 22:27:48 GMT"
     },
     {
-     "title": "放獣したツキノワグマが再び出没",
-     "link": "https://news.yahoo.co.jp/pickup/6599990?source=rss",
-     "pubDate": "Sat, 24 Oct 2026 14:54:37 GMT"
+     "title": "北九州で女性刺されけが 男が逃走",
+     "link": "https://news.yahoo.co.jp/pickup/6600016?source=rss",
+     "pubDate": "Sun, 25 Oct 2026 00:24:06 GMT"
     },
     {
-     "title": "「Used in Japan」世界注目 なぜ",
-     "link": "https://news.yahoo.co.jp/pickup/6599996?source=rss",
-     "pubDate": "Sat, 24 Oct 2026 22:48:39 GMT"
+     "title": "スズメバチを捕食? ヒヨドリとは",
+     "link": "https://news.yahoo.co.jp/pickup/6600019?source=rss",
+     "pubDate": "Sun, 25 Oct 2026 01:04:34 GMT"
+    },
+    {
+     "title": "コーチ要請 高橋由伸氏は否定せず",
+     "link": "https://news.yahoo.co.jp/pickup/6600011?source=rss",
+     "pubDate": "Sun, 25 Oct 2026 00:06:20 GMT"
     },
     {
      "title": "中井亜美 ノーミス演技で逆転優勝",
      "link": "https://news.yahoo.co.jp/pickup/6599994?source=rss",
      "pubDate": "Sat, 24 Oct 2026 22:32:35 GMT"
-    },
-    {
-     "title": "虎 坪井智哉氏らにコーチ入閣要請",
-     "link": "https://news.yahoo.co.jp/pickup/6599998?source=rss",
-     "pubDate": "Sat, 24 Oct 2026 22:58:37 GMT"
     },
     {
      "title": "VIVANT 最終回直前に2h特番放送",
