@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T13:25:35.731Z",
+ "updatedAt": "2026-10-26T19:26:22.101Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "家電量販店「Joshin」 顧客情報600万件漏えいの可能性",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65955",
-     "pubDate": "Mon, 26 Oct 2026 21:18:46 +0900"
+     "title": "北海道新聞記者と「領事面会」実施 健康状態に問題なし 外務省",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de66041",
+     "pubDate": "Tue, 27 Oct 2026 01:10:12 +0900"
     },
     {
-     "title": "電子ギフト会社に不正アクセス 5億5000万円分が不正発行",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261026de66013",
-     "pubDate": "Mon, 26 Oct 2026 21:47:49 +0900"
+     "title": "楽天トラベル 不正アクセスで氏名やクレカ番号の一部など流出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de66040",
+     "pubDate": "Tue, 27 Oct 2026 00:32:28 +0900"
     },
     {
-     "title": "ハッカー集団 GMOにあす期限で100万ドル要求 顧客脅迫も",
+     "title": "韓国でAI悪用し800万超の個人情報入手か グループ検挙",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de66026",
+     "pubDate": "Tue, 27 Oct 2026 00:53:06 +0900"
+    },
+    {
+     "title": "ハッカー集団 GMOに27日期限で100万ドル要求 顧客脅迫も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65733",
-     "pubDate": "Mon, 26 Oct 2026 19:37:12 +0900"
+     "pubDate": "Mon, 26 Oct 2026 19:37:00 +0900"
     },
     {
      "title": "福田康夫元首相が死去 90歳",
      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65501",
-     "pubDate": "Mon, 26 Oct 2026 18:57:52 +0900"
+     "pubDate": "Mon, 26 Oct 2026 23:20:24 +0900"
     },
     {
-     "title": "東京国際映画祭始まる 雨天も人気俳優らが登場",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65966",
-     "pubDate": "Mon, 26 Oct 2026 20:50:36 +0900"
+     "title": "AI開発のアンソロピックが上場に向け書類 15兆円以上調達か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66050",
+     "pubDate": "Tue, 27 Oct 2026 03:13:17 +0900"
     },
     {
-     "title": "大分市佐賀関の火災 被災した170棟余の公費解体の作業終了",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65972",
-     "pubDate": "Mon, 26 Oct 2026 21:54:47 +0900"
-    },
-    {
-     "title": "巨人 松井秀喜新監督に元監督の堀内恒夫さん「長期政権を」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65951",
-     "pubDate": "Mon, 26 Oct 2026 20:28:29 +0900"
+     "title": "金融大手 AI活用に向け人材育成強化の動き",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66061",
+     "pubDate": "Tue, 27 Oct 2026 03:51:44 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "ソフトバンク 緊急速報メールの配信すべて再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66055",
+     "pubDate": "Tue, 27 Oct 2026 01:03:00 +0900"
+    },
     {
      "title": "大分市佐賀関の火災 被災した170棟余の公費解体の作業終了",
      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65972",
@@ -118,11 +123,6 @@
      "title": "長崎 漁港で男性死亡 台風に備え船を見に行ったか",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65387",
      "pubDate": "Sun, 25 Oct 2026 23:59:13 +0900"
-    },
-    {
-     "title": "那覇 女性強盗殺人事件 米海兵隊員を起訴",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65279",
-     "pubDate": "Sun, 25 Oct 2026 20:34:00 +0900"
     }
    ]
   },
@@ -139,17 +139,17 @@
     {
      "title": "家電量販店「Joshin」 顧客情報600万件漏えいの可能性",
      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65955",
-     "pubDate": "Mon, 26 Oct 2026 21:18:46 +0900"
+     "pubDate": "Mon, 26 Oct 2026 21:18:00 +0900"
     },
     {
-     "title": "ハッカー集団 GMOにあす期限で100万ドル要求 顧客脅迫も",
+     "title": "ハッカー集団 GMOに27日期限で100万ドル要求 顧客脅迫も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65733",
-     "pubDate": "Mon, 26 Oct 2026 19:37:12 +0900"
+     "pubDate": "Mon, 26 Oct 2026 19:37:00 +0900"
     },
     {
      "title": "高市首相 不正アクセスで\"来週中メドに対策パッケージを\"",
      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65587",
-     "pubDate": "Mon, 26 Oct 2026 20:07:41 +0900"
+     "pubDate": "Mon, 26 Oct 2026 20:07:00 +0900"
     },
     {
      "title": "将棋 西山朋佳女流四冠 プロ入り表明 初の女性プロ棋士誕生へ",
@@ -214,6 +214,26 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "AI開発のアンソロピックが上場に向け書類 15兆円以上調達か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66050",
+     "pubDate": "Tue, 27 Oct 2026 03:13:17 +0900"
+    },
+    {
+     "title": "韓国でAI悪用し800万超の個人情報入手か グループ検挙",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de66026",
+     "pubDate": "Tue, 27 Oct 2026 00:53:06 +0900"
+    },
+    {
+     "title": "北海道新聞記者と「領事面会」実施 健康状態に問題なし 外務省",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de66041",
+     "pubDate": "Tue, 27 Oct 2026 01:10:12 +0900"
+    },
+    {
+     "title": "中国家電大手がタイに工場建設で起工式",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de66028",
+     "pubDate": "Mon, 26 Oct 2026 22:54:08 +0900"
+    },
+    {
      "title": "政府 外国不当干渉防止「代理人登録制度」導入の方向性提示",
      "link": "https://news.web.nhk/newsweb/na/nd-20261026de66011",
      "pubDate": "Mon, 26 Oct 2026 21:37:58 +0900"
@@ -244,9 +264,9 @@
      "pubDate": "Mon, 26 Oct 2026 18:49:32 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月26日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（10月26日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53359",
-     "pubDate": "Mon, 26 Oct 2026 18:39:34 +0900"
+     "pubDate": "Mon, 26 Oct 2026 18:39:00 +0900"
     },
     {
      "title": "モンゴル大規模火災“地域の回復に協力したい” 木原官房長官",
@@ -267,26 +287,6 @@
      "title": "FRB会合 金利は? 市場は据え置きの見方大勢 物価高に警戒感も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65470",
      "pubDate": "Mon, 26 Oct 2026 10:50:02 +0900"
-    },
-    {
-     "title": "トランプ大統領がオバマ元大統領に続き接戦のミシガン州に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65474",
-     "pubDate": "Mon, 26 Oct 2026 10:15:00 +0900"
-    },
-    {
-     "title": "混乱広がるフランス 極右政党ルペン氏 来年春の大統領選に意欲",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65466",
-     "pubDate": "Mon, 26 Oct 2026 09:04:00 +0900"
-    },
-    {
-     "title": "ゼレンスキー大統領「領土問題は首脳同士で協議すべき」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65459",
-     "pubDate": "Mon, 26 Oct 2026 08:53:09 +0900"
-    },
-    {
-     "title": "ノーベル平和賞受賞者のマチャド氏 ベネズエラに帰国",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65452",
-     "pubDate": "Mon, 26 Oct 2026 12:05:14 +0900"
     }
    ]
   },
@@ -296,34 +296,29 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "ガソリン補助の段階縮小 自民提言",
-     "link": "https://news.yahoo.co.jp/pickup/6600211?source=rss",
-     "pubDate": "Mon, 26 Oct 2026 09:32:48 GMT"
+     "title": "スパイ防止へ登録制度案 政府提示",
+     "link": "https://news.yahoo.co.jp/pickup/6600226?source=rss",
+     "pubDate": "Mon, 26 Oct 2026 11:49:19 GMT"
     },
     {
-     "title": "ギフティ ギフト券不正発行される",
-     "link": "https://news.yahoo.co.jp/pickup/6600229?source=rss",
-     "pubDate": "Mon, 26 Oct 2026 12:18:43 GMT"
+     "title": "露拘束の記者 大使館員が領事面会",
+     "link": "https://news.yahoo.co.jp/pickup/6600239?source=rss",
+     "pubDate": "Mon, 26 Oct 2026 14:20:32 GMT"
     },
     {
-     "title": "福田康夫さん死去 親子2代で首相",
-     "link": "https://news.yahoo.co.jp/pickup/6600231?source=rss",
-     "pubDate": "Mon, 26 Oct 2026 12:40:24 GMT"
+     "title": "米Anthropic IPO申請書類を公開",
+     "link": "https://news.yahoo.co.jp/pickup/6600240?source=rss",
+     "pubDate": "Mon, 26 Oct 2026 15:02:06 GMT"
     },
     {
-     "title": "店主殺害 惨状頭から離れぬと長男",
-     "link": "https://news.yahoo.co.jp/pickup/6600232?source=rss",
-     "pubDate": "Mon, 26 Oct 2026 12:55:49 GMT"
+     "title": "氏名誤記の原爆死没者 遺骨返還へ",
+     "link": "https://news.yahoo.co.jp/pickup/6600233?source=rss",
+     "pubDate": "Mon, 26 Oct 2026 13:03:29 GMT"
     },
     {
-     "title": "3ピンプラグに2穴 10代感電し入院",
-     "link": "https://news.yahoo.co.jp/pickup/6600207?source=rss",
-     "pubDate": "Mon, 26 Oct 2026 08:46:20 GMT"
-    },
-    {
-     "title": "3カ月の付き添い入院 心身は限界",
-     "link": "https://news.yahoo.co.jp/pickup/6600212?source=rss",
-     "pubDate": "Mon, 26 Oct 2026 09:39:41 GMT"
+     "title": "クマ放獣も3日で街に戻る 課題は",
+     "link": "https://news.yahoo.co.jp/pickup/6600225?source=rss",
+     "pubDate": "Mon, 26 Oct 2026 10:58:05 GMT"
     },
     {
      "title": "中国媒体の「VIVANT」批判 背景",
@@ -331,9 +326,14 @@
      "pubDate": "Mon, 26 Oct 2026 10:07:04 GMT"
     },
     {
-     "title": "木村拓哉 千葉県に義援金2000万円",
-     "link": "https://news.yahoo.co.jp/pickup/6600224?source=rss",
-     "pubDate": "Mon, 26 Oct 2026 10:51:06 GMT"
+     "title": "楽天トラベル 約260万件が流出か",
+     "link": "https://news.yahoo.co.jp/pickup/6600238?source=rss",
+     "pubDate": "Mon, 26 Oct 2026 14:08:22 GMT"
+    },
+    {
+     "title": "新幹線予約の個人情報17万件流出",
+     "link": "https://news.yahoo.co.jp/pickup/6600235?source=rss",
+     "pubDate": "Mon, 26 Oct 2026 14:07:55 GMT"
     }
    ]
   }
