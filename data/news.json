@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T23:22:09.958Z",
+ "updatedAt": "2026-10-26T01:23:08.230Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,19 @@
      "pubDate": "Mon, 26 Oct 2026 06:58:00 +0900"
     },
     {
-     "title": "ブラジル大統領選挙 決選投票 全土で2時間延長後に終了",
+     "title": "ブラジル大統領選挙 決選投票 現職のルーラ大統領が当選",
      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65416",
-     "pubDate": "Mon, 26 Oct 2026 07:10:03 +0900"
+     "pubDate": "Mon, 26 Oct 2026 09:27:00 +0900"
+    },
+    {
+     "title": "トランプ大統領がオバマ元大統領に続き接戦のミシガン州に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65474",
+     "pubDate": "Mon, 26 Oct 2026 10:15:20 +0900"
+    },
+    {
+     "title": "ノーベル平和賞受賞者のマチャド氏 ベネズエラに帰国",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65452",
+     "pubDate": "Mon, 26 Oct 2026 08:45:00 +0900"
     },
     {
      "title": "大相撲九州場所 番付発表 33歳の美ノ海が新三役",
@@ -23,24 +33,14 @@
      "pubDate": "Mon, 26 Oct 2026 06:04:32 +0900"
     },
     {
+     "title": "混乱広がるフランス 極右政党ルペン氏 来年春の大統領選に意欲",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65466",
+     "pubDate": "Mon, 26 Oct 2026 09:04:00 +0900"
+    },
+    {
      "title": "ソフトバンクが2試合続けて延長制す 川村が決勝HR【詳報】",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65213",
      "pubDate": "Mon, 26 Oct 2026 04:52:32 +0900"
-    },
-    {
-     "title": "あすイスラエル総選挙 ネタニヤフ首相政権維持できるか焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65348",
-     "pubDate": "Mon, 26 Oct 2026 05:49:10 +0900"
-    },
-    {
-     "title": "消費税減税法案 与党 通過時期探る 野党 支援金対象明示を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65353",
-     "pubDate": "Mon, 26 Oct 2026 05:46:47 +0900"
-    },
-    {
-     "title": "福島県知事選挙 現職の内堀雅雄氏が4回目の当選",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261025de65086",
-     "pubDate": "Mon, 26 Oct 2026 05:16:20 +0900"
     }
    ]
   },
@@ -52,7 +52,7 @@
     {
      "title": "【動画】Pickup NEWS（10月26日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65309",
-     "pubDate": "Mon, 26 Oct 2026 06:46:10 +0900"
+     "pubDate": "Mon, 26 Oct 2026 09:47:18 +0900"
     },
     {
      "title": "長崎 漁港で男性死亡 台風に備え船を見に行ったか",
@@ -214,14 +214,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "ブラジル大統領選挙 決選投票 全土で2時間延長後に終了",
+     "title": "トランプ大統領がオバマ元大統領に続き接戦のミシガン州に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65474",
+     "pubDate": "Mon, 26 Oct 2026 10:15:20 +0900"
+    },
+    {
+     "title": "混乱広がるフランス 極右政党ルペン氏 来年春の大統領選に意欲",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65466",
+     "pubDate": "Mon, 26 Oct 2026 09:04:00 +0900"
+    },
+    {
+     "title": "ゼレンスキー大統領「領土問題は首脳同士で協議すべき」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65459",
+     "pubDate": "Mon, 26 Oct 2026 08:53:09 +0900"
+    },
+    {
+     "title": "ノーベル平和賞受賞者のマチャド氏 ベネズエラに帰国",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65452",
+     "pubDate": "Mon, 26 Oct 2026 08:45:00 +0900"
+    },
+    {
+     "title": "ブラジル大統領選挙 決選投票 現職のルーラ大統領が当選",
      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65416",
-     "pubDate": "Mon, 26 Oct 2026 07:10:03 +0900"
+     "pubDate": "Mon, 26 Oct 2026 09:27:00 +0900"
     },
     {
      "title": "フーシ派がサウジアラビアへの攻撃主張 原油価格への影響懸念",
      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65417",
-     "pubDate": "Mon, 26 Oct 2026 06:22:26 +0900"
+     "pubDate": "Mon, 26 Oct 2026 06:22:00 +0900"
     },
     {
      "title": "ネパール土石流2か月 国際社会の支援も得て生活再建へ",
@@ -231,7 +251,7 @@
     {
      "title": "あすイスラエル総選挙 ネタニヤフ首相政権維持できるか焦点",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65348",
-     "pubDate": "Mon, 26 Oct 2026 05:49:10 +0900"
+     "pubDate": "Mon, 26 Oct 2026 05:49:00 +0900"
     },
     {
      "title": "中国共産党の重要会議「五中全会」26日から開催",
@@ -267,26 +287,6 @@
      "title": "フランスで再び大規模なデモ 内相“暴力封じ込めた”強調",
      "link": "https://news.web.nhk/newsweb/na/nd-20261025de64977",
      "pubDate": "Sun, 25 Oct 2026 06:17:00 +0900"
-    },
-    {
-     "title": "ウクライナ南部で限定停戦 大統領は人道状況改善に期待示す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261025de64976",
-     "pubDate": "Sun, 25 Oct 2026 08:16:00 +0900"
-    },
-    {
-     "title": "キム総書記訪中 米朝交渉再開可能性見据え意思疎通のねらいか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64966",
-     "pubDate": "Sun, 25 Oct 2026 05:15:25 +0900"
-    },
-    {
-     "title": "ブラジル大統領選挙 決選投票へ 世論調査は接戦予想",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261025de64972",
-     "pubDate": "Sun, 25 Oct 2026 05:00:33 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（10月24日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53357",
-     "pubDate": "Sun, 25 Oct 2026 00:23:44 +0900"
     }
    ]
   },
@@ -296,19 +296,14 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "関東-九州激しい雨 夜にピークも",
-     "link": "https://news.yahoo.co.jp/pickup/6600128?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 21:45:08 GMT"
+     "title": "ブラジル大統領に現職ルラ氏再選",
+     "link": "https://news.yahoo.co.jp/pickup/6600147?source=rss",
+     "pubDate": "Mon, 26 Oct 2026 00:35:29 GMT"
     },
     {
-     "title": "男性死亡 台風接近前に船を見に",
-     "link": "https://news.yahoo.co.jp/pickup/6600133?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 22:36:09 GMT"
-    },
-    {
-     "title": "女性殺害 米兵関与一部ほのめかす",
-     "link": "https://news.yahoo.co.jp/pickup/6600136?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 22:57:27 GMT"
+     "title": "平和賞マチャド氏 ベネズエラ帰国",
+     "link": "https://news.yahoo.co.jp/pickup/6600141?source=rss",
+     "pubDate": "Sun, 25 Oct 2026 23:22:57 GMT"
     },
     {
      "title": "和菓子店主殺害 逮捕知り遺族号泣",
@@ -316,14 +311,14 @@
      "pubDate": "Sun, 25 Oct 2026 22:26:53 GMT"
     },
     {
-     "title": "チャイルドシートの義務拡大 検討",
-     "link": "https://news.yahoo.co.jp/pickup/6600127?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 21:26:47 GMT"
+     "title": "新局面 漏洩被害者に迫る「脅威」",
+     "link": "https://news.yahoo.co.jp/pickup/6600145?source=rss",
+     "pubDate": "Mon, 26 Oct 2026 00:27:36 GMT"
     },
     {
-     "title": "コニカミノルタ「社内副業」狙い",
-     "link": "https://news.yahoo.co.jp/pickup/6600138?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 23:02:18 GMT"
+     "title": "電車が駅で140m過ぎて停車 戻らず",
+     "link": "https://news.yahoo.co.jp/pickup/6600144?source=rss",
+     "pubDate": "Sun, 25 Oct 2026 23:50:31 GMT"
     },
     {
      "title": "ソフトバンク秋広優人 来季構想外",
@@ -331,9 +326,14 @@
      "pubDate": "Sun, 25 Oct 2026 22:34:58 GMT"
     },
     {
-     "title": "VIVANTにダイアン津田登場 話題",
-     "link": "https://news.yahoo.co.jp/pickup/6600137?source=rss",
-     "pubDate": "Sun, 25 Oct 2026 22:49:27 GMT"
+     "title": "霜降り・せいや復帰「初の肺炎」",
+     "link": "https://news.yahoo.co.jp/pickup/6600153?source=rss",
+     "pubDate": "Mon, 26 Oct 2026 01:06:44 GMT"
+    },
+    {
+     "title": "VIVANT高視聴率 日本S中継影響か",
+     "link": "https://news.yahoo.co.jp/pickup/6600152?source=rss",
+     "pubDate": "Mon, 26 Oct 2026 00:59:15 GMT"
     }
    ]
   }
