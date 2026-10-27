@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T19:42:29.448Z",
+ "updatedAt": "2026-10-27T23:16:45.432Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "JR京浜東北線 全線で運転見合せ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66737",
+     "pubDate": "Wed, 28 Oct 2026 07:38:00 +0900"
+    },
+    {
+     "title": "GMO“懸賞金支払い”で脅迫に対抗も不安続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66716",
+     "pubDate": "Wed, 28 Oct 2026 05:07:00 +0900"
+    },
+    {
+     "title": "西高東低の冬型の気圧配置で風強まる 北日本で暴風警戒",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66726",
+     "pubDate": "Wed, 28 Oct 2026 07:01:00 +0900"
+    },
+    {
      "title": "フラビオ・ボルソナロ氏 ブラジルを出国か 現地メディア報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66719",
-     "pubDate": "Wed, 28 Oct 2026 04:31:30 +0900"
+     "pubDate": "Wed, 28 Oct 2026 07:00:44 +0900"
     },
     {
-     "title": "GMO サイトにアクセスしないで ハッカー側 1人の個人情報公開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66048",
-     "pubDate": "Tue, 27 Oct 2026 21:12:05 +0900"
+     "title": "イスラエル総選挙開票始まる“与野党陣営 獲得議席きっ抗か”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66728",
+     "pubDate": "Wed, 28 Oct 2026 07:26:34 +0900"
     },
     {
-     "title": "ヨルダン“シリアのIS拠点を空爆”民間犠牲者も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66713",
-     "pubDate": "Wed, 28 Oct 2026 02:37:44 +0900"
+     "title": "山梨の女性死亡事件 台湾で夫を拘束 高額保険か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66734",
+     "pubDate": "Wed, 28 Oct 2026 07:15:10 +0900"
     },
     {
-     "title": "安保3文書の有識者会議“増税も選択肢として排除せず”の意見",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66665",
-     "pubDate": "Tue, 27 Oct 2026 22:05:32 +0900"
-    },
-    {
-     "title": "英基地テロ計画 外国情報機関支援の罪で2人起訴",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66717",
-     "pubDate": "Wed, 28 Oct 2026 03:54:14 +0900"
-    },
-    {
-     "title": "日商の小林会頭がインド訪問 中小企業の進出を後押し",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66715",
-     "pubDate": "Wed, 28 Oct 2026 03:59:28 +0900"
-    },
-    {
-     "title": "漫画家 ちばてつやさん死去 87歳 「あしたのジョー」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66136",
-     "pubDate": "Tue, 27 Oct 2026 20:40:00 +0900"
+     "title": "フィンランドとノルウェーの首脳がプーチン大統領と電話会談",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66723",
+     "pubDate": "Wed, 28 Oct 2026 06:58:54 +0900"
     }
    ]
   },
@@ -49,6 +49,26 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "JR京浜東北線 全線で運転見合せ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66737",
+     "pubDate": "Wed, 28 Oct 2026 07:38:00 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（10月28日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66622",
+     "pubDate": "Wed, 28 Oct 2026 06:45:20 +0900"
+    },
+    {
+     "title": "熊本地震3か月 住まいの確保と在宅避難者への継続支援が課題",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66706",
+     "pubDate": "Wed, 28 Oct 2026 05:28:00 +0900"
+    },
+    {
+     "title": "GMO“懸賞金支払い”で脅迫に対抗も不安続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66716",
+     "pubDate": "Wed, 28 Oct 2026 05:07:00 +0900"
+    },
     {
      "title": "最高裁判所の山元裕史新判事が就任会見",
      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66705",
@@ -103,26 +123,6 @@
      "title": "東大総長選で教職員有志が2回目の要望書を提出",
      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66543",
      "pubDate": "Tue, 27 Oct 2026 18:26:27 +0900"
-    },
-    {
-     "title": "三笠宮さまの「十年式年祭」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66508",
-     "pubDate": "Tue, 27 Oct 2026 17:54:00 +0900"
-    },
-    {
-     "title": "大分大学の元教授 背任容疑で逮捕 大学に約3400万円損害か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66485",
-     "pubDate": "Tue, 27 Oct 2026 17:41:47 +0900"
-    },
-    {
-     "title": "浜岡原発の地元市長ら 不祥事受け国の指導・監視を要請",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66472",
-     "pubDate": "Tue, 27 Oct 2026 17:31:49 +0900"
-    },
-    {
-     "title": "4歳児死亡 傷害致死罪に問われた男性に2審も無罪 東京高裁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66431",
-     "pubDate": "Tue, 27 Oct 2026 17:22:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "フィジカルAI 農業分野で導入や開発の動き",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66720",
+     "pubDate": "Wed, 28 Oct 2026 05:33:00 +0900"
+    },
     {
      "title": "りそな 埼玉りそな 関西みらい 3銀行も顧客情報漏えいの可能性",
      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66670",
@@ -200,11 +205,6 @@
      "title": "将棋 西山朋佳女流四冠 プロ入り表明 初の女性プロ棋士誕生へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65487",
      "pubDate": "Mon, 26 Oct 2026 19:06:00 +0900"
-    },
-    {
-     "title": "海底のプラごみ対策 分解酵素混ぜた新たなプラスチック開発",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261024de64624",
-     "pubDate": "Sun, 25 Oct 2026 05:09:00 +0900"
     }
    ]
   },
@@ -214,9 +214,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "イスラエル総選挙開票始まる“与野党陣営 獲得議席きっ抗か”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66728",
+     "pubDate": "Wed, 28 Oct 2026 07:26:34 +0900"
+    },
+    {
+     "title": "山梨の女性死亡事件 台湾で夫を拘束 高額保険か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66734",
+     "pubDate": "Wed, 28 Oct 2026 07:15:10 +0900"
+    },
+    {
+     "title": "フィンランドとノルウェーの首脳がプーチン大統領と電話会談",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66723",
+     "pubDate": "Wed, 28 Oct 2026 06:58:54 +0900"
+    },
+    {
+     "title": "きょう日独首脳会談 サプライチェーン強じん化など確認へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66709",
+     "pubDate": "Wed, 28 Oct 2026 05:08:00 +0900"
+    },
+    {
+     "title": "EU EV優遇措置めぐり域外生産の日本車は対象外を検討",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66594",
+     "pubDate": "Wed, 28 Oct 2026 05:06:32 +0900"
+    },
+    {
+     "title": "メタ 安全対策責任者 「アプリのダウンロードに保護者承認を」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66669",
+     "pubDate": "Wed, 28 Oct 2026 05:05:40 +0900"
+    },
+    {
      "title": "フラビオ・ボルソナロ氏 ブラジルを出国か 現地メディア報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66719",
-     "pubDate": "Wed, 28 Oct 2026 04:31:30 +0900"
+     "pubDate": "Wed, 28 Oct 2026 07:00:44 +0900"
     },
     {
      "title": "日商の小林会頭がインド訪問 中小企業の進出を後押し",
@@ -257,36 +287,6 @@
      "title": "茂木外相“高市首相 APECへの出席調整 個別会談は検討中”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66484",
      "pubDate": "Tue, 27 Oct 2026 17:55:04 +0900"
-    },
-    {
-     "title": "北朝鮮軍が韓国の対岸1.4キロの近距離に自走砲を配置",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66516",
-     "pubDate": "Tue, 27 Oct 2026 17:53:00 +0900"
-    },
-    {
-     "title": "高市首相 バングラデシュ首脳と会談 経済や安全保障 協力確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66383",
-     "pubDate": "Tue, 27 Oct 2026 16:34:00 +0900"
-    },
-    {
-     "title": "ブラジル大統領選左派勝利 右派政党結果認める 通貨は大幅安",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66402",
-     "pubDate": "Tue, 27 Oct 2026 16:31:00 +0900"
-    },
-    {
-     "title": "小泉防衛相 ASEAN拡大国防相会議出席でフィリピン訪問へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66353",
-     "pubDate": "Tue, 27 Oct 2026 15:22:58 +0900"
-    },
-    {
-     "title": "アメリカ中間選挙 外交の争点 “イランへの対応をどう評価？”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66311",
-     "pubDate": "Tue, 27 Oct 2026 15:13:00 +0900"
-    },
-    {
-     "title": "イスラエル総選挙 投票開始 ネタニヤフ首相続投できるかが焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261027de66339",
-     "pubDate": "Wed, 28 Oct 2026 00:34:20 +0900"
     }
    ]
   },
@@ -296,24 +296,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "イオン熊本 一部再開意向を伝える",
-     "link": "https://news.yahoo.co.jp/pickup/6600353?source=rss",
-     "pubDate": "Tue, 27 Oct 2026 14:36:01 GMT"
+     "title": "イスラエル総選挙 連立協議難航か",
+     "link": "https://news.yahoo.co.jp/pickup/6600366?source=rss",
+     "pubDate": "Tue, 27 Oct 2026 22:54:29 GMT"
     },
     {
-     "title": "副首都 要件満たせば4道府県指定",
-     "link": "https://news.yahoo.co.jp/pickup/6600343?source=rss",
-     "pubDate": "Tue, 27 Oct 2026 12:56:31 GMT"
+     "title": "安保3文書で「拒否力」防衛の柱に",
+     "link": "https://news.yahoo.co.jp/pickup/6600361?source=rss",
+     "pubDate": "Tue, 27 Oct 2026 22:04:42 GMT"
     },
     {
-     "title": "GMO不正アクセス 警視庁が捜査",
-     "link": "https://news.yahoo.co.jp/pickup/6600351?source=rss",
-     "pubDate": "Tue, 27 Oct 2026 14:14:04 GMT"
+     "title": "GMO攻撃 被害者は「恐怖しか」",
+     "link": "https://news.yahoo.co.jp/pickup/6600364?source=rss",
+     "pubDate": "Tue, 27 Oct 2026 22:40:24 GMT"
     },
     {
-     "title": "So-netなど258万件超が漏えい",
-     "link": "https://news.yahoo.co.jp/pickup/6600338?source=rss",
-     "pubDate": "Tue, 27 Oct 2026 11:46:12 GMT"
+     "title": "勾留の男性死亡 遺族が都など提訴",
+     "link": "https://news.yahoo.co.jp/pickup/6600365?source=rss",
+     "pubDate": "Tue, 27 Oct 2026 22:52:13 GMT"
     },
     {
      "title": "25歳店長自殺 スマホに残した動画",
@@ -321,19 +321,19 @@
      "pubDate": "Tue, 27 Oct 2026 13:17:18 GMT"
     },
     {
-     "title": "車横転し死亡 定員乗車に潜む危険",
-     "link": "https://news.yahoo.co.jp/pickup/6600347?source=rss",
-     "pubDate": "Tue, 27 Oct 2026 13:22:24 GMT"
+     "title": "原付の男性死亡 高速道で車と衝突",
+     "link": "https://news.yahoo.co.jp/pickup/6600355?source=rss",
+     "pubDate": "Tue, 27 Oct 2026 21:09:03 GMT"
     },
     {
-     "title": "たまごの平均価格 最高値を更新",
-     "link": "https://news.yahoo.co.jp/pickup/6600331?source=rss",
-     "pubDate": "Tue, 27 Oct 2026 10:20:28 GMT"
+     "title": "ビルの窓の清掃中に転落か 死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6600362?source=rss",
+     "pubDate": "Tue, 27 Oct 2026 22:14:38 GMT"
     },
     {
-     "title": "DeNA神里 松葉づえで球場を後に",
-     "link": "https://news.yahoo.co.jp/pickup/6600354?source=rss",
-     "pubDate": "Tue, 27 Oct 2026 14:51:38 GMT"
+     "title": "エムバペ選手が謝罪 中国巡り騒動",
+     "link": "https://news.yahoo.co.jp/pickup/6600358?source=rss",
+     "pubDate": "Tue, 27 Oct 2026 21:34:22 GMT"
     }
    ]
   }
