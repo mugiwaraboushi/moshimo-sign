@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T15:32:48.307Z",
+ "updatedAt": "2026-10-28T20:37:35.142Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【地震速報】千葉県北東部で震度5弱 津波の心配なし",
+     "title": "スペイン高速鉄道衝突事故 これまでに68人死亡 後続列車が追突",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67453",
+     "pubDate": "Thu, 29 Oct 2026 04:05:51 +0900"
+    },
+    {
+     "title": "FRB 政策金利を据え置き 2会合ぶり インフレへの影響見極めか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67441",
+     "pubDate": "Thu, 29 Oct 2026 05:11:21 +0900"
+    },
+    {
+     "title": "GMO 攻撃者に関する情報精査 被害拡大防止で緊急の対応続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67431",
+     "pubDate": "Thu, 29 Oct 2026 01:44:00 +0900"
+    },
+    {
+     "title": "【地震情報】千葉県北東部で震度5弱 津波の心配なし",
      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67425",
-     "pubDate": "Thu, 29 Oct 2026 00:30:59 +0900"
+     "pubDate": "Thu, 29 Oct 2026 02:44:59 +0900"
     },
     {
-     "title": "スペイン 列車どうしの衝突事故“これまでに64人死亡”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67291",
-     "pubDate": "Wed, 28 Oct 2026 23:50:06 +0900"
+     "title": "ホンダと日産 EV用バッテリーの協業へ具体的な交渉",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67424",
+     "pubDate": "Thu, 29 Oct 2026 01:05:00 +0900"
     },
     {
-     "title": "日本サッカー協会 岡田武史氏が副会長を辞任 W杯対応めぐり",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67231",
-     "pubDate": "Wed, 28 Oct 2026 18:15:00 +0900"
+     "title": "イスラエル総選挙“首相のSNS投稿が功を奏した”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67458",
+     "pubDate": "Thu, 29 Oct 2026 04:52:38 +0900"
     },
     {
-     "title": "日本航空 予約システムに不正アクセス 9万人超の情報漏えいか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67365",
-     "pubDate": "Wed, 28 Oct 2026 20:12:00 +0900"
-    },
-    {
-     "title": "GMO“個人情報が掲載されたサイトのドメイン停止を確認”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66765",
-     "pubDate": "Wed, 28 Oct 2026 20:59:49 +0900"
-    },
-    {
-     "title": "障害者グループホーム 外部評価と結果公表義務づけ検討 厚労省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67363",
-     "pubDate": "Wed, 28 Oct 2026 23:44:23 +0900"
-    },
-    {
-     "title": "新幹線と活断層の交差 全国79か所 ズレで被害のおそれ 対策を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67015",
-     "pubDate": "Wed, 28 Oct 2026 22:33:00 +0900"
+     "title": "ゼレンスキー大統領 和平案めぐるロシアとの高官協議に期待",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67457",
+     "pubDate": "Thu, 29 Oct 2026 05:16:29 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "名張毒ぶどう酒再審請求 名古屋高裁が「封かん紙」鑑定へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67422",
+     "pubDate": "Thu, 29 Oct 2026 01:22:16 +0900"
+    },
     {
      "title": "障害者グループホーム 外部評価と結果公表義務づけ検討 厚労省",
      "link": "https://news.web.nhk/newsweb/na/nd-20261028de67363",
@@ -118,11 +123,6 @@
      "title": "「高度専門職」で中国人を不正入国させたか 会社役員ら逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66764",
      "pubDate": "Wed, 28 Oct 2026 19:41:48 +0900"
-    },
-    {
-     "title": "KDDI メール障害が復旧 不正アクセスは現時点で確認されず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66791",
-     "pubDate": "Wed, 28 Oct 2026 14:47:05 +0900"
     }
    ]
   },
@@ -214,6 +214,46 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ゼレンスキー大統領 和平案めぐるロシアとの高官協議に期待",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67457",
+     "pubDate": "Thu, 29 Oct 2026 05:16:29 +0900"
+    },
+    {
+     "title": "イスラエル総選挙“首相のSNS投稿が功を奏した”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67458",
+     "pubDate": "Thu, 29 Oct 2026 04:52:38 +0900"
+    },
+    {
+     "title": "スペイン高速鉄道衝突事故 これまでに68人死亡 後続列車が追突",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67453",
+     "pubDate": "Thu, 29 Oct 2026 04:05:51 +0900"
+    },
+    {
+     "title": "FRB 政策金利を据え置き 2会合ぶり インフレへの影響見極めか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67441",
+     "pubDate": "Thu, 29 Oct 2026 05:11:21 +0900"
+    },
+    {
+     "title": "ボルソナロ氏 “ブラジルからフロリダに到着” 米メディア報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67449",
+     "pubDate": "Thu, 29 Oct 2026 03:01:58 +0900"
+    },
+    {
+     "title": "ヒマラヤ山脈で見つかった2人の遺体 日本人男性と確認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67446",
+     "pubDate": "Thu, 29 Oct 2026 02:06:00 +0900"
+    },
+    {
+     "title": "ドイツ メルツ首相が講演「半導体 AIなど日独協力拡大に期待」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67417",
+     "pubDate": "Thu, 29 Oct 2026 01:54:05 +0900"
+    },
+    {
+     "title": "カナダの中央銀行が約3年ぶりに利上げ インフレ抑制で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67443",
+     "pubDate": "Thu, 29 Oct 2026 01:51:59 +0900"
+    },
+    {
      "title": "小泉防衛相 “米国防長官が防衛費に言及 水準は主体的に判断”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261028de67416",
      "pubDate": "Thu, 29 Oct 2026 00:03:06 +0900"
@@ -247,46 +287,6 @@
      "title": "経済産業省と独エネルギー大手 風力発電で協力強化へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261028de67327",
      "pubDate": "Wed, 28 Oct 2026 20:51:00 +0900"
-    },
-    {
-     "title": "日独首脳会談 首相“プレミアム・パートナーで連携深めたい”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67318",
-     "pubDate": "Wed, 28 Oct 2026 20:46:00 +0900"
-    },
-    {
-     "title": "スペイン 列車どうしの衝突事故“これまでに64人死亡”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67291",
-     "pubDate": "Wed, 28 Oct 2026 23:50:06 +0900"
-    },
-    {
-     "title": "韓国半導体大手 SKハイニックス 営業利益7.3倍で過去最高更新",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67125",
-     "pubDate": "Wed, 28 Oct 2026 16:44:00 +0900"
-    },
-    {
-     "title": "山梨で刺され死亡の女性 “日本渡航前に身の危険感じていた”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67089",
-     "pubDate": "Wed, 28 Oct 2026 21:04:29 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月28日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53361",
-     "pubDate": "Wed, 28 Oct 2026 16:01:18 +0900"
-    },
-    {
-     "title": "国連 ミャンマーの民主派大使が軍への武器供給停止訴え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67029",
-     "pubDate": "Wed, 28 Oct 2026 15:08:00 +0900"
-    },
-    {
-     "title": "日本提出の核廃絶目指す国連決議が採択 33年連続で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66820",
-     "pubDate": "Wed, 28 Oct 2026 12:16:00 +0900"
-    },
-    {
-     "title": "トランプ大統領 “重要州”テキサスで支持訴え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66787",
-     "pubDate": "Wed, 28 Oct 2026 11:48:06 +0900"
     }
    ]
   },
