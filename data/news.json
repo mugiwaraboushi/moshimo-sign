@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T20:37:35.142Z",
+ "updatedAt": "2026-10-29T00:28:36.932Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,24 +13,9 @@
      "pubDate": "Thu, 29 Oct 2026 04:05:51 +0900"
     },
     {
-     "title": "FRB 政策金利を据え置き 2会合ぶり インフレへの影響見極めか",
+     "title": "FRB 政策金利据え置き 議長は今後の追加利上げ辞さない構えも",
      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67441",
-     "pubDate": "Thu, 29 Oct 2026 05:11:21 +0900"
-    },
-    {
-     "title": "GMO 攻撃者に関する情報精査 被害拡大防止で緊急の対応続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67431",
-     "pubDate": "Thu, 29 Oct 2026 01:44:00 +0900"
-    },
-    {
-     "title": "【地震情報】千葉県北東部で震度5弱 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67425",
-     "pubDate": "Thu, 29 Oct 2026 02:44:59 +0900"
-    },
-    {
-     "title": "ホンダと日産 EV用バッテリーの協業へ具体的な交渉",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67424",
-     "pubDate": "Thu, 29 Oct 2026 01:05:00 +0900"
+     "pubDate": "Thu, 29 Oct 2026 07:45:26 +0900"
     },
     {
      "title": "イスラエル総選挙“首相のSNS投稿が功を奏した”",
@@ -38,9 +23,24 @@
      "pubDate": "Thu, 29 Oct 2026 04:52:38 +0900"
     },
     {
-     "title": "ゼレンスキー大統領 和平案めぐるロシアとの高官協議に期待",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67457",
-     "pubDate": "Thu, 29 Oct 2026 05:16:29 +0900"
+     "title": "【地震情報】千葉県北東部で震度5弱 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67425",
+     "pubDate": "Thu, 29 Oct 2026 06:51:00 +0900"
+    },
+    {
+     "title": "ホンダと日産 EV用バッテリーの協業へ具体的な交渉",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67424",
+     "pubDate": "Thu, 29 Oct 2026 01:05:00 +0900"
+    },
+    {
+     "title": "GMO 攻撃者に関する情報精査 被害拡大防止で緊急の対応続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67431",
+     "pubDate": "Thu, 29 Oct 2026 01:44:00 +0900"
+    },
+    {
+     "title": "各地で今季一番の冷え込み 路面凍結などに注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67465",
+     "pubDate": "Thu, 29 Oct 2026 06:47:00 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "西武鉄道 池袋線と豊島線は運転再開 有楽町線は見合わせ続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67471",
+     "pubDate": "Thu, 29 Oct 2026 08:52:47 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（10月29日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67200",
+     "pubDate": "Thu, 29 Oct 2026 06:36:23 +0900"
+    },
     {
      "title": "名張毒ぶどう酒再審請求 名古屋高裁が「封かん紙」鑑定へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261028de67422",
@@ -113,16 +123,6 @@
      "title": "辺野古沖転覆事故 遺族が死亡の船長所属の協議会と初面会",
      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66785",
      "pubDate": "Wed, 28 Oct 2026 16:55:33 +0900"
-    },
-    {
-     "title": "25歳女性遺体遺棄事件 殺人疑いで交際相手を再逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66894",
-     "pubDate": "Wed, 28 Oct 2026 12:33:00 +0900"
-    },
-    {
-     "title": "「高度専門職」で中国人を不正入国させたか 会社役員ら逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66764",
-     "pubDate": "Wed, 28 Oct 2026 19:41:48 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "欧州天然ガス先物価格 2022年以来の高値 冬前に供給懸念強まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67466",
+     "pubDate": "Thu, 29 Oct 2026 08:10:38 +0900"
+    },
+    {
+     "title": "イギリス 2000万世帯に給付金 エネルギー価格対策重視の予算案",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67459",
+     "pubDate": "Thu, 29 Oct 2026 08:08:00 +0900"
+    },
+    {
      "title": "ゼレンスキー大統領 和平案めぐるロシアとの高官協議に期待",
      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67457",
      "pubDate": "Thu, 29 Oct 2026 05:16:29 +0900"
@@ -229,14 +239,14 @@
      "pubDate": "Thu, 29 Oct 2026 04:05:51 +0900"
     },
     {
-     "title": "FRB 政策金利を据え置き 2会合ぶり インフレへの影響見極めか",
+     "title": "FRB 政策金利据え置き 議長は今後の追加利上げ辞さない構えも",
      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67441",
-     "pubDate": "Thu, 29 Oct 2026 05:11:21 +0900"
+     "pubDate": "Thu, 29 Oct 2026 07:45:26 +0900"
     },
     {
-     "title": "ボルソナロ氏 “ブラジルからフロリダに到着” 米メディア報道",
+     "title": "ボルソナロ氏 アメリカに到着 トランプ大統領は擁護の姿勢",
      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67449",
-     "pubDate": "Thu, 29 Oct 2026 03:01:58 +0900"
+     "pubDate": "Thu, 29 Oct 2026 07:27:11 +0900"
     },
     {
      "title": "ヒマラヤ山脈で見つかった2人の遺体 日本人男性と確認",
@@ -277,16 +287,6 @@
      "title": "小泉防衛相 韓国国防相と初会談 北朝鮮への対応連携強化で一致",
      "link": "https://news.web.nhk/newsweb/na/nd-20261028de67338",
      "pubDate": "Wed, 28 Oct 2026 21:06:00 +0900"
-    },
-    {
-     "title": "小泉防衛相“ＡＳＥＡＮ一体性と強じん性高めることが重要”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67319",
-     "pubDate": "Wed, 28 Oct 2026 21:00:00 +0900"
-    },
-    {
-     "title": "経済産業省と独エネルギー大手 風力発電で協力強化へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67327",
-     "pubDate": "Wed, 28 Oct 2026 20:51:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "千葉県で震度5弱 津波の心配なし",
-     "link": "https://news.yahoo.co.jp/pickup/6600489?source=rss",
-     "pubDate": "Wed, 28 Oct 2026 15:19:26 GMT"
+     "title": "GMO脅迫サイト 国が遮断を要請",
+     "link": "https://news.yahoo.co.jp/pickup/6600494?source=rss",
+     "pubDate": "Wed, 28 Oct 2026 21:55:03 GMT"
     },
     {
-     "title": "検察側が異例の求刑訂正 地検謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6600477?source=rss",
-     "pubDate": "Wed, 28 Oct 2026 12:44:47 GMT"
+     "title": "多くで今季一冷え込み 東京10℃台",
+     "link": "https://news.yahoo.co.jp/pickup/6600505?source=rss",
+     "pubDate": "Wed, 28 Oct 2026 23:20:43 GMT"
     },
     {
-     "title": "スペインで列車衝突 64人死亡か",
-     "link": "https://news.yahoo.co.jp/pickup/6600486?source=rss",
-     "pubDate": "Wed, 28 Oct 2026 13:57:36 GMT"
+     "title": "解体作業中に鉄板が落下 男性死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6600496?source=rss",
+     "pubDate": "Wed, 28 Oct 2026 22:18:06 GMT"
     },
     {
-     "title": "医療用麻薬紛失と発表 水戸の病院",
-     "link": "https://news.yahoo.co.jp/pickup/6600487?source=rss",
-     "pubDate": "Wed, 28 Oct 2026 14:35:07 GMT"
+     "title": "プーチン氏 マスク氏は本物の天才",
+     "link": "https://news.yahoo.co.jp/pickup/6600507?source=rss",
+     "pubDate": "Wed, 28 Oct 2026 23:46:08 GMT"
     },
     {
-     "title": "「千鳥饅頭」千鳥屋本家が破産へ",
-     "link": "https://news.yahoo.co.jp/pickup/6600474?source=rss",
-     "pubDate": "Wed, 28 Oct 2026 12:24:14 GMT"
+     "title": "本や雑誌発売日 大阪も1日遅れに",
+     "link": "https://news.yahoo.co.jp/pickup/6600504?source=rss",
+     "pubDate": "Wed, 28 Oct 2026 23:34:37 GMT"
     },
     {
-     "title": "DeNA球団社長 筒香&牧の去就言及",
-     "link": "https://news.yahoo.co.jp/pickup/6600488?source=rss",
-     "pubDate": "Wed, 28 Oct 2026 14:44:30 GMT"
+     "title": "タッチ対応「MacBook Pro」発表",
+     "link": "https://news.yahoo.co.jp/pickup/6600509?source=rss",
+     "pubDate": "Thu, 29 Oct 2026 00:12:54 GMT"
     },
     {
-     "title": "村上龍さん死去 番組Pが語る素顔",
-     "link": "https://news.yahoo.co.jp/pickup/6600481?source=rss",
-     "pubDate": "Wed, 28 Oct 2026 13:28:21 GMT"
+     "title": "大谷 選手会選出のMVP受賞ならず",
+     "link": "https://news.yahoo.co.jp/pickup/6600508?source=rss",
+     "pubDate": "Thu, 29 Oct 2026 00:06:58 GMT"
     },
     {
-     "title": "水卜アナ 気象予報士試験に合格",
-     "link": "https://news.yahoo.co.jp/pickup/6600462?source=rss",
-     "pubDate": "Wed, 28 Oct 2026 10:02:07 GMT"
+     "title": "DeNA筒香 海外FA権行使を検討",
+     "link": "https://news.yahoo.co.jp/pickup/6600497?source=rss",
+     "pubDate": "Wed, 28 Oct 2026 22:37:48 GMT"
     }
    ]
   }
