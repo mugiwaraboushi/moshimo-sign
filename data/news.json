@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T13:23:11.299Z",
+ "updatedAt": "2026-10-29T19:02:25.599Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "松江 3校の児童ら300人近く体調不良 同じセンター提供の給食後",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261029de68105",
-     "pubDate": "Thu, 29 Oct 2026 22:10:31 +0900"
+     "title": "「中野ブロードウェイ」で4600万円相当の腕時計 男が盗み逃走",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de68127",
+     "pubDate": "Fri, 30 Oct 2026 00:39:18 +0900"
+    },
+    {
+     "title": "朝日新聞 メール配信会社不正アクセスで7万件余漏えいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68144",
+     "pubDate": "Fri, 30 Oct 2026 00:46:00 +0900"
     },
     {
      "title": "スペイン鉄道事故で乗客名簿に日本人2人の名前 確認急ぐ",
@@ -18,9 +23,9 @@
      "pubDate": "Thu, 29 Oct 2026 22:08:27 +0900"
     },
     {
-     "title": "GMO“攻撃者の特定につながる有力情報入手”警察などに提出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67553",
-     "pubDate": "Thu, 29 Oct 2026 19:14:00 +0900"
+     "title": "松江 3校の児童ら300人近く体調不良 同じセンター提供の給食後",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de68105",
+     "pubDate": "Thu, 29 Oct 2026 22:10:31 +0900"
     },
     {
      "title": "プロ野球 広島元投手 池谷公二郎さん死去 広島の黄金期支える",
@@ -28,19 +33,14 @@
      "pubDate": "Thu, 29 Oct 2026 17:23:35 +0900"
     },
     {
-     "title": "電気料金 11月使用分が大手7社で過去最高を更新",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67703",
-     "pubDate": "Thu, 29 Oct 2026 18:30:00 +0900"
+     "title": "GMO“攻撃者の特定につながる有力情報入手”警察などに提出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67553",
+     "pubDate": "Thu, 29 Oct 2026 19:14:00 +0900"
     },
     {
-     "title": "今季いちばんの冷え込み 肌寒い一日に 31日にかけ大気不安定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67465",
-     "pubDate": "Thu, 29 Oct 2026 18:50:00 +0900"
-    },
-    {
-     "title": "中部電力 浜岡原発3・4号機審査取り下げで3700億超の特別損失",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67852",
-     "pubDate": "Thu, 29 Oct 2026 21:29:33 +0900"
+     "title": "米 7月から9月 GDP＋3.4％ 伸び率拡大 消費AI投資活発で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68141",
+     "pubDate": "Fri, 30 Oct 2026 00:31:00 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "朝日新聞 メール配信会社不正アクセスで7万件余漏えいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68144",
+     "pubDate": "Fri, 30 Oct 2026 00:46:00 +0900"
+    },
+    {
+     "title": "「中野ブロードウェイ」で4600万円相当の腕時計 男が盗み逃走",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de68127",
+     "pubDate": "Fri, 30 Oct 2026 00:39:18 +0900"
+    },
+    {
+     "title": "香港 168人死亡の高層住宅火災 政府トップが謝罪",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de68113",
+     "pubDate": "Thu, 29 Oct 2026 22:33:00 +0900"
+    },
     {
      "title": "新型コロナワクチンめぐる発言 原口一博 元衆院議員に賠償命令",
      "link": "https://news.web.nhk/newsweb/na/nd-20261029de68003",
@@ -108,21 +123,6 @@
      "title": "関東信越地域の日本酒鑑評表彰式",
      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67918",
      "pubDate": "Thu, 29 Oct 2026 17:45:00 +0900"
-    },
-    {
-     "title": "秋の園遊会 天皇皇后両陛下や皇族方が招待客と懇談",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67924",
-     "pubDate": "Thu, 29 Oct 2026 19:43:50 +0900"
-    },
-    {
-     "title": "愛知 水道管工事現場で1人死亡1人不明“土砂に埋もれた”通報",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67843",
-     "pubDate": "Thu, 29 Oct 2026 18:17:40 +0900"
-    },
-    {
-     "title": "銀座の複合施設でスプレー噴射か 中国籍の大学生逮捕 警視庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67780",
-     "pubDate": "Thu, 29 Oct 2026 15:23:00 +0900"
     }
    ]
   },
@@ -132,9 +132,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "アカデミー賞主催団体CEO「評価基準多様に」日本映画に期待",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de68025",
+     "pubDate": "Thu, 29 Oct 2026 22:23:00 +0900"
+    },
+    {
      "title": "囲碁名人戦 挑戦者の芝野二冠が勝ち三冠に 一力は敗れる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261029de68066",
-     "pubDate": "Thu, 29 Oct 2026 21:26:51 +0900"
+     "pubDate": "Thu, 29 Oct 2026 21:26:00 +0900"
     },
     {
      "title": "イタリア産生ハム輸入は「リスク低い」農水省が輸入再開協議へ",
@@ -164,7 +169,7 @@
     {
      "title": "スペースシャトル「エンデバー」初の垂直状態での展示へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67615",
-     "pubDate": "Thu, 29 Oct 2026 14:10:00 +0900"
+     "pubDate": "Thu, 29 Oct 2026 22:52:33 +0900"
     },
     {
      "title": "米連邦選挙委員会サイトにサイバー攻撃 中間選挙に影響なしか",
@@ -200,11 +205,6 @@
      "title": "TBSショッピングの利用者 メールアドレスなど外部流出",
      "link": "https://news.web.nhk/newsweb/na/nd-20261028de67241",
      "pubDate": "Wed, 28 Oct 2026 21:42:00 +0900"
-    },
-    {
-     "title": "日本航空 予約システムに不正アクセス 9万人超の情報漏えいか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67365",
-     "pubDate": "Wed, 28 Oct 2026 20:12:00 +0900"
     }
    ]
   },
@@ -213,6 +213,36 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "米 7月から9月 GDP＋3.4％ 伸び率拡大 消費AI投資活発で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68141",
+     "pubDate": "Fri, 30 Oct 2026 00:31:00 +0900"
+    },
+    {
+     "title": "アラスカ州にほぼ同名の上院議員候補 知事が調査を指示",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de68134",
+     "pubDate": "Fri, 30 Oct 2026 00:10:00 +0900"
+    },
+    {
+     "title": "中国共産党「五中全会」幹部33人党籍はく奪 党大会へ引き締め",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de68132",
+     "pubDate": "Fri, 30 Oct 2026 00:08:00 +0900"
+    },
+    {
+     "title": "ASEAN国防相会議 中国とフィリピンの関係冷え込みが浮き彫りに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de68122",
+     "pubDate": "Thu, 29 Oct 2026 22:53:00 +0900"
+    },
+    {
+     "title": "小泉防衛相 豪国防相と会談 ミサイル発射試験実施へ協議継続",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de68114",
+     "pubDate": "Thu, 29 Oct 2026 22:37:01 +0900"
+    },
+    {
+     "title": "香港 168人死亡の高層住宅火災 政府トップが謝罪",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261029de68113",
+     "pubDate": "Thu, 29 Oct 2026 22:33:00 +0900"
+    },
     {
      "title": "武藤駐ロシア大使 北海道新聞記者の即時解放 ロ外務次官に要請",
      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67905",
@@ -246,7 +276,7 @@
     {
      "title": "アメリカ中間選挙 激戦オハイオ州 バンス副大統領の地元で接戦",
      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67800",
-     "pubDate": "Thu, 29 Oct 2026 19:08:05 +0900"
+     "pubDate": "Thu, 29 Oct 2026 19:08:00 +0900"
     },
     {
      "title": "フォルクスワーゲン 7-9月期決算 8000億円超の大幅赤字",
@@ -257,36 +287,6 @@
      "title": "日モンゴル首脳電話会談“自然保護区火災の被害回復に協力”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67992",
      "pubDate": "Thu, 29 Oct 2026 18:29:00 +0900"
-    },
-    {
-     "title": "ASEAN拡大国防相会議 南シナ海情勢巡り連携呼びかけへ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67734",
-     "pubDate": "Thu, 29 Oct 2026 14:48:46 +0900"
-    },
-    {
-     "title": "韓国 イテウォン事故から4年 イ大統領「再発防止につなげる」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67508",
-     "pubDate": "Thu, 29 Oct 2026 14:17:00 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月29日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53362",
-     "pubDate": "Thu, 29 Oct 2026 14:11:00 +0900"
-    },
-    {
-     "title": "スペースシャトル「エンデバー」初の垂直状態での展示へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67615",
-     "pubDate": "Thu, 29 Oct 2026 14:10:00 +0900"
-    },
-    {
-     "title": "米連邦選挙委員会サイトにサイバー攻撃 中間選挙に影響なしか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67547",
-     "pubDate": "Thu, 29 Oct 2026 13:25:44 +0900"
-    },
-    {
-     "title": "マイクロソフトとグーグルの決算 クラウド好調も明暗分かれる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67564",
-     "pubDate": "Thu, 29 Oct 2026 13:12:00 +0900"
     }
    ]
   },
@@ -301,9 +301,14 @@
      "pubDate": "Thu, 29 Oct 2026 12:52:41 GMT"
     },
     {
-     "title": "中部電 27年3月期の特損3800億円",
-     "link": "https://news.yahoo.co.jp/pickup/6600594?source=rss",
-     "pubDate": "Thu, 29 Oct 2026 10:39:54 GMT"
+     "title": "欧州中銀 2会合ぶり金利据え置き",
+     "link": "https://news.yahoo.co.jp/pickup/6600623?source=rss",
+     "pubDate": "Thu, 29 Oct 2026 14:57:12 GMT"
+    },
+    {
+     "title": "梨泰院事故4年で追悼式 160人犠牲",
+     "link": "https://news.yahoo.co.jp/pickup/6600615?source=rss",
+     "pubDate": "Thu, 29 Oct 2026 14:02:50 GMT"
     },
     {
      "title": "ネパール高峰で発見の2遺体は邦人",
@@ -311,19 +316,9 @@
      "pubDate": "Thu, 29 Oct 2026 12:56:29 GMT"
     },
     {
-     "title": "3小学校293人 給食後嘔吐など発症",
-     "link": "https://news.yahoo.co.jp/pickup/6600605?source=rss",
-     "pubDate": "Thu, 29 Oct 2026 12:16:09 GMT"
-    },
-    {
      "title": "天丼てんや 2カ月連続で客約1割減",
      "link": "https://news.yahoo.co.jp/pickup/6600612?source=rss",
      "pubDate": "Thu, 29 Oct 2026 13:14:19 GMT"
-    },
-    {
-     "title": "槙野監督が訴え 誤審とJFA認める",
-     "link": "https://news.yahoo.co.jp/pickup/6600606?source=rss",
-     "pubDate": "Thu, 29 Oct 2026 12:28:21 GMT"
     },
     {
      "title": "楽天 高卒1年目の大栄を戦力外",
@@ -331,9 +326,14 @@
      "pubDate": "Thu, 29 Oct 2026 11:36:51 GMT"
     },
     {
-     "title": "Superfly越智志帆 第2子出産報告",
-     "link": "https://news.yahoo.co.jp/pickup/6600600?source=rss",
-     "pubDate": "Thu, 29 Oct 2026 12:02:49 GMT"
+     "title": "槙野監督が訴え 誤審とJFA認める",
+     "link": "https://news.yahoo.co.jp/pickup/6600606?source=rss",
+     "pubDate": "Thu, 29 Oct 2026 12:28:21 GMT"
+    },
+    {
+     "title": "元HKT48・朝長美桜 今は寿司職人",
+     "link": "https://news.yahoo.co.jp/pickup/6600622?source=rss",
+     "pubDate": "Thu, 29 Oct 2026 14:49:27 GMT"
     }
    ]
   }
