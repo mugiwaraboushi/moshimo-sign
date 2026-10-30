@@ -886,37 +886,58 @@ static void logMem() {
 // 接続の手順は httpGetString (String で受ける) と httpGetToBuf (char バッファで受ける) で共通 (v20)。
 static void httpGetInto(const String &url, int &code, bool wait, unsigned long timeoutMs, BodySink &out) {
   logMem();   // 計測 (v20)
-  HTTPClient http;
   code = -1;
   if (netMutex && xSemaphoreTake(netMutex, wait ? portMAX_DELAY : 0) != pdTRUE) {
     code = -2;   // 別の取得が進行中
     return;
   }
-  http.setTimeout(timeoutMs);
-  // Transfer-Encoding は自前の本文読み出し (readBody) がチャンクかどうかを見るのに使う。
-  const char *hdrs[] = {"Transfer-Encoding"};
-  http.collectHeaders(hdrs, 1);
-  // リダイレクト追従 (v0.10)。GASの /exec は script.googleusercontent.com への302を返すので、
-  // 追わないと本文が取れない。302(FOUND)はSTRICTでも追われるのでこれで足りる。
-  // リダイレクト先が別ホストでも、プロトコルが同じ(https→https)なら HTTPClient::setURL が通す。
-  if (url.startsWith("https")) {
-    NetworkClientSecure client;
-    client.setInsecure();  // GitHub Pages等の証明書検証を省略 (表示内容のみなので許容)
-    client.setHandshakeTimeout(10);
-    client.setTimeout(5);   // 本文読み出しが止まったまま吊られないよう5秒で諦める (v14)
-    if (http.begin(client, url)) {
-      http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
-      code = http.GET();
-      if (code == 200 && !readBody(http, out)) code = -2;   // 本文が読み切れなかった
-      http.end();
+  // リダイレクトは自分で追う (v22)。GASの /exec は script.googleusercontent.com への302を返す (v0.10)。
+  // HTTPClient に追わせると (setFollowRedirects)、最初の TLS 接続を抱えたまま転送先と
+  // 2本目のハンドシェイクをするらしく、GAS の取得だけがときどき -1 で落ちた
+  // (v21〜v22試験版の実機。GitHub Pages は転送が無いので落ちない)。
+  // 1回ごとに HTTPClient と TLS を作って捨て、前の接続のメモリを放してから次へ行く。
+  String cur = url;
+  for (int hop = 0; hop <= 5; hop++) {
+    bool redirected = false;
+    {
+      HTTPClient http;
+      http.setTimeout(timeoutMs);
+      http.setFollowRedirects(HTTPC_DISABLE_FOLLOW_REDIRECTS);
+      // Transfer-Encoding は自前の本文読み出し (readBody) がチャンクかどうかを見るのに使う。
+      // Location はリダイレクト先 (v22)。
+      const char *hdrs[] = {"Transfer-Encoding", "Location"};
+      http.collectHeaders(hdrs, 2);
+      if (cur.startsWith("https")) {
+        NetworkClientSecure client;
+        client.setInsecure();  // GitHub Pages等の証明書検証を省略 (表示内容のみなので許容)
+        client.setHandshakeTimeout(10);
+        client.setTimeout(5);   // 本文読み出しが止まったまま吊られないよう5秒で諦める (v14)
+        if (http.begin(client, cur)) {
+          code = http.GET();
+          if (code >= 300 && code < 400 && http.header("Location").length()) {
+            cur = http.header("Location");
+            redirected = true;
+          } else if (code == 200 && !readBody(http, out)) {
+            code = -2;   // 本文が読み切れなかった
+          }
+          http.end();
+        }
+        client.stop();   // ここで TLS のメモリを放す (このブロックを出ると client も消える)
+      } else {
+        if (http.begin(cur)) {
+          code = http.GET();
+          if (code >= 300 && code < 400 && http.header("Location").length()) {
+            cur = http.header("Location");
+            redirected = true;
+          } else if (code == 200 && !readBody(http, out)) {
+            code = -2;   // 本文が読み切れなかった
+          }
+          http.end();
+        }
+      }
     }
-  } else {
-    if (http.begin(url)) {
-      http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
-      code = http.GET();
-      if (code == 200 && !readBody(http, out)) code = -2;   // 本文が読み切れなかった
-      http.end();
-    }
+    if (!redirected) break;
+    if (hop == 5) { code = -3; Serial.println("[http] too many redirects"); }
   }
   if (netMutex) xSemaphoreGive(netMutex);
   if (code != 200) logMem();   // 計測 (v20)
