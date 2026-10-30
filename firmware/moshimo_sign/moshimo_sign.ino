@@ -37,6 +37,8 @@
  *    → 打った文字を 32px 太字でその場に出す。GAS を通さないので待ちもネットも要らない
  *    → eggWords に一致した文字は eggFrames の絵に差し替える (裏ルート)
  *  - インタールード: 流れる文字が一周するたびに絵を挟む (v20、playlist の "interlude")
+ *  - ブース入力の飾り枠: sayFrames の絵を背景に、届いた文字を枠の中に収めて出す (v23 試験)
+ *    → sayReplace:true なら表示中でも新しい文字にすぐ差し替える (バーコード読み取り用)
  *  - playlist の保存: LittleFS に /playlist.json を置き、ネット無しの再起動でも戻す (v20)
  *  - 複数色 (v21): frames[].layers で1枚の絵を色ごとに塗り分ける。
  *    messages の中に {#RRGGBB} を書くと、そこから先の文字の色が変わる ({#} で元の色に戻す)
@@ -275,6 +277,15 @@ static void cfgSerialPoll() {
     }
     String cmd = line;
     line = "";
+    // ブース入力をUSBシリアルから受ける (v23 試験)。会場にWiFiが無くても、PCとUSBでつなげば
+    // バーコードリーダーの文字を出せる (PC側は prototypes/barcode-booth/ が "say 文字" を送る)。
+    // 受け付けるのは sayEnabled のときだけ (Web の入力口と同じ開け閉め)
+    if (cmd.startsWith("say ")) {
+      if (!sayAccepting()) { Serial.println("[say] disabled"); continue; }
+      int st = sayEnqueue(cmd.substring(4));
+      Serial.printf("[say] serial %d\n", st);
+      continue;
+    }
     if (!cmd.startsWith("cfg ")) continue;
     String rest = cmd.substring(4);
 
@@ -603,6 +614,16 @@ static uint16_t plEggHoldMs[MAX_FRAMES];
 static FrameLayers plEggLayers;
 static int  plEggFrameCount = 0;
 static int  plEggMs = 4000;               // egg の再生時間 (1000〜20000)
+// 飾り枠 (v23 試験、さんままつりのバーコード企画)。sayFrames の絵を背景にして、届いた文字を
+// 真ん中の sayTextW ドットの幅に収めて出す (32px太字 → 32px → 16px太字 → 16px の順に試す)。
+// 収まらない長さは従来どおり 32px 太字で流す (背景なし)。sayFrames が無ければ従来の say と同じ。
+static uint8_t (*plSayBgData)[FRAME_BYTES] = nullptr;
+static uint16_t plSayBgColor[MAX_FRAMES];
+static uint16_t plSayBgHoldMs[MAX_FRAMES];
+static FrameLayers plSayBgLayers;
+static int  plSayBgCount = 0;
+static int  plSayTextW = PANEL_W;         // 文字を収める幅 (8〜PANEL_W)
+static bool plSayReplace = false;         // true: 表示中・順番待ちを捨てて新しい文字をすぐ出す
 
 // ---- インタールード (v20) ----
 // 流れる文字が左端まで流れ切った回数が every の倍数になったら、絵を1回だけ挟む。
@@ -1232,16 +1253,19 @@ static void countFrameNeed(JsonVariant arr, FrameNeed &need) {
 }
 
 // 本文から3組 (frames / eggFrames / interlude) の枚数を数える。読めなければ false
-static bool countFrameNeeds(const char *buf, size_t len, FrameNeed &fr, FrameNeed &egg, FrameNeed &il) {
+static bool countFrameNeeds(const char *buf, size_t len, FrameNeed &fr, FrameNeed &egg, FrameNeed &il,
+                            FrameNeed &sayBg) {
   JsonDocument filter;
   filter["frames"][0]["layers"][0]["color"] = true;
   filter["eggFrames"][0]["layers"][0]["color"] = true;
   filter["interlude"]["frames"][0]["layers"][0]["color"] = true;
+  filter["sayFrames"][0]["layers"][0]["color"] = true;
   JsonDocument shape;
   if (deserializeJson(shape, buf, len, DeserializationOption::Filter(filter))) return false;
   countFrameNeed(shape["frames"], fr);
   countFrameNeed(shape["eggFrames"], egg);
   countFrameNeed(shape["interlude"]["frames"], il);
+  countFrameNeed(shape["sayFrames"], sayBg);
   return true;
 }
 
@@ -1378,24 +1402,29 @@ static bool applyPlaylistBody(char *buf, size_t len, bool fromCache = false) {
 
   // 絵の置き場を、本番の解析より先に確保し直す (v22、「絵の置き場は解析の前に確保する」の節)。
   // 枚数を先に 0 にしてから放す (描画は同じ loop() 側なので、ここでは割り込まれない)。
-  FrameNeed needFr, needEgg, needIl;
-  if (!countFrameNeeds(buf, len, needFr, needEgg, needIl)) {
+  FrameNeed needFr, needEgg, needIl, needSayBg;
+  if (!countFrameNeeds(buf, len, needFr, needEgg, needIl, needSayBg)) {
     Serial.println("[playlist] JSON parse error");
     logMem();
     return false;   // 壊れたJSONを3秒ごとに取り直しても直らない。次の周期を待つ
   }
   plEggFrameCount = 0;
   plIlFrameCount = 0;
+  plSayBgCount = 0;
   free(plEggData); plEggData = nullptr;
   free(plIlData);  plIlData = nullptr;
+  free(plSayBgData); plSayBgData = nullptr;
   freeLayers(plEggLayers);
   freeLayers(plIlLayers);
+  freeLayers(plSayBgLayers);
   if (needFr.present) { plFrameCount = 0; freeLayers(plFrameLayers); }
   if (needFr.present) reserveLayers(plFrameLayers, needFr.layers, "frames");
   reserveFrames(plEggData, needEgg.frames, "eggFrames");
   reserveLayers(plEggLayers, needEgg.layers, "eggFrames");
   reserveFrames(plIlData, needIl.frames, "interlude");
   reserveLayers(plIlLayers, needIl.layers, "interlude");
+  reserveFrames(plSayBgData, needSayBg.frames, "sayFrames");
+  reserveLayers(plSayBgLayers, needSayBg.layers, "sayFrames");
 
   // ArduinoJson 7 にはゼロコピーが無い (7.0 で廃止) ので、文字列は doc 側に写される。
   // buf は書き換わらないので、保存は解析に成功してから行う (壊れた JSON で保存分を潰さない)。
@@ -1514,6 +1543,10 @@ static bool applyPlaylistBody(char *buf, size_t len, bool fromCache = false) {
   plEggFrameCount = parseFramesInto(doc["eggFrames"], plEggData, needEgg.frames, plEggColor, plEggHoldMs, plEggLayers);
   plIlFrameCount = parseFramesInto(doc["interlude"]["frames"], plIlData, needIl.frames, plIlColor, plIlHoldMs, plIlLayers);
   plIlEvery = doc["interlude"]["every"].is<int>() ? constrain((int)doc["interlude"]["every"], 1, 10) : 1;
+  // 飾り枠 (v23 試験)。キーが無ければ従来の say に戻る
+  plSayBgCount = parseFramesInto(doc["sayFrames"], plSayBgData, needSayBg.frames, plSayBgColor, plSayBgHoldMs, plSayBgLayers);
+  plSayTextW   = doc["sayTextW"].is<int>() ? constrain((int)doc["sayTextW"], 8, PANEL_W) : PANEL_W;
+  plSayReplace = doc["sayReplace"].is<bool>() ? (bool)doc["sayReplace"] : false;
   rebuildMarquee();
   Serial.println("[playlist] applied");
   logMem();   // 計測 (v20)
@@ -2098,6 +2131,7 @@ static bool sayNeedRestart = false;   // 開いているあいだに WiFi が切
 
 static String sayQueue[SAY_QUEUE_MAX];
 static int sayQHead = 0, sayQCount = 0;
+static bool sayInterrupt = false;   // sayReplace で新しい文字が来た → 表示中のものを打ち切る (v23 試験)
 
 static const char SAY_HTML[] PROGMEM = R"rawliteral(<!doctype html>
 <html lang="ja"><head><meta charset="utf-8">
@@ -2133,9 +2167,10 @@ static void sayHandleRoot() {
   sayServer.send_P(200, "text/html; charset=utf-8", SAY_HTML);
 }
 
-// trim → 制御文字を除く → 40文字で切る。空なら 400、キューが満杯なら 429。
-static void sayHandlePost() {
-  String raw = sayServer.arg("text");
+// trim → 制御文字を除く → 40文字で切る。空なら 400、キューが満杯なら 429、入れたら 200。
+// Web の入力口 (POST /say) と USB シリアル ("say 文字"、v23 試験) の両方から呼ぶ。
+static int sayEnqueue(const String &rawIn) {
+  String raw = rawIn;
   trimWide(raw);
   String t;
   t.reserve(raw.length());
@@ -2153,12 +2188,27 @@ static void sayHandlePost() {
     }
   }
   trimWide(t);   // 切った端に空白が残ったぶん
-  if (!t.length()) { sayServer.send(400, "text/plain", "empty"); return; }
-  if (sayQCount >= SAY_QUEUE_MAX) { sayServer.send(429, "text/plain", "busy"); return; }
+  if (!t.length()) return 400;
+  if (plSayReplace) {
+    // 後から来たものを優先する (v23 試験)。順番待ちを捨て、表示中のものも次の描画で打ち切る
+    for (int i = 0; i < SAY_QUEUE_MAX; i++) sayQueue[i] = "";
+    sayQHead = 0;
+    sayQCount = 0;
+    sayInterrupt = true;
+  }
+  if (sayQCount >= SAY_QUEUE_MAX) return 429;
   sayQueue[(sayQHead + sayQCount) % SAY_QUEUE_MAX] = t;
   sayQCount++;
   Serial.printf("[say] queued (%d文字)\n", utf8Count(t));
-  sayServer.send(200, "text/plain", "ok");
+  return 200;
+}
+
+// cfgSerialPoll() は plSayEnabled より前に書いてあるので、関数で聞く (Arduino が宣言を前に出す)
+static bool sayAccepting() { return plSayEnabled; }
+
+static void sayHandlePost() {
+  int st = sayEnqueue(sayServer.arg("text"));
+  sayServer.send(st, "text/plain", st == 200 ? "ok" : st == 429 ? "busy" : "empty");
 }
 
 static void sayHandleNotFound() {
@@ -2203,6 +2253,10 @@ enum SayState { SAY_IDLE, SAY_STATIC, SAY_SCROLL, SAY_EGG };
 static SayState sayState = SAY_IDLE;
 static uint16_t sayCps[SAY_MAX_CHARS + 1];
 static int sayLen = 0, sayW = 0;
+static int sayScale = 2;            // 飾り枠のときは幅に合わせて 1 / 2 を選ぶ (v23 試験)
+static bool sayBold = true;
+static int sayBgIdx = 0, sayBgDrawn = -1;
+static unsigned long sayBgSince = 0;
 static float sayX = 0;
 static unsigned long sayStartMs = 0;      // 表示を始めた時刻 (止めていた時間の計算にも使う)
 static unsigned long sayLastFrame = 0;
@@ -2246,7 +2300,23 @@ static void sayStartNext(unsigned long ms) {
     }
   }
   sayLen = decodeUtf8(t, sayCps, SAY_MAX_CHARS + 1);
+  sayScale = 2;
+  sayBold = true;
   sayW = textWidth(sayCps, sayLen, 2, true);
+  sayBgIdx = 0;
+  sayBgDrawn = -1;
+  sayBgSince = ms;
+  if (plSayBgCount > 0) {
+    // 飾り枠: 枠の内側 (sayTextW) に収まるいちばん大きい字を選ぶ
+    static const int SCALES[4] = {2, 2, 1, 1};
+    static const bool BOLDS[4] = {true, false, true, false};
+    for (int i = 0; i < 4; i++) {
+      int w = textWidth(sayCps, sayLen, SCALES[i], BOLDS[i]);
+      if (w <= plSayTextW) { sayScale = SCALES[i]; sayBold = BOLDS[i]; sayW = w; sayState = SAY_STATIC; return; }
+    }
+    sayScale = 2; sayBold = true;          // どれも収まらない → 背景なしで流す
+    sayW = textWidth(sayCps, sayLen, 2, true);
+  }
   if (sayW <= PANEL_W) {
     sayState = SAY_STATIC;
   } else {
@@ -2266,6 +2336,10 @@ static void sayFinish(unsigned long ms) {
 
 // say / egg を1回ぶん進める。表示中なら true (= loop() は元の mode を描かない)。
 static bool sayTick(unsigned long ms) {
+  if (sayInterrupt) {
+    sayInterrupt = false;
+    if (sayState != SAY_IDLE) sayFinish(ms);   // 表示中のものは打ち切り、すぐ次 (新しい文字) へ
+  }
   if (sayState == SAY_IDLE) {
     if (sayQCount == 0) return false;
     sayStartNext(ms);
@@ -2308,6 +2382,24 @@ static bool sayTick(unsigned long ms) {
       sayFinish(ms);
       return sayQCount > 0 ? sayTick(ms) : false;
     }
+  }
+  if (sayState == SAY_STATIC && plSayBgCount > 0) {
+    // 飾り枠: 背景の絵が変わったときだけ描き直す (文字は動かないので、毎回消して描くとちらつく)。
+    // 背景は消灯ドットも塗る描き方なので clearScreen は要らない
+    if (sayBgIdx >= plSayBgCount) { sayBgIdx = 0; sayBgDrawn = -1; }   // 表示中に playlist で減った
+    unsigned int guard = 0;
+    while (ms - sayBgSince >= (unsigned long)plSayBgHoldMs[sayBgIdx]) {
+      sayBgSince += plSayBgHoldMs[sayBgIdx];
+      sayBgIdx = (sayBgIdx + 1) % plSayBgCount;
+      if (++guard >= (unsigned int)plSayBgCount) { sayBgSince = ms; break; }
+    }
+    if (sayBgDrawn != sayBgIdx) {
+      sayBgDrawn = sayBgIdx;
+      drawFrame(plSayBgData[sayBgIdx], plSayBgColor[sayBgIdx], plSayBgLayers, sayBgIdx);
+      drawTextColored(sayCps, nullptr, nullptr, sayLen, (PANEL_W - sayW) / 2, (PANEL_H - 16 * sayScale) / 2,
+                      effColor(), false, sayScale, sayBold);
+    }
+    return true;
   }
   const int x = (sayState == SAY_STATIC) ? (PANEL_W - sayW) / 2 : (int)sayX;
   const int y = (PANEL_H - 32) / 2;
