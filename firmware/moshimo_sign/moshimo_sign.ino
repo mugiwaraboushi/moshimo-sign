@@ -922,6 +922,13 @@ static void httpGetInto(const String &url, int &code, bool wait, unsigned long t
           }
           http.end();
         }
+        if (code < 0) {
+          // どの転送の段で、TLS が何で落ちたかを残す (v22 の切り分け用)
+          char err[96] = "";
+          int e = client.lastError(err, sizeof(err));
+          Serial.printf("[http] hop %d code %d tls %d (%s) host=%s\n", hop, code, e, err,
+                        cur.substring(8, cur.indexOf('/', 8)).c_str());
+        }
         client.stop();   // ここで TLS のメモリを放す (このブロックを出ると client も消える)
       } else {
         if (http.begin(cur)) {
