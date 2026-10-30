@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T16:03:03.903Z",
+ "updatedAt": "2026-10-30T20:54:46.789Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,14 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【不正アクセス】個人情報流出などの発表相次ぐ（10月30日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68227",
-     "pubDate": "Fri, 30 Oct 2026 23:41:21 +0900"
+     "title": "日銀 物価2％到達で定着に軸足移す 利上げどう進めるか焦点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68799",
+     "pubDate": "Sat, 31 Oct 2026 05:01:25 +0900"
     },
     {
-     "title": "日銀 政策金利据え置き 物価2％「ひとつの節目」 利上げは継続",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68221",
-     "pubDate": "Fri, 30 Oct 2026 19:31:00 +0900"
+     "title": "北海道 特急列車とクマが衝突 現場に停止し運転再開めど立たず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68820",
+     "pubDate": "Sat, 31 Oct 2026 04:39:03 +0900"
+    },
+    {
+     "title": "消費税減税法案 与党 採決日程探る 野党“高市首相出席を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68800",
+     "pubDate": "Sat, 31 Oct 2026 05:03:40 +0900"
+    },
+    {
+     "title": "スペイン高速鉄道事故 先行列車に何らかのトラブルか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68821",
+     "pubDate": "Sat, 31 Oct 2026 05:25:35 +0900"
     },
     {
      "title": "東大総長選 選考会議が詳しい選考の経緯を公表",
@@ -23,24 +33,14 @@
      "pubDate": "Fri, 30 Oct 2026 22:56:22 +0900"
     },
     {
-     "title": "固定型住宅ローン金利 大手4行が11月から引き下げ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68724",
-     "pubDate": "Fri, 30 Oct 2026 20:54:53 +0900"
-    },
-    {
-     "title": "ジャングリア沖縄“新スポンサー探し半年程度かけて進めたい”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68752",
-     "pubDate": "Fri, 30 Oct 2026 21:18:36 +0900"
+     "title": "辺野古沖転覆事故 同志社会見に遺族「説明責任真剣に考えて」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68798",
+     "pubDate": "Sat, 31 Oct 2026 05:30:00 +0900"
     },
     {
      "title": "岐阜でアジア最古のシカの化石 新種「ミズナミジカ」と命名",
      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68743",
      "pubDate": "Fri, 30 Oct 2026 20:54:00 +0900"
-    },
-    {
-     "title": "松江 給食で約300人体調不良 焼き魚のヒスタミンによる食中毒",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68361",
-     "pubDate": "Fri, 30 Oct 2026 22:59:38 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "辺野古沖転覆事故 同志社会見に遺族「説明責任真剣に考えて」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68798",
+     "pubDate": "Sat, 31 Oct 2026 05:30:00 +0900"
+    },
+    {
+     "title": "北海道 特急列車とクマが衝突 現場に停止し運転再開めど立たず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68820",
+     "pubDate": "Sat, 31 Oct 2026 04:39:03 +0900"
+    },
     {
      "title": "日本交通 不正アクセスで29万人の個人情報漏えいおそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68790",
@@ -113,16 +123,6 @@
      "title": "110番で「ショウリンジ」と叫ぶ 小中学生4人補導 広島県警",
      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68510",
      "pubDate": "Fri, 30 Oct 2026 16:28:14 +0900"
-    },
-    {
-     "title": "都立六本木高 生徒が別生徒を包丁で刺したか 殺人未遂疑い逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68449",
-     "pubDate": "Fri, 30 Oct 2026 17:49:04 +0900"
-    },
-    {
-     "title": "水道管工事現場で2人死亡 水と土砂に埋もれたか 愛知 安城",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68443",
-     "pubDate": "Fri, 30 Oct 2026 15:09:07 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "スペイン高速鉄道事故 先行列車に何らかのトラブルか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68821",
+     "pubDate": "Sat, 31 Oct 2026 05:25:35 +0900"
+    },
+    {
+     "title": "ナスダック指数一時3％余下落 AI投資への懸念再燃",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68814",
+     "pubDate": "Sat, 31 Oct 2026 03:07:22 +0900"
+    },
+    {
      "title": "フィリピンのミンダナオ島に自治政府発足 日本も長年支援",
      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68792",
      "pubDate": "Sat, 31 Oct 2026 00:41:06 +0900"
@@ -277,16 +287,6 @@
      "title": "米アマゾン クラウドサービス「AWS」堅調で増収",
      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68259",
      "pubDate": "Fri, 30 Oct 2026 12:12:36 +0900"
-    },
-    {
-     "title": "イラン情勢で米軍司令官がトランプ大統領に直接説明 米報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68228",
-     "pubDate": "Fri, 30 Oct 2026 12:02:32 +0900"
-    },
-    {
-     "title": "米制裁で入国困難なICC赤根所長 国連総会は動画で報告へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68271",
-     "pubDate": "Fri, 30 Oct 2026 11:59:00 +0900"
     }
    ]
   },
