@@ -142,6 +142,19 @@ Discord経由でメンバーからの依頼を受けてプロトタイプを作�
   - `frames` は 24 枚まで (`MAX_FRAMES`)。25 枚目以降は実機に出ない
 - 実行後は「1〜2分で実機に反映されます」と添える
 
+## 「バーコードモードにして」と言われたとき (さんままつり 2026-11-01)
+
+バーコード企画のブース用プリセット。**ファームウェア v23 (`sayFrames` / `sayReplace` / USB シリアルの `say`) が要る**
+(試験中、ブランチ `feat/booth-barcode`)。v23 が実機に入っていないうちは「次のファーム版から」と返す。
+
+- `playlist.json` を `data/presets/sanma-barcode.json` の中身にする。ただし `fwPing` だけは今の値を残す
+- 会場はネットが無いので、実機は**最後に取れた playlist を保存分から出す**。前日までに切り替えて、
+  実機が一度取りに来たこと (1〜2分) を確かめておく
+- PC は `prototypes/barcode-booth/` を Chrome / Edge で開き、掲示板と USB でつなぐ
+- 本文は 24KB 未満 (いまは約23KB)。絵を足すときは他を削る
+- 戻すときは「通常に戻して」と同じ (sayEnabled:false、frames / eggFrames / interlude を消す)。
+  あわせて `sayFrames` / `sayReplace` / `sayTextW` / `sayHoldMs` も消し、`hoursUrl` と `topText`・`messages` を元に戻す
+
 ## 実機について
 
 - 実機は**現在設置準備中**。設置場所・ネットワーク構成は公開情報にしないため、
