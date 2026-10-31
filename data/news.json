@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T20:07:14.530Z",
+ "updatedAt": "2026-10-31T23:29:15.301Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "【地震情報】福島県で震度3 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69068",
+     "pubDate": "Sun, 01 Nov 2026 07:21:00 +0900"
+    },
+    {
+     "title": "クアッド外相 中国念頭に経済的威圧へ懸念共有 首脳会合へ連携",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de69039",
+     "pubDate": "Sun, 01 Nov 2026 06:17:00 +0900"
+    },
+    {
+     "title": "GMO 子会社が2年前にシステムのぜい弱性を指摘 社長あす会見へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de69037",
+     "pubDate": "Sun, 01 Nov 2026 05:09:50 +0900"
+    },
+    {
+     "title": "アメリカ中間選挙の期日前投票 すでに前回上回る ローマ教皇も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69054",
+     "pubDate": "Sun, 01 Nov 2026 05:52:10 +0900"
+    },
+    {
+     "title": "茂木外相 ロシア外相と率直な意見交換 記者解放へ働きかけ継続",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69063",
+     "pubDate": "Sun, 01 Nov 2026 06:51:22 +0900"
+    },
+    {
      "title": "GMOの被害者情報集める不審サイト ハッカー側と関連か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de69043",
      "pubDate": "Sun, 01 Nov 2026 00:08:00 +0900"
     },
     {
-     "title": "GMO 子会社がシステムぜい弱性を2年前に指摘 来週2日に会見へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de69024",
-     "pubDate": "Sat, 31 Oct 2026 20:55:00 +0900"
-    },
-    {
-     "title": "“捕獲後に山に放した個体” クマ再出没し駆除 神奈川 秦野",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68899",
-     "pubDate": "Sat, 31 Oct 2026 19:16:00 +0900"
-    },
-    {
-     "title": "米中間選挙 最終盤 トランプ大統領 遊説中止発表も一転開催へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68862",
-     "pubDate": "Sat, 31 Oct 2026 17:55:00 +0900"
-    },
-    {
-     "title": "北海道 JR宗谷線特急 ヒグマと衝突で脱線 1日も運転見合わせ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68820",
-     "pubDate": "Sat, 31 Oct 2026 19:22:00 +0900"
-    },
-    {
-     "title": "スペイン高速列車事故 “後続列車に停止措置とらず 信号も青”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68821",
-     "pubDate": "Sat, 31 Oct 2026 17:42:00 +0900"
-    },
-    {
-     "title": "クラブツーリズム 不正アクセスで約432万件の個人情報漏えいか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de69034",
-     "pubDate": "Sat, 31 Oct 2026 22:55:26 +0900"
+     "title": "ハロウィーン 東京 渋谷は混雑も“大きなトラブルなし”警視庁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69057",
+     "pubDate": "Sun, 01 Nov 2026 06:15:00 +0900"
     }
    ]
   },
@@ -49,6 +49,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（11月1日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de69022",
+     "pubDate": "Sun, 01 Nov 2026 06:49:52 +0900"
+    },
+    {
+     "title": "ハロウィーン 東京 渋谷は混雑も“大きなトラブルなし”警視庁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69057",
+     "pubDate": "Sun, 01 Nov 2026 06:15:00 +0900"
+    },
     {
      "title": "GMOの被害者情報集める不審サイト ハッカー側と関連か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de69043",
@@ -113,16 +123,6 @@
      "title": "辺野古沖転覆事故 同志社理事長が会見 “教育の中立性に問題”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68678",
      "pubDate": "Fri, 30 Oct 2026 19:34:00 +0900"
-    },
-    {
-     "title": "高級時計窃盗事件 男が事前に施設内うろつく様子 防犯カメラに",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68647",
-     "pubDate": "Fri, 30 Oct 2026 19:23:00 +0900"
-    },
-    {
-     "title": "使わないで！ハロウィーン仮装ナース服などに「赤十字マーク」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68476",
-     "pubDate": "Fri, 30 Oct 2026 17:43:14 +0900"
     }
    ]
   },
@@ -132,9 +132,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "日本のアニメ産業市場 初の4兆円超 海外好調続き5年連続最高値",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de69030",
+     "pubDate": "Sun, 01 Nov 2026 05:11:00 +0900"
+    },
+    {
+     "title": "GMO 子会社が2年前にシステムのぜい弱性を指摘 社長あす会見へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de69037",
+     "pubDate": "Sun, 01 Nov 2026 05:09:50 +0900"
+    },
+    {
      "title": "クラブツーリズム 不正アクセスで約432万件の個人情報漏えいか",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de69034",
-     "pubDate": "Sat, 31 Oct 2026 22:55:26 +0900"
+     "pubDate": "Sat, 31 Oct 2026 22:55:00 +0900"
     },
     {
      "title": "GMO 子会社がシステムぜい弱性を2年前に指摘 来週2日に会見へ",
@@ -195,16 +205,6 @@
      "title": "iPSパーキンソン病治療 承認後1例目の治療実施",
      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68495",
      "pubDate": "Fri, 30 Oct 2026 17:45:37 +0900"
-    },
-    {
-     "title": "無印良品 不正アクセスで最大2726万件の個人情報 流出のおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68460",
-     "pubDate": "Fri, 30 Oct 2026 16:51:12 +0900"
-    },
-    {
-     "title": "人気SFドラマ「スター・トレック」出演の英俳優死去",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68418",
-     "pubDate": "Fri, 30 Oct 2026 15:11:00 +0900"
     }
    ]
   },
@@ -213,6 +213,36 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "G20外相会合閉幕 茂木外相“サプライチェーンでもG20協調を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69059",
+     "pubDate": "Sun, 01 Nov 2026 06:53:08 +0900"
+    },
+    {
+     "title": "茂木外相 ロシア外相と率直な意見交換 記者解放へ働きかけ継続",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69063",
+     "pubDate": "Sun, 01 Nov 2026 06:51:22 +0900"
+    },
+    {
+     "title": "クアッド外相 中国念頭に経済的威圧へ懸念共有 首脳会合へ連携",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de69039",
+     "pubDate": "Sun, 01 Nov 2026 06:17:00 +0900"
+    },
+    {
+     "title": "フランスで再び大規模デモ 32万人参加 一部で治安部隊と衝突も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69060",
+     "pubDate": "Sun, 01 Nov 2026 06:13:21 +0900"
+    },
+    {
+     "title": "アメリカ中間選挙の期日前投票 すでに前回上回る ローマ教皇も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69054",
+     "pubDate": "Sun, 01 Nov 2026 05:52:10 +0900"
+    },
+    {
+     "title": "イラン外交団が仲介国で協議 最高指導者は大規模反撃を指示",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69050",
+     "pubDate": "Sun, 01 Nov 2026 05:50:43 +0900"
+    },
     {
      "title": "ウクライナ南部の停戦で住民退避が終了 和平進展につながるか",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de69033",
@@ -257,36 +287,6 @@
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月31日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53364",
      "pubDate": "Sat, 31 Oct 2026 10:01:42 +0900"
-    },
-    {
-     "title": "トランプ政権 ウクライナに迎撃ミサイルなど売却へ 21億ドル",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68846",
-     "pubDate": "Sat, 31 Oct 2026 09:19:00 +0900"
-    },
-    {
-     "title": "日トルコ外相会談“ホルムズ海峡など安全航行の回復が急務”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68843",
-     "pubDate": "Sat, 31 Oct 2026 08:01:19 +0900"
-    },
-    {
-     "title": "ドイツ メルツ首相 EV優遇措置巡る懸念 EU首脳会談で検討へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68839",
-     "pubDate": "Sat, 31 Oct 2026 07:45:00 +0900"
-    },
-    {
-     "title": "カナダのEU「準加盟国」構想 首脳会合で双方が意欲",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68835",
-     "pubDate": "Sat, 31 Oct 2026 07:38:00 +0900"
-    },
-    {
-     "title": "ロシア独立系新聞が編集部閉鎖へ ノーベル委員会「深く憂慮」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68828",
-     "pubDate": "Sat, 31 Oct 2026 06:37:00 +0900"
-    },
-    {
-     "title": "“過去最大級被害”暗号資産大手バイナンス 複雑な攻撃あった",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68827",
-     "pubDate": "Sat, 31 Oct 2026 09:21:59 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "ウが製油所攻撃再開 ロシア副首相",
-     "link": "https://news.yahoo.co.jp/pickup/6600866?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 12:40:32 GMT"
+     "title": "モスクワでテロ計画 米が露に警告",
+     "link": "https://news.yahoo.co.jp/pickup/6600883?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 22:41:29 GMT"
     },
     {
-     "title": "参政・神谷氏 独AfD幹部と共鳴",
-     "link": "https://news.yahoo.co.jp/pickup/6600861?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 12:20:14 GMT"
+     "title": "日米豪印外相会談 AIなど協力確認",
+     "link": "https://news.yahoo.co.jp/pickup/6600886?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 22:50:15 GMT"
     },
     {
-     "title": "GMOが11/2に記者会見 社長出席",
-     "link": "https://news.yahoo.co.jp/pickup/6600879?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 14:53:29 GMT"
+     "title": "米国版凱旋門 建設中止求め提訴",
+     "link": "https://news.yahoo.co.jp/pickup/6600891?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 23:09:10 GMT"
     },
     {
-     "title": "クラブツーリズム 432万件流出か",
-     "link": "https://news.yahoo.co.jp/pickup/6600875?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 14:04:30 GMT"
+     "title": "ボンネットに人乗せ走行疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6600880?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 22:18:42 GMT"
     },
     {
-     "title": "古着「オールドユニクロ」とは",
-     "link": "https://news.yahoo.co.jp/pickup/6600869?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 13:00:26 GMT"
+     "title": "ハロウィン 渋谷に集まった人の声",
+     "link": "https://news.yahoo.co.jp/pickup/6600887?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 22:37:12 GMT"
     },
     {
-     "title": "路上プロレス一転中止 天心が説明",
-     "link": "https://news.yahoo.co.jp/pickup/6600876?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 14:02:10 GMT"
+     "title": "フォーエバーヤング 連覇ならず",
+     "link": "https://news.yahoo.co.jp/pickup/6600893?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 23:18:51 GMT"
     },
     {
-     "title": "サンド伊達 言えない言葉いくつか",
-     "link": "https://news.yahoo.co.jp/pickup/6600864?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 12:28:46 GMT"
+     "title": "「DOWNTOWN+」1年 今後の期待",
+     "link": "https://news.yahoo.co.jp/pickup/6600892?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 23:15:51 GMT"
     },
     {
-     "title": "新山千春 母の病判明時はショック",
-     "link": "https://news.yahoo.co.jp/pickup/6600863?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 12:08:27 GMT"
+     "title": "新田真剣佑が改名 前田真剣佑に",
+     "link": "https://news.yahoo.co.jp/pickup/6600884?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 22:26:47 GMT"
     }
    ]
   }
