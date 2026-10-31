@@ -67,7 +67,7 @@
 - 見た目の確認はビューアで: `prototypes/board/?text=…&scale=2&bold=1`
 - v17以前の実機はこの2つを無視する (16px・細字のまま流れる)
 
-### 1文字ごとの色 {#RRGGBB} (v21〜 予定・レビュー前)
+### 1文字ごとの色 {#RRGGBB} (v21〜)
 
 `messages` の文の中に `{#RRGGBB}` を書くと、そこから先の文字がその色になる。`{#}` で既定の色
 (`colorScroll`、`"rainbow"` なら虹色) に戻る。
@@ -167,7 +167,7 @@
 | `frames[].color` | string | 発光色。RGB 16進6桁 (`colorTop` と同じ形式) | `colorTop` の値 |
 | `frames[].hold` | number | 表示秒数 (1〜60) | `8` |
 | `frames[].holdMs` | number | 表示時間をミリ秒で指定 (20〜60000)。**`hold` より優先**。コマ送り用 (v2.1先行) | — |
-| `frames[].layers` | array | 塗り分け用の重ね絵 `[{ "d": "…342文字…", "color": "27E0FF" }, …]` (v21〜 予定・レビュー前。下の「塗り分け」) | — |
+| `frames[].layers` | array | 塗り分け用の重ね絵 `[{ "d": "…342文字…", "color": "27E0FF" }, …]` (v21〜。下の「塗り分け」) | — |
 
 コマ送りの絵 (複数枚の frames) は `data/frames/<名前>.json` に frames の配列として置く
 (例: `sanma.json` / `sanma-interlude.json` / `moshimo-kun.json`)。[`prototypes/frames-preview/`](../prototypes/frames-preview/) で再生して確かめられる。
@@ -186,7 +186,7 @@ URLから手で切り出す場合は、`#s=1&c=0&d=XXXX` の **`d=` 以降がそ
 |---|---|---|---|---|---|---|
 | `color` | `FF9C00` | `FF3B30` | `2EFF5E` | `27E0FF` | `FFFFFF` | `3B7BFF` |
 
-#### 塗り分け layers (v21〜 予定・レビュー前)
+#### 塗り分け layers (v21〜)
 
 1枚の絵の中で色を塗り分けるときは、**色ごとに1bitの絵を分けて** `layers` に重ねる。
 `d` / `color` が下地、`layers` が上に重ねる絵で、重ね絵は点灯しているドットだけを上書きする
@@ -566,6 +566,9 @@ v20 からは実機自身が **LAN 内に小さな入力ページ** を持ち、
 | `interlude` | object | なし | 流れる文字が一周するたびに挟む絵。`{"frames":[…], "every":N}` |
 | `interlude.frames` | object[] | — | `frames` と同じ形式 (最大 24 枚)。各コマ `holdMs` で 1 回だけ流す |
 | `interlude.every` | int | `1` | 何周に 1 回挟むか (1〜10) |
+| `sayFrames` | object[] | なし | 打った文字の背景に出す絵 (飾り枠、v23〜)。`frames` と同じ形式 (最大 24 枚、`layers` 可)。コマ送りで繰り返す |
+| `sayTextW` | int | `64` | `sayFrames` があるとき、文字を収める真ん中の幅 (8〜64 dot、v23〜) |
+| `sayReplace` | bool | `false` | `true` なら表示中・順番待ちを捨てて、後から来た文字をすぐ出す (v23〜。バーコード読み取り向け) |
 
 - この 5 キーと `interlude` は「省略 = 現在値を維持」**ではなく**、キーが無ければ既定に戻る
   (`scrollScale` と同じ扱い)。消せば入力口は閉じ、裏ルートも絵も無くなる
@@ -588,6 +591,23 @@ v20 からは実機自身が **LAN 内に小さな入力ページ** を持ち、
   - `scroll` (1 段) のときは絵が全面に出る
   - `mode:"frames"` のときと、say / egg を出しているあいだは挟まない
 
+- **飾り枠 (v23〜)**: `sayFrames` があるときは、その絵を背景にして、文字を真ん中の `sayTextW` の幅に収まる
+  いちばん大きい字で止めて出す (32px 太字 → 32px → 16px 太字 → 16px の順に試す)。どれでも収まらない長さは
+  背景なしで従来どおり流す。例: 両端に 11dot ずつ絵を置いて `sayTextW:42` なら、英数字は 2 文字まで 32px、
+  5 文字 (`SANMA`) まで 16px で収まる。枠の例は `data/frames/say-moshimo-frame.json`
+- **後勝ち (v23〜)**: `sayReplace:true` のときは順番待ちをせず、表示中のものも打ち切って新しい文字を出す
+
+### USB シリアルからの入力 (v23〜)
+
+会場に WiFi が無いときは、PC と実機を USB でつないで送れる。115200bps のシリアルに
+**`say 文字` の 1 行** (改行で終わる) を送ると、入力ページから送ったのと同じに扱う
+(`sayEnabled:true` のときだけ。`false` なら `[say] disabled` と返して捨てる)。
+
+- PC 側のページ: [`prototypes/barcode-booth/`](../prototypes/barcode-booth/) (Chrome / Edge の Web Serial)。
+  バーコードリーダー (USB キーボードとして文字 + Enter を打つ) の入力をそのまま 1 行ずつ送る
+- 返事は `[say] serial 200` (受け付けた) / `400` (空) / `429` (順番待ちがいっぱい)
+- PC からシリアルを開くと実機が一度再起動することがある (数秒で戻る。保存した playlist で立ち上がる)
+
 ### ブースでの使い方
 
 1. `playlist.json` に `"sayEnabled": true` を書いて push する (1〜2 分で実機に反映)
@@ -599,6 +619,12 @@ v20 からは実機自身が **LAN 内に小さな入力ページ** を持ち、
 - 入力ページに認証は無い。**同じ LAN にいる人なら誰でも打てる**ので、開けるのはブースで使うあいだだけにする
 - 1 回に送れるのは 40 文字まで。前後の空白と改行などの制御文字は落とす
 - 打たれた文言そのものは実機のログに残さない (文字数だけ出す)
+
+### さんままつりのバーコード企画 (2026-11-01)
+
+ブース用のプリセットは [`data/presets/sanma-barcode.json`](../data/presets/sanma-barcode.json) (約 23KB)。
+待機中は案内文 + 下半分を泳ぐさんま (`interlude`)、読み取ったときは もしもくんの枠 (`sayFrames`) の中に文字を 5 秒。
+会場はネットが無いので、**前日までにこのプリセットに切り替えて、実機が一度取りに来たことを確かめておく** (保存分で動く)。
 
 ### playlist の保存 (ネット無しの再起動対策)
 
