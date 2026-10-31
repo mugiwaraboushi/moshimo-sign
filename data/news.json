@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T00:12:55.993Z",
+ "updatedAt": "2026-10-31T05:58:52.928Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "北海道 JR宗谷線特急とヒグマ衝突で脱線 終日一部運転見合わせ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68820",
+     "pubDate": "Sat, 31 Oct 2026 13:59:02 +0900"
+    },
+    {
+     "title": "“捕獲後に山に放した個体”とみられるクマを捕獲 神奈川 秦野",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68899",
+     "pubDate": "Sat, 31 Oct 2026 12:59:00 +0900"
+    },
+    {
+     "title": "NBA 八村塁 2試合ぶりに先発し12得点 チームは4連敗",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68904",
+     "pubDate": "Sat, 31 Oct 2026 13:44:00 +0900"
+    },
+    {
+     "title": "日米韓外相“3か国の結束は地域の要” 協力のすそ野拡大へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68857",
+     "pubDate": "Sat, 31 Oct 2026 10:38:00 +0900"
+    },
+    {
+     "title": "トランプ政権 ウクライナに迎撃ミサイルなど売却へ 21億ドル",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68846",
+     "pubDate": "Sat, 31 Oct 2026 09:19:00 +0900"
+    },
+    {
+     "title": "中国 製造業の景況感指数PMI 「50」下回る 内需の弱さを反映",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68892",
+     "pubDate": "Sat, 31 Oct 2026 13:19:00 +0900"
+    },
+    {
      "title": "5年ぶり日ロ外相会談 茂木外相 北海道新聞記者の即時解放要請",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68824",
-     "pubDate": "Sat, 31 Oct 2026 06:59:22 +0900"
-    },
-    {
-     "title": "“過去最大級被害”暗号資産大手バイナンス 複雑な攻撃あった",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68827",
-     "pubDate": "Sat, 31 Oct 2026 06:21:25 +0900"
-    },
-    {
-     "title": "ウクライナ情勢 局地停戦で住民退避も攻撃応酬続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68816",
-     "pubDate": "Sat, 31 Oct 2026 06:06:47 +0900"
-    },
-    {
-     "title": "G20外相会合が開幕 茂木外相“G20各国が連携・協調を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68825",
-     "pubDate": "Sat, 31 Oct 2026 06:47:18 +0900"
-    },
-    {
-     "title": "辺野古沖転覆事故 同志社会見に遺族「説明責任真剣に考えて」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68798",
-     "pubDate": "Sat, 31 Oct 2026 05:30:00 +0900"
-    },
-    {
-     "title": "スペイン高速鉄道事故 先行列車に何らかのトラブルか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68821",
-     "pubDate": "Sat, 31 Oct 2026 05:25:35 +0900"
-    },
-    {
-     "title": "東大総長選 選考会議が詳しい選考の経緯を公表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68783",
-     "pubDate": "Fri, 30 Oct 2026 22:56:22 +0900"
+     "pubDate": "Sat, 31 Oct 2026 06:59:00 +0900"
     }
    ]
   },
@@ -50,9 +50,14 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "“捕獲後に山に放した個体”とみられるクマを捕獲 神奈川 秦野",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68899",
+     "pubDate": "Sat, 31 Oct 2026 12:59:00 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（10月31日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68541",
-     "pubDate": "Sat, 31 Oct 2026 06:51:49 +0900"
+     "pubDate": "Sat, 31 Oct 2026 14:04:08 +0900"
     },
     {
      "title": "辺野古沖転覆事故 同志社会見に遺族「説明責任真剣に考えて」",
@@ -60,9 +65,9 @@
      "pubDate": "Sat, 31 Oct 2026 05:30:00 +0900"
     },
     {
-     "title": "北海道 特急列車とクマが衝突 現場に停止し運転再開めど立たず",
+     "title": "北海道 JR宗谷線特急とヒグマ衝突で脱線 終日一部運転見合わせ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68820",
-     "pubDate": "Sat, 31 Oct 2026 04:39:03 +0900"
+     "pubDate": "Sat, 31 Oct 2026 13:59:02 +0900"
     },
     {
      "title": "日本交通 不正アクセスで29万人の個人情報漏えいおそれ",
@@ -118,11 +123,6 @@
      "title": "法人税の申告総額3兆円余増加し過去最高 源泉所得税も 国税庁",
      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68515",
      "pubDate": "Fri, 30 Oct 2026 16:58:00 +0900"
-    },
-    {
-     "title": "トクリュウ対策で通信アプリ遠隔把握の法案 衆議院で審議入り",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68230",
-     "pubDate": "Fri, 30 Oct 2026 16:31:49 +0900"
     }
    ]
   },
@@ -204,7 +204,7 @@
     {
      "title": "【不正アクセス】個人情報流出などの発表相次ぐ（10月30日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68227",
-     "pubDate": "Fri, 30 Oct 2026 23:41:21 +0900"
+     "pubDate": "Fri, 30 Oct 2026 23:41:00 +0900"
     }
    ]
   },
@@ -214,6 +214,26 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "中国 製造業の景況感指数PMI 「50」下回る 内需の弱さを反映",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68892",
+     "pubDate": "Sat, 31 Oct 2026 13:19:00 +0900"
+    },
+    {
+     "title": "日米韓外相“3か国の結束は地域の要” 協力のすそ野拡大へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68857",
+     "pubDate": "Sat, 31 Oct 2026 10:38:00 +0900"
+    },
+    {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月31日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53364",
+     "pubDate": "Sat, 31 Oct 2026 10:01:42 +0900"
+    },
+    {
+     "title": "トランプ政権 ウクライナに迎撃ミサイルなど売却へ 21億ドル",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68846",
+     "pubDate": "Sat, 31 Oct 2026 09:19:00 +0900"
+    },
+    {
      "title": "日トルコ外相会談“ホルムズ海峡など安全航行の回復が急務”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68843",
      "pubDate": "Sat, 31 Oct 2026 08:01:19 +0900"
@@ -221,7 +241,7 @@
     {
      "title": "ドイツ メルツ首相 EV優遇措置巡る懸念 EU首脳会談で検討へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68839",
-     "pubDate": "Sat, 31 Oct 2026 07:45:36 +0900"
+     "pubDate": "Sat, 31 Oct 2026 07:45:00 +0900"
     },
     {
      "title": "カナダのEU「準加盟国」構想 首脳会合で双方が意欲",
@@ -231,12 +251,12 @@
     {
      "title": "ロシア独立系新聞が編集部閉鎖へ ノーベル委員会「深く憂慮」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68828",
-     "pubDate": "Sat, 31 Oct 2026 06:37:24 +0900"
+     "pubDate": "Sat, 31 Oct 2026 06:37:00 +0900"
     },
     {
      "title": "“過去最大級被害”暗号資産大手バイナンス 複雑な攻撃あった",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68827",
-     "pubDate": "Sat, 31 Oct 2026 06:21:25 +0900"
+     "pubDate": "Sat, 31 Oct 2026 09:21:59 +0900"
     },
     {
      "title": "習主席「EUは中国と経済グローバル化推進を」貿易摩擦を念頭に",
@@ -246,7 +266,7 @@
     {
      "title": "G20外相会合が開幕 茂木外相“G20各国が連携・協調を”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68825",
-     "pubDate": "Sat, 31 Oct 2026 06:47:18 +0900"
+     "pubDate": "Sat, 31 Oct 2026 06:47:00 +0900"
     },
     {
      "title": "ウクライナ情勢 局地停戦で住民退避も攻撃応酬続く",
@@ -256,37 +276,17 @@
     {
      "title": "米のイラン攻撃回避に向け仲介外交 ホルムズでタンカー炎上も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68818",
-     "pubDate": "Sat, 31 Oct 2026 06:03:58 +0900"
+     "pubDate": "Sat, 31 Oct 2026 06:03:00 +0900"
     },
     {
      "title": "5年ぶり日ロ外相会談 茂木外相 北海道新聞記者の即時解放要請",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68824",
-     "pubDate": "Sat, 31 Oct 2026 06:59:22 +0900"
+     "pubDate": "Sat, 31 Oct 2026 06:59:00 +0900"
     },
     {
      "title": "スペイン高速鉄道事故 先行列車に何らかのトラブルか",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68821",
      "pubDate": "Sat, 31 Oct 2026 05:25:35 +0900"
-    },
-    {
-     "title": "ナスダック指数一時3.85％下落 AI投資への懸念再燃",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68814",
-     "pubDate": "Sat, 31 Oct 2026 07:33:07 +0900"
-    },
-    {
-     "title": "フィリピンのミンダナオ島に自治政府発足 日本も長年支援",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68792",
-     "pubDate": "Sat, 31 Oct 2026 00:41:06 +0900"
-    },
-    {
-     "title": "ユーロ圏GDP 7月から9月期 伸び率プラス0.4% 2期ぶり縮小",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68772",
-     "pubDate": "Fri, 30 Oct 2026 22:04:45 +0900"
-    },
-    {
-     "title": "中国の海洋調査船 沖縄 波照間島沖EEZ内で活動 海保中止求める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68739",
-     "pubDate": "Fri, 30 Oct 2026 21:35:25 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "トランプ氏 選挙遊説巡り二転三転",
-     "link": "https://news.yahoo.co.jp/pickup/6600759?source=rss",
-     "pubDate": "Fri, 30 Oct 2026 23:56:19 GMT"
+     "title": "台風31号 11/4～小笠原諸島接近か",
+     "link": "https://news.yahoo.co.jp/pickup/6600811?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 05:10:27 GMT"
     },
     {
-     "title": "転覆 同志社会見に遺族コメント",
-     "link": "https://news.yahoo.co.jp/pickup/6600752?source=rss",
-     "pubDate": "Fri, 30 Oct 2026 23:15:38 GMT"
+     "title": "1日早朝 関東などISS観測好条件",
+     "link": "https://news.yahoo.co.jp/pickup/6600812?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 05:34:22 GMT"
     },
     {
-     "title": "列車とクマ衝突 乗客は車内で一夜",
-     "link": "https://news.yahoo.co.jp/pickup/6600754?source=rss",
-     "pubDate": "Fri, 30 Oct 2026 23:20:02 GMT"
+     "title": "半導体大手インテル 株価29%急落",
+     "link": "https://news.yahoo.co.jp/pickup/6600804?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 04:17:02 GMT"
     },
     {
-     "title": "児童の絵にAI使用と中傷 公開中止",
-     "link": "https://news.yahoo.co.jp/pickup/6600762?source=rss",
-     "pubDate": "Fri, 30 Oct 2026 23:54:35 GMT"
+     "title": "園に「死ね」と書かれた人形 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6600786?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 02:15:20 GMT"
     },
     {
-     "title": "都内最古の「天下一品」閉店へ",
-     "link": "https://news.yahoo.co.jp/pickup/6600740?source=rss",
-     "pubDate": "Fri, 30 Oct 2026 22:25:10 GMT"
+     "title": "大企業出身のシニア採用 落とし穴",
+     "link": "https://news.yahoo.co.jp/pickup/6600808?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 05:01:10 GMT"
     },
     {
-     "title": "VIVANTコラボ中止 サンリオ課題",
-     "link": "https://news.yahoo.co.jp/pickup/6600761?source=rss",
-     "pubDate": "Fri, 30 Oct 2026 23:56:20 GMT"
+     "title": "大阪桐蔭 エース14四死球で敗退",
+     "link": "https://news.yahoo.co.jp/pickup/6600798?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 03:22:38 GMT"
     },
     {
-     "title": "神木隆之介 ゴジラ実況に飛び入り",
-     "link": "https://news.yahoo.co.jp/pickup/6600749?source=rss",
-     "pubDate": "Fri, 30 Oct 2026 23:02:54 GMT"
+     "title": "幾田りら Hey!Say!JUMPへ曲提供",
+     "link": "https://news.yahoo.co.jp/pickup/6600775?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 01:22:31 GMT"
     },
     {
-     "title": "山川穂高 1カ月間「バット封印」",
-     "link": "https://news.yahoo.co.jp/pickup/6600742?source=rss",
-     "pubDate": "Fri, 30 Oct 2026 22:32:57 GMT"
+     "title": "復帰のサンド伊達 後遺症を告白",
+     "link": "https://news.yahoo.co.jp/pickup/6600810?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 05:07:31 GMT"
     }
    ]
   }
