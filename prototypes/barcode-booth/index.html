@@ -160,7 +160,8 @@ async function send(text){
 }
 
 $("code").addEventListener("keydown", e => {
-  if (e.key !== "Enter") return;
+  // 日本語入力の変換を確定する Enter では送らない (確定後のもう一度の Enter で送る)
+  if (e.key !== "Enter" || e.isComposing || e.keyCode === 229) return;
   e.preventDefault();
   const v = $("code").value;
   $("code").value = "";
