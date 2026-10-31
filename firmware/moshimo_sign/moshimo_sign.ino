@@ -37,7 +37,10 @@
  *    → 打った文字を 32px 太字でその場に出す。GAS を通さないので待ちもネットも要らない
  *    → eggWords に一致した文字は eggFrames の絵に差し替える (裏ルート)
  *  - インタールード: 流れる文字が一周するたびに絵を挟む (v20、playlist の "interlude")
- *  - ブース入力の飾り枠: sayFrames の絵を背景に、届いた文字を枠の中に収めて出す (v23 試験)
+ *  - メモリ: 絵の置き場を playlist の解析より前に確保し、ヒープの細切れを防ぐ (v23。v22 は欠番)
+ *    → コメント取得が失敗したら3秒後に1回取り直す。リダイレクトは前の TLS を閉じてから追う
+ *  - ブース入力の飾り枠: sayFrames の絵を背景に、届いた文字を枠の中に収めて出す (v23)
+ *    → USB シリアルの1行 "say 文字" でも受け付ける (会場に WiFi が無くても PC から送れる)
  *    → sayReplace:true なら表示中でも新しい文字にすぐ差し替える (バーコード読み取り用)
  *  - playlist の保存: LittleFS に /playlist.json を置き、ネット無しの再起動でも戻す (v20)
  *  - 複数色 (v21): frames[].layers で1枚の絵を色ごとに塗り分ける。
@@ -113,7 +116,7 @@ struct FrameNeed {
 // このビルドのバージョン。リリースごとに +1 する (手順: docs/firmware-release.md)。
 // **公開する .bin はこの値を上げてビルドしたものであること。** manifest の version だけ
 // 上げて .bin が古いままだと、実機は「更新したのにまだ古い」を延々繰り返す。
-#define FW_VERSION 21
+#define FW_VERSION 23
 
 // ---- イベントコメント (v0.10) ----
 // 取得先は playlist.json の "commentsUrl" でも指定できる。config.h の値は初期値。
@@ -277,7 +280,7 @@ static void cfgSerialPoll() {
     }
     String cmd = line;
     line = "";
-    // ブース入力をUSBシリアルから受ける (v23 試験)。会場にWiFiが無くても、PCとUSBでつなげば
+    // ブース入力をUSBシリアルから受ける (v23)。会場にWiFiが無くても、PCとUSBでつなげば
     // バーコードリーダーの文字を出せる (PC側は prototypes/barcode-booth/ が "say 文字" を送る)。
     // 受け付けるのは sayEnabled のときだけ (Web の入力口と同じ開け閉め)
     if (cmd.startsWith("say ")) {
@@ -614,7 +617,7 @@ static uint16_t plEggHoldMs[MAX_FRAMES];
 static FrameLayers plEggLayers;
 static int  plEggFrameCount = 0;
 static int  plEggMs = 4000;               // egg の再生時間 (1000〜20000)
-// 飾り枠 (v23 試験、さんままつりのバーコード企画)。sayFrames の絵を背景にして、届いた文字を
+// 飾り枠 (v23、さんままつりのバーコード企画)。sayFrames の絵を背景にして、届いた文字を
 // 真ん中の sayTextW ドットの幅に収めて出す (32px太字 → 32px → 16px太字 → 16px の順に試す)。
 // 収まらない長さは従来どおり 32px 太字で流す (背景なし)。sayFrames が無ければ従来の say と同じ。
 static uint8_t (*plSayBgData)[FRAME_BYTES] = nullptr;
@@ -915,7 +918,7 @@ static void httpGetInto(const String &url, int &code, bool wait, unsigned long t
   // リダイレクトは自分で追う (v22)。GASの /exec は script.googleusercontent.com への302を返す (v0.10)。
   // HTTPClient に追わせると (setFollowRedirects)、最初の TLS 接続を抱えたまま転送先と
   // 2本目のハンドシェイクをするらしく、GAS の取得だけがときどき -1 で落ちた
-  // (v21〜v22試験版の実機。GitHub Pages は転送が無いので落ちない)。
+  // (v21 と v23 開発中の試験版。GitHub Pages は転送が無いので落ちない)。
   // 1回ごとに HTTPClient と TLS を作って捨て、前の接続のメモリを放してから次へ行く。
   String cur = url;
   for (int hop = 0; hop <= 5; hop++) {
@@ -944,7 +947,7 @@ static void httpGetInto(const String &url, int &code, bool wait, unsigned long t
           http.end();
         }
         if (code < 0) {
-          // どの転送の段で、TLS が何で落ちたかを残す (v22 の切り分け用)
+          // どの転送の段で、TLS が何で落ちたかを残す (v23 で追加。切り分け用)
           char err[96] = "";
           int e = client.lastError(err, sizeof(err));
           Serial.printf("[http] hop %d code %d tls %d (%s) host=%s\n", hop, code, e, err,
@@ -1543,7 +1546,7 @@ static bool applyPlaylistBody(char *buf, size_t len, bool fromCache = false) {
   plEggFrameCount = parseFramesInto(doc["eggFrames"], plEggData, needEgg.frames, plEggColor, plEggHoldMs, plEggLayers);
   plIlFrameCount = parseFramesInto(doc["interlude"]["frames"], plIlData, needIl.frames, plIlColor, plIlHoldMs, plIlLayers);
   plIlEvery = doc["interlude"]["every"].is<int>() ? constrain((int)doc["interlude"]["every"], 1, 10) : 1;
-  // 飾り枠 (v23 試験)。キーが無ければ従来の say に戻る
+  // 飾り枠 (v23)。キーが無ければ従来の say に戻る
   plSayBgCount = parseFramesInto(doc["sayFrames"], plSayBgData, needSayBg.frames, plSayBgColor, plSayBgHoldMs, plSayBgLayers);
   plSayTextW   = doc["sayTextW"].is<int>() ? constrain((int)doc["sayTextW"], 8, PANEL_W) : PANEL_W;
   plSayReplace = doc["sayReplace"].is<bool>() ? (bool)doc["sayReplace"] : false;
@@ -2131,7 +2134,7 @@ static bool sayNeedRestart = false;   // 開いているあいだに WiFi が切
 
 static String sayQueue[SAY_QUEUE_MAX];
 static int sayQHead = 0, sayQCount = 0;
-static bool sayInterrupt = false;   // sayReplace で新しい文字が来た → 表示中のものを打ち切る (v23 試験)
+static bool sayInterrupt = false;   // sayReplace で新しい文字が来た → 表示中のものを打ち切る (v23)
 
 static const char SAY_HTML[] PROGMEM = R"rawliteral(<!doctype html>
 <html lang="ja"><head><meta charset="utf-8">
@@ -2168,7 +2171,7 @@ static void sayHandleRoot() {
 }
 
 // trim → 制御文字を除く → 40文字で切る。空なら 400、キューが満杯なら 429、入れたら 200。
-// Web の入力口 (POST /say) と USB シリアル ("say 文字"、v23 試験) の両方から呼ぶ。
+// Web の入力口 (POST /say) と USB シリアル ("say 文字"、v23) の両方から呼ぶ。
 static int sayEnqueue(const String &rawIn) {
   String raw = rawIn;
   trimWide(raw);
@@ -2190,7 +2193,7 @@ static int sayEnqueue(const String &rawIn) {
   trimWide(t);   // 切った端に空白が残ったぶん
   if (!t.length()) return 400;
   if (plSayReplace) {
-    // 後から来たものを優先する (v23 試験)。順番待ちを捨て、表示中のものも次の描画で打ち切る
+    // 後から来たものを優先する (v23)。順番待ちを捨て、表示中のものも次の描画で打ち切る
     for (int i = 0; i < SAY_QUEUE_MAX; i++) sayQueue[i] = "";
     sayQHead = 0;
     sayQCount = 0;
@@ -2253,7 +2256,7 @@ enum SayState { SAY_IDLE, SAY_STATIC, SAY_SCROLL, SAY_EGG };
 static SayState sayState = SAY_IDLE;
 static uint16_t sayCps[SAY_MAX_CHARS + 1];
 static int sayLen = 0, sayW = 0;
-static int sayScale = 2;            // 飾り枠のときは幅に合わせて 1 / 2 を選ぶ (v23 試験)
+static int sayScale = 2;            // 飾り枠のときは幅に合わせて 1 / 2 を選ぶ (v23)
 static bool sayBold = true;
 static int sayBgIdx = 0, sayBgDrawn = -1;
 static unsigned long sayBgSince = 0;
