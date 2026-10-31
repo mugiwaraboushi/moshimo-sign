@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T11:39:39.619Z",
+ "updatedAt": "2026-10-31T16:23:15.812Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "GMO 被害者情報集める不審サイト ハッカー側と関連か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de69043",
+     "pubDate": "Sun, 01 Nov 2026 00:08:18 +0900"
+    },
+    {
+     "title": "GMO 子会社がシステムぜい弱性を2年前に指摘 来週2日に会見へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de69024",
+     "pubDate": "Sat, 31 Oct 2026 20:55:00 +0900"
+    },
+    {
      "title": "“捕獲後に山に放した個体” クマ再出没し駆除 神奈川 秦野",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68899",
      "pubDate": "Sat, 31 Oct 2026 19:16:00 +0900"
+    },
+    {
+     "title": "米中間選挙 最終盤 トランプ大統領 遊説中止発表も一転開催へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68862",
+     "pubDate": "Sat, 31 Oct 2026 17:55:00 +0900"
+    },
+    {
+     "title": "北海道 JR宗谷線特急 ヒグマと衝突で脱線 1日も運転見合わせ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68820",
+     "pubDate": "Sat, 31 Oct 2026 19:22:00 +0900"
     },
     {
      "title": "スペイン高速列車事故 “後続列車に停止措置とらず 信号も青”",
@@ -18,29 +38,9 @@
      "pubDate": "Sat, 31 Oct 2026 17:42:00 +0900"
     },
     {
-     "title": "北海道 JR宗谷線特急 ヒグマと衝突で脱線 あすも運転見合わせ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68820",
-     "pubDate": "Sat, 31 Oct 2026 19:22:00 +0900"
-    },
-    {
-     "title": "ハロウィーン 各地で催し 渋谷や新宿ではトラブル防ごうと対策",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68859",
-     "pubDate": "Sat, 31 Oct 2026 19:46:26 +0900"
-    },
-    {
-     "title": "米中間選挙 最終盤 トランプ大統領 遊説中止発表も一転開催へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68862",
-     "pubDate": "Sat, 31 Oct 2026 17:55:40 +0900"
-    },
-    {
-     "title": "北方領土の元島民 6年ぶり「上空慰霊」 飛行機から供養",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68863",
-     "pubDate": "Sat, 31 Oct 2026 19:45:20 +0900"
-    },
-    {
-     "title": "NTTデータ委託先に不正アクセス 社債購入者情報漏えいの可能性",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68967",
-     "pubDate": "Sat, 31 Oct 2026 17:35:00 +0900"
+     "title": "クラブツーリズム 不正アクセスで約432万件の個人情報漏えいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de69034",
+     "pubDate": "Sat, 31 Oct 2026 22:55:26 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "GMO 被害者情報集める不審サイト ハッカー側と関連か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de69043",
+     "pubDate": "Sun, 01 Nov 2026 00:08:18 +0900"
+    },
     {
      "title": "北方領土の元島民 6年ぶり「上空慰霊」 飛行機から供養",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68863",
@@ -75,7 +80,7 @@
      "pubDate": "Sat, 31 Oct 2026 05:30:00 +0900"
     },
     {
-     "title": "北海道 JR宗谷線特急 ヒグマと衝突で脱線 あすも運転見合わせ",
+     "title": "北海道 JR宗谷線特急 ヒグマと衝突で脱線 1日も運転見合わせ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68820",
      "pubDate": "Sat, 31 Oct 2026 19:22:00 +0900"
     },
@@ -118,11 +123,6 @@
      "title": "使わないで！ハロウィーン仮装ナース服などに「赤十字マーク」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68476",
      "pubDate": "Fri, 30 Oct 2026 17:43:14 +0900"
-    },
-    {
-     "title": "TKP元社員と夫 インサイダー取引で執行猶予の付いた有罪判決",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68519",
-     "pubDate": "Fri, 30 Oct 2026 17:31:03 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "クラブツーリズム 不正アクセスで約432万件の個人情報漏えいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de69034",
+     "pubDate": "Sat, 31 Oct 2026 22:55:26 +0900"
+    },
+    {
+     "title": "GMO 子会社がシステムぜい弱性を2年前に指摘 来週2日に会見へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de69024",
+     "pubDate": "Sat, 31 Oct 2026 20:55:00 +0900"
+    },
     {
      "title": "“捕獲後に山に放した個体” クマ再出没し駆除 神奈川 秦野",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68899",
@@ -195,16 +205,6 @@
      "title": "人気SFドラマ「スター・トレック」出演の英俳優死去",
      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68418",
      "pubDate": "Fri, 30 Oct 2026 15:11:00 +0900"
-    },
-    {
-     "title": "松屋フーズ 不正アクセスで個人情報237万件余漏えい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68425",
-     "pubDate": "Fri, 30 Oct 2026 14:38:09 +0900"
-    },
-    {
-     "title": "「サンデー毎日」来春に休刊へ 雑誌市場縮小や原材料費高騰で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68356",
-     "pubDate": "Fri, 30 Oct 2026 14:11:13 +0900"
     }
    ]
   },
@@ -231,7 +231,7 @@
     {
      "title": "米中間選挙 最終盤 トランプ大統領 遊説中止発表も一転開催へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68862",
-     "pubDate": "Sat, 31 Oct 2026 17:55:40 +0900"
+     "pubDate": "Sat, 31 Oct 2026 17:55:00 +0900"
     },
     {
      "title": "米西部の商業施設で銃撃 1人死亡 少なくとも3人大けが",
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "高市氏ら首相の予算委答弁数 比較",
-     "link": "https://news.yahoo.co.jp/pickup/6600843?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 09:04:33 GMT"
+     "title": "ウが製油所攻撃再開 ロシア副首相",
+     "link": "https://news.yahoo.co.jp/pickup/6600866?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 12:40:32 GMT"
     },
     {
-     "title": "身代金ウイルス 送金後追加要求も",
-     "link": "https://news.yahoo.co.jp/pickup/6600846?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 09:27:19 GMT"
+     "title": "参政・神谷氏 独AfD幹部と共鳴",
+     "link": "https://news.yahoo.co.jp/pickup/6600861?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 12:20:14 GMT"
     },
     {
-     "title": "スペイン運輸相 追突列車は青信号",
-     "link": "https://news.yahoo.co.jp/pickup/6600855?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 10:38:10 GMT"
+     "title": "GMOが11/2に記者会見 社長出席",
+     "link": "https://news.yahoo.co.jp/pickup/6600879?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 14:53:29 GMT"
     },
     {
-     "title": "元検事正の保釈金は1千万円 納付",
-     "link": "https://news.yahoo.co.jp/pickup/6600851?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 10:24:42 GMT"
+     "title": "クラブツーリズム 432万件流出か",
+     "link": "https://news.yahoo.co.jp/pickup/6600875?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 14:04:30 GMT"
     },
     {
-     "title": "ブラックフライデー 先行セールも",
-     "link": "https://news.yahoo.co.jp/pickup/6600845?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 08:56:45 GMT"
+     "title": "古着「オールドユニクロ」とは",
+     "link": "https://news.yahoo.co.jp/pickup/6600869?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 13:00:26 GMT"
     },
     {
-     "title": "森保監督 槙野監督の処分に言及",
-     "link": "https://news.yahoo.co.jp/pickup/6600835?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 08:01:33 GMT"
+     "title": "路上プロレス一転中止 天心が説明",
+     "link": "https://news.yahoo.co.jp/pickup/6600876?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 14:02:10 GMT"
     },
     {
-     "title": "芸能界 事務所退所の報告相次ぐ",
-     "link": "https://news.yahoo.co.jp/pickup/6600857?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 10:56:19 GMT"
+     "title": "サンド伊達 言えない言葉いくつか",
+     "link": "https://news.yahoo.co.jp/pickup/6600864?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 12:28:46 GMT"
     },
     {
-     "title": "復帰のサンド伊達 後遺症を告白",
-     "link": "https://news.yahoo.co.jp/pickup/6600810?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 05:07:31 GMT"
+     "title": "新山千春 母の病判明時はショック",
+     "link": "https://news.yahoo.co.jp/pickup/6600863?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 12:08:27 GMT"
     }
    ]
   }
