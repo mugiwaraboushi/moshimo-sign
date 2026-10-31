@@ -152,6 +152,9 @@ Discord経由でメンバーからの依頼を受けてプロトタイプを作�
   実機が一度取りに来たこと (1〜2分) を確かめておく
 - PC は `prototypes/barcode-booth/` を Chrome / Edge で開き、掲示板と USB でつなぐ
 - 本文は 24KB 未満 (いまは約23KB)。絵を足すときは他を削る
+- **バーコードモードのままイベントモードにはしない。** 絵が重くてヒープが足りず、GAS のコメント取得が
+  TLS のメモリ不足で毎回失敗する (2026-10-31 に確認)。イベントモードにするときは `interlude` と `sayFrames` を外し、
+  `sayEnabled:false` にする。「バーコードモードに戻して」で、プリセットからもう一度入れる
 - 戻すときは「通常に戻して」と同じ (sayEnabled:false、frames / eggFrames / interlude を消す)。
   あわせて `sayFrames` / `sayReplace` / `sayTextW` / `sayHoldMs` も消し、`hoursUrl` と `topText`・`messages` を元に戻す
 
