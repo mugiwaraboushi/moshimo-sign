@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T16:23:15.812Z",
+ "updatedAt": "2026-10-31T20:07:14.530Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "GMO 被害者情報集める不審サイト ハッカー側と関連か",
+     "title": "GMOの被害者情報集める不審サイト ハッカー側と関連か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de69043",
-     "pubDate": "Sun, 01 Nov 2026 00:08:18 +0900"
+     "pubDate": "Sun, 01 Nov 2026 00:08:00 +0900"
     },
     {
      "title": "GMO 子会社がシステムぜい弱性を2年前に指摘 来週2日に会見へ",
@@ -50,9 +50,9 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "GMO 被害者情報集める不審サイト ハッカー側と関連か",
+     "title": "GMOの被害者情報集める不審サイト ハッカー側と関連か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de69043",
-     "pubDate": "Sun, 01 Nov 2026 00:08:18 +0900"
+     "pubDate": "Sun, 01 Nov 2026 00:08:00 +0900"
     },
     {
      "title": "北方領土の元島民 6年ぶり「上空慰霊」 飛行機から供養",
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ウクライナ南部の停戦で住民退避が終了 和平進展につながるか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261031de69033",
+     "pubDate": "Sun, 01 Nov 2026 05:02:10 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（10月31日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68541",
      "pubDate": "Sat, 31 Oct 2026 20:22:27 +0900"
@@ -282,11 +287,6 @@
      "title": "“過去最大級被害”暗号資産大手バイナンス 複雑な攻撃あった",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68827",
      "pubDate": "Sat, 31 Oct 2026 09:21:59 +0900"
-    },
-    {
-     "title": "習主席「EUは中国と経済グローバル化推進を」貿易摩擦を念頭に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68812",
-     "pubDate": "Sat, 31 Oct 2026 06:18:43 +0900"
     }
    ]
   },
