@@ -5,13 +5,13 @@
   "colorScroll": "FF9C00",
   "fwPing": 23,
   "topText": "科学屋台",
-  "mode": "dual",
+  "mode": "event",
   "messages": [
     "ペンで ぬって バーコードを よみとってみよう",
     "商店街を支える技術を学んでみよう！",
     "もしも まちと未来の実験室"
   ],
-  "commentsUrl": "",
+  "commentsUrl": "https://script.google.com/macros/s/AKfycbzq7juTh1Jnblpc052xNAZ2HFr97l22S6HnhqtZsuPcYZoLi3mTeu32G8OlLvzH91Ldig/exec?action=text",
   "hoursUrl": "",
   "sayEnabled": true,
   "sayReplace": true,
