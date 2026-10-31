@@ -37,6 +37,8 @@
  *    → 打った文字を 32px 太字でその場に出す。GAS を通さないので待ちもネットも要らない
  *    → eggWords に一致した文字は eggFrames の絵に差し替える (裏ルート)
  *  - インタールード: 流れる文字が一周するたびに絵を挟む (v20、playlist の "interlude")
+ *  - ブース入力の飾り枠: sayFrames の絵を背景に、届いた文字を枠の中に収めて出す (v23 試験)
+ *    → sayReplace:true なら表示中でも新しい文字にすぐ差し替える (バーコード読み取り用)
  *  - playlist の保存: LittleFS に /playlist.json を置き、ネット無しの再起動でも戻す (v20)
  *  - 複数色 (v21): frames[].layers で1枚の絵を色ごとに塗り分ける。
  *    messages の中に {#RRGGBB} を書くと、そこから先の文字の色が変わる ({#} で元の色に戻す)
@@ -94,9 +96,17 @@
 #define MAX_LAYERS_PER_FRAME 7       // 下地と合わせて1枚8色まで
 struct FrameLayers {
   uint8_t (*data)[FRAME_BYTES] = nullptr;   // malloc。nullptr = 重ね絵なし
+  int cap = 0;                              // data に入る層の数 (v22: 解析の前に確保する)
   uint16_t color[MAX_FRAME_LAYERS];
   uint8_t  start[MAX_FRAMES];
   uint8_t  count[MAX_FRAMES];               // 0 = 下地だけの絵
+};
+
+// 絵の組ごとに要る枚数 (v22)。解析の前に数えて置き場を確保する (「絵の置き場は解析の前に確保する」の節)
+struct FrameNeed {
+  bool present = false;   // キーがあった (frames はキーが無ければ前の絵を残す)
+  int frames = 0;
+  int layers = 0;
 };
 
 // ---- 自己アップデート (v0.7) ----
@@ -267,6 +277,15 @@ static void cfgSerialPoll() {
     }
     String cmd = line;
     line = "";
+    // ブース入力をUSBシリアルから受ける (v23 試験)。会場にWiFiが無くても、PCとUSBでつなげば
+    // バーコードリーダーの文字を出せる (PC側は prototypes/barcode-booth/ が "say 文字" を送る)。
+    // 受け付けるのは sayEnabled のときだけ (Web の入力口と同じ開け閉め)
+    if (cmd.startsWith("say ")) {
+      if (!sayAccepting()) { Serial.println("[say] disabled"); continue; }
+      int st = sayEnqueue(cmd.substring(4));
+      Serial.printf("[say] serial %d\n", st);
+      continue;
+    }
     if (!cmd.startsWith("cfg ")) continue;
     String rest = cmd.substring(4);
 
@@ -595,6 +614,16 @@ static uint16_t plEggHoldMs[MAX_FRAMES];
 static FrameLayers plEggLayers;
 static int  plEggFrameCount = 0;
 static int  plEggMs = 4000;               // egg の再生時間 (1000〜20000)
+// 飾り枠 (v23 試験、さんままつりのバーコード企画)。sayFrames の絵を背景にして、届いた文字を
+// 真ん中の sayTextW ドットの幅に収めて出す (32px太字 → 32px → 16px太字 → 16px の順に試す)。
+// 収まらない長さは従来どおり 32px 太字で流す (背景なし)。sayFrames が無ければ従来の say と同じ。
+static uint8_t (*plSayBgData)[FRAME_BYTES] = nullptr;
+static uint16_t plSayBgColor[MAX_FRAMES];
+static uint16_t plSayBgHoldMs[MAX_FRAMES];
+static FrameLayers plSayBgLayers;
+static int  plSayBgCount = 0;
+static int  plSayTextW = PANEL_W;         // 文字を収める幅 (8〜PANEL_W)
+static bool plSayReplace = false;         // true: 表示中・順番待ちを捨てて新しい文字をすぐ出す
 
 // ---- インタールード (v20) ----
 // 流れる文字が左端まで流れ切った回数が every の倍数になったら、絵を1回だけ挟む。
@@ -878,37 +907,65 @@ static void logMem() {
 // 接続の手順は httpGetString (String で受ける) と httpGetToBuf (char バッファで受ける) で共通 (v20)。
 static void httpGetInto(const String &url, int &code, bool wait, unsigned long timeoutMs, BodySink &out) {
   logMem();   // 計測 (v20)
-  HTTPClient http;
   code = -1;
   if (netMutex && xSemaphoreTake(netMutex, wait ? portMAX_DELAY : 0) != pdTRUE) {
     code = -2;   // 別の取得が進行中
     return;
   }
-  http.setTimeout(timeoutMs);
-  // Transfer-Encoding は自前の本文読み出し (readBody) がチャンクかどうかを見るのに使う。
-  const char *hdrs[] = {"Transfer-Encoding"};
-  http.collectHeaders(hdrs, 1);
-  // リダイレクト追従 (v0.10)。GASの /exec は script.googleusercontent.com への302を返すので、
-  // 追わないと本文が取れない。302(FOUND)はSTRICTでも追われるのでこれで足りる。
-  // リダイレクト先が別ホストでも、プロトコルが同じ(https→https)なら HTTPClient::setURL が通す。
-  if (url.startsWith("https")) {
-    NetworkClientSecure client;
-    client.setInsecure();  // GitHub Pages等の証明書検証を省略 (表示内容のみなので許容)
-    client.setHandshakeTimeout(10);
-    client.setTimeout(5);   // 本文読み出しが止まったまま吊られないよう5秒で諦める (v14)
-    if (http.begin(client, url)) {
-      http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
-      code = http.GET();
-      if (code == 200 && !readBody(http, out)) code = -2;   // 本文が読み切れなかった
-      http.end();
+  // リダイレクトは自分で追う (v22)。GASの /exec は script.googleusercontent.com への302を返す (v0.10)。
+  // HTTPClient に追わせると (setFollowRedirects)、最初の TLS 接続を抱えたまま転送先と
+  // 2本目のハンドシェイクをするらしく、GAS の取得だけがときどき -1 で落ちた
+  // (v21〜v22試験版の実機。GitHub Pages は転送が無いので落ちない)。
+  // 1回ごとに HTTPClient と TLS を作って捨て、前の接続のメモリを放してから次へ行く。
+  String cur = url;
+  for (int hop = 0; hop <= 5; hop++) {
+    bool redirected = false;
+    {
+      HTTPClient http;
+      http.setTimeout(timeoutMs);
+      http.setFollowRedirects(HTTPC_DISABLE_FOLLOW_REDIRECTS);
+      // Transfer-Encoding は自前の本文読み出し (readBody) がチャンクかどうかを見るのに使う。
+      // Location はリダイレクト先 (v22)。
+      const char *hdrs[] = {"Transfer-Encoding", "Location"};
+      http.collectHeaders(hdrs, 2);
+      if (cur.startsWith("https")) {
+        NetworkClientSecure client;
+        client.setInsecure();  // GitHub Pages等の証明書検証を省略 (表示内容のみなので許容)
+        client.setHandshakeTimeout(10);
+        client.setTimeout(5);   // 本文読み出しが止まったまま吊られないよう5秒で諦める (v14)
+        if (http.begin(client, cur)) {
+          code = http.GET();
+          if (code >= 300 && code < 400 && http.header("Location").length()) {
+            cur = http.header("Location");
+            redirected = true;
+          } else if (code == 200 && !readBody(http, out)) {
+            code = -2;   // 本文が読み切れなかった
+          }
+          http.end();
+        }
+        if (code < 0) {
+          // どの転送の段で、TLS が何で落ちたかを残す (v22 の切り分け用)
+          char err[96] = "";
+          int e = client.lastError(err, sizeof(err));
+          Serial.printf("[http] hop %d code %d tls %d (%s) host=%s\n", hop, code, e, err,
+                        cur.substring(8, cur.indexOf('/', 8)).c_str());
+        }
+        client.stop();   // ここで TLS のメモリを放す (このブロックを出ると client も消える)
+      } else {
+        if (http.begin(cur)) {
+          code = http.GET();
+          if (code >= 300 && code < 400 && http.header("Location").length()) {
+            cur = http.header("Location");
+            redirected = true;
+          } else if (code == 200 && !readBody(http, out)) {
+            code = -2;   // 本文が読み切れなかった
+          }
+          http.end();
+        }
+      }
     }
-  } else {
-    if (http.begin(url)) {
-      http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
-      code = http.GET();
-      if (code == 200 && !readBody(http, out)) code = -2;   // 本文が読み切れなかった
-      http.end();
-    }
+    if (!redirected) break;
+    if (hop == 5) { code = -3; Serial.println("[http] too many redirects"); }
   }
   if (netMutex) xSemaphoreGive(netMutex);
   if (code != 200) logMem();   // 計測 (v20)
@@ -1168,32 +1225,76 @@ static uint32_t fnv1a32(const char *p, size_t n) {
 static void freeLayers(FrameLayers &L) {
   free(L.data);
   L.data = nullptr;
+  L.cap = 0;
   memset(L.count, 0, sizeof(L.count));
+}
+
+// ---- 絵の置き場は解析の前に確保する (v22) ----
+// v21 までは、本文を JsonDocument に読み込んだ**後**に絵の置き場を malloc していた。
+// その時点のヒープは doc の文字列 (frames の d が数十KB) で埋まっているので、置き場は
+// その隙間に入り、doc を捨てたあとも真ん中に残る。結果、空きの合計は足りるのに
+// 一続きの空きが TLS の確保に足りなくなり、以後の HTTPS 取得が全部失敗した
+// (2026-10-24、22KB の playlist で largest が 36852 のまま戻らなかった)。
+// そこで先に「枚数だけ」を小さな doc で数え (Filter で d を読み捨てる)、その doc を
+// 捨ててから置き場を確保し、最後に本番の解析を行う。置き場は doc より先に確保されるので、
+// doc を捨てたときに空きが一続きに戻る。
+static void countFrameNeed(JsonVariant arr, FrameNeed &need) {
+  if (!arr.is<JsonArray>()) return;
+  need.present = true;
+  for (JsonVariant v : arr.as<JsonArray>()) {
+    if (need.frames >= MAX_FRAMES) break;
+    need.frames++;
+    if (v["layers"].is<JsonArray>()) {
+      int k = (int)v["layers"].as<JsonArray>().size();
+      need.layers += (k > MAX_LAYERS_PER_FRAME) ? MAX_LAYERS_PER_FRAME : k;
+    }
+  }
+  if (need.layers > MAX_FRAME_LAYERS) need.layers = MAX_FRAME_LAYERS;
+}
+
+// 本文から3組 (frames / eggFrames / interlude) の枚数を数える。読めなければ false
+static bool countFrameNeeds(const char *buf, size_t len, FrameNeed &fr, FrameNeed &egg, FrameNeed &il,
+                            FrameNeed &sayBg) {
+  JsonDocument filter;
+  filter["frames"][0]["layers"][0]["color"] = true;
+  filter["eggFrames"][0]["layers"][0]["color"] = true;
+  filter["interlude"]["frames"][0]["layers"][0]["color"] = true;
+  filter["sayFrames"][0]["layers"][0]["color"] = true;
+  JsonDocument shape;
+  if (deserializeJson(shape, buf, len, DeserializationOption::Filter(filter))) return false;
+  countFrameNeed(shape["frames"], fr);
+  countFrameNeed(shape["eggFrames"], egg);
+  countFrameNeed(shape["interlude"]["frames"], il);
+  countFrameNeed(shape["sayFrames"], sayBg);
+  return true;
+}
+
+static void reserveLayers(FrameLayers &L, int n, const char *name) {
+  if (n <= 0) return;
+  L.data = (uint8_t (*)[FRAME_BYTES])malloc((size_t)n * FRAME_BYTES);
+  if (L.data) L.cap = n;
+  else Serial.printf("[playlist] %s layers skipped (no memory)\n", name);
+}
+
+static void reserveFrames(uint8_t (*&data)[FRAME_BYTES], int n, const char *name) {
+  if (n <= 0) return;
+  data = (uint8_t (*)[FRAME_BYTES])malloc((size_t)n * FRAME_BYTES);
+  if (!data) Serial.printf("[playlist] %s skipped (no memory)\n", name);
 }
 
 // frames / eggFrames / interlude.frames は同じ形式 (v20 で読み出しを共通化)。
 // 壊れたフレームはそれだけ捨て、残りの枚数を返す。color が無いコマは colorTop の色。
 // layers (v21): 色ごとの重ね絵。壊れた層はそれだけ捨てる。置き場が尽きたら残りは下地だけ。
 // 置き場は layers の総数ぶんだけ確保し、0 なら持たない。確保できなければ layers を捨てて下地だけ出す。
-static int parseFrames(JsonArray arr, uint8_t (*data)[FRAME_BYTES],
+static int parseFrames(JsonArray arr, uint8_t (*data)[FRAME_BYTES], int maxFrames,
                        uint16_t *color, uint16_t *holdMs, FrameLayers &layers) {
-  freeLayers(layers);   // 前の置き場は先に放す (確保の山を低くする)
-  size_t want = 0;
-  for (JsonVariant v : arr) {
-    if (!v["layers"].is<JsonArray>()) continue;
-    size_t k = v["layers"].as<JsonArray>().size();
-    want += (k > MAX_LAYERS_PER_FRAME) ? MAX_LAYERS_PER_FRAME : k;
-  }
-  if (want > MAX_FRAME_LAYERS) want = MAX_FRAME_LAYERS;
-  if (want > 0) {
-    layers.data = (uint8_t (*)[FRAME_BYTES])malloc(want * FRAME_BYTES);
-    if (!layers.data) Serial.println("[playlist] layers skipped (no memory)");
-  }
-  const int cap = layers.data ? (int)want : 0;
+  // 置き場は呼ぶ前に確保してある (v22、countFrameNeeds / reserveLayers)。ここでは確保しない
+  memset(layers.count, 0, sizeof(layers.count));
+  const int cap = layers.data ? layers.cap : 0;
   int layerUsed = 0;
   int n = 0;
   for (JsonVariant v : arr) {
-    if (n >= MAX_FRAMES) break;
+    if (n >= maxFrames) break;
     if (!v["d"].is<const char*>()) continue;
     if (b64urlDecode(v["d"], data[n], FRAME_BYTES) != FRAME_BYTES) {
       Serial.println("[playlist] frame skipped (data size mismatch)");
@@ -1202,7 +1303,7 @@ static int parseFrames(JsonArray arr, uint8_t (*data)[FRAME_BYTES],
     color[n] = v["color"].is<const char*>() ? hexToColor565(v["color"]) : plColorTop;
     layers.start[n] = layerUsed;
     layers.count[n] = 0;
-    if (layers.data && v["layers"].is<JsonArray>()) {
+    if (cap > 0 && v["layers"].is<JsonArray>()) {
       for (JsonVariant L : v["layers"].as<JsonArray>()) {
         if (layers.count[n] >= MAX_LAYERS_PER_FRAME || layerUsed >= cap) {
           Serial.println("[playlist] layer skipped (too many layers)");
@@ -1228,35 +1329,16 @@ static int parseFrames(JsonArray arr, uint8_t (*data)[FRAME_BYTES],
       holdMs[n] = 8000;
     n++;
   }
-  // 壊れた層を捨てたぶん、置き場を実際の数に詰める (0 なら放す)
-  if (layerUsed == 0) freeLayers(layers);
-  else if (layerUsed < cap) {
-    void *p = realloc(layers.data, layerUsed * FRAME_BYTES);
-    if (p) layers.data = (uint8_t (*)[FRAME_BYTES])p;
-  }
+  // 縮めるための realloc はしない (v22)。realloc は別の場所へ移ることがあり、
+  // 解析中の doc の隙間に置き場が入り直してしまうため
   return n;
 }
 
-// 絵の置き場を arr の枚数ぶんだけ確保し直して読む (v20、eggFrames / interlude 用)。
-// 前の置き場は先に放す (確保の山を低くする)。0 枚なら何も持たない。
-static int parseFramesAlloc(JsonVariant arr, uint8_t (*&data)[FRAME_BYTES],
-                            uint16_t *color, uint16_t *holdMs, FrameLayers &layers,
-                            const char *name) {
-  free(data);
-  data = nullptr;
-  freeLayers(layers);
-  if (!arr.is<JsonArray>()) return 0;
-  size_t want = arr.as<JsonArray>().size();
-  if (want > MAX_FRAMES) want = MAX_FRAMES;
-  if (want == 0) return 0;
-  data = (uint8_t (*)[FRAME_BYTES])malloc(want * FRAME_BYTES);
-  if (!data) {
-    Serial.printf("[playlist] %s skipped (no memory)\n", name);
-    return 0;
-  }
-  int n = parseFrames(arr.as<JsonArray>(), data, color, holdMs, layers);
-  if (n == 0) { free(data); data = nullptr; freeLayers(layers); }
-  return n;
+// eggFrames / interlude 用。置き場 (data) は呼ぶ前に確保してある (v22)。nullptr なら 0 枚
+static int parseFramesInto(JsonVariant arr, uint8_t (*data)[FRAME_BYTES], int maxFrames,
+                           uint16_t *color, uint16_t *holdMs, FrameLayers &layers) {
+  if (!data || !arr.is<JsonArray>()) return 0;
+  return parseFrames(arr.as<JsonArray>(), data, maxFrames, color, holdMs, layers);
 }
 
 // UTF-8 の文字数 (先頭バイトの数)
@@ -1317,6 +1399,32 @@ static bool applyPlaylistBody(char *buf, size_t len, bool fromCache = false) {
     Serial.println("[playlist] no change");
     return true;
   }
+
+  // 絵の置き場を、本番の解析より先に確保し直す (v22、「絵の置き場は解析の前に確保する」の節)。
+  // 枚数を先に 0 にしてから放す (描画は同じ loop() 側なので、ここでは割り込まれない)。
+  FrameNeed needFr, needEgg, needIl, needSayBg;
+  if (!countFrameNeeds(buf, len, needFr, needEgg, needIl, needSayBg)) {
+    Serial.println("[playlist] JSON parse error");
+    logMem();
+    return false;   // 壊れたJSONを3秒ごとに取り直しても直らない。次の周期を待つ
+  }
+  plEggFrameCount = 0;
+  plIlFrameCount = 0;
+  plSayBgCount = 0;
+  free(plEggData); plEggData = nullptr;
+  free(plIlData);  plIlData = nullptr;
+  free(plSayBgData); plSayBgData = nullptr;
+  freeLayers(plEggLayers);
+  freeLayers(plIlLayers);
+  freeLayers(plSayBgLayers);
+  if (needFr.present) { plFrameCount = 0; freeLayers(plFrameLayers); }
+  if (needFr.present) reserveLayers(plFrameLayers, needFr.layers, "frames");
+  reserveFrames(plEggData, needEgg.frames, "eggFrames");
+  reserveLayers(plEggLayers, needEgg.layers, "eggFrames");
+  reserveFrames(plIlData, needIl.frames, "interlude");
+  reserveLayers(plIlLayers, needIl.layers, "interlude");
+  reserveFrames(plSayBgData, needSayBg.frames, "sayFrames");
+  reserveLayers(plSayBgLayers, needSayBg.layers, "sayFrames");
 
   // ArduinoJson 7 にはゼロコピーが無い (7.0 で廃止) ので、文字列は doc 側に写される。
   // buf は書き換わらないので、保存は解析に成功してから行う (壊れた JSON で保存分を潰さない)。
@@ -1410,7 +1518,7 @@ static bool applyPlaylistBody(char *buf, size_t len, bool fromCache = false) {
   }
   // frames: 64x32のドット絵 (v0.5)。壊れたフレームはそれだけ捨て、残りは表示する
   if (doc["frames"].is<JsonArray>()) {
-    plFrameCount = parseFrames(doc["frames"].as<JsonArray>(), plFrameData, plFrameColor, plFrameHoldMs, plFrameLayers);
+    plFrameCount = parseFrames(doc["frames"].as<JsonArray>(), plFrameData, MAX_FRAMES, plFrameColor, plFrameHoldMs, plFrameLayers);
     if (frameIdx >= plFrameCount) frameIdx = 0;
     frameSince = 0;   // 差し替え直後は先頭からhold秒数え直す
     drawnFrame = -1;  // 絵や色が変わっているので描き直す
@@ -1431,11 +1539,14 @@ static bool applyPlaylistBody(char *buf, size_t len, bool fromCache = false) {
     }
   }
   // 枚数を先に 0 にしてから置き場を差し替える (描画は同じ loop() 側なので、ここでは割り込まれない)
-  plEggFrameCount = 0;
-  plEggFrameCount = parseFramesAlloc(doc["eggFrames"], plEggData, plEggColor, plEggHoldMs, plEggLayers, "eggFrames");
-  plIlFrameCount = 0;
-  plIlFrameCount = parseFramesAlloc(doc["interlude"]["frames"], plIlData, plIlColor, plIlHoldMs, plIlLayers, "interlude");
+  // 置き場は解析の前に needEgg / needIl の枚数ぶん確保してある (v22)
+  plEggFrameCount = parseFramesInto(doc["eggFrames"], plEggData, needEgg.frames, plEggColor, plEggHoldMs, plEggLayers);
+  plIlFrameCount = parseFramesInto(doc["interlude"]["frames"], plIlData, needIl.frames, plIlColor, plIlHoldMs, plIlLayers);
   plIlEvery = doc["interlude"]["every"].is<int>() ? constrain((int)doc["interlude"]["every"], 1, 10) : 1;
+  // 飾り枠 (v23 試験)。キーが無ければ従来の say に戻る
+  plSayBgCount = parseFramesInto(doc["sayFrames"], plSayBgData, needSayBg.frames, plSayBgColor, plSayBgHoldMs, plSayBgLayers);
+  plSayTextW   = doc["sayTextW"].is<int>() ? constrain((int)doc["sayTextW"], 8, PANEL_W) : PANEL_W;
+  plSayReplace = doc["sayReplace"].is<bool>() ? (bool)doc["sayReplace"] : false;
   rebuildMarquee();
   Serial.println("[playlist] applied");
   logMem();   // 計測 (v20)
@@ -1737,7 +1848,9 @@ static void applyCommentsBody(const String &body) {
 // 302を返すGASからは本文が取れなかった
 // (HTTPClientの _followRedirects の既定は HTTPC_DISABLE_FOLLOW_REDIRECTS)。
 // 取得できたら true を返し、body に本文を入れる。
-static bool fetchCommentsOnce(String &body) {
+// tried: 実際に通信したか (取得先が空・WiFi 断のときは false。v22 の取り直し判定用)
+static bool fetchCommentsOnce(String &body, bool *tried = nullptr) {
+  if (tried) *tried = false;
   String url;
   if (fetchMutex) xSemaphoreTake(fetchMutex, portMAX_DELAY);
   url = plCommentsUrl;
@@ -1751,6 +1864,7 @@ static bool fetchCommentsOnce(String &body) {
   // ヘッダ待ちは10秒 (v16)。GASはコールドスタートだと応答が5秒を超えることがあり、
   // 既定の5秒だとヘッダが返る前に打ち切って -11 になるのを実機で確認した。
   // 本文の締め切り (readBodyWithDeadline) は据え置き。
+  if (tried) *tried = true;
   String out = httpGetString(url, code, fetchAsync, 10000);   // 1行1コメントのプレーンテキスト
   if (code != 200) {
     Serial.printf("[comments] fetch failed (%d)\n", code);
@@ -1814,13 +1928,25 @@ static void fetchTask(void *arg) {
     // playlist取得も同じタスクが担うので、タスク自体は起動時から回す。
     if ((long)(ms - nextComments) >= 0) {
       String body;
-      if (fetchCommentsOnce(body)) {
+      bool tried = false;
+      bool got = fetchCommentsOnce(body, &tried);
+      if (got) {
         xSemaphoreTake(fetchMutex, portMAX_DELAY);
         fetchedBody = body;
         fetchedReady = true;
         xSemaphoreGive(fetchMutex);
       }
-      nextComments = millis() + FETCH_INTERVAL_MS;
+      // 通信して失敗したときは3秒後に1回だけ取り直す (v22)。直前の HTTPS が終わった直後は
+      // 一続きの空きが戻りきらず、GAS への接続がときどき落ちる (v21 の実機で約1分に1回、
+      // playlist 取得の直前直後に -1 が出た)。続けて失敗したら通常の周期に戻す
+      static bool retried = false;
+      if (!got && tried && !retried) {
+        retried = true;
+        nextComments = millis() + 3000;
+      } else {
+        retried = false;
+        nextComments = millis() + FETCH_INTERVAL_MS;
+      }
     }
 
     // ---- 営業カレンダー (v16) ----
@@ -2005,6 +2131,7 @@ static bool sayNeedRestart = false;   // 開いているあいだに WiFi が切
 
 static String sayQueue[SAY_QUEUE_MAX];
 static int sayQHead = 0, sayQCount = 0;
+static bool sayInterrupt = false;   // sayReplace で新しい文字が来た → 表示中のものを打ち切る (v23 試験)
 
 static const char SAY_HTML[] PROGMEM = R"rawliteral(<!doctype html>
 <html lang="ja"><head><meta charset="utf-8">
@@ -2040,9 +2167,10 @@ static void sayHandleRoot() {
   sayServer.send_P(200, "text/html; charset=utf-8", SAY_HTML);
 }
 
-// trim → 制御文字を除く → 40文字で切る。空なら 400、キューが満杯なら 429。
-static void sayHandlePost() {
-  String raw = sayServer.arg("text");
+// trim → 制御文字を除く → 40文字で切る。空なら 400、キューが満杯なら 429、入れたら 200。
+// Web の入力口 (POST /say) と USB シリアル ("say 文字"、v23 試験) の両方から呼ぶ。
+static int sayEnqueue(const String &rawIn) {
+  String raw = rawIn;
   trimWide(raw);
   String t;
   t.reserve(raw.length());
@@ -2060,12 +2188,27 @@ static void sayHandlePost() {
     }
   }
   trimWide(t);   // 切った端に空白が残ったぶん
-  if (!t.length()) { sayServer.send(400, "text/plain", "empty"); return; }
-  if (sayQCount >= SAY_QUEUE_MAX) { sayServer.send(429, "text/plain", "busy"); return; }
+  if (!t.length()) return 400;
+  if (plSayReplace) {
+    // 後から来たものを優先する (v23 試験)。順番待ちを捨て、表示中のものも次の描画で打ち切る
+    for (int i = 0; i < SAY_QUEUE_MAX; i++) sayQueue[i] = "";
+    sayQHead = 0;
+    sayQCount = 0;
+    sayInterrupt = true;
+  }
+  if (sayQCount >= SAY_QUEUE_MAX) return 429;
   sayQueue[(sayQHead + sayQCount) % SAY_QUEUE_MAX] = t;
   sayQCount++;
   Serial.printf("[say] queued (%d文字)\n", utf8Count(t));
-  sayServer.send(200, "text/plain", "ok");
+  return 200;
+}
+
+// cfgSerialPoll() は plSayEnabled より前に書いてあるので、関数で聞く (Arduino が宣言を前に出す)
+static bool sayAccepting() { return plSayEnabled; }
+
+static void sayHandlePost() {
+  int st = sayEnqueue(sayServer.arg("text"));
+  sayServer.send(st, "text/plain", st == 200 ? "ok" : st == 429 ? "busy" : "empty");
 }
 
 static void sayHandleNotFound() {
@@ -2110,6 +2253,10 @@ enum SayState { SAY_IDLE, SAY_STATIC, SAY_SCROLL, SAY_EGG };
 static SayState sayState = SAY_IDLE;
 static uint16_t sayCps[SAY_MAX_CHARS + 1];
 static int sayLen = 0, sayW = 0;
+static int sayScale = 2;            // 飾り枠のときは幅に合わせて 1 / 2 を選ぶ (v23 試験)
+static bool sayBold = true;
+static int sayBgIdx = 0, sayBgDrawn = -1;
+static unsigned long sayBgSince = 0;
 static float sayX = 0;
 static unsigned long sayStartMs = 0;      // 表示を始めた時刻 (止めていた時間の計算にも使う)
 static unsigned long sayLastFrame = 0;
@@ -2153,7 +2300,23 @@ static void sayStartNext(unsigned long ms) {
     }
   }
   sayLen = decodeUtf8(t, sayCps, SAY_MAX_CHARS + 1);
+  sayScale = 2;
+  sayBold = true;
   sayW = textWidth(sayCps, sayLen, 2, true);
+  sayBgIdx = 0;
+  sayBgDrawn = -1;
+  sayBgSince = ms;
+  if (plSayBgCount > 0) {
+    // 飾り枠: 枠の内側 (sayTextW) に収まるいちばん大きい字を選ぶ
+    static const int SCALES[4] = {2, 2, 1, 1};
+    static const bool BOLDS[4] = {true, false, true, false};
+    for (int i = 0; i < 4; i++) {
+      int w = textWidth(sayCps, sayLen, SCALES[i], BOLDS[i]);
+      if (w <= plSayTextW) { sayScale = SCALES[i]; sayBold = BOLDS[i]; sayW = w; sayState = SAY_STATIC; return; }
+    }
+    sayScale = 2; sayBold = true;          // どれも収まらない → 背景なしで流す
+    sayW = textWidth(sayCps, sayLen, 2, true);
+  }
   if (sayW <= PANEL_W) {
     sayState = SAY_STATIC;
   } else {
@@ -2173,6 +2336,10 @@ static void sayFinish(unsigned long ms) {
 
 // say / egg を1回ぶん進める。表示中なら true (= loop() は元の mode を描かない)。
 static bool sayTick(unsigned long ms) {
+  if (sayInterrupt) {
+    sayInterrupt = false;
+    if (sayState != SAY_IDLE) sayFinish(ms);   // 表示中のものは打ち切り、すぐ次 (新しい文字) へ
+  }
   if (sayState == SAY_IDLE) {
     if (sayQCount == 0) return false;
     sayStartNext(ms);
@@ -2215,6 +2382,24 @@ static bool sayTick(unsigned long ms) {
       sayFinish(ms);
       return sayQCount > 0 ? sayTick(ms) : false;
     }
+  }
+  if (sayState == SAY_STATIC && plSayBgCount > 0) {
+    // 飾り枠: 背景の絵が変わったときだけ描き直す (文字は動かないので、毎回消して描くとちらつく)。
+    // 背景は消灯ドットも塗る描き方なので clearScreen は要らない
+    if (sayBgIdx >= plSayBgCount) { sayBgIdx = 0; sayBgDrawn = -1; }   // 表示中に playlist で減った
+    unsigned int guard = 0;
+    while (ms - sayBgSince >= (unsigned long)plSayBgHoldMs[sayBgIdx]) {
+      sayBgSince += plSayBgHoldMs[sayBgIdx];
+      sayBgIdx = (sayBgIdx + 1) % plSayBgCount;
+      if (++guard >= (unsigned int)plSayBgCount) { sayBgSince = ms; break; }
+    }
+    if (sayBgDrawn != sayBgIdx) {
+      sayBgDrawn = sayBgIdx;
+      drawFrame(plSayBgData[sayBgIdx], plSayBgColor[sayBgIdx], plSayBgLayers, sayBgIdx);
+      drawTextColored(sayCps, nullptr, nullptr, sayLen, (PANEL_W - sayW) / 2, (PANEL_H - 16 * sayScale) / 2,
+                      effColor(), false, sayScale, sayBold);
+    }
+    return true;
   }
   const int x = (sayState == SAY_STATIC) ? (PANEL_W - sayW) / 2 : (int)sayX;
   const int y = (PANEL_H - 32) / 2;
