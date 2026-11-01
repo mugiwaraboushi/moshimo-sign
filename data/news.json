@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T16:10:35.045Z",
+ "updatedAt": "2026-11-01T20:38:10.833Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "GMO傘下 顧客情報漏えい 9年近く外部から取得可能な状態",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69281",
-     "pubDate": "Sun, 01 Nov 2026 22:27:12 +0900"
+     "title": "GMOきょう会見 不安の抑止やぜい弱性指摘後の対応が焦点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69276",
+     "pubDate": "Mon, 02 Nov 2026 04:42:07 +0900"
     },
     {
-     "title": "あすにかけて広い範囲で雨 北海道は積雪のおそれも 注意を",
+     "title": "アメリカ中間選挙あす投票 トランプ大統領中西部で演説へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261102de69323",
+     "pubDate": "Mon, 02 Nov 2026 05:09:57 +0900"
+    },
+    {
+     "title": "災害対策司令塔の「防災庁」が発足 体制の抜本的強化へ 政府",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69293",
+     "pubDate": "Mon, 02 Nov 2026 04:39:26 +0900"
+    },
+    {
+     "title": "ゆうちょ銀行の貯金利子上限 撤廃めぐる議論進む",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69279",
+     "pubDate": "Mon, 02 Nov 2026 04:34:59 +0900"
+    },
+    {
+     "title": "消費税減税法案 与党“採決に向け協議を”野党“首相出席を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69291",
+     "pubDate": "Mon, 02 Nov 2026 04:29:17 +0900"
+    },
+    {
+     "title": "イラン 仲介国カタールと協議 駆け引き続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261102de69322",
+     "pubDate": "Mon, 02 Nov 2026 04:48:30 +0900"
+    },
+    {
+     "title": "2日にかけて広い範囲で雨 北海道は積雪のおそれも 注意を",
      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69264",
-     "pubDate": "Sun, 01 Nov 2026 19:06:24 +0900"
-    },
-    {
-     "title": "茨城 鹿嶋 男性4人が海に転落 1人死亡 1人不明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69207",
-     "pubDate": "Sun, 01 Nov 2026 23:43:32 +0900"
-    },
-    {
-     "title": "紅葉の名所「鳴子峡」近くで車が歩行者はねる 5人けが 宮城",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69105",
-     "pubDate": "Sun, 01 Nov 2026 20:38:54 +0900"
-    },
-    {
-     "title": "ヒグマ衝突で特急脱線のJR宗谷線 11月3日に運転再開へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69260",
-     "pubDate": "Sun, 01 Nov 2026 19:29:20 +0900"
-    },
-    {
-     "title": "フェンシング全日本選手権 男子フルーレ 飯村一輝が初優勝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69285",
-     "pubDate": "Sun, 01 Nov 2026 22:57:35 +0900"
-    },
-    {
-     "title": "全日本大学駅伝は早稲田大が16年ぶり優勝 今シーズン2冠",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69096",
-     "pubDate": "Sun, 01 Nov 2026 16:41:17 +0900"
+     "pubDate": "Sun, 01 Nov 2026 19:06:00 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "「秋の褒章」に現代美術家の奈良美智さんら",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69275",
+     "pubDate": "Mon, 02 Nov 2026 05:01:44 +0900"
+    },
     {
      "title": "GMO傘下 顧客情報漏えい 9年近く外部から取得可能な状態",
      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69281",
@@ -118,11 +123,6 @@
      "title": "政府が力を入れるべき政策「物価対策」4年連続最多 内閣府調査",
      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69083",
      "pubDate": "Sun, 01 Nov 2026 10:33:00 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（11月1日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de69022",
-     "pubDate": "Sun, 01 Nov 2026 19:49:24 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "「秋の褒章」に現代美術家の奈良美智さんら",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69275",
+     "pubDate": "Mon, 02 Nov 2026 05:01:44 +0900"
+    },
+    {
+     "title": "ABU総会始まる NHK番組受賞",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69303",
+     "pubDate": "Mon, 02 Nov 2026 04:26:26 +0900"
+    },
     {
      "title": "スミソニアン博物館に杉本博司さん設計の彫刻庭園がオープン",
      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69077",
@@ -195,16 +205,6 @@
      "title": "外務省 不正アクセスで個人情報約3600件漏えいの可能性",
      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68694",
      "pubDate": "Fri, 30 Oct 2026 18:47:03 +0900"
-    },
-    {
-     "title": "GMO 4000万円損失の被害者「ずっと恐怖と闘っている」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68556",
-     "pubDate": "Fri, 30 Oct 2026 18:24:59 +0900"
-    },
-    {
-     "title": "全日空 3万7000人超の情報漏えいか 一部でパスポート番号も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68570",
-     "pubDate": "Fri, 30 Oct 2026 17:29:47 +0900"
     }
    ]
   },
@@ -213,6 +213,31 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "アメリカ中間選挙あす投票 トランプ大統領中西部で演説へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261102de69323",
+     "pubDate": "Mon, 02 Nov 2026 05:09:57 +0900"
+    },
+    {
+     "title": "イラン 仲介国カタールと協議 駆け引き続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261102de69322",
+     "pubDate": "Mon, 02 Nov 2026 04:48:30 +0900"
+    },
+    {
+     "title": "ABU総会始まる NHK番組受賞",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69303",
+     "pubDate": "Mon, 02 Nov 2026 04:26:26 +0900"
+    },
+    {
+     "title": "ドイツ全土のデモ 暴徒化した集団が店襲撃 当局が会見",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261102de69321",
+     "pubDate": "Mon, 02 Nov 2026 04:23:43 +0900"
+    },
+    {
+     "title": "ウクライナ局地的な停戦で住民退避 攻撃の応酬続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261102de69318",
+     "pubDate": "Mon, 02 Nov 2026 04:19:29 +0900"
+    },
     {
      "title": "米中間選挙 世論調査の信頼揺らぎ“予測市場”が拡大 課題は",
      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69104",
@@ -262,31 +287,6 @@
      "title": "アメリカ中間選挙の期日前投票 すでに前回上回る ローマ教皇も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69054",
      "pubDate": "Sun, 01 Nov 2026 14:03:44 +0900"
-    },
-    {
-     "title": "イラン外交団が仲介国で協議 最高指導者は大規模反撃を指示",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69050",
-     "pubDate": "Sun, 01 Nov 2026 05:50:43 +0900"
-    },
-    {
-     "title": "ウクライナ南部の停戦で住民退避が終了 和平進展につながるか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de69033",
-     "pubDate": "Sun, 01 Nov 2026 05:02:10 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（10月31日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68541",
-     "pubDate": "Sat, 31 Oct 2026 20:22:27 +0900"
-    },
-    {
-     "title": "北方領土の元島民 6年ぶり「上空慰霊」 飛行機から供養",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68863",
-     "pubDate": "Sat, 31 Oct 2026 19:45:20 +0900"
-    },
-    {
-     "title": "米海兵隊員を酒気帯び運転の疑いで逮捕 外出禁止措置の時間帯",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de68988",
-     "pubDate": "Sat, 31 Oct 2026 18:12:00 +0900"
     }
    ]
   },
