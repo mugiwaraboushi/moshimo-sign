@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T23:29:15.301Z",
+ "updatedAt": "2026-11-01T02:25:52.174Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,29 +8,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【地震情報】福島県で震度3 津波の心配なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69068",
-     "pubDate": "Sun, 01 Nov 2026 07:21:00 +0900"
+     "title": "フィギュアGPシリーズ 島田麻央が今季世界最高得点で首位発進",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69087",
+     "pubDate": "Sun, 01 Nov 2026 10:52:51 +0900"
     },
     {
-     "title": "クアッド外相 中国念頭に経済的威圧へ懸念共有 首脳会合へ連携",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261031de69039",
-     "pubDate": "Sun, 01 Nov 2026 06:17:00 +0900"
+     "title": "スミソニアン博物館に杉本博司さん設計の彫刻庭園がオープン",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69077",
+     "pubDate": "Sun, 01 Nov 2026 10:38:20 +0900"
     },
     {
      "title": "GMO 子会社が2年前にシステムのぜい弱性を指摘 社長あす会見へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de69037",
-     "pubDate": "Sun, 01 Nov 2026 05:09:50 +0900"
-    },
-    {
-     "title": "アメリカ中間選挙の期日前投票 すでに前回上回る ローマ教皇も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69054",
-     "pubDate": "Sun, 01 Nov 2026 05:52:10 +0900"
-    },
-    {
-     "title": "茂木外相 ロシア外相と率直な意見交換 記者解放へ働きかけ継続",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69063",
-     "pubDate": "Sun, 01 Nov 2026 06:51:22 +0900"
+     "pubDate": "Sun, 01 Nov 2026 05:09:00 +0900"
     },
     {
      "title": "GMOの被害者情報集める不審サイト ハッカー側と関連か",
@@ -38,9 +28,19 @@
      "pubDate": "Sun, 01 Nov 2026 00:08:00 +0900"
     },
     {
-     "title": "ハロウィーン 東京 渋谷は混雑も“大きなトラブルなし”警視庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69057",
-     "pubDate": "Sun, 01 Nov 2026 06:15:00 +0900"
+     "title": "アメリカ中間選挙の期日前投票 すでに前回上回る ローマ教皇も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69054",
+     "pubDate": "Sun, 01 Nov 2026 05:52:00 +0900"
+    },
+    {
+     "title": "政府が力を入れるべき政策「物価対策」4年連続最多 内閣府調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69083",
+     "pubDate": "Sun, 01 Nov 2026 10:33:15 +0900"
+    },
+    {
+     "title": "事業承継の相続税節税で評価方法検討 自民党内から反対論も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69080",
+     "pubDate": "Sun, 01 Nov 2026 10:22:03 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "政府が力を入れるべき政策「物価対策」4年連続最多 内閣府調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69083",
+     "pubDate": "Sun, 01 Nov 2026 10:33:15 +0900"
+    },
     {
      "title": "【動画】Pickup NEWS（11月1日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de69022",
@@ -118,11 +123,6 @@
      "title": "東京メトロ 2029年3月に運賃値上げへ “値上げ幅は今後検討”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68726",
      "pubDate": "Fri, 30 Oct 2026 19:49:26 +0900"
-    },
-    {
-     "title": "辺野古沖転覆事故 同志社理事長が会見 “教育の中立性に問題”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68678",
-     "pubDate": "Fri, 30 Oct 2026 19:34:00 +0900"
     }
    ]
   },
@@ -132,6 +132,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "スミソニアン博物館に杉本博司さん設計の彫刻庭園がオープン",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69077",
+     "pubDate": "Sun, 01 Nov 2026 10:38:20 +0900"
+    },
+    {
      "title": "日本のアニメ産業市場 初の4兆円超 海外好調続き5年連続最高値",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de69030",
      "pubDate": "Sun, 01 Nov 2026 05:11:00 +0900"
@@ -139,7 +144,7 @@
     {
      "title": "GMO 子会社が2年前にシステムのぜい弱性を指摘 社長あす会見へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de69037",
-     "pubDate": "Sun, 01 Nov 2026 05:09:50 +0900"
+     "pubDate": "Sun, 01 Nov 2026 05:09:00 +0900"
     },
     {
      "title": "クラブツーリズム 不正アクセスで約432万件の個人情報漏えいか",
@@ -200,11 +205,6 @@
      "title": "全日空 3万7000人超の情報漏えいか 一部でパスポート番号も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68570",
      "pubDate": "Fri, 30 Oct 2026 17:29:47 +0900"
-    },
-    {
-     "title": "iPSパーキンソン病治療 承認後1例目の治療実施",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261030de68495",
-     "pubDate": "Fri, 30 Oct 2026 17:45:37 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "スミソニアン博物館に杉本博司さん設計の彫刻庭園がオープン",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69077",
+     "pubDate": "Sun, 01 Nov 2026 10:38:20 +0900"
+    },
+    {
      "title": "G20外相会合閉幕 茂木外相“サプライチェーンでもG20協調を”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69059",
      "pubDate": "Sun, 01 Nov 2026 06:53:08 +0900"
@@ -221,7 +226,7 @@
     {
      "title": "茂木外相 ロシア外相と率直な意見交換 記者解放へ働きかけ継続",
      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69063",
-     "pubDate": "Sun, 01 Nov 2026 06:51:22 +0900"
+     "pubDate": "Sun, 01 Nov 2026 06:51:00 +0900"
     },
     {
      "title": "クアッド外相 中国念頭に経済的威圧へ懸念共有 首脳会合へ連携",
@@ -231,12 +236,12 @@
     {
      "title": "フランスで再び大規模デモ 32万人参加 一部で治安部隊と衝突も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69060",
-     "pubDate": "Sun, 01 Nov 2026 06:13:21 +0900"
+     "pubDate": "Sun, 01 Nov 2026 06:13:00 +0900"
     },
     {
      "title": "アメリカ中間選挙の期日前投票 すでに前回上回る ローマ教皇も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69054",
-     "pubDate": "Sun, 01 Nov 2026 05:52:10 +0900"
+     "pubDate": "Sun, 01 Nov 2026 05:52:00 +0900"
     },
     {
      "title": "イラン外交団が仲介国で協議 最高指導者は大規模反撃を指示",
@@ -282,11 +287,6 @@
      "title": "日米韓外相“3か国の結束は地域の要” 協力のすそ野拡大へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68857",
      "pubDate": "Sat, 31 Oct 2026 10:38:00 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（10月31日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20260930de53364",
-     "pubDate": "Sat, 31 Oct 2026 10:01:42 +0900"
     }
    ]
   },
@@ -296,39 +296,39 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "モスクワでテロ計画 米が露に警告",
-     "link": "https://news.yahoo.co.jp/pickup/6600883?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 22:41:29 GMT"
+     "title": "中国 台湾周辺海底ケーブル探査か",
+     "link": "https://news.yahoo.co.jp/pickup/6600895?source=rss",
+     "pubDate": "Sat, 31 Oct 2026 23:34:33 GMT"
     },
     {
-     "title": "日米豪印外相会談 AIなど協力確認",
-     "link": "https://news.yahoo.co.jp/pickup/6600886?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 22:50:15 GMT"
+     "title": "バイナンス被害 北朝鮮関与とFBI",
+     "link": "https://news.yahoo.co.jp/pickup/6600906?source=rss",
+     "pubDate": "Sun, 01 Nov 2026 00:56:58 GMT"
     },
     {
-     "title": "米国版凱旋門 建設中止求め提訴",
-     "link": "https://news.yahoo.co.jp/pickup/6600891?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 23:09:10 GMT"
+     "title": "共和党 トランプ氏から離反相次ぐ",
+     "link": "https://news.yahoo.co.jp/pickup/6600904?source=rss",
+     "pubDate": "Sun, 01 Nov 2026 00:58:11 GMT"
     },
     {
-     "title": "ボンネットに人乗せ走行疑い 逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6600880?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 22:18:42 GMT"
+     "title": "福岡市長選 政令市最多13人立候補",
+     "link": "https://news.yahoo.co.jp/pickup/6600918?source=rss",
+     "pubDate": "Sun, 01 Nov 2026 02:00:42 GMT"
     },
     {
-     "title": "ハロウィン 渋谷に集まった人の声",
-     "link": "https://news.yahoo.co.jp/pickup/6600887?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 22:37:12 GMT"
+     "title": "長すぎベルト「落ち感」引き出す",
+     "link": "https://news.yahoo.co.jp/pickup/6600919?source=rss",
+     "pubDate": "Sun, 01 Nov 2026 02:12:42 GMT"
     },
     {
-     "title": "フォーエバーヤング 連覇ならず",
-     "link": "https://news.yahoo.co.jp/pickup/6600893?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 23:18:51 GMT"
+     "title": "大学駅伝 GPS機器トラブルで謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6600912?source=rss",
+     "pubDate": "Sun, 01 Nov 2026 01:26:28 GMT"
     },
     {
-     "title": "「DOWNTOWN+」1年 今後の期待",
-     "link": "https://news.yahoo.co.jp/pickup/6600892?source=rss",
-     "pubDate": "Sat, 31 Oct 2026 23:15:51 GMT"
+     "title": "GK鈴木彩艶 痛恨のオウンゴール",
+     "link": "https://news.yahoo.co.jp/pickup/6600913?source=rss",
+     "pubDate": "Sun, 01 Nov 2026 01:25:15 GMT"
     },
     {
      "title": "新田真剣佑が改名 前田真剣佑に",
