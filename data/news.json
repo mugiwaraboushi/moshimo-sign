@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T03:15:42.051Z",
+ "updatedAt": "2026-11-03T11:06:03.999Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "スペイン列車事故 日本人2人の死亡確認 地元当局が身元特定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69859",
-     "pubDate": "Tue, 03 Nov 2026 10:14:44 +0900"
+     "title": "アメリカ中間選挙 投票始まる トランプ政権への有権者の評価は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69983",
+     "pubDate": "Tue, 03 Nov 2026 18:06:00 +0900"
     },
     {
-     "title": "アメリカ中間選挙 日本時間の今夜から投票開始 焦点は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69868",
-     "pubDate": "Tue, 03 Nov 2026 11:33:26 +0900"
+     "title": "スペイン列車事故 日本人2人の死亡確認 地元当局が身元特定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69859",
+     "pubDate": "Tue, 03 Nov 2026 10:14:00 +0900"
     },
     {
      "title": "カブス 鈴木誠也に“クオリファイング・オファー” 1年36億円",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69908",
-     "pubDate": "Tue, 03 Nov 2026 11:53:03 +0900"
+     "pubDate": "Tue, 03 Nov 2026 11:53:00 +0900"
     },
     {
-     "title": "大リーグ 大谷がMVP最終候補に 4年連続の受賞なるか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69910",
-     "pubDate": "Tue, 03 Nov 2026 11:59:09 +0900"
+     "title": "韓国大統領や高官の個人情報流出 イ大統領パスポート再発行へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de70007",
+     "pubDate": "Tue, 03 Nov 2026 18:00:00 +0900"
     },
     {
-     "title": "「バイナンス」へのサイバー攻撃 AI使った新たな手口か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69892",
-     "pubDate": "Tue, 03 Nov 2026 11:05:06 +0900"
+     "title": "超党派議員連盟がオランダへ出発 ICC赤根所長と面会へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69943",
+     "pubDate": "Tue, 03 Nov 2026 14:29:00 +0900"
     },
     {
-     "title": "世界的な暗号資産取引所へのサイバー攻撃 北朝鮮が関与否定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69881",
-     "pubDate": "Tue, 03 Nov 2026 10:10:26 +0900"
+     "title": "細野防災相 “熊本地震の復旧・復興 防災庁が司令塔機能発揮”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de70035",
+     "pubDate": "Tue, 03 Nov 2026 19:12:00 +0900"
     },
     {
-     "title": "ICC赤根所長 国連でアメリカの制裁批判 使命果たすと決意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69880",
-     "pubDate": "Tue, 03 Nov 2026 10:19:27 +0900"
+     "title": "剣道全日本選手権 男子は中田竜之介 女子は末永真理が優勝",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de70038",
+     "pubDate": "Tue, 03 Nov 2026 19:19:00 +0900"
     }
    ]
   },
@@ -50,14 +50,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "憲法公布80年 改憲派・護憲派がそれぞれ集会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de70027",
+     "pubDate": "Tue, 03 Nov 2026 18:53:54 +0900"
+    },
+    {
+     "title": "ヒグマと衝突のJR宗谷線 4日から全区間で運転再開へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69986",
+     "pubDate": "Tue, 03 Nov 2026 16:51:00 +0900"
+    },
+    {
+     "title": "「世界津波の日」前に南海トラフ巨大地震想定し訓練 和歌山",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69940",
+     "pubDate": "Tue, 03 Nov 2026 15:07:00 +0900"
+    },
+    {
+     "title": "「被爆マリア像」渡米前に会見 「核兵器廃絶祈りの旅に」 長崎",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69938",
+     "pubDate": "Tue, 03 Nov 2026 14:58:00 +0900"
+    },
+    {
      "title": "脚本家の倉本聰さん 「北の国から」富良野でお別れの会 北海道",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69916",
-     "pubDate": "Tue, 03 Nov 2026 12:13:23 +0900"
+     "pubDate": "Tue, 03 Nov 2026 12:13:00 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（11月3日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69570",
-     "pubDate": "Tue, 03 Nov 2026 07:15:49 +0900"
+     "pubDate": "Tue, 03 Nov 2026 19:47:15 +0900"
     },
     {
      "title": "「秋の叙勲」受章者発表 各界で功労のあった計3861人が受章",
@@ -103,26 +123,6 @@
      "title": "過労死を防ぐ対策考えるシンポジウムで遺族が訴え",
      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69717",
      "pubDate": "Mon, 02 Nov 2026 18:25:00 +0900"
-    },
-    {
-     "title": "福岡県議会 海外活動の旅行会社委託費 総額が当初契約の3倍に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261102de69693",
-     "pubDate": "Mon, 02 Nov 2026 18:22:00 +0900"
-    },
-    {
-     "title": "「防災庁」が新しくできた 災害への「備え」って？",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261029de67518",
-     "pubDate": "Mon, 02 Nov 2026 18:04:28 +0900"
-    },
-    {
-     "title": "去年大量死 広島の養殖かき 今季水揚げ始まる 期待と不安の声",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261102de69556",
-     "pubDate": "Mon, 02 Nov 2026 20:17:00 +0900"
-    },
-    {
-     "title": "ノースサファリサッポロ 建物撤去完了できず 札幌市が立入検査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261102de69564",
-     "pubDate": "Mon, 02 Nov 2026 15:58:00 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "横浜ゴム 委託先への不正アクセスでメールアドレスなど漏えい",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de70021",
+     "pubDate": "Tue, 03 Nov 2026 19:15:32 +0900"
+    },
+    {
+     "title": "皇居で文化勲章の親授式",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69927",
+     "pubDate": "Tue, 03 Nov 2026 14:40:00 +0900"
+    },
     {
      "title": "「バイナンス」へのサイバー攻撃 AI使った新たな手口か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69892",
@@ -195,16 +205,6 @@
      "title": "メール配信サービス「アララ」700万通超の不審メール確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69506",
      "pubDate": "Mon, 02 Nov 2026 14:15:00 +0900"
-    },
-    {
-     "title": "GMO 熊谷社長会見で陳謝 ぜい弱性指摘 サービス運営に生かせず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69276",
-     "pubDate": "Mon, 02 Nov 2026 21:25:31 +0900"
-    },
-    {
-     "title": "「秋の褒章」に現代美術家の奈良美智さんら",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261101de69275",
-     "pubDate": "Mon, 02 Nov 2026 05:01:00 +0900"
     }
    ]
   },
@@ -214,6 +214,36 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "アメリカ中間選挙 投票始まる トランプ政権への有権者の評価は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69983",
+     "pubDate": "Tue, 03 Nov 2026 20:05:07 +0900"
+    },
+    {
+     "title": "韓国大統領や高官の個人情報流出 イ大統領パスポート再発行へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de70007",
+     "pubDate": "Tue, 03 Nov 2026 18:00:00 +0900"
+    },
+    {
+     "title": "米アップル主力スマートフォン好調で増益 半導体高騰の懸念も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69962",
+     "pubDate": "Tue, 03 Nov 2026 15:43:00 +0900"
+    },
+    {
+     "title": "北朝鮮が巡航ミサイルの発射実験を実施",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69951",
+     "pubDate": "Tue, 03 Nov 2026 15:24:00 +0900"
+    },
+    {
+     "title": "「被爆マリア像」渡米前に会見 「核兵器廃絶祈りの旅に」 長崎",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69938",
+     "pubDate": "Tue, 03 Nov 2026 14:58:00 +0900"
+    },
+    {
+     "title": "韓国 イ大統領 セキュリティー対策の抜本強化を指示",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69936",
+     "pubDate": "Tue, 03 Nov 2026 14:14:00 +0900"
+    },
+    {
      "title": "ウクライナで局地停戦が終了 住民避難もほかの地域で攻撃",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69879",
      "pubDate": "Tue, 03 Nov 2026 10:30:00 +0900"
@@ -221,12 +251,12 @@
     {
      "title": "ICC赤根所長 国連でアメリカの制裁批判 使命果たすと決意",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69880",
-     "pubDate": "Tue, 03 Nov 2026 10:19:27 +0900"
+     "pubDate": "Tue, 03 Nov 2026 10:19:00 +0900"
     },
     {
      "title": "世界的な暗号資産取引所へのサイバー攻撃 北朝鮮が関与否定",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69881",
-     "pubDate": "Tue, 03 Nov 2026 10:10:26 +0900"
+     "pubDate": "Tue, 03 Nov 2026 10:10:00 +0900"
     },
     {
      "title": "トランプ大統領 イラン攻撃再開決定について「急がず」 米報道",
@@ -236,12 +266,12 @@
     {
      "title": "米・ウクライナ・ロシアの実務者協議 10日からUAEで開催へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69878",
-     "pubDate": "Tue, 03 Nov 2026 11:26:01 +0900"
+     "pubDate": "Tue, 03 Nov 2026 11:26:00 +0900"
     },
     {
      "title": "スペイン列車事故 日本人2人の死亡確認 地元当局が身元特定",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69859",
-     "pubDate": "Tue, 03 Nov 2026 10:14:44 +0900"
+     "pubDate": "Tue, 03 Nov 2026 10:14:00 +0900"
     },
     {
      "title": "米アンソロピック 売り上げ13倍もAI開発への支出は140兆円余に",
@@ -257,36 +287,6 @@
      "title": "イラン“ホルムズ海峡でタンカー炎上” 不安定な状況続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69867",
      "pubDate": "Tue, 03 Nov 2026 05:35:39 +0900"
-    },
-    {
-     "title": "ソウルの飲酒運転死亡事故から1年 犠牲者の日本人女性を悼む",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69858",
-     "pubDate": "Tue, 03 Nov 2026 05:29:00 +0900"
-    },
-    {
-     "title": "ベルギーやスウェーデン スーパーにサイバー攻撃か 食品に被害",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69864",
-     "pubDate": "Tue, 03 Nov 2026 05:10:00 +0900"
-    },
-    {
-     "title": "アメリカ中間選挙 日本時間の今夜から投票開始 焦点は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69868",
-     "pubDate": "Tue, 03 Nov 2026 11:33:26 +0900"
-    },
-    {
-     "title": "アメリカ中間選挙 3日に投票開始 NW9広内キャスターが現地取材",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261102de69793",
-     "pubDate": "Mon, 02 Nov 2026 22:06:09 +0900"
-    },
-    {
-     "title": "アジア太平洋放送連合 次の会長にNHKの山名副会長を選出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261102de69830",
-     "pubDate": "Mon, 02 Nov 2026 21:46:00 +0900"
-    },
-    {
-     "title": "共産 志位議長「アジア政党国際会議」出席で訪韓",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261102de69694",
-     "pubDate": "Mon, 02 Nov 2026 17:53:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "米中間選挙「MAGA」の動向焦点",
-     "link": "https://news.yahoo.co.jp/pickup/6601145?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 01:59:48 GMT"
+     "title": "米中間選挙 民主勝利ならどうなる",
+     "link": "https://news.yahoo.co.jp/pickup/6601194?source=rss",
+     "pubDate": "Tue, 03 Nov 2026 08:12:35 GMT"
     },
     {
-     "title": "ICC赤根所長 米政権の制裁を批判",
-     "link": "https://news.yahoo.co.jp/pickup/6601146?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 02:14:00 GMT"
+     "title": "簗氏の出陣式で鉢巻きを無償配布",
+     "link": "https://news.yahoo.co.jp/pickup/6601203?source=rss",
+     "pubDate": "Tue, 03 Nov 2026 09:32:23 GMT"
     },
     {
-     "title": "阪神高速でトラック横転 単独か",
-     "link": "https://news.yahoo.co.jp/pickup/6601149?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 02:17:55 GMT"
+     "title": "GMOのサーバー「設計上の不備」",
+     "link": "https://news.yahoo.co.jp/pickup/6601209?source=rss",
+     "pubDate": "Tue, 03 Nov 2026 09:50:53 GMT"
     },
     {
-     "title": "親と縁切る「家族じまい」相談増",
-     "link": "https://news.yahoo.co.jp/pickup/6601143?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 01:44:22 GMT"
+     "title": "ゴルフカートにひかれ 女性重傷",
+     "link": "https://news.yahoo.co.jp/pickup/6601211?source=rss",
+     "pubDate": "Tue, 03 Nov 2026 10:38:44 GMT"
     },
     {
-     "title": "28年かけ世界一周 英冒険家が帰郷",
-     "link": "https://news.yahoo.co.jp/pickup/6601152?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 02:44:09 GMT"
+     "title": "盤上に虫 藤井竜王思わず席を立つ",
+     "link": "https://news.yahoo.co.jp/pickup/6601201?source=rss",
+     "pubDate": "Tue, 03 Nov 2026 09:09:52 GMT"
     },
     {
-     "title": "鳥山明さん仕事場解体へ 惜しむ声",
-     "link": "https://news.yahoo.co.jp/pickup/6601126?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 00:01:42 GMT"
+     "title": "松井秀喜監督「擬音語」で指導",
+     "link": "https://news.yahoo.co.jp/pickup/6601215?source=rss",
+     "pubDate": "Tue, 03 Nov 2026 11:02:42 GMT"
     },
     {
-     "title": "カブス 鈴木誠也に単年36億円提示",
-     "link": "https://news.yahoo.co.jp/pickup/6601142?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 01:35:48 GMT"
+     "title": "小園海斗 去就「話せることない」",
+     "link": "https://news.yahoo.co.jp/pickup/6601195?source=rss",
+     "pubDate": "Tue, 03 Nov 2026 08:27:02 GMT"
     },
     {
-     "title": "佐野勇斗&髙石あかり 今年の顔に",
-     "link": "https://news.yahoo.co.jp/pickup/6601150?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 02:40:19 GMT"
+     "title": "鳥山明さんの仕事場 なぜ残せない",
+     "link": "https://news.yahoo.co.jp/pickup/6601204?source=rss",
+     "pubDate": "Tue, 03 Nov 2026 09:32:25 GMT"
     }
    ]
   }
