@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T11:06:03.999Z",
+ "updatedAt": "2026-11-03T18:29:58.067Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -10,27 +10,17 @@
     {
      "title": "アメリカ中間選挙 投票始まる トランプ政権への有権者の評価は",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69983",
-     "pubDate": "Tue, 03 Nov 2026 18:06:00 +0900"
+     "pubDate": "Tue, 03 Nov 2026 23:30:11 +0900"
     },
     {
-     "title": "スペイン列車事故 日本人2人の死亡確認 地元当局が身元特定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69859",
-     "pubDate": "Tue, 03 Nov 2026 10:14:00 +0900"
+     "title": "サッカーアジア杯 開催を来年12月に延期 サウジ情勢の影響で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69969",
+     "pubDate": "Tue, 03 Nov 2026 22:34:51 +0900"
     },
     {
-     "title": "カブス 鈴木誠也に“クオリファイング・オファー” 1年36億円",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69908",
-     "pubDate": "Tue, 03 Nov 2026 11:53:00 +0900"
-    },
-    {
-     "title": "韓国大統領や高官の個人情報流出 イ大統領パスポート再発行へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de70007",
-     "pubDate": "Tue, 03 Nov 2026 18:00:00 +0900"
-    },
-    {
-     "title": "超党派議員連盟がオランダへ出発 ICC赤根所長と面会へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69943",
-     "pubDate": "Tue, 03 Nov 2026 14:29:00 +0900"
+     "title": "ヒグマと衝突のJR宗谷線 4日から全区間で運転再開へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69986",
+     "pubDate": "Tue, 03 Nov 2026 16:51:00 +0900"
     },
     {
      "title": "細野防災相 “熊本地震の復旧・復興 防災庁が司令塔機能発揮”",
@@ -38,9 +28,19 @@
      "pubDate": "Tue, 03 Nov 2026 19:12:00 +0900"
     },
     {
-     "title": "剣道全日本選手権 男子は中田竜之介 女子は末永真理が優勝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de70038",
-     "pubDate": "Tue, 03 Nov 2026 19:19:00 +0900"
+     "title": "米・ウクライナ・ロシアの実務者協議 10日からUAEで開催へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69878",
+     "pubDate": "Tue, 03 Nov 2026 20:55:23 +0900"
+    },
+    {
+     "title": "旧統一教会 ハン・ハクチャ総裁 指定の病院離れ保釈取り消し",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de70061",
+     "pubDate": "Tue, 03 Nov 2026 22:12:00 +0900"
+    },
+    {
+     "title": "サッカースペイン2部の試合で選手どうしが激突 1人死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de70067",
+     "pubDate": "Tue, 03 Nov 2026 23:15:28 +0900"
     }
    ]
   },
@@ -214,9 +214,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "旧統一教会 ハン・ハクチャ総裁 指定の病院離れ保釈取り消し",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de70061",
+     "pubDate": "Tue, 03 Nov 2026 22:12:00 +0900"
+    },
+    {
+     "title": "ウクライナ南部で31人死亡 東部で70人余けが ロシアの攻撃で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de70056",
+     "pubDate": "Tue, 03 Nov 2026 21:49:42 +0900"
+    },
+    {
+     "title": "アメリカ中間選挙 投票始まる NW9広内キャスターが現地取材",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261103de70051",
+     "pubDate": "Tue, 03 Nov 2026 21:38:15 +0900"
+    },
+    {
      "title": "アメリカ中間選挙 投票始まる トランプ政権への有権者の評価は",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69983",
-     "pubDate": "Tue, 03 Nov 2026 20:05:07 +0900"
+     "pubDate": "Tue, 03 Nov 2026 23:30:11 +0900"
     },
     {
      "title": "韓国大統領や高官の個人情報流出 イ大統領パスポート再発行へ",
@@ -266,27 +281,12 @@
     {
      "title": "米・ウクライナ・ロシアの実務者協議 10日からUAEで開催へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69878",
-     "pubDate": "Tue, 03 Nov 2026 11:26:00 +0900"
+     "pubDate": "Tue, 03 Nov 2026 20:55:23 +0900"
     },
     {
      "title": "スペイン列車事故 日本人2人の死亡確認 地元当局が身元特定",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69859",
      "pubDate": "Tue, 03 Nov 2026 10:14:00 +0900"
-    },
-    {
-     "title": "米アンソロピック 売り上げ13倍もAI開発への支出は140兆円余に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69869",
-     "pubDate": "Tue, 03 Nov 2026 05:43:00 +0900"
-    },
-    {
-     "title": "「花博」国際園芸博覧会 タイで始まる 横浜で来年大規模開催へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69863",
-     "pubDate": "Tue, 03 Nov 2026 05:38:09 +0900"
-    },
-    {
-     "title": "イラン“ホルムズ海峡でタンカー炎上” 不安定な状況続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69867",
-     "pubDate": "Tue, 03 Nov 2026 05:35:39 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "米中間選挙 民主勝利ならどうなる",
-     "link": "https://news.yahoo.co.jp/pickup/6601194?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 08:12:35 GMT"
+     "title": "米中間選挙 集計長期化の可能性も",
+     "link": "https://news.yahoo.co.jp/pickup/6601226?source=rss",
+     "pubDate": "Tue, 03 Nov 2026 14:02:50 GMT"
     },
     {
-     "title": "簗氏の出陣式で鉢巻きを無償配布",
-     "link": "https://news.yahoo.co.jp/pickup/6601203?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 09:32:23 GMT"
+     "title": "武部農相 献金巡り新たな疑惑",
+     "link": "https://news.yahoo.co.jp/pickup/6601222?source=rss",
+     "pubDate": "Tue, 03 Nov 2026 12:53:53 GMT"
     },
     {
-     "title": "GMOのサーバー「設計上の不備」",
-     "link": "https://news.yahoo.co.jp/pickup/6601209?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 09:50:53 GMT"
+     "title": "露軍 外国人兵に入れ墨で識別番号",
+     "link": "https://news.yahoo.co.jp/pickup/6601163?source=rss",
+     "pubDate": "Tue, 03 Nov 2026 04:40:35 GMT"
     },
     {
-     "title": "ゴルフカートにひかれ 女性重傷",
-     "link": "https://news.yahoo.co.jp/pickup/6601211?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 10:38:44 GMT"
+     "title": "台湾の九份 日本人男性が行方不明",
+     "link": "https://news.yahoo.co.jp/pickup/6601219?source=rss",
+     "pubDate": "Tue, 03 Nov 2026 12:38:04 GMT"
     },
     {
-     "title": "盤上に虫 藤井竜王思わず席を立つ",
-     "link": "https://news.yahoo.co.jp/pickup/6601201?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 09:09:52 GMT"
+     "title": "アソビュー 1500万件超の情報流出",
+     "link": "https://news.yahoo.co.jp/pickup/6601234?source=rss",
+     "pubDate": "Tue, 03 Nov 2026 14:59:10 GMT"
     },
     {
-     "title": "松井秀喜監督「擬音語」で指導",
-     "link": "https://news.yahoo.co.jp/pickup/6601215?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 11:02:42 GMT"
+     "title": "タイ 輸入EVの物品税引き上げへ",
+     "link": "https://news.yahoo.co.jp/pickup/6601233?source=rss",
+     "pubDate": "Tue, 03 Nov 2026 14:40:16 GMT"
     },
     {
-     "title": "小園海斗 去就「話せることない」",
-     "link": "https://news.yahoo.co.jp/pickup/6601195?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 08:27:02 GMT"
+     "title": "スペイン2部 試合中搬送のFW死去",
+     "link": "https://news.yahoo.co.jp/pickup/6601220?source=rss",
+     "pubDate": "Tue, 03 Nov 2026 12:45:25 GMT"
     },
     {
-     "title": "鳥山明さんの仕事場 なぜ残せない",
-     "link": "https://news.yahoo.co.jp/pickup/6601204?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 09:32:25 GMT"
+     "title": "カワラボ メンバーの個人Xを休止",
+     "link": "https://news.yahoo.co.jp/pickup/6601231?source=rss",
+     "pubDate": "Tue, 03 Nov 2026 14:14:36 GMT"
     }
    ]
   }
