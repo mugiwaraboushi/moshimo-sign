@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T23:34:01.343Z",
+ "updatedAt": "2026-11-04T03:30:22.847Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "アメリカ中間選挙 一部の州で開票始まる【随時更新】",
+     "title": "アメリカ中間選挙 民主党が下院の過半数獲得へ 複数メディア",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69965",
-     "pubDate": "Wed, 04 Nov 2026 08:11:00 +0900"
+     "pubDate": "Wed, 04 Nov 2026 12:17:24 +0900"
     },
     {
-     "title": "台風31号の影響 あすは関東・伊豆諸島で大雨のおそれ",
+     "title": "トランプ大統領「私には究極の権限“拒否権”がある」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70148",
+     "pubDate": "Wed, 04 Nov 2026 10:36:00 +0900"
+    },
+    {
+     "title": "株価 大きく値下がり AI関連投資の先行きに不透明感",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70160",
+     "pubDate": "Wed, 04 Nov 2026 12:05:54 +0900"
+    },
+    {
+     "title": "台風31号 暖湿気流入で関東や伊豆諸島 今夜遅くから大雨おそれ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70112",
-     "pubDate": "Wed, 04 Nov 2026 07:06:00 +0900"
+     "pubDate": "Wed, 04 Nov 2026 11:57:48 +0900"
     },
     {
-     "title": "スペインの運輸相 辞任の意向を表明 列車事故を受けて",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70111",
-     "pubDate": "Wed, 04 Nov 2026 06:50:45 +0900"
+     "title": "アソビュー 会員情報1582万件余流出 「アララ」不正アクセスで",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70170",
+     "pubDate": "Wed, 04 Nov 2026 11:21:53 +0900"
+    },
+    {
+     "title": "衆院財務金融委 消費税減税法案 与党は6日採決提案も協議継続",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70162",
+     "pubDate": "Wed, 04 Nov 2026 12:17:08 +0900"
     },
     {
      "title": "暗号資産大手が報告書 偽面接やAIツールでシステムに侵入",
      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70104",
      "pubDate": "Wed, 04 Nov 2026 08:18:48 +0900"
-    },
-    {
-     "title": "APEC閣僚会議開催 オンライン形式は異例",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70103",
-     "pubDate": "Wed, 04 Nov 2026 06:32:00 +0900"
-    },
-    {
-     "title": "ウクライナ・ドイツ首脳会談 3か国協議で具体的な進展に期待",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70105",
-     "pubDate": "Wed, 04 Nov 2026 07:49:54 +0900"
-    },
-    {
-     "title": "JA全農 来春向け肥料値上げへ 中東情勢が主因",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de70060",
-     "pubDate": "Wed, 04 Nov 2026 06:45:00 +0900"
     }
    ]
   },
@@ -50,9 +50,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "“北朝鮮が飛しょう体を発射”韓国軍発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70141",
+     "pubDate": "Wed, 04 Nov 2026 10:00:00 +0900"
+    },
+    {
+     "title": "東武鉄道東上線 全線で運転再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70131",
+     "pubDate": "Wed, 04 Nov 2026 09:57:28 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（11月4日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de70039",
-     "pubDate": "Wed, 04 Nov 2026 06:39:27 +0900"
+     "pubDate": "Wed, 04 Nov 2026 09:53:51 +0900"
     },
     {
      "title": "JR山手線 外回り 運転再開",
@@ -113,16 +123,6 @@
      "title": "ヒグマと衝突し脱線のJR宗谷線 3日も終日運転見合わせ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69766",
      "pubDate": "Mon, 02 Nov 2026 19:27:02 +0900"
-    },
-    {
-     "title": "中野ブロードウェイ 高級時計窃盗事件 男は新幹線で西に移動か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261102de69776",
-     "pubDate": "Mon, 02 Nov 2026 19:23:00 +0900"
-    },
-    {
-     "title": "中司行革相 秋レビュー“財源の観点で基金見直し重要テーマ”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261102de69764",
-     "pubDate": "Mon, 02 Nov 2026 18:59:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "アソビュー 会員情報1582万件余流出 「アララ」不正アクセスで",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70170",
+     "pubDate": "Wed, 04 Nov 2026 11:21:53 +0900"
+    },
     {
      "title": "横浜ゴム 委託先への不正アクセスでメールアドレスなど漏えい",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de70021",
@@ -200,11 +205,6 @@
      "title": "GMO 不正アクセス問題 熊谷社長ら記者会見【詳細】",
      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69492",
      "pubDate": "Tue, 03 Nov 2026 00:46:36 +0900"
-    },
-    {
-     "title": "メール配信サービス「アララ」700万通超の不審メール確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261102de69506",
-     "pubDate": "Mon, 02 Nov 2026 14:15:00 +0900"
     }
    ]
   },
@@ -214,9 +214,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "アメリカ中間選挙 一部の州で開票始まる【随時更新】",
+     "title": "トランプ大統領「私には究極の権限“拒否権”がある」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70148",
+     "pubDate": "Wed, 04 Nov 2026 10:36:00 +0900"
+    },
+    {
+     "title": "“北朝鮮が飛しょう体を発射”韓国軍発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70141",
+     "pubDate": "Wed, 04 Nov 2026 10:00:00 +0900"
+    },
+    {
+     "title": "アメリカ中間選挙 民主党が下院の過半数獲得へ 複数メディア",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69965",
-     "pubDate": "Wed, 04 Nov 2026 08:11:00 +0900"
+     "pubDate": "Wed, 04 Nov 2026 12:17:24 +0900"
     },
     {
      "title": "ウクライナ・ドイツ首脳会談 3か国協議で具体的な進展に期待",
@@ -236,7 +246,7 @@
     {
      "title": "スペインの運輸相 辞任の意向を表明 列車事故を受けて",
      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70111",
-     "pubDate": "Wed, 04 Nov 2026 06:50:45 +0900"
+     "pubDate": "Wed, 04 Nov 2026 06:50:00 +0900"
     },
     {
      "title": "APEC閣僚会議開催 オンライン形式は異例",
@@ -246,7 +256,7 @@
     {
      "title": "スペイン列車事故 AI導入し異常検知など再発防止策",
      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70092",
-     "pubDate": "Wed, 04 Nov 2026 05:05:00 +0900"
+     "pubDate": "Wed, 04 Nov 2026 11:54:35 +0900"
     },
     {
      "title": "旧統一教会 ハン・ハクチャ総裁 指定の病院離れ保釈取り消し",
@@ -277,16 +287,6 @@
      "title": "米アップル主力スマートフォン好調で増益 半導体高騰の懸念も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69962",
      "pubDate": "Tue, 03 Nov 2026 15:43:00 +0900"
-    },
-    {
-     "title": "北朝鮮が巡航ミサイルの発射実験を実施",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69951",
-     "pubDate": "Tue, 03 Nov 2026 15:24:00 +0900"
-    },
-    {
-     "title": "「被爆マリア像」渡米前に会見 「核兵器廃絶祈りの旅に」 長崎",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69938",
-     "pubDate": "Tue, 03 Nov 2026 14:58:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "アメリカ中間選挙の開票始まる",
-     "link": "https://news.yahoo.co.jp/pickup/6601254?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 23:28:24 GMT"
+     "title": "米民主党が下院で過半数確実 CNN",
+     "link": "https://news.yahoo.co.jp/pickup/6601287?source=rss",
+     "pubDate": "Wed, 04 Nov 2026 03:25:19 GMT"
     },
     {
-     "title": "米中間選挙 予測市場が試練に直面",
-     "link": "https://news.yahoo.co.jp/pickup/6601252?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 23:11:46 GMT"
+     "title": "中継 米中間選挙の開票速報",
+     "link": "https://news.yahoo.co.jp/pickup/6601265?source=rss",
+     "pubDate": "Wed, 04 Nov 2026 01:01:21 GMT"
     },
     {
-     "title": "欧州で旅客機への爆破予告相次ぐ",
-     "link": "https://news.yahoo.co.jp/pickup/6601246?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 22:30:44 GMT"
+     "title": "日経平均株価 一時2000円超下落",
+     "link": "https://news.yahoo.co.jp/pickup/6601272?source=rss",
+     "pubDate": "Wed, 04 Nov 2026 02:10:16 GMT"
     },
     {
-     "title": "米大統領 イスラエル支援終了発表",
-     "link": "https://news.yahoo.co.jp/pickup/6601244?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 22:30:01 GMT"
+     "title": "UFJ新銀行 キャッシュカードなし",
+     "link": "https://news.yahoo.co.jp/pickup/6601279?source=rss",
+     "pubDate": "Wed, 04 Nov 2026 03:00:46 GMT"
     },
     {
-     "title": "パーソナルトレ トラブル急増",
-     "link": "https://news.yahoo.co.jp/pickup/6601250?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 23:16:44 GMT"
+     "title": "フードデリバリー業界に淘汰の波",
+     "link": "https://news.yahoo.co.jp/pickup/6601266?source=rss",
+     "pubDate": "Wed, 04 Nov 2026 01:25:19 GMT"
     },
     {
-     "title": "マンホールカード人気 トラブルも",
-     "link": "https://news.yahoo.co.jp/pickup/6601247?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 22:43:59 GMT"
+     "title": "珍しい名字「井」さん100人超集合",
+     "link": "https://news.yahoo.co.jp/pickup/6601282?source=rss",
+     "pubDate": "Wed, 04 Nov 2026 03:06:59 GMT"
     },
     {
-     "title": "広島・森下がFA決断 争奪戦確実",
-     "link": "https://news.yahoo.co.jp/pickup/6601241?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 21:44:10 GMT"
+     "title": "MLB 総年俸制限導入先送りを提案",
+     "link": "https://news.yahoo.co.jp/pickup/6601280?source=rss",
+     "pubDate": "Wed, 04 Nov 2026 02:43:42 GMT"
     },
     {
-     "title": "「アンメット」続編決定 来年放送",
-     "link": "https://news.yahoo.co.jp/pickup/6601245?source=rss",
-     "pubDate": "Tue, 03 Nov 2026 22:32:13 GMT"
+     "title": "マッシュル実写映画化 来年に公開",
+     "link": "https://news.yahoo.co.jp/pickup/6601275?source=rss",
+     "pubDate": "Wed, 04 Nov 2026 02:33:55 GMT"
     }
    ]
   }
