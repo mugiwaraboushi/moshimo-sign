@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T00:01:43.494Z",
+ "updatedAt": "2026-11-05T07:03:25.042Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "アメリカ中間選挙 民主党大勝 “トランプ氏に拒絶反応”米報道",
+     "title": "2026年の新語・流行語大賞の候補 30のことばは？",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70801",
+     "pubDate": "Thu, 05 Nov 2026 14:38:48 +0900"
+    },
+    {
+     "title": "ドコモに不正アクセスの可能性 オンラインサービス停止",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70776",
+     "pubDate": "Thu, 05 Nov 2026 10:54:00 +0900"
+    },
+    {
+     "title": "アメリカ中間選挙 共和党大敗 イラン情勢への対応が焦点に",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69965",
-     "pubDate": "Thu, 05 Nov 2026 08:48:26 +0900"
+     "pubDate": "Thu, 05 Nov 2026 13:49:22 +0900"
     },
     {
-     "title": "伊豆諸島や関東に雨雲 昼ごろまで激しい雨も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70681",
-     "pubDate": "Thu, 05 Nov 2026 08:11:00 +0900"
+     "title": "20年前の大雨取材で行方不明の記者 骨の一部見つかる 広島",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70937",
+     "pubDate": "Thu, 05 Nov 2026 15:20:32 +0900"
     },
     {
-     "title": "「書道」無形文化遺産に登録へ ユネスコ評価機関「記載」勧告",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70701",
-     "pubDate": "Thu, 05 Nov 2026 07:04:00 +0900"
+     "title": "NTTドコモ 全国で音声通話やデータ通信など 利用しにくい状況",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70883",
+     "pubDate": "Thu, 05 Nov 2026 12:44:00 +0900"
     },
     {
-     "title": "消費税減税法案 与党“あす衆院通過”野党“首相答弁で判断”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70693",
-     "pubDate": "Thu, 05 Nov 2026 06:00:51 +0900"
+     "title": "アメリカ中間選挙 トランプ大統領の「ゲリマンダー」不発に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70892",
+     "pubDate": "Thu, 05 Nov 2026 12:43:00 +0900"
     },
     {
-     "title": "スペイン列車事故 日本人2人の死亡確認 外務省幹部",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70726",
-     "pubDate": "Thu, 05 Nov 2026 07:20:46 +0900"
-    },
-    {
-     "title": "トランプ大統領 敗北理由はイラン “でもまた同じ決断する”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70714",
-     "pubDate": "Thu, 05 Nov 2026 05:57:47 +0900"
-    },
-    {
-     "title": "“サイバー攻撃で新チーム運用” 対策パッケージで政府調整",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70695",
-     "pubDate": "Thu, 05 Nov 2026 06:23:49 +0900"
+     "title": "トヨタ元社長 奥田碩氏をしのぶ「感謝の会」 約1000人が参列",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70932",
+     "pubDate": "Thu, 05 Nov 2026 14:15:20 +0900"
     }
    ]
   },
@@ -50,6 +50,36 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "群馬 伊勢崎3人死亡事故 2審も懲役20年の判決",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70957",
+     "pubDate": "Thu, 05 Nov 2026 15:56:48 +0900"
+    },
+    {
+     "title": "山口 防府 海で新生児とみられる遺体 殺害後に遺棄されたか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70949",
+     "pubDate": "Thu, 05 Nov 2026 15:24:39 +0900"
+    },
+    {
+     "title": "20年前の大雨取材で行方不明の記者 骨の一部見つかる 広島",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70937",
+     "pubDate": "Thu, 05 Nov 2026 15:20:32 +0900"
+    },
+    {
+     "title": "特殊詐欺対策 警察庁 送金先口座情報を全国の金融機関と共有へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70890",
+     "pubDate": "Thu, 05 Nov 2026 13:07:00 +0900"
+    },
+    {
+     "title": "NTTドコモ 全国で音声通話やデータ通信など 利用しにくい状況",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70883",
+     "pubDate": "Thu, 05 Nov 2026 12:44:00 +0900"
+    },
+    {
+     "title": "【動画】変わる東京湾 海中では何が",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261102de69409",
+     "pubDate": "Thu, 05 Nov 2026 10:24:15 +0900"
+    },
+    {
      "title": "JR内房線 運転再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20261105de70729",
      "pubDate": "Thu, 05 Nov 2026 07:44:56 +0900"
@@ -57,7 +87,7 @@
     {
      "title": "【動画】Pickup NEWS（11月5日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70428",
-     "pubDate": "Thu, 05 Nov 2026 06:34:45 +0900"
+     "pubDate": "Thu, 05 Nov 2026 14:09:22 +0900"
     },
     {
      "title": "東京 御蔵島村に「レベル4土砂災害危険警報」",
@@ -93,36 +123,6 @@
      "title": "埼玉県警 巡査部長が警察官から拳銃奪い自分に発砲",
      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70462",
      "pubDate": "Wed, 04 Nov 2026 18:01:00 +0900"
-    },
-    {
-     "title": "【動画】函館少年刑務所の訓練船「少年北海丸」で学ぶこと",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70142",
-     "pubDate": "Wed, 04 Nov 2026 17:48:00 +0900"
-    },
-    {
-     "title": "核のごみ文献調査 常陸大宮市長“文献調査のエリア拡大を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70432",
-     "pubDate": "Wed, 04 Nov 2026 17:20:00 +0900"
-    },
-    {
-     "title": "東武日光線4人死亡事故 第三者委員会が初会合",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70307",
-     "pubDate": "Wed, 04 Nov 2026 14:36:00 +0900"
-    },
-    {
-     "title": "川崎市部長を逮捕 塗装・防水工事でOBに入札情報漏らしたか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70263",
-     "pubDate": "Wed, 04 Nov 2026 18:26:00 +0900"
-    },
-    {
-     "title": "JR宗谷線 ヒグマとの衝突事故から5日ぶり運転再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70278",
-     "pubDate": "Wed, 04 Nov 2026 13:03:00 +0900"
-    },
-    {
-     "title": "警察犬の慰霊祭 東京の動物霊園で 犯罪捜査や災害救助で活躍",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70207",
-     "pubDate": "Wed, 04 Nov 2026 12:59:59 +0900"
     }
    ]
   },
@@ -132,9 +132,44 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "ボートレースのメルマガなど 配信先のアドレス68万件余が流出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70911",
+     "pubDate": "Thu, 05 Nov 2026 15:32:56 +0900"
+    },
+    {
+     "title": "N響桂冠名誉指揮者ヘルベルト・ブロムシュテットさん死去 99歳",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70944",
+     "pubDate": "Thu, 05 Nov 2026 14:56:00 +0900"
+    },
+    {
+     "title": "2026年の新語・流行語大賞の候補 30のことばは？",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70801",
+     "pubDate": "Thu, 05 Nov 2026 14:38:48 +0900"
+    },
+    {
+     "title": "モンテローザ 会員情報62万件余流出か アララの不正アクセスで",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70839",
+     "pubDate": "Thu, 05 Nov 2026 12:01:35 +0900"
+    },
+    {
+     "title": "グーグル 学校向け学習サービスのAI機能を制限",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70783",
+     "pubDate": "Thu, 05 Nov 2026 11:27:07 +0900"
+    },
+    {
+     "title": "国税庁「e-Tax」不審な通信検知でメンテナンスも再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70796",
+     "pubDate": "Thu, 05 Nov 2026 12:04:00 +0900"
+    },
+    {
+     "title": "ドコモに不正アクセスの可能性 オンラインサービス停止",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70776",
+     "pubDate": "Thu, 05 Nov 2026 10:54:00 +0900"
+    },
+    {
      "title": "「書道」無形文化遺産に登録へ ユネスコ評価機関「記載」勧告",
      "link": "https://news.web.nhk/newsweb/na/nd-20261105de70701",
-     "pubDate": "Thu, 05 Nov 2026 07:04:00 +0900"
+     "pubDate": "Thu, 05 Nov 2026 13:22:05 +0900"
     },
     {
      "title": "東京国際映画祭 東京グランプリに「妹兄とマンホールの蓋」",
@@ -170,41 +205,6 @@
      "title": "デニーズ 旧アプリ利用者の個人情報漏えいか 不正アクセス受け",
      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70279",
      "pubDate": "Wed, 04 Nov 2026 13:24:24 +0900"
-    },
-    {
-     "title": "「アララ」への不正アクセス影響 利用企業で情報漏えい相次ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70170",
-     "pubDate": "Wed, 04 Nov 2026 21:54:51 +0900"
-    },
-    {
-     "title": "横浜ゴム 委託先への不正アクセスでメールアドレスなど漏えい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de70021",
-     "pubDate": "Tue, 03 Nov 2026 19:15:32 +0900"
-    },
-    {
-     "title": "皇居で文化勲章の親授式",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69927",
-     "pubDate": "Tue, 03 Nov 2026 14:40:00 +0900"
-    },
-    {
-     "title": "「バイナンス」へのサイバー攻撃 AI使った新たな手口か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69892",
-     "pubDate": "Tue, 03 Nov 2026 11:05:06 +0900"
-    },
-    {
-     "title": "「花博」国際園芸博覧会 タイで始まる 横浜で来年大規模開催へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69863",
-     "pubDate": "Tue, 03 Nov 2026 05:38:09 +0900"
-    },
-    {
-     "title": "作家の山中恒さんの手記全文が初公開 憲法公布時期に執筆",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261102de69842",
-     "pubDate": "Tue, 03 Nov 2026 05:30:00 +0900"
-    },
-    {
-     "title": "「秋の叙勲」受章者発表 各界で功労のあった計3861人が受章",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69860",
-     "pubDate": "Tue, 03 Nov 2026 06:39:49 +0900"
     }
    ]
   },
@@ -213,6 +213,46 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "N響桂冠名誉指揮者ヘルベルト・ブロムシュテットさん死去 99歳",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70944",
+     "pubDate": "Thu, 05 Nov 2026 14:56:00 +0900"
+    },
+    {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（11月5日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66993",
+     "pubDate": "Thu, 05 Nov 2026 14:42:18 +0900"
+    },
+    {
+     "title": "「書道」無形文化遺産に登録へ ユネスコ評価機関「記載」勧告",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70701",
+     "pubDate": "Thu, 05 Nov 2026 13:22:05 +0900"
+    },
+    {
+     "title": "アメリカ中間選挙 トランプ大統領の「ゲリマンダー」不発に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70892",
+     "pubDate": "Thu, 05 Nov 2026 12:43:00 +0900"
+    },
+    {
+     "title": "北朝鮮メディア 「4日に対空ミサイルと巡航ミサイルを発射」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70802",
+     "pubDate": "Thu, 05 Nov 2026 11:32:24 +0900"
+    },
+    {
+     "title": "グーグル 学校向け学習サービスのAI機能を制限",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70783",
+     "pubDate": "Thu, 05 Nov 2026 11:27:07 +0900"
+    },
+    {
+     "title": "フランスの銀行にサイバー攻撃 資金流出の可能性",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70718",
+     "pubDate": "Thu, 05 Nov 2026 10:15:00 +0900"
+    },
+    {
+     "title": "エボラ出血熱 WHO 新たなワクチン2種類の臨床試験へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70744",
+     "pubDate": "Thu, 05 Nov 2026 09:02:00 +0900"
+    },
     {
      "title": "ウクライナ 人道支援物資の配給拠点狙った空爆 死者40人に",
      "link": "https://news.web.nhk/newsweb/na/nd-20261105de70743",
@@ -226,7 +266,7 @@
     {
      "title": "スペイン列車事故 日本人2人の死亡確認 外務省幹部",
      "link": "https://news.web.nhk/newsweb/na/nd-20261105de70726",
-     "pubDate": "Thu, 05 Nov 2026 07:20:46 +0900"
+     "pubDate": "Thu, 05 Nov 2026 11:52:34 +0900"
     },
     {
      "title": "トランプ大統領 敗北理由はイラン “でもまた同じ決断する”",
@@ -241,52 +281,12 @@
     {
      "title": "NYダウ平均株価 終値は1569ドル上昇 米政治混乱回避で買い注文",
      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70666",
-     "pubDate": "Thu, 05 Nov 2026 08:34:11 +0900"
+     "pubDate": "Thu, 05 Nov 2026 08:34:00 +0900"
     },
     {
      "title": "“共和党大敗”受け 専門家「日本は民主側とも太いパイプを」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70619",
      "pubDate": "Wed, 04 Nov 2026 22:48:00 +0900"
-    },
-    {
-     "title": "米中ロ首脳会談めぐり中国外務省「関係国と意思疎通」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70648",
-     "pubDate": "Wed, 04 Nov 2026 22:35:00 +0900"
-    },
-    {
-     "title": "アメリカ中間選挙 与党 共和党 上下両院で過半数割れ確実に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70613",
-     "pubDate": "Wed, 04 Nov 2026 22:34:50 +0900"
-    },
-    {
-     "title": "ユーロ圏 10月の消費者物価指数は4％上昇に 約3年ぶり高水準",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70643",
-     "pubDate": "Wed, 04 Nov 2026 22:29:00 +0900"
-    },
-    {
-     "title": "イランで大規模反米デモ 最高指導者「敵対姿勢は変わらない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70610",
-     "pubDate": "Wed, 04 Nov 2026 22:21:26 +0900"
-    },
-    {
-     "title": "アメリカ中間選挙 世界の受け止めは？【特派員解説】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70587",
-     "pubDate": "Thu, 05 Nov 2026 06:29:02 +0900"
-    },
-    {
-     "title": "民主党の“ブルーウェーブ”タラリコ氏「テキサス取り戻した」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70404",
-     "pubDate": "Wed, 04 Nov 2026 21:50:28 +0900"
-    },
-    {
-     "title": "高市首相“北海道新聞記者の解放へ努力”鈴木宗男氏と会談",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70394",
-     "pubDate": "Wed, 04 Nov 2026 18:09:00 +0900"
-    },
-    {
-     "title": "木原官房長官“米中間選挙の結果に関わらず日米同盟は基軸”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70525",
-     "pubDate": "Wed, 04 Nov 2026 19:33:49 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "米民主党 トランプ政権監視強化へ",
-     "link": "https://news.yahoo.co.jp/pickup/6601374?source=rss",
-     "pubDate": "Wed, 04 Nov 2026 22:35:38 GMT"
+     "title": "黒字リストラ 日本にも広がるか",
+     "link": "https://news.yahoo.co.jp/pickup/6601409?source=rss",
+     "pubDate": "Thu, 05 Nov 2026 05:37:37 GMT"
     },
     {
-     "title": "消費税減税 あすにも衆院通過へ",
-     "link": "https://news.yahoo.co.jp/pickup/6601376?source=rss",
-     "pubDate": "Wed, 04 Nov 2026 23:01:06 GMT"
+     "title": "英語版DBZ作曲家 州司法長官に",
+     "link": "https://news.yahoo.co.jp/pickup/6601402?source=rss",
+     "pubDate": "Thu, 05 Nov 2026 02:56:41 GMT"
     },
     {
-     "title": "ダウ一時1500ドル高 選挙から一夜",
-     "link": "https://news.yahoo.co.jp/pickup/6601373?source=rss",
-     "pubDate": "Wed, 04 Nov 2026 22:35:29 GMT"
+     "title": "バンス氏 米大統領と距離置く姿勢",
+     "link": "https://news.yahoo.co.jp/pickup/6601425?source=rss",
+     "pubDate": "Thu, 05 Nov 2026 06:33:22 GMT"
     },
     {
-     "title": "幹部逮捕 川崎市役所を家宅捜索",
-     "link": "https://news.yahoo.co.jp/pickup/6601377?source=rss",
-     "pubDate": "Wed, 04 Nov 2026 23:22:44 GMT"
+     "title": "ドコモ携帯 全国で障害が発生",
+     "link": "https://news.yahoo.co.jp/pickup/6601414?source=rss",
+     "pubDate": "Thu, 05 Nov 2026 04:13:44 GMT"
     },
     {
-     "title": "「哲代おばあちゃん」死去 106歳",
-     "link": "https://news.yahoo.co.jp/pickup/6601381?source=rss",
-     "pubDate": "Wed, 04 Nov 2026 23:56:54 GMT"
+     "title": "ドコモ オンラインサービス停止",
+     "link": "https://news.yahoo.co.jp/pickup/6601413?source=rss",
+     "pubDate": "Thu, 05 Nov 2026 03:52:36 GMT"
     },
     {
-     "title": "城福浩氏 J1福岡の新監督に就任へ",
-     "link": "https://news.yahoo.co.jp/pickup/6601379?source=rss",
-     "pubDate": "Wed, 04 Nov 2026 23:17:26 GMT"
+     "title": "「フレネミー」26年流行語候補に",
+     "link": "https://news.yahoo.co.jp/pickup/6601423?source=rss",
+     "pubDate": "Thu, 05 Nov 2026 06:14:13 GMT"
     },
     {
-     "title": "AS代表候補 異例の主将が辞退",
-     "link": "https://news.yahoo.co.jp/pickup/6601375?source=rss",
-     "pubDate": "Wed, 04 Nov 2026 22:42:33 GMT"
+     "title": "ラッコの「キラ」死ぬ 鳥羽水族館",
+     "link": "https://news.yahoo.co.jp/pickup/6601422?source=rss",
+     "pubDate": "Thu, 05 Nov 2026 06:20:43 GMT"
     },
     {
-     "title": "前田真剣佑 実写版マッシュル主演",
-     "link": "https://news.yahoo.co.jp/pickup/6601380?source=rss",
-     "pubDate": "Wed, 04 Nov 2026 23:24:26 GMT"
+     "title": "フジ 全ドラマに生成AI導入へ",
+     "link": "https://news.yahoo.co.jp/pickup/6601418?source=rss",
+     "pubDate": "Thu, 05 Nov 2026 05:11:47 GMT"
     }
    ]
   }
