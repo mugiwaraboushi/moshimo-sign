@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T18:56:04.901Z",
+ "updatedAt": "2026-11-05T00:01:43.494Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "アメリカ中間選挙 民主党 上下両院で多数派奪還へ【最新情報】",
+     "title": "アメリカ中間選挙 民主党大勝 “トランプ氏に拒絶反応”米報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69965",
-     "pubDate": "Wed, 04 Nov 2026 20:32:13 +0900"
+     "pubDate": "Thu, 05 Nov 2026 08:48:26 +0900"
+    },
+    {
+     "title": "伊豆諸島や関東に雨雲 昼ごろまで激しい雨も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70681",
+     "pubDate": "Thu, 05 Nov 2026 08:11:00 +0900"
     },
     {
      "title": "「書道」無形文化遺産に登録へ ユネスコ評価機関「記載」勧告",
      "link": "https://news.web.nhk/newsweb/na/nd-20261105de70701",
-     "pubDate": "Thu, 05 Nov 2026 02:47:19 +0900"
+     "pubDate": "Thu, 05 Nov 2026 07:04:00 +0900"
     },
     {
-     "title": "日本郵便 サイバー攻撃で海外向け配送「UGX」一部停止",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70691",
-     "pubDate": "Thu, 05 Nov 2026 02:20:03 +0900"
+     "title": "消費税減税法案 与党“あす衆院通過”野党“首相答弁で判断”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70693",
+     "pubDate": "Thu, 05 Nov 2026 06:00:51 +0900"
     },
     {
-     "title": "良品計画 クレカ番号の全桁 約109万件が漏えいのおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70494",
-     "pubDate": "Wed, 04 Nov 2026 19:14:00 +0900"
+     "title": "スペイン列車事故 日本人2人の死亡確認 外務省幹部",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70726",
+     "pubDate": "Thu, 05 Nov 2026 07:20:46 +0900"
     },
     {
-     "title": "伊豆諸島や千葉県に発達した雨雲 昼ごろにかけて大雨のおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70681",
-     "pubDate": "Thu, 05 Nov 2026 02:35:45 +0900"
+     "title": "トランプ大統領 敗北理由はイラン “でもまた同じ決断する”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70714",
+     "pubDate": "Thu, 05 Nov 2026 05:57:47 +0900"
     },
     {
-     "title": "NYダウ平均株価 一時1500ドル超上昇 米政治混乱の懸念後退",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70666",
-     "pubDate": "Thu, 05 Nov 2026 02:33:58 +0900"
-    },
-    {
-     "title": "有罪判決の競泳 本多灯選手に1年9か月の資格停止処分",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70644",
-     "pubDate": "Wed, 04 Nov 2026 22:33:35 +0900"
+     "title": "“サイバー攻撃で新チーム運用” 対策パッケージで政府調整",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70695",
+     "pubDate": "Thu, 05 Nov 2026 06:23:49 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "JR内房線 運転再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70729",
+     "pubDate": "Thu, 05 Nov 2026 07:44:56 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（11月5日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70428",
+     "pubDate": "Thu, 05 Nov 2026 06:34:45 +0900"
+    },
+    {
+     "title": "東京 御蔵島村に「レベル4土砂災害危険警報」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70712",
+     "pubDate": "Thu, 05 Nov 2026 04:44:00 +0900"
+    },
     {
      "title": "日本郵便 サイバー攻撃で海外向け配送「UGX」一部停止",
      "link": "https://news.web.nhk/newsweb/na/nd-20261105de70691",
@@ -108,21 +123,6 @@
      "title": "警察犬の慰霊祭 東京の動物霊園で 犯罪捜査や災害救助で活躍",
      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70207",
      "pubDate": "Wed, 04 Nov 2026 12:59:59 +0900"
-    },
-    {
-     "title": "パチンコ関連団体で1億円超を水増し請求か 元代表理事逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70274",
-     "pubDate": "Wed, 04 Nov 2026 12:56:48 +0900"
-    },
-    {
-     "title": "広島 氏名が誤って認識された被爆者の遺骨 遺族に返還",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70266",
-     "pubDate": "Wed, 04 Nov 2026 16:05:03 +0900"
-    },
-    {
-     "title": "“北朝鮮が日本海に向けてミサイル数発を発射”韓国軍発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70141",
-     "pubDate": "Wed, 04 Nov 2026 12:48:26 +0900"
     }
    ]
   },
@@ -134,7 +134,7 @@
     {
      "title": "「書道」無形文化遺産に登録へ ユネスコ評価機関「記載」勧告",
      "link": "https://news.web.nhk/newsweb/na/nd-20261105de70701",
-     "pubDate": "Thu, 05 Nov 2026 02:47:19 +0900"
+     "pubDate": "Thu, 05 Nov 2026 07:04:00 +0900"
     },
     {
      "title": "東京国際映画祭 東京グランプリに「妹兄とマンホールの蓋」",
@@ -214,9 +214,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "NYダウ平均株価 一時1500ドル超上昇 米政治混乱の懸念後退",
+     "title": "ウクライナ 人道支援物資の配給拠点狙った空爆 死者40人に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70743",
+     "pubDate": "Thu, 05 Nov 2026 08:58:35 +0900"
+    },
+    {
+     "title": "中間選挙 専門家“非常に大きなブルー・ウェーブ 協力は困難”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70745",
+     "pubDate": "Thu, 05 Nov 2026 08:45:57 +0900"
+    },
+    {
+     "title": "スペイン列車事故 日本人2人の死亡確認 外務省幹部",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70726",
+     "pubDate": "Thu, 05 Nov 2026 07:20:46 +0900"
+    },
+    {
+     "title": "トランプ大統領 敗北理由はイラン “でもまた同じ決断する”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70714",
+     "pubDate": "Thu, 05 Nov 2026 05:57:47 +0900"
+    },
+    {
+     "title": "トランプ大統領の外交方針を注視 米中間選挙受け 日本政府",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de70687",
+     "pubDate": "Thu, 05 Nov 2026 04:56:46 +0900"
+    },
+    {
+     "title": "NYダウ平均株価 終値は1569ドル上昇 米政治混乱回避で買い注文",
      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70666",
-     "pubDate": "Thu, 05 Nov 2026 02:33:58 +0900"
+     "pubDate": "Thu, 05 Nov 2026 08:34:11 +0900"
     },
     {
      "title": "“共和党大敗”受け 専門家「日本は民主側とも太いパイプを」",
@@ -246,7 +271,7 @@
     {
      "title": "アメリカ中間選挙 世界の受け止めは？【特派員解説】",
      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70587",
-     "pubDate": "Thu, 05 Nov 2026 00:09:36 +0900"
+     "pubDate": "Thu, 05 Nov 2026 06:29:02 +0900"
     },
     {
      "title": "民主党の“ブルーウェーブ”タラリコ氏「テキサス取り戻した」",
@@ -262,31 +287,6 @@
      "title": "木原官房長官“米中間選挙の結果に関わらず日米同盟は基軸”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70525",
      "pubDate": "Wed, 04 Nov 2026 19:33:49 +0900"
-    },
-    {
-     "title": "アメリカ史上初の黒人女性知事が南部ジョージア州で誕生へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70370",
-     "pubDate": "Wed, 04 Nov 2026 16:38:00 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（11月4日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66992",
-     "pubDate": "Wed, 04 Nov 2026 16:32:00 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（11月3日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66991",
-     "pubDate": "Wed, 04 Nov 2026 16:29:57 +0900"
-    },
-    {
-     "title": "広島県知事が韓国キョンサン北道訪問 さらなる交流促進で一致",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70362",
-     "pubDate": "Wed, 04 Nov 2026 15:56:00 +0900"
-    },
-    {
-     "title": "北朝鮮キム総書記 艦船の建造など視察し海軍力強化を強調",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261104de70346",
-     "pubDate": "Wed, 04 Nov 2026 15:04:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "米中間選挙 日本政府は動向注視",
-     "link": "https://news.yahoo.co.jp/pickup/6601362?source=rss",
-     "pubDate": "Wed, 04 Nov 2026 14:20:05 GMT"
+     "title": "米民主党 トランプ政権監視強化へ",
+     "link": "https://news.yahoo.co.jp/pickup/6601374?source=rss",
+     "pubDate": "Wed, 04 Nov 2026 22:35:38 GMT"
     },
     {
-     "title": "リニア工事費 再び増額へ検討",
-     "link": "https://news.yahoo.co.jp/pickup/6601365?source=rss",
-     "pubDate": "Wed, 04 Nov 2026 14:54:37 GMT"
+     "title": "消費税減税 あすにも衆院通過へ",
+     "link": "https://news.yahoo.co.jp/pickup/6601376?source=rss",
+     "pubDate": "Wed, 04 Nov 2026 23:01:06 GMT"
     },
     {
-     "title": "関東 5日は滝のような雨降る所も",
-     "link": "https://news.yahoo.co.jp/pickup/6601351?source=rss",
-     "pubDate": "Wed, 04 Nov 2026 13:03:46 GMT"
+     "title": "ダウ一時1500ドル高 選挙から一夜",
+     "link": "https://news.yahoo.co.jp/pickup/6601373?source=rss",
+     "pubDate": "Wed, 04 Nov 2026 22:35:29 GMT"
     },
     {
-     "title": "児童婚増えるガザ 壮絶性暴力訴え",
-     "link": "https://news.yahoo.co.jp/pickup/6601344?source=rss",
-     "pubDate": "Wed, 04 Nov 2026 11:58:45 GMT"
+     "title": "幹部逮捕 川崎市役所を家宅捜索",
+     "link": "https://news.yahoo.co.jp/pickup/6601377?source=rss",
+     "pubDate": "Wed, 04 Nov 2026 23:22:44 GMT"
     },
     {
-     "title": "e-Taxに不審な通信 緊急メンテ",
-     "link": "https://news.yahoo.co.jp/pickup/6601361?source=rss",
-     "pubDate": "Wed, 04 Nov 2026 14:08:31 GMT"
+     "title": "「哲代おばあちゃん」死去 106歳",
+     "link": "https://news.yahoo.co.jp/pickup/6601381?source=rss",
+     "pubDate": "Wed, 04 Nov 2026 23:56:54 GMT"
     },
     {
-     "title": "竜王戦でカメムシ出没 僧侶が捕獲",
-     "link": "https://news.yahoo.co.jp/pickup/6601363?source=rss",
-     "pubDate": "Wed, 04 Nov 2026 14:35:08 GMT"
+     "title": "城福浩氏 J1福岡の新監督に就任へ",
+     "link": "https://news.yahoo.co.jp/pickup/6601379?source=rss",
+     "pubDate": "Wed, 04 Nov 2026 23:17:26 GMT"
     },
     {
-     "title": "塩貝健人 因縁ブラジル戦で招集外",
-     "link": "https://news.yahoo.co.jp/pickup/6601360?source=rss",
-     "pubDate": "Wed, 04 Nov 2026 13:59:47 GMT"
+     "title": "AS代表候補 異例の主将が辞退",
+     "link": "https://news.yahoo.co.jp/pickup/6601375?source=rss",
+     "pubDate": "Wed, 04 Nov 2026 22:42:33 GMT"
     },
     {
-     "title": "日テレ忽滑谷こころアナ 休職発表",
-     "link": "https://news.yahoo.co.jp/pickup/6601339?source=rss",
-     "pubDate": "Wed, 04 Nov 2026 11:11:51 GMT"
+     "title": "前田真剣佑 実写版マッシュル主演",
+     "link": "https://news.yahoo.co.jp/pickup/6601380?source=rss",
+     "pubDate": "Wed, 04 Nov 2026 23:24:26 GMT"
     }
    ]
   }
