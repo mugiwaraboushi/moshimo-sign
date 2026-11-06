@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T21:37:01.318Z",
+ "updatedAt": "2026-11-06T01:51:04.379Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "関心高まる「サイバーBCP」 攻撃された後も事業継続へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71299",
-     "pubDate": "Fri, 06 Nov 2026 05:05:38 +0900"
+     "title": "日経平均株価6万円割れ ことし5月以来 一時4000円超下落",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71341",
+     "pubDate": "Fri, 06 Nov 2026 10:46:42 +0900"
     },
     {
      "title": "ロシア国内のJT関連工場 一時的にロシア企業管理下に 大統領令",
      "link": "https://news.web.nhk/newsweb/na/nd-20261105de71261",
-     "pubDate": "Fri, 06 Nov 2026 05:02:19 +0900"
+     "pubDate": "Fri, 06 Nov 2026 10:37:54 +0900"
     },
     {
-     "title": "消費税減税法案 与党きょう採決の構え 野党“具体像あいまい”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71308",
-     "pubDate": "Fri, 06 Nov 2026 04:54:55 +0900"
+     "title": "アメリカ ルビオ国務長官の去就めぐり報道相次ぐ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de71260",
+     "pubDate": "Fri, 06 Nov 2026 08:58:24 +0900"
     },
     {
-     "title": "アメリカ中間選挙 共和党大敗 トランプ大統領の対応は【詳報】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261103de69965",
-     "pubDate": "Thu, 05 Nov 2026 20:56:00 +0900"
+     "title": "不正アクセス対策 政府が予備費100億円の支出を決定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71363",
+     "pubDate": "Fri, 06 Nov 2026 10:43:28 +0900"
     },
     {
-     "title": "フランスで再び大規模デモ 高校で火災など混乱も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71327",
-     "pubDate": "Fri, 06 Nov 2026 05:52:35 +0900"
+     "title": "経済産業省 中部電力に業務改善命令 浜岡原発データ改ざん受け",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71336",
+     "pubDate": "Fri, 06 Nov 2026 10:42:27 +0900"
+    },
+    {
+     "title": "9月の実質賃金9か月連続プラス 夏のボーナスも5年連続増",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de71108",
+     "pubDate": "Fri, 06 Nov 2026 08:35:00 +0900"
     },
     {
      "title": "メラニア夫人“ウクライナの局地的な停戦を永続的な平和へ”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71316",
-     "pubDate": "Fri, 06 Nov 2026 06:01:03 +0900"
-    },
-    {
-     "title": "原発賠償で国から東電への支援15兆円余 回収に最長39年と試算",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71317",
-     "pubDate": "Fri, 06 Nov 2026 05:23:00 +0900"
+     "pubDate": "Fri, 06 Nov 2026 10:19:22 +0900"
     }
    ]
   },
@@ -50,6 +50,21 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "9月の実質賃金9か月連続プラス 夏のボーナスも5年連続増",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de71108",
+     "pubDate": "Fri, 06 Nov 2026 08:35:00 +0900"
+    },
+    {
+     "title": "経済産業省 中部電力に業務改善命令 浜岡原発データ改ざん受け",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71336",
+     "pubDate": "Fri, 06 Nov 2026 10:42:27 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（11月6日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de71231",
+     "pubDate": "Fri, 06 Nov 2026 09:50:36 +0900"
+    },
+    {
      "title": "原発賠償で国から東電への支援15兆円余 回収に最長39年と試算",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71317",
      "pubDate": "Fri, 06 Nov 2026 05:23:00 +0900"
@@ -57,7 +72,7 @@
     {
      "title": "関心高まる「サイバーBCP」 攻撃された後も事業継続へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71299",
-     "pubDate": "Fri, 06 Nov 2026 05:05:38 +0900"
+     "pubDate": "Fri, 06 Nov 2026 05:05:00 +0900"
     },
     {
      "title": "自転車青切符 半年間で1万6000件交付 “ながらスマホ”が4割",
@@ -90,7 +105,7 @@
      "pubDate": "Thu, 05 Nov 2026 22:15:23 +0900"
     },
     {
-     "title": "ヨーロッパの旅客機に爆破予告相次ぐ",
+     "title": "ヨーロッパの旅客機に爆破予告相次ぐ 爆発物見つからず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261105de71269",
      "pubDate": "Thu, 05 Nov 2026 22:14:00 +0900"
     },
@@ -108,21 +123,6 @@
      "title": "映画監督 榊英雄被告 性的暴行の罪で懲役8年確定へ 最高裁",
      "link": "https://news.web.nhk/newsweb/na/nd-20261105de71223",
      "pubDate": "Thu, 05 Nov 2026 19:56:00 +0900"
-    },
-    {
-     "title": "三重 四日市 住宅と車１台全焼 玄関付近で１人の遺体見つかる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261105de71209",
-     "pubDate": "Thu, 05 Nov 2026 19:22:00 +0900"
-    },
-    {
-     "title": "能登地震 ビル倒壊に巻き込まれ2人死亡 遺族が賠償求め提訴",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261105de71164",
-     "pubDate": "Thu, 05 Nov 2026 18:30:00 +0900"
-    },
-    {
-     "title": "チャイルドシート使用義務拡大を検討 子どもの体格なども考慮",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261105de71030",
-     "pubDate": "Thu, 05 Nov 2026 18:07:00 +0900"
     }
    ]
   },
@@ -134,7 +134,7 @@
     {
      "title": "関心高まる「サイバーBCP」 攻撃された後も事業継続へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71299",
-     "pubDate": "Fri, 06 Nov 2026 05:05:38 +0900"
+     "pubDate": "Fri, 06 Nov 2026 05:05:00 +0900"
     },
     {
      "title": "相次ぐ不正アクセス対策で予備費支出へ 政府",
@@ -214,14 +214,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "アメリカ ルビオ国務長官の去就めぐり報道相次ぐ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261105de71260",
+     "pubDate": "Fri, 06 Nov 2026 08:58:24 +0900"
+    },
+    {
+     "title": "南米パラグアイの大統領が辞任表明 金融機関破綻の混乱受け",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71331",
+     "pubDate": "Fri, 06 Nov 2026 06:52:16 +0900"
+    },
+    {
      "title": "フランスで再び大規模デモ 高校で火災など混乱も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71327",
-     "pubDate": "Fri, 06 Nov 2026 05:52:35 +0900"
+     "pubDate": "Fri, 06 Nov 2026 05:52:00 +0900"
     },
     {
      "title": "メラニア夫人“ウクライナの局地的な停戦を永続的な平和へ”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71316",
-     "pubDate": "Fri, 06 Nov 2026 06:01:03 +0900"
+     "pubDate": "Fri, 06 Nov 2026 10:19:22 +0900"
     },
     {
      "title": "難民の現状知ってもらう「難民映画祭」始まる 都内で上映会",
@@ -229,9 +239,9 @@
      "pubDate": "Fri, 06 Nov 2026 05:03:43 +0900"
     },
     {
-     "title": "ナスダック一時5％下落 AI・データセンター規制強化を懸念",
+     "title": "ナスダック5％超下落 AI・データセンター規制強化を懸念",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71306",
-     "pubDate": "Fri, 06 Nov 2026 01:37:00 +0900"
+     "pubDate": "Fri, 06 Nov 2026 10:28:40 +0900"
     },
     {
      "title": "イギリス中銀が利上げ 中東情勢受けた物価抑制へ3年3か月ぶり",
@@ -244,7 +254,7 @@
      "pubDate": "Fri, 06 Nov 2026 00:06:55 +0900"
     },
     {
-     "title": "ヨーロッパの旅客機に爆破予告相次ぐ",
+     "title": "ヨーロッパの旅客機に爆破予告相次ぐ 爆発物見つからず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261105de71269",
      "pubDate": "Thu, 05 Nov 2026 22:14:00 +0900"
     },
@@ -261,7 +271,7 @@
     {
      "title": "ロシア国内のJT関連工場 一時的にロシア企業管理下に 大統領令",
      "link": "https://news.web.nhk/newsweb/na/nd-20261105de71261",
-     "pubDate": "Fri, 06 Nov 2026 05:02:19 +0900"
+     "pubDate": "Fri, 06 Nov 2026 10:37:54 +0900"
     },
     {
      "title": "日本製鉄 業績見通し上方修正 USスチールが業績押し上げ",
@@ -277,16 +287,6 @@
      "title": "日仏首脳電話会談 高市首相\"EV優遇措置検討で強い懸念伝達\"",
      "link": "https://news.web.nhk/newsweb/na/nd-20261105de71225",
      "pubDate": "Thu, 05 Nov 2026 20:01:11 +0900"
-    },
-    {
-     "title": "中国輸入博覧会 日本からコンテンツ関連製品など売り込み",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261105de71182",
-     "pubDate": "Thu, 05 Nov 2026 18:36:00 +0900"
-    },
-    {
-     "title": "ウクライナメディアにサイバー攻撃 ロシアによる工作か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261105de71144",
-     "pubDate": "Thu, 05 Nov 2026 18:18:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "ルビオ国務長官が辞任検討か 報道",
-     "link": "https://news.yahoo.co.jp/pickup/6601475?source=rss",
-     "pubDate": "Thu, 05 Nov 2026 21:04:46 GMT"
+     "title": "ルビオ長官 辞任検討の報道否定",
+     "link": "https://news.yahoo.co.jp/pickup/6601491?source=rss",
+     "pubDate": "Thu, 05 Nov 2026 23:49:50 GMT"
     },
     {
-     "title": "露 JT資産を同国企業の管理下に",
-     "link": "https://news.yahoo.co.jp/pickup/6601467?source=rss",
-     "pubDate": "Thu, 05 Nov 2026 12:57:53 GMT"
+     "title": "9月の実質賃金 9カ月連続プラス",
+     "link": "https://news.yahoo.co.jp/pickup/6601493?source=rss",
+     "pubDate": "Thu, 05 Nov 2026 23:53:08 GMT"
     },
     {
-     "title": "NYダウ急落 一時1800ドル超安",
-     "link": "https://news.yahoo.co.jp/pickup/6601477?source=rss",
-     "pubDate": "Thu, 05 Nov 2026 21:25:57 GMT"
+     "title": "サイバー攻撃で強制遮断検討 政府",
+     "link": "https://news.yahoo.co.jp/pickup/6601490?source=rss",
+     "pubDate": "Thu, 05 Nov 2026 23:27:17 GMT"
     },
     {
-     "title": "めぐみさん拉致 母「会いたい」",
-     "link": "https://news.yahoo.co.jp/pickup/6601458?source=rss",
-     "pubDate": "Thu, 05 Nov 2026 11:11:25 GMT"
+     "title": "日経平均 一時4000円以上値下がり",
+     "link": "https://news.yahoo.co.jp/pickup/6601497?source=rss",
+     "pubDate": "Fri, 06 Nov 2026 00:32:15 GMT"
     },
     {
-     "title": "「ドンキ流トイザらス」が始動",
-     "link": "https://news.yahoo.co.jp/pickup/6601471?source=rss",
-     "pubDate": "Thu, 05 Nov 2026 13:36:12 GMT"
+     "title": "米加州 死刑囚548人を終身刑に",
+     "link": "https://news.yahoo.co.jp/pickup/6601498?source=rss",
+     "pubDate": "Fri, 06 Nov 2026 01:04:37 GMT"
     },
     {
-     "title": "市場で1匹10万円の高級魚 養殖へ",
-     "link": "https://news.yahoo.co.jp/pickup/6601469?source=rss",
-     "pubDate": "Thu, 05 Nov 2026 13:25:37 GMT"
+     "title": "Suicaペンギンのバッグ 販売休止",
+     "link": "https://news.yahoo.co.jp/pickup/6601502?source=rss",
+     "pubDate": "Fri, 06 Nov 2026 01:42:59 GMT"
     },
     {
-     "title": "通算76勝のSB東浜巨 広島移籍へ",
-     "link": "https://news.yahoo.co.jp/pickup/6601476?source=rss",
-     "pubDate": "Thu, 05 Nov 2026 21:12:38 GMT"
+     "title": "南野拓実が1A 完全復活アピール",
+     "link": "https://news.yahoo.co.jp/pickup/6601501?source=rss",
+     "pubDate": "Fri, 06 Nov 2026 01:22:50 GMT"
     },
     {
-     "title": "電撃辞任の岡田氏 JFA会長が言及",
-     "link": "https://news.yahoo.co.jp/pickup/6601449?source=rss",
-     "pubDate": "Thu, 05 Nov 2026 09:03:16 GMT"
+     "title": "流行語候補 芸人ギャグがない背景",
+     "link": "https://news.yahoo.co.jp/pickup/6601500?source=rss",
+     "pubDate": "Fri, 06 Nov 2026 01:15:55 GMT"
     }
    ]
   }
