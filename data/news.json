@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T16:22:17.430Z",
+ "updatedAt": "2026-11-06T21:39:19.118Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "サイバー攻撃対応強化で法改正検討へ 国内通信情報取得が焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71963",
-     "pubDate": "Fri, 06 Nov 2026 22:42:00 +0900"
+     "title": "消費税減税法案が衆院通過 参院で与野党の合意形成が焦点に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de71985",
+     "pubDate": "Sat, 07 Nov 2026 05:47:05 +0900"
     },
     {
-     "title": "アメリカ就業者数 市場予想上回る 来週の物価動向焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71979",
-     "pubDate": "Sat, 07 Nov 2026 00:11:00 +0900"
+     "title": "冬型強まり北日本中心に暴風警戒 大雪に十分注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72009",
+     "pubDate": "Sat, 07 Nov 2026 06:14:00 +0900"
     },
     {
-     "title": "余命宣告後“神様の贈り物” 2200万円持ち去り実刑判決 仙台",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71905",
-     "pubDate": "Fri, 06 Nov 2026 21:23:00 +0900"
+     "title": "トランプ政権 ワイルズ首席補佐官が退任へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72003",
+     "pubDate": "Sat, 07 Nov 2026 06:26:57 +0900"
     },
     {
-     "title": "高市首相 「台湾有事」答弁1年 “中国と安定的な関係構築を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71861",
-     "pubDate": "Fri, 06 Nov 2026 23:42:52 +0900"
+     "title": "テスラ「サイバートラック」の生産を段階的に終了へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de71991",
+     "pubDate": "Sat, 07 Nov 2026 05:54:09 +0900"
     },
     {
-     "title": "訪問介護 厚生労働省が新たな支援方針 サービス維持への課題は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71869",
-     "pubDate": "Fri, 06 Nov 2026 23:50:29 +0900"
+     "title": "ヨーロッパ旅客機にまた爆破予告 テレビ局も標的に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de71996",
+     "pubDate": "Sat, 07 Nov 2026 05:52:13 +0900"
     },
     {
-     "title": "相次いで空き巣被害にあった男性が状況語る 愛知 岡崎",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71943",
-     "pubDate": "Fri, 06 Nov 2026 22:36:21 +0900"
+     "title": "台湾有事発言1年 関係改善には時間も 対話の糸口探る 日本政府",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71967",
+     "pubDate": "Sat, 07 Nov 2026 05:50:40 +0900"
     },
     {
-     "title": "フィギュアGP中国大会 男子前半は三浦が首位 佐藤が2位",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de71982",
-     "pubDate": "Sat, 07 Nov 2026 00:51:38 +0900"
+     "title": "ラグビー日本代表 国際大会初戦 ウェールズ戦を前に最終調整",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de71986",
+     "pubDate": "Sat, 07 Nov 2026 06:19:11 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "国税庁装う偽メールが急増「メールで還付手続き案内しない」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71902",
+     "pubDate": "Sat, 07 Nov 2026 05:05:13 +0900"
+    },
+    {
+     "title": "大分 陸上自衛隊戦車3人死亡事故 前の砲弾の破片が原因か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de71984",
+     "pubDate": "Sat, 07 Nov 2026 04:56:32 +0900"
+    },
+    {
+     "title": "JESSE コカイン使用の疑いで逮捕 ロックバンドRIZEのボーカル",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de71989",
+     "pubDate": "Sat, 07 Nov 2026 02:31:18 +0900"
+    },
     {
      "title": "相次いで空き巣被害にあった男性が状況語る 愛知 岡崎",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71943",
@@ -108,21 +123,6 @@
      "title": "路上で突然平手打ちの暴行疑い逮捕 女性ばかり7人被害か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71431",
      "pubDate": "Fri, 06 Nov 2026 12:26:00 +0900"
-    },
-    {
-     "title": "元検事正からの性的暴行訴える元検事の女性 裁判で証言 大阪",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71357",
-     "pubDate": "Fri, 06 Nov 2026 19:51:59 +0900"
-    },
-    {
-     "title": "大阪 港区の倉庫で火災 消火活動続く けが人なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71443",
-     "pubDate": "Fri, 06 Nov 2026 20:22:34 +0900"
-    },
-    {
-     "title": "9月の実質賃金9か月連続プラス 夏のボーナスも5年連続増",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261105de71108",
-     "pubDate": "Fri, 06 Nov 2026 11:35:35 +0900"
     }
    ]
   },
@@ -214,6 +214,36 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "米カリフォルニア州知事 すべての死刑囚548人を終身刑に減刑",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de71997",
+     "pubDate": "Sat, 07 Nov 2026 06:36:40 +0900"
+    },
+    {
+     "title": "トランプ政権 ワイルズ首席補佐官が退任へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72003",
+     "pubDate": "Sat, 07 Nov 2026 06:26:57 +0900"
+    },
+    {
+     "title": "ナスダック一時2％上昇 買い戻しの動きも投資家の警戒感根強く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72002",
+     "pubDate": "Sat, 07 Nov 2026 05:57:49 +0900"
+    },
+    {
+     "title": "テスラ「サイバートラック」の生産を段階的に終了へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de71991",
+     "pubDate": "Sat, 07 Nov 2026 05:54:09 +0900"
+    },
+    {
+     "title": "ヨーロッパ旅客機にまた爆破予告 テレビ局も標的に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de71996",
+     "pubDate": "Sat, 07 Nov 2026 05:52:13 +0900"
+    },
+    {
+     "title": "台湾有事発言1年 関係改善には時間も 対話の糸口探る 日本政府",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71967",
+     "pubDate": "Sat, 07 Nov 2026 05:50:40 +0900"
+    },
+    {
      "title": "アメリカ就業者数 市場予想上回る 来週の物価動向焦点",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71979",
      "pubDate": "Sat, 07 Nov 2026 00:11:00 +0900"
@@ -244,9 +274,9 @@
      "pubDate": "Fri, 06 Nov 2026 19:53:06 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（11月6日の動き）",
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（11月6日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66994",
-     "pubDate": "Fri, 06 Nov 2026 19:15:40 +0900"
+     "pubDate": "Fri, 06 Nov 2026 19:15:00 +0900"
     },
     {
      "title": "海外子会社の生産拠点 ロシア企業の管理下に JTが対応検討",
@@ -257,36 +287,6 @@
      "title": "KDDI モンゴル火災で社長陳謝“信頼回復に向け責任果たす”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71665",
      "pubDate": "Fri, 06 Nov 2026 18:06:47 +0900"
-    },
-    {
-     "title": "「台湾有事」答弁からあすで1年 木原官房長官“立場変更ない”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71488",
-     "pubDate": "Fri, 06 Nov 2026 12:43:55 +0900"
-    },
-    {
-     "title": "きょうのおはBiz 11月6日(金)米データセンター 住民投票結果は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71361",
-     "pubDate": "Fri, 06 Nov 2026 12:09:42 +0900"
-    },
-    {
-     "title": "中東情報収集と海賊対処 自衛隊活動期限1年延長決定 政府",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71400",
-     "pubDate": "Fri, 06 Nov 2026 11:40:36 +0900"
-    },
-    {
-     "title": "アメリカ 中間選挙の大敗受け ルビオ国務長官の去就報道相次ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261105de71260",
-     "pubDate": "Fri, 06 Nov 2026 19:39:00 +0900"
-    },
-    {
-     "title": "南米パラグアイの大統領が辞任表明 金融機関破綻の混乱受け",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71331",
-     "pubDate": "Fri, 06 Nov 2026 06:52:00 +0900"
-    },
-    {
-     "title": "フランスで再び大規模デモ 高校で火災など混乱も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71327",
-     "pubDate": "Fri, 06 Nov 2026 05:52:00 +0900"
     }
    ]
   },
