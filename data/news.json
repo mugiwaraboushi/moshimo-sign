@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T07:22:33.080Z",
+ "updatedAt": "2026-11-07T14:12:56.209Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "ロシア JTの資産を追加で一時管理下に置く大統領令に署名",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72211",
+     "pubDate": "Sat, 07 Nov 2026 21:20:05 +0900"
+    },
+    {
+     "title": "フィギュア 千葉百音が優勝 グランプリシリーズ第3戦 中国大会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72221",
+     "pubDate": "Sat, 07 Nov 2026 22:05:57 +0900"
+    },
+    {
      "title": "プロボウラーの中山律子さんが死去 一大ブームをけん引 84歳",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72117",
-     "pubDate": "Sat, 07 Nov 2026 16:06:28 +0900"
+     "pubDate": "Sat, 07 Nov 2026 19:48:45 +0900"
+    },
+    {
+     "title": "北茨城で親子3人乗った漁船座礁 50代の息子と娘が死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72072",
+     "pubDate": "Sat, 07 Nov 2026 22:12:47 +0900"
+    },
+    {
+     "title": "北日本で大荒れの天気 あすにかけ暴風高波に警戒 大雪に注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72009",
+     "pubDate": "Sat, 07 Nov 2026 20:40:31 +0900"
+    },
+    {
+     "title": "自民党執行部 石破氏らに文書で説明要請 消費税法案採決退席で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72136",
+     "pubDate": "Sat, 07 Nov 2026 16:21:00 +0900"
     },
     {
      "title": "GMO 管理者が全情報アクセス可能 リスク指摘も十分対策されず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72062",
      "pubDate": "Sat, 07 Nov 2026 11:41:00 +0900"
-    },
-    {
-     "title": "大手金融機関破綻の南米パラグアイで大統領が罷免され混乱続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72104",
-     "pubDate": "Sat, 07 Nov 2026 15:01:00 +0900"
-    },
-    {
-     "title": "冬型強まり北日本中心に暴風警戒 大雪に十分注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72009",
-     "pubDate": "Sat, 07 Nov 2026 11:54:00 +0900"
-    },
-    {
-     "title": "台風32号が発生 年間発生数は1994年以来の多さに",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72096",
-     "pubDate": "Sat, 07 Nov 2026 13:44:34 +0900"
-    },
-    {
-     "title": "北茨城の海岸で漁船座礁 乗っていた親子3人搬送 2人は意識不明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72072",
-     "pubDate": "Sat, 07 Nov 2026 12:02:00 +0900"
-    },
-    {
-     "title": "トランプ政権 ワイルズ首席補佐官が退任 ミラー氏起用へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72003",
-     "pubDate": "Sat, 07 Nov 2026 11:22:00 +0900"
     }
    ]
   },
@@ -50,14 +50,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "秋篠宮ご夫妻 和歌山の全国育樹祭で木を手入れ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72187",
+     "pubDate": "Sat, 07 Nov 2026 20:03:36 +0900"
+    },
+    {
      "title": "介護現場のカスハラの実態は? 厚労省は対策強化へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72045",
-     "pubDate": "Sat, 07 Nov 2026 16:09:04 +0900"
+     "pubDate": "Sat, 07 Nov 2026 19:42:10 +0900"
     },
     {
      "title": "プロボウラーの中山律子さんが死去 一大ブームをけん引 84歳",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72117",
-     "pubDate": "Sat, 07 Nov 2026 16:06:28 +0900"
+     "pubDate": "Sat, 07 Nov 2026 19:48:45 +0900"
     },
     {
      "title": "台風32号が発生 年間発生数は1994年以来の多さに",
@@ -67,12 +72,12 @@
     {
      "title": "北海道 泊原発で国の原子力総合防災訓練 住民避難など手順確認",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72069",
-     "pubDate": "Sat, 07 Nov 2026 12:20:00 +0900"
+     "pubDate": "Sat, 07 Nov 2026 16:34:52 +0900"
     },
     {
-     "title": "北茨城の海岸で漁船座礁 乗っていた親子3人搬送 2人は意識不明",
+     "title": "北茨城で親子3人乗った漁船座礁 50代の息子と娘が死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72072",
-     "pubDate": "Sat, 07 Nov 2026 12:02:00 +0900"
+     "pubDate": "Sat, 07 Nov 2026 22:12:47 +0900"
     },
     {
      "title": "GMO 管理者が全情報アクセス可能 リスク指摘も十分対策されず",
@@ -87,7 +92,7 @@
     {
      "title": "【動画】Pickup NEWS（11月7日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71846",
-     "pubDate": "Sat, 07 Nov 2026 13:47:59 +0900"
+     "pubDate": "Sat, 07 Nov 2026 19:48:11 +0900"
     },
     {
      "title": "国税庁装う偽メールが急増「メールで還付手続き案内しない」",
@@ -102,7 +107,7 @@
     {
      "title": "JESSE コカイン使用の疑いで逮捕 ロックバンドRIZEのボーカル",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de71989",
-     "pubDate": "Sat, 07 Nov 2026 02:31:18 +0900"
+     "pubDate": "Sat, 07 Nov 2026 02:31:00 +0900"
     },
     {
      "title": "相次いで空き巣被害にあった男性が状況語る 愛知 岡崎",
@@ -118,11 +123,6 @@
      "title": "余命宣告後“神様の贈り物” 2200万円持ち去り実刑判決 仙台",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71905",
      "pubDate": "Fri, 06 Nov 2026 21:23:00 +0900"
-    },
-    {
-     "title": "訪問介護 厚生労働省が新たな支援方針 サービス維持への課題は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71869",
-     "pubDate": "Fri, 06 Nov 2026 23:50:29 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "物価高の波 大学の学園祭にも 早稲田祭の運営「少しでも安く」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72163",
+     "pubDate": "Sat, 07 Nov 2026 19:45:54 +0900"
+    },
     {
      "title": "アララで新たなメールアドレスの流出確認 計8132万件に",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71934",
@@ -200,11 +205,6 @@
      "title": "インフルエンザ患者数1医療機関あたり10人超 横ばい続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71556",
      "pubDate": "Fri, 06 Nov 2026 15:52:19 +0900"
-    },
-    {
-     "title": "日産自動車の子会社 顧客情報最大で23万件余 漏えいの可能性",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71532",
-     "pubDate": "Fri, 06 Nov 2026 14:47:00 +0900"
     }
    ]
   },
@@ -213,6 +213,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "ロシア JTの資産を追加で一時管理下に置く大統領令に署名",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72211",
+     "pubDate": "Sat, 07 Nov 2026 21:20:05 +0900"
+    },
     {
      "title": "大手金融機関破綻の南米パラグアイで大統領が罷免され混乱続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72104",
@@ -251,12 +256,12 @@
     {
      "title": "米カリフォルニア州知事 すべての死刑囚548人を終身刑に減刑",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de71997",
-     "pubDate": "Sat, 07 Nov 2026 06:36:40 +0900"
+     "pubDate": "Sat, 07 Nov 2026 06:36:00 +0900"
     },
     {
      "title": "トランプ政権 ワイルズ首席補佐官が退任 ミラー氏起用へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72003",
-     "pubDate": "Sat, 07 Nov 2026 11:22:00 +0900"
+     "pubDate": "Sat, 07 Nov 2026 19:42:35 +0900"
     },
     {
      "title": "ナスダック1％超上昇で終了 AI・データセンター規制懸念根強く",
@@ -274,19 +279,14 @@
      "pubDate": "Sat, 07 Nov 2026 05:52:00 +0900"
     },
     {
-     "title": "台湾有事発言1年 関係改善には時間も 対話の糸口探る 日本政府",
+     "title": "台湾有事発言1年 対話の糸口探る日本政府 日中の影響は?",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71967",
-     "pubDate": "Sat, 07 Nov 2026 05:50:00 +0900"
+     "pubDate": "Sat, 07 Nov 2026 19:31:02 +0900"
     },
     {
      "title": "アメリカ就業者数 市場予想上回る 来週の物価動向焦点",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71979",
      "pubDate": "Sat, 07 Nov 2026 00:11:00 +0900"
-    },
-    {
-     "title": "アメリカ中間選挙の影響 日本にも トランプ政権 揺らぐ足元",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71870",
-     "pubDate": "Fri, 06 Nov 2026 22:02:19 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "中山律子さん死去 元プロボウラー",
-     "link": "https://news.yahoo.co.jp/pickup/6601654?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 06:53:18 GMT"
+     "title": "露 JT法人3社を一時管理下に追加",
+     "link": "https://news.yahoo.co.jp/pickup/6601707?source=rss",
+     "pubDate": "Sat, 07 Nov 2026 13:27:51 GMT"
     },
     {
-     "title": "露がJT資産管理 制裁緩和狙いか",
-     "link": "https://news.yahoo.co.jp/pickup/6601634?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 04:34:08 GMT"
+     "title": "「継戦能力」強化を明記 政府検討",
+     "link": "https://news.yahoo.co.jp/pickup/6601705?source=rss",
+     "pubDate": "Sat, 07 Nov 2026 13:06:01 GMT"
     },
     {
-     "title": "英メーガン妃の父 訴追され出廷",
-     "link": "https://news.yahoo.co.jp/pickup/6601627?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 03:40:41 GMT"
+     "title": "中国拘束の邦人 満期服役で出所へ",
+     "link": "https://news.yahoo.co.jp/pickup/6601692?source=rss",
+     "pubDate": "Sat, 07 Nov 2026 11:51:20 GMT"
     },
     {
-     "title": "マンション建築現場で転落 死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6601640?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 05:07:53 GMT"
+     "title": "女性を監禁疑い 供述後に遺体発見",
+     "link": "https://news.yahoo.co.jp/pickup/6601700?source=rss",
+     "pubDate": "Sat, 07 Nov 2026 12:32:34 GMT"
     },
     {
-     "title": "女性船長の廃業巡り 市長が謝罪",
-     "link": "https://news.yahoo.co.jp/pickup/6601652?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 06:34:39 GMT"
+     "title": "百条委に選出の県議巡り波紋 福岡",
+     "link": "https://news.yahoo.co.jp/pickup/6601689?source=rss",
+     "pubDate": "Sat, 07 Nov 2026 11:35:24 GMT"
     },
     {
-     "title": "なぜ?「有線イヤホン」が再流行",
-     "link": "https://news.yahoo.co.jp/pickup/6601625?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 02:37:46 GMT"
+     "title": "引き上げた宿泊税 京都市の使途は",
+     "link": "https://news.yahoo.co.jp/pickup/6601697?source=rss",
+     "pubDate": "Sat, 07 Nov 2026 12:18:31 GMT"
     },
     {
-     "title": "父は元巨人 15歳の逸材女子GK",
-     "link": "https://news.yahoo.co.jp/pickup/6601648?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 06:17:14 GMT"
+     "title": "山本モナさん 50歳で司法修習生に",
+     "link": "https://news.yahoo.co.jp/pickup/6601706?source=rss",
+     "pubDate": "Sat, 07 Nov 2026 13:17:48 GMT"
     },
     {
-     "title": "木村拓哉から花 きむらバンド歓喜",
-     "link": "https://news.yahoo.co.jp/pickup/6601650?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 06:13:25 GMT"
+     "title": "こじはる結婚 ノースリーブス祝福",
+     "link": "https://news.yahoo.co.jp/pickup/6601699?source=rss",
+     "pubDate": "Sat, 07 Nov 2026 12:18:26 GMT"
     }
    ]
   }
