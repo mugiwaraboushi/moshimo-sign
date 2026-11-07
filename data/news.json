@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T14:12:56.209Z",
+ "updatedAt": "2026-11-07T18:54:47.379Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "ロシア JTの資産を追加で一時管理下に置く大統領令に署名",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72211",
-     "pubDate": "Sat, 07 Nov 2026 21:20:05 +0900"
+     "title": "【地震情報】愛知県で震度5強 津波の心配なし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72252",
+     "pubDate": "Sun, 08 Nov 2026 03:27:25 +0900"
     },
     {
-     "title": "フィギュア 千葉百音が優勝 グランプリシリーズ第3戦 中国大会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72221",
-     "pubDate": "Sat, 07 Nov 2026 22:05:57 +0900"
+     "title": "【愛知 震度5強】気象庁記者会見 “同程度の地震に注意”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72259",
+     "pubDate": "Sun, 08 Nov 2026 03:33:51 +0900"
     },
     {
-     "title": "プロボウラーの中山律子さんが死去 一大ブームをけん引 84歳",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72117",
-     "pubDate": "Sat, 07 Nov 2026 19:48:45 +0900"
+     "title": "愛知県で震度5強 県内で少なくとも8人けが（午前3時時点）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72295",
+     "pubDate": "Sun, 08 Nov 2026 03:26:29 +0900"
     },
     {
-     "title": "北茨城で親子3人乗った漁船座礁 50代の息子と娘が死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72072",
-     "pubDate": "Sat, 07 Nov 2026 22:12:47 +0900"
+     "title": "愛知 豊橋 車の販売店でショーウィンドウのガラス大きく割れる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72297",
+     "pubDate": "Sun, 08 Nov 2026 03:33:37 +0900"
     },
     {
-     "title": "北日本で大荒れの天気 あすにかけ暴風高波に警戒 大雪に注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72009",
-     "pubDate": "Sat, 07 Nov 2026 20:40:31 +0900"
+     "title": "愛知県の高速 5つの道路で全線通行止め",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72280",
+     "pubDate": "Sun, 08 Nov 2026 02:21:00 +0900"
     },
     {
-     "title": "自民党執行部 石破氏らに文書で説明要請 消費税法案採決退席で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72136",
-     "pubDate": "Sat, 07 Nov 2026 16:21:00 +0900"
+     "title": "【地震】寝台特急「サンライズ瀬戸・出雲」浜松市内で停車",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72298",
+     "pubDate": "Sun, 08 Nov 2026 03:18:06 +0900"
     },
     {
-     "title": "GMO 管理者が全情報アクセス可能 リスク指摘も十分対策されず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72062",
-     "pubDate": "Sat, 07 Nov 2026 11:41:00 +0900"
+     "title": "愛知県 一宮警察署 “複数の踏切の遮断機がおりたまま”の情報",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72290",
+     "pubDate": "Sun, 08 Nov 2026 02:49:26 +0900"
     }
    ]
   },
@@ -216,7 +216,7 @@
     {
      "title": "ロシア JTの資産を追加で一時管理下に置く大統領令に署名",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72211",
-     "pubDate": "Sat, 07 Nov 2026 21:20:05 +0900"
+     "pubDate": "Sun, 08 Nov 2026 00:02:24 +0900"
     },
     {
      "title": "大手金融機関破綻の南米パラグアイで大統領が罷免され混乱続く",
@@ -296,19 +296,24 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "露 JT法人3社を一時管理下に追加",
-     "link": "https://news.yahoo.co.jp/pickup/6601707?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 13:27:51 GMT"
+     "title": "愛知県で震度5強 津波の心配なし",
+     "link": "https://news.yahoo.co.jp/pickup/6601719?source=rss",
+     "pubDate": "Sat, 07 Nov 2026 16:13:23 GMT"
     },
     {
-     "title": "「継戦能力」強化を明記 政府検討",
-     "link": "https://news.yahoo.co.jp/pickup/6601705?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 13:06:01 GMT"
+     "title": "米中間選挙 共和党大敗の舞台裏",
+     "link": "https://news.yahoo.co.jp/pickup/6601716?source=rss",
+     "pubDate": "Sat, 07 Nov 2026 14:18:01 GMT"
     },
     {
-     "title": "中国拘束の邦人 満期服役で出所へ",
-     "link": "https://news.yahoo.co.jp/pickup/6601692?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 11:51:20 GMT"
+     "title": "大阪維新の会「吉村体制」3期目に",
+     "link": "https://news.yahoo.co.jp/pickup/6601718?source=rss",
+     "pubDate": "Sat, 07 Nov 2026 14:37:04 GMT"
+    },
+    {
+     "title": "基地交付金 打ち切り恐れに町反発",
+     "link": "https://news.yahoo.co.jp/pickup/6601709?source=rss",
+     "pubDate": "Sat, 07 Nov 2026 13:13:56 GMT"
     },
     {
      "title": "女性を監禁疑い 供述後に遺体発見",
@@ -316,14 +321,9 @@
      "pubDate": "Sat, 07 Nov 2026 12:32:34 GMT"
     },
     {
-     "title": "百条委に選出の県議巡り波紋 福岡",
-     "link": "https://news.yahoo.co.jp/pickup/6601689?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 11:35:24 GMT"
-    },
-    {
-     "title": "引き上げた宿泊税 京都市の使途は",
-     "link": "https://news.yahoo.co.jp/pickup/6601697?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 12:18:31 GMT"
+     "title": "FA宣言 15年ぶり「2ケタ」現実味",
+     "link": "https://news.yahoo.co.jp/pickup/6601712?source=rss",
+     "pubDate": "Sat, 07 Nov 2026 13:46:07 GMT"
     },
     {
      "title": "山本モナさん 50歳で司法修習生に",
