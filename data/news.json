@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T15:24:29.795Z",
+ "updatedAt": "2026-11-08T19:48:14.090Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -11,6 +11,11 @@
      "title": "山林で女性遺体 女性が相談も警察は意向受け警告行わず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72420",
      "pubDate": "Sun, 08 Nov 2026 19:37:39 +0900"
+    },
+    {
+     "title": "エジプトで列車衝突事故 7人死亡 112人けが",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72671",
+     "pubDate": "Mon, 09 Nov 2026 03:04:34 +0900"
     },
     {
      "title": "佐賀 鳥栖 ブリヂストン工場で火事 3時間半後に消し止められる",
@@ -36,11 +41,6 @@
      "title": "ウクライナのエネルギー施設へ攻撃続く 60万人電力受けられず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72609",
      "pubDate": "Sun, 08 Nov 2026 22:28:07 +0900"
-    },
-    {
-     "title": "競馬 フォーエバーヤング ことしかぎりで引退へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72599",
-     "pubDate": "Sun, 08 Nov 2026 21:43:00 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "エジプトで列車衝突事故 7人死亡 112人けが",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72671",
+     "pubDate": "Mon, 09 Nov 2026 03:04:34 +0900"
+    },
+    {
+     "title": "米ハイテク株不安定な値動き続くか データセンター規制懸念で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72637",
+     "pubDate": "Mon, 09 Nov 2026 00:46:26 +0900"
+    },
+    {
      "title": "ウクライナのエネルギー施設へ攻撃続く 60万人電力受けられず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72609",
      "pubDate": "Sun, 08 Nov 2026 22:28:07 +0900"
@@ -277,16 +287,6 @@
      "title": "中国で拘束 服役の大手製薬会社社員 来月刑期終え出所の見通し",
      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72316",
      "pubDate": "Sun, 08 Nov 2026 06:19:00 +0900"
-    },
-    {
-     "title": "仲介国カタール“アメリカとイランの対話は現在も継続”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72337",
-     "pubDate": "Sun, 08 Nov 2026 06:12:00 +0900"
-    },
-    {
-     "title": "ウクライナ 人道支援拠点狙ったロシアの空爆 死者55人に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72225",
-     "pubDate": "Sun, 08 Nov 2026 05:57:04 +0900"
     }
    ]
   },
