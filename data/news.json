@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T19:48:14.090Z",
+ "updatedAt": "2026-11-08T23:14:29.344Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "山林で女性遺体 女性が相談も警察は意向受け警告行わず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72420",
-     "pubDate": "Sun, 08 Nov 2026 19:37:39 +0900"
+     "title": "山林遺体は石川県の20代女性と確認 監禁後まもなく殺害か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72639",
+     "pubDate": "Mon, 09 Nov 2026 05:00:24 +0900"
     },
     {
      "title": "エジプトで列車衝突事故 7人死亡 112人けが",
      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72671",
-     "pubDate": "Mon, 09 Nov 2026 03:04:34 +0900"
+     "pubDate": "Mon, 09 Nov 2026 05:13:35 +0900"
     },
     {
-     "title": "佐賀 鳥栖 ブリヂストン工場で火事 3時間半後に消し止められる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72603",
-     "pubDate": "Mon, 09 Nov 2026 00:14:23 +0900"
+     "title": "COP31 きょう開幕へ 各国が足並みそろえられるか焦点に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72633",
+     "pubDate": "Mon, 09 Nov 2026 05:09:37 +0900"
     },
     {
-     "title": "拉致被害者家族らが大規模集会 政府の具体的な取り組み求める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72485",
-     "pubDate": "Sun, 08 Nov 2026 18:42:00 +0900"
+     "title": "消費税減税法案 あさって参議院で審議入り 与野党論戦へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72622",
+     "pubDate": "Mon, 09 Nov 2026 05:04:28 +0900"
     },
     {
-     "title": "COP31 あす開幕へ 対策実行に向け足並みそろえられるか焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72408",
-     "pubDate": "Sun, 08 Nov 2026 19:37:06 +0900"
+     "title": "JR中央線快速電車 運転再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72687",
+     "pubDate": "Mon, 09 Nov 2026 06:55:25 +0900"
     },
     {
-     "title": "トランプ大統領 総合格闘技団体代表に報道官打診",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72412",
-     "pubDate": "Sun, 08 Nov 2026 11:03:00 +0900"
+     "title": "JR内房線が全線で運転再開 通勤・通学客からは安どの声",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72695",
+     "pubDate": "Mon, 09 Nov 2026 07:33:22 +0900"
     },
     {
-     "title": "ウクライナのエネルギー施設へ攻撃続く 60万人電力受けられず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72609",
-     "pubDate": "Sun, 08 Nov 2026 22:28:07 +0900"
+     "title": "イスラエル大統領 野党アイゼンコット氏に組閣要請",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72659",
+     "pubDate": "Mon, 09 Nov 2026 05:48:50 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "【動画】Pickup NEWS（11月9日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72533",
+     "pubDate": "Mon, 09 Nov 2026 06:42:42 +0900"
+    },
+    {
+     "title": "JR中央線快速電車 運転再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72687",
+     "pubDate": "Mon, 09 Nov 2026 06:55:25 +0900"
+    },
+    {
+     "title": "山林遺体は石川県の20代女性と確認 監禁後まもなく殺害か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72639",
+     "pubDate": "Mon, 09 Nov 2026 05:00:24 +0900"
+    },
     {
      "title": "佐賀 鳥栖 ブリヂストン工場で火事 3時間半後に消し止められる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72603",
@@ -108,21 +123,6 @@
      "title": "【鉄道影響】東海道新幹線 上下線遅れ 愛知県内の在来線は再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72329",
      "pubDate": "Sun, 08 Nov 2026 10:53:59 +0900"
-    },
-    {
-     "title": "秋篠宮ご夫妻 和歌山の全国育樹祭で木を手入れ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72187",
-     "pubDate": "Sat, 07 Nov 2026 20:03:36 +0900"
-    },
-    {
-     "title": "介護現場のカスハラの実態は? 厚労省は対策強化へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72045",
-     "pubDate": "Sat, 07 Nov 2026 19:42:10 +0900"
-    },
-    {
-     "title": "プロボウラーの中山律子さんが死去 一大ブームをけん引 84歳",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72117",
-     "pubDate": "Sat, 07 Nov 2026 19:48:00 +0900"
     }
    ]
   },
@@ -214,9 +214,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "フーシ派“サウジアラビア国営石油会社施設など攻撃”報復主張",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72663",
+     "pubDate": "Mon, 09 Nov 2026 05:51:54 +0900"
+    },
+    {
+     "title": "イスラエル大統領 野党アイゼンコット氏に組閣要請",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72659",
+     "pubDate": "Mon, 09 Nov 2026 05:48:50 +0900"
+    },
+    {
+     "title": "ポーランドで6人死亡の銃乱射事件 検察がテロ容疑で捜査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72678",
+     "pubDate": "Mon, 09 Nov 2026 05:44:56 +0900"
+    },
+    {
+     "title": "COP31 きょう開幕へ 各国が足並みそろえられるか焦点に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72633",
+     "pubDate": "Mon, 09 Nov 2026 05:09:37 +0900"
+    },
+    {
      "title": "エジプトで列車衝突事故 7人死亡 112人けが",
      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72671",
-     "pubDate": "Mon, 09 Nov 2026 03:04:34 +0900"
+     "pubDate": "Mon, 09 Nov 2026 05:13:35 +0900"
     },
     {
      "title": "米ハイテク株不安定な値動き続くか データセンター規制懸念で",
@@ -267,26 +287,6 @@
      "title": "ロシア軍がウクライナに大規模攻撃 住宅など被害 市民生活影響",
      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72339",
      "pubDate": "Sun, 08 Nov 2026 06:46:00 +0900"
-    },
-    {
-     "title": "イタリア外相 個人情報が闇サイトに ウクライナ支援で標的か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72338",
-     "pubDate": "Sun, 08 Nov 2026 06:39:42 +0900"
-    },
-    {
-     "title": "ニュージーランド 総選挙 与党第一党と最大野党の間で接戦に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72317",
-     "pubDate": "Sun, 08 Nov 2026 06:37:04 +0900"
-    },
-    {
-     "title": "ベトナム最高指導者 日本からのさらなる投資や協力に期待示す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72233",
-     "pubDate": "Sun, 08 Nov 2026 06:21:20 +0900"
-    },
-    {
-     "title": "中国で拘束 服役の大手製薬会社社員 来月刑期終え出所の見通し",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72316",
-     "pubDate": "Sun, 08 Nov 2026 06:19:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "欧州右派政党 トランプ氏離れ鮮明",
-     "link": "https://news.yahoo.co.jp/pickup/6601843?source=rss",
-     "pubDate": "Sun, 08 Nov 2026 13:13:17 GMT"
+     "title": "9日 関東-北海道で師走並みの寒さ",
+     "link": "https://news.yahoo.co.jp/pickup/6601858?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 21:44:30 GMT"
     },
     {
-     "title": "日米外相会談 パリG7合わせ調整",
-     "link": "https://news.yahoo.co.jp/pickup/6601851?source=rss",
-     "pubDate": "Sun, 08 Nov 2026 14:28:33 GMT"
+     "title": "エジプトで列車同士衝突 7人死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6601860?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 22:21:56 GMT"
     },
     {
-     "title": "福井の山中に女性遺体 死因は窒息",
-     "link": "https://news.yahoo.co.jp/pickup/6601853?source=rss",
-     "pubDate": "Sun, 08 Nov 2026 14:39:31 GMT"
+     "title": "パラグライダー 初心者イベで墜落",
+     "link": "https://news.yahoo.co.jp/pickup/6601861?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 22:31:11 GMT"
     },
     {
-     "title": "死産の子に産着無償提供 広がる輪",
-     "link": "https://news.yahoo.co.jp/pickup/6601845?source=rss",
-     "pubDate": "Sun, 08 Nov 2026 13:16:47 GMT"
+     "title": "舎人ライナー 資金不足陥る可能性",
+     "link": "https://news.yahoo.co.jp/pickup/6601864?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 22:46:35 GMT"
     },
     {
-     "title": "商品に個体差「不揃い」バズる訳",
-     "link": "https://news.yahoo.co.jp/pickup/6601846?source=rss",
-     "pubDate": "Sun, 08 Nov 2026 13:24:35 GMT"
+     "title": "迷惑行為ショウリンジ SNS模倣か",
+     "link": "https://news.yahoo.co.jp/pickup/6601857?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 21:32:55 GMT"
     },
     {
-     "title": "J2磐田監督 一部サポに「怒り」",
-     "link": "https://news.yahoo.co.jp/pickup/6601854?source=rss",
-     "pubDate": "Sun, 08 Nov 2026 14:57:13 GMT"
+     "title": "阪神・西純矢「二刀流」挑戦へ",
+     "link": "https://news.yahoo.co.jp/pickup/6601856?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 21:18:45 GMT"
     },
     {
-     "title": "「VIVANT」映画化発表 12/4公開",
-     "link": "https://news.yahoo.co.jp/pickup/6601844?source=rss",
-     "pubDate": "Sun, 08 Nov 2026 13:16:26 GMT"
+     "title": "CUTIE STREET 初の紅白出場内定",
+     "link": "https://news.yahoo.co.jp/pickup/6601866?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 23:04:00 GMT"
     },
     {
-     "title": "「VIVANT」最終回 SNSの反応",
-     "link": "https://news.yahoo.co.jp/pickup/6601836?source=rss",
-     "pubDate": "Sun, 08 Nov 2026 12:00:49 GMT"
+     "title": "映画VIVANT スピード公開の狙い",
+     "link": "https://news.yahoo.co.jp/pickup/6601863?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 22:34:53 GMT"
     }
    ]
   }
