@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T08:09:02.328Z",
+ "updatedAt": "2026-11-08T15:24:29.795Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "山林で女性遺体 女性が相談も警察は意向受け警告行わず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72420",
+     "pubDate": "Sun, 08 Nov 2026 19:37:39 +0900"
+    },
+    {
+     "title": "佐賀 鳥栖 ブリヂストン工場で火事 3時間半後に消し止められる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72603",
+     "pubDate": "Mon, 09 Nov 2026 00:14:23 +0900"
+    },
+    {
+     "title": "拉致被害者家族らが大規模集会 政府の具体的な取り組み求める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72485",
+     "pubDate": "Sun, 08 Nov 2026 18:42:00 +0900"
+    },
+    {
+     "title": "COP31 あす開幕へ 対策実行に向け足並みそろえられるか焦点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72408",
+     "pubDate": "Sun, 08 Nov 2026 19:37:06 +0900"
+    },
+    {
      "title": "トランプ大統領 総合格闘技団体代表に報道官打診",
      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72412",
      "pubDate": "Sun, 08 Nov 2026 11:03:00 +0900"
     },
     {
-     "title": "山林で女性遺体 監禁疑いで逮捕の容疑者と交際の女性か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72420",
-     "pubDate": "Sun, 08 Nov 2026 12:14:00 +0900"
+     "title": "ウクライナのエネルギー施設へ攻撃続く 60万人電力受けられず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72609",
+     "pubDate": "Sun, 08 Nov 2026 22:28:07 +0900"
     },
     {
-     "title": "小泉防衛相 陸海空自衛隊の垣根を越えた組織のあり方検討",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72476",
-     "pubDate": "Sun, 08 Nov 2026 15:18:52 +0900"
-    },
-    {
-     "title": "消費税減税法案 自民 小林政調会長“制度イメージわく審議を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72482",
-     "pubDate": "Sun, 08 Nov 2026 15:40:30 +0900"
-    },
-    {
-     "title": "イスラエル 第2党アイゼンコット氏に組閣要請へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72392",
-     "pubDate": "Sun, 08 Nov 2026 09:50:00 +0900"
-    },
-    {
-     "title": "ポーランド南部のクラクフで銃撃事件 6人死亡 容疑者は拘束",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72373",
-     "pubDate": "Sun, 08 Nov 2026 08:28:00 +0900"
-    },
-    {
-     "title": "JR内房線 約1か月半ぶりに全線再開 利用者から喜びの声 千葉",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72318",
-     "pubDate": "Sun, 08 Nov 2026 13:49:25 +0900"
+     "title": "競馬 フォーエバーヤング ことしかぎりで引退へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72599",
+     "pubDate": "Sun, 08 Nov 2026 21:43:00 +0900"
     }
    ]
   },
@@ -50,19 +50,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "消費税減税法案 自民 小林政調会長“制度イメージわく審議を”",
+     "title": "佐賀 鳥栖 ブリヂストン工場で火事 3時間半後に消し止められる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72603",
+     "pubDate": "Mon, 09 Nov 2026 00:14:23 +0900"
+    },
+    {
+     "title": "COP31 あす開幕へ 対策実行に向け足並みそろえられるか焦点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72408",
+     "pubDate": "Sun, 08 Nov 2026 19:37:06 +0900"
+    },
+    {
+     "title": "天皇陛下と愛子さま 全日本ソフトテニス選手権大会観戦",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72529",
+     "pubDate": "Sun, 08 Nov 2026 17:53:00 +0900"
+    },
+    {
+     "title": "拉致被害者家族らが大規模集会 政府の具体的な取り組み求める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72485",
+     "pubDate": "Sun, 08 Nov 2026 18:42:00 +0900"
+    },
+    {
+     "title": "消費税減税法案 片山財務相 食料品の販売価格下がる見通し示す",
      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72482",
-     "pubDate": "Sun, 08 Nov 2026 15:40:30 +0900"
+     "pubDate": "Sun, 08 Nov 2026 18:11:00 +0900"
     },
     {
      "title": "秋篠宮ご夫妻 和歌山で「全国育樹祭」式典に出席",
      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72455",
-     "pubDate": "Sun, 08 Nov 2026 13:32:00 +0900"
+     "pubDate": "Sun, 08 Nov 2026 18:47:00 +0900"
     },
     {
-     "title": "山林で女性遺体 監禁疑いで逮捕の容疑者と交際の女性か",
+     "title": "山林で女性遺体 女性が相談も警察は意向受け警告行わず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72420",
-     "pubDate": "Sun, 08 Nov 2026 12:14:00 +0900"
+     "pubDate": "Sun, 08 Nov 2026 19:37:39 +0900"
     },
     {
      "title": "東海道新幹線 運転再開",
@@ -77,12 +97,12 @@
     {
      "title": "【動画】Pickup NEWS（11月8日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72155",
-     "pubDate": "Sun, 08 Nov 2026 13:43:08 +0900"
+     "pubDate": "Sun, 08 Nov 2026 19:42:15 +0900"
     },
     {
      "title": "JR内房線 約1か月半ぶりに全線再開 利用者から喜びの声 千葉",
      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72318",
-     "pubDate": "Sun, 08 Nov 2026 13:49:25 +0900"
+     "pubDate": "Sun, 08 Nov 2026 17:09:00 +0900"
     },
     {
      "title": "【鉄道影響】東海道新幹線 上下線遅れ 愛知県内の在来線は再開",
@@ -103,26 +123,6 @@
      "title": "プロボウラーの中山律子さんが死去 一大ブームをけん引 84歳",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72117",
      "pubDate": "Sat, 07 Nov 2026 19:48:00 +0900"
-    },
-    {
-     "title": "台風32号が発生 年間発生数は1994年以来の多さに",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72096",
-     "pubDate": "Sat, 07 Nov 2026 13:44:34 +0900"
-    },
-    {
-     "title": "北海道 泊原発で国の原子力総合防災訓練 住民避難など手順確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72069",
-     "pubDate": "Sat, 07 Nov 2026 16:34:52 +0900"
-    },
-    {
-     "title": "北茨城で親子3人乗った漁船座礁 50代の息子と娘が死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72072",
-     "pubDate": "Sat, 07 Nov 2026 22:12:47 +0900"
-    },
-    {
-     "title": "GMO 管理者が全情報アクセス可能 リスク指摘も十分対策されず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72062",
-     "pubDate": "Sat, 07 Nov 2026 11:41:00 +0900"
     }
    ]
   },
@@ -214,9 +214,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "高市首相 拉致問題解決する決意 キム総書記との対話に意欲",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72485",
-     "pubDate": "Sun, 08 Nov 2026 15:43:43 +0900"
+     "title": "ウクライナのエネルギー施設へ攻撃続く 60万人電力受けられず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72609",
+     "pubDate": "Sun, 08 Nov 2026 22:28:07 +0900"
+    },
+    {
+     "title": "COP31 あす開幕へ 対策実行に向け足並みそろえられるか焦点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72408",
+     "pubDate": "Sun, 08 Nov 2026 19:37:06 +0900"
+    },
+    {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（11月8日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de66996",
+     "pubDate": "Sun, 08 Nov 2026 17:09:18 +0900"
     },
     {
      "title": "【詳細】ロシア ウクライナに軍事侵攻（11月7日の動き）",
@@ -277,16 +287,6 @@
      "title": "ウクライナ 人道支援拠点狙ったロシアの空爆 死者55人に",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72225",
      "pubDate": "Sun, 08 Nov 2026 05:57:04 +0900"
-    },
-    {
-     "title": "ロシア JTの資産を追加で一時管理下に置く大統領令に署名",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72211",
-     "pubDate": "Sun, 08 Nov 2026 08:13:00 +0900"
-    },
-    {
-     "title": "大手金融機関破綻の南米パラグアイで大統領が罷免され混乱続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72104",
-     "pubDate": "Sat, 07 Nov 2026 15:01:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "自民 消費減税採決棄権で処分検討",
-     "link": "https://news.yahoo.co.jp/pickup/6601782?source=rss",
-     "pubDate": "Sun, 08 Nov 2026 05:33:35 GMT"
+     "title": "欧州右派政党 トランプ氏離れ鮮明",
+     "link": "https://news.yahoo.co.jp/pickup/6601843?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 13:13:17 GMT"
     },
     {
-     "title": "台風 強い勢力で小笠原諸島接近か",
-     "link": "https://news.yahoo.co.jp/pickup/6601792?source=rss",
-     "pubDate": "Sun, 08 Nov 2026 06:51:34 GMT"
+     "title": "日米外相会談 パリG7合わせ調整",
+     "link": "https://news.yahoo.co.jp/pickup/6601851?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 14:28:33 GMT"
     },
     {
-     "title": "個人情報「手放す」企業が続々",
-     "link": "https://news.yahoo.co.jp/pickup/6601787?source=rss",
-     "pubDate": "Sun, 08 Nov 2026 05:32:18 GMT"
+     "title": "福井の山中に女性遺体 死因は窒息",
+     "link": "https://news.yahoo.co.jp/pickup/6601853?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 14:39:31 GMT"
     },
     {
-     "title": "書店員刺される 男「社会に恨み」",
-     "link": "https://news.yahoo.co.jp/pickup/6601795?source=rss",
-     "pubDate": "Sun, 08 Nov 2026 06:59:28 GMT"
+     "title": "死産の子に産着無償提供 広がる輪",
+     "link": "https://news.yahoo.co.jp/pickup/6601845?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 13:16:47 GMT"
     },
     {
-     "title": "倉庫には古米の山 赤字覚悟で販売",
-     "link": "https://news.yahoo.co.jp/pickup/6601793?source=rss",
-     "pubDate": "Sun, 08 Nov 2026 06:42:20 GMT"
+     "title": "商品に個体差「不揃い」バズる訳",
+     "link": "https://news.yahoo.co.jp/pickup/6601846?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 13:24:35 GMT"
     },
     {
-     "title": "大谷ユニ 9270万円で入札も不成立",
-     "link": "https://news.yahoo.co.jp/pickup/6601805?source=rss",
-     "pubDate": "Sun, 08 Nov 2026 07:36:38 GMT"
+     "title": "J2磐田監督 一部サポに「怒り」",
+     "link": "https://news.yahoo.co.jp/pickup/6601854?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 14:57:13 GMT"
     },
     {
-     "title": "競馬場どよめく 3連単1206万円",
-     "link": "https://news.yahoo.co.jp/pickup/6601802?source=rss",
-     "pubDate": "Sun, 08 Nov 2026 07:29:17 GMT"
+     "title": "「VIVANT」映画化発表 12/4公開",
+     "link": "https://news.yahoo.co.jp/pickup/6601844?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 13:16:26 GMT"
     },
     {
-     "title": "のっちと結婚の渋谷 8歳から子役",
-     "link": "https://news.yahoo.co.jp/pickup/6601777?source=rss",
-     "pubDate": "Sun, 08 Nov 2026 04:11:36 GMT"
+     "title": "「VIVANT」最終回 SNSの反応",
+     "link": "https://news.yahoo.co.jp/pickup/6601836?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 12:00:49 GMT"
     }
    ]
   }
