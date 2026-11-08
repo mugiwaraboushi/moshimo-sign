@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T22:23:34.084Z",
+ "updatedAt": "2026-11-08T01:34:15.260Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "愛知で震度5強 12人けが 各地の被害状況",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72310",
+     "pubDate": "Sun, 08 Nov 2026 09:22:00 +0900"
+    },
+    {
      "title": "愛知県で震度5強 “南海トラフ巨大地震とはメカニズム異なる”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72252",
-     "pubDate": "Sun, 08 Nov 2026 06:17:29 +0900"
+     "pubDate": "Sun, 08 Nov 2026 08:17:00 +0900"
     },
     {
-     "title": "気象庁記者会見 “同程度の地震に注意”【会見詳細】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72259",
-     "pubDate": "Sun, 08 Nov 2026 05:28:05 +0900"
+     "title": "イスラエル 第2党アイゼンコット氏に組閣要請へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72392",
+     "pubDate": "Sun, 08 Nov 2026 09:50:00 +0900"
     },
     {
-     "title": "愛知で震度5強【各地の被害情報】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72310",
-     "pubDate": "Sun, 08 Nov 2026 05:26:30 +0900"
+     "title": "ロシア JTの資産を追加で一時管理下に置く大統領令に署名",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72211",
+     "pubDate": "Sun, 08 Nov 2026 08:13:00 +0900"
     },
     {
-     "title": "【鉄道影響】東海道新幹線 上下線遅れ 在来線一部運転見合わせ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72329",
-     "pubDate": "Sun, 08 Nov 2026 06:44:28 +0900"
+     "title": "イタリア外相 個人情報が闇サイトに ウクライナ支援で標的か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72338",
+     "pubDate": "Sun, 08 Nov 2026 06:39:42 +0900"
     },
     {
-     "title": "愛知 豊橋 車の販売店でショーウィンドウのガラス大きく割れる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72297",
-     "pubDate": "Sun, 08 Nov 2026 03:33:37 +0900"
+     "title": "ポーランド南部のクラクフで銃撃事件 6人死亡 容疑者は拘束",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72373",
+     "pubDate": "Sun, 08 Nov 2026 08:28:00 +0900"
     },
     {
-     "title": "ロシア軍がウクライナに大規模攻撃 住宅など被害 市民生活影響",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72339",
-     "pubDate": "Sun, 08 Nov 2026 06:46:40 +0900"
-    },
-    {
-     "title": "中国で拘束 服役の大手製薬会社社員 来月刑期終え出所の見通し",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72316",
-     "pubDate": "Sun, 08 Nov 2026 06:19:46 +0900"
+     "title": "JR内房線 きょう全線で運転再開へ 復旧作業が予定より前倒し",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72318",
+     "pubDate": "Sun, 08 Nov 2026 06:04:00 +0900"
     }
    ]
   },
@@ -50,6 +50,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "東海道新幹線 運転再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72365",
+     "pubDate": "Sun, 08 Nov 2026 07:55:52 +0900"
+    },
+    {
+     "title": "東北新幹線 全線で運転再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72358",
+     "pubDate": "Sun, 08 Nov 2026 09:27:08 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（11月8日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72155",
      "pubDate": "Sun, 08 Nov 2026 06:36:21 +0900"
@@ -57,7 +67,7 @@
     {
      "title": "JR内房線 きょう全線で運転再開へ 復旧作業が予定より前倒し",
      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72318",
-     "pubDate": "Sun, 08 Nov 2026 06:04:47 +0900"
+     "pubDate": "Sun, 08 Nov 2026 06:04:00 +0900"
     },
     {
      "title": "【鉄道影響】東海道新幹線 上下線遅れ 在来線一部運転見合わせ",
@@ -77,7 +87,7 @@
     {
      "title": "プロボウラーの中山律子さんが死去 一大ブームをけん引 84歳",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72117",
-     "pubDate": "Sat, 07 Nov 2026 19:48:45 +0900"
+     "pubDate": "Sat, 07 Nov 2026 19:48:00 +0900"
     },
     {
      "title": "台風32号が発生 年間発生数は1994年以来の多さに",
@@ -113,16 +123,6 @@
      "title": "国税庁装う偽メールが急増「メールで還付手続き案内しない」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71902",
      "pubDate": "Sat, 07 Nov 2026 05:05:00 +0900"
-    },
-    {
-     "title": "大分 陸上自衛隊戦車3人死亡事故 前の砲弾の破片が原因か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de71984",
-     "pubDate": "Sat, 07 Nov 2026 04:56:00 +0900"
-    },
-    {
-     "title": "JESSE コカイン使用の疑いで逮捕 ロックバンドRIZEのボーカル",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de71989",
-     "pubDate": "Sat, 07 Nov 2026 02:31:00 +0900"
     }
    ]
   },
@@ -214,6 +214,16 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "イスラエル 第2党アイゼンコット氏に組閣要請へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72392",
+     "pubDate": "Sun, 08 Nov 2026 09:50:00 +0900"
+    },
+    {
+     "title": "ポーランド南部のクラクフで銃撃事件 6人死亡 容疑者は拘束",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72373",
+     "pubDate": "Sun, 08 Nov 2026 08:28:00 +0900"
+    },
+    {
      "title": "韓国で日韓歌謡大会 互いの国の曲歌い交流深める",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72247",
      "pubDate": "Sun, 08 Nov 2026 06:51:37 +0900"
@@ -241,7 +251,7 @@
     {
      "title": "中国で拘束 服役の大手製薬会社社員 来月刑期終え出所の見通し",
      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72316",
-     "pubDate": "Sun, 08 Nov 2026 06:19:46 +0900"
+     "pubDate": "Sun, 08 Nov 2026 06:19:00 +0900"
     },
     {
      "title": "仲介国カタール“アメリカとイランの対話は現在も継続”",
@@ -256,7 +266,7 @@
     {
      "title": "ロシア JTの資産を追加で一時管理下に置く大統領令に署名",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72211",
-     "pubDate": "Sun, 08 Nov 2026 00:02:24 +0900"
+     "pubDate": "Sun, 08 Nov 2026 08:13:00 +0900"
     },
     {
      "title": "大手金融機関破綻の南米パラグアイで大統領が罷免され混乱続く",
@@ -277,16 +287,6 @@
      "title": "ベッセント財務長官と何副首相 貿易摩擦“休戦”の状況を協議",
      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72007",
      "pubDate": "Sat, 07 Nov 2026 08:46:00 +0900"
-    },
-    {
-     "title": "日米欧など10か国 香港民主活動家 黄之鋒氏への判決を非難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72008",
-     "pubDate": "Sat, 07 Nov 2026 08:19:00 +0900"
-    },
-    {
-     "title": "超党派議員連盟がICC訪問し赤根所長と面会「支援を強化」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261107de72010",
-     "pubDate": "Sat, 07 Nov 2026 07:20:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "愛知県で震度5強 津波の心配なし",
-     "link": "https://news.yahoo.co.jp/pickup/6601719?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 16:13:23 GMT"
+     "title": "愛知県で震度5強観測 約30年ぶり",
+     "link": "https://news.yahoo.co.jp/pickup/6601732?source=rss",
+     "pubDate": "Sat, 07 Nov 2026 22:51:32 GMT"
     },
     {
-     "title": "米中間選挙 共和党大敗の舞台裏",
-     "link": "https://news.yahoo.co.jp/pickup/6601716?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 14:18:01 GMT"
+     "title": "露 ウのエネ施設に大規模攻撃",
+     "link": "https://news.yahoo.co.jp/pickup/6601740?source=rss",
+     "pubDate": "Sat, 07 Nov 2026 23:57:35 GMT"
     },
     {
-     "title": "大阪維新の会「吉村体制」3期目に",
-     "link": "https://news.yahoo.co.jp/pickup/6601718?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 14:37:04 GMT"
+     "title": "出火後に家に戻ったか 2遺体発見",
+     "link": "https://news.yahoo.co.jp/pickup/6601751?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 01:12:02 GMT"
     },
     {
-     "title": "基地交付金 打ち切り恐れに町反発",
-     "link": "https://news.yahoo.co.jp/pickup/6601709?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 13:13:56 GMT"
+     "title": "アメ横周辺 路上営業巡り家宅捜索",
+     "link": "https://news.yahoo.co.jp/pickup/6601748?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 00:58:20 GMT"
     },
     {
-     "title": "女性を監禁疑い 供述後に遺体発見",
-     "link": "https://news.yahoo.co.jp/pickup/6601700?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 12:32:34 GMT"
+     "title": "東大の新学部開設 学生有志猛反発",
+     "link": "https://news.yahoo.co.jp/pickup/6601752?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 01:22:44 GMT"
     },
     {
-     "title": "FA宣言 15年ぶり「2ケタ」現実味",
-     "link": "https://news.yahoo.co.jp/pickup/6601712?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 13:46:07 GMT"
+     "title": "藤浪晋太郎 イベントで柵越え連発",
+     "link": "https://news.yahoo.co.jp/pickup/6601750?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 01:06:25 GMT"
     },
     {
-     "title": "VIVANT最終回 二つのハードル",
-     "link": "https://news.yahoo.co.jp/pickup/6601722?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 22:19:31 GMT"
+     "title": "平野ノラ 娘3歳まで授乳した理由",
+     "link": "https://news.yahoo.co.jp/pickup/6601741?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 00:08:27 GMT"
     },
     {
-     "title": "こじはる結婚 ノースリーブス祝福",
-     "link": "https://news.yahoo.co.jp/pickup/6601699?source=rss",
-     "pubDate": "Sat, 07 Nov 2026 12:18:26 GMT"
+     "title": "中山律子さん死去 桑田佳祐が追悼",
+     "link": "https://news.yahoo.co.jp/pickup/6601745?source=rss",
+     "pubDate": "Sun, 08 Nov 2026 00:24:56 GMT"
     }
    ]
   }
