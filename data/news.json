@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T10:28:53.426Z",
+ "updatedAt": "2026-11-09T20:55:44.608Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "各地で冬のような寒さ あすも北～東日本は寒い1日に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72716",
-     "pubDate": "Mon, 09 Nov 2026 19:00:52 +0900"
-    },
-    {
-     "title": "産休取得の川田翔子市長が公務復帰「心機一転 仕事」京都 八幡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72721",
-     "pubDate": "Mon, 09 Nov 2026 18:29:00 +0900"
-    },
-    {
-     "title": "車から強力電波 周辺スマホ強制的に2Gに 詐欺メール送信狙いか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72718",
-     "pubDate": "Mon, 09 Nov 2026 19:20:09 +0900"
-    },
-    {
-     "title": "高市内閣支持率53％ 不支持32％ NHK世論調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72711",
-     "pubDate": "Mon, 09 Nov 2026 19:00:16 +0900"
-    },
-    {
-     "title": "自民 鈴木幹事長 石破前首相ら4人を「戒告」処分 本会議退席で",
+     "title": "自民 石破前首相ら4人を戒告処分 本会議退席で 元総裁処分は初",
      "link": "https://news.web.nhk/newsweb/na/nd-20261109de73129",
-     "pubDate": "Mon, 09 Nov 2026 19:11:16 +0900"
+     "pubDate": "Mon, 09 Nov 2026 19:11:00 +0900"
     },
     {
-     "title": "定数31議席削減 法案要綱が判明 統一名簿の具体的規定は見送り",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72715",
-     "pubDate": "Mon, 09 Nov 2026 19:12:48 +0900"
+     "title": "ナスダック一時3％超上昇 AI規制の懸念後退や原油安で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73229",
+     "pubDate": "Tue, 10 Nov 2026 05:40:49 +0900"
     },
     {
-     "title": "COP31開幕 気候変動対策の実行へ 議長国が各国に協力呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72895",
-     "pubDate": "Mon, 09 Nov 2026 19:06:09 +0900"
+     "title": "自民 維新 安全保障3文書改定向けきょうから作業チームが協議",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73179",
+     "pubDate": "Tue, 10 Nov 2026 05:25:40 +0900"
+    },
+    {
+     "title": "ロシアの独立系新聞「最後の日」 30年余の歴史に幕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73218",
+     "pubDate": "Tue, 10 Nov 2026 05:44:27 +0900"
+    },
+    {
+     "title": "山口県警 ミスでボーナスなど8000万円余が未払い 一部時効に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73131",
+     "pubDate": "Mon, 09 Nov 2026 19:22:00 +0900"
+    },
+    {
+     "title": "東日本大震災震源域のプレート固着でひずみ蓄積が再開 東北大",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73183",
+     "pubDate": "Mon, 09 Nov 2026 22:40:00 +0900"
+    },
+    {
+     "title": "防災庁 都道府県の窓口職員「地域防災連携推進員」に研修会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73178",
+     "pubDate": "Mon, 09 Nov 2026 22:19:00 +0900"
     }
    ]
   },
@@ -49,6 +49,31 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "防災庁 都道府県の窓口職員「地域防災連携推進員」に研修会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73178",
+     "pubDate": "Mon, 09 Nov 2026 22:19:00 +0900"
+    },
+    {
+     "title": "笹川環境相 去年クマによる人身被害が全国最多の秋田県を視察",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73165",
+     "pubDate": "Mon, 09 Nov 2026 21:05:56 +0900"
+    },
+    {
+     "title": "ジャニー喜多川氏性加害で当事者の会元副代表と会社側が和解",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73160",
+     "pubDate": "Mon, 09 Nov 2026 20:38:47 +0900"
+    },
+    {
+     "title": "大阪 児童7人を車ではねた殺人未遂の罪 被告は黙秘 初公判で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73136",
+     "pubDate": "Mon, 09 Nov 2026 20:06:00 +0900"
+    },
+    {
+     "title": "山林で発見の女性遺体 首に圧迫された痕 鼻や口もふさがれたか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73140",
+     "pubDate": "Mon, 09 Nov 2026 19:38:48 +0900"
+    },
     {
      "title": "山口県警 ミスでボーナスなど8000万円余が未払い 一部時効に",
      "link": "https://news.web.nhk/newsweb/na/nd-20261109de73131",
@@ -75,9 +100,9 @@
      "pubDate": "Mon, 09 Nov 2026 16:00:00 +0900"
     },
     {
-     "title": "熊本 八代の90代女性 7月の熊本地震の災害関連死に初認定",
+     "title": "熊本 八代の90代女性 7月の熊本地震の災害関連死に初認定 詳報",
      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72717",
-     "pubDate": "Mon, 09 Nov 2026 13:34:00 +0900"
+     "pubDate": "Mon, 09 Nov 2026 19:53:46 +0900"
     },
     {
      "title": "車から強力電波 周辺スマホ強制的に2Gに 詐欺メール送信狙いか",
@@ -85,44 +110,19 @@
      "pubDate": "Mon, 09 Nov 2026 19:20:09 +0900"
     },
     {
-     "title": "産休取得の川田翔子市長が公務復帰「心機一転 仕事」京都 八幡",
+     "title": "産休復帰 川田市長“キャリアと出産 育児 両立の姿勢示す”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72721",
-     "pubDate": "Mon, 09 Nov 2026 18:29:00 +0900"
+     "pubDate": "Mon, 09 Nov 2026 20:32:56 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（11月9日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72533",
-     "pubDate": "Mon, 09 Nov 2026 13:47:44 +0900"
+     "pubDate": "Mon, 09 Nov 2026 19:43:31 +0900"
     },
     {
      "title": "JR中央線快速電車 運転再開",
      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72687",
      "pubDate": "Mon, 09 Nov 2026 06:55:25 +0900"
-    },
-    {
-     "title": "山林遺体は石川県の20代女性と確認 監禁後まもなく殺害か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72639",
-     "pubDate": "Mon, 09 Nov 2026 08:42:13 +0900"
-    },
-    {
-     "title": "佐賀 鳥栖 ブリヂストン工場で火事 3時間半後に消し止められる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72603",
-     "pubDate": "Mon, 09 Nov 2026 00:14:23 +0900"
-    },
-    {
-     "title": "COP31 あす開幕へ 対策実行に向け足並みそろえられるか焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72408",
-     "pubDate": "Sun, 08 Nov 2026 19:37:06 +0900"
-    },
-    {
-     "title": "天皇陛下と愛子さま 全日本ソフトテニス選手権大会観戦",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72529",
-     "pubDate": "Sun, 08 Nov 2026 17:53:00 +0900"
-    },
-    {
-     "title": "拉致被害者家族らが大規模集会 政府の具体的な取り組み求める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72485",
-     "pubDate": "Sun, 08 Nov 2026 18:42:00 +0900"
     }
    ]
   },
@@ -131,6 +131,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "風疹ウイルス感染の“入り口”発見 予防や治療法の開発に期待",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73174",
+     "pubDate": "Mon, 09 Nov 2026 21:40:00 +0900"
+    },
+    {
+     "title": "良品計画 約27万件の個人情報漏えいおそれ “リスト型攻撃”か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73077",
+     "pubDate": "Mon, 09 Nov 2026 20:00:48 +0900"
+    },
+    {
+     "title": "「シェアフル」個人情報最大750万件漏えいの可能性",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73137",
+     "pubDate": "Mon, 09 Nov 2026 19:33:39 +0900"
+    },
     {
      "title": "ソニー生命 契約者情報約290万件漏えい",
      "link": "https://news.web.nhk/newsweb/na/nd-20261109de73115",
@@ -190,21 +205,6 @@
      "title": "NTTスマイルエナジー 不正アクセスで顧客のポイント不正に交換",
      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71748",
      "pubDate": "Fri, 06 Nov 2026 19:12:03 +0900"
-    },
-    {
-     "title": "三井ダイレクト損保 東京海上ダイレクト損保 契約者情報漏えい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71809",
-     "pubDate": "Fri, 06 Nov 2026 18:59:07 +0900"
-    },
-    {
-     "title": "“能動的サイバー防御含め戦略的に実行”政府が緊急パッケージ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71754",
-     "pubDate": "Fri, 06 Nov 2026 18:26:00 +0900"
-    },
-    {
-     "title": "佐川急便 5323万件が外部流出の可能性で“被害状況を調査中”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261106de71689",
-     "pubDate": "Fri, 06 Nov 2026 18:44:26 +0900"
     }
    ]
   },
@@ -214,9 +214,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "日ベトナム首脳会談 高市首相“両国関係を新たな高みに”",
+     "title": "ロシアの独立系新聞「最後の日」 30年余の歴史に幕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73218",
+     "pubDate": "Tue, 10 Nov 2026 05:44:27 +0900"
+    },
+    {
+     "title": "高市首相 高性能AI進展で\"国際社会連携を\" 仏政府主催の会合で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73220",
+     "pubDate": "Tue, 10 Nov 2026 05:29:10 +0900"
+    },
+    {
+     "title": "高市首相 ASEANやAPECの首脳会議出席へ“各国首脳と関係構築”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73172",
+     "pubDate": "Mon, 09 Nov 2026 21:27:21 +0900"
+    },
+    {
+     "title": "JT ロシアの現地法人 一時管理対象も“現時点で事業継続”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73135",
+     "pubDate": "Mon, 09 Nov 2026 19:36:00 +0900"
+    },
+    {
+     "title": "日本ベトナム首脳会談 安保推進で一致 重要鉱物や原子力で連携",
      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72912",
-     "pubDate": "Mon, 09 Nov 2026 19:20:31 +0900"
+     "pubDate": "Mon, 09 Nov 2026 23:33:22 +0900"
     },
     {
      "title": "COP31開幕 気候変動対策の実行へ 議長国が各国に協力呼びかけ",
@@ -267,26 +287,6 @@
      "title": "エヌビディアがフアンCEO調査 中国情報機関協力女性と親密報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72697",
      "pubDate": "Mon, 09 Nov 2026 09:21:00 +0900"
-    },
-    {
-     "title": "フーシ派“サウジアラビア国営石油会社施設など攻撃”報復主張",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72663",
-     "pubDate": "Mon, 09 Nov 2026 05:51:00 +0900"
-    },
-    {
-     "title": "イスラエル大統領 野党アイゼンコット氏に組閣要請",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72659",
-     "pubDate": "Mon, 09 Nov 2026 05:48:00 +0900"
-    },
-    {
-     "title": "ポーランドで6人死亡の銃乱射事件 検察がテロ容疑で捜査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72678",
-     "pubDate": "Mon, 09 Nov 2026 05:44:00 +0900"
-    },
-    {
-     "title": "COP31 きょう開幕へ 各国が足並みそろえられるか焦点に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72633",
-     "pubDate": "Mon, 09 Nov 2026 08:37:47 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "MAGAから急進左派へ 揺らぐ米国",
-     "link": "https://news.yahoo.co.jp/pickup/6601939?source=rss",
-     "pubDate": "Mon, 09 Nov 2026 09:57:24 GMT"
+     "title": "4人戒告処分 自民「看過できず」",
+     "link": "https://news.yahoo.co.jp/pickup/6601951?source=rss",
+     "pubDate": "Mon, 09 Nov 2026 12:10:07 GMT"
     },
     {
-     "title": "ニトリ 最大3762万件の情報流出か",
-     "link": "https://news.yahoo.co.jp/pickup/6601934?source=rss",
-     "pubDate": "Mon, 09 Nov 2026 08:58:01 GMT"
+     "title": "「低体温症」8割近くが屋内で発症",
+     "link": "https://news.yahoo.co.jp/pickup/6601956?source=rss",
+     "pubDate": "Mon, 09 Nov 2026 12:43:25 GMT"
     },
     {
-     "title": "石破前首相ら4人を戒告処分 自民",
-     "link": "https://news.yahoo.co.jp/pickup/6601933?source=rss",
-     "pubDate": "Mon, 09 Nov 2026 08:44:45 GMT"
+     "title": "大地震エネルギー蓄積か 日本海溝",
+     "link": "https://news.yahoo.co.jp/pickup/6601961?source=rss",
+     "pubDate": "Mon, 09 Nov 2026 13:37:17 GMT"
     },
     {
-     "title": "労基法 女子保護規定の全廃検討へ",
-     "link": "https://news.yahoo.co.jp/pickup/6601927?source=rss",
-     "pubDate": "Mon, 09 Nov 2026 08:14:20 GMT"
+     "title": "同僚踏みつけ死亡させた疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6601947?source=rss",
+     "pubDate": "Mon, 09 Nov 2026 11:10:10 GMT"
     },
     {
-     "title": "NTT 保有するNEC全株売却を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6601941?source=rss",
-     "pubDate": "Mon, 09 Nov 2026 10:07:31 GMT"
+     "title": "映像 270kgの巨大ヒグマを捕獲",
+     "link": "https://news.yahoo.co.jp/pickup/6601968?source=rss",
+     "pubDate": "Mon, 09 Nov 2026 14:30:57 GMT"
     },
     {
-     "title": "コンロキャンセル界隈 なぜ拡大",
-     "link": "https://news.yahoo.co.jp/pickup/6601935?source=rss",
-     "pubDate": "Mon, 09 Nov 2026 09:29:01 GMT"
+     "title": "自動運転バス運行初日に接触 運休",
+     "link": "https://news.yahoo.co.jp/pickup/6601972?source=rss",
+     "pubDate": "Mon, 09 Nov 2026 15:44:51 GMT"
     },
     {
-     "title": "トライアウト 出場の46人を発表",
-     "link": "https://news.yahoo.co.jp/pickup/6601937?source=rss",
-     "pubDate": "Mon, 09 Nov 2026 09:27:22 GMT"
+     "title": "残留のDeNA筒香「心を打たれた」",
+     "link": "https://news.yahoo.co.jp/pickup/6601967?source=rss",
+     "pubDate": "Mon, 09 Nov 2026 14:28:58 GMT"
     },
     {
-     "title": "ドラクエ 新作スマホゲーム発表",
-     "link": "https://news.yahoo.co.jp/pickup/6601936?source=rss",
-     "pubDate": "Mon, 09 Nov 2026 09:23:00 GMT"
+     "title": "日テレ森圭介アナが休養 喉の治療",
+     "link": "https://news.yahoo.co.jp/pickup/6601971?source=rss",
+     "pubDate": "Mon, 09 Nov 2026 15:12:20 GMT"
     }
    ]
   }
