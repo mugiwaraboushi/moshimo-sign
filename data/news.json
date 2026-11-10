@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T20:55:44.608Z",
+ "updatedAt": "2026-11-10T03:01:35.601Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "自民 石破前首相ら4人を戒告処分 本会議退席で 元総裁処分は初",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73129",
-     "pubDate": "Mon, 09 Nov 2026 19:11:00 +0900"
+     "title": "北日本と東日本で冬の寒さ 体調管理に注意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73237",
+     "pubDate": "Tue, 10 Nov 2026 12:00:40 +0900"
     },
     {
-     "title": "ナスダック一時3％超上昇 AI規制の懸念後退や原油安で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73229",
-     "pubDate": "Tue, 10 Nov 2026 05:40:49 +0900"
+     "title": "安保3文書改定へ 政府側が防衛力強化の方向性を示す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73284",
+     "pubDate": "Tue, 10 Nov 2026 11:04:00 +0900"
     },
     {
-     "title": "自民 維新 安全保障3文書改定向けきょうから作業チームが協議",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73179",
-     "pubDate": "Tue, 10 Nov 2026 05:25:40 +0900"
+     "title": "9月家計調査 実質の消費支出6.8％減 10か月連続の減少",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73268",
+     "pubDate": "Tue, 10 Nov 2026 11:31:53 +0900"
     },
     {
-     "title": "ロシアの独立系新聞「最後の日」 30年余の歴史に幕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73218",
-     "pubDate": "Tue, 10 Nov 2026 05:44:27 +0900"
+     "title": "エヌビディアCEOと中国情報機関の協力者女性の疑惑 FBIが捜査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73265",
+     "pubDate": "Tue, 10 Nov 2026 10:15:28 +0900"
     },
     {
-     "title": "山口県警 ミスでボーナスなど8000万円余が未払い 一部時効に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73131",
-     "pubDate": "Mon, 09 Nov 2026 19:22:00 +0900"
+     "title": "アメリカ ヘグセス国防長官 弾劾訴追決議案を共和党議員が提出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73227",
+     "pubDate": "Tue, 10 Nov 2026 10:38:00 +0900"
     },
     {
-     "title": "東日本大震災震源域のプレート固着でひずみ蓄積が再開 東北大",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73183",
-     "pubDate": "Mon, 09 Nov 2026 22:40:00 +0900"
+     "title": "高市首相 高性能AI進展で\"国際社会連携を\" 仏政府主催の会合で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73220",
+     "pubDate": "Tue, 10 Nov 2026 11:43:35 +0900"
     },
     {
-     "title": "防災庁 都道府県の窓口職員「地域防災連携推進員」に研修会",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73178",
-     "pubDate": "Mon, 09 Nov 2026 22:19:00 +0900"
+     "title": "Xに「いいね」で有罪判決 ストーカー規制法違反の罪 東京地裁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73342",
+     "pubDate": "Tue, 10 Nov 2026 11:51:31 +0900"
     }
    ]
   },
@@ -49,6 +49,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "Xに「いいね」で有罪判決 ストーカー規制法違反の罪 東京地裁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73342",
+     "pubDate": "Tue, 10 Nov 2026 11:51:31 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（11月10日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73119",
+     "pubDate": "Tue, 10 Nov 2026 09:51:19 +0900"
+    },
+    {
+     "title": "米中間選挙後初 日米外相が意見交換 安全保障協力推進で一致",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73223",
+     "pubDate": "Tue, 10 Nov 2026 11:32:00 +0900"
+    },
     {
      "title": "防災庁 都道府県の窓口職員「地域防災連携推進員」に研修会",
      "link": "https://news.web.nhk/newsweb/na/nd-20261109de73178",
@@ -108,21 +123,6 @@
      "title": "車から強力電波 周辺スマホ強制的に2Gに 詐欺メール送信狙いか",
      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72718",
      "pubDate": "Mon, 09 Nov 2026 19:20:09 +0900"
-    },
-    {
-     "title": "産休復帰 川田市長“キャリアと出産 育児 両立の姿勢示す”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72721",
-     "pubDate": "Mon, 09 Nov 2026 20:32:56 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（11月9日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261108de72533",
-     "pubDate": "Mon, 09 Nov 2026 19:43:31 +0900"
-    },
-    {
-     "title": "JR中央線快速電車 運転再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72687",
-     "pubDate": "Mon, 09 Nov 2026 06:55:25 +0900"
     }
    ]
   },
@@ -214,79 +214,79 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "ロシアの独立系新聞「最後の日」 30年余の歴史に幕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73218",
-     "pubDate": "Tue, 10 Nov 2026 05:44:27 +0900"
+     "title": "マーシャル諸島 ハイネ大統領が来日へ 高市首相と会談も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73311",
+     "pubDate": "Tue, 10 Nov 2026 11:26:00 +0900"
     },
     {
-     "title": "高市首相 高性能AI進展で\"国際社会連携を\" 仏政府主催の会合で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73220",
-     "pubDate": "Tue, 10 Nov 2026 05:29:10 +0900"
+     "title": "米・ロ・ウクライナの高官協議開始へ 和平へ進展あるか焦点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73289",
+     "pubDate": "Tue, 10 Nov 2026 11:02:32 +0900"
     },
     {
-     "title": "高市首相 ASEANやAPECの首脳会議出席へ“各国首脳と関係構築”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73172",
-     "pubDate": "Mon, 09 Nov 2026 21:27:21 +0900"
+     "title": "ネパール外相 COP31で「気候変動で未来が別物に」訴え",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73269",
+     "pubDate": "Tue, 10 Nov 2026 10:39:00 +0900"
     },
     {
-     "title": "JT ロシアの現地法人 一時管理対象も“現時点で事業継続”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73135",
-     "pubDate": "Mon, 09 Nov 2026 19:36:00 +0900"
+     "title": "エヌビディアCEOと中国情報機関の協力者女性の疑惑 FBIが捜査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73265",
+     "pubDate": "Tue, 10 Nov 2026 10:15:28 +0900"
     },
     {
-     "title": "日本ベトナム首脳会談 安保推進で一致 重要鉱物や原子力で連携",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72912",
-     "pubDate": "Mon, 09 Nov 2026 23:33:22 +0900"
+     "title": "トランプ大統領 カタール首相とイラン情勢の外交的解決協議か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73251",
+     "pubDate": "Tue, 10 Nov 2026 11:20:47 +0900"
     },
     {
-     "title": "COP31開幕 気候変動対策の実行へ 議長国が各国に協力呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72895",
-     "pubDate": "Mon, 09 Nov 2026 19:06:09 +0900"
+     "title": "【動画】38年前に盗まれた『ドアーズ』ジム・モリソン像の行方",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261026de65512",
+     "pubDate": "Tue, 10 Nov 2026 09:50:22 +0900"
     },
     {
-     "title": "ANA ベトナム航空とダイヤや運賃など調整の共同事業開始へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72963",
-     "pubDate": "Mon, 09 Nov 2026 16:44:48 +0900"
+     "title": "ホンダがアメリカに新工場建設へ ハイブリッド車需要に対応",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73250",
+     "pubDate": "Tue, 10 Nov 2026 08:49:00 +0900"
     },
     {
-     "title": "高市首相のG7オンライン会議欠席 木原長官“時間確定が直前”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72904",
-     "pubDate": "Mon, 09 Nov 2026 15:07:00 +0900"
+     "title": "ノキアCEO「通信インフラに投資拡大でサイバー攻撃対策を」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73248",
+     "pubDate": "Tue, 10 Nov 2026 08:47:00 +0900"
     },
     {
-     "title": "中国で服役の製薬会社社員 出所見通し 木原長官“適切に対応”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72868",
-     "pubDate": "Mon, 09 Nov 2026 14:48:00 +0900"
+     "title": "雨期のガザで大雨 土砂災害で子どもなど6人死亡と報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73246",
+     "pubDate": "Tue, 10 Nov 2026 08:24:00 +0900"
     },
     {
-     "title": "トランプ大統領 イランとの戦闘再開「必要性極めて低い」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72852",
-     "pubDate": "Mon, 09 Nov 2026 13:51:06 +0900"
+     "title": "仏外相 冷蔵庫サイバー攻撃は「イランの革命防衛隊に責任」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73245",
+     "pubDate": "Tue, 10 Nov 2026 08:18:11 +0900"
     },
     {
-     "title": "トランプ大統領 米中ロ首脳会談開催に意欲“非核化”など議題",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72833",
-     "pubDate": "Mon, 09 Nov 2026 19:01:23 +0900"
+     "title": "茂木外相 フランスとイタリアの外相にEV優遇措置の懸念伝達",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73244",
+     "pubDate": "Tue, 10 Nov 2026 08:13:05 +0900"
     },
     {
-     "title": "トランプ大統領 報道官に格闘技団体の代表打診「冗談だった」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72831",
-     "pubDate": "Mon, 09 Nov 2026 12:43:00 +0900"
+     "title": "ドイツ与党が次期大統領候補にアイグナー氏を擁立",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73224",
+     "pubDate": "Tue, 10 Nov 2026 07:00:19 +0900"
     },
     {
-     "title": "中国 10月の消費者物価指数+0.7% 4か月連続で1%下回る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72834",
-     "pubDate": "Mon, 09 Nov 2026 12:37:00 +0900"
+     "title": "G7外相会合開幕 台湾海峡などの現状変更の試みに強く反対",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73219",
+     "pubDate": "Tue, 10 Nov 2026 06:58:38 +0900"
     },
     {
-     "title": "高市首相“日韓連携かつてないほど重要 関係強化を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72781",
-     "pubDate": "Mon, 09 Nov 2026 12:03:00 +0900"
+     "title": "G7外相会合 茂木外相“AI悪用への対処で協調を”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73225",
+     "pubDate": "Tue, 10 Nov 2026 06:53:02 +0900"
     },
     {
-     "title": "エヌビディアがフアンCEO調査 中国情報機関協力女性と親密報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de72697",
-     "pubDate": "Mon, 09 Nov 2026 09:21:00 +0900"
+     "title": "アメリカ ヘグセス国防長官 弾劾訴追決議案を共和党議員が提出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73227",
+     "pubDate": "Tue, 10 Nov 2026 10:38:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "4人戒告処分 自民「看過できず」",
-     "link": "https://news.yahoo.co.jp/pickup/6601951?source=rss",
-     "pubDate": "Mon, 09 Nov 2026 12:10:07 GMT"
+     "title": "「国内間通信」も監視対象に 検討",
+     "link": "https://news.yahoo.co.jp/pickup/6601992?source=rss",
+     "pubDate": "Tue, 10 Nov 2026 00:26:31 GMT"
     },
     {
-     "title": "「低体温症」8割近くが屋内で発症",
-     "link": "https://news.yahoo.co.jp/pickup/6601956?source=rss",
-     "pubDate": "Mon, 09 Nov 2026 12:43:25 GMT"
+     "title": "世界の氷河 1年で4000億t超が減少",
+     "link": "https://news.yahoo.co.jp/pickup/6602005?source=rss",
+     "pubDate": "Tue, 10 Nov 2026 01:29:06 GMT"
     },
     {
-     "title": "大地震エネルギー蓄積か 日本海溝",
-     "link": "https://news.yahoo.co.jp/pickup/6601961?source=rss",
-     "pubDate": "Mon, 09 Nov 2026 13:37:17 GMT"
+     "title": "石破氏ら戒告の自民 引き締め躍起",
+     "link": "https://news.yahoo.co.jp/pickup/6601996?source=rss",
+     "pubDate": "Tue, 10 Nov 2026 00:33:15 GMT"
     },
     {
-     "title": "同僚踏みつけ死亡させた疑い 逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6601947?source=rss",
-     "pubDate": "Mon, 09 Nov 2026 11:10:10 GMT"
+     "title": "マンション2人死亡 7階から転落か",
+     "link": "https://news.yahoo.co.jp/pickup/6602017?source=rss",
+     "pubDate": "Tue, 10 Nov 2026 02:43:06 GMT"
     },
     {
-     "title": "映像 270kgの巨大ヒグマを捕獲",
-     "link": "https://news.yahoo.co.jp/pickup/6601968?source=rss",
-     "pubDate": "Mon, 09 Nov 2026 14:30:57 GMT"
+     "title": "マンジャロで視力低下恐れ 米FDA",
+     "link": "https://news.yahoo.co.jp/pickup/6601997?source=rss",
+     "pubDate": "Tue, 10 Nov 2026 00:31:26 GMT"
     },
     {
-     "title": "自動運転バス運行初日に接触 運休",
-     "link": "https://news.yahoo.co.jp/pickup/6601972?source=rss",
-     "pubDate": "Mon, 09 Nov 2026 15:44:51 GMT"
+     "title": "グルメイベントで準備不十分 波紋",
+     "link": "https://news.yahoo.co.jp/pickup/6601993?source=rss",
+     "pubDate": "Tue, 10 Nov 2026 00:20:52 GMT"
     },
     {
-     "title": "残留のDeNA筒香「心を打たれた」",
-     "link": "https://news.yahoo.co.jp/pickup/6601967?source=rss",
-     "pubDate": "Mon, 09 Nov 2026 14:28:58 GMT"
+     "title": "北九州のド派手晴れ着 欧州初展示",
+     "link": "https://news.yahoo.co.jp/pickup/6602003?source=rss",
+     "pubDate": "Tue, 10 Nov 2026 01:34:32 GMT"
     },
     {
-     "title": "日テレ森圭介アナが休養 喉の治療",
-     "link": "https://news.yahoo.co.jp/pickup/6601971?source=rss",
-     "pubDate": "Mon, 09 Nov 2026 15:12:20 GMT"
+     "title": "織田翔希 G指名あいさつ同席せず",
+     "link": "https://news.yahoo.co.jp/pickup/6602012?source=rss",
+     "pubDate": "Tue, 10 Nov 2026 02:23:01 GMT"
     }
    ]
   }
