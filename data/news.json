@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T23:47:33.762Z",
+ "updatedAt": "2026-11-11T03:19:50.653Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "エルニーニョ現象 過去最大の強さに どんな影響が",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73297",
-     "pubDate": "Tue, 10 Nov 2026 19:48:00 +0900"
+     "title": "NTTドコモ通信障害 「5G SA」利用者に影響 原因を調査中",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73934",
+     "pubDate": "Wed, 11 Nov 2026 11:58:04 +0900"
     },
     {
-     "title": "各地で厳しい冷え込み 台風32号は小笠原離れるも高波警戒",
+     "title": "「中野ブロードウェイ」高級時計窃盗事件で30代の容疑者を逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de74027",
+     "pubDate": "Wed, 11 Nov 2026 12:13:25 +0900"
+    },
+    {
+     "title": "\"ルフィ\"詐欺グループトップ 強盗事件は無罪やほう助主張",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73809",
+     "pubDate": "Wed, 11 Nov 2026 12:02:48 +0900"
+    },
+    {
+     "title": "消費税減税法案が参院に 高市首相“支援金 勤労者の3割以上”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73947",
+     "pubDate": "Wed, 11 Nov 2026 11:47:00 +0900"
+    },
+    {
+     "title": "今季いちばんの冷え込み 日中は気温上昇 台風で小笠原は大しけ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261111de73870",
-     "pubDate": "Wed, 11 Nov 2026 06:05:00 +0900"
+     "pubDate": "Wed, 11 Nov 2026 12:00:00 +0900"
     },
     {
-     "title": "“年内入試”での生成AI活用めぐり大学の対応分かれる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73858",
-     "pubDate": "Wed, 11 Nov 2026 08:18:27 +0900"
+     "title": "岐阜市のアパートで火事 1歳児含む12人搬送",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73892",
+     "pubDate": "Wed, 11 Nov 2026 10:20:46 +0900"
     },
     {
-     "title": "逮捕の阿波市長ら 修理費用を機器の調達名目で請求か 徳島",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73872",
-     "pubDate": "Wed, 11 Nov 2026 06:35:04 +0900"
-    },
-    {
-     "title": "JR東「ウォークスルー改札」山手線全駅など再来年春に導入へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73528",
-     "pubDate": "Tue, 10 Nov 2026 16:19:00 +0900"
-    },
-    {
-     "title": "タマホーム社員 火災保険不正請求の疑い 損保各社調査求める",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73843",
-     "pubDate": "Wed, 11 Nov 2026 04:56:00 +0900"
-    },
-    {
-     "title": "消費税減税法案 参院できょう審議入り 与党少数の中で論戦へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73840",
-     "pubDate": "Wed, 11 Nov 2026 04:52:00 +0900"
+     "title": "英警察が米軍兵士逮捕「関係国はロシア」 スパイ活動の疑い",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73900",
+     "pubDate": "Wed, 11 Nov 2026 11:10:00 +0900"
     }
    ]
   },
@@ -50,19 +50,29 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "「中野ブロードウェイ」高級時計窃盗事件で30代の容疑者を逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de74027",
+     "pubDate": "Wed, 11 Nov 2026 12:13:25 +0900"
+    },
+    {
+     "title": "岐阜市のアパートで火事 1歳児含む12人搬送",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73892",
+     "pubDate": "Wed, 11 Nov 2026 10:20:46 +0900"
+    },
+    {
      "title": "“年内入試”での生成AI活用めぐり大学の対応分かれる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261111de73858",
-     "pubDate": "Wed, 11 Nov 2026 08:18:27 +0900"
+     "pubDate": "Wed, 11 Nov 2026 08:18:00 +0900"
     },
     {
      "title": "文化庁の新たな顕彰制度「食の至宝」 8人が受賞",
      "link": "https://news.web.nhk/newsweb/na/nd-20261111de73866",
-     "pubDate": "Wed, 11 Nov 2026 07:57:59 +0900"
+     "pubDate": "Wed, 11 Nov 2026 07:57:00 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（11月11日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73634",
-     "pubDate": "Wed, 11 Nov 2026 06:53:45 +0900"
+     "pubDate": "Wed, 11 Nov 2026 10:15:48 +0900"
     },
     {
      "title": "逮捕の阿波市長ら 修理費用を機器の調達名目で請求か 徳島",
@@ -75,9 +85,9 @@
      "pubDate": "Wed, 11 Nov 2026 05:23:00 +0900"
     },
     {
-     "title": "“ルフィ”広域強盗事件 詐欺グループトップ きょう初公判",
+     "title": "\"ルフィ\"詐欺グループトップ 強盗事件は無罪やほう助主張",
      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73809",
-     "pubDate": "Wed, 11 Nov 2026 05:21:00 +0900"
+     "pubDate": "Wed, 11 Nov 2026 12:02:48 +0900"
     },
     {
      "title": "7月の熊本地震 災害関連死5人認定 直接死など含め死者は43人に",
@@ -113,16 +123,6 @@
      "title": "「トクリュウ」対策法案 今週13日に参議院本会議で審議入りへ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73769",
      "pubDate": "Tue, 10 Nov 2026 19:38:00 +0900"
-    },
-    {
-     "title": "四国電力子会社社員死亡 第三者委員会の設置を会社側が発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73742",
-     "pubDate": "Tue, 10 Nov 2026 19:03:00 +0900"
-    },
-    {
-     "title": "JIS不適合生コン製造などで認証取り消し 麻生コンクリート工業",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73726",
-     "pubDate": "Tue, 10 Nov 2026 18:39:27 +0900"
     }
    ]
   },
@@ -214,6 +214,31 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "アメリカ ヘグセス国防長官の弾劾決議案 共和党が事実上阻止",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73959",
+     "pubDate": "Wed, 11 Nov 2026 12:18:33 +0900"
+    },
+    {
+     "title": "トランプ大統領“エヌビディア疑惑”で2度報告受けたか 米報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73950",
+     "pubDate": "Wed, 11 Nov 2026 12:12:42 +0900"
+    },
+    {
+     "title": "英警察が米軍兵士逮捕「関係国はロシア」 スパイ活動の疑い",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73900",
+     "pubDate": "Wed, 11 Nov 2026 11:10:00 +0900"
+    },
+    {
+     "title": "【きょうのおはBiz 11月11日(水)】中国就職難 若者が日本へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73893",
+     "pubDate": "Wed, 11 Nov 2026 11:00:15 +0900"
+    },
+    {
+     "title": "「ネオクラウド」コアウィーブ最終赤字6倍 利息支払いで",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73895",
+     "pubDate": "Wed, 11 Nov 2026 10:31:00 +0900"
+    },
+    {
      "title": "米 ルビオ国務長官 米中ロ首脳会談は「実現可能」詰めの調整",
      "link": "https://news.web.nhk/newsweb/na/nd-20261111de73867",
      "pubDate": "Wed, 11 Nov 2026 06:59:51 +0900"
@@ -226,7 +251,7 @@
     {
      "title": "米 ルビオ国務長官 G7各国に「イランへ大規模戦闘 必要ない」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261111de73868",
-     "pubDate": "Wed, 11 Nov 2026 06:39:27 +0900"
+     "pubDate": "Wed, 11 Nov 2026 06:39:00 +0900"
     },
     {
      "title": "G7外相会合閉幕 中東安定に向けた連携 ウクライナ支援継続確認",
@@ -251,7 +276,7 @@
     {
      "title": "中国“独身の日”最大のネットセールも節約志向の声",
      "link": "https://news.web.nhk/newsweb/na/nd-20261111de73830",
-     "pubDate": "Wed, 11 Nov 2026 00:53:55 +0900"
+     "pubDate": "Wed, 11 Nov 2026 00:53:00 +0900"
     },
     {
      "title": "米消費者物価指数 市場予想上回る FRB追加利上げの見方強まる",
@@ -262,31 +287,6 @@
      "title": "米FDA 糖尿病治療薬「マンジャロ」などに視力低下リスクを警告",
      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73780",
      "pubDate": "Tue, 10 Nov 2026 20:31:00 +0900"
-    },
-    {
-     "title": "中国の貿易黒字1兆ドル超え 貿易摩擦の要因に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73738",
-     "pubDate": "Tue, 10 Nov 2026 19:47:45 +0900"
-    },
-    {
-     "title": "オーストラリア AI不正アクセス受け安全対策強化へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73743",
-     "pubDate": "Tue, 10 Nov 2026 19:40:44 +0900"
-    },
-    {
-     "title": "アメリカ・ロシア・ウクライナ 3か国の高官協議始まる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73734",
-     "pubDate": "Tue, 10 Nov 2026 19:21:00 +0900"
-    },
-    {
-     "title": "円相場 小幅な値動き 米消費者物価指数の発表控え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73733",
-     "pubDate": "Tue, 10 Nov 2026 18:50:50 +0900"
-    },
-    {
-     "title": "台湾国防部「中国軍が西太平洋に空母など展開し演習」と非難",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73527",
-     "pubDate": "Tue, 10 Nov 2026 16:24:40 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "日本のエンタメを排除 きしむ日中",
-     "link": "https://news.yahoo.co.jp/pickup/6602115?source=rss",
-     "pubDate": "Tue, 10 Nov 2026 23:01:30 GMT"
+     "title": "ルフィ事件 幹部が起訴内容を否認",
+     "link": "https://news.yahoo.co.jp/pickup/6602143?source=rss",
+     "pubDate": "Wed, 11 Nov 2026 02:49:09 GMT"
     },
     {
-     "title": "米国防長官 自身への弾劾「茶番」",
-     "link": "https://news.yahoo.co.jp/pickup/6602114?source=rss",
-     "pubDate": "Tue, 10 Nov 2026 22:58:18 GMT"
+     "title": "3文書改定 自民は「ブレーキ役」",
+     "link": "https://news.yahoo.co.jp/pickup/6602135?source=rss",
+     "pubDate": "Wed, 11 Nov 2026 01:56:05 GMT"
     },
     {
-     "title": "小泉氏 首相総裁選出馬なら支える",
-     "link": "https://news.yahoo.co.jp/pickup/6602107?source=rss",
-     "pubDate": "Tue, 10 Nov 2026 21:39:18 GMT"
+     "title": "高級時計が盗まれた事件 男を逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6602150?source=rss",
+     "pubDate": "Wed, 11 Nov 2026 03:00:05 GMT"
     },
     {
-     "title": "生徒乗る遊覧船定員1.7倍で航行か",
-     "link": "https://news.yahoo.co.jp/pickup/6602112?source=rss",
-     "pubDate": "Tue, 10 Nov 2026 22:40:19 GMT"
+     "title": "ドコモ携帯 全国で障害が発生",
+     "link": "https://news.yahoo.co.jp/pickup/6602147?source=rss",
+     "pubDate": "Wed, 11 Nov 2026 02:45:39 GMT"
     },
     {
-     "title": "イベ閑散 主催は集客「約束せず」",
-     "link": "https://news.yahoo.co.jp/pickup/6602113?source=rss",
-     "pubDate": "Tue, 10 Nov 2026 23:03:13 GMT"
+     "title": "ダンプカー衝突 自転車の15歳死亡",
+     "link": "https://news.yahoo.co.jp/pickup/6602142?source=rss",
+     "pubDate": "Wed, 11 Nov 2026 02:22:35 GMT"
     },
     {
-     "title": "海ほたるで迷惑行為 閉鎖繰り返す",
-     "link": "https://news.yahoo.co.jp/pickup/6602108?source=rss",
-     "pubDate": "Tue, 10 Nov 2026 21:53:25 GMT"
+     "title": "「AIくさい」なぜSNSで批判過熱",
+     "link": "https://news.yahoo.co.jp/pickup/6602141?source=rss",
+     "pubDate": "Wed, 11 Nov 2026 02:50:12 GMT"
     },
     {
-     "title": "巨人 元楽天監督の平石氏招へいへ",
-     "link": "https://news.yahoo.co.jp/pickup/6602110?source=rss",
-     "pubDate": "Tue, 10 Nov 2026 22:25:26 GMT"
+     "title": "高級スーツに外国人客 老舗逆転劇",
+     "link": "https://news.yahoo.co.jp/pickup/6602136?source=rss",
+     "pubDate": "Wed, 11 Nov 2026 01:49:54 GMT"
     },
     {
-     "title": "映画「VIVANT」17人が続投決定",
-     "link": "https://news.yahoo.co.jp/pickup/6602119?source=rss",
-     "pubDate": "Tue, 10 Nov 2026 23:37:27 GMT"
+     "title": "ふぉ～ゆ～ 下半身パンツ姿で会見",
+     "link": "https://news.yahoo.co.jp/pickup/6602151?source=rss",
+     "pubDate": "Wed, 11 Nov 2026 03:04:47 GMT"
     }
    ]
   }
