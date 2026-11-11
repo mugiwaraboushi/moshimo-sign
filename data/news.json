@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T11:15:21.090Z",
+ "updatedAt": "2026-11-11T18:46:34.123Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -13,9 +13,19 @@
      "pubDate": "Wed, 11 Nov 2026 18:51:00 +0900"
     },
     {
-     "title": "アマゾンジャパン 独禁法調査で改善計画を提出 公取委が承認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73933",
-     "pubDate": "Wed, 11 Nov 2026 18:30:00 +0900"
+     "title": "日本近海で水温上昇 雑種フグ・アニサキス…食の安全に影響も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73954",
+     "pubDate": "Wed, 11 Nov 2026 20:25:41 +0900"
+    },
+    {
+     "title": "ドコモ通信障害復旧 原因は機器の不具合",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73934",
+     "pubDate": "Wed, 11 Nov 2026 21:47:21 +0900"
+    },
+    {
+     "title": "アメリカ・ロシア・ウクライナ高官協議 大規模捕虜交換で合意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73734",
+     "pubDate": "Wed, 11 Nov 2026 21:58:23 +0900"
     },
     {
      "title": "自民 森山前幹事長 石破氏ら4人“国民の気持ち反映した行動”",
@@ -23,24 +33,14 @@
      "pubDate": "Wed, 11 Nov 2026 17:47:39 +0900"
     },
     {
-     "title": "去年7月の参院選は違憲状態 1票の格差めぐる判決 最高裁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261111de74142",
-     "pubDate": "Wed, 11 Nov 2026 20:07:04 +0900"
+     "title": "福島 いわき 男児死亡 母親が夏ごろ“県外に避難する”と説明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de74482",
+     "pubDate": "Wed, 11 Nov 2026 23:26:07 +0900"
     },
     {
-     "title": "茨城 古河 同居女性に唇縫わせた罪に問われた被告初公判",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261111de74378",
-     "pubDate": "Wed, 11 Nov 2026 19:47:32 +0900"
-    },
-    {
-     "title": "特殊詐欺防止の「警察庁推奨アプリ」で偽サイト 注意呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261111de74395",
-     "pubDate": "Wed, 11 Nov 2026 19:26:00 +0900"
-    },
-    {
-     "title": "「超大型ウナギ」の試食会 一般的なサイズの2倍 名古屋",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261111de74343",
-     "pubDate": "Wed, 11 Nov 2026 19:34:48 +0900"
+     "title": "海水温上昇 イギリスでタコ大量発生 ロブスター ホタテ大幅減",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de74426",
+     "pubDate": "Wed, 11 Nov 2026 21:38:00 +0900"
     }
    ]
   },
@@ -50,9 +50,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "福島 いわき 男児死亡 母親が夏ごろ“県外に避難する”と説明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de74482",
+     "pubDate": "Wed, 11 Nov 2026 23:26:07 +0900"
+    },
+    {
+     "title": "靖国神社運営サイトに不正アクセス 約1万4500件の情報漏えい",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de74452",
+     "pubDate": "Wed, 11 Nov 2026 20:33:00 +0900"
+    },
+    {
+     "title": "日本近海で水温上昇 雑種フグ・アニサキス…食の安全に影響も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73954",
+     "pubDate": "Wed, 11 Nov 2026 20:25:41 +0900"
+    },
+    {
      "title": "茨城 古河 同居女性に唇縫わせた罪に問われた被告初公判",
      "link": "https://news.web.nhk/newsweb/na/nd-20261111de74378",
-     "pubDate": "Wed, 11 Nov 2026 19:47:32 +0900"
+     "pubDate": "Wed, 11 Nov 2026 20:54:36 +0900"
     },
     {
      "title": "「超大型ウナギ」の試食会 一般的なサイズの2倍 名古屋",
@@ -108,21 +123,6 @@
      "title": "蚊駆除スプレー 2審も特許侵害認めない判決 知財高裁",
      "link": "https://news.web.nhk/newsweb/na/nd-20261111de74160",
      "pubDate": "Wed, 11 Nov 2026 20:12:53 +0900"
-    },
-    {
-     "title": "自民合同会議 安全保障3文書改定に向け 政府から説明受ける",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261111de74146",
-     "pubDate": "Wed, 11 Nov 2026 15:38:00 +0900"
-    },
-    {
-     "title": "アマゾンジャパン 独禁法調査で改善計画を提出 公取委が承認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73933",
-     "pubDate": "Wed, 11 Nov 2026 18:30:00 +0900"
-    },
-    {
-     "title": "東京 青梅 圏央道で5台関係する事故 追突された男性死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261111de74133",
-     "pubDate": "Wed, 11 Nov 2026 19:40:29 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "海水温上昇 イギリスでタコ大量発生 ロブスター ホタテ大幅減",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de74426",
+     "pubDate": "Wed, 11 Nov 2026 21:38:00 +0900"
+    },
+    {
+     "title": "日本近海で水温上昇 雑種フグ・アニサキス…食の安全に影響も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73954",
+     "pubDate": "Wed, 11 Nov 2026 20:25:41 +0900"
+    },
     {
      "title": "情報漏えいリスク回避へ対策は？通販サイト閉鎖の企業も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261111de73911",
@@ -195,16 +205,6 @@
      "title": "良品計画 約27万件の個人情報漏えいおそれ “リスト型攻撃”か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261109de73077",
      "pubDate": "Mon, 09 Nov 2026 20:00:48 +0900"
-    },
-    {
-     "title": "「シェアフル」個人情報最大750万件漏えいの可能性",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73137",
-     "pubDate": "Mon, 09 Nov 2026 19:33:39 +0900"
-    },
-    {
-     "title": "ソニー生命 契約者情報約290万件漏えい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261109de73115",
-     "pubDate": "Mon, 09 Nov 2026 18:41:51 +0900"
     }
    ]
   },
@@ -213,6 +213,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "アメリカ中間選挙 敗北で揺れるトランプ政権 その行方は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de74444",
+     "pubDate": "Wed, 11 Nov 2026 21:42:06 +0900"
+    },
+    {
+     "title": "海水温上昇 イギリスでタコ大量発生 ロブスター ホタテ大幅減",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de74426",
+     "pubDate": "Wed, 11 Nov 2026 21:38:00 +0900"
+    },
+    {
+     "title": "中国の自動車輸出急増 年間1100万台を超える見通し",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261111de74360",
+     "pubDate": "Wed, 11 Nov 2026 21:09:00 +0900"
+    },
     {
      "title": "太平洋クロマグロ漁獲枠の配分 韓国・台湾と合意に至らず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261111de74300",
@@ -272,21 +287,6 @@
      "title": "米 ルビオ国務長官 米中ロ首脳会談は「実現可能」詰めの調整",
      "link": "https://news.web.nhk/newsweb/na/nd-20261111de73867",
      "pubDate": "Wed, 11 Nov 2026 06:59:51 +0900"
-    },
-    {
-     "title": "米 AI開発企業「アンソロピック」 IPOで10兆円余りを調達へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73850",
-     "pubDate": "Wed, 11 Nov 2026 06:41:51 +0900"
-    },
-    {
-     "title": "米 ルビオ国務長官 G7各国に「イランへ大規模戦闘 必要ない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73868",
-     "pubDate": "Wed, 11 Nov 2026 06:39:00 +0900"
-    },
-    {
-     "title": "G7外相会合閉幕 中東安定に向けた連携 ウクライナ支援継続確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73871",
-     "pubDate": "Wed, 11 Nov 2026 06:17:25 +0900"
     }
    ]
   },
@@ -296,39 +296,39 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "Amazonの改善計画 公取委が認定",
-     "link": "https://news.yahoo.co.jp/pickup/6602184?source=rss",
-     "pubDate": "Wed, 11 Nov 2026 07:40:49 GMT"
+     "title": "消費減税法案 支援金巡り野党追及",
+     "link": "https://news.yahoo.co.jp/pickup/6602215?source=rss",
+     "pubDate": "Wed, 11 Nov 2026 12:05:32 GMT"
     },
     {
-     "title": "米財務長官 脅迫受け軍基地に転居",
-     "link": "https://news.yahoo.co.jp/pickup/6602195?source=rss",
-     "pubDate": "Wed, 11 Nov 2026 09:00:26 GMT"
+     "title": "Amazon「表示枠」公取なぜ問題視",
+     "link": "https://news.yahoo.co.jp/pickup/6602231?source=rss",
+     "pubDate": "Wed, 11 Nov 2026 13:26:37 GMT"
     },
     {
-     "title": "放火し保険金など1億円詐取 実刑",
-     "link": "https://news.yahoo.co.jp/pickup/6602207?source=rss",
-     "pubDate": "Wed, 11 Nov 2026 09:56:24 GMT"
+     "title": "月収5万円 受診遅れ死亡した男性",
+     "link": "https://news.yahoo.co.jp/pickup/6602222?source=rss",
+     "pubDate": "Wed, 11 Nov 2026 12:30:08 GMT"
     },
     {
-     "title": "立花孝志被告の勾留続く 識者は",
-     "link": "https://news.yahoo.co.jp/pickup/6602187?source=rss",
-     "pubDate": "Wed, 11 Nov 2026 08:27:59 GMT"
+     "title": "約6300の学校に爆破予告メール 伊",
+     "link": "https://news.yahoo.co.jp/pickup/6602234?source=rss",
+     "pubDate": "Wed, 11 Nov 2026 14:55:23 GMT"
     },
     {
-     "title": "イベ閑散 トラブルへの自衛策は",
-     "link": "https://news.yahoo.co.jp/pickup/6602209?source=rss",
-     "pubDate": "Wed, 11 Nov 2026 10:04:32 GMT"
+     "title": "開発事業者がミラー設置断る 困惑",
+     "link": "https://news.yahoo.co.jp/pickup/6602232?source=rss",
+     "pubDate": "Wed, 11 Nov 2026 13:54:56 GMT"
     },
     {
-     "title": "陸上・末續慎吾が結婚を報告",
-     "link": "https://news.yahoo.co.jp/pickup/6602211?source=rss",
-     "pubDate": "Wed, 11 Nov 2026 10:20:43 GMT"
+     "title": "FA太田光 広島球団に手土産渡す",
+     "link": "https://news.yahoo.co.jp/pickup/6602233?source=rss",
+     "pubDate": "Wed, 11 Nov 2026 14:34:18 GMT"
     },
     {
-     "title": "ベーシスト イワイエイキチ氏死去",
-     "link": "https://news.yahoo.co.jp/pickup/6602210?source=rss",
-     "pubDate": "Wed, 11 Nov 2026 10:24:06 GMT"
+     "title": "育成9位指名の18歳 SB入団を辞退",
+     "link": "https://news.yahoo.co.jp/pickup/6602228?source=rss",
+     "pubDate": "Wed, 11 Nov 2026 13:00:39 GMT"
     },
     {
      "title": "俳優・川口春奈 第1子出産を報告",
