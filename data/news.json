@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T02:59:25.548Z",
+ "updatedAt": "2026-11-13T10:31:35.163Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【速報中】マイクロソフトで接続障害 世界各地で影響も",
+     "title": "【更新中】マイクロソフトで接続障害 世界各地で影響広がる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75121",
-     "pubDate": "Fri, 13 Nov 2026 11:48:52 +0900"
+     "pubDate": "Fri, 13 Nov 2026 19:09:01 +0900"
     },
     {
-     "title": "エヌビディア 暫定CEOを任命 フアン氏の後任選びは難航か",
+     "title": "2人死亡ひき逃げ 逃走したとみられるトラック 相模原で発見",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75522",
+     "pubDate": "Fri, 13 Nov 2026 19:19:40 +0900"
+    },
+    {
+     "title": "エヌビディア フアン氏 CEOを辞任 日本での受け止めは",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75212",
-     "pubDate": "Fri, 13 Nov 2026 11:55:15 +0900"
+     "pubDate": "Fri, 13 Nov 2026 18:53:38 +0900"
     },
     {
-     "title": "ロシアによる北海道新聞記者拘束1か月 即時解放求め続ける",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75109",
-     "pubDate": "Fri, 13 Nov 2026 11:24:11 +0900"
+     "title": "消費税減税法案 支援金“勤労者5割以上対象で検討” 高市首相",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75159",
+     "pubDate": "Fri, 13 Nov 2026 16:00:22 +0900"
     },
     {
-     "title": "独防衛企業にサイバー攻撃 独軍が無人機を運用停止と報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75142",
-     "pubDate": "Fri, 13 Nov 2026 11:07:00 +0900"
+     "title": "北朝鮮ハッカーが“顔泥棒” 暗号資産盗む 米FBI",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75357",
+     "pubDate": "Fri, 13 Nov 2026 15:24:00 +0900"
     },
     {
-     "title": "独メルセデス ドイツ国内の工場閉鎖を検討 コスト削減が急務",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75168",
-     "pubDate": "Fri, 13 Nov 2026 11:16:00 +0900"
+     "title": "大阪市 100万件超の市民らのメールアドレス漏えい",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75397",
+     "pubDate": "Fri, 13 Nov 2026 16:01:00 +0900"
     },
     {
-     "title": "ゼレンスキー大統領 米特使らと会談「次回以降は欧州も参加」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75174",
-     "pubDate": "Fri, 13 Nov 2026 11:19:27 +0900"
-    },
-    {
-     "title": "山崎正昭元参議院議長が死去 84歳",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75154",
-     "pubDate": "Fri, 13 Nov 2026 10:42:00 +0900"
+     "title": "紅白歌合戦ことしの出場歌手発表 初出場は7組【出場歌手一覧】",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75147",
+     "pubDate": "Fri, 13 Nov 2026 18:41:42 +0900"
     }
    ]
   },
@@ -50,79 +50,79 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "マイクロソフトの障害 メールの相談や課題提出できない大学も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75596",
+     "pubDate": "Fri, 13 Nov 2026 18:39:12 +0900"
+    },
+    {
+     "title": "損保ジャパン タマホーム通じた火災保険の新規販売停止へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75561",
+     "pubDate": "Fri, 13 Nov 2026 18:11:00 +0900"
+    },
+    {
+     "title": "内閣府 沖縄関連サイト 約6000人分のアドレスなど漏えいおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75538",
+     "pubDate": "Fri, 13 Nov 2026 18:00:56 +0900"
+    },
+    {
+     "title": "マイクロソフト障害でラジオ局 リスナーのお便り届かず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75511",
+     "pubDate": "Fri, 13 Nov 2026 17:56:27 +0900"
+    },
+    {
+     "title": "2人死亡ひき逃げ 逃走したとみられるトラック 相模原で発見",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75522",
+     "pubDate": "Fri, 13 Nov 2026 19:19:40 +0900"
+    },
+    {
+     "title": "マイクロソフト 接続障害 自治体や企業などでは",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75337",
+     "pubDate": "Fri, 13 Nov 2026 18:13:00 +0900"
+    },
+    {
+     "title": "大阪市 100万件超の市民らのメールアドレス漏えい",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75397",
+     "pubDate": "Fri, 13 Nov 2026 16:01:00 +0900"
+    },
+    {
+     "title": "千葉豪雨から3か月 “都市型水害”対策が課題に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75332",
+     "pubDate": "Fri, 13 Nov 2026 19:25:45 +0900"
+    },
+    {
+     "title": "タマホーム 別の支店でも不審な請求見つかる 損保が確認求める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75355",
+     "pubDate": "Fri, 13 Nov 2026 15:05:39 +0900"
+    },
+    {
+     "title": "小泉防衛相 3文書改定で自衛官の処遇改善をテーマに位置づけ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75292",
+     "pubDate": "Fri, 13 Nov 2026 17:53:18 +0900"
+    },
+    {
+     "title": "原子力規制委 IAEAの査察など専門的に対応する公的機関 新設へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75298",
+     "pubDate": "Fri, 13 Nov 2026 12:35:00 +0900"
+    },
+    {
+     "title": "井林氏「党費含め費用まかなっている」会費超の景品提供疑いに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75215",
+     "pubDate": "Fri, 13 Nov 2026 12:12:00 +0900"
+    },
+    {
+     "title": "秋田 湯沢で住宅火災 2人の遺体見つかる 女性2人と連絡とれず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75248",
+     "pubDate": "Fri, 13 Nov 2026 11:59:00 +0900"
+    },
+    {
      "title": "ロシアによる北海道新聞記者拘束1か月 即時解放求め続ける",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75109",
-     "pubDate": "Fri, 13 Nov 2026 11:24:11 +0900"
+     "pubDate": "Fri, 13 Nov 2026 11:24:00 +0900"
     },
     {
      "title": "千葉 旭市の養鶏場 鳥インフルエンザ感染確認 全国で今季2例目",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75136",
-     "pubDate": "Fri, 13 Nov 2026 09:34:48 +0900"
-    },
-    {
-     "title": "【速報中】マイクロソフトで接続障害 世界各地で影響も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75121",
-     "pubDate": "Fri, 13 Nov 2026 11:48:52 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（11月13日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261112de75011",
-     "pubDate": "Fri, 13 Nov 2026 10:46:01 +0900"
-    },
-    {
-     "title": "山形 寒河江 住宅火災で3人の遺体 3人居住 連絡とれず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75126",
-     "pubDate": "Fri, 13 Nov 2026 09:31:56 +0900"
-    },
-    {
-     "title": "広島 3人死亡火災 同居の32歳長男が火つけたか 放火容疑で逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75122",
-     "pubDate": "Fri, 13 Nov 2026 05:51:00 +0900"
-    },
-    {
-     "title": "最高検が生成AIの捜査などへの使用で指針 全国の検察庁に周知",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261112de75099",
-     "pubDate": "Fri, 13 Nov 2026 05:25:00 +0900"
-    },
-    {
-     "title": "JR芸備線 一部区間を“バスなどへ転換”案 国側が提示で調整",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261112de75044",
-     "pubDate": "Thu, 12 Nov 2026 20:43:38 +0900"
-    },
-    {
-     "title": "市長逮捕の徳島 阿波市 副市長が会見「心からおわび」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261112de75032",
-     "pubDate": "Thu, 12 Nov 2026 20:17:00 +0900"
-    },
-    {
-     "title": "千葉 旭の養鶏場で鳥インフルエンザの疑い ニワトリ30羽死ぬ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261112de74995",
-     "pubDate": "Thu, 12 Nov 2026 18:43:15 +0900"
-    },
-    {
-     "title": "天皇ご一家 皇宮警察の武道大会を観戦",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261112de74951",
-     "pubDate": "Thu, 12 Nov 2026 18:37:00 +0900"
-    },
-    {
-     "title": "愛子さま シンガポール訪問前に上皇ご夫妻にあいさつ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261112de74968",
-     "pubDate": "Thu, 12 Nov 2026 18:14:00 +0900"
-    },
-    {
-     "title": "秋はクマの活動がふえる！出会わないために気をつけることは？",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261110de73399",
-     "pubDate": "Thu, 12 Nov 2026 17:44:00 +0900"
-    },
-    {
-     "title": "トヨタ アルファードGやカローラなど30車種 約9.6万台リコール",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261112de74902",
-     "pubDate": "Thu, 12 Nov 2026 17:39:14 +0900"
-    },
-    {
-     "title": "ダイハツ「ロッキー」など3車種 17万6000台余をリコール",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261112de74896",
-     "pubDate": "Thu, 12 Nov 2026 17:38:14 +0900"
+     "pubDate": "Fri, 13 Nov 2026 16:03:00 +0900"
     }
    ]
   },
@@ -132,14 +132,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "マイクロソフトの障害 メールの相談や課題提出できない大学も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75596",
+     "pubDate": "Fri, 13 Nov 2026 18:39:12 +0900"
+    },
+    {
+     "title": "マイクロソフト障害でラジオ局 リスナーのお便り届かず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75511",
+     "pubDate": "Fri, 13 Nov 2026 17:56:27 +0900"
+    },
+    {
+     "title": "マイクロソフト 接続障害 自治体や企業などでは",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75337",
+     "pubDate": "Fri, 13 Nov 2026 18:13:00 +0900"
+    },
+    {
+     "title": "GMO FX不正取引の補償費用など現時点で30億5000万円想定と発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75297",
+     "pubDate": "Fri, 13 Nov 2026 18:56:48 +0900"
+    },
+    {
      "title": "【きょうのおはBiz 11月13日(金)】「良品計画」顧客情報漏えい",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75153",
      "pubDate": "Fri, 13 Nov 2026 11:10:33 +0900"
     },
     {
-     "title": "紅白歌合戦 ことしの出場歌手きょう発表 午後1時ごろから",
+     "title": "紅白歌合戦ことしの出場歌手発表 初出場は7組【出場歌手一覧】",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75147",
-     "pubDate": "Fri, 13 Nov 2026 11:50:10 +0900"
+     "pubDate": "Fri, 13 Nov 2026 18:41:42 +0900"
     },
     {
      "title": "独防衛企業にサイバー攻撃 独軍が無人機を運用停止と報道",
@@ -185,26 +205,6 @@
      "title": "キユーピー 顧客のメールアドレス12万5千件余り流出",
      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74716",
      "pubDate": "Thu, 12 Nov 2026 13:35:19 +0900"
-    },
-    {
-     "title": "福島第一原発“核燃料デブリ”取り出し向けデジタル技術活用へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261112de74704",
-     "pubDate": "Thu, 12 Nov 2026 13:34:00 +0900"
-    },
-    {
-     "title": "無印良品 展開の良品計画 顧客情報漏えいで会見 社長陳謝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261112de74562",
-     "pubDate": "Thu, 12 Nov 2026 19:33:28 +0900"
-    },
-    {
-     "title": "海水温上昇 イギリスでタコ大量発生 ロブスター ホタテ大幅減",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261111de74426",
-     "pubDate": "Wed, 11 Nov 2026 21:38:00 +0900"
-    },
-    {
-     "title": "日本近海で水温上昇 雑種フグ・アニサキス…食の安全に影響も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261111de73954",
-     "pubDate": "Wed, 11 Nov 2026 20:25:41 +0900"
     }
    ]
   },
@@ -214,14 +214,54 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "エヌビディア 暫定CEOを任命 フアン氏の後任選びは難航か",
+     "title": "日ロ首脳対話“国益を総合的に勘案し適切対応”木原官房長官",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75620",
+     "pubDate": "Fri, 13 Nov 2026 19:15:29 +0900"
+    },
+    {
+     "title": "北朝鮮ハッカーが“顔泥棒” 暗号資産盗む 米FBI",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75357",
+     "pubDate": "Fri, 13 Nov 2026 15:24:00 +0900"
+    },
+    {
+     "title": "南米チリとペルーの大統領が来週訪日 高市首相と首脳会談へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75242",
+     "pubDate": "Fri, 13 Nov 2026 13:45:49 +0900"
+    },
+    {
+     "title": "原子力規制委 IAEAの査察など専門的に対応する公的機関 新設へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75298",
+     "pubDate": "Fri, 13 Nov 2026 12:35:00 +0900"
+    },
+    {
+     "title": "米財務省 日米協調介入時に“794億円分の円買い”FRB報告書",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75299",
+     "pubDate": "Fri, 13 Nov 2026 12:34:00 +0900"
+    },
+    {
+     "title": "高市首相 来週ASEAN・APECの首脳会議出席へ 政府発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75237",
+     "pubDate": "Fri, 13 Nov 2026 12:25:21 +0900"
+    },
+    {
+     "title": "円相場 一時1ドル＝160円台に 米利上げペース加速の観測で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75259",
+     "pubDate": "Fri, 13 Nov 2026 18:22:14 +0900"
+    },
+    {
+     "title": "ニューヨーク建物倒壊事故で救助活動終了 死者は８人に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75209",
+     "pubDate": "Fri, 13 Nov 2026 12:14:19 +0900"
+    },
+    {
+     "title": "エヌビディア フアン氏 CEOを辞任 日本での受け止めは",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75212",
-     "pubDate": "Fri, 13 Nov 2026 11:55:15 +0900"
+     "pubDate": "Fri, 13 Nov 2026 18:53:38 +0900"
     },
     {
      "title": "ゼレンスキー大統領 米特使らと会談「次回以降は欧州も参加」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75174",
-     "pubDate": "Fri, 13 Nov 2026 11:19:27 +0900"
+     "pubDate": "Fri, 13 Nov 2026 11:19:00 +0900"
     },
     {
      "title": "独メルセデス ドイツ国内の工場閉鎖を検討 コスト削減が急務",
@@ -236,7 +276,7 @@
     {
      "title": "米大統領「イラン合意は不要」 副大統領には国内対応を要請",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75140",
-     "pubDate": "Fri, 13 Nov 2026 09:21:24 +0900"
+     "pubDate": "Fri, 13 Nov 2026 09:21:00 +0900"
     },
     {
      "title": "COP31首脳級会合 英首相が中東情勢念頭に脱化石燃料訴え",
@@ -247,46 +287,6 @@
      "title": "プーチン大統領 米特使らと会談で局地停戦提案 ウクライナ警戒",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75124",
      "pubDate": "Fri, 13 Nov 2026 06:51:31 +0900"
-    },
-    {
-     "title": "【速報中】マイクロソフトで接続障害 世界各地で影響も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75121",
-     "pubDate": "Fri, 13 Nov 2026 11:48:52 +0900"
-    },
-    {
-     "title": "ロシアによる北海道新聞記者拘束1か月 即時解放求め続ける",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75109",
-     "pubDate": "Fri, 13 Nov 2026 11:24:11 +0900"
-    },
-    {
-     "title": "防衛研究所 中国にとって南シナ海はアメリカと対抗する基盤",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75106",
-     "pubDate": "Fri, 13 Nov 2026 05:07:00 +0900"
-    },
-    {
-     "title": "ウクライナ アメリカの衛星通信サービス再び制限",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75118",
-     "pubDate": "Fri, 13 Nov 2026 04:49:00 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（11月13日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67087",
-     "pubDate": "Fri, 13 Nov 2026 04:45:00 +0900"
-    },
-    {
-     "title": "円相場 一時1ドル＝160円台まで値下がり 約2か月ぶり円安水準",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75110",
-     "pubDate": "Fri, 13 Nov 2026 10:16:48 +0900"
-    },
-    {
-     "title": "エヌビディア フアンCEOが辞任 業界全体に影響も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261112de75078",
-     "pubDate": "Fri, 13 Nov 2026 07:47:30 +0900"
-    },
-    {
-     "title": "中国 習主席 「祖国統一は実現できる」 台湾統一に改めて意欲",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261112de75056",
-     "pubDate": "Thu, 12 Nov 2026 21:41:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "冬の電気・ガスなど支援 6500億円",
-     "link": "https://news.yahoo.co.jp/pickup/6602397?source=rss",
-     "pubDate": "Fri, 13 Nov 2026 02:50:29 GMT"
+     "title": "支援金 勤労者全体の5割以上検討",
+     "link": "https://news.yahoo.co.jp/pickup/6602431?source=rss",
+     "pubDate": "Fri, 13 Nov 2026 08:08:14 GMT"
     },
     {
-     "title": "土木職員 今春45都道府県定員割れ",
-     "link": "https://news.yahoo.co.jp/pickup/6602395?source=rss",
-     "pubDate": "Fri, 13 Nov 2026 02:42:29 GMT"
+     "title": "GMO攻撃 被害申告は29.9億円に",
+     "link": "https://news.yahoo.co.jp/pickup/6602430?source=rss",
+     "pubDate": "Fri, 13 Nov 2026 07:52:08 GMT"
     },
     {
-     "title": "Microsoft障害 日本政府にも影響",
-     "link": "https://news.yahoo.co.jp/pickup/6602393?source=rss",
-     "pubDate": "Fri, 13 Nov 2026 02:22:13 GMT"
+     "title": "Microsoft障害 復旧の兆し",
+     "link": "https://news.yahoo.co.jp/pickup/6602451?source=rss",
+     "pubDate": "Fri, 13 Nov 2026 10:14:50 GMT"
     },
     {
-     "title": "エヌビディア 暫定CEOにクレス氏",
-     "link": "https://news.yahoo.co.jp/pickup/6602391?source=rss",
-     "pubDate": "Fri, 13 Nov 2026 02:30:48 GMT"
+     "title": "損保3社タマホーム保険販売停止へ",
+     "link": "https://news.yahoo.co.jp/pickup/6602444?source=rss",
+     "pubDate": "Fri, 13 Nov 2026 09:19:53 GMT"
     },
     {
-     "title": "参議院議員の山崎正昭氏が死去",
-     "link": "https://news.yahoo.co.jp/pickup/6602385?source=rss",
-     "pubDate": "Fri, 13 Nov 2026 01:00:12 GMT"
+     "title": "3歳長女を殴り殺害疑い 父親逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6602445?source=rss",
+     "pubDate": "Fri, 13 Nov 2026 09:21:12 GMT"
     },
     {
-     "title": "奈良で妻が行方不明 捜索続け12年",
-     "link": "https://news.yahoo.co.jp/pickup/6602389?source=rss",
-     "pubDate": "Fri, 13 Nov 2026 02:04:30 GMT"
+     "title": "速報アジアプロ野球 侍Jvs.韓国",
+     "link": "https://news.yahoo.co.jp/pickup/6602442?source=rss",
+     "pubDate": "Fri, 13 Nov 2026 09:53:48 GMT"
     },
     {
-     "title": "大谷 4年連続のMVP受賞はならず",
-     "link": "https://news.yahoo.co.jp/pickup/6602387?source=rss",
-     "pubDate": "Fri, 13 Nov 2026 01:37:39 GMT"
+     "title": "森保J 12月30日の親善試合中止",
+     "link": "https://news.yahoo.co.jp/pickup/6602437?source=rss",
+     "pubDate": "Fri, 13 Nov 2026 08:40:24 GMT"
     },
     {
-     "title": "映画VIVANT チケット追加販売へ",
-     "link": "https://news.yahoo.co.jp/pickup/6602384?source=rss",
-     "pubDate": "Fri, 13 Nov 2026 01:10:36 GMT"
+     "title": "NHK紅白歌合戦 出場歌手が決定",
+     "link": "https://news.yahoo.co.jp/pickup/6602407?source=rss",
+     "pubDate": "Fri, 13 Nov 2026 04:16:52 GMT"
     }
    ]
   }
