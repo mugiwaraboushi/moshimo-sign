@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T23:43:38.894Z",
+ "updatedAt": "2026-11-14T03:43:30.268Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,34 +8,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "【速報中】アメリカ全土の空港で航空機運航停止「通信の問題」",
+     "title": "アメリカ航空当局 全米の運航停止措置解除 8000便超欠航",
      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
-     "pubDate": "Sat, 14 Nov 2026 08:09:00 +0900"
+     "pubDate": "Sat, 14 Nov 2026 12:27:24 +0900"
     },
     {
-     "title": "大阪 枚方 女児死亡事件 踏み台の練習中に父親が立腹し暴行か",
+     "title": "米中ロ3か国首脳会談19日開催 3者会談は初 ホワイトハウス発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75768",
+     "pubDate": "Sat, 14 Nov 2026 12:22:06 +0900"
+    },
+    {
+     "title": "大阪 枚方 女児死亡 父親「しつけで殴ることも」逮捕前説明",
      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75748",
-     "pubDate": "Sat, 14 Nov 2026 04:52:00 +0900"
+     "pubDate": "Sat, 14 Nov 2026 11:51:00 +0900"
     },
     {
-     "title": "神奈川 海老名 2人死亡 ひき逃げ疑いで運転手逮捕 容疑否認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75759",
-     "pubDate": "Sat, 14 Nov 2026 06:08:31 +0900"
-    },
-    {
-     "title": "マイクロソフト 接続障害「広範囲にわたる復旧がみられる」",
+     "title": "マイクロソフトの障害 広範囲にわたり復旧 「深くおわび」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75755",
-     "pubDate": "Sat, 14 Nov 2026 05:48:54 +0900"
+     "pubDate": "Sat, 14 Nov 2026 12:18:43 +0900"
     },
     {
-     "title": "高市首相“支援金対象5割以上” 野党“さらなる具体像を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75743",
-     "pubDate": "Sat, 14 Nov 2026 05:32:00 +0900"
+     "title": "小栗虫太郎の未発表原稿や創作メモが見つかる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75792",
+     "pubDate": "Sat, 14 Nov 2026 11:06:00 +0900"
     },
     {
-     "title": "米 ミシシッピ川でクルーズ船にタンカー衝突 救助活動続く",
+     "title": "ミシシッピ川でクルーズ船にタンカー衝突 全員が救助",
      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75761",
-     "pubDate": "Sat, 14 Nov 2026 07:31:00 +0900"
+     "pubDate": "Sat, 14 Nov 2026 10:12:48 +0900"
     },
     {
      "title": "エヌビディア先端半導体輸出 ラトニック商務長官の責任論浮上",
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "アメリカ航空当局 全米の運航停止措置解除 8000便超欠航",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
+     "pubDate": "Sat, 14 Nov 2026 12:27:24 +0900"
+    },
     {
      "title": "COP31 閣僚級会合に笹川環境相出席へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75737",
@@ -65,9 +70,9 @@
      "pubDate": "Sat, 14 Nov 2026 06:08:31 +0900"
     },
     {
-     "title": "大阪 枚方 女児死亡事件 踏み台の練習中に父親が立腹し暴行か",
+     "title": "大阪 枚方 女児死亡 父親「しつけで殴ることも」逮捕前説明",
      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75748",
-     "pubDate": "Sat, 14 Nov 2026 04:52:00 +0900"
+     "pubDate": "Sat, 14 Nov 2026 11:51:00 +0900"
     },
     {
      "title": "東大総長 選考会議が2位藤垣氏の逆転の経緯を改めて説明",
@@ -118,11 +123,6 @@
      "title": "大手損保2社 タマホーム通じた火災保険販売停止へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75561",
      "pubDate": "Fri, 13 Nov 2026 20:11:00 +0900"
-    },
-    {
-     "title": "内閣府 沖縄関連サイト 約6000人分のアドレスなど漏えいおそれ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75538",
-     "pubDate": "Fri, 13 Nov 2026 18:00:56 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "小栗虫太郎の未発表原稿や創作メモが見つかる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75792",
+     "pubDate": "Sat, 14 Nov 2026 11:06:00 +0900"
+    },
     {
      "title": "ヤマダデンキ 不正アクセスで最大350万件が影響受けた可能性",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75739",
@@ -200,11 +205,6 @@
      "title": "芥川龍之介「藪の中」直筆原稿見つかる 推敲の過程が明らかに",
      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74907",
      "pubDate": "Thu, 12 Nov 2026 17:50:00 +0900"
-    },
-    {
-     "title": "東京ガス 法人のメールアドレス 8万5000件余りが漏えい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261112de74857",
-     "pubDate": "Thu, 12 Nov 2026 16:52:13 +0900"
     }
    ]
   },
@@ -214,24 +214,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ウクライナ和平協議にヨーロッパ代表も 英仏独など5か国",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75776",
+     "pubDate": "Sat, 14 Nov 2026 11:24:00 +0900"
+    },
+    {
+     "title": "米中ロ3か国首脳会談19日開催 3者会談は初 ホワイトハウス発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75768",
+     "pubDate": "Sat, 14 Nov 2026 12:22:06 +0900"
+    },
+    {
      "title": "COP31 閣僚級会合に笹川環境相出席へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75737",
      "pubDate": "Sat, 14 Nov 2026 08:40:48 +0900"
     },
     {
-     "title": "米 ミシシッピ川でクルーズ船にタンカー衝突 救助活動続く",
+     "title": "ミシシッピ川でクルーズ船にタンカー衝突 全員が救助",
      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75761",
-     "pubDate": "Sat, 14 Nov 2026 07:31:00 +0900"
+     "pubDate": "Sat, 14 Nov 2026 10:12:48 +0900"
     },
     {
-     "title": "【速報中】アメリカ全土の空港で航空機運航停止「通信の問題」",
+     "title": "アメリカ航空当局 全米の運航停止措置解除 8000便超欠航",
      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
-     "pubDate": "Sat, 14 Nov 2026 08:09:00 +0900"
+     "pubDate": "Sat, 14 Nov 2026 12:27:24 +0900"
     },
     {
-     "title": "マイクロソフト 接続障害「広範囲にわたる復旧がみられる」",
+     "title": "マイクロソフトの障害 広範囲にわたり復旧 「深くおわび」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75755",
-     "pubDate": "Sat, 14 Nov 2026 05:48:54 +0900"
+     "pubDate": "Sat, 14 Nov 2026 12:18:43 +0900"
     },
     {
      "title": "エヌビディア先端半導体輸出 ラトニック商務長官の責任論浮上",
@@ -277,16 +287,6 @@
      "title": "高市首相 来週ASEAN・APECの首脳会議出席へ 政府発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75237",
      "pubDate": "Fri, 13 Nov 2026 12:25:21 +0900"
-    },
-    {
-     "title": "円相場 一時1ドル＝160円台に 米利上げペース加速の観測で",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75259",
-     "pubDate": "Fri, 13 Nov 2026 18:22:14 +0900"
-    },
-    {
-     "title": "ニューヨーク建物倒壊事故で救助活動終了 死者は８人に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75209",
-     "pubDate": "Fri, 13 Nov 2026 12:14:19 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "全米空港に航空機の地上待機命令",
-     "link": "https://news.yahoo.co.jp/pickup/6602483?source=rss",
-     "pubDate": "Fri, 13 Nov 2026 22:01:07 GMT"
+     "title": "米中露会談 核兵器削減を協議へ",
+     "link": "https://news.yahoo.co.jp/pickup/6602532?source=rss",
+     "pubDate": "Sat, 14 Nov 2026 03:13:51 GMT"
     },
     {
-     "title": "バンス氏 米大統領選見送り検討か",
-     "link": "https://news.yahoo.co.jp/pickup/6602499?source=rss",
-     "pubDate": "Fri, 13 Nov 2026 23:17:38 GMT"
+     "title": "米空港で混乱 原因はハードウエア",
+     "link": "https://news.yahoo.co.jp/pickup/6602529?source=rss",
+     "pubDate": "Sat, 14 Nov 2026 02:54:59 GMT"
     },
     {
-     "title": "米で遊覧船とタンカーが衝突 報道",
-     "link": "https://news.yahoo.co.jp/pickup/6602491?source=rss",
-     "pubDate": "Fri, 13 Nov 2026 22:59:22 GMT"
+     "title": "3歳死亡 5回虐待通告もなぜ防げず",
+     "link": "https://news.yahoo.co.jp/pickup/6602526?source=rss",
+     "pubDate": "Sat, 14 Nov 2026 02:26:28 GMT"
     },
     {
-     "title": "MS「復旧が進み、安定した状態」",
-     "link": "https://news.yahoo.co.jp/pickup/6602492?source=rss",
-     "pubDate": "Fri, 13 Nov 2026 22:37:15 GMT"
+     "title": "「銀だこ」曲がり角 赤字転落なぜ",
+     "link": "https://news.yahoo.co.jp/pickup/6602520?source=rss",
+     "pubDate": "Sat, 14 Nov 2026 01:28:24 GMT"
     },
     {
-     "title": "2人死亡ひき逃げ事故 49歳を逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6602496?source=rss",
-     "pubDate": "Fri, 13 Nov 2026 22:48:26 GMT"
+     "title": "婚活に300万円課金 結婚した男性",
+     "link": "https://news.yahoo.co.jp/pickup/6602518?source=rss",
+     "pubDate": "Sat, 14 Nov 2026 01:30:03 GMT"
     },
     {
-     "title": "U21大岩ジャパン スペインに敗戦",
-     "link": "https://news.yahoo.co.jp/pickup/6602495?source=rss",
-     "pubDate": "Fri, 13 Nov 2026 22:50:18 GMT"
+     "title": "スペイン戦 塩貝「無得点は課題」",
+     "link": "https://news.yahoo.co.jp/pickup/6602525?source=rss",
+     "pubDate": "Sat, 14 Nov 2026 02:47:51 GMT"
     },
     {
-     "title": "アヴリルラヴィーン第1子誕生報告",
-     "link": "https://news.yahoo.co.jp/pickup/6602488?source=rss",
-     "pubDate": "Fri, 13 Nov 2026 22:24:27 GMT"
+     "title": "元阪神・井川慶「休養」の今",
+     "link": "https://news.yahoo.co.jp/pickup/6602527?source=rss",
+     "pubDate": "Sat, 14 Nov 2026 02:31:54 GMT"
     },
     {
-     "title": "紅白出場 追加発表あと7組ほど?",
-     "link": "https://news.yahoo.co.jp/pickup/6602498?source=rss",
-     "pubDate": "Fri, 13 Nov 2026 23:07:37 GMT"
+     "title": "壇蜜 夫からの手紙に見せた笑顔",
+     "link": "https://news.yahoo.co.jp/pickup/6602528?source=rss",
+     "pubDate": "Sat, 14 Nov 2026 02:35:51 GMT"
     }
    ]
   }
