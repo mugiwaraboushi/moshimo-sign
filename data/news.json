@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T11:00:20.453Z",
+ "updatedAt": "2026-11-14T17:13:21.678Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,9 +8,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "全米の空港で運航停止措置 欠航1万便超 解除後も混乱続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
-     "pubDate": "Sat, 14 Nov 2026 18:26:00 +0900"
+     "title": "【配信中】ラグビー日本代表×イングランド“仮想W杯”勝利は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75976",
+     "pubDate": "Sun, 15 Nov 2026 02:07:19 +0900"
+    },
+    {
+     "title": "サッカー日本代表 ブラジルに勝利 W杯の雪辱果たす",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75990",
+     "pubDate": "Sun, 15 Nov 2026 00:04:36 +0900"
+    },
+    {
+     "title": "高市首相 東南アジアなどと「アジア版IEA」創設を提唱で調整",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261114de76011",
+     "pubDate": "Sun, 15 Nov 2026 00:46:05 +0900"
+    },
+    {
+     "title": "杉原千畝「命のビザ」パスポートの複製 生存のユダヤ人に寄贈",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75993",
+     "pubDate": "Sat, 14 Nov 2026 22:08:50 +0900"
     },
     {
      "title": "大阪 枚方女児死亡 体に古いもの含め数10か所のあざ",
@@ -18,29 +33,14 @@
      "pubDate": "Sat, 14 Nov 2026 17:44:00 +0900"
     },
     {
-     "title": "JR北海道 新観光列車「赤い星」公開 ターゲットは富裕層",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75833",
-     "pubDate": "Sat, 14 Nov 2026 17:51:00 +0900"
+     "title": "全米の空港で運航停止措置 欠航1万便超 解除後も混乱続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
+     "pubDate": "Sat, 14 Nov 2026 18:26:00 +0900"
     },
     {
-     "title": "米中ロ3か国首脳会談 19日に初めての開催へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75768",
-     "pubDate": "Sat, 14 Nov 2026 17:26:00 +0900"
-    },
-    {
-     "title": "横田めぐみさん拉致からあすで49年 新潟集会で家族が訴え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75866",
-     "pubDate": "Sat, 14 Nov 2026 18:44:00 +0900"
-    },
-    {
-     "title": "マイクロソフトの接続障害 全面復旧と発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75755",
-     "pubDate": "Sat, 14 Nov 2026 16:04:00 +0900"
-    },
-    {
-     "title": "大相撲九州場所7日目 横綱 豊昇龍が小結 義ノ富士を退け連勝",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75967",
-     "pubDate": "Sat, 14 Nov 2026 19:17:00 +0900"
+     "title": "【地震情報】熊本県で震度3 津波の心配なし（00:05）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76024",
+     "pubDate": "Sun, 15 Nov 2026 01:02:42 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "天皇皇后両陛下 大阪で海づくり大会関係者と懇談",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75988",
+     "pubDate": "Sat, 14 Nov 2026 21:58:53 +0900"
+    },
     {
      "title": "横田めぐみさん拉致からあすで49年 新潟集会で家族が訴え",
      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75866",
@@ -82,7 +87,7 @@
     {
      "title": "【動画】Pickup NEWS（11月14日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75649",
-     "pubDate": "Sat, 14 Nov 2026 14:20:12 +0900"
+     "pubDate": "Sat, 14 Nov 2026 20:33:45 +0900"
     },
     {
      "title": "神奈川 海老名 2人死亡 ひき逃げ疑いで運転手逮捕 容疑否認",
@@ -118,11 +123,6 @@
      "title": "徳島 阿波市長とともに詐欺疑いで逮捕の市職員と会社員釈放",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75682",
      "pubDate": "Fri, 13 Nov 2026 21:19:10 +0900"
-    },
-    {
-     "title": "関文科相 パーティーに厚労省課長出席報道 事実関係確認する",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75687",
-     "pubDate": "Fri, 13 Nov 2026 21:15:44 +0900"
     }
    ]
   },
@@ -214,14 +214,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "杉原千畝「命のビザ」パスポートの複製 生存のユダヤ人に寄贈",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75993",
+     "pubDate": "Sat, 14 Nov 2026 22:08:50 +0900"
+    },
+    {
      "title": "東南アジアで石油製品供給安定化へ企業協力",
      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75964",
-     "pubDate": "Sat, 14 Nov 2026 19:55:12 +0900"
+     "pubDate": "Sat, 14 Nov 2026 19:55:00 +0900"
     },
     {
      "title": "米中 関税引き下げのための「貿易委員会」初会合開く",
      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75960",
-     "pubDate": "Sat, 14 Nov 2026 19:47:13 +0900"
+     "pubDate": "Sat, 14 Nov 2026 19:47:00 +0900"
     },
     {
      "title": "自閉症の日本人画家の個展がニューヨークで開催",
@@ -282,11 +287,6 @@
      "title": "北朝鮮ハッカーが“顔泥棒” 暗号資産盗む 米FBI",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75357",
      "pubDate": "Fri, 13 Nov 2026 15:24:00 +0900"
-    },
-    {
-     "title": "南米チリとペルーの大統領が来週訪日 高市首相と首脳会談へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75242",
-     "pubDate": "Fri, 13 Nov 2026 13:45:49 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "米の航空混乱 途方に暮れる乗客",
-     "link": "https://news.yahoo.co.jp/pickup/6602568?source=rss",
-     "pubDate": "Sat, 14 Nov 2026 08:45:15 GMT"
+     "title": "米中露の接近 日本政府は危機感",
+     "link": "https://news.yahoo.co.jp/pickup/6602584?source=rss",
+     "pubDate": "Sat, 14 Nov 2026 11:17:04 GMT"
     },
     {
-     "title": "印旛沼決壊 暮らしの再建進まず",
-     "link": "https://news.yahoo.co.jp/pickup/6602573?source=rss",
-     "pubDate": "Sat, 14 Nov 2026 09:37:01 GMT"
+     "title": "AI悪用攻撃拠点か 世界で千台発見",
+     "link": "https://news.yahoo.co.jp/pickup/6602602?source=rss",
+     "pubDate": "Sat, 14 Nov 2026 13:45:44 GMT"
     },
     {
-     "title": "3歳死亡 歩行訓練で腹立てたと父",
-     "link": "https://news.yahoo.co.jp/pickup/6602559?source=rss",
-     "pubDate": "Sat, 14 Nov 2026 07:49:18 GMT"
+     "title": "MS 障害原因は過去の増強作業",
+     "link": "https://news.yahoo.co.jp/pickup/6602606?source=rss",
+     "pubDate": "Sat, 14 Nov 2026 14:42:06 GMT"
     },
     {
-     "title": "菓子屋の倒産最多へ 老舗でも低迷",
-     "link": "https://news.yahoo.co.jp/pickup/6602566?source=rss",
-     "pubDate": "Sat, 14 Nov 2026 08:46:28 GMT"
+     "title": "日本兵の墓が無縁化 解消に法の壁",
+     "link": "https://news.yahoo.co.jp/pickup/6602590?source=rss",
+     "pubDate": "Sat, 14 Nov 2026 12:32:53 GMT"
     },
     {
-     "title": "売れ残りを寄付 広がる一方問題も",
-     "link": "https://news.yahoo.co.jp/pickup/6602572?source=rss",
-     "pubDate": "Sat, 14 Nov 2026 09:42:53 GMT"
+     "title": "縦型ショートドラマ トラブル急増",
+     "link": "https://news.yahoo.co.jp/pickup/6602597?source=rss",
+     "pubDate": "Sat, 14 Nov 2026 12:56:42 GMT"
     },
     {
-     "title": "職場で電話苦手30代最多? 克服法",
-     "link": "https://news.yahoo.co.jp/pickup/6602565?source=rss",
-     "pubDate": "Sat, 14 Nov 2026 08:23:58 GMT"
+     "title": "ブラジル監督 会見も怒り収まらず",
+     "link": "https://news.yahoo.co.jp/pickup/6602607?source=rss",
+     "pubDate": "Sat, 14 Nov 2026 14:56:54 GMT"
     },
     {
-     "title": "速報・森保J ブラジルに1点リード",
-     "link": "https://news.yahoo.co.jp/pickup/6602582?source=rss",
-     "pubDate": "Sat, 14 Nov 2026 10:55:44 GMT"
+     "title": "力士の魁禅さん33歳で死去 胃がん",
+     "link": "https://news.yahoo.co.jp/pickup/6602587?source=rss",
+     "pubDate": "Sat, 14 Nov 2026 11:50:10 GMT"
     },
     {
-     "title": "侍J・西川 初回に代走送られ交代",
-     "link": "https://news.yahoo.co.jp/pickup/6602578?source=rss",
-     "pubDate": "Sat, 14 Nov 2026 10:28:11 GMT"
+     "title": "大倉士門 妻との連絡1日100往復超",
+     "link": "https://news.yahoo.co.jp/pickup/6602605?source=rss",
+     "pubDate": "Sat, 14 Nov 2026 13:56:06 GMT"
     }
    ]
   }
