@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T15:10:59.414Z",
+ "updatedAt": "2026-11-15T20:26:29.514Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "福岡市長選挙 稲富氏やや優勢も4分の1獲得が焦点",
+     "title": "福岡市長選挙 再選挙へ 候補者13人 法定得票数に届かず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76099",
-     "pubDate": "Sun, 15 Nov 2026 22:19:00 +0900"
+     "pubDate": "Mon, 16 Nov 2026 02:17:40 +0900"
     },
     {
-     "title": "松山市長選挙 新人の中野泰誠氏が初めての当選確実",
+     "title": "島根 JR山陰線で特急列車と軽乗用車が衝突 車の中に1人の遺体",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76327",
+     "pubDate": "Mon, 16 Nov 2026 02:47:40 +0900"
+    },
+    {
+     "title": "松山市長選挙 新人の中野泰誠氏が初当選",
      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76096",
-     "pubDate": "Sun, 15 Nov 2026 23:41:55 +0900"
+     "pubDate": "Mon, 16 Nov 2026 02:16:03 +0900"
     },
     {
-     "title": "【速報】福岡市長選挙 出口調査の結果は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76105",
-     "pubDate": "Sun, 15 Nov 2026 20:21:00 +0900"
-    },
-    {
-     "title": "【速報】松山市長選挙 出口調査の結果は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76103",
-     "pubDate": "Sun, 15 Nov 2026 20:48:00 +0900"
-    },
-    {
-     "title": "愛媛県知事選挙 現職の中村時広氏が5回目の当選【速報】",
+     "title": "愛媛県知事選挙 現職の中村時広氏が5回目の当選",
      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76094",
-     "pubDate": "Sun, 15 Nov 2026 22:56:47 +0900"
+     "pubDate": "Mon, 16 Nov 2026 02:13:54 +0900"
     },
     {
-     "title": "【速報】愛媛県知事選挙 出口調査の結果は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76102",
-     "pubDate": "Sun, 15 Nov 2026 21:05:00 +0900"
+     "title": "野球日本代表 韓国に5対1で勝利し大会3連覇",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76311",
+     "pubDate": "Mon, 16 Nov 2026 01:37:18 +0900"
     },
     {
-     "title": "フィギュアGPアメリカ 中井亜美が今季世界最高得点で首位発進",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76124",
-     "pubDate": "Sun, 15 Nov 2026 15:12:00 +0900"
+     "title": "女子ゴルフ国内ツアー 桑木志帆が初の年間女王",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76127",
+     "pubDate": "Sun, 15 Nov 2026 21:44:40 +0900"
+    },
+    {
+     "title": "ASEAN首脳会議開幕 ミャンマー本格復帰の議論は先送り",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76209",
+     "pubDate": "Sun, 15 Nov 2026 21:49:13 +0900"
     }
    ]
   },
@@ -49,6 +49,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "島根 JR山陰線で特急列車と軽乗用車が衝突 車の中に1人の遺体",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76327",
+     "pubDate": "Mon, 16 Nov 2026 02:47:40 +0900"
+    },
     {
      "title": "「高専ロボコン」全国大会“雑巾投げ”でロボット技術など競う",
      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76267",
@@ -118,11 +123,6 @@
      "title": "枚方女児死亡 「以前から夫が娘殴るの見た」逮捕前に母親説明",
      "link": "https://news.web.nhk/newsweb/na/nd-20261114de76000",
      "pubDate": "Sun, 15 Nov 2026 06:03:00 +0900"
-    },
-    {
-     "title": "天皇皇后両陛下 大阪で海づくり大会関係者と懇談",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75988",
-     "pubDate": "Sat, 14 Nov 2026 21:58:00 +0900"
     }
    ]
   },
@@ -214,6 +214,11 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "高市首相 東南アジアなどと先端技術分野で共同研究提案へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76245",
+     "pubDate": "Mon, 16 Nov 2026 05:21:35 +0900"
+    },
+    {
      "title": "イラン“米軍のレーダー施設攻撃” ホルムズ海峡で緊張続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76224",
      "pubDate": "Sun, 15 Nov 2026 18:36:00 +0900"
@@ -282,11 +287,6 @@
      "title": "ウクライナ和平協議にヨーロッパ代表も 英仏独など5か国",
      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75776",
      "pubDate": "Sat, 14 Nov 2026 11:24:00 +0900"
-    },
-    {
-     "title": "米中ロ3か国首脳会談 19日に初めての開催へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75768",
-     "pubDate": "Sat, 14 Nov 2026 17:26:00 +0900"
     }
    ]
   },
@@ -296,6 +296,11 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
+     "title": "福岡市長選 再選挙の見通し",
+     "link": "https://news.yahoo.co.jp/pickup/6602736?source=rss",
+     "pubDate": "Sun, 15 Nov 2026 15:37:18 GMT"
+    },
+    {
      "title": "原潜の保有「反対」52% 読売調査",
      "link": "https://news.yahoo.co.jp/pickup/6602735?source=rss",
      "pubDate": "Sun, 15 Nov 2026 14:36:13 GMT"
@@ -304,11 +309,6 @@
      "title": "MS障害 インド政府機関混乱なし",
      "link": "https://news.yahoo.co.jp/pickup/6602734?source=rss",
      "pubDate": "Sun, 15 Nov 2026 14:27:33 GMT"
-    },
-    {
-     "title": "熊本市長選 現職大西一史氏が4選",
-     "link": "https://news.yahoo.co.jp/pickup/6602731?source=rss",
-     "pubDate": "Sun, 15 Nov 2026 13:43:18 GMT"
     },
     {
      "title": "NVIDIAフアン氏復帰を 署名広がる",
