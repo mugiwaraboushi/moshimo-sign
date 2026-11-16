@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T00:05:15.501Z",
+ "updatedAt": "2026-11-16T06:52:05.534Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "7-9月のGDP 年率-0.1％ 4期ぶりのマイナス",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76344",
-     "pubDate": "Mon, 16 Nov 2026 08:56:00 +0900"
+     "title": "NTTドコモ 一部利用者で通信障害 今月3度目 原因調査を急ぐ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76369",
+     "pubDate": "Mon, 16 Nov 2026 12:44:13 +0900"
     },
     {
-     "title": "福岡市長選挙 再選挙へ 候補者13人 法定得票数に届かず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76099",
-     "pubDate": "Mon, 16 Nov 2026 06:29:57 +0900"
+     "title": "香港のディズニーで不正アクセス 電子チケット盗み取られたか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76430",
+     "pubDate": "Mon, 16 Nov 2026 14:54:07 +0900"
     },
     {
-     "title": "松山市長選挙 新人の中野泰誠氏が初当選",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76096",
-     "pubDate": "Mon, 16 Nov 2026 06:40:51 +0900"
+     "title": "3文書改定“財源必要あれば税調で議論” 自民 小野寺税調会長",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76562",
+     "pubDate": "Mon, 16 Nov 2026 15:41:23 +0900"
     },
     {
-     "title": "野球日本代表 韓国に5対1で勝利し大会3連覇",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76311",
-     "pubDate": "Mon, 16 Nov 2026 01:37:18 +0900"
+     "title": "富山市の交番襲撃事件 弁護側「死刑を科すべきではない」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76514",
+     "pubDate": "Mon, 16 Nov 2026 14:30:53 +0900"
     },
     {
-     "title": "ウクライナ 重機遠隔操作してがれき処理 日本の支援で実証実験",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76292",
-     "pubDate": "Mon, 16 Nov 2026 05:40:08 +0900"
+     "title": "ベッセント米財務長官「エヌビディア 後任は社外から登用を」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76473",
+     "pubDate": "Mon, 16 Nov 2026 13:06:42 +0900"
     },
     {
-     "title": "大阪 枚方 3歳女児死亡 父親が約1時間断続的に暴行か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76282",
-     "pubDate": "Mon, 16 Nov 2026 05:26:58 +0900"
+     "title": "アメリカ・中国・ロシアの3か国首脳会談 中国も正式に発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76469",
+     "pubDate": "Mon, 16 Nov 2026 12:38:34 +0900"
     },
     {
-     "title": "高市首相 東南アジアなどと先端技術分野で共同研究提案へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76245",
-     "pubDate": "Mon, 16 Nov 2026 05:21:35 +0900"
+     "title": "高市首相ASEAN・APECへ出発 “国際秩序維持・強化に向け発信”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76382",
+     "pubDate": "Mon, 16 Nov 2026 12:53:35 +0900"
     }
    ]
   },
@@ -50,14 +50,64 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "3文書改定“財源必要あれば税調で議論” 自民 小野寺税調会長",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76562",
+     "pubDate": "Mon, 16 Nov 2026 15:41:23 +0900"
+    },
+    {
+     "title": "富山市の交番襲撃事件 弁護側「死刑を科すべきではない」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76514",
+     "pubDate": "Mon, 16 Nov 2026 14:30:53 +0900"
+    },
+    {
+     "title": "COP31 笹川環境相 演説でASEANとの連携強化表明へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76487",
+     "pubDate": "Mon, 16 Nov 2026 13:03:00 +0900"
+    },
+    {
+     "title": "介護事業所の約4割で赤字 施設系で経営厳しく 厚労省調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76437",
+     "pubDate": "Mon, 16 Nov 2026 12:49:00 +0900"
+    },
+    {
+     "title": "火災で焼失した「首里城正殿」が復元 11月23日から一般公開へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76402",
+     "pubDate": "Mon, 16 Nov 2026 12:29:53 +0900"
+    },
+    {
+     "title": "物流センター用地取得の5億円余を無申告か 脱税の疑いで告発",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76453",
+     "pubDate": "Mon, 16 Nov 2026 12:09:26 +0900"
+    },
+    {
+     "title": "石川 内灘町 地震で液状化被害の小学校が2年10か月ぶりに再開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76429",
+     "pubDate": "Mon, 16 Nov 2026 12:06:00 +0900"
+    },
+    {
+     "title": "介護従事者の平均給与1万6000円余増 前年同時期比 厚労省調査",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76367",
+     "pubDate": "Mon, 16 Nov 2026 11:13:00 +0900"
+    },
+    {
+     "title": "元ジャンポケ斉藤慎二被告 性的暴行の罪で懲役4年の実刑判決",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76383",
+     "pubDate": "Mon, 16 Nov 2026 14:01:19 +0900"
+    },
+    {
+     "title": "茨城 常磐道で車7台の事故 2人搬送うち1人大けが",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76371",
+     "pubDate": "Mon, 16 Nov 2026 15:08:55 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（11月16日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76258",
-     "pubDate": "Mon, 16 Nov 2026 06:47:07 +0900"
+     "pubDate": "Mon, 16 Nov 2026 13:57:29 +0900"
     },
     {
      "title": "大阪 枚方 3歳女児死亡 父親が約1時間断続的に暴行か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76282",
-     "pubDate": "Mon, 16 Nov 2026 05:26:58 +0900"
+     "pubDate": "Mon, 16 Nov 2026 05:26:00 +0900"
     },
     {
      "title": "島根 JR山陰線で特急列車と軽乗用車が衝突 車の中に1人の遺体",
@@ -73,56 +123,6 @@
      "title": "天皇皇后両陛下 大阪の海づくり大会でキジハタなど放流",
      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76227",
      "pubDate": "Sun, 15 Nov 2026 20:06:00 +0900"
-    },
-    {
-     "title": "福井 不正アクセスの影響でデジタル通貨サービスを一時停止",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76188",
-     "pubDate": "Sun, 15 Nov 2026 18:52:10 +0900"
-    },
-    {
-     "title": "台湾沖バシー海峡 “10万人以上の戦没者慰霊祭”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76223",
-     "pubDate": "Sun, 15 Nov 2026 18:34:00 +0900"
-    },
-    {
-     "title": "沖縄 嘉手納基地に米空軍の最新型F15EX配備 米国外で初",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76187",
-     "pubDate": "Sun, 15 Nov 2026 17:35:00 +0900"
-    },
-    {
-     "title": "ハンズ渋谷店営業終了 48年の歴史に幕 別れ惜しむ人でにぎわう",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76062",
-     "pubDate": "Sun, 15 Nov 2026 19:15:00 +0900"
-    },
-    {
-     "title": "天皇皇后両陛下 大阪で海づくり大会の式典に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76092",
-     "pubDate": "Sun, 15 Nov 2026 14:30:00 +0900"
-    },
-    {
-     "title": "大阪 枚方女児死亡 “虐待”情報も市がことしは母親と面会せず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76074",
-     "pubDate": "Sun, 15 Nov 2026 11:53:00 +0900"
-    },
-    {
-     "title": "都庁で984段の階段駆け上がる初のレース 45階の展望台目指す",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76079",
-     "pubDate": "Sun, 15 Nov 2026 11:48:00 +0900"
-    },
-    {
-     "title": "政府 安保3文書に「歴史的かつ根本的な変革期」の認識で調整",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76058",
-     "pubDate": "Sun, 15 Nov 2026 10:41:00 +0900"
-    },
-    {
-     "title": "インフルエンサー「あっすん」 風営法違反疑いで逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76043",
-     "pubDate": "Sun, 15 Nov 2026 08:25:00 +0900"
-    },
-    {
-     "title": "横田めぐみさん拉致から49年 早紀江さん「会いたい」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75986",
-     "pubDate": "Sun, 15 Nov 2026 10:18:00 +0900"
     }
    ]
   },
@@ -132,9 +132,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "キリンビール オンラインショップ会員メアド 約5万件超漏えい",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76531",
+     "pubDate": "Mon, 16 Nov 2026 15:03:57 +0900"
+    },
+    {
+     "title": "香港のディズニーで不正アクセス 電子チケット盗み取られたか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76430",
+     "pubDate": "Mon, 16 Nov 2026 14:54:07 +0900"
+    },
+    {
      "title": "マグサイサイ賞授賞式 ミャンマー人権団体創設者などに授与",
      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76314",
-     "pubDate": "Mon, 16 Nov 2026 07:03:44 +0900"
+     "pubDate": "Mon, 16 Nov 2026 07:03:00 +0900"
     },
     {
      "title": "「高専ロボコン」全国大会“雑巾投げ”でロボット技術など競う",
@@ -195,16 +205,6 @@
      "title": "GMO FX不正取引の補償費用など現時点で30億5000万円想定と発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75297",
      "pubDate": "Fri, 13 Nov 2026 18:56:48 +0900"
-    },
-    {
-     "title": "【きょうのおはBiz 11月13日(金)】「良品計画」顧客情報漏えい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75153",
-     "pubDate": "Fri, 13 Nov 2026 11:10:33 +0900"
-    },
-    {
-     "title": "紅白歌合戦ことしの出場歌手発表 初出場は7組【出場歌手一覧】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261113de75147",
-     "pubDate": "Fri, 13 Nov 2026 19:47:07 +0900"
     }
    ]
   },
@@ -214,9 +214,54 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "香港のディズニーで不正アクセス 電子チケット盗み取られたか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76430",
+     "pubDate": "Mon, 16 Nov 2026 14:54:07 +0900"
+    },
+    {
+     "title": "韓国の半導体製造の一大拠点公開 課題の中小企業育成へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76485",
+     "pubDate": "Mon, 16 Nov 2026 13:09:00 +0900"
+    },
+    {
+     "title": "ベッセント米財務長官「エヌビディア 後任は社外から登用を」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76473",
+     "pubDate": "Mon, 16 Nov 2026 13:06:42 +0900"
+    },
+    {
+     "title": "COP31 笹川環境相 演説でASEANとの連携強化表明へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76487",
+     "pubDate": "Mon, 16 Nov 2026 13:03:00 +0900"
+    },
+    {
+     "title": "アメリカ・中国・ロシアの3か国首脳会談 中国も正式に発表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76469",
+     "pubDate": "Mon, 16 Nov 2026 12:38:34 +0900"
+    },
+    {
+     "title": "エストニア ロシア国境検問所閉鎖へ 放火事件にロシア関与か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76466",
+     "pubDate": "Mon, 16 Nov 2026 12:28:00 +0900"
+    },
+    {
+     "title": "高市首相ASEAN・APECへ出発 “国際秩序維持・強化に向け発信”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76382",
+     "pubDate": "Mon, 16 Nov 2026 12:53:35 +0900"
+    },
+    {
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（11月15日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67090",
+     "pubDate": "Mon, 16 Nov 2026 10:40:21 +0900"
+    },
+    {
+     "title": "【詳細】ロシア ウクライナに軍事侵攻（11月14日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67088",
+     "pubDate": "Mon, 16 Nov 2026 10:38:13 +0900"
+    },
+    {
      "title": "マグサイサイ賞授賞式 ミャンマー人権団体創設者などに授与",
      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76314",
-     "pubDate": "Mon, 16 Nov 2026 07:03:44 +0900"
+     "pubDate": "Mon, 16 Nov 2026 07:03:00 +0900"
     },
     {
      "title": "ゼレンスキー大統領 米の衛星通信サービスの制限解除訴え",
@@ -226,7 +271,7 @@
     {
      "title": "ASEAN 南シナ海「行動規範」 年内妥結は見送りに",
      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76312",
-     "pubDate": "Mon, 16 Nov 2026 06:12:18 +0900"
+     "pubDate": "Mon, 16 Nov 2026 06:12:00 +0900"
     },
     {
      "title": "イエメン 暫定政権側 バーブルマンデブ海峡から撤退報道も",
@@ -236,57 +281,12 @@
     {
      "title": "ウクライナ 重機遠隔操作してがれき処理 日本の支援で実証実験",
      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76292",
-     "pubDate": "Mon, 16 Nov 2026 05:40:08 +0900"
+     "pubDate": "Mon, 16 Nov 2026 05:40:00 +0900"
     },
     {
      "title": "高市首相 東南アジアなどと先端技術分野で共同研究提案へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76245",
-     "pubDate": "Mon, 16 Nov 2026 05:21:35 +0900"
-    },
-    {
-     "title": "イラン“米軍のレーダー施設攻撃” ホルムズ海峡で緊張続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76224",
-     "pubDate": "Sun, 15 Nov 2026 18:36:00 +0900"
-    },
-    {
-     "title": "台湾沖バシー海峡 “10万人以上の戦没者慰霊祭”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76223",
-     "pubDate": "Sun, 15 Nov 2026 18:34:00 +0900"
-    },
-    {
-     "title": "ASEAN首脳会議開幕 ミャンマー本格復帰の議論は先送り",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76209",
-     "pubDate": "Sun, 15 Nov 2026 21:49:13 +0900"
-    },
-    {
-     "title": "スペースXの大型宇宙船 地球周回後の発射台キャッチに初成功",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76047",
-     "pubDate": "Sun, 15 Nov 2026 16:48:00 +0900"
-    },
-    {
-     "title": "若手登竜門の国際コンクール バイオリンで小西真璃花さん4位",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76044",
-     "pubDate": "Sun, 15 Nov 2026 08:53:00 +0900"
-    },
-    {
-     "title": "ゼレンスキー大統領“米がNATO加盟と交換で軍撤退を打診”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76042",
-     "pubDate": "Sun, 15 Nov 2026 09:01:00 +0900"
-    },
-    {
-     "title": "アメリカ 空港で欠航や遅延トラブル 当局「15日中に正常化へ」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76032",
-     "pubDate": "Sun, 15 Nov 2026 11:48:00 +0900"
-    },
-    {
-     "title": "経産省とアジア開発銀行 アジアの原発導入支援 協力覚書で調整",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76028",
-     "pubDate": "Sun, 15 Nov 2026 06:05:00 +0900"
-    },
-    {
-     "title": "ASEAN首脳会議開幕へ トランプ大統領のアジアへの姿勢にも注目",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75995",
-     "pubDate": "Sun, 15 Nov 2026 05:12:00 +0900"
+     "pubDate": "Mon, 16 Nov 2026 10:47:34 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "福岡市長選 再選挙が確実に",
-     "link": "https://news.yahoo.co.jp/pickup/6602753?source=rss",
-     "pubDate": "Sun, 15 Nov 2026 23:22:11 GMT"
+     "title": "今週後半ほど気温低く 冬の空気に",
+     "link": "https://news.yahoo.co.jp/pickup/6602780?source=rss",
+     "pubDate": "Mon, 16 Nov 2026 03:29:44 GMT"
     },
     {
-     "title": "大学発ベンチャー過去10年で3.5倍",
-     "link": "https://news.yahoo.co.jp/pickup/6602745?source=rss",
-     "pubDate": "Sun, 15 Nov 2026 22:43:59 GMT"
+     "title": "福岡市長選が再選挙へ 憤る市民も",
+     "link": "https://news.yahoo.co.jp/pickup/6602799?source=rss",
+     "pubDate": "Mon, 16 Nov 2026 06:48:42 GMT"
     },
     {
-     "title": "エストニア ロシアとの国境閉鎖へ",
-     "link": "https://news.yahoo.co.jp/pickup/6602742?source=rss",
-     "pubDate": "Sun, 15 Nov 2026 22:20:16 GMT"
+     "title": "中国スパイ疑惑事件 諜報の傾向は",
+     "link": "https://news.yahoo.co.jp/pickup/6602777?source=rss",
+     "pubDate": "Mon, 16 Nov 2026 04:35:00 GMT"
     },
     {
-     "title": "特急と衝突し車火災 遺体を発見",
-     "link": "https://news.yahoo.co.jp/pickup/6602737?source=rss",
-     "pubDate": "Sun, 15 Nov 2026 21:14:12 GMT"
+     "title": "元eggモデルを殺害疑い 男逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6602793?source=rss",
+     "pubDate": "Mon, 16 Nov 2026 06:01:57 GMT"
     },
     {
-     "title": "フアン氏がNVIDIA復帰協議 報道",
-     "link": "https://news.yahoo.co.jp/pickup/6602744?source=rss",
-     "pubDate": "Sun, 15 Nov 2026 22:28:14 GMT"
+     "title": "判決不服 斉藤慎二被告が控訴",
+     "link": "https://news.yahoo.co.jp/pickup/6602789?source=rss",
+     "pubDate": "Mon, 16 Nov 2026 05:05:29 GMT"
     },
     {
-     "title": "JSR売却 差益9000億円超の見込み",
-     "link": "https://news.yahoo.co.jp/pickup/6602747?source=rss",
-     "pubDate": "Sun, 15 Nov 2026 22:47:18 GMT"
+     "title": "富岳に不正アクセス 理研が明かす",
+     "link": "https://news.yahoo.co.jp/pickup/6602790?source=rss",
+     "pubDate": "Mon, 16 Nov 2026 05:05:16 GMT"
     },
     {
-     "title": "AIに思考丸投げ 16歳「今後怖い」",
-     "link": "https://news.yahoo.co.jp/pickup/6602749?source=rss",
-     "pubDate": "Sun, 15 Nov 2026 23:22:11 GMT"
+     "title": "PS5の世界出荷1億台超 なぜ成功",
+     "link": "https://news.yahoo.co.jp/pickup/6602798?source=rss",
+     "pubDate": "Mon, 16 Nov 2026 06:35:14 GMT"
     },
     {
-     "title": "「I'm so happy」中井亜美GP連勝",
-     "link": "https://news.yahoo.co.jp/pickup/6602754?source=rss",
-     "pubDate": "Sun, 15 Nov 2026 23:26:08 GMT"
+     "title": "TOBE 年内でISSEIとの契約終了",
+     "link": "https://news.yahoo.co.jp/pickup/6602791?source=rss",
+     "pubDate": "Mon, 16 Nov 2026 05:09:11 GMT"
     }
    ]
   }
