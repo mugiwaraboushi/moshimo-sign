@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T16:31:21.459Z",
+ "updatedAt": "2026-11-17T00:31:52.415Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "東京 中野 路上で女性刺され死亡 強盗殺人未遂容疑で男を逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76817",
-     "pubDate": "Tue, 17 Nov 2026 00:30:32 +0900"
+     "title": "東京 中野 女性刺殺事件 39歳容疑者を強盗殺人未遂疑いで逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76885",
+     "pubDate": "Tue, 17 Nov 2026 05:23:00 +0900"
     },
     {
-     "title": "トランプ大統領「キム・ジョンウン総書記とも会う可能性」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76866",
-     "pubDate": "Mon, 16 Nov 2026 23:52:00 +0900"
+     "title": "クアッド首脳 中国動向念頭\"経済的威圧に深刻懸念表明\"で調整",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76878",
+     "pubDate": "Tue, 17 Nov 2026 05:35:00 +0900"
     },
     {
-     "title": "理研のスパコン「富岳」に不正アクセス 稼働停止して状況確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76603",
-     "pubDate": "Mon, 16 Nov 2026 17:17:00 +0900"
+     "title": "安全保障3文書の改定 防衛産業基盤の強化説明へ 政府",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76890",
+     "pubDate": "Tue, 17 Nov 2026 05:33:00 +0900"
     },
     {
-     "title": "四国電力 ウェブ委託会社に不正アクセス 約60万件の情報流出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76812",
-     "pubDate": "Mon, 16 Nov 2026 20:49:49 +0900"
+     "title": "理研のスパコン「富岳」不正アクセス 研究データなど漏えいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76883",
+     "pubDate": "Tue, 17 Nov 2026 05:44:00 +0900"
     },
     {
-     "title": "広島カープ“契約更新せず”通告された3選手 説明求め申し入れ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76820",
-     "pubDate": "Mon, 16 Nov 2026 21:00:19 +0900"
+     "title": "ロシア報道官 日ロ首脳会談の可能性「排除せず」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76899",
+     "pubDate": "Tue, 17 Nov 2026 07:21:00 +0900"
     },
     {
-     "title": "高市首相 フィリピン到着 石油備蓄などで新たな枠組み提唱へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76382",
-     "pubDate": "Mon, 16 Nov 2026 22:10:04 +0900"
+     "title": "愛子さま きょうからシンガポールを公式訪問",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76896",
+     "pubDate": "Tue, 17 Nov 2026 07:01:33 +0900"
     },
     {
-     "title": "ニデック 半期報告書の提出期限延長を国に申請",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76825",
-     "pubDate": "Mon, 16 Nov 2026 21:04:06 +0900"
+     "title": "インドネシアでM6.6の地震 津波のおそれなし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76907",
+     "pubDate": "Tue, 17 Nov 2026 08:29:00 +0900"
     }
    ]
   },
@@ -50,9 +50,44 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "ロシア機が一時領空侵犯",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76912",
+     "pubDate": "Tue, 17 Nov 2026 09:30:28 +0900"
+    },
+    {
+     "title": "愛子さま きょうからシンガポールを公式訪問",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76896",
+     "pubDate": "Tue, 17 Nov 2026 07:01:33 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（11月17日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76789",
+     "pubDate": "Tue, 17 Nov 2026 06:49:58 +0900"
+    },
+    {
+     "title": "林間学校の落石で生徒に後遺症 学校側に賠償など命じる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76870",
+     "pubDate": "Tue, 17 Nov 2026 06:18:48 +0900"
+    },
+    {
+     "title": "グラミー賞 新設の“アジア部門”で日本勢2組が候補に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76882",
+     "pubDate": "Tue, 17 Nov 2026 06:07:29 +0900"
+    },
+    {
+     "title": "理研のスパコン「富岳」不正アクセス 研究データなど漏えいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76883",
+     "pubDate": "Tue, 17 Nov 2026 05:44:00 +0900"
+    },
+    {
+     "title": "東京 中野 女性刺殺事件 39歳容疑者を強盗殺人未遂疑いで逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76885",
+     "pubDate": "Tue, 17 Nov 2026 05:23:00 +0900"
+    },
+    {
      "title": "東京 中野 路上で女性刺され死亡 強盗殺人未遂容疑で男を逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20261116de76817",
-     "pubDate": "Tue, 17 Nov 2026 00:30:32 +0900"
+     "pubDate": "Tue, 17 Nov 2026 00:30:00 +0900"
     },
     {
      "title": "「ルフィ」事件 詐欺グループトップ 拠点立ち上げ経緯明かす",
@@ -88,41 +123,6 @@
      "title": "大阪 枚方女児死亡事件 平均的な体重大きく下回る 関連捜査",
      "link": "https://news.web.nhk/newsweb/na/nd-20261116de76688",
      "pubDate": "Mon, 16 Nov 2026 18:52:49 +0900"
-    },
-    {
-     "title": "理研のスパコン「富岳」に不正アクセス 稼働停止して状況確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76603",
-     "pubDate": "Mon, 16 Nov 2026 17:17:00 +0900"
-    },
-    {
-     "title": "大阪 “グリ下の帝王”逮捕 生活保護費を不正受給か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76647",
-     "pubDate": "Mon, 16 Nov 2026 17:14:02 +0900"
-    },
-    {
-     "title": "ファッション雑誌元モデルの女性殺害か 内縁の夫逮捕 警視庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76620",
-     "pubDate": "Mon, 16 Nov 2026 18:38:05 +0900"
-    },
-    {
-     "title": "東京大学総長選考 教職員有志「説明は一定程度進んだ」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76596",
-     "pubDate": "Mon, 16 Nov 2026 16:28:00 +0900"
-    },
-    {
-     "title": "3文書改定“財源必要あれば税調で議論” 自民 小野寺税調会長",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76562",
-     "pubDate": "Mon, 16 Nov 2026 15:41:23 +0900"
-    },
-    {
-     "title": "富山市の交番襲撃事件 弁護側「死刑を科すべきではない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76514",
-     "pubDate": "Mon, 16 Nov 2026 14:30:00 +0900"
-    },
-    {
-     "title": "COP31 笹川環境相 演説でASEANとの連携強化表明へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76487",
-     "pubDate": "Mon, 16 Nov 2026 13:03:00 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "007新ボンド役に英俳優ロバート・パティンソンさん",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76903",
+     "pubDate": "Tue, 17 Nov 2026 08:30:45 +0900"
+    },
+    {
+     "title": "理研のスパコン「富岳」不正アクセス 研究データなど漏えいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76883",
+     "pubDate": "Tue, 17 Nov 2026 05:44:00 +0900"
+    },
     {
      "title": "「アンコール遺跡群」研究の第一人者 石澤良昭さん死去",
      "link": "https://news.web.nhk/newsweb/na/nd-20261116de76841",
@@ -195,16 +205,6 @@
      "title": "若手登竜門の国際コンクール バイオリンで小西真璃花さん4位",
      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76044",
      "pubDate": "Sun, 15 Nov 2026 08:53:00 +0900"
-    },
-    {
-     "title": "小児がん経験の高校生が治療での外見変化の影響調査 学会発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75823",
-     "pubDate": "Sat, 14 Nov 2026 13:24:54 +0900"
-    },
-    {
-     "title": "小栗虫太郎の未発表原稿や創作メモが見つかる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261114de75792",
-     "pubDate": "Sat, 14 Nov 2026 11:06:00 +0900"
     }
    ]
   },
@@ -214,79 +214,79 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "トランプ大統領「キム・ジョンウン総書記とも会う可能性」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76866",
-     "pubDate": "Mon, 16 Nov 2026 23:52:00 +0900"
+     "title": "ロシア機が一時領空侵犯",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76912",
+     "pubDate": "Tue, 17 Nov 2026 09:30:28 +0900"
     },
     {
-     "title": "ASEAN 国境を越える煙害で対策強化へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76848",
-     "pubDate": "Mon, 16 Nov 2026 23:20:18 +0900"
+     "title": "007新ボンド役に英俳優ロバート・パティンソンさん",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76903",
+     "pubDate": "Tue, 17 Nov 2026 08:30:45 +0900"
     },
     {
-     "title": "中国・ASEAN首脳会議 中国は経済・貿易分野の協力推進呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76642",
-     "pubDate": "Mon, 16 Nov 2026 17:13:32 +0900"
+     "title": "インドネシアでM6.6の地震 津波のおそれなし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76907",
+     "pubDate": "Tue, 17 Nov 2026 08:29:00 +0900"
     },
     {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（11月16日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67091",
-     "pubDate": "Mon, 16 Nov 2026 16:42:33 +0900"
+     "title": "トランプ大統領 フアン氏エヌビディアCEOへの復帰を容認の姿勢",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76901",
+     "pubDate": "Tue, 17 Nov 2026 08:22:58 +0900"
     },
     {
-     "title": "エネルギー高騰で欧州は冬を前に懸念 再エネ導入加速か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76518",
-     "pubDate": "Mon, 16 Nov 2026 16:18:27 +0900"
+     "title": "ロシア高官 和平協議への欧州参加「合意していない」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76905",
+     "pubDate": "Tue, 17 Nov 2026 08:17:00 +0900"
     },
     {
-     "title": "香港のディズニーで不正アクセス 電子チケット盗み取られたか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76430",
-     "pubDate": "Mon, 16 Nov 2026 14:54:07 +0900"
+     "title": "アメリカ商務省 先端半導体の中国などへのう回輸出防ぐ新規則",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76902",
+     "pubDate": "Tue, 17 Nov 2026 08:14:00 +0900"
     },
     {
-     "title": "韓国の半導体製造の一大拠点公開 課題の中小企業育成へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76485",
-     "pubDate": "Mon, 16 Nov 2026 13:09:00 +0900"
+     "title": "ロシア高官 米中ロ３か国首脳会談の共同声明検討",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76904",
+     "pubDate": "Tue, 17 Nov 2026 08:13:31 +0900"
     },
     {
-     "title": "ベッセント米財務長官「エヌビディア 後任は社外から登用を」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76473",
-     "pubDate": "Mon, 16 Nov 2026 13:06:42 +0900"
+     "title": "ロシア報道官 日ロ首脳会談の可能性「排除せず」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76899",
+     "pubDate": "Tue, 17 Nov 2026 07:21:00 +0900"
     },
     {
-     "title": "COP31 笹川環境相 演説でASEANとの連携強化表明へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76487",
-     "pubDate": "Mon, 16 Nov 2026 13:03:00 +0900"
+     "title": "ナスダック2.5％下落 エヌビディア経営混乱への懸念広がる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76894",
+     "pubDate": "Tue, 17 Nov 2026 06:41:15 +0900"
     },
     {
-     "title": "アメリカ・中国・ロシアの3か国首脳会談 中国も正式に発表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76469",
-     "pubDate": "Mon, 16 Nov 2026 18:51:30 +0900"
+     "title": "「18日に中ロ首脳会談」ロシア側は中国との連携強調ねらいか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76886",
+     "pubDate": "Tue, 17 Nov 2026 06:15:25 +0900"
     },
     {
-     "title": "エストニア ロシア国境検問所閉鎖へ 放火事件にロシア関与か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76466",
-     "pubDate": "Mon, 16 Nov 2026 12:28:00 +0900"
+     "title": "自律型兵器めぐる会議開幕 ルール交渉開始が焦点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76888",
+     "pubDate": "Tue, 17 Nov 2026 06:12:00 +0900"
     },
     {
-     "title": "高市首相 フィリピン到着 石油備蓄などで新たな枠組み提唱へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261116de76382",
-     "pubDate": "Mon, 16 Nov 2026 22:10:04 +0900"
+     "title": "COP31 AIを気候変動対策の解決策に“誓約”土台に議論",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76889",
+     "pubDate": "Tue, 17 Nov 2026 06:10:00 +0900"
     },
     {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（11月15日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67090",
-     "pubDate": "Mon, 16 Nov 2026 10:40:21 +0900"
+     "title": "グラミー賞 新設の“アジア部門”で日本勢2組が候補に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76882",
+     "pubDate": "Tue, 17 Nov 2026 06:07:29 +0900"
     },
     {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（11月14日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67088",
-     "pubDate": "Mon, 16 Nov 2026 10:38:13 +0900"
+     "title": "クアッド首脳 中国動向念頭\"経済的威圧に深刻懸念表明\"で調整",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76878",
+     "pubDate": "Tue, 17 Nov 2026 05:35:00 +0900"
     },
     {
-     "title": "マグサイサイ賞授賞式 ミャンマー人権団体創設者などに授与",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261115de76314",
-     "pubDate": "Mon, 16 Nov 2026 07:03:00 +0900"
+     "title": "トランプ大統領 アジア訪問へ出発 19日には初の米中ロ首脳会談",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76879",
+     "pubDate": "Tue, 17 Nov 2026 05:01:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "3カ国会談巡り中国「戦勝国」強調",
-     "link": "https://news.yahoo.co.jp/pickup/6602847?source=rss",
-     "pubDate": "Mon, 16 Nov 2026 14:25:07 GMT"
+     "title": "日米豪印の共同文書案 概要が判明",
+     "link": "https://news.yahoo.co.jp/pickup/6602863?source=rss",
+     "pubDate": "Mon, 16 Nov 2026 23:33:25 GMT"
     },
     {
-     "title": "はやぶさ2に不具合 目的地を変更",
-     "link": "https://news.yahoo.co.jp/pickup/6602844?source=rss",
-     "pubDate": "Mon, 16 Nov 2026 14:00:45 GMT"
+     "title": "米大統領 フアン氏復帰検討に理解",
+     "link": "https://news.yahoo.co.jp/pickup/6602861?source=rss",
+     "pubDate": "Mon, 16 Nov 2026 23:08:34 GMT"
     },
     {
-     "title": "中野死亡 男は女性が勤める店の客",
-     "link": "https://news.yahoo.co.jp/pickup/6602848?source=rss",
-     "pubDate": "Mon, 16 Nov 2026 14:51:54 GMT"
+     "title": "女性刺され死亡 雑に扱われたと男",
+     "link": "https://news.yahoo.co.jp/pickup/6602858?source=rss",
+     "pubDate": "Mon, 16 Nov 2026 22:44:31 GMT"
     },
     {
-     "title": "元モデル死亡 男は「自傷」と説明",
-     "link": "https://news.yahoo.co.jp/pickup/6602842?source=rss",
-     "pubDate": "Mon, 16 Nov 2026 13:39:59 GMT"
+     "title": "中3を逮捕 同級生の腹刺した疑い",
+     "link": "https://news.yahoo.co.jp/pickup/6602864?source=rss",
+     "pubDate": "Mon, 16 Nov 2026 23:45:43 GMT"
     },
     {
-     "title": "卵サンドつかむ客動画炎上 店説明",
-     "link": "https://news.yahoo.co.jp/pickup/6602840?source=rss",
-     "pubDate": "Mon, 16 Nov 2026 13:31:14 GMT"
+     "title": "町内会入らずゴミ捨て場利用 賛否",
+     "link": "https://news.yahoo.co.jp/pickup/6602868?source=rss",
+     "pubDate": "Tue, 17 Nov 2026 00:26:18 GMT"
     },
     {
-     "title": "矢野ら カープに謝罪求める要請書",
-     "link": "https://news.yahoo.co.jp/pickup/6602841?source=rss",
-     "pubDate": "Mon, 16 Nov 2026 13:20:14 GMT"
+     "title": "ネパールに「ガチ中華」急増 なぜ",
+     "link": "https://news.yahoo.co.jp/pickup/6602865?source=rss",
+     "pubDate": "Mon, 16 Nov 2026 23:58:55 GMT"
     },
     {
-     "title": "高橋一生が公演中に負傷 舞台中止",
-     "link": "https://news.yahoo.co.jp/pickup/6602834?source=rss",
-     "pubDate": "Mon, 16 Nov 2026 12:44:03 GMT"
+     "title": "グラミー新設賞 LiSAら候補入り",
+     "link": "https://news.yahoo.co.jp/pickup/6602854?source=rss",
+     "pubDate": "Mon, 16 Nov 2026 22:17:26 GMT"
     },
     {
-     "title": "中田乃愛さん死去 テレ東など追悼",
-     "link": "https://news.yahoo.co.jp/pickup/6602827?source=rss",
-     "pubDate": "Mon, 16 Nov 2026 11:15:16 GMT"
+     "title": "7代目ボンド役にR・パティンソン",
+     "link": "https://news.yahoo.co.jp/pickup/6602855?source=rss",
+     "pubDate": "Mon, 16 Nov 2026 22:37:31 GMT"
     }
    ]
   }
