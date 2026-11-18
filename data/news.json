@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T17:56:35.746Z",
+ "updatedAt": "2026-11-18T00:13:00.793Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "クアッド首脳会合“経済的威圧に深刻な懸念”共同文書まとめる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76934",
-     "pubDate": "Wed, 18 Nov 2026 01:36:02 +0900"
+     "title": "エヌビディア フアン氏「取締役会が求めればCEO復帰を」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77484",
+     "pubDate": "Wed, 18 Nov 2026 08:20:50 +0900"
     },
     {
-     "title": "サッカー日本代表 森保監督最後の試合を勝利で飾れず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77462",
-     "pubDate": "Wed, 18 Nov 2026 01:31:19 +0900"
+     "title": "APEC首脳会議 日中接触や米中ロ首脳会談が焦点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77459",
+     "pubDate": "Wed, 18 Nov 2026 05:11:40 +0900"
     },
     {
-     "title": "日韓首脳会談 シャトル外交継続 イ大統領来年1月訪日の意向",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261117de77438",
-     "pubDate": "Wed, 18 Nov 2026 00:32:42 +0900"
+     "title": "高市首相がAPECで訪中 プーチン大統領と接触調整",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77470",
+     "pubDate": "Wed, 18 Nov 2026 05:14:00 +0900"
     },
     {
-     "title": "楽天証券 約447万口座で利用者の年収や保有商品情報漏えいか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261117de77397",
-     "pubDate": "Tue, 17 Nov 2026 20:34:37 +0900"
+     "title": "愛知 強盗殺人未遂事件 関与ほのめかす5人のうち3人中学生",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77490",
+     "pubDate": "Wed, 18 Nov 2026 06:51:41 +0900"
     },
     {
-     "title": "リニア中央新幹線 JR東海“開業時期の見通し 年内公表断念”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261117de77431",
-     "pubDate": "Tue, 17 Nov 2026 22:33:28 +0900"
+     "title": "防衛費5年間で50兆円台前半の案 安保3文書改定の政府内調整",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de77432",
+     "pubDate": "Wed, 18 Nov 2026 05:13:00 +0900"
     },
     {
-     "title": "メガネの「ジンズ」で個人情報漏えい 最大1800万件余の可能性",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261117de77389",
-     "pubDate": "Tue, 17 Nov 2026 20:11:40 +0900"
+     "title": "日米首脳が短時間懇談 インド太平洋情勢で緊密連携確認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77491",
+     "pubDate": "Wed, 18 Nov 2026 06:56:51 +0900"
     },
     {
-     "title": "愛子さま 公式訪問先のシンガポールに到着",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261117de77414",
-     "pubDate": "Tue, 17 Nov 2026 21:43:52 +0900"
+     "title": "関東などで一時雨強まる 低気圧急発達で荒天に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77485",
+     "pubDate": "Wed, 18 Nov 2026 06:35:01 +0900"
     }
    ]
   },
@@ -49,6 +49,26 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
+    {
+     "title": "愛知 強盗殺人未遂事件 関与ほのめかす5人のうち3人中学生",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77490",
+     "pubDate": "Wed, 18 Nov 2026 06:51:41 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（11月18日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de77381",
+     "pubDate": "Wed, 18 Nov 2026 06:49:00 +0900"
+    },
+    {
+     "title": "COP31閣僚級会合 笹川環境相「脱炭素取り組み加速」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77475",
+     "pubDate": "Wed, 18 Nov 2026 05:16:00 +0900"
+    },
+    {
+     "title": "受刑者の投票 一律に認めずは違憲？最高裁大法廷きょう判決",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261117de77433",
+     "pubDate": "Wed, 18 Nov 2026 05:10:00 +0900"
+    },
     {
      "title": "警察庁長官が能登半島地震で被災した輪島市「朝市通り」を視察",
      "link": "https://news.web.nhk/newsweb/na/nd-20261117de77314",
@@ -62,7 +82,7 @@
     {
      "title": "山林に石川県の女性遺体 遺棄の疑いで元交際相手を再逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20261117de77426",
-     "pubDate": "Tue, 17 Nov 2026 22:40:00 +0900"
+     "pubDate": "Wed, 18 Nov 2026 07:51:39 +0900"
     },
     {
      "title": "福岡県議会の海外活動の業務委託費増 旅行会社に資料請求へ",
@@ -103,26 +123,6 @@
      "title": "旦過市場の新商業施設で消防訓練 過去に大規模火災も 北九州",
      "link": "https://news.web.nhk/newsweb/na/nd-20261117de77356",
      "pubDate": "Tue, 17 Nov 2026 19:45:00 +0900"
-    },
-    {
-     "title": "中野 女性刺殺事件 「女性を殺して自分も死のうと思った」供述",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261117de77103",
-     "pubDate": "Tue, 17 Nov 2026 18:25:00 +0900"
-    },
-    {
-     "title": "「命より大切な仕事はない」過労死防止 遺族が大学生に訴え",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261117de77271",
-     "pubDate": "Tue, 17 Nov 2026 18:21:00 +0900"
-    },
-    {
-     "title": "レッサーパンダ「風太」が最高齢でギネス世界記録認定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261117de77236",
-     "pubDate": "Tue, 17 Nov 2026 17:58:54 +0900"
-    },
-    {
-     "title": "政府広報に都市伝説系ユーチューバーを起用で物議",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261117de77253",
-     "pubDate": "Tue, 17 Nov 2026 17:52:00 +0900"
     }
    ]
   },
@@ -214,6 +214,41 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "日米首脳が短時間懇談 インド太平洋情勢で緊密連携確認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77491",
+     "pubDate": "Wed, 18 Nov 2026 06:56:51 +0900"
+    },
+    {
+     "title": "ゼレンスキー大統領が戦果を強調 3か国首脳会談前に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77487",
+     "pubDate": "Wed, 18 Nov 2026 06:45:00 +0900"
+    },
+    {
+     "title": "エヌビディア フアン氏「取締役会が求めればCEO復帰を」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77484",
+     "pubDate": "Wed, 18 Nov 2026 08:20:50 +0900"
+    },
+    {
+     "title": "トランプ大統領 米中ロ首脳会談に向け中国へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77483",
+     "pubDate": "Wed, 18 Nov 2026 06:21:00 +0900"
+    },
+    {
+     "title": "ロシア 米中ロ首脳会談を\"孤立していないと示す場\"として重視",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77479",
+     "pubDate": "Wed, 18 Nov 2026 05:54:11 +0900"
+    },
+    {
+     "title": "ASEAN首脳会議閉幕、協力強化確認も課題浮き彫りに",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77478",
+     "pubDate": "Wed, 18 Nov 2026 05:17:49 +0900"
+    },
+    {
+     "title": "APEC首脳会議 日中接触や米中ロ首脳会談が焦点",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77459",
+     "pubDate": "Wed, 18 Nov 2026 05:11:40 +0900"
+    },
+    {
      "title": "日韓首脳会談 シャトル外交継続 イ大統領来年1月訪日の意向",
      "link": "https://news.web.nhk/newsweb/na/nd-20261117de77438",
      "pubDate": "Wed, 18 Nov 2026 00:32:42 +0900"
@@ -252,41 +287,6 @@
      "title": "あすからAPEC首脳会議 米中ロ首脳会談や日中接触も焦点",
      "link": "https://news.web.nhk/newsweb/na/nd-20261117de77215",
      "pubDate": "Tue, 17 Nov 2026 19:27:00 +0900"
-    },
-    {
-     "title": "高市首相 APECにあわせてプーチン大統領と接触する見通し",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261117de77251",
-     "pubDate": "Tue, 17 Nov 2026 17:33:00 +0900"
-    },
-    {
-     "title": "米商務省 アリス・フアン氏に去年事情聴取 関連企業も調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261117de77205",
-     "pubDate": "Tue, 17 Nov 2026 17:23:04 +0900"
-    },
-    {
-     "title": "欧州5か国 滞在資格ない移民をルワンダに移送計画 反発も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261117de77141",
-     "pubDate": "Tue, 17 Nov 2026 16:04:00 +0900"
-    },
-    {
-     "title": "エヌビディア フアン氏 CEO復帰めぐる議論活発化 株価にも影響",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261117de77131",
-     "pubDate": "Tue, 17 Nov 2026 15:54:59 +0900"
-    },
-    {
-     "title": "トランプ政権の留学生ビザ期間制限「違法で無効」連邦地裁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261117de77138",
-     "pubDate": "Tue, 17 Nov 2026 15:50:00 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（11月17日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67092",
-     "pubDate": "Tue, 17 Nov 2026 14:55:00 +0900"
-    },
-    {
-     "title": "クアッド首脳会合“経済的威圧に深刻な懸念”共同文書まとめる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261117de76934",
-     "pubDate": "Wed, 18 Nov 2026 01:36:02 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "日米豪印が共同文書 中国念頭",
-     "link": "https://news.yahoo.co.jp/pickup/6602965?source=rss",
-     "pubDate": "Tue, 17 Nov 2026 14:00:52 GMT"
+     "title": "転職組の教員免許を容易に 改革案",
+     "link": "https://news.yahoo.co.jp/pickup/6602984?source=rss",
+     "pubDate": "Tue, 17 Nov 2026 22:41:18 GMT"
     },
     {
-     "title": "ASEAN 米大統領へ「特別待遇」",
-     "link": "https://news.yahoo.co.jp/pickup/6602954?source=rss",
-     "pubDate": "Tue, 17 Nov 2026 13:02:27 GMT"
+     "title": "日本版DBSに脆弱性 稼働延期へ",
+     "link": "https://news.yahoo.co.jp/pickup/6602982?source=rss",
+     "pubDate": "Tue, 17 Nov 2026 22:14:00 GMT"
     },
     {
-     "title": "米大統領 冗談交じりに高市氏評す",
-     "link": "https://news.yahoo.co.jp/pickup/6602960?source=rss",
-     "pubDate": "Tue, 17 Nov 2026 13:57:09 GMT"
+     "title": "NVIDIA会長 フアン氏CEO復帰ない",
+     "link": "https://news.yahoo.co.jp/pickup/6602988?source=rss",
+     "pubDate": "Tue, 17 Nov 2026 23:30:40 GMT"
     },
     {
-     "title": "韓国野党前代表 日本で入国拒否",
-     "link": "https://news.yahoo.co.jp/pickup/6602969?source=rss",
-     "pubDate": "Tue, 17 Nov 2026 15:15:40 GMT"
+     "title": "小渕優子氏更迭 自民総務会で反発",
+     "link": "https://news.yahoo.co.jp/pickup/6602978?source=rss",
+     "pubDate": "Tue, 17 Nov 2026 21:32:04 GMT"
     },
     {
-     "title": "交際1人でも子宮頸がん 子供諦め",
-     "link": "https://news.yahoo.co.jp/pickup/6602962?source=rss",
-     "pubDate": "Tue, 17 Nov 2026 13:48:07 GMT"
+     "title": "NHK 職員に「飲み会22時頃まで」",
+     "link": "https://news.yahoo.co.jp/pickup/6602976?source=rss",
+     "pubDate": "Tue, 17 Nov 2026 21:19:02 GMT"
     },
     {
-     "title": "「山の神祭」準備中に白イノシシ",
-     "link": "https://news.yahoo.co.jp/pickup/6602972?source=rss",
-     "pubDate": "Tue, 17 Nov 2026 15:01:40 GMT"
+     "title": "ポーカー大会無許可開催疑い 逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6602981?source=rss",
+     "pubDate": "Tue, 17 Nov 2026 22:22:50 GMT"
     },
     {
-     "title": "森保J ラストマッチで敗れる",
-     "link": "https://news.yahoo.co.jp/pickup/6602974?source=rss",
-     "pubDate": "Tue, 17 Nov 2026 15:20:48 GMT"
+     "title": "森保監督 来季は欧州で指揮を希望",
+     "link": "https://news.yahoo.co.jp/pickup/6602980?source=rss",
+     "pubDate": "Tue, 17 Nov 2026 21:47:20 GMT"
     },
     {
-     "title": "浜辺美波 手描きキングギドラ披露",
-     "link": "https://news.yahoo.co.jp/pickup/6602959?source=rss",
-     "pubDate": "Tue, 17 Nov 2026 13:38:55 GMT"
+     "title": "オリックス 藤浪晋太郎を獲得へ",
+     "link": "https://news.yahoo.co.jp/pickup/6602979?source=rss",
+     "pubDate": "Tue, 17 Nov 2026 21:52:00 GMT"
     }
    ]
   }
