@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-19T21:52:43.580Z",
+ "updatedAt": "2026-11-20T02:42:00.700Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "初の米中ロ首脳会談 国際秩序や国際情勢への影響が焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78735",
-     "pubDate": "Fri, 20 Nov 2026 06:00:00 +0900"
+     "title": "株価 一時2800円超の下落 AI・半導体業界の先行き懸念で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78808",
+     "pubDate": "Fri, 20 Nov 2026 10:22:30 +0900"
     },
     {
-     "title": "強い冬型の気圧配置 北海道・北陸で暴風警戒 山沿いでは積雪も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78769",
-     "pubDate": "Fri, 20 Nov 2026 06:45:39 +0900"
+     "title": "陸自射撃場3人殺傷事件 初公判で弁護士が無罪主張 岐阜地裁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78822",
+     "pubDate": "Fri, 20 Nov 2026 11:08:23 +0900"
     },
     {
-     "title": "米AI開発「アンソロピック」上場 過去最大規模の約13兆円調達",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78753",
-     "pubDate": "Fri, 20 Nov 2026 06:40:30 +0900"
+     "title": "10月消費者物価 前年同月比＋2.2％ 生鮮食品除く指数",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78800",
+     "pubDate": "Fri, 20 Nov 2026 11:25:06 +0900"
     },
     {
-     "title": "高市首相 トランプ大統領から米中ロ首脳会談の説明受ける",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261119de78721",
-     "pubDate": "Thu, 19 Nov 2026 23:48:26 +0900"
+     "title": "トランプ大統領アジア訪問終える 米中ロ直接対話重視の姿勢も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78759",
+     "pubDate": "Fri, 20 Nov 2026 09:52:10 +0900"
     },
     {
-     "title": "米中ロ首脳会談の影響注視 同盟国・同志国と連携強化 日本政府",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78749",
-     "pubDate": "Fri, 20 Nov 2026 06:09:33 +0900"
+     "title": "片山金融相 漏えい可能性の楽天証券に“非常に遺憾”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78854",
+     "pubDate": "Fri, 20 Nov 2026 11:25:28 +0900"
     },
     {
-     "title": "ダウ平均株価が一時5万ドル割れ 1100ドル超える値下がり",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78760",
-     "pubDate": "Fri, 20 Nov 2026 04:18:40 +0900"
+     "title": "独首相「ヤルタ形式平和もたらさず」 大国外交をけん制",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78778",
+     "pubDate": "Fri, 20 Nov 2026 09:18:34 +0900"
     },
     {
-     "title": "ロヒンギャ迫害はジェノサイドと認定 国際司法裁判所が判決",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261119de78716",
-     "pubDate": "Fri, 20 Nov 2026 06:04:18 +0900"
+     "title": "将棋「竜王戦」第4局始まる 藤井聡太六冠 6連覇なるか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78847",
+     "pubDate": "Fri, 20 Nov 2026 11:11:28 +0900"
     }
    ]
   },
@@ -50,24 +50,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "片山金融相 漏えい可能性の楽天証券に“非常に遺憾”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78854",
+     "pubDate": "Fri, 20 Nov 2026 11:25:28 +0900"
+    },
+    {
+     "title": "井林国交相 麻生コンクリートのJIS認証取消に「適切に対応」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78849",
+     "pubDate": "Fri, 20 Nov 2026 11:16:00 +0900"
+    },
+    {
+     "title": "陸自射撃場3人殺傷事件 初公判で弁護士が無罪主張 岐阜地裁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78822",
+     "pubDate": "Fri, 20 Nov 2026 11:08:23 +0900"
+    },
+    {
      "title": "【動画】Pickup NEWS（11月20日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78688",
-     "pubDate": "Fri, 20 Nov 2026 06:45:08 +0900"
+     "pubDate": "Fri, 20 Nov 2026 10:04:25 +0900"
     },
     {
      "title": "カイロスロケット4号機 来年1月打ち上げへ 和歌山の発射場から",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78731",
-     "pubDate": "Fri, 20 Nov 2026 06:26:38 +0900"
+     "pubDate": "Fri, 20 Nov 2026 06:26:00 +0900"
     },
     {
      "title": "兵庫 伊丹 女児死亡事件 母親外出後の約15分間に暴行か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78729",
-     "pubDate": "Fri, 20 Nov 2026 06:19:49 +0900"
+     "pubDate": "Fri, 20 Nov 2026 06:19:00 +0900"
     },
     {
      "title": "消費税減税法案 支援金 所得下限56万円検討で公明の賛同期待も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78748",
-     "pubDate": "Fri, 20 Nov 2026 05:33:19 +0900"
+     "pubDate": "Fri, 20 Nov 2026 07:44:01 +0900"
     },
     {
      "title": "都内の再生医療クリニックに緊急命令 重篤疾病発生も報告せず",
@@ -108,21 +123,6 @@
      "title": "警察のサイバー部門幹部が臨時会議 個人情報の流出相次ぐなか",
      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78229",
      "pubDate": "Thu, 19 Nov 2026 11:51:45 +0900"
-    },
-    {
-     "title": "【地震情報】熊本県で震度5弱 熊本地震の一連 1週間程度は注意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261119de78097",
-     "pubDate": "Thu, 19 Nov 2026 18:50:17 +0900"
-    },
-    {
-     "title": "前橋 クマ出没の住宅街 再度目撃も見つからず 警戒続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261119de78168",
-     "pubDate": "Thu, 19 Nov 2026 18:16:26 +0900"
-    },
-    {
-     "title": "【動画】Pickup NEWS（11月19日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261118de78012",
-     "pubDate": "Thu, 19 Nov 2026 19:45:27 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "将棋「竜王戦」第4局始まる 藤井聡太六冠 6連覇なるか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78847",
+     "pubDate": "Fri, 20 Nov 2026 11:11:28 +0900"
+    },
     {
      "title": "H3ロケット 次の11号機の打ち上げ業務民営化へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78738",
@@ -144,7 +149,7 @@
     {
      "title": "探査機ボイジャー1号 トラブル発生も「1光日」到達確認 NASA",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78757",
-     "pubDate": "Fri, 20 Nov 2026 04:14:20 +0900"
+     "pubDate": "Fri, 20 Nov 2026 07:02:00 +0900"
     },
     {
      "title": "北海道「六花亭」に不正アクセス クレカ情報 約8000件流出か",
@@ -200,11 +205,6 @@
      "title": "キリン AIに入力した個人情報 委託先不正アクセスで漏えい",
      "link": "https://news.web.nhk/newsweb/na/nd-20261117de77170",
      "pubDate": "Tue, 17 Nov 2026 16:20:00 +0900"
-    },
-    {
-     "title": "エヌビディア フアン氏 CEO復帰めぐる議論活発化 株価にも影響",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261117de77131",
-     "pubDate": "Tue, 17 Nov 2026 15:54:59 +0900"
     }
    ]
   },
@@ -214,14 +214,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "気候変動の偽情報投稿 国連「対策の障害に」日本も増加 注意を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78810",
+     "pubDate": "Fri, 20 Nov 2026 10:32:40 +0900"
+    },
+    {
+     "title": "独首相「ヤルタ形式平和もたらさず」 大国外交をけん制",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78778",
+     "pubDate": "Fri, 20 Nov 2026 09:18:34 +0900"
+    },
+    {
      "title": "COP31 最終日を前に温室効果ガス排出の削減方法などめぐり対立",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78746",
-     "pubDate": "Fri, 20 Nov 2026 06:49:07 +0900"
+     "pubDate": "Fri, 20 Nov 2026 06:49:00 +0900"
     },
     {
      "title": "米中ロ首脳会談の影響注視 同盟国・同志国と連携強化 日本政府",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78749",
-     "pubDate": "Fri, 20 Nov 2026 06:09:33 +0900"
+     "pubDate": "Fri, 20 Nov 2026 08:04:33 +0900"
     },
     {
      "title": "プーチン大統領 米中ロ首脳会談意義強調 継続開催に前向き",
@@ -231,7 +241,7 @@
     {
      "title": "トランプ大統領アジア訪問終える 米中ロ直接対話重視の姿勢も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78759",
-     "pubDate": "Fri, 20 Nov 2026 05:48:06 +0900"
+     "pubDate": "Fri, 20 Nov 2026 09:52:10 +0900"
     },
     {
      "title": "初の米中ロ首脳会談 国際秩序や国際情勢への影響が焦点",
@@ -239,14 +249,14 @@
      "pubDate": "Fri, 20 Nov 2026 06:00:00 +0900"
     },
     {
-     "title": "ダウ平均株価が一時5万ドル割れ 1100ドル超える値下がり",
+     "title": "ダウ平均株価が5万ドル割れ 終値としては約5か月ぶり",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78760",
-     "pubDate": "Fri, 20 Nov 2026 04:18:40 +0900"
+     "pubDate": "Fri, 20 Nov 2026 07:15:13 +0900"
     },
     {
      "title": "米AI開発「アンソロピック」上場 過去最大規模の約13兆円調達",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78753",
-     "pubDate": "Fri, 20 Nov 2026 06:40:30 +0900"
+     "pubDate": "Fri, 20 Nov 2026 07:23:06 +0900"
     },
     {
      "title": "ドイツBMW 2018年以来の24時間ストライキ実施へ",
@@ -271,22 +281,12 @@
     {
      "title": "ロヒンギャ迫害はジェノサイドと認定 国際司法裁判所が判決",
      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78716",
-     "pubDate": "Fri, 20 Nov 2026 06:04:18 +0900"
+     "pubDate": "Fri, 20 Nov 2026 08:26:06 +0900"
     },
     {
      "title": "APEC首脳会議 高市首相“ルールに基づく国際経済秩序が重要”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78693",
      "pubDate": "Thu, 19 Nov 2026 21:39:16 +0900"
-    },
-    {
-     "title": "国連人口基金トップ “紛争地域の若者増加 国際支援の継続を”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261119de78674",
-     "pubDate": "Thu, 19 Nov 2026 20:20:00 +0900"
-    },
-    {
-     "title": "韓国 前大統領夫人 懲役4年の判決確定 旧統一教会から高級品",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261119de78662",
-     "pubDate": "Thu, 19 Nov 2026 20:14:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "APECが閉幕 AI活用の推進で一致",
-     "link": "https://news.yahoo.co.jp/pickup/6603210?source=rss",
-     "pubDate": "Thu, 19 Nov 2026 13:23:12 GMT"
+     "title": "米国頼みの高市外交 限界浮き彫り",
+     "link": "https://news.yahoo.co.jp/pickup/6603256?source=rss",
+     "pubDate": "Fri, 20 Nov 2026 02:24:51 GMT"
     },
     {
-     "title": "アンソロピック 米ナスダック上場",
-     "link": "https://news.yahoo.co.jp/pickup/6603220?source=rss",
-     "pubDate": "Thu, 19 Nov 2026 14:50:41 GMT"
+     "title": "日経平均 一時2800円以上値下がり",
+     "link": "https://news.yahoo.co.jp/pickup/6603248?source=rss",
+     "pubDate": "Fri, 20 Nov 2026 01:12:04 GMT"
     },
     {
-     "title": "高市首相を「冷遇」? 中国が反論",
-     "link": "https://news.yahoo.co.jp/pickup/6603208?source=rss",
-     "pubDate": "Thu, 19 Nov 2026 13:03:28 GMT"
+     "title": "10月の消費者物価指数 2.2%上昇",
+     "link": "https://news.yahoo.co.jp/pickup/6603241?source=rss",
+     "pubDate": "Fri, 20 Nov 2026 00:49:54 GMT"
     },
     {
-     "title": "千葉3人切りつけ事件 男を再逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6603214?source=rss",
-     "pubDate": "Thu, 19 Nov 2026 13:47:35 GMT"
+     "title": "楽天証券へ訴訟準備 1.5万人登録",
+     "link": "https://news.yahoo.co.jp/pickup/6603257?source=rss",
+     "pubDate": "Fri, 20 Nov 2026 02:29:20 GMT"
     },
     {
-     "title": "楽天証券に対し集団訴訟の動き",
-     "link": "https://news.yahoo.co.jp/pickup/6603224?source=rss",
-     "pubDate": "Thu, 19 Nov 2026 21:42:41 GMT"
+     "title": "人気の米のカバ死ぬ ニット帽誤飲",
+     "link": "https://news.yahoo.co.jp/pickup/6603251?source=rss",
+     "pubDate": "Fri, 20 Nov 2026 01:41:37 GMT"
     },
     {
-     "title": "ちいかわ寿司皿 抽選配布の問題点",
-     "link": "https://news.yahoo.co.jp/pickup/6603182?source=rss",
-     "pubDate": "Thu, 19 Nov 2026 11:23:53 GMT"
+     "title": "空港で靴磨き 航空会社の元社長",
+     "link": "https://news.yahoo.co.jp/pickup/6603252?source=rss",
+     "pubDate": "Fri, 20 Nov 2026 01:41:41 GMT"
     },
     {
-     "title": "地面師たち 新シリーズの制作決定",
-     "link": "https://news.yahoo.co.jp/pickup/6603223?source=rss",
-     "pubDate": "Thu, 19 Nov 2026 21:31:41 GMT"
+     "title": "故ピート・ローズ氏に死後恩赦",
+     "link": "https://news.yahoo.co.jp/pickup/6603240?source=rss",
+     "pubDate": "Fri, 20 Nov 2026 00:15:19 GMT"
     },
     {
-     "title": "高畑充希「FIRST TAKE」に初挑戦",
-     "link": "https://news.yahoo.co.jp/pickup/6603222?source=rss",
-     "pubDate": "Thu, 19 Nov 2026 21:23:25 GMT"
+     "title": "M!LK曽野舜太 初の恋愛映画出演",
+     "link": "https://news.yahoo.co.jp/pickup/6603254?source=rss",
+     "pubDate": "Fri, 20 Nov 2026 02:19:33 GMT"
     }
    ]
   }
