@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T10:38:31.185Z",
+ "updatedAt": "2026-11-20T18:52:50.637Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "仙台と山形結ぶ国道 大雪で一時車50台動けず 状況はほぼ解消",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79196",
-     "pubDate": "Fri, 20 Nov 2026 19:20:10 +0900"
+     "title": "日本海側で荒天 山沿いでは積雪増 強い冬型の気圧配置",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78769",
+     "pubDate": "Fri, 20 Nov 2026 21:16:00 +0900"
+    },
+    {
+     "title": "関文科相 2024年に ほかに3回省庁職員が出席のパーティー開催",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79430",
+     "pubDate": "Fri, 20 Nov 2026 22:21:12 +0900"
+    },
+    {
+     "title": "ナスダック指数が一時3%超の下落 アンソロピック14％安",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79481",
+     "pubDate": "Sat, 21 Nov 2026 03:20:33 +0900"
+    },
+    {
+     "title": "長野 国道142号の新和田トンネル付近 車の滞留が解消",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79424",
+     "pubDate": "Fri, 20 Nov 2026 23:58:26 +0900"
+    },
+    {
+     "title": "高市首相 ICCの赤根所長と来週面会へ 支持方針を伝達か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79444",
+     "pubDate": "Fri, 20 Nov 2026 22:38:33 +0900"
     },
     {
      "title": "日本とサウジアラビア 原油の備蓄可能量 3倍で合意",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de79347",
-     "pubDate": "Fri, 20 Nov 2026 18:46:47 +0900"
-    },
-    {
-     "title": "日本海側で荒天 山沿いでは積雪増 強い冬型の気圧配置",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78769",
-     "pubDate": "Fri, 20 Nov 2026 19:05:00 +0900"
+     "pubDate": "Fri, 20 Nov 2026 18:46:00 +0900"
     },
     {
      "title": "物価高 アイスは値上げ 居酒屋やピザ店は低価格で 農家は悲鳴",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78800",
-     "pubDate": "Fri, 20 Nov 2026 19:02:29 +0900"
-    },
-    {
-     "title": "日中関係「良好だと思わず」93％ 過去最も高く 内閣府世論調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79242",
-     "pubDate": "Fri, 20 Nov 2026 18:15:00 +0900"
-    },
-    {
-     "title": "木原長官 高市首相の中国到着時に段差 \"事前情報あり安全配慮\"",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79342",
-     "pubDate": "Fri, 20 Nov 2026 18:53:09 +0900"
-    },
-    {
-     "title": "ネパールで日本人35人拘束 特殊詐欺に関与か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79345",
-     "pubDate": "Fri, 20 Nov 2026 19:07:59 +0900"
+     "pubDate": "Fri, 20 Nov 2026 19:02:00 +0900"
     }
    ]
   },
@@ -50,9 +50,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "東京消防庁 職員5人をわいせつ行為などで懲戒処分",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79455",
+     "pubDate": "Fri, 20 Nov 2026 23:51:29 +0900"
+    },
+    {
+     "title": "政府ネットワークに不正アクセス 情報漏えい可能性 デジタル庁",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79445",
+     "pubDate": "Fri, 20 Nov 2026 22:35:23 +0900"
+    },
+    {
+     "title": "大崎電気 ネット上に技術情報の掲載確認 ランサムウエア攻撃で",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79441",
+     "pubDate": "Fri, 20 Nov 2026 22:28:36 +0900"
+    },
+    {
+     "title": "EV補助金 きょうで申請受け付け終了",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79443",
+     "pubDate": "Fri, 20 Nov 2026 22:18:07 +0900"
+    },
+    {
+     "title": "サイバー被害拡大防止へ アクセス抑止策を検討する初会合",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79437",
+     "pubDate": "Fri, 20 Nov 2026 21:44:59 +0900"
+    },
+    {
+     "title": "長野 国道142号の新和田トンネル付近 車の滞留が解消",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79424",
+     "pubDate": "Fri, 20 Nov 2026 23:58:26 +0900"
+    },
+    {
      "title": "KARTE 不正アクセス 情報漏えいや漏えいおそれ のべ約2200社に",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de79350",
-     "pubDate": "Fri, 20 Nov 2026 19:34:29 +0900"
+     "pubDate": "Fri, 20 Nov 2026 20:03:54 +0900"
     },
     {
      "title": "介護医療院でのみとり支援へ加算新設方針 厚生労働省",
@@ -93,36 +123,6 @@
      "title": "JR四ツ谷駅で除草の仕事するヤギ 早期退職へ 草を食べ尽くす",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de79120",
      "pubDate": "Fri, 20 Nov 2026 16:57:00 +0900"
-    },
-    {
-     "title": "来春卒業予定の大学生 就職内定率73％ 去年とほぼ同水準",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79029",
-     "pubDate": "Fri, 20 Nov 2026 16:48:28 +0900"
-    },
-    {
-     "title": "高知空港に米軍の戦闘機1機が緊急着陸 民間航空機など影響なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79057",
-     "pubDate": "Fri, 20 Nov 2026 15:34:27 +0900"
-    },
-    {
-     "title": "群馬 伊勢崎 3人死亡事故 元運転手 懲役20年の判決が確定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78984",
-     "pubDate": "Fri, 20 Nov 2026 14:07:00 +0900"
-    },
-    {
-     "title": "大阪 枚方 3歳女児死亡 父親のスマホに暴行事件当日の動画保存",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79000",
-     "pubDate": "Fri, 20 Nov 2026 14:05:00 +0900"
-    },
-    {
-     "title": "「ポケットチェンジ」パスポート番号2万件余流出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78976",
-     "pubDate": "Fri, 20 Nov 2026 13:42:22 +0900"
-    },
-    {
-     "title": "関文科相“パーティー法令のっとり開催 今後はあり方検討”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78837",
-     "pubDate": "Fri, 20 Nov 2026 19:35:37 +0900"
     }
    ]
   },
@@ -131,6 +131,21 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "湘南美容クリニックなど展開のグループ 顧客情報など流出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79453",
+     "pubDate": "Fri, 20 Nov 2026 22:50:49 +0900"
+    },
+    {
+     "title": "ピーチ・アビエーション 不正アクセス約900万件個人情報漏えい",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79434",
+     "pubDate": "Fri, 20 Nov 2026 22:25:44 +0900"
+    },
+    {
+     "title": "サイバー被害拡大防止へ アクセス抑止策を検討する初会合",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79437",
+     "pubDate": "Fri, 20 Nov 2026 21:44:59 +0900"
+    },
     {
      "title": "宇宙産業の集積を目指す北海道の視察団 先進地のフロリダに",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de79031",
@@ -190,21 +205,6 @@
      "title": "JASRAC音楽文化賞 東日本大震災被災地などでの音楽教育団体ら",
      "link": "https://news.web.nhk/newsweb/na/nd-20261118de77941",
      "pubDate": "Wed, 18 Nov 2026 20:56:10 +0900"
-    },
-    {
-     "title": "歌手の太田裕美さん死去 71歳「木綿のハンカチーフ」大ヒット",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77513",
-     "pubDate": "Thu, 19 Nov 2026 00:38:57 +0900"
-    },
-    {
-     "title": "DHC 顧客の個人情報1911万件流出 「プレイド」不正アクセスで",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77979",
-     "pubDate": "Wed, 18 Nov 2026 19:04:48 +0900"
-    },
-    {
-     "title": "三菱UFJグループ漏えい相次ぐ 銀行は顧客情報約650万件流出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77737",
-     "pubDate": "Wed, 18 Nov 2026 18:26:03 +0900"
     }
    ]
   },
@@ -213,6 +213,56 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "ナスダック指数が一時3%超の下落 アンソロピック14％安",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79481",
+     "pubDate": "Sat, 21 Nov 2026 03:20:33 +0900"
+    },
+    {
+     "title": "トランプ大統領がMLB選手のピート・ローズ氏に恩赦",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79436",
+     "pubDate": "Fri, 20 Nov 2026 23:44:09 +0900"
+    },
+    {
+     "title": "高市首相 ICCの赤根所長と来週面会へ 支持方針を伝達か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79444",
+     "pubDate": "Fri, 20 Nov 2026 22:38:33 +0900"
+    },
+    {
+     "title": "米中ロ首脳会談“国際秩序の変化を象徴” 世界 日本への影響は",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79408",
+     "pubDate": "Fri, 20 Nov 2026 22:04:04 +0900"
+    },
+    {
+     "title": "中国外務省 高市首相の台湾めぐる説明に「誤った言動是正を」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79438",
+     "pubDate": "Fri, 20 Nov 2026 21:40:26 +0900"
+    },
+    {
+     "title": "ペルー ケイコ・フジモリ大統領“米中双方と連携 対話を歓迎”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79417",
+     "pubDate": "Fri, 20 Nov 2026 23:35:56 +0900"
+    },
+    {
+     "title": "日本チリ首脳会談 法の支配に基づく国際秩序の維持強化で協力",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79403",
+     "pubDate": "Fri, 20 Nov 2026 20:28:38 +0900"
+    },
+    {
+     "title": "COP31 会期最終日 難航する交渉で合意なるか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79374",
+     "pubDate": "Fri, 20 Nov 2026 20:21:21 +0900"
+    },
+    {
+     "title": "ミャンマー政権側 ICJ判決に「不公平」と反発",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79373",
+     "pubDate": "Fri, 20 Nov 2026 20:13:00 +0900"
+    },
+    {
+     "title": "日本 ペルー首脳会談 重要鉱物の安定供給に向けた連携で一致",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79377",
+     "pubDate": "Fri, 20 Nov 2026 19:53:53 +0900"
+    },
     {
      "title": "宇宙産業の集積を目指す北海道の視察団 先進地のフロリダに",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de79031",
@@ -226,67 +276,17 @@
     {
      "title": "ネパールで日本人35人拘束 特殊詐欺に関与か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de79345",
-     "pubDate": "Fri, 20 Nov 2026 19:07:59 +0900"
+     "pubDate": "Fri, 20 Nov 2026 19:07:00 +0900"
     },
     {
      "title": "木原長官 高市首相の中国到着時に段差 \"事前情報あり安全配慮\"",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de79342",
-     "pubDate": "Fri, 20 Nov 2026 18:53:09 +0900"
+     "pubDate": "Fri, 20 Nov 2026 19:50:58 +0900"
     },
     {
      "title": "「外国代理人」登録制度 “身分偽り公務員に接触は罰則対象”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de79258",
-     "pubDate": "Fri, 20 Nov 2026 18:17:41 +0900"
-    },
-    {
-     "title": "日中関係「良好だと思わず」93％ 過去最も高く 内閣府世論調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79242",
-     "pubDate": "Fri, 20 Nov 2026 18:15:00 +0900"
-    },
-    {
-     "title": "愛子さま 民族料理の屋台が集まる交流の拠点など訪問",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78827",
-     "pubDate": "Fri, 20 Nov 2026 17:43:12 +0900"
-    },
-    {
-     "title": "ペルー フジモリ大統領 日本からの投資や企業進出を呼びかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79139",
-     "pubDate": "Fri, 20 Nov 2026 17:16:00 +0900"
-    },
-    {
-     "title": "高知空港に米軍の戦闘機1機が緊急着陸 民間航空機など影響なし",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79057",
-     "pubDate": "Fri, 20 Nov 2026 15:34:27 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（11月20日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67095",
-     "pubDate": "Fri, 20 Nov 2026 15:14:00 +0900"
-    },
-    {
-     "title": "トランプ大統領 アジア訪問終えホワイトハウスに 各国の反応は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78820",
-     "pubDate": "Fri, 20 Nov 2026 16:02:55 +0900"
-    },
-    {
-     "title": "気候変動の偽情報投稿 国連「対策の障害に」日本も増加 注意を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78810",
-     "pubDate": "Fri, 20 Nov 2026 10:32:40 +0900"
-    },
-    {
-     "title": "独首相「ヤルタ形式平和もたらさず」 大国外交をけん制",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78778",
-     "pubDate": "Fri, 20 Nov 2026 09:18:34 +0900"
-    },
-    {
-     "title": "COP31 最終日を前に温室効果ガス排出の削減方法などめぐり対立",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78746",
-     "pubDate": "Fri, 20 Nov 2026 06:49:00 +0900"
-    },
-    {
-     "title": "米中ロ首脳会談の影響注視 同盟国・同志国と連携強化 日本政府",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78749",
-     "pubDate": "Fri, 20 Nov 2026 08:04:33 +0900"
+     "pubDate": "Fri, 20 Nov 2026 20:34:33 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "政府内部資料流出か 不正アクセス",
-     "link": "https://news.yahoo.co.jp/pickup/6603320?source=rss",
-     "pubDate": "Fri, 20 Nov 2026 09:36:38 GMT"
+     "title": "安保3文書素案 原潜「検討着手」",
+     "link": "https://news.yahoo.co.jp/pickup/6603335?source=rss",
+     "pubDate": "Fri, 20 Nov 2026 12:31:19 GMT"
     },
     {
-     "title": "山形の国道 一時50台が立ち往生",
-     "link": "https://news.yahoo.co.jp/pickup/6603325?source=rss",
-     "pubDate": "Fri, 20 Nov 2026 10:01:45 GMT"
+     "title": "EV補助金受け付け終了 予算枯渇",
+     "link": "https://news.yahoo.co.jp/pickup/6603347?source=rss",
+     "pubDate": "Fri, 20 Nov 2026 14:58:48 GMT"
     },
     {
-     "title": "首相が中国到着時 タラップに段差",
-     "link": "https://news.yahoo.co.jp/pickup/6603300?source=rss",
-     "pubDate": "Fri, 20 Nov 2026 07:25:56 GMT"
+     "title": "官僚参加パーティー5件に 文科相",
+     "link": "https://news.yahoo.co.jp/pickup/6603350?source=rss",
+     "pubDate": "Fri, 20 Nov 2026 15:11:22 GMT"
     },
     {
-     "title": "上海で邦人死亡 別の邦人を拘束",
-     "link": "https://news.yahoo.co.jp/pickup/6603308?source=rss",
-     "pubDate": "Fri, 20 Nov 2026 08:31:46 GMT"
+     "title": "ポーランドにミサイル 被害なし",
+     "link": "https://news.yahoo.co.jp/pickup/6603345?source=rss",
+     "pubDate": "Fri, 20 Nov 2026 13:42:05 GMT"
     },
     {
-     "title": "公認会計士 14歳が史上最年少合格",
-     "link": "https://news.yahoo.co.jp/pickup/6603321?source=rss",
-     "pubDate": "Fri, 20 Nov 2026 09:38:47 GMT"
+     "title": "サウジ原油 日本での備蓄3倍合意",
+     "link": "https://news.yahoo.co.jp/pickup/6603336?source=rss",
+     "pubDate": "Fri, 20 Nov 2026 12:32:05 GMT"
     },
     {
-     "title": "横浜市長 市長公舎の廃止方針表明",
-     "link": "https://news.yahoo.co.jp/pickup/6603326?source=rss",
-     "pubDate": "Fri, 20 Nov 2026 10:13:05 GMT"
+     "title": "丸井 EC顧客名など883万件漏えい",
+     "link": "https://news.yahoo.co.jp/pickup/6603344?source=rss",
+     "pubDate": "Fri, 20 Nov 2026 13:31:51 GMT"
     },
     {
-     "title": "カット野菜が進化 選ばれる理由",
-     "link": "https://news.yahoo.co.jp/pickup/6603322?source=rss",
-     "pubDate": "Fri, 20 Nov 2026 09:43:45 GMT"
+     "title": "一時100台ほど車が立ち往生 長野",
+     "link": "https://news.yahoo.co.jp/pickup/6603346?source=rss",
+     "pubDate": "Fri, 20 Nov 2026 14:03:53 GMT"
     },
     {
-     "title": "巨人・坂本勇人が減俸更改 危機感",
-     "link": "https://news.yahoo.co.jp/pickup/6603319?source=rss",
-     "pubDate": "Fri, 20 Nov 2026 09:24:43 GMT"
+     "title": "ハマ・オカモト 活動再開を報告",
+     "link": "https://news.yahoo.co.jp/pickup/6603334?source=rss",
+     "pubDate": "Fri, 20 Nov 2026 12:24:13 GMT"
     }
    ]
   }
