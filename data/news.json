@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T00:23:33.357Z",
+ "updatedAt": "2026-11-21T07:27:50.012Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "冬型の気圧配置 新潟は大雨 北～東日本の山沿いは積雪",
+     "title": "冬型の気圧配置 北～東日本の山沿い中心に積雪増 各地で事故も",
      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79490",
-     "pubDate": "Sat, 21 Nov 2026 07:08:51 +0900"
+     "pubDate": "Sat, 21 Nov 2026 15:38:00 +0900"
     },
     {
-     "title": "【動画】今後の雨と積雪の見通しは 気象予報士解説 （21日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79497",
-     "pubDate": "Sat, 21 Nov 2026 07:34:24 +0900"
+     "title": "福島 北塩原村 倒木で国道通行止め 514世帯948人が孤立状態",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79612",
+     "pubDate": "Sat, 21 Nov 2026 15:31:00 +0900"
     },
     {
-     "title": "関文科相 政治資金パーティーめぐり 野党から辞任要求相次ぐ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79475",
-     "pubDate": "Sat, 21 Nov 2026 06:30:58 +0900"
+     "title": "住宅街にクマ出没の前橋 けさ警察官が目撃 捜索続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79555",
+     "pubDate": "Sat, 21 Nov 2026 11:54:00 +0900"
     },
     {
-     "title": "ナスダック指数が一時5%超の急落 AIブーム持続性に疑問符",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79481",
-     "pubDate": "Sat, 21 Nov 2026 07:01:32 +0900"
+     "title": "東電 資本提携後も重要事項の意思決定に国が拒否権保持 提示",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79559",
+     "pubDate": "Sat, 21 Nov 2026 13:25:01 +0900"
     },
     {
-     "title": "日本企業などから高額収入の海外居住者 課税強化へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79460",
-     "pubDate": "Sat, 21 Nov 2026 05:33:28 +0900"
+     "title": "自民 鈴木幹事長 関文科相問責対応“消費税法案など成立優先”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79553",
+     "pubDate": "Sat, 21 Nov 2026 15:08:00 +0900"
     },
     {
-     "title": "英王立音楽大学が久石譲さんに名誉学位 日本人では初",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79509",
-     "pubDate": "Sat, 21 Nov 2026 07:40:14 +0900"
+     "title": "ゼレンスキー大統領「プーチンは殺人者」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79605",
+     "pubDate": "Sat, 21 Nov 2026 13:22:00 +0900"
     },
     {
-     "title": "日本とサウジアラビア 原油の備蓄可能量 3倍で合意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79347",
-     "pubDate": "Fri, 20 Nov 2026 18:46:00 +0900"
+     "title": "MLB労使交渉難航で織田翔希の交渉も不透明に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79627",
+     "pubDate": "Sat, 21 Nov 2026 14:46:20 +0900"
     }
    ]
   },
@@ -50,6 +50,31 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "メルカリ AIに入力した個人情報漏えいか「リスト型攻撃」も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79616",
+     "pubDate": "Sat, 21 Nov 2026 14:33:40 +0900"
+    },
+    {
+     "title": "住宅街にクマ出没の前橋 けさ警察官が目撃 捜索続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79555",
+     "pubDate": "Sat, 21 Nov 2026 11:54:00 +0900"
+    },
+    {
+     "title": "リニア工事現場付近の川で水吹き上がる JR東海が関連調査 川崎",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79560",
+     "pubDate": "Sat, 21 Nov 2026 11:13:00 +0900"
+    },
+    {
+     "title": "愛子さま マーライオン公園を視察 帰国へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79551",
+     "pubDate": "Sat, 21 Nov 2026 11:00:00 +0900"
+    },
+    {
+     "title": "埼玉 三郷ジャンクション近くの物流施設で火事 消火活動続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79548",
+     "pubDate": "Sat, 21 Nov 2026 10:14:09 +0900"
+    },
+    {
      "title": "英王立音楽大学が久石譲さんに名誉学位 日本人では初",
      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79509",
      "pubDate": "Sat, 21 Nov 2026 07:40:14 +0900"
@@ -57,7 +82,7 @@
     {
      "title": "【動画】Pickup NEWS（11月21日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de79369",
-     "pubDate": "Sat, 21 Nov 2026 06:45:54 +0900"
+     "pubDate": "Sat, 21 Nov 2026 13:45:07 +0900"
     },
     {
      "title": "東京消防庁 職員5人をわいせつ行為などで懲戒処分",
@@ -98,31 +123,6 @@
      "title": "介護医療院でのみとり支援へ加算新設方針 厚生労働省",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de79315",
      "pubDate": "Fri, 20 Nov 2026 18:43:49 +0900"
-    },
-    {
-     "title": "日中関係「良好だと思わず」93％ 過去最も高く 内閣府世論調査",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79242",
-     "pubDate": "Fri, 20 Nov 2026 18:15:00 +0900"
-    },
-    {
-     "title": "埼玉 八潮 道路陥没事故裁判 県が責任認める さいたま地裁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79035",
-     "pubDate": "Fri, 20 Nov 2026 18:14:06 +0900"
-    },
-    {
-     "title": "原子力潜水艦保有に反対する署名をNPOなどが防衛省に提出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79225",
-     "pubDate": "Fri, 20 Nov 2026 17:53:26 +0900"
-    },
-    {
-     "title": "不正アクセス履歴保全チーム『警察庁FFF』発足式",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79090",
-     "pubDate": "Fri, 20 Nov 2026 17:26:00 +0900"
-    },
-    {
-     "title": "柏崎刈羽原発7号機 テロ対策施設 完成「延期」で調整 東京電力",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79137",
-     "pubDate": "Fri, 20 Nov 2026 17:24:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "ノーベル化学賞の※そ合さんスウェーデン大使館の祝賀会に出席",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79457",
+     "pubDate": "Sat, 21 Nov 2026 12:13:00 +0900"
+    },
     {
      "title": "COP31会期を延長 化石燃料からの脱却めぐり対立",
      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79485",
@@ -200,11 +205,6 @@
      "title": "NASA長官「月面で日米の宇宙飛行士が肩を並べる日を楽しみに」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78588",
      "pubDate": "Thu, 19 Nov 2026 18:24:00 +0900"
-    },
-    {
-     "title": "スキー場のエスカレーター事故に注意呼びかけ 消費者事故調",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77875",
-     "pubDate": "Wed, 18 Nov 2026 21:26:52 +0900"
     }
    ]
   },
@@ -214,14 +214,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ナスダック株価指数急落 今週4兆ドル時価総額が消失",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79604",
+     "pubDate": "Sat, 21 Nov 2026 13:33:05 +0900"
+    },
+    {
+     "title": "ゼレンスキー大統領「プーチンは殺人者」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79605",
+     "pubDate": "Sat, 21 Nov 2026 13:22:00 +0900"
+    },
+    {
+     "title": "仏大統領選元首相立候補表明 極右ルペン氏支持トップ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79545",
+     "pubDate": "Sat, 21 Nov 2026 11:18:47 +0900"
+    },
+    {
+     "title": "トランプ大統領 米国外のデータセンター建設認めず 罰則も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79543",
+     "pubDate": "Sat, 21 Nov 2026 10:16:00 +0900"
+    },
+    {
      "title": "国連事務総長は9回目の投票も決まらず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79510",
-     "pubDate": "Sat, 21 Nov 2026 07:51:29 +0900"
+     "pubDate": "Sat, 21 Nov 2026 07:51:00 +0900"
     },
     {
      "title": "米財務長官 米中で「軍事決定はAIでなく人間が関与」合意",
      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79483",
-     "pubDate": "Sat, 21 Nov 2026 07:44:13 +0900"
+     "pubDate": "Sat, 21 Nov 2026 07:44:00 +0900"
     },
     {
      "title": "英王立音楽大学が久石譲さんに名誉学位 日本人では初",
@@ -267,26 +287,6 @@
      "title": "高市首相 ICCの赤根所長と来週面会へ 支持方針を伝達か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de79444",
      "pubDate": "Sat, 21 Nov 2026 05:26:38 +0900"
-    },
-    {
-     "title": "米中ロ首脳会談“国際秩序の変化を象徴” 世界 日本への影響は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79408",
-     "pubDate": "Fri, 20 Nov 2026 22:04:04 +0900"
-    },
-    {
-     "title": "中国外務省 高市首相の台湾めぐる説明に「誤った言動是正を」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79438",
-     "pubDate": "Fri, 20 Nov 2026 21:40:26 +0900"
-    },
-    {
-     "title": "ペルー ケイコ・フジモリ大統領“米中双方と連携 対話を歓迎”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79417",
-     "pubDate": "Sat, 21 Nov 2026 06:50:42 +0900"
-    },
-    {
-     "title": "日本チリ首脳会談 法の支配に基づく国際秩序の維持強化で協力",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79403",
-     "pubDate": "Fri, 20 Nov 2026 20:28:38 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "首相 APECで台湾代表と会談せず",
-     "link": "https://news.yahoo.co.jp/pickup/6603354?source=rss",
-     "pubDate": "Fri, 20 Nov 2026 22:36:38 GMT"
+     "title": "文科相交代の可能性示唆 自民党",
+     "link": "https://news.yahoo.co.jp/pickup/6603410?source=rss",
+     "pubDate": "Sat, 21 Nov 2026 06:31:42 GMT"
     },
     {
-     "title": "外国代理人 届け出義務3要件整理",
-     "link": "https://news.yahoo.co.jp/pickup/6603362?source=rss",
-     "pubDate": "Fri, 20 Nov 2026 23:10:14 GMT"
+     "title": "AIでリーマン予想証明か 精査続く",
+     "link": "https://news.yahoo.co.jp/pickup/6603398?source=rss",
+     "pubDate": "Sat, 21 Nov 2026 04:59:13 GMT"
     },
     {
-     "title": "首相中国到着時の段差 木原氏説明",
-     "link": "https://news.yahoo.co.jp/pickup/6603366?source=rss",
-     "pubDate": "Fri, 20 Nov 2026 23:46:23 GMT"
+     "title": "大雪影響で千人超が孤立状態 福島",
+     "link": "https://news.yahoo.co.jp/pickup/6603404?source=rss",
+     "pubDate": "Sat, 21 Nov 2026 06:14:38 GMT"
     },
     {
-     "title": "「リーマン予想」生成AIが証明か",
-     "link": "https://news.yahoo.co.jp/pickup/6603360?source=rss",
-     "pubDate": "Fri, 20 Nov 2026 22:51:15 GMT"
+     "title": "デンマークで暗殺阻止 露が計画か",
+     "link": "https://news.yahoo.co.jp/pickup/6603402?source=rss",
+     "pubDate": "Sat, 21 Nov 2026 05:47:10 GMT"
     },
     {
-     "title": "「精子力」チェック 受ける意義",
-     "link": "https://news.yahoo.co.jp/pickup/6603371?source=rss",
-     "pubDate": "Sat, 21 Nov 2026 00:16:42 GMT"
+     "title": "執行中に死刑囚が激痛訴える 米",
+     "link": "https://news.yahoo.co.jp/pickup/6603384?source=rss",
+     "pubDate": "Sat, 21 Nov 2026 02:06:22 GMT"
     },
     {
-     "title": "異例 大谷がNBと引退まで契約",
-     "link": "https://news.yahoo.co.jp/pickup/6603369?source=rss",
-     "pubDate": "Fri, 20 Nov 2026 23:41:43 GMT"
+     "title": "中国人遭難で「懸賞金」県の懸念",
+     "link": "https://news.yahoo.co.jp/pickup/6603405?source=rss",
+     "pubDate": "Sat, 21 Nov 2026 05:59:37 GMT"
     },
     {
-     "title": "オリックス宗佑磨 DeNA入り決断",
-     "link": "https://news.yahoo.co.jp/pickup/6603351?source=rss",
-     "pubDate": "Fri, 20 Nov 2026 22:20:13 GMT"
+     "title": "入浴週1回 生活保護男性「惨め」",
+     "link": "https://news.yahoo.co.jp/pickup/6603400?source=rss",
+     "pubDate": "Sat, 21 Nov 2026 05:32:37 GMT"
     },
     {
-     "title": "レコード大賞 優秀作品賞10作発表",
-     "link": "https://news.yahoo.co.jp/pickup/6603353?source=rss",
-     "pubDate": "Fri, 20 Nov 2026 22:38:52 GMT"
+     "title": "山本學89歳 軽度認知障害の今",
+     "link": "https://news.yahoo.co.jp/pickup/6603414?source=rss",
+     "pubDate": "Sat, 21 Nov 2026 07:14:45 GMT"
     }
    ]
   }
