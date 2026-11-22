@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T07:34:02.421Z",
+ "updatedAt": "2026-11-22T15:43:43.125Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -42,7 +42,8 @@
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79948",
      "pubDate": "Sun, 22 Nov 2026 16:22:28 +0900"
     }
-   ]
+   ],
+   "stale": true
   },
   "nhk1": {
    "label": "NHK 社会",
@@ -124,7 +125,8 @@
      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79734",
      "pubDate": "Sat, 21 Nov 2026 20:13:00 +0900"
     }
-   ]
+   ],
+   "stale": true
   },
   "nhk3": {
    "label": "NHK 科学・文化",
@@ -206,7 +208,8 @@
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78738",
      "pubDate": "Fri, 20 Nov 2026 13:24:50 +0900"
     }
-   ]
+   ],
+   "stale": true
   },
   "nhk6": {
    "label": "NHK 国際",
@@ -288,7 +291,8 @@
      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79510",
      "pubDate": "Sat, 21 Nov 2026 07:51:00 +0900"
     }
-   ]
+   ],
+   "stale": true
   },
   "yahoo": {
    "label": "Yahoo!トピックス",
@@ -296,44 +300,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "首里城正殿 完成祝うテープカット",
-     "link": "https://news.yahoo.co.jp/pickup/6603553?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 06:29:31 GMT"
+     "title": "COP31合意採択断念 EUなど反対",
+     "link": "https://news.yahoo.co.jp/pickup/6603603?source=rss",
+     "pubDate": "Sun, 22 Nov 2026 12:43:52 GMT"
     },
     {
-     "title": "福島の大雪 滞在者ら孤立状態解消",
-     "link": "https://news.yahoo.co.jp/pickup/6603560?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 07:18:07 GMT"
+     "title": "文科相の「交代示唆」木原氏否定",
+     "link": "https://news.yahoo.co.jp/pickup/6603601?source=rss",
+     "pubDate": "Sun, 22 Nov 2026 12:39:35 GMT"
     },
     {
-     "title": "益永死刑囚が死亡 連続企業爆破",
-     "link": "https://news.yahoo.co.jp/pickup/6603563?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 07:31:35 GMT"
+     "title": "参政党が首長選に積極擁立 狙い",
+     "link": "https://news.yahoo.co.jp/pickup/6603611?source=rss",
+     "pubDate": "Sun, 22 Nov 2026 14:22:39 GMT"
     },
     {
-     "title": "12歳男子中学生が行方不明 郡山市",
-     "link": "https://news.yahoo.co.jp/pickup/6603546?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 05:33:04 GMT"
+     "title": "社員を監禁疑い 社長ら4人逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6603608?source=rss",
+     "pubDate": "Sun, 22 Nov 2026 13:36:08 GMT"
     },
     {
-     "title": "「夜職」相次ぐ海外入国トラブル",
-     "link": "https://news.yahoo.co.jp/pickup/6603554?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 06:36:19 GMT"
+     "title": "アンソロピックIPO巡り銀行に制約",
+     "link": "https://news.yahoo.co.jp/pickup/6603609?source=rss",
+     "pubDate": "Sun, 22 Nov 2026 13:45:03 GMT"
     },
     {
-     "title": "桑田真澄氏58歳が118キロ球 騒然",
-     "link": "https://news.yahoo.co.jp/pickup/6603545?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 05:22:21 GMT"
+     "title": "田中希実らの失格撤回 大会側説明",
+     "link": "https://news.yahoo.co.jp/pickup/6603607?source=rss",
+     "pubDate": "Sun, 22 Nov 2026 13:30:32 GMT"
     },
     {
-     "title": "元GKシュナイダー潤之介さん死去",
-     "link": "https://news.yahoo.co.jp/pickup/6603539?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 04:19:29 GMT"
+     "title": "ゴルフ佐久間朱莉がSNSに謝罪文",
+     "link": "https://news.yahoo.co.jp/pickup/6603613?source=rss",
+     "pubDate": "Sun, 22 Nov 2026 14:30:41 GMT"
     },
     {
-     "title": "麒麟・田村 スキンヘッドを披露",
-     "link": "https://news.yahoo.co.jp/pickup/6603558?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 06:55:20 GMT"
+     "title": "ジュノンボーイGPの高3 12kg減量",
+     "link": "https://news.yahoo.co.jp/pickup/6603605?source=rss",
+     "pubDate": "Sun, 22 Nov 2026 13:25:15 GMT"
     }
    ]
   }
