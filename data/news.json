@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T15:43:43.125Z",
+ "updatedAt": "2026-11-22T21:20:43.278Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,42 +8,41 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
+     "title": "COP31成果文書採択断念 化石燃料からの脱却言及なしに反発の声",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79933",
+     "pubDate": "Mon, 23 Nov 2026 04:45:05 +0900"
+    },
+    {
+     "title": "野党 関文科相辞任求める声強まる 木原官房長官“説明が重要”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80109",
+     "pubDate": "Mon, 23 Nov 2026 06:18:21 +0900"
+    },
+    {
+     "title": "住宅街にクマ出没の前橋 地下水路に潜んでいる可能性 警戒続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de80089",
+     "pubDate": "Mon, 23 Nov 2026 06:01:06 +0900"
+    },
+    {
+     "title": "インドネシアの製菓工場で火災 3人死亡 36人行方不明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80121",
+     "pubDate": "Mon, 23 Nov 2026 05:40:07 +0900"
+    },
+    {
+     "title": "ウクライナ キーウ近郊に攻撃 4人死亡 ロシアの攻撃激化",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80114",
+     "pubDate": "Mon, 23 Nov 2026 05:19:29 +0900"
+    },
+    {
      "title": "「東アジア反日武装戦線」メンバーの死刑囚が東京拘置所で死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79958",
-     "pubDate": "Sun, 22 Nov 2026 15:55:00 +0900"
+     "pubDate": "Sun, 22 Nov 2026 20:37:59 +0900"
     },
     {
-     "title": "タワーレコード 不正アクセスで約1100万件の個人情報流出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79936",
-     "pubDate": "Sun, 22 Nov 2026 15:11:18 +0900"
-    },
-    {
-     "title": "日本の探査機「みお」水星の周回軌道に投入 欧州の探査機と",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79873",
-     "pubDate": "Sun, 22 Nov 2026 14:29:38 +0900"
-    },
-    {
-     "title": "「いい夫婦の日」に夫婦岩で愛を叫ぶ催し 三重 伊勢",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79954",
-     "pubDate": "Sun, 22 Nov 2026 16:15:12 +0900"
-    },
-    {
-     "title": "福島 北塩原村 宿泊客帰宅開始も514世帯孤立 猪苗代町でも孤立",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79781",
-     "pubDate": "Sun, 22 Nov 2026 14:13:04 +0900"
-    },
-    {
-     "title": "六花亭に不正アクセス クレカ情報不正利用とみられる被害確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79904",
-     "pubDate": "Sun, 22 Nov 2026 14:02:00 +0900"
-    },
-    {
-     "title": "大相撲九州場所 十両優勝は若隆景 緊急手術経て3場所ぶり復帰",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79948",
-     "pubDate": "Sun, 22 Nov 2026 16:22:28 +0900"
+     "title": "韓国 大学入試 スマートグラスなどの対策で混乱 教育相が辞意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de80041",
+     "pubDate": "Sun, 22 Nov 2026 20:21:50 +0900"
     }
-   ],
-   "stale": true
+   ]
   },
   "nhk1": {
    "label": "NHK 社会",
@@ -51,9 +50,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "住宅街にクマ出没の前橋 地下水路に潜んでいる可能性 警戒続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de80089",
+     "pubDate": "Mon, 23 Nov 2026 06:01:06 +0900"
+    },
+    {
+     "title": "COP31成果文書採択断念 化石燃料からの脱却言及なしに反発の声",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79933",
+     "pubDate": "Mon, 23 Nov 2026 04:45:05 +0900"
+    },
+    {
+     "title": "福島 国道459号の通行止め解除 北塩原村の孤立状態ほぼ解消",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de80050",
+     "pubDate": "Sun, 22 Nov 2026 18:57:00 +0900"
+    },
+    {
+     "title": "木原官房長官 普天間負担軽減の推進会議 年内にも開催の方針",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de80018",
+     "pubDate": "Sun, 22 Nov 2026 18:36:58 +0900"
+    },
+    {
+     "title": "千葉 印旛沼の堤防決壊 コメ作りに影響 鋭いトゲのオニビシも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79985",
+     "pubDate": "Sun, 22 Nov 2026 18:11:00 +0900"
+    },
+    {
      "title": "高知空港に緊急着陸した米軍戦闘機が離陸",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79957",
-     "pubDate": "Sun, 22 Nov 2026 16:18:10 +0900"
+     "pubDate": "Sun, 22 Nov 2026 16:18:00 +0900"
     },
     {
      "title": "「いい夫婦の日」に夫婦岩で愛を叫ぶ催し 三重 伊勢",
@@ -63,7 +87,7 @@
     {
      "title": "「東アジア反日武装戦線」メンバーの死刑囚が東京拘置所で死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79958",
-     "pubDate": "Sun, 22 Nov 2026 15:55:00 +0900"
+     "pubDate": "Sun, 22 Nov 2026 20:37:59 +0900"
     },
     {
      "title": "福島 北塩原村 宿泊客帰宅開始も514世帯孤立 猪苗代町でも孤立",
@@ -76,9 +100,9 @@
      "pubDate": "Sun, 22 Nov 2026 14:02:00 +0900"
     },
     {
-     "title": "火災で焼失の首里城正殿 午後から国主催の復元完成式 沖縄",
+     "title": "沖縄 首里城正殿が復元“二度と失われないよう つないでいく”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79841",
-     "pubDate": "Sun, 22 Nov 2026 11:15:23 +0900"
+     "pubDate": "Sun, 22 Nov 2026 18:06:00 +0900"
     },
     {
      "title": "ホテル更衣室で保育園児など盗撮疑い 福島県警の行政職員逮捕",
@@ -86,47 +110,21 @@
      "pubDate": "Sun, 22 Nov 2026 07:29:44 +0900"
     },
     {
-     "title": "【動画】Pickup NEWS（11月22日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79711",
-     "pubDate": "Sun, 22 Nov 2026 13:59:20 +0900"
-    },
-    {
      "title": "暗号資産利用者の申告漏れ多く 国税当局が調査体制強化へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79765",
      "pubDate": "Sun, 22 Nov 2026 05:51:00 +0900"
     },
     {
-     "title": "前橋 市街地に出没のクマ見つからず 無人カメラで暗きょ捜索へ",
+     "title": "クマは地下水路に? 内部調査も姿は確認できず 警戒続く前橋",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79777",
-     "pubDate": "Sun, 22 Nov 2026 12:26:00 +0900"
+     "pubDate": "Sun, 22 Nov 2026 20:45:28 +0900"
     },
     {
      "title": "沖縄 火災で焼失の首里城正殿 きょう国主催の「復元完成式」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79741",
      "pubDate": "Sun, 22 Nov 2026 04:50:00 +0900"
-    },
-    {
-     "title": "香川 JR予讃線信号トラブル 特急など約6時間立往生も運転再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79790",
-     "pubDate": "Sun, 22 Nov 2026 06:14:00 +0900"
-    },
-    {
-     "title": "山形新幹線 早朝の一部列車を除き通常運転の見通し",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79780",
-     "pubDate": "Sun, 22 Nov 2026 04:27:02 +0900"
-    },
-    {
-     "title": "金塊4億円相当や現金約2500万円など盗まれる 兵庫 西宮の住宅",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79776",
-     "pubDate": "Sun, 22 Nov 2026 00:03:00 +0900"
-    },
-    {
-     "title": "将棋の福間香奈女流四冠 第2子の妊娠を公表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79734",
-     "pubDate": "Sat, 21 Nov 2026 20:13:00 +0900"
     }
-   ],
-   "stale": true
+   ]
   },
   "nhk3": {
    "label": "NHK 科学・文化",
@@ -208,14 +206,33 @@
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78738",
      "pubDate": "Fri, 20 Nov 2026 13:24:50 +0900"
     }
-   ],
-   "stale": true
+   ]
   },
   "nhk6": {
    "label": "NHK 国際",
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "インドネシアの製菓工場で火災 3人死亡 36人行方不明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80121",
+     "pubDate": "Mon, 23 Nov 2026 05:40:07 +0900"
+    },
+    {
+     "title": "ウクライナ キーウ近郊に攻撃 4人死亡 ロシアの攻撃激化",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80114",
+     "pubDate": "Mon, 23 Nov 2026 05:19:29 +0900"
+    },
+    {
+     "title": "COP31成果文書採択断念 化石燃料からの脱却言及なしに反発の声",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79933",
+     "pubDate": "Mon, 23 Nov 2026 04:45:05 +0900"
+    },
+    {
+     "title": "韓国 大学入試 スマートグラスなどの対策で混乱 教育相が辞意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de80041",
+     "pubDate": "Sun, 22 Nov 2026 20:21:50 +0900"
+    },
     {
      "title": "フィンランド沖 ロシアの貨物船に無人機攻撃 ウクライナ関与か",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79863",
@@ -270,29 +287,8 @@
      "title": "ナスダック株価指数急落 今週4兆ドル時価総額が消失",
      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79604",
      "pubDate": "Sat, 21 Nov 2026 13:33:00 +0900"
-    },
-    {
-     "title": "ゼレンスキー大統領「私たちにとってプーチンは殺人者」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79605",
-     "pubDate": "Sat, 21 Nov 2026 13:22:00 +0900"
-    },
-    {
-     "title": "仏大統領選元首相立候補表明 極右ルペン氏支持トップ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79545",
-     "pubDate": "Sat, 21 Nov 2026 11:18:47 +0900"
-    },
-    {
-     "title": "トランプ大統領 米国外のデータセンター建設認めず 罰則も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79543",
-     "pubDate": "Sat, 21 Nov 2026 10:16:00 +0900"
-    },
-    {
-     "title": "国連事務総長は9回目の投票も決まらず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79510",
-     "pubDate": "Sat, 21 Nov 2026 07:51:00 +0900"
     }
-   ],
-   "stale": true
+   ]
   },
   "yahoo": {
    "label": "Yahoo!トピックス",
