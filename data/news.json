@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T00:54:47.393Z",
+ "updatedAt": "2026-11-22T07:34:02.421Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "日本海側中心に雨や雪 新潟では土砂災害に厳重警戒を",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79767",
-     "pubDate": "Sun, 22 Nov 2026 06:57:00 +0900"
+     "title": "「東アジア反日武装戦線」メンバーの死刑囚が東京拘置所で死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79958",
+     "pubDate": "Sun, 22 Nov 2026 15:55:00 +0900"
     },
     {
-     "title": "福島 北塩原村で国道通行止め 住民や宿泊客の孤立状態続く",
+     "title": "タワーレコード 不正アクセスで約1100万件の個人情報流出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79936",
+     "pubDate": "Sun, 22 Nov 2026 15:11:18 +0900"
+    },
+    {
+     "title": "日本の探査機「みお」水星の周回軌道に投入 欧州の探査機と",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79873",
+     "pubDate": "Sun, 22 Nov 2026 14:29:38 +0900"
+    },
+    {
+     "title": "「いい夫婦の日」に夫婦岩で愛を叫ぶ催し 三重 伊勢",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79954",
+     "pubDate": "Sun, 22 Nov 2026 16:15:12 +0900"
+    },
+    {
+     "title": "福島 北塩原村 宿泊客帰宅開始も514世帯孤立 猪苗代町でも孤立",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79781",
-     "pubDate": "Sun, 22 Nov 2026 05:02:31 +0900"
+     "pubDate": "Sun, 22 Nov 2026 14:13:04 +0900"
     },
     {
-     "title": "金塊4億円相当や現金約2500万円など盗まれる 兵庫 西宮の住宅",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79776",
-     "pubDate": "Sun, 22 Nov 2026 00:03:00 +0900"
+     "title": "六花亭に不正アクセス クレカ情報不正利用とみられる被害確認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79904",
+     "pubDate": "Sun, 22 Nov 2026 14:02:00 +0900"
     },
     {
-     "title": "デンマーク ロシア主導の暗殺計画阻止と発表 首相「制裁強化」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79796",
-     "pubDate": "Sun, 22 Nov 2026 08:38:38 +0900"
-    },
-    {
-     "title": "ゼレンスキー大統領「3か国首脳会談はロシアにとっては失敗」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79819",
-     "pubDate": "Sun, 22 Nov 2026 08:07:20 +0900"
-    },
-    {
-     "title": "ホテル更衣室で保育園児など盗撮疑い 福島県警の行政職員逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79820",
-     "pubDate": "Sun, 22 Nov 2026 07:29:44 +0900"
-    },
-    {
-     "title": "香川 JR予讃線信号トラブル 特急など約6時間立往生も運転再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79790",
-     "pubDate": "Sun, 22 Nov 2026 06:14:00 +0900"
+     "title": "大相撲九州場所 十両優勝は若隆景 緊急手術経て3場所ぶり復帰",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79948",
+     "pubDate": "Sun, 22 Nov 2026 16:22:28 +0900"
     }
    ]
   },
@@ -50,6 +50,36 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "高知空港に緊急着陸した米軍戦闘機が離陸",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79957",
+     "pubDate": "Sun, 22 Nov 2026 16:18:10 +0900"
+    },
+    {
+     "title": "「いい夫婦の日」に夫婦岩で愛を叫ぶ催し 三重 伊勢",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79954",
+     "pubDate": "Sun, 22 Nov 2026 16:15:12 +0900"
+    },
+    {
+     "title": "「東アジア反日武装戦線」メンバーの死刑囚が東京拘置所で死亡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79958",
+     "pubDate": "Sun, 22 Nov 2026 15:55:00 +0900"
+    },
+    {
+     "title": "福島 北塩原村 宿泊客帰宅開始も514世帯孤立 猪苗代町でも孤立",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79781",
+     "pubDate": "Sun, 22 Nov 2026 14:13:04 +0900"
+    },
+    {
+     "title": "六花亭に不正アクセス クレカ情報不正利用とみられる被害確認",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79904",
+     "pubDate": "Sun, 22 Nov 2026 14:02:00 +0900"
+    },
+    {
+     "title": "火災で焼失の首里城正殿 午後から国主催の復元完成式 沖縄",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79841",
+     "pubDate": "Sun, 22 Nov 2026 11:15:23 +0900"
+    },
+    {
      "title": "ホテル更衣室で保育園児など盗撮疑い 福島県警の行政職員逮捕",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79820",
      "pubDate": "Sun, 22 Nov 2026 07:29:44 +0900"
@@ -57,7 +87,7 @@
     {
      "title": "【動画】Pickup NEWS（11月22日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79711",
-     "pubDate": "Sun, 22 Nov 2026 06:35:53 +0900"
+     "pubDate": "Sun, 22 Nov 2026 13:59:20 +0900"
     },
     {
      "title": "暗号資産利用者の申告漏れ多く 国税当局が調査体制強化へ",
@@ -65,9 +95,9 @@
      "pubDate": "Sun, 22 Nov 2026 05:51:00 +0900"
     },
     {
-     "title": "前橋 市街地に出没のクマ見つからず 朝から捜索再開へ",
+     "title": "前橋 市街地に出没のクマ見つからず 無人カメラで暗きょ捜索へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79777",
-     "pubDate": "Sun, 22 Nov 2026 07:05:21 +0900"
+     "pubDate": "Sun, 22 Nov 2026 12:26:00 +0900"
     },
     {
      "title": "沖縄 火災で焼失の首里城正殿 きょう国主催の「復元完成式」",
@@ -93,36 +123,6 @@
      "title": "将棋の福間香奈女流四冠 第2子の妊娠を公表",
      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79734",
      "pubDate": "Sat, 21 Nov 2026 20:13:00 +0900"
-    },
-    {
-     "title": "愛子さま シンガポール訪問終え帰国",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79709",
-     "pubDate": "Sat, 21 Nov 2026 18:50:26 +0900"
-    },
-    {
-     "title": "除雪車にはねられ 国道横断中の女性死亡 福井 勝山",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79712",
-     "pubDate": "Sat, 21 Nov 2026 21:38:33 +0900"
-    },
-    {
-     "title": "メルカリ AIに入力した個人情報漏えいか「リスト型攻撃」も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79616",
-     "pubDate": "Sat, 21 Nov 2026 14:33:40 +0900"
-    },
-    {
-     "title": "前橋 市街地出没のクマ見つからず 22日朝から捜索再開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79555",
-     "pubDate": "Sat, 21 Nov 2026 20:56:09 +0900"
-    },
-    {
-     "title": "リニア工事現場付近の川で水吹き上がる JR東海が関連調査 川崎",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79560",
-     "pubDate": "Sat, 21 Nov 2026 11:13:00 +0900"
-    },
-    {
-     "title": "愛子さま マーライオン公園を視察 帰国へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79551",
-     "pubDate": "Sat, 21 Nov 2026 11:00:00 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "タワーレコード 不正アクセスで約1100万件の個人情報流出",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79936",
+     "pubDate": "Sun, 22 Nov 2026 15:11:18 +0900"
+    },
+    {
+     "title": "日本の探査機「みお」水星の周回軌道に投入 欧州の探査機と",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79873",
+     "pubDate": "Sun, 22 Nov 2026 14:29:38 +0900"
+    },
     {
      "title": "沖縄 火災で焼失の首里城正殿 きょう国主催の「復元完成式」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79741",
@@ -195,16 +205,6 @@
      "title": "H3ロケット 次の11号機の打ち上げ業務を民営化へ 三菱重工業に",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78738",
      "pubDate": "Fri, 20 Nov 2026 13:24:50 +0900"
-    },
-    {
-     "title": "サイバー攻撃対策 日本は各国に比べAI使った検知などに遅れ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261119de78715",
-     "pubDate": "Fri, 20 Nov 2026 06:35:16 +0900"
-    },
-    {
-     "title": "探査機ボイジャー1号 トラブル発生も「1光日」到達確認 NASA",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78757",
-     "pubDate": "Fri, 20 Nov 2026 07:02:00 +0900"
     }
    ]
   },
@@ -214,9 +214,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "フィンランド沖 ロシアの貨物船に無人機攻撃 ウクライナ関与か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79863",
+     "pubDate": "Sun, 22 Nov 2026 12:42:00 +0900"
+    },
+    {
+     "title": "イラン バーレーンの米軍施設を標的に攻撃と発表 緊張続く",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79868",
+     "pubDate": "Sun, 22 Nov 2026 12:22:00 +0900"
+    },
+    {
+     "title": "AIで未解決難問“リーマン予想”証明主張 専門家の受けとめは?",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79817",
+     "pubDate": "Sun, 22 Nov 2026 14:24:00 +0900"
+    },
+    {
      "title": "【随時更新】ロシア ウクライナに軍事侵攻（11月22日の動き）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261028de67166",
-     "pubDate": "Sun, 22 Nov 2026 09:51:35 +0900"
+     "pubDate": "Sun, 22 Nov 2026 13:45:45 +0900"
     },
     {
      "title": "デンマーク ロシア主導の暗殺計画阻止と発表 首相「制裁強化」",
@@ -226,7 +241,7 @@
     {
      "title": "ゼレンスキー大統領「3か国首脳会談はロシアにとっては失敗」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79819",
-     "pubDate": "Sun, 22 Nov 2026 08:07:20 +0900"
+     "pubDate": "Sun, 22 Nov 2026 08:07:00 +0900"
     },
     {
      "title": "COP31 会期延長し協議続く 化石燃料からの脱却などめぐり",
@@ -272,21 +287,6 @@
      "title": "国連事務総長は9回目の投票も決まらず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79510",
      "pubDate": "Sat, 21 Nov 2026 07:51:00 +0900"
-    },
-    {
-     "title": "米財務長官 米中で「軍事決定はAIでなく人間が関与」合意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79483",
-     "pubDate": "Sat, 21 Nov 2026 07:44:00 +0900"
-    },
-    {
-     "title": "英王立音楽大学が久石譲さんに名誉学位 日本人では初",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79509",
-     "pubDate": "Sat, 21 Nov 2026 07:40:00 +0900"
-    },
-    {
-     "title": "英EU首脳会談 輸出入手続きの簡素化で合意 離脱後の関係強化",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79488",
-     "pubDate": "Sat, 21 Nov 2026 07:35:11 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "「脱化石」削除巡り紛糾 COP31",
-     "link": "https://news.yahoo.co.jp/pickup/6603508?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 00:26:56 GMT"
+     "title": "首里城正殿 完成祝うテープカット",
+     "link": "https://news.yahoo.co.jp/pickup/6603553?source=rss",
+     "pubDate": "Sun, 22 Nov 2026 06:29:31 GMT"
     },
     {
-     "title": "氷河期世代の正社員率改善も 格差",
-     "link": "https://news.yahoo.co.jp/pickup/6603504?source=rss",
-     "pubDate": "Sat, 21 Nov 2026 23:49:12 GMT"
+     "title": "福島の大雪 滞在者ら孤立状態解消",
+     "link": "https://news.yahoo.co.jp/pickup/6603560?source=rss",
+     "pubDate": "Sun, 22 Nov 2026 07:18:07 GMT"
     },
     {
-     "title": "大雪で水族館停電 生き物を移動",
-     "link": "https://news.yahoo.co.jp/pickup/6603510?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 00:38:32 GMT"
+     "title": "益永死刑囚が死亡 連続企業爆破",
+     "link": "https://news.yahoo.co.jp/pickup/6603563?source=rss",
+     "pubDate": "Sun, 22 Nov 2026 07:31:35 GMT"
     },
     {
-     "title": "DIYで溶接中に出火か 男性が死亡",
-     "link": "https://news.yahoo.co.jp/pickup/6603493?source=rss",
-     "pubDate": "Sat, 21 Nov 2026 22:50:49 GMT"
+     "title": "12歳男子中学生が行方不明 郡山市",
+     "link": "https://news.yahoo.co.jp/pickup/6603546?source=rss",
+     "pubDate": "Sun, 22 Nov 2026 05:33:04 GMT"
     },
     {
-     "title": "村上春樹さんが村上龍さんを追悼",
-     "link": "https://news.yahoo.co.jp/pickup/6603503?source=rss",
-     "pubDate": "Sat, 21 Nov 2026 23:39:54 GMT"
+     "title": "「夜職」相次ぐ海外入国トラブル",
+     "link": "https://news.yahoo.co.jp/pickup/6603554?source=rss",
+     "pubDate": "Sun, 22 Nov 2026 06:36:19 GMT"
     },
     {
-     "title": "チェルシーを撃破 田中碧に高評価",
-     "link": "https://news.yahoo.co.jp/pickup/6603494?source=rss",
-     "pubDate": "Sat, 21 Nov 2026 22:52:52 GMT"
+     "title": "桑田真澄氏58歳が118キロ球 騒然",
+     "link": "https://news.yahoo.co.jp/pickup/6603545?source=rss",
+     "pubDate": "Sun, 22 Nov 2026 05:22:21 GMT"
     },
     {
-     "title": "GTA6 売上で記録も賛否ある背景",
-     "link": "https://news.yahoo.co.jp/pickup/6603499?source=rss",
-     "pubDate": "Sat, 21 Nov 2026 23:20:32 GMT"
+     "title": "元GKシュナイダー潤之介さん死去",
+     "link": "https://news.yahoo.co.jp/pickup/6603539?source=rss",
+     "pubDate": "Sun, 22 Nov 2026 04:19:29 GMT"
     },
     {
-     "title": "VIVANT ゲイの描き方に識者疑問",
-     "link": "https://news.yahoo.co.jp/pickup/6603511?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 00:42:20 GMT"
+     "title": "麒麟・田村 スキンヘッドを披露",
+     "link": "https://news.yahoo.co.jp/pickup/6603558?source=rss",
+     "pubDate": "Sun, 22 Nov 2026 06:55:20 GMT"
     }
    ]
   }
