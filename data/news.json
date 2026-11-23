@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T21:20:43.278Z",
+ "updatedAt": "2026-11-23T01:50:52.990Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "COP31成果文書採択断念 化石燃料からの脱却言及なしに反発の声",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79933",
-     "pubDate": "Mon, 23 Nov 2026 04:45:05 +0900"
+     "title": "横溝正史が戦時下に陸軍「幻の雑誌」に掲載した推理小説発見",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80134",
+     "pubDate": "Mon, 23 Nov 2026 09:16:28 +0900"
+    },
+    {
+     "title": "“会談模索もキム総書記の条件を米が受け入れられず”米報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80133",
+     "pubDate": "Mon, 23 Nov 2026 09:26:00 +0900"
+    },
+    {
+     "title": "松山市中心部近くの住宅で火事 2人と連絡取れず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80132",
+     "pubDate": "Mon, 23 Nov 2026 08:27:00 +0900"
+    },
+    {
+     "title": "沖縄 首里城正殿が復元 きょう正午から一般公開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de80078",
+     "pubDate": "Mon, 23 Nov 2026 06:42:00 +0900"
+    },
+    {
+     "title": "イギリス人スイマー ホルムズ海峡を遠泳「戦争をやめるべき」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80145",
+     "pubDate": "Mon, 23 Nov 2026 10:36:50 +0900"
     },
     {
      "title": "野党 関文科相辞任求める声強まる 木原官房長官“説明が重要”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80109",
-     "pubDate": "Mon, 23 Nov 2026 06:18:21 +0900"
+     "pubDate": "Mon, 23 Nov 2026 06:18:00 +0900"
     },
     {
-     "title": "住宅街にクマ出没の前橋 地下水路に潜んでいる可能性 警戒続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de80089",
-     "pubDate": "Mon, 23 Nov 2026 06:01:06 +0900"
-    },
-    {
-     "title": "インドネシアの製菓工場で火災 3人死亡 36人行方不明",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80121",
-     "pubDate": "Mon, 23 Nov 2026 05:40:07 +0900"
-    },
-    {
-     "title": "ウクライナ キーウ近郊に攻撃 4人死亡 ロシアの攻撃激化",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80114",
-     "pubDate": "Mon, 23 Nov 2026 05:19:29 +0900"
-    },
-    {
-     "title": "「東アジア反日武装戦線」メンバーの死刑囚が東京拘置所で死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79958",
-     "pubDate": "Sun, 22 Nov 2026 20:37:59 +0900"
-    },
-    {
-     "title": "韓国 大学入試 スマートグラスなどの対策で混乱 教育相が辞意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de80041",
-     "pubDate": "Sun, 22 Nov 2026 20:21:50 +0900"
+     "title": "ドイツ最大労組 メルセデスの工場でも24時間ストライキ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80139",
+     "pubDate": "Mon, 23 Nov 2026 09:48:00 +0900"
     }
    ]
   },
@@ -50,14 +50,34 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "松山市中心部近くの住宅で火事 2人と連絡取れず",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80132",
+     "pubDate": "Mon, 23 Nov 2026 08:27:00 +0900"
+    },
+    {
+     "title": "【動画】上空から見た首里城正殿は？",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80128",
+     "pubDate": "Mon, 23 Nov 2026 08:08:00 +0900"
+    },
+    {
+     "title": "沖縄 首里城正殿が復元 きょう正午から一般公開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de80078",
+     "pubDate": "Mon, 23 Nov 2026 06:42:00 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（11月23日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de80066",
+     "pubDate": "Mon, 23 Nov 2026 06:31:24 +0900"
+    },
+    {
      "title": "住宅街にクマ出没の前橋 地下水路に潜んでいる可能性 警戒続く",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de80089",
-     "pubDate": "Mon, 23 Nov 2026 06:01:06 +0900"
+     "pubDate": "Mon, 23 Nov 2026 06:01:00 +0900"
     },
     {
      "title": "COP31成果文書採択断念 化石燃料からの脱却言及なしに反発の声",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79933",
-     "pubDate": "Mon, 23 Nov 2026 04:45:05 +0900"
+     "pubDate": "Mon, 23 Nov 2026 04:45:00 +0900"
     },
     {
      "title": "福島 国道459号の通行止め解除 北塩原村の孤立状態ほぼ解消",
@@ -103,26 +123,6 @@
      "title": "沖縄 首里城正殿が復元“二度と失われないよう つないでいく”",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79841",
      "pubDate": "Sun, 22 Nov 2026 18:06:00 +0900"
-    },
-    {
-     "title": "ホテル更衣室で保育園児など盗撮疑い 福島県警の行政職員逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79820",
-     "pubDate": "Sun, 22 Nov 2026 07:29:44 +0900"
-    },
-    {
-     "title": "暗号資産利用者の申告漏れ多く 国税当局が調査体制強化へ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79765",
-     "pubDate": "Sun, 22 Nov 2026 05:51:00 +0900"
-    },
-    {
-     "title": "クマは地下水路に? 内部調査も姿は確認できず 警戒続く前橋",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79777",
-     "pubDate": "Sun, 22 Nov 2026 20:45:28 +0900"
-    },
-    {
-     "title": "沖縄 火災で焼失の首里城正殿 きょう国主催の「復元完成式」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79741",
-     "pubDate": "Sun, 22 Nov 2026 04:50:00 +0900"
     }
    ]
   },
@@ -131,6 +131,16 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "イギリス人スイマー ホルムズ海峡を遠泳「戦争をやめるべき」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80145",
+     "pubDate": "Mon, 23 Nov 2026 10:36:50 +0900"
+    },
+    {
+     "title": "横溝正史が戦時下に陸軍「幻の雑誌」に掲載した推理小説発見",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80134",
+     "pubDate": "Mon, 23 Nov 2026 09:16:28 +0900"
+    },
     {
      "title": "タワーレコード 不正アクセスで約1100万件の個人情報流出",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79936",
@@ -195,16 +205,6 @@
      "title": "民間移管H3ロケット 情報収集衛星搭載し来年1月11日打ち上げへ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de79008",
      "pubDate": "Fri, 20 Nov 2026 14:57:00 +0900"
-    },
-    {
-     "title": "将棋「竜王戦」第4局 「封じ手」で初日の対局終える",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78847",
-     "pubDate": "Fri, 20 Nov 2026 18:37:15 +0900"
-    },
-    {
-     "title": "H3ロケット 次の11号機の打ち上げ業務を民営化へ 三菱重工業に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de78738",
-     "pubDate": "Fri, 20 Nov 2026 13:24:50 +0900"
     }
    ]
   },
@@ -213,6 +213,26 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "イギリス人スイマー ホルムズ海峡を遠泳「戦争をやめるべき」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80145",
+     "pubDate": "Mon, 23 Nov 2026 10:36:50 +0900"
+    },
+    {
+     "title": "ドイツ最大労組 メルセデスの工場でも24時間ストライキ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80139",
+     "pubDate": "Mon, 23 Nov 2026 09:48:00 +0900"
+    },
+    {
+     "title": "“会談模索もキム総書記の条件を米が受け入れられず”米報道",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80133",
+     "pubDate": "Mon, 23 Nov 2026 09:26:00 +0900"
+    },
+    {
+     "title": "【動画】台湾 伝統の“柿餅”づくりが最盛期",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261118de77741",
+     "pubDate": "Mon, 23 Nov 2026 06:48:00 +0900"
+    },
     {
      "title": "インドネシアの製菓工場で火災 3人死亡 36人行方不明",
      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80121",
@@ -226,7 +246,7 @@
     {
      "title": "COP31成果文書採択断念 化石燃料からの脱却言及なしに反発の声",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79933",
-     "pubDate": "Mon, 23 Nov 2026 04:45:05 +0900"
+     "pubDate": "Mon, 23 Nov 2026 04:45:00 +0900"
     },
     {
      "title": "韓国 大学入試 スマートグラスなどの対策で混乱 教育相が辞意",
@@ -267,26 +287,6 @@
      "title": "COP31 会期延長し協議続く 化石燃料からの脱却などめぐり",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79786",
      "pubDate": "Sun, 22 Nov 2026 07:06:00 +0900"
-    },
-    {
-     "title": "AI自律兵器の国際会議 法的拘束力あるルール作りで合意できず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79771",
-     "pubDate": "Sun, 22 Nov 2026 06:02:26 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（11月21日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67165",
-     "pubDate": "Sat, 21 Nov 2026 22:00:00 +0900"
-    },
-    {
-     "title": "ウクライナ支援の有志連合 初の軍事演習をメディアに公開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79750",
-     "pubDate": "Sat, 21 Nov 2026 21:30:45 +0900"
-    },
-    {
-     "title": "ナスダック株価指数急落 今週4兆ドル時価総額が消失",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79604",
-     "pubDate": "Sat, 21 Nov 2026 13:33:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "COP31合意採択断念 EUなど反対",
-     "link": "https://news.yahoo.co.jp/pickup/6603603?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 12:43:52 GMT"
+     "title": "野党 文科相の「問責」提出の構え",
+     "link": "https://news.yahoo.co.jp/pickup/6603638?source=rss",
+     "pubDate": "Mon, 23 Nov 2026 00:34:04 GMT"
     },
     {
-     "title": "文科相の「交代示唆」木原氏否定",
-     "link": "https://news.yahoo.co.jp/pickup/6603601?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 12:39:35 GMT"
+     "title": "リビアで露軍艦爆発 無人機攻撃か",
+     "link": "https://news.yahoo.co.jp/pickup/6603637?source=rss",
+     "pubDate": "Mon, 23 Nov 2026 00:25:34 GMT"
     },
     {
-     "title": "参政党が首長選に積極擁立 狙い",
-     "link": "https://news.yahoo.co.jp/pickup/6603611?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 14:22:39 GMT"
+     "title": "死亡事故受け 柏崎刈羽で工事中止",
+     "link": "https://news.yahoo.co.jp/pickup/6603635?source=rss",
+     "pubDate": "Mon, 23 Nov 2026 00:08:57 GMT"
     },
     {
-     "title": "社員を監禁疑い 社長ら4人逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6603608?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 13:36:08 GMT"
+     "title": "中央分離帯越え車と衝突 男を逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6603634?source=rss",
+     "pubDate": "Sun, 22 Nov 2026 23:50:34 GMT"
     },
     {
-     "title": "アンソロピックIPO巡り銀行に制約",
-     "link": "https://news.yahoo.co.jp/pickup/6603609?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 13:45:03 GMT"
+     "title": "「ほぼ日手帳」海外で人気のワケ",
+     "link": "https://news.yahoo.co.jp/pickup/6603636?source=rss",
+     "pubDate": "Mon, 23 Nov 2026 00:20:14 GMT"
     },
     {
-     "title": "田中希実らの失格撤回 大会側説明",
-     "link": "https://news.yahoo.co.jp/pickup/6603607?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 13:30:32 GMT"
+     "title": "駅伝で失格取り消し 運営に見解",
+     "link": "https://news.yahoo.co.jp/pickup/6603644?source=rss",
+     "pubDate": "Mon, 23 Nov 2026 01:28:32 GMT"
     },
     {
-     "title": "ゴルフ佐久間朱莉がSNSに謝罪文",
-     "link": "https://news.yahoo.co.jp/pickup/6603613?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 14:30:41 GMT"
+     "title": "オリックス 藤浪晋太郎の獲得発表",
+     "link": "https://news.yahoo.co.jp/pickup/6603639?source=rss",
+     "pubDate": "Mon, 23 Nov 2026 00:51:00 GMT"
     },
     {
-     "title": "ジュノンボーイGPの高3 12kg減量",
-     "link": "https://news.yahoo.co.jp/pickup/6603605?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 13:25:15 GMT"
+     "title": "スクバルが9年714億円で合意 報道",
+     "link": "https://news.yahoo.co.jp/pickup/6603633?source=rss",
+     "pubDate": "Sun, 22 Nov 2026 23:56:14 GMT"
     }
    ]
   }
