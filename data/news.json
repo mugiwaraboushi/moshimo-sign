@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T01:50:52.990Z",
+ "updatedAt": "2026-11-23T09:53:54.460Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "横溝正史が戦時下に陸軍「幻の雑誌」に掲載した推理小説発見",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80134",
-     "pubDate": "Mon, 23 Nov 2026 09:16:28 +0900"
+     "title": "「核のごみ」文献調査 茨城 常陸大宮で初の市民説明会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80257",
+     "pubDate": "Mon, 23 Nov 2026 18:49:27 +0900"
     },
     {
-     "title": "“会談模索もキム総書記の条件を米が受け入れられず”米報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80133",
-     "pubDate": "Mon, 23 Nov 2026 09:26:00 +0900"
+     "title": "福島 大雪による孤立状態が解消 停電は一部で続き復旧作業進む",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80164",
+     "pubDate": "Mon, 23 Nov 2026 16:57:00 +0900"
     },
     {
-     "title": "松山市中心部近くの住宅で火事 2人と連絡取れず",
+     "title": "岐阜 雪の影響で停電 携帯電話の通信障害や鉄道運転見合わせも",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80192",
+     "pubDate": "Mon, 23 Nov 2026 18:22:12 +0900"
+    },
+    {
+     "title": "松山 住宅が全焼 男女2人遺体発見 居住のきょうだい連絡取れず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80132",
-     "pubDate": "Mon, 23 Nov 2026 08:27:00 +0900"
+     "pubDate": "Mon, 23 Nov 2026 17:38:00 +0900"
     },
     {
-     "title": "沖縄 首里城正殿が復元 きょう正午から一般公開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de80078",
-     "pubDate": "Mon, 23 Nov 2026 06:42:00 +0900"
+     "title": "ゼレンスキー大統領“リビア沖でロシア艦艇を無人艇で攻撃”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80209",
+     "pubDate": "Mon, 23 Nov 2026 18:36:00 +0900"
     },
     {
-     "title": "イギリス人スイマー ホルムズ海峡を遠泳「戦争をやめるべき」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80145",
-     "pubDate": "Mon, 23 Nov 2026 10:36:50 +0900"
+     "title": "東京電力 福島での廃炉と賠償の部門を統合へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80254",
+     "pubDate": "Mon, 23 Nov 2026 18:24:08 +0900"
     },
     {
-     "title": "野党 関文科相辞任求める声強まる 木原官房長官“説明が重要”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80109",
-     "pubDate": "Mon, 23 Nov 2026 06:18:00 +0900"
-    },
-    {
-     "title": "ドイツ最大労組 メルセデスの工場でも24時間ストライキ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80139",
-     "pubDate": "Mon, 23 Nov 2026 09:48:00 +0900"
+     "title": "住宅街のクマ“水路に潜む可能性”警戒続く 学校は再開へ 前橋",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261122de80089",
+     "pubDate": "Mon, 23 Nov 2026 17:50:59 +0900"
     }
    ]
   },
@@ -50,9 +50,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "松山市中心部近くの住宅で火事 2人と連絡取れず",
+     "title": "長野 雪の影響で停電続く “24日中の復旧を目指す”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80268",
+     "pubDate": "Mon, 23 Nov 2026 18:52:56 +0900"
+    },
+    {
+     "title": "「核のごみ」文献調査 茨城 常陸大宮で初の市民説明会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80257",
+     "pubDate": "Mon, 23 Nov 2026 18:49:27 +0900"
+    },
+    {
+     "title": "福島 大雪による孤立状態が解消 停電は一部で続き復旧作業進む",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80164",
+     "pubDate": "Mon, 23 Nov 2026 16:57:00 +0900"
+    },
+    {
+     "title": "松山 住宅が全焼 男女2人遺体発見 居住のきょうだい連絡取れず",
      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80132",
-     "pubDate": "Mon, 23 Nov 2026 08:27:00 +0900"
+     "pubDate": "Mon, 23 Nov 2026 17:38:00 +0900"
     },
     {
      "title": "【動画】上空から見た首里城正殿は？",
@@ -60,19 +75,19 @@
      "pubDate": "Mon, 23 Nov 2026 08:08:00 +0900"
     },
     {
-     "title": "沖縄 首里城正殿が復元 きょう正午から一般公開",
+     "title": "沖縄 首里城正殿復元祝う県主催記念式典が開催 一般公開始まる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de80078",
-     "pubDate": "Mon, 23 Nov 2026 06:42:00 +0900"
+     "pubDate": "Mon, 23 Nov 2026 14:08:11 +0900"
     },
     {
      "title": "【動画】Pickup NEWS（11月23日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de80066",
-     "pubDate": "Mon, 23 Nov 2026 06:31:24 +0900"
+     "pubDate": "Mon, 23 Nov 2026 14:04:59 +0900"
     },
     {
-     "title": "住宅街にクマ出没の前橋 地下水路に潜んでいる可能性 警戒続く",
+     "title": "住宅街のクマ“水路に潜む可能性”警戒続く 学校は再開へ 前橋",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de80089",
-     "pubDate": "Mon, 23 Nov 2026 06:01:00 +0900"
+     "pubDate": "Mon, 23 Nov 2026 17:50:59 +0900"
     },
     {
      "title": "COP31成果文書採択断念 化石燃料からの脱却言及なしに反発の声",
@@ -108,21 +123,6 @@
      "title": "「東アジア反日武装戦線」メンバーの死刑囚が東京拘置所で死亡",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79958",
      "pubDate": "Sun, 22 Nov 2026 20:37:59 +0900"
-    },
-    {
-     "title": "福島 北塩原村 宿泊客帰宅開始も514世帯孤立 猪苗代町でも孤立",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79781",
-     "pubDate": "Sun, 22 Nov 2026 14:13:04 +0900"
-    },
-    {
-     "title": "六花亭に不正アクセス クレカ情報不正利用とみられる被害確認",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79904",
-     "pubDate": "Sun, 22 Nov 2026 14:02:00 +0900"
-    },
-    {
-     "title": "沖縄 首里城正殿が復元“二度と失われないよう つないでいく”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79841",
-     "pubDate": "Sun, 22 Nov 2026 18:06:00 +0900"
     }
    ]
   },
@@ -132,14 +132,24 @@
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
     {
+     "title": "「核のごみ」文献調査 茨城 常陸大宮で初の市民説明会",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80257",
+     "pubDate": "Mon, 23 Nov 2026 18:49:27 +0900"
+    },
+    {
+     "title": "台風25号 温暖化で水蒸気増え雨量が2～4割増か 研究グループ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80146",
+     "pubDate": "Mon, 23 Nov 2026 11:27:51 +0900"
+    },
+    {
      "title": "イギリス人スイマー ホルムズ海峡を遠泳「戦争をやめるべき」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80145",
-     "pubDate": "Mon, 23 Nov 2026 10:36:50 +0900"
+     "pubDate": "Mon, 23 Nov 2026 10:36:00 +0900"
     },
     {
      "title": "横溝正史が戦時下に陸軍「幻の雑誌」に掲載した推理小説発見",
      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80134",
-     "pubDate": "Mon, 23 Nov 2026 09:16:28 +0900"
+     "pubDate": "Mon, 23 Nov 2026 09:16:00 +0900"
     },
     {
      "title": "タワーレコード 不正アクセスで約1100万件の個人情報流出",
@@ -195,16 +205,6 @@
      "title": "宇宙産業の集積を目指す北海道の視察団 先進地のフロリダに",
      "link": "https://news.web.nhk/newsweb/na/nd-20261120de79031",
      "pubDate": "Fri, 20 Nov 2026 19:27:39 +0900"
-    },
-    {
-     "title": "インフルエンザ患者数 1医療機関あたり11.94人 ほぼ横ばい続く",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79038",
-     "pubDate": "Fri, 20 Nov 2026 16:32:49 +0900"
-    },
-    {
-     "title": "民間移管H3ロケット 情報収集衛星搭載し来年1月11日打ち上げへ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261120de79008",
-     "pubDate": "Fri, 20 Nov 2026 14:57:00 +0900"
     }
    ]
   },
@@ -214,9 +214,19 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "ゼレンスキー大統領“リビア沖でロシア艦艇を無人艇で攻撃”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80209",
+     "pubDate": "Mon, 23 Nov 2026 18:36:00 +0900"
+    },
+    {
+     "title": "北朝鮮 キム総書記“友好的な国との関係は強化”と強調",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261123de80168",
+     "pubDate": "Mon, 23 Nov 2026 13:09:21 +0900"
+    },
+    {
      "title": "イギリス人スイマー ホルムズ海峡を遠泳「戦争をやめるべき」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80145",
-     "pubDate": "Mon, 23 Nov 2026 10:36:50 +0900"
+     "pubDate": "Mon, 23 Nov 2026 10:36:00 +0900"
     },
     {
      "title": "ドイツ最大労組 メルセデスの工場でも24時間ストライキ",
@@ -277,16 +287,6 @@
      "title": "デンマーク ロシア主導の暗殺計画阻止と発表 首相「制裁強化」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79796",
      "pubDate": "Sun, 22 Nov 2026 08:38:38 +0900"
-    },
-    {
-     "title": "ゼレンスキー大統領「3か国首脳会談はロシアにとっては失敗」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79819",
-     "pubDate": "Sun, 22 Nov 2026 08:07:00 +0900"
-    },
-    {
-     "title": "COP31 会期延長し協議続く 化石燃料からの脱却などめぐり",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79786",
-     "pubDate": "Sun, 22 Nov 2026 07:06:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "野党 文科相の「問責」提出の構え",
-     "link": "https://news.yahoo.co.jp/pickup/6603638?source=rss",
-     "pubDate": "Mon, 23 Nov 2026 00:34:04 GMT"
+     "title": "首里城正殿が一般公開 来場者感嘆",
+     "link": "https://news.yahoo.co.jp/pickup/6603691?source=rss",
+     "pubDate": "Mon, 23 Nov 2026 08:33:05 GMT"
     },
     {
-     "title": "リビアで露軍艦爆発 無人機攻撃か",
-     "link": "https://news.yahoo.co.jp/pickup/6603637?source=rss",
-     "pubDate": "Mon, 23 Nov 2026 00:25:34 GMT"
+     "title": "COP31決裂 影響力みせたサウジ",
+     "link": "https://news.yahoo.co.jp/pickup/6603685?source=rss",
+     "pubDate": "Mon, 23 Nov 2026 07:54:20 GMT"
     },
     {
-     "title": "死亡事故受け 柏崎刈羽で工事中止",
-     "link": "https://news.yahoo.co.jp/pickup/6603635?source=rss",
-     "pubDate": "Mon, 23 Nov 2026 00:08:57 GMT"
+     "title": "ガソリン価格下落 米大統領恨み節",
+     "link": "https://news.yahoo.co.jp/pickup/6603686?source=rss",
+     "pubDate": "Mon, 23 Nov 2026 07:50:15 GMT"
     },
     {
-     "title": "中央分離帯越え車と衝突 男を逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6603634?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 23:50:34 GMT"
+     "title": "ブルガリ創業者の孫 パオロ氏死去",
+     "link": "https://news.yahoo.co.jp/pickup/6603695?source=rss",
+     "pubDate": "Mon, 23 Nov 2026 09:22:16 GMT"
     },
     {
-     "title": "「ほぼ日手帳」海外で人気のワケ",
-     "link": "https://news.yahoo.co.jp/pickup/6603636?source=rss",
-     "pubDate": "Mon, 23 Nov 2026 00:20:14 GMT"
+     "title": "番組中にわいせつな音 BBCが謝罪",
+     "link": "https://news.yahoo.co.jp/pickup/6603674?source=rss",
+     "pubDate": "Mon, 23 Nov 2026 06:15:44 GMT"
     },
     {
-     "title": "駅伝で失格取り消し 運営に見解",
-     "link": "https://news.yahoo.co.jp/pickup/6603644?source=rss",
-     "pubDate": "Mon, 23 Nov 2026 01:28:32 GMT"
+     "title": "高校ラグビーAシード 異例の多さ",
+     "link": "https://news.yahoo.co.jp/pickup/6603697?source=rss",
+     "pubDate": "Mon, 23 Nov 2026 09:38:49 GMT"
     },
     {
-     "title": "オリックス 藤浪晋太郎の獲得発表",
-     "link": "https://news.yahoo.co.jp/pickup/6603639?source=rss",
-     "pubDate": "Mon, 23 Nov 2026 00:51:00 GMT"
+     "title": "山本耕史 妻と来るスタバ前でイベ",
+     "link": "https://news.yahoo.co.jp/pickup/6603688?source=rss",
+     "pubDate": "Mon, 23 Nov 2026 08:16:23 GMT"
     },
     {
-     "title": "スクバルが9年714億円で合意 報道",
-     "link": "https://news.yahoo.co.jp/pickup/6603633?source=rss",
-     "pubDate": "Sun, 22 Nov 2026 23:56:14 GMT"
+     "title": "鈴木京香 大泉洋は北海道の帝王",
+     "link": "https://news.yahoo.co.jp/pickup/6603689?source=rss",
+     "pubDate": "Mon, 23 Nov 2026 08:16:40 GMT"
     }
    ]
   }
