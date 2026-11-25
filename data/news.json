@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T01:09:07.355Z",
+ "updatedAt": "2026-11-25T09:57:04.453Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "野党 関文科相への問責決議案提出へ 与党 採決に備え働きかけ",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261125de80903",
-     "pubDate": "Wed, 25 Nov 2026 05:02:00 +0900"
+     "title": "死亡したのは駐輪場で働く70歳男性 刺した人物は逃走 福岡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81118",
+     "pubDate": "Wed, 25 Nov 2026 18:48:56 +0900"
     },
     {
-     "title": "株価 一時1600円超の値下がり",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261125de80958",
-     "pubDate": "Wed, 25 Nov 2026 09:41:00 +0900"
+     "title": "関文科相の問責決議案 あす提出の方針 立民 斎藤国対委員長",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de80993",
+     "pubDate": "Wed, 25 Nov 2026 17:57:45 +0900"
     },
     {
-     "title": "米司法長官 エヌビディアのフアン氏のリスク判断 説明避ける",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261125de80921",
-     "pubDate": "Wed, 25 Nov 2026 08:24:09 +0900"
+     "title": "2029年大河ドラマは「三成のうた」 主演は神木隆之介さん",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81004",
+     "pubDate": "Wed, 25 Nov 2026 15:38:00 +0900"
     },
     {
-     "title": "ナスダック 一転下落 エヌビディア企業統治に懸念",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261125de80932",
-     "pubDate": "Wed, 25 Nov 2026 07:09:54 +0900"
+     "title": "中高生ら5人を強盗殺人未遂容疑で再逮捕 愛知 小牧",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81302",
+     "pubDate": "Wed, 25 Nov 2026 17:55:28 +0900"
     },
     {
-     "title": "神奈川 小田原厚木道路で77歳運転の逆走車が衝突 34歳男性死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261125de80911",
-     "pubDate": "Wed, 25 Nov 2026 01:52:00 +0900"
+     "title": "横領で有罪確定の簡裁裁判官 弾劾裁判で罷免の判決",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81344",
+     "pubDate": "Wed, 25 Nov 2026 18:01:00 +0900"
     },
     {
-     "title": "広島 庄原 高齢女性殺害事件で55歳会社員を逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261125de80916",
-     "pubDate": "Wed, 25 Nov 2026 06:59:20 +0900"
+     "title": "パルシステムの顧客情報 約200万件が漏えい",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81299",
+     "pubDate": "Wed, 25 Nov 2026 17:14:00 +0900"
     },
     {
-     "title": "ロシア軍の戦死者49万人超か ロシア独立系メディアが分析",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261125de80935",
-     "pubDate": "Wed, 25 Nov 2026 08:45:00 +0900"
+     "title": "来年1月の大相撲初場所 新十両に碇潟改め大碇と豪刃雄",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81042",
+     "pubDate": "Wed, 25 Nov 2026 18:43:16 +0900"
     }
    ]
   },
@@ -50,79 +50,79 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
-     "title": "前橋 親グマ行方分からず 地下水路の追加捜索を検討",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261124de80866",
-     "pubDate": "Wed, 25 Nov 2026 07:00:57 +0900"
+     "title": "陸自長射程ミサイル 12月上旬に北海道 上富良野に搬入・配備へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81425",
+     "pubDate": "Wed, 25 Nov 2026 18:52:16 +0900"
     },
     {
-     "title": "広島 庄原 高齢女性殺害事件で55歳会社員を逮捕",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261125de80916",
-     "pubDate": "Wed, 25 Nov 2026 06:59:20 +0900"
+     "title": "大阪の水族館 来月７日から４頭のラッコを公開へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81415",
+     "pubDate": "Wed, 25 Nov 2026 18:48:36 +0900"
     },
     {
-     "title": "【動画】Pickup NEWS（11月25日）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261124de80624",
-     "pubDate": "Wed, 25 Nov 2026 09:49:44 +0900"
+     "title": "横領で有罪確定の簡裁裁判官 弾劾裁判で罷免の判決",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81344",
+     "pubDate": "Wed, 25 Nov 2026 18:01:00 +0900"
     },
     {
-     "title": "建設現場でフィジカルAI活用広がる 人手不足に対応",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261124de80898",
-     "pubDate": "Wed, 25 Nov 2026 06:29:47 +0900"
+     "title": "旧統一教会 半年で400人余りが債権申し出 弁護士が調査開始",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81264",
+     "pubDate": "Wed, 25 Nov 2026 17:57:03 +0900"
     },
     {
-     "title": "こども性暴力防止法 施行まで1か月 日本版DBSは延期",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261124de80868",
-     "pubDate": "Wed, 25 Nov 2026 06:04:00 +0900"
+     "title": "中高生ら5人を強盗殺人未遂容疑で再逮捕 愛知 小牧",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81302",
+     "pubDate": "Wed, 25 Nov 2026 17:55:28 +0900"
     },
     {
-     "title": "秋田 大仙で住宅火災 高齢の夫婦と連絡とれず",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261125de80919",
-     "pubDate": "Wed, 25 Nov 2026 06:27:00 +0900"
+     "title": "子ども食堂1万3800か所余り 過去最多に 活動の維持に課題も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81253",
+     "pubDate": "Wed, 25 Nov 2026 17:53:53 +0900"
     },
     {
-     "title": "直木賞候補作発表 2人が初候補 芥川賞候補作は今回から別日に",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261124de80869",
-     "pubDate": "Wed, 25 Nov 2026 05:00:00 +0900"
+     "title": "沖縄 米空軍 嘉手納基地配備の最新鋭戦闘機F15EXを公開",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81277",
+     "pubDate": "Wed, 25 Nov 2026 17:36:00 +0900"
     },
     {
-     "title": "神奈川 小田原厚木道路で77歳運転の逆走車が衝突 34歳男性死亡",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261125de80911",
-     "pubDate": "Wed, 25 Nov 2026 01:52:00 +0900"
+     "title": "公取事務総長 職員の政治資金パーティー出席 法令上問題ない",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81285",
+     "pubDate": "Wed, 25 Nov 2026 17:23:18 +0900"
     },
     {
-     "title": "楽天証券情報漏えいの詳細判明 全体件数は約441万件",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261124de80890",
-     "pubDate": "Tue, 24 Nov 2026 23:33:25 +0900"
+     "title": "徳島 詐欺容疑で逮捕の阿波市長 辞任の意向示す",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81248",
+     "pubDate": "Wed, 25 Nov 2026 17:19:44 +0900"
     },
     {
-     "title": "原発事故の賠償費用上乗せめぐる裁判 事業者側の敗訴確定",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261124de80797",
-     "pubDate": "Tue, 24 Nov 2026 21:40:00 +0900"
+     "title": "ミャクミャク 山で「任務」終え下山 再びヘリで空を移動 大阪",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81258",
+     "pubDate": "Wed, 25 Nov 2026 16:53:00 +0900"
     },
     {
-     "title": "広島 安佐北区の住宅で女性が死亡 事件の可能性も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261124de80864",
-     "pubDate": "Tue, 24 Nov 2026 21:20:00 +0900"
+     "title": "海自の最新型潜水艦公開 静粛性向上のための技術や工夫も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81191",
+     "pubDate": "Wed, 25 Nov 2026 16:42:00 +0900"
     },
     {
-     "title": "子どもの自殺は暫定値で490人 過去最多上回るペース",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261124de80814",
-     "pubDate": "Tue, 24 Nov 2026 20:09:00 +0900"
+     "title": "秋田 羽後町 1人死亡火事 放火の疑いで近所に住む容疑者逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81111",
+     "pubDate": "Wed, 25 Nov 2026 13:48:00 +0900"
     },
     {
-     "title": "取り調べ適正化へ 検察庁が検事対象の勉強会を公開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261124de80795",
-     "pubDate": "Tue, 24 Nov 2026 20:02:00 +0900"
+     "title": "原発事故避難者などの集団訴訟 東京電力に730万円余賠償命じる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81107",
+     "pubDate": "Wed, 25 Nov 2026 13:42:00 +0900"
     },
     {
-     "title": "核兵器禁止条約 再検討会議のオブザーバー参加見送り 茂木外相",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261124de80811",
-     "pubDate": "Tue, 24 Nov 2026 19:37:00 +0900"
+     "title": "死亡したのは駐輪場で働く70歳男性 刺した人物は逃走 福岡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81118",
+     "pubDate": "Wed, 25 Nov 2026 18:48:56 +0900"
     },
     {
-     "title": "枚方女児虐待 市長「対応に問題あった」 検証会議は来月設置",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261124de80779",
-     "pubDate": "Tue, 24 Nov 2026 19:22:00 +0900"
+     "title": "広島 庄原 高齢女性強盗殺人事件 逮捕の会社員 業務で土地勘か",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81022",
+     "pubDate": "Wed, 25 Nov 2026 15:51:20 +0900"
     }
    ]
   },
@@ -131,6 +131,31 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "衣料品「TENTIAL」 顧客情報12万4000人余が漏えい",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81284",
+     "pubDate": "Wed, 25 Nov 2026 17:50:00 +0900"
+    },
+    {
+     "title": "花キューピット不正アクセス 新たにカード情報も漏えい判明",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81294",
+     "pubDate": "Wed, 25 Nov 2026 17:22:55 +0900"
+    },
+    {
+     "title": "パルシステムの顧客情報 約200万件が漏えい",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81299",
+     "pubDate": "Wed, 25 Nov 2026 17:14:00 +0900"
+    },
+    {
+     "title": "2029年大河ドラマは「三成のうた」 主演は神木隆之介さん",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81004",
+     "pubDate": "Wed, 25 Nov 2026 15:38:00 +0900"
+    },
+    {
+     "title": "中国 独自の宇宙ステーションにパキスタン人宇宙飛行士初参加",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de80985",
+     "pubDate": "Wed, 25 Nov 2026 18:23:31 +0900"
+    },
     {
      "title": "カイロス4号機 来年1月22日に打ち上げ 企業が発表",
      "link": "https://news.web.nhk/newsweb/na/nd-20261124de80861",
@@ -180,31 +205,6 @@
      "title": "横溝正史が戦時下に陸軍「幻の雑誌」に掲載した推理小説発見",
      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80134",
      "pubDate": "Mon, 23 Nov 2026 09:16:00 +0900"
-    },
-    {
-     "title": "タワーレコード 不正アクセスで約1100万件の個人情報流出",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79936",
-     "pubDate": "Sun, 22 Nov 2026 15:11:18 +0900"
-    },
-    {
-     "title": "日本の探査機「みお」水星の周回軌道に投入 欧州の探査機と",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261122de79873",
-     "pubDate": "Sun, 22 Nov 2026 14:29:38 +0900"
-    },
-    {
-     "title": "沖縄 火災で焼失の首里城正殿 きょう国主催の「復元完成式」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79741",
-     "pubDate": "Sun, 22 Nov 2026 04:50:00 +0900"
-    },
-    {
-     "title": "将棋「竜王戦」第4局 藤井聡太六冠が防衛 6連覇果たす",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79696",
-     "pubDate": "Sat, 21 Nov 2026 22:41:00 +0900"
-    },
-    {
-     "title": "将棋の福間香奈女流四冠 第2子の妊娠を公表",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261121de79734",
-     "pubDate": "Sat, 21 Nov 2026 20:13:00 +0900"
     }
    ]
   },
@@ -213,6 +213,36 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
+    {
+     "title": "ソロモン諸島 オーストラリアと安全保障の新条約に署名",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81442",
+     "pubDate": "Wed, 25 Nov 2026 18:56:28 +0900"
+    },
+    {
+     "title": "北朝鮮 スイスの制裁受け外交事務所代表に国外退去を要求",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81219",
+     "pubDate": "Wed, 25 Nov 2026 16:40:00 +0900"
+    },
+    {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（11月25日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67169",
+     "pubDate": "Wed, 25 Nov 2026 14:05:00 +0900"
+    },
+    {
+     "title": "エヌビディアCEOにフアン氏復帰 トランプ大統領の関与に批判も",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81016",
+     "pubDate": "Wed, 25 Nov 2026 12:02:00 +0900"
+    },
+    {
+     "title": "中国 独自の宇宙ステーションにパキスタン人宇宙飛行士初参加",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de80985",
+     "pubDate": "Wed, 25 Nov 2026 18:23:31 +0900"
+    },
+    {
+     "title": "国連事務総長 「AIと核は破滅のレシピ」 リスク管理体制を",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261125de80970",
+     "pubDate": "Wed, 25 Nov 2026 10:41:00 +0900"
+    },
     {
      "title": "ロシア軍の戦死者49万人超か ロシア独立系メディアが分析",
      "link": "https://news.web.nhk/newsweb/na/nd-20261125de80935",
@@ -251,42 +281,12 @@
     {
      "title": "平良海馬がブルージェイズと契約合意 5年約127億円 米報道",
      "link": "https://news.web.nhk/newsweb/na/nd-20261125de80922",
-     "pubDate": "Wed, 25 Nov 2026 09:03:13 +0900"
+     "pubDate": "Wed, 25 Nov 2026 10:23:06 +0900"
     },
     {
      "title": "米司法長官 エヌビディアのフアン氏のリスク判断 説明避ける",
      "link": "https://news.web.nhk/newsweb/na/nd-20261125de80921",
      "pubDate": "Wed, 25 Nov 2026 08:24:09 +0900"
-    },
-    {
-     "title": "WHO テドロス事務局長がキューバ視察 米制裁が医療に影響",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261124de80880",
-     "pubDate": "Tue, 24 Nov 2026 23:25:00 +0900"
-    },
-    {
-     "title": "中国上海市トップ 規律違反疑いで調査 中国国営メディア",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261124de80879",
-     "pubDate": "Wed, 25 Nov 2026 02:59:00 +0900"
-    },
-    {
-     "title": "ウクライナへ迎撃ミサイル供与“米国防総省の承認下りず”報道",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261124de80791",
-     "pubDate": "Tue, 24 Nov 2026 20:21:00 +0900"
-    },
-    {
-     "title": "ロシア軍機が韓国の防空識別圏に進入 韓国が抗議",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261124de80720",
-     "pubDate": "Tue, 24 Nov 2026 19:31:39 +0900"
-    },
-    {
-     "title": "アメリカで58歳患者に移植されたブタの腎臓1年機能",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261124de80500",
-     "pubDate": "Tue, 24 Nov 2026 18:45:00 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（11月24日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67168",
-     "pubDate": "Tue, 24 Nov 2026 19:26:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "首相が文科相擁護 辞任ドミノ懸念",
-     "link": "https://news.yahoo.co.jp/pickup/6603876?source=rss",
-     "pubDate": "Wed, 25 Nov 2026 00:18:57 GMT"
+     "title": "介護保険料 一部高齢者負担増検討",
+     "link": "https://news.yahoo.co.jp/pickup/6603939?source=rss",
+     "pubDate": "Wed, 25 Nov 2026 08:04:47 GMT"
     },
     {
-     "title": "NVIDIAは善良な企業 米司法長官",
-     "link": "https://news.yahoo.co.jp/pickup/6603870?source=rss",
-     "pubDate": "Tue, 24 Nov 2026 23:32:03 GMT"
+     "title": "福岡で男性刺され死亡 凶器発見か",
+     "link": "https://news.yahoo.co.jp/pickup/6603952?source=rss",
+     "pubDate": "Wed, 25 Nov 2026 09:10:48 GMT"
     },
     {
-     "title": "米中に次ぐAI国家確立へ 政府案",
-     "link": "https://news.yahoo.co.jp/pickup/6603868?source=rss",
-     "pubDate": "Tue, 24 Nov 2026 23:10:28 GMT"
+     "title": "逮捕の徳島・阿波市長が辞任意向",
+     "link": "https://news.yahoo.co.jp/pickup/6603958?source=rss",
+     "pubDate": "Wed, 25 Nov 2026 09:36:31 GMT"
     },
     {
-     "title": "広島女性死亡 強盗殺人疑い男逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6603863?source=rss",
-     "pubDate": "Tue, 24 Nov 2026 22:37:56 GMT"
+     "title": "妻殺害した疑い 医師の男を再逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6603929?source=rss",
+     "pubDate": "Wed, 25 Nov 2026 06:58:10 GMT"
     },
     {
-     "title": "住宅で流血の女性が死亡 殺人か",
-     "link": "https://news.yahoo.co.jp/pickup/6603869?source=rss",
-     "pubDate": "Tue, 24 Nov 2026 23:17:49 GMT"
+     "title": "おでんツンツンで大炎上 男性の今",
+     "link": "https://news.yahoo.co.jp/pickup/6603937?source=rss",
+     "pubDate": "Wed, 25 Nov 2026 07:36:10 GMT"
     },
     {
-     "title": "新型ウォークマン 歴代最高65万円",
-     "link": "https://news.yahoo.co.jp/pickup/6603878?source=rss",
-     "pubDate": "Wed, 25 Nov 2026 00:16:25 GMT"
+     "title": "新人王はG竹丸和幸とSB前田悠伍",
+     "link": "https://news.yahoo.co.jp/pickup/6603957?source=rss",
+     "pubDate": "Wed, 25 Nov 2026 09:19:42 GMT"
     },
     {
-     "title": "カブス 佐藤輝明と巨額契約の背景",
-     "link": "https://news.yahoo.co.jp/pickup/6603874?source=rss",
-     "pubDate": "Tue, 24 Nov 2026 23:44:52 GMT"
+     "title": "石川佳純さん結婚 にじむ気遣い",
+     "link": "https://news.yahoo.co.jp/pickup/6603951?source=rss",
+     "pubDate": "Wed, 25 Nov 2026 09:13:25 GMT"
     },
     {
-     "title": "竹内まりや KFCのCM曲がギネス",
-     "link": "https://news.yahoo.co.jp/pickup/6603872?source=rss",
-     "pubDate": "Tue, 24 Nov 2026 23:27:54 GMT"
+     "title": "神木隆之介が29年大河主演 X反応",
+     "link": "https://news.yahoo.co.jp/pickup/6603959?source=rss",
+     "pubDate": "Wed, 25 Nov 2026 09:42:03 GMT"
     }
    ]
   }
