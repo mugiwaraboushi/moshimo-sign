@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T20:36:20.810Z",
+ "updatedAt": "2026-11-27T03:19:10.575Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "沖縄県本島北部に線状降水帯発生",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82176",
-     "pubDate": "Fri, 27 Nov 2026 05:04:00 +0900"
-    },
-    {
-     "title": "沖縄 東村全域に避難指示",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82178",
-     "pubDate": "Fri, 27 Nov 2026 04:32:00 +0900"
-    },
-    {
-     "title": "関文科相問責決議案 きょう採決 可否はギリギリの情勢か",
+     "title": "【更新中】関文科相への問責決議案 反対多数で否決 参院本会議",
      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82148",
-     "pubDate": "Fri, 27 Nov 2026 04:45:08 +0900"
+     "pubDate": "Fri, 27 Nov 2026 11:59:11 +0900"
     },
     {
-     "title": "北海道新聞記者の妻の手記をロシアメディアも報じる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82163",
-     "pubDate": "Fri, 27 Nov 2026 05:07:57 +0900"
+     "title": "福岡 男性刺殺事件 駐輪場の事務所に立ち寄った後襲ったか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82318",
+     "pubDate": "Fri, 27 Nov 2026 12:00:00 +0900"
     },
     {
-     "title": "福岡 刺殺事件 男がカーディガン購入 逃走のため服装変えたか",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82183",
-     "pubDate": "Fri, 27 Nov 2026 04:50:45 +0900"
+     "title": "宇宙飛行士を2027年4月ごろ募集へ “学歴や専門分野は不問”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82211",
+     "pubDate": "Fri, 27 Nov 2026 11:34:34 +0900"
     },
     {
-     "title": "学校のいじめ79万件超で過去最多 「性的いじめ」初調査 文科省",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82139",
-     "pubDate": "Fri, 27 Nov 2026 05:08:59 +0900"
+     "title": "エヌビディアが東南アジア4か国への輸出を停止 欧米メディア",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82164",
+     "pubDate": "Fri, 27 Nov 2026 08:00:00 +0900"
     },
     {
-     "title": "死者2000人超のアジアの記録的大雨から1年 生活再建が課題",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82141",
-     "pubDate": "Fri, 27 Nov 2026 04:47:00 +0900"
+     "title": "処方された糖尿病治療薬「マンジャロ」を他人に販売か 逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82227",
+     "pubDate": "Fri, 27 Nov 2026 11:32:53 +0900"
+    },
+    {
+     "title": "「副首都」来年秋に指定 再来年春から運用へ 想定日程公表",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82236",
+     "pubDate": "Fri, 27 Nov 2026 11:27:35 +0900"
+    },
+    {
+     "title": "中央防災会議 防災基本計画に防災の「国家戦略」盛り込む",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82248",
+     "pubDate": "Fri, 27 Nov 2026 11:37:28 +0900"
     }
    ]
   },
@@ -50,14 +50,44 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "福岡 男性刺殺事件 駐輪場の事務所に立ち寄った後襲ったか",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82318",
+     "pubDate": "Fri, 27 Nov 2026 12:00:00 +0900"
+    },
+    {
+     "title": "中央防災会議 防災基本計画に防災の「国家戦略」盛り込む",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82248",
+     "pubDate": "Fri, 27 Nov 2026 11:37:28 +0900"
+    },
+    {
+     "title": "宇宙飛行士を2027年4月ごろ募集へ “学歴や専門分野は不問”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82211",
+     "pubDate": "Fri, 27 Nov 2026 11:34:34 +0900"
+    },
+    {
+     "title": "処方された糖尿病治療薬「マンジャロ」を他人に販売か 逮捕",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82227",
+     "pubDate": "Fri, 27 Nov 2026 11:32:53 +0900"
+    },
+    {
+     "title": "住宅購入の資金 贈与税の非課税措置を延長の方向で調整",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82144",
+     "pubDate": "Fri, 27 Nov 2026 07:29:45 +0900"
+    },
+    {
+     "title": "【動画】Pickup NEWS（11月27日）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261126de81804",
+     "pubDate": "Fri, 27 Nov 2026 07:02:00 +0900"
+    },
+    {
      "title": "学校のいじめ79万件超で過去最多 「性的いじめ」初調査 文科省",
      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82139",
-     "pubDate": "Fri, 27 Nov 2026 05:08:59 +0900"
+     "pubDate": "Fri, 27 Nov 2026 11:18:28 +0900"
     },
     {
      "title": "福岡 刺殺事件 男がカーディガン購入 逃走のため服装変えたか",
      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82183",
-     "pubDate": "Fri, 27 Nov 2026 04:50:45 +0900"
+     "pubDate": "Fri, 27 Nov 2026 04:50:00 +0900"
     },
     {
      "title": "年末商戦前にダークパターンや詐欺サイトに注意呼びかけ",
@@ -87,42 +117,12 @@
     {
      "title": "「独身偽装」で出産 2審は賠償増額 610万余支払い命令",
      "link": "https://news.web.nhk/newsweb/na/nd-20261126de82076",
-     "pubDate": "Thu, 26 Nov 2026 19:56:14 +0900"
+     "pubDate": "Thu, 26 Nov 2026 19:56:00 +0900"
     },
     {
      "title": "四国電力 ウェブ委託会社に不正アクセス さらに25万件情報流出",
      "link": "https://news.web.nhk/newsweb/na/nd-20261126de82075",
      "pubDate": "Thu, 26 Nov 2026 19:47:24 +0900"
-    },
-    {
-     "title": "LCC ピーチ サイト利用者の個人情報 最大のべ約944万件漏えい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261126de82062",
-     "pubDate": "Thu, 26 Nov 2026 18:58:27 +0900"
-    },
-    {
-     "title": "熊本 震度5弱から1週間 “天草・芦北など地震多い状態”気象庁",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261126de81759",
-     "pubDate": "Thu, 26 Nov 2026 18:55:00 +0900"
-    },
-    {
-     "title": "ファンケル 子会社通販サイトの会員情報 最大66万件余漏えい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261126de82059",
-     "pubDate": "Thu, 26 Nov 2026 18:47:00 +0900"
-    },
-    {
-     "title": "不登校が過去最多35万9424人 小学生で増加 親は離職のケースも",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261126de81766",
-     "pubDate": "Thu, 26 Nov 2026 18:34:00 +0900"
-    },
-    {
-     "title": "検事総長が犯罪被害者支援のセンターを訪問",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261126de81988",
-     "pubDate": "Thu, 26 Nov 2026 18:26:00 +0900"
-    },
-    {
-     "title": "ルフィ強盗事件 グループ幹部「ボスに言われたからやった」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261126de81970",
-     "pubDate": "Thu, 26 Nov 2026 18:05:43 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "宇宙飛行士を2027年4月ごろ募集へ “学歴や専門分野は不問”",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82211",
+     "pubDate": "Fri, 27 Nov 2026 11:34:34 +0900"
+    },
     {
      "title": "高市首相ノーベル化学賞そ※合さんと面会 研究費充実取り組む",
      "link": "https://news.web.nhk/newsweb/na/nd-20261126de81952",
@@ -200,11 +205,6 @@
      "title": "「あ・じゃ・ぱん！」「ららら科學の子」矢作俊彦さん死去",
      "link": "https://news.web.nhk/newsweb/na/nd-20261124de80832",
      "pubDate": "Tue, 24 Nov 2026 21:36:00 +0900"
-    },
-    {
-     "title": "京王電鉄 1100万人超の情報漏えいか 本人確認書類クレカ番号も",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261124de80663",
-     "pubDate": "Tue, 24 Nov 2026 18:51:00 +0900"
     }
    ]
   },
@@ -214,14 +214,44 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
+     "title": "北朝鮮がロシアへの軍事支援を一時停止か ウクライナが分析",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82198",
+     "pubDate": "Fri, 27 Nov 2026 08:42:16 +0900"
+    },
+    {
+     "title": "エヌビディアが東南アジア4か国への輸出を停止 欧米メディア",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82164",
+     "pubDate": "Fri, 27 Nov 2026 08:00:00 +0900"
+    },
+    {
+     "title": "クウェートが攻撃を受け外国人2人死亡 イランは関与否定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82197",
+     "pubDate": "Fri, 27 Nov 2026 07:56:51 +0900"
+    },
+    {
+     "title": "ロシア外務省 日ロ首脳の中国での意見交換の事実を認める",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82181",
+     "pubDate": "Fri, 27 Nov 2026 11:23:52 +0900"
+    },
+    {
+     "title": "サウジアラビア南部の製油所をフーシ派攻撃か 操業一時停止",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82191",
+     "pubDate": "Fri, 27 Nov 2026 06:34:00 +0900"
+    },
+    {
+     "title": "欧州中央銀行次期総裁にスペインのデコス氏指名で合意",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82180",
+     "pubDate": "Fri, 27 Nov 2026 05:52:34 +0900"
+    },
+    {
      "title": "フィンランド 「核のごみ」最終処分場 操業許可後初の報道公開",
      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82160",
-     "pubDate": "Fri, 27 Nov 2026 05:34:54 +0900"
+     "pubDate": "Fri, 27 Nov 2026 05:34:00 +0900"
     },
     {
      "title": "北海道新聞記者の妻の手記をロシアメディアも報じる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82163",
-     "pubDate": "Fri, 27 Nov 2026 05:07:57 +0900"
+     "pubDate": "Fri, 27 Nov 2026 05:07:00 +0900"
     },
     {
      "title": "死者2000人超のアジアの記録的大雨から1年 生活再建が課題",
@@ -257,36 +287,6 @@
      "title": "「ICCを守り抜く」赤根所長が都内で会見 若者たちへの訴えも",
      "link": "https://news.web.nhk/newsweb/na/nd-20261126de81627",
      "pubDate": "Thu, 26 Nov 2026 18:11:00 +0900"
-    },
-    {
-     "title": "香港 168人死亡の高層住宅火災から1年で追悼",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261126de81782",
-     "pubDate": "Thu, 26 Nov 2026 15:03:00 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（11月23日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67167",
-     "pubDate": "Thu, 26 Nov 2026 14:22:58 +0900"
-    },
-    {
-     "title": "【随時更新】ロシア ウクライナに軍事侵攻（11月26日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67171",
-     "pubDate": "Thu, 26 Nov 2026 14:19:00 +0900"
-    },
-    {
-     "title": "ロシア拘束の北海道新聞記者 妻が手記を公開【全文掲載】",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261126de81607",
-     "pubDate": "Thu, 26 Nov 2026 14:01:00 +0900"
-    },
-    {
-     "title": "韓国の中央銀行ことし3回目の利上げ 物価上昇抑えるねらい",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261126de81753",
-     "pubDate": "Thu, 26 Nov 2026 13:48:00 +0900"
-    },
-    {
-     "title": "北朝鮮 キム総書記 核保有「絶対に誰の承認も追求しない」",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261126de81651",
-     "pubDate": "Thu, 26 Nov 2026 16:45:32 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "笹川環境相側 国契約企業から寄付",
-     "link": "https://news.yahoo.co.jp/pickup/6604111?source=rss",
-     "pubDate": "Thu, 26 Nov 2026 11:53:29 GMT"
+     "title": "関文科相の問責決議案 否決",
+     "link": "https://news.yahoo.co.jp/pickup/6604161?source=rss",
+     "pubDate": "Fri, 27 Nov 2026 02:40:11 GMT"
     },
     {
-     "title": "ECB総裁にデコス氏 EU首脳承認へ",
-     "link": "https://news.yahoo.co.jp/pickup/6604123?source=rss",
-     "pubDate": "Thu, 26 Nov 2026 14:54:27 GMT"
+     "title": "神崎武法・元公明党代表が死去",
+     "link": "https://news.yahoo.co.jp/pickup/6604157?source=rss",
+     "pubDate": "Fri, 27 Nov 2026 01:45:48 GMT"
     },
     {
-     "title": "北朝鮮が露軍事支援停止か ウ発表",
-     "link": "https://news.yahoo.co.jp/pickup/6604122?source=rss",
-     "pubDate": "Thu, 26 Nov 2026 14:22:48 GMT"
+     "title": "JAXA 日本人宇宙飛行士を募集へ",
+     "link": "https://news.yahoo.co.jp/pickup/6604153?source=rss",
+     "pubDate": "Fri, 27 Nov 2026 00:52:49 GMT"
     },
     {
-     "title": "汚水が混入か 飲食店ビルで食中毒",
-     "link": "https://news.yahoo.co.jp/pickup/6604114?source=rss",
-     "pubDate": "Thu, 26 Nov 2026 12:14:49 GMT"
+     "title": "マンジャロ無許可販売疑い 女逮捕",
+     "link": "https://news.yahoo.co.jp/pickup/6604158?source=rss",
+     "pubDate": "Fri, 27 Nov 2026 02:21:18 GMT"
     },
     {
-     "title": "福井の山中に遺体 殺人疑い再逮捕",
-     "link": "https://news.yahoo.co.jp/pickup/6604117?source=rss",
-     "pubDate": "Thu, 26 Nov 2026 13:19:10 GMT"
+     "title": "8年で生徒2人自死 傷抱える遺族",
+     "link": "https://news.yahoo.co.jp/pickup/6604160?source=rss",
+     "pubDate": "Fri, 27 Nov 2026 02:53:09 GMT"
     },
     {
-     "title": "カープ回答 矢野ら自由契約の理由",
-     "link": "https://news.yahoo.co.jp/pickup/6604103?source=rss",
-     "pubDate": "Thu, 26 Nov 2026 11:00:27 GMT"
+     "title": "ひき逃げ疑い あべこうじさん聴取",
+     "link": "https://news.yahoo.co.jp/pickup/6604155?source=rss",
+     "pubDate": "Fri, 27 Nov 2026 01:03:39 GMT"
     },
     {
-     "title": "織田に背番号55提示 松井氏の意向",
-     "link": "https://news.yahoo.co.jp/pickup/6604116?source=rss",
-     "pubDate": "Thu, 26 Nov 2026 12:47:04 GMT"
+     "title": "八王子市 ジョーズ教訓にクマ対策",
+     "link": "https://news.yahoo.co.jp/pickup/6604164?source=rss",
+     "pubDate": "Fri, 27 Nov 2026 02:54:13 GMT"
     },
     {
-     "title": "中田乃愛さん死去 出演作は公開へ",
-     "link": "https://news.yahoo.co.jp/pickup/6604118?source=rss",
-     "pubDate": "Thu, 26 Nov 2026 13:19:36 GMT"
+     "title": "ラウールが人生初のヴィラン役",
+     "link": "https://news.yahoo.co.jp/pickup/6604148?source=rss",
+     "pubDate": "Fri, 27 Nov 2026 00:34:19 GMT"
     }
    ]
   }
