@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T03:35:40.257Z",
+ "updatedAt": "2026-11-28T12:29:07.154Z",
  "note": "公開RSSの見出し。scripts/fetch-news.mjs が自動生成（手で編集しない）",
  "feeds": {
   "nhk0": {
@@ -8,39 +8,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
    "items": [
     {
-     "title": "警察 ICC赤根所長の安全確保 最高ランク「特A」で警戒強化",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82788",
-     "pubDate": "Sat, 28 Nov 2026 05:03:00 +0900"
-    },
-    {
-     "title": "山中遺体 女子高校生連れ去り疑いの容疑者 車で宮城まで移動か",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82799",
-     "pubDate": "Sat, 28 Nov 2026 12:19:57 +0900"
-    },
-    {
-     "title": "【速報中】フィギュアNHK杯 アイスダンスFDの演技始まる",
+     "title": "【速報中】フィギュアNHK杯 男子シングル後半 マリニンに注目",
      "link": "https://news.web.nhk/newsweb/na/nd-20261128de82900",
-     "pubDate": "Sat, 28 Nov 2026 12:28:45 +0900"
+     "pubDate": "Sat, 28 Nov 2026 20:57:15 +0900"
     },
     {
-     "title": "西武 高橋光成 大リーグ ダイヤモンドバックスと1年契約で合意",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261128de82839",
-     "pubDate": "Sat, 28 Nov 2026 08:37:00 +0900"
+     "title": "宮城の山中の2人遺体 1人は一部白骨化 身元の手がかりなし",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82799",
+     "pubDate": "Sat, 28 Nov 2026 19:31:07 +0900"
     },
     {
-     "title": "“日本ハム 伊藤大海がカブスと合意”米メディア伝える",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261128de82897",
-     "pubDate": "Sat, 28 Nov 2026 12:12:00 +0900"
-    },
-    {
-     "title": "「都市伝説」ユーチューバー“偽情報対策と矛盾ない”官房長官",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82735",
-     "pubDate": "Fri, 27 Nov 2026 19:36:55 +0900"
-    },
-    {
-     "title": "広範囲で大気不安定 北日本や東日本の山沿い中心に今夜から雪",
+     "title": "大気不安定続く 北～東日本 標高の高いところ中心に雪の見込み",
      "link": "https://news.web.nhk/newsweb/na/nd-20261128de82831",
-     "pubDate": "Sat, 28 Nov 2026 12:02:00 +0900"
+     "pubDate": "Sat, 28 Nov 2026 18:51:00 +0900"
+    },
+    {
+     "title": "航空機に乱気流知らせる注意情報1000件余 事故防ぐ対策に課題",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261128de82899",
+     "pubDate": "Sat, 28 Nov 2026 19:38:48 +0900"
+    },
+    {
+     "title": "中学生不明 父親が新たな写真公開し情報提供求める 福島 郡山",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261128de83037",
+     "pubDate": "Sat, 28 Nov 2026 19:21:00 +0900"
+    },
+    {
+     "title": "イノシシが店舗のガラス破り 路上で次々と人襲う 7人けが 静岡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261128de82992",
+     "pubDate": "Sat, 28 Nov 2026 17:53:19 +0900"
+    },
+    {
+     "title": "“エヌビディア半導体 輸出規制先の中国で確認”米メディア",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261128de82966",
+     "pubDate": "Sat, 28 Nov 2026 19:15:43 +0900"
     }
    ]
   },
@@ -50,6 +50,31 @@
    "url": "https://www.nhk.or.jp/rss/news/cat1.xml",
    "items": [
     {
+     "title": "中学生不明 父親が新たな写真公開し情報提供求める 福島 郡山",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261128de83037",
+     "pubDate": "Sat, 28 Nov 2026 19:21:00 +0900"
+    },
+    {
+     "title": "東京消防庁が大規模訓練 職員約1万8000人参加 震度7の地震想定",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261128de82993",
+     "pubDate": "Sat, 28 Nov 2026 18:03:00 +0900"
+    },
+    {
+     "title": "イノシシが店舗のガラス破り 路上で次々と人襲う 7人けが 静岡",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261128de82992",
+     "pubDate": "Sat, 28 Nov 2026 17:53:19 +0900"
+    },
+    {
+     "title": "航空機に乱気流知らせる注意情報1000件余 事故防ぐ対策に課題",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261128de82899",
+     "pubDate": "Sat, 28 Nov 2026 19:38:48 +0900"
+    },
+    {
+     "title": "長崎 高校生平和大使 米国に出発 核兵器禁止条約再検討会議へ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261128de82910",
+     "pubDate": "Sat, 28 Nov 2026 14:11:00 +0900"
+    },
+    {
      "title": "皇居「乾通り」で紅葉楽しむ 秋の一般公開はじまる",
      "link": "https://news.web.nhk/newsweb/na/nd-20261128de82874",
      "pubDate": "Sat, 28 Nov 2026 11:26:00 +0900"
@@ -57,7 +82,7 @@
     {
      "title": "【動画】Pickup NEWS（11月28日）",
      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82632",
-     "pubDate": "Sat, 28 Nov 2026 06:58:55 +0900"
+     "pubDate": "Sat, 28 Nov 2026 19:41:50 +0900"
     },
     {
      "title": "北海道新聞記者の妻の手記 ロシア国営メディアも報じる",
@@ -90,39 +115,14 @@
      "pubDate": "Sat, 28 Nov 2026 06:29:57 +0900"
     },
     {
-     "title": "山中遺体 女子高校生連れ去り疑いの容疑者 車で宮城まで移動か",
+     "title": "宮城の山中の2人遺体 1人は一部白骨化 身元の手がかりなし",
      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82799",
-     "pubDate": "Sat, 28 Nov 2026 12:19:57 +0900"
+     "pubDate": "Sat, 28 Nov 2026 19:31:07 +0900"
     },
     {
      "title": "千葉 八街強盗事件 3人組は覆面姿か 一部中国語も 行方を捜査",
      "link": "https://news.web.nhk/newsweb/na/nd-20261128de82803",
      "pubDate": "Sat, 28 Nov 2026 00:38:00 +0900"
-    },
-    {
-     "title": "沖縄 尖閣諸島沖 領海侵入した中国海警局船2隻 領海を出る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82783",
-     "pubDate": "Fri, 27 Nov 2026 22:46:00 +0900"
-    },
-    {
-     "title": "凍ったゼリー詰まらせ園児死亡 複数職員が注意書き認識か 奈良",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82782",
-     "pubDate": "Fri, 27 Nov 2026 21:49:00 +0900"
-    },
-    {
-     "title": "乱暴で場当たり的な“破壊型”窃盗事件 実態と対策は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261126de82070",
-     "pubDate": "Fri, 27 Nov 2026 21:18:09 +0900"
-    },
-    {
-     "title": "千葉 八街の住宅に3人組の強盗 現金約2400万円など奪い逃げる",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82763",
-     "pubDate": "Fri, 27 Nov 2026 20:55:00 +0900"
-    },
-    {
-     "title": "去年の政治資金 “動画”関連に5億円超支出 活用する議員は？",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82241",
-     "pubDate": "Fri, 27 Nov 2026 20:02:00 +0900"
     }
    ]
   },
@@ -131,6 +131,11 @@
    "src": "NHK",
    "url": "https://www.nhk.or.jp/rss/news/cat3.xml",
    "items": [
+    {
+     "title": "通販「フェリシモ」アドレスなど最大166万件余 漏えいのおそれ",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261128de82980",
+     "pubDate": "Sat, 28 Nov 2026 17:18:13 +0900"
+    },
     {
      "title": "データセンター整備めぐり 政府が関係者向け指針策定へ",
      "link": "https://news.web.nhk/newsweb/na/nd-20261128de82863",
@@ -200,11 +205,6 @@
      "title": "ミスターマックス 約180万件の個人情報 流出した可能性",
      "link": "https://news.web.nhk/newsweb/na/nd-20261125de81519",
      "pubDate": "Wed, 25 Nov 2026 22:30:27 +0900"
-    },
-    {
-     "title": "月の水資源など調べる探査機「LUPEX」走行試験を公開",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261125de81428",
-     "pubDate": "Wed, 25 Nov 2026 19:16:19 +0900"
     }
    ]
   },
@@ -214,9 +214,39 @@
    "url": "https://www.nhk.or.jp/rss/news/cat6.xml",
    "items": [
     {
-     "title": "台湾 統一地方選挙投票進む 政権運営や中国の政策への影響注目",
+     "title": "ドイツ連邦議会が予算案可決 防衛予算は冷戦以降最大に",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261128de83055",
+     "pubDate": "Sat, 28 Nov 2026 21:12:26 +0900"
+    },
+    {
+     "title": "【随時更新】ロシア ウクライナに軍事侵攻（11月28日の動き）",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67174",
+     "pubDate": "Sat, 28 Nov 2026 19:10:45 +0900"
+    },
+    {
+     "title": "ガザ平和評議会の上級代表「今こそハマスの武装解除を」",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261128de83021",
+     "pubDate": "Sat, 28 Nov 2026 19:01:29 +0900"
+    },
+    {
+     "title": "“エヌビディア半導体 輸出規制先の中国で確認”米メディア",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261128de82966",
+     "pubDate": "Sat, 28 Nov 2026 19:15:43 +0900"
+    },
+    {
+     "title": "北朝鮮 12月下旬に党の重要会議開催 外交や核開発など方針注目",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261128de82908",
+     "pubDate": "Sat, 28 Nov 2026 18:01:00 +0900"
+    },
+    {
+     "title": "オープンAIがアップルを提訴 開発競争を背景に対立深まる",
+     "link": "https://news.web.nhk/newsweb/na/nd-20261128de82903",
+     "pubDate": "Sat, 28 Nov 2026 13:55:00 +0900"
+    },
+    {
+     "title": "台湾 統一地方選挙 開票始まる 政権基盤を強化できるか注目",
      "link": "https://news.web.nhk/newsweb/na/nd-20261128de82879",
-     "pubDate": "Sat, 28 Nov 2026 12:10:00 +0900"
+     "pubDate": "Sat, 28 Nov 2026 17:58:00 +0900"
     },
     {
      "title": "ドイツ 冬の風物詩「クリスマスマーケット」が始まる",
@@ -236,7 +266,7 @@
     {
      "title": "ウクライナ情報局幹部「ロシアに停戦応じる兆候全くみられず」",
      "link": "https://news.web.nhk/newsweb/na/nd-20261128de82824",
-     "pubDate": "Sat, 28 Nov 2026 05:23:20 +0900"
+     "pubDate": "Sat, 28 Nov 2026 05:23:00 +0900"
     },
     {
      "title": "TPP支援事務所を日本に設置へ 新たにUAEなどと加盟交渉を開始",
@@ -246,7 +276,7 @@
     {
      "title": "ロシア 来年の予算案承認 国防費はウクライナ侵攻以降で最高額",
      "link": "https://news.web.nhk/newsweb/na/nd-20261128de82816",
-     "pubDate": "Sat, 28 Nov 2026 05:16:29 +0900"
+     "pubDate": "Sat, 28 Nov 2026 05:16:00 +0900"
     },
     {
      "title": "米でブラックフライデー 年末商戦が本格化 個人消費に注目",
@@ -257,36 +287,6 @@
      "title": "警察 ICC赤根所長の安全確保 最高ランク「特A」で警戒強化",
      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82788",
      "pubDate": "Sat, 28 Nov 2026 05:03:00 +0900"
-    },
-    {
-     "title": "沖縄 尖閣諸島沖 領海侵入した中国海警局船2隻 領海を出る",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82783",
-     "pubDate": "Fri, 27 Nov 2026 22:46:00 +0900"
-    },
-    {
-     "title": "山梨県議 ロシアが一方的に併合宣言のウクライナ東部を訪問",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82765",
-     "pubDate": "Fri, 27 Nov 2026 20:50:02 +0900"
-    },
-    {
-     "title": "茂木外相 ガザ「平和評議会」代表と面会 “復興へ積極支援”",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82705",
-     "pubDate": "Fri, 27 Nov 2026 19:06:00 +0900"
-    },
-    {
-     "title": "広州モーターショー開幕 国内低迷で輸出シフト 日本への影響は",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82597",
-     "pubDate": "Fri, 27 Nov 2026 20:59:00 +0900"
-    },
-    {
-     "title": "台湾統一地方選挙 28日投票へ 台北市長選挙の勝敗など焦点",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261127de82484",
-     "pubDate": "Fri, 27 Nov 2026 17:17:29 +0900"
-    },
-    {
-     "title": "【詳細】ロシア ウクライナに軍事侵攻（11月27日の動き）",
-     "link": "https://news.web.nhk/newsweb/na/nd-20261028de67172",
-     "pubDate": "Fri, 27 Nov 2026 17:08:00 +0900"
     }
    ]
   },
@@ -296,44 +296,44 @@
    "url": "https://news.yahoo.co.jp/rss/topics/top-picks.xml",
    "items": [
     {
-     "title": "基礎控除上乗せ見直し 先送り方針",
-     "link": "https://news.yahoo.co.jp/pickup/6604266?source=rss",
-     "pubDate": "Fri, 27 Nov 2026 23:53:48 GMT"
+     "title": "高市氏側 昨年企業Gから分散献金",
+     "link": "https://news.yahoo.co.jp/pickup/6604330?source=rss",
+     "pubDate": "Sat, 28 Nov 2026 12:15:29 GMT"
     },
     {
-     "title": "疲弊する管理職 重荷を下ろす制度",
-     "link": "https://news.yahoo.co.jp/pickup/6604276?source=rss",
-     "pubDate": "Sat, 28 Nov 2026 01:34:03 GMT"
+     "title": "防衛費5年「60兆円弱」米側は難色",
+     "link": "https://news.yahoo.co.jp/pickup/6604325?source=rss",
+     "pubDate": "Sat, 28 Nov 2026 10:00:38 GMT"
     },
     {
-     "title": "男女7人けが 襲ったイノシシ駆除",
-     "link": "https://news.yahoo.co.jp/pickup/6604280?source=rss",
-     "pubDate": "Sat, 28 Nov 2026 02:06:09 GMT"
+     "title": "PL学園全校 28年度生徒募集休止",
+     "link": "https://news.yahoo.co.jp/pickup/6604329?source=rss",
+     "pubDate": "Sat, 28 Nov 2026 11:28:33 GMT"
     },
     {
-     "title": "鎌田大地選手を英国で起訴 英報道",
-     "link": "https://news.yahoo.co.jp/pickup/6604273?source=rss",
-     "pubDate": "Sat, 28 Nov 2026 01:00:59 GMT"
+     "title": "大槻義彦氏が死去 早大名誉教授",
+     "link": "https://news.yahoo.co.jp/pickup/6604332?source=rss",
+     "pubDate": "Sat, 28 Nov 2026 11:55:53 GMT"
     },
     {
-     "title": "南海フェリー 撤退回避の壁高く",
-     "link": "https://news.yahoo.co.jp/pickup/6604277?source=rss",
-     "pubDate": "Sat, 28 Nov 2026 01:39:51 GMT"
+     "title": "寺で無許可ダンスバトル 法的には",
+     "link": "https://news.yahoo.co.jp/pickup/6604300?source=rss",
+     "pubDate": "Sat, 28 Nov 2026 06:15:53 GMT"
     },
     {
-     "title": "大人紙おむつ ごみ処理悩む自治体",
-     "link": "https://news.yahoo.co.jp/pickup/6604278?source=rss",
-     "pubDate": "Sat, 28 Nov 2026 01:44:12 GMT"
+     "title": "銚子のサバ加工ピンチ 6社が倒産",
+     "link": "https://news.yahoo.co.jp/pickup/6604326?source=rss",
+     "pubDate": "Sat, 28 Nov 2026 10:13:34 GMT"
     },
     {
-     "title": "伊藤大海がカブスと契約合意 報道",
-     "link": "https://news.yahoo.co.jp/pickup/6604285?source=rss",
-     "pubDate": "Sat, 28 Nov 2026 02:59:01 GMT"
+     "title": "孤独のグルメ なぜ大みそかに放送",
+     "link": "https://news.yahoo.co.jp/pickup/6604327?source=rss",
+     "pubDate": "Sat, 28 Nov 2026 10:40:56 GMT"
     },
     {
-     "title": "宇多田ヒカル 初めて楽曲提供",
-     "link": "https://news.yahoo.co.jp/pickup/6604274?source=rss",
-     "pubDate": "Sat, 28 Nov 2026 01:25:32 GMT"
+     "title": "LiSAと鈴木達央 離婚を発表",
+     "link": "https://news.yahoo.co.jp/pickup/6604323?source=rss",
+     "pubDate": "Sat, 28 Nov 2026 09:34:09 GMT"
     }
    ]
   }
